@@ -3,25 +3,31 @@
 
 const PANELS = [
   {
-    id: "news", tab: "カクテル&ジン", icon: "🍸",
+    id: "home", tab: "ホーム",
+    title: "母艦 — 今日のまとめ",
+    lead: "全パネルのハイライトを一覧表示します。",
+    ready: true
+  },
+  {
+    id: "news", tab: "カクテル&ジン",
     title: "カクテル & ジン ニュース",
     lead: "世界のバー・蒸留メディアから自動収集し、日本語に訳して届けます。",
     ready: true
   },
   {
-    id: "hatena", tab: "はてブ IT", icon: "🔖",
+    id: "hatena", tab: "はてブ IT",
     title: "はてなブックマーク IT人気",
     lead: "ITの人気エントリを自動巡回。タップするとブックマーク（コメント）ページへ移動します。",
     ready: true
   },
   {
-    id: "claude", tab: "Claude Code", icon: "🤖",
+    id: "claude", tab: "Claude Code",
     title: "Claude Code 最新情報",
     lead: "Zenn・Qiita の日本語記事を自動巡回します。「Claude Code」に関する記事を新着順で表示。",
     ready: true
   },
   {
-    id: "quickref", tab: "早見表", icon: "⚡",
+    id: "quickref", tab: "早見表",
     title: "趣味の早見データ",
     lead: "全趣味の情報に素早くアクセスする、自分専用の早見表です。",
     ready: true
@@ -29,7 +35,7 @@ const PANELS = [
 ];
 
 const state = {
-  active: "news",
+  active: "home",
   articles:  [],
   hatena:    { entries: [], lastCollection: null },
   claude:    { items: [],   lastCollection: null },
@@ -108,7 +114,7 @@ function renderNav() {
       if (counts[p.id]) badge = `<span class="tab-badge">${counts[p.id]}</span>`;
     }
     return `<button class="nav-tab ${state.active === p.id ? "active" : ""}" data-panel="${p.id}" type="button">
-      ${p.icon} ${escapeHtml(p.tab)} ${badge}</button>`;
+      ${escapeHtml(p.tab)} ${badge}</button>`;
   }).join("");
 }
 
@@ -120,8 +126,8 @@ function route(panelId) {
   el.eyebrow.textContent = "PERSONAL DASHBOARD";
   el.title.textContent   = panel.title;
   el.lead.textContent    = panel.lead;
-  const renderers = { news: renderNews, hatena: renderHatena, claude: renderClaude, quickref: renderQuickref };
-  const heroes    = { news: heroNews,   hatena: heroHatena,   claude: heroClaude,   quickref: heroQuickref };
+  const renderers = { home: renderHome, news: renderNews, hatena: renderHatena, claude: renderClaude, quickref: renderQuickref };
+  const heroes    = { home: heroHome,   news: heroNews,   hatena: heroHatena,   claude: heroClaude,   quickref: heroQuickref };
   (heroes[panel.id]    || (() => setHeroPanel("")))();
   (renderers[panel.id] || (() => { el.body.innerHTML = ""; }))();
 }
@@ -134,6 +140,118 @@ function setHeroPanel(html) {
 }
 function heroStat(label, value, sub) {
   setHeroPanel(`<span>${escapeHtml(label)}</span><strong>${value}</strong><small>${escapeHtml(sub)}</small>`);
+}
+
+// =========================================================
+// ホーム（全パネルサマリー）
+// =========================================================
+function heroHome() {
+  if (!state.loaded) return setHeroPanel("");
+  const total = state.articles.length + (state.hatena?.entries || []).length
+    + (state.claude?.items || []).length + (state.quickref?.items || []).length;
+  heroStat("総データ数", total, "4パネル合計");
+}
+
+function renderHome() {
+  if (!state.loaded) {
+    el.body.innerHTML = `<div class="empty"><h3>読み込み中…</h3></div>`;
+    return;
+  }
+
+  // ニュース：最新3件
+  const newItems = [...state.articles]
+    .sort((a, b) => new Date(b.publishedAt || b.fetchedAt) - new Date(a.publishedAt || a.fetchedAt))
+    .slice(0, 3);
+
+  // はてブ：ブクマ数上位3件
+  const hatItems = [...(state.hatena?.entries || [])]
+    .sort((a, b) => (b.bookmarkCount || 0) - (a.bookmarkCount || 0))
+    .slice(0, 3);
+
+  // Claude Code：最新3件
+  const ccItems = [...(state.claude?.items || [])]
+    .sort((a, b) => new Date(b.publishedAt || b.fetchedAt) - new Date(a.publishedAt || a.fetchedAt))
+    .slice(0, 3);
+
+  // 早見表：カテゴリ一覧
+  const qrItems = state.quickref?.items || [];
+  const qrCats  = [...new Set(qrItems.map((i) => i.category))].sort();
+
+  el.body.innerHTML = `
+    <div class="home-grid">
+
+      <section class="home-section">
+        <div class="home-sec-head">
+          <h3>カクテル &amp; ジン ニュース</h3>
+          <button class="home-more-btn" data-panel="news" type="button">もっと見る →</button>
+        </div>
+        ${newItems.length
+          ? `<ul class="home-list">${newItems.map((a) => `
+              <li><a href="${escapeAttribute(a.url)}" target="_blank" rel="noreferrer">
+                ${escapeHtml(a.titleDisplayJa || a.titleJa || a.title || "")}
+              </a>
+              <span class="home-meta">${a.sourceTitle ? escapeHtml(a.sourceTitle) : ""}${a.publishedAt ? " · " + escapeHtml(formatDay(a.publishedAt)) : ""}</span>
+              </li>`).join("")}</ul>`
+          : `<p class="home-empty">記事を収集中です</p>`}
+      </section>
+
+      <section class="home-section">
+        <div class="home-sec-head">
+          <h3>はてブ IT</h3>
+          <button class="home-more-btn" data-panel="hatena" type="button">もっと見る →</button>
+        </div>
+        ${hatItems.length
+          ? `<ul class="home-list">${hatItems.map((e) => `
+              <li><a href="${escapeAttribute(e.commentPageUrl || e.url)}" target="_blank" rel="noreferrer">
+                ${escapeHtml(e.title || "")}
+              </a>
+              <span class="home-meta">${escapeHtml(e.domain || "")} · ${e.bookmarkCount || 0} users</span>
+              </li>`).join("")}</ul>`
+          : `<p class="home-empty">記事を収集中です</p>`}
+      </section>
+
+      <section class="home-section">
+        <div class="home-sec-head">
+          <h3>Claude Code</h3>
+          <button class="home-more-btn" data-panel="claude" type="button">もっと見る →</button>
+        </div>
+        ${ccItems.length
+          ? `<ul class="home-list">${ccItems.map((it) => `
+              <li><a href="${escapeAttribute(it.url)}" target="_blank" rel="noreferrer">
+                ${escapeHtml(it.title || "")}
+              </a>
+              <span class="home-meta">${escapeHtml(it.source || "")}${it.publishedAt ? " · " + escapeHtml(formatDay(it.publishedAt)) : ""}</span>
+              </li>`).join("")}</ul>`
+          : `<p class="home-empty">記事を収集中です</p>`}
+      </section>
+
+      <section class="home-section">
+        <div class="home-sec-head">
+          <h3>早見表</h3>
+          <button class="home-more-btn" data-panel="quickref" type="button">もっと見る →</button>
+        </div>
+        ${qrCats.length
+          ? `<ul class="home-list">${qrCats.map((c) => {
+              const count = qrItems.filter((i) => i.category === c).length;
+              return `<li><button class="home-cat-link" data-panel="quickref" data-qrcat="${escapeAttribute(c)}" type="button">
+                ${escapeHtml(c)}
+              </button>
+              <span class="home-meta">${count} 項目</span></li>`;
+            }).join("")}</ul>`
+          : `<p class="home-empty">データを読み込み中です</p>`}
+      </section>
+
+    </div>`;
+
+  el.body.querySelectorAll("button[data-panel]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (btn.dataset.qrcat) {
+        state.quickrefCategory = btn.dataset.qrcat;
+        savePrefs();
+      }
+      route(btn.dataset.panel);
+    });
+  });
 }
 
 // =========================================================
