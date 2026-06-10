@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>母艦</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <!-- パネル切替タブ（会社の共通navには接続しない＝個人専用） -->
+    <nav class="site-nav" id="siteNav" aria-label="パネル切替"></nav>
+
+    <main class="app-shell">
+      <!-- 個人専用の証（会社ツールには無い要素：朱印＋PRIVATE表示） -->
+      <div class="masthead">
+        <span class="masthead-accent" aria-hidden="true"></span>
+        <div class="masthead-text">
+          <p class="masthead-name">母艦</p>
+          <p class="masthead-sub">PERSONAL COMMAND CENTER</p>
+        </div>
+        <span class="masthead-flag">PRIVATE・非公開</span>
+      </div>
+
+      <header class="hero" id="hero">
+        <div class="hero-main">
+          <p class="eyebrow" id="panelEyebrow">PERSONAL DASHBOARD</p>
+          <h1 id="panelTitle">読み込み中</h1>
+          <p class="lead" id="panelLead"></p>
+        </div>
+        <aside class="hero-panel" id="heroPanel" hidden></aside>
+      </header>
+
+      <section class="panel-body" id="panelBody"></section>
+
+      <footer class="site-footer">
+        <span>母艦</span>
+        <span>このPCの中だけで動作・非公開</span>
+      </footer>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

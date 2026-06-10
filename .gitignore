@@ -1,0 +1,16 @@
+# 個人データ（サーバー上には置かない）
+data/
+
+# Mac 固有ファイル（Linux サーバーでは不要）
+.DS_Store
+*.command
+司令塔を起動.app/
+_旧バージョン_バックアップ/
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# Claude Code のローカル設定
+.claude/
