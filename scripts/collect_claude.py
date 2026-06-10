@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Claude Code 日本語記事収集スクリプト（Zenn・Qiita / GitHub Actions 用）"""
 
-import json, re, hashlib, urllib.request
+import json, re, hashlib, html as _html, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -27,6 +27,7 @@ def fetch_url(url, timeout=12):
 def strip_html(s):
     s = re.sub(r"<!\[CDATA\[|\]\]>", "", s or "")
     s = re.sub(r"<[^>]+>", " ", s)
+    s = _html.unescape(s)
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -77,6 +78,9 @@ def main():
                 except Exception:
                     pub = None
 
+                # 本文概要（description / summary / content から取得）
+                excerpt = strip_html(g(["description", "summary", "content:encoded", "content"]))[:200]
+
                 items.append({
                     "id":          stable_id(url),
                     "title":       title,
@@ -85,6 +89,7 @@ def main():
                     "source":      source,
                     "publishedAt": pub,
                     "fetchedAt":   datetime.now(timezone.utc).isoformat(),
+                    "excerpt":     excerpt,
                 })
         except Exception as e:
             print(f"  {source} ({feed_url}): エラー ({e})")

@@ -361,18 +361,20 @@ function renderCCItem(it) {
     ? `<span class="cc-source-badge">${escapeHtml(it.source)}</span>`
     : "";
   const dateStr = it.publishedAt || it.date;
+  const excerptHtml = it.excerpt
+    ? `<p class="cc-excerpt">${escapeHtml(trimText(it.excerpt, 130))}</p>`
+    : "";
   return `
     <article class="cc-item">
       <div class="cc-head">
         ${sourceBadge}
         <span class="cc-domain">${escapeHtml(it.domain || "")}</span>
+        ${dateStr ? `<span class="cc-date">${escapeHtml(formatDay(dateStr))}</span>` : ""}
       </div>
       <h3 class="cc-title">
         <a href="${escapeAttribute(it.url)}" target="_blank" rel="noreferrer">${escapeHtml(it.title || "")}</a>
       </h3>
-      <div class="cc-links">
-        ${dateStr ? `<span class="cc-date">${escapeHtml(formatDay(dateStr))}</span>` : ""}
-      </div>
+      ${excerptHtml}
     </article>`;
 }
 

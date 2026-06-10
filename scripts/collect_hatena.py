@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """はてなブックマーク IT 人気エントリ収集スクリプト（GitHub Actions 用）"""
 
-import json, re, hashlib, urllib.request, urllib.parse
+import json, re, hashlib, html as _html, urllib.request, urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -22,8 +22,7 @@ def fetch_url(url, timeout=12):
 def strip_html(s):
     s = re.sub(r"<!\[CDATA\[|\]\]>", "", s or "")
     s = re.sub(r"<[^>]+>", " ", s)
-    for ent, rep in [("&amp;","&"),("&lt;","<"),("&gt;",">"),("&quot;",'"'),("&#39;","'")]:
-        s = s.replace(ent, rep)
+    s = _html.unescape(s)          # &#x...; &#...; &amp; 等を全て一括処理
     return re.sub(r"\s+", " ", s).strip()
 
 
