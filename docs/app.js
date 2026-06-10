@@ -1,6 +1,159 @@
 // 母艦 — フロント（GitHub Pages 静的版）
 // GitHub Actions が 6時間ごとに収集した JSON を fetch して表示。サーバー不要。
 
+// =========================================================
+// 雑談ネタ データ（120件超）
+// =========================================================
+const ZATSUDANE = [
+  // ── お酒・バー ──────────────────────────────────
+  { cat: "お酒・バー", text: "バーに来るようになったきっかけは何ですか？" },
+  { cat: "お酒・バー", text: "最近飲んで美味しかったお酒は？" },
+  { cat: "お酒・バー", text: "カクテルと日本酒、どちらが好きですか？" },
+  { cat: "お酒・バー", text: "お気に入りのカクテルを一つ挙げるとしたら？" },
+  { cat: "お酒・バー", text: "飲み方のこだわりってありますか？（氷・温度・グラスなど）" },
+  { cat: "お酒・バー", text: "お酒を飲み始めたのはいつ頃ですか？" },
+  { cat: "お酒・バー", text: "一番印象に残っているバーの思い出は？" },
+  { cat: "お酒・バー", text: "一人飲みはしますか？どんな気分のときに？" },
+  { cat: "お酒・バー", text: "家で飲むのと外で飲むのはどちらが好き？" },
+  { cat: "お酒・バー", text: "ウイスキーはハイボール派？ストレート派？" },
+  { cat: "お酒・バー", text: "飲んでみたいけどまだ飲んでいないお酒は？" },
+  { cat: "お酒・バー", text: "何杯目が一番おいしいと思いますか？" },
+  { cat: "お酒・バー", text: "締めに飲む一杯は何が好きですか？" },
+  { cat: "お酒・バー", text: "お酒で失敗したエピソードがあれば（笑）" },
+  { cat: "お酒・バー", text: "旅先で飲んで印象に残っているお酒は？" },
+  { cat: "お酒・バー", text: "クラフトビールってよく飲みますか？" },
+  { cat: "お酒・バー", text: "ウイスキー・ジン・ラム…どのスピリッツが好みですか？" },
+  { cat: "お酒・バー", text: "ノンアルコールカクテルを飲んだことありますか？" },
+  { cat: "お酒・バー", text: "お気に入りのおつまみは何ですか？" },
+  { cat: "お酒・バー", text: "カクテルの名前で気になるものって何かありますか？" },
+  { cat: "お酒・バー", text: "お酒の席で生まれた一番いいエピソードは？" },
+  { cat: "お酒・バー", text: "お酒が弱くなった・強くなったと感じたことはありますか？" },
+  { cat: "お酒・バー", text: "飲み仲間はどんな人たちですか？" },
+  { cat: "お酒・バー", text: "バーに来る前に食事はしてきますか？" },
+  { cat: "お酒・バー", text: "好きな日本酒の産地やタイプはありますか？" },
+
+  // ── 旅行・食 ──────────────────────────────────
+  { cat: "旅行・食", text: "最近行って印象に残った場所はありますか？" },
+  { cat: "旅行・食", text: "国内でもう一度行きたい場所はどこですか？" },
+  { cat: "旅行・食", text: "一人旅と複数人旅、どちらが好きですか？" },
+  { cat: "旅行・食", text: "海外で一番よかった街はどこですか？" },
+  { cat: "旅行・食", text: "旅先で一番食べておいしかったものは？" },
+  { cat: "旅行・食", text: "行きたい国や街はありますか？" },
+  { cat: "旅行・食", text: "旅先でのハプニングエピソードがあれば！" },
+  { cat: "旅行・食", text: "旅行に必ず持っていくものは何ですか？" },
+  { cat: "旅行・食", text: "宿はホテル派？旅館派？" },
+  { cat: "旅行・食", text: "旅はがっちり計画派？現地任せ派？" },
+  { cat: "旅行・食", text: "食べ物で苦手なジャンルはありますか？" },
+  { cat: "旅行・食", text: "よく行く飲食店はどんなお店ですか？" },
+  { cat: "旅行・食", text: "家でよく作る料理はありますか？" },
+  { cat: "旅行・食", text: "深夜に食べたくなるものってありますか？" },
+  { cat: "旅行・食", text: "地元のおすすめのお店を一軒挙げるとしたら？" },
+  { cat: "旅行・食", text: "食に関して譲れないこだわりは？" },
+  { cat: "旅行・食", text: "外食と自炊、普段どちらが多いですか？" },
+  { cat: "旅行・食", text: "一番好きな料理のジャンルは（和・洋・中など）？" },
+  { cat: "旅行・食", text: "旅行と出張、どちらの思い出が多いですか？" },
+  { cat: "旅行・食", text: "行ったことのない都道府県で気になる場所は？" },
+
+  // ── エンタメ・趣味 ───────────────────────────
+  { cat: "エンタメ・趣味", text: "最近ハマっているものは何ですか？" },
+  { cat: "エンタメ・趣味", text: "よく聴く音楽のジャンルは？" },
+  { cat: "エンタメ・趣味", text: "最近みて印象に残っている映画やドラマは？" },
+  { cat: "エンタメ・趣味", text: "本を読む習慣はありますか？最近読んだ本は？" },
+  { cat: "エンタメ・趣味", text: "スポーツはしますか？観るのは好きですか？" },
+  { cat: "エンタメ・趣味", text: "ゲームはやりますか？どんなジャンルが好き？" },
+  { cat: "エンタメ・趣味", text: "写真を撮るのは好きですか？よく撮るジャンルは？" },
+  { cat: "エンタメ・趣味", text: "最近買ってよかったものがあれば教えてください" },
+  { cat: "エンタメ・趣味", text: "音楽ライブやコンサートに最近行きましたか？" },
+  { cat: "エンタメ・趣味", text: "インドアとアウトドア、どちら派ですか？" },
+  { cat: "エンタメ・趣味", text: "趣味を通じて仲良くなった人はいますか？" },
+  { cat: "エンタメ・趣味", text: "ハマってたけど最近やめたことってありますか？" },
+  { cat: "エンタメ・趣味", text: "YouTubeやNetflixでよく見るコンテンツは？" },
+  { cat: "エンタメ・趣味", text: "アートや展覧会には行きますか？" },
+  { cat: "エンタメ・趣味", text: "昔好きだったアーティストや作品はありますか？" },
+  { cat: "エンタメ・趣味", text: "サウナやお風呂は好きですか？こだわりは？" },
+  { cat: "エンタメ・趣味", text: "ペットを飼っていますか？好きな動物は？" },
+  { cat: "エンタメ・趣味", text: "最近笑ったことは何ですか？" },
+  { cat: "エンタメ・趣味", text: "今一番推しているものは何ですか？" },
+  { cat: "エンタメ・趣味", text: "誰かに勧めたいコンテンツ（作品・場所・体験）は？" },
+
+  // ── 価値観・人生 ─────────────────────────────
+  { cat: "価値観・人生", text: "学生時代と今、どちらが楽しいですか？" },
+  { cat: "価値観・人生", text: "もし仕事を変えるとしたら何をしたいですか？" },
+  { cat: "価値観・人生", text: "人生で一番の転機はいつでしたか？" },
+  { cat: "価値観・人生", text: "お金と時間、どちらが大事だと思いますか？" },
+  { cat: "価値観・人生", text: "10年後どんな生活をしていたいですか？" },
+  { cat: "価値観・人生", text: "一番影響を受けた人は誰ですか？" },
+  { cat: "価値観・人生", text: "子どもの頃なりたかった職業は何ですか？" },
+  { cat: "価値観・人生", text: "自分の性格をひと言で表すとしたら？" },
+  { cat: "価値観・人生", text: "「やってよかった」と思う経験は何ですか？" },
+  { cat: "価値観・人生", text: "生まれ変わったら何になりたいですか？" },
+  { cat: "価値観・人生", text: "人生のモットーや大切にしていることは？" },
+  { cat: "価値観・人生", text: "自分を動物に例えると何ですか？" },
+  { cat: "価値観・人生", text: "一番長続きしていることは何ですか？" },
+  { cat: "価値観・人生", text: "幸せを感じるのはどんな瞬間ですか？" },
+  { cat: "価値観・人生", text: "得意なこと・苦手なことを一つずつ挙げると？" },
+  { cat: "価値観・人生", text: "もし一億円あったら最初に何をしますか？" },
+  { cat: "価値観・人生", text: "最近成長したなと感じることはありますか？" },
+  { cat: "価値観・人生", text: "「あの頃に戻れるなら」と思う時期はありますか？" },
+  { cat: "価値観・人生", text: "後悔していることと、してよかったことを一つずつ" },
+  { cat: "価値観・人生", text: "自分を変えたいと思ったことがありますか？どんなところを？" },
+
+  // ── 最近どう？ ───────────────────────────────
+  { cat: "最近どう？", text: "最近嬉しかったことは何ですか？" },
+  { cat: "最近どう？", text: "最近チャレンジしたことはありますか？" },
+  { cat: "最近どう？", text: "今年に入ってから一番よかったことは？" },
+  { cat: "最近どう？", text: "最近気になっているニュースや話題は？" },
+  { cat: "最近どう？", text: "今日はどんな一日でしたか？" },
+  { cat: "最近どう？", text: "最近よく行く場所はありますか？" },
+  { cat: "最近どう？", text: "最近食べたもので一番美味しかったものは？" },
+  { cat: "最近どう？", text: "最近びっくりしたことはありますか？" },
+  { cat: "最近どう？", text: "今一番欲しいものは何ですか？" },
+  { cat: "最近どう？", text: "最近笑ったこと・感動したことは？" },
+  { cat: "最近どう？", text: "今の気分をひと言で表すと？" },
+  { cat: "最近どう？", text: "最近「いい人だな」と思った人はいますか？" },
+  { cat: "最近どう？", text: "今週の一番のできごとは何でしたか？" },
+  { cat: "最近どう？", text: "最近自分へのご褒美はしましたか？" },
+  { cat: "最近どう？", text: "最近誰かに感謝したことはありますか？" },
+  { cat: "最近どう？", text: "今一番楽しみにしていることは何ですか？" },
+  { cat: "最近どう？", text: "最近の悩みを一つ挙げるとしたら？" },
+  { cat: "最近どう？", text: "最近会った人の中で印象的だった人は？" },
+  { cat: "最近どう？", text: "最近口グセになっている言葉はありますか？" },
+  { cat: "最近どう？", text: "最近手放したもの・やめたことはありますか？" },
+
+  // ── どっちが好き？ ──────────────────────────
+  { cat: "どっちが好き？", text: "朝型と夜型、どちらですか？" },
+  { cat: "どっちが好き？", text: "コーヒー派ですか？紅茶派ですか？" },
+  { cat: "どっちが好き？", text: "犬派ですか？猫派ですか？" },
+  { cat: "どっちが好き？", text: "都市と田舎、住むならどちら？" },
+  { cat: "どっちが好き？", text: "夏と冬、どちらが好きですか？" },
+  { cat: "どっちが好き？", text: "肉料理と魚料理、どちらが好きですか？" },
+  { cat: "どっちが好き？", text: "料理するのと外食するの、どちらが好き？" },
+  { cat: "どっちが好き？", text: "計画通りに進めたい派？その場のノリ派？" },
+  { cat: "どっちが好き？", text: "友達は多い方がいい？少数でも深い関係がいい？" },
+  { cat: "どっちが好き？", text: "話すのが好きですか？聞く方が好きですか？" },
+  { cat: "どっちが好き？", text: "予定を詰めたい派？余白が多い派？" },
+  { cat: "どっちが好き？", text: "温泉とサウナ、どちらが好きですか？" },
+  { cat: "どっちが好き？", text: "映画は映画館派？家で見る派？" },
+  { cat: "どっちが好き？", text: "甘いものとしょっぱいもの、どちらが好き？" },
+  { cat: "どっちが好き？", text: "電話とメッセージ、やり取りはどちら派？" },
+  { cat: "どっちが好き？", text: "早めに終わらせる派？ギリギリまでやる派？" },
+  { cat: "どっちが好き？", text: "褒められると嬉しい？認められると嬉しい？" },
+  { cat: "どっちが好き？", text: "直感派？慎重派？" },
+  { cat: "どっちが好き？", text: "一人の時間が好き？人と一緒にいる時間が好き？" },
+  { cat: "どっちが好き？", text: "SNSは発信派？見る専派？" },
+];
+
+const ZN_SHOW = 20;
+
+function znShuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const PANELS = [
   {
     id: "home", tab: "ホーム",
@@ -31,6 +184,12 @@ const PANELS = [
     title: "趣味の早見データ",
     lead: "全趣味の情報に素早くアクセスする、自分専用の早見表です。",
     ready: true
+  },
+  {
+    id: "zatsudane", tab: "雑談ネタ",
+    title: "雑談ネタ ジェネレーター",
+    lead: `バー・友人・日常で使える話題を ${ZATSUDANE.length} 件収録。シャッフルで毎回新鮮な ${ZN_SHOW} 件を表示します。`,
+    ready: true
   }
 ];
 
@@ -46,6 +205,8 @@ const state = {
   query: "",
   quickrefCategory: "all",
   quickrefQuery: "",
+  zatsudaneCategory: "all",
+  zatsudanePicks: [],
 };
 
 function loadPrefs() {
@@ -126,8 +287,8 @@ function route(panelId) {
   el.eyebrow.textContent = "PERSONAL DASHBOARD";
   el.title.textContent   = panel.title;
   el.lead.textContent    = panel.lead;
-  const renderers = { home: renderHome, news: renderNews, hatena: renderHatena, claude: renderClaude, quickref: renderQuickref };
-  const heroes    = { home: heroHome,   news: heroNews,   hatena: heroHatena,   claude: heroClaude,   quickref: heroQuickref };
+  const renderers = { home: renderHome, news: renderNews, hatena: renderHatena, claude: renderClaude, quickref: renderQuickref, zatsudane: renderZatsudane };
+  const heroes    = { home: heroHome,   news: heroNews,   hatena: heroHatena,   claude: heroClaude,   quickref: heroQuickref,   zatsudane: heroZatsudane };
   (heroes[panel.id]    || (() => setHeroPanel("")))();
   (renderers[panel.id] || (() => { el.body.innerHTML = ""; }))();
 }
@@ -617,6 +778,78 @@ function renderQuickref() {
     state.quickrefCategory = btn.dataset.qrcat;
     savePrefs();
     renderQuickref();
+  });
+}
+
+// =========================================================
+// ⑤ 雑談ネタ
+// =========================================================
+function heroZatsudane() {
+  const cats = [...new Set(ZATSUDANE.map((z) => z.cat))];
+  heroStat("話題数", ZATSUDANE.length, `${cats.length} カテゴリ`);
+}
+
+function znPickNew() {
+  const pool = state.zatsudaneCategory === "all"
+    ? ZATSUDANE
+    : ZATSUDANE.filter((z) => z.cat === state.zatsudaneCategory);
+  state.zatsudanePicks = znShuffle(pool).slice(0, ZN_SHOW);
+}
+
+function renderZatsudane() {
+  if (!state.zatsudanePicks.length) znPickNew();
+
+  const cats = ["all", ...new Set(ZATSUDANE.map((z) => z.cat))];
+  const catChips = cats.map((c) => {
+    const label = c === "all" ? "すべて" : c;
+    const count = c === "all" ? ZATSUDANE.length : ZATSUDANE.filter((z) => z.cat === c).length;
+    return `<button class="chip ${state.zatsudaneCategory === c ? "active" : ""}" data-zncat="${escapeAttribute(c)}" type="button">
+      ${escapeHtml(label)}<small>${count}</small>
+    </button>`;
+  }).join("");
+
+  const catColors = {
+    "お酒・バー":    "zn-col-bar",
+    "旅行・食":      "zn-col-trip",
+    "エンタメ・趣味":"zn-col-ent",
+    "価値観・人生":  "zn-col-life",
+    "最近どう？":    "zn-col-now",
+    "どっちが好き？":"zn-col-which",
+  };
+
+  const cards = state.zatsudanePicks.map((z, i) => {
+    const colorCls = catColors[z.cat] || "";
+    return `<div class="zn-card ${colorCls}" data-idx="${i}">
+      <span class="zn-cat-badge">${escapeHtml(z.cat)}</span>
+      <p class="zn-text">${escapeHtml(z.text)}</p>
+    </div>`;
+  }).join("");
+
+  const poolSize = state.zatsudaneCategory === "all"
+    ? ZATSUDANE.length
+    : ZATSUDANE.filter((z) => z.cat === state.zatsudaneCategory).length;
+
+  el.body.innerHTML = `
+    <div class="zn-toolbar">
+      <button class="zn-shuffle-btn" id="znShuffleBtn" type="button">
+        シャッフル
+      </button>
+      <span class="zn-counter">${state.zatsudanePicks.length} 件表示中 / 全 ${poolSize} 件</span>
+    </div>
+    <div class="chips" id="znChips">${catChips}</div>
+    <div class="zn-grid" id="znGrid">${cards}</div>`;
+
+  document.querySelector("#znShuffleBtn")?.addEventListener("click", () => {
+    znPickNew();
+    renderZatsudane();
+    document.querySelector("#znGrid")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  document.querySelector("#znChips")?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-zncat]");
+    if (!btn) return;
+    state.zatsudaneCategory = btn.dataset.zncat;
+    state.zatsudanePicks = [];
+    renderZatsudane();
   });
 }
 
