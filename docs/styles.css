@@ -688,6 +688,13 @@ h1 {
 .tl-link { font-size: 0.7rem; font-weight: 700; color: var(--seal); text-decoration: none; align-self: center; }
 .tl-link:hover { text-decoration: underline; }
 
+/* 自動更新ノート */
+.auto-update-note {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
 /* ===== レスポンシブ ===== */
 @media (max-width: 640px) {
   .site-nav { width: calc(100% - 16px); margin: 10px auto 0; }
