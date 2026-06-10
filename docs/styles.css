@@ -1008,3 +1008,70 @@ h1 {
 @media (max-width: 480px) {
   .zn-grid { grid-template-columns: 1fr; }
 }
+
+/* =========================================================
+   今日の問い（哲学）
+   ========================================================= */
+.philo-wrap { display: grid; gap: 22px; padding-bottom: 24px; }
+
+.philo-today {
+  border: 1px solid var(--line-strong);
+  background: var(--paper);
+  padding: 36px 26px 24px;
+  text-align: center;
+}
+.philo-date {
+  margin: 0 0 20px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.philo-q {
+  margin: 0 auto 26px; max-width: 34em;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: 1.3rem; line-height: 2.1; color: var(--text);
+}
+.philo-answer {
+  width: 100%; padding: 12px 14px;
+  font-size: 14px; line-height: 1.8; font-family: inherit;
+  border: 1px solid var(--line); background: var(--field); color: var(--text);
+  resize: vertical;
+}
+.philo-answer:focus { outline: 2px solid var(--seal); outline-offset: -1px; }
+.philo-actions {
+  display: flex; align-items: center; justify-content: center;
+  gap: 14px; margin-top: 12px; flex-wrap: wrap;
+}
+.philo-save-btn {
+  padding: 9px 26px; font-size: 13px; font-weight: 800; letter-spacing: 0.06em;
+  cursor: pointer; border: 1px solid var(--seal); background: var(--seal); color: #fff;
+}
+.philo-save-btn:hover { opacity: 0.82; }
+.philo-note { font-size: 11px; color: var(--muted); }
+
+.philo-history { display: grid; gap: 12px; }
+.philo-hist-title {
+  margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted);
+}
+.philo-hist-item { border: 1px solid var(--line); background: var(--panel); padding: 14px 16px; }
+.philo-hist-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.philo-hist-date { font-size: 11px; font-weight: 700; color: var(--muted); }
+.philo-hist-del {
+  padding: 2px 8px; font-size: 10px; cursor: pointer;
+  border: 1px solid var(--line); background: none; color: var(--muted);
+}
+.philo-hist-del:hover { border-color: var(--red); color: var(--red); }
+.philo-hist-q {
+  margin: 0 0 8px;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: 14px; color: var(--text);
+}
+.philo-hist-a { margin: 0; font-size: 13px; line-height: 1.8; color: var(--muted); white-space: pre-wrap; }
+
+/* ホームの今日の問い */
+.home-philo { grid-column: 1 / -1; background: var(--paper); border-color: var(--line-strong); }
+.home-philo-q {
+  margin: 4px 0 2px;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: 15px; line-height: 1.9; color: var(--text);
+}
