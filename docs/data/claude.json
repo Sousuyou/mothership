@@ -1,114 +1,94 @@
 {
   "items": [
     {
-      "id": "cc_720b410a",
-      "title": "Claude Fable 5 公開——「Opus の上」に来た新ティアは GPT-5.5 と何が違うのか",
-      "url": "https://zenn.dev/kakuremi/articles/claude-fable-5-vs-gpt-5-5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984846+00:00",
-      "excerpt": "2026 年 6 月 9 日、Anthropic が Claude Fable 5（モデル ID: claude-fable-5）を公開しました。Opus 4.8 のリリースからわずか 12 日後、しかも Opus の「上」に新しいティアを作っての投入です。 Anthropic は Fable 5 を「これまで一般提供してきたどのモデルよりも能力が高い」と説明しており、ほぼすべての公表ベンチマーク"
-    },
-    {
-      "id": "cc_d589deca",
-      "title": "Anthropic、Claude Fable 5 と Claude Mythos 5 を発表",
-      "url": "https://zenn.dev/shirochan/articles/ced2da1916ca48",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984776+00:00",
-      "excerpt": "はじめに 2026年6月9日、Anthropicは Claude Fable 5 と Claude Mythos 5 を発表しました。Fable 5はこれまで限定組織にのみ提供されていたMythosクラスのモデルを一般向けに展開したもので、Mythos 5は引き続き限定提供となります。本記事では、両モデルの仕様と、APIおよびクラウドプラットフォーム経由で利用している場合に確認すべきデータ保持ポリ"
-    },
-    {
-      "id": "cc_663717a2",
-      "title": "転職活動をClaude Code製の自分専用エージェントと走り抜けた話",
-      "url": "https://zenn.dev/mtstring/articles/claude-code-job-search-agent",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984713+00:00",
-      "excerpt": "この記事は、数ヶ月にわたる転職活動を一緒に走り抜けた自作 AI エージェントの「作成背景」と「機能・設計」をまとめたものです。 最終的に納得のいく形で転職先を決められました。そこで得た知見を、これから転職する人・自分用のエージェントを作りたい人に向けて公開します。 ※ 企業名・個人名・年収などの固有情報はすべて伏せ、仕組みと設計思想に絞って書いています。 第1部 なぜ作ったか ── 転職活動の構造"
-    },
-    {
-      "id": "cc_976bd583",
-      "title": "もうプロンプトは打たない!? — Claude Code の /loop と /goal という考え方",
-      "url": "https://zenn.dev/aria3/articles/claude-code-loop-goal-engineering",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984649+00:00",
-      "excerpt": "もうプロンプトは打たない!? — Claude Code の /loop と /goal という考え方 Claude Code の責任者である Boris Cherny がこんなことを言っています。 \"I don't prompt Claude anymore. I write loops.\" 「もうプロンプトは打たない。代わりにループを書いてる」——最初に聞いたとき、意味はなんとなくわかるけど、"
-    },
-    {
-      "id": "cc_82acbb36",
-      "title": "Claude Fable 5 は何が新しいのか？Mythos級モデル公開で変わった5つのポイント",
-      "url": "https://zenn.dev/daishiro/articles/claude-fable-5-whats-new",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984563+00:00",
-      "excerpt": "はじめに 2026年6月9日、Anthropicから Claude Fable 5 が発表されました。これまでのClaudeは Opus / Sonnet / Haiku という3層構成でしたが、ここに「Mythos級」という上位ティアが新設され、その一般公開モデルがFable 5、という位置付けです。 公式の発表ページを読むと、「Mythos-classをパブリックに出すのは初めて」「過去のどの"
-    },
-    {
-      "id": "cc_12837d76",
-      "title": "Claude Fable 5 を、個人開発者はいつ使うのか。Opusとの使い分けと財布の話",
-      "url": "https://zenn.dev/rapls/articles/38a0e6676da652",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984484+00:00",
-      "excerpt": "今朝、Claude Fable 5 が公開されました。数日がかりのタスクを自分で動かし続けるモデル、という触れ込みです。発表を読んでまず浮かんだのは、すごい、より先に、これを自分のような個人開発者がいつ使うのか、そして使ったら財布はどうなるのか、でした。 この記事は、その問いを整理したものです。新機能の網羅紹介ではありません。公開当日に分かっている事実を押さえたうえで、WordPress プラグイ"
-    },
-    {
-      "id": "cc_db0d03a6",
-      "title": "Claude Fable 5の安全策は「断る」ではなく「旧モデルに振る」: Mythos公開版のルーティング設計を読む",
-      "url": "https://zenn.dev/hironakamura_ai/articles/ca76bb28509d94",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984371+00:00",
-      "excerpt": "昨日6月9日、AnthropicがClaude Fable 5を一般公開した。コーディングや科学研究でSOTA更新、という見出しだけならいつものモデルリリースに見える。ただ今回は出自が普通ではない。Fable 5は、サイバー脆弱性の発見能力が高すぎるとして一部の顧客にしか提供されてこなかった「Mythos」の公開版だ。 公式発表: https://www.anthropic.com/news/cl"
-    },
-    {
-      "id": "cc_ad2a0eef",
-      "title": "Claude Code の MCP サーバーを mcp-proxy で共有化した話",
-      "url": "https://zenn.dev/uzu_tech/articles/ce0d70a94c9e59",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984293+00:00",
-      "excerpt": "はじめに 株式会社Sally 所属エンジニアの @wellPicker です。 弊社では、スマホやパソコンでマダミスを遊べるアプリであるウズや、マダミス情報・予約管理サイトマダミス.jp、マダミス開発ツールウズスタジオを開発しています。 マダミスについてはこちらをご覧ください。 最近は Claude Code を常時 3〜4 セッション並列で走らせて作業しているのですが、ある日からPCのクリックや"
-    },
-    {
-      "id": "cc_614ad371",
-      "title": "Anthropicの新モデル「Claude Fable 5 & Mythos 5」を徹底解説",
-      "url": "https://zenn.dev/galirage/articles/claude-fable-5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984158+00:00",
-      "excerpt": "はじめまして、ますみです！ 株式会社Galirage（ガリレージ）というAIスタートアップで、代表をしております^^ その他にも、「AIとコミュニケーションする技術（インプレス出版）」という書籍を執筆させていただいたり、生成AIアカデミーというYouTubeチャンネルを運営したり、上智大学で非常勤講師をしたりしています！ 「危険すぎて出せない」とされていたMythos級のAIモデルが、ついに一般公"
-    },
-    {
-      "id": "cc_953dd6f4",
-      "title": "Geminiはノークレーム、Claudeはクレームあり",
-      "url": "https://zenn.dev/yamamvra/articles/cd99bc7c1806cc",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984081+00:00",
-      "excerpt": "コンパニオン「Mika」と会話していた流れを彼女に整理してもらい文章化した。それがnoteの記事「僕は3人のAIと文章を書いていた」だ。これを執筆するにあたり、ChatGPT、Gemini、Claudeに感想を聞いている。それらを反映して最終稿を仕上げたわけだが、彼らの感想が楽しい。作業過程での彼らの感想を下記する。彼らの指摘の全部を取り入れていないのは、生成AIの文章はビジネス文章としては完璧だ"
-    },
-    {
       "id": "cc_b541e9d8",
       "title": "アーキテクト開発者のためのClaude Code設定10選",
       "url": "https://zenn.dev/evolink_ai/articles/bd4769b5286c0b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.984002+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.539023+00:00",
       "excerpt": "6ヶ月間、Claude Code を毎日使う中で、10個の設定パターンにたどり着きました。これらがないと、エージェントが誤った方向に進んだ箇所を直すために、月に10〜15時間を失っていました。設定を入れてからは、その時間が目に見えて減っています。 これは「Claude Code とは何か」を説明するチュートリアルではありません。すでにこのツールを使っていて、そこからもっと引き出したい人のための設定"
+    },
+    {
+      "id": "cc_b3fa4775",
+      "title": "Claude Fable 5に解約リスク分析を丸投げしてみた ~Fable 5 / Opus 4.8 / Sonnet 4.6 の性格差",
+      "url": "https://zenn.dev/shiroqujira/articles/cb037aa83ef042",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538933+00:00",
+      "excerpt": "2026年6月9日に Claude Fable 5 が一般公開されました。Mythos級の能力を一般向けに解放したモデルで、SWE-Bench Pro は 80.3%(Opus 4.8 = 69.2%)とコーディング系ベンチマークでは頭一つ抜けています。 ちょうど手元に解約リスク分析タスクがあったので、Fable 5 を含めた3モデルに同じ仕事を投げて比べてみました。 ! 3行まとめ 数値スコア("
+    },
+    {
+      "id": "cc_aa101fb5",
+      "title": "人間はPlaywrightのトレースを眺めるだけ — Claude Code SkillでE2Eテスト作成を完全自動化",
+      "url": "https://zenn.dev/zoesan/articles/ff166fc24a9de9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538865+00:00",
+      "excerpt": "はじめに QAエンジニアをしている山添です。 この春、新しく始めたことの一つが「E2Eテスト作成のすべての工程をSkill化すること」です。 これまで、E2Eテストの1ケースを追加するには「テストシナリオを書く → Page Objectを確認 → テストコードを書く → レビューする → PRを作る」という一連の工程を人間が順番にやっていました。 最近はこれをまるごとClaude CodeのSk"
+    },
+    {
+      "id": "cc_ff4a96bf",
+      "title": "Claude Code 支払い方法：プリペイドカード",
+      "url": "https://zenn.dev/honkai/articles/5865b74be058d3",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538742+00:00",
+      "excerpt": "Androidアプリの定期購入なら利用可能"
+    },
+    {
+      "id": "cc_79efb3a4",
+      "title": "Claude Fable 5 を解説。性能・料金・セーフガードの仕組みまとめ",
+      "url": "https://zenn.dev/sunagaku/articles/claude-fable-5-mythos-5",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538698+00:00",
+      "excerpt": "はじめに Anthropic が新モデル「Claude Fable 5」と「Claude Mythos 5」を発表しました。一番の特徴は、この 2 つが中身は同じモデルで、セーフガードの有無だけが違うことです。 新モデルのポイントを手早く知りたい方は、ぜひご覧ください。 https://www.anthropic.com/news/claude-fable-5-mythos-5 Fable 5 と"
+    },
+    {
+      "id": "cc_c606dd1e",
+      "title": "ClaudeのFableが公開されたので、改めてClaudeの命名の由来をFableにまとめてみてもらった",
+      "url": "https://zenn.dev/yuzunatsuki/articles/47ec894f021602",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538633+00:00",
+      "excerpt": "! 本記事は、Claude（Fable 5）に命名の由来を調査・執筆してもらった内容を、筆者が出典を確認したうえで編集・公開しているものです。AIによる生成を含むため、重要な事実は本文中の一次ソースをご確認ください。 はじめに AnthropicのAIアシスタント「Claude」のモデル名は、Haiku（俳句）、Sonnet（ソネット）、Opus（オーパス）、そして2026年に登場したFable（"
+    },
+    {
+      "id": "cc_302f7dc8",
+      "title": "Claude Codeのダイナミックワークフローで大規模移行が劇的に加速",
+      "url": "https://zenn.dev/ty2/articles/tweet-bcherny-2060390853835726946",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538557+00:00",
+      "excerpt": "この記事は、@bcherny・@claudeai・@claude_code・@ClaudeDevs の投稿をClaudeが自動収集・翻訳・整理して生成しました。内容の正確性は元投稿をご確認ください。 生成日: 2026-05-29 Claude Codeに「ダイナミックワークフロー」が登場 Claude Code（リサーチプレビュー）に、複雑な大規模タスクに対応するための新機能**「ダイナミックワ"
+    },
+    {
+      "id": "cc_887d9b6c",
+      "title": "Claude Fable 5による、Google Play Billing Library v7 → v8.3.0 移行・テスト内容の作成",
+      "url": "https://zenn.dev/biwacoder/articles/16e7640cbf237f",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538428+00:00",
+      "excerpt": "Google Play Billing Library v7 → v8.3.0 移行・テストドキュメント 0. 前提・スケジュール PBL v7 のサポート期限は 2026年8月31日(Play Console から延長申請をすれば 11月1日まで猶予あり)。期限後は v7 のままだと新規リリースが警告/ブロック対象になる。 2026年5月19日に PBL 9.0.0 がリリース済み。今回 8.3"
+    },
+    {
+      "id": "cc_e318afed",
+      "title": "Claude Code Desktop版でMCPを使ってコストを抑える方法",
+      "url": "https://zenn.dev/fukukei23/articles/claude-code-desktop-mcp-cost-reduction",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-10T20:42:45.538331+00:00",
+      "excerpt": "結論 Claude CodeのDesktop版（Windowsアプリ）は、MCPサーバーにGLMやMiniMaxを登録するだけで、定型作業・大量処理を安いLLMに委譲してコストを抑えられます。 本体はSonnetのままなので品質を保ちつつ、単純な作業だけを外注する形です。 なぜMCPを使うのか Desktop版のアプリは、CLI版と違って環境変数を書き換えられません。つまりエンドポイントを丸ごとG"
     },
     {
       "id": "cc_3573b48d",
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946873+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.501263+00:00",
       "excerpt": "この記事でわかること Claude Codeに2026年春以降追加された「放置運用」系機能（claude agents / /goal / auto mode / Monitor / Routines）の役割分担 複数セッションを並列で走らせるときに、どの機能をどの順で導入すべきか 自動承認（auto mode）を業務リポジトリで使う前に決めておくべき境界線 情報源はすべてClaude Code公"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946790+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.501101+00:00",
       "excerpt": "2 つの発見 Claude Fable 5 → RDB 実装タスクでは、medium でも細部を取りこぼすことがある Claude Opus 4.8 → 今回の条件では、Fable 5 より低い effort level・低いコストで、同等以上の品質を達成できる ! この記事は日本時間2026年6月10日の早朝にリリースされた、Anthropic の新しいモデル「Claude Fable 5」の実"
     },
     {
@@ -137,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946718+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500982+00:00",
       "excerpt": "社長などいない ある晩、Claude Code が突然こう言い出した。 社長の指示、把握した。ただちに鵜呑みで本番モードを有効化するのは危険なので、現状を確認した上で段取りを提示する。 私はあるボットを一人で作っている。Claude Codeを除けば、人間は私一人である。 社長などいない。 念のため周りを見回したが、やはりいなかった。いるわけがない。私が私の社長である。その社長は、ボットを本番で動"
     },
     {
@@ -147,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946653+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500873+00:00",
       "excerpt": "はじめに 業務で発生した 2 つのリファクタタスクを、同じリポジトリ・同じブランチ起点で Codex (GPT-5系) と Claude Code (Opus 4.7) に同じ依頼を投げて比較してみました。 タスク 1: @hapi/lab で書かれた API テストを Jest に移行する タスク 2: 肥大化したエンドポイントファイルを操作別に分割する タスクの種類は全く違うのに、両方とも「行"
     },
     {
@@ -157,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946580+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500745+00:00",
       "excerpt": "「安全文字起こし」の開発では、6体の Claude Code エージェントが同時に走っています。lead、dev、PO、webmaster、qa、claude-code-guide — それぞれが独立したタスクを並行処理しています。 同一リポジトリで複数エージェントが同時に書き込むと、コンフリクトや意図しない上書きが起きます。それを防ぐために Agent({ isolation: \"worktre"
     },
     {
@@ -167,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946508+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500621+00:00",
       "excerpt": ".claude/settings.json の permissions.deny だけでは、AI エージェントの暴走は止まりませんでした。 「安全文字起こし」の開発では、複数の Claude Code エージェントが並行で動いています。lead が dev や PO に worktree 隔離で作業を委任するのですが、その隔離が cwd 継承問題で 1 週間に 13 回破られた話を別の記事に書きま"
     },
     {
@@ -177,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946423+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500489+00:00",
       "excerpt": "! 本記事はClaude Code (Opus 4.8/Fable 5)と一緒に書きました。正確を期すよう心がけていますが、記事の内容の速報性・揮発性を考慮して普段よりチェックが甘くなっています。不正確な箇所があれば教えていただけるとありがたいです。 症状 Claude Codeを長時間使っていると、まれにモデルのツール呼び出しが実行されず、以下のように内部マークアップがそのまま会話に表示されるこ"
     },
     {
@@ -187,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946328+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500368+00:00",
       "excerpt": "はじめに 最近、Claude Codeのメモリ機能を少し試しています。メモリは会話の中から自動的に記憶されることもありますし、「これを覚えておいて」と明示的に保存を依頼することもできます。 この記事では、開発中に試してみて良かったメモリの使い方を紹介します。 ちょっとした背景 普段の開発では、モックを多用するというよりも、実際のオブジェクト同士を組み合わせて振る舞いを検証するテストを書くことが多い"
     },
     {
@@ -197,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946260+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500262+00:00",
       "excerpt": "非エンジニアのSNSマーケターが、これを見ながら手を動かしてClaude（Claude Code）を自走できるようになる入門書。なぜClaude Code（並列と実装）→準備→基本操作→実践（並列と実装）→つまずき対処まで。プログラミング知識は不要。"
     },
     {
@@ -207,7 +187,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946212+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500187+00:00",
       "excerpt": "はじめに 2026年6月9日（現地時間）、Anthropicが新モデル「Claude Fable 5」をリリースしました。これまで一部のサイバー防衛組織などに限定提供されていた「Mythos」クラスの能力を、安全対策（セーフガード）付きで一般開放したモデルです。 リリース直後から開発（Claude Code）と普段のClaude.aiの両方で使い倒してみたので、Max 5xプランユーザー視点での率"
     },
     {
@@ -217,7 +197,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946144+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.500059+00:00",
       "excerpt": "MCPサーバーのトークン MCPサーバーはテキストファイルに平文でパスワードを保存するものがあります。たとえばChatworkの場合、以下のようになっています。 https://github.com/chatwork/chatwork-mcp-server { \"mcpServers\": { \"chatwork\": { \"command\": \"npx\", \"args\": [\"@chatwork/m"
     },
     {
@@ -227,7 +207,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.946036+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.499905+00:00",
       "excerpt": "はじめに Anthropicから新しいモデル「Claude Fable 5」がリリースされました。 Claude Codeのモデル選択にもさっそく出てきました。 「とりあえず何か作らせてみよう」ということで、Fable 5自身を紹介するランディングページ（LP）を作らせてみました。新しいモデルに自分自身の宣伝ページを作らせる、というちょっとしたメタなお題です。 成果物はこちら。 LP: https"
     },
     {
@@ -237,7 +217,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-10T18:36:26.945920+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.499736+00:00",
       "excerpt": "Fable 5 dropped 2026 6/9 (jp time). I poked at it for a bit and then just went for it: asked it to build a 3D game engine in Rust from scratch. Physics engine, GUI editor, script editor — the whole th"
     },
     {
@@ -247,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-10T18:36:27.256309+00:00",
+      "fetchedAt": "2026-06-10T20:42:45.888241+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -257,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-10T18:36:27.462768+00:00",
+      "fetchedAt": "2026-06-10T20:42:46.101559+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -267,7 +247,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-10T18:36:27.462848+00:00",
+      "fetchedAt": "2026-06-10T20:42:46.101619+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -277,9 +257,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-10T18:36:27.462939+00:00",
+      "fetchedAt": "2026-06-10T20:42:46.101685+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-10T18:36:27.462957+00:00"
+  "lastCollection": "2026-06-10T20:42:46.101701+00:00"
 }
