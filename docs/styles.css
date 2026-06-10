@@ -898,6 +898,7 @@ h1 {
 .zn-col-life   .zn-cat-badge { color: var(--muted); }
 .zn-col-now    .zn-cat-badge { color: #8b5e3c; }
 .zn-col-which  .zn-cat-badge { color: var(--red); }
+.zn-col-custom .zn-cat-badge { color: var(--green); }
 
 .zn-col-bar    { border-left: 3px solid var(--seal); }
 .zn-col-trip   { border-left: 3px solid var(--gold); }
@@ -905,6 +906,87 @@ h1 {
 .zn-col-life   { border-left: 3px solid var(--muted); }
 .zn-col-now    { border-left: 3px solid #8b5e3c; }
 .zn-col-which  { border-left: 3px solid var(--red); }
+.zn-col-custom { border-left: 3px solid var(--green); }
+
+/* 使用済カード */
+.zn-card.zn-used { opacity: 0.42; }
+.zn-card.zn-used .zn-text { text-decoration: line-through; }
+
+/* カードヘッダ（バッジ行） */
+.zn-card-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+
+/* マイバッジ */
+.zn-my-badge {
+  font-size: 9px; font-weight: 800; letter-spacing: 0.08em;
+  padding: 1px 5px; background: var(--green); color: #fff;
+}
+
+/* カードアクションボタン行 */
+.zn-card-actions {
+  display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap;
+}
+.zn-copy-btn, .zn-used-btn, .zn-del-btn {
+  padding: 4px 10px; font-size: 11px; font-weight: 700; cursor: pointer;
+  border: 1px solid var(--line); background: var(--panel-soft); color: var(--muted);
+}
+.zn-copy-btn:hover  { border-color: var(--seal); color: var(--seal); background: var(--green-soft); }
+.zn-used-btn:hover  { border-color: var(--muted); background: var(--panel-soft); }
+.zn-used-btn.on     { border-color: var(--muted); color: var(--muted); background: var(--panel-soft); }
+.zn-del-btn:hover   { border-color: var(--red); color: var(--red); }
+
+/* 使った話題を隠す トグル */
+.zn-hide-toggle {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 12px; color: var(--muted); cursor: pointer;
+}
+.zn-hide-toggle input { cursor: pointer; accent-color: var(--seal); }
+
+/* リセットボタン */
+.zn-reset-btn {
+  padding: 4px 10px; font-size: 11px; font-weight: 700; cursor: pointer;
+  border: 1px solid var(--line); background: none; color: var(--muted);
+}
+.zn-reset-btn:hover { border-color: var(--red); color: var(--red); }
+
+/* 話題を追加フォーム */
+.zn-add-details {
+  margin: 10px 0 0;
+  border: 1px dashed var(--line);
+}
+.zn-add-details summary {
+  padding: 8px 14px; cursor: pointer; font-size: 12px; font-weight: 700;
+  color: var(--muted); list-style: none; user-select: none;
+}
+.zn-add-details summary::-webkit-details-marker { display: none; }
+.zn-add-details[open] summary { border-bottom: 1px dashed var(--line); }
+.zn-add-form {
+  display: flex; gap: 8px; padding: 12px 14px; flex-wrap: wrap; align-items: center;
+}
+.zn-add-select {
+  padding: 7px 10px; font-size: 13px; border: 1px solid var(--line);
+  background: var(--field); color: var(--text); flex-shrink: 0;
+}
+.zn-add-input {
+  flex: 1; min-width: 180px; padding: 7px 10px; font-size: 13px;
+  border: 1px solid var(--line); background: var(--field); color: var(--text);
+}
+.zn-add-input:focus, .zn-add-select:focus { outline: 2px solid var(--seal); outline-offset: -1px; }
+.zn-add-submit {
+  padding: 7px 18px; font-size: 13px; font-weight: 800; cursor: pointer;
+  border: 1px solid var(--seal); background: var(--seal); color: #fff;
+}
+.zn-add-submit:hover { opacity: 0.82; }
+
+/* トースト通知 */
+.zn-toast {
+  position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(12px);
+  background: var(--line-strong); color: var(--paper);
+  padding: 9px 22px; font-size: 13px; font-weight: 700;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 9999; white-space: nowrap;
+}
+.zn-toast.visible { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 @media (max-width: 480px) {
   .zn-grid { grid-template-columns: 1fr; }

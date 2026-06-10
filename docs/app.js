@@ -207,6 +207,9 @@ const state = {
   quickrefQuery: "",
   zatsudaneCategory: "all",
   zatsudanePicks: [],
+  znHideUsed: false,
+  znUsed: new Set(),
+  znCustom: [],
 };
 
 function loadPrefs() {
@@ -220,6 +223,7 @@ function loadPrefs() {
       quickrefQuery:    saved.quickrefQuery     || state.quickrefQuery,
     });
   } catch { /* 無視 */ }
+  znLoadStorage();
 }
 function savePrefs() {
   try {
@@ -229,6 +233,18 @@ function savePrefs() {
       quickrefCategory: state.quickrefCategory, quickrefQuery: state.quickrefQuery,
     }));
   } catch { /* 無視 */ }
+}
+
+function znLoadStorage() {
+  try {
+    state.znUsed   = new Set(JSON.parse(localStorage.getItem("mydash:znUsed")   || "[]"));
+    state.znCustom = JSON.parse(localStorage.getItem("mydash:znCustom") || "[]");
+  } catch { state.znUsed = new Set(); state.znCustom = []; }
+}
+function znSaveUsed()   { try { localStorage.setItem("mydash:znUsed",   JSON.stringify([...state.znUsed]));   } catch {} }
+function znSaveCustom() { try { localStorage.setItem("mydash:znCustom", JSON.stringify(state.znCustom));      } catch {} }
+function getAllZatsudane() {
+  return [...ZATSUDANE, ...state.znCustom.map((z) => ({ ...z, isCustom: true }))];
 }
 
 const el = {
@@ -785,64 +801,108 @@ function renderQuickref() {
 // ⑤ 雑談ネタ
 // =========================================================
 function heroZatsudane() {
-  const cats = [...new Set(ZATSUDANE.map((z) => z.cat))];
-  heroStat("話題数", ZATSUDANE.length, `${cats.length} カテゴリ`);
+  const all  = getAllZatsudane();
+  const cats = [...new Set(all.map((z) => z.cat))];
+  heroStat("話題数", all.length, `${cats.length} カテゴリ`);
 }
 
 function znPickNew() {
-  const pool = state.zatsudaneCategory === "all"
-    ? ZATSUDANE
-    : ZATSUDANE.filter((z) => z.cat === state.zatsudaneCategory);
+  let pool = getAllZatsudane();
+  if (state.zatsudaneCategory !== "all") pool = pool.filter((z) => z.cat === state.zatsudaneCategory);
+  if (state.znHideUsed) pool = pool.filter((z) => !state.znUsed.has(z.text));
   state.zatsudanePicks = znShuffle(pool).slice(0, ZN_SHOW);
 }
+
+const ZN_CAT_COLORS = {
+  "お酒・バー":    "zn-col-bar",
+  "旅行・食":      "zn-col-trip",
+  "エンタメ・趣味":"zn-col-ent",
+  "価値観・人生":  "zn-col-life",
+  "最近どう？":    "zn-col-now",
+  "どっちが好き？":"zn-col-which",
+};
 
 function renderZatsudane() {
   if (!state.zatsudanePicks.length) znPickNew();
 
-  const cats = ["all", ...new Set(ZATSUDANE.map((z) => z.cat))];
+  const all  = getAllZatsudane();
+  const cats = ["all", ...new Set(all.map((z) => z.cat))];
   const catChips = cats.map((c) => {
     const label = c === "all" ? "すべて" : c;
-    const count = c === "all" ? ZATSUDANE.length : ZATSUDANE.filter((z) => z.cat === c).length;
+    const pool  = c === "all" ? all : all.filter((z) => z.cat === c);
+    const avail = state.znHideUsed ? pool.filter((z) => !state.znUsed.has(z.text)).length : pool.length;
     return `<button class="chip ${state.zatsudaneCategory === c ? "active" : ""}" data-zncat="${escapeAttribute(c)}" type="button">
-      ${escapeHtml(label)}<small>${count}</small>
-    </button>`;
+      ${escapeHtml(label)}<small>${avail}</small></button>`;
   }).join("");
 
-  const catColors = {
-    "お酒・バー":    "zn-col-bar",
-    "旅行・食":      "zn-col-trip",
-    "エンタメ・趣味":"zn-col-ent",
-    "価値観・人生":  "zn-col-life",
-    "最近どう？":    "zn-col-now",
-    "どっちが好き？":"zn-col-which",
-  };
-
-  const cards = state.zatsudanePicks.map((z, i) => {
-    const colorCls = catColors[z.cat] || "";
-    return `<div class="zn-card ${colorCls}" data-idx="${i}">
-      <span class="zn-cat-badge">${escapeHtml(z.cat)}</span>
+  const cards = state.zatsudanePicks.map((z) => {
+    const colorCls = z.isCustom ? "zn-col-custom" : (ZN_CAT_COLORS[z.cat] || "");
+    const isUsed   = state.znUsed.has(z.text);
+    const customBadge = z.isCustom ? `<span class="zn-my-badge">マイ</span>` : "";
+    return `<div class="zn-card ${colorCls}${isUsed ? " zn-used" : ""}">
+      <div class="zn-card-head">
+        <span class="zn-cat-badge">${escapeHtml(z.cat)}</span>${customBadge}
+      </div>
       <p class="zn-text">${escapeHtml(z.text)}</p>
+      <div class="zn-card-actions">
+        <button class="zn-copy-btn" data-text="${escapeAttribute(z.text)}" type="button">コピー</button>
+        <button class="zn-used-btn${isUsed ? " on" : ""}" data-text="${escapeAttribute(z.text)}" type="button">
+          ${isUsed ? "✓ 使用済" : "使った"}
+        </button>
+        ${z.isCustom ? `<button class="zn-del-btn" data-text="${escapeAttribute(z.text)}" type="button">削除</button>` : ""}
+      </div>
     </div>`;
   }).join("");
 
-  const poolSize = state.zatsudaneCategory === "all"
-    ? ZATSUDANE.length
-    : ZATSUDANE.filter((z) => z.cat === state.zatsudaneCategory).length;
+  const poolSize = (() => {
+    let p = all;
+    if (state.zatsudaneCategory !== "all") p = p.filter((z) => z.cat === state.zatsudaneCategory);
+    if (state.znHideUsed) p = p.filter((z) => !state.znUsed.has(z.text));
+    return p.length;
+  })();
+
+  const builtinCats = [...new Set(ZATSUDANE.map((z) => z.cat))];
+  const catOptions  = [...builtinCats, "マイカテゴリ"].map((c) =>
+    `<option value="${escapeAttribute(c)}">${escapeHtml(c)}</option>`).join("");
 
   el.body.innerHTML = `
     <div class="zn-toolbar">
-      <button class="zn-shuffle-btn" id="znShuffleBtn" type="button">
-        シャッフル
-      </button>
-      <span class="zn-counter">${state.zatsudanePicks.length} 件表示中 / 全 ${poolSize} 件</span>
+      <button class="zn-shuffle-btn" id="znShuffleBtn" type="button">シャッフル</button>
+      <label class="zn-hide-toggle">
+        <input type="checkbox" id="znHideUsedChk"${state.znHideUsed ? " checked" : ""}>
+        使った話題を隠す
+      </label>
+      <span class="zn-counter">${state.zatsudanePicks.length} 件表示 / ${poolSize} 件${state.znUsed.size ? ` （使用済 ${state.znUsed.size} 件）` : ""}</span>
+      ${state.znUsed.size ? `<button class="zn-reset-btn" id="znResetBtn" type="button">使用済をリセット</button>` : ""}
     </div>
     <div class="chips" id="znChips">${catChips}</div>
+
+    <details class="zn-add-details" id="znAddDetails">
+      <summary>＋ 話題を追加する</summary>
+      <form class="zn-add-form" id="znAddForm" autocomplete="off">
+        <select id="znAddCat" class="zn-add-select">${catOptions}</select>
+        <input id="znAddText" class="zn-add-input" type="text" placeholder="話題のテキストを入力" maxlength="100">
+        <button type="submit" class="zn-add-submit">追加</button>
+      </form>
+    </details>
+
     <div class="zn-grid" id="znGrid">${cards}</div>`;
 
+  // イベント
   document.querySelector("#znShuffleBtn")?.addEventListener("click", () => {
     znPickNew();
     renderZatsudane();
-    document.querySelector("#znGrid")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  document.querySelector("#znHideUsedChk")?.addEventListener("change", (e) => {
+    state.znHideUsed = e.target.checked;
+    state.zatsudanePicks = [];
+    renderZatsudane();
+  });
+  document.querySelector("#znResetBtn")?.addEventListener("click", () => {
+    state.znUsed.clear();
+    znSaveUsed();
+    state.zatsudanePicks = [];
+    renderZatsudane();
   });
   document.querySelector("#znChips")?.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-zncat]");
@@ -851,6 +911,58 @@ function renderZatsudane() {
     state.zatsudanePicks = [];
     renderZatsudane();
   });
+  document.querySelector("#znAddForm")?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const cat  = document.querySelector("#znAddCat").value.trim();
+    const text = document.querySelector("#znAddText").value.trim();
+    if (!text) return;
+    state.znCustom.push({ cat, text });
+    znSaveCustom();
+    document.querySelector("#znAddText").value = "";
+    document.querySelector("#znAddDetails").open = false;
+    showToast("話題を追加しました");
+    state.zatsudanePicks = [];
+    renderZatsudane();
+    heroZatsudane();
+  });
+  document.querySelector("#znGrid")?.addEventListener("click", (e) => {
+    const copyBtn = e.target.closest(".zn-copy-btn");
+    if (copyBtn) {
+      navigator.clipboard?.writeText(copyBtn.dataset.text).then(() => showToast("コピーしました！")).catch(() => showToast("コピーできませんでした"));
+      return;
+    }
+    const usedBtn = e.target.closest(".zn-used-btn");
+    if (usedBtn) {
+      const t = usedBtn.dataset.text;
+      if (state.znUsed.has(t)) { state.znUsed.delete(t); } else { state.znUsed.add(t); }
+      znSaveUsed();
+      renderZatsudane();
+      return;
+    }
+    const delBtn = e.target.closest(".zn-del-btn");
+    if (delBtn) {
+      const t = delBtn.dataset.text;
+      state.znCustom = state.znCustom.filter((z) => z.text !== t);
+      znSaveCustom();
+      state.zatsudanePicks = [];
+      renderZatsudane();
+      heroZatsudane();
+    }
+  });
+}
+
+function showToast(msg) {
+  let toast = document.querySelector("#znToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "znToast";
+    toast.className = "zn-toast";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.classList.add("visible");
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => toast.classList.remove("visible"), 1800);
 }
 
 function renderQrRow(it) {
