@@ -906,7 +906,14 @@ h1 {
 .zn-col-life   { border-left: 3px solid var(--muted); }
 .zn-col-now    { border-left: 3px solid #8b5e3c; }
 .zn-col-which  { border-left: 3px solid var(--red); }
-.zn-col-custom { border-left: 3px solid var(--green); }
+.zn-col-custom     { border-left: 3px solid var(--green); }
+.zn-col-hineri     { border-left: 3px solid #9b6dc9; }
+.zn-col-tetsugaku  { border-left: 3px solid #4a7fa8; }
+.zn-col-culture    { border-left: 3px solid #c97845; }
+
+.zn-col-hineri    .zn-cat-badge { color: #9b6dc9; }
+.zn-col-tetsugaku .zn-cat-badge { color: #4a7fa8; }
+.zn-col-culture   .zn-cat-badge { color: #c97845; }
 
 /* 使用済カード */
 .zn-card.zn-used { opacity: 0.42; }
