@@ -1,13 +1,23 @@
 {
   "items": [
     {
+      "id": "cc_244bcd46",
+      "title": "Claude Fable 5を実測した：品質はOpus 4.8と同点、差は「簡潔さ・コストの振れ幅・フォールバック」",
+      "url": "https://zenn.dev/localai_lab/articles/1bc82d2bf61124",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.414862+00:00",
+      "excerpt": "Claude Fable 5が2026年6月9日に一般公開された。スペック解説は出尽くしているので、ここでやるのは1つだけ。前回Opus 4.8に受けさせた隠しテストを、一字一句変えずにFable 5へ流用する。同じ問題・同じ採点ロジック・同じ字数カウントで、最上位モデルの世代交代で何が変わるかを実測した。 ! 結論から： 品質スコアは動かなかった（semver隠しテスト15項目、全8run 15"
+    },
+    {
       "id": "cc_d2ea1963",
       "title": "モデルを強くすれば、観点作成の漏れは消えるのか — 同じ仕様でClaude各モデルとCodexに10回ずつやらせた",
       "url": "https://zenn.dev/mumihatsu/articles/6a031d5a5cf172",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538455+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414786+00:00",
       "excerpt": "1. はじめに — 前回の続き、今度はモデルを替える どーも、りょうさんです。自分はQAエンジニアで、普段のテスト設計に生成AI（Claude）を使っています。前回の記事では、同じ仕様・同じプロンプト・同じパイプラインでも出力は揺らぐ——生成AIの非決定性を、手元のテスト設計パイプラインで測りきりました。結論はこうでした。 目立つルールは10回中10回出る（驚くほど揺らがない）。 危険は2経路に局"
     },
     {
@@ -17,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538391+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414722+00:00",
       "excerpt": "何が起きたか Claude Codeで新しいSkillを作ろうとしたら、いきなりこのメッセージが出ました。 There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run /model to pick a different model"
     },
     {
@@ -27,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538322+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414650+00:00",
       "excerpt": "はじめに 2026年6月9日、AnthropicがClaude Fable 5を公開しました。コーディング・記憶・長文脈・視覚が強化された汎用モデルです。本記事では、Anthropic APIからClaude Fable 5を呼び出す最小コードと、長文脈・コード生成を試すサンプルを紹介します。 ! 本記事のモデル名・パラメータは記事執筆時点（2026-06-13）の想定です。実際の利用時は公式ドキ"
     },
     {
@@ -37,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538189+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414506+00:00",
       "excerpt": "いきなりSFみたいな事件が起きた Anthropic社がリリースしてまだ3日くらいの最新強力モデル、Claude Fable 5が強制的に停止 されました。 理由は、米国政府の輸出規制です。ざっくり言うと、 「このレベルのAIを、外国籍の人に使わせるのは国家安全保障上まずい」 という判断らしいです。 いや、すごい時代になりましたね。 AIの進化スピードがSFだと思っていたら、止め方までSFになって"
     },
     {
@@ -47,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538124+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414435+00:00",
       "excerpt": "! この記事は シリーズ #1 です。 いきなり結論 素人でも、Claudeと協力すれば自作WebサービスをProxmox LXC上に立てられます。 デモデータですよ？デモデータですよ？ 最終的にはRust（Axum）+ React（Vite）+ PostgreSQLで作った家計簿アプリ「PawLedger」を自宅ホームラボで動かすところまでたどり着きました。このシリーズでは、そこに至るまでの経緯"
     },
     {
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538063+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414345+00:00",
       "excerpt": "通説では、使っているモデルが使えなくなるときは猶予がある。ベンダーが deprecation を予告して、数ヶ月の移行期間があって、その間に新しいモデル名へ差し替えればいい。少なくとも自分はそう思って、model=\"claude-fable-5\" をコードに直書きしていた。 実際は一晩だった。 6月12日、Anthropic は米政府の輸出管理指令を受けて、Fable 5 と Mythos 5 へ"
     },
     {
@@ -67,88 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.538000+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.414271+00:00",
       "excerpt": "2026年6月12日、米国政府はAnthropicの最上位AIモデル「Fable 5」と「Mythos 5」について、外国政府・外国企業・外国人による利用を輸出管理の対象とした。対象には、米国内にいる外国籍のAnthropic社員まで含まれる。 その結果、Anthropicは規制を確実に守るため、対象モデルを全世界で一時停止した。日本の利用者も、米国の同盟国であるかどうかにかかわらず、最先端モデル"
-    },
-    {
-      "id": "cc_358f776c",
-      "title": "Claude Code のセッション間引き継ぎメモ（handover.md）を「決定ログ」にしたら開発が捗るようになった",
-      "url": "https://zenn.dev/just2enough/articles/a0f050bfd25c4d",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.537901+00:00",
-      "excerpt": "セッションからセッションへ、どうつなぐ？ Claude Code を使っていて、みんなが一度はぶつかる悩みがセッションをまたぐと文脈が消える問題ではないでしょうか。昨日「なぜこの設計にしたか」を散々議論しても、翌日の Claude はそれを知りません。同じ検討をもう一度させたり、せっかく潰した選択肢をまた提案されたり。「続きから」がうまくつながりません。 自分なりの答えとして作ったのが、引き継ぎメ"
-    },
-    {
-      "id": "cc_c57a2e8e",
-      "title": "Claude Code のHandover.md『決定ログ』を実際の開発で運用してみた（実例編）",
-      "url": "https://zenn.dev/just2enough/articles/0d31c9d5bf3f52",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.537835+00:00",
-      "excerpt": "設計の話はわかった、で、実際どうなの？ 前回の記事で、Claude Code のセッション間引き継ぎを docs/handover.md でやる話を書きました。要点だけ整理すると、handover は2層構造で、先頭は「次セッションで即再開するためのブロック」、その下が「あとで参照する決定ログ」。決定ログには「決定」だけでなく**「不採用の案」と「なぜそう決めたか（理由）」を並べて残す**——とい"
-    },
-    {
-      "id": "cc_32d7c5c2",
-      "title": "Claude Code の /goal で「完了まで自律実行」を実現する",
-      "url": "https://zenn.dev/tatsuqumo/articles/d10494cb4a440e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.537761+00:00",
-      "excerpt": "はじめに：毎ターン「続けて」と打つのが面倒 Claude Code でテスト修正やモジュール移行のような長い作業をしていると、こんな体験をしませんか。 Claude がテストを1つ直して止まる → 「続けて」 → もう1つ直して止まる → 「続けて」 → まだ3つ残ってる → 「続けて」… auto mode はツール呼び出しの承認を省いてくれますが、ターンが終わるたびに止まるのは変わりません。1"
-    },
-    {
-      "id": "cc_b07ff843",
-      "title": "Claude Codeに長期記憶を持たせる4層アーキテクチャ — 「毎回ゼロから説明」をやめた話",
-      "url": "https://zenn.dev/bokuwalily/articles/f534402187bd07",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.489029+00:00",
-      "excerpt": "Claude Codeはセッションを跨ぐと忘れます。新しいセッションを開くたびに、プロジェクトの背景・過去に決めたこと・自分の好みを説明し直す。これを数ヶ月続けた結果、「記憶を1つのメモに全部書く」のではなく、鮮度と読み手で4層に分ける設計に落ち着きました。 この記事では、その4層アーキテクチャの設計・実装・運用して踏んだ落とし穴を書きます。最後に「今日30分で真似できる最小構成」を置いておくので"
-    },
-    {
-      "id": "cc_6af6c5a0",
-      "title": "【Claude Code活用】コードベース探索を任せる",
-      "url": "https://zenn.dev/pekopugu/articles/agent01-b3-codebase-search",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488941+00:00",
-      "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 Claude Code の探索能力 Claude Code はコードベース全体を把握してから作業を開始する習慣を持っています。 典型的な探索の流れは次のとおりです。 list_files（ディレクトリ構造の把握） ↓ read_file（関連ファイルの内容確認） ↓ searc"
-    },
-    {
-      "id": "cc_d5029cad",
-      "title": "Claude Fable 5は「性能の話」より「リミッターの話」として読むと面白い",
-      "url": "https://zenn.dev/taketsuyo/articles/36f11a9ea33392",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488836+00:00",
-      "excerpt": "正直、最初は「またClaudeの新モデルか」くらいに見ていた。 でもFable 5とMythos 5の関係を見て、これは単なる性能アップではなく、AIの“出し方”が変わった話だと思った。 今回のポイントはかなりシンプルだ。 Fable 5は、一般ユーザーにも使えるMythos級モデル。 Mythos級というのは、従来のOpusより上に置かれる高性能ティアで、長くて複雑なタスクほど差が出るタイプのモ"
-    },
-    {
-      "id": "cc_6b6f7299",
-      "title": "Claude Code で使える MCP サーバーを試してみた——実用的だったものを整理する",
-      "url": "https://zenn.dev/long910/articles/2026-06-13-mcp-servers-practical",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488769+00:00",
-      "excerpt": "はじめに MCP（Model Context Protocol）という単語を最近よく見かけるようになりました。Anthropic が 2024年末にオープンソースとして公開した規格で、「AI モデルと外部ツールをつなぐ USB みたいなもの」という説明をよく目にします。 気になって Claude Code に実際に入れて試してみたところ、思っていたより使えるものが多かったので整理しておきます。 M"
-    },
-    {
-      "id": "cc_244bcd46",
-      "title": "Claude Fable 5を実測した：品質はOpus 4.8と同点、差は「簡潔さ・コストの振れ幅・フォールバック」",
-      "url": "https://zenn.dev/localai_lab/articles/1bc82d2bf61124",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488695+00:00",
-      "excerpt": "Claude Fable 5が2026年6月9日に一般公開された。スペック解説は出尽くしているので、ここでやるのは1つだけ。前回Opus 4.8に受けさせた隠しテストを、一字一句変えずにFable 5へ流用する。同じ問題・同じ採点ロジック・同じ字数カウントで、最上位モデルの世代交代で何が変わるかを実測した。 ! 結論から： 品質スコアは動かなかった（semver隠しテスト15項目、全8run 15"
     },
     {
       "id": "cc_64ca04eb",
@@ -157,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488575+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.386723+00:00",
       "excerpt": "こんにちは、QAエンジニアの提箸です。 本記事では、開発チームに Claude Code を組み込むなかで「エージェントの責務分離」にたどり着いた経緯を、QA視点でまとめます。AIエージェントを業務に組み込みたいが品質の担保に悩んでいる方、あるいはQAという立場でAI活用にどう関与すべきか模索している方の参考になれば幸いです。 （注釈）Claude Code の利用は、開発チームのガバナンスに則っ"
     },
     {
@@ -167,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488506+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.386657+00:00",
       "excerpt": "📦 テンプレレポジトリ: https://github.com/sugupoko/xxxx_kaggle_starterRepository 📝 前作（v2.0 / Kaggleアドベントカレンダー2025）: https://zenn.dev/sugupoko/articles/1c985219823589 これは何？ 🤔 Kaggle（や grand-challenge.org / CodaB"
     },
     {
@@ -177,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488385+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.386542+00:00",
       "excerpt": "AIはなぜ毎回忘れるのか。その問題をObsidianで解決した記録です。 この記事の対象読者 Obsidianをすでに使っている方 GitHubアカウントを持っている方 Claude Pro（$20/月）またはMax（$100/月）に契約済みの方 Macのターミナルに抵抗がない方 上記に当てはまらない方は、記事末尾の「事前準備」（有料）セクションを先にご確認ください。 この記事を読んでできるように"
     },
     {
@@ -187,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488317+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.386480+00:00",
       "excerpt": "これまで頼りにしていた「Claude code」を、コストパフォーマンスの観点から見直し、新たに「Codex」への移行を試みました。思考の質ではClaudeに軍配が上がると感じていますが、定型業務を回す上でのCodexの機動力は侮れません。 移行作業の記録として、直面した課題と解決のプロセスをまとめます。 移行の記録：環境整備と構造の翻訳 作業項目 内容と所感 構造の定義 .toml 設定と Ag"
     },
     {
@@ -197,8 +127,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-13T14:14:42.488227+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.386395+00:00",
       "excerpt": "! Claude Fable 5 は現在使えません。Anthropic の発表によれば、この試行を終えた直後の 2026-06-12（米国時間）、Fable 5 は米国政府の輸出管理指令への対応として利用できなくなり、代替モデルの提供もないとされています。本記事では、この規制判断の是非や背景評価には踏み込みません。Fable 5 が使えなくなる直前に取れたコーディング特性の技術記録としてご覧くださ"
+    },
+    {
+      "id": "cc_62c71a6d",
+      "title": "Claude Code Hooks×Routines×Workflowで開発自動化パイプラインを構築する",
+      "url": "https://zenn.dev/0h_n0/articles/3a4fdda1d5c743",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.386313+00:00",
+      "excerpt": "Claude Code Hooks×Routines×Workflowで開発自動化パイプラインを構築する この記事でわかること Claude Codeの自動化機能をHooks・Routines・Dynamic Workflowsの3層で整理し、使い分けの判断基準を理解できる settings.jsonにHooksを設定して、コード整形・コマンドガード・通知を自動化する実装パターンを習得できる Ro"
+    },
+    {
+      "id": "cc_358f776c",
+      "title": "Claude Code のセッション間引き継ぎメモ（handover.md）を「決定ログ」にしたら開発が捗るようになった",
+      "url": "https://zenn.dev/just2enough/articles/a0f050bfd25c4d",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.386249+00:00",
+      "excerpt": "セッションからセッションへ、どうつなぐ？ Claude Code を使っていて、みんなが一度はぶつかる悩みがセッションをまたぐと文脈が消える問題ではないでしょうか。昨日「なぜこの設計にしたか」を散々議論しても、翌日の Claude はそれを知りません。同じ検討をもう一度させたり、せっかく潰した選択肢をまた提案されたり。「続きから」がうまくつながりません。 自分なりの答えとして作ったのが、引き継ぎメ"
+    },
+    {
+      "id": "cc_c57a2e8e",
+      "title": "Claude Code のHandover.md『決定ログ』を実際の開発で運用してみた（実例編）",
+      "url": "https://zenn.dev/just2enough/articles/0d31c9d5bf3f52",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.386167+00:00",
+      "excerpt": "設計の話はわかった、で、実際どうなの？ 前回の記事で、Claude Code のセッション間引き継ぎを docs/handover.md でやる話を書きました。要点だけ整理すると、handover は2層構造で、先頭は「次セッションで即再開するためのブロック」、その下が「あとで参照する決定ログ」。決定ログには「決定」だけでなく**「不採用の案」と「なぜそう決めたか（理由）」を並べて残す**——とい"
+    },
+    {
+      "id": "cc_55c19f98",
+      "title": "禁止事項はCLAUDE.mdに書いて、settings.jsonで二重ロックする",
+      "url": "https://zenn.dev/shunaibuilder/articles/4da9252a4a62a4",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.386104+00:00",
+      "excerpt": "コーディング面倒くさい勢のSEです。「CLAUDE.mdにルールを書けばいい」と思っていたら、「書いてあっても実行されることがある」と言われて慌てて設定を見直した話を書きます。 はじめに：CLAUDE.mdのルールって「お願いレベル」だった コピペ de UI というサイトを一人でClaude Codeを使って運営しています。UIコンポーネントの動くデモ・サンプルソース・AIプロンプトを置くやつで"
+    },
+    {
+      "id": "cc_4719f418",
+      "title": "“作る”で終わらせない — Claude Code に何をどう指示して個人アプリを本番公開まで持っていくか",
+      "url": "https://zenn.dev/indiedev_lab/articles/43926f5ffddac5",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.386042+00:00",
+      "excerpt": "! この記事は note 版（個人開発ラボ）を Zenn 向けに再構成したものです。本文の判断・勘所はそのまま、コードと設定は Zenn のシンタックスハイライトで読めるようにしています。 はじめに — 「動いた」と「使える」のあいだには崖がある Claude Code を使うと、たいていのアプリは数時間で「動くもの」になります。ここはもう、特別なことではなくなりました。 ただ、自分がずっと引っか"
+    },
+    {
+      "id": "cc_32d7c5c2",
+      "title": "Claude Code の /goal で「完了まで自律実行」を実現する",
+      "url": "https://zenn.dev/tatsuqumo/articles/d10494cb4a440e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.385972+00:00",
+      "excerpt": "はじめに：毎ターン「続けて」と打つのが面倒 Claude Code でテスト修正やモジュール移行のような長い作業をしていると、こんな体験をしませんか。 Claude がテストを1つ直して止まる → 「続けて」 → もう1つ直して止まる → 「続けて」 → まだ3つ残ってる → 「続けて」… auto mode はツール呼び出しの承認を省いてくれますが、ターンが終わるたびに止まるのは変わりません。1"
+    },
+    {
+      "id": "cc_a9035f1f",
+      "title": "Claude Codeに週次レポートをMarkdownで生成させてそのままZennに投稿する",
+      "url": "https://zenn.dev/web_benriya/articles/claude-code-weekly-report-markdown-zenn",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-13T19:45:27.385849+00:00",
+      "excerpt": "はじめに 「分析結果をブログ記事として発信したいけど、書く時間がない」 データ分析の結果を社内共有するだけでなく、Zennなどの技術ブログに発信することで、ポートフォリオの蓄積やブランディングにつながります。しかし、分析→記事執筆→投稿という一連の流れは工数がかかるものです。 本記事では、BigQueryから週次データを取得し、Claude CodeでMarkdownレポートを自動生成し、Zenn"
     },
     {
       "id": "cc_5f4ebca2",
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-13T14:14:42.774077+00:00",
+      "fetchedAt": "2026-06-13T19:45:27.660164+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -217,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-13T14:14:42.958050+00:00",
+      "fetchedAt": "2026-06-13T19:45:28.125988+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -227,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-13T14:14:42.958116+00:00",
+      "fetchedAt": "2026-06-13T19:45:28.126053+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -237,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-13T14:14:42.958183+00:00",
+      "fetchedAt": "2026-06-13T19:45:28.126119+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-13T14:14:42.958197+00:00"
+  "lastCollection": "2026-06-13T19:45:28.126132+00:00"
 }
