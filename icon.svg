@@ -1,13 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
-  <!-- 紙の背景（ラボラトリー紙テーマ） -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- 背景 -->
   <rect width="1024" height="1024" fill="#fbfaf6"/>
-  <!-- 外枠（墨色・直角） -->
-  <rect x="60" y="60" width="904" height="904" fill="none" stroke="#242424" stroke-width="12"/>
-  <!-- 内枠（アクセントグリーン） -->
-  <rect x="96" y="96" width="832" height="832" fill="none" stroke="#3f6b54" stroke-width="6"/>
-  <!-- 母（明朝体・墨色） -->
-  <text x="480" y="650" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="540" font-weight="600" fill="#242424" text-anchor="middle">母</text>
-  <!-- 緑の印（朱印風・艦） -->
-  <rect x="688" y="688" width="180" height="180" fill="#3f6b54"/>
-  <text x="778" y="822" font-family="Hiragino Mincho ProN, YuMincho, serif" font-size="130" fill="#fbfaf6" text-anchor="middle">艦</text>
+
+  <!-- 船体メインハル -->
+  <path d="M 88,524
+           C 110,480 170,452 210,452
+           L 872,452
+           L 934,488
+           L 934,580
+           L 210,590
+           C 160,590 110,558 88,524 Z"
+        fill="#3f6b54"/>
+
+  <!-- 前砲塔台座 -->
+  <rect x="258" y="428" width="114" height="28" rx="5" fill="#3f6b54"/>
+
+  <!-- 前砲身（2本） -->
+  <rect x="64" y="434" width="208" height="12" rx="6" fill="#3f6b54"/>
+  <rect x="64" y="452" width="208" height="12" rx="6" fill="#3f6b54"/>
+
+  <!-- 艦橋（台形） -->
+  <path d="M 472,452 L 494,282 L 574,282 L 600,452 Z" fill="#3f6b54"/>
+
+  <!-- 煙突 -->
+  <rect x="620" y="346" width="42" height="108" rx="6" fill="#3f6b54"/>
+
+  <!-- 後砲塔台座 -->
+  <rect x="696" y="428" width="106" height="28" rx="5" fill="#3f6b54"/>
+
+  <!-- 後砲身（2本） -->
+  <rect x="800" y="434" width="168" height="12" rx="6" fill="#3f6b54"/>
+  <rect x="800" y="452" width="168" height="12" rx="6" fill="#3f6b54"/>
 </svg>
