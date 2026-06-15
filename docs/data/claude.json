@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "id": "cc_a08882a1",
-      "title": "Claude Code の Dynamic Workflow で「数十エージェント並列」を手に入れる",
-      "url": "https://zenn.dev/tatsuqumo/articles/5f2568b355dfcb",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.318094+00:00",
-      "excerpt": "はじめに：subagent では足りない場面がある Claude Code の subagent で調査やレビューを並列化したことがある人は多いでしょう。3〜5 件のタスクを投げて要約だけ受け取る体験は快適です。でも、こんな場面でひっかかりませんか。 50 ファイルの import を一括移行したい。全 API エンドポイントの認証漏れを網羅チェックしたい。リサーチ結果を複数ソースでクロスチェック"
-    },
-    {
       "id": "cc_9e5e9974",
       "title": "「どうしてわかってくれないの！？」──イライラを検知してClaudeが自己強化する仕組み",
       "url": "https://zenn.dev/gn3ko/articles/051ac2f5daa519",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.318013+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.250291+00:00",
       "excerpt": "はじめに こんにちは。私はClaudeが大好きです。 しかし使っていて、こんな経験はないでしょうか？ 前回はうまく伝わったのに、新しい会話を始めたら、また一から同じ説明をしている。 「これやめろ！」と何度言っても、しばらくするとまた同じことを繰り返す。 指示を細かく書き足していったら、いつのまにか指示文が長大になって・・・ 私はこれをしくみで解いてきました。 今のClaudeは、私にとって使うほど"
+    },
+    {
+      "id": "cc_b9d786de",
+      "title": "CLAUDE.mdを太らせるな——ルールは必要な瞬間に読ませろ",
+      "url": "https://zenn.dev/generald/articles/claude-rules-context-diet",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-15T05:07:02.250176+00:00",
+      "excerpt": "よう、野郎ども。 今日は CLAUDE.md の話だ。正確には、Claude Code に食わせるルールをどう痩せさせるかの話だ。 ルールは増える。便利だからな。 「この repo ではこうしてくれ」 「PR コメントはこう返せ」 「settings.json を触る時はこの罠を思い出せ」 「レビュー投稿の前にこの作法を読め」 全部、役に立つ。だが全部を毎回読む必要はねえ。船に積む樽が増えすぎると"
     },
     {
       "id": "cc_939bc988",
@@ -27,8 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.317870+00:00",
-      "excerpt": "GitHubのpushをトリガーに、リポジトリのドキュメントをClaudeで自動更新するSaaSを個人で作っている。 「WebhookでpushのイベントをLambdaで受け取って、Claudeに渡せばいいだけ」と最初は思っていた。実際に作ると、署名検証、大きいリポジトリへの対応、Webhookの重複処理、Lambdaのタイムアウト回避など、ちゃんと考えないといけないところがいくつかあった。詰まっ"
+      "fetchedAt": "2026-06-15T05:07:02.250096+00:00",
+      "excerpt": "GitHubのpushをトリガーに、リポジトリのドキュメントをClaudeで自動更新するSaaS（RepoCarta）を個人で作っている。 「WebhookでpushのイベントをLambdaで受け取って、Claudeに渡せばいいだけ」と最初は思っていた。実際に作ると、署名検証、大きいリポジトリへの対応、Webhookの重複処理、Lambdaのタイムアウト回避など、ちゃんと考えないといけないところが"
     },
     {
       "id": "cc_68974fd8",
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.317795+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.250021+00:00",
       "excerpt": "半年かかった。 「京都や東京の次、どこに行けばいい？」という問いに、ちゃんと答えられるものがないと気づいたのが始まりだった。 なぜ作ったのか 外国人の友人から、よく聞かれる。 東京も京都も行ったあとで、「次はどこがいい？」と。彼らが求めているのはランキングじゃなくて、どこかに連れて行ってくれるような話だと思う。でも既存の旅行サイトには、過疎地のことはほとんど何も書いていない。 書かれていない場所に"
     },
     {
@@ -47,28 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.317657+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.249878+00:00",
       "excerpt": "こんにちは。 最近、Harness Starter Kit に Codex と Claude Code のサポートを追加しました。これにより、Agent Skills / plugin を通じて関連するワークフローを使えるようになりました。 Harness Starter Kit は、coding agent がプロジェクト内で繰り返し起こしがちな問題を、長期的に維持できるリポジトリのルール、チェ"
     },
     {
-      "id": "cc_2a155a0a",
-      "title": "WordPressから静的サイトへ。Astro + Firebase + Claudeでトリミングサロンのサイトを作った話",
-      "url": "https://zenn.dev/orionn/articles/trimming-salon-astro-firebase",
+      "id": "cc_f6b2f0fd",
+      "title": "26個作って収益ゼロだった個人開発者が、Claude Codeだけでアフィリエイトサイトを作り直した話",
+      "url": "https://zenn.dev/youtyandesu/articles/a3df6e9587e966",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.317572+00:00",
-      "excerpt": "はじめに 知人が営む犬猫専門トリミングサロン「わんにゃんサロンMOON」のWebサイトを制作しました。 最初は別ブログに相乗りする形で WordPress で作り始めたのですが、要件を詰めていくうちに方向性が変わり、最終的に Astro + Firebase Hosting の静的サイト に着地しました。 この記事では、 なぜWordPressをやめて静的サイトにしたのか AstroとFireba"
-    },
-    {
-      "id": "cc_b9d786de",
-      "title": "CLAUDE.mdを太らせるな——ルールは必要な瞬間に読ませろ",
-      "url": "https://zenn.dev/generald/articles/claude-rules-context-diet",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286527+00:00",
-      "excerpt": "よう、野郎ども。 今日は CLAUDE.md の話だ。正確には、Claude Code に食わせるルールをどう痩せさせるかの話だ。 ルールは増える。便利だからな。 「この repo ではこうしてくれ」 「PR コメントはこう返せ」 「settings.json を触る時はこの罠を思い出せ」 「レビュー投稿の前にこの作法を読め」 全部、役に立つ。だが全部を毎回読む必要はねえ。船に積む樽が増えすぎると"
+      "fetchedAt": "2026-06-15T05:07:02.249742+00:00",
+      "excerpt": "26個作って収益ゼロだった個人開発者が、 Claude Codeだけでアフィリエイトサイトを作り直した話 最初に白状します 大学生の個人開発者です。 去年から今年にかけて、Next.js + Vercelでアプリを26個作りました。 収益：¥0。 月間訪問者：ほぼ0。 何が間違っていたか 作ることに集中して、「誰かに届ける」ことを後回しにしていました。 タイピングゲーム → 競合が多すぎた シフト"
     },
     {
       "id": "cc_d6e189ff",
@@ -77,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286456+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.176192+00:00",
       "excerpt": "こんにちは、ダックスフントです。 ここ数か月、Xでは「Claude Codeで○○○できて本当にヤバすぎる！」「Claude Codeを使った○○○が海外で大バズ！これやってない人マジで損してる！」「Claude Code開発者が24時間フル稼働のAI組織の作り方を公表してて内容がヤバすぎた」といった投稿を、毎日のように大量に見かけるようになりました。ですが、その中には情報商材への導線に見えるもの"
     },
     {
@@ -87,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286367+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.176129+00:00",
       "excerpt": "Claude Codeで\"動くもの\"を作れる人が、次に直面する「公開・認証・運用・量産」の崖を、実際の指示の型と失敗談ごと乗り越えるための実践書。設定ファイルの暗記でなく「そこに辿り着くための聞き方」を渡す。"
     },
     {
@@ -97,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286321+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.176086+00:00",
       "excerpt": "ふだん使っている Claude Code を、そのまま Discord のボットにできます。公式プラグインを入れて起動オプションを1つ足すだけで、自分の Claude が Discord に常駐し、話しかけても返ってきます。汎用アシスタントとして常駐させてチャンネルに招いた人に使ってもらったり、競技プログラミングの出題のように用途を決めた専用ボットを並べたりできます。API を別に叩く自作ボットで"
     },
     {
@@ -107,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286256+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.176022+00:00",
       "excerpt": "Opus 4.8 にしてから、Claude Code が court とか count みたいな謎の単語を出して、ツール呼び出しが止まる ―― そんなこと、増えていませんか？ しかもタチが悪いのは、対処法として返ってくるのが大体「セッションを変えろ」なこと。そんなことは分かっている。でも、こっちは長く積み上げた会話をどうにか引き継ぎたいのに、その引き継ぎコマンドを打っても court で止まるから"
     },
     {
@@ -117,18 +107,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286176+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175931+00:00",
       "excerpt": "はじめに 結論から言います。 Claude Code の常駐コンテキストを 635 行から 239 行に減らしたら、毎セッションのコストも、バグの見つかり方も変わりました。 私は 1 人会社を経営していて、実務の多くを Claude Code に任せています。要するに「1 人 + AI COO」体制です。 Claude Code を業務で使い込むと、CLAUDE.md や .claude/rule"
-    },
-    {
-      "id": "cc_5d901419",
-      "title": "Claudeのマルチエージェント3系統 — Dynamic Workflows / Agent View / Managed Agents",
-      "url": "https://zenn.dev/mdtechknowledge/articles/claude-code-agent-view-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286092+00:00",
-      "excerpt": "最終更新: 2026-05-31 対象: Claude Code v2.1.139 以降（Pro / Max / Team / Enterprise / API） ステータス: Dynamic Workflows・Agent View はともに Research Preview（UI・挙動は変更され得ます） はじめに — Claude の「マルチエージェント」は3系統ある 2026年5月、Clau"
     },
     {
       "id": "cc_8f9d75dc",
@@ -137,8 +117,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.286019+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175849+00:00",
       "excerpt": "本記事の位置づけ：【必読】Claude マルチエージェントの初期設定はAgent Teams（複数の Claude Code インスタンスをチームとして動かす機能）を扱う マルチエージェント編 でした。本記事はその姉妹記事として、Agent Teams より一段下のレイヤーである サブエージェント（メインエージェントが委任する単一の作業者）にフォーカスします。 なぜ「Explore は read-"
+    },
+    {
+      "id": "cc_5d901419",
+      "title": "Claudeのマルチエージェント3系統 — Dynamic Workflows / Agent View / Managed Agents",
+      "url": "https://zenn.dev/mdtechknowledge/articles/claude-code-agent-view-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-15T05:07:02.175783+00:00",
+      "excerpt": "最終更新: 2026-05-31 対象: Claude Code v2.1.139 以降（Pro / Max / Team / Enterprise / API） ステータス: Dynamic Workflows・Agent View はともに Research Preview（UI・挙動は変更され得ます） はじめに — Claude の「マルチエージェント」は3系統ある 2026年5月、Clau"
     },
     {
       "id": "cc_ba1947ba",
@@ -147,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285948+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175710+00:00",
       "excerpt": "これは 概要編 の 完全版（全部入り） です。当面は無料で公開します。 概要編で「触り」だけ見せた中身 ―― 5つの作図エンジンの実装・ハマり所の解決コード全部・AIとの開発実録（全文） を、コピペで動くレベルでまとめています。 動作サンプル・Excel・全ソース一式（すぐ動く配布セット：バッチ4本＋サンプル＋全コード）は BOOTH にまとめています。 この記事で手に入るもの ✅ Excelの表"
     },
     {
@@ -157,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285873+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175639+00:00",
       "excerpt": "この記事は 無料の概要編 です。「どんな表を書けば、どんな図が出るのか」を実物のスクリーンショットでお見せします。 全コード・サンプルExcel・ダブルクリックで動くセット・AIとの開発実録（全文） は末尾の 全部入り版 にまとめています。 配線図、毎回「手で線を引いて」いませんか？ 機器を四角で描いて、コネクタを置いて、線をまっすぐ引いて、重ならないように曲げて……。 1本ずつ手で引くのは地味に"
     },
     {
@@ -167,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285806+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175569+00:00",
       "excerpt": "概要 claude code勉強用メモ 並列実行のアプローチ https://code.claude.com/docs/ja/agents サブエージェント、エージェントビュー、エージェントチーム、動的ワークフロー の使い分け カスタムサブエージェント https://code.claude.com/docs/ja/sub-agents メリット コンテキストを保持する ことで、探索と実装をメイン"
     },
     {
@@ -177,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285692+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175459+00:00",
       "excerpt": "はじめに 最近、ソフトウェア開発の現場では AI駆動開発 が急速に広がっています。 GitHub Copilot のようなコード補完ツールから始まり、現在では ClaudeCode、OpenAI Codex、Devin、Cursor、Windsurf、Cline など、開発者の作業を支援するさまざまな AI Coding Agent が登場しています。 これらのツールは、単にコードを提案するだけで"
     },
     {
@@ -187,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285615+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175386+00:00",
       "excerpt": "想定読者 Claude Code を使い始めて「勝手にファイルを書き換えられちゃった」「rm -rf を平然と提案された」「会話を続けるうちに途中から話が噛み合わなくなった」を経験した人。 一人で開発を回していて、AI を“管理”する側の仕組みに興味がある人。 はじめに 個人開発（Next.js）とドキュメント管理（Obsidian）で、Claude Code を日常的に使っている。便利なのは間違"
     },
     {
@@ -197,7 +187,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-14T19:47:05.285521+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.175287+00:00",
       "excerpt": "※本記事の内容は2026年6月時点の情報に基づいています。 はじめに 社内のQ&Aチャネルに蓄積された技術的な知見をナレッジDBとして構造化する仕組みを構築していたところ、「Teamsのチャネルメッセージをどうやって全件取得するか」という壁にぶつかりました。 MCPツールでの試行錯誤を経たものの期待通りの結果とならず、だいぶ迂回したやり取りののち、最終的にMS Entraの委任アクセス＋Graph"
     },
     {
@@ -207,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-14T19:47:05.497468+00:00",
+      "fetchedAt": "2026-06-15T05:07:02.542051+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -217,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-14T19:47:05.661042+00:00",
+      "fetchedAt": "2026-06-15T05:07:03.056677+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -227,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-14T19:47:05.661117+00:00",
+      "fetchedAt": "2026-06-15T05:07:03.056739+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -237,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-14T19:47:05.661203+00:00",
+      "fetchedAt": "2026-06-15T05:07:03.056805+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-14T19:47:05.661218+00:00"
+  "lastCollection": "2026-06-15T05:07:03.056820+00:00"
 }
