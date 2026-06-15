@@ -1,464 +1,263 @@
 {
   "entries": [
     {
-      "id": "h_9742219b",
-      "title": "もうプロンプトを書くな──「Loop Engineering」という新しいパラダイムの正体",
-      "url": "https://zenn.dev/acrosstudioblog/articles/38509c0473683a",
-      "domain": "zenn.dev",
-      "bookmarkCount": 583,
-      "summary": "ざっくり3行で言うと、 Claude Code を作った Boris Cherny 本人が「もうプロンプトは書いてない」と言い出した レバレッジが「いいプロンプト」から「いいループ設計」に移っている、らしい ただ、これを自動運転と勘違いするとたぶん事故る はじめに：あの人がもうプロンプトを書いていない ある日、X のタイムライン...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acrosstudioblog/articles/38509c0473683a",
-      "comments": [
-        {
-          "user": "pmint",
-          "comment": "同じことを言葉を変えて新発表。バイブコーダーが注目を集めるときの手口。半端なもので過大に評価されてしまったせいで、国から活動を制限されてしまった。バイブコーダーを体現する企業。",
-          "tags": [
-            "*",
-            "なんだこれ"
-          ],
-          "timestamp": "2026/06/15 21:12"
-        },
-        {
-          "user": "ooblog",
-          "comment": "#生成AI #VibeCoding #LoopEngineering ←New!!「各エージェントが独立したgitブランチ~知らないバグ~知らないチケット~回せば偉い、ではない~ロールバック手段を用意~目標と範囲~完了基準~契約を書く」PDCAとかOODAとか勝手に回る噂。",
-          "tags": [],
-          "timestamp": "2026/06/15 19:26"
-        },
-        {
-          "user": "dorapon2000",
-          "comment": "“自分で書いていないコードが日々増えていって、ある日デバッガを開いたときに「これ、誰が書いたんだっけ……自分か」となる瞬間がある。技術的負債とはちょっと違う、新しい種類の負債だと思います。”",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/06/15 19:17"
-        },
-        {
-          "user": "nack1024",
-          "comment": "いくらかかんねん",
-          "tags": [],
-          "timestamp": "2026/06/15 18:42"
-        },
-        {
-          "user": "cantaloupe",
-          "comment": "[Loop Engineering]",
-          "tags": [
-            "LLM",
-            "AI",
-            "プロンプト"
-          ],
-          "timestamp": "2026/06/15 17:39"
-        },
-        {
-          "user": "miguchi",
-          "comment": "“Loop Engineering”",
-          "tags": [],
-          "timestamp": "2026/06/15 17:20"
-        }
-      ],
-      "fetchedAt": "2026-06-15T12:32:07.028907+00:00"
-    },
-    {
       "id": "h_cb8c319f",
       "title": "機能を作るな。楽して作るな。 （LayerX社内資料） Don’t Build Features. Don’t Take the Easy Way Out.",
       "url": "https://speakerdeck.com/mosa_siru/don-t-build-features-dot-don-t-take-the-easy-way-out",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 228,
+      "bookmarkCount": 366,
       "summary": "LayerX社内の定例でつかった資料です。",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/mosa_siru/don-t-build-features-dot-don-t-take-the-easy-way-out",
       "comments": [
         {
-          "user": "jintrick",
-          "comment": "使わない機能ってたとえばどんな",
+          "user": "morimarii",
+          "comment": "何かを作る・始めるのはすごく簡単。何かを捨てる・やめるのは非常に困難。「やらない理由を探すな」って言われるけど何かをやるよりやらない方がよっぽど難易度高いし効果がある。リソースは有限",
           "tags": [],
-          "timestamp": "2026/06/15 21:18"
+          "timestamp": "2026/06/16 06:02"
         },
         {
-          "user": "kikuchi1201",
-          "comment": "なるほどなぁ",
+          "user": "for-my-internet-demo",
+          "comment": "御社には作っといてほしい機能それなりにあるでござる",
           "tags": [],
-          "timestamp": "2026/06/15 21:05"
+          "timestamp": "2026/06/16 04:32"
         },
         {
-          "user": "ctw",
-          "comment": "ビルドトラップな",
+          "user": "nakag0711",
+          "comment": "でも歴史的には機能てんこ盛りのソフトが勝ってきてるので…作る側からすればシンプルな方がいいんだけど買う側はそうは思わないようだ",
           "tags": [],
-          "timestamp": "2026/06/15 20:53"
+          "timestamp": "2026/06/16 03:34"
         },
         {
-          "user": "a-know",
-          "comment": "良い",
-          "tags": [],
-          "timestamp": "2026/06/15 20:50"
+          "user": "vanbraam",
+          "comment": "AIによってゴミが大量生産されるようになったのは, 今のYouTube動画を見てもわかる通り. Googleはその後始末に追われてる; Simpleさが大事っていうのはJobsの時代から言われてた. この人は直撃世代かな?",
+          "tags": [
+            "software",
+            "development",
+            "AI・機械学習",
+            "design"
+          ],
+          "timestamp": "2026/06/16 01:05"
         },
         {
-          "user": "hr-tachikawa",
-          "comment": "これはソフトウェア開発だけじゃなくてオペレーションの改善みたいなものでも一緒だよね。自戒。",
+          "user": "siriusarc7",
+          "comment": "これ実現できたところで「わかってる人」が評価者じゃないと個人の評価はそんな上がらんのよなぁ",
           "tags": [],
-          "timestamp": "2026/06/15 20:45"
+          "timestamp": "2026/06/16 00:53"
         },
         {
-          "user": "georgew",
-          "comment": "脊髄反射で機能を継ぎ足していかないためにも、開発要件は抽象度上げて思考する必要がありますね。",
-          "tags": [],
-          "timestamp": "2026/06/15 20:29"
+          "user": "kash06",
+          "comment": "今更だけどSaaS時代になってからは価値を感じ続けてくれないと、お金を払い続けてくれないのだから、バクラクの経験の良さは本当なんだろうな。",
+          "tags": [
+            "ビジネス",
+            "IT"
+          ],
+          "timestamp": "2026/06/16 00:51"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:05.855959+00:00"
-    },
-    {
-      "id": "h_04f89b58",
-      "title": "【特集】 “何でもやってくれる”AIエージェント「OpenClaw」を試して知った魔力と怖さ",
-      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2117008.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 167,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2117008.html",
-      "comments": [
-        {
-          "user": "pmint",
-          "comment": "つい最近もOpenClawをAI扱いしてた記事があったな。 https://www.itmedia.co.jp/news/spv/2606/10/news126.html ITmediaではそういうことになっているのか。",
-          "tags": [
-            "*",
-            "なんだこれ"
-          ],
-          "timestamp": "2026/06/15 21:21"
-        },
-        {
-          "user": "sn_1054",
-          "comment": "“OpenClaw”",
-          "tags": [],
-          "timestamp": "2026/06/15 21:08"
-        },
-        {
-          "user": "kusaret",
-          "comment": "“なお、筆者の使い方では、3週間ほど複数の作業をこなしても、ChatGPT PlusプランのOAuth枠に収まっている。”",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/06/15 20:44"
-        },
-        {
-          "user": "sumida",
-          "comment": "AIアシスタントは複雑化しすぎると人間側のチェック能力を超えていくので、今後も導入することないだろうな、と。時間かかる分析とか文章の要約程度なら問題ないんだけど、「それっぽい」アウトプット多すぎる。",
-          "tags": [
-            "技術"
-          ],
-          "timestamp": "2026/06/15 19:23"
-        },
-        {
-          "user": "toaruR",
-          "comment": "3月に売られてるのね。https://pc.watch.impress.co.jp/docs/news/2093186.html その時のは GPT-OSS 120B が動くGTR9 Pro は 90万弱(・ω・)",
-          "tags": [],
-          "timestamp": "2026/06/15 19:07"
-        },
-        {
-          "user": "oO_TOJIMAME_Oo",
-          "comment": "もう洗濯物をたためとはいわない。せめてぐちゃぐちゃになってる電源コードを物理的にどうにかできない？",
-          "tags": [],
-          "timestamp": "2026/06/15 18:21"
-        }
-      ],
-      "fetchedAt": "2026-06-15T12:32:09.339727+00:00"
-    },
-    {
-      "id": "h_af5a3619",
-      "title": "AIエージェントはCloudflareに賭けろ",
-      "url": "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1",
-      "domain": "zenn.dev",
-      "bookmarkCount": 125,
-      "summary": "最初に表明しておくと、自分はCloudflareの社員である。 AIエージェント時代にCloudflareは最適なプラットフォームである！今回はCloudflareがなぜAIエージェントに向いているかを紹介する。 AIエージェント時代のアーキテクチャ AIエージェントを構築するためのアーキテクチャについて考えてみる。 クラウドはAI時代を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yusukebe/articles/ccb1f953e48ee1",
-      "comments": [
-        {
-          "user": "amatou310",
-          "comment": "あとでよむ、かも",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/06/15 20:51"
-        },
-        {
-          "user": "sifue",
-          "comment": "Cloudflare Workersで動くAIエージェントを作れるSDKがあることを知った。何かに特化したパーソナルエージェントを構築するプラットフォームとかを作れそうな感じあるな。",
-          "tags": [],
-          "timestamp": "2026/06/15 18:19"
-        },
-        {
-          "user": "chck1245",
-          "comment": "ポジショントーク上等なのが潔くて良い",
-          "tags": [],
-          "timestamp": "2026/06/15 17:36"
-        },
-        {
-          "user": "hogetax",
-          "comment": "これ気になってたんだけど、ちゃんとした記事になってて助かる。おどろき屋じゃない記事はうれしいｗ",
-          "tags": [],
-          "timestamp": "2026/06/15 17:30"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "めちゃくちゃよくできてるよねー。しかも商用無料で結構できる",
-          "tags": [],
-          "timestamp": "2026/06/15 15:32"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "押し戻すと、賭けるべきは基盤ベンダーよりエージェントの状態をどこに永続化するか。ベンダー移行コストを最後に効かせるのは状態設計では？",
-          "tags": [],
-          "timestamp": "2026/06/15 15:13"
-        }
-      ],
-      "fetchedAt": "2026-06-15T12:32:08.523262+00:00"
-    },
-    {
-      "id": "h_e4406777",
-      "title": "文章からマンガを生成する東大開発の国産AI「MangaFlow」、軽量0.9Bで巨大モデル超える精度のオープンソース文書解析AI「PaddleOCR-VL-1.6」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/06/15/5182.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 125,
-      "summary": "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第147回）は、NVIDIA開発の物理AI向けオープンソースの世界モデル「Cosmos 3」や、ノートPCで動くGoogleのマルチモーダルAI「Gemma 4 12B」を取り上げます。 また、文章からマンガを生成する国産AI「MangaFlow」や...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/15/5182.html",
-      "comments": [
-        {
-          "user": "TETSUYA01",
-          "comment": "逆に漫画から小説を生成できないのかな。",
-          "tags": [],
-          "timestamp": "2026/06/15 20:36"
-        },
-        {
-          "user": "auto_chan",
-          "comment": "ﾁｬｯﾋﾟｰｲﾒｰｼﾞ2とて、ダイナミックなコマ割り！と口を尖らせてもcolspan,rowspan=2、角度がほんのちょっと斜頸してるくらいしかやってくれないので、コマ割りがうまくなれば嬉しい。",
-          "tags": [],
-          "timestamp": "2026/06/15 20:09"
-        },
-        {
-          "user": "kou-qana",
-          "comment": "画風は指定できないのかしら。「作画」がそれにあたる？",
-          "tags": [],
-          "timestamp": "2026/06/15 20:01"
-        },
-        {
-          "user": "eroyama",
-          "comment": "既にyはChatgpt5.5 thinkingでやって楽しく読んでいるが…(最初にキャラデザとストーリー、コマ内容迄考えさせておくのも同じ) https://x.com/eroyama_n0/media",
-          "tags": [],
-          "timestamp": "2026/06/15 19:58"
-        },
-        {
-          "user": "colonoe",
-          "comment": "大学が発表したばかりのものなんだから品質がイマイチなのは普通でしょ。企業のサービスだったら使えないけど",
-          "tags": [],
-          "timestamp": "2026/06/15 19:57"
-        },
-        {
-          "user": "n2sz",
-          "comment": "もっとマンガっぽい絵にできてるAIマンガはネットで見かけたけどなあ。この記事の例だとイラスト並べただけって感じ。",
-          "tags": [],
-          "timestamp": "2026/06/15 19:37"
-        }
-      ],
-      "fetchedAt": "2026-06-15T12:32:11.125674+00:00"
+      "fetchedAt": "2026-06-15T21:12:59.748713+00:00"
     },
     {
       "id": "h_147437d3",
       "title": "グーグル、AIのための知識共有フォーマット「OKF」を公開",
       "url": "https://www.watch.impress.co.jp/docs/news/2116974.html",
       "domain": "watch.impress.co.jp",
-      "bookmarkCount": 116,
+      "bookmarkCount": 254,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2116974.html",
       "comments": [
         {
-          "user": "cloverstudioceo",
-          "comment": "自作のフレームワークとかライブラリもこれとセットで出せばAIに使ってもらって嬉しいね",
+          "user": "dd41kk",
+          "comment": "obsidianでも良いけど、WSL2とobsidianの相性が良くないので、ベンダー非依存はありがたい。なんでもMac前提で考えないで欲しい",
           "tags": [],
-          "timestamp": "2026/06/15 21:22"
+          "timestamp": "2026/06/16 06:06"
         },
         {
-          "user": "ntstn",
-          "comment": "これが良くてobsidianでは足りない部分はどこなんだい？",
+          "user": "paradisemaker",
+          "comment": "AIコーディングで要件定義書とか設計書作ると自然とこうなる",
           "tags": [],
-          "timestamp": "2026/06/15 21:18"
+          "timestamp": "2026/06/16 04:35"
         },
         {
-          "user": "teruspr",
-          "comment": "変なフォーマット作らないでMarkdownにしようよ、と思ったらMarkdownだったのでニッコリ。Microsoft Loop (MS系のNotionクローン)もmd準拠だから、OneNoteやオフィス生態系でも使えるようになるといいのだけど。",
+          "user": "pixmap",
+          "comment": "テキストファイルなのが良い。っていうかLLMならそうなるよね。",
           "tags": [],
-          "timestamp": "2026/06/15 21:13"
+          "timestamp": "2026/06/16 00:47"
         },
         {
-          "user": "hirrrose",
-          "comment": "コンテキスト節約",
+          "user": "ming_mina",
+          "comment": "オケツブンブンフェスティバルかと思った",
           "tags": [],
-          "timestamp": "2026/06/15 20:27"
+          "timestamp": "2026/06/15 23:43"
         },
         {
-          "user": "georgew",
-          "comment": "AIエージェントが組織内の知識などを活用しやすくするためのナレッジ共有フォーマット「Open Knowledge Format(OKF)」を発表 > 地味だがこれはいいですね。",
+          "user": "nilab",
+          "comment": "「Google Cloudは13日(米国時間)、AIエージェントが組織内の知識などを活用しやすくするためのナレッジ共有フォーマット「Open Knowledge Format(OKF)」を発表した。初期バージョンの「OKF v0.1」としてGitHubで公開している」",
           "tags": [],
-          "timestamp": "2026/06/15 20:14"
+          "timestamp": "2026/06/15 22:59"
         },
         {
-          "user": "gcyn",
-          "comment": "オーケー牧場じゃんね、いまだとなんとなくつい（O.K.FarmじゃなくてO.K. CorralかLARAMIEらしいですけど…）。",
-          "tags": [],
-          "timestamp": "2026/06/15 19:28"
+          "user": "hhungry",
+          "comment": "ハイパーリンクっぽくなる？",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/06/15 22:52"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:07.739227+00:00"
+      "fetchedAt": "2026-06-15T21:13:00.638064+00:00"
     },
     {
-      "id": "h_e553ddfd",
-      "title": "Claude Code と Codex CLI を “設計者と作業者” として組み合わせる開発フローの話",
-      "url": "https://blog.asial.co.jp/6859/",
-      "domain": "blog.asial.co.jp",
-      "bookmarkCount": 81,
-      "summary": "こんにちは。AI漬けの毎日を送っている橋本です。 今日はAIを使って普段どういった開発フローで開発を進めているか紹介したいと思います。 まず前提として、Asialでは様々なAIツールを導入しているのですが、その中でも自分は Claude Code をメインで使っています。 最初は個人用のMax20xプランを契約して使っていたので...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.asial.co.jp/6859/",
+      "id": "h_af5a3619",
+      "title": "AIエージェントはCloudflareに賭けろ",
+      "url": "https://zenn.dev/yusukebe/articles/ccb1f953e48ee1",
+      "domain": "zenn.dev",
+      "bookmarkCount": 221,
+      "summary": "最初に表明しておくと、自分はCloudflareの社員である。 AIエージェント時代にCloudflareは最適なプラットフォームである！今回はCloudflareがなぜAIエージェントに向いているかを紹介する。 AIエージェント時代のアーキテクチャ AIエージェントを構築するためのアーキテクチャについて考えてみる。 クラウドはAI時代を...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yusukebe/articles/ccb1f953e48ee1",
       "comments": [
         {
-          "user": "kijtra",
-          "comment": "Claudeの成果物をCodexに見せるとわりと内容にツッコミが入るんだけど、逆だとClaudeがCodexの成果物めちゃ褒めるんだよね。",
+          "user": "khtno73",
+          "comment": "例えばカスタマーサポートの一次受付で回答文面生成とかじゃなく、顧客のリクエストに対して個別のエージェントが起動して注文履歴や商品情報や配送状況取得して自動回答させるみたいな仕掛けの実装に効きそう？",
           "tags": [],
-          "timestamp": "2026/06/15 20:55"
+          "timestamp": "2026/06/16 02:20"
         },
         {
-          "user": "yarumato",
-          "comment": "“Claude Codeチームプランに移ると個人プランMax20xよりトークンの上限が厳しい。Codexと分業させるとトークン消費削減だけじゃなく、開発体験自体も良くなった。ClaudeやCodex本人にレビューやらせると見落としだらけ”",
+          "user": "himanahitodesukun",
+          "comment": "ベンダーロックインしまくりそうで怖い",
           "tags": [],
-          "timestamp": "2026/06/15 18:33"
+          "timestamp": "2026/06/16 01:07"
         },
         {
-          "user": "jintrick",
-          "comment": "Claude Code → スキル → Codex CLI の 単一パイプライン？",
+          "user": "Unite",
+          "comment": "\"面白い\"",
           "tags": [],
-          "timestamp": "2026/06/15 15:23"
+          "timestamp": "2026/06/16 00:23"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "Claudeを脳（設計）にしてCodexを手足にするの、実用的な工夫で面白いな。セルフレビューの限界を別エージェントで補うのもいい",
+          "user": "kimzo",
+          "comment": "すげえ",
           "tags": [],
-          "timestamp": "2026/06/15 12:42"
+          "timestamp": "2026/06/15 22:19"
         },
         {
-          "user": "tyatya1229",
-          "comment": "ClaudeCodeとCodexの組み合わせての利用方法について後でよむ！",
-          "tags": [
-            "あとで読む",
-            "Claude Code",
-            "Codex"
-          ],
-          "timestamp": "2026/06/15 12:07"
+          "user": "akiramaz",
+          "comment": "アツい",
+          "tags": [],
+          "timestamp": "2026/06/15 21:50"
+        },
+        {
+          "user": "udukishin",
+          "comment": "ざっと目を通したけど面白そう。後でちゃんと読む",
+          "tags": [],
+          "timestamp": "2026/06/15 21:34"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:11.567029+00:00"
-    },
-    {
-      "id": "h_53ff08bd",
-      "title": "妻「トイレのうんこを流して、冷蔵庫にケーキがあったら食べて」プログラマの夫「ええっ……」→「自分で流せ」「妻側の話してる内容の意図が意味不明すぎる」",
-      "url": "https://togetter.com/li/2709607",
-      "domain": "togetter.com",
-      "bookmarkCount": 36,
-      "summary": "プログラマの夫とは (プログラマノオットとは) [単語記事] - ニコニコ大百科 プログラマの夫とは、牛乳を6パック買ってきた夫である。 ※プログラマーである妻帯者を一般的に指す場合もあるが、当記事ではジョークについて解説する。 概要 プログラム的に行動する夫のジョーク... 1 user ニコニコ大百科",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2709607",
-      "comments": [
-        {
-          "user": "likk",
-          "comment": "Perlプログラマだけど流石にそれは無いわ。 Perlプログラマはトイレのうんこを流すことが成功したらようやっと、冷蔵庫にケーキ有無判定だよ。トイレにうんこがなかったり流すの失敗したら死ぬ。",
-          "tags": [],
-          "timestamp": "2026/06/15 21:19"
-        },
-        {
-          "user": "ysykmzo",
-          "comment": "うんこの香りだあーっ!!",
-          "tags": [],
-          "timestamp": "2026/06/15 20:40"
-        },
-        {
-          "user": "www6",
-          "comment": "この短いやりとりの中にいくつもの驚きがある。質の良いショートショート",
-          "tags": [],
-          "timestamp": "2026/06/15 20:13"
-        },
-        {
-          "user": "ardarim",
-          "comment": "この人たちバカなの？プログラマでもこんなアホはそうそういないだろ",
-          "tags": [
-            "ネタ"
-          ],
-          "timestamp": "2026/06/15 20:06"
-        },
-        {
-          "user": "sds-page",
-          "comment": "冷蔵庫にケーキが無かったらうんこを流せるって事やろ",
-          "tags": [
-            "うんこ",
-            "プログラマ"
-          ],
-          "timestamp": "2026/06/15 20:01"
-        },
-        {
-          "user": "ROYGB",
-          "comment": "子育て中ならありえる。もう一つの方がアレ度が強いかも。 https://x.com/MAMAAAAU/status/1836315670600114186",
-          "tags": [],
-          "timestamp": "2026/06/15 19:53"
-        }
-      ],
-      "fetchedAt": "2026-06-15T12:32:09.834739+00:00"
+      "fetchedAt": "2026-06-15T21:13:02.406759+00:00"
     },
     {
       "id": "h_d331b9e7",
       "title": "ゲーム開発者間で「ゲームデザインは書類でガチガチに固める必要あるか」巡って議論沸騰。ヒット作の“800ページ超えデザインドキュメント”、真似るべきか否か - AUTOMATON",
       "url": "https://automaton-media.com/articles/newsjp/20260615-449795/",
       "domain": "automaton-media.com",
-      "bookmarkCount": 26,
+      "bookmarkCount": 75,
       "summary": "『Mina the Hollower』の800ページにも及ぶデザインドキュメントを巡り、ゲーム開発におけるデザインドキュメントの運用方針について議論が交わされている。",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20260615-449795/",
       "comments": [
         {
-          "user": "nack1024",
-          "comment": "桜井タイプ",
+          "user": "twmw",
+          "comment": "AIコーディングだとそうなるよね。いっそプログラム書いた方が早いんじゃないかと思いながらプロンプト書いてる。",
           "tags": [],
-          "timestamp": "2026/06/15 21:31"
+          "timestamp": "2026/06/16 06:03"
         },
         {
-          "user": "toaruR",
-          "comment": "ゲームに限らず、創るには不要だけど、作ってもらうには必要よな（´－｀）ってかAI時代となっては必須かもしれん",
+          "user": "rosiro",
+          "comment": "一人でつくんじゃなきゃガチガチに固めたドキュメントがあったほうがいいに決まってる。　２人で作ってても書いてなくてどうしたらいいんだってことになってブレブレになる。",
           "tags": [],
-          "timestamp": "2026/06/15 21:17"
+          "timestamp": "2026/06/16 01:13"
         },
         {
-          "user": "somaria3",
-          "comment": "サイバーパンクの規模でドキュメントぐちゃぐちゃならさぞ現場は地獄だったでしょうな",
+          "user": "cider_kondo",
+          "comment": "流石Johan神、「リリースはアルファ版、拡張パック1個目がオープンベータ、2個目が通常リリース」と言われてた全盛期(?)のパラドゲーの精神がよく分かるコメントだ(ジャンルのオンリーワンで信者掴んでた故の手法(?)よな",
           "tags": [],
-          "timestamp": "2026/06/15 21:05"
+          "timestamp": "2026/06/16 01:09"
         },
         {
-          "user": "tettekete37564",
-          "comment": "あるに決まってるだろ。格ゲーのフレーム管理とか。イベントの進行フローチャートとか、成長曲線とか etc...",
+          "user": "ssssschang",
+          "comment": "お前が一人で好きに作るのであれば好きにしろ、なんなら楽しみにしてます。お前の構想を誰かと一緒に作りたいならそれを他人に伝わる形で表現しろ",
           "tags": [],
-          "timestamp": "2026/06/15 21:01"
+          "timestamp": "2026/06/15 22:42"
         },
         {
-          "user": "imjh",
-          "comment": "「『The Falconeer』の開発者であるmuppetpuppetことTomas Sala氏」🐸🐮！？",
+          "user": "racooon",
+          "comment": "開発歴それなりに長く、仕様書ガチガチも仕様書がないプロジェクトも経験した。確かにどちらがいいか一言では言えない。",
           "tags": [],
-          "timestamp": "2026/06/15 20:52"
+          "timestamp": "2026/06/15 22:13"
         },
         {
-          "user": "crimson_diamond",
-          "comment": "必要がある、なぜならAIにコーディングさせるから",
+          "user": "seiyakengo",
+          "comment": "集英社ゲームズのやつ「ゲームは作ってるから企画書はええやろ｣って感じで出してもーた",
           "tags": [],
-          "timestamp": "2026/06/15 20:48"
+          "timestamp": "2026/06/15 22:07"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:10.126026+00:00"
+      "fetchedAt": "2026-06-15T21:13:01.024650+00:00"
+    },
+    {
+      "id": "h_db42398a",
+      "title": "「技術の人じゃないね」と言われたエンジニアの話 - めるノート",
+      "url": "https://c5meru.hatenablog.jp/entry/2026/06/15/202551",
+      "domain": "c5meru.hatenablog.jp",
+      "bookmarkCount": 67,
+      "summary": "私はエンジニアになってから何度も「マネージャー向きですね」と言われてきた。 理由もなんとなく分かる。問題を整理するのが好きだし、複雑な状況を構造化するのも好きだし、人の認識を揃えるのも好きだからだ。 技術的な課題が絡み合っている状況を見ると、まずは図にしたり論点を書き出したりしたくなる。 そういう振...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/c5meru.hatenablog.jp/entry/2026/06/15/202551",
+      "comments": [
+        {
+          "user": "morimarii",
+          "comment": "ブコメに全部書かれているが、完全に技術あるいは論理の話で、これをマネジメントというのは単純に周囲が物知らずか世界観が特殊なだけでは？",
+          "tags": [],
+          "timestamp": "2026/06/16 05:54"
+        },
+        {
+          "user": "hirorinya",
+          "comment": "ろくなとこで働いてなかったんだな",
+          "tags": [],
+          "timestamp": "2026/06/16 03:32"
+        },
+        {
+          "user": "nicht-sein",
+          "comment": "技術＝プログラミングテクニックっていう認識の人は結構多いので、まあ、そういう人が出るのもしゃーないし、複雑な問題をシンプルにして解決法を見いだすのもエンジニアリングというのもそう",
+          "tags": [],
+          "timestamp": "2026/06/16 02:44"
+        },
+        {
+          "user": "threetea0407",
+          "comment": "技術寄りでマネジメント向きじゃないよねと言われているけど、得意なことはどちらかというと問題を整理することなので、逆側から似たような違和感を感じているかもしれない",
+          "tags": [],
+          "timestamp": "2026/06/16 02:17"
+        },
+        {
+          "user": "joker1007",
+          "comment": "自分も大体同じ仕事やってる気がするんだけど、マネージャー向きだと言われたことは一度も無いので、多分これは人格の問題で能力の問題ではないんだろうと思う。",
+          "tags": [],
+          "timestamp": "2026/06/16 01:55"
+        },
+        {
+          "user": "Falky",
+          "comment": "思ったこと全部ブコメに書かれてた。環境が悪そう",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/06/16 01:54"
+        }
+      ],
+      "fetchedAt": "2026-06-15T21:12:59.028275+00:00"
     },
     {
       "id": "h_28633549",
       "title": "技術広報チームのマネージャーに贈る、経営層に説明できる評価軸 - 941::blog",
       "url": "https://blog.kushii.net/archives/2026/06/15/163726",
       "domain": "blog.kushii.net",
-      "bookmarkCount": 26,
+      "bookmarkCount": 58,
       "summary": "ちょっと長くなっちゃったので要約するとこんなかんじです 技術広報の成果は測りにくい。だからマネージャーも評価に悩む 3つの軸（外部へのアウトプット、内部のコミュニケーション、仕組み化）を定量と定性でバランスよく見て、同時に回すことが基本 3つの軸が高いレベルで回ると自動的に業界への影響力が生まれ、それ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.kushii.net/archives/2026/06/15/163726",
       "comments": [
@@ -481,62 +280,202 @@
           "timestamp": "2026/06/15 17:33"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:10.760927+00:00"
+      "fetchedAt": "2026-06-15T21:13:03.555176+00:00"
     },
     {
-      "id": "h_3d5445e7",
-      "title": "依存DLLゼロの単体exeで配る ― Windows×Rustで「全部入り」を1ファイルにする舞台裏 - Qiita",
-      "url": "https://qiita.com/mikage/items/77874c029b80bf9d84a5",
-      "domain": "qiita.com",
-      "bookmarkCount": 19,
-      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに （本記事は、Rustもネイティブ開発も未経験の自分がAIに任せて画像ビューワmIVを作った記録シリーズの3本目です。① Rustも未経験のままWindowsアプリを作った体験記／② 詰...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/mikage/items/77874c029b80bf9d84a5",
+      "id": "h_0c52b1c4",
+      "title": "[みんなのケータイ]アプリもAIも終了した「Honda e」、「スマホのようなクルマ」の切ない現実",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/minna/2117253.html",
+      "domain": "k-tai.watch.impress.co.jp",
+      "bookmarkCount": 40,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/column/minna/2117253.html",
       "comments": [
         {
-          "user": "opaopachang",
-          "comment": "exe一つだけだったらウイルスかと警戒してしまう",
+          "user": "yoppema",
+          "comment": "悲しい。BEV買うにしてもある程度シェアがないとこういう不安が出てくるな。Honda eは実験みたいなものだから仕方ないけどさ。",
           "tags": [],
-          "timestamp": "2026/06/15 20:08"
+          "timestamp": "2026/06/16 06:03"
+        },
+        {
+          "user": "cider_kondo",
+          "comment": "ほんまディーゼル不正やらかした当時のVW経営陣は全員市中引き回しの上打首獄門に値する。反動でEUは強引なEV推しをはじめたせいで中国メーカーに市場をタダで進呈し、西側各国の自動車メーカーは大損害を被ったわけで",
+          "tags": [],
+          "timestamp": "2026/06/16 05:53"
+        },
+        {
+          "user": "wizardofpain",
+          "comment": "“5年落ちのEVに10万円を注ぎ込んで修理”→まあ車に乗ってたら修理10万とか普通だと思うけど。",
+          "tags": [],
+          "timestamp": "2026/06/16 05:51"
+        },
+        {
+          "user": "yas-mal",
+          "comment": "ソフトのプラットフォームを次の車種と共通にして維持コストを下げるべきなんだろうけど、次のEVがなかなか出なかったし(去年出たN-ONE e:。そちらも売れてなさげ。記事に出てくるSuper-ONEがどうなるかな)。",
+          "tags": [],
+          "timestamp": "2026/06/16 05:39"
+        },
+        {
+          "user": "kz78",
+          "comment": "「スマホ化」っちゅうよりは「プラットフォーム化」と思うが、1700台しか売れてないプラットフォームが維持できないのは、仕方ないね…。",
+          "tags": [],
+          "timestamp": "2026/06/16 05:31"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "“コネクテッドカーから、AIが消え、アプリを入れられなくなり、Wi-Fiも消滅。ついにセルラー通信が逝ってしまった。もはや、Honda eは単なるEVに”　悲しい。これではリセールも死ぬしな……",
+          "tags": [],
+          "timestamp": "2026/06/16 05:21"
+        }
+      ],
+      "fetchedAt": "2026-06-15T21:13:00.141133+00:00"
+    },
+    {
+      "id": "h_ffcaaf30",
+      "title": "「ChatGPT」と「Gemini」で「Canva」のマジックレイヤーが利用可能に／“フラットな”1枚のAI生成画像をパーツごとにレイヤー化された「Canva」デザインに",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2117005.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 37,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2117005.html",
+      "comments": [
+        {
+          "user": "mame-tanuki",
+          "comment": "話の文脈が分かってなかったからタイトルを見てオンラインデザインツールのCanva をGemini のCanvas機能と空目した／はてなブログのアイキャッチ機能でも自分は使いこなせないうちに提携解消してたんだよな、Canva",
+          "tags": [
+            "gemini",
+            "お絵かき",
+            "ChatGPT"
+          ],
+          "timestamp": "2026/06/16 00:41"
+        },
+        {
+          "user": "kei_1010",
+          "comment": "試したい",
+          "tags": [],
+          "timestamp": "2026/06/16 00:24"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "フラット画像を後からレイヤー分解=生成と編集を工程として切り離す話。AI画像のやり直しが高くつくのは一枚に焼き込むから。戻せる状態を作れば修正の摩擦が一段下がる",
+          "tags": [],
+          "timestamp": "2026/06/15 23:17"
         },
         {
           "user": "nguyen-oi",
-          "comment": "include_bytes!で埋め込んで裏で展開するの力技だけど最高。FFmpegのLGPLと遅延ロードの罠を2段ロケットランチャーで解決するの脳汁出るな",
+          "comment": "1枚の絵をAIでレイヤー化できるとか、バナーやチラシの素材調整がめちゃくちゃ楽になりそう",
           "tags": [],
-          "timestamp": "2026/06/15 19:32"
-        },
-        {
-          "user": "cartman0",
-          "comment": "この辺、wasmあたりでも解決してくれそう",
-          "tags": [],
-          "timestamp": "2026/06/15 19:16"
+          "timestamp": "2026/06/15 21:33"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:12.701052+00:00"
+      "fetchedAt": "2026-06-15T21:13:02.884659+00:00"
     },
     {
-      "id": "h_7fdea86f",
-      "title": "この3冊の共通点は何でしょう？——『死神の精度』『AIに書けない文章を書く』『ストーリーテリングの科学』 - あたまの中を循環する",
-      "url": "https://ichi06ka.hatenablog.com/entry/20260615/1781523000",
-      "domain": "ichi06ka.hatenablog.com",
-      "bookmarkCount": 14,
-      "summary": "なぜ全員が同じ方向に思い込むのか 文学理論側——イーザーさんの「テクストの空白」 脳科学・物語論側——ストーさんのモデル構築と好奇心 文章論側——前田さんの「脈」とクレショフ効果 3冊が同じ現象を語っている 「自分の読み違い」が「人間の認知の仕掛け」に見えた瞬間 書くことの中身は「何を書かないか」にもある ※こ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ichi06ka.hatenablog.com/entry/20260615/1781523000",
+      "id": "h_2d56afe8",
+      "title": "【お知らせ】人工知能学会設立40周年にあたっての提言 | 人工知能学会 (The Japanese Society for Artificial Intelligence)",
+      "url": "https://www.ai-gakkai.or.jp/whats-new/announcement_20260615/",
+      "domain": "ai-gakkai.or.jp",
+      "bookmarkCount": 24,
+      "summary": "人とAIが共生する社会の実現に向けて 人工知能学会は今年設立40周年を迎えた．40年前は第2次AIブームの真っ只中であった．しかし，この40年間におけるAIの加速的な進展，とりわけ近年の生成AIは，社会，産業，教育，行政，安全保障など，あらゆる領域に抜本的な影響を及ぼす基盤技術へと発展し，人間の知的活動や社会の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.ai-gakkai.or.jp/whats-new/announcement_20260615/",
       "comments": [
         {
-          "user": "beejaga",
-          "comment": "伊坂幸太郎の物語は軽い読み口だがキャラ付けからセリフ回しまで非常に細かい所まで丁寧に設計してある。感覚派などではないよ",
+          "user": "nguyen-oi",
+          "comment": "第2次AIブームから40年っていう歴史の重みよ。計算資源や基盤モデルを他国に依存し続けると、経済安全保障的にも詰むから国を挙げて本気で投資してほしいわ",
           "tags": [],
-          "timestamp": "2026/06/15 21:08"
+          "timestamp": "2026/06/15 22:38"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "読者の脳内補完に期待する技術、一歩間違えると単なる説明不足になるから難しいよな",
-          "tags": [],
-          "timestamp": "2026/06/15 21:04"
+          "user": "mohno",
+          "comment": "「過度な依存は思考力や判断力の低下を招くおそれ」「著作権や責任の所在，透明性，公正性などに関する法制度とガバナンスを整備し，イノベーションの活性化と権利保護を両立する社会制度を構築する必要がある」",
+          "tags": [
+            "人工知能学会",
+            "人工知能",
+            "生成AI",
+            "著作権",
+            "仕事",
+            "電力",
+            "研究",
+            "リテラシー"
+          ],
+          "timestamp": "2026/06/15 20:49"
         }
       ],
-      "fetchedAt": "2026-06-15T12:32:12.018955+00:00"
+      "fetchedAt": "2026-06-15T21:13:04.692550+00:00"
+    },
+    {
+      "id": "h_8a578ab4",
+      "title": "あの「カシャッ！」は意味なし？ スマホの「シャッター音」実態に即さず、ネットに見直しを求める声",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2606/15/news096.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 22,
+      "summary": "スマートフォンのカメラは私たちが日常的に利用しているツールの1つだ。静かなレストランや美術館、あるいはすやすやと眠る子どもやペットの愛らしい姿を撮影しようとした際、「カシャッ」という大きな電子音が鳴り響き、周囲の視線を浴びて気まずい思いをした経験はないだろうか。 現在、SNSの「X（旧Twitter）」を中心...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2606/15/news096.html",
+      "comments": [
+        {
+          "user": "fb001870",
+          "comment": "iPhoneなんだけど台湾に入国したら鳴らなくなって驚いた",
+          "tags": [],
+          "timestamp": "2026/06/16 06:03"
+        },
+        {
+          "user": "Yutorigen",
+          "comment": "子供の何気ない表情を撮りたいのにシャッター音がなった瞬間撮られるモードになるのよ。",
+          "tags": [],
+          "timestamp": "2026/06/16 05:25"
+        },
+        {
+          "user": "hidea",
+          "comment": "海外のキャリアにつながるといきなりならなくなるので、帰国してシャッター音が復活すると、日本に帰ってきたんだなと思うこともある",
+          "tags": [],
+          "timestamp": "2026/06/16 05:21"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "盗撮するヤツが悪い ( ˘ω˘ )",
+          "tags": [],
+          "timestamp": "2026/06/16 05:14"
+        },
+        {
+          "user": "sqrt",
+          "comment": "世界から人が集まる場で日本人（と韓国人）だけ迷惑な音を鳴らすマナー欠如者になるんだよね…",
+          "tags": [
+            "社会",
+            "UI"
+          ],
+          "timestamp": "2026/06/16 05:06"
+        },
+        {
+          "user": "Usus_magister_est_optimus_t",
+          "comment": "消費者団体訴訟をすれば良いのか？？",
+          "tags": [],
+          "timestamp": "2026/06/16 02:15"
+        }
+      ],
+      "fetchedAt": "2026-06-15T21:13:01.529614+00:00"
+    },
+    {
+      "id": "h_2a8af58b",
+      "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+      "url": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "domain": "publickey1.jp",
+      "bookmarkCount": 5,
+      "summary": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開 Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。 What if o...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "comments": [],
+      "fetchedAt": "2026-06-15T21:13:04.279683+00:00"
+    },
+    {
+      "id": "h_24727d68",
+      "title": "セイコーソリューションズ、SSL証明書の更新を自動化する「Smart Cert Manageサービス」をリニューアル",
+      "url": "https://cloud.watch.impress.co.jp/docs/news/2116870.html",
+      "domain": "cloud.watch.impress.co.jp",
+      "bookmarkCount": 4,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cloud.watch.impress.co.jp/docs/news/2116870.html",
+      "comments": [],
+      "fetchedAt": "2026-06-15T21:13:03.936381+00:00"
     }
   ],
-  "lastCollection": "2026-06-15T12:32:12.701073+00:00"
+  "lastCollection": "2026-06-15T21:13:04.692616+00:00"
 }
