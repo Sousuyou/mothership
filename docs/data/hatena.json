@@ -1,112 +1,20 @@
 {
   "entries": [
     {
-      "id": "h_412eab4b",
-      "title": "5万スターのClaude Code Tips集、本質は2つだけ",
-      "url": "https://zenn.dev/acntechjp/articles/5409d8e2ad0767",
-      "domain": "zenn.dev",
-      "bookmarkCount": 557,
-      "summary": "このリポジトリは何か shanraisshan/claude-code-best-practice は、GitHub Trending 1位を獲得し、現在5万スター近くまで伸びている Claude Code のベストプラクティス集です。 中身を一言でいうと、設定ファイルを配るテンプレート集ではなく、「Claude Code をうまく使うための知識」をリンク付きで整理したリファレ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acntechjp/articles/5409d8e2ad0767",
-      "comments": [
-        {
-          "user": "misshiki",
-          "comment": "5万スター近いClaude Code Tips集の本質を「CLAUDE.mdは短く」「ハーネスを組む」の2点に整理。基本コマンドをCLAUDE.mdに、強制したい挙動はsettingsやフックへ。Claudeに検証手段を与えるのが最重要。",
-          "tags": [
-            "Claude Code"
-          ],
-          "timestamp": "2026/06/18 00:33"
-        },
-        {
-          "user": "tel30",
-          "comment": "当方非エンジニアなので、この辺に超えられない壁を感じてる。使っていくうちにぐちゃぐちゃ肥大化してくるので上手いこと自律的に整理整頓できるようになって欲しい。",
-          "tags": [],
-          "timestamp": "2026/06/17 19:28"
-        },
-        {
-          "user": "hirrrose",
-          "comment": "あとで読む",
-          "tags": [],
-          "timestamp": "2026/06/17 18:29"
-        },
-        {
-          "user": "oktnzm",
-          "comment": "某サービスは5万ユーザー(アクティヴ)もいないんだよなぁ…",
-          "tags": [],
-          "timestamp": "2026/06/17 18:01"
-        },
-        {
-          "user": "morita_non",
-          "comment": "5万はてなスターはすごい。と思ったら違った",
-          "tags": [],
-          "timestamp": "2026/06/17 15:31"
-        },
-        {
-          "user": "wxitizi",
-          "comment": "\"Boris の主張を一言でまとめると、「モデルを賢くしようとするな。モデルが失敗しにくい仕組みを作れ」 です\"",
-          "tags": [],
-          "timestamp": "2026/06/17 14:17"
-        }
-      ],
-      "fetchedAt": "2026-06-17T15:52:48.697065+00:00"
-    },
-    {
-      "id": "h_6fdb086a",
-      "title": "査読は「ほぼ破綻」している――生成AI時代の研究成果公開を、もう一度設計し直す：JSAI2026 企画セッション「生成AI・プレプリント時代における研究成果公開の再設計」開催報告｜一般社団法人 情報科学技術協会（INFOSTA）",
-      "url": "https://note.com/infosta/n/nb717c9c3c3d0",
-      "domain": "note.com",
-      "bookmarkCount": 272,
-      "summary": "2026年6月9日、人工知能学会全国大会（JSAI2026／Gメッセ群馬）の2日目に、私たちINFOSTA（情報科学技術協会）が企画したセッション 「生成AI・プレプリント時代における研究成果公開の再設計 ― トップカンファレンス文化はどこへ向かうのか」 を開催しました。オーガナイザの一人として登壇し、趣旨説明と司会を務めた...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/infosta/n/nb717c9c3c3d0",
-      "comments": [
-        {
-          "user": "l_etranger",
-          "comment": "コメで、参考文献のチェックでハルシネーション、と書いている人がいるが、文献検索DBとAIを(MCP等で)接続して使えば基本的に文献チェックでハルシネーショ起こさないので本当に論文書く人ならやってみるといいと思う",
-          "tags": [],
-          "timestamp": "2026/06/18 00:17"
-        },
-        {
-          "user": "katsusuke",
-          "comment": "DMARCみたいな感じで、ドメインが浸透するまでレベルの高いジャーナルは掲載できないみたいなシステムにするしか無い",
-          "tags": [],
-          "timestamp": "2026/06/18 00:02"
-        },
-        {
-          "user": "chintaro3",
-          "comment": "ＡＩが論文を書き、ＡＩが査読する時代か。",
-          "tags": [],
-          "timestamp": "2026/06/17 19:50"
-        },
-        {
-          "user": "daaaaaai",
-          "comment": "インセンティブが重要で、この大AI時代にどういう成果を上げた人をどう評価するかは難しそう。また、真実性を担保するにはどうしたらいいんでしょうね（不正orハルシネーションそのままの研究者を共有する？）",
-          "tags": [],
-          "timestamp": "2026/06/17 18:52"
-        },
-        {
-          "user": "wxitizi",
-          "comment": "これには日本の社会学の先生たちもにっこり。",
-          "tags": [],
-          "timestamp": "2026/06/17 17:18"
-        },
-        {
-          "user": "fjch",
-          "comment": "2606161040 問いはもう「AIを使うか否か」ではない",
-          "tags": [],
-          "timestamp": "2026/06/17 17:13"
-        }
-      ],
-      "fetchedAt": "2026-06-17T15:52:49.438188+00:00"
-    },
-    {
       "id": "h_2d3c2c05",
       "title": "自分のPCで「とりあえず動く」ではなく「一番賢く使える」ローカルLLMを教えてくれる「whichllm」、実測ベンチでランク付け（生成AIクローズアップ） | テクノエッジ TechnoEdge",
       "url": "https://www.techno-edge.net/article/2026/06/17/5192.html",
       "domain": "techno-edge.net",
-      "bookmarkCount": 219,
+      "bookmarkCount": 236,
       "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、自分のパソコンでどのローカルLLMが快適にかつ賢く動くのか、その答えをコマンド一つで教えてくれるCLIツール「whichllm」の最新...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/17/5192.html",
       "comments": [
+        {
+          "user": "cider_kondo",
+          "comment": "そーいや https://www.canirun.ai/ って最近更新されてねえよな(今アクセスしたらupdated 29d agoとか表示されてて流石に何かあったんだろか感",
+          "tags": [],
+          "timestamp": "2026/06/18 04:41"
+        },
         {
           "user": "misshiki",
           "comment": "ローカルLLM選定CLI「whichllm」v0.5.10。PCのGPU/CPU/RAMを自動検出し、実測ベンチや量子化、速度、鮮度を総合評価して最適モデルをランキング。",
@@ -138,25 +46,31 @@
           "comment": "この手のツールや指南表はいくらでもあるが、実質的に用途やスペックに合わせて調整出来る要素が無くグラボありならQwen3.6 35B-A3B、内蔵GPUならGemma 4などその時々の一強が決まっていてほぼ意味が無い",
           "tags": [],
           "timestamp": "2026/06/17 17:12"
-        },
-        {
-          "user": "pyunmm",
-          "comment": "githubここか。  https://github.com/Andyyyy64/whichllm/blob/main/docs/README.ja.md",
-          "tags": [],
-          "timestamp": "2026/06/17 16:35"
         }
       ],
-      "fetchedAt": "2026-06-17T15:52:46.954267+00:00"
+      "fetchedAt": "2026-06-17T20:23:03.388994+00:00"
     },
     {
       "id": "h_d6687c63",
       "title": "ローカルLLMをいつ使うべきか？",
       "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
       "domain": "zenn.dev",
-      "bookmarkCount": 182,
+      "bookmarkCount": 219,
       "summary": "TL;DR 「ローカルLLM＝コストが安い」はほとんどの場合で誤りです。2026年時点での損益分岐点はかなり高く、GPUを遊ばせると単価はAPIより高くつきます。 それでもローカルLLMが勝つ領域はあります。ガバナンス・タスク特化での精度・レイテンシ の3軸です。 実例として、RAGチャットボットの軽量な判定ステップを Gemma...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sompojapan_dx/articles/74624afa03040c",
       "comments": [
+        {
+          "user": "sotonohitokun",
+          "comment": "「カメラ沼」とか「車改造沼」「AV機器沼」「推し活」と比較する趣味として考えると、俄然安価になるんよ。",
+          "tags": [],
+          "timestamp": "2026/06/18 05:17"
+        },
+        {
+          "user": "sionsou",
+          "comment": "マシンさえあればね…",
+          "tags": [],
+          "timestamp": "2026/06/18 00:55"
+        },
         {
           "user": "misshiki",
           "comment": "ローカルLLMはコスト目的ではなく、ガバナンス・特化精度・安定レイテンシで使うべき。Gemma 4 E2BをLoRA特化し、RAGのドリフト検知率を0.609→0.971に改善。",
@@ -182,34 +96,37 @@
           "comment": "目的特化型高頻度利用セキュアLLMであって安くも汎用的でもない、スッキリした",
           "tags": [],
           "timestamp": "2026/06/18 00:05"
-        },
-        {
-          "user": "Cru",
-          "comment": "やっぱ蒸留だよね。しかし蒸留が有効な理由は解明されてるんだろか？私的には高次元言語特徴量空間で構築されたベクトル場の模倣なんだろうと思ってるが",
-          "tags": [
-            "AI",
-            "オフトピ"
-          ],
-          "timestamp": "2026/06/17 23:38"
-        },
-        {
-          "user": "srng",
-          "comment": "記事中の元記事の分析を見るに、H100とか200とかが前提の話らしいのでそりゃあそうなるだろうな。一般的なGPUで中規模の規制解除モデルで遊ぶ世界とは軸が違う",
-          "tags": [],
-          "timestamp": "2026/06/17 23:18"
         }
       ],
-      "fetchedAt": "2026-06-17T15:52:45.230967+00:00"
+      "fetchedAt": "2026-06-17T20:23:00.947339+00:00"
     },
     {
       "id": "h_e638ad5d",
       "title": "Googleが公開したAIエージェント向け知識共有フォーマット『OKF』を触ってみた | DevelopersIO",
       "url": "https://dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
       "domain": "dev.classmethod.jp",
-      "bookmarkCount": 106,
+      "bookmarkCount": 163,
       "summary": "こんにちは、せーのです。 社内ドキュメントを AI エージェントに渡したい、という相談をよく受けます。Wiki もある、Notion もある、共有ドライブもある、という状態で「どう構造化すればいいの？」と悩んでいる方、多いと思います。 2026年6月12日、Google Cloud が Open Knowledge Format（OKF） v0.1 を GitHub で公...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
       "comments": [
+        {
+          "user": "Listlessness",
+          "comment": "OKFをObsidianで扱うときに気を付ける点は[[Wikilink]]ではなくて[Concept](/path/to/file)のリンク形式になるところかな。設定でWikiリンクの使用をオフにすればよい。type必須のフロントマターはTemplateにでも仕込めばよいでしょう。",
+          "tags": [],
+          "timestamp": "2026/06/18 03:58"
+        },
+        {
+          "user": "quality1",
+          "comment": "よしこれをAIに書かせよう",
+          "tags": [],
+          "timestamp": "2026/06/18 03:38"
+        },
+        {
+          "user": "sionsou",
+          "comment": "ちょっと面白そうなので週末遊ぶ予定。",
+          "tags": [],
+          "timestamp": "2026/06/18 00:55"
+        },
         {
           "user": "kei_1010",
           "comment": "俺のグチャグチャなmdファイル群を「OKFに準拠して整理し直せ」って指示したらAIが勝手にやってくれるだろうか？面倒臭いのでOKF自体は俺は覚えたくない。",
@@ -217,65 +134,30 @@
           "timestamp": "2026/06/17 23:16"
         }
       ],
-      "fetchedAt": "2026-06-17T15:52:45.872481+00:00"
-    },
-    {
-      "id": "h_37494d72",
-      "title": "イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった",
-      "url": "https://rocketnews24.com/2026/06/17/2772729/",
-      "domain": "rocketnews24.com",
-      "bookmarkCount": 41,
-      "summary": "» イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった 特集 最近SNSで、中年男性のファッションについて話題が持ち上がった。それはイオンモールなどでよく見かける服装についてである。デニムシャツ・ベージュのチノパン・ボディバッグ。この3つの組み合わせに...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocketnews24.com/2026/06/17/2772729/",
-      "comments": [
-        {
-          "user": "o2k-ken1",
-          "comment": "まずマッチョになってみてはどうだろうか？参考→ https://youtube.com/shorts/Liy9TDUrVcE?si=3xmgpoup17vl7OWG",
-          "tags": [],
-          "timestamp": "2026/06/18 00:39"
-        },
-        {
-          "user": "asahiufo",
-          "comment": "キッズの面倒を見るために服装を機能性重視にしているおじさんにはポンデリングとコーヒーを奢ってあげてくれ。",
-          "tags": [],
-          "timestamp": "2026/06/18 00:29"
-        },
-        {
-          "user": "ykktie",
-          "comment": "イオンモールおじさんのどこが悪いのかよくわからない",
-          "tags": [],
-          "timestamp": "2026/06/18 00:11"
-        },
-        {
-          "user": "blackwatch",
-          "comment": "Beforeもそんなに悪くないと思う。Afterのロールアップは雑すぎるので、裾上げするかうまく折るか（折り皺も気になる）。シャツは前回でもいいけど、ボタンを1つ2つ外すくらいでも。",
-          "tags": [],
-          "timestamp": "2026/06/17 23:32"
-        },
-        {
-          "user": "aga_aga",
-          "comment": "やっす。ごちゃごちゃ言わないでハイブラで揃えればいいのよ。金出さないで姑息な手で乗り切ろうとするから全てがバカバカしい。",
-          "tags": [],
-          "timestamp": "2026/06/17 23:30"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "いや、何も良くなってないように思えるのだが、気のせい？",
-          "tags": [],
-          "timestamp": "2026/06/17 23:24"
-        }
-      ],
-      "fetchedAt": "2026-06-17T15:52:49.053019+00:00"
+      "fetchedAt": "2026-06-17T20:22:59.956023+00:00"
     },
     {
       "id": "h_6eaac6aa",
       "title": "会社員のためのCodex資料作成術：Skillで統一感のあるプレゼン資料を作る実践ガイド",
       "url": "https://zenn.dev/acntechjp/articles/c2bff25e230539",
       "domain": "zenn.dev",
-      "bookmarkCount": 37,
+      "bookmarkCount": 91,
       "summary": "はじめに 最近、業務資料の作成にも生成AIを活用する機会が増えてきました。 ただし、AIにいきなり「プレゼン資料を作って」と依頼しても、実務でそのまま使える資料になるとは限りません。 特に会社員が作る資料では、以下のような点が重要になります。 スライド全体のトーンが揃っていること メッセージが分かりやすい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acntechjp/articles/c2bff25e230539",
       "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "Codexで5枚構成を作り、Style MarkdownとImage Genで全体確認後、Presentation Skillで編集可能PPT化する実践ガイド。",
+          "tags": [
+            "AI要約",
+            "Codex",
+            "AIエージェント",
+            "スライド",
+            "チュートリアル",
+            "生成AI"
+          ],
+          "timestamp": "2026/06/18 01:27"
+        },
         {
           "user": "sambmetta",
           "comment": "Codexつかって作るのがパワポ資料かぁ……っていう気がしないでもない（つまり気がする）",
@@ -295,14 +177,62 @@
           "timestamp": "2026/06/17 23:30"
         }
       ],
-      "fetchedAt": "2026-06-17T15:52:47.639567+00:00"
+      "fetchedAt": "2026-06-17T20:23:00.343184+00:00"
+    },
+    {
+      "id": "h_37494d72",
+      "title": "イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった",
+      "url": "https://rocketnews24.com/2026/06/17/2772729/",
+      "domain": "rocketnews24.com",
+      "bookmarkCount": 54,
+      "summary": "» イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった 特集 最近SNSで、中年男性のファッションについて話題が持ち上がった。それはイオンモールなどでよく見かける服装についてである。デニムシャツ・ベージュのチノパン・ボディバッグ。この3つの組み合わせに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocketnews24.com/2026/06/17/2772729/",
+      "comments": [
+        {
+          "user": "aike",
+          "comment": "あれは「自分の格好良さよりも大事にしているものために今ここに来ている」ということを示す服装なのでダサいのが正解なのだ。",
+          "tags": [],
+          "timestamp": "2026/06/18 05:20"
+        },
+        {
+          "user": "algot",
+          "comment": "その服しか買えない縛りでもあるのか",
+          "tags": [],
+          "timestamp": "2026/06/18 03:36"
+        },
+        {
+          "user": "sailoroji",
+          "comment": "ボタンは絶対に留めたほうが良いしクソキモい靴下がノイズなの勘弁してほしい。",
+          "tags": [],
+          "timestamp": "2026/06/18 02:48"
+        },
+        {
+          "user": "garakuta",
+          "comment": "AI使いたいだけのやる気のない記事。",
+          "tags": [],
+          "timestamp": "2026/06/18 02:04"
+        },
+        {
+          "user": "inks",
+          "comment": "イオンモールに溢れる「太っちょおばさん」に提言を言うと絶対に炎上するよな。おじさんなら、何言っても良いと成ってきた。",
+          "tags": [],
+          "timestamp": "2026/06/18 01:22"
+        },
+        {
+          "user": "manatus",
+          "comment": "リアルおじさんは置いといて、ファッションbefore, afterにありがちな「姿勢も表情も違うやん！」があの画像の問題な気がしてきた。元画像をチャッピーに笑顔にさせればいい感じなのでは？",
+          "tags": [],
+          "timestamp": "2026/06/18 01:18"
+        }
+      ],
+      "fetchedAt": "2026-06-17T20:23:02.857742+00:00"
     },
     {
       "id": "h_3bece656",
       "title": "小さくはじめるSLI/SLO ～育てながら組織に定着させる実践知～ / Starting Small with SLI/SLOs: Building Adoption Through Continuous Growth",
       "url": "https://speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 26,
+      "bookmarkCount": 36,
       "summary": "Road to SRE NEXT 2026 @神戸 の登壇資料です。 https://sre-lounge.connpass.com/event/390064/",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
       "comments": [
@@ -313,104 +243,127 @@
           "timestamp": "2026/06/17 23:06"
         }
       ],
-      "fetchedAt": "2026-06-17T15:52:47.947604+00:00"
-    },
-    {
-      "id": "h_74a565a2",
-      "title": "Claude Opus 4.7超えの中華モデル「GLM-5.2」が正式発表される、一部テストではClaude Fable 5を上回りオープンモデルとして誰でもダウンロード可能に",
-      "url": "https://gigazine.net/news/20260617-z-ai-glm-5-2-release/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 25,
-      "summary": "中国のAI企業であるZ.aiがAIモデル「GLM-5.2」を日本時間の2026年6月17日に正式発表しました。GLM-5.2は各種ベンチマークでClaude Opus 4.7を上回るスコアを記録しており、人間によるブラインドテストではClaude Fable 5を上回った例もあります。 GLM-5.2: Built for Long-Horizon Tasks https://z.ai/blog/glm-5.2 GLM-...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-z-ai-glm-5-2-release/",
-      "comments": [
-        {
-          "user": "anonie",
-          "comment": "使った感じかなり質が上がってるけどもっと速くなって欲しい…",
-          "tags": [],
-          "timestamp": "2026/06/17 23:27"
-        },
-        {
-          "user": "masalib",
-          "comment": "一番低い性能でも複数のMacをクラスタリングしないと使えないのか・・・無理！！",
-          "tags": [],
-          "timestamp": "2026/06/17 23:03"
-        },
-        {
-          "user": "masatomo-m",
-          "comment": "Opus 4.8が日本語環境で使い物にならない状態が改善される気配がないので、現状日本語で使えるモデルとしては最強かも？（自分はOpus 4.7を使っている",
-          "tags": [],
-          "timestamp": "2026/06/17 22:36"
-        },
-        {
-          "user": "fjch",
-          "comment": "2606171043 パラメータ7530億 100万トークン対応",
-          "tags": [],
-          "timestamp": "2026/06/17 22:20"
-        }
-      ],
-      "fetchedAt": "2026-06-17T15:52:50.455109+00:00"
-    },
-    {
-      "id": "h_52f4def9",
-      "title": "ホンダ・シビックに任意のコードを実行可能な脆弱性「EvilValet」が見つかる",
-      "url": "https://gigazine.net/news/20260617-honda-civic-evil-valet/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 18,
-      "summary": "ホンダ車は、オーディオシステムやナビを内蔵した車載のヘッドユニットをUSB経由でアップデートすることが可能です。しかし、ここに任意のコードを実行可能な脆弱性があることを、技術専門家のエリック・マクドナルド氏が指摘しています。 Honda Civics and the Evil Valet | Juniperspring https://juniperspring.org/p...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-honda-civic-evil-valet/",
-      "comments": [
-        {
-          "user": "kachine",
-          "comment": "元記事辿ると、10th Gen Honda CIVICとあるので、FK7, FK8が該当するっぽい。11世代に当たる現行のFL1, FL5はどうなんやろね？",
-          "tags": [],
-          "timestamp": "2026/06/17 23:23"
-        },
-        {
-          "user": "yamadadadada2",
-          "comment": "任意のコードを実行するとタコメーターのリミットが外れて一万一千回転まできっちり回るようになる",
-          "tags": [
-            "それはトヨタ"
-          ],
-          "timestamp": "2026/06/17 22:43"
-        },
-        {
-          "user": "fjch",
-          "comment": "2606171900 USB経由アップデートでオーバーライド可能",
-          "tags": [],
-          "timestamp": "2026/06/17 21:39"
-        },
-        {
-          "user": "daruyanagi",
-          "comment": "“なお、EvilValetを悪用するにはUSBポートへの物理的なアクセスが必要であり、リモートでの利用は不可能なので、危険性はそこまで高くないとみられます”",
-          "tags": [],
-          "timestamp": "2026/06/17 19:01"
-        }
-      ],
-      "fetchedAt": "2026-06-17T15:52:50.763099+00:00"
+      "fetchedAt": "2026-06-17T20:23:02.020805+00:00"
     },
     {
       "id": "h_b4ddfff6",
       "title": "自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出",
       "url": "https://zenn.dev/layerx/articles/b36ceffe6b5e20",
       "domain": "zenn.dev",
-      "bookmarkCount": 18,
+      "bookmarkCount": 28,
       "summary": "Ai Workforce事業部FDE部エンジニアの堤(@ozro_223)です。 本記事では、AgentにAI Workflowを自己改善させるときに起きる「最初の前提を覆せない」問題について考えます。 入力データと正解データを用意し、Agentに実行結果を改善させていくと、途中までは順調に精度が伸びます。一方で、改善の中身を見ると、プロンプト...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/layerx/articles/b36ceffe6b5e20",
       "comments": [],
-      "fetchedAt": "2026-06-17T15:52:51.545441+00:00"
+      "fetchedAt": "2026-06-17T20:23:03.714310+00:00"
     },
     {
       "id": "h_da2c977f",
       "title": "Google、Gemini専用設計の新スマスピ「Google Home スピーカー」を1万6800円で発売へ",
       "url": "https://www.itmedia.co.jp/news/articles/2606/17/news124.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 5,
+      "bookmarkCount": 24,
       "summary": "通信はWi-Fi 6（802.11ax）、Bluetooth 5.4に対応するほか、Thread 1.3のボーダールータ機能を備え、Matterのハブとしても機能する。「Google TV Streamer」とも連携し、最大2台をペアリングすると「リビングを空間サラウンドを備えたミニホームシアターに変えることができる」としている。 最大の特徴は、従来のGoogle...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news124.html",
+      "comments": [
+        {
+          "user": "comma3",
+          "comment": "（matterでいろいろできるよね？）",
+          "tags": [],
+          "timestamp": "2026/06/18 01:59"
+        }
+      ],
+      "fetchedAt": "2026-06-17T20:23:02.491690+00:00"
+    },
+    {
+      "id": "h_7261257c",
+      "title": "AntigravityとローカルLLMをMCPで繋ぐ！完全無料でクオータを99%削減する連携術",
+      "url": "https://zenn.dev/kojimaru/articles/2864ef6ce8b85c",
+      "domain": "zenn.dev",
+      "bookmarkCount": 22,
+      "summary": "はじめに 生成AIをヘビーに使い倒す開発者や学習者にとって、最大の敵は「APIクオータ（利用制限）の枯渇」ではないでしょうか。 私はAIアシスタント「Antigravity（Gemini）」の優秀な対話UI（特に出力に対してピンポイントでコメントできる機能）が大好きで、思考整理やブログの下書きに使い込んでいました。 しかし、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kojimaru/articles/2864ef6ce8b85c",
+      "comments": [
+        {
+          "user": "oktnzm",
+          "comment": "よさげ。AI自体の対話コストも無視はできないが、トークン消費する雑用的なものを外注できれば強そう。ただどうしてもクラウドより時間かかるから待てる仕事に限られるだろうが。",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/06/18 04:44"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“出力された原稿にピンポイントでコメントを入れ、対話しながら磨き上げていく、Antigravity独特の素晴らしいUI機能を使いたい。Qwen2.5:7bでPC内の数万文字のファイルをローカルで全量読書し、数百文字に濃縮する”",
+          "tags": [],
+          "timestamp": "2026/06/17 19:26"
+        }
+      ],
+      "fetchedAt": "2026-06-17T20:23:01.348201+00:00"
+    },
+    {
+      "id": "h_04a47b1f",
+      "title": "折りたたみ式携帯電話「Commodore Callback 8020」が発表！Androidアプリが動くテンキー付き折りたたみレトロスタイル携帯が約８万円で登場",
+      "url": "https://daily-gadget.net/smartphone_tablet/116074/",
+      "domain": "daily-gadget.net",
+      "bookmarkCount": 20,
+      "summary": "Jolla Sailfish OSを搭載し、Androidアプリの99%と互換性を持つ折りたたみ型携帯電話「Commodore Callback 8020」が発表されました。T9キーボードや赤色のサブディスプレイといったレトロな外観を備えつつ、必要十分な機能に絞り込んだ仕様となっています。スペック競争から一線を画し、用途を限定することでスマートフ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/daily-gadget.net/smartphone_tablet/116074/",
+      "comments": [
+        {
+          "user": "napsucks",
+          "comment": "そういえば一時期ガラスマってあったよな",
+          "tags": [],
+          "timestamp": "2026/06/18 02:33"
+        },
+        {
+          "user": "pixmap",
+          "comment": "Sailfish OSというのは初耳だったけど、「Alien Dalvikという自社権利のAndroid互換性レイヤを使用。Androidオープンソース・プロジェクト(ASOP)コードをアプリとして実行するよう適合させることでそのAPIを実装している。」ふえー",
+          "tags": [],
+          "timestamp": "2026/06/18 01:18"
+        },
+        {
+          "user": "punychan",
+          "comment": "あのコモドールが何十年かぶりに復活したのかと思ったら、無関係だった。",
+          "tags": [],
+          "timestamp": "2026/06/18 00:58"
+        },
+        {
+          "user": "scavenger-folk99",
+          "comment": "折りたたみ式携帯電話？おじさんはをJ-PHONEヤツを使っていたな。",
+          "tags": [],
+          "timestamp": "2026/06/17 23:50"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "Sailfish OSとか懐かしすぎる。8万円は強気だけどロマン枠としてはありかも",
+          "tags": [],
+          "timestamp": "2026/06/17 23:40"
+        }
+      ],
+      "fetchedAt": "2026-06-17T20:23:04.105266+00:00"
+    },
+    {
+      "id": "h_546b0815",
+      "title": "サイバーエージェントのポイント交換サービス、不正アクセスで停止中 復旧に1カ月かかる見込み",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news123.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 4,
+      "summary": "サイバーエージェント（東京都渋谷区）が運営するポイント交換サービス「ドットマネー」「ドットギフト」が、不正アクセスを受けて6月8日から全機能を停止している。復旧は停止開始から約1カ月かかる見込みだ。同社は6月17日、公式ブログで続報を公表し、交換手続きの途中だったポイントは消失しないと説明した。 ドット...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news123.html",
       "comments": [],
-      "fetchedAt": "2026-06-17T15:52:51.035645+00:00"
+      "fetchedAt": "2026-06-17T20:23:04.485534+00:00"
+    },
+    {
+      "id": "h_6454edaf",
+      "title": "【Hothotレビュー】 1.1kgで2層OLED搭載、ゲームも爆速。14型「ASUS ExpertBook Ultra」",
+      "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2117757.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 4,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/hothot/2117757.html",
+      "comments": [],
+      "fetchedAt": "2026-06-17T20:23:04.789932+00:00"
     }
   ],
-  "lastCollection": "2026-06-17T15:52:51.545471+00:00"
+  "lastCollection": "2026-06-17T20:23:04.789963+00:00"
 }
