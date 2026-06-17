@@ -5,10 +5,18 @@
       "title": "5万スターのClaude Code Tips集、本質は2つだけ",
       "url": "https://zenn.dev/acntechjp/articles/5409d8e2ad0767",
       "domain": "zenn.dev",
-      "bookmarkCount": 438,
+      "bookmarkCount": 557,
       "summary": "このリポジトリは何か shanraisshan/claude-code-best-practice は、GitHub Trending 1位を獲得し、現在5万スター近くまで伸びている Claude Code のベストプラクティス集です。 中身を一言でいうと、設定ファイルを配るテンプレート集ではなく、「Claude Code をうまく使うための知識」をリンク付きで整理したリファレ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acntechjp/articles/5409d8e2ad0767",
       "comments": [
+        {
+          "user": "misshiki",
+          "comment": "5万スター近いClaude Code Tips集の本質を「CLAUDE.mdは短く」「ハーネスを組む」の2点に整理。基本コマンドをCLAUDE.mdに、強制したい挙動はsettingsやフックへ。Claudeに検証手段を与えるのが最重要。",
+          "tags": [
+            "Claude Code"
+          ],
+          "timestamp": "2026/06/18 00:33"
+        },
         {
           "user": "tel30",
           "comment": "当方非エンジニアなので、この辺に超えられない壁を感じてる。使っていくうちにぐちゃぐちゃ肥大化してくるので上手いこと自律的に整理整頓できるようになって欲しい。",
@@ -38,25 +46,31 @@
           "comment": "\"Boris の主張を一言でまとめると、「モデルを賢くしようとするな。モデルが失敗しにくい仕組みを作れ」 です\"",
           "tags": [],
           "timestamp": "2026/06/17 14:17"
-        },
-        {
-          "user": "te2u",
-          "comment": "どちらもLLMの特性によるものなので､Claude Codeに限った話ではないと思う｡",
-          "tags": [],
-          "timestamp": "2026/06/17 14:12"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:22.761720+00:00"
+      "fetchedAt": "2026-06-17T15:52:48.697065+00:00"
     },
     {
       "id": "h_6fdb086a",
       "title": "査読は「ほぼ破綻」している――生成AI時代の研究成果公開を、もう一度設計し直す：JSAI2026 企画セッション「生成AI・プレプリント時代における研究成果公開の再設計」開催報告｜一般社団法人 情報科学技術協会（INFOSTA）",
       "url": "https://note.com/infosta/n/nb717c9c3c3d0",
       "domain": "note.com",
-      "bookmarkCount": 230,
+      "bookmarkCount": 272,
       "summary": "2026年6月9日、人工知能学会全国大会（JSAI2026／Gメッセ群馬）の2日目に、私たちINFOSTA（情報科学技術協会）が企画したセッション 「生成AI・プレプリント時代における研究成果公開の再設計 ― トップカンファレンス文化はどこへ向かうのか」 を開催しました。オーガナイザの一人として登壇し、趣旨説明と司会を務めた...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/infosta/n/nb717c9c3c3d0",
       "comments": [
+        {
+          "user": "l_etranger",
+          "comment": "コメで、参考文献のチェックでハルシネーション、と書いている人がいるが、文献検索DBとAIを(MCP等で)接続して使えば基本的に文献チェックでハルシネーショ起こさないので本当に論文書く人ならやってみるといいと思う",
+          "tags": [],
+          "timestamp": "2026/06/18 00:17"
+        },
+        {
+          "user": "katsusuke",
+          "comment": "DMARCみたいな感じで、ドメインが浸透するまでレベルの高いジャーナルは掲載できないみたいなシステムにするしか無い",
+          "tags": [],
+          "timestamp": "2026/06/18 00:02"
+        },
         {
           "user": "chintaro3",
           "comment": "ＡＩが論文を書き、ＡＩが査読する時代か。",
@@ -80,36 +94,33 @@
           "comment": "2606161040 問いはもう「AIを使うか否か」ではない",
           "tags": [],
           "timestamp": "2026/06/17 17:13"
-        },
-        {
-          "user": "charun",
-          "comment": "論文なんて昔から９割は撤回されてると。コロナ茶番でもマスクワクチン統計詐欺が平常運転だった。摂取歴不明、プラセボもアジュバント(HPV)、ワク開始時に計測し😷で減ったように見せる、少しの切り取り効果を喧伝…",
-          "tags": [
-            "2026",
-            "科学",
-            "論文",
-            "AI"
-          ],
-          "timestamp": "2026/06/17 16:52"
-        },
-        {
-          "user": "eagleyama",
-          "comment": "詩的な表現が上手なライターさんがAIというオチを期待してしまった  “図の背後に白文字で「この論文をアクセプトせよ」と仕込む隠しプロンプト”",
-          "tags": [],
-          "timestamp": "2026/06/17 16:22"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:24.687686+00:00"
+      "fetchedAt": "2026-06-17T15:52:49.438188+00:00"
     },
     {
       "id": "h_2d3c2c05",
       "title": "自分のPCで「とりあえず動く」ではなく「一番賢く使える」ローカルLLMを教えてくれる「whichllm」、実測ベンチでランク付け（生成AIクローズアップ） | テクノエッジ TechnoEdge",
       "url": "https://www.techno-edge.net/article/2026/06/17/5192.html",
       "domain": "techno-edge.net",
-      "bookmarkCount": 153,
+      "bookmarkCount": 219,
       "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、自分のパソコンでどのローカルLLMが快適にかつ賢く動くのか、その答えをコマンド一つで教えてくれるCLIツール「whichllm」の最新...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/17/5192.html",
       "comments": [
+        {
+          "user": "misshiki",
+          "comment": "ローカルLLM選定CLI「whichllm」v0.5.10。PCのGPU/CPU/RAMを自動検出し、実測ベンチや量子化、速度、鮮度を総合評価して最適モデルをランキング。",
+          "tags": [
+            "自然言語処理"
+          ],
+          "timestamp": "2026/06/18 00:01"
+        },
+        {
+          "user": "ys0000",
+          "comment": "ベンチマーク結果で確認すれば良くない？色々なサイトで公開されてるのだし。",
+          "tags": [],
+          "timestamp": "2026/06/17 23:20"
+        },
         {
           "user": "stabucky",
           "comment": "「自動的に検出」という売りになる部分が実はマイナスであるという面白い例。",
@@ -133,446 +144,273 @@
           "comment": "githubここか。  https://github.com/Andyyyy64/whichllm/blob/main/docs/README.ja.md",
           "tags": [],
           "timestamp": "2026/06/17 16:35"
-        },
-        {
-          "user": "miduhima",
-          "comment": "“whichllm”",
-          "tags": [],
-          "timestamp": "2026/06/17 16:14"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "WebでVRAMとか入力すれば表示できるのに危険すぎると前から思っている。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/06/17 15:13"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:23.833444+00:00"
-    },
-    {
-      "id": "h_967fb466",
-      "title": "月間売上1億円超、“推しAI”アプリ「Zeta」がオタク女子わしづかみ ただし危うさも",
-      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news020.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 106,
-      "summary": "自分が作ったシチュエーションで“推し”と会話できるAIチャットアプリ「Zeta」（ゼタ）が人気だ。App StoreやGoogle Playのエンターテインメントランキングでも連日上位にランクインしており、2025年12月には月間売り上げが日本だけで1億2000万円を突破。26年5月には国内ユーザー数が200万人に到達したという。 提供元は...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news020.html",
-      "comments": [
-        {
-          "user": "kerokimu",
-          "comment": "NTRも…？",
-          "tags": [],
-          "timestamp": "2026/06/17 19:49"
-        },
-        {
-          "user": "dekawo",
-          "comment": "こんなアプリ売れるかな〜とか妄想してるうちに大体リリースされる",
-          "tags": [],
-          "timestamp": "2026/06/17 18:41"
-        },
-        {
-          "user": "azumi_s",
-          "comment": "悔シコ係長コラボ待ったなしである",
-          "tags": [
-            "#|- ω - )……",
-            "AI"
-          ],
-          "timestamp": "2026/06/17 17:55"
-        },
-        {
-          "user": "aosiro",
-          "comment": "うちの長女もやってる...",
-          "tags": [],
-          "timestamp": "2026/06/17 16:07"
-        },
-        {
-          "user": "nanako-robi",
-          "comment": "ドキドキするのかなあ",
-          "tags": [],
-          "timestamp": "2026/06/17 15:57"
-        },
-        {
-          "user": "sirobu",
-          "comment": "AIなりチャ",
-          "tags": [
-            "オタク"
-          ],
-          "timestamp": "2026/06/17 15:56"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:25.707342+00:00"
-    },
-    {
-      "id": "h_95726c98",
-      "title": "誰もが「つくれる」時代、価値はどこに宿るのか── 『INSPIRED』Marty Cagan氏が語る、AI時代のプロダクトづくり - Findy Media",
-      "url": "https://findy-code.io/media/articles/product-management-summit-keynote",
-      "domain": "findy-code.io",
-      "bookmarkCount": 95,
-      "summary": "生成AIの進化により、ソフトウェアを「つくる」こと自体のハードルはかつてないほど低くなりました。誰もが数分でプロトタイプを動かせる時代に、プロダクトマネージャー（PdM）はどこで価値を発揮できるのか。 『INSPIRED』『EMPOWERED』『TRANSFORMED』の著者であり、Silicon Valley Product Group（SVPG）創設者とし...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/findy-code.io/media/articles/product-management-summit-keynote",
-      "comments": [
-        {
-          "user": "short_tanu",
-          "comment": "かなり納得感のある話",
-          "tags": [],
-          "timestamp": "2026/06/17 15:22"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "そもそも「情報処理技術者」が未だに「士業とか専門職」として成立していない計算機工学の現状の方が本来は異常。稀にVTuberですら取ってる電気工事士だって士業だぞ。 > あと全員士業とか専門職の人だった",
-          "tags": [],
-          "timestamp": "2026/06/17 15:13"
-        },
-        {
-          "user": "georgew",
-          "comment": "AIの役割... PdM自身が「より多くの打席に立ち、迅速に学ぶ」ことを支援し、人間の判断力を養うために活用すべき > 同感。壁打ち相手こそ最適。",
-          "tags": [],
-          "timestamp": "2026/06/17 14:41"
-        },
-        {
-          "user": "kompiro",
-          "comment": "アジャイルプロダクトオーナーがやたら下げられてるけど、この役割がなんなのか認識が自分と違ってそう。例えばプロダクトディスカバリーもやるし、優先順位決めもやる。センス問われるけどなんで不要といえるの？",
-          "tags": [],
-          "timestamp": "2026/06/17 14:01"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“iPhoneやGoogle検索は、単なる過去のコピーではなく、競合よりも圧倒的にうまく問題を解いたからユーザーが乗り換えたんです。　2時間で済むのに2週間でスプリントなんてしない。アジャイルは役目を終えつつあります”",
-          "tags": [],
-          "timestamp": "2026/06/17 13:35"
-        },
-        {
-          "user": "sp_ice",
-          "comment": "“PdMの面接を受けると、解決すべき問題を与えられて「お気に入りのプロトタイピングツールでソリューションをどうつくり、どうテストするかを見せてください」と求められるのが一般的です。それが仕事の核心だから”",
-          "tags": [],
-          "timestamp": "2026/06/17 12:32"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:27.865693+00:00"
+      "fetchedAt": "2026-06-17T15:52:46.954267+00:00"
     },
     {
       "id": "h_d6687c63",
       "title": "ローカルLLMをいつ使うべきか？",
       "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
       "domain": "zenn.dev",
-      "bookmarkCount": 45,
+      "bookmarkCount": 182,
       "summary": "TL;DR 「ローカルLLM＝コストが安い」はほとんどの場合で誤りです。2026年時点での損益分岐点はかなり高く、GPUを遊ばせると単価はAPIより高くつきます。 それでもローカルLLMが勝つ領域はあります。ガバナンス・タスク特化での精度・レイテンシ の3軸です。 実例として、RAGチャットボットの軽量な判定ステップを Gemma...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sompojapan_dx/articles/74624afa03040c",
       "comments": [
         {
-          "user": "proverb",
-          "comment": "Opus 4.8がウンチ過ぎてFableがBanされたタイミングでローカルLLMを検討する機運が上がった気がする。",
-          "tags": [],
-          "timestamp": "2026/06/17 19:55"
-        },
-        {
-          "user": "masayoshinym",
-          "comment": "OpenRouter＋Qwenとかのが安いかもしれない、というのは理解しつつも、やってみたいんだよ、それでも。我々は。",
+          "user": "misshiki",
+          "comment": "ローカルLLMはコスト目的ではなく、ガバナンス・特化精度・安定レイテンシで使うべき。Gemma 4 E2BをLoRA特化し、RAGのドリフト検知率を0.609→0.971に改善。",
           "tags": [
-            "AIコーディング"
+            "自然言語処理"
           ],
-          "timestamp": "2026/06/17 19:42"
+          "timestamp": "2026/06/18 00:48"
         },
         {
-          "user": "tohokuaiki",
-          "comment": "メチャ知りたかった。“「狭く定義できて、良質な教師データを作れる」ことが条件です。逆に、汎用的な対話・長文生成・複雑な推論をまるごとローカルモデルに背負わせるのは、今のところ筋が悪いと思われます。”",
+          "user": "Windfola",
+          "comment": "リンク先、フロンティアAIでなくDeepSeek／Together／Fireworks等の超コスパ系との比較では、GPU調達や鯖運用工数の分負けがちとのこと。最大の問題はJTCでそれらマイナーAIの利用稟申が通る気が全くしないことだが……。",
           "tags": [],
-          "timestamp": "2026/06/17 19:37"
+          "timestamp": "2026/06/18 00:24"
         },
         {
-          "user": "auto_chan",
-          "comment": "今でしょ",
+          "user": "dodecamin",
+          "comment": "前提の英語記事の分析ではGPUはクラウドから従量課金でレンタルして、作業人件費も載せて月額約3240ドルとして試算してる。誰がコスト最適のためのローカルLLM構築の話で買い切りでなく、高級GPUのVMで設計すると言うのか",
           "tags": [],
-          "timestamp": "2026/06/17 19:35"
+          "timestamp": "2026/06/18 00:23"
+        },
+        {
+          "user": "airj12",
+          "comment": "目的特化型高頻度利用セキュアLLMであって安くも汎用的でもない、スッキリした",
+          "tags": [],
+          "timestamp": "2026/06/18 00:05"
+        },
+        {
+          "user": "Cru",
+          "comment": "やっぱ蒸留だよね。しかし蒸留が有効な理由は解明されてるんだろか？私的には高次元言語特徴量空間で構築されたベクトル場の模倣なんだろうと思ってるが",
+          "tags": [
+            "AI",
+            "オフトピ"
+          ],
+          "timestamp": "2026/06/17 23:38"
+        },
+        {
+          "user": "srng",
+          "comment": "記事中の元記事の分析を見るに、H100とか200とかが前提の話らしいのでそりゃあそうなるだろうな。一般的なGPUで中規模の規制解除モデルで遊ぶ世界とは軸が違う",
+          "tags": [],
+          "timestamp": "2026/06/17 23:18"
+        }
+      ],
+      "fetchedAt": "2026-06-17T15:52:45.230967+00:00"
+    },
+    {
+      "id": "h_e638ad5d",
+      "title": "Googleが公開したAIエージェント向け知識共有フォーマット『OKF』を触ってみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
+      "domain": "dev.classmethod.jp",
+      "bookmarkCount": 106,
+      "summary": "こんにちは、せーのです。 社内ドキュメントを AI エージェントに渡したい、という相談をよく受けます。Wiki もある、Notion もある、共有ドライブもある、という状態で「どう構造化すればいいの？」と悩んでいる方、多いと思います。 2026年6月12日、Google Cloud が Open Knowledge Format（OKF） v0.1 を GitHub で公...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
+      "comments": [
+        {
+          "user": "kei_1010",
+          "comment": "俺のグチャグチャなmdファイル群を「OKFに準拠して整理し直せ」って指示したらAIが勝手にやってくれるだろうか？面倒臭いのでOKF自体は俺は覚えたくない。",
+          "tags": [],
+          "timestamp": "2026/06/17 23:16"
+        }
+      ],
+      "fetchedAt": "2026-06-17T15:52:45.872481+00:00"
+    },
+    {
+      "id": "h_37494d72",
+      "title": "イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった",
+      "url": "https://rocketnews24.com/2026/06/17/2772729/",
+      "domain": "rocketnews24.com",
+      "bookmarkCount": 41,
+      "summary": "» イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった 特集 最近SNSで、中年男性のファッションについて話題が持ち上がった。それはイオンモールなどでよく見かける服装についてである。デニムシャツ・ベージュのチノパン・ボディバッグ。この3つの組み合わせに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocketnews24.com/2026/06/17/2772729/",
+      "comments": [
+        {
+          "user": "o2k-ken1",
+          "comment": "まずマッチョになってみてはどうだろうか？参考→ https://youtube.com/shorts/Liy9TDUrVcE?si=3xmgpoup17vl7OWG",
+          "tags": [],
+          "timestamp": "2026/06/18 00:39"
+        },
+        {
+          "user": "asahiufo",
+          "comment": "キッズの面倒を見るために服装を機能性重視にしているおじさんにはポンデリングとコーヒーを奢ってあげてくれ。",
+          "tags": [],
+          "timestamp": "2026/06/18 00:29"
+        },
+        {
+          "user": "ykktie",
+          "comment": "イオンモールおじさんのどこが悪いのかよくわからない",
+          "tags": [],
+          "timestamp": "2026/06/18 00:11"
+        },
+        {
+          "user": "blackwatch",
+          "comment": "Beforeもそんなに悪くないと思う。Afterのロールアップは雑すぎるので、裾上げするかうまく折るか（折り皺も気になる）。シャツは前回でもいいけど、ボタンを1つ2つ外すくらいでも。",
+          "tags": [],
+          "timestamp": "2026/06/17 23:32"
+        },
+        {
+          "user": "aga_aga",
+          "comment": "やっす。ごちゃごちゃ言わないでハイブラで揃えればいいのよ。金出さないで姑息な手で乗り切ろうとするから全てがバカバカしい。",
+          "tags": [],
+          "timestamp": "2026/06/17 23:30"
+        },
+        {
+          "user": "kei_1010",
+          "comment": "いや、何も良くなってないように思えるのだが、気のせい？",
+          "tags": [],
+          "timestamp": "2026/06/17 23:24"
+        }
+      ],
+      "fetchedAt": "2026-06-17T15:52:49.053019+00:00"
+    },
+    {
+      "id": "h_6eaac6aa",
+      "title": "会社員のためのCodex資料作成術：Skillで統一感のあるプレゼン資料を作る実践ガイド",
+      "url": "https://zenn.dev/acntechjp/articles/c2bff25e230539",
+      "domain": "zenn.dev",
+      "bookmarkCount": 37,
+      "summary": "はじめに 最近、業務資料の作成にも生成AIを活用する機会が増えてきました。 ただし、AIにいきなり「プレゼン資料を作って」と依頼しても、実務でそのまま使える資料になるとは限りません。 特に会社員が作る資料では、以下のような点が重要になります。 スライド全体のトーンが揃っていること メッセージが分かりやすい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acntechjp/articles/c2bff25e230539",
+      "comments": [
+        {
+          "user": "sambmetta",
+          "comment": "Codexつかって作るのがパワポ資料かぁ……っていう気がしないでもない（つまり気がする）",
+          "tags": [],
+          "timestamp": "2026/06/17 23:48"
         },
         {
           "user": "nguyen-oi",
-          "comment": "「コスト削減目的のローカル化はほぼ失敗する」という現実的な指摘。小型モデルの特化運用の実践例が非常に有益",
+          "comment": "AIに丸投げするんじゃなくて工程ごとに人間が制御してツールを使い分けるの良いね",
           "tags": [],
-          "timestamp": "2026/06/17 17:32"
+          "timestamp": "2026/06/17 23:40"
         },
-        {
-          "user": "igrep",
-          "comment": "\"低レイテンシ／オフラインが要件の現場\"",
-          "tags": [
-            "LLM"
-          ],
-          "timestamp": "2026/06/17 17:29"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:25.356111+00:00"
-    },
-    {
-      "id": "h_3dd0ae44",
-      "title": "ゆうちょ銀、ATM引き出し上限を引き下げ 200万→50万",
-      "url": "https://www.watch.impress.co.jp/docs/news/2117818.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 26,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2117818.html",
-      "comments": [
-        {
-          "user": "norinorisan42",
-          "comment": "細かい事例でいえばブコメにある高齢な人ほど冠婚葬祭で急な現金（特にお布施）が必要な事があるので1回50万はともかく1日50万だとちょっと難儀と思う人はいるかも/利便性と安全性のバーターなので悩ましいが",
-          "tags": [],
-          "timestamp": "2026/06/17 19:23"
-        },
-        {
-          "user": "dollarss",
-          "comment": "5,000円にしようよ。お年寄り用の銀行業なんだからそれくらいしないと危険",
-          "tags": [],
-          "timestamp": "2026/06/17 18:12"
-        },
-        {
-          "user": "prograti",
-          "comment": "自分が使っている地銀だと過去の取引履歴に応じて振込は65歳以上、引出しは70歳以上で30万円の上限がつきますね",
-          "tags": [],
-          "timestamp": "2026/06/17 18:03"
-        },
-        {
-          "user": "mouseion",
-          "comment": "再度引き出しには日数や時間帯等制限を設けるとか付記してないと何度でも際限なく引き出せるものと誤解されかねんな。",
-          "tags": [],
-          "timestamp": "2026/06/17 17:50"
-        },
-        {
-          "user": "charun",
-          "comment": "ユーザを心配してあげてるふうの使徒監視化のおそれ",
-          "tags": [
-            "サービス",
-            "2026",
-            "監視社会"
-          ],
-          "timestamp": "2026/06/17 17:28"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "色々と理由(振り込め詐欺対策やATMメンテナンスの簡略化等)は付けそう。",
-          "tags": [
-            "社会",
-            "金融",
-            "サービス"
-          ],
-          "timestamp": "2026/06/17 17:25"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:26.276173+00:00"
-    },
-    {
-      "id": "h_1ad03f84",
-      "title": "ChatGPTの利用者シェアが初めて50％割れ、GeminiやClaudeが追い上げ",
-      "url": "https://gigazine.net/news/20260617-state-of-ai/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 26,
-      "summary": "生成AIサービスの利用状況を分析したSensor Towerの報告書「State of AI 2026」で、アプリとウェブの重複を除いた利用者の割合を示す「True Audienceシェア」において、ChatGPTが2026年3月に初めて50％を下回ったことが分かりました。ChatGPTは依然として最大のAIアシスタントですが、Googleの「Gemini」やAnthropicの「...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-state-of-ai/",
-      "comments": [
         {
           "user": "simplememofast",
-          "comment": "占有率の低下より、1人当たり収益でClaudeがChatGPTの約1.6倍な点が効く。用途で使い分ける前提なら、母数の奪い合いは勝敗指標であり続けるのか？",
+          "comment": "丸投げで一発生成は楽、わかる。ただ構成をテキストで固めてから視覚に回すと、後工程の手戻りがごっそり消えた。AIに任せる範囲を工程ごとに割るのが要…",
           "tags": [],
-          "timestamp": "2026/06/17 19:18"
-        },
-        {
-          "user": "freqp",
-          "comment": "2ヶ月前くらい、Claudeがすごいすごいと言われてたときに契約してみたけど、使い慣れなくてChatGPTに戻った。ガードレールが強すぎて退屈な回答に思えることもあるけど、自分はChatGPTに慣れと安心感があって満足してる",
-          "tags": [],
-          "timestamp": "2026/06/17 18:33"
-        },
-        {
-          "user": "karatte",
-          "comment": "DeepSeekとKimi派は低みの見物ですわ",
-          "tags": [],
-          "timestamp": "2026/06/17 18:22"
-        },
-        {
-          "user": "zsehnuy_cohriy",
-          "comment": "やはり最後に餅を喰らうはGoogleなのか？",
-          "tags": [],
-          "timestamp": "2026/06/17 17:20"
-        },
-        {
-          "user": "twotiger",
-          "comment": "どうやって調べてるんですか？",
-          "tags": [],
-          "timestamp": "2026/06/17 17:16"
-        },
-        {
-          "user": "siriusarc7",
-          "comment": "課金ユーザーの満足度みたいなのは知りたい",
-          "tags": [],
-          "timestamp": "2026/06/17 17:12"
+          "timestamp": "2026/06/17 23:30"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:26.859062+00:00"
+      "fetchedAt": "2026-06-17T15:52:47.639567+00:00"
     },
     {
-      "id": "h_8354b611",
-      "title": "mastra ソフトウェアサプライチェーン攻撃の概要と対応指針 - GMO Flatt Security Blog",
-      "url": "https://blog.flatt.tech/entry/mastra_compromise",
-      "domain": "blog.flatt.tech",
-      "bookmarkCount": 23,
-      "summary": "2026年6月17日、mastra および @mastra/* の複数パッケージの改ざん（ソフトウェアサプライチェーン攻撃）が発生しました。悪性の依存パッケージ easy-day-js が注入されています。 easy-day-js は postinstall フックにより C2 サーバからマルウェアペイロードを取得・実行する Stager として動作します。 ペイロードは...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/mastra_compromise",
+      "id": "h_3bece656",
+      "title": "小さくはじめるSLI/SLO ～育てながら組織に定着させる実践知～ / Starting Small with SLI/SLOs: Building Adoption Through Continuous Growth",
+      "url": "https://speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 26,
+      "summary": "Road to SRE NEXT 2026 @神戸 の登壇資料です。 https://sre-lounge.connpass.com/event/390064/",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
       "comments": [
-        {
-          "user": "kootaro",
-          "comment": "怖いよね...Nugetも結構雑に追加するしねAIが",
-          "tags": [],
-          "timestamp": "2026/06/17 18:06"
-        },
-        {
-          "user": "oooooo4150",
-          "comment": "“仮にある時点でパッケージがマルウェアと判定できずブロックできなかった場合” 今回の件に限らず、直近の主要な攻撃を検知してブロックできたのか、検知率を知りたいです！",
-          "tags": [],
-          "timestamp": "2026/06/17 17:28"
-        },
         {
           "user": "nguyen-oi",
-          "comment": "またnpmのサプライチェーン攻撃か。冷却期間の設定は自衛に必須になりそう",
+          "comment": "SLI/SLOの難しさは定義より「運用と組織への定着」っての、マジでそれな。成熟度モデルで段階的に育てるアプローチは非常に現実的で参考になる",
           "tags": [],
-          "timestamp": "2026/06/17 17:12"
-        },
-        {
-          "user": "gabill",
-          "comment": "今日も隣の街で空襲があった。明日自分の頭上に爆弾が落ちてきてもおかしくない。そういう空気。",
-          "tags": [],
-          "timestamp": "2026/06/17 17:05"
+          "timestamp": "2026/06/17 23:06"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:27.178366+00:00"
+      "fetchedAt": "2026-06-17T15:52:47.947604+00:00"
     },
     {
-      "id": "h_d98be06b",
-      "title": "日本における青少年のSNS「一律の年齢規制は望ましくない」、総務省が報告書取りまとめへ",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2117666.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 19,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2117666.html",
-      "comments": [
-        {
-          "user": "lainof",
-          "comment": "UKがどうか知らないけど、ゼロ知識証明で個人情報の紐づけなしに年齢規制は可能＞トップコメ",
-          "tags": [],
-          "timestamp": "2026/06/17 19:45"
-        },
-        {
-          "user": "kagerou_ts",
-          "comment": "年齢規制が始まる→アカウントと個人情報の紐付けが強制される→匿名文化の復興→すべてが増田になる→身体は闘争を求める→アーマードコアの新作が作られる",
-          "tags": [],
-          "timestamp": "2026/06/17 18:49"
-        },
-        {
-          "user": "colonoe",
-          "comment": "年齢規制をするには年齢を確認できるようにする必要があるんだが、そのためにはアカウントを作るために個人情報が必要になるんだよね",
-          "tags": [],
-          "timestamp": "2026/06/17 18:16"
-        },
-        {
-          "user": "kootaro",
-          "comment": "せめて小学生は法律で禁止してもええじゃないか？いやスマホ禁止で良いよ。親と連絡取れたらよいんだから。でも親がLineが便利だからってなるんだろうね。見守りで良いよ。",
-          "tags": [
-            "感想"
-          ],
-          "timestamp": "2026/06/17 18:10"
-        },
-        {
-          "user": "Hige2323",
-          "comment": "今規制が始まろうとしてるUKだと、規制対象（未成年）ではない証明として個人情報とsnsアカウントの紐付け情報を政府が合法的に収集するのが目的で、青少年保護は建前に過ぎないとか言われてて、成程なと",
-          "tags": [
-            "sns",
-            "立法"
-          ],
-          "timestamp": "2026/06/17 17:37"
-        },
-        {
-          "user": "memegoma",
-          "comment": "出会い系規制のときにゲーム内チャットやmixiをあれだけ締め付けていたのに、ぬるっとなし崩しで解禁状態にあるのが気になるところ。もう1回やってもいいのでは？",
-          "tags": [],
-          "timestamp": "2026/06/17 17:15"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:27.591673+00:00"
-    },
-    {
-      "id": "h_da9100dd",
-      "title": "山善、準固体電池採用で発火リスクを抑えた「準固体モバイルバッテリー」発売 10000/20000mAhの2製品",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2117563.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 12,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2117563.html",
-      "comments": [
-        {
-          "user": "k_oshima",
-          "comment": "半個体電池は発火リスクは下がらないのでは？",
-          "tags": [
-            "battery",
-            "material"
-          ],
-          "timestamp": "2026/06/17 19:06"
-        },
-        {
-          "user": "kzm1760",
-          "comment": "公式サイトにPSE認証（丸形）って書いてある。そもそも飛行機の持ち込み制限は個数とWhの制限のみ。PSE丸形認証のモバイルバッテリーで20000mAhなら普通に飛行機の持ち込みできそう。その基準を見るのがPSEなのでは？",
-          "tags": [],
-          "timestamp": "2026/06/17 18:18"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "↓持ち込めない認定取れないのはNaイオンな。だいたい「準」固体だのNaイオンだのに飛び付く輩は「唐突に爆発する」という重大リスクを抱える欠陥品と同等にすら扱われ無い時点で察せないのかね。アホなんだろうが…",
-          "tags": [],
-          "timestamp": "2026/06/17 17:45"
-        },
-        {
-          "user": "ka-ka_xyz",
-          "comment": "PSE / CEマークの有無は？山善の商品情報にも記載無し。先行する準固体電池もこの点（基準満たしてるかどうか分からんというか準固体電池向け基準がまだ）がネックになって飛行機へ持ち込めなかったりする。",
-          "tags": [],
-          "timestamp": "2026/06/17 11:28"
-        }
-      ],
-      "fetchedAt": "2026-06-17T11:09:28.185595+00:00"
-    },
-    {
-      "id": "h_b2818170",
-      "title": "Appleが匿名メールアドレス作成機能の「メールを非公開」のドメインを変更、アプリやウェブサイトが匿名登録をブロックしやすくなる可能性",
-      "url": "https://gigazine.net/news/20260617-apple-change-hide-my-email-domain/",
+      "id": "h_74a565a2",
+      "title": "Claude Opus 4.7超えの中華モデル「GLM-5.2」が正式発表される、一部テストではClaude Fable 5を上回りオープンモデルとして誰でもダウンロード可能に",
+      "url": "https://gigazine.net/news/20260617-z-ai-glm-5-2-release/",
       "domain": "gigazine.net",
-      "bookmarkCount": 5,
-      "summary": "Appleはウェブサービスやアプリなどでアカウントを作成する際、ユーザーが自身のメールアドレスを利用せずにアカウント作成ができる「メールを非公開」という機能を提供しています。この「メールを非公開」で生成されるメールアドレスのドメインが変更されることが明らかになりました。 New domain for Sign in with App...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-apple-change-hide-my-email-domain/",
+      "bookmarkCount": 25,
+      "summary": "中国のAI企業であるZ.aiがAIモデル「GLM-5.2」を日本時間の2026年6月17日に正式発表しました。GLM-5.2は各種ベンチマークでClaude Opus 4.7を上回るスコアを記録しており、人間によるブラインドテストではClaude Fable 5を上回った例もあります。 GLM-5.2: Built for Long-Horizon Tasks https://z.ai/blog/glm-5.2 GLM-...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-z-ai-glm-5-2-release/",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "ドメイン分けたら対策されて「非公開」の意味が薄れるの草。おとなしく元に戻して",
+          "user": "anonie",
+          "comment": "使った感じかなり質が上がってるけどもっと速くなって欲しい…",
           "tags": [],
-          "timestamp": "2026/06/17 20:04"
+          "timestamp": "2026/06/17 23:27"
         },
         {
-          "user": "fashi",
-          "comment": "「@private.icloud.com」",
-          "tags": [
-            "iPhone"
-          ],
-          "timestamp": "2026/06/17 16:05"
+          "user": "masalib",
+          "comment": "一番低い性能でも複数のMacをクラスタリングしないと使えないのか・・・無理！！",
+          "tags": [],
+          "timestamp": "2026/06/17 23:03"
         },
         {
-          "user": "shutaro",
-          "comment": "@ private.icloud.com",
-          "tags": [
-            "mail",
-            "privacy",
-            "anonymous",
-            "web"
-          ],
-          "timestamp": "2026/06/17 12:39"
+          "user": "masatomo-m",
+          "comment": "Opus 4.8が日本語環境で使い物にならない状態が改善される気配がないので、現状日本語で使えるモデルとしては最強かも？（自分はOpus 4.7を使っている",
+          "tags": [],
+          "timestamp": "2026/06/17 22:36"
+        },
+        {
+          "user": "fjch",
+          "comment": "2606171043 パラメータ7530億 100万トークン対応",
+          "tags": [],
+          "timestamp": "2026/06/17 22:20"
         }
       ],
-      "fetchedAt": "2026-06-17T11:09:28.461661+00:00"
+      "fetchedAt": "2026-06-17T15:52:50.455109+00:00"
+    },
+    {
+      "id": "h_52f4def9",
+      "title": "ホンダ・シビックに任意のコードを実行可能な脆弱性「EvilValet」が見つかる",
+      "url": "https://gigazine.net/news/20260617-honda-civic-evil-valet/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 18,
+      "summary": "ホンダ車は、オーディオシステムやナビを内蔵した車載のヘッドユニットをUSB経由でアップデートすることが可能です。しかし、ここに任意のコードを実行可能な脆弱性があることを、技術専門家のエリック・マクドナルド氏が指摘しています。 Honda Civics and the Evil Valet | Juniperspring https://juniperspring.org/p...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260617-honda-civic-evil-valet/",
+      "comments": [
+        {
+          "user": "kachine",
+          "comment": "元記事辿ると、10th Gen Honda CIVICとあるので、FK7, FK8が該当するっぽい。11世代に当たる現行のFL1, FL5はどうなんやろね？",
+          "tags": [],
+          "timestamp": "2026/06/17 23:23"
+        },
+        {
+          "user": "yamadadadada2",
+          "comment": "任意のコードを実行するとタコメーターのリミットが外れて一万一千回転まできっちり回るようになる",
+          "tags": [
+            "それはトヨタ"
+          ],
+          "timestamp": "2026/06/17 22:43"
+        },
+        {
+          "user": "fjch",
+          "comment": "2606171900 USB経由アップデートでオーバーライド可能",
+          "tags": [],
+          "timestamp": "2026/06/17 21:39"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "“なお、EvilValetを悪用するにはUSBポートへの物理的なアクセスが必要であり、リモートでの利用は不可能なので、危険性はそこまで高くないとみられます”",
+          "tags": [],
+          "timestamp": "2026/06/17 19:01"
+        }
+      ],
+      "fetchedAt": "2026-06-17T15:52:50.763099+00:00"
+    },
+    {
+      "id": "h_b4ddfff6",
+      "title": "自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出",
+      "url": "https://zenn.dev/layerx/articles/b36ceffe6b5e20",
+      "domain": "zenn.dev",
+      "bookmarkCount": 18,
+      "summary": "Ai Workforce事業部FDE部エンジニアの堤(@ozro_223)です。 本記事では、AgentにAI Workflowを自己改善させるときに起きる「最初の前提を覆せない」問題について考えます。 入力データと正解データを用意し、Agentに実行結果を改善させていくと、途中までは順調に精度が伸びます。一方で、改善の中身を見ると、プロンプト...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/layerx/articles/b36ceffe6b5e20",
+      "comments": [],
+      "fetchedAt": "2026-06-17T15:52:51.545441+00:00"
+    },
+    {
+      "id": "h_da2c977f",
+      "title": "Google、Gemini専用設計の新スマスピ「Google Home スピーカー」を1万6800円で発売へ",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news124.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 5,
+      "summary": "通信はWi-Fi 6（802.11ax）、Bluetooth 5.4に対応するほか、Thread 1.3のボーダールータ機能を備え、Matterのハブとしても機能する。「Google TV Streamer」とも連携し、最大2台をペアリングすると「リビングを空間サラウンドを備えたミニホームシアターに変えることができる」としている。 最大の特徴は、従来のGoogle...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news124.html",
+      "comments": [],
+      "fetchedAt": "2026-06-17T15:52:51.035645+00:00"
     }
   ],
-  "lastCollection": "2026-06-17T11:09:28.461689+00:00"
+  "lastCollection": "2026-06-17T15:52:51.545471+00:00"
 }
