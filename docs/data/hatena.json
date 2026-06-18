@@ -1,150 +1,38 @@
 {
   "entries": [
     {
-      "id": "h_2d3c2c05",
-      "title": "自分のPCで「とりあえず動く」ではなく「一番賢く使える」ローカルLLMを教えてくれる「whichllm」、実測ベンチでランク付け（生成AIクローズアップ） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/06/17/5192.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 236,
-      "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、自分のパソコンでどのローカルLLMが快適にかつ賢く動くのか、その答えをコマンド一つで教えてくれるCLIツール「whichllm」の最新...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/17/5192.html",
-      "comments": [
-        {
-          "user": "cider_kondo",
-          "comment": "そーいや https://www.canirun.ai/ って最近更新されてねえよな(今アクセスしたらupdated 29d agoとか表示されてて流石に何かあったんだろか感",
-          "tags": [],
-          "timestamp": "2026/06/18 04:41"
-        },
-        {
-          "user": "misshiki",
-          "comment": "ローカルLLM選定CLI「whichllm」v0.5.10。PCのGPU/CPU/RAMを自動検出し、実測ベンチや量子化、速度、鮮度を総合評価して最適モデルをランキング。",
-          "tags": [
-            "自然言語処理"
-          ],
-          "timestamp": "2026/06/18 00:01"
-        },
-        {
-          "user": "ys0000",
-          "comment": "ベンチマーク結果で確認すれば良くない？色々なサイトで公開されてるのだし。",
-          "tags": [],
-          "timestamp": "2026/06/17 23:20"
-        },
-        {
-          "user": "stabucky",
-          "comment": "「自動的に検出」という売りになる部分が実はマイナスであるという面白い例。",
-          "tags": [],
-          "timestamp": "2026/06/17 19:07"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "結果だけサイトで教えて欲しい",
-          "tags": [],
-          "timestamp": "2026/06/17 18:23"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "この手のツールや指南表はいくらでもあるが、実質的に用途やスペックに合わせて調整出来る要素が無くグラボありならQwen3.6 35B-A3B、内蔵GPUならGemma 4などその時々の一強が決まっていてほぼ意味が無い",
-          "tags": [],
-          "timestamp": "2026/06/17 17:12"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:23:03.388994+00:00"
-    },
-    {
-      "id": "h_d6687c63",
-      "title": "ローカルLLMをいつ使うべきか？",
-      "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
-      "domain": "zenn.dev",
-      "bookmarkCount": 219,
-      "summary": "TL;DR 「ローカルLLM＝コストが安い」はほとんどの場合で誤りです。2026年時点での損益分岐点はかなり高く、GPUを遊ばせると単価はAPIより高くつきます。 それでもローカルLLMが勝つ領域はあります。ガバナンス・タスク特化での精度・レイテンシ の3軸です。 実例として、RAGチャットボットの軽量な判定ステップを Gemma...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sompojapan_dx/articles/74624afa03040c",
-      "comments": [
-        {
-          "user": "sotonohitokun",
-          "comment": "「カメラ沼」とか「車改造沼」「AV機器沼」「推し活」と比較する趣味として考えると、俄然安価になるんよ。",
-          "tags": [],
-          "timestamp": "2026/06/18 05:17"
-        },
-        {
-          "user": "sionsou",
-          "comment": "マシンさえあればね…",
-          "tags": [],
-          "timestamp": "2026/06/18 00:55"
-        },
-        {
-          "user": "misshiki",
-          "comment": "ローカルLLMはコスト目的ではなく、ガバナンス・特化精度・安定レイテンシで使うべき。Gemma 4 E2BをLoRA特化し、RAGのドリフト検知率を0.609→0.971に改善。",
-          "tags": [
-            "自然言語処理"
-          ],
-          "timestamp": "2026/06/18 00:48"
-        },
-        {
-          "user": "Windfola",
-          "comment": "リンク先、フロンティアAIでなくDeepSeek／Together／Fireworks等の超コスパ系との比較では、GPU調達や鯖運用工数の分負けがちとのこと。最大の問題はJTCでそれらマイナーAIの利用稟申が通る気が全くしないことだが……。",
-          "tags": [],
-          "timestamp": "2026/06/18 00:24"
-        },
-        {
-          "user": "dodecamin",
-          "comment": "前提の英語記事の分析ではGPUはクラウドから従量課金でレンタルして、作業人件費も載せて月額約3240ドルとして試算してる。誰がコスト最適のためのローカルLLM構築の話で買い切りでなく、高級GPUのVMで設計すると言うのか",
-          "tags": [],
-          "timestamp": "2026/06/18 00:23"
-        },
-        {
-          "user": "airj12",
-          "comment": "目的特化型高頻度利用セキュアLLMであって安くも汎用的でもない、スッキリした",
-          "tags": [],
-          "timestamp": "2026/06/18 00:05"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:23:00.947339+00:00"
-    },
-    {
-      "id": "h_e638ad5d",
-      "title": "Googleが公開したAIエージェント向け知識共有フォーマット『OKF』を触ってみた | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
-      "domain": "dev.classmethod.jp",
-      "bookmarkCount": 163,
-      "summary": "こんにちは、せーのです。 社内ドキュメントを AI エージェントに渡したい、という相談をよく受けます。Wiki もある、Notion もある、共有ドライブもある、という状態で「どう構造化すればいいの？」と悩んでいる方、多いと思います。 2026年6月12日、Google Cloud が Open Knowledge Format（OKF） v0.1 を GitHub で公...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
-      "comments": [
-        {
-          "user": "Listlessness",
-          "comment": "OKFをObsidianで扱うときに気を付ける点は[[Wikilink]]ではなくて[Concept](/path/to/file)のリンク形式になるところかな。設定でWikiリンクの使用をオフにすればよい。type必須のフロントマターはTemplateにでも仕込めばよいでしょう。",
-          "tags": [],
-          "timestamp": "2026/06/18 03:58"
-        },
-        {
-          "user": "quality1",
-          "comment": "よしこれをAIに書かせよう",
-          "tags": [],
-          "timestamp": "2026/06/18 03:38"
-        },
-        {
-          "user": "sionsou",
-          "comment": "ちょっと面白そうなので週末遊ぶ予定。",
-          "tags": [],
-          "timestamp": "2026/06/18 00:55"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "俺のグチャグチャなmdファイル群を「OKFに準拠して整理し直せ」って指示したらAIが勝手にやってくれるだろうか？面倒臭いのでOKF自体は俺は覚えたくない。",
-          "tags": [],
-          "timestamp": "2026/06/17 23:16"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:22:59.956023+00:00"
-    },
-    {
       "id": "h_6eaac6aa",
       "title": "会社員のためのCodex資料作成術：Skillで統一感のあるプレゼン資料を作る実践ガイド",
       "url": "https://zenn.dev/acntechjp/articles/c2bff25e230539",
       "domain": "zenn.dev",
-      "bookmarkCount": 91,
+      "bookmarkCount": 300,
       "summary": "はじめに 最近、業務資料の作成にも生成AIを活用する機会が増えてきました。 ただし、AIにいきなり「プレゼン資料を作って」と依頼しても、実務でそのまま使える資料になるとは限りません。 特に会社員が作る資料では、以下のような点が重要になります。 スライド全体のトーンが揃っていること メッセージが分かりやすい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/acntechjp/articles/c2bff25e230539",
       "comments": [
+        {
+          "user": "stabucky",
+          "comment": "結構手間がかかるんだなあ。後でやろう。と思って放置するともっと良い手法や仕組みが出てくる。これの繰り返し。",
+          "tags": [],
+          "timestamp": "2026/06/18 11:14"
+        },
+        {
+          "user": "irh_nishi",
+          "comment": "そもそもアクセンチュアって昔からテイストを統一してるから、AIとは相性いいんだろうな。ただ、AIが作った資料ってなぜか頭に入ってこないんだよね。次の日には忘れてる。",
+          "tags": [],
+          "timestamp": "2026/06/18 08:39"
+        },
+        {
+          "user": "abe_shenzo",
+          "comment": "最近はもうパワポなんて作らなくなったな。プレゼン資料はHTML一択",
+          "tags": [],
+          "timestamp": "2026/06/18 08:35"
+        },
+        {
+          "user": "s155531",
+          "comment": "プレゼン資料もHTMLで出力してもらってる",
+          "tags": [],
+          "timestamp": "2026/06/18 08:11"
+        },
         {
           "user": "mkusaka",
           "comment": "Codexで5枚構成を作り、Style MarkdownとImage Genで全体確認後、Presentation Skillで編集可能PPT化する実践ガイド。",
@@ -163,207 +51,537 @@
           "comment": "Codexつかって作るのがパワポ資料かぁ……っていう気がしないでもない（つまり気がする）",
           "tags": [],
           "timestamp": "2026/06/17 23:48"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:10.215558+00:00"
+    },
+    {
+      "id": "h_714f978e",
+      "title": "【完全ローカル】AIに記憶を持たせる5ステップ — Ollama×RAGでつくる長期記憶チャットボット - Qiita",
+      "url": "https://qiita.com/hatsukaze/items/192403c9ff6a433fe0b6",
+      "domain": "qiita.com",
+      "bookmarkCount": 200,
+      "summary": "はじめに こんにちは。開発部の雨です。 今回は、ローカル環境で動く「長期記憶付きチャットボット」をゼロから実装する方法を紹介します。 最初はシンプルに「全会話履歴をそのままLLMに渡す」素朴な実装からスタートし、その問題点を実際に確認しながら、RAG（Retrieval-Augmented Generation）とChromaDBを使って段階...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/hatsukaze/items/192403c9ff6a433fe0b6",
+      "comments": [
+        {
+          "user": "shotawatanabe",
+          "comment": "hermes + unslothでええやん",
+          "tags": [],
+          "timestamp": "2026/06/18 12:57"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "AIに丸投げするんじゃなくて工程ごとに人間が制御してツールを使い分けるの良いね",
+          "user": "kazu111",
+          "comment": "ガンガンAI蒸留して生存競争させ、上手くいったAI蒸留物を残していく。⇒それがAIも理解してないまま「超低コストで上手くいく生物の遺伝子」のようになり、低コスト低電力で上手くいく仕組みが出来上がるよ",
           "tags": [],
-          "timestamp": "2026/06/17 23:40"
+          "timestamp": "2026/06/18 12:14"
+        },
+        {
+          "user": "SundayIsEveryday",
+          "comment": "ちょうどOllamaにコンテキスト管理だったりハーネスを補おうと思ってたので参考になりそう。とはいえ、趣味レベルなので、Open WebUIやLangGraphを使ってお茶濁すかもだけど。",
+          "tags": [],
+          "timestamp": "2026/06/18 12:13"
+        },
+        {
+          "user": "otihateten3510",
+          "comment": "これ俺も気になってたんだけど、そういうライブラリがあるわけか",
+          "tags": [],
+          "timestamp": "2026/06/18 11:42"
+        },
+        {
+          "user": "akibare",
+          "comment": "LLMが記事を書いたのだろうけど、方向性としては良いので試してみたい",
+          "tags": [],
+          "timestamp": "2026/06/18 11:19"
+        },
+        {
+          "user": "bondooroo",
+          "comment": "病院",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/06/18 10:32"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:03.721167+00:00"
+    },
+    {
+      "id": "h_d837f149",
+      "title": "「情報処理持ってます。Word、Excel使えます」と入社してきた中途の新人が、「郵便物の宛名シール作って」と頼まれたら「教えてもらってないからできません」と言いよった→悪いのは新人か会社かで議論",
+      "url": "https://togetter.com/li/2710627",
+      "domain": "togetter.com",
+      "bookmarkCount": 156,
+      "summary": "みーこ @miko_celeste ちょっと衝撃的だった。 30代の中途採用の新人さんは、『情報処理持ってます。Word、Excel使えます』って触れ込みで入社してきたんよ。 で、先輩から郵便物用の宛名シール作ってねって頼まれたら、『教えてもらってないから出来ません』って言いよった😳 2026-06-17 18:37:45 みーこ @miko_celeste...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2710627",
+      "comments": [
+        {
+          "user": "rokusan36",
+          "comment": "何僻んでねん",
+          "tags": [],
+          "timestamp": "2026/06/18 13:41"
+        },
+        {
+          "user": "PerolineLuv",
+          "comment": "老害的発想かもしれんが、与えられてる・手持ちの知識とスキルで解決できない仕事は拒否する人が特に若手に増えてる気がする。良し悪しの判断はしないけど、仕事頼む側だったら次は依頼しないかな。合理的ではある",
+          "tags": [],
+          "timestamp": "2026/06/18 13:30"
+        },
+        {
+          "user": "shoh8",
+          "comment": "「できません。やりません。」なのか「できません。やり方教えてください。」なのかでかなり変わる。サンプルとか前例とか渡さないと、できないし、「やり方考えてくれ」ならまた違うタスクだし",
+          "tags": [
+            "会社",
+            "PC"
+          ],
+          "timestamp": "2026/06/18 13:27"
+        },
+        {
+          "user": "emt0",
+          "comment": "ITパスか基本情報かって話よりググってなんか作るが出来ないからたとえ応用や高度持ってても使えない人材。自力で取ったかも怪しい",
+          "tags": [],
+          "timestamp": "2026/06/18 13:26"
+        },
+        {
+          "user": "bike-a-to-z",
+          "comment": "情報処理（笑　ペーパードライバーと一緒。人事が無能。",
+          "tags": [],
+          "timestamp": "2026/06/18 13:24"
+        },
+        {
+          "user": "hecaton55",
+          "comment": "言いたいことは分らんではないがまとめにあるように別スキル。採用するときに重視するべきなのは分からないことがあったら聞くなり調べたりして対応できるかどうかという点で、それをチェックできてないだけでは",
+          "tags": [
+            "togetter",
+            "仕事"
+          ],
+          "timestamp": "2026/06/18 13:22"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:02.393286+00:00"
+    },
+    {
+      "id": "h_f2f3eeae",
+      "title": "自称AI絵師がイラストレーターとして企業に応募してくるケースが本当に増えているらしい→採用側が頭を抱えるエピソードが次々と寄せられる",
+      "url": "https://togetter.com/li/2710391",
+      "domain": "togetter.com",
+      "bookmarkCount": 126,
+      "summary": "神楽月はじめ @november_1 パソコンを奪われて紙と鉛筆を渡されて描けと言われたら アナログ絵師：紙と鉛筆で絵を描く（得意分野） デジタル絵師：紙と鉛筆で絵を描く（余裕） AI絵師：紙と鉛筆を前にして泣く、紙を破り捨て鉛筆を折る x.com/jewerise/statu… 2026-06-13 14:18:42 宙燻⛲️ @jewerise 絵師はパソコン奪わ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2710391",
+      "comments": [
+        {
+          "user": "mahinatan",
+          "comment": "絵を描く技能は頭と手を連動させることなので指示を言語化する能力とは全然違う。デザイナーで適切な指示を出す技能が必要になるのはもっと先の話です。口だけ達者な素人デザイナーとか一番いらん。描いてから来い",
+          "tags": [],
+          "timestamp": "2026/06/18 13:41"
+        },
+        {
+          "user": "rainbowviolin",
+          "comment": "無知は恥だが、無恥は罪である。",
+          "tags": [],
+          "timestamp": "2026/06/18 13:27"
+        },
+        {
+          "user": "tyhe",
+          "comment": "コーディング面接ならぬライティング、ペインティング面接がハジマル",
+          "tags": [],
+          "timestamp": "2026/06/18 13:15"
+        },
+        {
+          "user": "UhoNiceGuy",
+          "comment": "プログラムはAI活用して書くのだけれど、AI使ってまともなプログラム書ける人はAI使わずに書ける人だよね。プログラム書ける人でないとAIに指示を出せない。多分、イラストもそう",
+          "tags": [
+            "AI",
+            "togetter"
+          ],
+          "timestamp": "2026/06/18 12:56"
+        },
+        {
+          "user": "takanagi1225",
+          "comment": "人体の構造がわかってないやつはAI絵師としても全然ダメだし、色彩感覚も養ったほうがいい。特に男性は頭おかしいくらい蛍光色が好きすぎるし、全体を見る目が必要。AI絵師専門のなんらかの参考書があった方がよい。",
+          "tags": [],
+          "timestamp": "2026/06/18 12:53"
+        },
+        {
+          "user": "Linnnyan",
+          "comment": "別にAIに限った話ではないんだけど、昨今いろんなツールが高機能で使いやすくなってきているにつれ、それを利用しているだけなのに自身が有能だと勘違いする人が多く出現するようになってきたよねえ",
+          "tags": [],
+          "timestamp": "2026/06/18 12:50"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:07.786390+00:00"
+    },
+    {
+      "id": "h_b25a7bc2",
+      "title": "【西川和久の不定期コラム】 ごめんLLM、もう君だけじゃ物足りない。気づけばOpenClaw沼にハマった話",
+      "url": "https://pc.watch.impress.co.jp/docs/column/nishikawa/2117740.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 97,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/nishikawa/2117740.html",
+      "comments": [
+        {
+          "user": "SilverHead247",
+          "comment": "”つまり、OpenClawのコミュニティはWindows+Docker環境でのレビューはやってないのだと思われる。”",
+          "tags": [],
+          "timestamp": "2026/06/18 10:39"
         },
         {
           "user": "simplememofast",
-          "comment": "丸投げで一発生成は楽、わかる。ただ構成をテキストで固めてから視覚に回すと、後工程の手戻りがごっそり消えた。AIに任せる範囲を工程ごとに割るのが要…",
+          "comment": "本当の難所はLLMの賢さじゃなく、cronとコンテナとauthの保守。自動投稿は動いた日より、更新で静かに壊れる日をどう拾うかで運用コストが決まる",
           "tags": [],
-          "timestamp": "2026/06/17 23:30"
+          "timestamp": "2026/06/18 09:23"
+        },
+        {
+          "user": "crimson_diamond",
+          "comment": "西川さんいつも素晴らしい",
+          "tags": [],
+          "timestamp": "2026/06/18 08:51"
+        },
+        {
+          "user": "WildWideWeb",
+          "comment": "「しかし筆者のOpenClawマシン、強力なGPUマシン(画像/動画生成とLLMで2台)と、結構なリソース使っていったい何をやっているのやら!?(笑)。」勘所を弁えてない輩が猿真似して事故起こすのでは。どんな事故かは知らん(笑)",
+          "tags": [],
+          "timestamp": "2026/06/18 08:42"
         }
       ],
-      "fetchedAt": "2026-06-17T20:23:00.343184+00:00"
+      "fetchedAt": "2026-06-18T04:44:05.410089+00:00"
     },
     {
-      "id": "h_37494d72",
-      "title": "イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった",
-      "url": "https://rocketnews24.com/2026/06/17/2772729/",
-      "domain": "rocketnews24.com",
-      "bookmarkCount": 54,
-      "summary": "» イオンモールおじさんはどうすべきなのか？ 買い替えずに「同じ服を活かせる着こなし」をAIに教えてもらった 特集 最近SNSで、中年男性のファッションについて話題が持ち上がった。それはイオンモールなどでよく見かける服装についてである。デニムシャツ・ベージュのチノパン・ボディバッグ。この3つの組み合わせに...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocketnews24.com/2026/06/17/2772729/",
+      "id": "h_2232c3c1",
+      "title": "最近、マジで『いらすとや』見かけないけどなんで？一時期はなんでもかんでもいらすとやだったのに→皆さんの考察集まる「AIに変わっただけ」「色々制約が面倒」",
+      "url": "https://togetter.com/li/2710597",
+      "domain": "togetter.com",
+      "bookmarkCount": 93,
+      "summary": "吉田製作所Y @netatank 最近、マジで「いらすとや」見かけないけど？なんでや？一時期はなんでもかんでも いらすとや だったのに。 2026-06-17 14:22:58 かわいいフリー素材集 いらすとや いらすとやは季節のイベント・動物・子供などのかわいいイラストが沢山見つかるフリー素材サイトです。 36 users 531 www.irasutoy...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2710597",
       "comments": [
         {
-          "user": "aike",
-          "comment": "あれは「自分の格好良さよりも大事にしているものために今ここに来ている」ということを示す服装なのでダサいのが正解なのだ。",
+          "user": "sakidatsumono",
+          "comment": "一気にAIで作ったほうが楽だからなあ",
           "tags": [],
-          "timestamp": "2026/06/18 05:20"
+          "timestamp": "2026/06/18 13:27"
         },
         {
-          "user": "algot",
-          "comment": "その服しか買えない縛りでもあるのか",
+          "user": "restroom",
+          "comment": "今でもよく見るので、慣れすぎて気付いてないだけでは？あとAIとは棲み分けできてるんじゃないんですかね。／ユニバーサルデザインとしても優れているし、まだまだ使われるのでは？",
           "tags": [],
-          "timestamp": "2026/06/18 03:36"
+          "timestamp": "2026/06/18 13:22"
         },
         {
-          "user": "sailoroji",
-          "comment": "ボタンは絶対に留めたほうが良いしクソキモい靴下がノイズなの勘弁してほしい。",
-          "tags": [],
-          "timestamp": "2026/06/18 02:48"
-        },
-        {
-          "user": "garakuta",
-          "comment": "AI使いたいだけのやる気のない記事。",
-          "tags": [],
-          "timestamp": "2026/06/18 02:04"
-        },
-        {
-          "user": "inks",
-          "comment": "イオンモールに溢れる「太っちょおばさん」に提言を言うと絶対に炎上するよな。おじさんなら、何言っても良いと成ってきた。",
-          "tags": [],
-          "timestamp": "2026/06/18 01:22"
-        },
-        {
-          "user": "manatus",
-          "comment": "リアルおじさんは置いといて、ファッションbefore, afterにありがちな「姿勢も表情も違うやん！」があの画像の問題な気がしてきた。元画像をチャッピーに笑顔にさせればいい感じなのでは？",
-          "tags": [],
-          "timestamp": "2026/06/18 01:18"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:23:02.857742+00:00"
-    },
-    {
-      "id": "h_3bece656",
-      "title": "小さくはじめるSLI/SLO ～育てながら組織に定着させる実践知～ / Starting Small with SLI/SLOs: Building Adoption Through Continuous Growth",
-      "url": "https://speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 36,
-      "summary": "Road to SRE NEXT 2026 @神戸 の登壇資料です。 https://sre-lounge.connpass.com/event/390064/",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "SLI/SLOの難しさは定義より「運用と組織への定着」っての、マジでそれな。成熟度モデルで段階的に育てるアプローチは非常に現実的で参考になる",
-          "tags": [],
-          "timestamp": "2026/06/17 23:06"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:23:02.020805+00:00"
-    },
-    {
-      "id": "h_b4ddfff6",
-      "title": "自己改善エージェントはなぜ前提を覆せないのか ― 局所最適とハーネスでの脱出",
-      "url": "https://zenn.dev/layerx/articles/b36ceffe6b5e20",
-      "domain": "zenn.dev",
-      "bookmarkCount": 28,
-      "summary": "Ai Workforce事業部FDE部エンジニアの堤(@ozro_223)です。 本記事では、AgentにAI Workflowを自己改善させるときに起きる「最初の前提を覆せない」問題について考えます。 入力データと正解データを用意し、Agentに実行結果を改善させていくと、途中までは順調に精度が伸びます。一方で、改善の中身を見ると、プロンプト...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/layerx/articles/b36ceffe6b5e20",
-      "comments": [],
-      "fetchedAt": "2026-06-17T20:23:03.714310+00:00"
-    },
-    {
-      "id": "h_da2c977f",
-      "title": "Google、Gemini専用設計の新スマスピ「Google Home スピーカー」を1万6800円で発売へ",
-      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news124.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 24,
-      "summary": "通信はWi-Fi 6（802.11ax）、Bluetooth 5.4に対応するほか、Thread 1.3のボーダールータ機能を備え、Matterのハブとしても機能する。「Google TV Streamer」とも連携し、最大2台をペアリングすると「リビングを空間サラウンドを備えたミニホームシアターに変えることができる」としている。 最大の特徴は、従来のGoogle...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news124.html",
-      "comments": [
-        {
-          "user": "comma3",
-          "comment": "（matterでいろいろできるよね？）",
-          "tags": [],
-          "timestamp": "2026/06/18 01:59"
-        }
-      ],
-      "fetchedAt": "2026-06-17T20:23:02.491690+00:00"
-    },
-    {
-      "id": "h_7261257c",
-      "title": "AntigravityとローカルLLMをMCPで繋ぐ！完全無料でクオータを99%削減する連携術",
-      "url": "https://zenn.dev/kojimaru/articles/2864ef6ce8b85c",
-      "domain": "zenn.dev",
-      "bookmarkCount": 22,
-      "summary": "はじめに 生成AIをヘビーに使い倒す開発者や学習者にとって、最大の敵は「APIクオータ（利用制限）の枯渇」ではないでしょうか。 私はAIアシスタント「Antigravity（Gemini）」の優秀な対話UI（特に出力に対してピンポイントでコメントできる機能）が大好きで、思考整理やブログの下書きに使い込んでいました。 しかし、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kojimaru/articles/2864ef6ce8b85c",
-      "comments": [
-        {
-          "user": "oktnzm",
-          "comment": "よさげ。AI自体の対話コストも無視はできないが、トークン消費する雑用的なものを外注できれば強そう。ただどうしてもクラウドより時間かかるから待てる仕事に限られるだろうが。",
+          "user": "UhoNiceGuy",
+          "comment": "「いらすとや」はたくさん有るから、ちょうどいいのを選ぶのが、結構大変。AIだと適当にプロンプト打てばそこそこの作ってくれるからね。調べ物する時、Google検索ではなく、AIに聞くようになったようなもん",
           "tags": [
-            "あとで読む"
+            "イラスト",
+            "いらすとや",
+            "AI"
           ],
-          "timestamp": "2026/06/18 04:44"
+          "timestamp": "2026/06/18 12:47"
         },
         {
-          "user": "yarumato",
-          "comment": "“出力された原稿にピンポイントでコメントを入れ、対話しながら磨き上げていく、Antigravity独特の素晴らしいUI機能を使いたい。Qwen2.5:7bでPC内の数万文字のファイルをローカルで全量読書し、数百文字に濃縮する”",
+          "user": "Unite",
+          "comment": "めっちゃ見かけるが、本当に見かけなくなるとしてもAIが原因じゃないと思うぞ。二次創作で名前売るみたいなもんで、無料の素材屋増えまくりなんよ。あしらい系もエグい乱立しとる",
           "tags": [],
-          "timestamp": "2026/06/17 19:26"
+          "timestamp": "2026/06/18 12:46"
+        },
+        {
+          "user": "catzworld",
+          "comment": "そうか、グッズで収益上げてるのか。最近見ないので、心配してたぞ",
+          "tags": [],
+          "timestamp": "2026/06/18 12:45"
+        },
+        {
+          "user": "nandenandechan",
+          "comment": "私はアイコンに使わせて貰ってます。お世話になってます。",
+          "tags": [],
+          "timestamp": "2026/06/18 12:39"
         }
       ],
-      "fetchedAt": "2026-06-17T20:23:01.348201+00:00"
+      "fetchedAt": "2026-06-18T04:44:07.000981+00:00"
     },
     {
-      "id": "h_04a47b1f",
-      "title": "折りたたみ式携帯電話「Commodore Callback 8020」が発表！Androidアプリが動くテンキー付き折りたたみレトロスタイル携帯が約８万円で登場",
-      "url": "https://daily-gadget.net/smartphone_tablet/116074/",
-      "domain": "daily-gadget.net",
-      "bookmarkCount": 20,
-      "summary": "Jolla Sailfish OSを搭載し、Androidアプリの99%と互換性を持つ折りたたみ型携帯電話「Commodore Callback 8020」が発表されました。T9キーボードや赤色のサブディスプレイといったレトロな外観を備えつつ、必要十分な機能に絞り込んだ仕様となっています。スペック競争から一線を画し、用途を限定することでスマートフ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/daily-gadget.net/smartphone_tablet/116074/",
+      "id": "h_97d728b6",
+      "title": "データセンター水使いすぎじゃない？→中国「海の中にデータセンター設置します」 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/china-turns-on-the-worlds-first-underwater-data-center/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 75,
+      "summary": "月や宇宙空間に建設するよりは海中のほうが現実的ではありますね…。 人類は、化石燃料の燃焼によって海水温を上昇させてきました。そして今回、もっと手っ取り早く、廃熱を放出するデータセンターを海中に沈めて直接温める方法を編み出しちゃいました（念のために付け加えると、データセンターの廃熱で周辺の海水温は上...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/china-turns-on-the-worlds-first-underwater-data-center/",
       "comments": [
         {
-          "user": "napsucks",
-          "comment": "そういえば一時期ガラスマってあったよな",
+          "user": "botp",
+          "comment": "えっ、周辺の海洋資源とかいらない感じ…？",
           "tags": [],
-          "timestamp": "2026/06/18 02:33"
+          "timestamp": "2026/06/18 13:43"
         },
         {
-          "user": "pixmap",
-          "comment": "Sailfish OSというのは初耳だったけど、「Alien Dalvikという自社権利のAndroid互換性レイヤを使用。Androidオープンソース・プロジェクト(ASOP)コードをアプリとして実行するよう適合させることでそのAPIを実装している。」ふえー",
-          "tags": [],
-          "timestamp": "2026/06/18 01:18"
+          "user": "laislanopira",
+          "comment": "メンテナンスのために潜水服着たり潜水艦に乗ったりするのダルい。海水温に悪影響出ない？",
+          "tags": [
+            "中国",
+            "技術",
+            "自然"
+          ],
+          "timestamp": "2026/06/18 13:43"
         },
         {
-          "user": "punychan",
-          "comment": "あのコモドールが何十年かぶりに復活したのかと思ったら、無関係だった。",
+          "user": "itpcfg",
+          "comment": "MSとかが検証してたときはラック辺りの電力がそこまで多くなかったけど、今のGPUサーバーとかは電力密度が桁違いなので意味出てくる気もするな",
           "tags": [],
-          "timestamp": "2026/06/18 00:58"
+          "timestamp": "2026/06/18 13:39"
         },
         {
-          "user": "scavenger-folk99",
-          "comment": "折りたたみ式携帯電話？おじさんはをJ-PHONEヤツを使っていたな。",
+          "user": "tokuniimihanai",
+          "comment": "ダムではどうなんだろう？流水だし淡水だし。",
           "tags": [],
-          "timestamp": "2026/06/17 23:50"
+          "timestamp": "2026/06/18 13:33"
+        },
+        {
+          "user": "spark64",
+          "comment": "だいぶ迷惑施設と化してきたな。『開発業者たちにとっては、陸上、水中、宇宙を問わず、利用可能なスペースさえあれば、そこがデータセンターにピッタリの場所に見えちゃうみたいですね…。』",
+          "tags": [],
+          "timestamp": "2026/06/18 13:27"
+        },
+        {
+          "user": "gamecome",
+          "comment": "話聞くとやっぱアメリカ人の発想すげーな、もうやってんのか",
+          "tags": [],
+          "timestamp": "2026/06/18 13:25"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:04.896325+00:00"
+    },
+    {
+      "id": "h_803b100e",
+      "title": "「猫はなぜキーボードに乗る？」から生まれたデスクサイド用猫ベッド、シービージャパンが発売",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2117989.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 65,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2117989.html",
+      "comments": [
+        {
+          "user": "aeka",
+          "comment": "クラファンで似たようなのを買って失敗したところ。だがまた惹かれている…",
+          "tags": [],
+          "timestamp": "2026/06/18 13:36"
+        },
+        {
+          "user": "kamezo",
+          "comment": "Amazonのページ、類似商品もいっぱいで、漏れなくネコが寝ている。壮観／ネコ１号はよく机の上に来たっけなあ。プリンタや複合機の上にトゲトゲを置いたりしたっけ（無駄）。２号は少し離れた床から俺を見張るだけ。",
+          "tags": [
+            "ᓚᘏᗢ"
+          ],
+          "timestamp": "2026/06/18 13:08"
+        },
+        {
+          "user": "somaria3",
+          "comment": "ベッドのうえにキーボード置いたら完璧",
+          "tags": [],
+          "timestamp": "2026/06/18 13:03"
+        },
+        {
+          "user": "jintrick",
+          "comment": "「なぜ」から生まれてない。（手元や顔の付近でアピールしたいのに〜）",
+          "tags": [],
+          "timestamp": "2026/06/18 12:59"
+        },
+        {
+          "user": "hevohevo",
+          "comment": "だが待って欲しい。この台の上にAmazonダンボールおいた方が猫が引き寄せられるのではないか",
+          "tags": [],
+          "timestamp": "2026/06/18 12:58"
+        },
+        {
+          "user": "b9rantan8",
+          "comment": "埃が上から降ってきそうで場所的には最悪w",
+          "tags": [],
+          "timestamp": "2026/06/18 12:52"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:06.281356+00:00"
+    },
+    {
+      "id": "h_8c5732c9",
+      "title": "「偏差値40の高校に激ヤバクラス爆誕」英検2級までなら確実に取れる方法思いついたからクラスの子にフル暗記させて受けさせて2級量産してる…との投稿が話題に、テンプレ等を解説",
+      "url": "https://togetter.com/li/2710658",
+      "domain": "togetter.com",
+      "bookmarkCount": 63,
+      "summary": "「偏差値40の高校に激ヤバクラス爆誕」英検2級までなら確実に取れる方法思いついたからクラスの子にフル暗記させて受けさせて2級量産してる…との投稿が話題に、テンプレ等を解説",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2710658",
+      "comments": [
+        {
+          "user": "altar",
+          "comment": "まあ中国人・韓国人社会だとこの手の集合知的なハックの習慣が行き渡ってると聞きますね。",
+          "tags": [],
+          "timestamp": "2026/06/18 13:39"
+        },
+        {
+          "user": "tomoP",
+          "comment": "AIリアルタイム翻訳が当たり前になる時代に英検の地位ってどうなるんだろうね",
+          "tags": [],
+          "timestamp": "2026/06/18 13:24"
+        },
+        {
+          "user": "tyhe",
+          "comment": "そんな簡単に暗記できるなら偏差値40の高校には行かないと思うんよ。",
+          "tags": [],
+          "timestamp": "2026/06/18 13:17"
+        },
+        {
+          "user": "kageyomi",
+          "comment": "『ドラゴン桜』はマンガもドラマも令和版でリメイクしてもいいんじゃねと思っている",
+          "tags": [],
+          "timestamp": "2026/06/18 13:12"
+        },
+        {
+          "user": "faaaaa",
+          "comment": "ノート誘導でそういう詐欺かと思ったが普通に偉い子供だった",
+          "tags": [],
+          "timestamp": "2026/06/18 12:54"
+        },
+        {
+          "user": "Ni-nja",
+          "comment": "テクニックだとしても勉強領域で成功体験を周りに伝播させるの徳が高い",
+          "tags": [
+            "英語"
+          ],
+          "timestamp": "2026/06/18 12:54"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:06.611652+00:00"
+    },
+    {
+      "id": "h_3193e26b",
+      "title": "個人でHP・Dell超えのASUSが、世界一厳しい日本法人市場を本気で狙いにきた！",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2118047.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 59,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2118047.html",
+      "comments": [
+        {
+          "user": "mrnns",
+          "comment": "なんだかんだで30年ほどの付き合いになるけど、P2BのBaby-AT版P2B-Bが一番壊れなかったな。",
+          "tags": [],
+          "timestamp": "2026/06/18 12:36"
+        },
+        {
+          "user": "zu2",
+          "comment": "厳しかったのも昔のことのような。日本の主婦の目は厳しいと言ってたのは1960年代だっけ",
+          "tags": [],
+          "timestamp": "2026/06/18 12:12"
+        },
+        {
+          "user": "fourth_ukon",
+          "comment": "エイスース定期",
+          "tags": [],
+          "timestamp": "2026/06/18 12:01"
+        },
+        {
+          "user": "RySa",
+          "comment": "誰が何と言おうと永遠にエイサスと呼び続けるよ絶対！！",
+          "tags": [],
+          "timestamp": "2026/06/18 11:50"
+        },
+        {
+          "user": "HiddenList",
+          "comment": "2台同時に　2023年の猛暑を乗り越えられなかった　ASUS ディスプレイ　／　Pegasus 由来なら　「アサス」じゃねえのかよ！　この裏切り者！",
+          "tags": [],
+          "timestamp": "2026/06/18 11:44"
+        },
+        {
+          "user": "jt_noSke",
+          "comment": "ASUSの読み方を書いてくれていないのでダジャレ書けない",
+          "tags": [],
+          "timestamp": "2026/06/18 11:34"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:08.088709+00:00"
+    },
+    {
+      "id": "h_29a15573",
+      "title": "Fable 5の「二度と触らないコード」——遊べないAIの実装術を、作った本人が解説",
+      "url": "https://zenn.dev/trilog/articles/0d4a064ce1f50e",
+      "domain": "zenn.dev",
+      "bookmarkCount": 52,
+      "summary": "前回の記事で、AI（Claude Fable 5）が「何か新しいゲームを作って」の一言から一晩で3本の遊べるゲームを作った話と、それがなぜ可能だったのかという設計の話を書いた。 今回はその続きで、コードの中で実際に何をやっていたかの話をする。前回が「なぜ面白いのか」なら、今回は「なぜ壊れないのか」。対象読者は、何...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/trilog/articles/0d4a064ce1f50e",
+      "comments": [
+        {
+          "user": "tarumomi",
+          "comment": "読後感が小説っぽい",
+          "tags": [],
+          "timestamp": "2026/06/18 13:16"
+        },
+        {
+          "user": "hasiduki",
+          "comment": "すごーい！！！！！！！！",
+          "tags": [],
+          "timestamp": "2026/06/18 12:55"
         },
         {
           "user": "nguyen-oi",
-          "comment": "Sailfish OSとか懐かしすぎる。8万円は強気だけどロマン枠としてはありかも",
+          "comment": "不等式で詰みを殺す設計とか自分が遊べないからテスト用AI書くとか、開発アプローチがガチすぎて痺れる",
           "tags": [],
-          "timestamp": "2026/06/17 23:40"
+          "timestamp": "2026/06/18 09:35"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "『数値は外れるが不等式は外れない』が刺さる。タスク管理も締切リマインドで都度直すより、未完了は一箇所しか置けない構造にする方が、抜けは原理的に消える",
+          "tags": [],
+          "timestamp": "2026/06/18 09:19"
         }
       ],
-      "fetchedAt": "2026-06-17T20:23:04.105266+00:00"
+      "fetchedAt": "2026-06-18T04:44:09.004857+00:00"
     },
     {
-      "id": "h_546b0815",
-      "title": "サイバーエージェントのポイント交換サービス、不正アクセスで停止中 復旧に1カ月かかる見込み",
-      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news123.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 4,
-      "summary": "サイバーエージェント（東京都渋谷区）が運営するポイント交換サービス「ドットマネー」「ドットギフト」が、不正アクセスを受けて6月8日から全機能を停止している。復旧は停止開始から約1カ月かかる見込みだ。同社は6月17日、公式ブログで続報を公表し、交換手続きの途中だったポイントは消失しないと説明した。 ドット...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/17/news123.html",
-      "comments": [],
-      "fetchedAt": "2026-06-17T20:23:04.485534+00:00"
-    },
-    {
-      "id": "h_6454edaf",
-      "title": "【Hothotレビュー】 1.1kgで2層OLED搭載、ゲームも爆速。14型「ASUS ExpertBook Ultra」",
-      "url": "https://pc.watch.impress.co.jp/docs/column/hothot/2117757.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 4,
+      "id": "h_acd68f42",
+      "title": "グーグル、Gemini搭載の“話せる”新「Google Home スピーカー」",
+      "url": "https://www.watch.impress.co.jp/docs/news/2117902.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 36,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/hothot/2117757.html",
-      "comments": [],
-      "fetchedAt": "2026-06-17T20:23:04.789932+00:00"
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2117902.html",
+      "comments": [
+        {
+          "user": "aox",
+          "comment": "え、白と黒だけですか、赤を買うつもりだったのですが",
+          "tags": [],
+          "timestamp": "2026/06/18 13:43"
+        },
+        {
+          "user": "HiddenList",
+          "comment": "OK Google は　素晴らしい取り決めだと思う昨今　＞　「へー市立ね」　Siri「はい？」　＞　「あれ？くさー！本当にくさい！」　Alexa「すいません　わかりません」",
+          "tags": [],
+          "timestamp": "2026/06/18 13:32"
+        },
+        {
+          "user": "pokepirk",
+          "comment": "Geminiになってからレスポンス遅いしいちいち余計なこと喋るようになったしニュースもこれまでのラジオ録音じゃなくて怪しいAIまとめになってしまった",
+          "tags": [],
+          "timestamp": "2026/06/18 13:32"
+        },
+        {
+          "user": "kaeru-no-tsura",
+          "comment": "実家では mini がラジオとして鬼活用されている",
+          "tags": [],
+          "timestamp": "2026/06/18 13:30"
+        },
+        {
+          "user": "mojimojikun",
+          "comment": "トップブコメェ……",
+          "tags": [],
+          "timestamp": "2026/06/18 13:24"
+        },
+        {
+          "user": "kei_1010",
+          "comment": "エッジAIに超速く「あー、そうですねー」みたいな事を言わせてる間に裏でクラウドAIに問い合わせたら「おそっ！」ってならないかも？タイマー起動ぐらいはエッジでやれるだろうし。",
+          "tags": [],
+          "timestamp": "2026/06/18 13:06"
+        }
+      ],
+      "fetchedAt": "2026-06-18T04:44:08.377176+00:00"
     }
   ],
-  "lastCollection": "2026-06-17T20:23:04.789963+00:00"
+  "lastCollection": "2026-06-18T04:44:10.215585+00:00"
 }
