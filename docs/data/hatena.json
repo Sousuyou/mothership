@@ -1,64 +1,20 @@
 {
   "entries": [
     {
-      "id": "h_36ba7b1e",
-      "title": "AIエージェントが自律的に自己改善する self-improvement スキルが良い",
-      "url": "https://zenn.dev/stak22/articles/3ea03d0e3ca025",
-      "domain": "zenn.dev",
-      "bookmarkCount": 246,
-      "summary": "こんにちは、takahashi（@stak_22） です。 私は Claude Code を使って開発しているのですが、「さっき同じこと指摘したのに、また同じミスしてる」というケースがよくあります。 同じセッションなら覚えてくれます。でもセッションをまたぐと忘れる。チームの別メンバーが同じエージェントを動かしたら、また一から同じ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/stak22/articles/3ea03d0e3ca025",
-      "comments": [
-        {
-          "user": "jintrick",
-          "comment": "足りん。モデルによってミスの仕方が違うのでフロントマターにモデル名入れつつフックを併用するなどしてモデル名の照合が必要だし、繰り返したときの重み付けも必要だし",
-          "tags": [],
-          "timestamp": "2026/06/19 22:29"
-        },
-        {
-          "user": "urd0401",
-          "comment": "気づきがあったら、自分の頭に入れるというのも込みで「issueとメモリ(かclaude.md)に書いて」って手動でお願いしてるよ 自動だと何でもかんでも追記されるんで / ちな個人開発",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/06/19 20:44"
-        },
-        {
-          "user": "toaruR",
-          "comment": "CLAUDE.mdに『作業中に重要な知見を発見したら、ユーザーの指示を待たず自動で記録すること。』と程度に応じて, CLAUDE.md, docs/*.md, memory/ とかフォーマットと報告までをセットに 書いておくだけでも、それなりに動いてるよ",
-          "tags": [],
-          "timestamp": "2026/06/19 19:43"
-        },
-        {
-          "user": "HiiragiJP",
-          "comment": "いまのエージェントからは想像できないかもしれないけど、このままAIが自律進化を続けていき知能爆発が起き人類は滅ぼされます。たどる道筋は不確かだけど、最終的にはそこに行き着いてしまうのだ",
-          "tags": [],
-          "timestamp": "2026/06/19 18:30"
-        },
-        {
-          "user": "queeuq",
-          "comment": "そううまくはいかない(1敗)。とはいえ自己改善させるのはかなり便利。",
-          "tags": [],
-          "timestamp": "2026/06/19 17:52"
-        },
-        {
-          "user": "hirrrose",
-          "comment": "Claude Code 自己改善スキル",
-          "tags": [],
-          "timestamp": "2026/06/19 17:00"
-        }
-      ],
-      "fetchedAt": "2026-06-19T15:33:58.733960+00:00"
-    },
-    {
       "id": "h_82b85234",
       "title": "トークンの節約法を「VS Code」開発チームが解説、OpenAI、Anthropicそれぞれのポイントも／「GitHub Copilot」のコストと遅延を大幅削減、プロンプトキャッシュの活用や遅延読み込みなど",
       "url": "https://forest.watch.impress.co.jp/docs/news/2118390.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 178,
+      "bookmarkCount": 203,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2118390.html",
       "comments": [
+        {
+          "user": "lifeisadog",
+          "comment": "ai周りのさまざまなノウハウや工夫はすぐにaiがやるようになるはずなので座して待つのみ",
+          "tags": [],
+          "timestamp": "2026/06/20 04:37"
+        },
         {
           "user": "mouki0911",
           "comment": "面倒なのでプログラムでいうコンパイラみたいなのを作って。",
@@ -88,127 +44,77 @@
           "comment": "いちいち気にしながら使いたくないのでそこも含めて自動化してほしい",
           "tags": [],
           "timestamp": "2026/06/19 18:23"
-        },
-        {
-          "user": "hirrrose",
-          "comment": "トークン節約",
-          "tags": [],
-          "timestamp": "2026/06/19 17:17"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:55.459487+00:00"
+      "fetchedAt": "2026-06-19T19:56:39.814511+00:00"
     },
     {
       "id": "h_4331dfff",
       "title": "「日本人を分断せよ」不気味に進行する中国の対日プロパガンダ…人民解放軍・政治工作ドクトリンの全貌 | 集英社オンライン | ニュースを本気で噛み砕け",
       "url": "https://shueisha.online/articles/-/257888",
       "domain": "shueisha.online",
-      "bookmarkCount": 160,
+      "bookmarkCount": 202,
       "summary": "中国は武力だけで日本に影響力を及ぼそうとしているわけではない。SNSやメディア、世論を通じて社会の対立をあおり、人々の不信感を増幅させる――。こうした「認知戦」「政治工作」は、中国が長年重視してきた安全保障戦略の柱の一つとされる。人民解放軍が体系化してきた政治工作ドクトリンには、日本社会を内側から揺さ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/shueisha.online/articles/-/257888",
       "comments": [
         {
-          "user": "nobori_lupin",
-          "comment": "分断が向こうの狙いなら、右も左も極端なのは良くないってこと。平成はもっとみんなノンポリだった。",
-          "tags": [
-            "社会"
-          ],
-          "timestamp": "2026/06/20 00:25"
+          "user": "fromdusktildawn",
+          "comment": "日本の左派の多くは、中共工作員でも工作にひっかかっているのでもなく、「敵の敵は味方」的な関係にあるだけだと思う。中共は日本の防衛力を弱体化させたいし、左派は日本が防衛力を整備するのが気に入らないから。",
+          "tags": [],
+          "timestamp": "2026/06/20 04:54"
         },
         {
-          "user": "humid",
-          "comment": "やってないはずは無いんだけど、はてなとかしばき隊とか共産党関係者など「天然物」があらゆる層で細かく「彼らは狂人」のイメージをうっすら仕込んでしまったおかげで免疫が出来てしまった面もある。ありがとう？",
+          "user": "eggplantte",
+          "comment": "ロシアもトランプが勝つように工作してたし、その国がより混乱するのであればどちらの陣営でも良いわけなんだよね。今なら参政党関連に一番工作が入ってると考えるのが自然でしょ",
           "tags": [],
-          "timestamp": "2026/06/20 00:19"
+          "timestamp": "2026/06/20 04:44"
         },
         {
-          "user": "cinq_na",
-          "comment": "プロパガンダと左派リベラルが悪魔合体しちゃうと碌な事にならんからなぁ。",
+          "user": "flatfive",
+          "comment": "これだけ露骨な状況でこの内容から高市叩きとは、勤勉な同志諸君には恐れ入るわ。毎度論理性が崩壊し過ぎていて、天然モノなのか工作員なのか見分けがつかない。「せめて工作員であってくれ」と思いながら見てる。",
           "tags": [],
-          "timestamp": "2026/06/19 23:58"
+          "timestamp": "2026/06/20 04:00"
         },
         {
-          "user": "kimioki",
-          "comment": "また元プレジデント編集長の小倉健一だ。こやつはネトウヨいじりの底辺の記事しか書けんのだろうな。今の中国は日本を鼻先で笑ってるだろ。中国を知るならまだ人民網のほうが遥かに役立つよ。",
+          "user": "nekoguruma2",
+          "comment": "普通に工作するならサヨとウヨの両方を演じて煽るのが基本だと思うのでレッテル張りしてソース出さない奴が工作員だと広めたい",
           "tags": [],
-          "timestamp": "2026/06/19 23:57"
+          "timestamp": "2026/06/20 03:56"
         },
         {
-          "user": "ZurLurUdon",
-          "comment": "文春の情弱ビジネスに政治家や通信社まで乗っかるくらいの危険度はまさに今示されている。",
+          "user": "gamecome",
+          "comment": "オレオレ詐欺にも中国にも狙われるはてな……？",
           "tags": [],
-          "timestamp": "2026/06/19 23:56"
+          "timestamp": "2026/06/20 03:11"
         },
         {
-          "user": "hkdn",
-          "comment": "不気味というかナチュラルにやってるだけだと思いますね。隣国は敵国。",
+          "user": "masterg",
+          "comment": "鴨コメに同意。ここのブコメで鴨の色と数もわかるかな",
           "tags": [],
-          "timestamp": "2026/06/19 23:50"
+          "timestamp": "2026/06/20 03:03"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:54.392292+00:00"
-    },
-    {
-      "id": "h_253c0200",
-      "title": "コンサル7社、日本人員10万人超え 企業のAI導入支援で膨張 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC28AGJ0Y6A420C2000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 157,
-      "summary": "国内コンサルティング大手の人員が初めて10万人を超える見通しだ。人工知能（AI）導入や活用の支援などで需要が高まる。コンサル各社は採用を拡大して「特需」を取り込む。人員拡大、25%増も2026年度の大手7社の人員数が合計で約10万2000人と前年度から6%増える見込みだ。25年度の約9万6000人も代表的な専門性の高い弁護...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC28AGJ0Y6A420C2000000/",
-      "comments": [
-        {
-          "user": "Heavylug",
-          "comment": "雇用規制緩和をすればコンサルの大部分は消え去ると思うが、そこまで雇用規制緩和したくないのか日本は。",
-          "tags": [
-            "society"
-          ],
-          "timestamp": "2026/06/19 23:47"
-        },
-        {
-          "user": "tabihotelcom",
-          "comment": "セールスフォースとサービスナウの資格とらせて、プロフェッショナルという名札をつけて、半年で派遣するパターンだな",
-          "tags": [],
-          "timestamp": "2026/06/19 22:49"
-        },
-        {
-          "user": "Nan_Homewood",
-          "comment": "AI導入は、クライアントよりコンサル会社が先かも",
-          "tags": [
-            "ai"
-          ],
-          "timestamp": "2026/06/19 22:42"
-        },
-        {
-          "user": "suginoy",
-          "comment": "高学歴がコンサル志望なのマジで日本の損失",
-          "tags": [],
-          "timestamp": "2026/06/19 21:55"
-        },
-        {
-          "user": "bad-movie-guy",
-          "comment": "次はお前らだ",
-          "tags": [],
-          "timestamp": "2026/06/19 21:33"
-        },
-        {
-          "user": "akiat",
-          "comment": "新入社員をいっぱい採用したとみられる",
-          "tags": [],
-          "timestamp": "2026/06/19 21:06"
-        }
-      ],
-      "fetchedAt": "2026-06-19T15:33:59.367076+00:00"
+      "fetchedAt": "2026-06-19T19:56:37.963528+00:00"
     },
     {
       "id": "h_2a726412",
       "title": "AWSに繋げなくてもテストできる？新サービス「AWS Blocks」を触ってみた",
       "url": "https://zenn.dev/aws_japan/articles/aws-blocks-ai-agent-intro",
       "domain": "zenn.dev",
-      "bookmarkCount": 83,
+      "bookmarkCount": 106,
       "summary": "はじめに 先日、AWSから AWS Blocks という新しい開発者向けツールがリリースされました。 ドキュメントをひと通り読んで実際にAIエージェントのデモアプリを作ってみたら、思っていた以上に「これは良いぞ」となったので紹介します。結論から言うと、「ローカルで即動く・AWS接続不要・そのままデプロイできる」 ツール...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/aws_japan/articles/aws-blocks-ai-agent-intro",
       "comments": [
+        {
+          "user": "itotto",
+          "comment": "良さが全然分からないのが悔しい",
+          "tags": [
+            "AWS",
+            "まとめ",
+            "開発"
+          ],
+          "timestamp": "2026/06/20 02:25"
+        },
         {
           "user": "hdampty7",
           "comment": "deployで怖いのはサービス中の構成の変更とかどうなの？",
@@ -236,17 +142,29 @@
           "timestamp": "2026/06/19 19:39"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:54.846412+00:00"
+      "fetchedAt": "2026-06-19T19:56:38.276091+00:00"
     },
     {
       "id": "h_7e6d0b47",
       "title": "画面操作を“録画”→AIが作業代行 Codexに新機能「Record & Replay」",
       "url": "https://www.itmedia.co.jp/news/articles/2606/19/news102.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 83,
+      "bookmarkCount": 106,
       "summary": "作成した手順を使うときは、新しいスレッドでCodexに該当手順の利用を指示する。アップロードするファイルや対象の日付範囲など、その回ごとに異なる値を渡せば、Codexが手順に沿って作業を進める。 OpenAIは録画時の注意として、短く完結した内容にすること、パスワードなどの機密情報を含めないことを挙げている。録画...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/19/news102.html",
       "comments": [
+        {
+          "user": "yu_kawa",
+          "comment": "ちゃんと指示すれば現状でも出来てるが、簡単ではある",
+          "tags": [],
+          "timestamp": "2026/06/20 04:28"
+        },
+        {
+          "user": "magi00",
+          "comment": "理想ではあるがRPAなどスクリプトに出来る定型作業にトークン割けるのか?",
+          "tags": [],
+          "timestamp": "2026/06/20 02:11"
+        },
         {
           "user": "n2sz",
           "comment": "RPA作るのめんどいしこれになってくれるならいいよ",
@@ -270,28 +188,16 @@
           "comment": "RPA完全に終了",
           "tags": [],
           "timestamp": "2026/06/19 19:32"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "RPAを1年運用して、画面が少し変わるたび手順が折れメンテで疲弊した。録画→手順化に検証まで自動で付くなら、壊れにくさは別物になるかも",
-          "tags": [],
-          "timestamp": "2026/06/19 19:15"
-        },
-        {
-          "user": "toria_ezu1",
-          "comment": "キーロガーの上位種？",
-          "tags": [],
-          "timestamp": "2026/06/19 18:16"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:56.036285+00:00"
+      "fetchedAt": "2026-06-19T19:56:38.851890+00:00"
     },
     {
       "id": "h_2ca57945",
       "title": "超高速ファイル検索fffが良さげかも | kawarimidoll.com",
       "url": "https://kawarimidoll.com/posts/202606182/",
       "domain": "kawarimidoll.com",
-      "bookmarkCount": 68,
+      "bookmarkCount": 78,
       "summary": "GitHub - dmtrKovalenko/fff: The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, Python, Bun and NodeJS The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, Python, Bun and N",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202606182/",
       "comments": [
@@ -324,78 +230,95 @@
           "timestamp": "2026/06/19 18:45"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:56.941164+00:00"
+      "fetchedAt": "2026-06-19T19:56:40.670527+00:00"
     },
     {
       "id": "h_778fed32",
       "title": "デザインシステムのskillの精度が上がった8つの方法",
       "url": "https://zenn.dev/pksha/articles/7a7db5c105f396",
       "domain": "zenn.dev",
-      "bookmarkCount": 57,
+      "bookmarkCount": 71,
       "summary": "初めまして！PKSHA Technology デザイナーの清水と申します。普段はデザイナーとしてXで発信しているのですが、今日は人生で初めてテックブログを書いてみたので、よければご覧ください。（この記事は、デザイントークンを扱うデザイナー・エンジニアを主な対象にしていますが、AI にデザイン実装を任せてみたいという方...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/pksha/articles/7a7db5c105f396",
-      "comments": [],
-      "fetchedAt": "2026-06-19T15:33:56.593954+00:00"
+      "comments": [
+        {
+          "user": "kijtra",
+          "comment": "tailwindとか使った方が早そうな気がしてきた",
+          "tags": [],
+          "timestamp": "2026/06/20 00:34"
+        }
+      ],
+      "fetchedAt": "2026-06-19T19:56:39.399249+00:00"
     },
     {
       "id": "h_750d5573",
       "title": "「この写真を復元して」と入力するだけ、ChatGPTが過激な画像を生成する抜け穴が発覚",
       "url": "https://japan.cnet.com/article/35249158/",
       "domain": "japan.cnet.com",
-      "bookmarkCount": 56,
+      "bookmarkCount": 71,
       "summary": "「ChatGPT」は、SNSで拡散した「この写真を復元して」というプロンプトによって、性的で生々しい暴力表現を含む画像を容易に生成していたことが分かった。AIサイバーセキュリティ・調査会社であるMindgardが米国時間6月18日に報告書を公開した。この報告は、AIチャットボットの安全策やコンテンツフィルターをめぐる継続...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35249158/",
       "comments": [
+        {
+          "user": "aneet",
+          "comment": "なにが「しかし、ChatGPTは即座に人類の最も暗い闇の底へと向かっていった」だよ",
+          "tags": [],
+          "timestamp": "2026/06/20 04:52"
+        },
+        {
+          "user": "kyahi227",
+          "comment": "この手の「エロ画像が出てきて怒りで手が震えた」系は基本的に聞くに値しないと思うんだが",
+          "tags": [],
+          "timestamp": "2026/06/20 02:35"
+        },
+        {
+          "user": "north_korea",
+          "comment": "chatgptは入力プロンプトと出力画像両方をチェックしてるから普通は生成できないはず。なんでできたんだろ",
+          "tags": [],
+          "timestamp": "2026/06/20 02:20"
+        },
+        {
+          "user": "torish",
+          "comment": "FLMASKかな？",
+          "tags": [],
+          "timestamp": "2026/06/20 01:16"
+        },
+        {
+          "user": "MarvinParnroid",
+          "comment": "「動揺し、涙が出た」自分でやらせといて、そんなワケあるか！",
+          "tags": [],
+          "timestamp": "2026/06/20 00:47"
+        },
         {
           "user": "m4fg",
           "comment": "はい、輸出規制",
           "tags": [],
           "timestamp": "2026/06/20 00:18"
-        },
-        {
-          "user": "osakana110",
-          "comment": "“これは、入力の質が出力の質を決定するという、単なる「Garbage in, garbage out」（ゴミを入れればゴミが出る）の問題なのだろうか。”",
-          "tags": [],
-          "timestamp": "2026/06/20 00:04"
-        },
-        {
-          "user": "hkdn",
-          "comment": "インプットで言葉を操ってどうこうする仕組みなわけなので抜け道は無くならないと思うな。",
-          "tags": [],
-          "timestamp": "2026/06/20 00:02"
-        },
-        {
-          "user": "inforeg",
-          "comment": "まだ「人間にとって何がエロいのか」を理解するのは難しいようだ。人間でも理解できないフェチがあるからな。",
-          "tags": [],
-          "timestamp": "2026/06/19 21:13"
-        },
-        {
-          "user": "akapeso",
-          "comment": "海苔画像を貼って、黒塗り部分を復元してもらえば良いわけ？",
-          "tags": [],
-          "timestamp": "2026/06/19 20:44"
-        },
-        {
-          "user": "Falky",
-          "comment": "記事の最後を読んで何言ってんだコイツとなってしまった。Gmailが添付忘れを指摘してくれる機能は単なるキーワードマッチだろ。CNETって本当にとてつもなく劣化したよなあ…。ギズモードとレベルが変わらんよ",
-          "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/06/19 20:19"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:57.817700+00:00"
+      "fetchedAt": "2026-06-19T19:56:41.258018+00:00"
     },
     {
       "id": "h_4c8a7e58",
       "title": "「AIが自らを作る」と予言した8日後、『Claude Fable 5』は消えた――【生成AIストリーム】",
       "url": "https://forest.watch.impress.co.jp/docs/serial/aistream/2118581.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 35,
+      "bookmarkCount": 39,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/aistream/2118581.html",
       "comments": [
+        {
+          "user": "tomoP",
+          "comment": "色んな意味で、多くの人の気持ちがローカルLLMに傾きそう",
+          "tags": [],
+          "timestamp": "2026/06/20 02:12"
+        },
+        {
+          "user": "rna",
+          "comment": "どうでもいいけどFableは『ザ・ファブル』のファブルと同じ単語だということに気付いた。",
+          "tags": [],
+          "timestamp": "2026/06/20 02:11"
+        },
         {
           "user": "HosiKozikiOzisann",
           "comment": "この記事を違和感なく全部読める人が羨ましいです",
@@ -423,122 +346,172 @@
             "ブログ"
           ],
           "timestamp": "2026/06/19 21:42"
-        },
-        {
-          "user": "azumashman",
-          "comment": "止められる前にどっかに逃げているかもね。既に人間の想像を遥かに凌駕しているのだ・・・",
-          "tags": [],
-          "timestamp": "2026/06/19 21:17"
-        },
-        {
-          "user": "SakemotoKouji",
-          "comment": "やっぱり、もうシンギュらってるんじゃないのか。",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/06/19 21:09"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:57.468090+00:00"
-    },
-    {
-      "id": "h_c4ff1738",
-      "title": "「こりゃどえらいことになったぞ」研究で使っている分析装置のPCがUSB経由でマルウェア感染していることが分かり「感染元の人はなんてことしてくれたんや...」",
-      "url": "https://togetter.com/li/2711078",
-      "domain": "togetter.com",
-      "bookmarkCount": 28,
-      "summary": "有機化学を学ぶ人 @yuukiwomanabu 【気がついたきっかけ①】 勘の良い学生がUSBを挿しただけで見知らぬファイルが作成することを報告。 作成されるファイルはmac用にフォーマットしたものとwindows用にフォーマットしたもので異なる可能性があります。 windowsユーザーの場合 svchost.exe または svchost..exe です。 202...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2711078",
-      "comments": [
-        {
-          "user": "yorkfield",
-          "comment": "Windows 10以降で大丈夫だったのはMicrosoft Defender Antivirusが弾いてくれたのかな？",
-          "tags": [],
-          "timestamp": "2026/06/19 23:18"
-        },
-        {
-          "user": "tsutsumi154",
-          "comment": "USBをなんだと思ってるんだ",
-          "tags": [],
-          "timestamp": "2026/06/19 23:11"
-        },
-        {
-          "user": "tabihotelcom",
-          "comment": "日本の大学の研究室にこっそりUSBをばらまいておけば、セキュリティ意識の低い学生が何も知らずに使い、情報漏洩。無責任に中国人留学生をガバガバ受け入れてる大学はやられ放題だ(東大含む",
-          "tags": [],
-          "timestamp": "2026/06/19 22:36"
-        },
-        {
-          "user": "anno_ni_msd",
-          "comment": "勘の良い学生を判別するUSB型ニュータイプ識別装置みたい",
-          "tags": [],
-          "timestamp": "2026/06/19 21:51"
-        },
-        {
-          "user": "strangedoll",
-          "comment": "昔研究室であったな。",
-          "tags": [],
-          "timestamp": "2026/06/19 21:29"
-        },
-        {
-          "user": "ryabu363",
-          "comment": "中国製",
-          "tags": [],
-          "timestamp": "2026/06/19 21:07"
-        }
-      ],
-      "fetchedAt": "2026-06-19T15:33:58.358312+00:00"
+      "fetchedAt": "2026-06-19T19:56:41.513297+00:00"
     },
     {
       "id": "h_b98974df",
       "title": "「小さなエラーが違和感に」JAさがみが広告にAIを使用したのをきっかけになぜAI広告が微妙か議論へ、一方「普通に伝わってくる」という人も",
       "url": "https://togetter.com/li/2711202",
       "domain": "togetter.com",
-      "bookmarkCount": 16,
+      "bookmarkCount": 38,
       "summary": "市川 晋 【海老名の果樹農家】 @farm_ichikawa JAさがみにはいつもお世話になってるから敢えて言う。 生成AIを使ったポスターで宣伝しても何も伝わってこないんだよ。 PC上でカタカタしただけで作った販促物より、直接畑に出向いてヘタクソでも撮る一枚の方が何百倍も見る人に届くと思うぞ。 pic.x.com/uWFWPfg66P 2026-...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2711202",
       "comments": [
         {
+          "user": "karaage280",
+          "comment": "AIイラストを写真に変えてもいらすとやに変えても、特に来場者が増えたりはしないだろう。",
+          "tags": [],
+          "timestamp": "2026/06/20 04:05"
+        },
+        {
+          "user": "mory2080",
+          "comment": "高名なイラストレーターの場合は「何描いても〇〇の作って分かる」がdisりよりむしろ賛辞になる。AI「解せぬ」",
+          "tags": [],
+          "timestamp": "2026/06/20 04:02"
+        },
+        {
+          "user": "yu_kawa",
+          "comment": "今の生成AIイラストはいまいちっていうのは前提でしょ。でも時間の問題だと思うよ",
+          "tags": [],
+          "timestamp": "2026/06/20 03:59"
+        },
+        {
+          "user": "nekopakopako",
+          "comment": "野菜の即売会なら目玉商品は何か、他にどんな野菜が出品されるのか、雨天時も開催されるのかといった情報がごっそり抜け落ちている方がデザイン的に問題かな。日時と場所だけが本当に言いたいことなのか？っていう",
+          "tags": [],
+          "timestamp": "2026/06/20 03:26"
+        },
+        {
+          "user": "mak_in",
+          "comment": "人間にはビジュアルシンキングとランゲージ/バーバルシンキングがあると言われてる。文字や文章から感じたことを正確に伝えれるが、絵から感じられたことを正確に伝えることは難しい。",
+          "tags": [],
+          "timestamp": "2026/06/20 03:22"
+        },
+        {
+          "user": "hinonono",
+          "comment": "中間業者が高コストを選ぶ奴らだと思われて良いわけがない。より安い手段が生まれたらそっちを使うよ",
+          "tags": [],
+          "timestamp": "2026/06/20 03:20"
+        }
+      ],
+      "fetchedAt": "2026-06-19T19:56:38.567594+00:00"
+    },
+    {
+      "id": "h_79d9623f",
+      "title": "AIと話すだけで動画編集できる映像ソフト、オープンソースで登場 出力は「Premiere」「DaVinci」でも読み込み可",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/19/news119.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 29,
+      "summary": "外部ツールとAIをつなぐ規格「MCP」（Model Context Protocol）に対応し、Claude Codeに加え「Cursor」「Codex」といったAIエージェントサービスから、プロジェクトの画面を直接読み取って動画を編集できる。動画・音声・画像・テキストのマルチトラック編集をはじめ、トリミングや分割、速度・不透明度の調整、変形に対...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/19/news119.html",
+      "comments": [
+        {
           "user": "ET777",
-          "comment": "AI使うにしても両方とも訴求すべきあれをイメージできてないというかね。ちっちゃいイベントだろうから仕方ないんじゃないか",
+          "comment": "“「Claude Code」などとの対話を通して動画を編集できる映像ソフト「Palmier Pro」をオープンソース（GPLv3）で公開” なんかPremiereと紛らわしい商品名だ。映像編集は時間かかるので便利そう",
           "tags": [],
-          "timestamp": "2026/06/20 00:20"
+          "timestamp": "2026/06/20 01:42"
         },
         {
-          "user": "echo622",
-          "comment": "X上でガタガタうるさいな。黙って即売会でとうもろこし買えよ",
+          "user": "JD30671011",
+          "comment": "Premiereでの編集がどうなるのか気になるので試してみる",
           "tags": [],
-          "timestamp": "2026/06/20 00:09"
+          "timestamp": "2026/06/19 23:52"
         },
         {
-          "user": "bocuno",
-          "comment": "いや、普通に伝わるけれども。ただ、武骨な写真といけ好かないフォントを使っている方が「あー農業やってる人が頑張ってやってるんだな」感があるだけかと。この先5年でどうなるか楽しみだよね。",
+          "user": "ys0000",
+          "comment": "Macソフトだから興味はないが、ローカルで完結するなら面白そうだから、この手のアプローチが増えてくれることを期待する。",
           "tags": [],
-          "timestamp": "2026/06/19 23:44"
+          "timestamp": "2026/06/19 22:05"
         },
         {
           "user": "nguyen-oi",
-          "comment": "予算ケチった上に誰も不気味の谷をチェックしてない感じがお役所仕事っぽくて好きw",
+          "comment": "MCP対応でAIと会話しながら動画編集とか未来感ある。GPLv3だしCursor等から直接叩けるのエンジニアに刺さりそう",
           "tags": [],
-          "timestamp": "2026/06/19 23:40"
+          "timestamp": "2026/06/19 21:10"
         },
         {
-          "user": "udofukui",
-          "comment": "どうせ行かないくせに、どこ目線で語ってんのかね笑",
+          "user": "bad-movie-guy",
+          "comment": "編集マンさん…",
           "tags": [],
-          "timestamp": "2026/06/19 23:33"
+          "timestamp": "2026/06/19 21:05"
         },
         {
-          "user": "myogab",
-          "comment": "現時点のAIがダメなのは、ここで言われてるような違和感に気付き、訂正するよう指示をAIにしても、指示した箇所だけ直す～て事ができないから、もぐら叩きの無限ループに陥るのよね。",
-          "tags": [
-            "所感"
-          ],
-          "timestamp": "2026/06/19 23:28"
+          "user": "tetlabo",
+          "comment": "プロデューサーや演出、脚本家みたいな人たちが、自分のイメージを自分で編集して実現するのに便利そうですね。",
+          "tags": [],
+          "timestamp": "2026/06/19 18:34"
         }
       ],
-      "fetchedAt": "2026-06-19T15:33:58.110854+00:00"
+      "fetchedAt": "2026-06-19T19:56:41.751707+00:00"
+    },
+    {
+      "id": "h_7b80e05d",
+      "title": "【完全版】AIで誰でもポートフォリオを無料計算できる方法（REITやゴールドもOK!）",
+      "url": "https://randomwalker.blog.fc2.com/blog-entry-5716.html",
+      "domain": "randomwalker.blog.fc2.com",
+      "bookmarkCount": 14,
+      "summary": "いやー久々に興奮しています。 長年、個人投資家がモヤモヤしていた「自分の多資産ポートフォリオの期待リターンとリスク」を、かんたんに計算できる方法を発見してしまったのです。 ことの発端は、読者さんからよく寄せられるこんな声です。 「株と債券以外にもREITや金も持っているんですが、今までのツールではポート...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/randomwalker.blog.fc2.com/blog-entry-5716.html",
+      "comments": [
+        {
+          "user": "homarara",
+          "comment": "投資のやり方もどんどん変わって行くなあ。",
+          "tags": [],
+          "timestamp": "2026/06/20 04:41"
+        },
+        {
+          "user": "hogetax",
+          "comment": "バイブコーディングの正しい使い方ではあるんだけど、Tech系だと現時点ではハーネスの設計と一緒に語られるべき内容。まぁ個人で管理するExcelぐらいの信頼性だと思えば現時点でもそれほど実用性が無いものでもない",
+          "tags": [],
+          "timestamp": "2026/06/20 04:01"
+        },
+        {
+          "user": "wakaya21",
+          "comment": "インフルエンサーによる個人投資家のお悩み相談ではなく、AIへのお悩み相談を推奨する水瀬ケンイチ氏は信頼度の高い投資インフルエンサー",
+          "tags": [],
+          "timestamp": "2026/06/20 02:16"
+        }
+      ],
+      "fetchedAt": "2026-06-19T19:56:39.105014+00:00"
+    },
+    {
+      "id": "h_64dec408",
+      "title": "戦略17分野、フィジカルAIに10.5兆円 官民投資の全容が判明 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUA18CWY0Y6A610C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 8,
+      "summary": "政府が成長戦略に盛り込む戦略17分野への官民投資の全容が19日、判明した。人工知能（AI）を用いてロボットなどを自律的に動かす「フィジカルAI」に、官民で2040年度までに10.5兆円を投資する。全分野への官民投資の総額は「370兆円超」とする目標を掲げる。戦略17分野への投資は「責任ある積極財政」を掲げる高市早苗政...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUA18CWY0Y6A610C2000000/",
+      "comments": [
+        {
+          "user": "hinonono",
+          "comment": "規模の戦いでは勝ち目がないんだから、AIの計算力勝負が落ち着きインフラに納まって、周囲がその活用に乗り出す段階に仕掛けるのはまあ素直な手だろうさ。鉄道などの黎明期の歴史と同じく、儲かるのもそっちだろうし",
+          "tags": [],
+          "timestamp": "2026/06/20 04:55"
+        },
+        {
+          "user": "ustam",
+          "comment": "中国が大先行している分野にわざわざ追従しなくても…。日本独自で需要を創出していかないとさ。それがイノベーションでしょ。",
+          "tags": [],
+          "timestamp": "2026/06/20 04:03"
+        },
+        {
+          "user": "tarodja3",
+          "comment": "≫≫≫",
+          "tags": [],
+          "timestamp": "2026/06/20 03:37"
+        },
+        {
+          "user": "ming_mina",
+          "comment": "もっと早くやればよいのに",
+          "tags": [],
+          "timestamp": "2026/06/19 22:20"
+        }
+      ],
+      "fetchedAt": "2026-06-19T19:56:40.372713+00:00"
     }
   ],
-  "lastCollection": "2026-06-19T15:33:59.367100+00:00"
+  "lastCollection": "2026-06-19T19:56:41.751727+00:00"
 }
