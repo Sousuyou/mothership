@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.547015+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.645138+00:00",
       "excerpt": "概要 突然ですが、質問です。 PRのレビュー依頼があった時に、最初にやることは何ですか？ つい最近まで、自分はとりあえずdiffを上から下までスクロールしていました。変更行数を眺めて、ファイルを順番に開いて、頭の中で全体像を組み立てようとする。ただ、PRの規模が大きいとなかなか頭に入ってこない... 原因として、私がビジュアルシンカーであることが大きいと考えています。 ビジュアルシンカーとは、脳内"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.546946+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.645075+00:00",
       "excerpt": "AI tools are already changing how we create presentations, websites, app mockups, and visual materials. But many people who actually use AI for design run into the same problem: The outputs often lack"
     },
     {
@@ -27,8 +27,98 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.546821+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.644955+00:00",
       "excerpt": "普段から Claude Code を開発でフルに活用していますが、僕はコードを読んで細かめにフィードバックする方で、ふと「Claude Code へのフィードバックに、自分のソフトウェアエンジニアとしての考え方がにじみ出ているのでは？」と思いました。 他の人のエンジニアリング哲学みたいなのを聞くのが結構好きなのですが、自分がどう考えているかちゃんと文字にする機会がないので、Claude Code "
+    },
+    {
+      "id": "cc_d9e6e56a",
+      "title": "Claude Code をハブにして、dbt の仕事だけ dbt Wizard に任せてみた",
+      "url": "https://zenn.dev/usen_ict/articles/12bd61ad5ab606",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644827+00:00",
+      "excerpt": "! dbt Labs の dbt Wizard CLI（Beta）を、Claude Code の「乗り換え先」ではなく Claude Code から呼び出す専門エージェントとして触ってみた話です。 実際にローカルで動かすところまでやったら、headless 実行 も Claude Code → dbt Wizard のルーティング もすんなり繋がりました。 ハマりどころ（BYOK 認証まわり）も含"
+    },
+    {
+      "id": "cc_97bbcf2c",
+      "title": "Claude Opus 4.8が劣化している可能性の検証v2：Fable/Mythos停止後の実効品質劣化を多層的に",
+      "url": "https://zenn.dev/oqamura/articles/85945cef3d7432",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644759+00:00",
+      "excerpt": "本稿は、昨日公開した記事の改訂版であり、前稿の内容は全てカバーされている。 2026年6月中旬以降、Claude Opus 4.8の出力品質が明らかに落ちる場面に遭遇することがある。特に、Claude Codeで、そもそもの言語能力の低下や、過剰な先回りが増えることがある。しかしこれはしばらく経つともとに戻る。 ユーザから見れば、これは一時的なnerfである。 ただし、ここでいうnerfは、「同じ"
+    },
+    {
+      "id": "cc_356abc68",
+      "title": "Claude Code Dynamic Workflows 完全ガイド — 最大1000サブエージェントを束ねる自動オーケストレーション",
+      "url": "https://zenn.dev/mdtechknowledge/articles/claude-code-dynamic-workflows-guide-2",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644697+00:00",
+      "excerpt": "最終更新: 2026-06-12 対象: Claude Code v2.1.154 以降（Pro / Max / Team / Enterprise / API / Bedrock / Vertex / Foundry） ステータス: Research Preview（仕様は変更され得ます） はじめに — 「ultracode」と書くだけで何が起きるのか 2026年5月28日（PT）、Anthro"
+    },
+    {
+      "id": "cc_a4957c92",
+      "title": "Claude Code で自社サービスのSEO記事を半自動で量産する仕組みを作った",
+      "url": "https://zenn.dev/equaliainc/articles/claude-code-seo-automation",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644614+00:00",
+      "excerpt": "個人開発で AI スキル・プロンプトの売買マーケット equaliA（イコリア） を運営しています。ローンチ初期の最大の課題は「集客」でした。広告予算は限られ、SNS の手運用も続かない。そこで Claude Code をマーケティングの実行エンジンにして、SEO 記事の執筆からデプロイ・検索エンジンへの登録までを半自動で回す仕組みを作りました。この記事ではその構成と、実装で気をつけた点を共有しま"
+    },
+    {
+      "id": "cc_8aa9bea2",
+      "title": "Claude Code の auto mode を理解する — 「許可しますか？」を AI が肩代わりする仕組み",
+      "url": "https://zenn.dev/tatsuqumo/articles/68422038568b79",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644549+00:00",
+      "excerpt": "はじめに：許可プロンプトとの付き合い方 Claude Code で複雑なタスクを任せると、ファイル編集やコマンド実行のたびに許可プロンプトが表示されます。個別の allow ルールや acceptEdits モードで頻出パターンは減らせますが、Bash コマンドや外部通信が絡むと結局プロンプトが出る。長時間のリファクタリングや調査タスクでは、承認待ちで作業が止まる場面がどうしても残ります。 --d"
+    },
+    {
+      "id": "cc_34ece04d",
+      "title": "avante.nvimでNeovim上にClaudeのAIペアプロ環境を作る",
+      "url": "https://zenn.dev/kuroikotech/articles/nvim-avante-claude",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644467+00:00",
+      "excerpt": "はじめに エディタ上でAIに質問したりコードを直してもらったりするのに、わざわざ別ウィンドウやブラウザを開きたくない。Neovimから出ずに完結させたくて入れたのが avante.nvim。Cursorのインライン編集・チャットUIをNeovimに持ち込むプラグインで、プロバイダにClaudeを指定して使っている。 avante.nvimとは チャット形式でコードについて質問できる 提案された変更"
+    },
+    {
+      "id": "cc_94a54067",
+      "title": "【Claude Code活用】PROGRESS.md駆動開発でセッションをまたいで開発する",
+      "url": "https://zenn.dev/pekopugu/articles/agent01-b7-progress-driven",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.644385+00:00",
+      "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 セッションをまたぐ問題 Claude Code はセッションをまたいで記憶を保持しません。新しいセッションを開始すると、前回どこまで進んだか・どんな問題があったかをすべて忘れた状態から始まります。 この問題を解決するために考案したのが PROGRESS.md 駆動開発です。 P"
+    },
+    {
+      "id": "cc_0ef008b5",
+      "title": "AIエージェント検証用PCを作るメモ⑧：Codex CLIとClaude Codeを同じ条件で比べてみる",
+      "url": "https://zenn.dev/imaginarygate/articles/3874d0a35c802a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.590534+00:00",
+      "excerpt": "はじめに 前回までに、WSL / Ubuntu上の ~/agent-sandbox で、Codex CLIとClaude Codeをそれぞれ最小構成で動かしてみた。 ここまでで確認したことは以下。 WSL / Ubuntu側に作業用リポジトリを作成 Git管理を開始 SECURITY_POLICY.md を作成 AGENTS.md と CLAUDE.md を作成 Codex CLIでREADMEを"
+    },
+    {
+      "id": "cc_84a855e5",
+      "title": "Python+Claude Codeで議事録を自動整形しObsidian/Google Sheetsへ同期",
+      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260617-obsidian-python-meeting-minutes",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-19T15:33:59.590433+00:00",
+      "excerpt": "2026年、中小企業のDX現場で「議事録が残ったまま活用されていない」ケースをよく見かけます。 打ち合わせの記録は膨大にあるのに、次のアクションに結びつかない。 原因の多くは、「記録する行為」と「案件として管理する行為」が分断されている点にあります。 私は愛知県の木工所で経営を支えつつ、個人事業「コバヤシWEBシステム」として製造業のDXにも取り組んでいます。 自社工場では、基幹システム入れ替えリ"
     },
     {
       "id": "cc_63fe5ae7",
@@ -37,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015749+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.590369+00:00",
       "excerpt": "公式 Anthropic マーケットプレイス https://code.claude.com/docs/ja/discover-plugins#official-anthropic-marketplace インストール例 /plugin install github@claude-plugins-official コード インテリジェンス コード インテリジェンス プラグインは Claude Co"
     },
     {
@@ -47,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015684+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.590305+00:00",
       "excerpt": "はじめに Claude Code を Opus 4.8 で使っていると、突然こんな状態になることがある。 「ファイルを読んでから編集します」と言ったのに何も起きない ツール呼び出しをすると見るからにおかしいテキストが出て、次のリトライも同じように壊れる /rewind しても数ターン後にまた再発する これは Opus 4.8 固有のシリアライズ回帰バグ（GitHub issue #67307）が原"
     },
     {
@@ -57,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015600+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.590220+00:00",
       "excerpt": "「ClaudeCodeで全部やれるな」と思っていた時期がありました。全部はやれなかったです。 何を作ろうとしていたか コピペ de UI というサイトに「簡単解説」というシリーズを作り始めました。Web技術の基礎をイラスト付きで初心者向けに解説する記事群です。「HTTPとは」「クライアントとサーバの違い」みたいなやつ。 このシリーズ、イラストが必須なんですよ。文章だけだと伝わらないし、サイトのデザ"
     },
     {
@@ -67,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015537+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.590155+00:00",
       "excerpt": "FreeStyleリブレ（以下、リブレ）では血糖値（正確にはグルコース値）を計測できます。センサーを腕につけてスマホからいつでも確認できます。センサーは2週間利用可能です。Amazonでも購入でき、糖尿病患者以外でも装着可能です。 私は糖尿病を患っていませんが、血糖値の計測と管理を試したいと思い、装着しています。ランニングをしているので、Garminとのデータと組み合わせてランニング時における血糖"
     },
     {
@@ -77,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015448+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.590059+00:00",
       "excerpt": "Claude Code（Claude CLI）とMCPサーバーを使ったPoCを、チームで共有しながら進めていました。 その中で、開発者ごとにClaudeの挙動が微妙に違うことがありました。 最初はプロンプトやMCPサーバー側の差分を疑っていたのですが、調べてみると原因は Claude Code の自動メモリ でした。 起きていたこと 同じプロジェクトを触っているはずなのに開発者によってClaude"
     },
     {
@@ -87,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015379+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.589964+00:00",
       "excerpt": "記事概要 Claude in Chrome拡張機能とClaude Code CLIを組み合わせてコードのフィードバックループを回す方法と、localのみのアクセス制限などセキュアな設定手順をまとめています。 対象読者 Claude Codeを使ってWeb開発をしていて、AI出力コードの質向上とテスト・デバッグの効率化に興味がある方を対象としています。 1. サイトアクセスをlocalのみに絞る C"
     },
     {
@@ -97,7 +187,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015287+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.589895+00:00",
       "excerpt": "ふとした「これ、いけるんじゃない?」が、気づけばネイティブ iOS 版の Playwright になっていた——しかも、ほぼ Claude Code が書いた。 1. なぜ作ったのか まず、自分がうんざりしていた光景から。 Claude Code で iOS アプリを開発していたんですが、地味にストレスな作業がありました。Claude が画面をいじる。で、そのあと出番が回ってくるのは自分です。スマ"
     },
     {
@@ -107,7 +197,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015184+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.589790+00:00",
       "excerpt": "はじめに 2026年6月18日、Claude CodeにArtifactsが追加されました。 https://claude.com/blog/artifacts-in-claude-code 公式ブログでは、Claude Codeのセッション中の作業を、PRウォークスルー、システム説明、ダッシュボード、リリースチェックリストのようなライブで共有できるページにできる、と説明されています。 これを見て"
     },
     {
@@ -117,48 +207,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015117+00:00",
+      "fetchedAt": "2026-06-19T15:33:59.589694+00:00",
       "excerpt": "これまで web 版 claude.ai 限定だった claude.design が、大幅アップデートでアプリにも追加された。 前回は特に触ってなかったので、今回ちゃんと一通り試してみたメモ。 結論、うんかなり良いよ、デザイン業務のフロー変わるかもね、って感想！！ ! ※当方、claudeの Max (20x) プランを使ってる前提での記載になります いつも通り背景から いつもありがとうございます"
-    },
-    {
-      "id": "cc_d9e6e56a",
-      "title": "Claude Code をハブにして、dbt の仕事だけ dbt Wizard に任せてみた",
-      "url": "https://zenn.dev/usen_ict/articles/12bd61ad5ab606",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.015032+00:00",
-      "excerpt": "! dbt Labs の dbt Wizard CLI（Beta）を、Claude Code の「乗り換え先」ではなく Claude Code から呼び出す専門エージェントとして触ってみた話です。 実際にローカルで動かすところまでやったら、headless 実行 も Claude Code → dbt Wizard のルーティング もすんなり繋がりました。 ハマりどころ（BYOK 認証まわり）も含"
-    },
-    {
-      "id": "cc_2ce706b6",
-      "title": "【2026/6/19最新アプデ】Claude Code 新機能『Artifacts』が登場！動くモックを組織内 URL で配ってみた",
-      "url": "https://zenn.dev/canly/articles/64f112e3053834",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.014951+00:00",
-      "excerpt": "本記事は 2026/6/19(日本時間)に公開された公式ブログ[1]と公式ドキュメント[2]、公式 X 告知[3]に基づきます。Artifacts は ベータ(管理画面の日本語表記では「プレビュー」)段階のため、仕様・対応プランは今後変わりうる点にご注意ください。 はじめに 2026/6/19(日本時間)、Claude Code に アーティファクト という新機能がベータで追加されました[1:1]"
-    },
-    {
-      "id": "cc_cfa1ca57",
-      "title": "Claude Codeのコストとプラン枠を常時見える化する ― statusline実装",
-      "url": "https://zenn.dev/bokuwalily/articles/cost-visibility",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.014857+00:00",
-      "excerpt": "前回「Claude Codeに毎朝GitHubを巡回させる」で、朝ブリーフにOSS発見を相乗りさせる話を書いた。今回は、その裏でautopilotやScoutを止める判断に使っている statusline のコスト・プラン枠表示 を丸ごと解説する。 認証もエンドポイント呼び出しも不要。Claude Codeがstatuslineスクリプトへstdinで渡すJSONを jq で読むだけで、5h/7d"
-    },
-    {
-      "id": "cc_97bbcf2c",
-      "title": "Claude Opus 4.8が劣化している可能性の検証v2：Fable/Mythos停止後の実効品質劣化を多層的に",
-      "url": "https://zenn.dev/oqamura/articles/85945cef3d7432",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-19T10:48:53.014761+00:00",
-      "excerpt": "本稿は、昨日公開した記事の改訂版であり、前稿の内容は全てカバーされている。 2026年6月中旬以降、Claude Opus 4.8の出力品質が明らかに落ちる場面に遭遇することがある。特に、Claude Codeで、そもそもの言語能力の低下や、過剰な先回りが増えることがある。しかしこれはしばらく経つともとに戻る。 ユーザから見れば、これは一時的なnerfである。 ただし、ここでいうnerfは、「同じ"
     },
     {
       "id": "cc_e6f32a68",
@@ -167,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-18T08:33:55+09:00",
-      "fetchedAt": "2026-06-19T10:48:53.939777+00:00",
+      "fetchedAt": "2026-06-19T15:34:00.186172+00:00",
       "excerpt": "非エンジニアの役員が、AIに丸投げして2日で本番まで作ったtoB SaaSがあります。 ちゃんと顧客が使えている。動いている。機能の追加も速い。すごいんです、本当に。 で、そのインフラと運用を私が引き取ることになりました。「動いている本番」の裏側を一つずつ点検していく係です..."
     },
     {
@@ -177,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-19T10:48:53.939877+00:00",
+      "fetchedAt": "2026-06-19T15:34:00.186262+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -187,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-19T10:48:54.103099+00:00",
+      "fetchedAt": "2026-06-19T15:34:00.586584+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +247,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-19T10:48:54.103181+00:00",
+      "fetchedAt": "2026-06-19T15:34:00.586644+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +257,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-19T10:48:54.103274+00:00",
+      "fetchedAt": "2026-06-19T15:34:00.586712+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-19T10:48:54.103288+00:00"
+  "lastCollection": "2026-06-19T15:34:00.586725+00:00"
 }
