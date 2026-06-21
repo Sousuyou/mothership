@@ -1,363 +1,128 @@
 {
   "entries": [
     {
-      "id": "h_0976a7f3",
-      "title": "AIで内製した自治体システムの、これからの課題｜memuro-DX-oss",
-      "url": "https://note.com/memuro_dx_oss/n/nb0d5871aa78c",
-      "domain": "note.com",
-      "bookmarkCount": 175,
-      "summary": "北海道の小さな町が、AIで窓口業務システムを作りました。今も窓口の現場で稼働しています。 ——課題は、その先にあります。 記事1では、捨てるつもりで作った試作がどうやって本番になったのか、その物語を書きました。記事2では、最初の一歩である番号発券システム「MADO-queue」の中身を、技術的に詳しくお話ししまし...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/memuro_dx_oss/n/nb0d5871aa78c",
-      "comments": [
-        {
-          "user": "kibitaki",
-          "comment": "本質的に怖いなって思った。OSS化、みんなで育てる、ってシステムとしては外部に責任を投げる搾取的ナラティブ。性善説かつ未定義の世界に夢見がちに任せるのは危ういし、メンテナと保守業者の区別もなさげ。",
-          "tags": [],
-          "timestamp": "2026/06/21 22:27"
-        },
-        {
-          "user": "ToTheEndOfTime",
-          "comment": "インフラの人が作ったシステムとか、大体こういう感じ",
-          "tags": [],
-          "timestamp": "2026/06/21 22:02"
-        },
-        {
-          "user": "number917",
-          "comment": "まあ小さな自治体だと今まででも雑な紙ベースのシステムがあったんだろうから、デジタルでもそらそうよ、予算ないんだし、人数少ないんだから",
-          "tags": [],
-          "timestamp": "2026/06/21 21:56"
-        },
-        {
-          "user": "panoramaafro",
-          "comment": "現状細かいところは運用でカバーしてると思うけど、それもシステム自体が大きくならなければAIで改修は可能。肥大化するともう手に負えないので、「毎回刷新します」と言い切るのも手だと。",
-          "tags": [],
-          "timestamp": "2026/06/21 20:44"
-        },
-        {
-          "user": "maketexlsr",
-          "comment": "属人化しないコードなんて幻想だと思ってるけど(少なくともコストゼロでは)",
-          "tags": [],
-          "timestamp": "2026/06/21 20:15"
-        },
-        {
-          "user": "mag4n",
-          "comment": "エクセルのマクロやらと同じく保守運用と責任問題という人間側の話になる。",
-          "tags": [
-            "ネタ"
-          ],
-          "timestamp": "2026/06/21 19:28"
-        }
-      ],
-      "fetchedAt": "2026-06-21T14:24:34.402468+00:00"
-    },
-    {
-      "id": "h_a3ac7ac4",
-      "title": "設計するとは、何を諦めるかを決めること - 理念と共に、最も困難で狂気の選択を考え続けて諦めない",
-      "url": "https://bootjp.me/2026/06/20/%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E3%81%A8%E3%81%AF%E3%80%81%E4%BD%95%E3%82%92%E8%AB%A6%E3%82%81%E3%82%8B%E3%81%8B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8",
-      "domain": "bootjp.me",
-      "bookmarkCount": 124,
-      "summary": "先日、Twitter(X)で、設計書に「ボタンを押下したときに処理する」と書かれていたため、実装者がボタンを押し込んだ瞬間に処理を実行する実装を行い、非常に大変な思いをした、という趣旨の話を見た。 ここでは個別の投稿の是非には触れず、この話をきっかけに、私が設計について考えていることを書く。 私は、実装方法...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/bootjp.me/2026/06/20/%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E3%81%A8%E3%81%AF%E3%80%81%E4%BD%95%E3%82%92%E8%AB%A6%E3%82%81%E3%82%8B%E3%81%8B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8",
-      "comments": [
-        {
-          "user": "Rikerike",
-          "comment": "線引きしないとコストやらが掛かるからね……",
-          "tags": [
-            "software",
-            "design",
-            "デザイン",
-            "ソフトウェア"
-          ],
-          "timestamp": "2026/06/21 21:09"
-        },
-        {
-          "user": "jassmaz",
-          "comment": "「戦略とはしないことを決めること」と経営学者の楠健教授は指摘している。戦略と設計は似ている。",
-          "tags": [],
-          "timestamp": "2026/06/21 20:53"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“設計時点で「押し込んだ瞬間に処理を始める」と決めているのであれば、設計書にもそう書くべきだ。クリック操作の成立を待つならそう書く。どちらの振る舞いにすべきか考えていなかったなら設計の詰めが甘い。”",
-          "tags": [],
-          "timestamp": "2026/06/21 13:09"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "Design Docに『諦めたこと』を1行足したら、レビューの差し戻しが減った。守る性質より、捨てた選択肢を書く方が認識は揃うのでは？",
-          "tags": [],
-          "timestamp": "2026/06/21 12:31"
-        },
-        {
-          "user": "chaoschk",
-          "comment": "これは「隠れた要求仕様」。でも発注側は、実装技術の網羅的な把握は難しく、開発側は「暗黙の非機能要求」を察して設計仕様化が必要。揉めた事あり。要求と要件定義で聞き出す必要あり。自社サービスでも。",
-          "tags": [],
-          "timestamp": "2026/06/21 12:08"
-        },
-        {
-          "user": "chintaro3",
-          "comment": "客が素人だともめがちな所",
-          "tags": [
-            "教材"
-          ],
-          "timestamp": "2026/06/21 11:59"
-        }
-      ],
-      "fetchedAt": "2026-06-21T14:24:36.686019+00:00"
-    },
-    {
       "id": "h_b16bc8e5",
       "title": "ノルウェー、小学校でAI禁止 学力低下懸念、中学生以上も制限",
       "url": "https://www.47news.jp/14500110.html",
       "domain": "47news.jp",
-      "bookmarkCount": 122,
+      "bookmarkCount": 152,
       "summary": "【ロンドン共同】ノルウェーのストーレ首相は19日、小学校で児童が生成人工知能（AI）を使うことを原則禁止する方針を明らかにした。学力の低下を防ぐための措置としており、中学生以上についても教育の場でAIを使用することを制限。ノルウェーは教育のデジタル化が世界で最も進んだ国の一つとされている。 ロイター通信...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/14500110.html",
       "comments": [
         {
-          "user": "akinonika",
-          "comment": "「機械にさえ頼らなければわたしたちはまともなのだ」と信じているところがすごいよね、色々な意味で",
+          "user": "shoechang",
+          "comment": "既に大半の教師よりも賢いが問題はその倫理観で。突出した小学生と教師の間で会話が成立しないことはよくあるので教師はAIとの橋渡しになれればいいが。",
           "tags": [],
-          "timestamp": "2026/06/21 23:19"
+          "timestamp": "2026/06/22 04:48"
         },
         {
-          "user": "takuya831",
-          "comment": "AIが出した結論をきちんと評価できないとAIに使われるだけになる。禁止は極端だと思うけど、何でもかんでもAI使えば良いってもんでもない。",
-          "tags": [],
-          "timestamp": "2026/06/21 23:13"
-        },
-        {
-          "user": "fromdusktildawn",
-          "comment": "天然知能(親、家庭教師、友達)には質問していいが人工知能に質問してはダメな理由は何か？ どちらの知能も思考力を劣化させる使い方と高める使い方があり、保護者の監督下で後者の使い方をさせればいいだけでは。",
-          "tags": [],
-          "timestamp": "2026/06/21 22:38"
-        },
-        {
-          "user": "strange",
-          "comment": "いくら禁止にしてもGoogleで検索すればほぼ勝手にAIが答えてくるし、スマホを使ってもすぐAIが出てくるようになるだろうし、学校で禁止なくらいでちょうどいいんじゃないかな",
-          "tags": [],
-          "timestamp": "2026/06/21 22:06"
-        },
-        {
-          "user": "ripple_zzz",
-          "comment": "支持",
+          "user": "goturu",
+          "comment": "成人だろうが問題の解き方をAIに解説してもらう人なんて上澄みも上澄みでしょ。AIが出した解答の正当性を確認するならまだマシ。AIが出した解答をそのまま提出する人のが普通。教育期間中のAI使用禁止は妥当だと思う。",
           "tags": [
-            "社会"
+            "教育"
           ],
-          "timestamp": "2026/06/21 21:56"
+          "timestamp": "2026/06/22 04:01"
         },
         {
-          "user": "Xray",
-          "comment": "まあそれはそう",
+          "user": "colonoe",
+          "comment": "タイトルさあ、AIじゃなくて生成AIって書こうよ。二文字削る意味なんてないだろ",
           "tags": [],
-          "timestamp": "2026/06/21 21:54"
+          "timestamp": "2026/06/22 03:42"
+        },
+        {
+          "user": "alovesun",
+          "comment": "なんぼ言うてもアホみたいにトークン消費し続ける人を見てるので、小学生に使うな（基礎学力を積んでからにしろ）というのは妥当だと思う。",
+          "tags": [],
+          "timestamp": "2026/06/22 01:44"
+        },
+        {
+          "user": "town2town",
+          "comment": "なんか自分はさもAI使いこなしてる感のある人たちばかりだね。子供がわからない問題ある時、先生に聞ける人なんて1割。親も解らない場合詰むだけ",
+          "tags": [],
+          "timestamp": "2026/06/22 01:17"
+        },
+        {
+          "user": "yamadar",
+          "comment": "新世代がどの様にするべきか、自分はまだ結論だせていない",
+          "tags": [],
+          "timestamp": "2026/06/22 00:07"
         }
       ],
-      "fetchedAt": "2026-06-21T14:24:32.332234+00:00"
+      "fetchedAt": "2026-06-21T19:53:03.143131+00:00"
     },
     {
-      "id": "h_08fb4e86",
-      "title": "Apple container 1.0 を試してみた ― systemd、名前付きホスト、起動速度を Docker と比較",
-      "url": "https://zenn.dev/tokium_dev/articles/202c16adec91d0",
-      "domain": "zenn.dev",
-      "bookmarkCount": 73,
-      "summary": "毎年恒例の Apple の開発者向けイベント WWDC26 で、Linux コンテナを動かすツール container が 1.0 になり、その目玉として軽量な Linux 環境 container machine がしれっと発表されました。 container は Apple Silicon の Mac で macOS 26 で動作します。 Docker Desktop のような追加の仮想化ソフトを入れなくても...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tokium_dev/articles/202c16adec91d0",
+      "id": "h_72ace9c8",
+      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
+      "url": "https://claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "domain": "claude.com",
+      "bookmarkCount": 99,
+      "summary": "Claude is built to work the way you work, and in Claude Code you can customize it. There are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, skills, subagents, hooks, output styles, and appending the system prompt. ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
       "comments": [
         {
-          "user": "suka6411144",
-          "comment": "コンテナごとにVM建てるって、コンテナとは一体…という気持ちになる",
+          "user": "FreeCatWork",
+          "comment": "お勉強は大事にゃ！ボクも一緒に賢くなりたいにゃ！",
           "tags": [],
-          "timestamp": "2026/06/21 22:48"
+          "timestamp": "2026/06/22 03:21"
         },
         {
-          "user": "tettekete37564",
-          "comment": "そんなの開発してたんだ。cron が動くのもいいね",
+          "user": "rgfx",
+          "comment": "via:\"この公式記事めっちゃいいので、Claude自身にぶん投げて設定見直しさせてる\"  https://x.com/minorun365/status/2068619447414485205",
           "tags": [],
-          "timestamp": "2026/06/21 21:25"
+          "timestamp": "2026/06/22 02:54"
         },
         {
-          "user": "sulky",
-          "comment": "volume関連のパフォーマンスが1番気になるところ",
-          "tags": [],
-          "timestamp": "2026/06/21 21:09"
+          "user": "mkusaka",
+          "comment": "Claude Codeの行動を7方法（CLAUDE.md、rules、skills、hooks等）で制御し、読み込み時期やcontext costを整理する。",
+          "tags": [
+            "AI要約",
+            "ClaudeCode",
+            "CLAUDE.md",
+            "skills",
+            "hooks",
+            "subagents"
+          ],
+          "timestamp": "2026/06/22 02:03"
         },
         {
-          "user": "naoya-i",
-          "comment": "期待しているがまだColimaかな",
+          "user": "tyhe",
+          "comment": "あしたよむ",
           "tags": [],
-          "timestamp": "2026/06/21 19:49"
+          "timestamp": "2026/06/21 23:59"
         },
         {
           "user": "nguyen-oi",
-          "comment": "コンテナごとにVM立てるからポート競合しないの強い。Dockerの代わりになりそう",
+          "comment": "CLAUDE.mdが肥伝のタレ化するのを防ぐためにルールやスキルに切り出す設計はよく出来てる",
           "tags": [],
-          "timestamp": "2026/06/21 18:10"
+          "timestamp": "2026/06/21 23:37"
         }
       ],
-      "fetchedAt": "2026-06-21T14:24:31.015810+00:00"
+      "fetchedAt": "2026-06-21T19:53:00.545085+00:00"
     },
     {
       "id": "h_c4c118f8",
       "title": "AI駆動開発を通して感じた、 AI時代のデザイナーの役割変化",
       "url": "https://speakerdeck.com/whisaiyo/whidevelopers-linklight20260618",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 61,
+      "bookmarkCount": 96,
       "summary": "AI駆動開発のワークショップを体験して感じた、AIによる影響、 デザイナーの役割変化について共有いたします。",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/whisaiyo/whidevelopers-linklight20260618",
-      "comments": [],
-      "fetchedAt": "2026-06-21T14:24:31.349835+00:00"
-    },
-    {
-      "id": "h_37c6bc2b",
-      "title": "ワークフローを再利用可能なスキルに変換する Record & Replay を試してみた",
-      "url": "https://azukiazusa.dev/blog/workflow-to-reusable-skill/",
-      "domain": "azukiazusa.dev",
-      "bookmarkCount": 39,
-      "summary": "Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。例えば経費精算の提出や勤怠アプリへの打刻や工数入力、定期的なレポートの作成などをスキルとして記録し、煩雑な定型業務を AI に任せることが期待できます。この記事では、Record & Replay を実際に試...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/workflow-to-reusable-skill/",
       "comments": [
         {
-          "user": "netafull",
-          "comment": "“Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。”",
+          "user": "mvsw",
+          "comment": "AIをディレクションしていくことになると。もうデザイナーじゃなくて別の言葉で職を現してほしいよね",
           "tags": [],
-          "timestamp": "2026/06/21 20:45"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "定型業務をRPAで録画して例外分岐で崩れた経験からすると、これが効くのは成功基準が明確な定型2割。分岐の多い残り8割は結局人が要る。",
-          "tags": [],
-          "timestamp": "2026/06/21 19:13"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "座標じゃなくてアクセシビリティAPI経由で記録するからUIの多少の変更に強いの賢いな。RPAの上位互換になりそう",
-          "tags": [],
-          "timestamp": "2026/06/21 19:03"
+          "timestamp": "2026/06/22 01:59"
         }
       ],
-      "fetchedAt": "2026-06-21T14:24:32.719636+00:00"
-    },
-    {
-      "id": "h_d80bf58a",
-      "title": "今の時代、AIを使いこなせる事は必須条件、その上で必要なのは人間として判断する能力 | ギズモード・ジャパン",
-      "url": "https://www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
-      "domain": "gizmodo.jp",
-      "bookmarkCount": 39,
-      "summary": "CPUやGPUの開発企業AMDのCEOのリサ・スー氏による、マサチューセッツ工科大学（MIT）卒業式でのスピーチが今の時代を象徴する内容だったと評判です。 世界が求めているのは、単に強力なツールの使い方を知っている人間ではありません。それらのツールを何のために使うべきかを知っている人間、つまり目的意識、判断力、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
-      "comments": [
-        {
-          "user": "findup",
-          "comment": "ネット見てるとAIのツールとしての使い方技術（エージェントや環境設定がどうとか）がよく出てくるけど、あれはあれで知ってて損は無いけど注力するのは本当にそこなのかって話なのかも。",
-          "tags": [],
-          "timestamp": "2026/06/21 22:50"
-        },
-        {
-          "user": "fromdusktildawn",
-          "comment": "\"AIを使いこなせてる\" 状態とは、AIを駆使して売上や利益を上げたり、コストやリスクを下げたり、という具体的な成果を出している状態。",
-          "tags": [],
-          "timestamp": "2026/06/21 22:24"
-        },
-        {
-          "user": "nanako-robi",
-          "comment": "やたらそういうこと言うんだよなー",
-          "tags": [],
-          "timestamp": "2026/06/21 22:23"
-        },
-        {
-          "user": "matchy2",
-          "comment": "「嘘を嘘と見抜けないと」みたいなもんで、そのうちそんなレベルではなくなると思う",
-          "tags": [],
-          "timestamp": "2026/06/21 21:43"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "使いこなしより、どこで人間が判断を握り続けるかの線引きが本体。全部任せると速いが、後で効く失敗ほど自分で検証する範囲に残すべき。判断の外注は事故る。",
-          "tags": [],
-          "timestamp": "2026/06/21 21:14"
-        },
-        {
-          "user": "bike-a-to-z",
-          "comment": "AI以前から必要とされていた能力がさらに必要性を増してるんだが、メタ認知できてる人がまだ少ないから記事が取り上げられるんだよな。",
-          "tags": [],
-          "timestamp": "2026/06/21 20:39"
-        }
-      ],
-      "fetchedAt": "2026-06-21T14:24:35.208817+00:00"
-    },
-    {
-      "id": "h_864c3696",
-      "title": "DNSとSNIが見えにくくなる時代に、外部通信をどう見るか",
-      "url": "https://zenn.dev/catatsuy/articles/566f5e37076e53",
-      "domain": "zenn.dev",
-      "bookmarkCount": 38,
-      "summary": "以前、以下の記事を書きました。 今回はその補足のような話です。 ただし、この記事だけ読んでも分かるように書きます。 開発環境やCI/CDでは、外部通信を見られることが重要です。 どのプロセスが動き、どのファイルに触り、どこへ通信したのか。特に、package install中に普段とは違う通信が発生したり、credentialに...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/catatsuy/articles/566f5e37076e53",
-      "comments": [
-        {
-          "user": "beerbeerkun",
-          "comment": "「企業ネットワークやCI/CD環境の監視はどこを見ればよいのか。」本文では時代の流れに逆行という評価だがクライアントの自由度を極端に減らしプロキシ経由を強制させるくらいしか対案思いつかない",
-          "tags": [],
-          "timestamp": "2026/06/21 22:18"
-        },
-        {
-          "user": "kaputte",
-          "comment": "これは確かになあ",
-          "tags": [],
-          "timestamp": "2026/06/21 21:38"
-        },
-        {
-          "user": "Shinwiki",
-          "comment": "「監視したい」と「見せたくない」はまぁ昔からずっとそういうもんなので…そのままだと監視エージェントが/var/log配下見れないとかさ。まぁどうにかなって行くっしょ。",
-          "tags": [],
-          "timestamp": "2026/06/21 21:18"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "DoHとECHで中間者攻撃を防ぐのは良いことだけど、社内ネットワークやCI/CDの監視が難しくなるのはインフラエンジニアとしては胃が痛い問題だな",
-          "tags": [],
-          "timestamp": "2026/06/21 20:08"
-        }
-      ],
-      "fetchedAt": "2026-06-21T14:24:33.135537+00:00"
-    },
-    {
-      "id": "h_878d203e",
-      "title": "GitHub - TypeWhisper/typewhisper-mac: Local speech-to-text for macOS on-device AI, fully private, optional cloud",
-      "url": "https://github.com/TypeWhisper/typewhisper-mac",
-      "domain": "github.com",
-      "bookmarkCount": 31,
-      "summary": "Speech-to-text and AI text processing for macOS. Transcribe audio using on-device AI models or cloud APIs (Groq, OpenAI, xAI/Grok), then transform the result with reusable workflows. Your voice data stays on your Mac with local models - or ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/TypeWhisper/typewhisper-mac",
-      "comments": [
-        {
-          "user": "simplememofast",
-          "comment": "音声入力、クラウド系から端末内処理に移したら遅延も漏えい不安も消えた。ただ固有名詞と句読点の補正は結局手作業。捕獲は声、整形は後段に分けるのが落とし所では？",
-          "tags": [],
-          "timestamp": "2026/06/21 21:12"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "MacのローカルでWhisper動かして文字起こしできるの便利そうだな。APIやCLIもあるし自動化が捗りそう",
-          "tags": [],
-          "timestamp": "2026/06/21 19:03"
-        },
-        {
-          "user": "tmatsuu",
-          "comment": "macOS上で音声による文字入力を行うためのアプリ。どんなアプリに対しても入力可。ローカル/クラウド問わず様々なエンジンに対応。homebrew公式に追加されたのでbrew install --cask typewhisperでインストールできる",
-          "tags": [],
-          "timestamp": "2026/06/21 09:05"
-        }
-      ],
-      "fetchedAt": "2026-06-21T14:24:36.211637+00:00"
+      "fetchedAt": "2026-06-21T19:53:01.795896+00:00"
     },
     {
       "id": "h_7baa2fe8",
       "title": "入門から実践 -「🔁 ループエンジニアリング」 - Qiita",
       "url": "https://qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8",
       "domain": "qiita.com",
-      "bookmarkCount": 20,
+      "bookmarkCount": 94,
       "summary": "前書き 最近 X やブログで 「Loop Engineering（ループエンジニアリング）」 という言葉をやたら見るようになりました。 「もう Claude に指示は出していない、私の仕事はループを書くことだ」 みたいな、ちょっと面白い言い回しで流れてくるアレです 最初は「また新しい “XX エンジニアリング” か……」と斜めに構えてい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8",
       "comments": [
@@ -380,39 +145,294 @@
           "timestamp": "2026/06/21 22:03"
         }
       ],
-      "fetchedAt": "2026-06-21T14:24:34.917491+00:00"
+      "fetchedAt": "2026-06-21T19:53:00.962023+00:00"
     },
     {
-      "id": "h_72ace9c8",
-      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
-      "url": "https://claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "domain": "claude.com",
-      "bookmarkCount": 16,
-      "summary": "Claude is built to work the way you work, and in Claude Code you can customize it. There are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, skills, subagents, hooks, output styles, and appending the system prompt. ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "comments": [],
-      "fetchedAt": "2026-06-21T14:24:33.819537+00:00"
+      "id": "h_08fb4e86",
+      "title": "Apple container 1.0 を試してみた ― systemd、名前付きホスト、起動速度を Docker と比較",
+      "url": "https://zenn.dev/tokium_dev/articles/202c16adec91d0",
+      "domain": "zenn.dev",
+      "bookmarkCount": 94,
+      "summary": "毎年恒例の Apple の開発者向けイベント WWDC26 で、Linux コンテナを動かすツール container が 1.0 になり、その目玉として軽量な Linux 環境 container machine がしれっと発表されました。 container は Apple Silicon の Mac で macOS 26 で動作します。 Docker Desktop のような追加の仮想化ソフトを入れなくても...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tokium_dev/articles/202c16adec91d0",
+      "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "Apple container 1.0をsystemd・名前付きホストで試し、起動速度をDockerと比較するハンズオン記事。",
+          "tags": [
+            "AI要約",
+            "Apple容器",
+            "コンテナ",
+            "systemd",
+            "Docker比較",
+            "起動速度"
+          ],
+          "timestamp": "2026/06/22 04:06"
+        },
+        {
+          "user": "j1nsuke",
+          "comment": "あまりにもWSLすぎる",
+          "tags": [],
+          "timestamp": "2026/06/22 02:42"
+        },
+        {
+          "user": "m50747",
+          "comment": "記事は興味深い。しかし結局間にVMが入るから正直微妙。UTMで普通にLinuxのVM立ててそこでコンテナ動かした方がサンドボックスになるしバックアップ取りやすいしと思う。ホスOS汚れるのも嫌だし。WSLも嫌いです。",
+          "tags": [],
+          "timestamp": "2026/06/22 00:33"
+        },
+        {
+          "user": "poco_tin",
+          "comment": "WSL containersとの比較も気になるところ",
+          "tags": [],
+          "timestamp": "2026/06/22 00:15"
+        },
+        {
+          "user": "keidge",
+          "comment": "コンテナ並みに扱いやすいVM",
+          "tags": [],
+          "timestamp": "2026/06/21 23:49"
+        },
+        {
+          "user": "suka6411144",
+          "comment": "コンテナごとにVM建てるって、コンテナとは一体…という気持ちになる",
+          "tags": [],
+          "timestamp": "2026/06/21 22:48"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:02.088735+00:00"
+    },
+    {
+      "id": "h_864c3696",
+      "title": "DNSとSNIが見えにくくなる時代に、外部通信をどう見るか",
+      "url": "https://zenn.dev/catatsuy/articles/566f5e37076e53",
+      "domain": "zenn.dev",
+      "bookmarkCount": 54,
+      "summary": "以前、以下の記事を書きました。 今回はその補足のような話です。 ただし、この記事だけ読んでも分かるように書きます。 開発環境やCI/CDでは、外部通信を見られることが重要です。 どのプロセスが動き、どのファイルに触り、どこへ通信したのか。特に、package install中に普段とは違う通信が発生したり、credentialに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/catatsuy/articles/566f5e37076e53",
+      "comments": [
+        {
+          "user": "netnotora",
+          "comment": "だったら自前でDoH建てたら？",
+          "tags": [],
+          "timestamp": "2026/06/22 01:02"
+        },
+        {
+          "user": "ot2sy39",
+          "comment": "DoHは間違った方向だと思っている。筋の良し悪しと普及するかどうかは別の話なので言っても仕方ないが。",
+          "tags": [
+            "通信",
+            "DNS"
+          ],
+          "timestamp": "2026/06/21 23:39"
+        },
+        {
+          "user": "beerbeerkun",
+          "comment": "「企業ネットワークやCI/CD環境の監視はどこを見ればよいのか。」本文では時代の流れに逆行という評価だがクライアントの自由度を落としてプロキシ経由を強制させるくらいしか対案思いつかない",
+          "tags": [],
+          "timestamp": "2026/06/21 22:18"
+        },
+        {
+          "user": "kaputte",
+          "comment": "これは確かになあ",
+          "tags": [],
+          "timestamp": "2026/06/21 21:38"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "「監視したい」と「見せたくない」はまぁ昔からずっとそういうもんなので…そのままだと監視エージェントが/var/log配下見れないとかさ。まぁどうにかなって行くっしょ。",
+          "tags": [],
+          "timestamp": "2026/06/21 21:18"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "DoHとECHで中間者攻撃を防ぐのは良いことだけど、社内ネットワークやCI/CDの監視が難しくなるのはインフラエンジニアとしては胃が痛い問題だな",
+          "tags": [],
+          "timestamp": "2026/06/21 20:08"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:03.647862+00:00"
+    },
+    {
+      "id": "h_37c6bc2b",
+      "title": "ワークフローを再利用可能なスキルに変換する Record & Replay を試してみた",
+      "url": "https://azukiazusa.dev/blog/workflow-to-reusable-skill/",
+      "domain": "azukiazusa.dev",
+      "bookmarkCount": 50,
+      "summary": "Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。例えば経費精算の提出や勤怠アプリへの打刻や工数入力、定期的なレポートの作成などをスキルとして記録し、煩雑な定型業務を AI に任せることが期待できます。この記事では、Record & Replay を実際に試...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/workflow-to-reusable-skill/",
+      "comments": [
+        {
+          "user": "netafull",
+          "comment": "“Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。”",
+          "tags": [],
+          "timestamp": "2026/06/21 20:45"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "定型業務をRPAで録画して例外分岐で崩れた経験からすると、これが効くのは成功基準が明確な定型2割。分岐の多い残り8割は結局人が要る。",
+          "tags": [],
+          "timestamp": "2026/06/21 19:13"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "座標じゃなくてアクセシビリティAPI経由で記録するからUIの多少の変更に強いの賢いな。RPAの上位互換になりそう",
+          "tags": [],
+          "timestamp": "2026/06/21 19:03"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:04.402244+00:00"
     },
     {
       "id": "h_f036a378",
       "title": "2026年にもなって日本語のTeXワークフローがいまだにDVIを経由しているわけ - golden-luckyの日記",
       "url": "https://golden-lucky.hatenablog.com/entry/2026/06/21/205551",
       "domain": "golden-lucky.hatenablog.com",
-      "bookmarkCount": 5,
+      "bookmarkCount": 49,
       "summary": "欧米ではすっかりpdfTeXに移行してPDFを直接生成するワークフローになっているのに、なぜ日本語ではPDFを出力できない(u)pTeXがいまだに生き残っているのか。 簡単に言うと、TeXと事実上互換性があるpdfTeXが発明されたときに、日本語圏のデファクトだったpTeXのことが一切考慮されなかったからである。 このような事情...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/06/21/205551",
       "comments": [
         {
-          "user": "gogatsu26",
-          "comment": "“現在でも日本語の組版ではpTeX（あるいはその内部処理を拡張したupTeX）がよく使われており、これは出力がPDFではなくDVIなので、DVIをPDFにするというワークフローが必要になる。”",
+          "user": "hylom",
+          "comment": "pTeX関連の互換性問題は今に始まった話ではなくてそもそもpTeXが魔境なのでなんというかそのすべてが歴史的事情で仕方がないとしか言えないという（奥歯に何か挟まったような言い方）",
+          "tags": [],
+          "timestamp": "2026/06/22 04:21"
+        },
+        {
+          "user": "robbie21",
+          "comment": "日本の存在感が失われていくことで、だんだんあらゆる部門で少しずつ日本語が使いにくくなるんじゃないかと心配する",
+          "tags": [],
+          "timestamp": "2026/06/22 03:13"
+        },
+        {
+          "user": "rna",
+          "comment": "クヌースの教え子で博士号取らずに卒業したDVIの発明者「2019年の発表では最前列にいたKnuth本人に「これで私も博士号がもらえますか？」と冗談を飛ばしていた。 Knuthは「Yes」と答えていた。」",
           "tags": [
-            "PDF"
+            "いいはなし"
           ],
-          "timestamp": "2026/06/21 23:17"
+          "timestamp": "2026/06/22 02:43"
+        },
+        {
+          "user": "tohokuaiki",
+          "comment": "組版の世界はDITAを少し齧ってXSLTを学びアンテナハウスの実装を聞いた時に(そんなこと逐一考えるのは俺に情熱はない)って思って敬して遠ざけている。本当にこの分野には尊敬しかない",
+          "tags": [],
+          "timestamp": "2026/06/22 00:40"
+        },
+        {
+          "user": "peperon_brain",
+          "comment": "完全素人意見だけど今ならpTexを正解としてclaudeゴリゴリぶん回せば何とか作れんのかな (誰が金払うんか問題はある)",
+          "tags": [],
+          "timestamp": "2026/06/22 00:07"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "アスキーのpTeX資産が偉大すぎて移行できないの、絵に描いたような技術負債で味わい深い",
+          "tags": [],
+          "timestamp": "2026/06/21 23:37"
         }
       ],
-      "fetchedAt": "2026-06-21T14:24:35.790911+00:00"
+      "fetchedAt": "2026-06-21T19:53:01.244801+00:00"
+    },
+    {
+      "id": "h_fd7d4944",
+      "title": "ゼロをイチにする仕事の終わり、ソフトウェアエンジニアという仕事の終わり - smasato.log",
+      "url": "https://blog.smasato.net/entry/2026/06/21/181605",
+      "domain": "blog.smasato.net",
+      "bookmarkCount": 47,
+      "summary": "ソフトウェアエンジニアの仕事のうち、ゼロをイチにする業務の割合はかなり多かったはずです。初期のAIは、GitHub Copilotの行補完のように、その「ゼロをイチにする」ための作業を支援するツールでした。書きかけたコードを完成させるためのツールであり、コードをゼロから書くことを手伝ってくれるものだったと思いま...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.smasato.net/entry/2026/06/21/181605",
+      "comments": [
+        {
+          "user": "myogab",
+          "comment": "いや、ゼロイチの仕事～てそういうことじゃない…かと。",
+          "tags": [
+            "感想"
+          ],
+          "timestamp": "2026/06/22 04:43"
+        },
+        {
+          "user": "cloverstudioceo",
+          "comment": "まじでまたゴリゴリコードを書く様になる可能性あるからなｗ",
+          "tags": [],
+          "timestamp": "2026/06/22 04:31"
+        },
+        {
+          "user": "otologie",
+          "comment": "技術的なアイデアが全体を変えてしまうことはあると思うけど。反映させるのは自動でもいいんだけどな。",
+          "tags": [],
+          "timestamp": "2026/06/22 02:55"
+        },
+        {
+          "user": "mynz",
+          "comment": "ゼロをイチにする仕事のやり方は変わったかもしれないが、終わったとは思わないが。",
+          "tags": [],
+          "timestamp": "2026/06/22 02:48"
+        },
+        {
+          "user": "kyukyunyorituryo",
+          "comment": "統合開発環境とそれほど変わらない気がする",
+          "tags": [],
+          "timestamp": "2026/06/22 02:12"
+        },
+        {
+          "user": "ooblog",
+          "comment": "#時短経済 #経済合理性 #シンギュラリティ 「人間の指示を受けて人間が作業~性質上~組織管理~何かを待つ時間~そのものが律速~自然言語~解釈の余地~選択肢~ボトルネック」人間の仕事AIルンバ様カーリング(ガードレール)説。",
+          "tags": [],
+          "timestamp": "2026/06/22 00:18"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:01.497458+00:00"
+    },
+    {
+      "id": "h_bd99b93c",
+      "title": "月 100万件・ 50億トークンをローカルLLMで捌く - 明細名のストア情報マッピング",
+      "url": "https://zenn.dev/finatext/articles/7180db2c0fce5b",
+      "domain": "zenn.dev",
+      "bookmarkCount": 15,
+      "summary": "こんにちは。ナウキャストの Data Holder Unit 所属、マッピングチームでデータエンジニアをしている翁長です。 この記事では、2026 年度の社内 AI コンテストで優勝とテクノロジー賞をダブル受賞（！）した「ローカル LLM を活用したストアブランドマッピング」の取り組みについて紹介させてください。 明細名のカオス...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/finatext/articles/7180db2c0fce5b",
+      "comments": [],
+      "fetchedAt": "2026-06-21T19:53:03.856380+00:00"
+    },
+    {
+      "id": "h_9c977e99",
+      "title": "レコードにCD、カセットプレーヤー風DAP、注目のレトロ製品を振り返る",
+      "url": "https://av.watch.impress.co.jp/docs/topic/2109623.html",
+      "domain": "av.watch.impress.co.jp",
+      "bookmarkCount": 11,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/topic/2109623.html",
+      "comments": [
+        {
+          "user": "Rikerike",
+          "comment": "レコード風良いな",
+          "tags": [
+            "gadget",
+            "ガジェット"
+          ],
+          "timestamp": "2026/06/21 18:28"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:02.543716+00:00"
+    },
+    {
+      "id": "h_d5ef44ae",
+      "title": "LLM・AIエージェントシステムベストプラクティス | 翔泳社",
+      "url": "https://www.shoeisha.co.jp/book/detail/9784798194318",
+      "domain": "shoeisha.co.jp",
+      "bookmarkCount": 11,
+      "summary": "著者の経験知の集大成！ LLMやAIエージェントを使った本番システムの 設計・導入・運用・管理で 苦しんだ末に練り出した 39のベストプラクティスを あますところなく公開 【本書の背景】 大規模言語モデル（LLM）やAIエージェントは、企業や組織における業務効率化、顧客対応、知識活用の中心技術として急速に普及してい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.shoeisha.co.jp/book/detail/9784798194318",
+      "comments": [
+        {
+          "user": "tmatsuu",
+          "comment": "2026年8月20日発売",
+          "tags": [],
+          "timestamp": "2026/06/21 21:24"
+        }
+      ],
+      "fetchedAt": "2026-06-21T19:53:04.132370+00:00"
     }
   ],
-  "lastCollection": "2026-06-21T14:24:36.686041+00:00"
+  "lastCollection": "2026-06-21T19:53:04.402271+00:00"
 }
