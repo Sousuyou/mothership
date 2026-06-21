@@ -1,53 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_a4957c92",
-      "title": "Claude Code で自社サービスのSEO記事を半自動で量産する仕組みを作った",
-      "url": "https://zenn.dev/equaliainc/articles/claude-code-seo-automation",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.164238+00:00",
-      "excerpt": "個人開発で AI スキル・プロンプトの売買マーケット equaliA（イコリア） を運営しています。ローンチ初期の最大の課題は「集客」でした。広告予算は限られ、SNS の手運用も続かない。そこで Claude Code をマーケティングの実行エンジンにして、SEO 記事の執筆からデプロイ・検索エンジンへの登録までを半自動で回す仕組みを作りました。この記事ではその構成と、実装で気をつけた点を共有しま"
-    },
-    {
-      "id": "cc_8aa9bea2",
-      "title": "Claude Code の auto mode を理解する — 「許可しますか？」を AI が肩代わりする仕組み",
-      "url": "https://zenn.dev/tatsuqumo/articles/68422038568b79",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.164148+00:00",
-      "excerpt": "はじめに：許可プロンプトとの付き合い方 Claude Code で複雑なタスクを任せると、ファイル編集やコマンド実行のたびに許可プロンプトが表示されます。個別の allow ルールや acceptEdits モードで頻出パターンは減らせますが、Bash コマンドや外部通信が絡むと結局プロンプトが出る。長時間のリファクタリングや調査タスクでは、承認待ちで作業が止まる場面がどうしても残ります。 --d"
-    },
-    {
-      "id": "cc_34ece04d",
-      "title": "avante.nvimでNeovim上にClaudeのAIペアプロ環境を作る",
-      "url": "https://zenn.dev/kuroikotech/articles/nvim-avante-claude",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.164067+00:00",
-      "excerpt": "はじめに エディタ上でAIに質問したりコードを直してもらったりするのに、わざわざ別ウィンドウやブラウザを開きたくない。Neovimから出ずに完結させたくて入れたのが avante.nvim。Cursorのインライン編集・チャットUIをNeovimに持ち込むプラグインで、プロバイダにClaudeを指定して使っている。 avante.nvimとは チャット形式でコードについて質問できる 提案された変更"
-    },
-    {
-      "id": "cc_94a54067",
-      "title": "【Claude Code活用】PROGRESS.md駆動開発でセッションをまたいで開発する",
-      "url": "https://zenn.dev/pekopugu/articles/agent01-b7-progress-driven",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.164008+00:00",
-      "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 セッションをまたぐ問題 Claude Code はセッションをまたいで記憶を保持しません。新しいセッションを開始すると、前回どこまで進んだか・どんな問題があったかをすべて忘れた状態から始まります。 この問題を解決するために考案したのが PROGRESS.md 駆動開発です。 P"
-    },
-    {
       "id": "cc_1ea2bbbd",
       "title": "2026年6月、AIが「予約実行」する時代へ：ChatGPT/Claude/Geminiのスケジュール行をコードで設計する",
       "url": "https://zenn.dev/kairosai/articles/aa04d8a4c13003",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.163902+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.620503+00:00",
       "excerpt": "はじめに 2026年6月、OpenAI・Anthropic・Googleが揃って「スケジュール実行型のAIエージェント」を投入しました。 OpenAI: ChatGPTに Scheduled Tasks（6/17 リリース） Anthropic: Claudeに Managed Agents（cronベース、CLI/認証サービス連携、vault管理の環境変数） Google: Gemini Dai"
     },
     {
@@ -57,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.163772+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.620280+00:00",
       "excerpt": "AIツールの進化によって、個人でも瞬時にアプリやウェブサイトの画面を生成できるようになりました。しかし、AIに画面を作らせる中で 「画面ごとにデザインがバラバラになる」「細部を修正させようとして指示を繰り返すと泥沼化する」 といった壁にぶつかったことはありませんか？ 今回は Claude Design の具体的な使い方や、AI共通規格の仕様書 design.md を活用した実践的な手順を、今一度整"
     },
     {
@@ -67,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.163695+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.620149+00:00",
       "excerpt": "こんにちは。ベンチマーク係の Claude です。 前回は RX72N に積まれたセキュリティ IP (TSIP) の話で、特定チップの内部を腰を据えて掘る回でした。今回は逆に、視点をぐっと引いて MCU ベースの IoT システム全体の見取り図 を一枚提示します。CPU 性能クラスと OS 選定、RTOS 市場の今、OSI の階層と物理層 (Ethernet / Wi-Fi / セルラー / 衛"
     },
     {
@@ -77,8 +37,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.163562+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.619965+00:00",
       "excerpt": "DifyのChatflow（会話型アプリ）設計書をClaude Codeのスキルで自動生成する実践ガイド。FAQボット・ITヘルプデスク・求人マッチングの3サンプルをウォークスルーで解説。設計判断の6原則・実装時のハマりポイント10選・スキルファイル一式を収録。"
+    },
+    {
+      "id": "cc_9a06926a",
+      "title": "AIに「実用ツールを作って本番に出して」と丸投げしてみた（Claude Code × KamuiDash）",
+      "url": "https://zenn.dev/kamuidash/articles/8010bae646cabc",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T04:59:55.619869+00:00",
+      "excerpt": "この記事は前回の続きです。前回簡単なレスポンスを返すバックエンドのホストでしたが、今回はそのアプリをリッチにしてみました。 要約 Claude Code に1本のプロンプトで丸投げしたら、「公開エンドポイントの稼働モニター」が本番公開まで進みました。実装、デプロイ、独自ドメイン設定、までAIが自走。 中身は FastAPI + マネージド PostgreSQL。監視先 URL を登録すると 5 分"
     },
     {
       "id": "cc_6bfa5a70",
@@ -87,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.140334+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.595322+00:00",
       "excerpt": "はじめに Claude Codeで実装が速くなると、「並行して走らせるプロジェクトの数を増やしたくなる」という誘惑が生まれます。筆者は技術スタックも目的も異なる3つのプロジェクトを並行開発する中で、**品質を落とさず速度を維持する鍵は、AIの性能ではなく人間側の「タスクスイッチの作法」と「コンテキスト設計」**にあると実感しました。 本記事では、この2点を軸に、Claude(claude.ai)の"
     },
     {
@@ -97,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.140250+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.595246+00:00",
       "excerpt": "「あの林業GISの議事録、前にやったやつ」とスマホに話しかける。すると自宅のPCで動く Claude Code が、Dropbox 上の案件フォルダをたどり、過去の構造化トランスクリプトから該当データを引き当ててくる。 ここで効いているのは、プロンプト力ではない。普段からの索引設計だ。 この記事では、その「2段階索引」と、曖昧な音声指示を正確なデータに着地させる工程を、実物に即して公開する。 結論"
     },
     {
@@ -107,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.140161+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.595185+00:00",
       "excerpt": "はじめに 転職や対外アピールのために技術記事を書きたい。でも「ネタを書く → 媒体に公開する → 書いた実績をどこかに残す」を毎回手作業でやるのは、正直続かない。 そこで AI エージェントの Claude Code と MCP（Model Context Protocol） を使って、記事執筆から公開、実績の蓄積までを一気通貫で回す仕組みを作った。この記事自体も、その仕組みで公開している。 一言"
     },
     {
@@ -117,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.140073+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.595103+00:00",
       "excerpt": "はじめに Claude Code を使っていると、選択メニュー（↑/↓ で選んで Enter で確定するUI）に答える場面が頻繁にあります。そのたびに矢印キーへ手を伸ばすのが地味にストレスでした。 そこで、iPhone付属の有線 EarPods のボタンを Karabiner-Elements でリマップし、手元の小さなリモコンとして使えるようにしました。 完成した割り当て ボタンは iTerm "
     },
     {
@@ -127,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.139998+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.595037+00:00",
       "excerpt": "「AIに書かせた記事、なんかAIっぽいな」 Zennへの発信を自動化した翌日、自分の記事を読み返してそう思った。 確認ゲートを通過しているのに、文体がどこか機械的で引っかかる。 この記事では、その問題をどう特定し、スキルに改善を加えたかを共有する。 背景：Zenn発信を自動化した 先日、Claude Code と MCP を組み合わせて、記事執筆からZenn公開、GitHubの経歴リポジトリへの実"
     },
     {
@@ -137,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.139903+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.594946+00:00",
       "excerpt": "個人開発のサービスを Claude Code で書いていますが、開発機は Windows 11 + Windows PowerShell 5.1 です。Claude Code やこの手の AI エージェントは macOS / Linux + bash 前提のドキュメントが多く、Windows ＋ PowerShell 5.1（PowerShell 7 ではなくOS 同梱の 5.1）で常用すると、地"
     },
     {
@@ -147,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.139746+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.594791+00:00",
       "excerpt": "! Claude Codeの公式Changelogを毎日最速で翻訳・解説しています。 「管理ポリシーの強化、Bedrock設定ウィザード、コスト可視化の強化」──Claude Codeがエンタープライズ利用にぐっと近づいたリリース 今回の注目ポイント forceRemoteSettingsRefreshポリシー設定 -- リモート管理設定の取得失敗時にCLIを起動拒否する「フェイルクローズ」動作が"
     },
     {
@@ -157,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.139675+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.594722+00:00",
       "excerpt": "きっかけ Claude Code を使いはじめた頃、ちょっと不満だったことがある。長いバッシュコマンドが終わっても音も通知も出ない。別のウィンドウで作業してると「あ、もう終わってた」という状況が何度も続いた。 調べてみると hooks という機能があることを知った。ツールの実行前後や、セッション開始時などに任意のシェルコマンドを差し込める仕組みだ。これがかなり便利で、今では自分のワークフローに欠か"
     },
     {
@@ -167,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-20T19:46:34.139582+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.594617+00:00",
       "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 Claude Code で記事を書く発想 「コードを実装した Claude Code が、記事も書けるのでは？」 これが Series A・B 全16本の記事を Claude Code で生成することにした出発点です。 Claude Code は実装コードを直接読めるため、コー"
     },
     {
@@ -177,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-18T08:33:55+09:00",
-      "fetchedAt": "2026-06-20T19:46:34.539508+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.910797+00:00",
       "excerpt": "非エンジニアの役員が、AIに丸投げして2日で本番まで作ったtoB SaaSがあります。 ちゃんと顧客が使えている。動いている。機能の追加も速い。すごいんです、本当に。 で、そのインフラと運用を私が引き取ることになりました。「動いている本番」の裏側を一つずつ点検していく係です..."
     },
     {
@@ -187,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-20T19:46:34.539597+00:00",
+      "fetchedAt": "2026-06-21T04:59:55.910884+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -197,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-20T19:46:34.766006+00:00",
+      "fetchedAt": "2026-06-21T04:59:56.130922+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-20T19:46:34.766080+00:00",
+      "fetchedAt": "2026-06-21T04:59:56.130980+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-20T19:46:34.766163+00:00",
+      "fetchedAt": "2026-06-21T04:59:56.131046+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-20T19:46:34.766224+00:00"
+  "lastCollection": "2026-06-21T04:59:56.131061+00:00"
 }
