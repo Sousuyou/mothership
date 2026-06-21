@@ -1,103 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_a38f63c5",
-      "title": "GitHub Actions × Claude で「AIが下書き → 人がラベルで承認」する半自動PRレビューを作ってみた🤖",
-      "url": "https://zenn.dev/prof_nyanko1124/articles/917c89c91a1248",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.139253+00:00",
-      "excerpt": "はじめに PRレビューは大事ですが、毎回すべての観点を漏れなく確認するのは意外と大変です。 特に複数人のPRを継続的に見る場面では、確認観点のばらつきやレビュー漏れを減らしつつ、最終的な指摘内容の品質も担保したい、という課題が出てきます。 そこで、GitHub Actions と Claude を使って、「AIがレビュー下書きを作成し、人間が確認・承認したものだけをPRに反映する」半自動PRレビュ"
-    },
-    {
-      "id": "cc_bd8dcc9e",
-      "title": "毎朝DiscordにAI厳選ITニュースが届くBotをAWS Lambda + Claudeで作った",
-      "url": "https://zenn.dev/yu045/articles/f1dbfbffa2a578",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.139154+00:00",
-      "excerpt": "はじめに IT系のニュースをチェックしたいと考えたが、情報が多すぎてどれを見ればいいか迷ってしまう。そこで「AIに厳選させたニュースをさせてかつ、自身がよく使用しているDiscordに送らせればいいのでは」と思い、今回のシステムを作成しようと思い至った。 作ったもの: 6 つのニュースソースから最大 120 件の記事を自動収集 Claude AI がエンジニア視点でトップ 5 件を厳選・日本語要約"
-    },
-    {
-      "id": "cc_c7149b13",
-      "title": "Claude Desktop on Amazon Bedrock からM365に接続してみた（組み込みサーバー/ローカルコネクター）",
-      "url": "https://zenn.dev/aws_japan/articles/claude-desktop-bedrock-m365-local-connector",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.139046+00:00",
-      "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。 今回は、Claude Desktop (Cowork) から Microsoft 365 のデータ（Outlook メール・カレンダー、OneDrive、SharePoint、Teams）にアクセスするための ローカルコネクタ を Windows 環境でセットアップしてみました。 ローカルコネクタを設定することで、Cl"
-    },
-    {
-      "id": "cc_d06abe62",
-      "title": "「誰が話したか」までわかる文字起こし — AmiVoiceの話者ダイアライゼーション×Claudeで複数人ポッドキャストの議事録を自動生成す",
-      "url": "https://zenn.dev/nobalto/articles/abe8501ab1b93e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.138953+00:00",
-      "excerpt": "はじめに 複数人で収録したポッドキャストや会議。これを文字起こしすると、こういう壁にぶつかります。 「文章は起こせた。でも、どの発言が誰のものかが分からない」 一本の文字列にダラっと全員の発言が混ざっていると、議事録にも、話者ごとの要約にも、「Aさんの発言だけ抜き出す」にも使えません。複数人コンテンツでは 「誰が話したか（who spoke when）」の情報こそが本体です。 この記事では、Ami"
-    },
-    {
-      "id": "cc_7484cdc7",
-      "title": "Claude Opus 4.7入門 — SWE-bench 87.6%・3.75MP Vision・APIマイグレーションガイド",
-      "url": "https://zenn.dev/kai_kou/articles/238-claude-opus-47-release-api-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.138848+00:00",
-      "excerpt": "📌 2026-06-19 追記: 本記事は Claude Opus 4.7 リリース時点の情報です。現在は後継の Claude Opus 4.8 が公開されています。最新モデルを検討する場合は Opus 4.8 の情報もあわせて確認してください。本記事は 4.7 世代の仕様・移行手順のリファレンスとして残しています。 はじめに 2026年4月16日、Anthropicはフラッグシップモデルのアップ"
-    },
-    {
-      "id": "cc_0060a533",
-      "title": "素人が1か月でClaudeを使ったバイブコーディングでWebサービスを4つ作った反省点",
-      "url": "https://zenn.dev/aku_niconico/articles/0ee88c13f6bc1a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:11.138722+00:00",
-      "excerpt": "素人が1か月でClaudeを使ったバイブコーディングでWebサービスを4つ作った反省点 1. はじめに こんにちは、Aku（@aku_niconico）と申します。 Zenn / Qiita では「バイブコーディングで〇〇を作った」系の記事が既に山のようにあります。何番煎じの話？となる方もいるかもしれず恐縮ですが、\"反省点\"にフォーカスして私の技術ブログデビューとさせてください。 何番煎じの話でも"
-    },
-    {
-      "id": "cc_a6fa2b61",
-      "title": "有線EarPodsをClaude Codeの操作リモコンに変えた（Karabiner-Elements）",
-      "url": "https://zenn.dev/sytk/articles/d5c986afcd4aa3",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.646099+00:00",
-      "excerpt": "はじめに Claude Code を使っていると、選択メニュー（↑/↓ で選んで Enter で確定するUI）に答える場面が頻繁にあります。そのたびに矢印キーへ手を伸ばすのが地味にストレスでした。 そこで、iPhone付属の有線 EarPods のボタンを Karabiner-Elements でリマップし、手元の小さなリモコンとして使えるようにしました。 完成した割り当て ボタンは iTerm "
-    },
-    {
-      "id": "cc_c443fc38",
-      "title": "Claude Code のスキルに「人間らしさチェック」を足した──AI発信自動化の改善サイクルを回す",
-      "url": "https://zenn.dev/muramasa0228/articles/2026-06-20-skill-human-touch",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.646041+00:00",
-      "excerpt": "「AIに書かせた記事、なんかAIっぽいな」 Zennへの発信を自動化した翌日、自分の記事を読み返してそう思った。 確認ゲートを通過しているのに、文体がどこか機械的で引っかかる。 この記事では、その問題をどう特定し、スキルに改善を加えたかを共有する。 背景：Zenn発信を自動化した 先日、Claude Code と MCP を組み合わせて、記事執筆からZenn公開、GitHubの経歴リポジトリへの実"
-    },
-    {
-      "id": "cc_87544304",
-      "title": "Windows + PowerShell 5.1 で Claude Code を実運用して踏んだ落とし穴と対策",
-      "url": "https://zenn.dev/equaliainc/articles/claude-code-windows-powershell-tips",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645962+00:00",
-      "excerpt": "個人開発のサービスを Claude Code で書いていますが、開発機は Windows 11 + Windows PowerShell 5.1 です。Claude Code やこの手の AI エージェントは macOS / Linux + bash 前提のドキュメントが多く、Windows ＋ PowerShell 5.1（PowerShell 7 ではなくOS 同梱の 5.1）で常用すると、地"
-    },
-    {
       "id": "cc_e0bec236",
       "title": "今日のClaude Code v2.1.92 リリース｜毎日Changelog解説",
       "url": "https://zenn.dev/moha0918/articles/claude-code-v2-1-92-changelog",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645826+00:00",
+      "fetchedAt": "2026-06-21T14:24:36.983525+00:00",
       "excerpt": "! Claude Codeの公式Changelogを毎日最速で翻訳・解説しています。 「管理ポリシーの強化、Bedrock設定ウィザード、コスト可視化の強化」──Claude Codeがエンタープライズ利用にぐっと近づいたリリース 今回の注目ポイント forceRemoteSettingsRefreshポリシー設定 -- リモート管理設定の取得失敗時にCLIを起動拒否する「フェイルクローズ」動作が"
     },
     {
@@ -107,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645770+00:00",
+      "fetchedAt": "2026-06-21T14:24:36.983458+00:00",
       "excerpt": "きっかけ Claude Code を使いはじめた頃、ちょっと不満だったことがある。長いバッシュコマンドが終わっても音も通知も出ない。別のウィンドウで作業してると「あ、もう終わってた」という状況が何度も続いた。 調べてみると hooks という機能があることを知った。ツールの実行前後や、セッション開始時などに任意のシェルコマンドを差し込める仕組みだ。これがかなり便利で、今では自分のワークフローに欠か"
     },
     {
@@ -117,28 +27,148 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645712+00:00",
+      "fetchedAt": "2026-06-21T14:24:36.983394+00:00",
       "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 Claude Code で記事を書く発想 「コードを実装した Claude Code が、記事も書けるのでは？」 これが Series A・B 全16本の記事を Claude Code で生成することにした出発点です。 Claude Code は実装コードを直接読めるため、コー"
     },
     {
-      "id": "cc_fd6654b7",
-      "title": "Claude Codeに毎朝GitHubを巡回させる ― 有用なOSSとスキルを自動採点",
-      "url": "https://zenn.dev/bokuwalily/articles/github-scout-daily",
+      "id": "cc_a38f63c5",
+      "title": "GitHub Actions × Claude で「AIが下書き → 人がラベルで承認」する半自動PRレビューを作ってみた🤖",
+      "url": "https://zenn.dev/prof_nyanko1124/articles/917c89c91a1248",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645613+00:00",
-      "excerpt": "前回「Claude Codeを無人で自律改善させる」で朝ブリーフの骨格を作った。今回はそのブリーフ生成ジョブに相乗りさせる形で、GitHubを毎朝巡回して有用なOSSとスキルを自動採点し、要対応だけをデスクトップのブリーフに差し込む github-scout.sh を作った話を書く。 設計のポイントは3つ。クロール（gh、無料）と採点（claude -p、MAX枠）を分けてコストを固定化すること。"
+      "fetchedAt": "2026-06-21T14:24:36.983295+00:00",
+      "excerpt": "はじめに PRレビューは大事ですが、毎回すべての観点を漏れなく確認するのは意外と大変です。 特に複数人のPRを継続的に見る場面では、確認観点のばらつきやレビュー漏れを減らしつつ、最終的な指摘内容の品質も担保したい、という課題が出てきます。 そこで、GitHub Actions と Claude を使って、「AIがレビュー下書きを作成し、人間が確認・承認したものだけをPRに反映する」半自動PRレビュ"
     },
     {
-      "id": "cc_3e291da6",
-      "title": "Claude Codeのpush事故を機械で止める ― APIキー流出と誤push先ガード",
-      "url": "https://zenn.dev/bokuwalily/articles/pre-push-secret-guard",
+      "id": "cc_bd8dcc9e",
+      "title": "毎朝DiscordにAI厳選ITニュースが届くBotをAWS Lambda + Claudeで作った",
+      "url": "https://zenn.dev/yu045/articles/f1dbfbffa2a578",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-21T09:59:10.645535+00:00",
-      "excerpt": "「Claude Code環境」シリーズです。前回はClaudeとCodexを1台で協業させる話を書きました。今回は、その出口 ―― AIにgitを叩かせるときに事故を機械で止めるフックの話です。 AIエージェントにcommitやpushまで任せると、便利な反面こわいのが2つあります。①うっかりAPIキーや.envを巻き込む と ②間違ったリポジトリにpushする。どちらも「気をつける」では防げない"
+      "fetchedAt": "2026-06-21T14:24:36.983216+00:00",
+      "excerpt": "はじめに IT系のニュースをチェックしたいと考えたが、情報が多すぎてどれを見ればいいか迷ってしまう。そこで「AIに厳選させたニュースをさせてかつ、自身がよく使用しているDiscordに送らせればいいのでは」と思い、今回のシステムを作成しようと思い至った。 作ったもの: 6 つのニュースソースから最大 120 件の記事を自動収集 Claude AI がエンジニア視点でトップ 5 件を厳選・日本語要約"
+    },
+    {
+      "id": "cc_c7149b13",
+      "title": "Claude Desktop on Amazon Bedrock からM365に接続してみた（組み込みサーバー/ローカルコネクター）",
+      "url": "https://zenn.dev/aws_japan/articles/claude-desktop-bedrock-m365-local-connector",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.983123+00:00",
+      "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。 今回は、Claude Desktop (Cowork) から Microsoft 365 のデータ（Outlook メール・カレンダー、OneDrive、SharePoint、Teams）にアクセスするための ローカルコネクタ を Windows 環境でセットアップしてみました。 ローカルコネクタを設定することで、Cl"
+    },
+    {
+      "id": "cc_d06abe62",
+      "title": "「誰が話したか」までわかる文字起こし — AmiVoiceの話者ダイアライゼーション×Claudeで複数人ポッドキャストの議事録を自動生成す",
+      "url": "https://zenn.dev/nobalto/articles/abe8501ab1b93e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.983039+00:00",
+      "excerpt": "はじめに 複数人で収録したポッドキャストや会議。これを文字起こしすると、こういう壁にぶつかります。 「文章は起こせた。でも、どの発言が誰のものかが分からない」 一本の文字列にダラっと全員の発言が混ざっていると、議事録にも、話者ごとの要約にも、「Aさんの発言だけ抜き出す」にも使えません。複数人コンテンツでは 「誰が話したか（who spoke when）」の情報こそが本体です。 この記事では、Ami"
+    },
+    {
+      "id": "cc_7484cdc7",
+      "title": "Claude Opus 4.7入門 — SWE-bench 87.6%・3.75MP Vision・APIマイグレーションガイド",
+      "url": "https://zenn.dev/kai_kou/articles/238-claude-opus-47-release-api-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.982942+00:00",
+      "excerpt": "📌 2026-06-19 追記: 本記事は Claude Opus 4.7 リリース時点の情報です。現在は後継の Claude Opus 4.8 が公開されています。最新モデルを検討する場合は Opus 4.8 の情報もあわせて確認してください。本記事は 4.7 世代の仕様・移行手順のリファレンスとして残しています。 はじめに 2026年4月16日、Anthropicはフラッグシップモデルのアップ"
+    },
+    {
+      "id": "cc_0060a533",
+      "title": "素人が1か月でClaudeを使ったバイブコーディングでWebサービスを4つ作った反省点",
+      "url": "https://zenn.dev/aku_niconico/articles/0ee88c13f6bc1a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.982838+00:00",
+      "excerpt": "素人が1か月でClaudeを使ったバイブコーディングでWebサービスを4つ作った反省点 1. はじめに こんにちは、Aku（@aku_niconico）と申します。 Zenn / Qiita では「バイブコーディングで〇〇を作った」系の記事が既に山のようにあります。何番煎じの話？となる方もいるかもしれず恐縮ですが、\"反省点\"にフォーカスして私の技術ブログデビューとさせてください。 何番煎じの話でも"
+    },
+    {
+      "id": "cc_3e336ed1",
+      "title": "Claude Code Web での初回セッション問題を乗り越える",
+      "url": "https://zenn.dev/tetoteto/articles/claude-code-web-flow",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952840+00:00",
+      "excerpt": "初回セッションで skill が反映されない問題 [BUG] Claude Code on the web: declared plugins inactive on first session, require restart to fully load https://github.com/anthropics/claude-code/issues/63028 自動でやってもらいたい、Mark"
+    },
+    {
+      "id": "cc_b0ca65ff",
+      "title": "Claude Code を安全に使うためのセキュリティ設定",
+      "url": "https://zenn.dev/m__f/articles/claude-security-settings",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952681+00:00",
+      "excerpt": "Claude Code を安全に使うためのセキュリティ設定 はじめに Claude Code は強力なAIコーディングツールです。 デフォルト設定のままでも利用できますが、機密情報を扱う環境では追加のセキュリティ設定を検討する価値があります。 たとえば、悪意のあるコードを読み込んだだけで、SSH鍵・AWSの認証情報・.envファイルが外部に流出する可能性があります。 この記事では、実際にターミナル"
+    },
+    {
+      "id": "cc_89c3c9cb",
+      "title": "Claude Code 週次アップデートまとめ（2026/06/20週）",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-06-20-090000",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952572+00:00",
+      "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 はじめに（v2.1.177〜v2.1.183） 今週の Claude Code 更新をまとめました。v2.1.177〜v2.1.183 の変更が対象です（前回: v2.1.176 まで）。 今週は「破壊的 git コマンドの自動ブロック」「F"
+    },
+    {
+      "id": "cc_b311b463",
+      "title": "Claude Codeのセキュリティ設定は「便利さを落とす作業」じゃない。AIに仕事を任せるための免許証だ",
+      "url": "https://zenn.dev/taketsuyo/articles/72ba03bfae6216",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952501+00:00",
+      "excerpt": "正直、 Codeを使っていて一番怖いのは、AIが間違えることそのものじゃない。 怖いのは、AIが間違えたときに、こちらが想像していたより広い権限を持っていたと後から気づくことだと思う。 話題になっているのは、「Claude Codeで最初にやっておくべきセキュリティ対策5選」というポスト。特に最初の「許可プロンプトを飛ばさない」という話は、地味だけどかなり大事だ。 Codeは、ただコードを提案する"
+    },
+    {
+      "id": "cc_2c86a6c3",
+      "title": "Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP",
+      "url": "https://zenn.dev/tetsu_don/articles/7b11393600dcf0",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952382+00:00",
+      "excerpt": "データエンジニアが Claude Code を使いこなすために学んだこと：CLAUDE.md・Skills・MCP はじめに てつどんです。データエンジニアとして BigQuery・Dataform・Python を日常的に使っています。 最近 Claude Code を使う機会が増えてきました。最初は「コードを書いてもらうツール」として使っていましたが、使い込むうちに「ちゃんと使いこなせていない"
+    },
+    {
+      "id": "cc_7dd7991c",
+      "title": "Claude Design ↔ Claude Code を行き来して作った資産ポートフォリオダッシュボード",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952315+00:00",
+      "excerpt": "はじめに 一枚で資産を見渡すダッシュボード 自分の資産が、いま全体でいくらで、どんな構成なのか。それをひと目で見られる場所がほしくて、資産ポートフォリオのダッシュボードを作ってみました。 https://unsolublesugar.github.io/investment-portfolio 国内株・米国株・投資信託・金（ゴールド）と資産が複数の口座に散らばっていると、「全体で今いくらで、どんな"
+    },
+    {
+      "id": "cc_fd5730a7",
+      "title": "Claude Code のブラウザ自動化を全部試した — 最終結論",
+      "url": "https://zenn.dev/davidai311/articles/browser-tools-evolution-verdict",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952247+00:00",
+      "excerpt": "毎日 12 時間以上、Claude Code を使っている。 ターミナルの中に住んでいる AI には、目がない。Web サイトが見えない。ボタンも押せない。フォームも埋められない。デプロイ後の画面確認すらできない。 AI がブラウザを使えないのは、料理人が味見できないのと同じだ。 だから僕は 2026 年 2 月から 3 月にかけて、Claude Code 向けのブラウザ自動化ツールを片っ端から試"
+    },
+    {
+      "id": "cc_29dbc501",
+      "title": "第2部：「お願い」から「仕組み」へ：Claude Code安全設計の実践",
+      "url": "https://zenn.dev/taka4/articles/56ca5ecb455e83",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-21T14:24:36.952152+00:00",
+      "excerpt": "! シリーズ：Claude Codeを\"使いこなす\"ための設定術 第1部：8割削減を実現するClaude Codeトークン戦略 第2部：「お願い」から「仕組み」へ：Claude Code安全設計の実践（本記事） 第3部：(仮)汎用ベストプラクティス（リンク予定） このシリーズでは、Claude Code CLIを本格運用するために構築したグローバルセットアップを全3部に渡って解説する。筆者が実際に"
     },
     {
       "id": "cc_e6f32a68",
@@ -147,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-18T08:33:55+09:00",
-      "fetchedAt": "2026-06-21T09:59:11.406569+00:00",
+      "fetchedAt": "2026-06-21T14:24:37.217496+00:00",
       "excerpt": "非エンジニアの役員が、AIに丸投げして2日で本番まで作ったtoB SaaSがあります。 ちゃんと顧客が使えている。動いている。機能の追加も速い。すごいんです、本当に。 で、そのインフラと運用を私が引き取ることになりました。「動いている本番」の裏側を一つずつ点検していく係です..."
     },
     {
@@ -157,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-05-28T21:10:27+09:00",
-      "fetchedAt": "2026-06-21T09:59:11.406666+00:00",
+      "fetchedAt": "2026-06-21T14:24:37.217586+00:00",
       "excerpt": "Claude Code のメモリを理解する — CLAUDE.md vs auto memory Claude Code には「メモリ」の仕組みが複数あります。何をどこに書けばいいのか混乱しがちなので、整理してみました。 メモリの種類 大きく分けると CLAUDE.md..."
     },
     {
@@ -167,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-21T09:59:11.593379+00:00",
+      "fetchedAt": "2026-06-21T14:24:37.670115+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-21T09:59:11.593443+00:00",
+      "fetchedAt": "2026-06-21T14:24:37.670182+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-21T09:59:11.593515+00:00",
+      "fetchedAt": "2026-06-21T14:24:37.670249+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-21T09:59:11.593529+00:00"
+  "lastCollection": "2026-06-21T14:24:37.670263+00:00"
 }

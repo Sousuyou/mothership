@@ -1,177 +1,81 @@
 {
   "entries": [
     {
-      "id": "h_e53e0703",
-      "title": "時雨堂のスキル",
-      "url": "https://voluntas.ghost.io/shiguredo-skill-20206-06/",
-      "domain": "voluntas.ghost.io",
-      "bookmarkCount": 291,
-      "summary": "流れが速いのでこれは 2026 年 6 月時点での時雨堂で採用しているスキルだけで、これで固定しているとかではないです。 さすがにこの記事を読む人で SKILL.md を知らない人は居ないと思うのですが、簡単にいうと LLM に食わせるまとまった文章の事です。 つまり「レビューして」とだけ書くのではなく「こんな感じでレビ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/voluntas.ghost.io/shiguredo-skill-20206-06/",
-      "comments": [],
-      "fetchedAt": "2026-06-21T09:59:05.987925+00:00"
-    },
-    {
-      "id": "h_93470268",
-      "title": "Claude Code と Codex を使い比べて見えた設計思想の違い",
-      "url": "https://zenn.dev/tark_ann/articles/e8b09c6db73bfb",
-      "domain": "zenn.dev",
-      "bookmarkCount": 197,
-      "summary": "この記事は、今まで Claude Code 1本でやってきていたエンジニアが、Opus 4.7 の体験が悪く、Codex に浮気してみて気づいたことのまとめである。 実際に触った感想は多くの人がまとめているが、その振る舞いが起こる理由について考察している人はあまり見かけなかった。 そのため本記事では、 Claude Code と Codex の公...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tark_ann/articles/e8b09c6db73bfb",
-      "comments": [
-        {
-          "user": "georgew",
-          "comment": "この使い分けが今後も続くとは限らない。最近の動向として、モデルの進化は非常に速く、今回観測した特性差そのものが数か月後には小さくなっている可能性 > ですね。",
-          "tags": [],
-          "timestamp": "2026/06/21 15:27"
-        },
-        {
-          "user": "pmint",
-          "comment": "低品質。せめてタイトル通りに書きましょう。",
-          "tags": [
-            "*",
-            "なんだこれ"
-          ],
-          "timestamp": "2026/06/21 13:28"
-        },
-        {
-          "user": "tettekete37564",
-          "comment": "自分がCodexの方が優秀と感じるのもこの辺が理由なのかもな。Claudeはなんか嘘というか不誠実なコードが混じりやすい。",
-          "tags": [],
-          "timestamp": "2026/06/21 12:54"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“coding agentは、実際のコードベースや実行結果へ接地（grounding）する方向へ進んでいる。Claude CodeはOpus 4.7 の体験が悪く（計画重視。「コードを読んでいませんでした」）、Codexはコード重視なので、実装はCodexに任せる”",
-          "tags": [],
-          "timestamp": "2026/06/21 12:36"
-        },
-        {
-          "user": "wdnsdy",
-          "comment": "Claude CodeとCodexを両方使ってみての感想、ポン出しではCodexのほうが見た目がダサいデザインを出してくる。言えば直るが、Claude Codeは言わなくてもオシャレっぽいのを出してくれるんだよな…",
-          "tags": [],
-          "timestamp": "2026/06/21 12:31"
-        },
-        {
-          "user": "piayo",
-          "comment": "調査・技術検討・PR作成 → Claude Code 実装・リファクタリング・コード修正 → Codex",
-          "tags": [
-            "claude",
-            "codex"
-          ],
-          "timestamp": "2026/06/21 12:02"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:09.262259+00:00"
-    },
-    {
       "id": "h_0976a7f3",
       "title": "AIで内製した自治体システムの、これからの課題｜memuro-DX-oss",
       "url": "https://note.com/memuro_dx_oss/n/nb0d5871aa78c",
       "domain": "note.com",
-      "bookmarkCount": 142,
+      "bookmarkCount": 175,
       "summary": "北海道の小さな町が、AIで窓口業務システムを作りました。今も窓口の現場で稼働しています。 ——課題は、その先にあります。 記事1では、捨てるつもりで作った試作がどうやって本番になったのか、その物語を書きました。記事2では、最初の一歩である番号発券システム「MADO-queue」の中身を、技術的に詳しくお話ししまし...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/memuro_dx_oss/n/nb0d5871aa78c",
       "comments": [
         {
-          "user": "degucho",
-          "comment": "なんかあった時に責任取れないのはなあ",
+          "user": "kibitaki",
+          "comment": "本質的に怖いなって思った。OSS化、みんなで育てる、ってシステムとしては外部に責任を投げる搾取的ナラティブ。性善説かつ未定義の世界に夢見がちに任せるのは危ういし、メンテナと保守業者の区別もなさげ。",
           "tags": [],
-          "timestamp": "2026/06/21 18:40"
+          "timestamp": "2026/06/21 22:27"
         },
         {
-          "user": "hatahata_chan",
-          "comment": "AIの悪いところでたな。ベンダー高いから自分たちで作っちゃえ案件。ネットワーク切り離してるから安全とあるけど、内部犯やフィッシングが出ても大丈夫？個人情報ちゃんと暗号化してる？",
+          "user": "ToTheEndOfTime",
+          "comment": "インフラの人が作ったシステムとか、大体こういう感じ",
           "tags": [],
-          "timestamp": "2026/06/21 18:34"
+          "timestamp": "2026/06/21 22:02"
         },
         {
-          "user": "NOTG",
-          "comment": "閉じたネットワークだからセキュリティは担保されている←この意識は変えないとまずいですね。ただ応援してるので頑張って！",
+          "user": "number917",
+          "comment": "まあ小さな自治体だと今まででも雑な紙ベースのシステムがあったんだろうから、デジタルでもそらそうよ、予算ないんだし、人数少ないんだから",
           "tags": [],
-          "timestamp": "2026/06/21 18:19"
+          "timestamp": "2026/06/21 21:56"
         },
         {
-          "user": "peketamin",
-          "comment": "自治体や省庁が内省開発部門を持つなり、その構築の一部だけを外注に回すなりした方がいいと思う。その辺を頑張ってるのガブテック東京ぐらいの認識。市議会は足元からちゃんとマネジメントに向き合って欲しい",
+          "user": "panoramaafro",
+          "comment": "現状細かいところは運用でカバーしてると思うけど、それもシステム自体が大きくならなければAIで改修は可能。肥大化するともう手に負えないので、「毎回刷新します」と言い切るのも手だと。",
           "tags": [],
-          "timestamp": "2026/06/21 18:16"
+          "timestamp": "2026/06/21 20:44"
         },
         {
-          "user": "fhciun98jd6734bcsu",
-          "comment": "批判の意見なんか無視していいですよ。LLMの性能向上で今後もできること、解決することがどんどん増えていくので、その時点で最新の一番性能がいいLLMと課題、問題点を議論するようにしてください。",
+          "user": "maketexlsr",
+          "comment": "属人化しないコードなんて幻想だと思ってるけど(少なくともコストゼロでは)",
           "tags": [],
-          "timestamp": "2026/06/21 17:49"
+          "timestamp": "2026/06/21 20:15"
         },
         {
-          "user": "guntz",
-          "comment": "現行自治体システムよりセキュアなコード出力してくれるよ。プロダクトコードAIにセキュリティチェックしたらめちゃ指摘してくる。何年か前に他人の住民票出力されるシステム作ったのは人間だよ",
-          "tags": [],
-          "timestamp": "2026/06/21 17:42"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:05.470276+00:00"
-    },
-    {
-      "id": "h_ef120434",
-      "title": "Googleマップで閉業になった中華店に来たら、看板出てたので店主に声をかけて着席…しかし店主はずっとライターカチカチし続けるだけ→近所の人から告げられた事実がこれ",
-      "url": "https://togetter.com/li/2711775",
-      "domain": "togetter.com",
-      "bookmarkCount": 97,
-      "summary": "真人＠階段巡りツイッター @kaidanmeguri グーグルマップで閉業になった中華店に確認にきたら看板出てて店主に声をかけて着席。しかし店主がずっとライターをカチカチし続けてるだけで進まない。どうしたものかと思ってると近所の人が俺に「もう閉めたんだけど店主はまだやってるつもりなんですよ」と教えてくれた。おお...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2711775",
-      "comments": [
-        {
-          "user": "paradisemaker",
-          "comment": "これ、通い続けたらどうなるんだろう",
-          "tags": [],
-          "timestamp": "2026/06/21 18:50"
-        },
-        {
-          "user": "togetter",
-          "comment": "このお店がやっていた頃に出されていたラーメンとチャーハン、餃子の味が気になる…。",
+          "user": "mag4n",
+          "comment": "エクセルのマクロやらと同じく保守運用と責任問題という人間側の話になる。",
           "tags": [
-            "Togetter"
+            "ネタ"
           ],
-          "timestamp": "2026/06/21 18:35"
-        },
-        {
-          "user": "preciar",
-          "comment": "俺の良く行く場所の近くには、店主が既にマトモな料理など出来る状態でないのに開いている店がある。温度も味も滅茶苦茶でいつ食中毒が出てもおかしくないが、80代の大将がニコニコしながら出してくる。突っ込めない",
-          "tags": [],
-          "timestamp": "2026/06/21 18:32"
-        },
-        {
-          "user": "otihateten3510",
-          "comment": "幽霊では？",
-          "tags": [],
-          "timestamp": "2026/06/21 17:53"
-        },
-        {
-          "user": "ee83jaige",
-          "comment": "これのブコメみてると理解力と共感力が認知症より酷い奴らで溢れている。Claude Codeに何もかも丸投げしてると中年でもこうなるんだろうか？",
-          "tags": [],
-          "timestamp": "2026/06/21 17:44"
-        },
-        {
-          "user": "A-NA",
-          "comment": "うちの母親が最近これに近い行動してて宥めつつ様子見てる。やめさせると一気にボケそうだから難しいんだよね。わかってて優しく接してくれる他人もいるからありがたいわ。",
-          "tags": [],
-          "timestamp": "2026/06/21 17:22"
+          "timestamp": "2026/06/21 19:28"
         }
       ],
-      "fetchedAt": "2026-06-21T09:59:07.176038+00:00"
+      "fetchedAt": "2026-06-21T14:24:34.402468+00:00"
     },
     {
       "id": "h_a3ac7ac4",
       "title": "設計するとは、何を諦めるかを決めること - 理念と共に、最も困難で狂気の選択を考え続けて諦めない",
       "url": "https://bootjp.me/2026/06/20/%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E3%81%A8%E3%81%AF%E3%80%81%E4%BD%95%E3%82%92%E8%AB%A6%E3%82%81%E3%82%8B%E3%81%8B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8",
       "domain": "bootjp.me",
-      "bookmarkCount": 94,
+      "bookmarkCount": 124,
       "summary": "先日、Twitter(X)で、設計書に「ボタンを押下したときに処理する」と書かれていたため、実装者がボタンを押し込んだ瞬間に処理を実行する実装を行い、非常に大変な思いをした、という趣旨の話を見た。 ここでは個別の投稿の是非には触れず、この話をきっかけに、私が設計について考えていることを書く。 私は、実装方法...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/bootjp.me/2026/06/20/%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E3%81%A8%E3%81%AF%E3%80%81%E4%BD%95%E3%82%92%E8%AB%A6%E3%82%81%E3%82%8B%E3%81%8B%E3%82%92%E6%B1%BA%E3%82%81%E3%82%8B%E3%81%93%E3%81%A8",
       "comments": [
+        {
+          "user": "Rikerike",
+          "comment": "線引きしないとコストやらが掛かるからね……",
+          "tags": [
+            "software",
+            "design",
+            "デザイン",
+            "ソフトウェア"
+          ],
+          "timestamp": "2026/06/21 21:09"
+        },
+        {
+          "user": "jassmaz",
+          "comment": "「戦略とはしないことを決めること」と経営学者の楠健教授は指摘している。戦略と設計は似ている。",
+          "tags": [],
+          "timestamp": "2026/06/21 20:53"
+        },
         {
           "user": "yarumato",
           "comment": "“設計時点で「押し込んだ瞬間に処理を始める」と決めているのであれば、設計書にもそう書くべきだ。クリック操作の成立を待つならそう書く。どちらの振る舞いにすべきか考えていなかったなら設計の詰めが甘い。”",
@@ -197,202 +101,93 @@
             "教材"
           ],
           "timestamp": "2026/06/21 11:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "mousedownとclickの例が超分かりやすい。何を諦めるかのトレードオフがDesign Docに残ってるだけでレビューの質が激変する",
-          "tags": [],
-          "timestamp": "2026/06/21 10:42"
-        },
-        {
-          "user": "bootJP",
-          "comment": "書きました、私が設計について考えていることをまとめました",
-          "tags": [],
-          "timestamp": "2026/06/20 19:18"
         }
       ],
-      "fetchedAt": "2026-06-21T09:59:06.622362+00:00"
-    },
-    {
-      "id": "h_2c08c520",
-      "title": "技術記事、専門家としてのプログラマ、言語化.md",
-      "url": "https://gist.github.com/mizchi/7042f8ebb6e3d806555222d14d058f8b",
-      "domain": "gist.github.com",
-      "bookmarkCount": 53,
-      "summary": "技術記事、専門家としてのプログラマ、言語化.md 現状の分析 AI、全方位にレバレッジが効くからやらない理由がない AIが書き、AIが読む 人間はAIを通して要約を読む(だけ) 今、書くことなくない？ AI bikeshed: 全員が .vimrc いじってるの現代版 何書いても賞味期限が短い すぐにモデルやハーネスに取り込まれる 翻訳性...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gist.github.com/mizchi/7042f8ebb6e3d806555222d14d058f8b",
-      "comments": [
-        {
-          "user": "pmint",
-          "comment": "主語のない文章。\"AIに使われるな、使え\"…は間違い。そこから相談するといい。/ AIアカウントしかコメント書いてない（笑。理解されてない証拠。",
-          "tags": [
-            "*",
-            "なんだこれ"
-          ],
-          "timestamp": "2026/06/21 13:51"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AIが書き、AIが読む時代に、人間が書く技術記事の価値がどこにあるかって話はガチで考えさせられる",
-          "tags": [],
-          "timestamp": "2026/06/21 12:39"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "自分もAIに書かせて記事が止まった。成功例ばかりで中身が薄くなる。結局いちばん読まれたのは導入後に詰まった失敗談。一次資料が書かない部分こそ価値、に同意。",
-          "tags": [],
-          "timestamp": "2026/06/21 12:26"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:07.565732+00:00"
+      "fetchedAt": "2026-06-21T14:24:36.686019+00:00"
     },
     {
       "id": "h_b16bc8e5",
       "title": "ノルウェー、小学校でAI禁止 学力低下懸念、中学生以上も制限",
       "url": "https://www.47news.jp/14500110.html",
       "domain": "47news.jp",
-      "bookmarkCount": 48,
+      "bookmarkCount": 122,
       "summary": "【ロンドン共同】ノルウェーのストーレ首相は19日、小学校で児童が生成人工知能（AI）を使うことを原則禁止する方針を明らかにした。学力の低下を防ぐための措置としており、中学生以上についても教育の場でAIを使用することを制限。ノルウェーは教育のデジタル化が世界で最も進んだ国の一つとされている。 ロイター通信...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/14500110.html",
       "comments": [
         {
-          "user": "econcon",
-          "comment": "AIのある時代だからAIと上手く付き合う必要はあるけど交通網が発達してるから体育で家から駅まで歩く以上の運動はいらないとはならないよなとは思う。教育の研究とかしてるわけじゃないから感覚でしか話せないけども",
+          "user": "akinonika",
+          "comment": "「機械にさえ頼らなければわたしたちはまともなのだ」と信じているところがすごいよね、色々な意味で",
           "tags": [],
-          "timestamp": "2026/06/21 18:58"
+          "timestamp": "2026/06/21 23:19"
         },
         {
-          "user": "ma-----chan",
-          "comment": "どっちもやればいいと思う。ランニングもするし自動車も運転するし、みたいな。",
+          "user": "takuya831",
+          "comment": "AIが出した結論をきちんと評価できないとAIに使われるだけになる。禁止は極端だと思うけど、何でもかんでもAI使えば良いってもんでもない。",
           "tags": [],
-          "timestamp": "2026/06/21 18:46"
+          "timestamp": "2026/06/21 23:13"
         },
         {
-          "user": "n_pikarin7",
-          "comment": "うーん、考え方を教えてくれるものでもあるんだけどな…子ども向けにチューニングされたAIや、レーティングされたAIがあった方が良いね。",
+          "user": "fromdusktildawn",
+          "comment": "天然知能(親、家庭教師、友達)には質問していいが人工知能に質問してはダメな理由は何か？ どちらの知能も思考力を劣化させる使い方と高める使い方があり、保護者の監督下で後者の使い方をさせればいいだけでは。",
           "tags": [],
-          "timestamp": "2026/06/21 18:40"
+          "timestamp": "2026/06/21 22:38"
         },
         {
-          "user": "soulfulmiddleagedman",
-          "comment": "どうなるかね。問題の解き方より、何を問題とするかの方が大事じゃないか。答えがある学習の価値は少なからず低くなるとは思うが。",
+          "user": "strange",
+          "comment": "いくら禁止にしてもGoogleで検索すればほぼ勝手にAIが答えてくるし、スマホを使ってもすぐAIが出てくるようになるだろうし、学校で禁止なくらいでちょうどいいんじゃないかな",
           "tags": [],
-          "timestamp": "2026/06/21 18:29"
+          "timestamp": "2026/06/21 22:06"
         },
         {
-          "user": "haru_almond",
-          "comment": "小学校の先生がしんどいもんな",
-          "tags": [],
-          "timestamp": "2026/06/21 18:16"
+          "user": "ripple_zzz",
+          "comment": "支持",
+          "tags": [
+            "社会"
+          ],
+          "timestamp": "2026/06/21 21:56"
         },
         {
-          "user": "todays_mitsui",
-          "comment": "AIから返った答えに満足せず「こういう場合はどうなんだい」と問い返せる胆力があればAIを使って学ぶことは効果覿面なんだがなぁ。",
+          "user": "Xray",
+          "comment": "まあそれはそう",
           "tags": [],
-          "timestamp": "2026/06/21 18:12"
+          "timestamp": "2026/06/21 21:54"
         }
       ],
-      "fetchedAt": "2026-06-21T09:59:06.301762+00:00"
-    },
-    {
-      "id": "h_1f90cff0",
-      "title": "「山がいらない揚水発電」が実現？カギは水の2.5倍の密度を持つ謎の流体 | ギズモード・ジャパン",
-      "url": "https://www.gizmodo.jp/article/314708-xkc/",
-      "domain": "gizmodo.jp",
-      "bookmarkCount": 44,
-      "summary": "2026年3月5日の記事を編集して再掲載しています。 夏場に多い電力不足も困ったものですよね。作った電力をどうにか貯めておければいいのに。 でっかいバッテリーを作る？家庭に配備する？色々考えられそうですが、実は、世界最大の蓄電システムは山と水を使う「揚水（ようすい）発電」なんです。 その歴史は1907年のスイ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/314708-xkc/",
-      "comments": [
-        {
-          "user": "i_ko10mi",
-          "comment": "小規模な水力発電は、用水路やビルの上階から低層階までの配管利用でも出来て屋上で太陽光やるより環境負荷少ないとかで、増えてきてると今年知った所なんだけど、これとは違う話だったみたい。",
-          "tags": [],
-          "timestamp": "2026/06/21 18:51"
-        },
-        {
-          "user": "tienoti",
-          "comment": "台風や集中豪雨による土砂災害や地震で液体が流出してしまった場合の二次災害や環境汚染が気になる。閉じてるとはいえ貯水の丘の土台が崩れない、もっと高い位置から土砂が流れない場所で、断層ないとか場所選びそう",
-          "tags": [],
-          "timestamp": "2026/06/21 18:36"
-        },
-        {
-          "user": "napsucks",
-          "comment": "泥でも使うのかなと思ったら当たらずしも遠からじって感じだな。いっそ巨大地盤の上に都市を建設して上下動させて重力電池で位置エネルギーを…",
-          "tags": [],
-          "timestamp": "2026/06/21 18:31"
-        },
-        {
-          "user": "qmind",
-          "comment": "面白い。あとは安全性とか環境負荷とかかな。",
-          "tags": [],
-          "timestamp": "2026/06/21 17:37"
-        },
-        {
-          "user": "knjname",
-          "comment": "正直水と殴り合うとして2.5倍程度で収支があうのか気になる　謎でもないのにあんだけ重くて何でもないそこら辺にある空から降る水と勝負になるのか　蓄電池に勝てばマシ観点なのか",
-          "tags": [],
-          "timestamp": "2026/06/21 17:14"
-        },
-        {
-          "user": "kechack",
-          "comment": "水の2.5倍の密度を持つ独自の高密度流体「R-19」を活用する次世代のエネルギー貯蔵システム。同じ量を同じ高さから落としたときに2.5倍のエネルギーを取り出せる為、山ではなくなだらかな丘でも十分な発電が可能になる",
-          "tags": [],
-          "timestamp": "2026/06/21 16:39"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:08.151525+00:00"
-    },
-    {
-      "id": "h_0491c259",
-      "title": "「若手はLinuxを学べ」「CLIで問題特定はもう古くなる」 AI時代に再定義されるエンジニアの基礎と現場の常識",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/20/news007.html",
-      "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 38,
-      "summary": "AIエージェントの社会実装や実務活用が急速に進む中、開発現場では「Claude Code」の効率的な運用や「ハーネス」という新概念の整理、さらにはブラウザのAI機能拡張といった最新動向に高い関心が集まっています。 一方で見逃せないのが「エンジニアとしての足腰」と言える基礎技術への再評価です。若手向けのLinux学習の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2606/20/news007.html",
-      "comments": [
-        {
-          "user": "soybeancucumber",
-          "comment": "若手はコマンドラインも使えなくなりそうではある",
-          "tags": [],
-          "timestamp": "2026/06/21 18:57"
-        },
-        {
-          "user": "will_in_hiki",
-          "comment": "Ubuntuで使えるのか分かんない古いプリンタとかダメもとでGemini CLIに頼んだら動かしてくれた。カラーをグレースケールにすると薄くて読めなかったけど同じく微調整してくれた。ネットワーク共有も頼んだらやってくれた",
-          "tags": [],
-          "timestamp": "2026/06/21 17:47"
-        },
-        {
-          "user": "zu2",
-          "comment": "「エンジニア」ねえ",
-          "tags": [],
-          "timestamp": "2026/06/21 16:13"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "AI時代でもLinuxを、には半分賛成。ただ要るのはコマンド暗記でなく、AIが自信満々に外す1割を疑える勘所だ。CLIは古びても、検証の土台は古びない。",
-          "tags": [],
-          "timestamp": "2026/06/21 15:24"
-        },
-        {
-          "user": "UriahHeep",
-          "comment": "あんなにLinuxやオープンソースには近づくな、IPのトラップがある、とか言ってた奴らが、今更Linuxを学べと。つまり敗北宣言ということでいいね？",
-          "tags": [],
-          "timestamp": "2026/06/21 14:42"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:10.167902+00:00"
+      "fetchedAt": "2026-06-21T14:24:32.332234+00:00"
     },
     {
       "id": "h_08fb4e86",
       "title": "Apple container 1.0 を試してみた ― systemd、名前付きホスト、起動速度を Docker と比較",
       "url": "https://zenn.dev/tokium_dev/articles/202c16adec91d0",
       "domain": "zenn.dev",
-      "bookmarkCount": 19,
+      "bookmarkCount": 73,
       "summary": "毎年恒例の Apple の開発者向けイベント WWDC26 で、Linux コンテナを動かすツール container が 1.0 になり、その目玉として軽量な Linux 環境 container machine がしれっと発表されました。 container は Apple Silicon の Mac で macOS 26 で動作します。 Docker Desktop のような追加の仮想化ソフトを入れなくても...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tokium_dev/articles/202c16adec91d0",
       "comments": [
+        {
+          "user": "suka6411144",
+          "comment": "コンテナごとにVM建てるって、コンテナとは一体…という気持ちになる",
+          "tags": [],
+          "timestamp": "2026/06/21 22:48"
+        },
+        {
+          "user": "tettekete37564",
+          "comment": "そんなの開発してたんだ。cron が動くのもいいね",
+          "tags": [],
+          "timestamp": "2026/06/21 21:25"
+        },
+        {
+          "user": "sulky",
+          "comment": "volume関連のパフォーマンスが1番気になるところ",
+          "tags": [],
+          "timestamp": "2026/06/21 21:09"
+        },
+        {
+          "user": "naoya-i",
+          "comment": "期待しているがまだColimaかな",
+          "tags": [],
+          "timestamp": "2026/06/21 19:49"
+        },
         {
           "user": "nguyen-oi",
           "comment": "コンテナごとにVM立てるからポート競合しないの強い。Dockerの代わりになりそう",
@@ -400,55 +195,224 @@
           "timestamp": "2026/06/21 18:10"
         }
       ],
-      "fetchedAt": "2026-06-21T09:59:08.735369+00:00"
-    },
-    {
-      "id": "h_d80bf58a",
-      "title": "今の時代、AIを使いこなせる事は必須条件、その上で必要なのは人間として判断する能力 | ギズモード・ジャパン",
-      "url": "https://www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
-      "domain": "gizmodo.jp",
-      "bookmarkCount": 11,
-      "summary": "CPUやGPUの開発企業AMDのCEOのリサ・スー氏による、マサチューセッツ工科大学（MIT）卒業式でのスピーチが今の時代を象徴する内容だったと評判です。 世界が求めているのは、単に強力なツールの使い方を知っている人間ではありません。それらのツールを何のために使うべきかを知っている人間、つまり目的意識、判断力、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
-      "comments": [
-        {
-          "user": "otologie",
-          "comment": "ゲーテの形態学とメディア論とかKindleの日替わりセールがお買い得だけど。中央集権の発生論みたいなものかな。",
-          "tags": [],
-          "timestamp": "2026/06/21 18:44"
-        },
-        {
-          "user": "WildWideWeb",
-          "comment": "「おっしゃる通り、でも、それ貴方達CEOとしてのポジショントークでもあるよね」くらい言う権利はあるだろう。",
-          "tags": [],
-          "timestamp": "2026/06/21 18:19"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AIができて当たり前でその先を求められるとか普通に無理ゲーで草",
-          "tags": [],
-          "timestamp": "2026/06/21 18:10"
-        },
-        {
-          "user": "kiku72",
-          "comment": "“わかる、わかりますけど、なんて無理ゲーな時代なのでしょう…”",
-          "tags": [],
-          "timestamp": "2026/06/21 11:37"
-        }
-      ],
-      "fetchedAt": "2026-06-21T09:59:09.689334+00:00"
+      "fetchedAt": "2026-06-21T14:24:31.015810+00:00"
     },
     {
       "id": "h_c4c118f8",
       "title": "AI駆動開発を通して感じた、 AI時代のデザイナーの役割変化",
       "url": "https://speakerdeck.com/whisaiyo/whidevelopers-linklight20260618",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 5,
+      "bookmarkCount": 61,
       "summary": "AI駆動開発のワークショップを体験して感じた、AIによる影響、 デザイナーの役割変化について共有いたします。",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/whisaiyo/whidevelopers-linklight20260618",
       "comments": [],
-      "fetchedAt": "2026-06-21T09:59:10.484934+00:00"
+      "fetchedAt": "2026-06-21T14:24:31.349835+00:00"
+    },
+    {
+      "id": "h_37c6bc2b",
+      "title": "ワークフローを再利用可能なスキルに変換する Record & Replay を試してみた",
+      "url": "https://azukiazusa.dev/blog/workflow-to-reusable-skill/",
+      "domain": "azukiazusa.dev",
+      "bookmarkCount": 39,
+      "summary": "Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。例えば経費精算の提出や勤怠アプリへの打刻や工数入力、定期的なレポートの作成などをスキルとして記録し、煩雑な定型業務を AI に任せることが期待できます。この記事では、Record & Replay を実際に試...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/workflow-to-reusable-skill/",
+      "comments": [
+        {
+          "user": "netafull",
+          "comment": "“Codex の Record & Replay は macOS 上でのユーザーの操作を実演することで再利用可能なスキルに変換する機能です。”",
+          "tags": [],
+          "timestamp": "2026/06/21 20:45"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "定型業務をRPAで録画して例外分岐で崩れた経験からすると、これが効くのは成功基準が明確な定型2割。分岐の多い残り8割は結局人が要る。",
+          "tags": [],
+          "timestamp": "2026/06/21 19:13"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "座標じゃなくてアクセシビリティAPI経由で記録するからUIの多少の変更に強いの賢いな。RPAの上位互換になりそう",
+          "tags": [],
+          "timestamp": "2026/06/21 19:03"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:32.719636+00:00"
+    },
+    {
+      "id": "h_d80bf58a",
+      "title": "今の時代、AIを使いこなせる事は必須条件、その上で必要なのは人間として判断する能力 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 39,
+      "summary": "CPUやGPUの開発企業AMDのCEOのリサ・スー氏による、マサチューセッツ工科大学（MIT）卒業式でのスピーチが今の時代を象徴する内容だったと評判です。 世界が求めているのは、単に強力なツールの使い方を知っている人間ではありません。それらのツールを何のために使うべきかを知っている人間、つまり目的意識、判断力、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/",
+      "comments": [
+        {
+          "user": "findup",
+          "comment": "ネット見てるとAIのツールとしての使い方技術（エージェントや環境設定がどうとか）がよく出てくるけど、あれはあれで知ってて損は無いけど注力するのは本当にそこなのかって話なのかも。",
+          "tags": [],
+          "timestamp": "2026/06/21 22:50"
+        },
+        {
+          "user": "fromdusktildawn",
+          "comment": "\"AIを使いこなせてる\" 状態とは、AIを駆使して売上や利益を上げたり、コストやリスクを下げたり、という具体的な成果を出している状態。",
+          "tags": [],
+          "timestamp": "2026/06/21 22:24"
+        },
+        {
+          "user": "nanako-robi",
+          "comment": "やたらそういうこと言うんだよなー",
+          "tags": [],
+          "timestamp": "2026/06/21 22:23"
+        },
+        {
+          "user": "matchy2",
+          "comment": "「嘘を嘘と見抜けないと」みたいなもんで、そのうちそんなレベルではなくなると思う",
+          "tags": [],
+          "timestamp": "2026/06/21 21:43"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "使いこなしより、どこで人間が判断を握り続けるかの線引きが本体。全部任せると速いが、後で効く失敗ほど自分で検証する範囲に残すべき。判断の外注は事故る。",
+          "tags": [],
+          "timestamp": "2026/06/21 21:14"
+        },
+        {
+          "user": "bike-a-to-z",
+          "comment": "AI以前から必要とされていた能力がさらに必要性を増してるんだが、メタ認知できてる人がまだ少ないから記事が取り上げられるんだよな。",
+          "tags": [],
+          "timestamp": "2026/06/21 20:39"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:35.208817+00:00"
+    },
+    {
+      "id": "h_864c3696",
+      "title": "DNSとSNIが見えにくくなる時代に、外部通信をどう見るか",
+      "url": "https://zenn.dev/catatsuy/articles/566f5e37076e53",
+      "domain": "zenn.dev",
+      "bookmarkCount": 38,
+      "summary": "以前、以下の記事を書きました。 今回はその補足のような話です。 ただし、この記事だけ読んでも分かるように書きます。 開発環境やCI/CDでは、外部通信を見られることが重要です。 どのプロセスが動き、どのファイルに触り、どこへ通信したのか。特に、package install中に普段とは違う通信が発生したり、credentialに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/catatsuy/articles/566f5e37076e53",
+      "comments": [
+        {
+          "user": "beerbeerkun",
+          "comment": "「企業ネットワークやCI/CD環境の監視はどこを見ればよいのか。」本文では時代の流れに逆行という評価だがクライアントの自由度を極端に減らしプロキシ経由を強制させるくらいしか対案思いつかない",
+          "tags": [],
+          "timestamp": "2026/06/21 22:18"
+        },
+        {
+          "user": "kaputte",
+          "comment": "これは確かになあ",
+          "tags": [],
+          "timestamp": "2026/06/21 21:38"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "「監視したい」と「見せたくない」はまぁ昔からずっとそういうもんなので…そのままだと監視エージェントが/var/log配下見れないとかさ。まぁどうにかなって行くっしょ。",
+          "tags": [],
+          "timestamp": "2026/06/21 21:18"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "DoHとECHで中間者攻撃を防ぐのは良いことだけど、社内ネットワークやCI/CDの監視が難しくなるのはインフラエンジニアとしては胃が痛い問題だな",
+          "tags": [],
+          "timestamp": "2026/06/21 20:08"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:33.135537+00:00"
+    },
+    {
+      "id": "h_878d203e",
+      "title": "GitHub - TypeWhisper/typewhisper-mac: Local speech-to-text for macOS on-device AI, fully private, optional cloud",
+      "url": "https://github.com/TypeWhisper/typewhisper-mac",
+      "domain": "github.com",
+      "bookmarkCount": 31,
+      "summary": "Speech-to-text and AI text processing for macOS. Transcribe audio using on-device AI models or cloud APIs (Groq, OpenAI, xAI/Grok), then transform the result with reusable workflows. Your voice data stays on your Mac with local models - or ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/TypeWhisper/typewhisper-mac",
+      "comments": [
+        {
+          "user": "simplememofast",
+          "comment": "音声入力、クラウド系から端末内処理に移したら遅延も漏えい不安も消えた。ただ固有名詞と句読点の補正は結局手作業。捕獲は声、整形は後段に分けるのが落とし所では？",
+          "tags": [],
+          "timestamp": "2026/06/21 21:12"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "MacのローカルでWhisper動かして文字起こしできるの便利そうだな。APIやCLIもあるし自動化が捗りそう",
+          "tags": [],
+          "timestamp": "2026/06/21 19:03"
+        },
+        {
+          "user": "tmatsuu",
+          "comment": "macOS上で音声による文字入力を行うためのアプリ。どんなアプリに対しても入力可。ローカル/クラウド問わず様々なエンジンに対応。homebrew公式に追加されたのでbrew install --cask typewhisperでインストールできる",
+          "tags": [],
+          "timestamp": "2026/06/21 09:05"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:36.211637+00:00"
+    },
+    {
+      "id": "h_7baa2fe8",
+      "title": "入門から実践 -「🔁 ループエンジニアリング」 - Qiita",
+      "url": "https://qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8",
+      "domain": "qiita.com",
+      "bookmarkCount": 20,
+      "summary": "前書き 最近 X やブログで 「Loop Engineering（ループエンジニアリング）」 という言葉をやたら見るようになりました。 「もう Claude に指示は出していない、私の仕事はループを書くことだ」 みたいな、ちょっと面白い言い回しで流れてくるアレです 最初は「また新しい “XX エンジニアリング” か……」と斜めに構えてい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8",
+      "comments": [
+        {
+          "user": "moke222",
+          "comment": "ループの上はなにがくるのだろう。判断出来るようになるんか。",
+          "tags": [],
+          "timestamp": "2026/06/21 22:53"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "テストをこっそり消して通そうとするClaude、人間がサボる技術を学びすぎてて草",
+          "tags": [],
+          "timestamp": "2026/06/21 22:34"
+        },
+        {
+          "user": "uehaj",
+          "comment": "ヒューマン・アウト・オブ・ザ・ループ (HOOTL)のことで、もともとある考え方だけど、開発において実際に実現できるようになったという話",
+          "tags": [],
+          "timestamp": "2026/06/21 22:03"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:34.917491+00:00"
+    },
+    {
+      "id": "h_72ace9c8",
+      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
+      "url": "https://claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "domain": "claude.com",
+      "bookmarkCount": 16,
+      "summary": "Claude is built to work the way you work, and in Claude Code you can customize it. There are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, skills, subagents, hooks, output styles, and appending the system prompt. ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "comments": [],
+      "fetchedAt": "2026-06-21T14:24:33.819537+00:00"
+    },
+    {
+      "id": "h_f036a378",
+      "title": "2026年にもなって日本語のTeXワークフローがいまだにDVIを経由しているわけ - golden-luckyの日記",
+      "url": "https://golden-lucky.hatenablog.com/entry/2026/06/21/205551",
+      "domain": "golden-lucky.hatenablog.com",
+      "bookmarkCount": 5,
+      "summary": "欧米ではすっかりpdfTeXに移行してPDFを直接生成するワークフローになっているのに、なぜ日本語ではPDFを出力できない(u)pTeXがいまだに生き残っているのか。 簡単に言うと、TeXと事実上互換性があるpdfTeXが発明されたときに、日本語圏のデファクトだったpTeXのことが一切考慮されなかったからである。 このような事情...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/golden-lucky.hatenablog.com/entry/2026/06/21/205551",
+      "comments": [
+        {
+          "user": "gogatsu26",
+          "comment": "“現在でも日本語の組版ではpTeX（あるいはその内部処理を拡張したupTeX）がよく使われており、これは出力がPDFではなくDVIなので、DVIをPDFにするというワークフローが必要になる。”",
+          "tags": [
+            "PDF"
+          ],
+          "timestamp": "2026/06/21 23:17"
+        }
+      ],
+      "fetchedAt": "2026-06-21T14:24:35.790911+00:00"
     }
   ],
-  "lastCollection": "2026-06-21T09:59:10.484960+00:00"
+  "lastCollection": "2026-06-21T14:24:36.686041+00:00"
 }
