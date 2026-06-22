@@ -1,571 +1,499 @@
 {
   "entries": [
     {
-      "id": "h_72ace9c8",
-      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
-      "url": "https://claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "domain": "claude.com",
-      "bookmarkCount": 721,
-      "summary": "Claude is built to work the way you work, and in Claude Code you can customize it. There are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, skills, subagents, hooks, output styles, and appending the system prompt. ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "id": "h_7a243b29",
+      "title": "「AI臭い文章を生成させない」ルール集。LLMに“質の高い技術文書”を書かせるスキルを技術書出版社代表が公開（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/06/22/5209.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 533,
+      "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、LLM（大規模言語モデル）に日本語の技術文書を書かせたり推敲させたりするためのAI向けの日本語文章規範スキル「japanese-tech-wr...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/22/5209.html",
       "comments": [
         {
-          "user": "RATCHO",
-          "comment": "Claudeに食わせるので謂わばAIの栄養剤",
+          "user": "ackey1973",
+          "comment": "いちいち色んなことに神経使ってAI活用して文章書くより、サッサと全部自分で書いたほうが早い⋯と、言えたらかっこいいよなぁ⋯。",
           "tags": [],
-          "timestamp": "2026/06/22 12:42"
+          "timestamp": "2026/06/22 21:11"
         },
         {
-          "user": "dozo",
-          "comment": "人間が読むものではなく、AIに読ませるもの",
-          "tags": [
-            "claude"
-          ],
-          "timestamp": "2026/06/22 10:52"
-        },
-        {
-          "user": "sionsou",
-          "comment": "早速やったらかなり良い提案してくれた。毎回無駄に読んでいる重複した指示や本来rulesに書き出すべき事項、skillsに抽出する提案が出た。おかげで初回ロードや毎コンテキストロードされている無駄が減った。",
+          "user": "bnckmnj",
+          "comment": "AIなのにAIっぽさを隠す（偽装）にリソース割くようになったらおしまい／頑張ってる人はその過程の公開を誠実の証明に積極的に使う。挑んでも無駄。スポーツも学問も芸術も人間性もClaudeの開発者も。聖書すらそう。",
           "tags": [],
-          "timestamp": "2026/06/22 09:47"
+          "timestamp": "2026/06/22 21:05"
         },
         {
-          "user": "kenzy_n",
-          "comment": "AIに任せる",
-          "tags": [
-            "AI",
-            "開発",
-            "設計",
-            "Claude"
-          ],
-          "timestamp": "2026/06/22 09:39"
-        },
-        {
-          "user": "hamichamp",
-          "comment": "メモ",
+          "user": "pribetch",
+          "comment": "よし次は著作権侵害回避AIだ",
           "tags": [],
-          "timestamp": "2026/06/22 09:29"
+          "timestamp": "2026/06/22 20:04"
         },
         {
-          "user": "takafumiat",
-          "comment": "公式の超入門！Claude設定講座か。",
+          "user": "orgue",
+          "comment": "最近、「まず結論。」を見なくなったことに気づいた。",
           "tags": [],
-          "timestamp": "2026/06/22 09:12"
+          "timestamp": "2026/06/22 19:47"
+        },
+        {
+          "user": "hanninyasu",
+          "comment": "なんかAI技術は「楽をするためにはどんな労力も惜しまない」みたいなことになってきたなあと思う。この労力で文章書けよと思う。",
+          "tags": [],
+          "timestamp": "2026/06/22 19:38"
+        },
+        {
+          "user": "delphinus35",
+          "comment": "結構耳に痛い項目が揃ってるな。人間が書いたものにも有用そうだ。",
+          "tags": [],
+          "timestamp": "2026/06/22 19:36"
         }
       ],
-      "fetchedAt": "2026-06-22T05:07:48.521778+00:00"
-    },
-    {
-      "id": "h_8f828d9f",
-      "title": "🧾Geminiを使ってレシート整理を自動化する仕組み",
-      "url": "https://ipadworkers.substack.com/p/receipt-automation-with-gas",
-      "domain": "ipadworkers.substack.com",
-      "bookmarkCount": 210,
-      "summary": "🧾レシート整理を自動化する仕組み☔こんにちは、はるなです。 今日は『レシート整理を自動化した話』について紹介します。 我が家はレシートをScanSnap iX2500でスキャンして、Googleドライブに保存する運用にしています。スキャンされたレシート画像を見ながら、Goodnotesのデジタルプランナーに家計簿をつけるのがい...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ipadworkers.substack.com/p/receipt-automation-with-gas",
-      "comments": [
-        {
-          "user": "jintrick",
-          "comment": "\"レシートをScanSnap iX2500でスキャンし\"――それが面倒くさいから困ってんだけども",
-          "tags": [],
-          "timestamp": "2026/06/22 13:37"
-        },
-        {
-          "user": "klaps",
-          "comment": "こんなことしなくてもスマホで動画撮ってGeminiに突っ込めばインボイス番号まで正確に抽出して仕分けしてくれるよ",
-          "tags": [],
-          "timestamp": "2026/06/22 13:33"
-        },
-        {
-          "user": "sionsou",
-          "comment": "というか全て電子支払いになって電子レシート/領収書をそのまま取り込めればいいだけの話なのよ。freeeにしろクレカなどはそれで管理出来ていて確定申告も楽。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:13"
-        },
-        {
-          "user": "longyang",
-          "comment": "zaimはいつからかScanSnap直じゃなく画像にしてから5枚ずつOCRにかけられるようになったのでちょっと楽になった。でもSacnSnap自体にもレシート解析からCSV出力する機能が付いているのでそっちの道はどうなってんのかなぁ",
-          "tags": [
-            "仕組み"
-          ],
-          "timestamp": "2026/06/22 13:10"
-        },
-        {
-          "user": "dynamicsoar",
-          "comment": "Gemini で学習に使われるのは「無料版だから」ではなく、「Google Workspaceでない場合」です（と理解している）。有料だろうが、設定>ActivityのKeep activityをONにしていれば学習されうる",
-          "tags": [],
-          "timestamp": "2026/06/22 13:07"
-        },
-        {
-          "user": "fluoride",
-          "comment": "支払いをクレカにまとめてマネフォとかで管理すればよくない？ 家計簿づくりが趣味ならまあ",
-          "tags": [],
-          "timestamp": "2026/06/22 12:55"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:46.788629+00:00"
-    },
-    {
-      "id": "h_26592ec5",
-      "title": "AIに頼ると技術が落ちる？ 医師・エンジニアたちの懸念、検証結果は……Natureも警鐘",
-      "url": "https://www.itmedia.co.jp/news/articles/2606/22/news041.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 130,
-      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/22/news041.html",
-      "comments": [
-        {
-          "user": "six13",
-          "comment": "判断を行う責任者は特に、AIに引っ張られすぎないことが大事",
-          "tags": [],
-          "timestamp": "2026/06/22 14:04"
-        },
-        {
-          "user": "awaytabi",
-          "comment": "『火を使うことで、咀嚼力と消化能力が落ちました。火による能力低下を防ぐため、無批判に火を受け入れるのではなく、警戒心を持ちながらバランスよく付き合っていく姿勢が求められている。』的な議論。アホか。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:33"
-        },
-        {
-          "user": "minoton",
-          "comment": "記事の内容はおおむね賛成なんだけれど、ナビの例が異なるという理由が分からず。\"思考や解釈といった人間特有の認知能力まで自動化してしまう\" 同じじゃねと。原始的なナビを想定してるのかな",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/06/22 13:29"
-        },
-        {
-          "user": "miccak",
-          "comment": "技術というか、意欲は落ちそう。もし自分の子どもの頃にAIあったらキツイだろうなと思う。敵わないだろってなる。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:05"
-        },
-        {
-          "user": "itotto",
-          "comment": "AIに頼りすぎたのかこんな短文も理解できなくなってそうな人がいて、まさにこの内容を補強してるように見える",
-          "tags": [
-            "ニュース",
-            "生活"
-          ],
-          "timestamp": "2026/06/22 12:52"
-        },
-        {
-          "user": "nika1vf",
-          "comment": "既出の電卓カーナビもだけど、果たして自分の家族の同僚の電話番号をスマホ見ずに覚えてる人がどれ程いるか、日本地図世界地図、歴史の色々をWikipedia見ずに以下略…っていつの時代もある話で、AI以前と変わらんよね。",
-          "tags": [],
-          "timestamp": "2026/06/22 12:50"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:49.523109+00:00"
+      "fetchedAt": "2026-06-22T12:17:48.166330+00:00"
     },
     {
       "id": "h_067cfd15",
       "title": "あなたの字に異変？ 200万字を7万字へ、行政の「文字」統一が始まった",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03654/061800001/",
       "domain": "xtech.nikkei.com",
-      "bookmarkCount": 113,
+      "bookmarkCount": 263,
       "summary": "自治体がそれぞれ独自に作成した約200万文字の外字が、標準化により約7万文字へと整理が進む。一方、氏名が「●」に置き換わる問題や外字は消えていない。今回の特集では、行政事務標準文字に続く文字を巡る100年に及ぶ歴史と、国際標準化への課題と展望を追う。第1回は、外字が事務処理の障害となった東日本大震災を転機...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/xtech.nikkei.com/atcl/nxt/column/18/03654/061800001/",
       "comments": [
         {
-          "user": "spark64",
-          "comment": "7万て。もっと減らして行けよ… 元は単なる書き間違いじゃねえか。",
+          "user": "si7mi10",
+          "comment": "形だけ残すならこの際全部統一してしまえと思うけどやりすぎると同姓同名が増えるからある程度選別はしたんだな。",
           "tags": [],
-          "timestamp": "2026/06/22 13:54"
+          "timestamp": "2026/06/22 20:54"
         },
         {
-          "user": "nankichi",
-          "comment": "\"イスラエルメディアが２１日、ヘブライ大の世論調査結果として\"時事通信よ、調査概要をもっと詳しく！さすがにweb調査じゃないと思うけど、電話？訪問？郵送？かの国でどう実査するのか。数値の妥当性判断できん。",
+          "user": "hatebu_admin",
+          "comment": "わーくにの伝統に敏感なネトウヨは断固反対すべきやろ",
           "tags": [],
-          "timestamp": "2026/06/22 13:52"
+          "timestamp": "2026/06/22 20:44"
         },
         {
-          "user": "UCs",
-          "comment": "「戸籍はそのまま維持する」と書いてあるが、なんでこのタイトル？？",
+          "user": "omega314",
+          "comment": "行政側は番号だけで管理して、人々は好きに文字や読みや発音を作って名乗りましょう。",
           "tags": [],
-          "timestamp": "2026/06/22 13:41"
+          "timestamp": "2026/06/22 20:31"
         },
         {
-          "user": "mr_mayama",
-          "comment": "記者の名前が気になった、おおまみゅうだ？！／人名用漢字が増える要件は裁判して漢字辞典で出典を示すことなので勝手には増えないです。今ある漢字が多い理由は書き損じが理由なのはその通り。",
+          "user": "jeeraa",
+          "comment": "渡邊と渡邉のちがいがわからない。渡邉さんに字が違うって抗議されたことがあるけど、すみませんで降参した。",
           "tags": [],
-          "timestamp": "2026/06/22 13:38"
+          "timestamp": "2026/06/22 20:31"
         },
         {
-          "user": "Goldenduck",
-          "comment": "姓を統一していくのは良いのでは。過去名前の漢字を常用外だからと変えさせた件はどうかと思った",
+          "user": "orisaku",
+          "comment": "変体仮名の人はどうなるのかな？　もう絶対数が少ないんだろうけど…",
           "tags": [],
-          "timestamp": "2026/06/22 13:37"
+          "timestamp": "2026/06/22 20:29"
         },
         {
-          "user": "y-mat2006",
-          "comment": "モロボシ・ダンみたいにカタカナにしようぜ。",
+          "user": "charun",
+          "comment": "DX・ミス防止・効率を建前として日本文化を弱らせる前兆？今は字体の違いだけみたいだけど、今後移民様のためにややこしい漢字を排除する可能性がありそうな",
           "tags": [
-            "行政",
-            "IT"
+            "2026",
+            "監視社会",
+            "DX",
+            "文化破壊",
+            "移民"
           ],
-          "timestamp": "2026/06/22 13:32"
+          "timestamp": "2026/06/22 20:08"
         }
       ],
-      "fetchedAt": "2026-06-22T05:07:46.041811+00:00"
+      "fetchedAt": "2026-06-22T12:17:48.893478+00:00"
     },
     {
-      "id": "h_c1b7e66a",
-      "title": "JavaScriptを事前コンパイルする。不可能と言われた挑戦に挑む開発者。｜直也テック",
-      "url": "https://note.com/naoya_tech/n/n99f05affec01",
-      "domain": "note.com",
-      "bookmarkCount": 105,
-      "summary": "今回はポッドキャスト「devtools.fm」に出演したOliver Medhurst氏の回をご紹介します。彼はPorffor（ポーファー）というプロジェクトの作者です。Porfforは「JavaScriptをWebAssemblyへと事前にコンパイルする（Ahead of Time Compiler、AOTコンパイラ）」という、多くの人が「不可能だ」と考えてきた仕組みに挑む研究...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/naoya_tech/n/n99f05affec01",
+      "id": "h_26592ec5",
+      "title": "AIに頼ると技術が落ちる？ 医師・エンジニアたちの懸念、検証結果は……Natureも警鐘",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/22/news041.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 181,
+      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/22/news041.html",
       "comments": [
         {
-          "user": "RATCHO",
-          "comment": "“V8の最速JITコンパイラより速くなることはおそらく無いだろう”   マジかよ・・・",
+          "user": "akiat",
+          "comment": "文明が発達すると、一部の能力は低下する",
           "tags": [],
-          "timestamp": "2026/06/22 12:25"
+          "timestamp": "2026/06/22 21:16"
         },
         {
-          "user": "napsucks",
-          "comment": "WebAssemblyかと思ったらやはりWebAssemblyだった。組み込みいじってると大半の処理をクライアントサイドに移した方が速いのよね",
+          "user": "kagerou_ts",
+          "comment": "実感として、「書けないけど読める」みたいな状態になるやもしれんという気はしている…",
           "tags": [],
-          "timestamp": "2026/06/22 12:13"
+          "timestamp": "2026/06/22 20:36"
         },
         {
-          "user": "L4Ph",
-          "comment": "どっかで見たことあるなと思ったら、CanadaHonkだった GmoseModとかOpenAsarはまだ続ける気あるのかな",
+          "user": "caynan",
+          "comment": "認知機能も視力や走る速さと特に変わるところはないので、使わなければ鈍るし、道具を使ってトータルで進歩できるならそれを是としてきたのが人類だ。そりゃアーミッシュみたいなもの好きな人もいるかもしらんけど",
           "tags": [],
-          "timestamp": "2026/06/22 12:12"
+          "timestamp": "2026/06/22 20:25"
         },
         {
-          "user": "toaruR",
-          "comment": "『いつかPorffor自身をPorfforでコンパイルする』……夢がある(*´д｀*)",
+          "user": "BigWhiteDog",
+          "comment": "マッチの普及で火おこしができなくなったしワープロの登場で漢字が書けなくなった。でもマッチもワープロも「所有」できるんだよ。ChatGPTに頼って思考する力なくしたらOpenAIがサービス止めたらどうすんの？",
           "tags": [],
-          "timestamp": "2026/06/22 11:21"
+          "timestamp": "2026/06/22 19:29"
         },
         {
-          "user": "devgai",
-          "comment": "今の時代に無名の人がやったらAIスロップって言われそうだ",
+          "user": "dalmacija",
+          "comment": "それは、原始的人類が森の中で狩猟を行うのに使っていた能力がいま鍛えられないのと同じ。",
           "tags": [],
-          "timestamp": "2026/06/22 11:07"
+          "timestamp": "2026/06/22 18:54"
         },
         {
-          "user": "strawberryhunter",
-          "comment": "だいたいできてきてる感じ。Rubyもネイティブコンパイルに挑戦してるけど、どの言語でも同じ流れ。早くしないと後塵を拝することになる。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/06/22 10:45"
+          "user": "kamurido",
+          "comment": "じゃあ考えることをAIに依頼したら考える技術は衰えていくね",
+          "tags": [],
+          "timestamp": "2026/06/22 18:47"
         }
       ],
-      "fetchedAt": "2026-06-22T05:07:50.559405+00:00"
+      "fetchedAt": "2026-06-22T12:17:50.428377+00:00"
     },
     {
-      "id": "h_1f96b370",
-      "title": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html",
-      "domain": "publickey1.jp",
-      "bookmarkCount": 78,
-      "summary": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開 Amazon Web Services（AWS）は、AIエージェントがコードリポジトリを継続的に自動スキャンし、サポートが終了したライブラリやフレームワークなどを始めとする技術的負債を検...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html",
-      "comments": [
-        {
-          "user": "yukimi1977",
-          "comment": "時代の移り変わりですぐ技術的負債になるのに、スキャンする意味は？修正するより、動作確認とか統合テストが大変なので、指摘もらったところでさ…。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:51"
-        },
-        {
-          "user": "JULY",
-          "comment": "わざわざ AI がリポジトリをスキャンするまでもない技術的負債のお守りをしていますが、何か？",
-          "tags": [
-            "情報システム"
-          ],
-          "timestamp": "2026/06/22 12:36"
-        },
-        {
-          "user": "remoteworker",
-          "comment": "JTCだと技術的負債しかなくてまともなコードがないとかの結果になりそう",
-          "tags": [],
-          "timestamp": "2026/06/22 09:02"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AIエージェントが勝手に技術的負債見つけてプルリク出してくれる時代か。これでクソコードのリファクタリングが進むといいが",
-          "tags": [],
-          "timestamp": "2026/06/22 08:12"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:51.229896+00:00"
-    },
-    {
-      "id": "h_7a243b29",
-      "title": "「AI臭い文章を生成させない」ルール集。LLMに“質の高い技術文書”を書かせるスキルを技術書出版社表が公開（生成AIクローズアップ） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/06/22/5209.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 72,
-      "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、LLM（大規模言語モデル）に日本語の技術文書を書かせたり推敲させたりするためのAI向けの日本語文章規範スキル「japanese-tech-wr...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/22/5209.html",
-      "comments": [
-        {
-          "user": "gabill",
-          "comment": "とても需要はありそうだけど、AIを区別できなくなることが読者の為になるのかは分からない",
-          "tags": [],
-          "timestamp": "2026/06/22 13:46"
-        },
-        {
-          "user": "miyabisun",
-          "comment": "このスキルの話からの案だが、浅い話しか出来ない段落は行数を短く絞るとか、全部話さずにリンク先張って引用に頼れとか、「これが執筆者として誠実だよ」と教え込めば良い執筆者に仕上がりそう。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:36"
-        },
-        {
-          "user": "tokuniimihanai",
-          "comment": "AIの文章が読みづらいのは、読み手のことを考える能力（心の理論）がないからと思われるので、小手先のプロンプトで根本解決はできないと思う。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:26"
-        },
-        {
-          "user": "laislanopira",
-          "comment": "AI臭いというか、英語臭いんだよな。あとアメリカあたりのビジネス文化臭い",
-          "tags": [
-            "日本語",
-            "人工知能"
-          ],
-          "timestamp": "2026/06/22 12:52"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "「～と言えるだろう」とか空虚な形容詞の排除、AIだけじゃなくて人間の文章修行にも普通に役立つな",
-          "tags": [],
-          "timestamp": "2026/06/22 12:42"
-        },
-        {
-          "user": "kusomamma",
-          "comment": "ヒトのほうが白痴化して要約しか読まなくなり、書き言葉と話し言葉の乖離が進む気がする。江戸時代の候文とか、クルアーンの正統アラビア語みたいに",
-          "tags": [],
-          "timestamp": "2026/06/22 12:41"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:47.306920+00:00"
-    },
-    {
-      "id": "h_a55a5d3b",
-      "title": "無料でグラボのVRAMが壊れていないかチェックできるツール「memtest_vulkan」の使い方、インストール不要でダブルクリックして待つだけでOK",
-      "url": "https://gigazine.net/news/20260621-gpu-vram-check-memtest-vulkan/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 71,
-      "summary": "ゲームやAI処理ではGPUのメモリである「VRAM」を酷使します。VRAMに異常が発生しているとGPUの性能を十分に引き出せずにゲームプレイ中にフリーズが発生したりAI処理を正常に実行できなくなったりします。「memtest_vulkan」は自分の使っているGPUのVRAMが故障していないかチェックできる無料ツールで、インストール不要...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260621-gpu-vram-check-memtest-vulkan/",
-      "comments": [
-        {
-          "user": "zsehnuy_cohriy",
-          "comment": "壊れてるのを発見すると悲しくなるから正常に動いてる内はいいかな……",
-          "tags": [],
-          "timestamp": "2026/06/22 10:22"
-        },
-        {
-          "user": "gomakyu",
-          "comment": "実動作に問題無くてもエラーが出たら補償対応を求めろ、って言っている？",
-          "tags": [],
-          "timestamp": "2026/06/22 10:06"
-        },
-        {
-          "user": "urtz",
-          "comment": "メモリOCチェックに使えそう",
-          "tags": [],
-          "timestamp": "2026/06/22 08:39"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "最近のAIブームや重いゲームで酷使されるグラボの健康診断に良さそう。とりあえず手元のPCでも回してみるか",
-          "tags": [],
-          "timestamp": "2026/06/22 08:12"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:53.357913+00:00"
-    },
-    {
-      "id": "h_43354689",
-      "title": "AIエージェント時代に問われるのは「プロンプト力」ではなく「コンテキスト設計力」である― プロンプトの時代から、コンテキスト設計の時代へ ―｜GPUサーバープラットフォームの設計/構築なら「技術力」のNTTPC",
-      "url": "https://www.nttpc.co.jp/gpu/article/technical30.html",
-      "domain": "nttpc.co.jp",
-      "bookmarkCount": 67,
-      "summary": "生成AIは、いよいよ「質問に答えるAI」から「仕事を進めるAI」へ移行し始めている。ChatGPT、Gemini、Claudeのようなチャット型AIは、これまで文章作成、要約、翻訳、調査、アイデア出しなどに使われてきた。しかし現在は、その先にある、自律的な判断・業務遂行が可能な「AIエージェント」が登場し、急速に注目を集めて...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nttpc.co.jp/gpu/article/technical30.html",
-      "comments": [
-        {
-          "user": "aosiro",
-          "comment": "分かりやすく整理された記事。今後はFDE的な素養が必要になってくるね、、",
-          "tags": [],
-          "timestamp": "2026/06/22 14:04"
-        },
-        {
-          "user": "taguch1",
-          "comment": "AI「じゃあ次はコンテキスト設計に強くなるね(完)」",
-          "tags": [],
-          "timestamp": "2026/06/22 11:57"
-        },
-        {
-          "user": "harumaki_net",
-          "comment": "コンテキスト力は自分のチームでも話題になってるので同意。ただプロンプト力と補完関係にはあるのでは。",
-          "tags": [],
-          "timestamp": "2026/06/22 11:46"
-        },
-        {
-          "user": "fromdusktildawn",
-          "comment": "コンテキストエンジニアリング → ハーネスエンジニアリング → ループエンジニアリングと、AIの使い方は変わってきてるよね。",
-          "tags": [],
-          "timestamp": "2026/06/22 10:54"
-        },
-        {
-          "user": "furugenyo",
-          "comment": "補足の絵はわかりやすいかも",
-          "tags": [],
-          "timestamp": "2026/06/22 10:20"
-        },
-        {
-          "user": "soybeancucumber",
-          "comment": "1年前の記事感",
-          "tags": [],
-          "timestamp": "2026/06/22 09:43"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:53.877790+00:00"
-    },
-    {
-      "id": "h_bf2a6e22",
-      "title": "忙しさに追われるんじゃなくて自分でハンドルを握る。 #エンジニアのための自己管理入門 を読んだ - Mitsuyuki.Shiiba",
-      "url": "https://bufferings.hatenablog.com/entry/2026/06/21/023152",
-      "domain": "bufferings.hatenablog.com",
-      "bookmarkCount": 64,
-      "summary": "日々の仕事が忙しくて自分自身のスキルアップやキャリアについて考える時間が全然取れてないなぁ、ってことはありませんか？それでなくても変化の激しい業界なのに、ここにきて生成AIによって一気にそのスピードがあがって、あふれる情報に溺れそうになっていたりしませんか？ 正直、僕はちょっとなってます！そんな今の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/bufferings.hatenablog.com/entry/2026/06/21/023152",
-      "comments": [
-        {
-          "user": "kappa99999",
-          "comment": "景品表示法のステマ規制は事業者の関与を隠すのがNGなので、知り合いから本をもらったのを隠してなくて推薦するだけならステマに該当しないのでは。もし広告宣伝の依頼をされてそれを隠してるならアウトだけど。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:52"
-        },
-        {
-          "user": "togusa5",
-          "comment": "PRの文字がないステルスマーケティングの例",
-          "tags": [],
-          "timestamp": "2026/06/22 09:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "仕組みで解決するセルフマネジメントはエンジニアに刺さりそう。グサグサ来つつも試したくなる良書っぽくて気になるな",
-          "tags": [],
-          "timestamp": "2026/06/22 08:42"
-        },
-        {
-          "user": "bufferings",
-          "comment": "自己管理するぞー",
-          "tags": [],
-          "timestamp": "2026/06/21 08:05"
-        }
-      ],
-      "fetchedAt": "2026-06-22T05:07:54.334579+00:00"
-    },
-    {
-      "id": "h_8e63aae9",
-      "title": "【大原雄介の半導体業界こぼれ話】 高性能メモリHBM、冷却用“煙突”が必要になる時代に突入",
-      "url": "https://pc.watch.impress.co.jp/docs/column/tidbit/2118676.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 59,
+      "id": "h_1924781c",
+      "title": "東京メトロを3Dマップ化、「東京断面図」が完成 ～地下を縫う路線をさまざまな視点で／運転士の視点を楽しめる前面展望モード（？）も作成中【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2118830.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 110,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/tidbit/2118676.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2118830.html",
       "comments": [
         {
-          "user": "youchin",
-          "comment": "縦構造から察するに熱発してるのはPHYって認識で良いのかな？GAAプロセスはもう使ってんのかな？電圧下げんとどんもならん気がする、焼け石に水とは言い得て妙",
-          "tags": [],
-          "timestamp": "2026/06/22 13:32"
+          "user": "tach",
+          "comment": "イカン、いつまでも際限なく遊び続けてしまう。ちょっと封印。自分的には最高。都営地下鉄も追加して欲しい。あと、地上の主なランドマークも少しだけでいいから加えてもらえると更に臨場感が増して楽しいかな。",
+          "tags": [
+            "map"
+          ],
+          "timestamp": "2026/06/22 21:02"
         },
         {
-          "user": "daruism",
-          "comment": "ZAMの実用化が待たれる。チップに液体流して冷却はマイクロソフトが研究してる",
+          "user": "mellhine",
+          "comment": "見たことある気がするが、完成してなかったのか",
           "tags": [],
-          "timestamp": "2026/06/22 12:52"
+          "timestamp": "2026/06/22 19:06"
         },
         {
-          "user": "napsucks",
-          "comment": "そのうちダイに穴開けて冷却液通したりパッケージ内を真空にしてヒートパイプ構造を作りこんだりし始めそう",
+          "user": "hryord",
+          "comment": "六本木ってどれぐらいすごいのかなーと見てみようとしたら大江戸線はないのか。残念。",
           "tags": [],
-          "timestamp": "2026/06/22 12:37"
+          "timestamp": "2026/06/22 18:23"
         },
         {
-          "user": "u_mid",
-          "comment": "”HBM4eでは10GHzを超える速度になる”　”次世代のGPUは、チップあたりの消費電力が1kWを超えるという化け物”　”HBM5世代はまだはっきりしないが、(中略）消費電力はスタックあたり100Wを突破するとかいう予測もある”",
+          "user": "fidajapanissa",
+          "comment": "おもしろい",
           "tags": [],
-          "timestamp": "2026/06/22 12:12"
+          "timestamp": "2026/06/22 18:04"
         },
         {
-          "user": "yorkfield",
-          "comment": "\"チップあたりの消費電力が1kWを超えるという化け物\" ／ 恐ろしいな。チップ内電源設計とか大変そう。",
+          "user": "georgew",
+          "comment": "作成者本人も楽しそう。",
           "tags": [],
-          "timestamp": "2026/06/22 12:07"
+          "timestamp": "2026/06/22 18:01"
         },
         {
-          "user": "pixmap",
-          "comment": "煙突っていうと対流と吸気排気を利用した排熱を思い浮かべちゃうので、伝導を前提としたこの仕組みを煙突と呼んじゃうのは違和感がある。",
+          "user": "maturi",
+          "comment": "大江戸線はない",
           "tags": [],
-          "timestamp": "2026/06/22 11:21"
+          "timestamp": "2026/06/22 17:12"
         }
       ],
-      "fetchedAt": "2026-06-22T05:07:50.863804+00:00"
+      "fetchedAt": "2026-06-22T12:17:49.903850+00:00"
     },
     {
-      "id": "h_69d27599",
-      "title": "「うちの防犯カメラに映った人物の顔をAIで高画質にしました！」という投稿を見かけて戦慄した...→AI技術の仕組みを知らないまま使っている人は少なくない",
-      "url": "https://togetter.com/li/2712200",
-      "domain": "togetter.com",
-      "bookmarkCount": 36,
-      "summary": "絵師の愚痴垢 @aruguchieshi 「うちの防犯カメラに映った怪しい人物の顔をAIで高画質にしました！」 との投稿を見かけてしまい戦慄している。 生成AIによる「高画質化」は名ばかりの「合成」です。 AIで高画質化したと思っている怪しい人物の顔は、機械によって「合成」された全く別人の顔ですよ。 2026-06-20 12:32:53 ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2712200",
+      "id": "h_1039cabb",
+      "title": "Sakana Fugu — Multi-agent System as A Model",
+      "url": "https://sakana.ai/fugu/",
+      "domain": "sakana.ai",
+      "bookmarkCount": 81,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/sakana.ai/fugu/",
       "comments": [
         {
-          "user": "gabill",
-          "comment": "これを理解できてる人でも、知らず知らずのうちにAI補正されたスマホの写真を真実だと思ってしまうことはあるかもしれない",
+          "user": "Queen_LOTUS",
+          "comment": "わざわざ課金して使うメリットがないよなあ。",
           "tags": [],
-          "timestamp": "2026/06/22 13:56"
+          "timestamp": "2026/06/22 21:12"
+        },
+        {
+          "user": "ultimatebreak",
+          "comment": "なんかよくわからんけど勝手にいい感じにオーケストレーションしてくれるやつって理解でいい？",
+          "tags": [],
+          "timestamp": "2026/06/22 21:02"
+        },
+        {
+          "user": "lectro3000",
+          "comment": "SakanaAIは一生論文だけ書いてるイメージで止まってたので「本当にAI作ってたんだ……」という驚きのほうが先に来た。",
+          "tags": [],
+          "timestamp": "2026/06/22 21:01"
+        },
+        {
+          "user": "ahir0ta",
+          "comment": "うーん、中でGPT5.5が動いてそう、、",
+          "tags": [],
+          "timestamp": "2026/06/22 20:48"
+        },
+        {
+          "user": "lli",
+          "comment": "コードに毒が含まれてそう笑",
+          "tags": [],
+          "timestamp": "2026/06/22 20:00"
+        },
+        {
+          "user": "snaka72",
+          "comment": "アイコンはハリセンボンっぽい、フグの仲間といえばそうかもだが",
+          "tags": [],
+          "timestamp": "2026/06/22 19:17"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:50.754732+00:00"
+    },
+    {
+      "id": "h_7eba0a67",
+      "title": "みずほ、「朱肉を用いた押印」廃止",
+      "url": "https://www.watch.impress.co.jp/docs/news/2118927.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 67,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2118927.html",
+      "comments": [
+        {
+          "user": "false_alarm",
+          "comment": "朱肉を用いない押印とは",
+          "tags": [],
+          "timestamp": "2026/06/22 21:10"
+        },
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "ナフサ不足か！？",
+          "tags": [],
+          "timestamp": "2026/06/22 20:44"
+        },
+        {
+          "user": "ka-ka_xyz",
+          "comment": "仮に偽装書類が作られた場合、有印文書偽造罪的にはどうなるんだろ",
+          "tags": [],
+          "timestamp": "2026/06/22 20:41"
+        },
+        {
+          "user": "srjspirits",
+          "comment": "拇印は残るのかな",
+          "tags": [],
+          "timestamp": "2026/06/22 20:31"
+        },
+        {
+          "user": "poco_tin",
+          "comment": "みずほ銀行の利用者の話ではないので、利用者目線のコメントをしていたら本文を読んでいない証拠",
+          "tags": [],
+          "timestamp": "2026/06/22 20:23"
+        },
+        {
+          "user": "htnmiki",
+          "comment": "素晴らしい。つい先日も押印してスキャンしたPDFを送りました。もうやだ。",
+          "tags": [],
+          "timestamp": "2026/06/22 20:20"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:49.528986+00:00"
+    },
+    {
+      "id": "h_f1edef5b",
+      "title": "NHKのスクランブル化、会長が完全否定 ネット上に「見ないのに払うのは納得いかない」との声",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2606/22/news092.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 29,
+      "summary": "NHK（日本放送協会）の井上樹彦会長は6月の記者会見で、テレビの有無に関わらず見たい人だけがお金を払う「スクランブル化」の導入を明確に否定した。井上氏は記者の質問に対して、NHKは特定の利益や視聴率に左右されずに正確な情報や多様な番組を届ける公共放送だと主張した。見られるかどうかという対価性の価値だけで...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2606/22/news092.html",
+      "comments": [
+        {
+          "user": "ysksy",
+          "comment": "見てない立場からすると大河ドラマなんて人形劇でもやってろよとか思うけどね。国民の教養のためならそれでも十分だろ。",
+          "tags": [],
+          "timestamp": "2026/06/22 21:14"
+        },
+        {
+          "user": "miketaro1234",
+          "comment": "BS停波。地上波も1chにして料金半分で手を打つ。",
+          "tags": [],
+          "timestamp": "2026/06/22 21:11"
+        },
+        {
+          "user": "yujimi-daifuku-2222",
+          "comment": "視聴の有無に関わらず一律に料金を取得するならそれはもう税であって。/税を徴収するなら、放映されるプログラムは視聴者が決定すべき。選挙で権利を委託されたわけでもない職員が勝手に決めて良いものではない。",
+          "tags": [],
+          "timestamp": "2026/06/22 21:10"
+        },
+        {
+          "user": "ugo_uozumi",
+          "comment": "NHKワールドJAPANみたいな海外向けの無料国際放送してるんだから日本人だけじゃなく全世界のテレビ所有者から徴収してこいよ。",
+          "tags": [],
+          "timestamp": "2026/06/22 21:03"
+        },
+        {
+          "user": "mutinomuti",
+          "comment": "受益者負担を謳う自民公明維新がNHKだけ受益者負担を拒否して受益者じゃない人から横領するのを選択するのも意味不明だけど、利益背反の裁判官がNHKに利益誘導する判決をするのも相当悪質で死刑相当だと思う(´･_･`)",
+          "tags": [],
+          "timestamp": "2026/06/22 20:57"
+        },
+        {
+          "user": "Finding",
+          "comment": "「社会に必要な情報を伝えるため」だったらもっとシンプルなストイックなコンテンツで安く作れるはず。災害時の耐久性とかに全振りして。スターがばんばん登場する、いまのあり方には疑問。",
+          "tags": [],
+          "timestamp": "2026/06/22 20:56"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:51.813059+00:00"
+    },
+    {
+      "id": "h_c35a57d0",
+      "title": "さらば命名規約!! だが CSS設計よ、お前は死なず俺の中で生き続ける。 - Qiita",
+      "url": "https://qiita.com/tanimoto-hikari/items/774a2210675ffe78cf6d",
+      "domain": "qiita.com",
+      "bookmarkCount": 21,
+      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article?",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/tanimoto-hikari/items/774a2210675ffe78cf6d",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "BEMの命名で消耗してた暗黒期が懐かしいわ。@scopeやCSS Modules、Tailwindのおかげで本質的な値や設計に脳のリソース割けるのは本当にいい時代",
+          "tags": [],
+          "timestamp": "2026/06/22 19:43"
+        },
+        {
+          "user": "Lhankor_Mhy",
+          "comment": "まさに。",
+          "tags": [
+            "CSS",
+            "webdesign"
+          ],
+          "timestamp": "2026/06/22 11:35"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:51.342714+00:00"
+    },
+    {
+      "id": "h_611d13e5",
+      "title": "見やすい手順書を書くノウハウ集 - カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/22/120000",
+      "domain": "kaminashi-developer.hatenablog.jp",
+      "bookmarkCount": 20,
+      "summary": "コーポレートエンジニアの@sion_cojpです。 コーポレートエンジニアをやってると、コード化できないものも多く、その場合は手順書を残す必要があります。 手順書は 「作業者が、上からなぞって実施していけば誰でも同じ作業になる」ために、見やすく書くノウハウをこの記事では紹介します。 1. 全体の文字数・1文の文字...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kaminashi-developer.hatenablog.jp/entry/2026/06/22/120000",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "『手順書がない状態が最高』というオチに尽きる。結局は自動化やSaaSのUI簡素化に勝るものはないんだよな",
+          "tags": [],
+          "timestamp": "2026/06/22 20:11"
+        },
+        {
+          "user": "sion_cojp",
+          "comment": "書きました",
+          "tags": [
+            "手順書",
+            "情シス",
+            "コーポレートエンジニ"
+          ],
+          "timestamp": "2026/06/22 12:32"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:52.156598+00:00"
+    },
+    {
+      "id": "h_e843b134",
+      "title": "Windows 11 26H2の最新ビルド、ユーザーの誰もが望んだ「あの機能の無効化」を実現か【やじうまWatch】",
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2118867.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 19,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2118867.html",
+      "comments": [
+        {
+          "user": "doroyamada",
+          "comment": "イルカのことか思った。",
+          "tags": [],
+          "timestamp": "2026/06/22 19:12"
+        },
+        {
+          "user": "lainof",
+          "comment": "今も無効化できるし、無効化してるけど？",
+          "tags": [],
+          "timestamp": "2026/06/22 18:57"
+        },
+        {
+          "user": "hgaragght",
+          "comment": "アホらし。",
+          "tags": [
+            "これはひどい"
+          ],
+          "timestamp": "2026/06/22 18:48"
+        },
+        {
+          "user": "gogatsu26",
+          "comment": "“今秋のリリースが見込まれるWindows 11 26H2に搭載予定ということで今すぐ使えるわけではない”",
+          "tags": [
+            "なんだかな",
+            "Windows"
+          ],
+          "timestamp": "2026/06/22 18:46"
+        },
+        {
+          "user": "shaokuz",
+          "comment": "導入する前に3秒くらい考えろよって話なんだよなこれに限らずWindowsの改悪全般",
+          "tags": [],
+          "timestamp": "2026/06/22 17:49"
         },
         {
           "user": "Goldenduck",
-          "comment": "自分や家族の顔を復元してみたらわかるんじゃなかろうか。こういう人は動作確認などしないのだろうが",
+          "comment": "Teamsで何度設定しなおしてもしつこくリンクをedgeで開いてくるクソ機能も無効化しろや",
           "tags": [],
-          "timestamp": "2026/06/22 13:26"
-        },
-        {
-          "user": "y-mat2006",
-          "comment": "モザイク除去AVってチンコ・マンコがクリーチャーみたいにウニャラウニャラ蠢いてたりするんだよなあ。",
-          "tags": [],
-          "timestamp": "2026/06/22 13:22"
-        },
-        {
-          "user": "yodogawa-kahan",
-          "comment": "それならオバマにしとけよ。",
-          "tags": [
-            "デマの成立・不成立"
-          ],
-          "timestamp": "2026/06/22 12:45"
-        },
-        {
-          "user": "crimson_diamond",
-          "comment": "拡散モデルとは何か知らなくて草、togetterは無知蒙昧の宝庫だな",
-          "tags": [],
-          "timestamp": "2026/06/22 12:34"
-        },
-        {
-          "user": "echo622",
-          "comment": "待て待て。まずAIの解像間違いは置いておいて、記事のトップ画像をそれにしてしまうと防犯カメラに写ったのがオバマさんみたいなっちゃうでしょうが",
-          "tags": [],
-          "timestamp": "2026/06/22 12:08"
+          "timestamp": "2026/06/22 17:47"
         }
       ],
-      "fetchedAt": "2026-06-22T05:07:52.717369+00:00"
+      "fetchedAt": "2026-06-22T12:17:53.160798+00:00"
+    },
+    {
+      "id": "h_7791ca19",
+      "title": "【draw.io】エンジニアの「雑なMermaid」を、綺麗な図解に変換する【アップデート版】 - Qiita",
+      "url": "https://qiita.com/ktdatascience/items/735ebfa8504fc658c812",
+      "domain": "qiita.com",
+      "bookmarkCount": 17,
+      "summary": "はじめに この記事の対象読者はこんな人です。 構成図やフロー図を生成AIに清書させているが、「画像だと後から直せない」と感じている人（前回の記事は未読でも大丈夫です） 説明するための図を全部AIで作りたい人 AWSの構成図をAIに描かせたいけど、アイコンや体裁が崩れるのが気になる人 この記事は前回の続編ですが...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/ktdatascience/items/735ebfa8504fc658c812",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "画像生成AIで図を作ると「ここだけ1箇所直したい」がガチャになって詰むけど、最初から.drawioのXMLを生成させるのは賢いな。これなら会話で差分修正できる",
+          "tags": [],
+          "timestamp": "2026/06/22 19:43"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:52.489734+00:00"
+    },
+    {
+      "id": "h_14a0cf91",
+      "title": "AIのモデル崩壊と多様性 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "url": "https://joisino.hatenablog.com/entry/collapse",
+      "domain": "joisino.hatenablog.com",
+      "bookmarkCount": 10,
+      "summary": "モデル崩壊 (model collapse) とは、AI が出力したテキストや画像がインターネットにアップロードされ、それらが AI の訓練データに混入し、そのデータで訓練された AI が出力したものがアップロードされる、というサイクルを繰り返すことで AI の性能が崩壊することです。最も有名な研究は Nature に採択された AI mode...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/joisino.hatenablog.com/entry/collapse",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "AIが生成したデータで再学習して崩壊していくのはインターネットの縮図感あるな 人間の多様性まで奪われてるって指摘はマジで鋭い",
+          "tags": [],
+          "timestamp": "2026/06/22 21:07"
+        },
+        {
+          "user": "Re-KAm",
+          "comment": "面白い",
+          "tags": [],
+          "timestamp": "2026/06/22 20:42"
+        }
+      ],
+      "fetchedAt": "2026-06-22T12:17:52.807388+00:00"
     }
   ],
-  "lastCollection": "2026-06-22T05:07:54.334603+00:00"
+  "lastCollection": "2026-06-22T12:17:53.160827+00:00"
 }
