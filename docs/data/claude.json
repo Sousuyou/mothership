@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149627+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954961+00:00",
       "excerpt": "はじめに 今回はかなり趣味的な開発話です。 麻雀を覚えたばかりの人が「もっと練習したい」と思ったとき、ちょうどいい練習アプリってなかなかないんですよね。 というわけで、「どれを切ればいいか」を3択で答えるクイズアプリを、FlutterとClaude APIを組み合わせて作ってみました。 作ったもの 100問出題する「どれを切る？」クイズアプリ 固定問題50問（JSONで管理）＋Claude API"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149560+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954867+00:00",
       "excerpt": "エンジニアとして、会議の音声・動画から日本語の議事録（決定事項・アクションアイテム付き）を自動生成するサービスを開発しています。文字起こしに OpenAI Whisper、議事録生成に Anthropic Claude を使った構成と、実装で詰まった点を共有します。 全体構成 フロント: Next.js (App Router) / バックエンド: FastAPI (Python) 文字起こし: "
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149506+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954790+00:00",
       "excerpt": "LLMの応答は全部揃ってから届くより、生成されるたびに届く方が体験がいい。Claude APIのストリーミングをROS2と組み合わせて、ロボットの応答をリアルタイムに処理する方法を解説します。 なぜストリーミングが必要か 通常の呼び出し： リクエスト → [3〜10秒待つ] → 全文が届く → 音声合成開始 ストリーミング： リクエスト → [0.5秒] → 最初の単語 → 音声合成開始 → [逐"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149453+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954713+00:00",
       "excerpt": "LangChainは便利ですが、ブラックボックスになりがち。Claude APIのFunction Callingを使えば、エージェントの仕組みを理解しながら自分でゼロから実装できます。 エージェントの基本構造 ユーザー入力 ↓ LLM（何をすべきか判断） ↓ ツール呼び出しが必要 ツール実行（Python関数） ↓ 結果をLLMに返す LLM（結果を見て次の行動を決める） ↓ ... ループ 最"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149404+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954640+00:00",
       "excerpt": "はじめに 自分の運営するサッカーチーム(とランニングコミュニティ)の公式サイトを作りたかった。メンバー紹介、試合スケジュール、ユニフォーム紹介、ギャラリー——やりたいことは明確にある。でも、デザインができる人もいなければ、コードを書ける人もいない。 外注するには小さすぎる規模で、かといってWordPressをゼロから触るには時間が足りない。そんな状況で試したのが Claude Design だ。 "
     },
     {
@@ -57,8 +57,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149349+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954561+00:00",
       "excerpt": "2026年6月15日、Anthropic は Claude のサブスクリプション利用枠を「対話（Interactive）」と「自動化（Programmatic）」に分割し、Agent SDK や claude -p、GitHub Actions 経由の利用を別建ての月額クレジットに切り出す——という大きな課金変更を予定していた。5月中旬に告知され、6月に入ってからは英語圏の個人開発者界隈でかなり騒"
+    },
+    {
+      "id": "cc_df5f3e29",
+      "title": "超便利なClaude Designの実践的な活用方法",
+      "url": "https://zenn.dev/branbran/articles/5730c47e1abac9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-29T20:07:57.954458+00:00",
+      "excerpt": "はじめに 先日Claudeから登場したデザインプラットフォーム Claude Design を、ここ数週間にわたって一通り使ってみました。本記事では、その中で見つけた実践的な使い方を紹介します。 これから Claude Designを使ってみたい方、あるいは Figma Makeなどのツールから乗り換えを検討している方の参考になれば幸いです。 ! 本記事は、英語学習アプリ（仮）を題材に、実際の操作"
     },
     {
       "id": "cc_7eaa71b0",
@@ -67,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149228+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954348+00:00",
       "excerpt": "「Notionで良くない？」と思ってた私がObsidianにハマって、ついにClaudeと連携させた話 最初は正直、懐疑的でした Obsidianって名前、エンジニアなら一度は聞いたことあると思います。でも最初に触ったとき、私の感想はこうでした。 「……あれ、これただのMarkdownエディタじゃないの？」 Notionならデータベース機能もあるし、チームで共有もできるし、UIも洗練されてる。それ"
     },
     {
@@ -77,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149172+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954267+00:00",
       "excerpt": "はじめに モバイルアプリを運用していると、毎朝 Crashlytics を眺めて「急増しているクラッシュ」を探し、手で GitHub Issue を立てる……という作業が地味に発生します。見落とすし、起票は雑になるし、見る人によってバラつく。いわゆる トイル（価値を生まない繰り返しの手作業） です。 そこで「急増クラッシュを毎朝自動で見つけて、原因の見当をつけた Issue を勝手に立てる」仕組み"
     },
     {
@@ -87,48 +97,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.149105+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.954171+00:00",
       "excerpt": "「RTK」（Rust Token Killer）は、Claude Code のトークン消費量を抑えるプロキシツールです。 ツールの基本的な導入方法と仕組みについてはすでに公式ドキュメントやいくつかのブログ記事が存在するため、本記事では一歩進んで、どの操作でどれだけ削れたかという数値、そして圧縮が出力をどう歪めたかというリスクについて報告できればと思います。 データとしては、私がRTKを使用した約4"
-    },
-    {
-      "id": "cc_2197b799",
-      "title": "Mac で Claude Code を始める — インストールから subagent / MCP / hook まで（2026 年版）",
-      "url": "https://zenn.dev/penne_inc/articles/claude-code-mac-install-2026",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.064116+00:00",
-      "excerpt": "Claude Code は 2024 年末から 2026 年までで、ずいぶん別物になりました。 2025 年の頃は「ターミナルで使えるチャット型 AI」くらいの位置づけでしたが、2026 年現在は subagent（役割を分けた複数 AI）、MCP（外部ツール接続）、hook（イベントフック）といった、エージェント開発基盤としての機能が一通り揃っています。「インストール手順」も以前とは違っていて、"
-    },
-    {
-      "id": "cc_70f8e100",
-      "title": "Claude Codeの `!` がシェル出力に自動応答するようになった ─ デフォルト変更とコストの話",
-      "url": "https://zenn.dev/syncable_tech/articles/e51591d58fec49",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.064042+00:00",
-      "excerpt": "はじめに Syncableエンジニアリングチームの山ｐです。このテックブログでは、日々の開発や運用の中で出てきた技術的なメモや気づきを共有しています。 Claude Codeを使っていて、!git status を「ちょっと状況を覗くだけ」のつもりで打ったときに、Claudeがそのまま結果について話し始めて「あれ、前はこんな反応しなかったよな？」と気づいたのがこの記事のきっかけです。 調べてみると"
-    },
-    {
-      "id": "cc_47a873ac",
-      "title": "Opus の「抜け」は誰のせいか — Claude code と Codexとの実装比較で見えた本当の原因",
-      "url": "https://zenn.dev/penne_inc/articles/codex-vs-opus-implementation-trial-phase-b",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063995+00:00",
-      "excerpt": "前回の記事で、Codex と Opus に同じ issue を渡す実験（案A）の結果を書いた。Opus 15 抜け、Codex 1 抜け。数字だけ見ると Codex が大きく上回っていた。 ただし案A には大きな交絡があると書いた。Codex には蒸留済みの整理されたプロンプトを渡したのに対し、Opus の列は当時の実際の開発履歴、つまり複数コミットにわたる漸進実装とフィードバックループの産物だっ"
-    },
-    {
-      "id": "cc_df5f3e29",
-      "title": "超便利なClaude Designの実践的な活用方法",
-      "url": "https://zenn.dev/branbran/articles/5730c47e1abac9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063941+00:00",
-      "excerpt": "はじめに 先日Claudeから登場したデザインプラットフォーム Claude Design を、ここ数週間にわたって一通り使ってみました。本記事では、その中で見つけた実践的な使い方を紹介します。 これから Claude Designを使ってみたい方、あるいは Figma Makeなどのツールから乗り換えを検討している方の参考になれば幸いです。 ! 本記事は、英語学習アプリ（仮）を題材に、実際の操作"
     },
     {
       "id": "cc_25c0da8e",
@@ -137,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063893+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.884646+00:00",
       "excerpt": "はじめに Claude Code や Codex のような AI Agent を開発に使う機会が増えてきました。 コードの修正、コマンド実行、Terraform の確認、AWS CLI の操作などを自然言語で依頼できるのは便利です。一方で、AI Agent にローカルマシン上で自由にコマンドを実行させることには、それなりの怖さがあります。 たとえば、以下のようなものをそのまま触らせるのは避けたいで"
     },
     {
@@ -147,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063834+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.884586+00:00",
       "excerpt": "こんにちは。製造業向けSaaSを開発しているエンジニアです。 AIエージェントを使い込むと、誰もが必ずぶつかる壁があります。「同じ失敗を、何度もAIに繰り返される」ことと、その対策で記録を増やすと今度は 「記憶が肥大化して、肝心なルールがノイズに埋もれる」ことです。 私はこの2つを、セッション履歴を 「一次資料」 として扱い、アジャイル開発のふりかえりのようにAI自身の振る舞いを少しずつルール化し"
     },
     {
@@ -157,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063757+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.884500+00:00",
       "excerpt": "はじめに Claude Code を使い始めて「便利だな」と感じつつも、設定まわりが分かりづらいと感じていませんか？ CLAUDE.md って何を書くの？ settings.json とどう違うの？ 設定のスコープ（User / Project / Local）は何が違うの？ 権限の allow / deny はどう評価されるの？ この記事では、Claude Code の設定ファイル群の全体像とス"
     },
     {
@@ -167,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063680+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.884418+00:00",
       "excerpt": "作ったもの けさのまとめ — 天気・ゴミ出し・電車遅延・ニュースなど、毎朝チェックしたい情報を1画面にまとめたダッシュボードです。 無料・会員登録不要で、スマホのホーム画面に追加すればアプリのように使えます。 AIで作りました このサイトは実装の大部分をClaude Code（Anthropicが提供するAIコーディングツール）に任せています。 この記事では実装テクニックの解説ではなく、AIを使っ"
     },
     {
@@ -177,8 +147,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T15:58:56.063596+00:00",
+      "fetchedAt": "2026-06-29T20:07:57.884352+00:00",
       "excerpt": "金曜の夜、私は機嫌よく作業を流していました。 その日は--dangerously-skip-permissionsを付けて、Claude Codeに全権限を渡していました。確認プロンプトが一切出ない。リファクタの提案がそのまま実行され、テストが走り、コミットまで進む。「これが自律エージェントか」と、私は少し感動すらしていました。 ところが翌朝、リポジトリを開いて血の気が引きました。git logに"
+    },
+    {
+      "id": "cc_2ac2e951",
+      "title": "Claude Code で『遅いLP』を Astro で作り直して Lighthouse 44→99 にした実装記録",
+      "url": "https://zenn.dev/noglin/articles/81b4c82fba51c0",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-29T20:07:57.884258+00:00",
+      "excerpt": "TL;DR 既存の「重いLP」を Astro で作り直すと、Lighthouse パフォーマンススコアは普通に 44 → 99 まで動く。 ボトルネックの大半は JS の量 と 画像 と レンダリングブロック。Astro の「デフォルトでJSゼロ」が効く。 作業は Claude Code に投げて非同期で回す。人間は方針と検証だけ。 実測の Before/After を見られるデモを置いた（後述）"
+    },
+    {
+      "id": "cc_85824837",
+      "title": "Claude Code 週次アップデートまとめ（2026/06/27週）",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-06-27-090000",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-29T20:07:57.884185+00:00",
+      "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 2026年6月27日週のまとめ: GitHub リリースノートを確認し、Claude Code v2.1.185〜v2.1.195 の変更7件をまとめた（欠番: v2.1.184 / v2.1.188 / v2.1.189 / v2.1.19"
+    },
+    {
+      "id": "cc_89b383b5",
+      "title": "【Claude Code】IDEなしで快適に！CLI作業環境おすすめ設定まとめ",
+      "url": "https://zenn.dev/devex12/articles/claude-code-env-setup",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-29T20:07:57.884048+00:00",
+      "excerpt": "はじめに Claude CodeはCLIツールです。VS CodeやJetBrainsのようなGUIのIDEはありません。 最初は「IDEがないと不便じゃないか？」と感じるかもしれません。でも、適切に環境を整えれば、むしろ快適に開発できます。 この記事では、Claude CodeをCLIで使う際のおすすめ設定を紹介します。 ターミナル環境を整える Windows Terminalのペイン分割 Wi"
     },
     {
       "id": "cc_916ce8f0",
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-06-29T15:58:56.435275+00:00",
+      "fetchedAt": "2026-06-29T20:07:58.303687+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -197,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-29T15:58:56.945441+00:00",
+      "fetchedAt": "2026-06-29T20:07:58.512148+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-29T15:58:56.945489+00:00",
+      "fetchedAt": "2026-06-29T20:07:58.512214+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-29T15:58:56.945539+00:00",
+      "fetchedAt": "2026-06-29T20:07:58.512285+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-29T15:58:56.945551+00:00"
+  "lastCollection": "2026-06-29T20:07:58.512299+00:00"
 }
