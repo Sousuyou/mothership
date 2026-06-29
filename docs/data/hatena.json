@@ -5,58 +5,126 @@
       "title": "数十ページのPDFを1回で処理、ローカルOCRモデル「Unlimited OCR」をバイドゥが無料公開。商用利用もできる（生成AIクローズアップ） | テクノエッジ TechnoEdge",
       "url": "https://www.techno-edge.net/article/2026/06/29/5234.html",
       "domain": "techno-edge.net",
-      "bookmarkCount": 216,
+      "bookmarkCount": 269,
       "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、Baiduの研究チームが開発した、数十ページのPDFなど長文を一括処理できるエンドツーエンドのOCRモデル「Unlimited OCR」を取り上...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/06/29/5234.html",
       "comments": [
         {
-          "user": "K-Ono",
-          "comment": "日本人はバイドゥという単語だけで忌避反応を示す人が多いからなあ。おれもだが。",
+          "user": "sotonohitokun",
+          "comment": "ローカルに落とせばいくらでもフリーで出来るから、人気コメが何を言いたいのか分からんのよね。コレVLMに近いAIの話だよ？",
           "tags": [],
-          "timestamp": "2026/06/29 19:52"
+          "timestamp": "2026/06/30 00:55"
         },
         {
-          "user": "Akech_ergo",
-          "comment": "ローカルで動くのなら、仮に何らかのマルウェア的な動作が仕込まれていたとしても、ネット回線切った端末で使用する分には問題ないのではないだろうか。",
+          "user": "psne",
+          "comment": "画像謝罪文を大量に投げ込んで、関係者を震えさせましょう！のやつ。",
           "tags": [],
-          "timestamp": "2026/06/29 19:50"
+          "timestamp": "2026/06/29 22:42"
         },
         {
-          "user": "lenore",
-          "comment": "Baiduでさえなければ会社で使いたいのになー",
+          "user": "swdrsker",
+          "comment": "注目",
           "tags": [],
-          "timestamp": "2026/06/29 19:18"
+          "timestamp": "2026/06/29 22:38"
         },
         {
-          "user": "gambol",
-          "comment": "バイドゥというだけでなんかウッと来てしまう",
-          "tags": [],
-          "timestamp": "2026/06/29 18:25"
+          "user": "misshiki",
+          "comment": "BaiduがローカルOCRモデル「Unlimited OCR」をMITライセンスで公開。R-SWAによりKVキャッシュを一定に保ち、32Kトークン内で数十ページPDFを1回で処理。OmniDocBench v1.5で93.23％。",
+          "tags": [
+            "OCR",
+            "自然言語処理"
+          ],
+          "timestamp": "2026/06/29 22:32"
         },
         {
-          "user": "rajahbrooke",
-          "comment": "所々PDFに天安門事件の記事を仕込んでおこう",
+          "user": "wushi",
+          "comment": "とりあえず別会社のLLMサービスに送りつけて解析させる位のリテラシーは求められる",
           "tags": [],
-          "timestamp": "2026/06/29 18:14"
+          "timestamp": "2026/06/29 21:03"
         },
         {
-          "user": "outalaw",
-          "comment": "怖すぎ　いらんPCでローカルで使用し、生成されたPDFもそのPCでしかつ使わないならありかもしらん　でもそれだと意味ないので結局なし",
+          "user": "star_123",
+          "comment": "この手の仕組みのOCRって人間と同じ「思い込み」による読み取りミスしそうだな､まぁそれでも総合性能で普通のOCRに勝てれば良いのだろうけど",
           "tags": [],
-          "timestamp": "2026/06/29 18:03"
+          "timestamp": "2026/06/29 20:36"
         }
       ],
-      "fetchedAt": "2026-06-29T11:13:16.104015+00:00"
+      "fetchedAt": "2026-06-29T15:58:53.430061+00:00"
+    },
+    {
+      "id": "h_d356b6e6",
+      "title": "Claudeに「オントロジー」を持たせたら、コスト半分・3倍速になるかも",
+      "url": "https://zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
+      "domain": "zenn.dev",
+      "bookmarkCount": 225,
+      "summary": "Komlock lab VPoE阿部(@takupeso)です。 ClaudeCodeに既存設計・コードに関するナレッジを渡すとき、僕はずっと同じやり方をしていました。@でファイルを指定し、CLAUDE.mdにルールを足し、.claudeを整備していました。 これももちろん有効な手法です。ただ、AIの調子でアウトプットの精度にブレが出ます。同じナレッジ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
+      "comments": [
+        {
+          "user": "denimn",
+          "comment": "AWS summit NYCで発表のあったAWS Contextがブレークスルー起こすか期待してるんだよなー",
+          "tags": [],
+          "timestamp": "2026/06/30 00:24"
+        },
+        {
+          "user": "misshiki",
+          "comment": "Claude Codeにオントロジー的な関係グラフを持たせ、推測を減らす手法。筆者の例ではコスト$1.26→$0.62、応答2分7秒→44秒、キャッシュ読取764.7k→118.1k。",
+          "tags": [
+            "Claude Code"
+          ],
+          "timestamp": "2026/06/29 22:32"
+        },
+        {
+          "user": "lets_skeptic",
+          "comment": "Serena MCP も理論的には良いはずだったのに、あんまり上手くいかなかったなぁ。そろそろブレイクスルーが起きないだろうか",
+          "tags": [],
+          "timestamp": "2026/06/29 22:24"
+        },
+        {
+          "user": "turanukimaru",
+          "comment": "「オントロジー」は哲学と言うかプラトンやアリストテレスの専門分野で、存在とは何か・どのようなものか・俺たちは何の話をしているのか？の研究。情報科学の用語だとか言わないで欲しいこの人のせいじゃないが。",
+          "tags": [],
+          "timestamp": "2026/06/29 21:49"
+        },
+        {
+          "user": "fraction",
+          "comment": "“オントロジーは情報科学の用語で”こういうの吐き気を催す（まあ、自分も結構やりますが。ネットのおかげで頻度減った）のでやめてほしい",
+          "tags": [],
+          "timestamp": "2026/06/29 20:53"
+        },
+        {
+          "user": "aku_su1",
+          "comment": "鬼畜王のが好き",
+          "tags": [],
+          "timestamp": "2026/06/29 17:48"
+        }
+      ],
+      "fetchedAt": "2026-06-29T15:58:51.142788+00:00"
     },
     {
       "id": "h_df5f3e29",
       "title": "超便利なClaude Designの実践的な活用方法",
       "url": "https://zenn.dev/branbran/articles/5730c47e1abac9",
       "domain": "zenn.dev",
-      "bookmarkCount": 155,
+      "bookmarkCount": 194,
       "summary": "エクスポート・共有 完成したデザインは .zip / PDF / PPTX / HTML 形式でダウンロードできるほか、Canva・Adobe・Vercel などへの連携にも対応しています。共有リンクは「表示のみ / コメント / 編集」のアクセス権を選んで発行できます。 事前準備：既存プロジェクトからデザインシステムを作る プロトタイプを作る前...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/branbran/articles/5730c47e1abac9",
       "comments": [
+        {
+          "user": "misshiki",
+          "comment": "Claude Designの実践紹介。既存プロジェクトからデザインシステムを取り込み、プロトタイプ作成、仕様書逆生成、15〜120秒のデモ動画作成まで活用。分岐管理やコード同期には課題。",
+          "tags": [
+            "Claude",
+            "Webデザイン"
+          ],
+          "timestamp": "2026/06/29 22:31"
+        },
+        {
+          "user": "kijtra",
+          "comment": "こういう管理画面みたいなデザインなら Claude Design じゃなくても普通に作れる",
+          "tags": [],
+          "timestamp": "2026/06/29 20:39"
+        },
         {
           "user": "azumi_s",
           "comment": "現状はまだβ版の域を出ないのが正直な感想。ClaudeCodeとの連携や往復がもっとシームレスになるといいのだけれど。",
@@ -83,283 +151,73 @@
           "comment": "id:rukia_tiara id:mimo-3 id:rikako-forward 株式会社フォワードのセルクマじゃん",
           "tags": [],
           "timestamp": "2026/06/29 11:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "デザインから仕様書を逆生成してClaude Codeに渡すの賢すぎる。実装精度が段違いになりそう",
-          "tags": [],
-          "timestamp": "2026/06/29 11:08"
         }
       ],
-      "fetchedAt": "2026-06-29T11:13:17.934097+00:00"
-    },
-    {
-      "id": "h_d356b6e6",
-      "title": "Claudeに「オントロジー」を持たせたら、コスト半分・3倍速になるかも",
-      "url": "https://zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
-      "domain": "zenn.dev",
-      "bookmarkCount": 139,
-      "summary": "Komlock lab VPoE阿部(@takupeso)です。 ClaudeCodeに既存設計・コードに関するナレッジを渡すとき、僕はずっと同じやり方をしていました。@でファイルを指定し、CLAUDE.mdにルールを足し、.claudeを整備していました。 これももちろん有効な手法です。ただ、AIの調子でアウトプットの精度にブレが出ます。同じナレッジ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
-      "comments": [
-        {
-          "user": "aku_su1",
-          "comment": "鬼畜王のが好き",
-          "tags": [],
-          "timestamp": "2026/06/29 17:48"
-        },
-        {
-          "user": "th_6295",
-          "comment": "具体的に何の話？rdfやグラフRAGってだけ？",
-          "tags": [],
-          "timestamp": "2026/06/29 17:23"
-        },
-        {
-          "user": "napsucks",
-          "comment": "ER図みたいなもんかな",
-          "tags": [],
-          "timestamp": "2026/06/29 16:56"
-        },
-        {
-          "user": "zgmf-x20a",
-          "comment": "LLMが判断するのなら、owlでなくてもrdfで十分な気がする。",
-          "tags": [],
-          "timestamp": "2026/06/29 16:32"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“ファイル指定の＠、CLAUDE.mdの箇条書き、.claudeの整備。結局は資料をフラットに並べているだけ。概念どうしの関係はLLMが推測するから結果がぶれる。オントロジーは関係（is-a、part-of、calls、depends-on）を型として持てる”",
-          "tags": [],
-          "timestamp": "2026/06/29 16:13"
-        },
-        {
-          "user": "khiguchi0205",
-          "comment": "]",
-          "tags": [
-            "Data"
-          ],
-          "timestamp": "2026/06/29 16:04"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:16.899048+00:00"
-    },
-    {
-      "id": "h_4c61427f",
-      "title": "「オープンソース」以前から回路図を公開——眠らない情熱に彩られた秋月電子通商の55年 - FabScene（ファブシーン）",
-      "url": "https://fabscene.com/new/interview/akizuki-electronics-history2026/",
-      "domain": "fabscene.com",
-      "bookmarkCount": 123,
-      "summary": "電子工作を始めた人なら、たいてい最初にこの店のサイトを開く。秋葉原のパーツ街に半世紀以上店を構える秋月電子通商は、日本中の「作る人」が当たり前のように頼ってきた店だ。 ただ、その正体は少し変わっている。扱う部品はすべて自分たちの目で選び、現金で仕入れる。マイコンボードもセンサーも、変換基板やモジュ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/fabscene.com/new/interview/akizuki-electronics-history2026/",
-      "comments": [
-        {
-          "user": "Imamura",
-          "comment": "秋月球根事件の真相が。末永く続いてほしい",
-          "tags": [
-            "電子工作"
-          ],
-          "timestamp": "2026/06/29 20:10"
-        },
-        {
-          "user": "htmikan",
-          "comment": "\"仕入れた球根は、新商品の販売開始時刻に合わせて、会長が誰にも告げず秋月のサイトに並べてしまった。\"あの球根、そういう意味だったのか！",
-          "tags": [],
-          "timestamp": "2026/06/29 20:01"
-        },
-        {
-          "user": "co8co8",
-          "comment": "秋月電子の考えがよくわかった。ずっと続いてほしい会社",
-          "tags": [
-            "電子工作",
-            "社会"
-          ],
-          "timestamp": "2026/06/29 19:40"
-        },
-        {
-          "user": "tamasuji",
-          "comment": "秋月電子！懐かしいなぁ。",
-          "tags": [],
-          "timestamp": "2026/06/29 19:19"
-        },
-        {
-          "user": "echigoya3",
-          "comment": "顧客層の95%以上が法人ってマ？ほとんど個人ユーザーだと思ってた",
-          "tags": [],
-          "timestamp": "2026/06/29 19:02"
-        },
-        {
-          "user": "ochikun",
-          "comment": "秋月電子って誰よ！、、っていう話をいつも思い出してしまう",
-          "tags": [],
-          "timestamp": "2026/06/29 18:26"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:20.644036+00:00"
-    },
-    {
-      "id": "h_f99d2280",
-      "title": "松屋の券売機が「思いのほか使いやすかった」 それでもネットで不評なのはなぜ？",
-      "url": "https://www.itmedia.co.jp/mobile/articles/2606/29/news049.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 98,
-      "summary": "日本の牛丼チェーン御三家の1つとして、多くの人々の胃袋を支える「松屋」。豊富なメニューと手頃な価格で根強い人気を誇る一方で、近年ネット上で度々議論の的となっているのが、店舗入り口にある券売機（セルフオーダー端末）の使い勝手だ。2026年5月、X（旧Twitter）などのSNS上で「松屋はまた端末を変えたのか。牛丼...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2606/29/news049.html",
-      "comments": [
-        {
-          "user": "aga_aga",
-          "comment": "マクドナルドは今価格見えるけどね。もう利用する気ないなら不買してるので分かりませんでいいだろ。　/マックにしても松屋にしても言われるほど悪くはない。近頃のバカ特有の盛り言葉に流されすぎ。",
-          "tags": [],
-          "timestamp": "2026/06/29 19:54"
-        },
-        {
-          "user": "star_123",
-          "comment": "発券機ではないけどガストのセルフレシも酷い",
-          "tags": [],
-          "timestamp": "2026/06/29 19:24"
-        },
-        {
-          "user": "doko",
-          "comment": "松屋に限らず、スクロールさせるUIじゃなくて、ページで切り替えるUIにした方が良いと思う",
-          "tags": [],
-          "timestamp": "2026/06/29 18:27"
-        },
-        {
-          "user": "UhoNiceGuy",
-          "comment": "コメ読むと本当に使いやすくなったみたいだね。ただ、券売機だと悩めないんだよね。その点、スマホは好きなだけ悩めるからありがたい",
-          "tags": [
-            "UI",
-            "食",
-            "決済"
-          ],
-          "timestamp": "2026/06/29 18:19"
-        },
-        {
-          "user": "akapeso",
-          "comment": "病院のGoogle口コミと一緒で、不満がある人だけがSNSに書き込むからではないのか。",
-          "tags": [],
-          "timestamp": "2026/06/29 17:00"
-        },
-        {
-          "user": "unknownlabel",
-          "comment": "ファミマのコーヒーもサイズから全部押させる上に決定ボタンが小さくてダメ",
-          "tags": [],
-          "timestamp": "2026/06/29 16:59"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:21.895255+00:00"
+      "fetchedAt": "2026-06-29T15:58:55.416832+00:00"
     },
     {
       "id": "h_ffd91c02",
       "title": "「スマホカメラ」が「本物のカメラ」に到底かなわない6つの理由",
       "url": "https://japan.cnet.com/article/35249557/",
       "domain": "japan.cnet.com",
-      "bookmarkCount": 90,
+      "bookmarkCount": 144,
       "summary": "最新スマートフォンのカメラは、写真を撮る道具として驚くほど高性能だ。大型センサー、明るいレンズ、そして豊富なソフトウェア機能を備え、プロ向けのミラーレス機に匹敵する写真が撮れる。それでも筆者は、カメラをスマホ1台に置き換えたいとは思わない。プロの写真家として、そしてスマホのレビュアーとして数々の機...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35249557/",
       "comments": [
         {
-          "user": "bbbtttbbb",
-          "comment": "スマホがカメラになれないなら、カメラをスマホにしろよ。日本が立ち直るチャンスだろうが。無理かw",
+          "user": "kazoo_keeper2",
+          "comment": "なんで焦点距離の問題に触れないんだろ？スマホカメラの最大の弱点は、物理的な制約で「広角」寄り（焦点距離が短い）になってしまう事だと思うけど…",
           "tags": [],
-          "timestamp": "2026/06/29 20:07"
-        },
-        {
-          "user": "theta",
-          "comment": "レンズと撮像素子だけ切り出したカメラ（現像処理はスマホ側がやる）が流行るかと思ったけど、そうはならなかったね。カメラって数年おきに買い替えるようなもんじゃないと思うんだがなあ",
-          "tags": [],
-          "timestamp": "2026/06/29 20:02"
-        },
-        {
-          "user": "ank0u",
-          "comment": "暗い体育館でも、入学式卒業式くらいはスマホで普通に撮れるし、「本物のカメラ」はスポーツ用とかほんと限定的な用途になっちゃうのではと",
-          "tags": [],
-          "timestamp": "2026/06/29 19:50"
+          "timestamp": "2026/06/30 00:36"
         },
         {
           "user": "fufuvalso",
-          "comment": "この記事を書いたAndrew Lanxonの別記事「究極のスマホカメラ徹底比較テスト」「OPPO Find X9 Ultraが大好き、素晴らしいカメラフォン」 https://www.cnet.com/profiles/ahoyle/ オタクの自虐ネタだよ　（また削除しよ）",
+          "comment": "この記事を書いたAndrew Lanxonの別記事「究極のスマホカメラ徹底比較テスト」「OPPO Find X9 Ultraが大好き、素晴らしいスマホ」 https://www.cnet.com/profiles/ahoyle/ オタクの自虐ネタだよ　（また削除しよ）",
           "tags": [],
-          "timestamp": "2026/06/29 19:35"
+          "timestamp": "2026/06/29 23:17"
         },
         {
-          "user": "Rikerike",
-          "comment": "普段スマホやらGoogle検索やらSNSやら触っている私もカメラには生成AIで補完はしてほしくないとは思っている……まぁされてしまうのだろうけど",
-          "tags": [
-            "camera",
-            "カメラ",
-            "photo",
-            "写真"
-          ],
-          "timestamp": "2026/06/29 19:32"
+          "user": "koishi",
+          "comment": "プロが使うものにこだわるのは当然。ただいくら項目をあげても到底かなわない、ってのは極一部の極一面。利便性や価格も含めたトータルで負けてるから使う人は減ってる。",
+          "tags": [],
+          "timestamp": "2026/06/29 22:48"
         },
         {
-          "user": "Mecoysvase",
-          "comment": "バズーカーにはなれない1つでいいのでは",
+          "user": "SPIRIT_PHOENIX",
+          "comment": "キヤノン業務用4Kカメラ「おっ、そうだな」",
           "tags": [],
-          "timestamp": "2026/06/29 19:27"
+          "timestamp": "2026/06/29 22:16"
+        },
+        {
+          "user": "alpinix",
+          "comment": "むしろ広角で撮りたい時は積極的にスマホ使ってるよ。",
+          "tags": [],
+          "timestamp": "2026/06/29 22:12"
+        },
+        {
+          "user": "lastline",
+          "comment": "レンズ経からして全然違うし、センサーサイズも違うのだけど、手軽にスナップ的に撮影するという観点ではスマボが抜群に便利なので比較として全く別次元にある",
+          "tags": [],
+          "timestamp": "2026/06/29 21:56"
         }
       ],
-      "fetchedAt": "2026-06-29T11:13:18.468344+00:00"
-    },
-    {
-      "id": "h_6424ff91",
-      "title": "大人気「めっちゃカメレオン」小学生にはオススメできない理由 ただの“かくれんぼ”と思いきや……",
-      "url": "https://www.itmedia.co.jp/news/articles/2606/29/news070.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 81,
-      "summary": "ITmedia NEWSにおける1週間の記事アクセス数を集計し、上位10記事を紹介する「ITmedia NEWS Weekly Top10」。今回は2026年06月20日から06月26日までの7日間について集計し、まとめた。 先週のアクセス1位は、KDDIがメールインフラを提供している各ISPメールアドレスなど最大1422万件が漏えいした可能性に関するニュース...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/29/news070.html",
-      "comments": [
-        {
-          "user": "robokichi",
-          "comment": "お絵かきで叡智な画像のオンパレードかと思いきや、そんなことかよ…",
-          "tags": [
-            "ゲーム"
-          ],
-          "timestamp": "2026/06/29 20:10"
-        },
-        {
-          "user": "mujou03",
-          "comment": "しょうもな",
-          "tags": [],
-          "timestamp": "2026/06/29 20:00"
-        },
-        {
-          "user": "pendamadura",
-          "comment": "水鉄砲なら他人に撃っていいと思ってんの？",
-          "tags": [],
-          "timestamp": "2026/06/29 19:52"
-        },
-        {
-          "user": "masamkur",
-          "comment": "水鉄砲だったら塗ってるペイントが落ちる演出が良いな。",
-          "tags": [],
-          "timestamp": "2026/06/29 19:34"
-        },
-        {
-          "user": "n_231",
-          "comment": "じゃあ健全にスプラトゥーンしましょうね〜",
-          "tags": [],
-          "timestamp": "2026/06/29 19:08"
-        },
-        {
-          "user": "kei98",
-          "comment": "きも",
-          "tags": [],
-          "timestamp": "2026/06/29 19:00"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:20.166322+00:00"
+      "fetchedAt": "2026-06-29T15:58:52.538575+00:00"
     },
     {
       "id": "h_7e9267a9",
       "title": "Claude Opus 4.7と同等性能のコーディングAIモデル「Ornith-1.0」が登場、ローカルで動作する小型モデルもラインナップ",
       "url": "https://gigazine.net/news/20260629-ornith-agentic-coding-ai/",
       "domain": "gigazine.net",
-      "bookmarkCount": 71,
+      "bookmarkCount": 91,
       "summary": "AI研究組織のDeepReinforceがAIモデルファミリー「Ornith-1.0」をオープンモデルとして公開しました。最上位モデルのOrnith-1.0-397Bは複数のベンチマークテストでClaude Opus 4.7を上回っています。 Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding | DeepReinforce Blog | Jun. 2026 https://deep-reinforce.co...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260629-ornith-agentic-coding-ai/",
       "comments": [
+        {
+          "user": "yosuken",
+          "comment": "“Ornith-1.0-397B”",
+          "tags": [],
+          "timestamp": "2026/06/29 22:36"
+        },
         {
           "user": "renos",
           "comment": "“397B” ははは",
@@ -389,137 +247,250 @@
           "comment": "さっきOrnith-1.0-35Bを試してみたら簡単な質問でループした。ベンチマーク番長かな？",
           "tags": [],
           "timestamp": "2026/06/29 16:11"
-        },
-        {
-          "user": "pendamadura",
-          "comment": "日本ではなぜかすげーイメージの悪そうなキャラだな",
-          "tags": [],
-          "timestamp": "2026/06/29 16:11"
         }
       ],
-      "fetchedAt": "2026-06-29T11:13:19.038679+00:00"
+      "fetchedAt": "2026-06-29T15:58:54.602668+00:00"
     },
     {
-      "id": "h_a99f52f1",
-      "title": "Open Knowledge Format のご紹介 | Google Cloud 公式ブログ",
-      "url": "https://cloud.google.com/blog/ja/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/",
-      "domain": "cloud.google.com",
-      "bookmarkCount": 70,
-      "summary": "Sam McVeetyTech Lead, Data Analytics, Engineering, Data Cloud, Google Cloud Amir HormatiTech Lead, BigQuery, Engineering, Data Cloud, Google Cloud ※この投稿は米国時間 2026 年 6 月 13 日に、Google Cloud blog に投稿されたものの抄訳です。 基盤モデルは進化を続けていますが、関連するコンテキストが不足..",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cloud.google.com/blog/ja/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/",
-      "comments": [
-        {
-          "user": "hasiduki",
-          "comment": "markdownファイルにすると一枚でそれなりのサイズが暗黙に想定されそうだけど！！！！！！現実に管理したいナレッジの粒度とそれが合うのかが疑問ですな！！！！！！！／ブロック単位で参照したいと思うのだが！！！！",
-          "tags": [],
-          "timestamp": "2026/06/29 19:37"
-        },
-        {
-          "user": "narita1980",
-          "comment": "https://zenn.dev/zenn/articles/zenn-cli-guide",
-          "tags": [],
-          "timestamp": "2026/06/29 16:21"
-        },
-        {
-          "user": "kaputte",
-          "comment": "新しい活用方法かな",
-          "tags": [],
-          "timestamp": "2026/06/29 15:01"
-        },
-        {
-          "user": "tmatsuu",
-          "comment": "Google公式のOKF紹介記事",
-          "tags": [],
-          "timestamp": "2026/06/29 08:49"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:23.313137+00:00"
-    },
-    {
-      "id": "h_4938c27d",
-      "title": "「大画面？何ですかそれ」。ソニー“業務用ピクモニ”で始める狭小ビジュアルライフ",
-      "url": "https://av.watch.impress.co.jp/docs/topic/2116987.html",
-      "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 30,
+      "id": "h_01dd6e39",
+      "title": "「Firefox」内蔵の無償VPN、日本にも展開？ どの国からの接続かを隠し、プライバシーを保護／【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2120633.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 85,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/topic/2116987.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2120633.html",
       "comments": [
         {
-          "user": "gamil",
-          "comment": "昔、映像系の仕事してた時にこういうのをラックにマウントして映像音声の確認してたなぁ、懐かしい。",
+          "user": "punychan",
+          "comment": "全部は調べてないけど、whoisしたらMozillaの持っているネットワークなので、VPNなのは特定できそうね。",
           "tags": [],
-          "timestamp": "2026/06/29 20:03"
+          "timestamp": "2026/06/29 23:45"
         },
         {
-          "user": "fallout1999",
-          "comment": "素人は新品のJN-MD-OLED1331UHDRあたりの4K有機ELモバイルモニターを買って使った方が良いと思う",
-          "tags": [],
-          "timestamp": "2026/06/29 18:10"
-        },
-        {
-          "user": "sekreto",
-          "comment": "VITAも有機ELだったし、ソニーは意欲的だった。2000年代前半。一気に有機ELになるって雰囲気はあったのよな（ならなかったが）。",
-          "tags": [],
-          "timestamp": "2026/06/29 18:05"
-        },
-        {
-          "user": "crimson_diamond",
-          "comment": "ノスタル爺",
-          "tags": [],
-          "timestamp": "2026/06/29 17:23"
-        },
-        {
-          "user": "manatus",
-          "comment": "”デイリークエストである中古の業務用機材販売サイトを徘徊”",
-          "tags": [],
-          "timestamp": "2026/06/29 17:21"
-        },
-        {
-          "user": "aceraceae",
-          "comment": "ふだん 2.8 インチのワンセグ XDV-100 使ってるんで 7.4 インチで高精細ならいうことないな",
+          "user": "wktk_msum",
+          "comment": "Mullvad不要？？",
           "tags": [
-            "SONY"
+            "VPN",
+            "セキュリティ",
+            "プライバシー"
           ],
-          "timestamp": "2026/06/29 17:05"
-        }
-      ],
-      "fetchedAt": "2026-06-29T11:13:22.862403+00:00"
-    },
-    {
-      "id": "h_56bc86b0",
-      "title": "Claudeモデルの「拡張思考」から「適応的思考」への移行 - Taste of Tech Topics",
-      "url": "https://acro-engineer.hatenablog.com/entry/2026/06/29/120000",
-      "domain": "acro-engineer.hatenablog.com",
-      "bookmarkCount": 29,
-      "summary": "こんにちは、YAMALEXの駿です。 YAMALEXはAcroquest社内で発足した、会社の未来の技術を創る、機械学習がメインテーマのデータサイエンスチームです。 （詳細はリンク先をご覧ください。） 2026年2月にClaude 4.6系が登場してから、Claudeの「思考（Thinking）」を制御するAPIパラメータが変更されました。 それまで「拡...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/acro-engineer.hatenablog.com/entry/2026/06/29/120000",
-      "comments": [],
-      "fetchedAt": "2026-06-29T11:13:22.294675+00:00"
-    },
-    {
-      "id": "h_d95ba555",
-      "title": "ついに｢世界のAI･半導体バブル崩壊が始まった｣と確信した｜会社四季報オンライン",
-      "url": "https://shikiho.toyokeizai.net/news/0/949539",
-      "domain": "shikiho.toyokeizai.net",
-      "bookmarkCount": 8,
-      "summary": "小幡 績 / 韓国の株式市場では26日も一時「サーキットブレーカー」が発動。不安定な値動きが続く（写真：AP／アフロ） 競馬をこよなく愛するエコノミスト2人による「東洋経済オンライン」の人気持ち回り連載を「会社四季",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/shikiho.toyokeizai.net/news/0/949539",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "毎度おなじみの崩壊芸だけど、今の相場状況的には本当にピークアウト感があって怖いな",
-          "tags": [],
-          "timestamp": "2026/06/29 20:09"
+          "timestamp": "2026/06/29 23:39"
         },
         {
-          "user": "zokkon",
-          "comment": "このタイトルから予想した通りの筆者",
+          "user": "Knoa",
+          "comment": "ヘルプ https://support.mozilla.org/ja/kb/built-in-vpn には50GBのうちの現在の使用量が表示されたスクショがあるけど、この記事内のスクショにも自分の Firefox 153 Beta にも表示されてないな…。",
           "tags": [],
-          "timestamp": "2026/06/29 19:47"
+          "timestamp": "2026/06/29 23:29"
+        },
+        {
+          "user": "scipio1031",
+          "comment": "国選べるならいいね",
+          "tags": [],
+          "timestamp": "2026/06/29 23:19"
+        },
+        {
+          "user": "restroom",
+          "comment": "“ちなみに、VPNを内蔵するブラウザーとしてはすでに「Microsoft Edge」、「Opera」、「Vivaldi」などがあります”、へぇ",
+          "tags": [],
+          "timestamp": "2026/06/29 23:13"
+        },
+        {
+          "user": "gyujp",
+          "comment": "Firefoxからのアクセスは拒否する設定をサーバーに入れられたりして",
+          "tags": [],
+          "timestamp": "2026/06/29 23:06"
         }
       ],
-      "fetchedAt": "2026-06-29T11:13:23.647940+00:00"
+      "fetchedAt": "2026-06-29T15:58:49.869995+00:00"
+    },
+    {
+      "id": "h_d0d2e419",
+      "title": "「ヨドバシ池袋店」を見てきた 関東最大の1万坪に家電体験空間",
+      "url": "https://www.watch.impress.co.jp/docs/news/2120942.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 85,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2120942.html",
+      "comments": [
+        {
+          "user": "sovereignglue",
+          "comment": "新宿とか秋葉原って歩き回るのしんどいんで、池袋にできると捗る",
+          "tags": [],
+          "timestamp": "2026/06/30 00:34"
+        },
+        {
+          "user": "denqueue",
+          "comment": "池袋西武の酒売り場（酒商山田・ワインコーナーなど）をはやく復活させてほしいんだが、まさかヨドバシの酒コーナーで代替するなんて話になってないよな・・・？",
+          "tags": [],
+          "timestamp": "2026/06/30 00:29"
+        },
+        {
+          "user": "zakkie",
+          "comment": "日本最大のヨドバシは梅田なんや。知らんかった。>“「約10,000坪という売場面積は、大阪・梅田に次ぐ広さで、関東で秋葉原を抜いて最大となる」”",
+          "tags": [],
+          "timestamp": "2026/06/30 00:06"
+        },
+        {
+          "user": "saurel",
+          "comment": "まあるい緑の山手線♪も流石に西武線に言及しないのは苦しい外観",
+          "tags": [
+            "ヨドバシ"
+          ],
+          "timestamp": "2026/06/29 23:49"
+        },
+        {
+          "user": "hir_o",
+          "comment": "家電量販店は、昔ほど心躍るような商品がないから大型店出してもなぁ。いっそアウトレットやジャンク扱って欲しいわ。池袋はしばらく行ってないがビックがアウトレットあったり酒専門店あったりするよね",
+          "tags": [],
+          "timestamp": "2026/06/29 23:39"
+        },
+        {
+          "user": "dalmacija",
+          "comment": "あえて言えば世も末",
+          "tags": [],
+          "timestamp": "2026/06/29 23:34"
+        }
+      ],
+      "fetchedAt": "2026-06-29T15:58:50.299198+00:00"
+    },
+    {
+      "id": "h_4b0bd17d",
+      "title": "メルカリで「傷があるので安い」iPhoneを買ったら…盗品としてロックされ、メルカリから警察へ行くよう回答され、警察には門前払い…105,000円を失うことに",
+      "url": "https://togetter.com/li/2715015",
+      "domain": "togetter.com",
+      "bookmarkCount": 44,
+      "summary": "酢酸ちゃん @Ryunen_bocchi メルカリで「傷があるので安い」 iPhoneを買う ↓ 盗品としてロックがかかっている ↓ コメ欄で偽のIMEIが書いてあるが、実際はソフトバンク✕ ↓ で105000円失って横転 おそらくApple Careの紛失サポートで、「盗まれた」と嘘ついて新しい端末をもらい、旧端末を転売したものかと 拡散お願いしま...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2715015",
+      "comments": [
+        {
+          "user": "s17er",
+          "comment": "こういう時に出品者を警察に突き出せない仕組みなのはいい加減どうにかしたほうがいい。iPhoneはリセールバリューが高いのだから安心して取引させな",
+          "tags": [],
+          "timestamp": "2026/06/30 00:40"
+        },
+        {
+          "user": "zenkoku9",
+          "comment": "やっぱりメルカリって使ったらダメだな",
+          "tags": [],
+          "timestamp": "2026/06/29 23:51"
+        },
+        {
+          "user": "Kenju",
+          "comment": "逆も怖いなと思う。相手がまともじゃなかったらこちらが悪いことにされかねない。高額な品は、メルカリでは買わない、売らないが重要",
+          "tags": [],
+          "timestamp": "2026/06/29 23:38"
+        },
+        {
+          "user": "hir_o",
+          "comment": "買わなきゃいいとかよりもこれは罪や規約違反にはならんのか？ならないなら買わなきゃいいなんだが、そうじゃないならどこの誰だか分かってて確実に足はついてるんだからメルカリか警察がなんとかしろよ",
+          "tags": [],
+          "timestamp": "2026/06/29 23:37"
+        },
+        {
+          "user": "straychef",
+          "comment": "あとからロックになるのか　時間差できるのは賢いな",
+          "tags": [],
+          "timestamp": "2026/06/29 23:19"
+        },
+        {
+          "user": "kensukeo",
+          "comment": "まだメルカリでiPhoneを買うチャレンジャーがいるのね。露天でiPhone買わんやろ。",
+          "tags": [],
+          "timestamp": "2026/06/29 23:06"
+        }
+      ],
+      "fetchedAt": "2026-06-29T15:58:51.519023+00:00"
+    },
+    {
+      "id": "h_0a6087ed",
+      "title": "持ち帰り試験で平均96点のクラスが対面試験に切り替えると平均48点に、教授は「AIでカンニングしている」と落胆",
+      "url": "https://gigazine.net/news/20260629-ai-exam-brown-university/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 27,
+      "summary": "アメリカの名門・ブラウン大学の教授が、自身が担当する数理経済学の試験で大規模な不正があったという話を海外メディアのEL PAÍSに共有しました。試験を自宅持ち帰り方式から対面方式に切り替えただけで平均点が大幅に下がり、持ち帰り試験で満点を出した学生のほとんどは対面試験に出席してこなかったといいます。 Pro...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260629-ai-exam-brown-university/",
+      "comments": [
+        {
+          "user": "cateching",
+          "comment": "電卓の登場で四則演算のテストが無意味になったように、AIの登場で解ける問題などテストする意味を失ったのだ。",
+          "tags": [],
+          "timestamp": "2026/06/30 00:57"
+        },
+        {
+          "user": "estragon",
+          "comment": "アイビー・リーグを構成する8校ではそういう伝統だったけど裏切られたと /  “中間試験と期末試験の両方を自宅持ち帰り方式かつ資料参照禁止の試験にすることを決定”",
+          "tags": [],
+          "timestamp": "2026/06/30 00:37"
+        },
+        {
+          "user": "pekee-nuee-nuee",
+          "comment": "紙しかない時代でも家でやってたら点数良くなったろうと思うんですが",
+          "tags": [],
+          "timestamp": "2026/06/30 00:16"
+        },
+        {
+          "user": "rna",
+          "comment": "「裕福な家庭から多額の寄付を受けていることもあり、大学は学生側を擁護する姿勢を見せた」大学の単位には術許し、義理許し、金許しの三つがあり…",
+          "tags": [
+            "シグルイ"
+          ],
+          "timestamp": "2026/06/30 00:03"
+        },
+        {
+          "user": "cinefuk",
+          "comment": "「その結果、対面方式による試験の平均点は100点満点中48点まで急落しました。中間試験を受験した学生のうち期末試験に出席したのは59人だけで、欠席した27人のうち22人は中間試験で満点を取っていた学生でした。」",
+          "tags": [
+            "不正",
+            "大学",
+            "chatGPT"
+          ],
+          "timestamp": "2026/06/29 23:57"
+        },
+        {
+          "user": "rag_en",
+          "comment": "“自宅持ち帰り方式かつ資料参照禁止の試験”…いや、まずそもそもなにこれ…。",
+          "tags": [
+            "大学",
+            "AI"
+          ],
+          "timestamp": "2026/06/29 23:30"
+        }
+      ],
+      "fetchedAt": "2026-06-29T15:58:52.115823+00:00"
+    },
+    {
+      "id": "h_df783532",
+      "title": "RAGを作るのではなく、検索される知識を運用する",
+      "url": "https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search",
+      "domain": "zenn.dev",
+      "bookmarkCount": 27,
+      "summary": "RAGは作るより、更新され続けるデータの中で精度を保つ方が難しかった。Difyで自前RAGを組んだあと、データ更新に合わせて検索品質を維持し続けるのがしんどかったので、Agent SearchとCloud Storageでナレッジ供給パイプラインを組んだ話。 TL;DR RAGで本当に重かったのは、初期構築ではなく、データ更新後も検索品質を...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search",
+      "comments": [],
+      "fetchedAt": "2026-06-29T15:58:52.869765+00:00"
+    },
+    {
+      "id": "h_19f95d64",
+      "title": "多くの現場を見て気づいた「有名ではないエンジニア」の生きのこり方",
+      "url": "https://speakerdeck.com/kenususugi/duo-kunoxian-chang-wojian-teqi-duita-you-ming-dehanaienzinia-nosheng-kinokorifang",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 17,
+      "summary": "2026/6/28 エンジニアがこの先生きのこるためのカンファレンス2026 Track B 14:30～",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kenususugi/duo-kunoxian-chang-wojian-teqi-duita-you-ming-dehanaienzinia-nosheng-kinokorifang",
+      "comments": [],
+      "fetchedAt": "2026-06-29T15:58:53.783025+00:00"
+    },
+    {
+      "id": "h_71de7d10",
+      "title": "現代の知識グラフとオントロジー - 「推論」から「契約」へ：データ品質保証と回答検証の全体像",
+      "url": "https://zenn.dev/yohei/articles/2026-06-28-kg-ontology-redefinition",
+      "domain": "zenn.dev",
+      "bookmarkCount": 10,
+      "summary": "本記事は シーズン4「現代の知識グラフとオントロジー」 の 第1部 です。シーズン2 第2部・第3部 が 分割統治（物理分離・論理結合） と 論理フェデレーション（Graph Contract、決定論的ツール）を説明したのに対し、シーズン4 は オントロジーの現代的解釈 と、DE/AI 実務者の視点での定義・活用方法 に焦点を当てます...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yohei/articles/2026-06-28-kg-ontology-redefinition",
+      "comments": [],
+      "fetchedAt": "2026-06-29T15:58:55.807837+00:00"
     }
   ],
-  "lastCollection": "2026-06-29T11:13:23.647964+00:00"
+  "lastCollection": "2026-06-29T15:58:55.807863+00:00"
 }
