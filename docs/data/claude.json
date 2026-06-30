@@ -1,133 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_7eaa71b0",
-      "title": "「Notionで良くない？」と思ってた私がObsidianにハマって、ついにClaudeと連携させた話",
-      "url": "https://zenn.dev/ryunotezenn/articles/3da3403bb2c30f",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612613+00:00",
-      "excerpt": "「Notionで良くない？」と思ってた私がObsidianにハマって、ついにClaudeと連携させた話 最初は正直、懐疑的でした Obsidianって名前、エンジニアなら一度は聞いたことあると思います。でも最初に触ったとき、私の感想はこうでした。 「……あれ、これただのMarkdownエディタじゃないの？」 Notionならデータベース機能もあるし、チームで共有もできるし、UIも洗練されてる。それ"
-    },
-    {
-      "id": "cc_5081fa7f",
-      "title": "Crashlytics の急増クラッシュを GitHub Actions + Claude で自動 Issue 化する",
-      "url": "https://zenn.dev/jambo_dev/articles/f53a9986948829",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612534+00:00",
-      "excerpt": "はじめに モバイルアプリを運用していると、毎朝 Crashlytics を眺めて「急増しているクラッシュ」を探し、手で GitHub Issue を立てる……という作業が地味に発生します。見落とすし、起票は雑になるし、見る人によってバラつく。いわゆる トイル（価値を生まない繰り返しの手作業） です。 そこで「急増クラッシュを毎朝自動で見つけて、原因の見当をつけた Issue を勝手に立てる」仕組み"
-    },
-    {
-      "id": "cc_bd021f90",
-      "title": "【rtk】Claude Codeの履歴8,600コマンドから探るトークン削減率90%の実態",
-      "url": "https://zenn.dev/masato_emata/articles/46b2c2be412ca1",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612433+00:00",
-      "excerpt": "「RTK」（Rust Token Killer）は、Claude Code のトークン消費量を抑えるプロキシツールです。 ツールの基本的な導入方法と仕組みについてはすでに公式ドキュメントやいくつかのブログ記事が存在するため、本記事では一歩進んで、どの操作でどれだけ削れたかという数値、そして圧縮が出力をどう歪めたかというリスクについて報告できればと思います。 データとしては、私がRTKを使用した約4"
-    },
-    {
-      "id": "cc_8b54aaa8",
-      "title": "非エンジニアがClaude Codeで1,588語のIT用語アプリを出荷した話",
-      "url": "https://zenn.dev/linknode/articles/it-logic-dev-story",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612309+00:00",
-      "excerpt": "エンジニアじゃない自分が、Claude Codeに頼り倒してIT用語辞書アプリをApp Storeに出した。その作り方の過程と、設計で考えたことをありのままに書く。 作ったもの 「IT Logic」という、IT用語を構造で理解するための辞書アプリ（iOS）。現時点で約1,588語を収録している。 構造で理解するIT辞書「IT Logic」 普通の用語辞典と違うのは、用語どうしの「関連・違い」を持た"
-    },
-    {
-      "id": "cc_18882f2d",
-      "title": "Claude Designにフォルダを渡したら、3分でワイヤーフレームが出てきた",
-      "url": "https://zenn.dev/cvl/articles/f3d03882f80ac5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612249+00:00",
-      "excerpt": "やったこと Claude Designを使い、同じくClaude Designで生成した架空のランニングコミュニティ（せいうちランニングクラブ）の完成済みサイト一式を解析させて、PC表示（1280px想定）のグレースケール・ワイヤーフレームを生成した。 AIで作ったサイトなので、最初から設計図が存在しない。完成形だけがある状態だ。将来の拡張を考えたとき「骨格を可視化しておきたい」と思い、Claud"
-    },
-    {
-      "id": "cc_ac0bac62",
-      "title": "Claude Code の Remote Control が固まる問題を、Python ウォッチドッグで自動復旧する",
-      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-remote-control-watchdog",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612121+00:00",
-      "excerpt": "はじめに Claude Code の Remote Control（claude --remote-control、スマホから手元のセッションを操作する機能）を使っていると、承認操作のあとにセッションが固まることがあります。スマホから承認してもターミナルに反映されず、status が waiting（承認待ち）のままロックする——手元の PC でマウスを動かせば復旧しますが、画面がスリープしている"
-    },
-    {
-      "id": "cc_eec327f5",
-      "title": "Claude Code の Agent Teams による、複数課題を同時並行で処理し自己改善を繰り返すAIチーム（PM＋作業者）の構築",
-      "url": "https://zenn.dev/acntechjp/articles/6f74e9a6aef835",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.612033+00:00",
-      "excerpt": "! この記事は、筆者の試行錯誤のメモを AI（Claude）を用いて整理・執筆 したものです。 はじめに（この記事の立ち位置） 筆者は開発作業をやるうえで、TAKT などを使って作業順序を決め打ちにすることで品質を上げていました。決まった流れに沿わせれば、抜け漏れが減って結果が安定します。 ただ、課題が増えるにつれて困りごとが出てきました。 複数の課題を同時並行で進めないと回らない場面が増えた。 "
-    },
-    {
-      "id": "cc_ae650884",
-      "title": "Claude Code の承認はどう決まるのか — 安全ガードの判断ロジックと --dangerously-skip-permissions",
-      "url": "https://zenn.dev/ruri/articles/claude-code-permission-guard",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.611955+00:00",
-      "excerpt": "TL;DR Claude Code がツール実行のたびに出す「承認するか？」のプロンプトは、deny > ask > allow の優先順位で機械的に判定されています --dangerously-skip-permissions（= bypassPermissions モード）は承認を一括スキップしますが、root/sudo では起動できず、危険な一部操作には安全装置が残ります 承認を「賢く減らす"
-    },
-    {
-      "id": "cc_5455c15f",
-      "title": "Claude Codeで朝の情報ダッシュボード「けさのまとめ」（Web）を4時間で作った感想",
-      "url": "https://zenn.dev/airpugame/articles/16a33b8cd715b6",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.589180+00:00",
-      "excerpt": "作ったもの けさのまとめ — 天気・ゴミ出し・電車遅延・ニュースなど、毎朝チェックしたい情報を1画面にまとめたダッシュボードです。 無料・会員登録不要で、スマホのホーム画面に追加すればアプリのように使えます。 AIで作りました このサイトは実装の大部分をClaude Code（Anthropicが提供するAIコーディングツール）に任せています。 この記事では実装テクニックの解説ではなく、AIを使っ"
-    },
-    {
-      "id": "cc_a4e4798a",
-      "title": "Claude Codeを全権限で走らせて事故った話と、権限を5段階に絞るまで",
-      "url": "https://zenn.dev/kenimo49/articles/claude-code-permission-5-stages-incident",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.589101+00:00",
-      "excerpt": "金曜の夜、私は機嫌よく作業を流していました。 その日は--dangerously-skip-permissionsを付けて、Claude Codeに全権限を渡していました。確認プロンプトが一切出ない。リファクタの提案がそのまま実行され、テストが走り、コミットまで進む。「これが自律エージェントか」と、私は少し感動すらしていました。 ところが翌朝、リポジトリを開いて血の気が引きました。git logに"
-    },
-    {
-      "id": "cc_2ac2e951",
-      "title": "Claude Code で『遅いLP』を Astro で作り直して Lighthouse 44→99 にした実装記録",
-      "url": "https://zenn.dev/noglin/articles/81b4c82fba51c0",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588995+00:00",
-      "excerpt": "TL;DR 既存の「重いLP」を Astro で作り直すと、Lighthouse パフォーマンススコアは普通に 44 → 99 まで動く。 ボトルネックの大半は JS の量 と 画像 と レンダリングブロック。Astro の「デフォルトでJSゼロ」が効く。 作業は Claude Code に投げて非同期で回す。人間は方針と検証だけ。 実測の Before/After を見られるデモを置いた（後述）"
-    },
-    {
-      "id": "cc_85824837",
-      "title": "Claude Code 週次アップデートまとめ（2026/06/27週）",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-06-27-090000",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588922+00:00",
-      "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 2026年6月27日週のまとめ: GitHub リリースノートを確認し、Claude Code v2.1.185〜v2.1.195 の変更7件をまとめた（欠番: v2.1.184 / v2.1.188 / v2.1.189 / v2.1.19"
-    },
-    {
       "id": "cc_89b383b5",
       "title": "【Claude Code】IDEなしで快適に！CLI作業環境おすすめ設定まとめ",
       "url": "https://zenn.dev/devex12/articles/claude-code-env-setup",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588813+00:00",
+      "fetchedAt": "2026-06-30T09:53:00.915187+00:00",
       "excerpt": "はじめに Claude CodeはCLIツールです。VS CodeやJetBrainsのようなGUIのIDEはありません。 最初は「IDEがないと不便じゃないか？」と感じるかもしれません。でも、適切に環境を整えれば、むしろ快適に開発できます。 この記事では、Claude CodeをCLIで使う際のおすすめ設定を紹介します。 ターミナル環境を整える Windows Terminalのペイン分割 Wi"
     },
     {
@@ -137,8 +17,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588745+00:00",
+      "fetchedAt": "2026-06-30T09:53:00.915099+00:00",
       "excerpt": "Claude Codeをもっと使いこなす③｜CLAUDE.mdの書き方と運用 こんにちは、開発日和です。 Claude Codeを使ううえで、地味に大事なのが CLAUDE.md の存在です。これがあるかないかで、Claudeの「使えるやつ感」が大きく変わります。 今回は CLAUDE.md の役割・書き方・運用のコツを実体験ベースでまとめました。 CLAUDE.md とは何か CLAUDE.md"
+    },
+    {
+      "id": "cc_8b54aaa8",
+      "title": "非エンジニアがClaude Codeで1,588語のIT用語アプリを出荷した話",
+      "url": "https://zenn.dev/linknode/articles/it-logic-dev-story",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.915034+00:00",
+      "excerpt": "エンジニアじゃない自分が、Claude Codeに頼り倒してIT用語辞書アプリをApp Storeに出した。その作り方の過程と、設計で考えたことをありのままに書く。 作ったもの 「IT Logic」という、IT用語を構造で理解するための辞書アプリ（iOS）。現時点で約1,588語を収録している。 構造で理解するIT辞書「IT Logic」 普通の用語辞典と違うのは、用語どうしの「関連・違い」を持た"
+    },
+    {
+      "id": "cc_18882f2d",
+      "title": "Claude Designにフォルダを渡したら、3分でワイヤーフレームが出てきた",
+      "url": "https://zenn.dev/cvl/articles/f3d03882f80ac5",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.914963+00:00",
+      "excerpt": "やったこと Claude Designを使い、同じくClaude Designで生成した架空のランニングコミュニティ（せいうちランニングクラブ）の完成済みサイト一式を解析させて、PC表示（1280px想定）のグレースケール・ワイヤーフレームを生成した。 AIで作ったサイトなので、最初から設計図が存在しない。完成形だけがある状態だ。将来の拡張を考えたとき「骨格を可視化しておきたい」と思い、Claud"
     },
     {
       "id": "cc_24b00c55",
@@ -147,18 +47,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588674+00:00",
+      "fetchedAt": "2026-06-30T09:53:00.914887+00:00",
       "excerpt": "Claude Codeをもっと使いこなす④｜サブエージェントとは？基本の考え方 こんにちは、開発日和です。 Claude Codeを使い始めて「なんか裏でいろいろ動いてるな」と感じることはありませんか？それがサブエージェントの仕業です。 今回はサブエージェントの基本的な考え方を解説します。「難しそう」と感じるかもしれませんが、概念を掴んでしまえばシンプルです。 サブエージェントとは 一言で言うと、"
-    },
-    {
-      "id": "cc_c6b975dd",
-      "title": "「なんとなくの性能差」にサヨナラ。GitHub Copilot、Claude Code、Cursor の裏側の仕組みを調べてみた。",
-      "url": "https://zenn.dev/sonicmoov/articles/63a6ae419db43a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588590+00:00",
-      "excerpt": "フロントエンドエンジニアの usako です。 皆さんは Cording Agent を使うにあたって、「〇〇の方が性能がなんとなく悪い気がする…」 ハッキリとした根拠がなくモヤっとした気持ちのまま使っていることがありませんか？ 今回は実際のところどうなのか？という自らの疑問を少しでも解消できるように、各 Cording Agent の性能差について調べてみました。 本記事では弊社が利用を認めてい"
     },
     {
       "id": "cc_4e437abb",
@@ -167,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588476+00:00",
+      "fetchedAt": "2026-06-30T09:53:00.886380+00:00",
       "excerpt": "Loop Engineeringという考え方が、開発の自動化を変えるかもしれない AIを使って開発効率を上げようとしているのに、自分がボトルネックになっていることはないでしょうか。 プロンプトを書いて、AIが応答して、自分がレビューして、修正して、また書く。このサイクルの中心に常に自分がいる。AIを使っているはずなのに、結局すべての判断と確認が自分を通る。 この問題を解決する考え方が Loop E"
     },
     {
@@ -177,8 +67,118 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-30T04:10:53.588381+00:00",
+      "fetchedAt": "2026-06-30T09:53:00.886314+00:00",
       "excerpt": "はじめに 音声入力AIツール「koedesk」を作っています。最近は、このkoedeskをもっと知ってもらうために、X（旧Twitter）で少額の動画広告を回し始めました。 広告を出していて地味に手こずったのが、ターゲティングの「種」集めです。今回は、その種集めを Claude Code から Grok Build をヘッドレスで呼び出して自動化した 話を書きます。結果として、最初は3,700万人"
+    },
+    {
+      "id": "cc_46cfed59",
+      "title": "AI 執筆の翻訳調・難解表現を自動検出する——Claude Code レビューエージェント開発記",
+      "url": "https://zenn.dev/motowo/articles/claude-code-natural-japanese-reviewer-agent",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.886248+00:00",
+      "excerpt": "AI に技術記事を書かせると、毎回どこかに英語直訳調の不自然な日本語が混ざります。この記事では、その手直しを再現性のあるレビューに変える Claude Code エージェントの作り方を紹介します。筆者は翻訳調・難解表現を毎回手で直していましたが、検出ルールをエージェントに移植することで、その判断を引き継げるようにしました。 ! この記事の要点（TL;DR） AI 執筆の日本語が不自然になる原因は「"
+    },
+    {
+      "id": "cc_ac0bac62",
+      "title": "Claude Code の Remote Control が固まる問題を、Python ウォッチドッグで自動復旧する",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-remote-control-watchdog",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.886178+00:00",
+      "excerpt": "はじめに Claude Code の Remote Control（claude --remote-control、スマホから手元のセッションを操作する機能）を使っていると、承認操作のあとにセッションが固まることがあります。スマホから承認してもターミナルに反映されず、status が waiting（承認待ち）のままロックする——手元の PC でマウスを動かせば復旧しますが、画面がスリープしている"
+    },
+    {
+      "id": "cc_bd3a29e8",
+      "title": "Claude Codeで「会話は本体・実作業は全部分身」運用で分かったこと — Opus/Sonnet使い分け",
+      "url": "https://zenn.dev/answer_philo/articles/claude-code-subagent-ops",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.886083+00:00",
+      "excerpt": "AIエージェントを毎日の相棒にして数ヶ月、いちばん効いた運用上の決断は「賢いモデルを選ぶ」でも「プロンプトを練る」でもなかった。本体（主人格のセッション）を会話に常駐させ、手を動かす作業はすべて分身（サブエージェント）に逃がす、というただ一つの線引きだった。 きっかけは単純な不満だ。コンテキストウィンドウは長くなったのに、本体に「このログ全部読んで」「このファイル群を直して」と頼んだ瞬間、会話が数"
+    },
+    {
+      "id": "cc_36fa252a",
+      "title": "Claude Code ショートカットコマンドは2種類 — Anthropicの組み込み型と、自分のカスタム型",
+      "url": "https://zenn.dev/pitodon/articles/e8bb5f5633a1f8",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.886018+00:00",
+      "excerpt": "0. はじめに Claude Code を使っていると、/clear や /compact のような / で始まるコマンドをよく目にしますよね。これらは「スラッシュコマンド」と呼ばれ、本来は手間のかかる長い入力や操作を、短い1つの呼び出しにまとめたものです。たとえば、「会話をリセットして」と打つ代わりに /clear、「変更内容を確認して、ふさわしいコミットメッセージで commit して」と打つ"
+    },
+    {
+      "id": "cc_eec327f5",
+      "title": "Claude Code の Agent Teams による、複数課題を同時並行で処理し自己改善を繰り返すAIチーム（PM＋作業者）の構築",
+      "url": "https://zenn.dev/acntechjp/articles/6f74e9a6aef835",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885934+00:00",
+      "excerpt": "! この記事は、筆者の試行錯誤のメモを AI（Claude）を用いて整理・執筆 したものです。 はじめに（この記事の立ち位置） 筆者は開発作業をやるうえで、TAKT などを使って作業順序を決め打ちにすることで品質を上げていました。決まった流れに沿わせれば、抜け漏れが減って結果が安定します。 ただ、課題が増えるにつれて困りごとが出てきました。 複数の課題を同時並行で進めないと回らない場面が増えた。 "
+    },
+    {
+      "id": "cc_ae650884",
+      "title": "Claude Code の承認はどう決まるのか — 安全ガードの判断ロジックと --dangerously-skip-permissions",
+      "url": "https://zenn.dev/ruri/articles/claude-code-permission-guard",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885860+00:00",
+      "excerpt": "TL;DR Claude Code がツール実行のたびに出す「承認するか？」のプロンプトは、deny > ask > allow の優先順位で機械的に判定されています --dangerously-skip-permissions（= bypassPermissions モード）は承認を一括スキップしますが、root/sudo では起動できず、危険な一部操作には安全装置が残ります 承認を「賢く減らす"
+    },
+    {
+      "id": "cc_f8dda5a8",
+      "title": "エージェントOS化するClaude CodeをOS機能との類推などで理解していく",
+      "url": "https://zenn.dev/uehaj/articles/claude-code-fork-branch-rewind-btw",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885729+00:00",
+      "excerpt": "! 本記事の内容は筆者個人の見解であり、所属する会社を代表するものではありません。 記述は執筆時点のClaude Codeの最新版に基づいています。 TL;DR Claude Code はエージェントアプリのための OS と見立てることができます。 この見立てのもとでは、「枝分かれ」系機能（/fork、/branch、/rewind、/btw、サブエージェント、動的ワークフロー）も OS の操作に"
+    },
+    {
+      "id": "cc_06d87a33",
+      "title": "Claude Code が書く Obsidian の frontmatter 表記揺れを Hook と Templater で根絶する",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-obsidian-frontmatter",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885661+00:00",
+      "excerpt": "はじめに Claude Code に Obsidian の vault を触らせていると、ノートを作るたびに frontmatter（プロパティ）の書き方が微妙に揺れる問題に悩まされます。人間が UI から作れば Templater がテンプレートを当ててくれますが、Claude Code は Write でファイルを直接書き起こすため、CLAUDE.md などにルールを書いていたとしても、結構な"
+    },
+    {
+      "id": "cc_40a4c7de",
+      "title": "Claude Code × Remotion で動画字幕を自動化する【環境構築から書き出しまで】",
+      "url": "https://zenn.dev/sarap422/articles/f7859f65f2939d",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885588+00:00",
+      "excerpt": "動画に字幕を付ける作業、地味に時間がかかりませんか？ テロップを1枚ずつ作って読み込んで位置合わせ…という繰り返し作業は、マニュアル動画でもPV動画でも変わりません。 この記事では、Claude Code × Remotion を使って、動画の字幕（キャプション）を透明背景のオーバーレイ動画として書き出す方法を解説します。Premiere Pro に重ねるだけで字幕が完成する仕組みを一度作れば、あ"
+    },
+    {
+      "id": "cc_5d55532c",
+      "title": "UbuntuにClaude Codeをインストールする手順",
+      "url": "https://zenn.dev/reika_sui/articles/ff74f98575d048",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885516+00:00",
+      "excerpt": "はじめに この記事では、Ubuntu / Linux / WSL 環境に Claude Code をインストールする手順をまとめます。 Claude Code は、ターミナル上で利用できるAIコーディング支援ツールです。 現在の公式手順では、Ubuntu / Linux / WSL では Native Install が推奨されています。 https://code.claude.com/docs/"
+    },
+    {
+      "id": "cc_ae5cc81e",
+      "title": "Claude Code で対話式の日記を作る — 「書く」のをやめて、自分を理解した AI に質問してもらう",
+      "url": "https://zenn.dev/takotyan00/articles/claude-code-dialog-journal",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T09:53:00.885365+00:00",
+      "excerpt": "私は日記を「書く」のをやめました。代わりに、Claude Code に質問してもらっています。/journal と打つと、AI がその日の出来事を聞いてきて、2〜3回深掘りして、整形して保存する。私がやるのは答えることだけです。 白紙に向かって書く日記は、私の場合いつも三日坊主で終わっていました。何を書くか決めるのが面倒で、面倒だから開かなくなる。対話なら、聞かれたことに答えるだけなので続きます。"
     },
     {
       "id": "cc_916ce8f0",
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-06-30T04:10:53.864210+00:00",
+      "fetchedAt": "2026-06-30T09:53:01.107438+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -197,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-30T04:10:54.392461+00:00",
+      "fetchedAt": "2026-06-30T09:53:01.289398+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-30T04:10:54.392613+00:00",
+      "fetchedAt": "2026-06-30T09:53:01.289464+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-30T04:10:54.392712+00:00",
+      "fetchedAt": "2026-06-30T09:53:01.289537+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-30T04:10:54.392729+00:00"
+  "lastCollection": "2026-06-30T09:53:01.289552+00:00"
 }
