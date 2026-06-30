@@ -1,83 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_ec792b99",
-      "title": "FlutterとClaude APIで麻雀の「どれを切る？」クイズアプリを作った話",
-      "url": "https://zenn.dev/yuen/articles/7fbb50504ec5d2",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954961+00:00",
-      "excerpt": "はじめに 今回はかなり趣味的な開発話です。 麻雀を覚えたばかりの人が「もっと練習したい」と思ったとき、ちょうどいい練習アプリってなかなかないんですよね。 というわけで、「どれを切ればいいか」を3択で答えるクイズアプリを、FlutterとClaude APIを組み合わせて作ってみました。 作ったもの 100問出題する「どれを切る？」クイズアプリ 固定問題50問（JSONで管理）＋Claude API"
-    },
-    {
-      "id": "cc_cd3a42de",
-      "title": "Whisper + Claude で「日本語の議事録」を自動生成するSaaSを個人開発した（設計と詰まりどころ）",
-      "url": "https://zenn.dev/kaigiai/articles/d97ce9c0f5d5bc",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954867+00:00",
-      "excerpt": "エンジニアとして、会議の音声・動画から日本語の議事録（決定事項・アクションアイテム付き）を自動生成するサービスを開発しています。文字起こしに OpenAI Whisper、議事録生成に Anthropic Claude を使った構成と、実装で詰まった点を共有します。 全体構成 フロント: Next.js (App Router) / バックエンド: FastAPI (Python) 文字起こし: "
-    },
-    {
-      "id": "cc_62c23864",
-      "title": "Claude APIのストリーミング応答をROS2で使う【リアルタイム音声合成・UI更新】",
-      "url": "https://zenn.dev/yamamoshu/articles/claude-api-streaming-ros2",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954790+00:00",
-      "excerpt": "LLMの応答は全部揃ってから届くより、生成されるたびに届く方が体験がいい。Claude APIのストリーミングをROS2と組み合わせて、ロボットの応答をリアルタイムに処理する方法を解説します。 なぜストリーミングが必要か 通常の呼び出し： リクエスト → [3〜10秒待つ] → 全文が届く → 音声合成開始 ストリーミング： リクエスト → [0.5秒] → 最初の単語 → 音声合成開始 → [逐"
-    },
-    {
-      "id": "cc_c3ab8dcd",
-      "title": "LangChainなしでLLMエージェントを作る【Claude API + Python実装】",
-      "url": "https://zenn.dev/yamamoshu/articles/llm-agent-no-langchain",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954713+00:00",
-      "excerpt": "LangChainは便利ですが、ブラックボックスになりがち。Claude APIのFunction Callingを使えば、エージェントの仕組みを理解しながら自分でゼロから実装できます。 エージェントの基本構造 ユーザー入力 ↓ LLM（何をすべきか判断） ↓ ツール呼び出しが必要 ツール実行（Python関数） ↓ 結果をLLMに返す LLM（結果を見て次の行動を決める） ↓ ... ループ 最"
-    },
-    {
-      "id": "cc_7acc8ded",
-      "title": "デザイン・コーディング未経験から、Claude Designで動きのあるWebサイトを作る",
-      "url": "https://zenn.dev/cvl/articles/c2d6f157cd0b60",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954640+00:00",
-      "excerpt": "はじめに 自分の運営するサッカーチーム(とランニングコミュニティ)の公式サイトを作りたかった。メンバー紹介、試合スケジュール、ユニフォーム紹介、ギャラリー——やりたいことは明確にある。でも、デザインができる人もいなければ、コードを書ける人もいない。 外注するには小さすぎる規模で、かといってWordPressをゼロから触るには時間が足りない。そんな状況で試したのが Claude Design だ。 "
-    },
-    {
-      "id": "cc_13a8b8ee",
-      "title": "【6/15当日撤回】Claude Agent SDK・claude -p のサブスク別枠化は何だったのか",
-      "url": "https://zenn.dev/sktt_panda/articles/claude-agent-sdk-billing-split-paused-2026-06",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954561+00:00",
-      "excerpt": "2026年6月15日、Anthropic は Claude のサブスクリプション利用枠を「対話（Interactive）」と「自動化（Programmatic）」に分割し、Agent SDK や claude -p、GitHub Actions 経由の利用を別建ての月額クレジットに切り出す——という大きな課金変更を予定していた。5月中旬に告知され、6月に入ってからは英語圏の個人開発者界隈でかなり騒"
-    },
-    {
-      "id": "cc_df5f3e29",
-      "title": "超便利なClaude Designの実践的な活用方法",
-      "url": "https://zenn.dev/branbran/articles/5730c47e1abac9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954458+00:00",
-      "excerpt": "はじめに 先日Claudeから登場したデザインプラットフォーム Claude Design を、ここ数週間にわたって一通り使ってみました。本記事では、その中で見つけた実践的な使い方を紹介します。 これから Claude Designを使ってみたい方、あるいは Figma Makeなどのツールから乗り換えを検討している方の参考になれば幸いです。 ! 本記事は、英語学習アプリ（仮）を題材に、実際の操作"
-    },
-    {
       "id": "cc_7eaa71b0",
       "title": "「Notionで良くない？」と思ってた私がObsidianにハマって、ついにClaudeと連携させた話",
       "url": "https://zenn.dev/ryunotezenn/articles/3da3403bb2c30f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954348+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.612613+00:00",
       "excerpt": "「Notionで良くない？」と思ってた私がObsidianにハマって、ついにClaudeと連携させた話 最初は正直、懐疑的でした Obsidianって名前、エンジニアなら一度は聞いたことあると思います。でも最初に触ったとき、私の感想はこうでした。 「……あれ、これただのMarkdownエディタじゃないの？」 Notionならデータベース機能もあるし、チームで共有もできるし、UIも洗練されてる。それ"
     },
     {
@@ -87,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954267+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.612534+00:00",
       "excerpt": "はじめに モバイルアプリを運用していると、毎朝 Crashlytics を眺めて「急増しているクラッシュ」を探し、手で GitHub Issue を立てる……という作業が地味に発生します。見落とすし、起票は雑になるし、見る人によってバラつく。いわゆる トイル（価値を生まない繰り返しの手作業） です。 そこで「急増クラッシュを毎朝自動で見つけて、原因の見当をつけた Issue を勝手に立てる」仕組み"
     },
     {
@@ -97,38 +27,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.954171+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.612433+00:00",
       "excerpt": "「RTK」（Rust Token Killer）は、Claude Code のトークン消費量を抑えるプロキシツールです。 ツールの基本的な導入方法と仕組みについてはすでに公式ドキュメントやいくつかのブログ記事が存在するため、本記事では一歩進んで、どの操作でどれだけ削れたかという数値、そして圧縮が出力をどう歪めたかというリスクについて報告できればと思います。 データとしては、私がRTKを使用した約4"
     },
     {
-      "id": "cc_25c0da8e",
-      "title": "Claude Code / Codexを安全に動かすためのmacOSでのローカルVM基盤",
-      "url": "https://zenn.dev/inventit/articles/secure-ai-agent-local-vm",
+      "id": "cc_8b54aaa8",
+      "title": "非エンジニアがClaude Codeで1,588語のIT用語アプリを出荷した話",
+      "url": "https://zenn.dev/linknode/articles/it-logic-dev-story",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884646+00:00",
-      "excerpt": "はじめに Claude Code や Codex のような AI Agent を開発に使う機会が増えてきました。 コードの修正、コマンド実行、Terraform の確認、AWS CLI の操作などを自然言語で依頼できるのは便利です。一方で、AI Agent にローカルマシン上で自由にコマンドを実行させることには、それなりの怖さがあります。 たとえば、以下のようなものをそのまま触らせるのは避けたいで"
+      "fetchedAt": "2026-06-30T04:10:53.612309+00:00",
+      "excerpt": "エンジニアじゃない自分が、Claude Codeに頼り倒してIT用語辞書アプリをApp Storeに出した。その作り方の過程と、設計で考えたことをありのままに書く。 作ったもの 「IT Logic」という、IT用語を構造で理解するための辞書アプリ（iOS）。現時点で約1,588語を収録している。 構造で理解するIT辞書「IT Logic」 普通の用語辞典と違うのは、用語どうしの「関連・違い」を持た"
     },
     {
-      "id": "cc_43f15f42",
-      "title": "Claude Codeに同じバグを3回出すと、自動でルール化される話",
-      "url": "https://zenn.dev/nexta_/articles/858e92ee22b4a4",
+      "id": "cc_18882f2d",
+      "title": "Claude Designにフォルダを渡したら、3分でワイヤーフレームが出てきた",
+      "url": "https://zenn.dev/cvl/articles/f3d03882f80ac5",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884586+00:00",
-      "excerpt": "こんにちは。製造業向けSaaSを開発しているエンジニアです。 AIエージェントを使い込むと、誰もが必ずぶつかる壁があります。「同じ失敗を、何度もAIに繰り返される」ことと、その対策で記録を増やすと今度は 「記憶が肥大化して、肝心なルールがノイズに埋もれる」ことです。 私はこの2つを、セッション履歴を 「一次資料」 として扱い、アジャイル開発のふりかえりのようにAI自身の振る舞いを少しずつルール化し"
+      "fetchedAt": "2026-06-30T04:10:53.612249+00:00",
+      "excerpt": "やったこと Claude Designを使い、同じくClaude Designで生成した架空のランニングコミュニティ（せいうちランニングクラブ）の完成済みサイト一式を解析させて、PC表示（1280px想定）のグレースケール・ワイヤーフレームを生成した。 AIで作ったサイトなので、最初から設計図が存在しない。完成形だけがある状態だ。将来の拡張を考えたとき「骨格を可視化しておきたい」と思い、Claud"
     },
     {
-      "id": "cc_c48eec8e",
-      "title": "Claude Code の設定体系を理解する",
-      "url": "https://zenn.dev/sonicmoov/articles/e670865809049b",
+      "id": "cc_ac0bac62",
+      "title": "Claude Code の Remote Control が固まる問題を、Python ウォッチドッグで自動復旧する",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-remote-control-watchdog",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884500+00:00",
-      "excerpt": "はじめに Claude Code を使い始めて「便利だな」と感じつつも、設定まわりが分かりづらいと感じていませんか？ CLAUDE.md って何を書くの？ settings.json とどう違うの？ 設定のスコープ（User / Project / Local）は何が違うの？ 権限の allow / deny はどう評価されるの？ この記事では、Claude Code の設定ファイル群の全体像とス"
+      "fetchedAt": "2026-06-30T04:10:53.612121+00:00",
+      "excerpt": "はじめに Claude Code の Remote Control（claude --remote-control、スマホから手元のセッションを操作する機能）を使っていると、承認操作のあとにセッションが固まることがあります。スマホから承認してもターミナルに反映されず、status が waiting（承認待ち）のままロックする——手元の PC でマウスを動かせば復旧しますが、画面がスリープしている"
+    },
+    {
+      "id": "cc_eec327f5",
+      "title": "Claude Code の Agent Teams による、複数課題を同時並行で処理し自己改善を繰り返すAIチーム（PM＋作業者）の構築",
+      "url": "https://zenn.dev/acntechjp/articles/6f74e9a6aef835",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.612033+00:00",
+      "excerpt": "! この記事は、筆者の試行錯誤のメモを AI（Claude）を用いて整理・執筆 したものです。 はじめに（この記事の立ち位置） 筆者は開発作業をやるうえで、TAKT などを使って作業順序を決め打ちにすることで品質を上げていました。決まった流れに沿わせれば、抜け漏れが減って結果が安定します。 ただ、課題が増えるにつれて困りごとが出てきました。 複数の課題を同時並行で進めないと回らない場面が増えた。 "
+    },
+    {
+      "id": "cc_ae650884",
+      "title": "Claude Code の承認はどう決まるのか — 安全ガードの判断ロジックと --dangerously-skip-permissions",
+      "url": "https://zenn.dev/ruri/articles/claude-code-permission-guard",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.611955+00:00",
+      "excerpt": "TL;DR Claude Code がツール実行のたびに出す「承認するか？」のプロンプトは、deny > ask > allow の優先順位で機械的に判定されています --dangerously-skip-permissions（= bypassPermissions モード）は承認を一括スキップしますが、root/sudo では起動できず、危険な一部操作には安全装置が残ります 承認を「賢く減らす"
     },
     {
       "id": "cc_5455c15f",
@@ -137,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884418+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.589180+00:00",
       "excerpt": "作ったもの けさのまとめ — 天気・ゴミ出し・電車遅延・ニュースなど、毎朝チェックしたい情報を1画面にまとめたダッシュボードです。 無料・会員登録不要で、スマホのホーム画面に追加すればアプリのように使えます。 AIで作りました このサイトは実装の大部分をClaude Code（Anthropicが提供するAIコーディングツール）に任せています。 この記事では実装テクニックの解説ではなく、AIを使っ"
     },
     {
@@ -147,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884352+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.589101+00:00",
       "excerpt": "金曜の夜、私は機嫌よく作業を流していました。 その日は--dangerously-skip-permissionsを付けて、Claude Codeに全権限を渡していました。確認プロンプトが一切出ない。リファクタの提案がそのまま実行され、テストが走り、コミットまで進む。「これが自律エージェントか」と、私は少し感動すらしていました。 ところが翌朝、リポジトリを開いて血の気が引きました。git logに"
     },
     {
@@ -157,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884258+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.588995+00:00",
       "excerpt": "TL;DR 既存の「重いLP」を Astro で作り直すと、Lighthouse パフォーマンススコアは普通に 44 → 99 まで動く。 ボトルネックの大半は JS の量 と 画像 と レンダリングブロック。Astro の「デフォルトでJSゼロ」が効く。 作業は Claude Code に投げて非同期で回す。人間は方針と検証だけ。 実測の Before/After を見られるデモを置いた（後述）"
     },
     {
@@ -167,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884185+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.588922+00:00",
       "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 2026年6月27日週のまとめ: GitHub リリースノートを確認し、Claude Code v2.1.185〜v2.1.195 の変更7件をまとめた（欠番: v2.1.184 / v2.1.188 / v2.1.189 / v2.1.19"
     },
     {
@@ -177,8 +127,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-06-29T20:07:57.884048+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.588813+00:00",
       "excerpt": "はじめに Claude CodeはCLIツールです。VS CodeやJetBrainsのようなGUIのIDEはありません。 最初は「IDEがないと不便じゃないか？」と感じるかもしれません。でも、適切に環境を整えれば、むしろ快適に開発できます。 この記事では、Claude CodeをCLIで使う際のおすすめ設定を紹介します。 ターミナル環境を整える Windows Terminalのペイン分割 Wi"
+    },
+    {
+      "id": "cc_30f47ce4",
+      "title": "Claude Codeをもっと使いこなす③｜CLAUDE.mdの書き方と運用",
+      "url": "https://zenn.dev/kaihatsu_biyori/articles/claude-code-claudemd-md",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.588745+00:00",
+      "excerpt": "Claude Codeをもっと使いこなす③｜CLAUDE.mdの書き方と運用 こんにちは、開発日和です。 Claude Codeを使ううえで、地味に大事なのが CLAUDE.md の存在です。これがあるかないかで、Claudeの「使えるやつ感」が大きく変わります。 今回は CLAUDE.md の役割・書き方・運用のコツを実体験ベースでまとめました。 CLAUDE.md とは何か CLAUDE.md"
+    },
+    {
+      "id": "cc_24b00c55",
+      "title": "Claude Codeをもっと使いこなす④｜サブエージェントとは？基本の考え方",
+      "url": "https://zenn.dev/kaihatsu_biyori/articles/claude-code-subagent-basics",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.588674+00:00",
+      "excerpt": "Claude Codeをもっと使いこなす④｜サブエージェントとは？基本の考え方 こんにちは、開発日和です。 Claude Codeを使い始めて「なんか裏でいろいろ動いてるな」と感じることはありませんか？それがサブエージェントの仕業です。 今回はサブエージェントの基本的な考え方を解説します。「難しそう」と感じるかもしれませんが、概念を掴んでしまえばシンプルです。 サブエージェントとは 一言で言うと、"
+    },
+    {
+      "id": "cc_c6b975dd",
+      "title": "「なんとなくの性能差」にサヨナラ。GitHub Copilot、Claude Code、Cursor の裏側の仕組みを調べてみた。",
+      "url": "https://zenn.dev/sonicmoov/articles/63a6ae419db43a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.588590+00:00",
+      "excerpt": "フロントエンドエンジニアの usako です。 皆さんは Cording Agent を使うにあたって、「〇〇の方が性能がなんとなく悪い気がする…」 ハッキリとした根拠がなくモヤっとした気持ちのまま使っていることがありませんか？ 今回は実際のところどうなのか？という自らの疑問を少しでも解消できるように、各 Cording Agent の性能差について調べてみました。 本記事では弊社が利用を認めてい"
+    },
+    {
+      "id": "cc_4e437abb",
+      "title": "Claude Code の /goal を使ったら anyだらけのコードが11分で型安全になった",
+      "url": "https://zenn.dev/inapvision/articles/loop-engineering-blog",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.588476+00:00",
+      "excerpt": "Loop Engineeringという考え方が、開発の自動化を変えるかもしれない AIを使って開発効率を上げようとしているのに、自分がボトルネックになっていることはないでしょうか。 プロンプトを書いて、AIが応答して、自分がレビューして、修正して、また書く。このサイクルの中心に常に自分がいる。AIを使っているはずなのに、結局すべての判断と確認が自分を通る。 この問題を解決する考え方が Loop E"
+    },
+    {
+      "id": "cc_4d0fc702",
+      "title": "Claude Code から Grok Build をヘッドレスで呼んで、X広告のターゲット抽出を自動化した話",
+      "url": "https://zenn.dev/koedesk/articles/claude-code-grok-x-ad-targeting",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-06-30T04:10:53.588381+00:00",
+      "excerpt": "はじめに 音声入力AIツール「koedesk」を作っています。最近は、このkoedeskをもっと知ってもらうために、X（旧Twitter）で少額の動画広告を回し始めました。 広告を出していて地味に手こずったのが、ターゲティングの「種」集めです。今回は、その種集めを Claude Code から Grok Build をヘッドレスで呼び出して自動化した 話を書きます。結果として、最初は3,700万人"
     },
     {
       "id": "cc_916ce8f0",
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-06-29T20:07:58.303687+00:00",
+      "fetchedAt": "2026-06-30T04:10:53.864210+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -197,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-06-29T20:07:58.512148+00:00",
+      "fetchedAt": "2026-06-30T04:10:54.392461+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-06-29T20:07:58.512214+00:00",
+      "fetchedAt": "2026-06-30T04:10:54.392613+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-06-29T20:07:58.512285+00:00",
+      "fetchedAt": "2026-06-30T04:10:54.392712+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-06-29T20:07:58.512299+00:00"
+  "lastCollection": "2026-06-30T04:10:54.392729+00:00"
 }

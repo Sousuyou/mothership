@@ -1,408 +1,466 @@
 {
   "entries": [
     {
-      "id": "h_d356b6e6",
-      "title": "Claudeに「オントロジー」を持たせたら、コスト半分・3倍速になるかも",
-      "url": "https://zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
-      "domain": "zenn.dev",
-      "bookmarkCount": 249,
-      "summary": "Komlock lab VPoE阿部(@takupeso)です。 ClaudeCodeに既存設計・コードに関するナレッジを渡すとき、僕はずっと同じやり方をしていました。@でファイルを指定し、CLAUDE.mdにルールを足し、.claudeを整備していました。 これももちろん有効な手法です。ただ、AIの調子でアウトプットの精度にブレが出ます。同じナレッジ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/takupeso/articles/claude-ontology-knowledge-structuring",
+      "id": "h_b6b948c2",
+      "title": "Claude Code を4ヶ月使ってわかった、おすすめコマンド・スキル 10 選 - Qiita",
+      "url": "https://qiita.com/wataru86/items/b859f1578191a1e15808",
+      "domain": "qiita.com",
+      "bookmarkCount": 103,
+      "summary": "はじめに 以前こんな記事を書きました。 あれから4ヶ月以上使い込んで、ようやく使いこなせるようになってきた実感があります。 使っていて思うのは、コードを書いたりツールや MCP を呼び出したり、いろんな作業を Claude にやらせている一方で、Claude Code 自体の操作・制御は自分でやる必要があるということです。セ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/wataru86/items/b859f1578191a1e15808",
       "comments": [
         {
-          "user": "unmarshal",
-          "comment": "“オントロジー”",
+          "user": "mayumayu_nimolove",
+          "comment": "これ系の記事も多すぎだしブクマも多すぎ。いつぞやの英語学習かよ",
           "tags": [],
-          "timestamp": "2026/06/30 03:06"
+          "timestamp": "2026/06/30 13:07"
         },
         {
-          "user": "denimn",
-          "comment": "AWS summit NYCで発表のあったAWS Contextがブレークスルー起こすか期待してるんだよなー",
+          "user": "takafumiat",
+          "comment": "claude code の changelog 追ってればわかることだけど、誇張なく良心的な記事",
           "tags": [],
-          "timestamp": "2026/06/30 00:24"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Claude Codeにオントロジー的な関係グラフを持たせ、推測を減らす手法。筆者の例ではコスト$1.26→$0.62、応答2分7秒→44秒、キャッシュ読取764.7k→118.1k。",
-          "tags": [
-            "Claude Code"
-          ],
-          "timestamp": "2026/06/29 22:32"
-        },
-        {
-          "user": "lets_skeptic",
-          "comment": "Serena MCP も理論的には良いはずだったのに、あんまり上手くいかなかったなぁ。そろそろブレイクスルーが起きないだろうか",
-          "tags": [],
-          "timestamp": "2026/06/29 22:24"
-        },
-        {
-          "user": "turanukimaru",
-          "comment": "「オントロジー」は哲学と言うかプラトンやアリストテレスの専門分野で、存在とは何か・どのようなものか・俺たちは何の話をしているのか？の研究。情報科学の用語だとか言わないで欲しいこの人のせいじゃないが。",
-          "tags": [],
-          "timestamp": "2026/06/29 21:49"
-        },
-        {
-          "user": "fraction",
-          "comment": "“オントロジーは情報科学の用語で”こういうの吐き気を催す（まあ、自分も結構やりますが。ネットのおかげで頻度減った）のでやめてほしい",
-          "tags": [],
-          "timestamp": "2026/06/29 20:53"
+          "timestamp": "2026/06/30 09:31"
         }
       ],
-      "fetchedAt": "2026-06-29T20:07:54.842703+00:00"
+      "fetchedAt": "2026-06-30T04:10:47.533481+00:00"
     },
     {
-      "id": "h_ffd91c02",
-      "title": "「スマホカメラ」が「本物のカメラ」に到底かなわない6つの理由",
-      "url": "https://japan.cnet.com/article/35249557/",
-      "domain": "japan.cnet.com",
-      "bookmarkCount": 148,
-      "summary": "最新スマートフォンのカメラは、写真を撮る道具として驚くほど高性能だ。大型センサー、明るいレンズ、そして豊富なソフトウェア機能を備え、プロ向けのミラーレス機に匹敵する写真が撮れる。それでも筆者は、カメラをスマホ1台に置き換えたいとは思わない。プロの写真家として、そしてスマホのレビュアーとして数々の機...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35249557/",
-      "comments": [
-        {
-          "user": "takeishi",
-          "comment": "イメージセンサーサイズは正義…なんだけどそのために大きくて嵩張るという宿命も大きいカメラには付き物でな。どこに行くにしても首からカメラぶら下げなくていい気楽さは大きい",
-          "tags": [],
-          "timestamp": "2026/06/30 01:40"
-        },
-        {
-          "user": "naoya2k",
-          "comment": "かなうとかかなわないとか以前に200g未満で1/1.3〜1インチセンサーのカメラをちゃんと継続して出してくれませんか? コンデジがスマホカメラに(カメラ機能だけ見ても)到底叶わない理由は10をくだらないぞ",
-          "tags": [],
-          "timestamp": "2026/06/30 00:59"
-        },
-        {
-          "user": "kazoo_keeper2",
-          "comment": "なんで焦点距離の問題に触れないんだろ？スマホカメラの最大の弱点は、物理的な制約で「広角」寄り（焦点距離が短い）になってしまう事だと思うけど…",
-          "tags": [],
-          "timestamp": "2026/06/30 00:36"
-        },
-        {
-          "user": "fufuvalso",
-          "comment": "この記事を書いたAndrew Lanxonの別記事「究極のスマホカメラ徹底比較テスト」「OPPO Find X9 Ultraが大好き、素晴らしいスマホ」 https://www.cnet.com/profiles/ahoyle/ オタクの自虐ネタだよ　（また削除しよ）",
-          "tags": [],
-          "timestamp": "2026/06/29 23:17"
-        },
-        {
-          "user": "koishi",
-          "comment": "プロが使うものにこだわるのは当然。ただいくら項目をあげても到底かなわない、ってのは極一部の極一面。利便性や価格も含めたトータルで負けてるから使う人は減ってる。",
-          "tags": [],
-          "timestamp": "2026/06/29 22:48"
-        },
-        {
-          "user": "SPIRIT_PHOENIX",
-          "comment": "キヤノン業務用4Kカメラ「おっ、そうだな」",
-          "tags": [],
-          "timestamp": "2026/06/29 22:16"
-        }
-      ],
-      "fetchedAt": "2026-06-29T20:07:57.174735+00:00"
-    },
-    {
-      "id": "h_01dd6e39",
-      "title": "「Firefox」内蔵の無償VPN、日本にも展開？ どの国からの接続かを隠し、プライバシーを保護／【やじうまの杜】",
-      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2120633.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 131,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2120633.html",
-      "comments": [
-        {
-          "user": "bml",
-          "comment": "オマ国が気軽に",
-          "tags": [],
-          "timestamp": "2026/06/30 04:07"
-        },
-        {
-          "user": "bnckmnj",
-          "comment": "いい方向に舵切ったなって印象　めたます専用機なりつつあってもう軽さでも便利さでも名前あがらないなぁと思ってたところだからニュースになって嬉しいよ…",
-          "tags": [],
-          "timestamp": "2026/06/30 02:52"
-        },
-        {
-          "user": "hamigakiniku",
-          "comment": "使う予定はとくにないけど右上で太字で主張しておりかわいい",
-          "tags": [],
-          "timestamp": "2026/06/30 02:13"
-        },
-        {
-          "user": "punychan",
-          "comment": "全部は調べてないけど、whoisしたらMozillaの持っているネットワークなので、VPNなのは特定できそうね。",
-          "tags": [],
-          "timestamp": "2026/06/29 23:45"
-        },
-        {
-          "user": "wktk_msum",
-          "comment": "Mullvad不要？？",
-          "tags": [
-            "VPN",
-            "セキュリティ",
-            "プライバシー"
-          ],
-          "timestamp": "2026/06/29 23:39"
-        },
-        {
-          "user": "Knoa",
-          "comment": "ヘルプ https://support.mozilla.org/ja/kb/built-in-vpn には50GBのうちの現在の使用量が表示されたスクショがあるけど、この記事内のスクショにも自分の Firefox 153 Beta にも表示されてないな…。",
-          "tags": [],
-          "timestamp": "2026/06/29 23:29"
-        }
-      ],
-      "fetchedAt": "2026-06-29T20:07:51.700994+00:00"
-    },
-    {
-      "id": "h_d0d2e419",
-      "title": "「ヨドバシ池袋店」を見てきた 関東最大の1万坪に家電体験空間",
-      "url": "https://www.watch.impress.co.jp/docs/news/2120942.html",
+      "id": "h_32b36b38",
+      "title": "日清「謎うなぎ丼」登場 さらに“うなぎ丼”らしい味わい",
+      "url": "https://www.watch.impress.co.jp/docs/news/2120894.html",
       "domain": "watch.impress.co.jp",
-      "bookmarkCount": 101,
+      "bookmarkCount": 102,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2120942.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2120894.html",
       "comments": [
         {
-          "user": "sippo_des",
-          "comment": "デカくなったみたいだけど、売り方なんも変わってなさそう。控えるのはポインツ合戦かな~",
+          "user": "haniwa75",
+          "comment": "去年投げ売りしてるときに食った。128円なら許せる、低下なら絶対許さないって感じだったな。今年も投げ売りしてたら買うかも。",
           "tags": [],
-          "timestamp": "2026/06/30 04:47"
+          "timestamp": "2026/06/30 13:09"
         },
         {
-          "user": "theNULLPO",
-          "comment": "やっぱデカい店は心が躍る。実際に商品を手に取ってみてはじめてわかる事はある",
-          "tags": [
-            "家電",
-            "ビジネス",
-            "東京"
-          ],
-          "timestamp": "2026/06/30 02:50"
+          "user": "udongerge",
+          "comment": "ちょっと食いたいね。うなぎの代わりにとは思わないけど。",
+          "tags": [],
+          "timestamp": "2026/06/30 13:03"
         },
         {
           "user": "Klassik-Musik",
-          "comment": "電気屋ってだけでカミさんが行きたがらないんだよな",
+          "comment": "うなぎ不使用のうな丼ってなんだよ",
           "tags": [],
-          "timestamp": "2026/06/30 01:44"
+          "timestamp": "2026/06/30 12:39"
         },
         {
-          "user": "sirobu",
-          "comment": "先行店舗に対してどう独自性を打ち出してるのかがイマイチ伝わらないな。ビックは西口本店がヤマダに比べると手狭なのと、店舗が点々としててとっ散らかってる印象が強い。ヨド新宿もそんな感じ",
+          "user": "n2sz",
+          "comment": "369円か結構高めだな",
+          "tags": [],
+          "timestamp": "2026/06/30 12:38"
+        },
+        {
+          "user": "todays_mitsui",
+          "comment": "買う",
+          "tags": [],
+          "timestamp": "2026/06/30 12:33"
+        },
+        {
+          "user": "atohiro",
+          "comment": "行きつけの店がこれを土用の丑を過ぎるとすぐに賞味期限切れ間近でなくても30%引きになるので、そうなってから買う予定。",
+          "tags": [],
+          "timestamp": "2026/06/30 12:25"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:47.032418+00:00"
+    },
+    {
+      "id": "h_deec9eb5",
+      "title": "逆にすごい。大手コンサル作「AIのすごさを証明する報告書」がハルシネーションだらけ | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/a-report-full-of-hallucinations/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 96,
+      "summary": "AIのおかげで仕事が楽になった人は多いのではないでしょうか。 私も、ライティングするにあたって、資料を探してもらったり、録音した音声を文字起こしして綺麗に整えてもらったりと、AIによって作業効率が上がったのを実感している側の一員。 特に、録音した自分の声を聞かなくて済むようになったので、心理ストレスか...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/a-report-full-of-hallucinations/",
+      "comments": [
+        {
+          "user": "shodai",
+          "comment": "“世界的なコンサルティング会社KPMGが公開したAIレポートの中に、実在しないAI活用事例が複数含まれていたことが明らかになりました。”",
+          "tags": [],
+          "timestamp": "2026/06/30 13:08"
+        },
+        {
+          "user": "nandenandechan",
+          "comment": "怖いな。AI作成のものにはわかるように記載しないといけないとか、ルール作りがないと、誤情報を掴まされて崩壊しそう。",
+          "tags": [],
+          "timestamp": "2026/06/30 12:32"
+        },
+        {
+          "user": "bigburn",
+          "comment": "ギズモードは記事を何周か遅れで掲載していて、それでもこうしてブクマされるので嫌になる。",
+          "tags": [],
+          "timestamp": "2026/06/30 12:31"
+        },
+        {
+          "user": "AKIMOTO",
+          "comment": "人力でもこれまでそんな感じで、コンサルの報告書をまじめに読むやつがいるなんて、みたいな話だったりして",
           "tags": [
-            "ビジネス"
+            "AI"
           ],
-          "timestamp": "2026/06/30 01:34"
+          "timestamp": "2026/06/30 12:23"
         },
         {
-          "user": "dollarss",
-          "comment": "ついに誕生したか、「東がヨドバシ西東武〜♫」",
+          "user": "tk_musik",
+          "comment": "見分けつかないからAIが生成したものは正しいものとする！くらいの意思決定を人類はしかねない",
           "tags": [],
-          "timestamp": "2026/06/30 01:22"
+          "timestamp": "2026/06/30 12:19"
         },
         {
-          "user": "TriQ",
-          "comment": "まぁ池袋民はビックカメラに行き続けると思うからこのヨドバシがどうなっていくかは色々な意味で楽しみ",
+          "user": "hiroyuki1983",
+          "comment": "実際のコンサルの資料も似たようなもんだという風潮",
           "tags": [],
-          "timestamp": "2026/06/30 01:16"
+          "timestamp": "2026/06/30 12:12"
         }
       ],
-      "fetchedAt": "2026-06-29T20:07:52.205588+00:00"
+      "fetchedAt": "2026-06-30T04:10:49.404976+00:00"
     },
     {
-      "id": "h_4b0bd17d",
-      "title": "メルカリで「傷があるので安い」iPhoneを買ったら…盗品としてロックされ、メルカリから警察へ行くよう回答され、警察には門前払い…105,000円を失うことに",
-      "url": "https://togetter.com/li/2715015",
-      "domain": "togetter.com",
-      "bookmarkCount": 52,
-      "summary": "酢酸ちゃん @Ryunen_bocchi メルカリで「傷があるので安い」 iPhoneを買う ↓ 盗品としてロックがかかっている ↓ コメ欄で偽のIMEIが書いてあるが、実際はソフトバンク✕ ↓ で105000円失って横転 おそらくApple Careの紛失サポートで、「盗まれた」と嘘ついて新しい端末をもらい、旧端末を転売したものかと 拡散お願いしま...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2715015",
+      "id": "h_36953127",
+      "title": "Google、Geminiで学習用「study notebooks」を提供、学習テーマに沿ったレッスンと練習問題で学べる | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/06/gemini-study-notebooks",
+      "domain": "gihyo.jp",
+      "bookmarkCount": 72,
+      "summary": "Google⁠⁠、Geminiで学習用「study notebooks」を提供⁠⁠、学習テーマに沿ったレッスンと練習問題で学べる Googleは2026年6月25日、Geminiアプリで学習向けの「study notebooks」を提供すると発表した。学習テーマや教材に沿って学習用ノートブックを作成し、診断クイズで理解度を確認できるほか、短いレッスンや練習問題...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/06/gemini-study-notebooks",
       "comments": [
         {
-          "user": "hazel_pluto",
-          "comment": "だから、メルカリで買うなと、",
+          "user": "sotonohitokun",
+          "comment": "コレで知能格差は拡がるのが辛い。認知FBや継続的努力が出来る報酬系の強弱遺伝で学習効率にブーストをかける仕組みなので(はてぶしても続けないと意味ない系)。学習パスもAIに聞けば独学継続できる人は先生が不要",
           "tags": [],
-          "timestamp": "2026/06/30 04:24"
+          "timestamp": "2026/06/30 13:00"
         },
         {
-          "user": "rshi",
-          "comment": "IMEIチェックしてから買わないの？メルカリが社会の敵なのはそう。",
+          "user": "Caerleon0327",
+          "comment": "AI教師あり学習（適当）",
           "tags": [],
-          "timestamp": "2026/06/30 02:00"
+          "timestamp": "2026/06/30 12:34"
         },
         {
-          "user": "hazlitt",
-          "comment": "警察に門前払い、のくだりがよくわからない（なぜ被害届を出さないのか？）。経験からいうと事情の説明が面倒そうな件はあらかじめ必要な内容をそのまま使える書面にして持参すると手続きが円滑に進む",
+          "user": "aosiro",
+          "comment": "各種資格に対応してくれると強いね",
           "tags": [],
-          "timestamp": "2026/06/30 01:26"
+          "timestamp": "2026/06/30 12:19"
         },
         {
-          "user": "s17er",
-          "comment": "こういう時に出品者を警察に突き出せない仕組みなのはいい加減どうにかしたほうがいい。iPhoneはリセールバリューが高いのだから安心して取引させな",
+          "user": "amatou310",
+          "comment": "プログラミング言語とかも対象になるのかな？",
           "tags": [],
-          "timestamp": "2026/06/30 00:40"
+          "timestamp": "2026/06/30 11:45"
         },
         {
-          "user": "zenkoku9",
-          "comment": "やっぱりメルカリって使ったらダメだな",
+          "user": "takanagi1225",
+          "comment": "ドイツ語とか中国語とかアラビア語、難しい言語学習のノートを作ってくれるならありがたいな。マジでGeminiくんさえいればいいわ…。",
           "tags": [],
-          "timestamp": "2026/06/29 23:51"
+          "timestamp": "2026/06/30 11:26"
         },
         {
-          "user": "Kenju",
-          "comment": "逆も怖いなと思う。相手がまともじゃなかったらこちらが悪いことにされかねない。高額な品は、メルカリでは買わない、売らないが重要",
+          "user": "muu2000",
+          "comment": "今月子供が生まれたんだが、十年後の勉強のイメージがわかないんだよな。",
           "tags": [],
-          "timestamp": "2026/06/29 23:38"
+          "timestamp": "2026/06/30 11:13"
         }
       ],
-      "fetchedAt": "2026-06-29T20:07:54.191667+00:00"
-    },
-    {
-      "id": "h_df783532",
-      "title": "RAGを作るのではなく、検索される知識を運用する",
-      "url": "https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search",
-      "domain": "zenn.dev",
-      "bookmarkCount": 49,
-      "summary": "RAGは作るより、更新され続けるデータの中で精度を保つ方が難しかった。Difyで自前RAGを組んだあと、データ更新に合わせて検索品質を維持し続けるのがしんどかったので、Agent SearchとCloud Storageでナレッジ供給パイプラインを組んだ話。 TL;DR RAGで本当に重かったのは、初期構築ではなく、データ更新後も検索品質を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search",
-      "comments": [],
-      "fetchedAt": "2026-06-29T20:07:52.906031+00:00"
-    },
-    {
-      "id": "h_19f95d64",
-      "title": "多くの現場を見て気づいた「有名ではないエンジニア」の生きのこり方",
-      "url": "https://speakerdeck.com/kenususugi/duo-kunoxian-chang-wojian-teqi-duita-you-ming-dehanaienzinia-nosheng-kinokorifang",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 40,
-      "summary": "2026/6/28 エンジニアがこの先生きのこるためのカンファレンス2026 Track B 14:30～",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kenususugi/duo-kunoxian-chang-wojian-teqi-duita-you-ming-dehanaienzinia-nosheng-kinokorifang",
-      "comments": [
-        {
-          "user": "akiyoshi83",
-          "comment": "これは信用できるスライド>「半分は運」",
-          "tags": [],
-          "timestamp": "2026/06/30 05:06"
-        },
-        {
-          "user": "tmdtky11",
-          "comment": "キラキラしてない現場の生の声だ。アタイそういうのキライじゃないよ。",
-          "tags": [
-            "あとで読む",
-            "エンジニア",
-            "生"
-          ],
-          "timestamp": "2026/06/30 03:56"
-        },
-        {
-          "user": "ugo_uozumi",
-          "comment": "Tech系じゃない中小企業の情シス兼ヘルプデスク的なポジションは「生きのこる」という意味ではありなのかもしれないが、対人業務が嫌でエンジニアになった人の多くはそういうの嫌いなんだよね。",
-          "tags": [],
-          "timestamp": "2026/06/30 02:32"
-        }
-      ],
-      "fetchedAt": "2026-06-29T20:07:55.268517+00:00"
-    },
-    {
-      "id": "h_0a6087ed",
-      "title": "持ち帰り試験で平均96点のクラスが対面試験に切り替えると平均48点に、教授は「AIでカンニングしている」と落胆",
-      "url": "https://gigazine.net/news/20260629-ai-exam-brown-university/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 37,
-      "summary": "アメリカの名門・ブラウン大学の教授が、自身が担当する数理経済学の試験で大規模な不正があったという話を海外メディアのEL PAÍSに共有しました。試験を自宅持ち帰り方式から対面方式に切り替えただけで平均点が大幅に下がり、持ち帰り試験で満点を出した学生のほとんどは対面試験に出席してこなかったといいます。 Pro...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260629-ai-exam-brown-university/",
-      "comments": [
-        {
-          "user": "muramurax",
-          "comment": "自宅で本人にまかせるならAI無い時代でもカンニングするでしょうねり",
-          "tags": [],
-          "timestamp": "2026/06/30 04:04"
-        },
-        {
-          "user": "nomitori",
-          "comment": "そりゃするだろ感しかない…",
-          "tags": [],
-          "timestamp": "2026/06/30 02:05"
-        },
-        {
-          "user": "ultimatebreak",
-          "comment": "ようやくAIを使い始めたんだけど、すごい勢いで思考力というか思考するということそのもののやる気がなくなってきてて恐怖を感じている",
-          "tags": [],
-          "timestamp": "2026/06/30 02:05"
-        },
-        {
-          "user": "nowandzen",
-          "comment": "AI時代の知性の形",
-          "tags": [],
-          "timestamp": "2026/06/30 01:42"
-        },
-        {
-          "user": "TriQ",
-          "comment": "自宅受験可かつ資料閲覧禁止の資格試験とかだとそういう試験はカメラONで自宅の中撮影させられたりするけどそういうのも無かったのかな。そりゃカンニングするわ",
-          "tags": [],
-          "timestamp": "2026/06/30 01:24"
-        },
-        {
-          "user": "H_He_Li_Be",
-          "comment": "「プリンストン大学では...試験監督を置かないという伝統規定が廃止」カンニングを容認する（実力を身につける気がないなら好きにしろ）という方針だと思っていたので、逆に驚いた。本当に不正がないと思っていたの？",
-          "tags": [],
-          "timestamp": "2026/06/30 01:00"
-        }
-      ],
-      "fetchedAt": "2026-06-29T20:07:53.552291+00:00"
-    },
-    {
-      "id": "h_a169a274",
-      "title": "あなたの.envはDockerイメージに焼き込まれ、誰でも抜き出せる - Qiita",
-      "url": "https://qiita.com/kenimo49/items/fd13ea9436bbb3985dfc",
-      "domain": "qiita.com",
-      "bookmarkCount": 22,
-      "summary": "本記事が扱うのは一番下です。Gitに何を上げたかは関係ありません。ビルドという行為そのものが、秘密をイメージのレイヤーに固定してしまう、という話です。 他人のイメージから鍵が出てきた話 具体例から入ります。以前、あるOSSのDockerイメージをベースにしようとしてDocker Hubから引いてきたとき、中身を確認する...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kenimo49/items/fd13ea9436bbb3985dfc",
-      "comments": [
-        {
-          "user": "hogetax",
-          "comment": "なんかオレの使い方と随分違う気がする。今更だけど、Dockerっていろんな使い方が出来るんだな",
-          "tags": [],
-          "timestamp": "2026/06/27 05:23"
-        }
-      ],
-      "fetchedAt": "2026-06-29T20:07:56.311829+00:00"
-    },
-    {
-      "id": "h_71de7d10",
-      "title": "現代の知識グラフとオントロジー - 「推論」から「契約」へ：データ品質保証と回答検証の全体像",
-      "url": "https://zenn.dev/yohei/articles/2026-06-28-kg-ontology-redefinition",
-      "domain": "zenn.dev",
-      "bookmarkCount": 18,
-      "summary": "本記事は シーズン4「現代の知識グラフとオントロジー」 の 第1部 です。シーズン2 第2部・第3部 が 分割統治（物理分離・論理結合） と 論理フェデレーション（Graph Contract、決定論的ツール）を説明したのに対し、シーズン4 は オントロジーの現代的解釈 と、DE/AI 実務者の視点での定義・活用方法 に焦点を当てます...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yohei/articles/2026-06-28-kg-ontology-redefinition",
-      "comments": [],
-      "fetchedAt": "2026-06-29T20:07:56.682400+00:00"
-    },
-    {
-      "id": "h_6809fea9",
-      "title": "Git 3.0が近づいているので、今のうちに知っておきたい変更点まとめ - Qiita",
-      "url": "https://qiita.com/YuukiYoshida/items/a2d825e3ee3e3a4b6dbd",
-      "domain": "qiita.com",
-      "bookmarkCount": 10,
-      "summary": "はじめに Gitは開発現場では欠かせないツールですが、「最近Gitって何か変わったの？」と聞かれると、意外と答えられない方も多いのではないでしょうか。 現在も最新バージョンは2系ですが、Gitでは将来的なメジャーバージョンも見据えた改善が継続的に進められています。 今回は、Git 3.0を見据えて注目されている変更...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/YuukiYoshida/items/a2d825e3ee3e3a4b6dbd",
-      "comments": [],
-      "fetchedAt": "2026-06-29T20:07:57.688318+00:00"
+      "fetchedAt": "2026-06-30T04:10:48.350683+00:00"
     },
     {
       "id": "h_ef52def3",
       "title": "「高市人気」と選挙結果にズレ？ 自民推薦候補が杉並区長選で敗北、岸本聡子氏が再選",
       "url": "https://www.j-cast.com/2026/06/29515961.html?p=all",
       "domain": "j-cast.com",
-      "bookmarkCount": 4,
+      "bookmarkCount": 64,
       "summary": "2026年6月28日に投票された東京都杉並区長選。29日に開票され、現職の岸本聡子氏が再選を決めた。得票数は10万6487票、得票率は52.74%で圧勝だった。 「国政の代理戦争」と位置づけるメディアも 前回22年に実施された杉並区長選では、当時の現職・田中良氏をわずか187票差で岸本氏が破る歴史的な大接戦となった。自民党...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.j-cast.com/2026/06/29515961.html?p=all",
       "comments": [
         {
-          "user": "daruyanagi",
-          "comment": "“「国政の代理戦争」と位置づけるメディアも”　← 地元には地元それぞれの課題がある。国政占いに使うな",
+          "user": "mag4n",
+          "comment": "うちの選挙区だがまー色々察するところがある。阿佐ヶ谷、高円寺、高井戸、浜田山あたりに所謂左界隈(中核派込)が固まってて西荻窪は新興宗教たくさん、ア○フもあるぜ。まーそういうとこ。",
+          "tags": [
+            "ネタ"
+          ],
+          "timestamp": "2026/06/30 13:04"
+        },
+        {
+          "user": "kenjou",
+          "comment": "初の女性首相ということで色々と改革を期待されていたんだろうけど、中身は右翼に従うだけの古い政治家だとすでにバレてしまっているので、人気もどんどん後退していくだろう。",
           "tags": [],
-          "timestamp": "2026/06/30 05:03"
+          "timestamp": "2026/06/30 13:01"
+        },
+        {
+          "user": "lirarara",
+          "comment": "純粋に岸本さんが一期目でやってきた事や、今後についても評価と期待をもって当選されたというだけでしょ…もちろんまったくの無関係とは言わないけれど、ここで高市さんを出すのは少し違うのでは",
+          "tags": [],
+          "timestamp": "2026/06/30 12:55"
+        },
+        {
+          "user": "twmw",
+          "comment": "中道の自滅だった証左では？高市人気とかYouTube見過ぎなんじゃないの？🤔",
+          "tags": [],
+          "timestamp": "2026/06/30 12:53"
+        },
+        {
+          "user": "puplog",
+          "comment": "今回は動画発注してないからでは？",
+          "tags": [],
+          "timestamp": "2026/06/30 12:44"
+        },
+        {
+          "user": "kirarapoo",
+          "comment": "高市を支持するのと地方選挙は別モンよね",
+          "tags": [],
+          "timestamp": "2026/06/30 12:38"
         }
       ],
-      "fetchedAt": "2026-06-29T20:07:55.796442+00:00"
+      "fetchedAt": "2026-06-30T04:10:52.683033+00:00"
+    },
+    {
+      "id": "h_66abc821",
+      "title": "NICTら、都市の既設光通信インフラで世界新記録となる450Tbpsの大容量伝送に成功",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2120915.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 40,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2120915.html",
+      "comments": [
+        {
+          "user": "gimonfu_usr",
+          "comment": "“国立研究開発法人情報通信研究機構（NICT）を中心とした国際共同研究グループは、英国ロンドンの都市に敷設されている光ファイバーを用いて”",
+          "tags": [],
+          "timestamp": "2026/06/30 08:44"
+        },
+        {
+          "user": "kathew",
+          "comment": "単位がやばば",
+          "tags": [],
+          "timestamp": "2026/06/30 08:41"
+        },
+        {
+          "user": "TakamoriTarou",
+          "comment": "しゅごい。既設インフラが使えるのは大きいなあ。",
+          "tags": [],
+          "timestamp": "2026/06/30 08:19"
+        },
+        {
+          "user": "shaokuz",
+          "comment": "我が家でもこれくらい出て欲しい",
+          "tags": [],
+          "timestamp": "2026/06/30 07:54"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:53.369664+00:00"
+    },
+    {
+      "id": "h_000389ea",
+      "title": "カタログ制作の3社コンペを失注したが、その理由が「社内で総務がAIやツールを使って作ることになったので…」と聞いた時、ある疑念が生まれた「ま、まさかですが…」",
+      "url": "https://togetter.com/li/2715168",
+      "domain": "togetter.com",
+      "bookmarkCount": 37,
+      "summary": "石田隆博@グッドな社長デザイナー｜GOODCREW @st_isida カタログ制作の3社コンペ。失注しました。 理由は「社内で総務がAIやツールを使って作ることになったので・・・」 昔に比べると誰でもそれなりのデザインができる時代になったのは事実。 ブルーな週末でしたが、挫折があるとまた進化しようと思える。負けられねぇ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2715168",
+      "comments": [
+        {
+          "user": "casm",
+          "comment": "「自分たちでもカッコ良いデザインができたー！という感動と愛があるので敵わない」「あー、それそれ。自分たちで作ると良く見えるんですよね。」",
+          "tags": [],
+          "timestamp": "2026/06/30 12:58"
+        },
+        {
+          "user": "umaemong",
+          "comment": "提案資料を勝手に流用される話は、(真偽はともかく)昔からあったけど、AIで諸々ブーストされてる感。この後、発注側が泣きついてくる展開でスカッとする。",
+          "tags": [],
+          "timestamp": "2026/06/30 12:55"
+        },
+        {
+          "user": "prograti",
+          "comment": "これは予算オーバーだっただけだと思うけど、ラクスルはCanva連携で名刺やチラシの入稿ができるから、今後は簡単な販促物は内製でというのは増えそうですね",
+          "tags": [],
+          "timestamp": "2026/06/30 12:53"
+        },
+        {
+          "user": "lacucaracha",
+          "comment": "AIが作った提案書をAIが読み込んで実装する。ケインズが予言した人類の労働からの解放が少し早めにやってきたね！",
+          "tags": [],
+          "timestamp": "2026/06/30 12:52"
+        },
+        {
+          "user": "T_Tachibana",
+          "comment": "YouTubeの図解・挿絵くらいなら音声やテロップなんかで補足できるし、そこそこのものが出来るだろうけど、印刷物はなあ……",
+          "tags": [],
+          "timestamp": "2026/06/30 12:48"
+        },
+        {
+          "user": "chambersan",
+          "comment": "ないわー",
+          "tags": [],
+          "timestamp": "2026/06/30 12:43"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:50.335047+00:00"
+    },
+    {
+      "id": "h_8c463395",
+      "title": "AIによるユニットテスト実装についての所感",
+      "url": "https://zenn.dev/keitayamamoto/articles/d053a6cc096287",
+      "domain": "zenn.dev",
+      "bookmarkCount": 35,
+      "summary": "2026年現在、AIエージェントにユニットテストコードを書かせることについての所感。 3行まとめ AIにユニットテストを書かせると負債になるテストを書きがち ユニットテストを書くべき対象の判断は難しい Claude Opus 4.8、GPT-5.5 はまだ自然にその判断ができるほど賢くない ユニットテストの有効性はアプリケーションの...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/keitayamamoto/articles/d053a6cc096287",
+      "comments": [
+        {
+          "user": "chiroruxx",
+          "comment": "僕はifの条件をうっかり逆で書いてしまうことがあるので、ユニットテストには大変助けられてます。それはそうと、AIの書くユニットテストが微妙なのは同意。",
+          "tags": [],
+          "timestamp": "2026/06/30 11:56"
+        },
+        {
+          "user": "hdampty7",
+          "comment": "言語や処理系による。コンパイル言語だと単体テストはほぼトートロジーなので不要と判断。スクリプト言語はまた別。結合テスト（コントローラ）は新規作成時はほぼ無意味だけれど改修時にハーネスになる。",
+          "tags": [],
+          "timestamp": "2026/06/30 11:21"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "AIにテキトーにテスト書かせるとモックの戻り値アサートするだけの無駄コード大量発生するのあるある",
+          "tags": [],
+          "timestamp": "2026/06/30 10:34"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:52.220658+00:00"
+    },
+    {
+      "id": "h_f93d4da7",
+      "title": "GitHub Actions 認証情報ごとのリスクから読み解く、権限昇格パターンとその対策 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/2026-github-actions-security-part2",
+      "domain": "blog.flatt.tech",
+      "bookmarkCount": 32,
+      "summary": "はじめに こんにちは。GMO Flatt Security株式会社 セキュリティエンジニアの佐藤(@Nick_nick310)です。 本シリーズの前回記事では、GitHub Actionsに対する初期アクセスの手法と対策を解説しました。まだお読みでない方は、先に前回の記事をご覧いただくことをお勧めします。 GitHub Actionsのセキュリティを考える際、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/2026-github-actions-security-part2",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "GHAの権限管理はマジで罠が多い。secrets: inheritを脳死で使うのやめるわ",
+          "tags": [],
+          "timestamp": "2026/06/30 11:39"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:49.687191+00:00"
+    },
+    {
+      "id": "h_608bf5dc",
+      "title": "フロントエンドのテスト戦略を考える - AIで変わったこと、変わらないこと - カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/2026/06/30/frontend-testing",
+      "domain": "kaminashi-developer.hatenablog.jp",
+      "bookmarkCount": 29,
+      "summary": "こんにちは。カミナシで「カミナシ 設備保全」サービスの開発を行っている澤木です。 今回はフロントエンドのテスト戦略についての話を書いていこうと思います。 フロントエンドのテストはどこに何をどれだけ書くかが悩ましい領域です。 ユニットテストは書きやすく実行も速いですが全部組み合わせたときに動く保証はな...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kaminashi-developer.hatenablog.jp/entry/2026/06/30/frontend-testing",
+      "comments": [
+        {
+          "user": "simplememofast",
+          "comment": "AIにテストを量産させて一度詰んだ。E2Eは増えるのにすぐ壊れCIが常に赤い。効いたのは数より、ロジックを純粋関数に切り出して網羅する設計のほうだった",
+          "tags": [],
+          "timestamp": "2026/06/30 12:16"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "AIのおかげでE2E書くコスト下がったのデカいな。結局はテスト設計できないとゴミ量産機になるのは変わらんが",
+          "tags": [],
+          "timestamp": "2026/06/30 10:34"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:53.053665+00:00"
+    },
+    {
+      "id": "h_1d6d53fb",
+      "title": "ソニーの「アイボ」、“次の製品”を開発中 「今ここにその子がいるんですけど」",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/30/news076.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 27,
+      "summary": "ソニーグループは、犬型ロボット「aibo（アイボ）」について、製品の開発を続けていると明らかにした。現行モデル「ERS1000/W」の国内販売終了を発表したところ、aiboシリーズの終了という誤解が一部に広がっていたという。 aiboの公式YouTubeチャンネルで配信した動画の中で明らかにした。動画に出演したモリタクさん（...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2606/30/news076.html",
+      "comments": [
+        {
+          "user": "togusa5",
+          "comment": "何でこんな見切り発車なの？",
+          "tags": [],
+          "timestamp": "2026/06/30 12:50"
+        },
+        {
+          "user": "straychef",
+          "comment": "新型が出るの？",
+          "tags": [],
+          "timestamp": "2026/06/30 12:15"
+        },
+        {
+          "user": "kotaponx",
+          "comment": "「ベータマックスって無くなるの？」",
+          "tags": [],
+          "timestamp": "2026/06/30 12:01"
+        },
+        {
+          "user": "aceraceae",
+          "comment": "次はやっぱり、猫型ロボットで",
+          "tags": [
+            "ソニー"
+          ],
+          "timestamp": "2026/06/30 11:47"
+        },
+        {
+          "user": "crimson_diamond",
+          "comment": "でもサ終",
+          "tags": [],
+          "timestamp": "2026/06/30 11:45"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "aibo継続は嬉しいニュース。フィジカルAIとしての新型がどんな進化をするか楽しみ",
+          "tags": [],
+          "timestamp": "2026/06/30 11:39"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:50.672825+00:00"
+    },
+    {
+      "id": "h_416324da",
+      "title": "Microsoft、「WSL containers」を公開プレビュー ～2倍速い新ファイルシステム「virtiofs」なども／「Docker」なしでWindows上にLinuxコンテナーを構築・実行",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2120973.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 15,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2120973.html",
+      "comments": [
+        {
+          "user": "RE_DO",
+          "comment": "“この手のソリューションとしては「Docker」などが有名だが「WSL containers」があればそうしたサードパーティー製ツールをわざわざ導入しなくても「WSL」をコンテナーエンジンとして利用できる。Windowsに統合されている”",
+          "tags": [
+            "windows",
+            "linux",
+            "WSL",
+            "Docker",
+            "コンテナー",
+            "GitHub",
+            "NuGet",
+            "CUDA",
+            "microsoft",
+            "プログラミング"
+          ],
+          "timestamp": "2026/06/30 13:03"
+        },
+        {
+          "user": "crimson_diamond",
+          "comment": "❌️WSLの上でコンテナ⭕️WSLをコンテナとして、うーん",
+          "tags": [],
+          "timestamp": "2026/06/30 12:52"
+        }
+      ],
+      "fetchedAt": "2026-06-30T04:10:51.495676+00:00"
     }
   ],
-  "lastCollection": "2026-06-29T20:07:57.688342+00:00"
+  "lastCollection": "2026-06-30T04:10:53.369689+00:00"
 }
