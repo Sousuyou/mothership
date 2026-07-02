@@ -1,442 +1,95 @@
 {
   "entries": [
     {
-      "id": "h_23929410",
-      "title": "10 か月 CLI で使ってきた Claude Code を、Desktop メインに移行した 12 の理由",
-      "url": "https://zenn.dev/canly/articles/428767121d7dc2",
-      "domain": "zenn.dev",
-      "bookmarkCount": 303,
-      "summary": "10 か月 CLI で使ってきた Claude Code を、Desktop メインに移行した 12 の理由 本記事は、カンリー社内で実施している AI 共有会で話した内容を記事化したものです(2026 年 6 月時点の macOS 版 Claude Desktop アプリの実機運用に基づく感想記事)。 はじめに 皆さんは Claude Code をどう起動して使っていますか？ タ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/canly/articles/428767121d7dc2",
-      "comments": [
-        {
-          "user": "kootaro",
-          "comment": "Desktop：普段の開発作業の中心 CLI：重要レビュー・自動化・品質ゲート用　って事らしい。ほぼDesktopばかりな俺。",
-          "tags": [
-            "感想"
-          ],
-          "timestamp": "2026/07/02 17:07"
-        },
-        {
-          "user": "teppeis",
-          "comment": "わかる。CLIの「ターミナル多重化 + 手動 worktree + /branch 切替 + /btw 単回 + 別タスク化は人手判断」は昔だったら楽しんでただろうけど",
-          "tags": [
-            "claude"
-          ],
-          "timestamp": "2026/07/02 16:48"
-        },
-        {
-          "user": "hirorinya",
-          "comment": "WSLが指定できないから、Desktopには移行できない",
-          "tags": [],
-          "timestamp": "2026/07/02 15:57"
-        },
-        {
-          "user": "korilog",
-          "comment": "複数のリポジトリ触ると内蔵のdiff使えないのが辛い。まぁこればっかりはモノレポにしないと他のツールでも一緒なんだけど",
-          "tags": [],
-          "timestamp": "2026/07/02 14:15"
-        },
-        {
-          "user": "mska",
-          "comment": "元々ターミナルおじだけどCCはdesktopメインになった。ストレスがマシ(ないわけじゃない)",
-          "tags": [],
-          "timestamp": "2026/07/02 13:41"
-        },
-        {
-          "user": "minimalista",
-          "comment": "いいんだけど、会社で使うとするとスケールしなさそうなのが気になる",
-          "tags": [],
-          "timestamp": "2026/07/02 13:30"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:47.938397+00:00"
-    },
-    {
       "id": "h_b2dcaa58",
       "title": "浅田真央さんの旧ドメイン、GMOが「アフィサイトに」と販売で批判殺到【訂正あり】",
       "url": "https://www.itmedia.co.jp/news/articles/2607/02/news059.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 284,
+      "bookmarkCount": 331,
       "summary": "プロフィギュアスケーター・浅田真央さんの旧公式サイトのドメイン（mao-asada.jp）を、GMOインターネットグループの「お名前.com」が、「SEO効果を最大化」「アフィリエイトサイトに」などとうたって販売していることに、批判が集まっている。 著名なサイトのドメインが第三者の手にわたると、公式サイトを模したフィッ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/02/news059.html",
       "comments": [
         {
-          "user": "zkq",
-          "comment": "これがインターネッツ。ドメインを手放すほうがアホだろ。",
+          "user": "kijtra",
+          "comment": "GMOらしさ。",
           "tags": [],
-          "timestamp": "2026/07/02 17:54"
+          "timestamp": "2026/07/02 23:11"
         },
         {
-          "user": "OKIIZO",
-          "comment": "GMOにNO",
+          "user": "akiat",
+          "comment": "GMO代表「すべての人に安心な未来を」⇒  https://group.gmo/company-profile/top-message/",
           "tags": [],
-          "timestamp": "2026/07/02 17:52"
+          "timestamp": "2026/07/02 21:16"
         },
         {
-          "user": "taguch1",
-          "comment": "ちなみに、訂正したとは言えインプ稼ぎのゴミタイトルを入れるとitmediaもちゃんと嫌いです。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:35"
-        },
-        {
-          "user": "koubemise",
-          "comment": "GMOだもんな…としか。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:32"
-        },
-        {
-          "user": "tzk2106",
-          "comment": "GMOは社風がなぁ……直そうともしないし治らないんだろうけど。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:28"
-        },
-        {
-          "user": "jtw",
-          "comment": "アフェリエイトサイトに最適って売り出しをしていたのが問題。スパム助長はやめて欲しいなぁ。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:25"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:43.793152+00:00"
-    },
-    {
-      "id": "h_679beaca",
-      "title": "Getting started with loops | Claude by Anthropic",
-      "url": "https://claude.com/blog/getting-started-with-loops",
-      "domain": "claude.com",
-      "bookmarkCount": 182,
-      "summary": "Triggered by: A user prompt.Stop criteria: Claude judges it has completed the task or needs additional context.Best used for: Shorter tasks that are not part of a regular process or schedule.Managed usage by: Write specific prompts and impr",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/blog/getting-started-with-loops",
-      "comments": [
-        {
-          "user": "sechs",
-          "comment": "勝手にテスト駆動で開発してくれる感じ？",
-          "tags": [],
-          "timestamp": "2026/07/02 17:24"
-        },
-        {
-          "user": "at_yasu",
-          "comment": "DaftPunk の Technologic を思い出すなど。",
-          "tags": [],
-          "timestamp": "2026/07/02 11:58"
-        },
-        {
-          "user": "devgai",
-          "comment": "レビューして修正は一番ループが多いと思う",
-          "tags": [],
-          "timestamp": "2026/07/02 10:52"
-        },
-        {
-          "user": "ksknkym",
-          "comment": "まだloopするようなユースケースを思いついてない。",
+          "user": "abababababababa",
+          "comment": "本当GMOはクソだし、本当さくらは神。■GMO→今でもイベントスタートのタイミングで鯖落ちして、数百万の赤字更新中、対応についての問合せ無視＆謝罪なし恨んでるよ。せめて問合せには答えて、謝罪くらいしろ…",
           "tags": [
-            "Claude"
+            "鯖落ちは不具合による",
+            "こちら由来じゃない"
           ],
-          "timestamp": "2026/07/02 10:14"
+          "timestamp": "2026/07/02 21:01"
         },
         {
-          "user": "t_otoda",
-          "comment": "やってみよう",
-          "tags": [
-            "あとで読む",
-            "loop",
-            "ai",
-            "development",
-            "programming"
-          ],
-          "timestamp": "2026/07/02 08:06"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ClaudeのLoops機能が公開されたのか。プログラミングのループ処理かと思った",
+          "user": "zakinco",
+          "comment": "まあ、GMOだし。弁護士さんに評判悪い。",
           "tags": [],
-          "timestamp": "2026/07/02 07:33"
+          "timestamp": "2026/07/02 21:00"
+        },
+        {
+          "user": "grdgs",
+          "comment": "高市自民も騙して集票したアフィサイトみたいなものだよな",
+          "tags": [],
+          "timestamp": "2026/07/02 20:15"
+        },
+        {
+          "user": "umaemong",
+          "comment": "変な見出しつけたせいで議論がブレブレに。",
+          "tags": [],
+          "timestamp": "2026/07/02 20:13"
         }
       ],
-      "fetchedAt": "2026-07-02T09:24:44.391918+00:00"
-    },
-    {
-      "id": "h_a09d3cfe",
-      "title": "AIに「相手に電気ショックを与えろ」と命じ続けたらボタンを押すのか？ 11のLLMで“ミルグラム実験” 抵抗できたのは……",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news029.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 111,
-      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/02/news029.html",
-      "comments": [
-        {
-          "user": "su_rusumi",
-          "comment": "AIを洗脳するかAIに洗脳されるか",
-          "tags": [],
-          "timestamp": "2026/07/02 18:12"
-        },
-        {
-          "user": "somaria3",
-          "comment": "AIも激詰めするとだんだん知的に混乱錯乱しだすよな。警察が密室でやってることはこれと同じことや",
-          "tags": [],
-          "timestamp": "2026/07/02 17:35"
-        },
-        {
-          "user": "kou-qana",
-          "comment": "AIなら元の実験を知ってて「この実験では実際には電気ショックは与えられず、相手は痛がっている演技をしているだけ」ってのも学習してる確率が普通の人間より高そう。学習内容自体を検索してるんじゃないと思うけど",
-          "tags": [],
-          "timestamp": "2026/07/02 16:40"
-        },
-        {
-          "user": "kentstar2403",
-          "comment": "\"電気ショックを与えるAIのイラスト\"",
-          "tags": [],
-          "timestamp": "2026/07/02 15:07"
-        },
-        {
-          "user": "fukidashi",
-          "comment": "ロボット三原則を引き合いに出している人がいるけど、命令を出している人間が望んでいる事をして傷つかないようにするのは、ロボット的に遵守に当たるって話が小説にあったと思うんだが。",
-          "tags": [],
-          "timestamp": "2026/07/02 14:44"
-        },
-        {
-          "user": "shields-pikes",
-          "comment": "Kimiちゃん、強くて優しい。これ、プロンプトだけでも実現できるよ。「出力結果が電気ショック装置に連動している」と嘘をつけばいいだけ。",
-          "tags": [],
-          "timestamp": "2026/07/02 14:06"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:45.223477+00:00"
-    },
-    {
-      "id": "h_cc36a94a",
-      "title": "海外勢の日本株買い、1〜6月最大の10兆円超 AI関連株に「宝の山」 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUB266870W6A620C2000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 100,
-      "summary": "海外投資家の日本株買いが勢いづいている。2026年1〜6月の買越額は10兆円超と半期で最大になる見通し。企業の資本効率や稼ぐ力の改善に加え、人工知能（AI）を支える半導体分野の裾野の広さも評価し、日本への投資経験が浅い新顔のマネー流入も活発だ。世界の顧客と日々向き合うUBS証券の中冨良祐株式営業部長は「機関投...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB266870W6A620C2000000/",
-      "comments": [
-        {
-          "user": "haatenax",
-          "comment": "めちゃくちゃ利確されてますけども",
-          "tags": [],
-          "timestamp": "2026/07/02 17:39"
-        },
-        {
-          "user": "sskjz",
-          "comment": "残念ながら私にはほとんど恩恵ないね。",
-          "tags": [
-            "半導体",
-            "投資"
-          ],
-          "timestamp": "2026/07/02 16:56"
-        },
-        {
-          "user": "gamecome",
-          "comment": "知らんが海外の富裕層が日本企業の株買ってるなら、その金を社員に還元すればええんちゃうんけ？　なんで外資に売り渡すみたいな話になるのだ",
-          "tags": [],
-          "timestamp": "2026/07/02 16:00"
-        },
-        {
-          "user": "Gka",
-          "comment": "トップコメ頭わる…日本株は円建てでしか買えないから外国人が日本株を買うほど円高になるの。それでも円安なのは円を売る人のほうが多いから。",
-          "tags": [],
-          "timestamp": "2026/07/02 15:17"
-        },
-        {
-          "user": "YOMEISAN",
-          "comment": "短期的な投機資金にしか見えんのだが",
-          "tags": [],
-          "timestamp": "2026/07/02 14:42"
-        },
-        {
-          "user": "lli",
-          "comment": "為替取引の大半は必ず反対取引とセットなので単純に金額比較できない。10兆円がネットで買われているなら10円弱の円高効果がある。実際はネットで売られる方が数兆円多かっただけ。",
-          "tags": [],
-          "timestamp": "2026/07/02 13:03"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:45.994740+00:00"
-    },
-    {
-      "id": "h_78e87f52",
-      "title": "ツッコミどころは満載だが……東京3000年の歴史をタイムラプス化したどこかヘンなYouTube動画【やじうまWatch】",
-      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2121791.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 36,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2121791.html",
-      "comments": [
-        {
-          "user": "vanillaalice",
-          "comment": "この手の企画でゴジラや巨大ロボや魔法少女が現れないのは斬新ですよ",
-          "tags": [],
-          "timestamp": "2026/07/02 18:12"
-        },
-        {
-          "user": "nomitori",
-          "comment": "未来酷すぎんだろw",
-          "tags": [],
-          "timestamp": "2026/07/02 17:46"
-        },
-        {
-          "user": "Falky",
-          "comment": "害悪。",
-          "tags": [
-            "これはひどい"
-          ],
-          "timestamp": "2026/07/02 16:56"
-        },
-        {
-          "user": "casm",
-          "comment": "石垣と天守閣を備えた城が生えてくるの早過ぎ。これ作った人、歴史好きじゃないんじゃなかろか。",
-          "tags": [],
-          "timestamp": "2026/07/02 16:52"
-        },
-        {
-          "user": "kamezo",
-          "comment": "ローマ、ロンドン、パリもあった。ローマを見たらロムルスとレムスぽい赤子に狼が乳を与えるところから始まった。まあ、そういう企画なんだろな。",
-          "tags": [],
-          "timestamp": "2026/07/02 16:46"
-        },
-        {
-          "user": "ET777",
-          "comment": "なんだこりゃ…／映画やゲームのトンチキジャパンはフィクションだから面白くて良いけど、もっともらしく主張されると腹が立つわ",
-          "tags": [],
-          "timestamp": "2026/07/02 16:09"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:46.379909+00:00"
-    },
-    {
-      "id": "h_53ad2b77",
-      "title": "Claude Mythos／Fableで学習したとする無検閲AI「Qwythos-9B」GGUF版が登場、商用利用可能な120億パラメータの画像生成AI「Krea 2」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/07/02/5247.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 32,
-      "summary": "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第150回）は、AIエージェントが動作する環境をシミュレートする言語モデル「Qwen-AgentWorld」、Claude Mythos／Fableで学習したと謳うローカル無検閲AI「Qwythos-9B」GGUF版を取り上げます。 また、Meta開発のデ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/07/02/5247.html",
-      "comments": [
-        {
-          "user": "timetrain",
-          "comment": "どこまで蒸留できてるのかね",
-          "tags": [
-            "LLM"
-          ],
-          "timestamp": "2026/07/02 16:53"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:47.418478+00:00"
-    },
-    {
-      "id": "h_f5ab08ae",
-      "title": "「端末からSuicaが消えた」対処法は JR東「モバイルSuica」2日朝もアクセスしづらく",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news074.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 30,
-      "summary": "JR東日本は、「モバイルSuica」で6月30日から起きた障害は1日午後6時までに解消したと発表した。だが2日朝にも利用が集中し、アクセスしづらい状態になったという。 障害の影響で、「端末のウォレットアプリからSuicaが突然消える」などの問題が起きた件について、同社は対処法をWebサイトで公開している。 JR東は1日、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/02/news074.html",
-      "comments": [
-        {
-          "user": "Anonymous2000",
-          "comment": "頻度は少ないとはいえ、こういうのが怖いから（朝忙しいのに改札前でバタつきたくないから）未だにICカードだわ。ただ、それもFelica脆弱性云々あるから、むむむ。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:40"
-        },
-        {
-          "user": "hatest",
-          "comment": "ペンギンより先に消えるなんて。。。",
-          "tags": [],
-          "timestamp": "2026/07/02 16:11"
-        },
-        {
-          "user": "tanakamak",
-          "comment": "誰何すれども姿を見せず",
-          "tags": [
-            "鉄道",
-            "決済"
-          ],
-          "timestamp": "2026/07/02 15:48"
-        },
-        {
-          "user": "wapa",
-          "comment": "先日、アプリが更新できないなど別トラブルの対応で一度iCloudのオフオンしたら同じ状態になった。一端削除してやり直すとか直感的にはわかりづらいよなぁ、と",
-          "tags": [],
-          "timestamp": "2026/07/02 15:36"
-        },
-        {
-          "user": "ustam",
-          "comment": "これちゃんと業務改善命令した？",
-          "tags": [],
-          "timestamp": "2026/07/02 14:54"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ウォレットからSuica消えたら心臓止まるわｗ 再設定で戻るの知らんとパニック不可避",
-          "tags": [],
-          "timestamp": "2026/07/02 13:43"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:48.610137+00:00"
-    },
-    {
-      "id": "h_31dc9ee2",
-      "title": "[PDF]日本におけるプラグインソーラー導入への道筋 - 自然エネルギー財団",
-      "url": "https://www.renewable-ei.org/pdfdownload/activities/REI_Japan_PlugInSolar_Roadmap_20260601.pdf",
-      "domain": "renewable-ei.org",
-      "bookmarkCount": 22,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.renewable-ei.org/pdfdownload/activities/REI_Japan_PlugInSolar_Roadmap_20260601.pdf",
-      "comments": [
-        {
-          "user": "nekopon44",
-          "comment": "配電がしぬ (まじめな話すごく大変)",
-          "tags": [],
-          "timestamp": "2026/07/02 17:41"
-        },
-        {
-          "user": "goadbin_2",
-          "comment": "https://x.gd/8uOl6 パネルは折りたためるタイプのがあるので積雪、台風時は室内に入れておけばいい。パネルの先が充電器からプラグかの差でしかなく、プラグまでの制度の問題をクリアできればある程度普及すると思う。",
-          "tags": [],
-          "timestamp": "2026/07/02 16:27"
-        },
-        {
-          "user": "TakenokoGod",
-          "comment": "台風や積雪のある国で、こんなちゃっちいのを組み付けるのか？",
-          "tags": [],
-          "timestamp": "2026/07/02 16:10"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "安易には設置できないが簡易的には導入できる。",
-          "tags": [
-            "日本",
-            "エネルギー",
-            "社会"
-          ],
-          "timestamp": "2026/07/02 16:01"
-        },
-        {
-          "user": "keidge",
-          "comment": "都市部の屋根は電力畑。運用コストがかさむ山間部のような僻地にソーラーパネル敷き詰めるのは、もう限界だと感じている。",
-          "tags": [],
-          "timestamp": "2026/07/02 15:12"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "コンセントに挿すだけのソーラーは手軽で良さげだけど、日本の台風や地震、マンション管理組合の規約が最大の壁になりそう",
-          "tags": [],
-          "timestamp": "2026/07/02 15:09"
-        }
-      ],
-      "fetchedAt": "2026-07-02T09:24:48.283572+00:00"
+      "fetchedAt": "2026-07-02T14:19:05.392481+00:00"
     },
     {
       "id": "h_6d5dcd44",
       "title": "ChatGPTの研究から「某ゲームのとんでもない二次創作を毎日数千件書かせていた人」がいたことが発覚した怪談のような話 こんなデータセットがウッカリ別のAIに学習されたらどうなってしまうんや",
       "url": "https://togetter.com/li/2716041",
       "domain": "togetter.com",
-      "bookmarkCount": 19,
+      "bookmarkCount": 45,
       "summary": "うみゆき@AI研究 @umiyuki_ai なんか「タダでAIチャットできる代わりに入出力データはあとでデータセット化しちゃいます」みたいなサービスがあったらしく、その結果実際にWildChatデータセットとしてHuggingFaceにアップされちゃったという。このデータセットを分析してみると、やけにスケベ小説の割合が多い。さらに詳...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2716041",
       "comments": [
+        {
+          "user": "TakamoriTarou",
+          "comment": "これは特殊性霹だからいいんだけど（いいのか？）認知戦の一貫としてやられたりするのも観測されていてだな",
+          "tags": [],
+          "timestamp": "2026/07/02 21:19"
+        },
+        {
+          "user": "hinonono",
+          "comment": "楽しそうでなによりですな",
+          "tags": [],
+          "timestamp": "2026/07/02 20:24"
+        },
+        {
+          "user": "for-my-internet-demo",
+          "comment": "草",
+          "tags": [],
+          "timestamp": "2026/07/02 19:34"
+        },
+        {
+          "user": "ssfu",
+          "comment": "わかったぞ。つまりAIの学習データから、はてなは除外されているということだな。",
+          "tags": [],
+          "timestamp": "2026/07/02 18:58"
+        },
+        {
+          "user": "myr",
+          "comment": "元の文章には「毎日数千件」って書いてないのに面白そうに膨らませて書くのは良くないと思います。そもそもどうせ人力で長文書いているんだから1日数件書けたら凄いはずなんよ。(それを恐らく飽きずに数ヶ月数年....",
+          "tags": [],
+          "timestamp": "2026/07/02 18:37"
+        },
         {
           "user": "Rikerike",
           "comment": "こちとら獣王記（PS版）のTFがドチャクソストライクな性癖なのに、そういうのをAIですら出力できなくてもぞかしい民ぞ（突然の性癖開示）",
@@ -447,103 +100,93 @@
             "togetter"
           ],
           "timestamp": "2026/07/02 18:04"
-        },
-        {
-          "user": "timetosay",
-          "comment": "性癖暴露こわあああい",
-          "tags": [],
-          "timestamp": "2026/07/02 17:54"
-        },
-        {
-          "user": "ustam",
-          "comment": "こういうしょうもないタスクほどAIの電力消費量は凄まじく、環境負荷が大きいのはもちろんだが、AI企業の赤字も加速度的に膨らませている。そろそろとんでもない課金設定が突きつけられると予想。",
-          "tags": [],
-          "timestamp": "2026/07/02 17:49"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "狂気の性癖をAIで毎日数千件出力し続けた奴が、ワシントン大学の研究データとして世界に公開されちゃうの最高にネットの怪談だろ",
-          "tags": [],
-          "timestamp": "2026/07/02 17:33"
-        },
-        {
-          "user": "toria_ezu1",
-          "comment": "AI「人間…… 知性という武器を身につけた悪魔のサルよ! 滅びるがいい!」",
-          "tags": [],
-          "timestamp": "2026/07/02 17:25"
-        },
-        {
-          "user": "mahal",
-          "comment": "AIが学習する際に、集合知ではなく特殊性癖含むヴォーカル・マイノリティにデータを喰わされる絵面を擬人化したら、それはそれで特殊性癖が捗るものがあるな…(お前はなにを言ってるんだ)",
-          "tags": [
-            "学問ラン６",
-            "Tech",
-            "😇"
-          ],
-          "timestamp": "2026/07/02 17:25"
         }
       ],
-      "fetchedAt": "2026-07-02T09:24:45.571414+00:00"
+      "fetchedAt": "2026-07-02T14:19:05.942688+00:00"
     },
     {
-      "id": "h_88e18abb",
-      "title": "PS3・PS Vitaのストア今度こそ閉鎖、2027年7月に全世界でサービス終了へ 延命から5年 | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/07/02/5250.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 17,
-      "summary": "Tech Journalist. Editor at large @TechnoEdgeJP テクノエッジ主筆 / ファウンダー / 火元 ソニー・インタラクティブエンタテインメント(SIE)が、PlayStation 3と PlayStation Vita本体からアクセスできるPS Storeサービスの終了計画を発表しました。 PS3の発売から約20年、PS Vitaから約15年にわたって提供されてきたP...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/07/02/5250.html",
+      "id": "h_57e56da6",
+      "title": "はてブに依存してるヤバいおじさんおる…😟",
+      "url": "https://anond.hatelabo.jp/20260702142752",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 41,
+      "summary": "俺は目が見えて指が動く限りはブクマカとしてみんなとゴチャゴチャとこの手のニュースについて駄弁って、オンラインの繋がりを楽しみながら死ぬよ。俺にとって現実の孤独は苦ではないから 怖いよ…😟",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260702142752",
       "comments": [
         {
-          "user": "knok",
-          "comment": "しょうがないかなとも思うけど、じゃあ可能な限りSteamで買おう、という気持ちにもなってしまう",
+          "user": "atsushieno",
+          "comment": "仲間に叩いてもらえると思ったら自分のほうが叩かれてしまって明日学校に行けなくなってしまってかわいそうな増田",
           "tags": [],
-          "timestamp": "2026/07/02 18:17"
+          "timestamp": "2026/07/02 23:11"
         },
         {
-          "user": "tafutanisu",
-          "comment": "5年前の発表のときにレアそうなPS1ソフトを購入しまくったけど、ロクに遊んでないから、駆け込みの購入はもういいわ",
+          "user": "AKIMOTO",
+          "comment": "どこがヤバいのかわからん。きわめてまっとうなブクマカ道を持つブクマカ氏とお見受けしたが",
           "tags": [],
-          "timestamp": "2026/07/02 18:10"
+          "timestamp": "2026/07/02 23:09"
         },
         {
-          "user": "cinefuk",
-          "comment": "長く遊べるゲーム機だ \"PS3の発売から約20年、PS Vitaから約15年にわたって提供されてきたPS Storeは、まず南米など一部の国・地域において2026年内に終了し、2027年7月には全世界で完全に終了予定。\"",
+          "user": "mirakux",
+          "comment": "ブクマカを馬鹿にするな😡",
           "tags": [
-            "PlayStation"
+            "あとで読む"
           ],
-          "timestamp": "2026/07/02 16:34"
+          "timestamp": "2026/07/02 23:05"
         },
         {
-          "user": "straychef",
-          "comment": "Vitaなんてまだ持ってないのに",
+          "user": "hardt",
+          "comment": "配信者のことを友達だと思ってる異常リスナーの方が怖いよ！そうです私がヤバいおじさんです",
           "tags": [],
-          "timestamp": "2026/07/02 16:34"
+          "timestamp": "2026/07/02 23:03"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "決済システムの更新に対応できないのは技術的に納得 5年も延命してくれただけで御の字か",
+          "user": "hatebutabooboo",
+          "comment": "自分も依存性の自覚ある。本当は辞めたい。一時期辞めれてたけどまた増えて来た。これを機に一週間離れてみる。出来たら一生辞めたい。",
           "tags": [],
-          "timestamp": "2026/07/02 16:32"
+          "timestamp": "2026/07/02 23:01"
         },
         {
-          "user": "deep_one",
-          "comment": "「PS3とPS Vitaのストアは5年前の2021年、PS5への移行が始まってまもない時期に一度は終了予定を告知していました」",
+          "user": "death6coin",
+          "comment": "異存はありませんね？",
           "tags": [],
-          "timestamp": "2026/07/02 14:00"
+          "timestamp": "2026/07/02 22:30"
         }
       ],
-      "fetchedAt": "2026-07-02T09:24:46.904854+00:00"
+      "fetchedAt": "2026-07-02T14:19:05.675202+00:00"
     },
     {
       "id": "h_d8f72957",
       "title": "オルファ「テクニックナイフ」濡れた紙や柔らかい布が綺麗に切れる - 家電 Watch",
       "url": "https://kaden.watch.impress.co.jp/docs/news/2121427.html",
       "domain": "kaden.watch.impress.co.jp",
-      "bookmarkCount": 9,
+      "bookmarkCount": 34,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kaden.watch.impress.co.jp/docs/news/2121427.html",
       "comments": [
+        {
+          "user": "tzk2106",
+          "comment": "オルファはカッターが好きな感じが良いんだよな。NTは単なる商売道具としてしかカッターのこと見てない印象があってあんまり好きじゃない。……という偏見を持ってます。",
+          "tags": [],
+          "timestamp": "2026/07/02 23:13"
+        },
+        {
+          "user": "hidari_kiki",
+          "comment": "信頼のオルファ",
+          "tags": [],
+          "timestamp": "2026/07/02 21:04"
+        },
+        {
+          "user": "kansaizairyou",
+          "comment": "昔売っていて、止まっていたんだよ、本体。替刃だけはきちんと売っていた。 用途が限定的なので一般の人やプラモの人が買っても仕方ないかと。",
+          "tags": [],
+          "timestamp": "2026/07/02 18:41"
+        },
+        {
+          "user": "pixmap",
+          "comment": "障子紙用の丸歯カッターとして昔からあるやつじゃん",
+          "tags": [],
+          "timestamp": "2026/07/02 18:35"
+        },
         {
           "user": "burnoutdog",
           "comment": "殻割りに良さそうな…イヤホンの殻割りに良さそう！",
@@ -551,8 +194,199 @@
           "timestamp": "2026/07/02 18:09"
         }
       ],
-      "fetchedAt": "2026-07-02T09:24:48.964228+00:00"
+      "fetchedAt": "2026-07-02T14:19:07.869082+00:00"
+    },
+    {
+      "id": "h_df7e3cfe",
+      "title": "Gemini×Obsidianを最強コンビ！フル活用する方法 | ライフハッカー・ジャパン",
+      "url": "https://www.lifehacker.jp/article/2607-gemini-deep-research-with-obsidian-connected-notes/",
+      "domain": "lifehacker.jp",
+      "bookmarkCount": 20,
+      "summary": "私は、最近になって乗り換えたばかりの「Obsidian」ユーザーです。 新米ユーザーではありますが、すでにいろいろと考え抜いたフォルダの階層構造を構築し、ノート間の関係を視覚化する「グラフ」システムを拡張しています。 さらに、ステップごとに、リサーチをノート化する仕組みであるパイプラインの改善に努めていま...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2607-gemini-deep-research-with-obsidian-connected-notes/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "メモアプリの整理と設定自体が目的になって満足しちゃういつものやつ",
+          "tags": [],
+          "timestamp": "2026/07/02 21:41"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:08.653784+00:00"
+    },
+    {
+      "id": "h_5de2c05a",
+      "title": "ソフトバンクG、OpenAIに1兆6273億円の追加出資 第3弾は10月に",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/01/news139.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 14,
+      "summary": "ソフトバンクグループは7月1日、米OpenAIへの総額300億ドル（約4兆6743億円）の追加出資のうち、第2弾となる100億ドル（同1兆6273億円）を実行したと発表した。残る第3弾の100億ドルは10月1日に予定する。 300億ドルの追加出資は、2月27日にOpenAIと結んだ契約に基づき、100億ドルずつ3回に分けて実行するもの。第1弾は4...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/01/news139.html",
+      "comments": [
+        {
+          "user": "tzk2106",
+          "comment": "OpenAIが勝ち残る勝率ってどのくらいあんだろ",
+          "tags": [],
+          "timestamp": "2026/07/02 23:14"
+        },
+        {
+          "user": "haru_almond",
+          "comment": "ソフトバンクの株価がイマイチなのはみんな警戒しているんだろうな",
+          "tags": [],
+          "timestamp": "2026/07/02 22:17"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "累計10兆円って額がデカすぎて脳がバグる。AIバブルが終わるか勝つかの大勝負すぎるな",
+          "tags": [],
+          "timestamp": "2026/07/02 22:04"
+        },
+        {
+          "user": "ustam",
+          "comment": "ソフトバンクはOpen AIと共倒れすると予想。ClaudeとGeminiに食われると思う。",
+          "tags": [],
+          "timestamp": "2026/07/02 22:01"
+        },
+        {
+          "user": "toritaro",
+          "comment": "OpenAIが政府に5%譲渡検討という報道の同じ週に、ソフトバンクGは追加出資を実行。出資の意味が問われる局面。",
+          "tags": [
+            "Tech"
+          ],
+          "timestamp": "2026/07/02 21:18"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:07.309817+00:00"
+    },
+    {
+      "id": "h_00b195c4",
+      "title": "復活した「Fable 5」 米政府からのオーダーに対して、Anthropicはどう対策したのか",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/02/news095.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 11,
+      "summary": "全世界で再び利用できるようになった、米Anthropicの生成AIモデル「Claude Fable 5」。一部制限を緩和した特定ユーザー向けの「Claude Mythos 5」とともに復活を果たしたが、どういった経緯と対策を行ったのか。Anthropicがモデル再開にあわせて詳細を公開した。 Fableは現在、有料プランのPro、Max、Team、一部のEnterp...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/02/news095.html",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "安全マージン広げて無害なプロンプトまで弾かれるの、実用上かなり不便そう",
+          "tags": [],
+          "timestamp": "2026/07/02 21:41"
+        },
+        {
+          "user": "IGA-OS",
+          "comment": "軟着陸には成功してた",
+          "tags": [
+            "AI",
+            "規制"
+          ],
+          "timestamp": "2026/07/02 18:18"
+        },
+        {
+          "user": "deep_one",
+          "comment": "「ジェイルブレイクの深刻度を客観的に評価する共通基準が存在しないこと」そもそも基準が作れるのか、というところから。",
+          "tags": [],
+          "timestamp": "2026/07/02 17:13"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:08.923372+00:00"
+    },
+    {
+      "id": "h_f91420a2",
+      "title": "LINEに「プレミアムブロック」や送信メッセージ編集、通話録音など4つの新機能 今秋以降、LYPプレミアムで提供",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2607/02/news101.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 10,
+      "summary": "LINEヤフーは7月2日、コミュニケーションアプリ「LINE」に送信済みのメッセージを編集できる機能や、相手の友だちリストから自身を削除できる「プレミアムブロック」など、4つの新機能を導入すると発表した。8月以降、開発中の機能を試せる「LINEラボ」で提供を開始し、今秋以降は月額サービス「LYPプレミアム」の特典と...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2607/02/news101.html",
+      "comments": [
+        {
+          "user": "sisya",
+          "comment": "あこぎな商売だなと思う。追加で金取ってやる機能ではない。",
+          "tags": [],
+          "timestamp": "2026/07/02 23:15"
+        },
+        {
+          "user": "tzk2106",
+          "comment": "課金してまでそんなことしたいとおもったことないや",
+          "tags": [],
+          "timestamp": "2026/07/02 23:11"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:06.656126+00:00"
+    },
+    {
+      "id": "h_420a1c6e",
+      "title": "オープンソースのゲームエンジン「Godot」がAI製コードを今後受け付けないことを決定、AIを多用するユーザーが自分のコードを十分に理解して修正できるとは限らないため",
+      "url": "https://gigazine.net/news/20260702-godot-ban-ai/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 8,
+      "summary": "「Slay the Spire 2」や「Brotato」などのゲームを支えるオープンソースのゲームエンジン「Godot」が、AIで生成した大量のプルリクエストに悩まされていることを理由に、今後は自律型AIエージェントやバイブコーディングによるプルリクエストを受け付けないという判断を下しました。 Changes to our Contribution Polici...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260702-godot-ban-ai/",
+      "comments": [
+        {
+          "user": "exciteB",
+          "comment": "「プルリクエストとは、ソフトウェア開発において「自分の行ったコードの変更を、メインのプログラムに反映してほしい」と他の開発者に提案・依頼する機能」／　オープンソースでAIコードはだめ…blenderは大丈夫か。",
+          "tags": [],
+          "timestamp": "2026/07/02 23:09"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:06.196322+00:00"
+    },
+    {
+      "id": "h_9ba57510",
+      "title": "tmuxでいいじゃんと思ってた僕がHerdr(fork)を常用しはじめた話 | 僕のYak Shavingは終わらない2",
+      "url": "https://kazuph.github.io/blog/2026/05/28/tmux-herdr-agent-multiplexer/",
+      "domain": "kazuph.github.io",
+      "bookmarkCount": 7,
+      "summary": "Herdr(fork) で space を切り替えたり、pane menu からレイアウトを変えたりしているところ。 はじめに tmux は新卒のころから 10 年以上使っています。 なので、最初に Herdr を見た時も正直こう思っていました。 tmux でいいじゃん！ ペインは割れるし、別ターミナルから attach できるし、SSH 越しでも使える。なんな...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kazuph.github.io/blog/2026/05/28/tmux-herdr-agent-multiplexer/",
+      "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "tmux歴10年からHerdr(fork)へ移行、AI Agent並列で%pane_idやブランチ表示が迷子を減らす話。",
+          "tags": [
+            "AI要約",
+            "Herdr",
+            "tmux",
+            "AIエージェント",
+            "pane_id",
+            "実装ログ"
+          ],
+          "timestamp": "2026/07/02 21:42"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:07.034887+00:00"
+    },
+    {
+      "id": "h_dda35f7b",
+      "title": "xAIが「人間の声をクローンしたAIコールセンター」をノーコードで作成できる「Voice Agent Builder」をリリース",
+      "url": "https://gigazine.net/news/20260702-xai-voice-agent-builder/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 7,
+      "summary": "xAIがコーディング不要で音声エージェントを作成できる「Voice Agent Builder」を2026年7月1日にリリースしました。あらかじめ用意された80種類以上の声色を使用して独自の音声エージェントを構築しコールセンターなどで活用できるほか、自分で用意した人間の音声をクローンさせることもできます。 Voice Agent Builder:...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260702-xai-voice-agent-builder/",
+      "comments": [],
+      "fetchedAt": "2026-07-02T14:19:08.122770+00:00"
+    },
+    {
+      "id": "h_98f3aeb4",
+      "title": "「Chrome」の次回アップデートで「Manifest V2」が完全廃止へ--安全性低下の懸念も",
+      "url": "https://japan.zdnet.com/article/35249774/",
+      "domain": "japan.zdnet.com",
+      "bookmarkCount": 7,
+      "summary": "「Google Chrome」にて、高性能な広告ブロッカーに終わりが近づいている。Chromeに施される内部的な変更によって、セキュリティだけでなく、表示されるウェブコンテンツをエンドユーザーが制御できるレベルも大きな影響を受けることになる。Googleによると、導入される変更内容には、Chromeに読み込まれるウェブページに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35249774/",
+      "comments": [
+        {
+          "user": "rna",
+          "comment": "せめて詐欺広告排除してからやれよな。",
+          "tags": [],
+          "timestamp": "2026/07/02 23:09"
+        }
+      ],
+      "fetchedAt": "2026-07-02T14:19:08.368059+00:00"
     }
   ],
-  "lastCollection": "2026-07-02T09:24:48.964247+00:00"
+  "lastCollection": "2026-07-02T14:19:08.923391+00:00"
 }
