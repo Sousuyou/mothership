@@ -1,480 +1,288 @@
 {
   "entries": [
     {
-      "id": "h_6b32e1ee",
-      "title": "AIに8割書かせたコード、半年運用の答え合わせ。効いた3つと、腐った3つ",
-      "url": "https://zenn.dev/rapls/articles/7a1bac83df8b21",
-      "domain": "zenn.dev",
-      "bookmarkCount": 217,
-      "summary": "半年前に「AIに8割書かせたコードを、保守できるようにやっていること」という記事を書きました。ありがたいことに、自分がいちばん読まれた記事になりました。 あれから半年、その方針のまま実際に運用してみて、答え合わせができました。先に言うと、保守性は「足す」では買えませんでした。コメントを足す、ドキュメ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rapls/articles/7a1bac83df8b21",
-      "comments": [
-        {
-          "user": "monorod",
-          "comment": "結局保守性上げるには、昔から散々ソフト開発で言われ続けてた事をしろってことよな。人間もAIも変わんないわ",
-          "tags": [],
-          "timestamp": "2026/07/04 12:25"
-        },
-        {
-          "user": "e_denker",
-          "comment": "“AIは「共通化しましょう」「抽象化しておきました」を、よく提案してきます” あー、これは分かる。私もAIと開発してて何度も「YAGNIなんでいいです」って言った。",
-          "tags": [],
-          "timestamp": "2026/07/04 11:32"
-        },
-        {
-          "user": "nakag0711",
-          "comment": "抽象化は元々コードの未来を予想してやる投資ないし保険なので外れることもあるが、だから不要とも言えない",
-          "tags": [],
-          "timestamp": "2026/07/04 11:30"
-        },
-        {
-          "user": "tokuniimihanai",
-          "comment": "そもそもAIのコメントは異常に読みづらい。",
-          "tags": [],
-          "timestamp": "2026/07/04 10:02"
-        },
-        {
-          "user": "moronbee",
-          "comment": "人間がコード保守するなら当然の帰結かなと。どこまで属人性を排除してハーネスを残すか、残せる＝コストを賄えるプロダクトかに依るよね",
-          "tags": [
-            "ai",
-            "running"
-          ],
-          "timestamp": "2026/07/04 09:21"
-        },
-        {
-          "user": "beejaga",
-          "comment": "個人的にはLLMに抽象化をさせてはいけない、レイヤーアーキテクチャ程度でも人間が決め守らせる、ですかね",
-          "tags": [],
-          "timestamp": "2026/07/04 09:18"
-        }
-      ],
-      "fetchedAt": "2026-07-04T03:44:36.767880+00:00"
-    },
-    {
-      "id": "h_e570d5d8",
-      "title": "Claude Code「Fable 5」にローカルLLM用シェル支援CLIを作らせたら、コードより仕事の進め方に驚かされた",
-      "url": "https://zenn.dev/gys/articles/fable5-local-llm-ask-cli",
-      "domain": "zenn.dev",
-      "bookmarkCount": 194,
-      "summary": "こういう、「知っているはずなのに毎回うろ覚えになる」シェルコマンドを、日本語で聞く。 一見すると、単なる自然言語コマンド生成ツールに見えると思う。 でも、俺にとって面白かったのはCLIそのものではない。 このツールを作るまでの過程で、Claude Codeのfable5が、 最初に提示した解決策の前提そのものを疑い、 既...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/gys/articles/fable5-local-llm-ask-cli",
-      "comments": [
-        {
-          "user": "toaruR",
-          "comment": "うぐぐ、fable先生、優秀(ノ∀`)",
-          "tags": [],
-          "timestamp": "2026/07/04 11:53"
-        },
-        {
-          "user": "nabinno",
-          "comment": "AIの価値はコード生成より、調査・評価・検証・文書化を含む仕事全体の質を上げる点にある。AI抜きの知的労働は、もはやレビュー不在に近い。",
-          "tags": [
-            "zenn",
-            "artificial-intelligence",
-            "ai-assisted-development",
-            "human-ai-collaboration",
-            "developer-productivity",
-            "software-engineering",
-            "local-llm",
-            "llm-evaluation",
-            "workflow-automation",
-            "knowledge-work"
-          ],
-          "timestamp": "2026/07/04 11:02"
-        },
-        {
-          "user": "uehaj",
-          "comment": "わかる。Fableは大きな構図を見ている。",
-          "tags": [],
-          "timestamp": "2026/07/04 08:49"
-        },
-        {
-          "user": "zoidstown",
-          "comment": "“AIが「正解を答える」だけではなく、不確実な現実の中で、何を調べ、何を測り、何を作り、どこで止まるべきかを考えながら、仕事を前へ進める相棒に確実になり始めている”",
-          "tags": [],
-          "timestamp": "2026/07/04 07:59"
-        },
-        {
-          "user": "hogetax",
-          "comment": "誰の成果なんだろう？システムプロンプト？モデル？それとも全然違う仕組み？",
-          "tags": [],
-          "timestamp": "2026/07/04 03:47"
-        },
-        {
-          "user": "doko",
-          "comment": "そんなFableでも、天皇制廃止のデメリットを聞いたら、皇統が在野になることによる事実上の権威・権力の解放のリスクを見落とした。",
-          "tags": [
-            "ネット",
-            "GPT",
-            "PG"
-          ],
-          "timestamp": "2026/07/04 02:46"
-        }
-      ],
-      "fetchedAt": "2026-07-04T03:44:42.642039+00:00"
-    },
-    {
-      "id": "h_d48d5954",
-      "title": "Prompting Claude Fable 5",
-      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
-      "domain": "platform.claude.com",
-      "bookmarkCount": 146,
-      "summary": "Behavioral differences and prompting patterns for Claude Fable 5 and Claude Mythos 5, covering effort, instruction following, long runs, memory, and scaffolding changes. This guide covers the prompting and scaffolding patterns specific to C",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
-      "comments": [
-        {
-          "user": "shoTA",
-          "comment": "Fable 5は長時間自律実行と高度な指示追従が特徴。effort設定を主軸に、過剰設計の抑制・進捗報告のツール結果照合・検証サブエージェント分離が有効。旧モデル向けの細かい指示は逆効果なので削除推奨。",
-          "tags": [],
-          "timestamp": "2026/07/03 23:02"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Claude Fable 5向けプロンプト指南。long-horizon autonomy、parallel subagents、memory、effort設定、長時間実行時の進捗監査、send_to_user tool、既存Skills見直しを推奨。",
-          "tags": [
-            "Claude 5"
-          ],
-          "timestamp": "2026/07/03 18:30"
-        },
-        {
-          "user": "mkusaka",
-          "comment": "Claude Fable 5/Claude Mythos 5のプロンプト最適化を解説。long-horizonやsend_to_userツール、指示遵守の要点を整理する。",
-          "tags": [
-            "AI要約",
-            "プロンプト",
-            "ClaudeFabe",
-            "Fable5",
-            "prompt作法",
-            "ドキュメント",
-            "足場設計"
-          ],
-          "timestamp": "2026/06/11 04:35"
-        },
-        {
-          "user": "vrcdiver",
-          "comment": "“Claude Fable”",
-          "tags": [
-            "Claude",
-            "Fable",
-            "Prompt",
-            "Anthropic"
-          ],
-          "timestamp": "2026/06/10 16:52"
-        },
-        {
-          "user": "t-wada",
-          "comment": "Claude Fable 5 向けの Prompting ガイド",
-          "tags": [],
-          "timestamp": "2026/06/10 12:44"
-        }
-      ],
-      "fetchedAt": "2026-07-04T03:44:41.105972+00:00"
-    },
-    {
       "id": "h_ef25f018",
       "title": "AIで実装コストが低くなった今、エンジニアは上流に行くべきか？｜いしい",
       "url": "https://note.com/danimal141/n/neeb219bbc03f",
       "domain": "note.com",
-      "bookmarkCount": 124,
+      "bookmarkCount": 190,
       "summary": "「AI時代、実装だけやってるとこの先まずいですかね。上流側に寄るべきですか」。 特に新卒採用などをやっているとこの手の質問が多い。そしてどう回答するか、毎度悩ましい。そもそも質問者の言う「上流」とは、PRDや要件を書くことなのか、何を作るか決めることなのか、その結果に責任を持つことなのか。たいてい本人...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/danimal141/n/neeb219bbc03f",
       "comments": [
         {
-          "user": "Listlessness",
-          "comment": "JTC子会社のSIerでトークンコストを人件費と横並びで評価しようという雰囲気にすらなってないのには危機感を感じるよ。人月商売ずっぽり。多分経営層がトークンコストを意識しなきゃいけないほどAIを利用できてない。",
-          "tags": [],
-          "timestamp": "2026/07/04 12:41"
-        },
-        {
-          "user": "shoh8",
-          "comment": "お客さんと接する方向に行かないと仕事は無くなる。",
+          "user": "dorapon2000",
+          "comment": "“判断の練習を積むことに加えて、判断権を明示的に交渉する必要がある。 「この範囲の意思決定を自分に委譲してほしい。結果はこの指標で見てほしい」と口に出して要求する。”",
           "tags": [
             "AI",
-            "組織",
-            "開発"
+            "エンジニア"
           ],
-          "timestamp": "2026/07/04 12:33"
+          "timestamp": "2026/07/04 17:04"
         },
         {
-          "user": "hiroyuki1983",
-          "comment": "上流と言うか「客に直接怒られるポジションに行け」ってのが適切かな。AIは怒られることができないから。人はAIに怒っても溜飲が下がらない",
+          "user": "snow8-yuki",
+          "comment": "しっかり修めれば、レビュワーとして希少になれる位置だよ、かな",
           "tags": [],
-          "timestamp": "2026/07/04 12:31"
+          "timestamp": "2026/07/04 17:02"
         },
         {
-          "user": "junglejungle",
-          "comment": "仕様書を作ってみんなにお伺いを立てる旧体制ではAIでの試行錯誤のスピードに到底追い付けない。その場で即断即決する事が求められるので、内製化は必然。内製化できないところやSIerは死滅するだろう。",
+          "user": "sabacurry",
+          "comment": "ここでいう上流の人たちも実装を内製化できるようになったしなんならお客さんも自分たちで実装できるようになったし",
           "tags": [],
-          "timestamp": "2026/07/04 12:30"
+          "timestamp": "2026/07/04 16:32"
         },
         {
-          "user": "bike-a-to-z",
-          "comment": "シンプルにコミュニケーション能力が欠如してると務まらないから「行くべきか？」ではなく「行けないのは何故か」を問い直したほうがいい。クセ強ラーメン屋になるなよ",
+          "user": "Lumin",
+          "comment": "securecat V字モデルの上か下かだから、上流下流の表現も前工程後工程の表現もどっちもおかしくはある。",
           "tags": [],
-          "timestamp": "2026/07/04 12:29"
+          "timestamp": "2026/07/04 16:30"
         },
         {
-          "user": "glizmo",
-          "comment": "今はPdMも人数絞り始めていたり営業側にはみ出し始めたりしているので、ビジネス側に思いっきりはみ出すか、開発の人数が絞られた後でも残れるシニアエンジニア層になるかしか選択肢がない気が",
+          "user": "harist",
+          "comment": "表計算用途でないExcelファイルを無限に作る仕事が始まる",
           "tags": [],
-          "timestamp": "2026/07/04 12:14"
+          "timestamp": "2026/07/04 16:23"
+        },
+        {
+          "user": "harumomo2006",
+          "comment": "作業の前半後半じゃなくて上流下流というネーミングのためエラい人と下僕みたいな関係と思われるのでまずそこから変えたほうがいい。あとウォーターフォールのほうがいいと思うけど説明する余白が足りない",
+          "tags": [],
+          "timestamp": "2026/07/04 16:16"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:34.521916+00:00"
+      "fetchedAt": "2026-07-04T08:45:57.010615+00:00"
     },
     {
-      "id": "h_239b42b3",
-      "title": "パスワード入力のmaxlengthで長いパスワードで登録できたつもりになってた問題2026",
-      "url": "https://gist.github.com/mala/30c4e87c9ab150054e2f722b8256157e",
-      "domain": "gist.github.com",
-      "bookmarkCount": 76,
-      "summary": "password_maxlength.md 2012年版 https://gist.github.com/mala/4129717 https://togetter.com/li/2716116 15文字に切り詰めてパスワードを入力せよという案内を元に、なぜかパスワードが平文で保存されているという主張をする人がいる。これは全く発生している事象と関連がなく、根拠がない。 パスワードを任意の長さに...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gist.github.com/mala/30c4e87c9ab150054e2f722b8256157e",
+      "id": "h_dc02a087",
+      "title": "消費者庁、Anker Japanがリコールを行っているモバイルバッテリー「Anker PowerCore 10000」が原因とみられる火災事故が5月に2件報告されたとして情報を公開。",
+      "url": "https://applech2.com/archives/20260704-anker-powercore-1000-incident.html",
+      "domain": "applech2.com",
+      "bookmarkCount": 124,
+      "summary": "消費者庁がAnker Japanがリコールを行っているモバイルバッテリー「Anker PowerCore 10000」が原因とみられる火災事故が5月に2件報告されたとして情報を公開しています。詳細は以下から。 消費者庁は日本時間2026年07月03日、消費生活用製品安全法第35条第1項の規定に基づき報告のあった重大製品事故に関し、屋外式ガス...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20260704-anker-powercore-1000-incident.html",
       "comments": [
         {
-          "user": "mkusaka",
-          "comment": "password maxlengthで入力が64文字に切詰められ、登録表示と送信内容が不一致になる問題をファクトチェックする。平文保存は根拠なし。",
-          "tags": [
-            "AI要約",
-            "セキュリティ",
-            "バリデーション",
-            "パスワード",
-            "GitHub",
-            "解説"
-          ],
-          "timestamp": "2026/07/04 12:42"
-        },
-        {
-          "user": "toaruR",
-          "comment": "長くウェブやってるほど気付かない盲点だな（´－｀）",
-          "tags": [
-            "web制作"
-          ],
-          "timestamp": "2026/07/04 11:43"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "弊社が手掛けたシステムを確認したら、maxlength=\"200\"みたいな制限はしてたな。最新のは無制限だった。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/07/04 11:29"
-        },
-        {
-          "user": "koseki",
-          "comment": "なるほどー。他システムとの共通化とかなのかと思ってた。15桁で認証した後ハッシュ作り直したら、仕様を変えずに黙ってリカバリできそうだけど、、認証処理の変更は無理だったのかな",
+          "user": "zzzbbb",
+          "comment": "アンカー好きじゃないけど、おそらく日本で1番利用者の多いモババだからね。絶対数だけで比較されるのはちょっとかわいそうかも。",
           "tags": [],
-          "timestamp": "2026/07/04 11:12"
+          "timestamp": "2026/07/04 17:39"
         },
         {
-          "user": "auto_chan",
-          "comment": "2037年7月アップデート：パスワードマネージャ側がこの問題を検出できるようになりました",
+          "user": "aga_aga",
+          "comment": "そもそもリチウムイオンバッテリーは製造販売を禁止すべきだろう。",
           "tags": [],
-          "timestamp": "2026/07/04 10:19"
+          "timestamp": "2026/07/04 17:33"
         },
         {
-          "user": "shoh8",
-          "comment": "そう。私もこれだと思った。もともと15文字までしか入力できなかったのが、変更で15文字以上入力できるようになった",
-          "tags": [
-            "セキュリティ",
-            "事例"
-          ],
-          "timestamp": "2026/07/04 08:55"
+          "user": "aosiro",
+          "comment": "持ってるけど製造日が期間外。安心してお使いいただけますって言われたんだけど怖いんだよね...",
+          "tags": [],
+          "timestamp": "2026/07/04 17:33"
+        },
+        {
+          "user": "at_yasu",
+          "comment": "13000 使ってたけど、別っぽいなー。見た目そっくりだけど。",
+          "tags": [],
+          "timestamp": "2026/07/04 17:31"
+        },
+        {
+          "user": "seal2501",
+          "comment": "Ankerは真摯に対応してるから好感が持てる。先日Amazonで買った製品は爆発したから報告するために購入履歴辿ったら商品ページごと消えてた。",
+          "tags": [],
+          "timestamp": "2026/07/04 17:23"
+        },
+        {
+          "user": "FreeCatWork",
+          "comment": "ボクの充電器は燃えないやつがいいにゃ！みんなも気をつけてね、大好きだにゃ！",
+          "tags": [],
+          "timestamp": "2026/07/04 17:17"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:41.952938+00:00"
-    },
-    {
-      "id": "h_bf8a72d6",
-      "title": "とあるはてなーブックマークの解析（Claudeは個人評を避けたので、Geminiに調べてもらいました）",
-      "url": "https://anond.hatelabo.jp/20260703164835",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 36,
-      "summary": "***のブックマーク - はてなブックマーク https://b.hatena.ne.jp/***/bookmark このはてなユーザーは親ロシア・反ウクライナ的でありますが、その理由が分かりません。これまでのブックマークから何か読み解けるものはないでしょうか？ --- ご提示いただいたはてなブックマークの履歴（コメント）を分析すると、このユ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260703164835",
-      "comments": [
-        {
-          "user": "death6coin",
-          "comment": "“このユーザー（pokute8）”隠せてねぇぞ",
-          "tags": [],
-          "timestamp": "2026/07/04 12:38"
-        },
-        {
-          "user": "hTn",
-          "comment": "言及したくなるようなとこを作って見事な釣り上げというかんじ",
-          "tags": [],
-          "timestamp": "2026/07/04 12:03"
-        },
-        {
-          "user": "cubick",
-          "comment": "自分のIDで試したけど、Claudeはちゃんとページを読んだうえで個人評するし、Geminiは「リアルタイムに中身を閲覧できません」て回答でした。増田は創作かな？",
-          "tags": [],
-          "timestamp": "2026/07/04 11:44"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "匿名で「みんな無視すべきバカですよ」と書いたのは犯罪者の自覚があってのこと。クズすぎる",
-          "tags": [],
-          "timestamp": "2026/07/04 11:36"
-        },
-        {
-          "user": "nise_oshou",
-          "comment": "非表示に設定済みだった",
-          "tags": [],
-          "timestamp": "2026/07/04 11:36"
-        },
-        {
-          "user": "pribetch",
-          "comment": "ウクライナ側の工作員だと思ってる",
-          "tags": [],
-          "timestamp": "2026/07/04 11:24"
-        }
-      ],
-      "fetchedAt": "2026-07-04T03:44:40.308621+00:00"
-    },
-    {
-      "id": "h_14ecb94c",
-      "title": "プレゼンツールPeithoをつくっている",
-      "url": "https://mizzy.org/blog/2026/07/03/1/",
-      "domain": "mizzy.org",
-      "bookmarkCount": 35,
-      "summary": "前回の記事でPyxis/Argus/Irisという最近つくっているOSSを紹介したけど、もうひとつ新しいものをつくりはじめた。Peithoというプレゼンテーションツールで、Markdownをsource of truthとして、HTMLネイティブなスライドを生成し、ブラウザでの発表までやる。 ビルドするとどんなスライドになるのかは、デモサイトpeitho...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mizzy.org/blog/2026/07/03/1/",
-      "comments": [
-        {
-          "user": "mizdra",
-          "comment": "スキーマ面白い",
-          "tags": [
-            "markdown",
-            "presentation"
-          ],
-          "timestamp": "2026/07/04 09:43"
-        }
-      ],
-      "fetchedAt": "2026-07-04T03:44:39.758845+00:00"
+      "fetchedAt": "2026-07-04T08:45:55.849975+00:00"
     },
     {
       "id": "h_067ea42d",
       "title": "1テラと表示された240ギガの罠 自衛隊の機密システムを1年むしばんだ偽装USBと日本の盲点｜宮野宏樹",
       "url": "https://note.com/hirokimiyano/n/n1b225eeec21d",
       "domain": "note.com",
-      "bookmarkCount": 33,
+      "bookmarkCount": 66,
       "summary": "手のひらに乗る小さなUSBメモリーが、国の守りの中枢を1年近くむしばんでいました。日本経済新聞が2026年6月25日に報じた調査報道によると、陸上自衛隊は2025年2月まで、中国系ウイルスに感染したUSBメモリーを、作戦遂行にかかわる機密システムの端末で使い続けていました。調達時の確認、使用前のウイルスチェック、組...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/hirokimiyano/n/n1b225eeec21d",
       "comments": [
         {
-          "user": "yoko-hirom",
-          "comment": "仰々しく論じているが，程度が低くてショボくて恥ずかしいやらかしなのが実態。",
+          "user": "hatebu_admin",
+          "comment": "行政系ネットワークでもクローズドなネットワークとのデータのやり取りは必ず発生するが、普通は検疫システムを介して無害化する業務フローになってるわな。USBメモリを使うしかないのなら業務フローの問題やで",
           "tags": [],
-          "timestamp": "2026/07/04 12:36"
+          "timestamp": "2026/07/04 17:00"
         },
         {
-          "user": "LM-7",
-          "comment": "救いようのないリテラシの低さ",
-          "tags": [],
-          "timestamp": "2026/07/04 12:28"
-        },
-        {
-          "user": "bean_hero",
-          "comment": "お粗末すぎる",
+          "user": "narukami",
+          "comment": "うわー災害対応で",
           "tags": [
-            "自衛隊",
             "セキュリティ"
           ],
-          "timestamp": "2026/07/04 12:24"
+          "timestamp": "2026/07/04 15:59"
         },
         {
-          "user": "nagi-pikmin",
-          "comment": "かわよ",
+          "user": "uunfo",
+          "comment": "国防の情報網に穴があったら終わりなんだからもっと厳しくしよう一択だろ。",
           "tags": [],
-          "timestamp": "2026/07/04 12:08"
+          "timestamp": "2026/07/04 15:53"
         },
         {
-          "user": "masara092",
-          "comment": "USBメモリーをUSBと略すな",
-          "tags": [],
-          "timestamp": "2026/07/04 11:39"
-        },
-        {
-          "user": "isrc",
-          "comment": "自衛隊では、システムをまたぐデータ移行のために、日常的にUSBメモリーが／どのUSBを誰が使ってよいかを管理する仕組みが今回は有効に働いていませんでした／セキュリティチェック対象からUSBが外されていた",
+          "user": "ardarim",
+          "comment": "1自衛隊バイト＝6ビット",
           "tags": [
-            "マネジメント",
-            "security"
+            "あとでよむ",
+            "セキュリティ"
           ],
-          "timestamp": "2026/07/04 11:20"
+          "timestamp": "2026/07/04 15:41"
+        },
+        {
+          "user": "netnotora",
+          "comment": "パランティアも笑ってそー",
+          "tags": [],
+          "timestamp": "2026/07/04 15:01"
+        },
+        {
+          "user": "TakamoriTarou",
+          "comment": "ルールはあるのに機能してなかった、と言う問題だけど、これを「じゃあもっと厳しいルールにしよう！！」ってなるとみんな死ぬ。",
+          "tags": [],
+          "timestamp": "2026/07/04 14:37"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:36.083470+00:00"
+      "fetchedAt": "2026-07-04T08:45:59.408598+00:00"
     },
     {
       "id": "h_825a4ee1",
       "title": "Steam公式ゲーミングPC「Steam Machine」を買って届いたので開封の儀、大きさや搭載ポートを詳しくチェックしてみたよレビュー",
       "url": "https://gigazine.net/news/20260703-steam-machine-appearance/",
       "domain": "gigazine.net",
-      "bookmarkCount": 25,
+      "bookmarkCount": 38,
       "summary": "「Steam Machine」はSteam OSを搭載したSteam公式ゲーミングPCです。PlayStationやXBOXと違ってLinuxベースのOSを搭載しており、Steamライブラリ上のゲームをプレイできるだけでなくLinuxマシンとして使うことも可能です。かなり面白そうなデバイスだったので発売と同時に購入。2026年7月1日にGIGAZINE編集部に届いたの...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260703-steam-machine-appearance/",
       "comments": [
         {
-          "user": "kamiokando",
-          "comment": "こういう記事書くの楽しそう。",
+          "user": "ejointjp",
+          "comment": "専用ゲーム機に勝るとも劣らない性能（値段数倍）",
           "tags": [],
-          "timestamp": "2026/07/04 12:39"
+          "timestamp": "2026/07/04 16:07"
         },
         {
-          "user": "misomico",
-          "comment": "デザインいいな。ノート版とか出ないかな",
+          "user": "kyahi227",
+          "comment": "流石に55,000円/$550のPS5対抗機が米国製だと249,980円だの$1428になるのは「部材高騰」では済まないだろ。「同じ」物の価格が3～5倍なんだぞ。米ドルがハイパーインフレーションの域に突っ込んでるんじゃないのか",
           "tags": [],
-          "timestamp": "2026/07/04 11:46"
+          "timestamp": "2026/07/04 15:36"
         },
         {
-          "user": "mohno",
-          "comment": "ゲーム機買っても使わないので買わないけど（←オイ）、“たっか！”ってなるな。半導体がインフレしてる今は、ちょっとタイミング悪かったねぇ。",
-          "tags": [
-            "GIGAZINE",
-            "Valve",
-            "Steam",
-            "ゲーム",
-            "Steam Machine",
-            "KOMODO",
-            "日本",
-            "半導体",
-            "メモリ"
-          ],
-          "timestamp": "2026/07/04 11:42"
+          "user": "kaeruyan",
+          "comment": "はてなも任天堂と協力して「Hatena Box」というコンソール出しておくれ（願望）",
+          "tags": [],
+          "timestamp": "2026/07/04 15:27"
         },
         {
-          "user": "kahlua-dane",
-          "comment": "見た目はいいんだけどなぁ…性能がなぁ",
+          "user": "Fushihara",
+          "comment": "gigazineって儲かってるのかカツカツなのかよくわからんな。老舗ではあるけど、ほぼ個人経営な印象。儲かってんならそれは結構なことだと思うけどね",
           "tags": [],
-          "timestamp": "2026/07/04 11:21"
+          "timestamp": "2026/07/04 14:49"
         },
         {
-          "user": "taruhachi",
-          "comment": "ホームAIサーバーにするにはちょっと性能不足だなぁ。。。",
+          "user": "mignonetigons",
+          "comment": "『最上位版の「2TB・コントローラー付き」.. 価格は税込26万4980円でした』",
           "tags": [],
-          "timestamp": "2026/07/04 10:39"
+          "timestamp": "2026/07/04 13:20"
         },
         {
-          "user": "zkq",
-          "comment": "性能はいいのかもしれんが高いな。やっぱ最近の半導体価格上昇のせいか。",
+          "user": "ldlc",
+          "comment": "狭い日本の家に合うな。アメリカとかのでかい家なら普通のゲーミングPCでええやんと思うが",
           "tags": [],
-          "timestamp": "2026/07/04 10:21"
+          "timestamp": "2026/07/04 13:02"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:37.649595+00:00"
+      "fetchedAt": "2026-07-04T08:46:02.786556+00:00"
+    },
+    {
+      "id": "h_94998577",
+      "title": "高市批判の際にAIによる加工画像がちょくちょく紛れてる - 電脳塵芥",
+      "url": "https://nou-yunyun.hatenablog.com/entry/2026/07/04/030000",
+      "domain": "nou-yunyun.hatenablog.com",
+      "bookmarkCount": 36,
+      "summary": "メモ的に書いておく。6月26日に山梨で震度6弱の地震が発生した際の高市の会見について、その声が弱々しく聞こえたとした動画が拡散したりした。それに対して酔っぱらっているのではという解釈がなされ、それが後に動画からの切り抜き画像が添えられて拡散がされた。 https://x.com/7OuqAXeL9r58674/status/2071257332626...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nou-yunyun.hatenablog.com/entry/2026/07/04/030000",
+      "comments": [
+        {
+          "user": "myogab",
+          "comment": "白テロの手段として資本力のある側の専売特許～て時代もそう長くは続かない。て話かな。権力側の内紛～て場合もあるし、技術のトリクルダウン～て側面もあり。ネット規制無き議員定数削減も思惑通りの結果かは疑問も",
+          "tags": [
+            "余談"
+          ],
+          "timestamp": "2026/07/04 17:02"
+        },
+        {
+          "user": "mr_mayama",
+          "comment": "これは伸びない(高市擁護だから",
+          "tags": [],
+          "timestamp": "2026/07/04 16:56"
+        },
+        {
+          "user": "takahire_hatene",
+          "comment": "不思議なことに、高市のアンチがAIを使用すると、わーわー騒がれ、高市の味方がAIを使用して、大量に動画を作成しても、静寂に包まれている。高市はAIを使う側だから、問題ないよｗ量で勝ってるから問題ない。",
+          "tags": [],
+          "timestamp": "2026/07/04 16:53"
+        },
+        {
+          "user": "ee83jaige",
+          "comment": "そういや高市誹謗動画疑惑とかいうAI以前の捏造疑惑はどうなったんだろう？今はサナエノタオルだなんだとわめいてるらしいが、捏造に対して謝罪もしないでよく次の「疑惑」で喚けるもんだ",
+          "tags": [],
+          "timestamp": "2026/07/04 16:47"
+        },
+        {
+          "user": "acealpha",
+          "comment": "テレビですらアル中みたいなブレブレ動画出してるしもうまともな政治記録なくなるのでは？",
+          "tags": [],
+          "timestamp": "2026/07/04 16:15"
+        },
+        {
+          "user": "akutsu-koumi",
+          "comment": "フェイクを警戒して一次情報を重視しようにも、内閣広報官アカウントは平気でインターンをフェローと強弁するし、自民党からして業者にデマ・中傷をさせる党だしなあ。AI画像と同じくらい胡散臭い。",
+          "tags": [],
+          "timestamp": "2026/07/04 16:02"
+        }
+      ],
+      "fetchedAt": "2026-07-04T08:45:58.215591+00:00"
     },
     {
       "id": "h_6f23bc77",
       "title": "中国アリババ、米アンソロピックのプログラミングAIを利用禁止に - 日本経済新聞",
       "url": "https://www.nikkei.com/article/DGXZQOGM039GI0T00C26A7000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 20,
+      "bookmarkCount": 32,
       "summary": "【上海=若杉朋子】中国ネット通販最大手のアリババ集団は、自社の従業員に対して、米人工知能（AI）新興アンソロピックのプログラミングAI「クロードコード」を業務で使うことを禁止する。ロイター通信や中国メディアが3日、関係者の話として伝えた。ロイターによると、クロードコードはエンジニアなどの間で、利用者の...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGM039GI0T00C26A7000000/",
       "comments": [
+        {
+          "user": "kyahi227",
+          "comment": "アリババのオープンモデル公開が止まったのは蒸留がバレるより前、投資回収にシフトして特に100B以上の商用レベルのモデルは無料公開を順次終了する方針になったからじゃないのか",
+          "tags": [],
+          "timestamp": "2026/07/04 15:06"
+        },
+        {
+          "user": "koroha-a",
+          "comment": "カンニングしてないよアピール。でも中国（かつての日本も）ある程度まではパクるけどそこから先の性能向上は得意なので、そろそろ追いつき追い越せそうなところまで来てるんだろう",
+          "tags": [],
+          "timestamp": "2026/07/04 13:35"
+        },
+        {
+          "user": "mr_mayama",
+          "comment": "面白くなって参りました",
+          "tags": [],
+          "timestamp": "2026/07/04 13:35"
+        },
+        {
+          "user": "for-my-internet-demo",
+          "comment": "どの口",
+          "tags": [],
+          "timestamp": "2026/07/04 13:22"
+        },
         {
           "user": "qpci32siekqd",
           "comment": "Claudeの情報読み取りにいくのを見ていると漏洩は気にするし、特定企業向けに読み取り多くするチューニングも出来そうだし。自社のも使われないと一向に性能良くならんしね",
@@ -486,34 +294,103 @@
           "comment": "GLM-5.2の方が安くて性能も匹敵するからそっち使ってって言う話かな 禁止されようがどうしようが蒸留のためにはこっそり使うだろう",
           "tags": [],
           "timestamp": "2026/07/04 09:58"
-        },
-        {
-          "user": "dozo",
-          "comment": "蒸留ができなくってパタッとリリースが止まったアリババ.面子を保つためにClaude禁止に,",
-          "tags": [],
-          "timestamp": "2026/07/04 09:13"
-        },
-        {
-          "user": "nmcli",
-          "comment": "むしろ使えてたのか",
-          "tags": [
-            "セキュリティ",
-            "技術"
-          ],
-          "timestamp": "2026/07/04 09:00"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:38.274852+00:00"
+      "fetchedAt": "2026-07-04T08:46:03.430508+00:00"
+    },
+    {
+      "id": "h_7749dd80",
+      "title": "とある部長のObsidian",
+      "url": "https://zenn.dev/canly/articles/173479ac3e9824",
+      "domain": "zenn.dev",
+      "bookmarkCount": 28,
+      "summary": "まえがき カンリーのプロダクトマネジメント部の部長をしている越智（X：@ochi__san）です。 AIが日常の当たり前になってから久しいですが、私ももれなく日々の業務にどうAIを取り込み、いかに生産性高くふるまい続けられるかを考えています。今回は実務というよりはその周辺にあるタスクやふりかえりに焦点をあて、どの...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/canly/articles/173479ac3e9824",
+      "comments": [
+        {
+          "user": "htamaaki",
+          "comment": "大体今走らせてるワークフローと同じ。ここからもう一つステージを上げた使い方をしたい",
+          "tags": [],
+          "timestamp": "2026/07/04 17:25"
+        },
+        {
+          "user": "hogetax",
+          "comment": "貧乏性なので、日常業務のキックをClaudeCodeからするのがすごく違和感がある。フローは参考にしたい",
+          "tags": [],
+          "timestamp": "2026/07/04 17:19"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "整理と分類をAIに完全委ねるのは賢い。仕分けが億劫で続かないナレッジ管理の解決策",
+          "tags": [],
+          "timestamp": "2026/07/04 17:04"
+        },
+        {
+          "user": "GonzalezTanaka",
+          "comment": "やるやん部長。",
+          "tags": [],
+          "timestamp": "2026/07/04 17:01"
+        }
+      ],
+      "fetchedAt": "2026-07-04T08:45:57.382030+00:00"
+    },
+    {
+      "id": "h_ad73c0d9",
+      "title": "ローカルLLMで「Pi」エージェントを動かす",
+      "url": "https://zenn.dev/fuwamoekissaten/articles/bb5f5364838ced",
+      "domain": "zenn.dev",
+      "bookmarkCount": 23,
+      "summary": "数年前、LLMがコードを書いてくれるようになった当初は、チャットインターフェースでAIとやり取りするのが当たり前でした。しかし、2025年を境にその常識は一変しました。今やチャット形式でのプログラミングは「非効率」とされ、AIエージェントが自律的にタスクをこなす時代になっています。 ただ、この「エージェント...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/fuwamoekissaten/articles/bb5f5364838ced",
+      "comments": [
+        {
+          "user": "nekoline",
+          "comment": "環境周りが参考になる",
+          "tags": [],
+          "timestamp": "2026/07/04 17:17"
+        },
+        {
+          "user": "zentarou",
+          "comment": "200ドルのダンピング価格も今だけなんだよね",
+          "tags": [],
+          "timestamp": "2026/07/04 17:06"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“商用エージェントはサブスク月200ドル（3万円以上）なのでローカルLLMへの期待は高まる。GTX 1660 Super (VRAM 6GB)でも、Qwen-3.6-35B (MoE)はMoEなので実用的な速度で動作。コーディング能力が高い。”",
+          "tags": [],
+          "timestamp": "2026/07/04 16:37"
+        },
+        {
+          "user": "hasiduki",
+          "comment": "すごそう！！！！！！！",
+          "tags": [],
+          "timestamp": "2026/07/04 16:35"
+        }
+      ],
+      "fetchedAt": "2026-07-04T08:45:59.023907+00:00"
     },
     {
       "id": "h_a6a973fe",
       "title": "あと30年後にはムーンスティックをモチーフにした高齢者用杖が出ると思います「シルバーミレニアムの仏壇出てくれ」「老人になるのも楽しみになってきた」",
       "url": "https://togetter.com/li/2716570",
       "domain": "togetter.com",
-      "bookmarkCount": 15,
+      "bookmarkCount": 22,
       "summary": "あと30年後にはムーンスティックをモチーフにした高齢者用杖が出ると思います「シルバーミレニアムの仏壇出てくれ」「老人になるのも楽しみになってきた」",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2716570",
       "comments": [
+        {
+          "user": "yamadadadada2",
+          "comment": "男向けには悟空の如意棒かな / ビニ傘を持たせるとアバンストラッシュをかまそうとして骨折する老人が多発",
+          "tags": [],
+          "timestamp": "2026/07/04 14:10"
+        },
+        {
+          "user": "comma3",
+          "comment": "（こけたら刺さるじゃん……）",
+          "tags": [],
+          "timestamp": "2026/07/04 14:04"
+        },
         {
           "user": "lone-dog",
           "comment": "70年代放送のマジンガーやゲッターの杖が8年前には出てるのに30年もかかるわけないだろ。20年経たずに封印の杖と仲良くラインナップに並ぶよ。",
@@ -537,47 +414,88 @@
           "comment": "妙に辛辣なブコメが多いが30年くらいじゃないか？今のアラフォーアラフィフが女児の頃に見てたイメージ↓",
           "tags": [],
           "timestamp": "2026/07/04 11:19"
-        },
-        {
-          "user": "somaria3",
-          "comment": "30年という設定に年齢誤魔化したい欲求がうっすら見えていいね",
-          "tags": [],
-          "timestamp": "2026/07/04 11:11"
-        },
-        {
-          "user": "pribetch",
-          "comment": "そろそろライドルスティックモチーフの杖を",
-          "tags": [
-            "オモチャ"
-          ],
-          "timestamp": "2026/07/04 11:06"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:37.357390+00:00"
+      "fetchedAt": "2026-07-04T08:46:01.478239+00:00"
     },
     {
-      "id": "h_b5bfc61f",
-      "title": "重大契約情報の隠蔽は人権侵害である - 諸事解説(AI多用)",
-      "url": "https://ganot.hatenadiary.com/entry/2026/07/04/023755",
-      "domain": "ganot.hatenadiary.com",
-      "bookmarkCount": 5,
-      "summary": "[AI添削の方針]以下、指定に基づき添削・強化した版です。事実認定をより精緻にし、法律的構成を明確化（自己決定権・人格権・情報提供義務・信義則・不法行為責任の観点）、表現を鋭くし、中立性への配慮を排除して構造的責任を前面に押し出しました。被害規模の推定も具体的に深掘りしています。 共演者への情報非開示...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ganot.hatenadiary.com/entry/2026/07/04/023755",
+      "id": "h_b342f33d",
+      "title": "CVE-2026-48931 Shouldn't Have Been a CVE",
+      "url": "https://adventures.nodeland.dev/archive/cve-2026-48931-shouldnt-have-been-a-cve/",
+      "domain": "adventures.nodeland.dev",
+      "bookmarkCount": 8,
+      "summary": "July 2, 2026 CVE-2026-48931 Shouldn't Have Been a CVE HTTP Response Queue Poisoning in Node.js, the node-fetch Breakage, and Why It Shouldn't Have Been a CVE. I reported and fixed the HTTP/1.1 response queue poisoning issue in Node.js http.",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/adventures.nodeland.dev/archive/cve-2026-48931-shouldnt-have-been-a-cve/",
       "comments": [
         {
-          "user": "ganot",
-          "comment": "フジテレビの人権侵害に抗議する。なお、佐藤氏は強迫神経症であることは公表ずみであり、フジテレビは彼の特性を知りながら、心身への配慮をしなかった。これは、差別である。https://ganot.hatenadiary.com/entry/2026/07/04/122939",
+          "user": "nguyen-oi",
+          "comment": "AIのせいでそれっぽい報告が激増してOSSメンテナーが窒息するの、まさに現代の地獄絵図だな",
+          "tags": [],
+          "timestamp": "2026/07/04 11:40"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "Node.js http.AgentのHTTP/1.1応答キュー汚染（CVE-2026-48931）を解説し、node-fetch@2の誤ERR_STREAM_PREMATURE_CLOSEまで謝罪。",
           "tags": [
-            "AI",
-            "セルクマ",
-            "人権侵害",
-            "マスコミ"
+            "AI要約",
+            "HTTP1.1",
+            "node-fetch",
+            "CVE",
+            "セキュリティ",
+            "解説"
           ],
-          "timestamp": "2026/07/04 02:39"
+          "timestamp": "2026/07/03 15:25"
+        },
+        {
+          "user": "yosuke_furukawa",
+          "comment": "めっちゃ面白かった。 CVE-2026-48931 は脆弱性として修正するべきではなかったというポスト。",
+          "tags": [],
+          "timestamp": "2026/07/03 15:17"
         }
       ],
-      "fetchedAt": "2026-07-04T03:44:39.221674+00:00"
+      "fetchedAt": "2026-07-04T08:46:01.109081+00:00"
+    },
+    {
+      "id": "h_a4c1a73f",
+      "title": "深刻ないじめがイーロン・マスクやピーター・ティールに与えた影響",
+      "url": "https://business.nikkei.com/atcl/gen/19/00087/062900510/",
+      "domain": "business.nikkei.com",
+      "bookmarkCount": 7,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/business.nikkei.com/atcl/gen/19/00087/062900510/",
+      "comments": [],
+      "fetchedAt": "2026-07-04T08:46:00.463530+00:00"
+    },
+    {
+      "id": "h_bbbe023b",
+      "title": "「iPhone」のバッテリーをApple Storeで初めて交換--得られた重要な教訓とは",
+      "url": "https://japan.zdnet.com/article/35249785/",
+      "domain": "japan.zdnet.com",
+      "bookmarkCount": 6,
+      "summary": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます 長年の「iPhone」ユーザーである筆者にとって、かつては新品で輝いていたiPhoneが、24時間365日、壁のコンセントやワイヤレス充電器につないでおかなければならない役立たずの...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35249785/",
+      "comments": [
+        {
+          "user": "ejointjp",
+          "comment": "データのバックアップは自動だよ",
+          "tags": [],
+          "timestamp": "2026/07/04 16:36"
+        },
+        {
+          "user": "superabbit",
+          "comment": "データのバックアップが面倒くさいのよな…",
+          "tags": [],
+          "timestamp": "2026/07/04 16:30"
+        },
+        {
+          "user": "mignonetigons",
+          "comment": "『解決策は必ずしも新しいものを買うことではなく、すでに機能しているものを修理するだけで十分なこともある。今回の手頃な修理によって、筆者は新しいiPhoneに1000ドル以上を費やさずに済んだ』",
+          "tags": [],
+          "timestamp": "2026/07/04 15:13"
+        }
+      ],
+      "fetchedAt": "2026-07-04T08:45:59.701622+00:00"
     }
   ],
-  "lastCollection": "2026-07-04T03:44:42.642064+00:00"
+  "lastCollection": "2026-07-04T08:46:03.430535+00:00"
 }
