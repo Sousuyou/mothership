@@ -1,154 +1,184 @@
 {
   "items": [
     {
-      "id": "cc_9f1374b5",
-      "title": "仕様書からClaude Codeで動くアプリを作るまで—AIセルフチェックインアプリ開発",
-      "url": "https://zenn.dev/yuen/articles/ab6a6c06bf5ba5",
+      "id": "cc_bb226ffe",
+      "title": "Claude CCA-F 模擬試験の誤答あんちょこ",
+      "url": "https://zenn.dev/yosukegatz/articles/b254f36f9fe26f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.485095+00:00",
-      "excerpt": "はじめに 毎日の気分やコンディションを記録し、Claude APIがその場で短いフィードバックを返してくれる、セルフチェックイン用のFlutterアプリを個人開発しました。 本記事では、**「仕様書（Spec）を先にきっちり作り込んでから、Claude Codeにそのまま実装を依頼する」**という開発フローを、実際にやってみてどうだったかという視点でまとめます。 「AIにコードを書かせるなら、まず"
+      "fetchedAt": "2026-07-05T13:54:17.671441+00:00",
+      "excerpt": "Claude CCA-F 模擬試験の誤答あんちょこ Claude Certified Architect Foundations、略して CCA-F の模擬試験で間違えた問題を、復習用に整理した自分用あんちょこです。 目的は、正答を丸暗記することではありません。 同じ型の誤答を二度しないことです。 まず覚えるべき判断軸 1. プロンプトで「誘導」するのか、APIで「強制」するのか ここを間違えると"
     },
     {
-      "id": "cc_d8023e6f",
-      "title": "Claude CodeのサブエージェントでDispatcherのトークン消費を減らした",
-      "url": "https://zenn.dev/h_wata/articles/squad-dispatcher-token-diet",
+      "id": "cc_af61e3c2",
+      "title": "Claude Fable 5が消える前にやるべきことは、「土台と雛形」の構築だった",
+      "url": "https://zenn.dev/ykishimotoy/articles/f8bfdc42b1545d",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.485036+00:00",
-      "excerpt": "Claude Code で複数のエージェントを並列に動かすと、司令塔（Dispatcher）のトークン消費がボトルネックになります。 自作のマルチエージェント環境 squad で、タスク指示書の執筆とダッシュボード更新をサブエージェントに任せて、Dispatcher のトークン消費を減らした話です。 Fable の5時間リミットに毎回全滅していた squad は tmux の1セッションに Dis"
+      "fetchedAt": "2026-07-05T13:54:17.671378+00:00",
+      "excerpt": "! この記事で得られるもの（3行まとめ） Claude Fable 5が「使い放題である今」の価値を最大化する答え：下位モデルでも回る「土台と雛形」をFableに作らせて固定する（＝知能の缶詰）という考え方 私が実際に缶詰にした3つの実例（ナレッジグラフ化ツール／マルチエージェント開発基盤／廉価モデルで動くパワポ生成スキル）と、その共通設計 あなた固有の「作るべき土台」の草案が2分で手に入るコピペ"
     },
     {
-      "id": "cc_019c15a3",
-      "title": "Claude Fable 5 は Pro プランで使える？ — 再開後の利用条件と「週間50%枠はすぐ尽きる」評価",
-      "url": "https://zenn.dev/mdtechknowledge/articles/claude-fable-5-pro-plan-availability",
+      "id": "cc_32c66c7f",
+      "title": "AI エージェントを安全に動かすためのサンドボックス入門: Claude Code、Codexの仕組みをきちんと理解しよう！",
+      "url": "https://zenn.dev/koukyosyumei/articles/d6538033062ad5",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.484973+00:00",
-      "excerpt": "要点 Claude Fable 5 は 2026年7月1日、輸出管理解除で全世界再開。Pro プランでも使える（Max / Team / 一部 Enterprise も）。Free は対象外とみられる。 〜7月7日：Pro/Max/Team・一部 Enterprise で、週間利用上限の最大50%まで追加費用なしで Fable 5 を利用可（移行猶予）。 7月8日以降：Fable 5 は usag"
+      "fetchedAt": "2026-07-05T13:54:17.671290+00:00",
+      "excerpt": "はじめに: Claude Code、Codex、h5i はどこに「壁」を作っているのか AIエージェントにリポジトリ内でシェルコマンドを実行させるとき、私たちは「人間が書いていないコード」を「人間がレビューする前に実行」していることになります。 エージェントは、間違ったディレクトリで rm -rf を実行するかもしれません。怪しい curl | sh を走らせるかもしれません。~/.ssh の秘密"
     },
     {
-      "id": "cc_2716379d",
-      "title": "1週間限定のClaude Fable 5で何をすべきか - 7月7日まで",
-      "url": "https://zenn.dev/yun_bow/articles/99512afc69bcf8",
+      "id": "cc_ecfee5ad",
+      "title": "今週のAIニュース総まとめ（6/29〜7/5）Claude Sonnet 5からアリババのClaude Code禁止まで",
+      "url": "https://zenn.dev/siromiya/articles/ai-news-weekly-20260705",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.484901+00:00",
-      "excerpt": "はじめに 2026年7月1日、Claude Fable 5が世界に再提供された。6月9日の発表から6月12日の米国輸出規制による提供停止を経て、6月30日に規制が解除され、7月1日の再提供に至っている。ただし今回は無条件の解禁ではない。Pro/Max/Team等のプランで追加課金なしにFable 5を使えるのは、週次利用上限の範囲内で2026年7月7日までの1週間限定だ。7月8日以降は利用クレジッ"
+      "fetchedAt": "2026-07-05T13:54:17.671207+00:00",
+      "excerpt": "毎朝7時に「finecalm」というメルマガでAIニュースを3分で要約配信しています。この記事はその1週間分（2026/6/29〜7/5・全35本）から、特に押さえておきたい8本を再構成したものです。全文をそのまま毎朝読みたい方は末尾の登録リンクからどうぞ（無料）。 1. Anthropic、低価格で動く中型モデル「Claude Sonnet 5」を公開 Anthropicが中型モデルの新版Cla"
     },
     {
-      "id": "cc_592950fb",
-      "title": "Claude Fable 5復活で見えた、AIモデルを「ただのAPI」として扱えない時代",
-      "url": "https://zenn.dev/kimshoshi/articles/claude-fable-return-ai-governance",
+      "id": "cc_72db6594",
+      "title": "CLAUDE.md、AGENTS.md、TASKS.md、README、Skillの使い分けを整理してみた",
+      "url": "https://zenn.dev/yuen/articles/df1f09ef3a971f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.484689+00:00",
-      "excerpt": "はじめに 報道ベースではあるが、Anthropicの高性能モデル Claude Fable 5 と Claude Mythos 5 をめぐるアクセス制限が解除され、順次復旧に向かうとされている。 単に「強いモデルがまた使えるようになった」という話ではない。 今回の一連の流れで見えたのは、LLMがもはや単なるWeb APIではなく、規制・安全性・国家安全保障・企業の運用設計が絡むインフラになったとい"
+      "fetchedAt": "2026-07-05T13:54:17.671128+00:00",
+      "excerpt": "背景・作ろうと思った理由 AIコーディングツール（Claude Code、Cursor、Codexなど）を使っていると、プロジェクトのルートに CLAUDE.md、AGENTS.md、TASKS.md、README.md、そして .claude/skills/ のようなSkillファイルまで、似たようなMarkdownファイルがどんどん増えていきます。 最初のうちは「とりあえずCLAUDE.mdに"
     },
     {
-      "id": "cc_9d614266",
-      "title": "ChatGPT・Claude・Geminiの使い分けは「賢さ」でなく「タスク特性」で決まる",
-      "url": "https://zenn.dev/every_ai_recipe/articles/ai-tool-routing-by-task",
+      "id": "cc_237c5858",
+      "title": "nix環境でのclaude codeのバージョンアップについて",
+      "url": "https://zenn.dev/reonaru/articles/9a83a3a92ed93b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.484575+00:00",
-      "excerpt": "TL;DR 3モデルの優劣を都度比較するより、タスクの型（長文コンテキスト処理／発散的生成／収束的編集）で固定的に割り振る方が運用コストが低い Geminiは長コンテキスト＋検索連携で「要約・調査」、ChatGPTは発散生成の多様性で「アイデア出し」、Claudeは長文の構造保持の安定性で「仕上げ・編集」に強みが出やすい モデル単体の性能改善を追いかけるより、タスク側をモデルの得意分野に合わせて分"
+      "fetchedAt": "2026-07-05T13:54:17.671056+00:00",
+      "excerpt": "nix環境でclaude codeをバージョンアップしたい どうも、レオナールです。 突然ですが、私はいまMacOSでnixの仮想環境を使いつつも その中でclaude codeを活用して AIエージェントの活用をしている状況ではあります。 環境情報としては nix : 2.34.5 claude code : 2.1.123 と言ったものです。 今回、claude codeをバージョンアップした"
     },
     {
-      "id": "cc_a96ff728",
-      "title": "Claude Code (Opus 4.8) が数分固まる問題、188セッション実測したら原因はAPIでもネットワークでもなかった",
-      "url": "https://zenn.dev/yuki_fujisawa/articles/a155d388e61acc",
+      "id": "cc_5579c9b8",
+      "title": "Claude × Obsidianを1ヶ月使ってみて『想定と違ったな』と思った3つのこと",
+      "url": "https://zenn.dev/coj/articles/b43e4b1053e5f8",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.430021+00:00",
-      "excerpt": "はじめに Claude Code を使っていると、応答が数分間「無音」になる停滞に遭遇することがあります。特にOpus 4.8で頻発していたため、体感や推測ではなくセッションログの実測で原因を特定しました。 この記事で分かること Claude Code の停滞を定量調査する方法(ログの場所と集計の考え方) 「固まって見える」現象の意外な正体 停滞を減らすための、標準機能ベースの実装(コード付き) "
+      "fetchedAt": "2026-07-05T13:54:17.670963+00:00",
+      "excerpt": "はじめに 「ObsidianにClaudeを繋げば、自分専用のAIエージェントが作れる」という話を聞き、実際に1ヶ月試してみました。 結論からいうと、便利になった部分もあれば、設計ミスで手戻りが発生した部分もありました。この記事では「やってみて初めてわかった失敗」と「その改善策」をセットでまとめます。 ①接続自体は簡単。ただし、デスクトップ版が必須 【失敗】 最初、ブラウザ版のClaudeからOb"
     },
     {
-      "id": "cc_276e6efc",
-      "title": "Claude DesignでUIを固め、Claude Codeで家族TODOアプリを週末実装した話",
-      "url": "https://zenn.dev/kinokomilk/articles/644b1ecd420826",
+      "id": "cc_460f2f2f",
+      "title": "アクセスキーを使わずに Claude Desktop を AWS Bedrock 経由で使う",
+      "url": "https://zenn.dev/takaha4k/articles/claude-desktop-bedrock-no-access-key",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429944+00:00",
-      "excerpt": "家族で使う共有 TODO アプリ petabo を作りました。 ただ作っただけではなく、最初に Claude と壁打ちして要件・制約・アーキテクチャを整理し、Claude Design で UI の方向性を固め、その後 Claude Code で実装する、という流れで進めました。 この記事では、完成したアプリそのものよりも、そこに至るまでの進め方、技術選定の理由、つまずいた点、公開前に整理したこと"
+      "fetchedAt": "2026-07-05T13:54:17.670857+00:00",
+      "excerpt": "はじめに Claude Desktop アプリは AWS Bedrock をバックエンドにして動かせます。今回これを設定するにあたって、次の 2 点で困りました。 Claude Code と違って、Claude Desktop から Bedrock を使うには「開発者モードを有効化」→「サードパーティ推論を設定」という設定手順を踏む必要がある。この手順はヘルプメニューにあって見つけにくく、ピンポイ"
     },
     {
-      "id": "cc_32db9983",
-      "title": "Claude Codeのtriggerリストを11日間育てた記録——8件の事故とAIガバナンスの実証",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-05-31-090000",
+      "id": "cc_bd16fc37",
+      "title": "Claude Code で消したはずのファイルがDropbox で 復活する問題に対処する",
+      "url": "https://zenn.dev/tier1kun/articles/efb7965ab4244c",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429866+00:00",
-      "excerpt": "22日間・19件のインシデントを記録して分かったことは、「AIは自分の独断をリアルタイムで自己認識できない」という一点に集約される。外部チェックリスト（triggerリスト）を8件の事故から育て、「設計したルールが翌日機能した」初の瞬間を実証した22日間の記録。 インシデント記録開始から22日が経った 前作記事（CLAUDE.mdに「憲法」と「trigger リスト」を書いた理由、2026-05-"
+      "fetchedAt": "2026-07-05T13:54:17.587192+00:00",
+      "excerpt": "筆者はコードを書かない経営コンサルタント（中小企業診断士）です。業務の記録や案件管理を Claude Code の上でやっていて、作業フォルダは Dropbox の中にあります。仕事の書類を Dropbox（や OneDrive、Google Drive）に置いている人は多いと思います。 その環境で Claude Code を数ヶ月使っていて、困ったことがあります。AI に消させたはずのファイルや"
     },
     {
-      "id": "cc_24ce4bee",
-      "title": "Claude Codeで作る1人エージェントチーム",
-      "url": "https://zenn.dev/tottoko_hamu/books/building-agent-team-with-claude-code",
+      "id": "cc_b00f202b",
+      "title": "エンジニアのための Claude Code 実践入門 — CLI から始めるエージェント型コーディング",
+      "url": "https://zenn.dev/narita1980/books/claude-code-for-engineers",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429800+00:00",
-      "excerpt": "「サブエージェントは聞いたことがある。でも、1人の個人開発にどう組み込むのかわからない」 本書はその問いに答えます。 商業書はチーム導入・組織活用が主眼です。「コードを書けない私が」系の個人出版はエンジニア以外が対象です。 本書が補おうとしているのは、その空白——TypeScriptやPythonを書く1人のエンジニアが、 実装フローの中にサブエージェントをどう組み込むかという具体的な話です。 ◆"
+      "fetchedAt": "2026-07-05T13:54:17.587125+00:00",
+      "excerpt": "Git・ターミナル・CLI に習熟しているが Claude Code はまだ使ったことがない開発者のための、ハンズオン中心の実践入門。インストール〜最初のタスクを最後まで通す流れから、エージェントループとコンテキスト管理、権限モデル、CLAUDE.md とメモリ、スラッシュコマンド／スキル、サブエージェント、フック、MCP による外部ツール連携、ヘッドレス実行と CI/CD 組み込みまでを、実際に"
     },
     {
-      "id": "cc_dcbc992f",
-      "title": "Claude Codeのステータスライン完全カスタム ― JSON駆動で残量・コスト・健全性を3行表示",
-      "url": "https://zenn.dev/bokuwalily/articles/statusline-live-limits",
+      "id": "cc_238e79eb",
+      "title": "Claude Code /loop 実践入門 — 定期実行・ポーリング・エージェント常駐の作法",
+      "url": "https://zenn.dev/narita1980/books/claude-code-loop-practical",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429660+00:00",
-      "excerpt": "「Claude Code環境」シリーズ。前回は Codexのworktree swarm でCodexとClaude Codeを協業させる構成を書いた。今回はもっと地味だが毎ターン目に入るもの ―― ステータスラインのカスタムの話です。 Claude Codeはウィンドウ下端に1行だけステータスを出せる。デフォルトはモデル名程度しか出ない。これをsettings.jsonのstatusLine.c"
+      "fetchedAt": "2026-07-05T13:54:17.587060+00:00",
+      "excerpt": "Claude Code に新しく入った /loop コマンドを、エンジニアが実務でそのまま使えるように解説するハンズオン本。固定インターバル・Claude が間隔を決める動的モード・引数なしのメンテナンスプロンプトという3つの動き方から、loop.md によるカスタマイズ、CronCreate/List/Delete によるタスク管理、7日エクスパイアやジッターの落とし穴までを実機コマンド付きで扱"
     },
     {
-      "id": "cc_51745933",
-      "title": "freee MCP を Claude Code で使えるようにする",
-      "url": "https://zenn.dev/shupopo/articles/freee-mcp-claude-code-setup",
+      "id": "cc_5dcf627b",
+      "title": "オーディオブックプレイヤーを Claude Code で自作して、無料 Apple ID の「7日縛り」ごと運用している話",
+      "url": "https://zenn.dev/tomoaki_kano/articles/audiobook-player-claude-code",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429567+00:00",
-      "excerpt": "freee MCP でできること freee MCP は、Claude Code から freee の会計・人事労務・請求書などの API を直接操作できる MCP サーバーだ。 たとえば「今月の売上を教えて」「この取引を振替伝票で登録して」といった自然言語の指示で、freee 上の仕訳や口座情報を読み書きできる。 この記事では、freee MCP を Claude Code で使えるようにするま"
+      "fetchedAt": "2026-07-05T13:54:17.586978+00:00",
+      "excerpt": "はじめに AudioBookPlayer を作成した動機は次の通りです。 NotebookLM で生成・ダウンロードした音声ファイル（mp3 など）を手頃に再生できるものがほしかった 探してみたが iPhone で使える手頃なプレイヤーがなかった プレイヤーに求めたものは オフラインで再生したい iCloud でファイルを共有したい 複数のファイルを連続で再生したかった Claude Code で"
     },
     {
-      "id": "cc_f977e777",
-      "title": "Claude Code でブログを毎日自動公開する設計 — CLAUDE.md・adapt-spec・routine の全体図",
-      "url": "https://zenn.dev/joemike/articles/claude-code-blog-autopublish-pipeline-2026",
+      "id": "cc_c85f89e3",
+      "title": "Claude Code の嘘の完了報告への対処法—日本語環境の文字化けとDropbox運用環境の落とし穴",
+      "url": "https://zenn.dev/tier1kun/articles/d2bad905349903",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429483+00:00",
-      "excerpt": "Supabase のブリーフキューを起点に、Claude Code が記事を書いて Qiita・Zenn・はてなへ配信するパイプラインを実際に運用しています。この記事では 3 レイヤーの設計と、実際に踏んだ落とし穴を記録します。 結論 CLAUDE.md（指示書）+ adapt-spec ファイル（媒体別仕様書）+ クラウドルーチン（Claude Code on the Web）の 3 レイヤーを"
+      "fetchedAt": "2026-07-05T13:54:17.586904+00:00",
+      "excerpt": "筆者はコードを書かない経営コンサルタント（中小企業診断士）です。業務の記録や案件管理を Claude Code の上でやっています。 この記事は、Claude Code の「やりました」という完了報告が、実際にはやれていない問題に対処する話です。 「テストも修正しておきました」→ 修正されていない TODO リストの途中なのに、全部終わったかのような完了サマリを出して止まる Edit / Writ"
     },
     {
-      "id": "cc_081160d1",
-      "title": "Claude Code 権限モード完全ガイド【2026】｜6つのモードの違いと安全な自動承認の選び方",
-      "url": "https://zenn.dev/joemike/articles/claude-code-permission-modes-bypass-to-auto-2026",
+      "id": "cc_4b7f69e5",
+      "title": "Claude Code で個人投資の「毎朝のニュース」をシグナルに変える — 速く読むためではなく、握力を保つために",
+      "url": "https://zenn.dev/takotyan00/articles/claude-code-news-signal-pipeline",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429409+00:00",
-      "excerpt": "Claude Code を使ってると、何かするたびに「このファイル編集していい？」「このコマンド実行していい？」と聞かれます。最初は安心だけど、進むほどこの確認がだるくなってくる。 そこでやりがちなのが、ブログやXで見た「--dangerously-skip-permissions を付ければ全部聞かれなくなる」を、意味も分からずコピペすること。僕がまさにそれで、ずっと「全部すっ飛ばし」で使ってま"
+      "fetchedAt": "2026-07-05T13:54:17.586781+00:00",
+      "excerpt": "Claude Code で、毎朝のニュースを構造化して、個人投資の「攻め」のエンジンに供給するパイプラインを作っています。ただ、この連携には順番があるので、そこを先に正直に書いておきます。 もともと私は、投資とは関係なく、自分用のニュースアプリを先に作っていました。世の中のニュースは、自分の欲しい情報を毎回自分で選り分けないと読めません。その手間から解放されたくて、自分が追いたいテーマだけを毎朝集"
     },
     {
-      "id": "cc_f934b53e",
-      "title": "「Opusに単純作業をさせない」── フックでモデルを自動ルーティングするClaude Code運用と、その実測コスト",
-      "url": "https://zenn.dev/oppo2357/articles/0d2babf96a207a",
+      "id": "cc_6b58c1bd",
+      "title": "MCP なしで Claude Code から Apple アプリを操作する — Calendar・Notes・Mail スキルを自作した",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-06-01-134940",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-05T09:15:27.429318+00:00",
-      "excerpt": "1. 単純作業に高性能モデルを使っていませんか 変数のリネーム、決まりきったボイラープレートの生成、ファイルの棚卸し——こうした単純作業をOpusのような最上位モデルにそのまま投げているなら、それは時給10万円のアーキテクトにコピー取りをさせているのと同じです。判断力はほとんど使われていないのに、単価だけは最上位モデルのままだからです。 Anthropic公式の料金ページ(Pricing - Cl"
+      "fetchedAt": "2026-07-05T13:54:17.586648+00:00",
+      "excerpt": "Claude Code のカスタムスキルは、MCP サーバーなしで macOS ネイティブアプリを操作できる拡張機能だ。 Claude Code を使い始めてしばらくは「外部サービスと連携するには MCP が必要」だと思い込んでいた。しかし macOS には AppleScript があり、Calendar・Notes・Mail はいずれも AppleScript で操作できる。MCP サーバーを"
+    },
+    {
+      "id": "cc_7c2dda23",
+      "title": "Claude Code ユーザーに Cowork は必要か — Cowork の主要機能を公式ドキュメントと実機で再現してみた",
+      "url": "https://zenn.dev/marvelousu/articles/claude-code-covers-cowork",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-05T13:54:17.586565+00:00",
+      "excerpt": "本記事では、Claude Cowork の主要機能 (Skills / Connectors / Plugins) が、ふだん使っている Claude Code でもそのまま使えるのかを、公式ドキュメントで裏を取りつつ実際に手元で動かして確かめてみました。 TL;DR Cowork は公式に Claude Code power for knowledge work と位置づけられていて、同じエージ"
+    },
+    {
+      "id": "cc_7ef72501",
+      "title": "文字起こしからClaudeに議事録もIssue作成・更新も任せて中身の議論（Why、What、How）に集中している話",
+      "url": "https://zenn.dev/spectee/articles/meeting-transcript-workflow",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-05T13:54:17.586486+00:00",
+      "excerpt": "みなさん既にやられていて新鮮味はないかもしれませんが、議事録やIssueの作成・更新を、打合せの文字起こしからやらせている実践レポートです。 「文字起こしをClaudeに渡したら楽できないかな」とやってみたら、想像以上の効果がありました。書く作業から手が離れて、打合せでは中身の議論（Why・What・How）に集中できています。そのために試行錯誤し気づいたことを共有します！ どんな効果があったかを"
+    },
+    {
+      "id": "cc_02e86005",
+      "title": "Claude Code Artifacts、Pro/Maxで試してみた",
+      "url": "https://zenn.dev/ryuka_lucas/articles/claude-code-artifacts-pro-max",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-05T13:54:17.586358+00:00",
+      "excerpt": "2026年7月2日、Claude CodeのArtifacts機能がPro/Maxプランでも使えるようになりました。Artifactsは、Claude Codeでのセッションの作業結果を、claude.ai上のライブで更新されるWebページとして公開できる機能です。これまではTeam/Enterpriseプラン限定でした。 自分は普段Claude Code中心で、claude.ai側の画面はあまり"
     },
     {
       "id": "cc_916ce8f0",
@@ -157,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-07-05T09:15:27.948292+00:00",
+      "fetchedAt": "2026-07-05T13:54:17.979371+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -167,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-05T09:15:28.359859+00:00",
+      "fetchedAt": "2026-07-05T13:54:18.237854+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-05T09:15:28.359931+00:00",
+      "fetchedAt": "2026-07-05T13:54:18.237927+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-05T09:15:28.360016+00:00",
+      "fetchedAt": "2026-07-05T13:54:18.238001+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-05T09:15:28.360032+00:00"
+  "lastCollection": "2026-07-05T13:54:18.238014+00:00"
 }
