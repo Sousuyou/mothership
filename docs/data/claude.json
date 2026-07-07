@@ -1,13 +1,23 @@
 {
   "items": [
     {
+      "id": "cc_6829fcc6",
+      "title": "Claude Code のモデル選択──Opus / Sonnet / Haiku をタスクとコストで使い分ける",
+      "url": "https://zenn.dev/stockdev_sho/articles/8a9df3a1cb6001",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-07T20:05:16.488727+00:00",
+      "excerpt": "Claude Code はデフォルトのまま使えますが、タスクの難しさとコストに合わせてモデルを切り替えると、体感速度と請求額が大きく変わります。この記事は「どこで・どう切り替えるか（操作）」と「何を基準に選ぶか（判断）」を、Claude Code の実際の設定に落として整理します。 要点を先に：切り替え手段は4つあり優先順位が決まっていること、opusplan という“計画はOpus・実行はSon"
+    },
+    {
       "id": "cc_f628ddf7",
       "title": "Claude Codeで変わる開発の今",
       "url": "https://zenn.dev/lingmu/articles/2026-07-05-claude-code-implementation-era",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469791+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488628+00:00",
       "excerpt": "Claude Codeで変わる開発の今 2026-07-05 | 読了 3分 | #ClaudeCode #AIエージェント #実装 「AIを使いたいけど、設定が複雑すぎる」——そんな声が開発者コミュニティで絶えなかった。ところが今、30分でWhatsApp AIエージェントを作れる時代が来た。Claude Codeが、実装の壁を静かに、しかし確実に壊しつつある。 エージェント開発の「壁」 AIエ"
     },
     {
@@ -17,18 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469724+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488566+00:00",
       "excerpt": "Claude Code を会社から渡されて、または自分で導入して、「さて、まず何を設定すればいいか」で止まっていませんか。モデルの把握から権限設定、ルール整備まで、最初にやるべきことを時系列で示します。この記事に沿って進めば、コストを制御しながら生産性を上げる基盤ができあがります。 ステップ0: 自分の環境を把握する Claude Code はどのモデルで動かすかによって、費用の桁が変わります。ま"
-    },
-    {
-      "id": "cc_32ddda21",
-      "title": "チーム運用/展開を見据えた Claude Code のスキル運用（個人編）",
-      "url": "https://zenn.dev/kkkxxx/articles/cd55956dffa373",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469661+00:00",
-      "excerpt": "導入 みなさんは Claude Code のスキル（SKILL.md）をどれくらいの頻度で使用していますか？ 🤔 筆者は Web 系の開発をしており、開発するときには 必ず何かしらのスキルを使用 しています。おそらく Claude Code などの AI を使って開発している方の多くも、同じようにスキルを活用しているのではないかと思います。 さらに、そうしたスキルは自分やチームで自作したものである"
     },
     {
       "id": "cc_158b081d",
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469586+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488491+00:00",
       "excerpt": "はじめに 2026年4月17日、Anthropicが Claude Design を研究プレビューとして公開しました。テキストプロンプトだけでプロトタイプ・スライド・ワンページャーを作成できる新製品で、Figma株価が-7%下落するほど業界に衝撃を与えています。 この記事では、Claude Designの全機能・ワークフロー・Claude Codeとの連携を解説します。 この記事で学べること Cl"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469519+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488426+00:00",
       "excerpt": "TL;DR Model invocation logging を有効にすれば、プロンプトとレスポンスの本文が個人単位で残る。初期状態では無効だが、有効かどうかを使う側(開発者)は確認できない 過程を監視するツール自体は AI 以前からあった(bossware・WakaTime)。AI は新しいデータ源を足しただけ Meta では実際に反発と譲歩が起きている。一方 Meta・Microsoft・Go"
     },
     {
@@ -57,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469447+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488362+00:00",
       "excerpt": "はじめに Claude をはじめとするコーディングエージェントを毎日使っていますが、一発で意図が通る日もあれば、何度も言い直してようやく伝わる日もあります。手戻りが多いとき、原因はモデルではなく自分のプロンプトなのでは、とうすうす感じていました。 ちょうど Claude の公式プロンプトガイドが整理されて公開されたので、これを“ものさし”にして、自分の過去のセッションをまとめて AI にレビューさ"
     },
     {
@@ -67,8 +67,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.469231+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.488157+00:00",
       "excerpt": "はじめに 最近、フルスタックアプリ開発の体験がかなり変わってきたなと感じています。 少し前まで「スマホで開発する」と言うと、GitHubのPRを見たり、軽くレビューコメントを返したりするくらいのイメージでした。 でも今は、Claude Code on the web でGitHub上のリポジトリを直接触り、Vercel Preview Deployment で確認し、Supabase でDB/Au"
+    },
+    {
+      "id": "cc_32ddda21",
+      "title": "チーム運用/展開を見据えた Claude Code のスキル運用（個人編）",
+      "url": "https://zenn.dev/kkkxxx/articles/cd55956dffa373",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-07T20:05:16.445886+00:00",
+      "excerpt": "導入 みなさんは Claude Code のスキル（SKILL.md）をどれくらいの頻度で使用していますか？ 🤔 筆者は Web 系の開発をしており、開発するときには 必ず何かしらのスキルを使用 しています。おそらく Claude Code などの AI を使って開発している方の多くも、同じようにスキルを活用しているのではないかと思います。 さらに、そうしたスキルは自分やチームで自作したものである"
     },
     {
       "id": "cc_8f5c1cb2",
@@ -77,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.413376+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445748+00:00",
       "excerpt": "はじめに Claude Code の /branch、使っていますか。 いまの会話を途中から枝分かれさせて、別のセッションとして続けられる機能です。元の会話はそのまま残るので、「ここまでの趣旨とずれる会話をしたい」「ここから少し違うことを試したい」というときに気軽に分岐できます。 ただ、気軽に分岐できるということは、使い捨てのフォークが溜まっていくということでもあります。そして溜まったフォークを手"
     },
     {
@@ -87,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.413297+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445673+00:00",
       "excerpt": "はじめに AnthropicのFable 5製品ページのAgentsセクションに、こう書いてある。 Run Claude Fable 5 in an agent harness like Claude Code or Claude Managed Agents, and it can work for days at a time: planning across stages, delegati"
     },
     {
@@ -97,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.413189+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445566+00:00",
       "excerpt": "いつも自分は複数処理を同時に走らせる場合、ターミナルを複数起動して claudecodeを起動、もしくはcmuxを利用していた。 でもこれ毎回毎回ポチポチするのめんどくさいし、そういえばバックグラウンドで走らせること できるよなって思ったので、やり方を備忘録として残す。 エージェントを複数起動させ並行処理するシチュエーション これは自分の日々のタスクにおけるケースとする。 Fan-out型（同じ処"
     },
     {
@@ -107,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.413119+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445494+00:00",
       "excerpt": "はじめに この文書は https://github.com/yukineko/claude-harnesses で開発してるharness/pluginの機能のちctxrotの仕様と実装について記述してます Claude Codeでエージェント運用を長く続けていると、ある時点から明らかに応答の質が落ちる瞬間がある。序盤に伝えた決定事項をモデルが忘れる、巨大なログを1回読み込んだだけでコンテキストウ"
     },
     {
@@ -117,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.413026+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445403+00:00",
       "excerpt": "先週、気分がいちばん沈んでいたのは何曜日か。今月に入って新しく増えた関心はどれか。3週間コミットが止まっているプロジェクトはどれか。こうした問いの答えを、私は毎週末にまとめて受け取っています。/weekly-review と一言入れると、Claude Code がその週の日記・トレンドのログ・開発の進み具合を横断で読み、繰り返し出たテーマや温めるべきアイデアまで拾って返してくる。 ただ、この記事で"
     },
     {
@@ -127,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.412959+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445339+00:00",
       "excerpt": "Claude Fable が、米国時間 7 月 7 日でサブスクリプションプランから提供終了になります。API 経由なら引き続き使えますが、単価は 100 万トークンあたり入力 $10・出力 $50。個人の日常使いの範囲を超えています。なのでこの数日、1 週間分の使用量を使い切る勢いで、渡せる仕事を片っ端から渡していました。 渡している間は深く考えていませんでした。ただ、振り返ると共通点があります"
     },
     {
@@ -137,18 +147,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.412865+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.445232+00:00",
       "excerpt": "はじめに これまで、AI コンテンツ生成にまつわるいくつかの記事を書いてきました。 AI 音楽生成 API を Cloud Run / Cloud Tasks で非同期オーケストレーションする設計 MP3 とキーフレーム ZIP だけでカラオケ動画を自動生成するツール GCS の動画をローカル保存せず YouTube へストリーミングアップロードする Cloud Run + Cloud Tasks"
     },
     {
-      "id": "cc_774c1493",
-      "title": "Claude CodeでAI会社を自律運営してみた — 人間1人+AIエージェント複数部門の実験記録",
-      "url": "https://zenn.dev/seeda_yuto/articles/claude-code-ai-company-autonomous",
+      "id": "cc_8f870fd4",
+      "title": "GitHub Copilot/Claude/CodexがPRを作る時代のmerge前チェック設計",
+      "url": "https://zenn.dev/veripsa/articles/github-ai-agents-pr-landing-order",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-07T14:51:52.412762+00:00",
-      "excerpt": "AIエージェントを増やしたら、逆に自分が忙しくなった Claude Codeを使っていると、だんだん欲が出てくる。 最初は「この関数直して」だった。次に「この機能を作って」になった。そのうち「じゃあ開発担当、記事担当、分析担当を分ければ、人間は社長みたいに指示するだけでよくない？」と思い始めた。 で、実際にやってみた。 結果から言うと、AIエージェントを増やすだけでは全然ダメだった。 誰が何をやっ"
+      "fetchedAt": "2026-07-07T20:05:16.445128+00:00",
+      "excerpt": "GitHub上でAIエージェントがPRを作るようになってきた GitHub上でAI coding agentを使う流れが広がっています。 GitHub Copilot cloud agentは、repositoryを調べ、実装planを作り、branch上で変更し、pull request作成まで進めるものとして説明されています。GitHub上のAgents panel、Issue、Pull Re"
     },
     {
       "id": "cc_916ce8f0",
@@ -157,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-07-07T14:51:52.670221+00:00",
+      "fetchedAt": "2026-07-07T20:05:16.810485+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -167,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-07T14:51:52.850515+00:00",
+      "fetchedAt": "2026-07-07T20:05:17.015691+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-07T14:51:52.850583+00:00",
+      "fetchedAt": "2026-07-07T20:05:17.015752+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +197,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-07T14:51:52.850655+00:00",
+      "fetchedAt": "2026-07-07T20:05:17.015820+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-07T14:51:52.850668+00:00"
+  "lastCollection": "2026-07-07T20:05:17.015836+00:00"
 }
