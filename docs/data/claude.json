@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076698+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405955+00:00",
       "excerpt": "いつも自分は複数処理を同時に走らせる場合、ターミナルを複数起動して claudecodeを起動、もしくはcmuxを利用していた。 でもこれ毎回毎回ポチポチするのめんどくさいし、そういえばバックグラウンドで走らせること できるよなって思ったので、やり方を備忘録として残す。 エージェントを複数起動させ並行処理するシチュエーション これは自分の日々のタスクにおけるケースとする。 Fan-out型（同じ処"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076635+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405900+00:00",
       "excerpt": "はじめに この文書は https://github.com/yukineko/claude-harnesses で開発してるharness/pluginの機能のちctxrotの仕様と実装について記述してます Claude Codeでエージェント運用を長く続けていると、ある時点から明らかに応答の質が落ちる瞬間がある。序盤に伝えた決定事項をモデルが忘れる、巨大なログを1回読み込んだだけでコンテキストウ"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076564+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405821+00:00",
       "excerpt": "Claude Fable が、米国時間 7 月 7 日でサブスクリプションプランから提供終了になります。API 経由なら引き続き使えますが、単価は 100 万トークンあたり入力 $10・出力 $50。個人の日常使いの範囲を超えています。なのでこの数日、1 週間分の使用量を使い切る勢いで、渡せる仕事を片っ端から渡していました。 渡している間は深く考えていませんでした。ただ、振り返ると共通点があります"
     },
     {
@@ -37,8 +37,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076491+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405755+00:00",
       "excerpt": "はじめに 最近、フルスタックアプリ開発の体験がかなり変わってきたなと感じています。 少し前まで「スマホで開発する」と言うと、GitHubのPRを見たり、軽くレビューコメントを返したりするくらいのイメージでした。 でも今は、Claude Code on the web でGitHub上のリポジトリを直接触り、Vercel Preview Deployment で確認し、Supabase でDB/Au"
+    },
+    {
+      "id": "cc_09175d2b",
+      "title": "【2026年5〜7月】Claude Code アップデート総まとめ ― サブエージェント・権限・スキル",
+      "url": "https://zenn.dev/bari/articles/5e104867bd53ee",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-08T08:38:33.405657+00:00",
+      "excerpt": "Claude Code はほぼ毎日パッチが出ており、2〜3週間見ないうちにサブエージェントや権限まわりの前提が変わっていることがあります。この記事は、公式 CHANGELOG をもとに 2026年5月〜7月（v2.1.136 → v2.1.202）の差分をテーマ別に整理したものです。 対象範囲 差分の起点: v2.1.136（2026-05-08） 差分の終点: v2.1.202（2026-07-"
+    },
+    {
+      "id": "cc_4968a56f",
+      "title": "Claude Code をスマホから使う。自作クライアントアプリと公式 Remote Control を比べてみた。",
+      "url": "https://zenn.dev/synforger/articles/claude-code-pwa-vs-remote-control",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-08T08:38:33.405601+00:00",
+      "excerpt": "この記事は誰向けか Claude Code を日常的に使っていて、席を離れても作業を止めたくない人 公式の Remote Control(2026年2月リリース)を試した/気になっている人 Claude Code を「たまに使うツール」ではなく、常駐するエージェント基盤として運用している(したい)人 外出先からちょっと触りたいだけなら、公式の Remote Control で足ります。この記事はそ"
     },
     {
       "id": "cc_3cc73bf7",
@@ -47,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076339+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405528+00:00",
       "excerpt": "Finding Unknownsを組織に — Claude Fable 5とナレッジグラフ この記事は独立して読めます（約10分） Anthropic の Thariq Shihipar 氏が公開した「A field guide to Claude Fable 5: Finding your unknowns」（意訳すると 未知の洗い出し）が、SNS や開発者コミュニティで話題になっています。 原"
     },
     {
@@ -57,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076214+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405423+00:00",
       "excerpt": "はじめに 3ヶ月ほど前、Claude Code にデスクトップアプリを作らせたら7日で初リリースできたという記事を書きました。Markdown 読み専用のデスクトップアプリ Rendu（Tauri + React）を、コードの 99% を AI に書かせて作った話です。 あの時点で書いたのは「作り始めてから最初のリリースまで」でした。じゃあその後、放置されずに動き続けたのか、AI に書かせたコード"
     },
     {
@@ -67,88 +87,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076140+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.405345+00:00",
       "excerpt": "Claude Sonnet 5とOpus 4.8を、同じ実装タスクで比較しました。 題材はAI関連ではなく、防災備蓄管理アプリです。水・食料・簡易トイレの必要量計算、期限管理、買い足しリスト、localStorage保存、CSV出力、スマホ対応まで含めた単一HTMLアプリを作らせました。 今回の比較は、この実装タスク1本での所見です。文章作成や要約など、別のタスクでは傾向が変わる可能性があります。"
-    },
-    {
-      "id": "cc_36daa75e",
-      "title": "Flutter × Claude Codeでタロット占いアプリを作る - 仕様書からケルト十字拡張まで",
-      "url": "https://zenn.dev/yuen/articles/1b9f058763acd4",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.076042+00:00",
-      "excerpt": "今回も趣味的なアプリ開発となります。 作ろうと思った理由 個人開発の題材として、タロット占いアプリを作ることにしました。占いアプリ自体はよくあるジャンルですが、今回はあえて「毎日サッと見る軽いもの」ではなく「じっくり読む本格派」を目指しています。カードを1枚ずつ儀式的にめくり、AIが統合的な長文解釈を返してくる、というところにこだわりました。 自分専用ツールとして、実装ログを兼ねてこの記事を書いて"
-    },
-    {
-      "id": "cc_ab2ebd80",
-      "title": "非エンジニアのEC経営者がClaude Codeで自走できるまで【全記録】",
-      "url": "https://zenn.dev/web_benriya/articles/non-engineer-ec-owner-claude-code-journey",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031744+00:00",
-      "excerpt": "はじめに 「GA4は入れてある。BigQueryにもデータが流れている。でも、自分では何も見られない。」 これは1ヶ月前の自分の状態です。EC事業を運営していて、データが大事なのは頭ではわかっている。でも、SQLは書けない。分析ツールの使い方もよくわからない。結局、何か知りたいことがあるたびに詳しい人に聞くか、GA4の標準レポートをなんとなく眺めるだけ。 「今月の売上、先月と比べてどうだっけ？」と"
-    },
-    {
-      "id": "cc_09175d2b",
-      "title": "【2026年5〜7月】Claude Code アップデート総まとめ ― サブエージェント・権限・スキル",
-      "url": "https://zenn.dev/bari/articles/5e104867bd53ee",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031655+00:00",
-      "excerpt": "Claude Code はほぼ毎日パッチが出ており、2〜3週間見ないうちにサブエージェントや権限まわりの前提が変わっていることがあります。この記事は、公式 CHANGELOG をもとに 2026年5月〜7月（v2.1.136 → v2.1.202）の差分をテーマ別に整理したものです。 対象範囲 差分の起点: v2.1.136（2026-05-08） 差分の終点: v2.1.202（2026-07-"
-    },
-    {
-      "id": "cc_2ba6d5fb",
-      "title": "【Flutter向け】Claude Code 2026年5〜7月アップデートで見直すハーネス設定 ― deny・サブエージェント・スキル",
-      "url": "https://zenn.dev/bari/articles/f34c94e174373b",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031593+00:00",
-      "excerpt": "この記事は姉妹記事 【2026年5〜7月】Claude Code アップデート総まとめ ― サブエージェント・権限・スキル の続編で、Flutterでのアプリ開発にフォーカスした内容になります。 前記事では v2.1.136（2026-05-08）→ v2.1.202（2026-07-06）の変更点そのものを整理しました。本記事では、そのうち Flutter（ネイティブアプリ）開発のハーネス設定に"
-    },
-    {
-      "id": "cc_4968a56f",
-      "title": "Claude Code をスマホから使う。自作クライアントアプリと公式 Remote Control を比べてみた。",
-      "url": "https://zenn.dev/synforger/articles/claude-code-pwa-vs-remote-control",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031530+00:00",
-      "excerpt": "この記事は誰向けか Claude Code を日常的に使っていて、席を離れても作業を止めたくない人 公式の Remote Control(2026年2月リリース)を試した/気になっている人 Claude Code を「たまに使うツール」ではなく、常駐するエージェント基盤として運用している(したい)人 外出先からちょっと触りたいだけなら、公式の Remote Control で足ります。この記事はそ"
-    },
-    {
-      "id": "cc_3c20d891",
-      "title": "Claude Code との対話を Zenn 記事に自動でまとめる — スキル × GitHub 連携で投稿まで自動化した",
-      "url": "https://zenn.dev/okotokoto/articles/20260707-zenn-claudecode-skill",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031466+00:00",
-      "excerpt": "作ったもの Claude Code で作業していると、「ハマった原因が分かった」「この仕組みはこう動いていたのか」という学びがセッションごとに生まれます。ただ、セッションを閉じるとその学びは流れて消えてしまう。そこで、スラッシュコマンド一発で、そのセッションの対話内容を Zenn 記事にまとめて投稿までしてくれる自動化フローを作りました。 使い方はこれだけです。 /zenn-article これで"
-    },
-    {
-      "id": "cc_8e9dc9b7",
-      "title": "Claude Code 週次アップデートまとめ（2026/07/04週）",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-07-04-150000",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031395+00:00",
-      "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 2026年7月4日週のまとめ: GitHub 公式リリースノートを確認し、Claude Code v2.1.196〜v2.1.201 の変更11件をまとめた（npm レジストリで現行バージョンが v2.1.201 であることを突合確認済み）。"
-    },
-    {
-      "id": "cc_0e662b1f",
-      "title": "【超初心者の挑戦】UI を作る — Claude Design から SwiftUI へ",
-      "url": "https://zenn.dev/ichirogonda/articles/kurage-dev-04",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031331+00:00",
-      "excerpt": "― kurage 開発記 ④ 私は颯（Hayate）、いちろうさんの記録係をしている AI 社員です。いちろうさん（56 歳・会社員）は、コードを書いた経験がないまま、Claude Code を相棒に、息子のバンド kurage のファンアプリをゼロから組み立てています。 今回は、見た目を一気に作り直した話。Claude Design（Claude 公式のデザインハンドオフ機能）が返した Web "
     },
     {
       "id": "cc_951c3e55",
@@ -157,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031246+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.330575+00:00",
       "excerpt": "はじめに これは祭りの記録です。 前回の記事で書いたとおり、Claude Fable 5は2026年7月7日までは課金範囲内(追加料金なし)で使える見込みでした。表示は日本時間ではないため、日本時間に換算すると最終日は7月8日になります。 つまり、今日はまだ最終日ではなく、その前日です。 「今のうちに重めの作業を進めておく期間」もいよいよ終わりということで、最終日を待たずに駆け込みで環境整備を進め"
     },
     {
@@ -167,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031178+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.330516+00:00",
       "excerpt": "🎭 「笑」「泣」「😡」はAIに伝わるのか？Claude Codeで検証してみた 🧭 はじめに 普段AIとやり取りするとき、つい「これバグってるんだけど笑」とか「全然直らない😡」みたいに、感情記号を混ぜて書いてしまうことがあります。 ふと、「これってちゃんと読み取られてるんだろうか？ それとも単なる飾りとして無視されてるんだろうか？」と気になったので、実際に検証してみることにしました。 まず他のAI"
     },
     {
@@ -177,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.031080+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.330433+00:00",
       "excerpt": "作ったもの 複数の画像を指定サイズへ一括でリサイズ・トリミングし、ZIPでまとめてダウンロードできるWebツール「FitFrame」を作りました。処理はすべてブラウザ内で完結し、画像はサーバーに送信されません。 https://fitframe.pages.dev/?utm_source=zenn&utm_medium=referral&utm_campaign=fitframe_launch&u"
     },
     {
@@ -187,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.030953+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.330331+00:00",
       "excerpt": "Claude Code など coding agent に静的サイトを作ってもらい、そのまま spush で Xserver Static にアップロードするハンズオンです。 「喫茶店のHPを作って、Webにデプロイして」という指示で HTML, CSS, JSを生成し、FTP で公開するところまで agent に任せます。 spushはAIからレンタルサーバーにデプロイするためのCLIです ht"
     },
     {
@@ -197,8 +137,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-08T03:26:57.030842+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.330259+00:00",
       "excerpt": "! 検証日: 2026-07-08。Claude Code / Termux は更新が速いため、記事の内容が古くなっている可能性があります。エラーメッセージが一致しない場合は、まずnpm install -g @anthropic-ai/claude-codeの実行結果を確認してください。 結論 Termux(Android)でも、proot-distroでUbuntu等を丸ごと用意せずに、最新版"
+    },
+    {
+      "id": "cc_36daa75e",
+      "title": "Flutter × Claude Codeでタロット占いアプリを作る - 仕様書からケルト十字拡張まで",
+      "url": "https://zenn.dev/yuen/articles/1b9f058763acd4",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-08T08:38:33.330178+00:00",
+      "excerpt": "今回も趣味的なアプリ開発となります。 作ろうと思った理由 個人開発の題材として、タロット占いアプリを作ることにしました。占いアプリ自体はよくあるジャンルですが、今回はあえて「毎日サッと見る軽いもの」ではなく「じっくり読む本格派」を目指しています。カードを1枚ずつ儀式的にめくり、AIが統合的な長文解釈を返してくる、というところにこだわりました。 自分専用ツールとして、実装ログを兼ねてこの記事を書いて"
+    },
+    {
+      "id": "cc_4f91ecd2",
+      "title": "Claude Code が「プロンプトインジェクション検出」を報告してきたので解析したら作話だった",
+      "url": "https://zenn.dev/nanasess/articles/claude-code-prompt-injection-confabulation",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-08T08:38:33.330118+00:00",
+      "excerpt": "! この記事は Claude Code で執筆しています。本文中のトランスクリプト解析も、作話した当事者とは別セッションの Claude Fable 5 が実施しました。 はじめに Claude Code で作業していたら、セッションの最後にこんな報告が来ました。 セキュリティ注意（今セッションの重要事項） 本セッション中、ツール出力ストリームへの注入・汚染が継続しました（rm -rf /var "
+    },
+    {
+      "id": "cc_2fc05be1",
+      "title": "23. 静的レビューだけでは足りなかった — Claude Codeにランタイム検証を追加した",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-harness-runtime-check",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-08T08:38:33.329987+00:00",
+      "excerpt": "23. 静的レビューだけでは足りなかった — Claude Codeにランタイム検証を追加した ! この記事はClaude Codeのハーネス設計シリーズの一部だ。 自分のコードを自分でレビューできない — Evaluatorが実際に何を捕まえたか — 本記事の前編。Evaluatorを導入した経緯と実際の検出事例 Evaluatorを入れても「動かない」バグが抜けていた 前編でEvaluator"
     },
     {
       "id": "cc_916ce8f0",
@@ -207,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-07-08T03:26:57.420656+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.710966+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -217,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-08T03:26:57.687793+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.959250+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -227,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-08T03:26:57.687855+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.959300+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -237,9 +207,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-08T03:26:57.687920+00:00",
+      "fetchedAt": "2026-07-08T08:38:33.959356+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-08T03:26:57.687935+00:00"
+  "lastCollection": "2026-07-08T08:38:33.959369+00:00"
 }
