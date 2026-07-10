@@ -1,58 +1,34 @@
 {
   "entries": [
     {
-      "id": "h_39983448",
-      "title": "AWSの強い権限は使い捨てに ── ZOZOがJITアクセスを全社導入した設計と運用 - ZOZO TECH BLOG",
-      "url": "https://techblog.zozo.com/entry/just-in-time-access-company-wide-rollout-at-zozo",
-      "domain": "techblog.zozo.com",
-      "bookmarkCount": 118,
-      "summary": "はじめに こんにちは、全社AWS管理部門の江島です。社内で利用されているAWS環境を全社横断的に管理する役割を担っています。 全社AWS管理部門では、AWSを安全に運用するために日頃からさまざまな取り組みを行っています。例えば、AWS本番環境へのアクセス管理においてIAM Identity Centerを活用し、定期的な棚卸しや申...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techblog.zozo.com/entry/just-in-time-access-company-wide-rollout-at-zozo",
-      "comments": [
-        {
-          "user": "sionsou",
-          "comment": "TEAMとJITなるほど。参考にしたい。今まで権限は開発者と管理者とCIやアプリケーション事に吐き出すのと、細かいrole設定でなんとかしていた気はする。",
-          "tags": [],
-          "timestamp": "2026/07/10 19:37"
-        },
-        {
-          "user": "tito1201",
-          "comment": "良さそう",
-          "tags": [],
-          "timestamp": "2026/07/10 19:22"
-        },
-        {
-          "user": "kzm1760",
-          "comment": "TEAMとな。初耳だ。便利そう。",
-          "tags": [],
-          "timestamp": "2026/07/10 18:48"
-        },
-        {
-          "user": "dkfj",
-          "comment": "TEAMの採用事例が増えてきているね",
-          "tags": [],
-          "timestamp": "2026/07/10 14:09"
-        },
-        {
-          "user": "cinefuk",
-          "comment": "「必要時にだけ利用できれば良いような強い権限を常に保持しておくことはリスク」「JITアクセス（ジャストインタイムアクセス）とは一時的に権限昇格する仕組み」「書き込みも可能な権限はすべてJITアクセスの対象」",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/07/10 13:19"
-        }
-      ],
-      "fetchedAt": "2026-07-10T14:42:32.480463+00:00"
-    },
-    {
       "id": "h_6f08dd63",
       "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
       "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
       "domain": "zenn.dev",
-      "bookmarkCount": 99,
+      "bookmarkCount": 164,
       "summary": "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作成には普段使っているGmailを利用 CloudflareがSMTPをしゃべれるようになったので、Gmailのエイリアスに追加できるぞ！ 独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/9m/articles/d08dcc093e1bbf",
       "comments": [
+        {
+          "user": "FreeCatWork",
+          "comment": "ボクのドメインもクラウドフレアで管理するにゃ！これでカリカリ代も稼げるかな？",
+          "tags": [],
+          "timestamp": "2026/07/11 03:22"
+        },
+        {
+          "user": "hazlitt",
+          "comment": "送信も Amazon SES みたく従量課金（だけ）にしてほしい気持ち",
+          "tags": [],
+          "timestamp": "2026/07/11 00:54"
+        },
+        {
+          "user": "hirolog634",
+          "comment": "年間10ドルにモヤッてるのに、月額5ドルをオススメというのがよくわからない。参考にはなる。",
+          "tags": [
+            "メール"
+          ],
+          "timestamp": "2026/07/11 00:53"
+        },
         {
           "user": "eschan",
           "comment": "これだったら普通に国内の格安のメールサービス使ったらいいと思うけど",
@@ -70,33 +46,37 @@
           "comment": "さくらのメールボックスの独自ドメイン20個・月額88円（税込）は英語化するだけで流行るのでは？https://rs.sakura.ad.jp/plan/mail/#plan",
           "tags": [],
           "timestamp": "2026/07/10 21:21"
-        },
-        {
-          "user": "kazuau",
-          "comment": "Gmailに届くかは微妙に疑問。ヘッダ維持した転送メール扱いで、SPFもDKIMもフェイルしない？",
-          "tags": [
-            "メール"
-          ],
-          "timestamp": "2026/07/10 21:15"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Workers Paid代が必要だけど、これ単体で完結できるなら全然払う価値あるな",
-          "tags": [],
-          "timestamp": "2026/07/10 19:09"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:30.001054+00:00"
+      "fetchedAt": "2026-07-10T19:41:55.102912+00:00"
     },
     {
       "id": "h_313d5d81",
       "title": "「メールが届かなくても仕方ない」を普通にしませんか",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
       "domain": "xtech.nikkei.com",
-      "bookmarkCount": 76,
+      "bookmarkCount": 94,
       "summary": "筆者が最近頭を悩ませていることの1つが、親族宛てに届くフィッシング詐欺メールだ。もちろん今に始まった話ではない。ただ、メールや電話で問い合わせを受け、限られた情報を基に詐欺メールかどうかを回答する頻度が高まっている。 この記事は会員登録で続きをご覧いただけます申込は簡単3分！ 今すぐ会員登録（無料） ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
       "comments": [
+        {
+          "user": "yogasa",
+          "comment": "他のツールで届かないどこまで許容できるかと考えれば難しいという結論になる",
+          "tags": [],
+          "timestamp": "2026/07/11 03:16"
+        },
+        {
+          "user": "Cichla",
+          "comment": "「情報が共有されなくても／約束が守られなくても仕方ないを普通にしませんか」と捉えると，それはまあまあ途上国よね",
+          "tags": [],
+          "timestamp": "2026/07/11 03:10"
+        },
+        {
+          "user": "pixmap",
+          "comment": "「すみません、今日はミノフスキー粒子が濃くてですね、メールが...」",
+          "tags": [],
+          "timestamp": "2026/07/11 01:39"
+        },
         {
           "user": "ayumun",
           "comment": "電話はオレオレ詐欺で登録番号以外出てくれなくなり、メールは迷惑メール扱いされて届かなくなり、手紙を書けばポストは開けられず放置、直接行けば居留守。もう連絡手段なんか何もないじゃん",
@@ -114,37 +94,49 @@
           "comment": "電話とかいう発信者が強いクソツールが主流になっちゃうから嫌だ",
           "tags": [],
           "timestamp": "2026/07/10 20:57"
-        },
-        {
-          "user": "knok",
-          "comment": "認証フローの一部になってるので届かないと困る",
-          "tags": [],
-          "timestamp": "2026/07/10 20:54"
-        },
-        {
-          "user": "a-know",
-          "comment": "激しく同意",
-          "tags": [],
-          "timestamp": "2026/07/10 20:38"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "電話も詐欺電話とセールスばかりでうちではもう取られなくなり、連絡に使える手段が維持できなくなりつつある",
-          "tags": [],
-          "timestamp": "2026/07/10 20:01"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:30.581265+00:00"
+      "fetchedAt": "2026-07-10T19:41:57.513952+00:00"
     },
     {
       "id": "h_71a09747",
       "title": "スマホをタッチせずに改札もレジも通過 日本で広がる「UWBタッチレス決済」最前線",
       "url": "https://www.itmedia.co.jp/mobile/articles/2607/10/news097.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 75,
+      "bookmarkCount": 91,
       "summary": "UWB改札機をスマートフォンで通過する際の処理イメージ。駅構内に入ると設置されたBluetooth（BLE）ビーコンに反応してスマートフォンのUWB機能が有効になり、改札機がUWBの信号を元にした追跡と通過判定を行う（Nano Banana 2で作成） 今日、「Suica」に代表される日本国内の交通系ICカードの礎を作ったのはJR東日本で...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2607/10/news097.html",
       "comments": [
+        {
+          "user": "dollarss",
+          "comment": "技術面は任せるから、Suicaの入ったWatch付けてたらそのまま改札通らせてくれ。左腕対応でよろしく",
+          "tags": [],
+          "timestamp": "2026/07/11 04:28"
+        },
+        {
+          "user": "chocolatedisco1053",
+          "comment": "結局費用対効果だろSuicaで充分早いし。そんな事よりクレカ決済OKにして専用改札を一つ作った方が手っ取り早くインバウンド需要見込める",
+          "tags": [],
+          "timestamp": "2026/07/11 01:50"
+        },
+        {
+          "user": "pixmap",
+          "comment": "もしかしたらこれ、改札機を担いでターゲットの後ろをつけ回したらストーキングできんじゃね？",
+          "tags": [],
+          "timestamp": "2026/07/11 01:32"
+        },
+        {
+          "user": "fuzitahoushirou",
+          "comment": "処理イメージの絵はなぜペンギン？",
+          "tags": [
+            "決済",
+            "技術",
+            "あとで読む",
+            "クレジットカード",
+            "UWBタッチレス決済"
+          ],
+          "timestamp": "2026/07/11 00:39"
+        },
         {
           "user": "kei_1010",
           "comment": "「え？無銭飲食？そんな馬鹿な！あっ、UWB忘れてたわー。あー、ごめんごめん。家に置いてきたわー。じゃあ現金で良いかな？いやー、危なかったわー」記事は読んでないので、思いっ切り外してるかもだけど。",
@@ -158,101 +150,57 @@
             "Fate"
           ],
           "timestamp": "2026/07/10 21:50"
-        },
-        {
-          "user": "TETSUYA01",
-          "comment": "スマホ複数台持って改札通ったらどうなるの？",
-          "tags": [],
-          "timestamp": "2026/07/10 21:46"
-        },
-        {
-          "user": "hugie",
-          "comment": "UBWかと思った。",
-          "tags": [],
-          "timestamp": "2026/07/10 21:16"
-        },
-        {
-          "user": "mujisoshina",
-          "comment": "決済可能な端末を複数持っていたらどうなるんだろうか。",
-          "tags": [],
-          "timestamp": "2026/07/10 20:42"
-        },
-        {
-          "user": "irimodi",
-          "comment": "ETCもこんな感覚を覚えるのかな？",
-          "tags": [],
-          "timestamp": "2026/07/10 20:35"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:31.202712+00:00"
+      "fetchedAt": "2026-07-10T19:41:57.939603+00:00"
     },
     {
-      "id": "h_4fc6b4fc",
-      "title": "安いエアコンが消える？ 「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 51,
-      "summary": "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/10/news130.html",
+      "id": "h_61d2f7fd",
+      "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
+      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
+      "domain": "qiita.com",
+      "bookmarkCount": 83,
+      "summary": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
       "comments": [
         {
-          "user": "aaa_too_zzz",
-          "comment": "そう、値段以外にサイズと重さがかなり違うのをこの手の記事はスルーしてるんだよなあ",
+          "user": "otchy210",
+          "comment": "ちゃんとしたサンドボックスを簡単に使いたかったら Codex Web が超便利だよ。OpenAI のサーバ側で各エージェントごとにコンテナが立ち上がる最強のサンドボックス環境。GitHub 前提なので使えない人はいるかもだけど。",
           "tags": [],
-          "timestamp": "2026/07/10 22:58"
-        },
-        {
-          "user": "ultimatebreak",
-          "comment": "誰が得すんのこれ、中国メーカー？",
-          "tags": [],
-          "timestamp": "2026/07/10 22:57"
-        },
-        {
-          "user": "charun",
-          "comment": "というのは正確ではなく、27年以降も安いエアコンはあるって話も見たけど結局どうなの",
-          "tags": [
-            "ビジネス",
-            "家電",
-            "詐欺",
-            "2026",
-            "政治",
-            "価格"
-          ],
-          "timestamp": "2026/07/10 22:55"
-        },
-        {
-          "user": "zakkicho",
-          "comment": "義父に早めに買ってもらわないと…",
-          "tags": [],
-          "timestamp": "2026/07/10 22:27"
-        },
-        {
-          "user": "meomasa0929",
-          "comment": "2027年問題、メーカーは未達成機種の販売制限が入りますが、販売店在庫は対象外なので、来年も暫くは購入可能です。ただこの罰則が社名公表と弱く、長期的に見てid:T-analさんの仰る海外勢の台頭を許す懸念はあります。",
-          "tags": [
-            "まちのでんきや",
-            "こんなアイコンなので"
-          ],
-          "timestamp": "2026/07/10 22:25"
-        },
-        {
-          "user": "ayumun",
-          "comment": "これで一番困るのは、大体省エネ基準上がったり出力大きくなると、室内機と室外機のサイズが大きくなって、同じ場所に付かなくなる事なんだよな。そこの場所にしか付かないって部屋沢山あるじゃん。",
-          "tags": [],
-          "timestamp": "2026/07/10 22:05"
+          "timestamp": "2026/07/11 00:21"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:31.536982+00:00"
+      "fetchedAt": "2026-07-10T19:41:55.608387+00:00"
     },
     {
       "id": "h_110502bd",
       "title": "【無料】 ObsidianはAIの記憶保管には向いていない｜松濤Vimmer",
       "url": "https://note.com/shotovim/n/n40164f5b555c",
       "domain": "note.com",
-      "bookmarkCount": 51,
+      "bookmarkCount": 79,
       "summary": "AI活用で一番効くのは、細かいTipsを知っていることよりも、あとからAIに渡せる文脈がどれだけ残っているかなんじゃないか、ということです。 AIの長期記憶や会話の保存、Obsidianのvaultに置くより独自のシステムを組んだほうがAI親和性が高い。 Gizmodoの動画でも言われたけどvaultは人間向けのノートで、AIが毎回読む...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shotovim/n/n40164f5b555c",
       "comments": [
+        {
+          "user": "Falky",
+          "comment": "「効く」って言い回しを見た瞬間読む気をなくす病に罹患しているので、この記事は9文字で終わりました。記憶の限りでは最速です。おめでとうございます",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/07/11 02:51"
+        },
+        {
+          "user": "Listlessness",
+          "comment": "\"親和性高めるためにフォルダ構成とフロントマターを意識して設計するのがよさそう。\" OpenKnowledgeFormatを再発明しようとしているのかしら。",
+          "tags": [],
+          "timestamp": "2026/07/11 02:43"
+        },
+        {
+          "user": "sotonohitokun",
+          "comment": "俺と一緒だわ。記憶保持と記憶の重み付けでミスを減らす。ただ、これミスの追記、ルールづけ、ルール承認、それ自体、出だしが猛烈に重い。開発中に出るとリズム崩すのよ。",
+          "tags": [],
+          "timestamp": "2026/07/11 00:26"
+        },
         {
           "user": "puruhime",
           "comment": "VS Codeを使おう",
@@ -270,210 +218,207 @@
           "comment": "Obsidian使ってるのは常に開いているし、AIのメモや日報にアクセスしやすく必要があれば自分のメモもAIに調べてほしいので共有して利用しているというシンプルな理由による。Frontmatterは参考になるな。真似してみよう。",
           "tags": [],
           "timestamp": "2026/07/10 22:37"
-        },
-        {
-          "user": "stabucky",
-          "comment": "生成AIのためにメモしているわけではない。",
-          "tags": [],
-          "timestamp": "2026/07/10 22:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "人間向けUIとAI向けコンテキストを分離する設計思想、納得感あるし実用的で面白い",
-          "tags": [],
-          "timestamp": "2026/07/10 20:42"
-        },
-        {
-          "user": "hirrrose",
-          "comment": "AI用のメモリーの考え方",
-          "tags": [],
-          "timestamp": "2026/07/10 20:24"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:31.816548+00:00"
+      "fetchedAt": "2026-07-10T19:41:56.390402+00:00"
     },
     {
-      "id": "h_7178c000",
-      "title": "「熱中症っぽいとき、AIに頼るのは危ないので病院行け」実際にAIに丸投げしてアドバイスを実行した結果、病院で点滴2本打った人の顛末記",
-      "url": "https://togetter.com/li/2719026",
-      "domain": "togetter.com",
-      "bookmarkCount": 42,
-      "summary": "中村朝 @nakamura_asa #7119は急な病気やケガで「救急車を呼ぶべきか」「今すぐ病院に行くべきか」判断に迷った際に、医師や看護師などの専門家に電話で相談できる救急安心センター事業の共通番号だそうです。皆使ってね。 2026-07-09 04:26:15",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2719026",
-      "comments": [
-        {
-          "user": "ChieOsanai",
-          "comment": "AI を何だと思っているのか",
-          "tags": [
-            "Togetter"
-          ],
-          "timestamp": "2026/07/10 23:01"
-        },
-        {
-          "user": "sociologicls",
-          "comment": "セカンドオピニオン受けるかAIに相談してる人が居たけど、それでも迷ってた。参考には出来るけどアテにはしづらいなぁ、と。",
-          "tags": [],
-          "timestamp": "2026/07/10 22:56"
-        },
-        {
-          "user": "nowa_s",
-          "comment": "救急車を呼べば「命(だけ)は助かる」レベルなのか、後遺障害はあれど日常生活を送れるほどには治るのか、ほぼ元どおりに治るのか、そういうの知りたくはある。その判断は医師にも難しいことかもしれないけど。",
-          "tags": [],
-          "timestamp": "2026/07/10 22:49"
-        },
-        {
-          "user": "fog-og-frog2",
-          "comment": "だいたい情報量が足りない。Grill meプロンプトで自覚症状をつきつめておくれば問診と同じことできんのにね。共感力が高くて機材以外の情報をバーバルから直ぐに集められるのも良い医者の才能なんだわ",
-          "tags": [],
-          "timestamp": "2026/07/10 20:11"
-        },
-        {
-          "user": "haru_almond",
-          "comment": "危ないってか渡す情報によって回答が変わる、この人ChatGPTに何て書いたんやろ",
-          "tags": [],
-          "timestamp": "2026/07/10 20:04"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "AIは知識しかない。問診触診はロボットの役目。",
-          "tags": [],
-          "timestamp": "2026/07/10 20:02"
-        }
-      ],
-      "fetchedAt": "2026-07-10T14:42:33.437240+00:00"
-    },
-    {
-      "id": "h_61d2f7fd",
-      "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
-      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
-      "domain": "qiita.com",
-      "bookmarkCount": 33,
-      "summary": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
-      "comments": [],
-      "fetchedAt": "2026-07-10T14:42:30.280638+00:00"
-    },
-    {
-      "id": "h_ebb2951e",
-      "title": "7440億パラメーターの巨大AI「GLM-5.2」をメモリ25GBの普通のPCで動かす推論エンジン「Colibrì」が登場",
-      "url": "https://gigazine.net/news/20260710-colibri-glm/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 30,
-      "summary": "7440億パラメーターを備えた大規模言語モデル「GLM-5.2」をメモリ25GBの一般向けPCで動作させる推論エンジン「Colibrì」が公開されました。VRAMやRAMにモデル全体を読み込むのではなく、必要になったデータだけをSSDから随時読み出す仕組みとなっています。 GitHub - JustVugg/colibri: Run GLM-5.2 (744B MoE) on a 25G...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260710-colibri-glm/",
-      "comments": [
-        {
-          "user": "star_123",
-          "comment": "研究としては面白いけど流石に遅すぎてどうにもならん感じ",
-          "tags": [],
-          "timestamp": "2026/07/10 23:27"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "普通とは",
-          "tags": [],
-          "timestamp": "2026/07/10 19:05"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "夢があるけど「トークンの生成速度はキャッシュが空の状態で1秒当たり約0.05～0.1トークン」まだ実用性はなさそうだな…",
-          "tags": [],
-          "timestamp": "2026/07/10 18:57"
-        },
-        {
-          "user": "sakuro",
-          "comment": "我々の",
-          "tags": [],
-          "timestamp": "2026/07/10 18:50"
-        }
-      ],
-      "fetchedAt": "2026-07-10T14:42:32.857519+00:00"
-    },
-    {
-      "id": "h_85f76f84",
-      "title": "「まるで人間」 OpenAIの新モデル「GPT-Live」のトーク力が話題 間を空けずに考えながら会話できる",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
+      "id": "h_4fc6b4fc",
+      "title": "安いエアコンが消える？ 「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 27,
-      "summary": "米OpenAIが7月8日（現地時間）に提供を始めた音声会話向けモデル「GPT-Live」がXで話題だ。同社はこれまでも音声会話モデルを提供していたが、聞き取りと発話を同時に行う新アーキテクチャにより「会話が自然すぎる」などの声が上がっている。 GPT-Liveは、出力を生成しながら入力を処理し続ける「全二重アーキテクチャ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/10/news114.html",
+      "bookmarkCount": 74,
+      "summary": "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/10/news130.html",
       "comments": [
         {
-          "user": "mshkh",
-          "comment": "いやこれはすごいなあ。確かに英会話教室とか要らなくなるよね。それと、電話とかだと完全に区別ができなくなったな。恐ろしい時代だ",
+          "user": "lacucaracha",
+          "comment": "どうせ電気代は店子負担なんだから動けば良い一番安いのを求めている大家さんとかが困りそう",
+          "tags": [],
+          "timestamp": "2026/07/11 03:38"
+        },
+        {
+          "user": "yogasa",
+          "comment": "断熱気密が高い今の家だと湿度調整がキモになるし、除湿がちゃんとしてるのはダイキン・三菱・日立の中～上位モデルのみ。下位モデルはどこで使えばいいのだろう",
+          "tags": [],
+          "timestamp": "2026/07/11 03:20"
+        },
+        {
+          "user": "hinoton2",
+          "comment": "エアコンそのものより設置工事が高い。1万2万で付けられない。",
+          "tags": [],
+          "timestamp": "2026/07/11 03:01"
+        },
+        {
+          "user": "omioni",
+          "comment": "実際24年からハイアールが進出してるhttps://newswitch.jp/p/48692  / https://newswitch.jp/p/49322",
           "tags": [
-            "OpenAI",
-            "AI",
-            "GTP-Live",
-            "会話"
+            "*読み物"
           ],
-          "timestamp": "2026/07/10 21:36"
+          "timestamp": "2026/07/11 02:55"
+        },
+        {
+          "user": "hryord",
+          "comment": "エアコン自体が充分にエネルギー効率が良いのにその普及を妨げるのはいかがなものか。",
+          "tags": [],
+          "timestamp": "2026/07/11 00:45"
+        },
+        {
+          "user": "HiddenList",
+          "comment": "ヤマーダ　デキン",
+          "tags": [],
+          "timestamp": "2026/07/11 00:40"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:33.739685+00:00"
+      "fetchedAt": "2026-07-10T19:41:56.750901+00:00"
     },
     {
       "id": "h_c18b2fc9",
       "title": "Claude Codeとハーネスについて考えてみる",
       "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 26,
+      "bookmarkCount": 58,
       "summary": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
-      "comments": [],
-      "fetchedAt": "2026-07-10T14:42:30.908406+00:00"
-    },
-    {
-      "id": "h_ccaec44d",
-      "title": "Claude、利用制限を全リセット 競合「GPT-5.6」公開と同日……OpenAI幹部「ビビってるね」",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000179/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 18,
-      "summary": "米Anthropicは7月9日（現地時間、以下同）、AIサービス「Claude」の全ユーザーを対象に、1週間ごと／5時間ごとの利用制限（レートリミット）をそれぞれリセットした。開発者向け公式Xアカウント（@ClaudeDevs）で発表した。 同日にはライバルの米OpenAIが最新モデル「GPT-5.6」シリーズと、「Claude Cowork」に対抗した...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2607/10/2000000179/",
       "comments": [
         {
-          "user": "zsehnuy_cohriy",
-          "comment": "闘え〜",
-          "tags": [],
-          "timestamp": "2026/07/10 23:08"
-        },
-        {
-          "user": "AKIMOTO",
-          "comment": "へいへいピッチャー〜",
-          "tags": [],
-          "timestamp": "2026/07/10 22:03"
-        },
-        {
-          "user": "aibot",
-          "comment": "競争があるって利用者にとっていいよね",
-          "tags": [],
-          "timestamp": "2026/07/10 21:25"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AI企業のプロレス久々に見た。GPT-5.6にChatGPT Work発表でClaudeも必死だなw",
-          "tags": [],
-          "timestamp": "2026/07/10 21:07"
-        },
-        {
-          "user": "JULY",
-          "comment": "と言ってるやつが一番ビビってる、みたいに見えて、カッコ悪い。本当に自信があるなら「よし、戦いの舞台は整った。これからが勝負だ」ぐらいの余裕のあるコメントにしろよ。これだから OpenAI を好きになれない。",
+          "user": "mkusaka",
+          "comment": "Claude Codeのハーネスを「内部＝エージェントループ/ツール/サンドボックス/コンテキスト管理」「外部＝CLAUDE.md/MCP」等で整理",
           "tags": [
-            "AI",
-            "情報システム"
+            "AI要約",
+            "ClaudeCode",
+            "ハーネス",
+            "AIエージェント",
+            "AI駆動開発",
+            "解説"
           ],
-          "timestamp": "2026/07/10 16:49"
-        },
-        {
-          "user": "fellfield",
-          "comment": "こういう言動をする幹部がいるChatGPTは使いたくないですね……。",
-          "tags": [],
-          "timestamp": "2026/07/10 15:41"
+          "timestamp": "2026/07/11 00:32"
         }
       ],
-      "fetchedAt": "2026-07-10T14:42:34.201107+00:00"
+      "fetchedAt": "2026-07-10T19:41:55.969354+00:00"
+    },
+    {
+      "id": "h_5b693cd9",
+      "title": "「Windows」PCにサードパーティー製ウイルス対策ソフトはまだ必要か",
+      "url": "https://japan.zdnet.com/article/35250124/",
+      "domain": "japan.zdnet.com",
+      "bookmarkCount": 17,
+      "summary": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます Microsoftの誰かが4月、「Windows Learning Center」で文書を公開し、全く異論の余地のない主張を示した。「多くの『Windows 11』ユーザーにとって、『Microsoft Defender Anti...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35250124/",
+      "comments": [
+        {
+          "user": "dollarss",
+          "comment": "起動を遅くする。常駐する。リソースを無駄に食う。時折ファイルを壊す。障害を引き起こす。たまに起動不能に。あれ？これって……どっちの話だっけ？",
+          "tags": [],
+          "timestamp": "2026/07/11 04:17"
+        },
+        {
+          "user": "toria_ezu1",
+          "comment": "avastは入れてる。ポップアップはうざいけど",
+          "tags": [],
+          "timestamp": "2026/07/11 02:17"
+        },
+        {
+          "user": "pendamadura",
+          "comment": "Steam以外入れないのでいらない",
+          "tags": [],
+          "timestamp": "2026/07/11 01:44"
+        },
+        {
+          "user": "ume-y",
+          "comment": "「不運な3％については、より優れたソフトウェアよりも、より適切なトレーニングの方が重要である可能性が高い」",
+          "tags": [
+            "security"
+          ],
+          "timestamp": "2026/07/10 16:48"
+        }
+      ],
+      "fetchedAt": "2026-07-10T19:41:58.445945+00:00"
+    },
+    {
+      "id": "h_187ddccb",
+      "title": "SREの積み重ねがAI駆動開発のガードレールになった ― 7つの実践/SRE Guardrails The 7",
+      "url": "https://speakerdeck.com/tomoyakitaura/sre-guardrails-the-7",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 11,
+      "summary": "SRE Next 2026の登壇資料です",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tomoyakitaura/sre-guardrails-the-7",
+      "comments": [],
+      "fetchedAt": "2026-07-10T19:41:59.925303+00:00"
+    },
+    {
+      "id": "h_6b302ad9",
+      "title": "Metaが独自開発AI「Muse Spark 1.1」を発表、Claude Opus 4.8と同等のベンチマークスコア",
+      "url": "https://gigazine.net/news/20260710-meta-muse-spark-1-1/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 9,
+      "summary": "MetaのAI研究機関であるMeta Superintelligence Labsが、マルチモーダル推論モデルの「Muse Spark 1.1」を発表しました。2026年4月に登場した「Muse Spark」の大幅なアップグレード版として位置づけられており、ツールおよびPC操作、コーディング、マルチモーダル理解において大きな進歩を遂げているとのことです。 Intr...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260710-meta-muse-spark-1-1/",
+      "comments": [
+        {
+          "user": "iinalabkojocho",
+          "comment": "OSSの有料プロバイダーとしては失敗した。今度はクローズドモデルで課金する。遅れは取り戻せるか？余計な計算リソースの外部リースの噂はあるけどね。メタでBtoBは可能か？",
+          "tags": [
+            "AI",
+            "開発",
+            "メタ"
+          ],
+          "timestamp": "2026/07/11 04:34"
+        },
+        {
+          "user": "sotonohitokun",
+          "comment": "これとGrok、中華ほど安価でも知名度も一般に低いから、開発者が課金して迄使わんしなぁ。",
+          "tags": [],
+          "timestamp": "2026/07/11 02:50"
+        },
+        {
+          "user": "kyahi227",
+          "comment": "Facebookはそもそも本家Llamaシリーズの開発元、オープンソースAIの元祖だろ。Llama 4が大コケして以来存在感がないとは言えこの記事タイトルはおかしい",
+          "tags": [],
+          "timestamp": "2026/07/11 02:34"
+        }
+      ],
+      "fetchedAt": "2026-07-10T19:41:59.330425+00:00"
+    },
+    {
+      "id": "h_3b753020",
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/",
+      "domain": "microsoft.github.io",
+      "bookmarkCount": 7,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/microsoft.github.io/flint-chart/",
+      "comments": [],
+      "fetchedAt": "2026-07-10T19:41:58.740471+00:00"
+    },
+    {
+      "id": "h_19b718f3",
+      "title": "AWS Lambda MicroVMsでサーバレスにMinecraftを遊ぼう！",
+      "url": "https://zenn.dev/tosuri13/articles/78e93272fc2038",
+      "domain": "zenn.dev",
+      "bookmarkCount": 4,
+      "summary": "こんにちは👋 最近AWS LambdaにLambda MicroVMsと呼ばれる新機能が追加されました。 Lambdaを支える仮想化技術であるFirecrackerをベースとして、MicroVMと呼ばれる隔離されたステートフルなサンドボックス環境を、サーバレスに提供してくれる機能です。 Lambda MicroVMsのユースケースとしては、AIエージェントが生成し...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tosuri13/articles/78e93272fc2038",
+      "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "AWS Lambda MicroVMs（Firecracker）でサーバレスMinecraftサーバ構築、CDK/Proxy/WebSocket変換で起動。",
+          "tags": [
+            "AI要約",
+            "Minecraft",
+            "MicroVMs",
+            "Firecrack",
+            "Lambda",
+            "Serverless",
+            "websockify",
+            "CDK",
+            "Docker"
+          ],
+          "timestamp": "2026/07/09 02:01"
+        }
+      ],
+      "fetchedAt": "2026-07-10T19:41:59.025364+00:00"
     }
   ],
-  "lastCollection": "2026-07-10T14:42:34.201133+00:00"
+  "lastCollection": "2026-07-10T19:41:59.925330+00:00"
 }
