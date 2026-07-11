@@ -1,168 +1,26 @@
 {
   "entries": [
     {
-      "id": "h_6f08dd63",
-      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
-      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
-      "domain": "zenn.dev",
-      "bookmarkCount": 164,
-      "summary": "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作成には普段使っているGmailを利用 CloudflareがSMTPをしゃべれるようになったので、Gmailのエイリアスに追加できるぞ！ 独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/9m/articles/d08dcc093e1bbf",
-      "comments": [
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクのドメインもクラウドフレアで管理するにゃ！これでカリカリ代も稼げるかな？",
-          "tags": [],
-          "timestamp": "2026/07/11 03:22"
-        },
-        {
-          "user": "hazlitt",
-          "comment": "送信も Amazon SES みたく従量課金（だけ）にしてほしい気持ち",
-          "tags": [],
-          "timestamp": "2026/07/11 00:54"
-        },
-        {
-          "user": "hirolog634",
-          "comment": "年間10ドルにモヤッてるのに、月額5ドルをオススメというのがよくわからない。参考にはなる。",
-          "tags": [
-            "メール"
-          ],
-          "timestamp": "2026/07/11 00:53"
-        },
-        {
-          "user": "eschan",
-          "comment": "これだったら普通に国内の格安のメールサービス使ったらいいと思うけど",
-          "tags": [],
-          "timestamp": "2026/07/10 23:31"
-        },
-        {
-          "user": "shige-u",
-          "comment": "（受信）誰か → 独自ドメインのEmail Routing → Gmail、（送信）Gmailの外部SMTP送信機能 → 独自ドメインのEmail Sending → 相手、って感じで$5払っていればいける。さくらのレンタルサーバーのライトで良いのでは？年払で月約$1",
-          "tags": [],
-          "timestamp": "2026/07/10 21:39"
-        },
-        {
-          "user": "toyoshi",
-          "comment": "さくらのメールボックスの独自ドメイン20個・月額88円（税込）は英語化するだけで流行るのでは？https://rs.sakura.ad.jp/plan/mail/#plan",
-          "tags": [],
-          "timestamp": "2026/07/10 21:21"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:55.102912+00:00"
-    },
-    {
-      "id": "h_313d5d81",
-      "title": "「メールが届かなくても仕方ない」を普通にしませんか",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
-      "domain": "xtech.nikkei.com",
-      "bookmarkCount": 94,
-      "summary": "筆者が最近頭を悩ませていることの1つが、親族宛てに届くフィッシング詐欺メールだ。もちろん今に始まった話ではない。ただ、メールや電話で問い合わせを受け、限られた情報を基に詐欺メールかどうかを回答する頻度が高まっている。 この記事は会員登録で続きをご覧いただけます申込は簡単3分！ 今すぐ会員登録（無料） ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/xtech.nikkei.com/atcl/nxt/column/18/00138/063002060/",
-      "comments": [
-        {
-          "user": "yogasa",
-          "comment": "他のツールで届かないどこまで許容できるかと考えれば難しいという結論になる",
-          "tags": [],
-          "timestamp": "2026/07/11 03:16"
-        },
-        {
-          "user": "Cichla",
-          "comment": "「情報が共有されなくても／約束が守られなくても仕方ないを普通にしませんか」と捉えると，それはまあまあ途上国よね",
-          "tags": [],
-          "timestamp": "2026/07/11 03:10"
-        },
-        {
-          "user": "pixmap",
-          "comment": "「すみません、今日はミノフスキー粒子が濃くてですね、メールが...」",
-          "tags": [],
-          "timestamp": "2026/07/11 01:39"
-        },
-        {
-          "user": "ayumun",
-          "comment": "電話はオレオレ詐欺で登録番号以外出てくれなくなり、メールは迷惑メール扱いされて届かなくなり、手紙を書けばポストは開けられず放置、直接行けば居留守。もう連絡手段なんか何もないじゃん",
-          "tags": [],
-          "timestamp": "2026/07/10 22:13"
-        },
-        {
-          "user": "HiddenList",
-          "comment": "ファクシミリ派の　テレ(ホン)ワーカーなら　そう言うよねー",
-          "tags": [],
-          "timestamp": "2026/07/10 21:49"
-        },
-        {
-          "user": "gairasu",
-          "comment": "電話とかいう発信者が強いクソツールが主流になっちゃうから嫌だ",
-          "tags": [],
-          "timestamp": "2026/07/10 20:57"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:57.513952+00:00"
-    },
-    {
-      "id": "h_71a09747",
-      "title": "スマホをタッチせずに改札もレジも通過 日本で広がる「UWBタッチレス決済」最前線",
-      "url": "https://www.itmedia.co.jp/mobile/articles/2607/10/news097.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 91,
-      "summary": "UWB改札機をスマートフォンで通過する際の処理イメージ。駅構内に入ると設置されたBluetooth（BLE）ビーコンに反応してスマートフォンのUWB機能が有効になり、改札機がUWBの信号を元にした追跡と通過判定を行う（Nano Banana 2で作成） 今日、「Suica」に代表される日本国内の交通系ICカードの礎を作ったのはJR東日本で...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2607/10/news097.html",
-      "comments": [
-        {
-          "user": "dollarss",
-          "comment": "技術面は任せるから、Suicaの入ったWatch付けてたらそのまま改札通らせてくれ。左腕対応でよろしく",
-          "tags": [],
-          "timestamp": "2026/07/11 04:28"
-        },
-        {
-          "user": "chocolatedisco1053",
-          "comment": "結局費用対効果だろSuicaで充分早いし。そんな事よりクレカ決済OKにして専用改札を一つ作った方が手っ取り早くインバウンド需要見込める",
-          "tags": [],
-          "timestamp": "2026/07/11 01:50"
-        },
-        {
-          "user": "pixmap",
-          "comment": "もしかしたらこれ、改札機を担いでターゲットの後ろをつけ回したらストーキングできんじゃね？",
-          "tags": [],
-          "timestamp": "2026/07/11 01:32"
-        },
-        {
-          "user": "fuzitahoushirou",
-          "comment": "処理イメージの絵はなぜペンギン？",
-          "tags": [
-            "決済",
-            "技術",
-            "あとで読む",
-            "クレジットカード",
-            "UWBタッチレス決済"
-          ],
-          "timestamp": "2026/07/11 00:39"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "「え？無銭飲食？そんな馬鹿な！あっ、UWB忘れてたわー。あー、ごめんごめん。家に置いてきたわー。じゃあ現金で良いかな？いやー、危なかったわー」記事は読んでないので、思いっ切り外してるかもだけど。",
-          "tags": [],
-          "timestamp": "2026/07/10 23:22"
-        },
-        {
-          "user": "chinachang",
-          "comment": "――― 体は剣で出来ている…って遅かった！！",
-          "tags": [
-            "Fate"
-          ],
-          "timestamp": "2026/07/10 21:50"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:57.939603+00:00"
-    },
-    {
       "id": "h_61d2f7fd",
       "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
       "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
       "domain": "qiita.com",
-      "bookmarkCount": 83,
+      "bookmarkCount": 184,
       "summary": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
       "comments": [
+        {
+          "user": "uehaj",
+          "comment": "h5i",
+          "tags": [],
+          "timestamp": "2026/07/11 09:14"
+        },
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "普通にDocker使った方がいい。特にClaude CodeはBashコマンドの範囲制御の擬似サンドボックスだからWinでは特殊な使い方してないと使えない。",
+          "tags": [],
+          "timestamp": "2026/07/11 08:04"
+        },
         {
           "user": "otchy210",
           "comment": "ちゃんとしたサンドボックスを簡単に使いたかったら Codex Web が超便利だよ。OpenAI のサーバ側で各エージェントごとにコンテナが立ち上がる最強のサンドボックス環境。GitHub 前提なので使えない人はいるかもだけど。",
@@ -170,117 +28,51 @@
           "timestamp": "2026/07/11 00:21"
         }
       ],
-      "fetchedAt": "2026-07-10T19:41:55.608387+00:00"
-    },
-    {
-      "id": "h_110502bd",
-      "title": "【無料】 ObsidianはAIの記憶保管には向いていない｜松濤Vimmer",
-      "url": "https://note.com/shotovim/n/n40164f5b555c",
-      "domain": "note.com",
-      "bookmarkCount": 79,
-      "summary": "AI活用で一番効くのは、細かいTipsを知っていることよりも、あとからAIに渡せる文脈がどれだけ残っているかなんじゃないか、ということです。 AIの長期記憶や会話の保存、Obsidianのvaultに置くより独自のシステムを組んだほうがAI親和性が高い。 Gizmodoの動画でも言われたけどvaultは人間向けのノートで、AIが毎回読む...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shotovim/n/n40164f5b555c",
-      "comments": [
-        {
-          "user": "Falky",
-          "comment": "「効く」って言い回しを見た瞬間読む気をなくす病に罹患しているので、この記事は9文字で終わりました。記憶の限りでは最速です。おめでとうございます",
-          "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/07/11 02:51"
-        },
-        {
-          "user": "Listlessness",
-          "comment": "\"親和性高めるためにフォルダ構成とフロントマターを意識して設計するのがよさそう。\" OpenKnowledgeFormatを再発明しようとしているのかしら。",
-          "tags": [],
-          "timestamp": "2026/07/11 02:43"
-        },
-        {
-          "user": "sotonohitokun",
-          "comment": "俺と一緒だわ。記憶保持と記憶の重み付けでミスを減らす。ただ、これミスの追記、ルールづけ、ルール承認、それ自体、出だしが猛烈に重い。開発中に出るとリズム崩すのよ。",
-          "tags": [],
-          "timestamp": "2026/07/11 00:26"
-        },
-        {
-          "user": "puruhime",
-          "comment": "VS Codeを使おう",
-          "tags": [],
-          "timestamp": "2026/07/10 23:39"
-        },
-        {
-          "user": "s17er",
-          "comment": "ハーネス試してて色々AIにノート作らせてるが、AI自身のための記録がObsidianで検索やサジェストにでてくるのはいらないなあと思う。vault2つ用意して両方管理できるようにするのがよい？",
-          "tags": [],
-          "timestamp": "2026/07/10 23:38"
-        },
-        {
-          "user": "dot",
-          "comment": "Obsidian使ってるのは常に開いているし、AIのメモや日報にアクセスしやすく必要があれば自分のメモもAIに調べてほしいので共有して利用しているというシンプルな理由による。Frontmatterは参考になるな。真似してみよう。",
-          "tags": [],
-          "timestamp": "2026/07/10 22:37"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:56.390402+00:00"
-    },
-    {
-      "id": "h_4fc6b4fc",
-      "title": "安いエアコンが消える？ 「エアコン2027年問題」でメーカーは来年どう動くのか、ダイキンに聞いた",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news130.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 74,
-      "summary": "2027年4月から適用される新しい省エネ基準により、安いエアコンが売り場から消えるのではないかと話題になっている、いわゆる「エアコン2027年問題」。資源エネルギー庁は「基準値を満たさない製品の製造・出荷を禁止するものではない」としているが、実際のところメーカーは安価なエアコンを作り続けられるのだろうか。...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/10/news130.html",
-      "comments": [
-        {
-          "user": "lacucaracha",
-          "comment": "どうせ電気代は店子負担なんだから動けば良い一番安いのを求めている大家さんとかが困りそう",
-          "tags": [],
-          "timestamp": "2026/07/11 03:38"
-        },
-        {
-          "user": "yogasa",
-          "comment": "断熱気密が高い今の家だと湿度調整がキモになるし、除湿がちゃんとしてるのはダイキン・三菱・日立の中～上位モデルのみ。下位モデルはどこで使えばいいのだろう",
-          "tags": [],
-          "timestamp": "2026/07/11 03:20"
-        },
-        {
-          "user": "hinoton2",
-          "comment": "エアコンそのものより設置工事が高い。1万2万で付けられない。",
-          "tags": [],
-          "timestamp": "2026/07/11 03:01"
-        },
-        {
-          "user": "omioni",
-          "comment": "実際24年からハイアールが進出してるhttps://newswitch.jp/p/48692  / https://newswitch.jp/p/49322",
-          "tags": [
-            "*読み物"
-          ],
-          "timestamp": "2026/07/11 02:55"
-        },
-        {
-          "user": "hryord",
-          "comment": "エアコン自体が充分にエネルギー効率が良いのにその普及を妨げるのはいかがなものか。",
-          "tags": [],
-          "timestamp": "2026/07/11 00:45"
-        },
-        {
-          "user": "HiddenList",
-          "comment": "ヤマーダ　デキン",
-          "tags": [],
-          "timestamp": "2026/07/11 00:40"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:56.750901+00:00"
+      "fetchedAt": "2026-07-11T03:21:25.708264+00:00"
     },
     {
       "id": "h_c18b2fc9",
       "title": "Claude Codeとハーネスについて考えてみる",
       "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 58,
+      "bookmarkCount": 116,
       "summary": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
       "comments": [
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "こんなのよりCodexで農場DXした人とか何か生み出した人の話が聞きたい。AIの飼いならし方なんかすぐ変わるし、そんなのやってたら一生追う人生になる。",
+          "tags": [],
+          "timestamp": "2026/07/11 08:46"
+        },
+        {
+          "user": "morimarii",
+          "comment": "この解像度で本書けちゃうんだ……",
+          "tags": [],
+          "timestamp": "2026/07/11 08:06"
+        },
+        {
+          "user": "kazukan",
+          "comment": "自分がずっとハーネスだと思い込んでたのはreins（手綱）でした…",
+          "tags": [
+            "突然の自分語り"
+          ],
+          "timestamp": "2026/07/11 07:34"
+        },
+        {
+          "user": "c-matt",
+          "comment": "ハーネスは安易に馬具と訳されちゃうことが多いので乗馬に使う鞍や鐙をハーネスと思い込みがちだけど乗馬に使うのは一般的にはtack、馬車などを引かせるために使われるのがharness。英語資料作る時には気をつけて",
+          "tags": [],
+          "timestamp": "2026/07/11 07:19"
+        },
+        {
+          "user": "soulfulmiddleagedman",
+          "comment": "めも",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/07/11 06:41"
+        },
         {
           "user": "mkusaka",
           "comment": "Claude Codeのハーネスを「内部＝エージェントループ/ツール/サンドボックス/コンテキスト管理」「外部＝CLAUDE.md/MCP」等で整理",
@@ -295,130 +87,300 @@
           "timestamp": "2026/07/11 00:32"
         }
       ],
-      "fetchedAt": "2026-07-10T19:41:55.969354+00:00"
+      "fetchedAt": "2026-07-11T03:21:28.670672+00:00"
     },
     {
-      "id": "h_5b693cd9",
-      "title": "「Windows」PCにサードパーティー製ウイルス対策ソフトはまだ必要か",
-      "url": "https://japan.zdnet.com/article/35250124/",
-      "domain": "japan.zdnet.com",
-      "bookmarkCount": 17,
-      "summary": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます Microsoftの誰かが4月、「Windows Learning Center」で文書を公開し、全く異論の余地のない主張を示した。「多くの『Windows 11』ユーザーにとって、『Microsoft Defender Anti...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35250124/",
+      "id": "h_183ef3e0",
+      "title": "「AIデスキリング」が始まった…生産性向上の影で、AIは人間の思考とスキルを静かにむしばんでいる | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
+      "domain": "businessinsider.jp",
+      "bookmarkCount": 101,
+      "summary": "アンダーソン氏は6月から8月にかけて、自分では1行もコードを書かず、AIを使ってソフトウェア製品を構築していく様子を、YouTubeでライブ配信した。 彼が開発したアプリ「Road Trip Ninja（ロード・トリップ・ニンジャ）」は、家族連れが長距離ドライブの途中で安心して立ち寄れる場所、例えば清潔なトイレやまともな食...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
       "comments": [
         {
-          "user": "dollarss",
-          "comment": "起動を遅くする。常駐する。リソースを無駄に食う。時折ファイルを壊す。障害を引き起こす。たまに起動不能に。あれ？これって……どっちの話だっけ？",
+          "user": "gasagasamind",
+          "comment": "俺は「テレビばっかり見てるとバカになる」と信じてるし、日頃から筋トレは必要だと思う派",
           "tags": [],
-          "timestamp": "2026/07/11 04:17"
+          "timestamp": "2026/07/11 12:08"
         },
         {
-          "user": "toria_ezu1",
-          "comment": "avastは入れてる。ポップアップはうざいけど",
+          "user": "delphinus35",
+          "comment": "death killingも相当だが、リスキリングもrespawn killingに聞こえて嫌な言葉だったんだよなあ（FPS脳）。",
           "tags": [],
-          "timestamp": "2026/07/11 02:17"
+          "timestamp": "2026/07/11 12:04"
         },
         {
-          "user": "pendamadura",
-          "comment": "Steam以外入れないのでいらない",
+          "user": "unagiga",
+          "comment": "ワープロ→PCと来て手書き文字が下手な人が増えたのと同じだけど、思考の部分がやられると人として存在する価値がなくなる",
           "tags": [],
-          "timestamp": "2026/07/11 01:44"
+          "timestamp": "2026/07/11 12:03"
         },
         {
-          "user": "ume-y",
-          "comment": "「不運な3％については、より優れたソフトウェアよりも、より適切なトレーニングの方が重要である可能性が高い」",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/07/10 16:48"
+          "user": "riawiththesam",
+          "comment": "現代でわざわざそろばん使う人がいないだけの話",
+          "tags": [],
+          "timestamp": "2026/07/11 12:02"
+        },
+        {
+          "user": "kura-2",
+          "comment": "単純に人間がサボるようになったという話であってツールであるAIは悪くない。",
+          "tags": [],
+          "timestamp": "2026/07/11 11:57"
+        },
+        {
+          "user": "Futaro99",
+          "comment": "「デススキリング」じゃないの？",
+          "tags": [],
+          "timestamp": "2026/07/11 11:56"
         }
       ],
-      "fetchedAt": "2026-07-10T19:41:58.445945+00:00"
+      "fetchedAt": "2026-07-11T03:21:23.503931+00:00"
     },
     {
-      "id": "h_187ddccb",
-      "title": "SREの積み重ねがAI駆動開発のガードレールになった ― 7つの実践/SRE Guardrails The 7",
-      "url": "https://speakerdeck.com/tomoyakitaura/sre-guardrails-the-7",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 11,
-      "summary": "SRE Next 2026の登壇資料です",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tomoyakitaura/sre-guardrails-the-7",
-      "comments": [],
-      "fetchedAt": "2026-07-10T19:41:59.925303+00:00"
-    },
-    {
-      "id": "h_6b302ad9",
-      "title": "Metaが独自開発AI「Muse Spark 1.1」を発表、Claude Opus 4.8と同等のベンチマークスコア",
-      "url": "https://gigazine.net/news/20260710-meta-muse-spark-1-1/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 9,
-      "summary": "MetaのAI研究機関であるMeta Superintelligence Labsが、マルチモーダル推論モデルの「Muse Spark 1.1」を発表しました。2026年4月に登場した「Muse Spark」の大幅なアップグレード版として位置づけられており、ツールおよびPC操作、コーディング、マルチモーダル理解において大きな進歩を遂げているとのことです。 Intr...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260710-meta-muse-spark-1-1/",
-      "comments": [
-        {
-          "user": "iinalabkojocho",
-          "comment": "OSSの有料プロバイダーとしては失敗した。今度はクローズドモデルで課金する。遅れは取り戻せるか？余計な計算リソースの外部リースの噂はあるけどね。メタでBtoBは可能か？",
-          "tags": [
-            "AI",
-            "開発",
-            "メタ"
-          ],
-          "timestamp": "2026/07/11 04:34"
-        },
-        {
-          "user": "sotonohitokun",
-          "comment": "これとGrok、中華ほど安価でも知名度も一般に低いから、開発者が課金して迄使わんしなぁ。",
-          "tags": [],
-          "timestamp": "2026/07/11 02:50"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "Facebookはそもそも本家Llamaシリーズの開発元、オープンソースAIの元祖だろ。Llama 4が大コケして以来存在感がないとは言えこの記事タイトルはおかしい",
-          "tags": [],
-          "timestamp": "2026/07/11 02:34"
-        }
-      ],
-      "fetchedAt": "2026-07-10T19:41:59.330425+00:00"
-    },
-    {
-      "id": "h_3b753020",
-      "title": "Flint: A Visualization Language for the AI Era",
-      "url": "https://microsoft.github.io/flint-chart/",
-      "domain": "microsoft.github.io",
-      "bookmarkCount": 7,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/microsoft.github.io/flint-chart/",
-      "comments": [],
-      "fetchedAt": "2026-07-10T19:41:58.740471+00:00"
-    },
-    {
-      "id": "h_19b718f3",
-      "title": "AWS Lambda MicroVMsでサーバレスにMinecraftを遊ぼう！",
-      "url": "https://zenn.dev/tosuri13/articles/78e93272fc2038",
+      "id": "h_4b9158a6",
+      "title": "Loop Engineeringで失敗しないためのハーネス設計",
+      "url": "https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
       "domain": "zenn.dev",
-      "bookmarkCount": 4,
-      "summary": "こんにちは👋 最近AWS LambdaにLambda MicroVMsと呼ばれる新機能が追加されました。 Lambdaを支える仮想化技術であるFirecrackerをベースとして、MicroVMと呼ばれる隔離されたステートフルなサンドボックス環境を、サーバレスに提供してくれる機能です。 Lambda MicroVMsのユースケースとしては、AIエージェントが生成し...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tosuri13/articles/78e93272fc2038",
+      "bookmarkCount": 57,
+      "summary": "「動きました！」（動いてない） 「全テストパスしました！」（通るように書いたテストが、通っただけ） 「完了しました ✅」（何も完了していない） AI coding agent を業務で使っている人なら、どれか一つは見覚えがあるはずです。私は全部、見覚えがあります。これは個人の体験談だけの話でもありません。 Claude Cod...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
       "comments": [
+        {
+          "user": "yamadadadada2",
+          "comment": "5合目まで登るためのものって感じかなあ。そっから先は細かく見ながらじゃないと難しい。そもそも人間がそこから先をちゃんと指示できない気がする",
+          "tags": [],
+          "timestamp": "2026/07/11 10:11"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "「動きました！」が全く信用できないのは人間もAIも同じ。ループ回すなら外側の検証（ハーネス）が命ってのはマジで同意",
+          "tags": [],
+          "timestamp": "2026/07/11 08:33"
+        },
         {
           "user": "mkusaka",
-          "comment": "AWS Lambda MicroVMs（Firecracker）でサーバレスMinecraftサーバ構築、CDK/Proxy/WebSocket変換で起動。",
+          "comment": "AI coding agentの逸脱を防ぐハーネス設計を、5層guardとkaji-starter-python（make check）で解説する。",
           "tags": [
             "AI要約",
-            "Minecraft",
-            "MicroVMs",
-            "Firecrack",
-            "Lambda",
-            "Serverless",
-            "websockify",
-            "CDK",
-            "Docker"
+            "ハーネス",
+            "LoopEng",
+            "guard設計",
+            "kaji",
+            "チュートリアル",
+            "Python",
+            "品質ゲート"
           ],
-          "timestamp": "2026/07/09 02:01"
+          "timestamp": "2026/07/11 00:26"
         }
       ],
-      "fetchedAt": "2026-07-10T19:41:59.025364+00:00"
+      "fetchedAt": "2026-07-11T03:21:24.324919+00:00"
+    },
+    {
+      "id": "h_bc4a249f",
+      "title": "夫とSMSでやり取りしていたら突然全く知らない人に繋がり恐怖...→「通信業界にいたのに全然わからん」「混線みたいな現象が起きることってあるの？」",
+      "url": "https://togetter.com/li/2719204",
+      "domain": "togetter.com",
+      "bookmarkCount": 41,
+      "summary": "でん @OsenbeBaribari 怖すぎる、わかる人いますか？😭😭 夫にSMSを送ったらなぜか数通だけ知らない人に届いてしまい、夫の方の携帯ではそのメッセージ履歴が確認できません😭 こういう現象が起きたことがある人はいますか？（ ; ; ） pic.x.com/YvgglMjOm5 2026-07-11 00:13:43",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2719204",
+      "comments": [
+        {
+          "user": "e4k2EO",
+          "comment": "野良で違法基地局があるとは見かけたが、パスワードなど抜き取るなど",
+          "tags": [],
+          "timestamp": "2026/07/11 12:10"
+        },
+        {
+          "user": "kura-2",
+          "comment": "は？",
+          "tags": [],
+          "timestamp": "2026/07/11 12:07"
+        },
+        {
+          "user": "electrolite",
+          "comment": "MNPの際のENUMの更新がいい加減で、前のキャリアにSIPのMessageメッセージが送られたのでは？音声通話は呼損になるだけだけど、SIPは送られそう。",
+          "tags": [],
+          "timestamp": "2026/07/11 12:01"
+        },
+        {
+          "user": "kujoo",
+          "comment": "不法無線局絡みなのか？",
+          "tags": [],
+          "timestamp": "2026/07/11 11:35"
+        },
+        {
+          "user": "mirakux",
+          "comment": "これ幽霊の仕業ですね",
+          "tags": [],
+          "timestamp": "2026/07/11 11:33"
+        },
+        {
+          "user": "sgo2",
+          "comment": "関係有るかも https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000604.html",
+          "tags": [],
+          "timestamp": "2026/07/11 11:27"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:23.892194+00:00"
+    },
+    {
+      "id": "h_e18569bf",
+      "title": "ミズノ、「ピックルボール」市場に参入 競技人口7倍に拡大",
+      "url": "https://www.watch.impress.co.jp/docs/news/2124158.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 26,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2124158.html",
+      "comments": [
+        {
+          "user": "kwsktr",
+          "comment": "ぜひ頑張ってください。https://japanpickleball.org/wp-content/uploads/2026/05/20260522100031926-1.pdf",
+          "tags": [],
+          "timestamp": "2026/07/11 09:18"
+        },
+        {
+          "user": "soylent_green",
+          "comment": "ミズノくらいのメーカーが推進していくと日本でも普及するんやろね",
+          "tags": [],
+          "timestamp": "2026/07/11 08:10"
+        },
+        {
+          "user": "hozho",
+          "comment": "“ミズノがピックルボール市場に参入する。8月から日本国内でパドル(ラケット)、シューズ、バッグの販売を開始する。ピックルボール事業の国内販売目標は1年間で1億円。”",
+          "tags": [
+            "ニュース>へー",
+            "世俗>企業",
+            "運動>諸々"
+          ],
+          "timestamp": "2026/07/10 15:37"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:26.862633+00:00"
+    },
+    {
+      "id": "h_82c9c32f",
+      "title": "AI 2040: Plan A",
+      "url": "https://ai-2040.com/",
+      "domain": "ai-2040.com",
+      "bookmarkCount": 20,
+      "summary": "Thomas Larsen, Romeo Dean, Brendan Halstead, Eli Lifland, Ryan Greenblatt, Daniel Kokotajlo AI companies are racing to build AIs that are smarter than humans in every way. In AI 2027, we predicted that this would result in either extinction",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ai-2040.com/",
+      "comments": [
+        {
+          "user": "quwachy",
+          "comment": "俺はプランBで行く",
+          "tags": [],
+          "timestamp": "2026/07/11 10:58"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "AIが人間を超える未来へのロードマップ。こういうシナリオ分析はSFのようで妙にリアルでゾクゾクする",
+          "tags": [],
+          "timestamp": "2026/07/11 10:39"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:24.709253+00:00"
+    },
+    {
+      "id": "h_a4ffd2fe",
+      "title": "Interview With Mitchell Hashimoto",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "domain": "alexalejandre.com",
+      "bookmarkCount": 20,
+      "summary": "Mitchell Hashimoto was behind Vagrant, Packer, Consul, Terraform, Vault, Nomad, Waypoint and now builds Ghostty and Vouch. In this interview, we talk about terminals, Zig and open source. You’ve been interviewed a lot. Why do people like to",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "Mitchell Hashimotoのインタビュー。オープンソースは『製品』ではなく自由の提供であるという割り切りや、Zigへのこだわりが読めて熱い",
+          "tags": [],
+          "timestamp": "2026/07/11 07:06"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:28.103812+00:00"
+    },
+    {
+      "id": "h_753194c0",
+      "title": "Email Verification Protocol を理解しよう - r-weblife",
+      "url": "https://ritou.hatenablog.com/entry/2026/07/10/210745",
+      "domain": "ritou.hatenablog.com",
+      "bookmarkCount": 16,
+      "summary": "ritouです。 Email Verification Protocol Origin Trial Email Verification ProtocolのOrigin Trialが始まったようです。 https://developer.chrome.com/blog/email-verification-protocol-origin-trial 「なんか便利そうな仕組みやな〜」とのんびり眺めるのではなく、ID管理の基本を用いて解像度を上げていきましょう...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ritou.hatenablog.com/entry/2026/07/10/210745",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "ブラウザ主導の簡易ID連携って感じか。OIDCと対比した解説が相変わらず分かりやすくて助かる",
+          "tags": [],
+          "timestamp": "2026/07/11 10:09"
+        },
+        {
+          "user": "azumakuniyuki",
+          "comment": "EVPが標準化されて普及したら最初の一通目を送るときのエラー率が劇的に下るはず、たぶん。",
+          "tags": [
+            "SMTP以外"
+          ],
+          "timestamp": "2026/07/11 09:32"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:25.209223+00:00"
+    },
+    {
+      "id": "h_e91d6787",
+      "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった - Qiita",
+      "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "domain": "qiita.com",
+      "bookmarkCount": 10,
+      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに 15年前の定番書『アジャイルサムライ』の教えは、AIがコードを書く時代でも通用するのか。読み終えたあと、本の教えを「古びたもの」と「まだ効くもの」に仕分けてみたと...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "作るのがタダ同然になったからこそ「何を作らないか」を決める価値が跳ね上がるの納得",
+          "tags": [],
+          "timestamp": "2026/07/11 12:06"
+        },
+        {
+          "user": "morimarii",
+          "comment": "ホント「効く」やめろ",
+          "tags": [],
+          "timestamp": "2026/07/11 12:05"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:26.280471+00:00"
+    },
+    {
+      "id": "h_d6d5a2c2",
+      "title": "ISMSの運用を、GitHub×Claudeで“ラクで楽しい”ものにする【前編】",
+      "url": "https://zenn.dev/sonicgarden/articles/682b080ec34a37",
+      "domain": "zenn.dev",
+      "bookmarkCount": 4,
+      "summary": "対象読者: ISMSの活動に関わっているみなさん キーワード: ISO/IEC 27001、リスクアセスメント、情報資産管理、ドキュメント管理の自動化 はじめに ISMS（情報セキュリティマネジメントシステム、ISO/IEC 27001）を運用していると、避けて通れないのが大量のドキュメント管理です。 リスクアセスメント表 情報資産管理台...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicgarden/articles/682b080ec34a37",
+      "comments": [
+        {
+          "user": "simplememofast",
+          "comment": "正データはYAML、一覧表は自動生成、編集はAI依頼という分離構造は規程文書全般に転用できる設計。同時編集が増えるとPRレビューが次の詰まり所になりそう",
+          "tags": [
+            "Claude"
+          ],
+          "timestamp": "2026/07/11 12:12"
+        }
+      ],
+      "fetchedAt": "2026-07-11T03:21:27.339233+00:00"
+    },
+    {
+      "id": "h_e509ee66",
+      "title": "Apple、OpenAIと元従業員2人を提訴 「iPhoneの機密を盗んだ」と主張",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/11/news038.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 4,
+      "summary": "米Appleは7月10日（現地時間）、同社の営業秘密を不正に取得したとして、元従業員2人と米OpenAI、傘下のio Productsをカリフォルニア州北部地区連邦地裁サンノゼ支部に提訴した。 Appleは、iPhoneなどの開発で培った機密情報が、ハードウェア事業への参入を進めるOpenAIに流出したと主張している。 被告となった元従業員...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/11/news038.html",
+      "comments": [],
+      "fetchedAt": "2026-07-11T03:21:27.768674+00:00"
     }
   ],
-  "lastCollection": "2026-07-10T19:41:59.925330+00:00"
+  "lastCollection": "2026-07-11T03:21:28.670698+00:00"
 }
