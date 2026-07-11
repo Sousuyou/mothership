@@ -1,151 +1,118 @@
 {
   "entries": [
     {
-      "id": "h_61d2f7fd",
-      "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
-      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
-      "domain": "qiita.com",
-      "bookmarkCount": 184,
-      "summary": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
-      "comments": [
-        {
-          "user": "uehaj",
-          "comment": "h5i",
-          "tags": [],
-          "timestamp": "2026/07/11 09:14"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "普通にDocker使った方がいい。特にClaude CodeはBashコマンドの範囲制御の擬似サンドボックスだからWinでは特殊な使い方してないと使えない。",
-          "tags": [],
-          "timestamp": "2026/07/11 08:04"
-        },
-        {
-          "user": "otchy210",
-          "comment": "ちゃんとしたサンドボックスを簡単に使いたかったら Codex Web が超便利だよ。OpenAI のサーバ側で各エージェントごとにコンテナが立ち上がる最強のサンドボックス環境。GitHub 前提なので使えない人はいるかもだけど。",
-          "tags": [],
-          "timestamp": "2026/07/11 00:21"
-        }
-      ],
-      "fetchedAt": "2026-07-11T03:21:25.708264+00:00"
-    },
-    {
-      "id": "h_c18b2fc9",
-      "title": "Claude Codeとハーネスについて考えてみる",
-      "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 116,
-      "summary": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
-      "comments": [
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "こんなのよりCodexで農場DXした人とか何か生み出した人の話が聞きたい。AIの飼いならし方なんかすぐ変わるし、そんなのやってたら一生追う人生になる。",
-          "tags": [],
-          "timestamp": "2026/07/11 08:46"
-        },
-        {
-          "user": "morimarii",
-          "comment": "この解像度で本書けちゃうんだ……",
-          "tags": [],
-          "timestamp": "2026/07/11 08:06"
-        },
-        {
-          "user": "kazukan",
-          "comment": "自分がずっとハーネスだと思い込んでたのはreins（手綱）でした…",
-          "tags": [
-            "突然の自分語り"
-          ],
-          "timestamp": "2026/07/11 07:34"
-        },
-        {
-          "user": "c-matt",
-          "comment": "ハーネスは安易に馬具と訳されちゃうことが多いので乗馬に使う鞍や鐙をハーネスと思い込みがちだけど乗馬に使うのは一般的にはtack、馬車などを引かせるために使われるのがharness。英語資料作る時には気をつけて",
-          "tags": [],
-          "timestamp": "2026/07/11 07:19"
-        },
-        {
-          "user": "soulfulmiddleagedman",
-          "comment": "めも",
-          "tags": [
-            "ai"
-          ],
-          "timestamp": "2026/07/11 06:41"
-        },
-        {
-          "user": "mkusaka",
-          "comment": "Claude Codeのハーネスを「内部＝エージェントループ/ツール/サンドボックス/コンテキスト管理」「外部＝CLAUDE.md/MCP」等で整理",
-          "tags": [
-            "AI要約",
-            "ClaudeCode",
-            "ハーネス",
-            "AIエージェント",
-            "AI駆動開発",
-            "解説"
-          ],
-          "timestamp": "2026/07/11 00:32"
-        }
-      ],
-      "fetchedAt": "2026-07-11T03:21:28.670672+00:00"
-    },
-    {
       "id": "h_183ef3e0",
       "title": "「AIデスキリング」が始まった…生産性向上の影で、AIは人間の思考とスキルを静かにむしばんでいる | Business Insider Japan",
       "url": "https://www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
       "domain": "businessinsider.jp",
-      "bookmarkCount": 101,
+      "bookmarkCount": 172,
       "summary": "アンダーソン氏は6月から8月にかけて、自分では1行もコードを書かず、AIを使ってソフトウェア製品を構築していく様子を、YouTubeでライブ配信した。 彼が開発したアプリ「Road Trip Ninja（ロード・トリップ・ニンジャ）」は、家族連れが長距離ドライブの途中で安心して立ち寄れる場所、例えば清潔なトイレやまともな食...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
       "comments": [
         {
-          "user": "gasagasamind",
-          "comment": "俺は「テレビばっかり見てるとバカになる」と信じてるし、日頃から筋トレは必要だと思う派",
+          "user": "toaruR",
+          "comment": "すでに、AIが止まったら生産性はガクンと落ちます。なんかやる気も出ないし(ノ∀`) つかAIのお陰であと10年戦える",
           "tags": [],
-          "timestamp": "2026/07/11 12:08"
+          "timestamp": "2026/07/11 16:42"
         },
         {
-          "user": "delphinus35",
-          "comment": "death killingも相当だが、リスキリングもrespawn killingに聞こえて嫌な言葉だったんだよなあ（FPS脳）。",
-          "tags": [],
-          "timestamp": "2026/07/11 12:04"
+          "user": "strawberryhunter",
+          "comment": "Claudeが停止しているからと言ってプログラムを自分で書く気にはなれないし、長文を自分でタイプする気にもなれない。はてなブックマークが限界だ。データセンターが爆撃されたら仕事が一切できないかもね。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/07/11 16:37"
         },
         {
-          "user": "unagiga",
-          "comment": "ワープロ→PCと来て手書き文字が下手な人が増えたのと同じだけど、思考の部分がやられると人として存在する価値がなくなる",
+          "user": "shufo",
+          "comment": "生成AIに依存すると脳活動が低下したまま戻らない https://rp.kddi-research.jp/atelier/column/archives/5443 認知機能が下がると出力の正誤を判断出来ず更に依存する負のスパイラルに陥るリスクが大きすぎる",
           "tags": [],
-          "timestamp": "2026/07/11 12:03"
+          "timestamp": "2026/07/11 16:34"
         },
         {
-          "user": "riawiththesam",
-          "comment": "現代でわざわざそろばん使う人がいないだけの話",
+          "user": "lli",
+          "comment": "リスキリングからデスキリングへ",
           "tags": [],
-          "timestamp": "2026/07/11 12:02"
+          "timestamp": "2026/07/11 16:18"
         },
         {
-          "user": "kura-2",
-          "comment": "単純に人間がサボるようになったという話であってツールであるAIは悪くない。",
+          "user": "BigWhiteDog",
+          "comment": "AIが間違ったことを言った時に「間違ってる」と判断する能力はAIを使っていたら身につかない",
           "tags": [],
-          "timestamp": "2026/07/11 11:57"
+          "timestamp": "2026/07/11 15:45"
         },
         {
-          "user": "Futaro99",
-          "comment": "「デススキリング」じゃないの？",
+          "user": "aneet",
+          "comment": "本当にそれが不都合な事だったかは最低1世代は経ないとわからんな",
           "tags": [],
-          "timestamp": "2026/07/11 11:56"
+          "timestamp": "2026/07/11 15:32"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:23.503931+00:00"
+      "fetchedAt": "2026-07-11T08:05:25.251104+00:00"
+    },
+    {
+      "id": "h_bc4a249f",
+      "title": "夫とSMSでやり取りしていたら突然全く知らない人に繋がり恐怖...→「通信業界にいたのに全然わからん」「混線みたいな現象が起きることってあるの？」",
+      "url": "https://togetter.com/li/2719204",
+      "domain": "togetter.com",
+      "bookmarkCount": 132,
+      "summary": "でん @OsenbeBaribari 怖すぎる、わかる人いますか？😭😭 夫にSMSを送ったらなぜか数通だけ知らない人に届いてしまい、夫の方の携帯ではそのメッセージ履歴が確認できません😭 こういう現象が起きたことがある人はいますか？（ ; ; ） pic.x.com/YvgglMjOm5 2026-07-11 00:13:43",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2719204",
+      "comments": [
+        {
+          "user": "strange",
+          "comment": "これなんのアプリなんだろう。Androidだとみてもわからんなあ",
+          "tags": [],
+          "timestamp": "2026/07/11 17:01"
+        },
+        {
+          "user": "chintaro3",
+          "comment": "「SMSは暗号化されてない」",
+          "tags": [],
+          "timestamp": "2026/07/11 16:25"
+        },
+        {
+          "user": "BlueSkyDetector",
+          "comment": "SMSも暗号化はされてる。不法無線局経由のSMSは2G（暗号が脆弱）しか送れなかったはずだから2G通信を制限しておけば良さそうだけど、相手側も詐欺師ではなさそうだし謎。SS7攻撃もあるようなので3Gも制限すると良さそう。",
+          "tags": [],
+          "timestamp": "2026/07/11 16:25"
+        },
+        {
+          "user": "wonodas",
+          "comment": "移動中なら野良基地かな",
+          "tags": [],
+          "timestamp": "2026/07/11 16:22"
+        },
+        {
+          "user": "MarvinParnroid",
+          "comment": "昭和の昔、黒電話による混線は実際にあった。糞小学生だった僕は知る限りの暴言を吐き、煽りまくった。それは無上の喜びだった。大人になり、ネトゲで小学生に煽られると、だから僕はガチ切れしまくってやるのだ。",
+          "tags": [],
+          "timestamp": "2026/07/11 15:41"
+        },
+        {
+          "user": "fallout1999",
+          "comment": "プラスメッセージ使えばいいのに",
+          "tags": [],
+          "timestamp": "2026/07/11 15:37"
+        }
+      ],
+      "fetchedAt": "2026-07-11T08:05:24.392583+00:00"
     },
     {
       "id": "h_4b9158a6",
       "title": "Loop Engineeringで失敗しないためのハーネス設計",
       "url": "https://zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
       "domain": "zenn.dev",
-      "bookmarkCount": 57,
+      "bookmarkCount": 101,
       "summary": "「動きました！」（動いてない） 「全テストパスしました！」（通るように書いたテストが、通っただけ） 「完了しました ✅」（何も完了していない） AI coding agent を業務で使っている人なら、どれか一つは見覚えがあるはずです。私は全部、見覚えがあります。これは個人の体験談だけの話でもありません。 Claude Cod...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kamo78/articles/kaji-guarded-loop-engineering",
       "comments": [
+        {
+          "user": "versatile",
+          "comment": "なんか自然言語でかくことの違和感がなぁ。この流れは続くんだろうか？",
+          "tags": [],
+          "timestamp": "2026/07/11 15:19"
+        },
         {
           "user": "yamadadadada2",
           "comment": "5合目まで登るためのものって感じかなあ。そっから先は細かく見ながらじゃないと難しい。そもそも人間がそこから先をちゃんと指示できない気がする",
@@ -174,138 +141,272 @@
           "timestamp": "2026/07/11 00:26"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:24.324919+00:00"
-    },
-    {
-      "id": "h_bc4a249f",
-      "title": "夫とSMSでやり取りしていたら突然全く知らない人に繋がり恐怖...→「通信業界にいたのに全然わからん」「混線みたいな現象が起きることってあるの？」",
-      "url": "https://togetter.com/li/2719204",
-      "domain": "togetter.com",
-      "bookmarkCount": 41,
-      "summary": "でん @OsenbeBaribari 怖すぎる、わかる人いますか？😭😭 夫にSMSを送ったらなぜか数通だけ知らない人に届いてしまい、夫の方の携帯ではそのメッセージ履歴が確認できません😭 こういう現象が起きたことがある人はいますか？（ ; ; ） pic.x.com/YvgglMjOm5 2026-07-11 00:13:43",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2719204",
-      "comments": [
-        {
-          "user": "e4k2EO",
-          "comment": "野良で違法基地局があるとは見かけたが、パスワードなど抜き取るなど",
-          "tags": [],
-          "timestamp": "2026/07/11 12:10"
-        },
-        {
-          "user": "kura-2",
-          "comment": "は？",
-          "tags": [],
-          "timestamp": "2026/07/11 12:07"
-        },
-        {
-          "user": "electrolite",
-          "comment": "MNPの際のENUMの更新がいい加減で、前のキャリアにSIPのMessageメッセージが送られたのでは？音声通話は呼損になるだけだけど、SIPは送られそう。",
-          "tags": [],
-          "timestamp": "2026/07/11 12:01"
-        },
-        {
-          "user": "kujoo",
-          "comment": "不法無線局絡みなのか？",
-          "tags": [],
-          "timestamp": "2026/07/11 11:35"
-        },
-        {
-          "user": "mirakux",
-          "comment": "これ幽霊の仕業ですね",
-          "tags": [],
-          "timestamp": "2026/07/11 11:33"
-        },
-        {
-          "user": "sgo2",
-          "comment": "関係有るかも https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000604.html",
-          "tags": [],
-          "timestamp": "2026/07/11 11:27"
-        }
-      ],
-      "fetchedAt": "2026-07-11T03:21:23.892194+00:00"
-    },
-    {
-      "id": "h_e18569bf",
-      "title": "ミズノ、「ピックルボール」市場に参入 競技人口7倍に拡大",
-      "url": "https://www.watch.impress.co.jp/docs/news/2124158.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 26,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2124158.html",
-      "comments": [
-        {
-          "user": "kwsktr",
-          "comment": "ぜひ頑張ってください。https://japanpickleball.org/wp-content/uploads/2026/05/20260522100031926-1.pdf",
-          "tags": [],
-          "timestamp": "2026/07/11 09:18"
-        },
-        {
-          "user": "soylent_green",
-          "comment": "ミズノくらいのメーカーが推進していくと日本でも普及するんやろね",
-          "tags": [],
-          "timestamp": "2026/07/11 08:10"
-        },
-        {
-          "user": "hozho",
-          "comment": "“ミズノがピックルボール市場に参入する。8月から日本国内でパドル(ラケット)、シューズ、バッグの販売を開始する。ピックルボール事業の国内販売目標は1年間で1億円。”",
-          "tags": [
-            "ニュース>へー",
-            "世俗>企業",
-            "運動>諸々"
-          ],
-          "timestamp": "2026/07/10 15:37"
-        }
-      ],
-      "fetchedAt": "2026-07-11T03:21:26.862633+00:00"
+      "fetchedAt": "2026-07-11T08:05:27.295630+00:00"
     },
     {
       "id": "h_82c9c32f",
       "title": "AI 2040: Plan A",
       "url": "https://ai-2040.com/",
       "domain": "ai-2040.com",
-      "bookmarkCount": 20,
+      "bookmarkCount": 79,
       "summary": "Thomas Larsen, Romeo Dean, Brendan Halstead, Eli Lifland, Ryan Greenblatt, Daniel Kokotajlo AI companies are racing to build AIs that are smarter than humans in every way. In AI 2027, we predicted that this would result in either extinction",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ai-2040.com/",
       "comments": [
         {
-          "user": "quwachy",
-          "comment": "俺はプランBで行く",
+          "user": "toaruR",
+          "comment": "すでに持つ者と持たざる者の差を広げる要因は増えてる（´－｀）庶民でもそこそこ買えるから民主化されてる様にも見えるけど、AI資源競争は始まってる",
           "tags": [],
-          "timestamp": "2026/07/11 10:58"
+          "timestamp": "2026/07/11 16:38"
+        },
+        {
+          "user": "ufox",
+          "comment": "「誰が最初に超知能を作るか」という競争を続けるのは危険すぎるので、国際的な合意のもとAI開発を透明化して緩やかに超知能へ進もうという話",
+          "tags": [],
+          "timestamp": "2026/07/11 16:33"
+        },
+        {
+          "user": "HiiragiJP",
+          "comment": "今のままだとプランD。それだけ突きつけたのが前作AI2027なんだけど救いがないので、今ひとつ広がらなかった。先ずは希望を持つために理想のシナリオを書いてみたのだろう。ここから現実にする方法を考えよう",
+          "tags": [],
+          "timestamp": "2026/07/11 16:22"
+        },
+        {
+          "user": "pozzacat",
+          "comment": "俺の寿命が尽きる前に銀髪ロリメイドアンドロイドを作れるようになって欲しい",
+          "tags": [],
+          "timestamp": "2026/07/11 16:03"
+        },
+        {
+          "user": "l_etranger",
+          "comment": "予測ではなく提案メイン、と冒頭に。世界の選択とそれがもたらす結果の”例示”によって示唆を与えようというもの(当たり外れを問題にしていない)。一定の蓋然性のある事象の提示と行動提言、思考実験と物語の混合物",
+          "tags": [],
+          "timestamp": "2026/07/11 15:39"
+        },
+        {
+          "user": "muu2000",
+          "comment": "英語読むために勉強してるのに、めんどくさいからこういうのもAIに投げて翻訳してしまう",
+          "tags": [],
+          "timestamp": "2026/07/11 15:10"
+        }
+      ],
+      "fetchedAt": "2026-07-11T08:05:26.687185+00:00"
+    },
+    {
+      "id": "h_5be5e699",
+      "title": "やさしいループエンジニアリング入門 | ドクセル",
+      "url": "https://www.docswell.com/s/harinezumi/K3J9JJ-2026-07-10-202543",
+      "domain": "docswell.com",
+      "bookmarkCount": 50,
+      "summary": "ループエンジニアリングに火をつけた3人 コーディングエージェントに直接指示するな エージェントに指示を出す “ループ” を設計しろ Peter Steinberger OpenClaw の作者 もう Claude に指示は出していない 私の仕事はループを書くことだ KDDI Agile Development Center Corporation Boris Cherny Claude Code の責任者 ‹#›",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.docswell.com/s/harinezumi/K3J9JJ-2026-07-10-202543",
+      "comments": [
+        {
+          "user": "toaruR",
+          "comment": "まだ各所、思考錯誤中で過渡期な感じもあるけど、ハーネスエンジニアリングなる言葉が出てきてからまだ半年なんだよな……なんかいろいろ早い",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/07/11 16:26"
         },
         {
           "user": "nguyen-oi",
-          "comment": "AIが人間を超える未来へのロードマップ。こういうシナリオ分析はSFのようで妙にリアルでゾクゾクする",
+          "comment": "プロンプト叩きからプロンプトを叩く自動化の設計へシフトしていくの面白いな。人間はただのシステム管理者になりそう",
           "tags": [],
-          "timestamp": "2026/07/11 10:39"
+          "timestamp": "2026/07/11 13:07"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:24.709253+00:00"
+      "fetchedAt": "2026-07-11T08:05:25.648824+00:00"
     },
     {
-      "id": "h_a4ffd2fe",
-      "title": "Interview With Mitchell Hashimoto",
-      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
-      "domain": "alexalejandre.com",
-      "bookmarkCount": 20,
-      "summary": "Mitchell Hashimoto was behind Vagrant, Packer, Consul, Terraform, Vault, Nomad, Waypoint and now builds Ghostty and Vouch. In this interview, we talk about terminals, Zig and open source. You’ve been interviewed a lot. Why do people like to",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "id": "h_d6d5a2c2",
+      "title": "ISMSの運用を、GitHub×Claudeで“ラクで楽しい”ものにする【前編】",
+      "url": "https://zenn.dev/sonicgarden/articles/682b080ec34a37",
+      "domain": "zenn.dev",
+      "bookmarkCount": 49,
+      "summary": "対象読者: ISMSの活動に関わっているみなさん キーワード: ISO/IEC 27001、リスクアセスメント、情報資産管理、ドキュメント管理の自動化 はじめに ISMS（情報セキュリティマネジメントシステム、ISO/IEC 27001）を運用していると、避けて通れないのが大量のドキュメント管理です。 リスクアセスメント表 情報資産管理台...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicgarden/articles/682b080ec34a37",
       "comments": [
         {
+          "user": "rokujyouhitoma",
+          "comment": "アプローチの一つとしてはあり。",
+          "tags": [
+            "ISMS"
+          ],
+          "timestamp": "2026/07/11 17:02"
+        },
+        {
           "user": "nguyen-oi",
-          "comment": "Mitchell Hashimotoのインタビュー。オープンソースは『製品』ではなく自由の提供であるという割り切りや、Zigへのこだわりが読めて熱い",
+          "comment": "Excel管理の地獄からGitHubとAIで脱出するの賢い。これなら引き継ぎも楽そうだし普及してほしい",
           "tags": [],
-          "timestamp": "2026/07/11 07:06"
+          "timestamp": "2026/07/11 12:33"
+        },
+        {
+          "user": "simplememofast",
+          "comment": "正データはYAML、一覧表は自動生成、編集はAI依頼という分離構造は規程文書全般に転用できる設計。同時編集が増えるとPRレビューが次の詰まり所になりそう",
+          "tags": [
+            "Claude"
+          ],
+          "timestamp": "2026/07/11 12:12"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:28.103812+00:00"
+      "fetchedAt": "2026-07-11T08:05:27.755317+00:00"
+    },
+    {
+      "id": "h_84746386",
+      "title": "総務省｜不法無線局の疑いのある無線機器※からの携帯電話サービスへの混信 ～フィッシング詐欺等のSMSにご注意ください～",
+      "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000604.html",
+      "domain": "soumu.go.jp",
+      "bookmarkCount": 46,
+      "summary": "お知らせ 令和7年5月2日 （令和7年5月15日更新） 不法無線局の疑いのある無線機器※からの携帯電話サービスへの混信 ～フィッシング詐欺等のSMSにご注意ください～ 昨今、都内周辺をはじめとする一部の都市において、不法無線局の疑いのある無線機器からの携帯電話サービスへの混信事案が発生しており、携帯電話が圏外と...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000604.html",
+      "comments": [
+        {
+          "user": "poco_tin",
+          "comment": "電話番号が不要な社会にシフトして欲しい",
+          "tags": [],
+          "timestamp": "2026/07/11 16:31"
+        },
+        {
+          "user": "JORG",
+          "comment": "去年のやつだから2Gの勝手基地局の件だな",
+          "tags": [],
+          "timestamp": "2026/07/11 14:29"
+        },
+        {
+          "user": "masatomo-m",
+          "comment": "不通にさせるのはともかく、SMS送るのは3Gではできたけど4G以降で難しくなったんじゃなかったっけ？",
+          "tags": [],
+          "timestamp": "2026/07/11 14:04"
+        },
+        {
+          "user": "kazoo_oo",
+          "comment": "まじか",
+          "tags": [],
+          "timestamp": "2026/07/11 13:47"
+        },
+        {
+          "user": "dollarss",
+          "comment": "これだからSMSを認証に使うのは絶対にNGだといつも。早く廃止すべきだよ。",
+          "tags": [],
+          "timestamp": "2026/07/11 13:35"
+        },
+        {
+          "user": "tweakk",
+          "comment": "“不法無線局の疑いのある無線機器からの携帯電話サービスへの混信事案が発生しており、携帯電話が圏外となったり、フィッシング詐欺等の不審なSMSを受信したりするなどの事象“",
+          "tags": [
+            "SMS",
+            "通信",
+            "詐欺"
+          ],
+          "timestamp": "2026/07/11 13:13"
+        }
+      ],
+      "fetchedAt": "2026-07-11T08:05:28.450454+00:00"
+    },
+    {
+      "id": "h_e91d6787",
+      "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった - Qiita",
+      "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "domain": "qiita.com",
+      "bookmarkCount": 45,
+      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに 15年前の定番書『アジャイルサムライ』の教えは、AIがコードを書く時代でも通用するのか。読み終えたあと、本の教えを「古びたもの」と「まだ効くもの」に仕分けてみたと...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "comments": [
+        {
+          "user": "Makeneko",
+          "comment": "ブログでは、その人の感想を聞きたいのであって、AIのまとめと会社の広告を読まされたくない",
+          "tags": [],
+          "timestamp": "2026/07/11 15:35"
+        },
+        {
+          "user": "pusikoanalysis",
+          "comment": "アジールアサイラムかと思った…。",
+          "tags": [],
+          "timestamp": "2026/07/11 15:18"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“本書は「危なっかしいところは全てテストする」「テストは自動化する」と繰り返します。2010年当時、これは高くつく投資でした。テストを書く時間を確保する戦いが本書の裏テーマ。2026年、この戦いは終わりました”",
+          "tags": [],
+          "timestamp": "2026/07/11 15:01"
+        },
+        {
+          "user": "lenore",
+          "comment": "アジャイルサムライが15年前……(時の流れの速さよ、と思ったけど割と月日が経った意識あったわ",
+          "tags": [],
+          "timestamp": "2026/07/11 13:25"
+        },
+        {
+          "user": "mochizoo",
+          "comment": "案の定AI SLOPの下の方に宣伝があって笑う",
+          "tags": [],
+          "timestamp": "2026/07/11 12:30"
+        },
+        {
+          "user": "hasiduki",
+          "comment": "ふーむ！！！！！！！！！",
+          "tags": [],
+          "timestamp": "2026/07/11 12:30"
+        }
+      ],
+      "fetchedAt": "2026-07-11T08:05:28.855074+00:00"
+    },
+    {
+      "id": "h_3007a73a",
+      "title": "NVIDIA倒産危機をセガが救って30年の突発イベント予告 革ジャンが秋葉原GiGO降臨、ファン招待で5090プレゼント 鈴木裕や入交元社長も参加 | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/07/10/5281.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 41,
+      "summary": "NVIDIAが30年にわたるセガとの縁をゲーマーと祝うイベントの突発開催を予告しました。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/07/10/5281.html",
+      "comments": [
+        {
+          "user": "at_yasu",
+          "comment": "知らんかった。へー",
+          "tags": [],
+          "timestamp": "2026/07/11 16:57"
+        },
+        {
+          "user": "forspeak",
+          "comment": "“来場者には抽選で「GeForce RTX 5090 FE」をプレゼント！”　当日の大混乱がもう目に見える…",
+          "tags": [
+            "ゲーム"
+          ],
+          "timestamp": "2026/07/11 16:49"
+        },
+        {
+          "user": "yoi_otoshiwo",
+          "comment": "待て待て待て待てRTX5090発売するのに転売の中国人が押しかけて大変なことになったのを忘れたのか。",
+          "tags": [],
+          "timestamp": "2026/07/11 15:42"
+        },
+        {
+          "user": "TakamoriTarou",
+          "comment": "併せて読みたい：NVIDIAのCEO、日本を素通り　歴訪の韓台に劣るパートナーの魅力：日経　https://www.nikkei.com/article/DGXZQOGN091C60Z00C26A6000000/ 日経との温度差よ　　今ではSwitchがnvidiaのsocなんだよぬ実は",
+          "tags": [],
+          "timestamp": "2026/07/11 15:40"
+        },
+        {
+          "user": "mochizoo",
+          "comment": "セガがそのまま株を持っていればとんでもない価値だったのを痛感しなおすイベント",
+          "tags": [],
+          "timestamp": "2026/07/11 15:30"
+        },
+        {
+          "user": "ywdc",
+          "comment": "「セガは、いつものように次世代機での仕切り直しを狙い」なんだとこの野郎(合ってるけど)🤪",
+          "tags": [],
+          "timestamp": "2026/07/11 15:03"
+        }
+      ],
+      "fetchedAt": "2026-07-11T08:05:28.009397+00:00"
     },
     {
       "id": "h_753194c0",
       "title": "Email Verification Protocol を理解しよう - r-weblife",
       "url": "https://ritou.hatenablog.com/entry/2026/07/10/210745",
       "domain": "ritou.hatenablog.com",
-      "bookmarkCount": 16,
+      "bookmarkCount": 37,
       "summary": "ritouです。 Email Verification Protocol Origin Trial Email Verification ProtocolのOrigin Trialが始まったようです。 https://developer.chrome.com/blog/email-verification-protocol-origin-trial 「なんか便利そうな仕組みやな〜」とのんびり眺めるのではなく、ID管理の基本を用いて解像度を上げていきましょう...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ritou.hatenablog.com/entry/2026/07/10/210745",
       "comments": [
@@ -324,63 +425,73 @@
           "timestamp": "2026/07/11 09:32"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:25.209223+00:00"
+      "fetchedAt": "2026-07-11T08:05:30.754477+00:00"
     },
     {
-      "id": "h_e91d6787",
-      "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった - Qiita",
-      "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "id": "h_40ce8f62",
+      "title": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方 - Qiita",
+      "url": "https://qiita.com/aktsmm/items/7b92f95325893cb4e5a3",
       "domain": "qiita.com",
-      "bookmarkCount": 10,
-      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに 15年前の定番書『アジャイルサムライ』の教えは、AIがコードを書く時代でも通用するのか。読み終えたあと、本の教えを「古びたもの」と「まだ効くもの」に仕分けてみたと...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "bookmarkCount": 32,
+      "summary": "GPT-5.6 は何が変わった？ Luna / Terra / Sol の違いと実務での選び方 こんにちは、新モデルが出るたびに「結局どれを選べばいいの？」から調べ始めるアーキテクトのやまぱん！です 😅 2026/07/09、OpenAI が GPT-5.6 を一般提供。Sol / Terra / Luna を同時投入した、新モデル祭りです。 さらに、推論量を増やす max、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/aktsmm/items/7b92f95325893cb4e5a3",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "作るのがタダ同然になったからこそ「何を作らないか」を決める価値が跳ね上がるの納得",
+          "user": "igni3",
+          "comment": "ちょっと使った感じ、5.4でいいからお安くして欲しい",
           "tags": [],
-          "timestamp": "2026/07/11 12:06"
+          "timestamp": "2026/07/11 16:18"
         },
         {
-          "user": "morimarii",
-          "comment": "ホント「効く」やめろ",
+          "user": "tokb",
+          "comment": "NTT DataのLLM、GPT Terasoluna",
           "tags": [],
-          "timestamp": "2026/07/11 12:05"
+          "timestamp": "2026/07/11 15:34"
+        },
+        {
+          "user": "narukami",
+          "comment": "5.5の欠点が思った以上にそのままで早くもうんざりしている",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/07/11 14:28"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "OpenAIもついに3クラスのモデル展開か。Terraが実務のデフォルトになりそうだな",
+          "tags": [],
+          "timestamp": "2026/07/11 09:32"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:26.280471+00:00"
+      "fetchedAt": "2026-07-11T08:05:30.464399+00:00"
     },
     {
-      "id": "h_d6d5a2c2",
-      "title": "ISMSの運用を、GitHub×Claudeで“ラクで楽しい”ものにする【前編】",
-      "url": "https://zenn.dev/sonicgarden/articles/682b080ec34a37",
+      "id": "h_75b03c3c",
+      "title": "AI時代でも変わらない、業務自動化／効率化の考え方",
+      "url": "https://zenn.dev/grooves/articles/d0e1a182138ab0",
       "domain": "zenn.dev",
-      "bookmarkCount": 4,
-      "summary": "対象読者: ISMSの活動に関わっているみなさん キーワード: ISO/IEC 27001、リスクアセスメント、情報資産管理、ドキュメント管理の自動化 はじめに ISMS（情報セキュリティマネジメントシステム、ISO/IEC 27001）を運用していると、避けて通れないのが大量のドキュメント管理です。 リスクアセスメント表 情報資産管理台...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicgarden/articles/682b080ec34a37",
+      "bookmarkCount": 23,
+      "summary": "はじめに こんにちは！GroovesでCrowd Agent開発組織のマネージャーをしています、鳥井です。本記事は、私が社内向けに書いた業務自動化／効率化に関するドキュメントを、公開用に再構成したものになります。 AI時代に入り、業務自動化／効率化が改めて脚光を浴びています。LLMを司令塔としたMCPやAgent Skillsの普及に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/grooves/articles/d0e1a182138ab0",
       "comments": [
         {
-          "user": "simplememofast",
-          "comment": "正データはYAML、一覧表は自動生成、編集はAI依頼という分離構造は規程文書全般に転用できる設計。同時編集が増えるとPRレビューが次の詰まり所になりそう",
+          "user": "xanaduuu",
+          "comment": "時間ができたらやらなくても良いものを見つけ出して仕事にしちゃう人もいるから大事なやつだ",
           "tags": [
-            "Claude"
+            "あとで読む",
+            "自動化"
           ],
-          "timestamp": "2026/07/11 12:12"
+          "timestamp": "2026/07/11 16:55"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "自動化で浮いた時間を何に使うかの設計がないと、結局誰も得しないのはマジでそれな",
+          "tags": [],
+          "timestamp": "2026/07/11 15:02"
         }
       ],
-      "fetchedAt": "2026-07-11T03:21:27.339233+00:00"
-    },
-    {
-      "id": "h_e509ee66",
-      "title": "Apple、OpenAIと元従業員2人を提訴 「iPhoneの機密を盗んだ」と主張",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/11/news038.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 4,
-      "summary": "米Appleは7月10日（現地時間）、同社の営業秘密を不正に取得したとして、元従業員2人と米OpenAI、傘下のio Productsをカリフォルニア州北部地区連邦地裁サンノゼ支部に提訴した。 Appleは、iPhoneなどの開発で培った機密情報が、ハードウェア事業への参入を進めるOpenAIに流出したと主張している。 被告となった元従業員...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/11/news038.html",
-      "comments": [],
-      "fetchedAt": "2026-07-11T03:21:27.768674+00:00"
+      "fetchedAt": "2026-07-11T08:05:29.292706+00:00"
     }
   ],
-  "lastCollection": "2026-07-11T03:21:28.670698+00:00"
+  "lastCollection": "2026-07-11T08:05:30.754498+00:00"
 }
