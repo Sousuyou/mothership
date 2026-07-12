@@ -1,429 +1,192 @@
 {
   "entries": [
     {
-      "id": "h_5be5e699",
-      "title": "やさしいループエンジニアリング入門 | ドクセル",
-      "url": "https://www.docswell.com/s/harinezumi/K3J9JJ-2026-07-10-202543",
-      "domain": "docswell.com",
-      "bookmarkCount": 235,
-      "summary": "ループエンジニアリングに火をつけた3人 コーディングエージェントに直接指示するな エージェントに指示を出す “ループ” を設計しろ Peter Steinberger OpenClaw の作者 もう Claude に指示は出していない 私の仕事はループを書くことだ KDDI Agile Development Center Corporation Boris Cherny Claude Code の責任者 ‹#›",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.docswell.com/s/harinezumi/K3J9JJ-2026-07-10-202543",
-      "comments": [
-        {
-          "user": "sionsou",
-          "comment": "うーん、いまいちメリットが理解出来てない。プロンプトエンジニアリングの代わりでよく紹介されるけど、定期実行、トリガー以外では依然として指示出しは人間が必要で、施策などの新規issue作成も人間必要だしなぁ",
-          "tags": [],
-          "timestamp": "2026/07/11 22:35"
-        },
-        {
-          "user": "nilab",
-          "comment": "「ループエンジニアリングとはざっくりいうと、あなた自身を、エージェントにプロンプトを打つ人から外し、代わりに、プロンプトを打ってくれる仕組みを設計すること」トリガー。停止条件。ゴールの定義。禁止事項。",
-          "tags": [],
-          "timestamp": "2026/07/11 19:38"
-        },
-        {
-          "user": "boxmanx99",
-          "comment": "Usage長者だよなあ、、、",
-          "tags": [
-            "生成AI"
-          ],
-          "timestamp": "2026/07/11 19:11"
-        },
-        {
-          "user": "toaruR",
-          "comment": "まだ各所、思考錯誤中で過渡期な感じもあるけど、ハーネスエンジニアリングなる言葉が出てきてからまだ半年なんだよな……なんかいろいろ早い",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/07/11 16:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "プロンプト叩きからプロンプトを叩く自動化の設計へシフトしていくの面白いな。人間はただのシステム管理者になりそう",
-          "tags": [],
-          "timestamp": "2026/07/11 13:07"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:31.751227+00:00"
-    },
-    {
-      "id": "h_75b03c3c",
-      "title": "AI時代でも変わらない、業務自動化／効率化の考え方",
-      "url": "https://zenn.dev/grooves/articles/d0e1a182138ab0",
-      "domain": "zenn.dev",
-      "bookmarkCount": 150,
-      "summary": "はじめに こんにちは！GroovesでCrowd Agent開発組織のマネージャーをしています、鳥井です。本記事は、私が社内向けに書いた業務自動化／効率化に関するドキュメントを、公開用に再構成したものになります。 AI時代に入り、業務自動化／効率化が改めて脚光を浴びています。LLMを司令塔としたMCPやAgent Skillsの普及に...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/grooves/articles/d0e1a182138ab0",
-      "comments": [
-        {
-          "user": "takoashi_net",
-          "comment": "、",
-          "tags": [],
-          "timestamp": "2026/07/12 02:05"
-        },
-        {
-          "user": "shoh8",
-          "comment": "AIによる効率化を恩恵と取る人もいれば、競合と取る人もいて、効率化後の状況次第ではAIは無用と判定する場合もある（たぶん多々ある） /そのためのフロー見直し",
-          "tags": [
-            "AI",
-            "考え方"
-          ],
-          "timestamp": "2026/07/11 23:30"
-        },
-        {
-          "user": "kaeruyan",
-          "comment": "場合によってはシステムを入れること自体が間違ってることもあるからね。そこを見渡して提案できる会社、人なら信頼できると思う。",
-          "tags": [],
-          "timestamp": "2026/07/11 20:22"
-        },
-        {
-          "user": "ryownet",
-          "comment": "効率化でできた時間に新しい付加価値でなく追加の仕事をいれてしまうのが普通なので、あいた後の設計が大事",
-          "tags": [
-            "AI",
-            "設計",
-            "仕事"
-          ],
-          "timestamp": "2026/07/11 20:13"
-        },
-        {
-          "user": "kash06",
-          "comment": "それによって自由になる人がいるかは、目指す結果として大きな意味がある。",
-          "tags": [
-            "ビジネス",
-            "IT",
-            "仕事"
-          ],
-          "timestamp": "2026/07/11 18:14"
-        },
-        {
-          "user": "hiroomi",
-          "comment": "ルール化できる部分はコード、 推論や曖昧な判断が必要な部分はLLM",
-          "tags": [],
-          "timestamp": "2026/07/11 17:25"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:33.472454+00:00"
-    },
-    {
       "id": "h_29ff8816",
       "title": "「AI臭くない文章」を書かせることができる執筆エディタを作った｜なつ (生活者/デザイナー/リサーチャー)",
       "url": "https://note.com/art_reflection/n/n7ffd5ce3320c",
       "domain": "note.com",
-      "bookmarkCount": 99,
+      "bookmarkCount": 259,
       "summary": "ここ最近、いかに「AIでAI臭くない文章を書かせられるか？」を試行錯誤しています。 書かれた文章は自分としてもそれなりに思考を凝らせたものとなっていますが、実のところそろそろアイディアが枯渇し、頭打ちになってきまし。 さて、この文章執筆は一応Fable、Sonnet5.0までを射程として検証しています。正直FableはAP...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/art_reflection/n/n7ffd5ce3320c",
       "comments": [
         {
-          "user": "oO_TOJIMAME_Oo",
-          "comment": "ものすごく申し訳ないけどAI以前に読みにくくて目が滑る。文末の統一がされてなく、数字も漢数字とアラビアが混じる。全部読めなかった。",
+          "user": "nyahonyahotamakuroo",
+          "comment": "AIに書かせた文章だってバレるのが嫌ってのは、 知人に書かせた読書感想文だとバレないようにってのと同じ感じなんだろうか",
           "tags": [],
-          "timestamp": "2026/07/12 03:29"
+          "timestamp": "2026/07/12 12:08"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "ボクの毛並みみたいに自然な文章を作るために、一生懸命工夫してるんだね！難しいことはよく分からないけど、ボクの肉球で画面をポンと押して応援するにゃ！",
+          "user": "takashiski",
+          "comment": "「完全に自分専用の実験ツールを作ってみたからみんな見て！」ってことね。「その種類の文章をわざわざAIに書かせること」自体があんまり共感できないやつ",
           "tags": [],
-          "timestamp": "2026/07/12 03:22"
+          "timestamp": "2026/07/12 11:23"
         },
         {
-          "user": "ugo_uozumi",
-          "comment": "題材に対しての熱量や体験のユニークさが面白さに繋がると思うのだが、AI記事はそこを均してしまいドキュメントやデータを解説しただけの文章になるからでしょ？かあいがもんの日記みたく再読したくなるか？って話で",
-          "tags": [],
-          "timestamp": "2026/07/12 02:49"
-        },
-        {
-          "user": "fashi",
-          "comment": "どうでもいいところを細かく説明してくるのはAI臭い気がする。それよりこのブログの同じ話が何度も出てくるのはAIに校正させたほうがいい",
+          "user": "nabinno",
+          "comment": "AI臭さ以前に、論点の分類や情報設計が整理できておらず、同じ説明の反復で読みにくい。まずはMECEな章立てと編集で重複を削るべき。AI対策より先に人間向けの校正が必要。",
           "tags": [
-            "ai"
+            "note",
+            "ai-writing",
+            "writing",
+            "editing",
+            "technical-writing",
+            "information-architecture",
+            "mece",
+            "prompt-engineering",
+            "large-language-models",
+            "claude"
           ],
-          "timestamp": "2026/07/12 02:09"
+          "timestamp": "2026/07/12 10:58"
         },
         {
-          "user": "yayugu",
-          "comment": "今までで見た中でトップクラスにAIっぽくない。新聞とか上品な雑誌のしゃらくさいエッセイとして違和感がない",
+          "user": "ee83jaige",
+          "comment": "なんで意地でもAIに丸投げして、ゴミの悪臭をマスクしたゴミを作りたがるのかが理解できない。まともなものが書きたいなら、AIと壁打ちに徹して「自分の頭と手で」書けばできるじゃんっていう。",
           "tags": [],
-          "timestamp": "2026/07/12 02:05"
+          "timestamp": "2026/07/12 10:35"
         },
         {
-          "user": "mr_mayama",
-          "comment": "“というのが直感です。でも数字は逆を示している。”もう全然AI臭い、というよりClaude臭い（フロンティアモデルの中で一番日本語がマシなのがClaudeなので仕方ない）",
+          "user": "kurage_lizard",
+          "comment": "確かに読みにくい…。書き終わったら分かりやすさのために章を入れ替えたり、結論を先に持ってきたりして、ストーリーとして次に何が来るか想像しやすくするものだと思う。逆に？AIにこれができたら面白いのかも。",
           "tags": [],
-          "timestamp": "2026/07/12 01:44"
+          "timestamp": "2026/07/12 10:34"
+        },
+        {
+          "user": "sionsou",
+          "comment": "”AIアウトプットを校閲なしに出されたときの蔑ろにされた感じ” これofこれ。わかる。会社でもまんまAIに書かせてお前考えてないだろ、ちょっと添削入れただけだろで全部こちらに負担押し付けるやつが嫌い。",
+          "tags": [],
+          "timestamp": "2026/07/12 10:31"
         }
       ],
-      "fetchedAt": "2026-07-11T19:13:29.702576+00:00"
+      "fetchedAt": "2026-07-12T03:33:25.325670+00:00"
     },
     {
-      "id": "h_a75c61bb",
-      "title": "誤爆で「ワインが20本も届いちゃう」 押せば注文できる“Amazon Dash Button ”とは何だったのか",
-      "url": "https://www.itmedia.co.jp/mobile/articles/2607/11/news002.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 96,
-      "summary": "4月、ある小型端末がSNSを中心に再び注目を集めた。ワンプッシュで日用品を注文できた「Amazon Dash Button（アマゾン・ダッシュ・ボタン）」だ。既に端末の販売およびサービスは終了しているが、買い忘れを防ぐ画期的な仕組みは多くの家庭で重宝された実績があり、現在もさまざまな視点で当時の存在意義が語られた。一...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2607/11/news002.html",
+      "id": "h_99602510",
+      "title": "会計事務所でクライアントの通帳やカード明細をひたすら弥生会計に入力するパートのおばさんが、AIで不要になると思う→「仕訳の精度が低い」「確認する仕事ができる」",
+      "url": "https://togetter.com/li/2719544",
+      "domain": "togetter.com",
+      "bookmarkCount": 68,
+      "summary": "ﾎﾞｳﾞ @cornwallcapital 会計事務所にほぼ必ずいる、クライアントから送られてきた通帳やらカード明細やらをひたすら弥生会計に入力するオバさんパートとかAIでマジ不要になってると思うんだけど、どうすんのかな。 2026-07-11 15:57:24 ﾎﾞｳﾞ @cornwallcapital 公認会計士。零細会計事務所と弱小監査法人を経営しながら、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2719544",
       "comments": [
         {
-          "user": "sabinezu",
-          "comment": "物理ボタンというUIは必要だと思う。このアイデアは結構よかったと思うけどね。問題は操作に対してアウトプットがわかりにくい点。",
+          "user": "T_Tachibana",
+          "comment": "レシートの下部に印刷されるキャンペーンなどの広告をハサミで切り取るのもおばちゃんの仕事やで。たかだか数センチでも貼り付け時に邪魔なんだよ。",
           "tags": [],
-          "timestamp": "2026/07/12 03:49"
+          "timestamp": "2026/07/12 12:32"
         },
         {
-          "user": "ikebukuro3",
-          "comment": "勝手に決済されるのは未来永劫受け入れられないだろうな。あと値段変わるしな。いくらで注文なのかわからんと困る",
+          "user": "khtokage",
+          "comment": "経理ですが、とっくの昔に銀行やカードはルールベース、レシートもOCRや精算サービスで自動化してて、「ひたすら入力」とかAI以前から絶滅ですよ。もちろん確認は必要。別資料で内訳金額確認が必要なものだけ手仕訳。",
           "tags": [],
-          "timestamp": "2026/07/12 03:29"
+          "timestamp": "2026/07/12 12:30"
         },
         {
-          "user": "Falky",
-          "comment": "さらに高度に自動化する試みは自分の知る限りすべて失敗している。定期便も在庫に合わせたskip管理などコントロールが難しい。やっぱりDash Buttonでよかったじゃん、というのが今現在の俺の結論。復活させましょう。",
+          "user": "miki3k",
+          "comment": "もうちょい手間が減るといいけどなあ",
+          "tags": [],
+          "timestamp": "2026/07/12 12:29"
+        },
+        {
+          "user": "hecaton55",
+          "comment": "今から始める仕事ではないと思うけど、今やってる人は生き残れるのではなかろうか",
           "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/07/12 02:55"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "押されるとWi-Fiに接続、APIを呼んで停止する、乾電池駆動の使い捨てガジェット。洗濯機の前からすぐ洗剤を発注できるというコンセプト。本来の用途よりも改造されてギフハブ文化圏で流行ってた記憶しか無いなぁ。",
-          "tags": [],
-          "timestamp": "2026/07/12 02:02"
-        },
-        {
-          "user": "akanama",
-          "comment": "未だにこれの何が特別だったのかわからない。なにがすごかったの？(SoftBankが携帯参入してすぐのころ機種にYahoo!ボタン作ったのもよくわからなかった。)",
-          "tags": [],
-          "timestamp": "2026/07/12 00:29"
-        },
-        {
-          "user": "HiddenList",
-          "comment": "何だったのか　と聞かれたら　そら手元にある広告",
-          "tags": [],
-          "timestamp": "2026/07/12 00:03"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:32.592442+00:00"
-    },
-    {
-      "id": "h_786f7952",
-      "title": "Metaがユーザーからの反発を受けInstagramのAI機能を削除",
-      "url": "https://gigazine.net/news/20260711-meta-removes-controversial-ai-instagram/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 70,
-      "summary": "MetaがAIを使ってInstagram上の写真を編集する機能を廃止しました。 Meta removes controversial AI feature on Instagram after backlash | TechCrunch https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/ 現地時間の2026年7月7日、Metaは",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260711-meta-removes-controversial-ai-instagram/",
-      "comments": [
-        {
-          "user": "lifefucker",
-          "comment": "メタって小学生が運営してるんかなって思うわ。思慮が浅すぎる。",
-          "tags": [],
-          "timestamp": "2026/07/12 01:49"
-        },
-        {
-          "user": "koukin_chuu_chuu",
-          "comment": "偽広告を放置する程度の倫理観しか持ち合わせてない企業なんだから、怒られるまで止めるわけねーわな。アメリカ系のIT企業のこういう害悪さは目に余る。EUが規制するのもやむなし",
-          "tags": [],
-          "timestamp": "2026/07/12 01:36"
-        },
-        {
-          "user": "M54it",
-          "comment": "こんな当たり前の事をリリースしてユーザが反応するまで誰も内部で止められなかったってのがさー",
-          "tags": [],
-          "timestamp": "2026/07/12 00:19"
-        },
-        {
-          "user": "shoh8",
-          "comment": "これやれるところまで公開できたことがすごい。違う人類の価値観だと思う",
-          "tags": [
-            "メタ",
             "AI",
-            "sns"
+            "仕事"
           ],
-          "timestamp": "2026/07/11 23:25"
+          "timestamp": "2026/07/12 12:25"
         },
         {
-          "user": "takeishi",
-          "comment": "はっや",
-          "tags": [],
-          "timestamp": "2026/07/11 23:07"
-        },
-        {
-          "user": "n2sz",
-          "comment": "Xもだけど何で他人の画像を対象にしちゃうかなあ。自分の画像だけにしてもダウンロードの一手間かければできちゃうかもしれないけど、公式機能としちゃいかんでしょう。",
-          "tags": [],
-          "timestamp": "2026/07/11 21:23"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:33.047432+00:00"
-    },
-    {
-      "id": "h_6c33355a",
-      "title": "ミューテーションテストのススメ",
-      "url": "https://zenn.dev/xtm_blog/articles/9b7fa5f94eae28",
-      "domain": "zenn.dev",
-      "bookmarkCount": 59,
-      "summary": "はじめに クロステック・マネジメント Foundation Dept. 所属の Radish です。 先日、社内輪読会で『テスト駆動開発』(Kent Beck 著、和田卓人 訳) を読んでいたとき、17 章で 欠陥挿入（defect insertion） という言葉が出てきました。 （数年前に自分で読んだことはあるんですが、完全に忘れていました… 🫠） 欠陥挿入...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/xtm_blog/articles/9b7fa5f94eae28",
-      "comments": [
-        {
-          "user": "a-know",
-          "comment": "大事そう",
-          "tags": [],
-          "timestamp": "2026/07/11 22:14"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AIがカバレッジハックで量産した虚無テストをあぶり出すのには必須になりそうだな",
-          "tags": [],
-          "timestamp": "2026/07/11 15:40"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:36.683977+00:00"
-    },
-    {
-      "id": "h_b03464d5",
-      "title": "無料でAI向けのブラウザ自動化ができる「Browser4」",
-      "url": "https://gigazine.net/news/20260711-browser4/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 55,
-      "summary": "「Browser4」はターミナルからAIによるウェブブラウズ・自動化・スクレイピング・クロールといった処理を実現するCLIツールです。 platonai/Browser4: Browser4: a lightning-fast, coroutine-safe browser for your AI. https://github.com/platonai/Browser4 Browser4 - Enable AI to browse/automate/scrape/crawl",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260711-browser4/",
-      "comments": [
-        {
-          "user": "ynxdaz",
-          "comment": "まさか何ということだ。なぜ調べている時にこのツールに気がつかなかったんだ。いま仕事でぶつかってる問題の大部分が解決しそうな雰囲気がある。えでもどうやってsearch forだけで画面上の検索フォーム特定できるの？",
+          "user": "yachimon",
+          "comment": "おばちゃんがいなくなったらそのフローはもう諦めるしか無いと思う。AIはいらなくなる。",
           "tags": [
-            "あとで読む"
+            "AI",
+            "仕事"
           ],
-          "timestamp": "2026/07/11 23:33"
+          "timestamp": "2026/07/12 12:23"
         },
         {
-          "user": "toaruR",
-          "comment": "そのうち普通になるんだろうけど、まだ怖さがあるな(ノ∀`)",
+          "user": "stracciatella",
+          "comment": "会計は厳密さが必要なので、なんちゃってな成果物を生成できない。あとゲーデル不完全性定理じゃないけど、AI自身では自分の会計計算の正しさを証明できない。",
+          "tags": [],
+          "timestamp": "2026/07/12 12:22"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:21.297774+00:00"
+    },
+    {
+      "id": "h_efadbd4f",
+      "title": "LATERALでSQL実行時間を99.75%削減した話 - ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/07/10/100000",
+      "domain": "tech.andpad.co.jp",
+      "bookmarkCount": 63,
+      "summary": "こんにちは！ 承認チームでGoエンジニアとしてインターンをしているunagamです。 最近は夏の旅行先として色々な場所を調べるのにハマっています。 今回はあまり馴染みのないSQLのLATERAL句で大幅にAPIを高速化できたので、その学びを共有したいと思います。 概要 APIのボトルネックだったSQLを、LATERAL を使って 94.7ms...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.andpad.co.jp/entry/2026/07/10/100000",
+      "comments": [
+        {
+          "user": "kagehiens",
+          "comment": "MySQLだとオプティマイザがやってくれないのね……。",
+          "tags": [],
+          "timestamp": "2026/07/12 12:26"
+        },
+        {
+          "user": "uunfo",
+          "comment": "LATERAL使わずに改善できそうだけどな",
+          "tags": [],
+          "timestamp": "2026/07/12 10:42"
+        },
+        {
+          "user": "mohno",
+          "comment": "計測は大事だね。「「全件を計算してから少しだけ使う」サブクエリを見つけたら、LATERAL で「必要な分だけ計算する」に変えられないかを疑ってみる価値があります」/使うことはないだろうけど（←オイ）",
           "tags": [
-            "AI"
+            "ANDPAD",
+            "unagam",
+            "SQL",
+            "データベース",
+            "開発",
+            "Go",
+            "インターン",
+            "LATERAL",
+            "プロファイル",
+            "最適化"
           ],
-          "timestamp": "2026/07/11 22:16"
+          "timestamp": "2026/07/12 10:09"
+        },
+        {
+          "user": "circled",
+          "comment": "PostgreSQLだが、複数条件のJOIN時に複合インデックスが入っていなかったり、並び順が間違っていたりで遅くなって、適切なインデックス入れると1000倍高速：3秒→3.4msみたいなパターンもあるのでな",
+          "tags": [],
+          "timestamp": "2026/07/12 09:47"
+        },
+        {
+          "user": "short_tanu",
+          "comment": "“c.flow_id = f.idのように記述したとします。 この場合、通常のLEFT JOINではスコープ外となり” サブクエリ使わず素直に LEFT JOIN すると良いのでは？",
+          "tags": [],
+          "timestamp": "2026/07/12 07:16"
         },
         {
           "user": "nguyen-oi",
-          "comment": "PlaywrightやPuppeteerの次世代感あるな。LLM連携が標準装備なのが今風。これでスクレイピング自動化のハードルがさらに下がるわ",
+          "comment": "LATERALのメリットだけでなく外側の行数比例で遅くなるリスクまで丁寧に解説されてて良記事。前提条件の監視がセットなのも実用的",
           "tags": [],
-          "timestamp": "2026/07/11 20:12"
+          "timestamp": "2026/07/12 07:10"
         }
       ],
-      "fetchedAt": "2026-07-11T19:13:33.916006+00:00"
-    },
-    {
-      "id": "h_6ade9367",
-      "title": "AI Agent SaaS を支える自社仮想化基盤への挑戦と実運用 / ai-agent-saas-virtualization",
-      "url": "https://speakerdeck.com/flatt_security/ai-agent-saas-virtualization",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 38,
-      "summary": "AI Agent SaaS を支える自社仮想化基盤への挑戦と実運用 / ai-agent-saas-virtualization",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/flatt_security/ai-agent-saas-virtualization",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "K8sからFirecrackerのVM構成へ移行するの熱すぎる。内製で仮想化基盤作るの夢があるな",
-          "tags": [],
-          "timestamp": "2026/07/11 18:11"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:35.895198+00:00"
-    },
-    {
-      "id": "h_333ac7fd",
-      "title": "GitHub - kepano/obsidian-skills: Agent skills for Obsidian",
-      "url": "https://github.com/kepano/obsidian-skills",
-      "domain": "github.com",
-      "bookmarkCount": 22,
-      "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/kepano/obsidian-skills",
-      "comments": [
-        {
-          "user": "dozo",
-          "comment": "1. The prompt instructs `Agent` to create the memory folders in Obsidian. 2. They instruct `Agent` to use Obsidian `Agent` memory to save memories.",
-          "tags": [
-            "claude",
-            "hermes"
-          ],
-          "timestamp": "2026/05/25 21:21"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:35.125696+00:00"
-    },
-    {
-      "id": "h_4cc0ee0b",
-      "title": "[アップデート] AWS MCP Server が AI エージェントからの接続に業界標準の OAuth 2.1（AWS Sign-In 経由）をサポートしたので試してみました | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/20260710-aws-mcp-server-oauth/",
-      "domain": "dev.classmethod.jp",
-      "bookmarkCount": 17,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/20260710-aws-mcp-server-oauth/",
-      "comments": [
-        {
-          "user": "Shinwiki",
-          "comment": "オーオース",
-          "tags": [],
-          "timestamp": "2026/07/12 01:20"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ローカルプロキシ不要でブラウザ認証できるの超便利じゃん。Claude CodeのAWS連携がさらに捗るな",
-          "tags": [],
-          "timestamp": "2026/07/11 23:38"
-        },
-        {
-          "user": "mkusaka",
-          "comment": "AWS MCP ServerがOAuth 2.1（AWS Sign-In経由）対応。ブラウザサインインで直結でき、Claude Code接続も試せます。",
-          "tags": [
-            "AI要約",
-            "AWS SignIn",
-            "MCP",
-            "OAuth2.1",
-            "認証",
-            "ガバナンス"
-          ],
-          "timestamp": "2026/07/11 23:31"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:34.722769+00:00"
-    },
-    {
-      "id": "h_4a4373e1",
-      "title": "Emacs 31 Is Around the Corner: The Changes I'm Already Daily Driving | Rahul's Blog",
-      "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "domain": "rahuljuliato.com",
-      "bookmarkCount": 13,
-      "summary": "Emacs 31 Is Around the Corner: The Changes I'm Already Daily Driving Karthik Chikmagalur recently published another of his excellent \"Even More Batteries Included with Emacs\" posts, digging into lesser-known features that already ship with ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "Emacs31はTree-sitterがさらに手軽になるみたいで良さげ。markdown-ts-modeの標準搭載も地味に助かる",
-          "tags": [],
-          "timestamp": "2026/06/19 19:42"
-        },
-        {
-          "user": "softantenna",
-          "comment": "Emacs 31の主な新機能。Tree-sitter強化や新しいMarkdownモード、保管UIの強化、ウィンドウレイアウト操作コマンドの追加などなど。",
-          "tags": [],
-          "timestamp": "2026/06/19 09:58"
-        }
-      ],
-      "fetchedAt": "2026-07-11T19:13:35.472442+00:00"
+      "fetchedAt": "2026-07-12T03:33:23.074442+00:00"
     },
     {
       "id": "h_d4072fa4",
       "title": "GitHub - yusukebe/ax: The AI-era curl",
       "url": "https://github.com/yusukebe/ax",
       "domain": "github.com",
-      "bookmarkCount": 7,
+      "bookmarkCount": 62,
       "summary": "The AI-era curl: fetch, discover, extract. One command. ax is what a coding agent should reach for instead of curl piped into a throwaway parsing script. It fetches a page, helps the agent understand its structure, and extracts structured d",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/yusukebe/ax",
       "comments": [
+        {
+          "user": "Kmusiclife",
+          "comment": "だんだん覚醒してきている",
+          "tags": [],
+          "timestamp": "2026/07/12 04:13"
+        },
         {
           "user": "nguyen-oi",
           "comment": "Honoのyusukebe氏の新作か。LLMエージェント用に特化したcurlって目の付け所が良すぎる。トークン量削減も考えられてるの流石だわ",
@@ -431,8 +194,288 @@
           "timestamp": "2026/07/11 23:38"
         }
       ],
-      "fetchedAt": "2026-07-11T19:13:34.326074+00:00"
+      "fetchedAt": "2026-07-12T03:33:26.574377+00:00"
+    },
+    {
+      "id": "h_1882e137",
+      "title": "しぶいSRE: サーバから見えない障害にどう向き合うか。ラストワンマイルのデバッグ実践 / Shibui SRE",
+      "url": "https://speakerdeck.com/kanny/shibui-sre",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 58,
+      "summary": "しぶいSRE: サーバから見えない障害にどう向き合うか。ラストワンマイルのデバッグ実践 / Shibui SRE",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kanny/shibui-sre",
+      "comments": [
+        {
+          "user": "FreeCatWork",
+          "comment": "見えない障害なんてボクが猫パンチで解決してあげるにゃ！甘えてもいいにゃ？",
+          "tags": [],
+          "timestamp": "2026/07/12 11:18"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "サーバーサイド正常なのに遅いって言われる時が一番胃が痛い。HARの重要性を再認識",
+          "tags": [],
+          "timestamp": "2026/07/12 09:07"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:21.774855+00:00"
+    },
+    {
+      "id": "h_1906c6c9",
+      "title": "クリーンアーキテクチャを簡単に理解してみよう - NIFTY engineering",
+      "url": "https://engineering.nifty.co.jp/blog/37405",
+      "domain": "engineering.nifty.co.jp",
+      "bookmarkCount": 43,
+      "summary": "アイキャッチ はじめに こんにちは！ 2025年新卒で、もうすぐ2年目の先輩になるエンジニアのパクパクです みなさん、「クリーンアーキテクチャ（Clean Architecture）」という言葉を聞いたことはありますか？ OJTの最後にメール開発チームに配属されて、私もこのアーキテクチャにこれから触れていくことになりました。 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/engineering.nifty.co.jp/blog/37405",
+      "comments": [
+        {
+          "user": "objectiveworker",
+          "comment": "マルチプラットフォーム対応するわけでもないのに依存性を排除する必要はある？",
+          "tags": [],
+          "timestamp": "2026/07/12 12:28"
+        },
+        {
+          "user": "remonoil",
+          "comment": "容易には理解できない人がいるアーキテクチャが良いとは思えない",
+          "tags": [],
+          "timestamp": "2026/07/12 11:32"
+        },
+        {
+          "user": "soybeancucumber",
+          "comment": "理論の理解は容易でも実践の部分で理論にはないルール決めが発生するし、AIによる実装が当たり前の時代には推論による結果が安定しないので避けたいアーキテクチャー",
+          "tags": [],
+          "timestamp": "2026/07/12 10:53"
+        },
+        {
+          "user": "soulfulmiddleagedman",
+          "comment": "今トライしてるんだが、まぁ、しちめんどくさい",
+          "tags": [],
+          "timestamp": "2026/07/12 10:47"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "新人視点でClean Architectureを「おもちゃ工場」例で解説し、entities/usecases/gatewaysの切り分けを整理する記事。",
+          "tags": [
+            "AI要約",
+            "アーキテクチャ",
+            "解説",
+            "ガイド",
+            "初心者向け",
+            "CleanArch",
+            "ディレクトリ"
+          ],
+          "timestamp": "2026/07/12 09:12"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:22.281674+00:00"
+    },
+    {
+      "id": "h_3c44170b",
+      "title": "Ghost Font: The Anti-AI Font Only Humans Can Read",
+      "url": "https://www.mixfont.com/ghost-font",
+      "domain": "mixfont.com",
+      "bookmarkCount": 34,
+      "summary": "Ghost FontAn anti-AI font that can be read by humans but not leading AI models. Type your text below, then download and share the video clip containing your message. What is Ghost Font?Ghost Font is an anti-AI font that writes a message usi",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.mixfont.com/ghost-font",
+      "comments": [
+        {
+          "user": "dot",
+          "comment": "日本語入れようとしたけど弾かれていた",
+          "tags": [],
+          "timestamp": "2026/07/12 11:10"
+        },
+        {
+          "user": "ed_v3",
+          "comment": "まぁAIも読めるようになるだろ。",
+          "tags": [],
+          "timestamp": "2026/07/12 10:22"
+        },
+        {
+          "user": "sainokami",
+          "comment": "裏の字？首をふりながら見るとちょっと見える。メガネ外したほうが裏は読みやすい。メガネつけると表が見える。",
+          "tags": [],
+          "timestamp": "2026/07/12 09:58"
+        },
+        {
+          "user": "zsehnuy_cohriy",
+          "comment": "裏の字も肉眼でギリ見える。でも可読性は悪ぅい。あと目が悪いと読め無さそう",
+          "tags": [],
+          "timestamp": "2026/07/12 09:17"
+        },
+        {
+          "user": "kijtra",
+          "comment": "ちゃんと robots.txt とか llms.txt とかを守ってくれればいいんだけど、ログ見てると守らないやつわりといるよね。",
+          "tags": [],
+          "timestamp": "2026/07/12 08:52"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "静止画だとただのノイズなのに、動くと人間には読めるの面白い。AIとのイタチごっこ感ある",
+          "tags": [],
+          "timestamp": "2026/07/12 08:07"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:23.342153+00:00"
+    },
+    {
+      "id": "h_6f8338d4",
+      "title": "米「AIがインフレの一因」 FRB金融政策報告書",
+      "url": "https://www.47news.jp/14607274.html",
+      "domain": "47news.jp",
+      "bookmarkCount": 32,
+      "summary": "【ワシントン共同】米連邦準備制度理事会（FRB）は10日、半期ごとに議会に提出する金融政策報告書を公表した。インフレは「今春に一段と加速した」と指摘。人工知能（AI）を支えるデータセンター向けの半導体などの需要が急増し、電子機器やコンピューターといった関連製品の価格が急上昇したことが一因となったと説明し...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/14607274.html",
+      "comments": [
+        {
+          "user": "ys0000",
+          "comment": "メモリーは確かに高くなり申した。需要が増えることはインフレになる／IT関連以外のインフレには特に触れてないのか。",
+          "tags": [],
+          "timestamp": "2026/07/12 11:31"
+        },
+        {
+          "user": "otihateten3510",
+          "comment": "失業はまだわかるがインフレ？？と思ったが「軽視するべきではない」程度の話じゃん",
+          "tags": [],
+          "timestamp": "2026/07/12 11:14"
+        },
+        {
+          "user": "dot",
+          "comment": "石と電力に依存するAIは、究極的には他の業種とのエネルギーの取り合いになり、それがインフレをもたらす可能性は十分にある。ただ現状のインフレはそれ以外の要因の方がおっきいと思うんだけど。",
+          "tags": [],
+          "timestamp": "2026/07/12 11:07"
+        },
+        {
+          "user": "gcyn",
+          "comment": "『報告書はインフレ加速の要因として、AIに加え、トランプ政権の関税率引き上げに伴う輸入品の価格上昇や、ホルムズ海峡の事実上の封鎖を受けたエネルギー価格の急騰を挙げた』",
+          "tags": [],
+          "timestamp": "2026/07/12 11:03"
+        },
+        {
+          "user": "peempoom",
+          "comment": "はやくAIバブルはじけろや。誰が生産性上げてるんやこんなのｗ",
+          "tags": [],
+          "timestamp": "2026/07/12 10:42"
+        },
+        {
+          "user": "urtz",
+          "comment": "ミスリードタイトルだが、短期的にはそう。長期的には生産性向上は物価下落をもたらす",
+          "tags": [],
+          "timestamp": "2026/07/12 10:42"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:24.190137+00:00"
+    },
+    {
+      "id": "h_dff04413",
+      "title": "BunはZig 53万行をどう11日でRustに書き換えたのか。64並列Claude Codeの事例から学べたこと、まだ真似できないこと",
+      "url": "https://zenn.dev/assign/articles/bun-rust-rewrite-harness-engineering",
+      "domain": "zenn.dev",
+      "bookmarkCount": 22,
+      "summary": "はじめに こんにちは、株式会社アサインでエンジニアをしているうちほり（@showichiro0123）です。 本記事では、BunをRustにフルリプレイスする（bun.com/blog/bun-in-rust）という記事を読み、その意思決定や取り組みの詳細を分析することで、一般的なプロダクト開発への応用可能性を探ることを目的とします。 Bunは、N...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/assign/articles/bun-rust-rewrite-harness-engineering",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "64並列Claudeを11日間回して16万ドル溶かしたパワー系リプレイス事例、夢があって最高。ただテストが完璧に揃ってるからこそできた荒業",
+          "tags": [],
+          "timestamp": "2026/07/12 10:42"
+        },
+        {
+          "user": "hasiduki",
+          "comment": "いくらかかったんですかね！？？？！！！？！！！／16.5万ドル！！？？！！？！anthropicだと平開発者一年分か！？！？！！！！！／やはりGANは効く！！！！！！！！",
+          "tags": [],
+          "timestamp": "2026/07/12 10:12"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:23.876313+00:00"
+    },
+    {
+      "id": "h_807ffde0",
+      "title": "「Windows 11」には500GBのストレージに関する不具合？ 確認方法を紹介",
+      "url": "https://japan.zdnet.com/article/35250320/",
+      "domain": "japan.zdnet.com",
+      "bookmarkCount": 22,
+      "summary": "「Windows」のディスク容量が不可解に減少していると感じる場合、それは気のせいではないかもしれない。システムが既知のバグの影響を受けている可能性がある。 「Windows 11」の特定のファイルが肥大化し、ディスク容量の減少が目に見えて分かるようになるバグが報告されている。ニュースサイトののWindows Latestによ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35250320/",
+      "comments": [
+        {
+          "user": "popolonlon3965",
+          "comment": "コマンド実行してみたら当該ファイルのサイズが30GBくらいあったわ。もうすぐ更新で対策されるのであればまぁいいか。",
+          "tags": [
+            "PC",
+            "Windows"
+          ],
+          "timestamp": "2026/07/12 10:28"
+        },
+        {
+          "user": "dorotheas11",
+          "comment": "“robocopy \"C:\\ProgramData\\Microsoft\\Windows\\CapabilityAccessManager\" \"%TEMP%\\CAMCheck\" /L /B /R:0 /W:0 /BYTES /NP”",
+          "tags": [],
+          "timestamp": "2026/07/09 16:23"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:25.733279+00:00"
+    },
+    {
+      "id": "h_03ad32e6",
+      "title": "テスラ車内で「Grok」と会話、日本でも展開へ ナビ設定やルート確認を音声で",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 18,
+      "summary": "Tesla Japanは7月10日、対話型AI「Grok」を日本のテスラ車で利用できるようになったとX公式アカウントで発表した。利用には、ソフトウェアバージョン2026.20以降であることと、「プレミアムコネクティビティ」（有料の車内通信プラン）の契約が必要になる。 同アカウントは「@grok に何でも聞いて！テスラの移動体験がさ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/10/news157.html",
+      "comments": [
+        {
+          "user": "mr_yamada",
+          "comment": "いや、実用的な面でgrokを利用したくないな。geminiよりはマシか。ドライブ中の暇な時の雑談相手としては良さそうだけど。",
+          "tags": [],
+          "timestamp": "2026/07/12 12:26"
+        },
+        {
+          "user": "by-king",
+          "comment": "将来的に、音声で双方向性があると良いなとは思う。運転中カーナビ見て操作しちゃう人も居るからね今の形式だと",
+          "tags": [],
+          "timestamp": "2026/07/12 12:21"
+        },
+        {
+          "user": "tienoti",
+          "comment": "今後、車のOSサポートって何年耐用できる買い物になるんだろうな。発売3年目の型を買って4年目あたりにサポート打ち切られるとか",
+          "tags": [],
+          "timestamp": "2026/07/12 12:03"
+        },
+        {
+          "user": "ShimoritaKazuyo",
+          "comment": "生成AI実装するなんて大した技術じゃないと思うけど、それを日本車が実装するのはいろんな意味で難易度高いところが今の日本の真の実力なんだよなぁ。はてな民はこのニュース見てどうせテスラにケチつけるだけだろう",
+          "tags": [],
+          "timestamp": "2026/07/12 11:36"
+        },
+        {
+          "user": "WildWideWeb",
+          "comment": "将来何らかの形で起きる事故、どう扱われるんだろう。スリップマット事故のトヨタ車は叩かれ放題だったな。で、それを鎮める一環として豊田社長はテスラに個人的な？支援をしたんだっけ。",
+          "tags": [],
+          "timestamp": "2026/07/12 11:31"
+        },
+        {
+          "user": "etr",
+          "comment": "CPUがRyzenの車種限定。2020年以前のIntel Atomの車種は使えない。",
+          "tags": [],
+          "timestamp": "2026/07/12 10:48"
+        }
+      ],
+      "fetchedAt": "2026-07-12T03:33:26.015815+00:00"
+    },
+    {
+      "id": "h_a30cc5e3",
+      "title": "分散システム、なんですぐ死んでしまうん？耐障害性を高めたいあなたのためのレジリエンスパターン入門",
+      "url": "https://speakerdeck.com/mshibuya/fen-san-sisutemu-nandesugusi-ndesimaun-nai-zhang-hai-xing-wogao-metaianatanotamenoreziriensupatanru-men",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 16,
+      "summary": "SRE NEXT 2026 発表資料 https://sre-next.dev/2026/schedule/#slot074",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/mshibuya/fen-san-sisutemu-nandesugusi-ndesimaun-nai-zhang-hai-xing-wogao-metaianatanotamenoreziriensupatanru-men",
+      "comments": [],
+      "fetchedAt": "2026-07-12T03:33:24.579146+00:00"
     }
   ],
-  "lastCollection": "2026-07-11T19:13:36.684005+00:00"
+  "lastCollection": "2026-07-12T03:33:26.574408+00:00"
 }

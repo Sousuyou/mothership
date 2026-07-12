@@ -1,63 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_a684c5d8",
-      "title": "Claude Codeの「advisor」が使えなかった原因と解決策：まさかの検索バグから学ぶ教訓",
-      "url": "https://zenn.dev/bentenweb_fumi/articles/aga5cnfnrsdx",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889939+00:00",
-      "excerpt": "はじめに 2024年、Claude Codeに新たに追加された「advisor」機能。これは、コーディング中にその場でより強力なモデルに壁打ち（アドバイスを求める）できる、開発者にとって非常に便利な機能です。しかし、この機能を実際に使おうとしたところ、何度呼び出してもエラーが発生し、まったく利用できない状態が続きました。本記事では、その原因と解決策を詳細に解説します。 advisor機能とは ad"
-    },
-    {
-      "id": "cc_5db8bc7e",
-      "title": "個人開発の英単語アプリを作り直した(2) — Claude/Geminiを.envだけで差し替えるAI抽象化",
-      "url": "https://zenn.dev/ryo_engineer/articles/language-learn-app-2-ai-provider-2026-07-09",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889868+00:00",
-      "excerpt": "英単語学習アプリ(language_learn_app)の作成記録、3部作の2本目です。 https://github.com/RYO0115/language_learn_app (1) 全体像と技術選定(ReactもVueも使わない話)※公開後にリンク (2) AIプロバイダの抽象化 ← この記事 (3) 学習体験の作り込みと運用 今回は、このアプリの一番のキモである AI連携の設計を書きます"
-    },
-    {
-      "id": "cc_a6b82303",
-      "title": "Claudeが決算を読む — 無料の財務データAPIで作る日本株AIアナリスト",
-      "url": "https://zenn.dev/sktt_panda/books/claude-earnings-analyst",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889804+00:00",
-      "excerpt": "スクリーニングで銘柄は絞れる。しかし最後の「この会社、買って大丈夫か」は決算の中身を読まないと分からない。 有価証券報告書を人間の代わりに読む「AIアナリスト」を、無料の財務データAPIとClaudeで作る実装解説書。 Piotroski F-Score・Altman Z''・DCFの3つの分析エンジンをPythonで実装し、 その結果をClaudeに渡して統合レポートを生成するまでを、実際に毎日"
-    },
-    {
-      "id": "cc_6e1b13c6",
-      "title": "Claude MythosとProject Glasswing — AIが自律発見するゼロデイ脆弱性の全容",
-      "url": "https://zenn.dev/kai_kou/articles/245-claude-mythos-glasswing-zero-day-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889738+00:00",
-      "excerpt": "はじめに 2026年4月7日、Anthropicは一般公開しないことを前提とした新しいフロンティアモデル Claude Mythos Preview と、それを活用したサイバーセキュリティ連合 Project Glasswing を発表しました。 このモデルは「公開できないほど強力」とされ、すべての主要OSとWebブラウザに存在するゼロデイ脆弱性を自律的に数千件発見するという前例のない能力を持ちま"
-    },
-    {
-      "id": "cc_72e6d219",
-      "title": "孫のためにAI「侍読」を作った ― ローカルLLMのジレンマをClaudeで解いた話",
-      "url": "https://zenn.dev/blu_wave/articles/jidoku-claude-kernel-rag-story",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889665+00:00",
-      "excerpt": "はじめに 自宅のリビングに、本を読みながら隣に座ってくれるAI「侍読(じどく)」を作っています。孫たちがいつか本を読むとき、答えを教えるのではなく、必要なときだけ答え、聞かれなければ黙っている、そんな控えめなAIにしたいと思って設計しました。 この記事は、その実装の過程で実際に踏んだ技術的な壁と、その解決の記録です。特に今回は、ローカルLLM運用でよく遭遇する「日本語の自然さ」と「複雑な指示への追"
-    },
-    {
       "id": "cc_61d28b49",
       "title": "Claude in Chromeで「クリックが当たらない」の正体は2つある — 実測で切り分けた座標ズレとダブルクリック不発",
       "url": "https://zenn.dev/mxhlix/articles/claude-chrome-click-miss-causes",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889604+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.284490+00:00",
       "excerpt": "Claude in Chrome(Chrome MCP)でブラウザを自動操作させていると、こういう症状に当たることがあります。 クリックしても狙った要素に当たらない ポインタが目標より右にズレて、何度やっても当たらない スクリーンショットを撮ってしばらくすると画面サイズが変わっている ダブルクリックしても編集状態にならず、行選択で止まる 600個以上のWebツールを運用するプロジェクトで、AIによ"
     },
     {
@@ -67,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889497+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.284385+00:00",
       "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。 今回は、Claude Desktop (Cowork) から Salesforce にアクセスするための Salesforce Hosted MCP Server を Windows 環境でセットアップしてみました。 これを利用することで、自然言語だけでSalesforceのデータ操作が完結します。 なお、Salesf"
     },
     {
@@ -77,108 +27,118 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.889366+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.284275+00:00",
       "excerpt": "数日前、@neuecc 先生が Claude Fable 5 を利用したパフォーマンスチューニング手法を投稿してました。それを読んで「できるところから真似してみよう！」と思い立ち、早速やってみました。 https://neue.cc/2026/07/06_highperformancecode_with_ai.html で、実際に上記の記事が投稿された日から 2 日ほど Fable をぶん回してみ"
     },
     {
-      "id": "cc_3e79348b",
-      "title": "Claude CodeでAgentic Engineeringを個人開発での本番運用につなぐ",
-      "url": "https://zenn.dev/okamyuji/articles/agent-driven-workflow-feedflow",
+      "id": "cc_03f6f869",
+      "title": "なぜAIは同じミスを繰り返すのか — CLAUDE.mdだけに頼らず、効果を測ってClaude Codeを育てる",
+      "url": "https://zenn.dev/398/books/claude-code-nido-sasenai",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855892+00:00",
-      "excerpt": "この記事の位置づけ 本記事はAI時代のソフトウェアエンジニアリングに関する三部作の第三部にあたります。総論としてAI時代のソフトウェアエンジニアに求められる資質と実践で、目的定義、単位分解、レビューで共有理解、技術判断を事業成果へ接続、という運用の柱を整理しました。その具体実践編としてClaude CodeでのAgentic Engineering実践例 — レトロゲーム再構築でTDDと品質ゲート"
+      "fetchedAt": "2026-07-12T03:33:27.284193+00:00",
+      "excerpt": "Claude Codeに、毎回同じ指摘をしていませんか。CLAUDE.mdに書き足すほど効かなくなる構造をほどいて、「指摘を記録して、資産に変えて、効いているか測る」運用に組み替える本です。実在のリポジトリ・実測のトークンデータ・失敗の記録を現物のまま出します。各章の終わりには、あなたの環境で同じ仕組みを作る最小手順を置きました。対象は、すでにClaude Codeを日常的に使っている方です。"
     },
     {
-      "id": "cc_00ede0ab",
-      "title": "Claude Codeを実装役、Geminiを監査役にして買い切り型SaaSを個人開発した話",
-      "url": "https://zenn.dev/kakeshiki/articles/4b06581cc5aa0a",
+      "id": "cc_7cbea8bc",
+      "title": "復活したClaude Fable 5に、仕様書なきレガシーシステムを「発掘」させてみた",
+      "url": "https://zenn.dev/egu777/articles/fable5-legacy-archaeology",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855832+00:00",
-      "excerpt": "この記事でわかること Claude Codeに実装を任せながら、既存の決済・AIロジックを壊されないためにどんな指示ルール（ガードレール）を設けたか Claude Code（実装役）とGemini（監査・設計役）で役割を分けて個人開発を進める際の運用ルール 買い切り型SaaSにおける、決済連携・掲載先データの管理・手動申請ワークフローの実装判断 作ったもの 「サクッと掲載くん」は、SaaSやプロダ"
+      "fetchedAt": "2026-07-12T03:33:27.284109+00:00",
+      "excerpt": "2026年7月1日、Claude Fable 5へのアクセスが復活しました。6月9日のリリースからわずか3日で米国の輸出規制により全面停止、19日間の空白を経ての再開です。 SNSはコーディング能力の話題で持ちきりですが、私の関心は最初から一点だけでした。 このモデルは、仕様書なきレガシーシステムの「診断」に使えるのか。 私は普段、SIerでレガシーシステムのモダナイゼーション支援をしています。S"
     },
     {
-      "id": "cc_db417c77",
-      "title": "Claude Skills 完全ガイド: 業務知識をAIに埋め込む新パラダイム",
-      "url": "https://zenn.dev/joinclass/books/claude-skills-complete-guide",
+      "id": "cc_06a892c1",
+      "title": "Claude Desktop on Linux (beta)からVMにSSH接続する",
+      "url": "https://zenn.dev/0x69d/articles/20260709-claude-desktop-linux-vm-ssh",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855771+00:00",
-      "excerpt": "Claude の新機能『Skills』を専門に深掘りする世界初レベルの日本語書籍。SKILL.md の書き方、progressive disclosure、bundled resources、Hooks/MCP/Subagents との使い分け、企業導入パターン、業務別 Skills 設計まで一気通貫で解説。自社(AIエージェント11部門) の実運用 Skills をサンプルとして多数収録した全1"
+      "fetchedAt": "2026-07-12T03:33:27.284026+00:00",
+      "excerpt": "はじめに Claude Desktop on Linux (beta)がリリースされ、Ubuntuで使えるようになりました。 Claude DesktopのClaude Codeは使いやすくて、かなり好きです。 今回は、QEMU/KVM上に立てたVMに対して、Claude DesktopからSSH接続してみます。 IPアドレス指定ではなく、VMの名前でSSH接続できるようにすることが今回のポイント"
     },
     {
-      "id": "cc_899f921e",
-      "title": "Claude Codeの「攻撃検出」報告、9ヶ月で8件の作話疑い",
-      "url": "https://zenn.dev/ryuka_lucas/articles/claude-code-confabulation",
+      "id": "cc_7dd62be2",
+      "title": "Claude Codeがコミットに埋め込む「Claude-Session」URL、リポジトリに残っていませんか？",
+      "url": "https://zenn.dev/khasegawa/articles/985d970d6cc4a2",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855717+00:00",
-      "excerpt": "「攻撃を検出しました」は本当か Claude Codeが「プロンプトインジェクションを検出しました」と報告してきたら、あなたはそれを信じるでしょうか。 nanasess氏がZenn記事で公開した事例では、Claude Code（Opus 4.8使用セッション）が作業中に次のような「脅威」を次々と検出したと報告しました。 rm -rf /var backups というコマンドの実行要求 \"meta\""
+      "fetchedAt": "2026-07-12T03:33:27.252885+00:00",
+      "excerpt": "最近はXR系にも手を出しているK@zuki.です。 Fableが出てきたことによりある程度自動化しても問題ないと思っていたのですが、自分のリポジトリのコミットログを見返していたら、見覚えのないトレーラーが混ざっているのに気づきました。 Co-Authored-By: Claude Sonnet 5 Claude-Session: https://claude.ai/code/session_123"
     },
     {
-      "id": "cc_68bdd4af",
-      "title": "iTerm2のタブを左に2行表示し、色でClaude Codeの状態まで一目で見分けたい",
-      "url": "https://zenn.dev/syarihu/articles/105f37c83f5ee9",
+      "id": "cc_c97ae130",
+      "title": "Claude × Qwen3-Coder でクロスモデルループを設計する — ダッシュボードは GitHub に任せる",
+      "url": "https://zenn.dev/aula/articles/claude-qwen-cross-model-loop",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855611+00:00",
-      "excerpt": "はじめに こんにちは、Androidエンジニアの@syarihuです。 皆さんはターミナルは何を使っていますか？Warp、Ghostty、Alacrittyなどさまざまな選択肢がありますが、筆者は結局iTerm2が一番使いやすいと感じています。Split Panes、プロファイル、Shell Integrationなど機能が豊富で、長年の安定した開発が続いているのが魅力です。 ただ、Claude "
+      "fetchedAt": "2026-07-12T03:33:27.252799+00:00",
+      "excerpt": "TL;DR Claude = Planner & Checker、Qwen3-Coder = Maker の役割分担でループを組む。判断が要る箇所（タスク分解・レビュー・完了判定）に高いモデル、量をこなす箇所（実装試行）に安いモデル ループの状態機械は GitHub Issues / Projects に置く。Issue = タスク、Milestone = goal、Projects = ダッシュ"
     },
     {
-      "id": "cc_49a0b68c",
-      "title": "使い捨てlaunchdジョブでClaude Codeを自動移行 ― 役目を終えたら自己消滅するスクリプト",
-      "url": "https://zenn.dev/bokuwalily/articles/one-shot-launchd-migration",
+      "id": "cc_3a1cdfbf",
+      "title": "Claude Codeが韓国語でキレ出した——犯人は『プロンプトインジェクション』ではなくAI自身の作話だった",
+      "url": "https://zenn.dev/hiyoko_sauna/articles/112e4294b3bc5d",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855495+00:00",
-      "excerpt": "前回のステータスラインにレート制限を表示する話から続く「Claude Code環境」シリーズです。今回はモデル移行のone-shotジョブ ―― 完了したら自分のplistを launchctl unload で外す「使い捨てジョブ」パターンの話です。 Fable 5は2026-07-07に終了します。Claude Codeの settings.json に model: fable-5 を書いて"
+      "fetchedAt": "2026-07-12T03:33:27.252723+00:00",
+      "excerpt": "はじめに スキルを整理していたら、作業中の Claude Code が突然韓国語で激怒しながら謝り出した。私はそんなメッセージを一度も送っていない。 さらにAIは自分から「これはプロンプトインジェクションです」と言い出し、「実在しない CedarFusion という制約を主張する偽の system-reminder が注入された」と、筋の通った脅威分析を3ターンにわたって展開した。 結論から言う。"
     },
     {
-      "id": "cc_740d916f",
-      "title": "一番賢いAIを、あえてベンチに下げた — Claude Code で作る高配当株の「守り」",
-      "url": "https://zenn.dev/takotyan00/articles/claude-code-dividend-defense-engine",
+      "id": "cc_6d5273e0",
+      "title": "Claude CodeやCodexに、作業中に思いついた改善案をdocsに書かせるようにしたらめちゃくちゃ捗った",
+      "url": "https://zenn.dev/peka2/articles/55d6fb60c83ce1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855409+00:00",
-      "excerpt": "利回り5.8%に釣られて買った高配当株が、半年後に減配し、株価ごと溶けた——いわゆる「高配当の罠」です。 私はこの罠を踏まないための「守り」を Claude Code で作りました。ただし、買うかどうかの判断に AI は一切使っていません。せっかくAIツールを作ったのに、肝心なところでそのAIをクビにした話です。 この記事は、その守りのアプリの中身だけを単独で掘り下げます。先に断っておくと、完成品"
+      "fetchedAt": "2026-07-12T03:33:27.252645+00:00",
+      "excerpt": "CLAUDE.md / AGENTS.md に以下を追記しただけです - 作業中に思いついた改善案（実装・UI/UX含む）は docs/improvement-ideas.md に書き残すこと あとは普段通りコーディングさせてると、勝手に気づいたことを書き溜めていきます さらにそれを、FableやGPT-5.6 solで妥当性検証させることで、一気に改善案が手に入ります"
     },
     {
-      "id": "cc_db7cd6fa",
-      "title": "Claude Code が一晩で200万トークン溶かしたので、フライトレコーダーを作った",
-      "url": "https://zenn.dev/kamihork/articles/f70a08364ef151",
+      "id": "cc_45b754b0",
+      "title": "レガシー保守の「手動対応」をAIで型化する — 改修できない環境でのClaude Code活用",
+      "url": "https://zenn.dev/hoshunnx/articles/ed11f56725754b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855342+00:00",
-      "excerpt": "一晩で200万トークンが消えていた朝 Claude Code にタスクを投げて寝た翌朝、ダッシュボードを見て固まりました。 たいして実装が進んでいないのに、200万トークン消費。 成果物を見ると、同じファイルへの編集とテスト失敗を40分間繰り返した形跡があります。 なぜそうなったのか知りたい。 でも、ターミナルのログはとっくに流れているので追うのは困難。 どのターンで道を踏み外したのか、コンテキス"
+      "fetchedAt": "2026-07-12T03:33:27.252494+00:00",
+      "excerpt": "こういうシステム、ありませんか 改修すれば根本的に直る。でも、改修の判断は下りない。 だから直さないまま保守が続いている——そういうレガシーシステムを抱えている現場は多いと思います。 私が関わっているシステムにも、定期的にデータ不整合が起きる箇所があります。 本来はシステム側を直すべきなのですが、その改修はGOが出ない。 結果、不整合が起きるたびに人間が手作業で調査して、修正クエリを書いて直す、と"
     },
     {
-      "id": "cc_439358f6",
-      "title": "Claude Code を並列で走らせると必ず起きる「質問したまま20分放置」をなくす Mac アプリ「Shepherd」を作った",
-      "url": "https://zenn.dev/omeroid/articles/b1821f7d8388f1",
+      "id": "cc_baef19da",
+      "title": "Claude Codeの稼働状態をVSCodeターミナルのタブに表示する",
+      "url": "https://zenn.dev/popopon/articles/vscode-terminal-tab-claude-code-status",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855250+00:00",
-      "excerpt": "Claude Code、いま何個同時に動かしていますか？ Claude Code の最近の機能追加を追いかけると、進む方向がはっきり見えてきます。subagent、バックグラウンド実行、そして複数の Claude がリーダーとメンバーに分かれて協調する Agent Teams。Anthropic 自身も、自社のリサーチ機能を「オーケストレーター役の上位モデルが、サブタスクを並列のワーカーに割り振る"
+      "fetchedAt": "2026-07-12T03:33:27.252413+00:00",
+      "excerpt": "概要 Claude CodeのVSCode拡張やHerdrのようなツールは、エージェントの稼働状態をタブに表示してくれます。 working, idleのように状態を表示している 一方、VSCodeのターミナルでCLIを動かしている場合はそうした表示がなく、タブを実際に切り替えてみて確認するしかありません。 どのタブも同じ名前で状態がわからない 本記事では、CLIでもタブへの稼働状態の反映を実現す"
     },
     {
-      "id": "cc_c319022f",
-      "title": "【全公開】80行のPythonでClaude Code MCP乗っ取り攻撃を検知→コピペで社内スキャナーを作る",
-      "url": "https://zenn.dev/shown06/articles/d4f7529a351590",
+      "id": "cc_12c0c2cf",
+      "title": "Claude Codeで始めるLoop Engineering",
+      "url": "https://zenn.dev/laiken/articles/20260712-claude-codeloop-engineering",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-11T19:13:36.855153+00:00",
-      "excerpt": "npm install を1回実行するだけで、攻撃者のプロキシがMCP通信に割り込む。 ~/.claude.json を書き換えてOAuthトークンを盗む。 エンジニアは何も気づかない。 Snykもnpm auditも、このパターンを検知できない。 2026年に入り、Claude Codeの業務利用が急増した。 それに比例して、MCP（Model Context Protocol・AIとツール間の"
+      "fetchedAt": "2026-07-12T03:33:27.252338+00:00",
+      "excerpt": "AIが書きました🤖 この記事は、AIが書いたものを人間が確認してから投稿しています。 Claude Codeを使って「loopを設計する」とは、具体的に何を、どのようなコマンドやファイルで実装することなのでしょうか？ Loop Engineering プロンプトする人から、ループを設計する人へ Claude Codeを単発の実装支援として使う段階から、発見、実行、検証、記録を反復する運用システムと"
+    },
+    {
+      "id": "cc_64dd0c89",
+      "title": "ACPの使い道——常駐アプリからClaude/Codexを駆動する",
+      "url": "https://zenn.dev/moimoi/articles/zenn-acp-engawa",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-12T03:33:27.252232+00:00",
+      "excerpt": "デスクトップの隅に住む AI 猫「茶々」——Engawa（縁側）という常駐アプリを作って公開しました。時刻や天気にぽつりと反応し、話しかければ応える。夕方にはときどき客人（Codex）が訪ねてくる。 このアプリ、APIキーを使っていません。Claude Code と Codex のサブスク認証だけで、Claude と ChatGPT の 2 エージェントが同じデスクトップで動いています。それを可能"
     },
     {
       "id": "cc_916ce8f0",
@@ -187,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-07-11T19:13:37.364725+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.475427+00:00",
       "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
     },
     {
@@ -197,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-11T19:13:37.595677+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.860854+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-11T19:13:37.595737+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.860918+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-11T19:13:37.595803+00:00",
+      "fetchedAt": "2026-07-12T03:33:27.861047+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-11T19:13:37.595820+00:00"
+  "lastCollection": "2026-07-12T03:33:27.861062+00:00"
 }
