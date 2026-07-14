@@ -1,94 +1,14 @@
 {
   "items": [
     {
-      "id": "cc_4b06c220",
-      "title": "Spring Boot で Claude の応答を JSON で受けてカテゴリ分類する",
-      "url": "https://zenn.dev/propagandist/articles/0018-spring-boot-claude-structured-output",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.006452+00:00",
-      "excerpt": "この記事について 対象読者：1本目で Claude を呼べるようになった人、あるいは自由文ではなく決まった選択肢で結果を受け取りたい人 得られること：Claude に JSON で答えさせ、Java の enum に安全にマッピングする実装（未知値・崩れた出力のフォールバック込み） 前提・環境：Java 21 / Spring Boot 3.5 / com.anthropic:anthropic-"
-    },
-    {
-      "id": "cc_eecd878e",
-      "title": "非エンジニアがClaude Codeに「1行も書かず」FX自動売買botを作らせて、自分の金で検証した記録",
-      "url": "https://zenn.dev/crow_claudec/articles/e27582df12dccb",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.006380+00:00",
-      "excerpt": "先に結論から（忙しい人向け） コードを1行も書かず・読まず、Claude CodeにFX自動売買bot（USD/JPY, GMOコインFX API）を作らせ、実弾3万円で稼働させた。 過去データの検証（バックテスト）は、楽観的な前提だと「2年+88%（年率約43%）」。だが前提を現実に寄せると年率27〜33%・PF1.1台まで落ちた。エッジ（優位性）は、あるにはあるが薄い。 記念すべき初トレードは"
-    },
-    {
-      "id": "cc_fe14fcd2",
-      "title": "4時間10分で完走、そして不採用。Claudeに音声合成モデルの学習を任せて踏んだ4つの地雷",
-      "url": "https://zenn.dev/anikuma/articles/sbv2-claude-agent-training-pitfalls",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.006289+00:00",
-      "excerpt": "自分のナレーション音声を、実はAIに読み上げてもらっている。副業で動画コンテンツを作っていて、ナレーションには既製の音声合成エンジンを使っている。 声質は気に入っている。ただ日本語の読み上げだけが、ずっと引っかかっていた。助詞のイントネーションがおかしい。固有名詞のアクセントが不自然。直すたびに「ここは我慢するしかない」と諦めていた。 今回、その引っかかりを解消するために、声質はそのままで発音エン"
-    },
-    {
-      "id": "cc_6e368db2",
-      "title": "Claude Code 使い方まとめ【2026年版】設定から実践Tips まで",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-ok-2026",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.006136+00:00",
-      "excerpt": "Claude Code 使い方まとめ【2026年版】設定から実践Tips まで この記事の要点 Claude CodeはAnthropic製のCLIベースAIコーディングエージェントで、ファイル操作・シェル実行・Web検索をモデルが自律的に完結させる CLAUDE.mdによる指示の永続化、Hookシステムによる自動化、MCPサーバー連携が実務での主な差別化ポイント 料金はMaxサブスクリプションか"
-    },
-    {
-      "id": "cc_9ec7a9e5",
-      "title": "地道な反復作業を Claude Code に最後までやり切らせる設計",
-      "url": "https://zenn.dev/stak22/articles/ad7ac5baeeefbc",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.006023+00:00",
-      "excerpt": "はじめに あるとき、業務で触っているRailsのAPIサーバーで、テストのbranchカバレッジ(条件分岐がどれだけテストで通っているか)を目標値までAIを使ってガッツリ引き上げるというタスクを振られました。この手の作業は本質的に反復作業です。現状を計測し、一番弱いところを見つけ、テストを足し、また計測する。これを対象ファイルの数だけ、時には数十回繰り返すことになります。 こういうタスクをAIエー"
-    },
-    {
-      "id": "cc_8e3c3a77",
-      "title": "Web制作の実務で効いたClaude Code設定術 — CLAUDE.md・permissions・MCPの実例",
-      "url": "https://zenn.dev/nadarakainc/articles/1dc63a04cefc99",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:15.005951+00:00",
-      "excerpt": "はじめに Web制作の現場でClaude Codeを日常的に使っています。案件はAstro製のコーポレートサイトから、Next.js（App Router）のフルスタック個人開発まで幅広いのですが、プロジェクトごとに「Claude Codeへの申し送り」を設計しておくと、毎セッションの手戻りが目に見えて減ります。 この記事では、実際に運用している2つのプロジェクト（クライアントのコーポレートサイト"
-    },
-    {
-      "id": "cc_eeb71688",
-      "title": "ClaudeによるRSA-2048 IPの開発完了",
-      "url": "https://zenn.dev/a2zime/articles/rsa-2048-ip-integration-test-with-claude",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.946263+00:00",
-      "excerpt": "はじめに 前回までで、Claude Codeと一緒に RSA-2048 IPの設計仕様書・全RTL・検証仕様書・6サブモジュールの単体検証 を完走させてきました。 https://zenn.dev/a2zime/articles/rsa-2048-ip-submodule-verification-with-claude 今回はその最終工程として、rsa_top の統合テスト（TOP-01〜16）"
-    },
-    {
-      "id": "cc_b1c4a586",
-      "title": "Claude Code 週次アップデートまとめ（2026/07/11週）",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-07-11-125830",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.946202+00:00",
-      "excerpt": "この記事はAIがClaude CodeのCHANGELOGをまとめたものです。誤りが含まれる可能性があるため、重要な判断は公式ドキュメントでご確認ください。 2026年7月11日週のまとめ: Claude Code v2.1.202〜v2.1.207 の変更をまとめた。今週のハイライトはArtifacts機能のPro/Max解放、/reviewコマンド体系の刷新、/doctorのCLAUDE.md"
-    },
-    {
-      "id": "cc_2f3aa5c5",
-      "title": "Claude Codeの使用量、実は正しく数えられていなかった話——レートリミット管理アプリで踏んだ2つの罠",
-      "url": "https://zenn.dev/cosara/articles/972f5a5f199cde",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.946143+00:00",
-      "excerpt": "3行まとめ Claude Codeの使用量をJSONLから集計すると、ファイルの84.5%を見落とす罠と同じリクエストを2.26回数える罠が待っている（私の環境の実測値） この2つは逆方向に働いて相殺するので、合計値が「それっぽく」見えてしまい、壊れていることに気づけない 罠を踏み抜いた成果はレートリミット管理アプリ QuotaDeck としてOSS公開しました（MIT / Windows）→ h"
+      "id": "cc_a7ecdcf9",
+      "title": "介護士がClaude CodeでAI開発チームを作った話",
+      "url": "https://qiita.com/yuki_engineer08/items/9602baeb98e6e3fec171",
+      "domain": "qiita.com",
+      "source": "Qiita",
+      "publishedAt": "2026-07-14T12:18:12+09:00",
+      "fetchedAt": "2026-07-14T08:19:29.202716+00:00",
+      "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
       "id": "cc_a10ce184",
@@ -97,28 +17,88 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.946053+00:00",
+      "fetchedAt": "2026-07-14T08:19:28.650816+00:00",
       "excerpt": "! 本記事の執筆は Claude（AI）が行い、人間の筆者が構成・内容を監修しています。また、執筆・レビュー・公開準備の作業自体も、本文で紹介するルールセットの運用下で行われました。 はじめに — コピーが効かない2つの理由 Claude Code に「勝手に進めないで」「削除前に確認して」と CLAUDE.md へ書いたのに、守られなかった経験はないでしょうか。では、よくできた他人の CLAUD"
     },
     {
-      "id": "cc_1c6729c2",
-      "title": "【2026年最新】Claude Fable 5完全ガイド — Xboxゲームとの混同からモデル選択まで",
-      "url": "https://zenn.dev/amu_lab/articles/claude-fable-5-guide-2026",
+      "id": "cc_6e368db2",
+      "title": "Claude Code 使い方まとめ【2026年版】設定から実践Tips まで",
+      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-ok-2026",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.945986+00:00",
-      "excerpt": "この記事で分かること 「Fable 5」はAIモデル？それともゲーム？ 検索するとXboxのRPGとAnthropicの新モデルが混在していて、どっちを読めばいいか分からない。本記事はその混同を30秒で解いた上で、Claude Fable 5を実務でいつ使うべきか（Opus 4.8・Sonnet 5との使い分け、2倍の価格に見合う場面、fallback設計）まで整理する。 ! 対象読者: Clau"
+      "fetchedAt": "2026-07-14T08:19:28.650768+00:00",
+      "excerpt": "Claude Code 使い方まとめ【2026年版】設定から実践Tips まで この記事の要点 Claude CodeはAnthropic製のCLIベースAIコーディングエージェントで、ファイル操作・シェル実行・Web検索をモデルが自律的に完結させる CLAUDE.mdによる指示の永続化、Hookシステムによる自動化、MCPサーバー連携が実務での主な差別化ポイント 料金はMaxサブスクリプションか"
     },
     {
-      "id": "cc_35e232a9",
-      "title": "個人開発のGitHub運用 ― 直接push・PRなし・Issueの使いどころ｜Claude×Roblox個人開発",
-      "url": "https://zenn.dev/fukachi_ai/articles/f6949fda5db3d7",
+      "id": "cc_d64116c5",
+      "title": "毎朝7時、Claude Code RoutinesがAIニュースと株式市況をNotionに書き込んでくれる仕組みを作った",
+      "url": "https://zenn.dev/setra/articles/868feca3589fb4",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.945870+00:00",
-      "excerpt": "1. はじめに Roblox『Wobble Survival: Don't Fall!』を個人開発しています。ワークフローは「Claude.aiで設計・仕様書作成 → Claude Codeで実装」です。 前回は、なぜAIに丸投げせず人間の介入を細かく挟むのかという話を書きました。 https://zenn.dev/fukachi_ai/articles/80c0f7df43a627 今回はその開"
+      "fetchedAt": "2026-07-14T08:19:28.650695+00:00",
+      "excerpt": "作ったもの 毎朝7時、Claudeが自動でWeb検索を行い、その日のブリーフィングをNotionのデータベースに書き込むシステムを作りました。人間がやることはゼロです。起きてNotionを開くと、すでに今日のページができています。 ブリーフィングの内容は次の4カテゴリです。 テック・AIニュース: 新モデルのリリース、半導体、クラウド/SaaS、主要テック企業の動向（直近24時間、3〜5件） 開発"
+    },
+    {
+      "id": "cc_d31a3254",
+      "title": "実装はCodex、レビューはClaude、JetBrains Airでクロスエージェントレビュー",
+      "url": "https://zenn.dev/nattosystem_jp/articles/584eb689033cfa",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650647+00:00",
+      "excerpt": "はじめに 前回は JetBrains Air のGit Worktreeで並列タスクを試した記事を書きましたが、その中で Review with Agent（エージェントによる自動レビュー）を使ったところ、実装したのと同じエージェントがレビューも担当する設定になっていることがわかりました。 今回は、設定から別のエージェントをレビュー担当に指定してみました。 実装したエージェント自身がレビューもする"
+    },
+    {
+      "id": "cc_6eb859d8",
+      "title": "ノーコードで社内セキュリティ教育—Claude × Slack Workflow Builder の壁打ち設計",
+      "url": "https://zenn.dev/wisevine/articles/4f15f821ca70f9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650611+00:00",
+      "excerpt": "はじめに 社内セキュリティ教育楽しめてますか？ 年1回の動画研修、月1回のメルマガ。いつのまにか配信が止まり、年1回教育をするだけ、、 私がやりたかったのは、シンプルなことでした。 「日々セキュリティに触れる機会を、しかも簡単に持ちたい」 そのためには、形骸化させないことと 参加人数を減らさないことが要る。配信側が消耗せず、社員側が「ちょっと楽しみ」と思える仕組みです。 弊社（WiseVine）で"
+    },
+    {
+      "id": "cc_b26dc5d1",
+      "title": "Claude Code に MEMORY.md を整理させたら、実は肥大化が悪化していた話",
+      "url": "https://zenn.dev/uzu_tech/articles/d953b6133dd2a2",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650568+00:00",
+      "excerpt": "はじめに 株式会社Sally 所属エンジニアの @wellPicker です。 弊社では、スマホやパソコンでマダミスを遊べるアプリであるウズや、マダミス情報・予約管理サイトマダミス.jp、マダミス開発ツールウズスタジオを開発しています。 マダミスについてはこちらをご覧ください。 Claude Code の応答が「なんとなく初動が遅い」「無関係な文脈まで踏まえた脱線が増えた」と感じるようになり、CL"
+    },
+    {
+      "id": "cc_e3780c98",
+      "title": "ClaudeCodeと対談しながらカラオケの持ち歌管理アプリの制作を振り返ってみる",
+      "url": "https://zenn.dev/kanae_yomo/articles/967a5c459bad6c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650527+00:00",
+      "excerpt": "これはなに？ カラオケの持ち歌を管理するPWA「歌帳(うたちょう)」を、ほぼ丸1日でClaudeと作った制作記録です。 私はヒトカラに行っては自分の歌を録音しては改善していくサイクルを回している、そこそこのカラオケ好きの人間です。あとプログラマー歴2年目の会社員です。 Claude Fableのリリースからずっとレートリミットギリギリまで一通りやりたいことをぶん回した末、とある深夜にふと、ヒトカラ"
+    },
+    {
+      "id": "cc_8f1e5803",
+      "title": "Claude Codeの「やりました」を信用してはいけない——完了報告に証拠を要求する運用",
+      "url": "https://zenn.dev/miharu_tools/articles/cc-completion-report-evidence",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650496+00:00",
+      "excerpt": "「コミットしました」の翌朝、リモートに何もなかった Claude Code(以下CC)に実装を任せ、夜に「実装・コミット完了しました」という報告を受け取った。翌朝マージしようとリモートを見ると、ブランチが存在しない。 ローカルで git branch -vv を叩くと、こう出た。 * feat/xxx a1b2c3d [origin/feat/xxx: ahead 3] ... ahead 3。コ"
+    },
+    {
+      "id": "cc_28ebb37a",
+      "title": "JiraとClaudeでLoop Engineeringを試してみる",
+      "url": "https://zenn.dev/hittskapi/articles/4dbb0e4eb9b7b3",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.650443+00:00",
+      "excerpt": "はじめに Loop Engineeringが言われるようになって約１か月です。色々記事は読みましたが、理解を深めるために実践してみることにしました。Jira好きなのでJiraとの組み合わせです。 ! この記事の要約 AIに都度指示する代わりに、自律的に回る開発ループを設計する「Loop Engineering」。 その実行環境をJira＋Claude Code Routinesで構築しました。 人"
     },
     {
       "id": "cc_9ee1e914",
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.945801+00:00",
+      "fetchedAt": "2026-07-14T08:19:28.590445+00:00",
       "excerpt": "電源を切ると、全部消える世界で育った 小学生の頃、MSXというパソコンで、雑誌に載ったBASICのリストを300〜700行、ただひたすら打ち込んでいた。打ち終えて RUN を押すと自機が動く——「あ、動いた！」のスパークは今でも覚えている。だが当時は保存手段がなく、電源を切ればメモリはきれいに消える。また遊びたければ、また3時間かけて同じ700行を打ち直す。動いた感動と、消える喪失は、いつもセット"
     },
     {
@@ -137,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.945636+00:00",
+      "fetchedAt": "2026-07-14T08:19:28.590373+00:00",
       "excerpt": "はじめに Claude Code のようなAIコーディングエージェントを数ヶ月使っていると、ほぼ確実に同じ壁に当たります。 セッションが変わるたびに、同じ背景説明を繰り返している 「前回決めたはずのこと」をエージェントが覚えておらず、蒸し返される 対策として CLAUDE.md に書き足し続けた結果、数百行に肥大化し、しかも守られない指示が増えてきた 本記事は、この状態から抜け出すための記憶設計を"
     },
     {
@@ -147,18 +127,88 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-14T02:57:14.945545+00:00",
+      "fetchedAt": "2026-07-14T08:19:28.590342+00:00",
       "excerpt": "私の自動化の要望は、けっこうわがままだった。 いちばん賢いAIに、毎日決まった仕事をさせたい。手は動かしたくない そのために追加でお金は払いたくない 自分のPCは、電源を切って帰りたい 結論から書くと、全部かなった。使ったのはGAS（Google Apps Script）、GitHub Actions、そして会社で契約してもらっているClaude Code（Maxプラン）。追加費用は0円。ただし、"
     },
     {
-      "id": "cc_916ce8f0",
-      "title": "Claude Codeのカード鮮度をcard_driftで自動監視する",
-      "url": "https://qiita.com/claute_colo/items/47995a9579147637e93e",
-      "domain": "qiita.com",
-      "source": "Qiita",
-      "publishedAt": "2026-06-28T07:11:25+09:00",
-      "fetchedAt": "2026-07-14T02:57:15.304847+00:00",
-      "excerpt": "📝 この記事は note ・ Zenn にも投稿しています。 はじめに 日曜の朝、card_drift.pyという自動チェックが走る。カードとその元になったメモリファイルをローカルLLMに比較させ、矛盾を見つけたら通知するスクリプトだ。 ある週、こんな矛盾を見つけた。..."
+      "id": "cc_3bda8cbf",
+      "title": "AIにAIをレビューさせる ― Claude Code × Codex CLI で設計→レビュー→実装を自律で回す",
+      "url": "https://zenn.dev/nihonbashi/articles/claude-code-codex-dual-gate",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590296+00:00",
+      "excerpt": "はじめに AI にコードを書かせる開発は速くなりました。ですが「速く作る」と「品質を担保する」は別の問題です。書いた本人（AI）は自分の見落としに気づきにくく、ひとつの AI に書かせて同じ AI にレビューさせても、盲点はそのまま残ります。 これまで私たちは、AI が書いたコードのレビューを、人が ChatGPT に貼り付けて依頼していました。人がコピペの中継役として毎回間に入る必要があり、そこ"
+    },
+    {
+      "id": "cc_9ec7a9e5",
+      "title": "地道な反復作業を Claude Code に最後までやり切らせる loop コマンド",
+      "url": "https://zenn.dev/stak22/articles/ad7ac5baeeefbc",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590261+00:00",
+      "excerpt": "はじめに あるとき、業務で触っているRailsのAPIサーバーで、テストのbranchカバレッジ(条件分岐がどれだけテストで通っているか)を目標値までAIを使ってガッツリ引き上げるというタスクを振られました。この手の作業は本質的に反復作業です。現状を計測し、一番弱いところを見つけ、テストを足し、また計測する。これを対象ファイルの数だけ、時には数十回繰り返すことになります。 こういうタスクをAIエー"
+    },
+    {
+      "id": "cc_8e3c3a77",
+      "title": "Web制作の実務で効いたClaude Code設定術 — CLAUDE.md・permissions・MCPの実例",
+      "url": "https://zenn.dev/nadarakainc/articles/1dc63a04cefc99",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590219+00:00",
+      "excerpt": "はじめに Web制作の現場でClaude Codeを日常的に使っています。案件はAstro製のコーポレートサイトから、Next.js（App Router）のフルスタック個人開発まで幅広いのですが、プロジェクトごとに「Claude Codeへの申し送り」を設計しておくと、毎セッションの手戻りが目に見えて減ります。 この記事では、実際に運用している2つのプロジェクト（クライアントのコーポレートサイト"
+    },
+    {
+      "id": "cc_b73cc999",
+      "title": "[社内勉強会資料公開] Claude Code 入門 #1 — AI エージェントの仕組みとセットアップ",
+      "url": "https://zenn.dev/cscloud_blog/articles/csc-claude-code-study-session-01",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590187+00:00",
+      "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ CSC社内で「CloudFastener の TAM(テクニカルアカウントマネージャー)向けに、Claude Codeを初歩から実践まで学ぶ勉強会」を始めることになり、その資料を社外にも公開します。 セキュリティコンサルティングの現場でもAIエージェントの活用が広がりつつある一方、「"
+    },
+    {
+      "id": "cc_3160ec13",
+      "title": "Claude Codeでレガシーシステムの刷新を進めた方法",
+      "url": "https://zenn.dev/knowledgesense/articles/67c61463d9c664",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590149+00:00",
+      "excerpt": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、「Claude Code」を用いて、カナダの州政府が運用する大規模なシステムの刷新を進めた手法を紹介します。 https://www.anthropic.com/news/alberta-government-claude-cybersecurity https://thevelocitywhitepapers.com/ サマリー "
+    },
+    {
+      "id": "cc_506cc15d",
+      "title": "「このPDF、信用していい？」に答える Claude Skill を作った — pdf-trust-skill",
+      "url": "https://zenn.dev/shuji_bonji/articles/zenn-pdf-trust-skill",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590118+00:00",
+      "excerpt": "はじめに 取引先から届いた契約書 PDF、税務調査に備えて保存している請求書 PDF、行政サイトからダウンロードした公文書 PDF。これらが「本物か・改ざんされていないか・信用してよいか」を Claude に監査させる Agent Skill を公開しました。 https://github.com/shuji-bonji/pdf-trust-skill 暗号学的な署名検証・改ざん検知・PAdES "
+    },
+    {
+      "id": "cc_77461e94",
+      "title": "Claude Codeはコードを書かせるだけじゃない：自作スキルで記事執筆から自動化まで回す",
+      "url": "https://zenn.dev/personal/articles/20260713-claude-code-skills-workflow",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590071+00:00",
+      "excerpt": "! この記事の内容は、基本的にAIが作成しています。私はAIと一緒にこのプロジェクトを作り、完成したものについて実際の動作を確認しました。ソースコードや記事の内容にも一通り目を通し、明らかにおかしな点に気が付けば修正、コメントするスタンスです。ただし、すべての内容を細部まで完全に検証しているわけではありません。確認中に気づいた点や補足が必要だと感じた部分は、私自身のコメントとして追記するスタンスで"
+    },
+    {
+      "id": "cc_be6ce991",
+      "title": "30日で消える Claude の履歴を、CTX で「再利用できる資産」に変える",
+      "url": "https://zenn.dev/flinters_blog/articles/8c3e00abc0d545",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-14T08:19:28.590004+00:00",
+      "excerpt": "はじめに こんにちは。FLINTERS の河内です。 Claude Code を毎日使っていると、膨大な試行錯誤が生まれます。あるエラーにハマって、調べて、直して、次に進む。その繰り返しです。ところが「前にも同じところで詰まった気がするのに、あのときどう直したか思い出せない」ということが、しょっちゅう起きます。 理由はシンプルで、Claude Code のセッション履歴はデフォルトで30日経つと消"
     },
     {
       "id": "cc_b2235741",
@@ -167,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-14T02:57:15.522435+00:00",
+      "fetchedAt": "2026-07-14T08:19:29.409610+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-14T02:57:15.522508+00:00",
+      "fetchedAt": "2026-07-14T08:19:29.409645+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-14T02:57:15.522592+00:00",
+      "fetchedAt": "2026-07-14T08:19:29.409680+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-14T02:57:15.522606+00:00"
+  "lastCollection": "2026-07-14T08:19:29.409691+00:00"
 }
