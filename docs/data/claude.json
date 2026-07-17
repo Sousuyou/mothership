@@ -7,7 +7,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.694741+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.750062+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497828+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497555+00:00",
       "excerpt": "はじめに：CLAUDE.mdの肥大化とコマンドの置き場に悩んでいませんか 「CLAUDE.mdにルールを書き足し続けた結果、毎回のやり取りでコンテキストを圧迫している」 「2026年1月にカスタムスラッシュコマンドがSkillsへ統合されたと聞いたが、既存の .claude/commands/ はどうすればいいのか分からない」 「便利な手順書を個人で作ったものの、チームへ配る方法と統制のやり方が決"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497711+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497498+00:00",
       "excerpt": "Claude Codeを並列で走らせると起きる問題 Claude Codeが十分に賢くなった結果、最近の開発スタイルはこうなりました。 ターミナルでセッションA: 機能実装 別タブでセッションB: バグ修正 さらに別プロジェクトでセッションC: ドキュメント整備 すると今度は**「どのセッションが許可待ちで止まっているか分からない」**という問題が発生します。Claude Codeは危険な操作の前"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497528+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497413+00:00",
       "excerpt": "なぜか普通にclaude codeで作業していると、forkが走るようになった なんだ？これとなっていろいろ調査して検討したのが下記の通りです forkの由来は環境変数全コピーで分岐するPOSIX由来だろうなとは邪推。 (ちなみに/forkというコマンドは前からあった、、と思う) 2026-07-16JSTでの話です subagent_type: \"fork\" は本当に存在するのか Claude "
     },
     {
@@ -47,8 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497392+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497352+00:00",
       "excerpt": "【情シスのSkill】ClaudeでSaaSセキュリティ評価チェックSkillを作ってみた はじめに 皆さんこんにちは！ 株式会社GENDA IT戦略部所属CorpEngのアサノです！ この記事は、前回の【情シスのSkill】ClaudeでSaaSカオスマップを\"ポン出し\"するSkillを作ってみた に引き続き【情シスのSkill】シリーズ第2弾です。 今回は「このSaaS、社内で使っていいですか"
+    },
+    {
+      "id": "cc_7b48d7d6",
+      "title": "Claude Code の Plan モードをループエンジニアリングで楽にする",
+      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-plan-mode-loop",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.497294+00:00",
+      "excerpt": "はじめに Claude Code の Plan モードを、人間の労力を少なくして使いこなすためのループエンジニアリングをしてみました。この記事を読むと、hook を使って Plan モードに「質問による要件詰め」「実装のサブエージェント委譲」「計画の HTML 確認」を自動で組み込む方法がわかります。 ねらい Plan モードの運用に、次の 3 つを組み込みます。うち 1 と 3 の一部（reje"
     },
     {
       "id": "cc_f1502590",
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497214+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497231+00:00",
       "excerpt": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！ 今回は秘密が漏れない相談相手がいないなら閉じ込めた街でAIたちに密室会議させればいいじゃない👸🍰です。 読了時間の目安：約 9〜11分 ! 3行まとめ 前回VPCに閉じ込めたGeminiの街で、役割の違うAI同士がラウンド制で議論する「密室AI会議（/council）」 を作った——会話は restricted VIP の内側で"
     },
     {
@@ -67,58 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.497041+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497163+00:00",
       "excerpt": "はじめに Salesforceの標準側でも開発側でも、すでにカスタマイズされ尽くした環境に新しく入り、「この機能を修正してください」と言われたとき。「最初にどこを見ればいいのか全くわからない…」という絶望感を経験したことのあるエンジニアは少なくないと思います。 最終的な目標はもちろん環境の完全な理解ですが、それには膨大な時間と調査が必要です。しかし、現場では「今すぐこの一部を修正してほしい」という"
-    },
-    {
-      "id": "cc_aba8b94d",
-      "title": "M365 Copilot Cowork × Claude Cowork SIerの業務効率化は役割分担で最大化",
-      "url": "https://zenn.dev/syoshida07/articles/488f7cd449b021",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.496733+00:00",
-      "excerpt": "先日 M365 Copilot向けに提供された Copilot Coworkは、単なる「新しいAI機能の追加」ではなく、企業の業務プロセスそのものを変革する転換点である。 従来の M365 Copilot は、文章生成・要約・説明といったチャット型AIとしての役割が中心であり、ユーザーが指示し、AIが回答し、最終的な作業は人間が行うという構造から抜け出せなかった。 しかし Copilot Cowo"
-    },
-    {
-      "id": "cc_09435725",
-      "title": "【旧版・無料公開】Claudeは明日もあなたを忘れる — MCP Memory Server cpersona 設計と実践",
-      "url": "https://zenn.dev/cloto/books/claude-memory-mcp-server-archive",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.496517+00:00",
-      "excerpt": "有料版『Claudeは明日もあなたを忘れる』の旧版（CPersona v2.4.4 時点、2026年4月）を無料公開したアーカイブです。MCP Memory Server「cpersona」の設計思想——ベクトル検索・FTS5・エピソード記憶・プロファイル記憶・エージェント分離・Confidence Score——を全13章で解説します。導入手順や検索アルゴリズムはその後大きく進化しており、現行版"
-    },
-    {
-      "id": "cc_659eaa8a",
-      "title": "本は読んだだけでは身につかない。だから Claude Code の Skill にしよう",
-      "url": "https://zenn.dev/innovation/articles/4b24b969a6ce66",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465593+00:00",
-      "excerpt": "はじめに 最近 Kaggle の「Pokémon Trading Card Game AI Battle Challenge」(通称ポケカABC)にはまっている、イノベーション新卒入社の中村友哉です。学生時代は機械学習や数理最適化を学んでいて、社会人になった今も分析の道に進みたいと思っています。 ところで『問題解決』(高田貴久・岩澤智之)という本、読んだことありますか？ https://www.a"
-    },
-    {
-      "id": "cc_2666c31a",
-      "title": "Claude Code で育児のエビデンス情報アプリを作る — AIが捏造する「それっぽい出典」を構造で防ぐ",
-      "url": "https://zenn.dev/takotyan00/articles/claude-code-parenting-evidence",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465528+00:00",
-      "excerpt": "「抱っこ癖がつくから、泣いてもすぐ抱っこしない方がいい」 一度は耳にしたことがある通説だと思います。では、これに根拠はあるのでしょうか。答えは「根拠なし」で、応答的に抱っこすることが赤ちゃんの安心と発達を助ける、というのが今のエビデンスです。でも、そう言い切れる情報に、親はなかなかたどり着けません。 育児の情報は、SNSでもネット検索でも、真偽さまざまなものが同じ顔をして流れてきます。子どもは十人"
-    },
-    {
-      "id": "cc_7b48d7d6",
-      "title": "Claude Code の Plan モードをループエンジニアリングで楽にする",
-      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-plan-mode-loop",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465449+00:00",
-      "excerpt": "はじめに Claude Code の Plan モードを、人間の労力を少なくして使いこなすためのループエンジニアリングをしてみました。この記事を読むと、hook を使って Plan モードに「質問による要件詰め」「実装のサブエージェント委譲」「計画の HTML 確認」を自動で組み込む方法がわかります。 ねらい Plan モードの運用に、次の 3 つを組み込みます。うち 1 と 3 の一部（reje"
     },
     {
       "id": "cc_ec4003c9",
@@ -127,28 +87,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465366+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497077+00:00",
       "excerpt": "先週、Claude Codeを作ったBoris Chernyのクリップを見て、スクロールする手が止まりました。もうClaudeにプロンプトを書いていない、と言うんです。書いているのはループの方だと。 「へえ、自分には関係ないかな」くらいに流していたのが、実際に手元のリポジトリで試してみたら、思っていたより根が深い話でした。 そもそもの始まりは、地味なbashのループだった これは最初から製品機能と"
-    },
-    {
-      "id": "cc_ee1cb162",
-      "title": "Claudeが予定を捏造しなくなった日 ― Google Calendar APIでground truthをVaultに注入する",
-      "url": "https://zenn.dev/bokuwalily/articles/gcal-vault-ground-truth",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465306+00:00",
-      "excerpt": "前作「会話ログをスキルに変える仕組み」で触れた Vault 自動 ingest の続きです。今回は、Claudeが日付範囲を「期間拘束」と読み誤って架空のスケジュールを生成していた問題を、Google Calendar API でカレンダーの実体を直接注入することで潰した話を書きます。 daily brief の中で Claude が「Breach実習 6/11〜」というメモを「その週は丸ごと拘束"
-    },
-    {
-      "id": "cc_dad4d0d2",
-      "title": "Claude Codeに「記事化スキル」を作らせたら、レビューサイクルでバグが4つ見つかった話",
-      "url": "https://zenn.dev/yusukekcode/articles/building-article-writeup-skill",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465183+00:00",
-      "excerpt": "導入 Claude Code向けに、セッションの内容をZenn記事の下書きに変換する新規スキル「article-writeup」を作った。トリガー文言を話しかけると、Claude Codeが会話内容を要約し、サブエージェントに下書き生成を委譲し、人間の確認を経てZennにpushするところまでを一通り自動化する仕組みだ。今まさに読んでいるこの記事も、そのスキルで下書きされている（メタい話だが本当）"
     },
     {
       "id": "cc_92fa3422",
@@ -157,38 +97,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.465111+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.497009+00:00",
       "excerpt": "こんにちは、Webエンジニアのまさぴょんです！ Claude Codeを実案件(AI開発のPoC)で毎日使い込んでいると、遭遇する問題は大きく2種類に分かれます。 事故: 「え、いまそのファイル消した……？」系のヒヤリハット 手戻り: commitがでかすぎる、PRの説明が古い、報告が英語、発見が会話ログに埋もれて消える……系の地味なロス この2つをまとめて解決してくれるのが CLAUDE.mdの"
     },
     {
-      "id": "cc_a11c0ed9",
-      "title": "Claude Code に AgentCore Gateway Web Search でインターネット検索を実装する",
-      "url": "https://zenn.dev/aws_japan/articles/5f67d5c8111090",
+      "id": "cc_aba8b94d",
+      "title": "M365 Copilot Cowork × Claude Cowork SIerの業務効率化は役割分担で最大化",
+      "url": "https://zenn.dev/syoshida07/articles/488f7cd449b021",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.464999+00:00",
-      "excerpt": "はじめに 2026年6月、Amazon Bedrock AgentCore に Web Search ツールが登場しました。Amazon 独自の Web インデックスを使い、検索クエリが AWS の外に出ないフルマネージドの検索機能を MCP 標準ツールとして提供します。 https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazo"
-    },
-    {
-      "id": "cc_7c9469df",
-      "title": "Claude Code Workflowは「並列フェーズ」にだけ使え——順次処理に使うとコストが5.7倍に膨れる",
-      "url": "https://zenn.dev/tottoko_hamu/articles/2026-06-23-090000",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.464925+00:00",
-      "excerpt": "この記事の要点（2026年6月）: Claude Code Workflow のAPIで「39記事へのCTA（記事末尾の誘導文）一括追加」を1本のWorkflowに任せたところ、116エージェントが起動し、4.28Mトークン・5時間17分を消費した（実測。出典は内部ログ）。原因は、本来「単一エージェントのbashループ」で済む順次処理のフェーズに、並列処理と同じ粒度の設計（1エージェント/本）を採"
-    },
-    {
-      "id": "cc_9d749615",
-      "title": "「エンジニアの俺かっけー」で組んだherdr×Hunk×Claude Codeが、最強だった。",
-      "url": "https://zenn.dev/imu_imu/articles/herdr-astronvim-hunk-claudecode",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.464862+00:00",
-      "excerpt": "D2Cのデータ基盤を作っている、26卒エンジニアのいむたろです。 少し前、人生で初めて業務で大きめのPRを出しました。返ってきたレビューコメント、100件。 1件ずつ返信して、直して、また指摘されて。心は折れかけましたが、終わってみて思ったことが2つあります。「レビューって愛だな」。そして——「今度は俺が、100件詰める側をやりたい」。 相手はいます。毎日うちのリポジトリで大量にコードを書いてくる"
+      "fetchedAt": "2026-07-17T08:20:08.496904+00:00",
+      "excerpt": "先日 M365 Copilot向けに提供された Copilot Coworkは、単なる「新しいAI機能の追加」ではなく、企業の業務プロセスそのものを変革する転換点である。 従来の M365 Copilot は、文章生成・要約・説明といったチャット型AIとしての役割が中心であり、ユーザーが指示し、AIが回答し、最終的な作業は人間が行うという構造から抜け出せなかった。 しかし Copilot Cowo"
     },
     {
       "id": "cc_6c58ad81",
@@ -197,8 +117,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.464791+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.496808+00:00",
       "excerpt": "はじめに 情報工学科出身です。学生時代はFortranで研究をしていましたし、社会人になってからもC言語やVisual Basicを実務で書いていた時期があります。 でも今は生産技術者として働いていて、コードを書く機会はほとんどありません。何年もキーボードでプログラムを書いていない、完全な\"ブランクエンジニア\"です。 副業でAI生成の動画コンテンツ（Instagramで公開している職場コメディ動画"
+    },
+    {
+      "id": "cc_09435725",
+      "title": "【旧版・無料公開】Claudeは明日もあなたを忘れる — MCP Memory Server cpersona 設計と実践",
+      "url": "https://zenn.dev/cloto/books/claude-memory-mcp-server-archive",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.496733+00:00",
+      "excerpt": "有料版『Claudeは明日もあなたを忘れる』の旧版（CPersona v2.4.4 時点、2026年4月）を無料公開したアーカイブです。MCP Memory Server「cpersona」の設計思想——ベクトル検索・FTS5・エピソード記憶・プロファイル記憶・エージェント分離・Confidence Score——を全13章で解説します。導入手順や検索アルゴリズムはその後大きく進化しており、現行版"
     },
     {
       "id": "cc_083193fe",
@@ -207,8 +137,98 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-17T03:20:23.464697+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.464847+00:00",
       "excerpt": "皆さんこんにちは。React習熟度シリーズの12記事目です。今回は、前回予告した通り、effort=maxでのGPT-5.6のベンチマーク結果をお伝えします。前回の記事では、GPT-5.6 Solの総合スコアがClaude Sonnet 5程度で、Claudeの上位モデルには届いていないことを明らかにしました。そのため、effort=maxでの挽回が可能かどうかが注目されていました。 前回の記事は"
+    },
+    {
+      "id": "cc_879fe69a",
+      "title": "Claude Codeの作業中にスリープを抑止するツールwsl-relayについて",
+      "url": "https://zenn.dev/yamakh/articles/4f08de567b6edc",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464774+00:00",
+      "excerpt": "概要 Claudeの性能があがり自律的に長時間のタスクがこなせるようになりました。その結果、ちょっと放置しておくとPCがスリープしてしまいタスクが中断されてしまうということが起きるようになりました。そこでClaude Codeが作業中の場合のみスリープを抑止する機能をwsl-relayに追加しました。 https://github.com/khaym/wsl-relay セットアップ Window"
+    },
+    {
+      "id": "cc_156b558b",
+      "title": "Claude Code × Supabase でコンテンツブリーフを自動キュー管理した実装記録",
+      "url": "https://zenn.dev/joemike/articles/claude-code-weekly-content-planner-routine-2026",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464717+00:00",
+      "excerpt": "結論 weekly-content-planner routine（週次）が Supabase の content_briefs テーブルにブリーフを積み、content-executor routine（毎日 02:00 JST）が 1 件ずつ消費して記事を執筆する 3 層設計を構築した。 CLAUDE.md に executor の制約（1日1本・捏造禁止）を書くことで、Claude Code"
+    },
+    {
+      "id": "cc_2e424b6e",
+      "title": "Claude Codeで16部署の「AI組織」を作り、14部署を解体した話",
+      "url": "https://zenn.dev/orectic/articles/claude-code-ai-organization-dismantle",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464648+00:00",
+      "excerpt": "はじめに Claude Code のサブエージェント機能を使うと、メインの Claude を「COO」に見立てて、その下に専門部署（サブエージェント）を並べた 「AI組織」 が作れます。X やブログでも「1人会社をAI社員で組織化する」という話をよく見かけるようになりました。 私もこれをやりました。CEO（自分）─ COO（メインClaude）の下に 16部署 を設計して、それぞれにエージェント定"
+    },
+    {
+      "id": "cc_d3eff1d1",
+      "title": "Claude Codeに実装を丸投げしたら、個人開発のボトルネックが「書く」から「決める」に変わった話",
+      "url": "https://zenn.dev/yotti073/articles/spec-driven-claude-code",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464580+00:00",
+      "excerpt": "はじめに 「Claude Codeに実装を丸投げしたら2週間でアプリが完成した」——そう言うと聞こえはいいですが、正確ではありません。実際に起きたのは、開発のボトルネックが「コードを書く時間」から「決める時間」に移ったことです。 減量目標(10月末までに-8kg)のために、体重・食事・水分・筋トレ・日記を記録して週次レビュー+AIコーチングで振り返るローカルファーストPWA「からだログ」を個人開発"
+    },
+    {
+      "id": "cc_974fe8d3",
+      "title": "Claude Codeを呼べる公式コネクタがAgent Frameworkに登場、\"GA\"の実態は？",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/agent-framework-claude-code-connector",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464520+00:00",
+      "excerpt": "! 2026-07-17 時点の公式情報とリポジトリの実装に基づいています。パッケージのバージョン状態は流動的なので、導入判断時は文末の一次ソースを確認してください。 先に結論 Microsoft Agent Framework に Claude Code と GitHub Copilot をエージェントの「部下」として呼び出す公式コネクタが来た。7/15（米国時間）に Azure Updates"
+    },
+    {
+      "id": "cc_167a9b2d",
+      "title": "Claude Code を並列で走らせると「どれが入力待ちか」分からなくなる問題と、macOS ネイティブアプリでの解決",
+      "url": "https://zenn.dev/umechanhika/articles/91dc6bf62c2318",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464416+00:00",
+      "excerpt": "「気づいたら 10 分止まってた」問題 Claude Code を使い込むほど、セッションは並列になっていきます。リポジトリA で機能実装、リポジトリB でバグ調査、worktree でリファクタ——ここまでは快適なのですが、並列数が増えると必ずこうなります。 セッションを走らせて、別の作業に移る その裏でセッションが権限確認(Do you want to allow...?)で止まる 気づかない"
+    },
+    {
+      "id": "cc_c6c1af94",
+      "title": "Claude CodeにCodexレビューを委譲したら9分帰ってこなかった話 — codex review --uncommitted の罠",
+      "url": "https://zenn.dev/coldcola/articles/codex-uncommitted-trap",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464320+00:00",
+      "excerpt": "Claude Code から Codex にコードレビューを委譲したら、codex exec review --uncommitted が約9分間戻ってこなかった。原因を追いかけると、「この3ファイルだけ見て」と書いたプロンプトは、Codexに一度も届いていなかった。codex exec review は - を指定しない限りリダイレクトされたstdinをレビュー指示として読まず、しかもその - "
+    },
+    {
+      "id": "cc_619f65a3",
+      "title": "Claude Code のサブエージェント、全部 opus にしていませんか？——「品質ファースト」の自動ルーティングをつくった話",
+      "url": "https://zenn.dev/dupi/articles/claude-code-smart-dispatch",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464210+00:00",
+      "excerpt": "Claude Code をガッツリ使っていると、Agent（サブエージェント）をいくつも飛ばす場面が増えます。並行で調べさせたり、ファイルを分割して処理させたり。便利で手放せない機能なのですが、ひとつだけ厄介な問題があります。 サブエージェントは、親と同じ（＝一番強くて、一番高い）モデルをそのまま引き継いでしまうのです。 つまり「設定ファイルを1行読むだけ」みたいなタスクにも、最強モデルの料金がま"
+    },
+    {
+      "id": "cc_b950441d",
+      "title": "Claude Codeのスキル×サブエージェントで開発ワークフローを丸ごと自動化したらデリバリー速度が3倍になった",
+      "url": "https://zenn.dev/arufian/articles/4676070054c347",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-17T08:20:08.464084+00:00",
+      "excerpt": "はじめに フリーランスとして、日本の大手コンサルティングファームのAI駆動開発を支援しています。そこで「Claude Codeのスキルとサブエージェントを組み合わせて、設計からデプロイまでを丸ごとオーケストレーションするワークフロー」を作ったところ、案件のデリバリー速度が 約3倍 になりました。 この記事では、そのスキルをどういう考え方で設計したのか、オーケストレーションの仕組みをどう組んだのか、"
     },
     {
       "id": "cc_47860276",
@@ -217,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.694811+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.750131+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -227,7 +247,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.694868+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.750183+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -237,7 +257,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.859300+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.952614+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -247,7 +267,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.859382+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.952673+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -257,9 +277,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-17T03:20:23.859468+00:00",
+      "fetchedAt": "2026-07-17T08:20:08.952737+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-17T03:20:23.859485+00:00"
+  "lastCollection": "2026-07-17T08:20:08.952753+00:00"
 }
