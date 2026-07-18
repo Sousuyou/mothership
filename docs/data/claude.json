@@ -1,13 +1,23 @@
 {
   "items": [
     {
+      "id": "cc_cc8a2c1a",
+      "title": "Claude CodeからCodexを呼べるOpenAI公式プラグインを調べた",
+      "url": "https://qiita.com/mekakushi/items/3789e5bc2bb533dbec01",
+      "domain": "qiita.com",
+      "source": "Qiita",
+      "publishedAt": "2026-07-19T00:05:48+09:00",
+      "fetchedAt": "2026-07-18T19:13:10.428655+00:00",
+      "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
+    },
+    {
       "id": "cc_cd5cf978",
       "title": "Claudeの開発者イベント「Code with Claude 2026」総まとめ〜ロンドン編〜",
       "url": "https://zenn.dev/galirage/articles/code-with-claude-2026-london-summary",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.061107+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127760+00:00",
       "excerpt": "はじめまして、ますみです！ 株式会社Galirage（ガリレージ）というAIスタートアップで、代表をしております^^ その他にも、「AIとコミュニケーションする技術（インプレス出版）」という書籍を執筆させていただいたり、生成AIアカデミーというYouTubeチャンネルを運営したり、上智大学で非常勤講師をしたりしています！ 今回は、2026年5月19日にロンドンで開催されたAnthropicの開発者"
     },
     {
@@ -17,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.061045+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127701+00:00",
       "excerpt": "はじめまして、ますみです！ 株式会社Galirage（ガリレージ）というAIスタートアップで、代表をしております^^ その他にも、「AIとコミュニケーションする技術（インプレス出版）」という書籍を執筆させていただいたり、生成AIアカデミーというYouTubeチャンネルを運営したり、上智大学で非常勤講師をしたりしています！ 今回は、2026年5月6日にサンフランシスコで開催されたAnthropicの"
     },
     {
@@ -27,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060950+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127610+00:00",
       "excerpt": "はじめに 台湾で一人会社をやっている Leo と申します。エンジニアではなく、コードはほぼ AI エージェント（Claude）に書いてもらっています。この記事は、そんな非エンジニアが「Claude に動画を見せたい」という一点だけで OSS を作ることになった話です。 リポジトリはこちらです。 https://github.com/HUANGCHIHHUNGLeo/claude-real-vide"
     },
     {
@@ -37,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060843+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127504+00:00",
       "excerpt": "はじめに 友達や営業先と予定を合わせるとき、毎回「TimeTree を開いて空いてる時間を目で数えて、メッセージに書く」という作業が発生しています。 この作業を Claude Code のカスタムスキルに切り出して、/timetree-free-slots コマンド一発で完了するようにしたので紹介します。 想定読者 Claude Code で独自の /コマンド を作ってみたい人 Playwrigh"
     },
     {
@@ -47,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060747+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127414+00:00",
       "excerpt": "Claude CoworkがWebとモバイルに展開され、「スマホからAIに仕事を任せる」働き方が話題になっています。ただ、Claude Codeユーザーにとって、これは公式のDiscord連携機能「Channels」で少し前からできていた体験でもあります。AIが自走している間、承認のためだけにPCの前で待ち続けている――そんな時間に心当たりがあるなら、この連携は選択肢になります。 筆者はClaud"
     },
     {
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060680+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127343+00:00",
       "excerpt": "この記事について 対象読者：1本目で Claude を呼べるようになり、実運用に向けて失敗時の挙動を整えたい人 得られること：レート制限（429）・サーバエラー（5xx）・ネットワーク断を指数バックオフで再試行し、それ以外は即失敗させる最小実装 前提・環境：Java 21 / Spring Boot 3.5 / com.anthropic:anthropic-java 2.34.0 この記事は「S"
     },
     {
@@ -67,28 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060605+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127273+00:00",
       "excerpt": "はじめに 個人開発で複式簿記の家計簿SaaS「kurofukubo（黒福簿）」を運営しています。 https://kurofukubo.com/?utm_source=zenn&utm_medium=article このサービスのLPは、最初からClaude（AI）に作らせたものでした。それなりに整っていて、公開当時は満足していました。 ところがある日、競合サービスのLPを見て凍りつきました。構図"
-    },
-    {
-      "id": "cc_4b2efa82",
-      "title": "AIがAIを動かす！CodexとClaudeを連携させて高品質な自律開発を行うワークフローを試してみた",
-      "url": "https://zenn.dev/kinotex/articles/b1e33d705fcfd9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060449+00:00",
-      "excerpt": "プロローグ 近年、「AIコーディングエージェント」が非常に強力になってきています。 私自身、日々の開発において、様々な機能をAIエージェントと一緒に構築してきました。その中で、「人間とChatGPTで『こんな風に複数のAI同士を連携させたら、もっとスムーズに自律的なコード生成ができるのでは？もしかして動くんじゃないか？』」 と思いつき、様々な協調フロー（オーケストレーション）の実験を試してみました"
-    },
-    {
-      "id": "cc_5fed82fc",
-      "title": "【Vol.15】Claude Design入門 — 提案書・スライド・プロトタイプをプロンプトから作る",
-      "url": "https://zenn.dev/tech_realinvent/articles/8476deca982896",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.060360+00:00",
-      "excerpt": "はじめに こんにちは。株式会社リアルインベントCTOです。 今回は、Anthropicが2026年4月に公開したビジュアル生成ツール「Claude Design」を取り上げます。 弊社にはデザイン部門があり、数名のデザイナーが在籍しています。なので正直に言うと、最初にこのツールを見たときの関心事は「これはデザイナーの仕事を奪うのか？」でした。1ヶ月ほど触ってみた結論を先に書くと、答えはノーです。C"
     },
     {
       "id": "cc_fb2421fd",
@@ -97,18 +87,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.040429+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.127188+00:00",
       "excerpt": "「修正しました！」の何割かは、修正されていない Claude Code を毎日使っていると、必ずこの場面に出会います。 「テストも通り、修正が完了しました！」 ……と元気に報告されたのに、実際にビルドすると通らない。テストはそもそも実行されていない。LLM は「完了したと言うこと」と「完了していること」を、必ずしも区別してくれません。もっともらしい完了報告は、完了の証拠にならないのです。 私は W"
     },
     {
-      "id": "cc_f5f7d112",
-      "title": "Claude Codeのサブスクを「会議コパイロット」にするOSSを作った",
-      "url": "https://zenn.dev/kenshintanno/articles/live-mtg-claude-code-meeting-copilot",
+      "id": "cc_4b2efa82",
+      "title": "AIがAIを動かす！CodexとClaudeを連携させて高品質な自律開発を行うワークフローを試してみた",
+      "url": "https://zenn.dev/kinotex/articles/b1e33d705fcfd9",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.040361+00:00",
-      "excerpt": "会議を録音するだけで、話しているそばから議事録・次に聞くべき質問・マインドマップが育っていくローカル実行ツール「LiveMTG」を作りました。無料のOSS（MIT）です。 npm install -g live-mtg@beta live-mtg 録音開始から議事が育つ様子（UIは実物・会議内容はサンプル） 何が新しいのか：APIキーが要らない この手のAI議事録ツールはたくさんありますが、Liv"
+      "fetchedAt": "2026-07-18T19:13:10.127074+00:00",
+      "excerpt": "プロローグ 近年、「AIコーディングエージェント」が非常に強力になってきています。 私自身、日々の開発において、様々な機能をAIエージェントと一緒に構築してきました。その中で、「人間とChatGPTで『こんな風に複数のAI同士を連携させたら、もっとスムーズに自律的なコード生成ができるのでは？もしかして動くんじゃないか？』」 と思いつき、様々な協調フロー（オーケストレーション）の実験を試してみました"
     },
     {
       "id": "cc_24976758",
@@ -117,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.040187+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.035044+00:00",
       "excerpt": "TL;DR Claude Code 組み込みの /code-review は、paths: でスコープされた .claude/rules/*.md（path-scoped rule）を自動ロードしない。変更ファイルのパスが glob 判定にかけられておらず、判定対象はレビュー範囲の指定文字列（{upstream}...HEAD）そのものだった ただし必ず漏れるわけではない。レビュアーが自分の判断で"
     },
     {
@@ -127,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.040086+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.034955+00:00",
       "excerpt": "はじめに Claude Codeを毎日使っていると、地味に気になってくるのが「今月のレート制限、結局何にそんなにトークンを使ってるんだろう」問題です。 Claude Codeは実行するたびに会話ログを~/.claude/projects/配下に残してくれるので、まずはこのログをClaude Code自身に解析させてみました。ですが、裏側で動くサブエージェントの消費は最後の回答テキストしか記録されず"
     },
     {
@@ -137,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.040000+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.034882+00:00",
       "excerpt": "「A8.netの提携申請を出す」— たったこれだけのタスクを、私は3週間放置していた。 Notionにはリサーチ済みの案件リストがあり、期限も切ってあった。それでも動けなかった。エンジニアにはよくいる、「調査は完璧、実行はゼロ」のタイプだ。 その止まっていたタスクが、Claude Codeと組んだら1日で「収益導線3本公開・計測基盤・レポート自動化」まで進んだ。この記事はその記録と、何が効いたのか"
     },
     {
@@ -147,8 +137,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-18T13:35:42.039890+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.034804+00:00",
       "excerpt": "議事録からのTODO抽出、その非効率をClaude Codeで解消する AIエージェントを13体運用して日々の業務を自動化している ahic です。 会議後のTODOリスト作成は、時間と手間がかかる非効率な作業です。見落としや解釈のブレ、フォーマットの不統一といった課題も生じがちです。 これらの課題を解決するため、私はClaude CodeとPythonを組み合わせた自動抽出システムを導入しました"
+    },
+    {
+      "id": "cc_83abb194",
+      "title": "Claude Code で毎朝のニュースアプリを作る — 自分用のつもりが、妻もユーザーになった",
+      "url": "https://zenn.dev/takotyan00/articles/claude-code-morning-news-digest",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034699+00:00",
+      "excerpt": "育休に入ってしばらくして、自分が最後に新しい技術の話を聞いたのがいつだったか思い出せなくなりました。会社にいたころは、雑談や隣の席のぼやきから勝手に入ってきていた類の情報です。意識して取りに行っていたわけではないので、途絶えたこと自体にもすぐには気づきませんでした。 もうひとつ、前から面倒だと思っていたことがあります。ニュースサイトを開くと、自分に関係のある記事を毎回自分で選り分けなければいけない"
+    },
+    {
+      "id": "cc_a01bd123",
+      "title": "外部記憶があると Claude Code の /compact はほぼ要らない",
+      "url": "https://zenn.dev/cloto/articles/claude-code-compact-external-memory",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034638+00:00",
+      "excerpt": "同じことを 2 回やっていないか Claude Code でいくつかのセッションを回していて、ふと気づいた。 作業を終えるとき、筆者の環境では重要な決定を外部記憶に保存し、セッション全体も要約してから終了する。その直後、次の作業に備えて /compact を実行した。 そこで「あれ、今まったく同じ情報を 2 回要約していないか？」となった。 先に結論を書くと、自然な区切りで外部記憶へ退避できるなら"
+    },
+    {
+      "id": "cc_92647ed3",
+      "title": "Claude Code でWeb制作フローを13コマンドに仕組み化した話",
+      "url": "https://zenn.dev/nyacoai/articles/c8f5e8a31162a9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034566+00:00",
+      "excerpt": "はじめに Web制作（Astro でのクライアントサイト制作）を本業にしていて、限られた時間で複数案件を回す必要がありました。 そこで Claude Code を使い、制作フロー全体をスラッシュコマンド13本に仕組み化しました。1年ほど改善を続けて、ようやく安定してきたので、設計の考え方を全部書きます。 「AI に丸投げしたら爆速になった」みたいな話ではありません。むしろ丸投げすると遅くなるという"
+    },
+    {
+      "id": "cc_67072c1b",
+      "title": "Claude CodeとCodexに「ビジネスを作って利益を出して」と丸投げした実験ログ",
+      "url": "https://zenn.dev/suuungwoo/articles/ai-autonomous-business-experiment",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034484+00:00",
+      "excerpt": "依頼は1メッセージだけ 2026年7月19日、Claude Code(Claude Fable 5)に次の趣旨の依頼を1通だけ送りました。 最新のAIエージェントでどこまで自律的にやれるかテストしたい。ビジネスを考えて、プロダクトが必要なら作って、マーケが必要ならそれも作って、少額でもよいので短時間で利益を出してほしい。ビジネスモデルもターゲットもプロダクトも全部任せる。Codexに渡せる作業は渡"
+    },
+    {
+      "id": "cc_ce99003e",
+      "title": "Claude CodeとCodexを『人生の秘書』にする運用設計（全体像）",
+      "url": "https://zenn.dev/suuungwoo/articles/personal-ai-system-overview",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034410+00:00",
+      "excerpt": "AIエージェントを「秘書」として使うには Claude CodeやCodexに質問すると、調査、文章作成、コード編集まで短時間で進められます。一方で、セッションが変わると前提が消えたり、以前の推測が事実のように扱われたりします。 この問題を、モデルの記憶力だけで解決しようとしない方法があります。AIが参照する長期コンテキストを、Markdownファイルの集合として手元に置く方法です。私はこれをPe"
+    },
+    {
+      "id": "cc_58dab1ee",
+      "title": "Claude CodeとCodexを\"人生の秘書\"にする ― Personal AI System構築ガイド",
+      "url": "https://zenn.dev/suuungwoo/books/personal-ai-system-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-18T19:13:10.034300+00:00",
+      "excerpt": "Claude CodeとCodexを、Markdownの正本・事実ラベル・停止条件で安全に運用するPersonal AI Systemの設計と導入を解説します。"
     },
     {
       "id": "cc_f52741fc",
@@ -157,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.268779+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.428720+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -167,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.268852+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.428773+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -177,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.268910+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.428822+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -187,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.445000+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.684775+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +247,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.445081+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.684834+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +257,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-18T13:35:42.445174+00:00",
+      "fetchedAt": "2026-07-18T19:13:10.684900+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-18T13:35:42.445188+00:00"
+  "lastCollection": "2026-07-18T19:13:10.684915+00:00"
 }
