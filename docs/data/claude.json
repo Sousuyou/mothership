@@ -1,63 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_4376e6ed",
-      "title": "Spring Boot で Claude API のエラー・レート制限に強くする",
-      "url": "https://zenn.dev/propagandist/articles/0019-spring-boot-claude-error-handling",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.784438+00:00",
-      "excerpt": "この記事について 対象読者：1本目で Claude を呼べるようになり、実運用に向けて失敗時の挙動を整えたい人 得られること：レート制限（429）・サーバエラー（5xx）・ネットワーク断を指数バックオフで再試行し、それ以外は即失敗させる最小実装 前提・環境：Java 21 / Spring Boot 3.5 / com.anthropic:anthropic-java 2.34.0 この記事は「S"
-    },
-    {
-      "id": "cc_c27aed6f",
-      "title": "Claude DesignでLPを刷新したら、デザインは勝ってSEOで負けた話",
-      "url": "https://zenn.dev/pakupaku_x/articles/ca1056dadcb9d5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.784349+00:00",
-      "excerpt": "はじめに 個人開発で複式簿記の家計簿SaaS「kurofukubo（黒福簿）」を運営しています。 https://kurofukubo.com/?utm_source=zenn&utm_medium=article このサービスのLPは、最初からClaude（AI）に作らせたものでした。それなりに整っていて、公開当時は満足していました。 ところがある日、競合サービスのLPを見て凍りつきました。構図"
-    },
-    {
-      "id": "cc_fb2421fd",
-      "title": "AIの「できました」を信じない ― Claude Codeに完了の証拠を出させる品質ゲート設計",
-      "url": "https://zenn.dev/aizuchi_works/articles/9dbd721720a8e9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.784230+00:00",
-      "excerpt": "「修正しました！」の何割かは、修正されていない Claude Code を毎日使っていると、必ずこの場面に出会います。 「テストも通り、修正が完了しました！」 ……と元気に報告されたのに、実際にビルドすると通らない。テストはそもそも実行されていない。LLM は「完了したと言うこと」と「完了していること」を、必ずしも区別してくれません。もっともらしい完了報告は、完了の証拠にならないのです。 私は W"
-    },
-    {
-      "id": "cc_4b2efa82",
-      "title": "AIがAIを動かす！CodexとClaudeを連携させて高品質な自律開発を行うワークフローを試してみた",
-      "url": "https://zenn.dev/kinotex/articles/b1e33d705fcfd9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.784113+00:00",
-      "excerpt": "プロローグ 近年、「AIコーディングエージェント」が非常に強力になってきています。 私自身、日々の開発において、様々な機能をAIエージェントと一緒に構築してきました。その中で、「人間とChatGPTで『こんな風に複数のAI同士を連携させたら、もっとスムーズに自律的なコード生成ができるのでは？もしかして動くんじゃないか？』」 と思いつき、様々な協調フロー（オーケストレーション）の実験を試してみました"
-    },
-    {
-      "id": "cc_5fed82fc",
-      "title": "【Vol.15】Claude Design入門 — 提案書・スライド・プロトタイプをプロンプトから作る",
-      "url": "https://zenn.dev/tech_realinvent/articles/8476deca982896",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.784042+00:00",
-      "excerpt": "はじめに こんにちは。株式会社リアルインベントCTOです。 今回は、Anthropicが2026年4月に公開したビジュアル生成ツール「Claude Design」を取り上げます。 弊社にはデザイン部門があり、数名のデザイナーが在籍しています。なので正直に言うと、最初にこのツールを見たときの関心事は「これはデザイナーの仕事を奪うのか？」でした。1ヶ月ほど触ってみた結論を先に書くと、答えはノーです。C"
-    },
-    {
       "id": "cc_a01bd123",
       "title": "外部記憶があると Claude Code の /compact はほぼ要らない",
       "url": "https://zenn.dev/cloto/articles/claude-code-compact-external-memory",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.783985+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.194548+00:00",
       "excerpt": "同じことを 2 回やっていないか Claude Code でいくつかのセッションを回していて、ふと気づいた。 作業を終えるとき、筆者の環境では重要な決定を外部記憶に保存し、セッション全体も要約してから終了する。その直後、次の作業に備えて /compact を実行した。 そこで「あれ、今まったく同じ情報を 2 回要約していないか？」となった。 先に結論を書くと、自然な区切りで外部記憶へ退避できるなら"
     },
     {
@@ -67,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.783896+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.194450+00:00",
       "excerpt": "ブログ運営やWebマーケティングの現場で、「記事作成に追われて本来やるべき戦略立案に時間が割けない」という悩みを抱えていませんか？ 私自身、以前は週に3本以上の記事を手作業で執筆し、疲弊しきっていました。しかし、Claude APIを活用した自動化フローを構築したことで、執筆にかかる作業時間を約70％削減することに成功しました。本ガイドでは、単なるAIによる自動生成ではなく、検索意図を深く捉え、読"
     },
     {
@@ -77,8 +27,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.783823+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.194375+00:00",
       "excerpt": "はじめに 2026年7月、OpenAI（GPT-5.6 + ChatGPT Work）、Anthropic（Claude Sonnet 5）、Google（Gemini Spark）が相次いで「エージェント型」のAIを打ち出しました。共通点は、単発の応答ではなく、ゴールを渡すと複数ステップの作業を自律的に進めて成果物を返すという設計思想です。この記事では、その「エージェント的な使い方」をコードレベ"
+    },
+    {
+      "id": "cc_6af90c4c",
+      "title": "【超入門】Claude Chat / Cowork / Code の違いをやさしく整理",
+      "url": "https://zenn.dev/m16_llc/articles/claude-chat-cowork-code-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-20T03:58:56.194308+00:00",
+      "excerpt": "こんにちは、Webエンジニアのまさぴょんです！ 最近 Claude を触りはじめた人から、いちばんよく聞かれるのがこれです。 Claude Chat と Claude Cowork と Claude Code って、何が違うの? どれを使えばいいの? 名前が似ていて、どれも「Claude」。混乱するのは当然です。 「Claude、種類が多すぎて違いがわからない」問題 でも安心してください。「何を・"
     },
     {
       "id": "cc_10013b88",
@@ -87,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.783725+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.194221+00:00",
       "excerpt": "政府統計の総合窓口 e-Stat には20万件を超える統計表が無料公開されていて（2026年7月にAPIで実測したところ236,271件。日々変動します）、APIも無料です。 そしていま、Claude や ChatGPT にAPIコードを書かせて統計データを取る記事が増えています。 便利なので、私も使っています。 ただ、実際に e-Stat × Claude を回してみると、エラーは一度も出ていな"
     },
     {
@@ -97,98 +57,108 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.783633+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.194144+00:00",
       "excerpt": "この記事はXの元記事をZenn向けに再掲載したものです。 後日､以下の内容+αを自動で入れられて透過的にcompactを強化出来るプラグインを作りました｡ https://x.com/u1/status/2073742408555343968 そもそも Claude Code の compact はどう動くか 話の前提として、Claude Code の compact は次の 2 経路で走る: 手"
     },
     {
-      "id": "cc_93567a55",
-      "title": "個人プロジェクトを全部GitHubにバックアップする運用をClaude Codeと組んだ話",
-      "url": "https://zenn.dev/jidoka_lab/articles/claude-code-github-backup-ops",
+      "id": "cc_383415fc",
+      "title": "いま使われているClaude Codeスキルとは？ 非エンジニア向け厳選8選",
+      "url": "https://zenn.dev/shun_producer/articles/popular-claude-code-skills",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749938+00:00",
-      "excerpt": "ローカルにしかないプロジェクト、何個ありますか 副業や個人開発を並行して進めていると、思いつきで新しいフォルダを作って手を動かし、動くところまでできたら満足してそのまま放置する、ということが起きがちです。私自身、デスクトップやホームディレクトリの各所にプロジェクトフォルダが散らばっていて、「これGitHubに上げたっけ?」を都度思い出せない状態になっていました。 ローカルにしかないプロジェクトは、"
+      "fetchedAt": "2026-07-20T03:58:56.194002+00:00",
+      "excerpt": "! これは「Claude Codeのとなりの常識」シリーズ——プログラマーの当たり前を、非エンジニアの言葉で解説します。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: GitとGitHubとは？ #2: HTMLとMarkdownとは？ #3: ターミナルとは？ #4: 環境変数とAPIキーとは？ #5: npmとpipとは？ #6: いま使われているスキルとは？（この記事）"
     },
     {
-      "id": "cc_044fc797",
-      "title": "記事のネタ出しまでAIに任せた ― note執筆を17フェーズに分割してClaude Codeで自走させる仕組み",
-      "url": "https://zenn.dev/horizon_it00/articles/76d05b190f4cd5",
+      "id": "cc_0c14273f",
+      "title": "音声1本を「話し方を保ったまま」5つのSNS原稿にする — Claude二段生成の設計",
+      "url": "https://zenn.dev/otoha_io/articles/1ed6059b794bfb",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749865+00:00",
-      "excerpt": "この記事の企画は、AIが出しました。Claude Codeが候補を11個、採点表つきのレポートにして提案してきて、筆者はその総合1位を選んだだけです。テーマ選びから調査、執筆、採点、校閲まで、note記事の制作はほぼClaude Codeが自走しています。 こう書くと「AIに丸投げしたら記事ができた」という話に聞こえますが、実態は逆です。丸投げは何度も失敗しました。うまく回り始めたのは、品質をプロ"
+      "fetchedAt": "2026-07-20T03:58:56.193876+00:00",
+      "excerpt": "個人開発で作っている OTOHA（オトハ） というツールの、コアである「音声 → 5媒体のSNS原稿」を生成する部分の設計メモです。ライブラリの宣伝というより、「文字起こしで終わらせず、話者の口調を保ったまま複数フォーマットを一度に作る」ときに何が難しくて、どう解いたかを共有します。まだ実験の途中なので、つまずきも正直に書きます。 何を作ったか（30秒で） 入力: 音声/動画ファイル（or テキス"
     },
     {
-      "id": "cc_6af90c4c",
-      "title": "【超入門】Claude Chat / Cowork / Code の違いをやさしく整理",
-      "url": "https://zenn.dev/m16_llc/articles/claude-chat-cowork-code-guide",
+      "id": "cc_eaa9d646",
+      "title": "Claude Codeで完璧に作った収益サイトが、1円も稼げなかった原因の解剖【実数公開】",
+      "url": "https://zenn.dev/sher/articles/7872b82aec7f3a",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749780+00:00",
-      "excerpt": "こんにちは、Webエンジニアのまさぴょんです！ 最近 Claude を触りはじめた人から、いちばんよく聞かれるのがこれです。 Claude Chat と Claude Cowork と Claude Code って、何が違うの? どれを使えばいいの? 名前が似ていて、どれも「Claude」。混乱するのは当然です。 「Claude、種類が多すぎて違いがわからない」問題 でも安心してください。「何を・"
+      "fetchedAt": "2026-07-20T03:58:56.170327+00:00",
+      "excerpt": "先週、約1ヶ月かけて作ったサイトを凍結しました。 収益：0円 Search Console の表示回数：ほぼゼロ テスト：231本 本番インフラ：Terraform 管理の AWS、CSP enforce、WAF、監視つき 最後の2行がこの話の核心です。実装は完璧に近かった。それでも1円も稼げなかった。 「AI で作ったから雑だった」という話ではありません。むしろ逆で、AI 駆動開発によって実装品"
     },
     {
-      "id": "cc_5272a2e6",
-      "title": "Prompt caching is everything ―― Claude Codeの課金構造をサクッと理解",
-      "url": "https://zenn.dev/just2enough/articles/00230875e26b34",
+      "id": "cc_23997a8f",
+      "title": "Claude Code ベストプラクティス実践ガイド（2026年7月版）",
+      "url": "https://zenn.dev/gingakuwagata/books/claude-code-best-practices",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749707+00:00",
-      "excerpt": "まとめ：Claude Code Usageを節約する観点でやってはいけない3つの操作 ! セッション途中のモデル切替（安いモデルに切り替えたつもりが、むしろ高くつく） 会話の途中でツール（MCP含む）を追加・削除（それまでの節約効果が全部無効になる） 重いセッションを、5分以上の放置を挟みながらダラダラ延命（休憩のたびに見えないペナルティ） Anthropicが公式ブログに「Lessons fro"
+      "fetchedAt": "2026-07-20T03:58:56.170118+00:00",
+      "excerpt": "Claude Codeをすでに使っている開発者向けに、公式ベストプラクティスと2026年6〜7月の最新アップデートを一冊でキャッチアップするガイド。コンテキスト管理の大原則、検証手段の渡し方、プランモードとスペック駆動、CLAUDE.mdの刈り込み、Skill・Hook・Subagent・MCPの使い分け、権限設定、並列セッションやエージェントチームによるスケールまで、いま有効な実践則だけを扱いま"
     },
     {
-      "id": "cc_6dc07aa6",
-      "title": "AIの\"それっぽい答え\"は品質ゲートで潰せる――コンサルの型をClaude Codeに移植した話",
-      "url": "https://zenn.dev/ai_jarvis/articles/2a98a24950b7fc",
+      "id": "cc_bd562768",
+      "title": "Claude Codeは開発者だけのものじゃない ― 週次レビュー・意思決定・タスク管理を任せる個人業務基盤",
+      "url": "https://zenn.dev/aizuchi_works/articles/de5a4588444897",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749626+00:00",
-      "excerpt": "Claude Codeに調査や文書作成を任せると、驚くほど滑らかな答えが返ってくる。問題は、間違っているときも同じくらい滑らかなことだ。 私はコンサルティングの現場でAIエージェントを日常運用している。数十本の成果物をAIと作る中で確信したのは、「良いプロンプト文」を探すより、出力を通すゲートを設計する方が圧倒的に効くということだった。この記事では、その中で最も費用対効果が高かった「着手前の一手」"
+      "fetchedAt": "2026-07-20T03:58:56.170030+00:00",
+      "excerpt": "ターミナル=開発者の道具、という思い込み Claude Code は「コーディングエージェント」として紹介されることがほとんどです。でも数か月使い込んだ今、私の中での位置づけは変わりました。これは個人の業務基盤（バックオフィス）である、と。 私は一人でスモールビジネスを複数運用しています。コードも書きますが、業務時間の多くは開発ではありません。顧客候補への連絡、意思決定、週次の振り返り、タスクの棚"
     },
     {
-      "id": "cc_762a1cb8",
-      "title": "Claude Code スキルの効果をA/Bで実測する自作ハーネスの作り方",
-      "url": "https://zenn.dev/nayu_ai/articles/0ec406a8299b1f",
+      "id": "cc_9a145184",
+      "title": "Claude CodeはOpenRouterで動かすべき？Windowsでの環境構築とハマり道回避ガイド",
+      "url": "https://zenn.dev/lluminai_tech/articles/538f1281268587",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749531+00:00",
-      "excerpt": "スキルやプラグインを入れて「なんとなく良くなった気がする」——その判定、体感で終わっていませんか。 この記事では、Claude Code のスキル導入効果を claude -p（headless＝対話なしの一括実行モード）で自動 A/B 計測する自作ハーネスの実装を、コピペで再現できる形で解説します。 使い捨て worktree による隔離、機械計測＋独立 LLM judge、判定基準の事前登録、"
+      "fetchedAt": "2026-07-20T03:58:56.169962+00:00",
+      "excerpt": "はじめに ルミナイR&Dチームの宮脇彰梧です。 現在はマルチモーダルAIの研究を行う大学院生として、生成AIやAIエージェントの技術を実践的に探求しています。 AnthropicがリリースしたCLIエージェント「Claude Code」、ターミナルから直接コードを生成・編集してくれて最高ですよね。ただ、「Anthropic APIの課金設定が面倒」「OpenRouterのクレジットが余ってるからそ"
     },
     {
-      "id": "cc_c3c003c8",
-      "title": "「Claude Code」「Codex」「Gemini」の3大AIエージェントを同時に飼い慣らす、近未来のソロ開発ワークフロー",
-      "url": "https://zenn.dev/ququla89/articles/three-ai-agents-solo-workflow",
+      "id": "cc_968e5ca6",
+      "title": "【Claude Code】“無限にいる超優秀な部下”のマネジメント論 〜AIの力を100%引き出す3つの観点〜",
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-infinite-subordinates",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749420+00:00",
-      "excerpt": "はじめに：1体のAIチャットに頼る時代の終わり ChatGPTやClaude、Geminiといった優秀なLLM（大規模言語モデル）の登場により、私たちのプログラミング環境は劇的に変化しました。しかし、ブラウザのチャットUIにコードを貼り付けて「このエラーを直して」と頼むだけの開発スタイルは、すでに過去のものになりつつあります。 現在、開発シーンの最前線では、ローカル環境やOS、ファイルシステム、さ"
+      "fetchedAt": "2026-07-20T03:58:56.169879+00:00",
+      "excerpt": "こんにちは、Webエンジニアのまさぴょんです！ Claude Codeを実案件(AI開発のPoC)で毎日使い込んでいるうちに、私の中で決定的に捉え方が変わった瞬間がありました。 Claude Codeは「ただの役立つツール」ではなく、「無限にいる超優秀な部下」である。 このことを理解した瞬間、やるべきことが全部ひっくり返りました。 プロンプトを磨く話ではなくなり、部下に気持ちよく最大出力で働いても"
     },
     {
-      "id": "cc_c43ba51a",
-      "title": "Claude Codeの日本語入力が荒ぶる問題がWezTerm Nightlyビルドで解決した",
-      "url": "https://zenn.dev/nuresen/articles/claude-code-ime-wezterm",
+      "id": "cc_de68fef6",
+      "title": "Claude Codeの手戻りは事前に検知できるか — 自分のセッションログ392本で遡及検証した",
+      "url": "https://zenn.dev/jnch/articles/f093d1e35e5f70",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749350+00:00",
-      "excerpt": "TL;DR WSL2 + WezTerm で Claude Code の TUI に日本語入力すると表示が乱れる（変換候補が変な場所に出る、IME 切り替え直後に荒ぶる） 原因は WezTerm 安定版（20240203）が2年以上更新されておらず、IME まわりの修正が nightly にしか入っていないこと nightly ビルドに更新するだけで解決。ime_preedit_rendering"
+      "fetchedAt": "2026-07-20T03:58:56.169813+00:00",
+      "excerpt": "TL;DR 問い: Claude Codeセッションの手戻り（後で気づいてやり直す作業）は、セッションの軌跡から事前に検知できるか 方法: 自分のセッションログ392本から手戻り群5本・正常群8本を選び、決定的メトリクス3指標を遡及適用した。判定に使う採用基準は、集計前にgitへコミットして固定した（個人開発版の事前登録） 結果: 3指標のいずれも基準を満たさなかった。ただし「ファイル接触範囲の乖"
     },
     {
-      "id": "cc_605ade5e",
-      "title": "Claude Codeのコンテキスト膨張でトークン溶かしまくりに悩まされた結果、MCPサーバーを作って解決した話",
-      "url": "https://zenn.dev/alphalab/articles/ai-context-persistence-patterns",
+      "id": "cc_5eecea0c",
+      "title": "Claude Code に iOSアプリの E2Eテスト までやらせるようにした（iOSシミュレータ + AXe）",
+      "url": "https://zenn.dev/peka2/articles/5530ea62d3c78d",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-19T19:14:53.749248+00:00",
-      "excerpt": "何の話か Claude Code で個人開発をしていて、毎朝セッションを開くたびに同じ説明をやり直す。昨日決めた設計方針を覚えていない。一度却下した方式をまた採用する。決めた命名規則と違うコードを書く。 この「積み上がらない」問題を解決するために、セッション間の判断だけを引き継ぐ MCP サーバー (handoff-mcp) と、進捗を可視化する VSCode 拡張 (handoff-vscode"
+      "fetchedAt": "2026-07-20T03:58:56.169742+00:00",
+      "excerpt": "30秒まとめ Claude Codeは標準の xcrun simctl だけでもビルド・起動・スクリーンショットまではできます 足りないのはタップとスワイプだけで、そこを AXe というCLIが埋めてくれます 導入は brew 1コマンドです あとは「シミュレータで動作確認して」と頼むだけで、操作→スクショ→確認のループをClaude Codeが自分で回してくれます AXeを入れる brew in"
+    },
+    {
+      "id": "cc_4cf5d835",
+      "title": "claude -pの--effortをlowからmaxに上げたら、出力量が4倍に増え、同じ質問への答えまで変わった",
+      "url": "https://zenn.dev/numarn/articles/claude-effort-level-diff-handson",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-20T03:58:56.169642+00:00",
+      "excerpt": "claude -p(Claude Codeを対話なしで1回だけ呼ぶモード)の --help を見ていたら、これまで使ったことのないオプションに気づきました。--effort です。low / medium / high / xhigh / max のどれかを指定でき、説明文には「セッションの努力レベル」とだけ書いてあります。バッチ処理の中で claude -p を使うとき、コストや速さを気にして低"
     },
     {
       "id": "cc_cc8a2c1a",
@@ -197,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.099820+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.375106+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -207,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.099932+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.375174+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -217,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.100026+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.375232+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -227,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.100115+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.375313+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -237,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.322034+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.551853+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -247,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.322092+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.551913+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -257,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-19T19:14:54.322188+00:00",
+      "fetchedAt": "2026-07-20T03:58:56.551982+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-19T19:14:54.322209+00:00"
+  "lastCollection": "2026-07-20T03:58:56.551996+00:00"
 }
