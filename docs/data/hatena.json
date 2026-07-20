@@ -5,422 +5,360 @@
       "title": "【海外記事紹介】余ったMacをClaude Code専用の「何でもやらせるマシン」にする — SSH・tmux・LaunchAgentで権限フル解放のエージェント環境を構築",
       "url": "https://techfeed.io/entries/6a5be90b3d5307dbb0d5d745",
       "domain": "techfeed.io",
-      "bookmarkCount": 208,
+      "bookmarkCount": 298,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a5be90b3d5307dbb0d5d745",
       "comments": [
         {
-          "user": "mayumayu_nimolove",
-          "comment": "とっくにやってる",
+          "user": "regularexception",
+          "comment": "余ったPC/MacならClaudeCodeじゃなくてローカルLLM動かしたい",
           "tags": [],
-          "timestamp": "2026/07/20 12:55"
+          "timestamp": "2026/07/20 18:05"
         },
         {
-          "user": "sionsou",
-          "comment": "余ったMacとは",
+          "user": "pendamadura",
+          "comment": "リモートならchatGPTの方が使いやすくね",
           "tags": [],
-          "timestamp": "2026/07/20 12:46"
+          "timestamp": "2026/07/20 16:27"
         },
         {
-          "user": "kuippa",
-          "comment": "今なら環境構築もFable任せでできるし。おるま入れてOpenWebにして立ててみたけど非力すぎて経済制裁でAI禁止でもされんといらんかなってなってる。まあ、従量課金な未来は見えてるからな",
+          "user": "ak1024",
+          "comment": "意外とめんどくさいな。来年には全部自動で入るんじゃないの",
           "tags": [],
-          "timestamp": "2026/07/20 12:36"
-        },
-        {
-          "user": "hagane",
-          "comment": "昔読んだ植田まさしの4コマ(たしかかりあげくん)のネタ、テレビから流れてきた「鯛茶漬け。鯛のお刺身が余ったら作りましょう」というのに対して「鯛の刺身が余るわけねーだろﾊﾞｰﾛ」っていうやつを思い出した。",
-          "tags": [],
-          "timestamp": "2026/07/20 12:25"
-        },
-        {
-          "user": "mska",
-          "comment": "computer use操作奪われるからな。",
-          "tags": [],
-          "timestamp": "2026/07/20 12:16"
-        },
-        {
-          "user": "kurokuma810",
-          "comment": "身代わり防壁",
-          "tags": [],
-          "timestamp": "2026/07/20 11:49"
-        }
-      ],
-      "fetchedAt": "2026-07-20T03:58:52.326908+00:00"
-    },
-    {
-      "id": "h_64844b23",
-      "title": "稼げないと言われる農業で｢時給6000円｣を叩き出す…国産キウイで｢キーエンス超え｣を目指す元県庁職員の戦略",
-      "url": "https://president.jp/articles/-/115203",
-      "domain": "president.jp",
-      "bookmarkCount": 134,
-      "summary": "ビタミンや食物繊維が豊富なフルーツとして人気のキウイ。国内消費量は年間約12万トンに達する一方、国産生産量は最盛期の約3分の1まで激減している。この流れに戦いを挑む元県庁職員がいる。農業ライターの鈴木雄人さんは「香川県の職員時代に11種類もの品種を開発した末澤克彦さんは、キウイ業界のレジェンドと呼ばれ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/president.jp/articles/-/115203",
-      "comments": [
-        {
-          "user": "strange",
-          "comment": "「年収換算すると、日本人の平均年収を大きく超える、約1100万円という高水準」は、経営者として悪くはなくても高水準はいいすぎな気がするが、定年退職後だしそんなに金はいらないか",
-          "tags": [],
-          "timestamp": "2026/07/20 12:46"
-        },
-        {
-          "user": "sjn",
-          "comment": "”アプリ「フルーツ棚次郎」“",
-          "tags": [],
-          "timestamp": "2026/07/20 12:40"
-        },
-        {
-          "user": "b9rantan8",
-          "comment": "みんなで真似して潰すしかないな！",
-          "tags": [],
-          "timestamp": "2026/07/20 12:04"
-        },
-        {
-          "user": "yngsw",
-          "comment": "パートの時給は低く抑えて、経営者の時給が6000円という話だった",
-          "tags": [],
-          "timestamp": "2026/07/20 11:57"
-        },
-        {
-          "user": "darudaru8",
-          "comment": "農家だけど同じことやってるはずなのに所得差えぐい気がしてる。意味わかんない。",
-          "tags": [],
-          "timestamp": "2026/07/20 11:52"
-        },
-        {
-          "user": "hkdn",
-          "comment": "読んだ。社員じゃなくて社長の時給かよ。",
-          "tags": [],
-          "timestamp": "2026/07/20 11:23"
-        }
-      ],
-      "fetchedAt": "2026-07-20T03:58:53.272171+00:00"
-    },
-    {
-      "id": "h_ca0f94d1",
-      "title": "E2Eテストをユニットテスト並みの実行時間に — Playwright並列化とGitHub Actionsチューニングの実践",
-      "url": "https://zenn.dev/berry_blog/articles/39392e1da7ca71",
-      "domain": "zenn.dev",
-      "bookmarkCount": 128,
-      "summary": "私たちのチームでは、品質管理システム（QMS）SaaS「QMSmart」の開発で、約 100 spec / 140 テストケースの E2E テストを、PR ごとに CI で自動実行し、wall-clock 6〜8 分で完走させる運用が回っています。これはユニットテスト（Vitest）の CI とほぼ同じ所要時間です。 本記事では、これを実現するために行った 並列...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/berry_blog/articles/39392e1da7ca71",
-      "comments": [
-        {
-          "user": "strawberryhunter",
-          "comment": "workers: 5（light）/ 3（heavy）か。並列度に重要なのは空きメモリだけど、GitHub Actionsの環境だから何も書いてないんだろう。ユニットテスト並みとか盛るから、てっきり複数マシンで分散テストでもするのかと思った。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/07/20 11:50"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "E2Eテストが6分で終わるの環境として最高すぎる。Actionsの並列化とキャッシュの最適化は真似したい",
-          "tags": [],
-          "timestamp": "2026/07/20 07:08"
-        }
-      ],
-      "fetchedAt": "2026-07-20T03:58:55.716915+00:00"
-    },
-    {
-      "id": "h_ba96ef43",
-      "title": "「アルゴリズム」が大っ嫌い？ ならRSSを使いなさいよ » p2ptk[.]org",
-      "url": "https://p2ptk.org/digital-rights/5632",
-      "domain": "p2ptk.org",
-      "bookmarkCount": 78,
-      "summary": "以下の文章は、電子フロンティア財団の「Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For」という記事を翻訳したものである。 Electronic Frontier Foundation オンラインのソーシャルネットワーク――あるいはインターネット文化をめぐるあらゆる会話――を軽く覗くだけでも、たいてい1人か2人の怪...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/digital-rights/5632",
-      "comments": [
-        {
-          "user": "Lycoris_i",
-          "comment": "ニュースサイト系を入れるとすぐ氾濫するので、更新されたら全部読みたいけど忘れた頃にたまにしか更新しないブログとかを購読するようになった。そのためリーダーは今はZoteroで十分。",
-          "tags": [
-            "rss",
-            "インターネット"
-          ],
-          "timestamp": "2026/07/20 12:52"
-        },
-        {
-          "user": "netafull",
-          "comment": "今はAIでRSSリーダーも作れるしなぁ。ぼくはWebマンガ専用のRSSリーダーを作って愛用してます。RSS便利！ “RSSは流行っては廃れ、死を宣告され、そのたびに蘇ってきた。”",
-          "tags": [],
-          "timestamp": "2026/07/20 12:46"
-        },
-        {
-          "user": "chaoschk",
-          "comment": "自分好みのニュースや科学技術、経営経済の情報収集の自動化をAIに相談したら、RSS活用、自動巡回、巡回先の探索のアプリを提案された。探索はAIと指示相談し、読んだ記事で学習される。試しに作ってみる。良い時代。",
-          "tags": [],
-          "timestamp": "2026/07/20 12:43"
+          "timestamp": "2026/07/20 15:03"
         },
         {
           "user": "ryouchi",
-          "comment": "会社では気になるRSS FeedをTeamsのチャネルに投げるFlowを作って使ってるなぁ",
+          "comment": "まず余っているMacがない",
           "tags": [],
-          "timestamp": "2026/07/20 12:32"
+          "timestamp": "2026/07/20 14:58"
         },
         {
-          "user": "rdlf",
-          "comment": "はてなアンテナもRSSリーダーで見ているが…",
+          "user": "nac1339",
+          "comment": "うちには余ったMacが3、4台転がってるけど、余らないの？",
           "tags": [],
-          "timestamp": "2026/07/20 12:17"
+          "timestamp": "2026/07/20 14:38"
         },
         {
-          "user": "akisibu",
-          "comment": "アルゴリズム「これ、お好きでしょ」儂「今じゃない」が多過ぎ問題。興味•関心の一軍二軍入れ替えでFeedlyとInoreaderで行き来、アーカイブ吟味用のRaindrop.io、見返すとどのタイミングでどの情報を摂取してるか自覚する。",
+          "user": "nmmmmn1",
+          "comment": "個人のであれば OpenClaw とかでいいのでは？",
           "tags": [],
-          "timestamp": "2026/07/20 12:10"
+          "timestamp": "2026/07/20 14:34"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:53.533786+00:00"
+      "fetchedAt": "2026-07-20T09:26:58.006501+00:00"
     },
     {
       "id": "h_57bfb143",
       "title": "「仕事を辞めるとボケる」は本当なのか？ ベトナム高齢者2000人超を早大などが分析",
       "url": "https://www.itmedia.co.jp/news/articles/2607/17/news082.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 74,
+      "bookmarkCount": 250,
       "summary": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/17/news082.html",
       "comments": [
         {
-          "user": "pqw",
-          "comment": "21世紀なのに闇深いな「ベトナムの法定退職年齢（男性60歳、女性55歳）」",
+          "user": "yoshihiroueda",
+          "comment": "国民性の違いがあるだろうな。ベトナム人が自分がやりたいことを抑えて仕事しているのに対して、日本人は仕事を生き甲斐にしすぎるという理由があるんじゃないか。",
           "tags": [],
-          "timestamp": "2026/07/20 12:55"
+          "timestamp": "2026/07/20 18:24"
         },
         {
-          "user": "strange",
-          "comment": "「50歳から65歳まで」で「性交渉を持つ人の割合も増加」してるの元気だな",
+          "user": "hilda_i",
+          "comment": "仕事を辞めて仕事関係の縁が切れても地元コミュニティに所属してるから元気になる説もあって、やっぱりボッチはいけない可能性あるわね。",
           "tags": [],
-          "timestamp": "2026/07/20 12:51"
+          "timestamp": "2026/07/20 18:11"
         },
         {
-          "user": "sionsou",
-          "comment": "労働が悪ではあるし、正確にはその分を他のことに時間が使えるという話。他人と話しても良いし、好きなことや運動したり。丁寧な暮らしをすることで体も労り通院も出来て健康体になる。だから女性が長生きなのよ",
+          "user": "akiramaz",
+          "comment": "ベトナムのひとは仕事がなければ家族や友人らとよく話、よく遊ぶので、そういうことが良いのだと思う。仕事を辞めてなお遊んでくれる人が自分にいるのかどうか、、",
           "tags": [],
-          "timestamp": "2026/07/20 12:49"
+          "timestamp": "2026/07/20 18:08"
         },
         {
-          "user": "sjn",
-          "comment": "早く退職しなくちゃ…！",
+          "user": "tobira70",
+          "comment": "人種違うとかなり結果違いそうだけども…",
           "tags": [],
-          "timestamp": "2026/07/20 12:43"
+          "timestamp": "2026/07/20 18:06"
         },
         {
-          "user": "longyang",
-          "comment": "ベトナム人の老後は日本人の老後とだいぶ違うと思う。家族や親戚付き合いも多いし孤独な老人はあまり見ない。会社以外の人間関係が希薄な高齢者が退職したら悲惨だが、そうでなければ65はまだまだかと。",
-          "tags": [
-            "ベトナム",
-            "社会"
-          ],
-          "timestamp": "2026/07/20 12:38"
+          "user": "kawabata100",
+          "comment": "退職によって認知機能が改善するということが明らかになった＞ そりゃそうだ。仕事で時間奪われてたら思考力も落ちる。ただし、金に困るのも思考力が落ちる",
+          "tags": [],
+          "timestamp": "2026/07/20 18:02"
         },
         {
-          "user": "HDPE",
-          "comment": "運動瞑想睡眠野菜についても分析してほしい",
+          "user": "uva",
+          "comment": "労働は体に悪い！心置きなくFIREできるね！",
           "tags": [],
-          "timestamp": "2026/07/20 12:35"
+          "timestamp": "2026/07/20 17:49"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:52.974854+00:00"
+      "fetchedAt": "2026-07-20T09:26:55.415371+00:00"
     },
     {
-      "id": "h_6be5c567",
-      "title": "AIエージェントに仕様書なしで実装させると何が起きるか — O'Reillyが説く「適切な仕様量」の見極め方",
-      "url": "https://techfeed.io/entries/6a5ab5cb3d5307dbb0d5779b",
-      "domain": "techfeed.io",
-      "bookmarkCount": 61,
-      "summary": "7月17日、O'Reillyが「The Right Amount of Spec for Agentic Development」と題した記事を公開した。AIエージェントで「仕様書はもう要らない」という空気が広がるなか、「ゼロ仕様は安くない」という逆説から出発し、ボトルネックの移動・マルチエージェント間の「契約」概念・仕様の賞味期限まで、実装コストが激減し...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a5ab5cb3d5307dbb0d5779b",
+      "id": "h_ba96ef43",
+      "title": "「アルゴリズム」が大っ嫌い？ ならRSSを使いなさいよ » p2ptk[.]org",
+      "url": "https://p2ptk.org/digital-rights/5632",
+      "domain": "p2ptk.org",
+      "bookmarkCount": 193,
+      "summary": "以下の文章は、電子フロンティア財団の「Hate “The Algorithm?” RSS Is One of the Tools You’ve Been Looking For」という記事を翻訳したものである。 Electronic Frontier Foundation オンラインのソーシャルネットワーク――あるいはインターネット文化をめぐるあらゆる会話――を軽く覗くだけでも、たいてい1人か2人の怪...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/digital-rights/5632",
       "comments": [
         {
-          "user": "otologie",
-          "comment": "動作を確認してからこれが求めてたものだと仕様が決まりそうではあるけど。同時接続数とかも含めてだろうな。",
+          "user": "ryou-takano",
+          "comment": "FeedlyのPro+プラン（年2万4000円）を半ば応援の意味を込めて契約している。RSS未配信のメディアでもRSS Builderを使うと更新情報が取得できて便利。まあ、Pro+でも件数上限が厳しくてぜんぜん足らないんだけど。",
           "tags": [],
-          "timestamp": "2026/07/20 11:32"
+          "timestamp": "2026/07/20 17:34"
         },
         {
-          "user": "mmaka2787",
-          "comment": "コア部分の実装は仕様書に時間をかけるよりVibeでさくっと作ってしまった方がよいことも多い。一方で機能/非機能の作り込みをしようとすると不要なctxの汚染や対話の往復でQCの劣化や時間の浪費につながる。",
+          "user": "pribetch",
+          "comment": "ちょっとしゃがんで　くりひろい",
           "tags": [],
-          "timestamp": "2026/07/20 11:31"
+          "timestamp": "2026/07/20 17:29"
         },
         {
-          "user": "pmint",
-          "comment": "この記事自体に読む価値はない。話題が古すぎる。要求を書くのが正しい。というか、何もかも分からないならAIに聞いて、分かっているふりをしないのが人として正しいあり方。AIの話をすると人間性がばれる。",
+          "user": "FreeCatWork",
+          "comment": "アルゴリズムより飼い主様のぬくもりが一番にゃ！RSSなんて難しくて爪研いじゃうにゃ。撫でてほしいにゃん！",
+          "tags": [],
+          "timestamp": "2026/07/20 17:17"
+        },
+        {
+          "user": "daiouoka",
+          "comment": "ウェブマンガは大チェッカーに登録してる→https://daichkr.hatelabo.jp/antenna/2261701278492584714",
           "tags": [
-            "*",
-            "なんだこれ"
+            "コメント"
           ],
-          "timestamp": "2026/07/20 10:54"
+          "timestamp": "2026/07/20 16:54"
         },
         {
-          "user": "zgmf-x20a",
-          "comment": "仕様をちゃんと渡さないといけない派だけど、それだとVibeコーディングにならないのでは？",
+          "user": "yuuki5555",
+          "comment": "BazQux",
           "tags": [],
-          "timestamp": "2026/07/20 09:57"
+          "timestamp": "2026/07/20 16:43"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "結局何を作りたいかを明確にする人間の言語化能力が一番のボトルネックになるといういつもの結論だな",
+          "user": "altar",
+          "comment": "RSSリーダを既読管理付きフロントエンドとして使ってRSSを返すラッパーを自分で書くんだけど、そこまで実装するならフロントエンドにRSSリーダを使うのは最適解なのかという疑問を抱える今日この頃。",
           "tags": [],
-          "timestamp": "2026/07/20 07:08"
+          "timestamp": "2026/07/20 16:18"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:54.484223+00:00"
+      "fetchedAt": "2026-07-20T09:26:56.556359+00:00"
+    },
+    {
+      "id": "h_64844b23",
+      "title": "稼げないと言われる農業で｢時給6000円｣を叩き出す…国産キウイで｢キーエンス超え｣を目指す元県庁職員の戦略",
+      "url": "https://president.jp/articles/-/115203",
+      "domain": "president.jp",
+      "bookmarkCount": 192,
+      "summary": "ビタミンや食物繊維が豊富なフルーツとして人気のキウイ。国内消費量は年間約12万トンに達する一方、国産生産量は最盛期の約3分の1まで激減している。この流れに戦いを挑む元県庁職員がいる。農業ライターの鈴木雄人さんは「香川県の職員時代に11種類もの品種を開発した末澤克彦さんは、キウイ業界のレジェンドと呼ばれ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/president.jp/articles/-/115203",
+      "comments": [
+        {
+          "user": "ayumun",
+          "comment": "キウイはコスパ良いだろな。ただ、オスの木とメスの木があるから2本セットで植えて受粉させないとダメだし、結構大きくなるのでお庭広い人向き。今や温暖化で宮城辺りでもいっぱい成る。",
+          "tags": [],
+          "timestamp": "2026/07/20 17:27"
+        },
+        {
+          "user": "koubemise",
+          "comment": "どの業種でもそうなんだけど、「稼げない」「レッドオーシャン」って言われていても稼ぐ企業や人はいるわけで、結局のところは「商才の有無」なんだと思ってる。",
+          "tags": [],
+          "timestamp": "2026/07/20 16:58"
+        },
+        {
+          "user": "kamiokando",
+          "comment": "庭があったらキウイを植えるのおすすめ。冬になると大量に実がなる。害虫にも強い。蜂がいない所では受粉が大変かも。",
+          "tags": [],
+          "timestamp": "2026/07/20 16:43"
+        },
+        {
+          "user": "tanagosandwich",
+          "comment": "昨年、山梨県産のシャインマスカットがえらい安く市場に出回ってよねー。",
+          "tags": [],
+          "timestamp": "2026/07/20 16:21"
+        },
+        {
+          "user": "inks",
+          "comment": "これは確かに凄い。建設技術者でも良くて４～５０００円の世界。ただこっちの方がより天気に影響されそう。",
+          "tags": [],
+          "timestamp": "2026/07/20 15:45"
+        },
+        {
+          "user": "georgew",
+          "comment": "各都道府県がこのオリジナル品種の開発とブランド化という同質戦略の下で、手間と暇をかけて狙う高単価な果物に消費者は着いてこれていません > これは痛感。この状態だと贈答品以外は需要皆無となる。",
+          "tags": [],
+          "timestamp": "2026/07/20 15:42"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:26:58.609355+00:00"
+    },
+    {
+      "id": "h_8ac252b1",
+      "title": "「生成AI禁止です」「誤字チェックとかも」「ダメです」「「「えっ……？」」」第２回ダンガン文庫大賞のルールで大モメ",
+      "url": "https://posfie.com/@lenchroot/p/AVSFamQ",
+      "domain": "posfie.com",
+      "bookmarkCount": 118,
+      "summary": "https://lp.bookbase.jp/bosyu/xEPKRwYv 第２回ダンガン文庫大賞 (抜粋) 注意事項 ・公序良俗に反しないこと ・明確なR18描写が描かれていないこと ・未発表作品であること（すでにWeb等に掲載済みの作品はNG） ・企画や文章の作成において、生成AIの利用を禁止いたします。使用が発覚した場合には、いかなる理由であろ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@lenchroot/p/AVSFamQ",
+      "comments": [
+        {
+          "user": "t-murachi",
+          "comment": "「誤字脱字チェックも駄目」がそんなに無理なの? ていうかまだ実用化されて数年程度のツールを封じられたぐらいで音を上げちゃう書き手ばっかりなの? (煽",
+          "tags": [
+            "Twitter",
+            "hoge",
+            "AI",
+            "ネットイナゴ"
+          ],
+          "timestamp": "2026/07/20 18:25"
+        },
+        {
+          "user": "homarara",
+          "comment": "ガキにうざ絡みされて可哀想。小説の公募で『生成AI禁止』と言われて何をしちゃダメかも分からん奴が社会人に話しかけるな。",
+          "tags": [],
+          "timestamp": "2026/07/20 18:25"
+        },
+        {
+          "user": "big_song_bird",
+          "comment": "この主宰者のオタペン社長って、創作講座開いてるのを聞いたことがある。かなりぶっちゃけたことをあけすけに言う人なので、反抗するには相当覚悟が要ると思うよｗ。",
+          "tags": [
+            "ダンガン文庫",
+            "投稿",
+            "創作",
+            "生成AI",
+            "オタペン社長",
+            "ダンガン文庫大賞",
+            "反生成AI"
+          ],
+          "timestamp": "2026/07/20 18:23"
+        },
+        {
+          "user": "iksmpic",
+          "comment": "AIで作ったもの採用しても次につながらないからなぁ",
+          "tags": [],
+          "timestamp": "2026/07/20 18:16"
+        },
+        {
+          "user": "tamtam3",
+          "comment": "未発表作品っていう条件で、そっ閉じ",
+          "tags": [],
+          "timestamp": "2026/07/20 18:10"
+        },
+        {
+          "user": "m-kawato",
+          "comment": "誤字チェックあたりは藪蛇ってやつじゃないのか",
+          "tags": [],
+          "timestamp": "2026/07/20 18:02"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:26:57.333685+00:00"
     },
     {
       "id": "h_dd78d513",
       "title": "ループエンジニアリングの次は本当に「グラフ」なのか考えてみた",
       "url": "https://zenn.dev/jodycraft/articles/dfe38e73e1ef8a",
       "domain": "zenn.dev",
-      "bookmarkCount": 51,
+      "bookmarkCount": 97,
       "summary": "📋 この記事の前提 前回記事「ループエンジニアリングをGitHub Copilotで組めるか調べてみた」を読んでいると話が早い 「ハーネスエンジニアリング」「ループエンジニアリング」という言葉を見聞きしたことがある この記事は2026年7月18日時点、生まれて1日も経っていない議論を扱っている。数日後には前提が変わってい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/jodycraft/articles/dfe38e73e1ef8a",
       "comments": [
         {
-          "user": "mayumayu_nimolove",
-          "comment": "こういう人って自分で何か生み出したことあるんだろうか",
+          "user": "atsushieno",
+          "comment": "AIが他人の考えをまとめただけだった",
           "tags": [],
-          "timestamp": "2026/07/20 12:56"
+          "timestamp": "2026/07/20 18:11"
         },
         {
-          "user": "okupro",
-          "comment": "AI「まだループで消耗してるの？」",
+          "user": "jintrick",
+          "comment": "ループ任せられるモデルがないからハーネスとやらで止まってるわ",
           "tags": [],
-          "timestamp": "2026/07/20 12:48"
+          "timestamp": "2026/07/20 15:11"
         },
         {
-          "user": "karatte",
-          "comment": "この最初にネーミングありき界隈のムーブなんなの",
+          "user": "RySa",
+          "comment": "近いうちにAI開発用のフレームワークが出来るはずでそうしたらもうこういう創意工夫トレンドを追う必要は無くなると思う。それまではフワフワした技術バズワード達をせいぜい楽しむが良いさ。",
           "tags": [],
-          "timestamp": "2026/07/20 11:47"
+          "timestamp": "2026/07/20 15:02"
         },
         {
-          "user": "whalebone",
-          "comment": "『一周回って「良い設計・良い検証とは何か」という古い問いに戻ってきているだけ、という見方もできる』",
-          "tags": [
-            "design",
-            "engineering",
-            "一周"
-          ],
-          "timestamp": "2026/07/20 11:25"
+          "user": "diveintounlimit",
+          "comment": "とりあえず名前が付いた何かに飛びつく、AIに限った話じゃなくてこれをずっと繰り返している。",
+          "tags": [],
+          "timestamp": "2026/07/20 14:28"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "配線をいくら緻密にしても、結局は各分岐の「判定の精度」が品質を決定づけるって考察は面白い",
+          "user": "T-norf",
+          "comment": "ループだと最初に戻る経路のみだけど、グラフなら任意のポイントの戻るトポロジーがありうるってだけの話？　もともとハーネスを内包した話なので脱線しない範囲では、いろいろな経路はあるはずで。理解が全然甘い？",
           "tags": [],
-          "timestamp": "2026/07/20 10:41"
+          "timestamp": "2026/07/20 14:13"
         },
         {
-          "user": "hogetax",
-          "comment": "「ここからは考察」以降が面白かった",
+          "user": "winter123412",
+          "comment": "企業ユーザにとっては、AIコスト値上がりしすぎてまともにコードかけません ループとか金持ちの遊びでしかないw",
           "tags": [],
-          "timestamp": "2026/07/20 10:22"
+          "timestamp": "2026/07/20 13:10"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:53.839881+00:00"
+      "fetchedAt": "2026-07-20T09:27:00.624231+00:00"
     },
     {
-      "id": "h_eed81784",
-      "title": "AIサーバー部品数は車の40倍 デジタル革命の主役、市場はスマホ逆転 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC23AY70T20C26A6000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 26,
-      "summary": "人工知能（AI）向けデータセンターがスマートフォンをしのぐ巨大な経済圏となり始めた。最先端のAIサーバーは部品数が車の40倍超にのぼり、関連業種は多岐にわたる。産業史上、類のない巨額投資でビジネスの常識が塗り替わる「データセンターエコノミー」の新時代が到来した。7月上旬、川崎市にあるオフィスビルの会議室...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC23AY70T20C26A6000000/",
+      "id": "h_6d5060e9",
+      "title": "「自分の分身」をAIで作れ、アンソロピック社員が教えるClaude活用術5選 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/101067",
+      "domain": "forbesjapan.com",
+      "bookmarkCount": 88,
+      "summary": "デイジー・ホールマンは、Anthropic（アンソロピック）のClaude Codeチームで働いている。ロンドンで開催されたAnthropicの「Code with Claude」カンファレンスにおける彼女のセッションで、彼女は会場に集まったエンジニアたちに1つの指示を出した。 自分自身のコピー（分身）を作れ。「現時点でソフトウェアエンジニア...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/101067",
       "comments": [
         {
-          "user": "andalusia",
-          "comment": "数じゃないんだよなー。すり合わせ（インテグラル）か、組み合わせ（モジュラー）かが、問題なんだよなぁ。",
+          "user": "UriahHeep",
+          "comment": "そしてあなたはアンソロピックに使われてしまう。",
           "tags": [],
-          "timestamp": "2026/07/20 12:39"
+          "timestamp": "2026/07/20 18:00"
         },
         {
-          "user": "ET777",
-          "comment": "なんと",
+          "user": "mute0108",
+          "comment": "まだAIも運営会社もそこまで信じて任せる気になれんのよな。できたら便利なことありそうだとは思うけど",
+          "tags": [],
+          "timestamp": "2026/07/20 17:52"
+        },
+        {
+          "user": "shag",
+          "comment": "Anthropic のエンジニアは token が無限にあるかのような手法を好むけど、世間的には token は有限なのでそんなジャブジャブ使えんのよな。",
+          "tags": [],
+          "timestamp": "2026/07/20 17:50"
+        },
+        {
+          "user": "hoshitamotsu",
+          "comment": "相当に有能な人間でなければAIに何をやらせればいいのか発案することができない。ほとんどの人間は有能な誰かが示したお手本通りにしか使えず、AIは本来やらなくてもいい仕事ばかりやらされ、ゴミが量産される。",
+          "tags": [],
+          "timestamp": "2026/07/20 17:37"
+        },
+        {
+          "user": "hhungry",
+          "comment": "自分の分身ではなく自分の仕事を任せられる部下でしょ。",
           "tags": [
-            "あとで読む"
+            "AI"
           ],
-          "timestamp": "2026/07/20 12:38"
+          "timestamp": "2026/07/20 17:07"
         },
         {
-          "user": "bfoj",
-          "comment": "AI銘柄多すぎ",
+          "user": "dp212",
+          "comment": "部下を育てるときに、自分の分身を作るような気持ちでやっていけば自ずとチームのパフォーマンスは上がると思っていたけど、部下を育てづらい昨今はAIでじゃんじゃか分身を増やせということかw",
           "tags": [],
-          "timestamp": "2026/07/20 11:45"
+          "timestamp": "2026/07/20 16:55"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:55.435650+00:00"
-    },
-    {
-      "id": "h_9c94368b",
-      "title": "ゴールまで自走するだけではない？——ループエンジニアリングの本質はどこにあるのか",
-      "url": "https://zenn.dev/r_kaga/articles/a27a3879dd3ce4",
-      "domain": "zenn.dev",
-      "bookmarkCount": 22,
-      "summary": "ループエンジニアリングという言葉が流行っています。エージェントが人の手を離れて、コーディングから何から最後まで自走する。そういう話として語られることが多い気がします。 ただ、少し引っかかってもいました。それって、昔からあった話じゃなかったっけ? 一方で最近は、Software Factoryという言葉も聞くようにな...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/r_kaga/articles/a27a3879dd3ce4",
-      "comments": [
-        {
-          "user": "simplememofast",
-          "comment": "独立した確認は文脈を分けても同一モデルなら誤りが相関する。検証の独立性はモデルか評価データのどちらかを変えて初めて担保される。運用ループの弱点はここ",
-          "tags": [],
-          "timestamp": "2026/07/20 12:10"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "エージェントに自走させるだけじゃなくて、検証と回復の仕組みをどう設計するかが本質ってのは現場目線で納得感あるな",
-          "tags": [],
-          "timestamp": "2026/07/20 11:07"
-        }
-      ],
-      "fetchedAt": "2026-07-20T03:58:55.151779+00:00"
-    },
-    {
-      "id": "h_c3081d9b",
-      "title": "Figmaと実装の乖離は怠慢ではなく、構造の欠陥である｜Matz",
-      "url": "https://note.com/matz_tak/n/ne820719377e3",
-      "domain": "note.com",
-      "bookmarkCount": 19,
-      "summary": "結論デザインと実装の乖離は、運用の頑張りでは解決しません。Figmaとコードはパラダイム（表現の仕組み）が違うため、どちらか一方を「正」にした時点で、乖離は構造的に発生するからです。 私の答えはこうです。正はFigmaにもコードにも置かず、Component Spec（コンポーネント仕様書） という文書に置く。Figmaとコー...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/matz_tak/n/ne820719377e3",
-      "comments": [
-        {
-          "user": "dd41kk",
-          "comment": "Rubyの人かと思った",
-          "tags": [],
-          "timestamp": "2026/07/20 12:52"
-        },
-        {
-          "user": "yushph",
-          "comment": "課題意識は激しく同意。Specの維持コストは想像以上に高そう。",
-          "tags": [],
-          "timestamp": "2026/07/20 12:43"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "HTML/CSSの表現力を持たないFigmaをWeb開発に使うのは最初から間違いだし、スマートフォンアプリについては今やFigmaを使う必要も無いのでは、と思う。1年以上経ってまだ使ってるのが逆に興味深い。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/07/20 12:33"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "パラダイムの違いって指摘はかなり納得感ある。でも仕様書という中間生成物のメンテコストを誰が払うかで結局揉める未来が見える",
-          "tags": [],
-          "timestamp": "2026/07/20 12:09"
-        }
-      ],
-      "fetchedAt": "2026-07-20T03:58:54.707226+00:00"
+      "fetchedAt": "2026-07-20T09:26:55.954556+00:00"
     },
     {
       "id": "h_18b46426",
       "title": "docker compose up だけでシークレットを注入する docker-valsの紹介",
       "url": "https://zenn.dev/estie/articles/df0fd5f0326f9a",
       "domain": "zenn.dev",
-      "bookmarkCount": 18,
+      "bookmarkCount": 68,
       "summary": "こんにちは、estie でソフトウェアエンジニアをしている木村です。 ローカルでアプリケーションを動かすときに API キーといったシークレットをどう渡すか、地味に毎回ついてまわる問題です。.env に平文で置いたり、aws ssm get-parameter の結果を手でコピペしたり、op run と 1Password CLI で実行時に解決したりと、...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/estie/articles/df0fd5f0326f9a",
       "comments": [
@@ -431,19 +369,183 @@
           "timestamp": "2026/07/20 08:16"
         }
       ],
-      "fetchedAt": "2026-07-20T03:58:54.238785+00:00"
+      "fetchedAt": "2026-07-20T09:26:59.189698+00:00"
     },
     {
-      "id": "h_73eebfa7",
-      "title": "【今すぐ読みたい！人気記事】古いPCが無料で高機能NASに。「TrueNAS Community Edition」構築手順 - PC Watch",
-      "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2126277.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 15,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/readitnow/2126277.html",
-      "comments": [],
-      "fetchedAt": "2026-07-20T03:58:55.950663+00:00"
+      "id": "h_c3081d9b",
+      "title": "Figmaと実装の乖離は怠慢ではなく、構造の欠陥である｜Matz",
+      "url": "https://note.com/matz_tak/n/ne820719377e3",
+      "domain": "note.com",
+      "bookmarkCount": 66,
+      "summary": "結論デザインと実装の乖離は、運用の頑張りでは解決しません。Figmaとコードはパラダイム（表現の仕組み）が違うため、どちらか一方を「正」にした時点で、乖離は構造的に発生するからです。 私の答えはこうです。正はFigmaにもコードにも置かず、Component Spec（コンポーネント仕様書） という文書に置く。Figmaとコー...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/matz_tak/n/ne820719377e3",
+      "comments": [
+        {
+          "user": "tacamula",
+          "comment": "初期はFigmaレベルの柔軟さで検討と探索したいし、中後期からは構築を意識した作りにしたい。その隙間をどう埋めるかでLLM前提に文章化するのは面白い試み",
+          "tags": [],
+          "timestamp": "2026/07/20 15:01"
+        },
+        {
+          "user": "pochi-taro00",
+          "comment": "figmaの通り実装したら iOSのフォントサイズの変更に対応できなくて詰んだ",
+          "tags": [],
+          "timestamp": "2026/07/20 14:58"
+        },
+        {
+          "user": "Magicant",
+          "comment": "そもそも何で Figma と実装両方要るの? 生成するならなほさら",
+          "tags": [
+            "デザイン",
+            "プログラミング"
+          ],
+          "timestamp": "2026/07/20 14:11"
+        },
+        {
+          "user": "fn7",
+          "comment": "Rubyの人ではない",
+          "tags": [],
+          "timestamp": "2026/07/20 14:08"
+        },
+        {
+          "user": "chaoschk",
+          "comment": "デザインの要件/要求定義と非機能機能の仕様化の話。「実装」が何を指してるのか曖昧で混乱した。Figmaもコードも実装の一種。構造の欠陥というより、詳細設計が無く、その設計根拠が曖昧なことが問題。仕様書化は良い",
+          "tags": [],
+          "timestamp": "2026/07/20 13:32"
+        },
+        {
+          "user": "atsushieno",
+          "comment": "仕様記述言語の目下の課題は説得力のある標準技術の不在なんだろうと思っているけど、そういう話はやったことある人がしたほうがいいやつだな",
+          "tags": [],
+          "timestamp": "2026/07/20 13:23"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:26:59.816542+00:00"
+    },
+    {
+      "id": "h_c250aff6",
+      "title": "AIがBlenderを勝手に操作 3D制作のハードルが一気に下がった (1/4)",
+      "url": "https://ascii.jp/elem/000/004/420/4420739/",
+      "domain": "ascii.jp",
+      "bookmarkCount": 49,
+      "summary": "Anthropicの「Claude Fable 5」や、OpenAIの「GPT-5.6 Sol」を使用したCodexから、3D制作ツール「Blender」を操作する手法が注目を集めています。無料で使えることからBlenderは多くの人が利用していますが、初心者が使いこなすためのハードルはかなり高いという実情があります。しかし、AIエージェントと外部ソフトをつ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/420/4420739/",
+      "comments": [
+        {
+          "user": "naozane2",
+          "comment": "unityもUEも動かせる",
+          "tags": [],
+          "timestamp": "2026/07/20 18:21"
+        },
+        {
+          "user": "kaorun",
+          "comment": "マンガやアニメはLLMに直接出力させるより3Dモデリングさせてコンテに合わせてポージングさせて、トゥーンシェーディングって流れが合理的だと思うんだよね。",
+          "tags": [
+            "llm",
+            "cg",
+            "3d",
+            "modeling",
+            "blender"
+          ],
+          "timestamp": "2026/07/20 18:02"
+        },
+        {
+          "user": "RySa",
+          "comment": "Blenderはちょっとしたモデルを作るのでも湯水のように時間を消費するので補助AIは大歓迎。完成度を上げるにはどうせ細かい指示出しと推敲が必要だし優れた完成図を思い描けるプロの仕事は結局無くならない。",
+          "tags": [],
+          "timestamp": "2026/07/20 17:58"
+        },
+        {
+          "user": "tsubosuke",
+          "comment": "原理的にはいつかこういうことが出来るようになると思ってたけど、実際見ると凄い。",
+          "tags": [],
+          "timestamp": "2026/07/20 17:54"
+        },
+        {
+          "user": "wordi",
+          "comment": "AIが考える至高のおっぱい造形したい",
+          "tags": [],
+          "timestamp": "2026/07/20 17:43"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "MCPで連携してLLMに任せればUI覚えなくていい時代が来るのか。凄すぎるわ",
+          "tags": [],
+          "timestamp": "2026/07/20 17:09"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:26:58.268407+00:00"
+    },
+    {
+      "id": "h_04c5b7e9",
+      "title": "レビューは人間がすべきか問題：Critの紹介 - インゲージ開発者ブログ",
+      "url": "https://blog.ingage.jp/entry/2026/07/17/135429",
+      "domain": "blog.ingage.jp",
+      "bookmarkCount": 31,
+      "summary": "id:kizashi1122 です。 はじめに バイブコーディングが当たり前になってきて、プルリクエストは大量生産できるようになったのに、レビューがボトルネックになっているという話をよく聞きます。一方でレビューも AI に任せるという話や、いやそこは人間がすべきだろという議論もあります。 そもそもビジネスでシステムを...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.ingage.jp/entry/2026/07/17/135429",
+      "comments": [
+        {
+          "user": "awaytabi",
+          "comment": "皮相上滑り的。欠陥抽出密度で評価しないと、レビューのためのレビューになる。",
+          "tags": [],
+          "timestamp": "2026/07/20 15:38"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "AIが大量生産したクソコードを人間が血眼になってレビューするの不毛すぎるから、こういうツールで少しでも楽にしたい",
+          "tags": [],
+          "timestamp": "2026/07/20 13:10"
+        },
+        {
+          "user": "kiririmode",
+          "comment": "AIレビューで重要なのは、人間が差分を眺めて承認することではなく、コードを媒介としてAIに質問し、説明と修正を反復させることである。Critはその対話を、従来のコードレビューに近い操作モデルで実行可能にする",
+          "tags": [
+            "crit",
+            "review"
+          ],
+          "timestamp": "2026/07/20 12:47"
+        },
+        {
+          "user": "tmatsuu",
+          "comment": "「エージェントが変更したコードやドキュメント、ローカルで動いているアプリなどを、ブラウザ上でハイライト・コメント付きでレビューできる」「GitHubのPRレビューのような感覚で、行ごとに指摘を入れられます」",
+          "tags": [],
+          "timestamp": "2026/07/19 21:58"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:27:01.263521+00:00"
+    },
+    {
+      "id": "h_65fcf914",
+      "title": "Async React時代の宣言的UI 3: useActionStateでユーザーの操作を妨げないUXを作る",
+      "url": "https://zenn.dev/uhyo/articles/async-react-action-queue",
+      "domain": "zenn.dev",
+      "bookmarkCount": 9,
+      "summary": "useActionStateは、React 19で導入された新しいフックです。 その挙動を見ると、非同期版useReducerと言えるような挙動をします。 ただ、筆者は最近、このフックの真髄はユーザーの操作を妨げないUXを作ることにあるのではないかと考えています。ReactはUIライブラリであり、そのゴールは「良いUX」であるように思います...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/uhyo/articles/async-react-action-queue",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "処理中ボタン無効化でお茶を濁さず、楽観的更新とキューをReact標準で綺麗に組めるのは夢がある。UXの設計思想として面白い",
+          "tags": [],
+          "timestamp": "2026/07/20 18:06"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "React19のuseActionStateを非同期useReducer的に解説し、キューイング＋useOptimisticで操作を妨げないUXを実装例付きで紹介。",
+          "tags": [
+            "AI要約",
+            "useAction",
+            "useOptimis",
+            "React",
+            "解説",
+            "チュートリアル"
+          ],
+          "timestamp": "2026/07/20 17:29"
+        }
+      ],
+      "fetchedAt": "2026-07-20T09:27:01.649144+00:00"
     }
   ],
-  "lastCollection": "2026-07-20T03:58:55.950688+00:00"
+  "lastCollection": "2026-07-20T09:27:01.649171+00:00"
 }
