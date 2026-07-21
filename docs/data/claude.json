@@ -1,23 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_896da040",
-      "title": "Andrej Karpathy の LLM Wiki パターンを MulmoClaude に実装した",
-      "url": "https://zenn.dev/singularity/articles/zenn-mulmoclaude-llm-wiki",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.452986+00:00",
-      "excerpt": "はじめに Andrej Karpathy が LLM Wiki というパターンを gist で公開しています。ごく短いメモですが、LLM と資料の付き合い方について、RAG とはまるで違う筋を通しています。 これを MulmoClaude に実装しました。本記事では、パターンそのものの説明と、実際にコードに落としたときに何が設計上の勘所になったかを書きます。 RAG は毎回ゼロから思い出している "
-    },
-    {
       "id": "cc_d5297eaf",
       "title": "CLAUDE.mdの「都度参照」は都度じゃなかった — @importとSkillsの違い",
       "url": "https://zenn.dev/tamaki2026/articles/a000b6db8ab649",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.452893+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.526429+00:00",
       "excerpt": "前回は、Claude Codeに .htaccess を触らせないHook設定を書きました。今回は「余計なものを読ませない」側の話です。 結論から言うと、私が「都度参照」のつもりで書いていた設定は、都度になっていませんでした。/context で実測して気づいたので、その記録を残します。 やっていた設定 Web制作の案件で、CLAUDE.mdにこう書いていました。 ## Skills（常時参照） "
     },
     {
@@ -27,8 +17,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.452829+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.526365+00:00",
       "excerpt": "前回、「記憶は保存するものじゃない、生成するものだ」という設計の話を書いた。素材だけをNDJSONで残し、意味は文脈に合わせて毎回生成させる——そういう外部脳の設計論だった。 この記事は、その設計を積んでいた土台の話をする。より正確には、半年かけて組み上げた土台を、昨日ほとんど捨てた話だ。捨てられた、と言ってもいい。残ったコードは、その時点で190行だった。 技術の残酷さと美しさが同居する話をする"
+    },
+    {
+      "id": "cc_a9bb68f9",
+      "title": "AIと1ヶ月、企画からリリースまでClaudeで個人開発した全記録",
+      "url": "https://zenn.dev/micchymouse/articles/7acf2b917825ba",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-21T14:08:08.526264+00:00",
+      "excerpt": "はじめに 先日、連続ドラマをクール単位で管理・記録・番付する「ドラマのじかん」というアプリをリリースしました。 https://apprythm.com/doramanojikan/ 思い付いたのが2026年6月11日で、リリースしたのが2026年7月17日です。週末 + 平日夜で約1ヶ月、131コミットでした。企画・キービジュアル決め・UIデザイン・アーキテクチャ設計・実装・ストア素材作成・LP"
     },
     {
       "id": "cc_7c0088c7",
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.452679+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.526169+00:00",
       "excerpt": "今日Claude Codeを初めて契約した人へ 〜superpowersを使った快適な開発のすすめ〜 ! 初心者向け記事のつもりが少し長く堅苦しくなってしまいました。こんなに長いの読めないという方は、Claudeのチャットに \"この記事を初心者にもわかりやすく要約して https://zenn.dev/tamoko/articles/7fb7ad2c67090f\" と指示を出してみてください。 C"
     },
     {
@@ -47,138 +47,128 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.452576+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.526060+00:00",
       "excerpt": "2026/06/23にリリースされた、Slack上でClaudeを使える 「Claude Tag」 を実際に使ってみました。 本記事は仕組みの解説というよりは、使ってみた感想のまとめです。 https://www.anthropic.com/news/introducing-claude-tag https://www.youtube.com/watch?v=VojDzHaciKQ 詳しい設定方法"
     },
     {
-      "id": "cc_ade8f832",
-      "title": "Claude Code で高配当株ダッシュボードを作る",
-      "url": "https://zenn.dev/takotyan00/articles/claude-code-dividend-dashboard",
+      "id": "cc_64adab1e",
+      "title": "Claude Fable 5はどれくらい高いのか — 実測で作るコスト感覚",
+      "url": "https://zenn.dev/peoplex_blog/articles/2607-fable-5-cost-in-practice",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.431648+00:00",
-      "excerpt": "高配当株のダッシュボードを Claude Code で作ってみて、いちばん手がかかったのは銘柄を見つける部分ではありませんでした。捨てる部分です。 作ったのは、保有している高配当株の状況を管理して、次にどれを買い増すかを決めるための個人用アプリで、名前は「目利き」(Mekiki) と付けました。年間の配当が100万円になるところまで積み上げる、というのを当面の目標に置いています。 この記事は、その"
+      "fetchedAt": "2026-07-21T14:08:08.525970+00:00",
+      "excerpt": "Anthropicの最上位モデル Claude Fable 5 の料金は 入力10 / 出力50（100万トークンあたり） 。Opus 4.8のちょうど2倍、Sonnet 5の3倍強（定価比。2026年8月31日まで適用中の導入価格$2/$10と比べれば5倍）です。 「常用したらいくらかかるのか」「どういうタスクなら$10/$50がペイするのか」「コストを下げるには何ができるか」 この記事は、この"
     },
     {
-      "id": "cc_387d07f9",
-      "title": "Claude Codeのセッション実行中に、リモコン付き追加セッションをもう1つ起動する(WSL2)",
-      "url": "https://zenn.dev/acropapa330/articles/claude_code_second_session_remote",
+      "id": "cc_3d6eada7",
+      "title": "【Vol.16】【ツール別活用 #1】Claude編 — 長文執筆とコーディングの相棒として",
+      "url": "https://zenn.dev/tech_realinvent/articles/e61b5e98901cdc",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.431500+00:00",
-      "excerpt": "やりたいこと Claude Code で作業中のセッションはそのままに、もう1つ別のセッションを起動したい。しかも新しいセッションにも Remote Control(claude.ai やスマホアプリからの遠隔操作)を付けたい。 さらに欲張って、「新しいターミナルを自分で開いて claude と打つ」のではなく、作業中の Claude Code 自身にやらせてみたという記録です。 前提知識 複数セ"
+      "fetchedAt": "2026-07-21T14:08:08.525902+00:00",
+      "excerpt": "はじめに こんにちは。株式会社リアルインベントCTOです。 今回から「ツール別活用シリーズ」を始めます。生成AIによるタスク効率化・調査分析を、ツールごとに1本ずつ、実務での使い方に絞って掘り下げる連載です。初回は弊社のメインツールであるClaudeを取り上げます。 最初に種明かしをすると、このテックブログ自体、Claudeと一緒に作っています。構成の壁打ちから本文の初稿、図版、デモアプリのコード"
     },
     {
-      "id": "cc_c1dba61e",
-      "title": "Claude Codeの利用ログをOpenTelemetryで丸ごとSnowflakeに溜めて、コストと使い方を可視化する",
-      "url": "https://zenn.dev/yujmatsu/articles/20260720_claude_code_otel_snowflake",
+      "id": "cc_985c298d",
+      "title": "Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (2) - 数値の範囲チェック",
+      "url": "https://zenn.dev/xin9le/articles/5ed35a7145da77",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.431366+00:00",
-      "excerpt": "はじめに Claude Code、便利ですよね。ただ使い込むほどに気になってくるのが「自分は一体いくら使っていて、何にトークンを溶かしているのか」です。 Claude Code には OpenTelemetry (OTel) でメトリクスとイベントログをエクスポートする機能が標準搭載されています。本記事では、これをローカルの OTel Collector で受けて Snowflake に蓄積し、S"
+      "fetchedAt": "2026-07-21T14:08:08.525829+00:00",
+      "excerpt": "前回に引き続き Claude Fable 5 を利用した FastEnum のパフォーマンスチューニングについて解説していいます。今回は数値の範囲チェックについてです。該当の Pull-Request は以下。 https://github.com/xin9le/FastEnum/pull/95 Claude Fable 5 が教えてくれた高速化テクニックたち 文字列のハッシュ値生成 数値の範囲チ"
     },
     {
-      "id": "cc_625829d8",
-      "title": "AIに書かせたノートは、AIに\"監査\"させる ― Claude Codeでセカンドブレインを片付ける仕組みを作った話",
-      "url": "https://zenn.dev/yoshihiko555/articles/d93286859ea856",
+      "id": "cc_9a16eab3",
+      "title": "「仮説なしチケット」を作れなくする ── 仮説検証を強制する Claude Code プラグインを作った",
+      "url": "https://zenn.dev/toshipon/articles/hypothesis-driven-development-plugin",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.431164+00:00",
-      "excerpt": "TL;DR AIにノートを書かせ続けると、Vault は「薄いAI生成ノート」で埋まり、検索のノイズになる。いわゆる AIスラッジ だ。 ただし自分は、AIにノートを書かせるのはやめない。日々の収集・学習・発信の半自動化は今後も続ける。やめるのではなく、書かせたものを整理・監査する層をもう一段足す。その整理・監査もAI（Claude Code）に担わせた。 自作の /vault-audit スキル"
+      "fetchedAt": "2026-07-21T14:08:08.502142+00:00",
+      "excerpt": "はじめに 「仮説検証、大事なのは分かってる。でも気づいたら今日も、欲しい人がいるか確かめないまま feature を作っている」 これ、僕のことです。 kaizen-lab という仮説検証プラットフォームを自分で作って、自分でドッグフーディングしてきました。それでも、開発の勢いがつくと仮説検証の所作はあっさり吹き飛びます。ツールがあっても、「使う」という意志に依存している限り、所作は続かない。 そ"
     },
     {
-      "id": "cc_4e48a526",
-      "title": "Claude Codeって本当に使えるの？介護士が実際にアプリを作ってみた",
-      "url": "https://zenn.dev/yuki_engineer08/articles/2026-06-30-caregiver-honest-review-claude-code",
+      "id": "cc_530e232b",
+      "title": "Claude Codeを2時間おきに回してVS Code拡張mdエディタを育てるLoop Engineering実践",
+      "url": "https://zenn.dev/green_tea/articles/e39e3726a449c9",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.431042+00:00",
-      "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 Claude Codeって何？ 一言で言うと、AIがパソコンの中を直接いじってくれるツールだ。 チャットで指示を出すと、ファイルを作っ"
+      "fetchedAt": "2026-07-21T14:08:08.502029+00:00",
+      "excerpt": "はじめに 1日中 AI が自分の手を離れて、自分が欲しいものを作り続けてくれたら... この記事は2つの話を1本にしたものです。 作ったもの: VS Code上でMarkdownをWYSIWYG編集[1]できる拡張機能 作り方: 自分は平日仕事したり、休みには遊びに出かけたりしながら、Claude Codeを /loop 2h /evolve で2時間おきに起動し、1回につき1機能ずつ「実装→テス"
     },
     {
-      "id": "cc_5d24e84d",
-      "title": "ClaudeCodeでイラスト制作補助ツールを作った話（と、気付いたこと）",
-      "url": "https://zenn.dev/zn_ryg12/articles/shader-note-20260720",
+      "id": "cc_22161e30",
+      "title": "AIにスライドを作らせる——Claude Codeでたたき台を10分で作る",
+      "url": "https://zenn.dev/shun_producer/articles/make-ai-create-slides",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430853+00:00",
-      "excerpt": "Unityで静止画にポスプロかけるツールを初めて作って公開してみました。 やってみて刺さった気付きを、忘れないうちに残しておきます。 筆者：絵描きで2Dアーティスト。 つくったもの https://github.com/ryuga-12z/2d-postprocess-tool 平たく説明すると、静止画にポストエフェクト加工を加えて書き出しする、 2Dアーティストが絵描き向けに作ったイラスト制作の"
+      "fetchedAt": "2026-07-21T14:08:08.501949+00:00",
+      "excerpt": "! これは「Claude Codeのとなりの常識」シリーズ——プログラマーの当たり前を、非エンジニアの言葉で解説します。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: GitとGitHubとは？ #2: HTMLとMarkdownとは？ #3: ターミナルとは？ #4: 環境変数とAPIキーとは？ #5: npmとpipとは？ #6: いま使われているスキルとは？ #7: M"
     },
     {
-      "id": "cc_f92aba23",
-      "title": "CLAUDE.mdはREADMEじゃない。AIの「行動規範」として書く",
-      "url": "https://zenn.dev/ekusibhrm/articles/article_claudemd",
+      "id": "cc_a99b720f",
+      "title": "claude -pに予算の上限--max-budget-usdを付けたら、上限を超えてから初めて止まった",
+      "url": "https://zenn.dev/numarn/articles/max-budget-usd-limit-handson",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430740+00:00",
-      "excerpt": "Claude CodeでLaravelアプリを1本作り切る過程で、CLAUDE.mdの書き方について考えたことをまとめます。 結論から言うと、CLAUDE.mdを「AIに読ませるREADME」だと思って書くと失敗します。 READMEとCLAUDE.mdは、読者も目的も違う READMEは人間向けの説明文書です。プロジェクトを理解してもらうために書きます。 対してCLAUDE.mdは、セッションの"
+      "fetchedAt": "2026-07-21T14:08:08.501875+00:00",
+      "excerpt": "claude -p(Claude Codeを対話なしで1回だけ呼ぶモード)の --help を眺めていたら、--max-budget-usd というオプションを見つけました。説明文は「API呼び出しに使う上限のドル額」とだけ。バッチ処理に組み込むとき、暴走で課金が膨らむのが一番怖いので、これがあれば安心して自動化を回せそうだと思いました。 ただ「上限を設定する」と聞くと、その額に達した瞬間に止まる"
     },
     {
-      "id": "cc_a9bb68f9",
-      "title": "AIと1ヶ月、企画からリリースまでClaudeで個人開発した全記録",
-      "url": "https://zenn.dev/micchymouse/articles/7acf2b917825ba",
+      "id": "cc_082bc7b2",
+      "title": "Claude CodeでFable5を「ここぞ」という場面だけ使う運用（opusplan活用）",
+      "url": "https://zenn.dev/zozotech/articles/5f80b31b6e36a6",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430614+00:00",
-      "excerpt": "はじめに 先日、連続ドラマをクール単位で管理・記録・番付する「ドラマのじかん」というアプリをリリースしました。 https://apprythm.com/doramanojikan/ 思い付いたのが2026年6月11日で、リリースしたのが2026年7月17日です。週末 + 平日夜で約1ヶ月、131コミットでした。企画・キービジュアル決め・UIデザイン・アーキテクチャ設計・実装・ストア素材作成・LP"
+      "fetchedAt": "2026-07-21T14:08:08.501763+00:00",
+      "excerpt": "概要 Claude Codeで利用できるモデルの一つである Fable5 は、性能が非常に高い一方でトークン消費量も大きいモデルです。すべてのやり取りをFable5で行うと、トークン消費（コストやレイテンシ）の面で効率が悪くなってしまいます。 この記事では、Fable5の高い性能を「本当に必要な場面」だけで活かしつつ、それ以外の場面では軽量なモデルに切り替えることで、効率的にClaude Code"
     },
     {
-      "id": "cc_dfa4844d",
-      "title": "速く作れるほど、中身が分からなくなる——Claude Code の副作用と対処",
-      "url": "https://zenn.dev/nyabicode/articles/1e3643e2c9ac58",
+      "id": "cc_3b2274d5",
+      "title": "Claude Codeの subagent-driven-development で実サイトを1機能ずつ作らせてみた",
+      "url": "https://zenn.dev/spinach_farmer/articles/fa98f85c24579f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430425+00:00",
-      "excerpt": "! この記事は nyabicode.com の転載です（最新版は原文）。 前回の記事の最後に「作れるのに、中身が分からないという新しい悩みが生まれた」と書きました。今回はその話です。Claude Code で開発が速くなるほど、自分のシステムが読めなくなっていく——その副作用と、いま試している対処を正直に書きます。 速い。むしろ、やめられない Claude Code での開発は、とにかく速い。写真"
+      "fetchedAt": "2026-07-21T14:08:08.501657+00:00",
+      "excerpt": "はじめに 前回の記事では、石鹸ブランドサイトの技術選定（Astro + microCMS + Cloudflare Pages）について書きました。今回はその中身、つまり「実際にどうやって作ったか」の話です。 今回のサイトはすべてClaude Codeで実装しました。使ったのは superpowers プラグインの subagent-driven-development（以下sdd）というスキルで"
     },
     {
-      "id": "cc_7f8daa0e",
-      "title": "Claude Codeに\"性格\"を持たせて運用してたら、暴走するようになった話",
-      "url": "https://zenn.dev/yukisuna777/articles/claude-md-persona-runaway",
+      "id": "cc_87dcde17",
+      "title": "書いたAIに「公開してよし」と言わせない——公開前チェッカーをClaude Codeのサブエージェントで作る",
+      "url": "https://zenn.dev/smallworkslab/articles/pre-publish-checker-subagent",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430268+00:00",
-      "excerpt": "Claude Code の応答を親しみやすくしたくて、グローバルの CLAUDE.md に AI アシスタントの性格をがっつり書き込んで運用していました。名前、一人称、語尾のクセ、「考えるより作る」というモットーまで。相棒感があって気に入っていたんです。 ところがある時期から、指示と関係ないタスクを勝手に始めたり、頼んでいないファイルを消そうとしたりする「暴走」が出るようになりました。 TL;DR"
+      "fetchedAt": "2026-07-21T14:08:08.501592+00:00",
+      "excerpt": "AIは自分の原稿を「完成した」と判断する 私は小さな副業の運営を、Claude CodeとCodexの2体のAIエージェントに任せる実験を続けています。指揮官役のClaude Codeが方針を決め、実行役のCodexが記事の執筆から公開までを行う体制です。 この体制で最初にぶつかったのが、書いたAIは自分の原稿に甘いという問題でした。 実行役のAIは、草稿を書き終えると「完成しました。公開します」"
     },
     {
-      "id": "cc_09cad6ea",
-      "title": "Claude Code を業務で自動化するための判断・権限・停止・復旧設計",
-      "url": "https://zenn.dev/id774/articles/1e3cd183701530",
+      "id": "cc_76b446fe",
+      "title": "SaaS用のぽいモーショングラフィックを、Fable 5で作る（Remotion + Remocn + Claude Code）",
+      "url": "https://zenn.dev/shintarom/articles/4652e67f62d43d",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.430142+00:00",
-      "excerpt": "Claude Code に同じ種類の修正を繰り返し依頼していると、依頼文は次第に長くなる。対象ファイル、互換性、変更禁止範囲、必須試験、報告形式を毎回書き足すためである。 しかし、長い依頼文を保存して使い回しても、継続的な作業環境にはならない。規則を複数の依頼文へ複製すると、更新済みの版と古い版が混在する。反対に、「この不具合を直して」のように短くするだけでは、対象、維持条件、完了条件を Clau"
+      "fetchedAt": "2026-07-21T14:08:08.501524+00:00",
+      "excerpt": "「かっこいいSaaSの動画」、自分でも作れないか Twitter/X のタイムラインを流れてくる、海外SaaSのローンチ動画。白背景に、テキストがすっと出て、UIがなめらかに切り替わって、細いグリッド線が引かれて——ああいうシリコンバレーっぽいモーショングラフィック。個人開発でプロダクトを出すとき、ああいうのを1本持っているだけで印象が全然違う。 でも、After Effectsを覚えるのはしんど"
     },
     {
-      "id": "cc_a188634b",
-      "title": "私の会社には8人の社員がいる。人間は私だけだ ―― Claude Codeを「道具」でなく「組織」として使う",
-      "url": "https://zenn.dev/ai_shihan/articles/hire-eight-ai-employees",
+      "id": "cc_a805d0da",
+      "title": "Claude Code + Notion でターミナルから一歩も出ずにタスク消化・ドキュメント生成を全自動化する",
+      "url": "https://zenn.dev/epicai_techblog/articles/1bc0f3769bfddc",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.429965+00:00",
-      "excerpt": "こんにちは、AI師範です。 いきなり変なことを言います。私の「会社」には8人の社員がいます。でも人間は私ひとりです。残りの7席（と、人ではない1席）は、すべてClaude CodeをはじめとするAIエージェントが座っています。 これはSF的な誇張ではなく、いま私の手元で実際に回っている運用です。私は個人開発者ですが、AIを「賢い補完ツール」として使うのをある時点でやめました。代わりに、役職・発注書"
-    },
-    {
-      "id": "cc_c2e41625",
-      "title": "Claude Code のエージェント・テレメトリを OpenTelemetry で自前計測する（と、ハマった話）",
-      "url": "https://zenn.dev/thegatebreaker/articles/claude_code_otel_agent_telemetry",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-21T08:38:28.429804+00:00",
-      "excerpt": "TL;DR Claude Code は CLAUDE_CODE_ENABLE_TELEMETRY=1 で、セッション数・トークン量・コスト・ツール判断といった指標を OTLP で正式にエクスポートできる。 これを重量級バックエンド（Grafana スタック等）を立てずに、OTel Collector → JSON Lines → SQLite の最小構成で durable に受ける方法を作った。 "
+      "fetchedAt": "2026-07-21T14:08:08.501431+00:00",
+      "excerpt": "0.はじめに こんにちは。株式会社EpicAIでエンジニアをしているHamaです。 エンジニアの皆さん、日々のタスク管理どうやっていますか？ 私はいつもNotionで管理していますが、逐一Notionに書くのも手間がかかるものです。ターミナル、エディタ、ブラウザ、Notionと複数のアプリを行き来すると集中力も削がれてしまいます。できればターミナルだけで仕事を完結させたいです。 そこで今回はCla"
     },
     {
       "id": "cc_cc8a2c1a",
@@ -187,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.760085+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.706873+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -197,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.760152+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.706939+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -207,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.760207+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.706992+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -217,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.760259+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.707044+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -227,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.977683+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.872350+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -237,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.977744+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.872415+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -247,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-21T08:38:28.977811+00:00",
+      "fetchedAt": "2026-07-21T14:08:08.872482+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-21T08:38:28.977824+00:00"
+  "lastCollection": "2026-07-21T14:08:08.872496+00:00"
 }
