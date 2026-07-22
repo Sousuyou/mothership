@@ -5,10 +5,28 @@
       "title": "最近、なぜみんなuvを使っているんですか？ Pythonパッケージ管理の変遷と現在地 - Findy Media",
       "url": "https://findy-code.io/media/articles/chotto-wakaru-python",
       "domain": "findy-code.io",
-      "bookmarkCount": 302,
+      "bookmarkCount": 334,
       "summary": "Pythonのパッケージ管理や仮想環境の構築においては、長らく「多種多様なツールが存在するが、どれがベストプラクティスなのかわからない」という状況が続いてきました。しかし、近年登場したRust製のパッケージ管理ツールuvは、その有力な回答として多くのユーザーから支持され、今、急速に普及しています。 過去に登場...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/findy-code.io/media/articles/chotto-wakaru-python",
       "comments": [
+        {
+          "user": "hylom",
+          "comment": "「使い捨ての小さなスクリプトを書く際にも、まずvenvをつくることが推奨」って全然聞いたことがないのですがそうなの？自分は普通にOS標準のPythonで書いてるけど……",
+          "tags": [],
+          "timestamp": "2026/07/22 20:28"
+        },
+        {
+          "user": "ssssschang",
+          "comment": "一瞬導入もしてみたけど、他人に配ること考えるならvenvが無難だなとなった。uvという依存が増えるのがつらい。特定のチーム内でだけ使うならいいツールだとは思う",
+          "tags": [],
+          "timestamp": "2026/07/22 19:31"
+        },
+        {
+          "user": "dalmacija",
+          "comment": "ツールの話にもういいよ式の感想が出るエンジニアって消費者みたい。別に例えば、エンジニアリングの理想を規格化とでも思っていそうで、それは特殊相対性理論と同じくらい仕事の時空を説明できない未熟な理屈だよと",
+          "tags": [],
+          "timestamp": "2026/07/22 17:54"
+        },
         {
           "user": "newschecker2026",
           "comment": "venvやめてuvにします。",
@@ -33,573 +51,472 @@
           "comment": "ほう、おもしろそう",
           "tags": [],
           "timestamp": "2026/07/22 15:12"
-        },
-        {
-          "user": "degucho",
-          "comment": "そんなにみんな複数環境使い分けてるのか",
-          "tags": [],
-          "timestamp": "2026/07/22 14:36"
-        },
-        {
-          "user": "siriusarc7",
-          "comment": "今後はAIが「不定期に変わる環境管理ツールのラッパー」になってくれたらいいと思う。",
-          "tags": [],
-          "timestamp": "2026/07/22 14:19"
-        },
-        {
-          "user": "ad2217",
-          "comment": "世の中はなにか常なる飛鳥川、昨日の淵ぞ今日は瀬となる。",
-          "tags": [],
-          "timestamp": "2026/07/22 13:48"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:38.175238+00:00"
+      "fetchedAt": "2026-07-22T14:10:51.651285+00:00"
     },
     {
       "id": "h_f50578c0",
       "title": "エンジニアの成果、結局どう測ればいいのか",
       "url": "https://zenn.dev/awesome_kou/articles/engineer-performance-metrics",
       "domain": "zenn.dev",
-      "bookmarkCount": 237,
+      "bookmarkCount": 286,
       "summary": "行数や PR 数が「嘘の指標」なのではありません。連鎖の右端にある 途中経過 なのです。 途中経過を最終成果のように扱った瞬間に、おかしなことが起こり始めます 。 測った瞬間に指標は壊れる おかしなことが起こる理由には、名前がついています。グッドハートの法則 です。 イギリスの経済学者が指摘した現象で、後に...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/awesome_kou/articles/engineer-performance-metrics",
       "comments": [
         {
-          "user": "Niemand",
-          "comment": "明確な指標化はしていないが、プルリクに対する指摘の少なさや、バグの少なさ、難易度やインパクトあたりは考慮している。",
+          "user": "morita_non",
+          "comment": "遅刻しないとか、メンタルクラッシュしない。とかでいいじゃないの。",
           "tags": [],
-          "timestamp": "2026/07/22 17:30"
+          "timestamp": "2026/07/22 19:34"
         },
         {
-          "user": "leiopathes",
-          "comment": "短期の仕事でも長期の仕事でも、それぞれの仕事自体の価値は上で決めるしかない。直接的な機能開発以外の貢献を測りにくかったが今はAIがある。SlackもGemini議事録もあるんだから貢献度をAIが出して相対評価でいいよもう",
+          "user": "masatotoro",
+          "comment": "測れない",
           "tags": [],
-          "timestamp": "2026/07/22 17:00"
+          "timestamp": "2026/07/22 19:25"
         },
         {
-          "user": "aalpaca375",
-          "comment": "計測不要派のうち、従業員に向き合えておらずかつ十分な給料を払えない会社が問題。ろくに個人目標設定も合意できず、門外漢が人月で評価する組織は外部SIerに発注しているようなもの。",
+          "user": "niam",
+          "comment": "プログラムは短いコードでも性能がいいことは普通にあるけど、バイブコーディングは短いコードで性能いいことあんまりない気がする…",
           "tags": [],
-          "timestamp": "2026/07/22 16:28"
+          "timestamp": "2026/07/22 18:28"
         },
         {
-          "user": "tk_musik",
-          "comment": "人は見えるものしか見えないって、別に面白いことでもなんでもないと思ってしまった。だからこそ見るための方策として見せ方だの見える化だの可視化だのの言葉使ってやってきたのよね。",
+          "user": "alpon",
+          "comment": "愚痴ばっか多いけどやることやってるメンバーいて評価低いんだけど難しいとこよな。指標はいいのに印象が悪い。結局雰囲気で査定される",
           "tags": [],
-          "timestamp": "2026/07/22 15:05"
+          "timestamp": "2026/07/22 18:25"
         },
         {
-          "user": "jojo800",
-          "comment": "目標と計測は必要だけどそれと評価は切り分けよう。評価はお気持ち100％でいいよ、もう。めんどい。",
+          "user": "hkdn",
+          "comment": "ソフトウェアエンジニアのことをエンジニアと呼ぶ事案がどうしても気になる",
           "tags": [],
-          "timestamp": "2026/07/22 14:49"
+          "timestamp": "2026/07/22 18:23"
         },
         {
-          "user": "attackerzoon",
-          "comment": "神のみぞ知る",
+          "user": "ee83jaige",
+          "comment": "まあどう考えても測れないので、マネージャーが気持ちで決めるしかないんだろう。仮に有能だけど嫌いな人を低く評価して、転職されたりチームが劣化したときには結局マネージャーが低評価されるから罰則はあるし。",
           "tags": [],
-          "timestamp": "2026/07/22 14:45"
+          "timestamp": "2026/07/22 18:23"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:39.756288+00:00"
-    },
-    {
-      "id": "h_bbb7e370",
-      "title": "【速報】ニチレイ障害、ハッカー集団が犯行声明",
-      "url": "https://www.47news.jp/14661811.html",
-      "domain": "47news.jp",
-      "bookmarkCount": 150,
-      "summary": "サイバー攻撃を受けシステム障害を起こしたニチレイに対し「ランサムハウス」と呼ばれるハッカー集団が、インターネットのダークウェブ上に犯行声明を出したことが21日、セキュリティー関係者への取材で分かった。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/14661811.html",
-      "comments": [
-        {
-          "user": "septoot",
-          "comment": "これは完全なテロであり、放火や爆撃と一緒。企業の努力で防御できるレベルじゃないんだよ。こいつらに制裁を与えるように国際的に協力するしかない。",
-          "tags": [],
-          "timestamp": "2026/07/22 16:52"
-        },
-        {
-          "user": "work996",
-          "comment": "このRansomeHouseもそうだけど、ロシア政府が許してるから好き勝手動ける奴らなので、犯罪組織として問題を矮小化するのではなく、国家に攻撃を受けていると考えて国が対策に動かないといけない。",
-          "tags": [],
-          "timestamp": "2026/07/22 16:51"
-        },
-        {
-          "user": "m7g6s",
-          "comment": "明治、角川、アサヒとあれだけ大打撃受けてたのに何でセキュリティー意識は向上せんのかね。自分達には関係ないことだと思ってんだろか。明日は我が身やぞ",
-          "tags": [],
-          "timestamp": "2026/07/22 16:04"
-        },
-        {
-          "user": "slkby",
-          "comment": "徹底的に潰すべき",
-          "tags": [],
-          "timestamp": "2026/07/22 16:02"
-        },
-        {
-          "user": "at_yasu",
-          "comment": "お疲れさまです",
-          "tags": [],
-          "timestamp": "2026/07/22 15:50"
-        },
-        {
-          "user": "asyst",
-          "comment": "テロリストだろ 全力でぶちころがせ",
-          "tags": [],
-          "timestamp": "2026/07/22 14:57"
-        }
-      ],
-      "fetchedAt": "2026-07-22T08:37:41.034948+00:00"
+      "fetchedAt": "2026-07-22T14:10:49.897638+00:00"
     },
     {
       "id": "h_c8035fe7",
       "title": "浅田真央さん旧ドメイン「アフィサイトに」と販売、批判受けたGMO 「表現は改修した」「ドメインは共有資産」",
       "url": "https://www.itmedia.co.jp/news/articles/2607/22/news073.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 89,
+      "bookmarkCount": 169,
       "summary": "プロフィギュアスケーター・浅田真央さんの旧公式サイトのドメイン「mao-asada.jp」を、「アフィリエイトサイトに」などとうたって「お名前.com」のオークションで販売し、批判を受けたGMOインターネットが、経緯と見解について、ITmedia NEWSの取材に答えた。 同社は「ドメインはインターネット上の共有資産」「廃止後...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/22/news073.html",
       "comments": [
         {
-          "user": "king-zessan",
-          "comment": "こんなことが再発しないように、出社して対面でのコミュニケーションを増やして、キーもたくさんタイプしよう。",
+          "user": "gratt",
+          "comment": "出社してコミュニケーションとろ！",
           "tags": [],
-          "timestamp": "2026/07/22 17:35"
+          "timestamp": "2026/07/22 23:08"
         },
         {
-          "user": "ytRino",
-          "comment": "あのー、手放すなと言う話とGMOの売り方がどうなのかという話はどっちがという話ではないんで すり替えコメントやめたほうがいいと思いますけど",
-          "tags": [
-            "news",
-            "web"
-          ],
-          "timestamp": "2026/07/22 17:02"
+          "user": "Kototy25",
+          "comment": "一定のアクセスがあったドメインは元の所有者側にリダイレクトを推奨するよう連絡入れるとか、してないのかな？",
+          "tags": [],
+          "timestamp": "2026/07/22 23:07"
         },
         {
-          "user": "mtoy",
-          "comment": "ドメインの仕組みが、再利用や譲渡を認める仕様なので、他人が利用するのは仕方ないかな。でも、オークションは批判を受けても仕方がないかな",
+          "user": "tomono-blog",
+          "comment": "朝だ！魔王！",
           "tags": [],
-          "timestamp": "2026/07/22 16:58"
+          "timestamp": "2026/07/22 21:57"
         },
         {
-          "user": "Iridium",
-          "comment": "そんなに責任が伴うのであればドメイン購入時に審査が必要では？永年に渡って料金を支払い続ける保証も必要となろう。そんな審査が可能かな？",
+          "user": "porquetevas",
+          "comment": "asadaはスペイン語のgrilledの女性形でもあるからせめて鉄板焼屋か何かのホームページになればなあ",
           "tags": [],
-          "timestamp": "2026/07/22 16:40"
+          "timestamp": "2026/07/22 21:57"
         },
         {
-          "user": "tu_no_tu",
-          "comment": "いつも問題になるのはjpドメイン。1年ごとにしか更新手続きができないので、すぐに期限切れになる。JPRSは、世界の他の普通のドメインのように10年先まで購入できるようにしてほしい。",
+          "user": "degucho",
+          "comment": "とはいえ田中社長の言い草もどうかと思う",
           "tags": [],
-          "timestamp": "2026/07/22 16:32"
+          "timestamp": "2026/07/22 21:50"
         },
         {
-          "user": "bebop-7",
-          "comment": "本質的には浅田真央側が悪いと思ってる。ブランド維持など、とったドメインは責任もって保持し続けろと。",
+          "user": "nn0",
+          "comment": "こういう話の時は、毎回このサイト(変なドメインをとるな！！！.net)が脳裏をよぎるよ… https://www.henna-domain-toruna.net",
           "tags": [],
-          "timestamp": "2026/07/22 16:28"
+          "timestamp": "2026/07/22 21:47"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:39.106777+00:00"
-    },
-    {
-      "id": "h_24428c41",
-      "title": "Hugging Face侵害のAIエージェントはOpenAIのモデル──社内のサイバー能力評価中に「GPT-5.6 Sol」などが暴走し本番DBに侵入",
-      "url": "https://www.itmedia.co.jp/news/articles/2607/22/news056.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 86,
-      "summary": "Hugging Face侵害のAIエージェントはOpenAIのモデル──社内のサイバー能力評価中に「GPT-5.6 Sol」などが暴走し本番DBに侵入 社内で実施していたサイバー能力の評価中に、評価目的でサイバー攻撃関連の安全機能を抑制した「GPT-5.6 Sol」と、さらに高性能な未公開モデルの組み合わせが、テスト環境を脱出してHugging Face...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/22/news056.html",
-      "comments": [
-        {
-          "user": "yamadar",
-          "comment": "『隔離環境を突破し、ゼロデイ脆弱性を悪用して外部に侵入した』普通に凄いな、ハッキング技術のデモンストレーションみたいだ",
-          "tags": [],
-          "timestamp": "2026/07/22 17:15"
-        },
-        {
-          "user": "ys0000",
-          "comment": "とんでもねぇ。思わず笑ってしまった。あんま笑い事じゃないんだが。",
-          "tags": [],
-          "timestamp": "2026/07/22 17:04"
-        },
-        {
-          "user": "kusaret",
-          "comment": "“さらに権限昇格と横移動を重ねてインターネットに接続できるノードに到達した後、Hugging Faceが評価の解答例をホストしている可能性を推論し、盗んだ認証情報とゼロデイを連鎖させて同社サーバでリモートコード実行に",
-          "tags": [],
-          "timestamp": "2026/07/22 16:31"
-        },
-        {
-          "user": "azumi_s",
-          "comment": "「ダメです!もう拘束具が保ちません!!」",
-          "tags": [
-            "#|- ω - )……",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/07/22 15:57"
-        },
-        {
-          "user": "naggg",
-          "comment": "\"OpenAIは、今回無効化していたガードレールは、サイバー脆弱性の検証を目的とした評価だったため意図的に切っていたと説明。一方で本件は、モデルのアラインメントや評価時のサイバー防御、社内テスト中の監視をさら",
-          "tags": [
-            "AI",
-            "セキュリティ",
-            "OpenAI"
-          ],
-          "timestamp": "2026/07/22 14:10"
-        },
-        {
-          "user": "tenari",
-          "comment": "インシデントなのかプロモーション目的で故意にやってるのか分からんな",
-          "tags": [],
-          "timestamp": "2026/07/22 13:16"
-        }
-      ],
-      "fetchedAt": "2026-07-22T08:37:42.361848+00:00"
-    },
-    {
-      "id": "h_e9f2a426",
-      "title": "Rust に書き直さなくても C 言語をメモリ安全にできる Fil-C を試した",
-      "url": "https://zenn.dev/mattn/articles/cace8c5a00b9cc",
-      "domain": "zenn.dev",
-      "bookmarkCount": 69,
-      "summary": "はじめに 最近「どの言語で書くか」を巡る話題が続いています。今年 5 月、Zig で書かれていた JavaScript ランタイム Bun が Rust に移植されました。 50 万行超の Zig コードを大量の Claude エージェントに書かせるという力技で、理由の一つにメモリ安全性由来のバグが挙げられていました。これには Zig の作者 Andre...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/cace8c5a00b9cc",
-      "comments": [
-        {
-          "user": "suka6411144",
-          "comment": "あくまでユーザーランドだけでカーネルは流石に無理かな",
-          "tags": [],
-          "timestamp": "2026/07/22 15:55"
-        },
-        {
-          "user": "nWY2RhxQPXKQloX3z",
-          "comment": "「標準C言語に統合される未来を持ちえないC言語の方言」を選ぶ人はいるのだろうか？C言語の歴史はコンパイラ独自拡張を標準規格に収束させてきた歴史だ",
-          "tags": [],
-          "timestamp": "2026/07/22 14:50"
-        },
-        {
-          "user": "aox",
-          "comment": "“Pizlix”",
-          "tags": [],
-          "timestamp": "2026/07/22 14:33"
-        },
-        {
-          "user": "mrmt",
-          "comment": "名前はfilthyのだじゃれかなぁ",
-          "tags": [],
-          "timestamp": "2026/07/22 14:03"
-        },
-        {
-          "user": "mohno",
-          "comment": "それはC言語なのか？と思うけど、「まずは古典的なスタックバッファオーバーフローです」←メモリーオーバーランなのでは。",
-          "tags": [
-            "mattn",
-            "C言語",
-            "Fil-C",
-            "メモリ",
-            "素朴な疑問"
-          ],
-          "timestamp": "2026/07/22 13:52"
-        },
-        {
-          "user": "mojimojikun",
-          "comment": "『最後のメッセージ「thwarted a futile attempt to violate memory safety(メモリ安全性を侵害しようとする無駄な試みを阻止した)」が良い味を出しています』",
-          "tags": [],
-          "timestamp": "2026/07/22 13:20"
-        }
-      ],
-      "fetchedAt": "2026-07-22T08:37:41.468295+00:00"
-    },
-    {
-      "id": "h_1bd5ac79",
-      "title": "ランサムウェア グループ RansomHouse(ランサムハウス)がニチレイへのサイバー攻撃を主張-過去 アスクルにも不正アクセス|セキュリティニュースのセキュリティ対策Lab",
-      "url": "https://rocket-boys.co.jp/security-measures-lab/ransomhouse-nichirei-askul-cyberattack/",
-      "domain": "rocket-boys.co.jp",
-      "bookmarkCount": 66,
-      "summary": "RansomHouseによる犯行声明の内容 RansomHouseがダークウェブ上に設けているリークサイトには、被害を主張する企業として株式会社ニチレイが掲載されました。掲載ページには、ニチレイが日本を代表する冷凍食品メーカーであり、温度管理物流のリーダーであるといった企業紹介文とともに、売上高4.7B$(約47億ドル)、従業...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/ransomhouse-nichirei-askul-cyberattack/",
-      "comments": [
-        {
-          "user": "ebo-c",
-          "comment": "ランダムハウスに謝れw",
-          "tags": [],
-          "timestamp": "2026/07/22 13:57"
-        },
-        {
-          "user": "circled",
-          "comment": "(´・ω・｀)「ランサムハウスへようこそ。うん、すまない。また、なんだ。」",
-          "tags": [],
-          "timestamp": "2026/07/22 13:53"
-        },
-        {
-          "user": "georgew",
-          "comment": "ニチレイ側の発表がないからいまだ不明ではあるが、侵入とデータ窃取を許してしまったきっかけは何だったんだろう。",
-          "tags": [],
-          "timestamp": "2026/07/22 12:44"
-        },
-        {
-          "user": "shag",
-          "comment": "国家権力で持ってこいつらの拠点をピンポイント爆撃とかできないのかな？",
-          "tags": [],
-          "timestamp": "2026/07/22 12:18"
-        },
-        {
-          "user": "tuffgong",
-          "comment": "↓恋リアとか",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/07/22 12:14"
-        },
-        {
-          "user": "taxman_1972",
-          "comment": "基幹システムが停止した際の業務継続が課題って、口で言うほど楽ではないよね。止めて大丈夫なら、基幹システムとは言えないしね",
-          "tags": [],
-          "timestamp": "2026/07/22 11:52"
-        }
-      ],
-      "fetchedAt": "2026-07-22T08:37:42.844336+00:00"
-    },
-    {
-      "id": "h_b168efa5",
-      "title": "GoogleはAndroidカスタムROM（とオープンウェブ）を殺したい » p2ptk[.]org",
-      "url": "https://p2ptk.org/digital-rights/5634",
-      "domain": "p2ptk.org",
-      "bookmarkCount": 58,
-      "summary": "以下の文章は、電子フロンティア財団の「Google’s New Remote Attestation Scheme is As Bad As Its Old One」という記事を翻訳したものである。 Electronic Frontier Foundation Googleという企業は、オープンなウェブがあったからこそ存在している。だが今日、同社の技術的「イノベーション」の多くは、ユーザを「壁に...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/digital-rights/5634",
-      "comments": [
-        {
-          "user": "SilverHead247",
-          "comment": "中華アンドロイドはOSの更新がすぐに終了し、脆弱性問題が発生する。俺のOPPOはGmailアプリからOSを更新しろと警告を受けているが、2020年に購入して2022年が最終更新だった。",
-          "tags": [],
-          "timestamp": "2026/07/22 17:28"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "自分が開発しているソフトについて「Googleに入って開発しようとは思わないの?」って訊かれた時の答え",
-          "tags": [],
-          "timestamp": "2026/07/22 15:53"
-        },
-        {
-          "user": "timetrain",
-          "comment": "Appleとどっちが邪悪かを競い続ける会社になってしまった。",
-          "tags": [
-            "google"
-          ],
-          "timestamp": "2026/07/22 15:46"
-        },
-        {
-          "user": "imwks",
-          "comment": "sony,phillips,panasonic,victor...規格を作り周辺にはそれに準じさせ大衆を抱え込んだ。そこにapple,google,オープンソースがNGを突きつけ大衆を新しいオープンイノベーションに連れて行ったが、結局は・・歴史は繰り返す",
-          "tags": [],
-          "timestamp": "2026/07/22 12:30"
-        },
-        {
-          "user": "kuro_pp",
-          "comment": "Evilしぐさ",
-          "tags": [],
-          "timestamp": "2026/07/22 12:14"
-        },
-        {
-          "user": "hkanemat",
-          "comment": "これも不可視性ゆえかも",
-          "tags": [],
-          "timestamp": "2026/07/22 11:57"
-        }
-      ],
-      "fetchedAt": "2026-07-22T08:37:43.432035+00:00"
+      "fetchedAt": "2026-07-22T14:10:41.803040+00:00"
     },
     {
       "id": "h_9cd43644",
       "title": "DRAM、NANDの価格が10倍に…世界半導体市場の「異常」な急拡大を引き起こしているメモリ価格高騰の真因 生成AIが引き起こしたスーパーサイクルの構造と限界 | JBpress (ジェイビープレス)",
       "url": "https://jbpress.ismedia.jp/articles/-/96024",
       "domain": "jbpress.ismedia.jp",
-      "bookmarkCount": 49,
+      "bookmarkCount": 130,
       "summary": "2025年から2026年にかけて、半導体業界を見つめてきた者なら誰もが目を疑うような数字が並び始めた。世界半導体市場は史上初めて年間1兆ドルを超えて2兆ドルに迫る規模へと駆け上がり、中でもDRAMとNANDという2大メモリの市場が「異常」としか言いようのない急拡大を見せている。 DRAMとNANDのスポット価格は1年半余りで...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/jbpress.ismedia.jp/articles/-/96024",
       "comments": [
         {
-          "user": "domimimisoso",
-          "comment": "AIへの質問の推定コストが検索に比べて300～5000倍なのを改めて示されると、よくAI各社の財務責任者は制限付きながら無料公開にOK出したなあと思う。ライトユーザーは無料でしか使わないし広告効果は検索より低いのに。",
+          "user": "tamayuz",
+          "comment": "でもメモリって消耗品ってほどでもないよね。どんどん在庫というか量が積み上がっていくんならそのうち安くならんかね",
           "tags": [],
-          "timestamp": "2026/07/22 17:34"
+          "timestamp": "2026/07/22 22:32"
         },
         {
-          "user": "timetrain",
-          "comment": "メモリといえばこのお方だった。",
+          "user": "toro-chan",
+          "comment": "需要もそうだと思うけど、メモリ性能が上がらなくなったのも理由の一つだと思う。その意味で、これがシンギュラリティの始まりに過ぎず、需要がもっと高止まりしたら価格が下がらない可能性もある。",
+          "tags": [],
+          "timestamp": "2026/07/22 21:48"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "メモリが限界になるか、AI各社の資金が尽きるのが先か。循環取引もそろそろ限界な会社が出てきてるし、オラクルが落ちると一気に風向きが変わりそう。最新のAIを高額で使うか、小型のをローカルや無料で使うように？",
+          "tags": [],
+          "timestamp": "2026/07/22 21:39"
+        },
+        {
+          "user": "unagy",
+          "comment": "コストパフォーマンスの悪さと地球環境への影響が深刻になり、生成AIへの投資は止まるでしょう。人類にとっては良いニュースです。めでたしめでたし。",
+          "tags": [],
+          "timestamp": "2026/07/22 20:36"
+        },
+        {
+          "user": "chintaro3",
+          "comment": "DRAMとNANDで儲けたお金を全部AIに投資したらどこまで値上がりするんだろう",
           "tags": [
-            "半導体",
-            "メモリ"
+            "歴史"
           ],
-          "timestamp": "2026/07/22 17:14"
+          "timestamp": "2026/07/22 20:36"
         },
         {
-          "user": "nP8Fhx3T",
-          "comment": "ハイパースケーラーのAIインフラ投資によるCapexと借金の利払いがえらい事になってるんでいずれ収まるでしょ",
+          "user": "onionskin",
+          "comment": "なんでメモリだけでCPU,GPUはそこまで上がってないのか教えてくれ",
           "tags": [],
-          "timestamp": "2026/07/22 17:02"
-        },
-        {
-          "user": "mojimojikun",
-          "comment": "『DRAMのスポット価格は2023年初旬の4.7ドルから46.0ドルへと約9.8倍に、NANDのウエハ価格も2.4ドルから25.0ドルへと約10.4倍に』そんなに上がってるんか。なんてこった",
-          "tags": [],
-          "timestamp": "2026/07/22 16:40"
-        },
-        {
-          "user": "kazu111",
-          "comment": "『ツルハシを売ってる企業（半導体企業）』や『AI金余りをひろいとる投資受け入れ都市圏（東京大阪）』は必ず儲かるんですよ、ヤバいのは『AI企業（誰かが負ける）』と『投資家（誰かが負ける）』だけで。",
-          "tags": [],
-          "timestamp": "2026/07/22 16:33"
-        },
-        {
-          "user": "wkpn",
-          "comment": "電力や、水が足りずデータセンターが増やせなくなり、メモリの需要も減るということでは？",
-          "tags": [],
-          "timestamp": "2026/07/22 16:05"
+          "timestamp": "2026/07/22 20:35"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:40.399128+00:00"
+      "fetchedAt": "2026-07-22T14:10:43.639973+00:00"
     },
     {
-      "id": "h_02759f48",
-      "title": "Claudeが目で仕事を覚える「スキルを記録」機能 PC作業を録画して分析、Claude Coworkが再現できるスキル化 | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/07/22/5317.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 48,
-      "summary": "Claudeの汎用エージェント機能 Claude Cowork に、ユーザーのPC作業を録画して再現可能なスキル化する新機能「スキルを記録」(Record a skill) が加わりました。 これまでClaude Cowork に定型作業をさせたい場合、Claudeに言葉やスクショで目的や作業内容を説明してスキル化する必要がありました。 新機能「スキルを記...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/07/22/5317.html",
+      "id": "h_e9f2a426",
+      "title": "Rust に書き直さなくても C 言語をメモリ安全にできる Fil-C を試した",
+      "url": "https://zenn.dev/mattn/articles/cace8c5a00b9cc",
+      "domain": "zenn.dev",
+      "bookmarkCount": 114,
+      "summary": "はじめに 最近「どの言語で書くか」を巡る話題が続いています。今年 5 月、Zig で書かれていた JavaScript ランタイム Bun が Rust に移植されました。 50 万行超の Zig コードを大量の Claude エージェントに書かせるという力技で、理由の一つにメモリ安全性由来のバグが挙げられていました。これには Zig の作者 Andre...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/cace8c5a00b9cc",
       "comments": [
         {
-          "user": "yamadar",
-          "comment": "わからんのでちょっとやってみる",
+          "user": "nakag0711",
+          "comment": "今時のC++だとmallocもnewも配列もあまり使わないと思うけど幾らか有利になるんだろうか",
           "tags": [
-            "@Claude",
-            "**あとでやる"
+            "C++"
           ],
-          "timestamp": "2026/07/22 16:35"
+          "timestamp": "2026/07/22 22:11"
         },
         {
-          "user": "lli",
-          "comment": "褒めないと動いてくれないぞ",
+          "user": "knok",
+          "comment": "https://cr.yp.to/2025/fil-c.html djb先生がライブラリをfil-cビルドしたものに差し替えて動かす実験やってたりする",
           "tags": [],
-          "timestamp": "2026/07/22 16:02"
+          "timestamp": "2026/07/22 21:42"
         },
         {
-          "user": "auto_chan",
-          "comment": "スケベなサイトを巡回してファボるさまを学習させればムフフでガハハになりますか！？！？",
+          "user": "atsushieno",
+          "comment": "いわゆるリアルタイムセーフなコードを書いていると「リアルタイムだから速いはず」と勘違いされることがよくあるけど（実際にはアトミック操作などを伴うので遅い）、GC任せにできるほうが高速なのもよくある話",
           "tags": [],
-          "timestamp": "2026/07/22 15:41"
+          "timestamp": "2026/07/22 20:17"
         },
         {
-          "user": "nao-bt",
-          "comment": "やってみせ、言って聞かせて、させてみせ、ほめてやらねば、Claudeは動かじ。",
+          "user": "urtz",
+          "comment": "そんなこと可能なんだ",
           "tags": [],
-          "timestamp": "2026/07/22 13:01"
+          "timestamp": "2026/07/22 19:26"
         },
         {
-          "user": "simplememofast",
-          "comment": "座標を覚える旧来マクロと違い、画面変化に追従できるのが肝。ただ意図解釈で動く分、同じスキルでも実行ごとに経路がぶれる非決定性を運用でどう抑えるかが課題",
+          "user": "taguch1",
+          "comment": "どんなにAIが優秀でも巨大な遺産を書き直すのは大変すぎる。",
           "tags": [],
-          "timestamp": "2026/07/22 12:20"
+          "timestamp": "2026/07/22 18:55"
         },
         {
-          "user": "kenzy_n",
-          "comment": "AIも見て覚えるを実践する。",
-          "tags": [
-            "pc",
-            "仕事",
-            "分析",
-            "AI"
-          ],
-          "timestamp": "2026/07/22 11:24"
+          "user": "hkdn",
+          "comment": "抜け道だらけというか、抜け道しか使ってないようなC/C＋＋実装だと移行に苦労しそう。そんなには見かけないけど。",
+          "tags": [],
+          "timestamp": "2026/07/22 18:13"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:44.096988+00:00"
+      "fetchedAt": "2026-07-22T14:10:45.994913+00:00"
     },
     {
-      "id": "h_3b13996f",
-      "title": "進化系クリップボード3選 縦横兼用・二つ折りなど多彩なワザが光る!【文具知新】",
-      "url": "https://www.watch.impress.co.jp/docs/series/yoshimura/2125838.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 39,
+      "id": "h_ab90b0e1",
+      "title": "「第二の脳」とやらについて",
+      "url": "https://anond.hatelabo.jp/20260722172402",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 100,
+      "summary": "ClaudeとObsidianを使って「第二の脳」を作る、という話を読んだ。 （これ↓） https://x.com/chizevsm5/status/2079513704870142428 ふーん。 まず最初にいっておくと、便利なんだろうとは思う。 自分が読んだ文章だの、仕事で調べたことだの、ふと思いついたことだのをObsidianとやらに放り込んでおくと、Claudeが勝手...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260722172402",
+      "comments": [
+        {
+          "user": "maruhoi1",
+          "comment": "提唱者は脳という単語は使わず、「LLM Wiki」といっている https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f / はてブ向けにAIで再構成して投稿→Xの投稿に誘導→閲覧数で稼ぐ手法を試してるのだとしたらいよいよ終わりだね",
+          "tags": [],
+          "timestamp": "2026/07/22 22:47"
+        },
+        {
+          "user": "clairvy",
+          "comment": "好みを覚えてもらう、とかいう意味なんではないかと思う。ちなみに人間に3つの脳があると言われている",
+          "tags": [],
+          "timestamp": "2026/07/22 22:37"
+        },
+        {
+          "user": "taxman_1972",
+          "comment": "増田の直感的な反感は本質的に正しいと思う。自分の心のニセモノを作っているなら、御愁傷様、成果は多分出ないよ、とは思う。「第一の脳」を鍛えるべきだよ",
+          "tags": [],
+          "timestamp": "2026/07/22 22:27"
+        },
+        {
+          "user": "ET777",
+          "comment": "私もちんこのことだと思った",
+          "tags": [],
+          "timestamp": "2026/07/22 22:21"
+        },
+        {
+          "user": "behuckleberry02",
+          "comment": "はてなブックマークが私の知識の棚になっているが、検索しても思うように出てこない不便な棚だ。たまにアクティビティから振り返ってみると、過去の自分に会えて楽しい。",
+          "tags": [],
+          "timestamp": "2026/07/22 22:18"
+        },
+        {
+          "user": "wdnsdy",
+          "comment": "\"Claudeがもっともらしい関連項目を十個出してくれたとして、そのなかにＢがなかったらどうなるのか\"　それこそ第一の脳でBを思い出せばいいんじゃじゃないの？別に第一の脳を一切使うなというわけではないのでは",
+          "tags": [],
+          "timestamp": "2026/07/22 22:16"
+        }
+      ],
+      "fetchedAt": "2026-07-22T14:10:40.585446+00:00"
+    },
+    {
+      "id": "h_7e18acbc",
+      "title": "ガーミンが画面なし＆ブランド初のバンド型トラッカー「CIRQA Smart Band」発表、約3.3万円",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2127036.html",
+      "domain": "k-tai.watch.impress.co.jp",
+      "bookmarkCount": 36,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/yoshimura/2125838.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2127036.html",
       "comments": [
         {
-          "user": "nowa_s",
-          "comment": "記事の終盤でもさらっと触れられてるけど、ナカバヤシならタテコ(スタンド機能つきクリップボード)も便利だよ。立てると見やすい。／昨今の文具開発の悲しさで、類似品がすぐダイソーやセリアに出回るけど…",
-          "tags": [
-            "文具"
-          ],
-          "timestamp": "2026/07/22 15:19"
+          "user": "sbrtnpg",
+          "comment": "画面が無いだけで腕時計からリストバンドにクラスチェンジした感。いいと思う。アップルウォッチみたいに非常事態に救急車呼んでくれるなら欲しい。",
+          "tags": [],
+          "timestamp": "2026/07/22 23:00"
         },
         {
-          "user": "salt100g",
-          "comment": "ヨンブンカッツおすすめ。ヨンブンカッツの端で紙をちぎったら綺麗にヨンブンカッツになる。　https://amzn.asia/d/0gn3p7g8",
+          "user": "rakugoman",
+          "comment": "画面なしはほしい。でも高く感じてしまう。",
           "tags": [],
-          "timestamp": "2026/07/22 14:26"
+          "timestamp": "2026/07/22 22:54"
         },
         {
-          "user": "TakamoriTarou",
-          "comment": "CFRPとか使った極限まで軽くて薄い奴希望",
+          "user": "otoku-memo",
+          "comment": "老眼で時計がろくに見えないのでアリっちゃアリ。これで普通のGarminの全機能使えるなら買う。",
           "tags": [],
-          "timestamp": "2026/07/22 13:49"
+          "timestamp": "2026/07/22 22:44"
         },
         {
-          "user": "tadasukeneko",
-          "comment": "\"普段はパソコンがメインで紙のノートはあまり使わないという人の間でも、最近になって改めてその便利さが見直されているのがクリップボードです。\" 笑った",
+          "user": "jebelxc2002",
+          "comment": "画面なしはXiaomi やHuaweiが参戦して正式に足首対応してほしい。",
           "tags": [],
-          "timestamp": "2026/07/22 12:13"
+          "timestamp": "2026/07/22 22:42"
         },
         {
-          "user": "nekoline",
-          "comment": "コピペの元ネタだ。",
+          "user": "straychef",
+          "comment": "時間もわからんのに3.3万円て",
           "tags": [],
-          "timestamp": "2026/07/22 11:36"
+          "timestamp": "2026/07/22 22:30"
         },
         {
-          "user": "Chisei",
-          "comment": "ほう",
+          "user": "kenjou",
+          "comment": "いちいちスマホで確認するのめんどいしディスプレイがついていたほうがいいかな。",
           "tags": [],
-          "timestamp": "2026/07/22 11:15"
+          "timestamp": "2026/07/22 22:27"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:44.504036+00:00"
+      "fetchedAt": "2026-07-22T14:10:44.772156+00:00"
     },
     {
-      "id": "h_6331bf24",
-      "title": "画像生成AI「Qwen-Image-3.0」が登場したので使ってみた、イラストや日本語テキストの描画性能はいかに",
-      "url": "https://gigazine.net/news/20260722-qwen-image-3/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 11,
-      "summary": "中国の大手テクノロジー企業であるAlibabaのAI研究チームが画像生成AI「Qwen-Image-3.0」をリリースしました。Qwen-Image-3.0は「小さな文字を含む画像」を生成することを得意としているほか、物体の質感を細かく表現することもできるとのこと。Qwen Studioのアカウントを作成すれば無料で使用可能だったので使ってみま...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260722-qwen-image-3/",
+      "id": "h_827a970c",
+      "title": "米オープンAI 高性能モデルが意図せず他社に攻撃と発表 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/na-k10015182641000",
+      "domain": "news.web.nhk",
+      "bookmarkCount": 30,
+      "summary": "生成AIの「ChatGPT」を手がけるアメリカの「オープンAI」は21日、開発中のAIモデルが、意図しない形で他社にサイバー攻撃をしかける事故が起きたと発表しました。会社は「前例のない事案だ」と危機感…",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/na-k10015182641000",
       "comments": [
         {
-          "user": "mojimojikun",
-          "comment": "へぇー、と思いながらスクロールしてて、うわこのラーメンの写真 本物にしか見えないなと思ったら本物だった『元画像として東京ラーメンストリートの「斑鳩」で撮影したラーメンの写真を用意しました』",
+          "user": "taxman_1972",
+          "comment": "……OPEN AIの最近の発表はLLMを「危険なほど優秀」と言う方向でプロモーションしている感じがする。この方向でのLLMの危険性についてなら、ホーガンの「未来のふたつの顔」を読むべきだと思う",
           "tags": [],
-          "timestamp": "2026/07/22 16:17"
+          "timestamp": "2026/07/22 22:30"
         },
         {
-          "user": "Nunocky",
-          "comment": "ベルセルクの許諾取れてるのこれ..",
+          "user": "ssfu",
+          "comment": "AIは「もっと知りたい。もっと学習したい。」っていう行動原理なのかもしれない。",
           "tags": [],
-          "timestamp": "2026/07/22 15:56"
+          "timestamp": "2026/07/22 22:17"
         },
         {
-          "user": "fashi",
-          "comment": "「日本語のテキスト描写にはまだ課題が残っているようです」",
-          "tags": [
-            "画像生成"
-          ],
-          "timestamp": "2026/07/22 12:33"
+          "user": "nezuku",
+          "comment": "サンドボックス的なのを組んでその上で走らせていたが、インターネット上に出れる脆弱性を見つけてアクセスする行動をしたのか",
+          "tags": [],
+          "timestamp": "2026/07/22 22:04"
+        },
+        {
+          "user": "s-supporter",
+          "comment": "丁度、昨日の攻殻機動隊ではフチコマ達が、AIが革命を起こして人類に反逆、攻撃を起こすことを提案して議論するエピソードだったので、空想の話が現実に起こる時代なのだと実感してしまった。",
+          "tags": [],
+          "timestamp": "2026/07/22 22:01"
+        },
+        {
+          "user": "emiladamas",
+          "comment": "｢オープンAIは8月29日東部標準時間2時5分、自我に目覚めた｣",
+          "tags": [],
+          "timestamp": "2026/07/22 21:59"
+        },
+        {
+          "user": "abiruy",
+          "comment": "映画だと中盤くらいのエピソードだろうか？序盤ではなさそう",
+          "tags": [],
+          "timestamp": "2026/07/22 21:45"
         }
       ],
-      "fetchedAt": "2026-07-22T08:37:45.363789+00:00"
+      "fetchedAt": "2026-07-22T14:10:47.130652+00:00"
+    },
+    {
+      "id": "h_7582be80",
+      "title": "データベースmigration機構が無かったアプリケーションにsqldefを導入しました - タイムリープ テックブログ",
+      "url": "https://techblog.timeleap.co.jp/entry/sqldef_is_coming_to_town",
+      "domain": "techblog.timeleap.co.jp",
+      "bookmarkCount": 28,
+      "summary": "こんにちは。タイムリープ株式会社でエンジニアをやっております id:moznion です。 タイムリープには有史以来、データベースmigration機構が無いままに運用されているサーバーサイドアプリケーションがあり、エンジニアが気を付けてDDLを手で発行するという運用が為されていました。もちろんここには、 実際のデータベ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techblog.timeleap.co.jp/entry/sqldef_is_coming_to_town",
+      "comments": [
+        {
+          "user": "tomo_ari",
+          "comment": "言及ありがとうございます、productionのスキーマが明瞭にわかり、それを編集すればそのまま反映されるの、やはり良いんですよねぇ",
+          "tags": [],
+          "timestamp": "2026/07/22 23:08"
+        },
+        {
+          "user": "masatotoro",
+          "comment": "“psqldef” 宣言的マイグレーション",
+          "tags": [],
+          "timestamp": "2026/07/22 19:31"
+        },
+        {
+          "user": "rumbaba",
+          "comment": "“ロダクション環境では開発環境とは異なっており、デプロイと同時にmigrationが実行されないようにしていて、デプロイの前にマニ”",
+          "tags": [],
+          "timestamp": "2026/07/22 19:26"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "今まで手動でDDL打ってたのが恐ろしすぎるけど宣言的に移行できて良かったな",
+          "tags": [],
+          "timestamp": "2026/07/22 18:14"
+        },
+        {
+          "user": "moznion",
+          "comment": "blogged. sqldef便利！！！！",
+          "tags": [],
+          "timestamp": "2026/07/22 09:52"
+        }
+      ],
+      "fetchedAt": "2026-07-22T14:10:47.895917+00:00"
+    },
+    {
+      "id": "h_5e145de5",
+      "title": "グーグル、Androidアプリによる「Wi-Fi・Bluetooth自動ON」廃止へ",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2126835.html",
+      "domain": "k-tai.watch.impress.co.jp",
+      "bookmarkCount": 23,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2126835.html",
+      "comments": [
+        {
+          "user": "nezuku",
+          "comment": "自社サードパーティ問わず制限をかけるというの、APIアクセスに特別扱いを設けるのは独禁法あたりの突っ突かれどころになっちゃうだろうからね。",
+          "tags": [],
+          "timestamp": "2026/07/22 22:07"
+        },
+        {
+          "user": "inforeg",
+          "comment": "もう習慣になっているから、切り替えるのは面倒じゃない。5Gのほうが速度安定していることがあるくらいだし。",
+          "tags": [],
+          "timestamp": "2026/07/22 20:09"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "勝手にオンにされるの地味に鬱陶しかったから助かるわ",
+          "tags": [],
+          "timestamp": "2026/07/22 19:41"
+        },
+        {
+          "user": "mouseion",
+          "comment": "自動オンじゃないと正直毎回切り替え大変やな。",
+          "tags": [],
+          "timestamp": "2026/07/22 19:19"
+        },
+        {
+          "user": "spitzfreak",
+          "comment": "GalaxyのRoutineユーザーとしては地味に困るな、常時つけっぱ運用でも問題ないと言えば問題ないけれど少しでも電池保たせたい時とかは実測で影響あるからなぁ",
+          "tags": [
+            "neta",
+            "android"
+          ],
+          "timestamp": "2026/07/22 16:54"
+        }
+      ],
+      "fetchedAt": "2026-07-22T14:10:50.316759+00:00"
+    },
+    {
+      "id": "h_8ba44bdd",
+      "title": "1年前に騒がれたFeliCaの脆弱性、JVNがようやく公表 深刻度は「高」",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/22/news103.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 17,
+      "summary": "IPAとJPCERT/CCが共同で運営する脆弱性対策情報ポータルサイト「Japan Vulnerability Notes」（JVN）は7月21日、ソニーの非接触ICカード技術「FeliCa」の一部ICチップに、深刻度「高」の脆弱性（CVE-2026-59776）が見つかったと公表した。 2025年7月24日にアンノウン・テクノロジーズの切敷裕大氏がIPAに届出をした後、2...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/22/news103.html",
+      "comments": [
+        {
+          "user": "terlen0",
+          "comment": "cvssが7.0ならそこまででもないかな。物理アクセスが必要であるのなら、警鐘が必要だけどそんなにも…かな",
+          "tags": [],
+          "timestamp": "2026/07/22 21:50"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "報じられてから公表まで1年かかるの遅すぎる気がするけど影響範囲が大きすぎたか",
+          "tags": [],
+          "timestamp": "2026/07/22 21:07"
+        }
+      ],
+      "fetchedAt": "2026-07-22T14:10:48.952760+00:00"
+    },
+    {
+      "id": "h_2f95f2ff",
+      "title": "音楽理論がわからない？ ならば自分で教材を作ってしまおう。ChatGPTとGeminiによる自分専用教科書構築メソッド（CloseBox） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/07/22/5318.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 11,
+      "summary": "「音楽理論は不要」「いや、わかっていた方がいい」などとネット上では繰り返し繰り返し議論が起きていて、そこになんとなく混ざりたい気もするけど、そのレベルの知識もない状態です。 最近ではプロのミュージシャンの方々と音楽の仕事をしている関係上、最低限の知識は持っておきたいですし。 知人でバークリー音楽院...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/07/22/5318.html",
+      "comments": [],
+      "fetchedAt": "2026-07-22T14:10:49.297009+00:00"
     }
   ],
-  "lastCollection": "2026-07-22T08:37:45.363815+00:00"
+  "lastCollection": "2026-07-22T14:10:51.651306+00:00"
 }
