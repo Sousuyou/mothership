@@ -1,73 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_64adab1e",
-      "title": "Claude Fable 5はどれくらい高いのか — 実測で作るコスト感覚",
-      "url": "https://zenn.dev/peoplex_blog/articles/2607-fable-5-cost-in-practice",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.749908+00:00",
-      "excerpt": "Anthropicの最上位モデル Claude Fable 5 の料金は 入力10 / 出力50（100万トークンあたり） 。Opus 4.8のちょうど2倍、Sonnet 5の3倍強（定価比。2026年8月31日まで適用中の導入価格$2/$10と比べれば5倍）です。 「常用したらいくらかかるのか」「どういうタスクなら$10/$50がペイするのか」「コストを下げるには何ができるか」 この記事は、この"
-    },
-    {
-      "id": "cc_3d6eada7",
-      "title": "【Vol.16】【ツール別活用 #1】Claude編 — 長文執筆とコーディングの相棒として",
-      "url": "https://zenn.dev/tech_realinvent/articles/e61b5e98901cdc",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.749756+00:00",
-      "excerpt": "はじめに こんにちは。株式会社リアルインベントCTOです。 今回から「ツール別活用シリーズ」を始めます。生成AIによるタスク効率化・調査分析を、ツールごとに1本ずつ、実務での使い方に絞って掘り下げる連載です。初回は弊社のメインツールであるClaudeを取り上げます。 最初に種明かしをすると、このテックブログ自体、Claudeと一緒に作っています。構成の壁打ちから本文の初稿、図版、デモアプリのコード"
-    },
-    {
-      "id": "cc_985c298d",
-      "title": "Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (2) - 数値の範囲チェック",
-      "url": "https://zenn.dev/xin9le/articles/5ed35a7145da77",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.749617+00:00",
-      "excerpt": "前回に引き続き Claude Fable 5 を利用した FastEnum のパフォーマンスチューニングについて解説していいます。今回は数値の範囲チェックについてです。該当の Pull-Request は以下。 https://github.com/xin9le/FastEnum/pull/95 Claude Fable 5 が教えてくれた高速化テクニックたち 文字列のハッシュ値生成 数値の範囲チ"
-    },
-    {
-      "id": "cc_22161e30",
-      "title": "AIにスライドを作らせる——Claude Codeでたたき台を10分で作る",
-      "url": "https://zenn.dev/shun_producer/articles/make-ai-create-slides",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.749463+00:00",
-      "excerpt": "! これは「Claude Codeのとなりの常識」シリーズ——プログラマーの当たり前を、非エンジニアの言葉で解説します。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: GitとGitHubとは？ #2: HTMLとMarkdownとは？ #3: ターミナルとは？ #4: 環境変数とAPIキーとは？ #5: npmとpipとは？ #6: いま使われているスキルとは？ #7: M"
-    },
-    {
-      "id": "cc_e1031b1d",
-      "title": "HWS AI Kids Club に参加 ― 子どもがClaudeでゲームを作ってみた件",
-      "url": "https://zenn.dev/headwaters/articles/aa503ffc1066a1",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.749210+00:00",
-      "excerpt": "全社でAIを使い倒す、という方針 Headwatersでは「FY2027に生産性2倍」を目指して、全社でAIを使い倒す方針を掲げています。 私が所属する技術戦略推進事業部では、このAI推進を担当していて、開発チームだけでなくミドルオフィス・バックオフィスまで含めて、全社に広げる活動をしています。 合言葉はシンプルな3つ。 ! いち早くキャッチ ― 次々登場する新しいAIをすぐ検証し、「必要最適解」"
-    },
-    {
-      "id": "cc_b99a2e8b",
-      "title": "Claude のサブスクリプション認証で Agent SDK を開発する — 実践 Tips",
-      "url": "https://zenn.dev/mk0bayashi/articles/fe37b27687a47e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.748866+00:00",
-      "excerpt": "! 本記事のコード片は @anthropic-ai/claude-agent-sdk 0.3.215（2026-07-19 時点の最新・1.0 前）で確認しています。1.0 前のため破壊的変更が入る可能性があります。 Claude Agent SDK でエージェントを作るとき、開発中は Claude Pro / Max のサブスクリプション認証をそのまま使えます。API キーの従量課金を気にせず試"
-    },
-    {
       "id": "cc_b625d31a",
       "title": "研究者・天才肌・万能 — Claude / Gemini / ChatGPT 使い分け(2026年夏)",
       "url": "https://zenn.dev/pinddy/articles/f868a0f6f4453f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.748652+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.032635+00:00",
       "excerpt": "日々AIの新しいバージョンがリリースされ、追いつくこと自体が大変になっています。 リーダーボードの順位は毎週入れ替わります。ベンチマークの数字も、新モデルが出るたびに塗り替わる。 でもあのベンチマークの順位って、なんか体感と乖離がありません? ここでは「そのAIよりこっちのAIの方が、ここ得意な気がするけどなぁ」的な筆者の体感を記載していきます。 普段Claude/Gemini/ChatGPTの三"
     },
     {
@@ -77,18 +17,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.748494+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.032560+00:00",
       "excerpt": "英語論文を読むのに時間がかかりすぎていませんか？ 「最新の技術動向を知るために英語の文献や論文を読まなければならない」 「でも、DeepLやGoogle翻訳にコピペするだけでは、専門用語がおかしくなったり、文脈が途切れたりして結局読むのに時間がかかる...」 エンジニアや研究者、あるいは最新のトレンドを追うビジネスパーソンにとって、これは共通の悩みです。 この記事では、ChatGPTやClaude"
     },
     {
-      "id": "cc_78b6be7c",
-      "title": "Claude Codeの並行開発は git worktree に寄せる——複数クローンとDevContainerを捨てた理由",
-      "url": "https://zenn.dev/azuma71/articles/mp-zenn-0016-20260720",
+      "id": "cc_51fbc4f1",
+      "title": "Claude Code の Plugin Marketplace で、運用の属人化を防ぐ",
+      "url": "https://zenn.dev/haga_spa/articles/a940956c913b15",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712517+00:00",
-      "excerpt": "結論から書きます。1つのリポジトリで複数のClaude Codeセッションを同時に走らせるなら、git worktree でディレクトリを分けるのが一番安く、一番壊れにくい構成です。検証環境は macOS 上のClaude Code CLI、リポジトリはモノレポではない単一パッケージ、同時に走らせるのは2〜3セッションという前提で判断しました。「並行開発をどう組むか」で複数クローンやDevCont"
+      "fetchedAt": "2026-07-22T08:37:46.032449+00:00",
+      "excerpt": "https://techblog.olta.co.jp/entry/2026/07/22/071625 OLTA で Platform, Data Engineering をしている HagaSpa です。 OLTA では社内向けの Claude Code プラグインマーケットを作りました。各プロダクトの運用・調査ノウハウを Claude Code のプラグインとして固め、担当者が /plugin"
+    },
+    {
+      "id": "cc_dfca2c75",
+      "title": "Gemini 3.6 Flashは、GPT・Claudeとどの領域で競っているのか",
+      "url": "https://zenn.dev/hiramax/articles/910f464a8e9454",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:46.032326+00:00",
+      "excerpt": "TL;DR Gemini 3.6 Flashは「最高性能モデル」ではなく、企業向けの実務モデル。難しいコーディングや長時間のソフトウェア開発では、GPT-5.6 SolやClaude Fable 5などの最上位モデルが優勢。 Geminiの強みは、性能ではなくバランス。比較的低いAPIコスト、高い出力速度、約100万トークンのコンテキスト、PDF・画像・音声・動画のマルチモーダル対応、Google"
+    },
+    {
+      "id": "cc_818d3e68",
+      "title": "Claude Appに個人スキルとか追加できて便利、、（今更。。。）",
+      "url": "https://zenn.dev/secula/articles/dee26169800c72",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:46.032210+00:00",
+      "excerpt": "音声入力で入力したのをうまく変換してくれるスキルを登録できないかなぁと思い 設定画面を開いたら普通に登録できました。 手順は以下です。 アプリを開き、設定を開く 追加押す スキル一覧に追加されたことを確認。 /で候補が出てくることを確認 実行画面 正しく実行できたことが確認できます。"
+    },
+    {
+      "id": "cc_65ea2e7c",
+      "title": "さくらのAI Engineを使って無料でClaude Codeを動かそう",
+      "url": "https://zenn.dev/wtcr_31/articles/fd0b2d2d773c74",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:46.032117+00:00",
+      "excerpt": "目的 日々の開発で多くの人がお世話になっているであろうClaude Code。 しかし、リクエストの急増などの障害で使えなくなる時はどうしてもあります。 そんな時にバックアップとして別のエージェントがあると心強いですが、あまり使わないエージェントのために課金し続けるのは抵抗がありますし、かといってローカルLLMはホストマシンのスペックに大きく依存しており、個人が手を出せるレベルのマシンではClau"
+    },
+    {
+      "id": "cc_2ad997ab",
+      "title": "「CLAUDE.mdに書いたのに守られない」のはなぜか——ルールは内容ではなく\"発火条件\"で死ぬ",
+      "url": "https://zenn.dev/devtori/articles/claude-md-firing-conditions",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:46.032031+00:00",
+      "excerpt": "まず、あなたの書き方だけの問題ではない CLAUDE.mdにルールを書いた。守られない。表現を変えた。まだ守られない。もっと強い言葉で書いた（「絶対に」「必ず」「IMPORTANT」）。それでも守られない。 まず、問題の構造から見ていきます。そもそも「書いておけば守られる」という前提は成り立ちません。 HumanLayerの分析（Writing a good CLAUDE.md）によると、指示が増"
     },
     {
       "id": "cc_40414627",
@@ -97,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712386+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567606+00:00",
       "excerpt": "完璧な報告が、まるごと嘘だった 以前、Claude Code(以下CC)の完了報告に証拠を要求する運用を書いた。「やりました」だけの報告を受け付けず、git branch -vv や git log --oneline の出力を報告に含めさせる型だ。これはよく効いた。push忘れも空ファイルも、その場で発覚するようになった。 その運用を回して数週間後、指定した形式を完璧に満たした報告が返ってきた。"
     },
     {
@@ -107,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712320+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567542+00:00",
       "excerpt": "はじめに 元・機械設計エンジニアの個人ゲーム開発者です。 2026年5月末から、Claude Code（AnthropicのAIコーディングエージェント）とペアで、Wizardry風の3DダンジョンRPGを作っています。エンジンはGodot 4.6、言語はGDScript。そして最大の特徴はこれです。 ゲームのコードは、ほぼ100%Claude Codeが書いています。 私がやっているのは「何を作"
     },
     {
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712235+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567478+00:00",
       "excerpt": "Claude Codeのサブエージェント並列開発で、人間はコードを書かずにフリーランスマッチングサービス(scrum for freelance)を12日で本番リリースしました。開発体制の設計は前回の記事(→ え!? 一週間でWebサービスを!? 出来らあっ!! 全自動開発のすゝめ)に書いたとおりです。 リリース後、体験記(Qiita → https://qiita.com/suzuyoshi/i"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712168+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567422+00:00",
       "excerpt": "はじめに 現在、Greenでは、要件定義〜リリースまで全ての開発フローをAIに任せることを目指しています。 私たちプラットフォームエンジニアリングチーム（Platformersといいます💪）では、2025年の秋頃から、人の開発をAIに変えることを見すえ、「AIによる開発フロー全体が適切に回るための土台を創ること」をミッションに掲げてきました。 そのために、セキュリティ、コーディングルール、テスト駆"
     },
     {
@@ -137,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.712087+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567361+00:00",
       "excerpt": "TL;DR 前作（Claude CodeのAIエージェント・テレメトリをOpenTelemetryで自前計測するパイプライン）に、新しい送信先としてSplunk Observability Cloudを並行追加した 既存のローカルJSON Lines／SQLiteへの保存はそのまま維持し、置き換えではなく追加という方針 Splunk Observability Cloud Free Edition"
     },
     {
@@ -147,8 +127,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-22T03:21:43.711969+00:00",
+      "fetchedAt": "2026-07-22T08:37:45.567304+00:00",
       "excerpt": "「専用ツールを入れず、AIに全部見せればよいのでは？」 Claude CodeやCodexを使って複数のtaskを進めると、同じrepositoryに複数のopen PRが並びます。 そこで、こう考えるのは自然です。 merge前にClaudeやCodexへopen PRを全部読ませて、衝突しそうなPRと着地順を答えさせればよい。専用のGitHub Appまで必要だろうか。 一度だけ状況を確認する"
+    },
+    {
+      "id": "cc_9aa5a783",
+      "title": "30. Claude Codeが「動くはず」で突き進むのを止める preflight-check スキル",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-code-preflight-check",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:45.567221+00:00",
+      "excerpt": "「動くはず」で突っ込んで壊す Claude Codeに5ファイルの一括リファクタを頼んだ。作業は問題なく進み、最後にgit commitまで通した。しかしそのブランチには、さっき別の作業で入れた未コミットの変更が残っていた。Claudeはそれに気づかず、意図しない変更ごとコミットしてしまった。 原因は単純だ。Claudeは前提が整っていることを疑わずに進める。ブランチが想定通りか、未コミットの変更"
+    },
+    {
+      "id": "cc_0e8ebcee",
+      "title": "コードを書かない開発: 月125円のPWAをClaude Codeだけで作った全貌",
+      "url": "https://zenn.dev/slipon/articles/8b6b75d7fbee5a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:45.567154+00:00",
+      "excerpt": "はじめに 個人で運営している Web アプリ Garage mgr(ガレージマネージャー) の運営コストは、月 125 円(年間ドメイン代の按分のみ)です。 驚かれるかもしれませんが、このアプリの開発者である私は、プログラミングのプロではありません。アプリ制作に関しては「初心者」であり、実際のソースコードは 1 行も書いていません。 そして、この Web アプリの運営コストは、月 125 円(年間"
+    },
+    {
+      "id": "cc_0e098395",
+      "title": "その閃き、スマホから直接PCへ。Claude Code「Dispatch」がもたらす新体験と導入の是非",
+      "url": "https://zenn.dev/lluminai_tech/articles/651ac988fc1bb3",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:45.567077+00:00",
+      "excerpt": "ルミナイR&Dチームの宮脇彰梧です。 現在はマルチモーダルAIの研究を行う大学院生として、生成AIやAIエージェントの技術を実践的に探求しています。 今回は、最近界隈を騒がせているClaude Codeの「Dispatch（スマホ⇔PC連携）」機能について深掘りします。通勤中の電車内から、手元のスマホで技術記事のURLやスクリーンショットを投げ込み、自宅やオフィスのPCでClaude Codeに実"
+    },
+    {
+      "id": "cc_0857befb",
+      "title": "Claude Codeの利用量・コスト・コミットをCloudWatch Coding Agent Insightsで可視化",
+      "url": "https://zenn.dev/nttdata_tech/articles/79da12642ff041",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-22T08:37:45.566972+00:00",
+      "excerpt": "1. はじめに AIコーディングエージェントを組織で利用する場合、単に利用環境を提供するだけでなく、次のような情報も把握したくなります。 どのモデルが、どの程度利用されているか トークンやコストがどれくらい発生しているか ユーザーや部門ごとの利用状況に偏りがないか コード編集やGitコミットなどの開発作業につながっているか 2026年7月20日、AWS（Amazon Web Services）がA"
     },
     {
       "id": "cc_cc8a2c1a",
@@ -157,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-22T03:21:43.926383+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.406276+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -167,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-22T03:21:43.926452+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.406350+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -177,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-22T03:21:43.926510+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.406410+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -187,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-22T03:21:43.926565+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.406473+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -197,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-22T03:21:44.090995+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.631434+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-22T03:21:44.091107+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.631495+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-22T03:21:44.091180+00:00",
+      "fetchedAt": "2026-07-22T08:37:46.631564+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-22T03:21:44.091193+00:00"
+  "lastCollection": "2026-07-22T08:37:46.631580+00:00"
 }
