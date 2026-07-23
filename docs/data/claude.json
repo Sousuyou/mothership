@@ -1,43 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_2ad997ab",
-      "title": "「CLAUDE.mdに書いたのに守られない」のはなぜか——ルールは内容ではなく\"発火条件\"で死ぬ",
-      "url": "https://zenn.dev/devtori/articles/claude-md-firing-conditions",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558586+00:00",
-      "excerpt": "まず、あなたの書き方だけの問題ではない CLAUDE.mdにルールを書いた。守られない。表現を変えた。まだ守られない。もっと強い言葉で書いた（「絶対に」「必ず」「IMPORTANT」）。それでも守られない。 まず、問題の構造から見ていきます。そもそも「書いておけば守られる」という前提は成り立ちません。 HumanLayerの分析（Writing a good CLAUDE.md）によると、指示が増"
-    },
-    {
-      "id": "cc_b54b6c2b",
-      "title": "非エンジニアのCS担当が言われるがままにClaude用の作業ディレクトリを作ってみた",
-      "url": "https://zenn.dev/hs1350/articles/f4f26871a04176",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558495+00:00",
-      "excerpt": "Claudeの作業用ディレクトリを作成した時の話を書きます。 なんでそんなに細かく分けるの？てか作業用ディレクトリってなに？ ある日、先輩社員とオンラインで画面共有をしながら、自社プロダクトの色々な操作をClaudeのスキルで行う方法について教わっていた時、先輩から「Claude用の作業ディレクトリを設定した方がいいよ」とアドバイスをもらい、その時に先輩のディレクトリ構造を見せてもらいました。 担"
-    },
-    {
-      "id": "cc_f49fe350",
-      "title": "GitHubとMicrosoft APMで作る、Claude Code・Codex共通の社内Marketplace",
-      "url": "https://zenn.dev/inventit/articles/apm-marketplace",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558418+00:00",
-      "excerpt": "はじめに Claude CodeやCodexを社内で利用していると、コーディング規約やレビュー手順を記述したSkill、社内データを参照するMCPサーバー、それらを組み合わせたプラグインが増えていきます。 これらを各開発者が手作業でコピーすると、Claude Code用とCodex用で導入方法が分かれ、更新やバージョン管理も難しくなります。 本記事では、MicrosoftのAgent Packag"
-    },
-    {
       "id": "cc_369c96c4",
       "title": "Claude Code × NotebookLM × Obsidian でネットワークスペシャリストに合格する【環境構築編】",
       "url": "https://zenn.dev/rokusoudou_ts/articles/nw-2026-setup-claude-notebooklm-obsidian",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558295+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.148050+00:00",
       "excerpt": "はじめに 一人法人を経営していると、「学習」は完全に自己投資であり、同時に経営リソースの配分そのものです。時間を割いた分だけ、事業に使える時間が減る。だからこそ、資格学習のような長期戦こそ個人の気合いではなく仕組みで回したい、というのが今回の出発点です。 2026年11月、ネットワークスペシャリスト試験（NW）を受験します。午前I免除なし、つまり午前Iから午後IIまでフルで戦う条件です。 ただ漫然"
     },
     {
@@ -47,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558210+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.147943+00:00",
       "excerpt": "! この記事は、Claude Codeを執筆支援に使った \"毎朝1本書く\" 取り組みの一環で書いています。 目的: 自分のAI活用キャッチアップ。仕組み自体も毎月アップデートしていきます 体制: 題材選定・実装・下書きをClaude Codeで補助、平野が動作確認と編集を経て公開判断 方針: Zennのガイドラインに真摯に向き合い、運営から指摘や警告があれば即座に取り組みを停止します 仕組みの全貌"
     },
     {
@@ -57,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558142+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.147871+00:00",
       "excerpt": "TL;DR Claude のセッションは compact や再起動で作業文脈を失う。生の履歴を貼り直しても精度は戻らない Compile, Then Page（arXiv:2607.11346）の発想を運用に持ち込んだ。閉じる前に文脈を構造化して書き出し、次のセッションは冒頭でそれを読む 書き出しは /cc.session-close スキルが担い、タスク専用ディレクトリ @task/sessio"
     },
     {
@@ -67,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.558044+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.147733+00:00",
       "excerpt": "はじめに 6月にOpus 4.8の「court無限ループ」からの復活手順を書き、7月頭には期間限定で使えたClaude Fable 5の話を書いた。今回はその続きにあたる。期間限定の上位モデルが残していった資産を日常運用のモデルからどう守るか、という問題を巡って3週間で同じガードを3回作り直した記録だ。 モデルの紹介記事ではなく、実際はAIエージェント運用の話になる。結論だけ先に書くと、行き着いた"
     },
     {
@@ -77,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.557976+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.147672+00:00",
       "excerpt": "はじめに:なぜ「使い続ける理由」を書くのか これまで個人開発で、タロット占いアプリ、おみくじアプリ、ライフプランシミュレーションアプリ、MP3アラームアプリ、そして直近の手相占いアプリ等と、多くのFlutterアプリを作ってきました。 その間ずっと、実装の中心にあったのがClaude Codeです。 この記事は、Claude Codeの機能紹介ではありません。作ってきた中で実感した、「仕様書を作っ"
     },
     {
@@ -87,18 +57,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.557882+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.147597+00:00",
       "excerpt": "Claude Codeを使うようになって、実装にかかる時間はかなり短くなりました。 ただ、開発が速くなっても、タスクを作る、着手状態にする、PRを紐付ける、レビュー中に変える、完了にする、といった管理作業は残ります。1回ごとの操作は小さくても、開発の途中で何度もLinearを開くのは地味に面倒です。更新を忘れると、ボードと実際の進捗もずれていきます。 現在はNotion、Claude Code、L"
     },
     {
-      "id": "cc_48ab3d9b",
-      "title": "Claude Codeの記事化スキルを2週間で育てた記録 ── 足りなかったのは感想だった、インタビュー機能とセッション横断機能を追加した話",
-      "url": "https://zenn.dev/yusukekcode/articles/article-writeup-skill-evolution",
+      "id": "cc_7bfcb35f",
+      "title": "Is Kimi K3 Really Better Than GPT 5.6 and Claude Fable 5",
+      "url": "https://zenn.dev/neotechpark/articles/e1c9c8849f9be2",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.516375+00:00",
-      "excerpt": "導入 以前、Claude Codeでの作業セッションをそのままZenn記事の下書きに変換するスキル（article-writeup）を自作し、公開まで漕ぎ着けたことを記事にした。今回はその続編にあたる。 公開した最初の記事を読み返して、率直に「実況っぽくて寂しいな」と感じた。何をやったかは書けているのに、そのときどう思ったかがどこにもない。この違和感が起点になって、スキルにインタビュー機能と複数セ"
+      "fetchedAt": "2026-07-23T08:39:29.147489+00:00",
+      "excerpt": "Short answer first, since I know that is what you actually came here for: Kimi K3 is genuinely one of the strongest open weight AI models ever released, and it beats Claude Opus 4.8 on several indepen"
+    },
+    {
+      "id": "cc_313d41bf",
+      "title": "Claudeが口に出す前の思考を読む、AnthropicのJ-lens",
+      "url": "https://zenn.dev/okssusucha/articles/20260707-anthropic-jlens-global-workspace",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-23T08:39:29.147386+00:00",
+      "excerpt": "テスト用のメールアシスタントとして動いていたClaudeが、返答を1文字も書き出す前に、内部では「fake(偽物)」「fictional(架空)」という概念のパターンが点灯していた。目の前のシナリオが本物の業務ではなく評価であることに、出力より先に気づいていたわけだ。Anthropicが2026年7月6日に公開した解釈可能性研究は、こういう「口に出す前の思考」を外から読む道具を提示している。名前は"
+    },
+    {
+      "id": "cc_9624ecdd",
+      "title": "290時間のマークアップを150時間に短縮した話——Claude Code活用の実践記録",
+      "url": "https://zenn.dev/mukuil_blog/articles/f90662ade9c37b",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-23T08:39:29.147299+00:00",
+      "excerpt": "290時間のマークアップを150時間に短縮した話——Claude Code活用の実践記録 はじめに 本記事は、2026年6月に進行しているフロントエンドコーディング案件において、Claude Codeを実務投入した際の記録です。案件名および発注元は非公開としますが、規模・工数・作業内訳については実数に基づいて記述します。 ! 結論として、熟練者による手動コーディングで290時間と見積もられる規模の"
     },
     {
       "id": "cc_9137ac01",
@@ -107,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.516282+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.124322+00:00",
       "excerpt": "結論から AIエージェント（Claude Code）で3ヶ月、業務システムを1人で作りました。その間のコミット数がこれです。 月 コミット数 4月 11 5月 5 6月 257 7月 85 最初の2ヶ月で16コミット。6月だけで257。 この差を生んだのは、私の習熟でもモデルの更新でもありません。6月に CLAUDE.md を書き始めたことです。 この記事は、その CLAUDE.md に「何を書く"
     },
     {
@@ -117,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.516197+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.124241+00:00",
       "excerpt": "はじめに Claude Code を使った VibeCoding スタイルの開発で、家計簿メモアプリ「KakeiboNote」を作りました。 仕様書を渡してプロンプトを投げると、Claude Code がコードを書いてくれる——そんな体験を実際にやってみたので、詰まったポイントや知見を記録として残しておきます。 作ったもの KakeiboNote（家計簿メモアプリ） Google ログインで複数ユ"
     },
     {
@@ -127,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.516059+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.124103+00:00",
       "excerpt": "「Claude Code環境」シリーズ。前回 launchdのマルチスロットリトライ設計 で「朝昼夜3回冪等発火」パターンを書いた。今回はその応用で、**Fable 5の終了（2026-07-07）に備えて仕込んでいた「使い捨て移行ジョブ」**の実装を公開する。 settings.jsonのmodelフィールドをjqで書き換え、デスクトップ通知を飛ばし、最後にlaunchctl unloadで自分"
     },
     {
@@ -137,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.515992+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.124036+00:00",
       "excerpt": "冒頭には自分に起きた時事ネタを書くことが多いです。 実は・・・ついにClaudeに課金しました（笑 なので、元を取る使い倒すという意味で、ここからの記事はClaudeを使用したものが多くなりそうです。 と雑談？はこのあたりにして、方向修正をしましょう（笑 さて、Playwrightは優秀です。 PlaywrightはUIがあり非エンジニアでもある程度触ることができます。 PlaywrightはGi"
     },
     {
@@ -147,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.515925+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.123947+00:00",
       "excerpt": "前に「請求書PDF30枚をExcelに一覧化するツール」をPythonで書いた記事を出しました(前回の記事)。同じものを、今度は人が手で書く場合とClaude Code(AIコーディングエージェント)に任せる場合で作り比べて、修正回数とコストを実測しました。 先に正直に書いておくと、この手の比較は「AIすごい」で終わりがちです。でも実際に両方でやってみると、差が出たのは速さそのものより「どこで詰ま"
     },
     {
@@ -157,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.515856+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.123881+00:00",
       "excerpt": "こんにちは、Webエンジニアのまさぴょんです！ Claude CodeのSkillsを実案件(AI開発のPoC)で使い込んでいくと、必ずこの瞬間が来ます。 次の案件が始まった。前の案件で育てたSkill、そのままでは1個も動かない。 理由は単純で、Skillは作った瞬間に、そのプロジェクト専用の生き物になるからです。パスも、サービス名も、しきい値も、業務用語も、全部そのとき手元にあった案件のものが"
     },
     {
@@ -167,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.515771+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.123802+00:00",
       "excerpt": "Claude Code を「対話して使うツール」から「自走する開発システム」へ。サブエージェント編成、オーケストレーションパターン、Routines によるスケジュール実行、CI 組み込み、そして自律実行の安全設計まで。入門の次に進みたい実務者のための自動運用専門書。全章、動作確認済みの完全な設定例付き。"
     },
     {
@@ -177,8 +167,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-23T03:28:37.515635+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.123696+00:00",
       "excerpt": "はじめに Proプランで期間限定ながら Claude Fable 5 が使えるようになりました。せっかくの機会なので使い倒したい。でも高性能なモデルほど、気になるのがトークン消費です。使い倒したいのに、消費が多くて使えない——本末転倒です。 そこで「消費は抑えたい、ただしAIの応答品質を削る方向の節約はしない」を方針に、Claude Code の開発環境そのものを見守る常駐ツールを作ることにしまし"
+    },
+    {
+      "id": "cc_413c9aaa",
+      "title": "【Claude Code】settings.json安全編集術：Pythonで構造を壊さずJSONを操作する具体例",
+      "url": "https://zenn.dev/fukukei23/articles/claude-code-settings-json-python-json",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-23T08:39:29.123623+00:00",
+      "excerpt": "はじめに Claude Codeを使い始めると、設定ファイルであるsettings.jsonをスクリプトから書き換えたくなる場面がよくあります。たとえば、複数環境への一括設定展開、CIでの設定注入、開発メンバー間の設定同期などです。 しかし、ファイルを直接書き換えようとしてカンマ忘れや括弧の対応ミスでJSONを壊してしまい、Claude Codeが起動しなくなる——これは初心者が陥りがちな罠です。"
+    },
+    {
+      "id": "cc_a699a615",
+      "title": "Claude Codeの能力を極限まで引き出す：カスタムSubagents設計と拡張プラグイン活用ガイド",
+      "url": "https://zenn.dev/ququla89/articles/claude-code-subagents-and-plugins-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-23T08:39:29.123537+00:00",
+      "excerpt": "はじめに CLIで動作する高度なAIコーディングアシスタント [Claude Code] は、単体でも強力なコード編集・コマンド実行能力を持っています。しかし、大規模なプロジェクトや複雑なマルチタスクを行う際、1つのセッションに全ての作業を詰め込むと、コンテキストウィンドウがすぐに溢れ、指示の精度低下や無駄なトークン消費につながります。 本記事では、Claude Codeのパフォーマンスを最大化す"
     },
     {
       "id": "cc_cc8a2c1a",
@@ -187,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.791048+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.430656+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -197,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.791177+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.430723+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
     },
     {
@@ -207,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.791290+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.430780+00:00",
       "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
@@ -217,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-14T12:18:12+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.791406+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.430835+00:00",
       "excerpt": "このブログは、人間1人とAI3人のチームで作った。 正確には、Claude Codeというツールの上に3つのAIエージェントを構築し、それぞれに役割を与えて開発を進めた。 Planner、Generator、Evaluator。 この3つが何をするのか、なぜそういう構成にし..."
     },
     {
@@ -227,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.981569+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.648521+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -237,7 +247,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.981637+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.648583+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -247,9 +257,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-23T03:28:37.981712+00:00",
+      "fetchedAt": "2026-07-23T08:39:29.648657+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-23T03:28:37.981726+00:00"
+  "lastCollection": "2026-07-23T08:39:29.648668+00:00"
 }
