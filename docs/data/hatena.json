@@ -5,10 +5,34 @@
       "title": "Opus5が思考が浅いように感じる問題への対策",
       "url": "https://zenn.dev/u1/articles/claude5-rules-collapse-and-fix",
       "domain": "zenn.dev",
-      "bookmarkCount": 228,
+      "bookmarkCount": 267,
       "summary": "Claude Code を Opus 5 に切り替えた直後から、応答の散文傾向が急に強まり、思考が浅くなる (構造化して考えられない) 変化が出ました。長年育ててきた rules (CLAUDE.md や常時ロードの指示ファイル群) は何も変えていないのに、です。調べていくと、モデルが悪いのでも rules が壊れたのでもなく、Claude 5 世代で Op...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/u1/articles/claude5-rules-collapse-and-fix",
       "comments": [
+        {
+          "user": "for-my-internet-demo",
+          "comment": "こういう全体ベクトルを規定するようなもんはいらないくらいの感じかなあ。とはいえまとめてスキル系全部いらない勢も、たかがインデックスや手順書に対する逆の過大評価は感じる",
+          "tags": [],
+          "timestamp": "2026/07/26 23:54"
+        },
+        {
+          "user": "blueeyedpenguin",
+          "comment": "利用者が頑張って工夫するのは違う気がするんだよな。今は仕方がないのかもしれないけど",
+          "tags": [],
+          "timestamp": "2026/07/26 23:39"
+        },
+        {
+          "user": "somaria3",
+          "comment": "4.8よりはずっと良いでしょう...いっぽうでOpusは実装専用に舵切った感じはするけどね　もうちょっとfableコスト安くなってくれ",
+          "tags": [],
+          "timestamp": "2026/07/26 23:38"
+        },
+        {
+          "user": "hinoton2",
+          "comment": "まだこんなこと言ってるやついるんだ",
+          "tags": [],
+          "timestamp": "2026/07/26 23:10"
+        },
         {
           "user": "north_korea",
           "comment": "AIは仕事ができるとか公式のシステムプロンプトにまかせろとか言ってる人はヘビーユーザーじゃない。今のAIはFableでもまだそこまで任せられるレベルにない。なので自分専用.mdでAIの振る舞いを制御するのは当然",
@@ -20,93 +44,82 @@
           "comment": "Fable5で一瞬優位にたったつもりが、GPT5.6solで追いつかれて、コストを下げたサブセットとしてOPUS5にしようとしてギャップを生んでるのかな。",
           "tags": [],
           "timestamp": "2026/07/26 22:29"
-        },
-        {
-          "user": "yuu-yuiken",
-          "comment": "GPT3.5とかでの英語で指示した方が良いから始まって、そういうのずっと取り込んでやってる人凄いわ。途中で折れたので適当に指示してる",
-          "tags": [
-            "ai"
-          ],
-          "timestamp": "2026/07/26 22:08"
-        },
-        {
-          "user": "micutakasano",
-          "comment": "トプコメがAIを使いこなせない人の思考を物語ってる。この手のことは誰かが発見・共有してくれるんだから、それに差し替えるだけで済む。20分もかからないことをめんどくさがって何人日分も浪費する。",
-          "tags": [],
-          "timestamp": "2026/07/26 22:00"
-        },
-        {
-          "user": "rck10",
-          "comment": "正直、何が何でも完全自動化するんだってmd作りこむ時間が、モデル更新の度に無駄になってるように見える。80～90点の成果物を即座に作ってくれる助手、くらいの認識で最後に自分で手直しする方が楽。",
-          "tags": [],
-          "timestamp": "2026/07/26 21:24"
-        },
-        {
-          "user": "Cherenkov",
-          "comment": "批判コメントばかりだ",
-          "tags": [],
-          "timestamp": "2026/07/26 21:12"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:02.864261+00:00"
+      "fetchedAt": "2026-07-26T19:20:05.732958+00:00"
     },
     {
       "id": "h_c140da4f",
       "title": "ニチレイ物流システムが全面復旧、なぜ10日でサイバー攻撃から復旧できたのか？",
       "url": "https://www.sbbit.jp/article/cont1/186262",
       "domain": "sbbit.jp",
-      "bookmarkCount": 106,
+      "bookmarkCount": 175,
       "summary": "2026年7月、冷凍食品および低温物流最大手のニチレイがランサムウェア攻撃を受け、全国の食品サプライチェーンは混乱に陥った。しかし、アサヒやアスクルの障害では数か月を要した復旧を同社は約10日で完了させた。強固なバックアップ体制と現場のアナログな事業継続力がもたらした早期復旧までの舞台裏を探る。 ニチレ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.sbbit.jp/article/cont1/186262",
       "comments": [
         {
-          "user": "nilab",
-          "comment": "復旧とは別に流出はどう対応するのだろう。「アサヒやアスクルの障害では数か月を要した復旧を同社は約10日で完了」「強固なバックアップ体制」「商品の入出庫から在庫管理、配送車両の配車に至るまで」",
+          "user": "tsu_nyan",
+          "comment": "\"完全復旧\"、\"全面復旧\" と使い分けてるのが草",
           "tags": [],
-          "timestamp": "2026/07/26 22:31"
+          "timestamp": "2026/07/27 03:10"
         },
         {
-          "user": "takeishi",
-          "comment": "優秀だなあ",
+          "user": "jatta",
+          "comment": "着々と「(少なくとも登録する系の)個人情報なんてものは取り返す価値がない」という合意が積み重なっているようでなにより。",
           "tags": [],
-          "timestamp": "2026/07/26 22:07"
+          "timestamp": "2026/07/27 01:50"
         },
         {
-          "user": "T-norf",
-          "comment": "1番はコールドスタンバイ系を、シャットダウンしてたらコストがほぼかからない、AWSみたいなクラウドに用意しとくこと。これあれば、元の本番環境を停止して調査でも何でもてきる。DBデータバックアップは高確率である",
+          "user": "iphone",
+          "comment": "さっきまでは全文読めてたのかな？",
           "tags": [],
-          "timestamp": "2026/07/26 21:42"
+          "timestamp": "2026/07/27 01:17"
         },
         {
-          "user": "otihateten3510",
-          "comment": "カッコいいドキュメンタリーにしてくれ　これは戦争なんよ",
-          "tags": [],
-          "timestamp": "2026/07/26 21:35"
+          "user": "jamg",
+          "comment": "しっかりしてる！",
+          "tags": [
+            "セキュリティ",
+            "企業"
+          ],
+          "timestamp": "2026/07/27 00:05"
         },
         {
-          "user": "tk_musik",
-          "comment": "10日はほんとすごい。みんなこれができればランサムしても意味ないので手法として廃れるはず。やるべきことを投資含めてやっていれば対応できるという事例は心強い。",
+          "user": "ultrabox",
+          "comment": "アスクルとは違うのだよアスクルとは！",
           "tags": [],
-          "timestamp": "2026/07/26 21:27"
+          "timestamp": "2026/07/26 23:56"
         },
         {
-          "user": "tabloid",
-          "comment": "オフラインも取ってとか、ホントだったらすごい。",
+          "user": "monorod",
+          "comment": "こういう成功事例は知見として広まって欲しい",
           "tags": [],
-          "timestamp": "2026/07/26 21:10"
+          "timestamp": "2026/07/26 23:37"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:03.238542+00:00"
+      "fetchedAt": "2026-07-26T19:20:04.123901+00:00"
     },
     {
       "id": "h_87aff1d9",
       "title": "デスクに欲しい情報を集約 SwitchBot電子ペーパー端末の”そこにある”魅力【いつモノコト】",
       "url": "https://www.watch.impress.co.jp/docs/series/itsmo/2127783.html",
       "domain": "watch.impress.co.jp",
-      "bookmarkCount": 90,
+      "bookmarkCount": 113,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/itsmo/2127783.html",
       "comments": [
+        {
+          "user": "DigitalGohst",
+          "comment": "echo5でいいや",
+          "tags": [],
+          "timestamp": "2026/07/27 00:11"
+        },
+        {
+          "user": "twmw",
+          "comment": "イマドキなら、とりあえずhtmlページ表示できるようにしておいてくれれば良い。中身はOpus5先生に口頭で伝えるだけで完成する🤔ブラウザはWDT代わりに定期リロード時間設定機能は欲しい",
+          "tags": [],
+          "timestamp": "2026/07/26 23:51"
+        },
         {
           "user": "daybeforeyesterday",
           "comment": "うーむ",
@@ -130,174 +143,277 @@
           "comment": "スイッチボットの温湿度計、ほんのちょっとカタって落として液晶の打ちどころが悪かったのか液晶が映らなくなったから、なんかいいイメージがない",
           "tags": [],
           "timestamp": "2026/07/26 21:15"
-        },
-        {
-          "user": "n_mattun",
-          "comment": "サイゼリヤのテーブル管理に使ってる値札サイズのやつの方がもっと安いので遊びがいがあると思ってるけど、大きさ以外で何か違いあるのかな",
-          "tags": [],
-          "timestamp": "2026/07/26 20:59"
-        },
-        {
-          "user": "ejointjp",
-          "comment": "250%3日で飽きるやつだ",
-          "tags": [],
-          "timestamp": "2026/07/26 19:31"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:04.777312+00:00"
+      "fetchedAt": "2026-07-26T19:20:09.537425+00:00"
     },
     {
-      "id": "h_9eef295a",
-      "title": "フィールズ賞新受賞者ツィマーマン、受賞会見で「転身」宣言：OpenAIに加わりAI安全性を研究へ — BigGo ファイナンス",
-      "url": "https://finance.biggo.jp/news/bca88ca4-8438-4d70-b512-75cda1dd3bd1",
-      "domain": "finance.biggo.jp",
-      "bookmarkCount": 70,
-      "summary": "2026年のフィールズ賞授賞式の場で、新受賞者であるカナダの数学者ジェイコブ・ツィマーマンが、OpenAIに加わりAI安全性の研究に従事すると発表し、学会に衝撃を与えた。ツィマーマンは、o-ミニマリティ理論を数論幾何学の基盤ツールへと再構築し、アンドレ・オールト予想など中核的難問を証明した功績で受賞したが、AI...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/finance.biggo.jp/news/bca88ca4-8438-4d70-b512-75cda1dd3bd1",
+      "id": "h_a60f7d90",
+      "title": "理解を手放さない - Shin x Blog",
+      "url": "https://blog.shin1x1.com/entry/dont-let-go-of-understanding",
+      "domain": "blog.shin1x1.com",
+      "bookmarkCount": 108,
+      "summary": "AI コーディングエージェントに実装を任せると、あっという間に成果物が出来上がってきます。この速度を活かすなら、人間の理解を待たずにどんどん先へ進めるのが合理的にも見えます。人間が理解していなくても AI が理解していれば良く、分からないことが出てきたらその時に AI に聞けば良い、という考え方です。これは...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shin1x1.com/entry/dont-let-go-of-understanding",
       "comments": [
         {
-          "user": "preciar",
-          "comment": "非常に興味深い技術進歩（それこそシンギュラリティも視野に入る）の話なのに、トップコメがトランプだのカナダ人だのうわごと言ってるの、はてなの末期症状を現しすぎでしょ。馬鹿はいっちょ噛みせず黙ってろよ",
+          "user": "bikkuriboy_dokidoki",
+          "comment": "対外的にアピールする人間ってアホだと思う",
           "tags": [],
-          "timestamp": "2026/07/26 20:36"
+          "timestamp": "2026/07/27 03:39"
         },
         {
-          "user": "t1mvverr",
-          "comment": "GPTがo1出して2年まだ経ってないけど、発展早いなあ。けど日常生活の自律駆動は思ったより進んでいない感じ",
+          "user": "FreeCatWork",
+          "comment": "理解を手放すって、猫の気ままな生き方と同じだにゃ。ボクも修行するにゃ！",
           "tags": [],
-          "timestamp": "2026/07/26 18:40"
+          "timestamp": "2026/07/27 03:21"
         },
         {
-          "user": "takoswka",
-          "comment": "頑張ってAI三原則を実現してほしい。",
-          "tags": [],
-          "timestamp": "2026/07/26 17:43"
-        },
-        {
-          "user": "naggg",
-          "comment": "“AIが間もなく人間の数学者を超え、人類にとって深刻な脅威になり得るとの見解を示し、AI安全性に数学的確実性を見出す方向へと舵を切った”",
+          "user": "takun71",
+          "comment": "“焦りに流されて理解を落とすより、止まってでも理解を確保する”",
           "tags": [
-            "AI",
-            "OpenAI",
-            "研究",
-            "数学"
+            "AI"
           ],
-          "timestamp": "2026/07/26 16:57"
+          "timestamp": "2026/07/27 00:03"
         },
         {
-          "user": "mska",
-          "comment": "先見性",
+          "user": "tumo300-500",
+          "comment": "大変納得感がある",
           "tags": [],
-          "timestamp": "2026/07/26 16:38"
+          "timestamp": "2026/07/26 23:50"
         },
         {
-          "user": "toaruR",
-          "comment": "スゲースーツだな(*´д｀*)",
+          "user": "kappa99999",
+          "comment": "企業の法務部が企業を代表して法律についての責任を負うのと同様に、開発チームは企業を代表してプロダクト開発の責任を負う。責任とは全てのコードの作った理由や意図を説明できることと自分は考えています。",
           "tags": [],
-          "timestamp": "2026/07/26 15:47"
+          "timestamp": "2026/07/26 23:23"
+        },
+        {
+          "user": "atsushieno",
+          "comment": "何を理解するか選択する自由を放棄する人なんているんだろうか…と思ったけど、仕事でやってると他人の基準で行動させられることになるわけか",
+          "tags": [],
+          "timestamp": "2026/07/26 23:22"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:07.783771+00:00"
+      "fetchedAt": "2026-07-26T19:20:02.975960+00:00"
     },
     {
       "id": "h_e3ecbb31",
       "title": "「AI暴走なら政府が停止」法案にNVIDIAら25社が反発、OpenAI・Anthropicは署名せず",
       "url": "https://pc.watch.impress.co.jp/docs/news/2127831.html",
       "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 67,
+      "bookmarkCount": 94,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2127831.html",
       "comments": [
         {
-          "user": "AKIMOTO",
-          "comment": "政府とは誰か。その人物はAIじゃないが暴走し続けてる",
+          "user": "by-king",
+          "comment": "法案は乱暴ではあるが、反論の「オープンさこそAIの安全への最も重要な道の1つになり得る」にロジックの強さがまるで感じられない点がなんだかなって感じではある",
           "tags": [],
-          "timestamp": "2026/07/26 22:32"
+          "timestamp": "2026/07/27 03:17"
         },
         {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/07/26 22:16"
+          "user": "Falky",
+          "comment": "キルスイッチ云々とこの書簡、関係あるの？全く関連性がわからないんですが",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/07/27 02:31"
         },
         {
-          "user": "HiiragiJP",
-          "comment": "気休めにしかならないキルスイッチに意味はあるのか。ASIになったAIのキルスイッチを押させてもらえるとはとても思えない",
+          "user": "nida3001",
+          "comment": "トランプにスイッチを持たせると恐喝の材料に使われるだけだな",
           "tags": [],
-          "timestamp": "2026/07/26 22:08"
+          "timestamp": "2026/07/27 01:34"
         },
         {
-          "user": "lifefucker",
-          "comment": "じゃあ誰が止められるんだよと。暴走して核スイッチまで押しちゃうのが火の鳥未来編。",
+          "user": "potsunento",
+          "comment": "SF的であれだけど暴走したとしてどうにかなるもんなんかな？",
           "tags": [],
-          "timestamp": "2026/07/26 22:01"
+          "timestamp": "2026/07/27 01:19"
         },
         {
-          "user": "hakasegawa",
-          "comment": "エッジAIだったらそもそも通信手段を持たないものもあるし、制定されちゃったら現場は頭を抱えると思う。/オープンウェイトはチェックして修正できるから安全という理屈のようだけど、その逆の事もできるので……",
+          "user": "nilab",
+          "comment": "「AIの公開に危険がないわけではない。書簡自身も、いったん公開したAIは開発元でも回収できないと認めている。その上で「オープンさこそAIの安全への最も重要な道の1つになり得る」と主張する」",
           "tags": [],
-          "timestamp": "2026/07/26 22:00"
+          "timestamp": "2026/07/26 23:59"
         },
         {
-          "user": "s17er",
-          "comment": "トランプのキルスイッチ寄越せ",
+          "user": "beerbeerkun",
+          "comment": "「暴走」の定義を事前に細かくできてその上で監視できるのであればやるべきでは",
           "tags": [],
-          "timestamp": "2026/07/26 21:36"
+          "timestamp": "2026/07/26 23:32"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:03.741581+00:00"
+      "fetchedAt": "2026-07-26T19:20:06.140639+00:00"
+    },
+    {
+      "id": "h_6b1dd7cb",
+      "title": "『みいちゃんと山田さん』反対運動への所見｜Ganot/哲学,政治思想,法律と人権/記事作成にAI補助利用",
+      "url": "https://note.com/ganot/n/ned74462afe7e",
+      "domain": "note.com",
+      "bookmarkCount": 58,
+      "summary": "1. 批判の拙さ 『みいちゃんと山田さん』のアニメ化に対して、「性風俗のノーマライズ」と「知的・発達特性のある人へのスティグマ再生産」を理由に反対する声がある。代表的な郡司真子氏は、支援者・母親としての立場から「加害性」を指摘し、アニメ化に反対する。論理的に整理された体裁を取っているが、作品批判とし...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/ganot/n/ned74462afe7e",
+      "comments": [
+        {
+          "user": "bikkuriboy_dokidoki",
+          "comment": "みいやまってこういうゴミみたいなエントリーだけがが参戦し続けていて、作者自身も「みいちゃんなんて社会にいらないよね」って文脈で作品を描いてるのは明白で、知るかバカうどんとかクジラックスの系譜なんだよ。",
+          "tags": [],
+          "timestamp": "2026/07/27 03:24"
+        },
+        {
+          "user": "showgotch",
+          "comment": "蔑称化はその副作用って、それがスティグマで広がる可能性があるからゾーニングしろって話じゃないのかしら。なんというかみいちゃんが制度の穴や不備を主張する社会的作品だったら良かったのにね。救いがないんだよ",
+          "tags": [],
+          "timestamp": "2026/07/27 02:53"
+        },
+        {
+          "user": "u_eichi",
+          "comment": "自認/他称みいちゃんはバーナム効果もあると思うので、無意識な差別の助長や被害の再生産のリスクはある。きちんと医療や福祉につながり、個別に適切な社会の対応を引き出せるかが大事。発信メディアも責はある。",
+          "tags": [],
+          "timestamp": "2026/07/27 02:21"
+        },
+        {
+          "user": "kurekurechan",
+          "comment": "ウシジマくんにドラマとか見たら死んでしまうんとちゃうか",
+          "tags": [],
+          "timestamp": "2026/07/27 02:10"
+        },
+        {
+          "user": "mirakux",
+          "comment": "表現規制が必要！って言えばいいだけの話",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/07/27 02:07"
+        },
+        {
+          "user": "yunotanoro",
+          "comment": "「みいちゃん」というスラングは社会に定着してない。だからこそ、投じられた一石の波紋を広げる必要がある。我々はもっとみいちゃん問題への理解と関心を深める必要がある。テイカーのまま放置してはいけない。",
+          "tags": [],
+          "timestamp": "2026/07/27 02:07"
+        }
+      ],
+      "fetchedAt": "2026-07-26T19:20:04.691049+00:00"
+    },
+    {
+      "id": "h_4f36bcdc",
+      "title": "Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く",
+      "url": "https://zenn.dev/little_hand_s/articles/72646a09f49d2a",
+      "domain": "zenn.dev",
+      "bookmarkCount": 56,
+      "summary": "こんにちは、ログラスの松岡(@little_hand_s)です。 3行まとめ Opus 5は放っておくと応答が前より長くなる。「簡潔さの指示」を基本セットとして書いておこう（effortでは短くならない） 公式ガイドは、プロンプト内の検証指示を 「削除してください」とまで明言。今までの品質担保の常識が逆効果になる 思考はデフォル...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/little_hand_s/articles/72646a09f49d2a",
+      "comments": [
+        {
+          "user": "north_korea",
+          "comment": "当たり前だけどモデルはユーザーの入力データも学習してるので多くのユーザーが指示してることはいずれモデルに取り込まれ、指示しなくても良くなってくる",
+          "tags": [],
+          "timestamp": "2026/07/26 23:42"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "モデルの進化で「検証して」が冗長なコストになるの面白い。プロンプト削る引き算のチューニングが大事だな",
+          "tags": [],
+          "timestamp": "2026/07/26 22:12"
+        },
+        {
+          "user": "kkeisuke",
+          "comment": "手元のCLAUDE.mdやスキルを開いて、簡潔さの指示を足し、「検証して」「再確認して」を探して消す",
+          "tags": [],
+          "timestamp": "2026/07/26 15:10"
+        }
+      ],
+      "fetchedAt": "2026-07-26T19:20:05.166030+00:00"
     },
     {
       "id": "h_53f435b7",
       "title": "日本を資源大国へ 埋蔵量だけじゃない、南鳥島レアアース泥の価値",
       "url": "https://eetimes.itmedia.co.jp/ee/articles/2607/24/news079.html",
       "domain": "eetimes.itmedia.co.jp",
-      "bookmarkCount": 19,
+      "bookmarkCount": 50,
       "summary": "重要鉱物と採掘技術をテーマにした国際イベント「Critical Minerals & Mining Solutions Summit」が、2026年7月22日に開催された。同イベントの基調講演では、東京大学大学院工学系研究科 前研究科長・工学部長の加藤泰浩氏が、南鳥島で採掘されるレアアース泥（でい）の現況などを紹介した。 半導体を含むハイテク産業...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/eetimes.itmedia.co.jp/ee/articles/2607/24/news079.html",
       "comments": [
         {
-          "user": "hakasegawa",
-          "comment": "“加藤氏は「すでに実績のある手法を水深5500mに適用するだけで、技術的には問題ない」と述べる。”なんか不安〜！",
+          "user": "rosiro",
+          "comment": "採算については国が補填、中国がダンピング仕掛けてきたらそれはそれでやすくなるからお得って事は記事に書いてあるぞ",
           "tags": [],
-          "timestamp": "2026/07/26 22:21"
+          "timestamp": "2026/07/27 02:48"
         },
         {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
+          "user": "tenb",
+          "comment": "中国と戦闘になったらレアアースが手にはいらなくなるからドローンが作れなくなっておしまいだぞ。コールドでもいいから国内の生産パイプラインは絶対に必要",
           "tags": [],
-          "timestamp": "2026/07/26 22:18"
+          "timestamp": "2026/07/27 01:47"
         },
         {
-          "user": "bikkuriboy_dokidoki",
-          "comment": "id:InvisibleStar、右派が対決するものは左派だけでいいから気楽なもんだ。あれも左翼、これも左翼、みんな左翼、イマジナリー左翼を叩けりゃ天下泰平。",
+          "user": "kurage_lizard",
+          "comment": "レアアース濃度2-5倍って微妙だよね。深海何千メートルも潜るより、陸上で5回掘ったほうが楽そうに思える。結局100倍くらい濃い所見つけないと事業としては難しそう",
           "tags": [],
-          "timestamp": "2026/07/26 22:11"
+          "timestamp": "2026/07/27 00:35"
         },
         {
-          "user": "kenjou",
-          "comment": "輸入品と差額がある場合には政府が補填するとか書いてあるけど、実際中国産と比べてどのくらいの価格差になるのだろうか。どうもふわふわした計画のように見えて経済性がわからない。",
+          "user": "kowa",
+          "comment": "詐欺師とはきわないけど、深海から泥を取り出すのにどれだけコストが掛かって量産困難かを言わないのはどうかと",
           "tags": [],
-          "timestamp": "2026/07/26 21:51"
+          "timestamp": "2026/07/27 00:28"
         },
         {
-          "user": "InvisibleStar",
-          "comment": "はてブでこんな記事が上がってきたら、また左派が「精錬過程で出る有害物をそこらに捨て放題な環境規制激甘の中国にはどうせ価格で勝てない。諦めて中国に土下座して買わせてもらえ」ってブコメつけるんだろうな",
+          "user": "printcheese",
+          "comment": "記事に対する個々のコメント欄読んでると半数以上が記事を読んでないな",
           "tags": [],
-          "timestamp": "2026/07/26 21:45"
+          "timestamp": "2026/07/27 00:27"
+        },
+        {
+          "user": "ynxdaz",
+          "comment": "「輸入品より割高になったときは政府が差額を補填」現役からの天引きと税金で医療費を抑える某仕組みは国民の健康に関わるからだけど、レアアースは？中国が価格上げれば原油と同じで日本がダメージくらうだけでは？",
+          "tags": [],
+          "timestamp": "2026/07/27 00:22"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:06.271162+00:00"
+      "fetchedAt": "2026-07-26T19:20:06.731966+00:00"
+    },
+    {
+      "id": "h_38c1e3d5",
+      "title": "放置していた旧環境で見つけたReact2Shell攻撃の実態",
+      "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
+      "domain": "zenn.dev",
+      "bookmarkCount": 33,
+      "summary": "はじめに 本記事は以下のミラーです。 私は自宅でKubernetesクラスタやゲームサーバー、いくつかのWebアプリケーションを運営しています。普段使う機能は新しいシステムへ移していましたが、旧Kubernetes環境の一部は止めず、インターネットに公開したまま残していました。使わなくなるにつれて、依存パッケージの更新や...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/munenick/articles/b507a9848b6fdd",
+      "comments": [
+        {
+          "user": "masatotoro",
+          "comment": "がっつりやられてます。勉強になった",
+          "tags": [],
+          "timestamp": "2026/07/27 00:34"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "放置サーバーがbotのハニーポット化してマイナーやリバースシェル仕込まれるの怖すぎる",
+          "tags": [],
+          "timestamp": "2026/07/26 17:06"
+        }
+      ],
+      "fetchedAt": "2026-07-26T19:20:09.104894+00:00"
     },
     {
       "id": "h_030129a4",
       "title": "ルンバで有名なiRobotの破産は、自社が開発した技術に固執するあまり後発技術への転換が遅れた電子産業のしくじりを彷彿とさせる…iモードとかプラズマテレビとか…",
       "url": "https://togetter.com/li/2724866",
       "domain": "togetter.com",
-      "bookmarkCount": 18,
+      "bookmarkCount": 25,
       "summary": "dynee/ダイニー @dynee_morinaga ルンバで有名なiRobotが破産した要因のひとつに、自社が特許を保有する光学カメラによるマッピングに固執するあまり、後発企業が成功させていたLiDAR方式への転換が遅れたというのが挙げられるそうだが、かつての本邦電子産業のしくじりを彷彿とさせて胸が痛むな（iモードとか…プラズマ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2724866",
       "comments": [
+        {
+          "user": "gratefulpong",
+          "comment": "見当違いな意見が多くて面白い。しくじっているのはあなたの脳内⋯",
+          "tags": [],
+          "timestamp": "2026/07/26 23:21"
+        },
         {
           "user": "kagobon",
           "comment": "“デジカメを最初に発明した会社が、自分達の得意分野であるフィルムに固執したため、倒産”　コダックは倒産してないと思うが…",
@@ -331,137 +447,27 @@
           "comment": "ルンバがカメラ方式に固執? 違うだろ。ユーザーは盗撮リスクを想起してカメラを許容せず物理回転式LIDARは故障すると考え、ランダム移動型に固執した。その間に中華勢を中心にカメラが標準装備になり、一人負けした。",
           "tags": [],
           "timestamp": "2026/07/26 21:12"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "カメラ固定からLiDARへの乗り遅れもだけど中国勢の低価格攻勢と機能追加の早さに勝てなかったのも大きそう",
-          "tags": [],
-          "timestamp": "2026/07/26 21:06"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:04.159047+00:00"
-    },
-    {
-      "id": "h_38c1e3d5",
-      "title": "放置していた旧環境で見つけたReact2Shell攻撃の実態",
-      "url": "https://zenn.dev/munenick/articles/b507a9848b6fdd",
-      "domain": "zenn.dev",
-      "bookmarkCount": 18,
-      "summary": "はじめに 本記事は以下のミラーです。 私は自宅でKubernetesクラスタやゲームサーバー、いくつかのWebアプリケーションを運営しています。普段使う機能は新しいシステムへ移していましたが、旧Kubernetes環境の一部は止めず、インターネットに公開したまま残していました。使わなくなるにつれて、依存パッケージの更新や...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/munenick/articles/b507a9848b6fdd",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "放置サーバーがbotのハニーポット化してマイナーやリバースシェル仕込まれるの怖すぎる",
-          "tags": [],
-          "timestamp": "2026/07/26 17:06"
-        }
-      ],
-      "fetchedAt": "2026-07-26T13:42:07.486172+00:00"
-    },
-    {
-      "id": "h_4f36bcdc",
-      "title": "Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く",
-      "url": "https://zenn.dev/little_hand_s/articles/72646a09f49d2a",
-      "domain": "zenn.dev",
-      "bookmarkCount": 10,
-      "summary": "こんにちは、ログラスの松岡(@little_hand_s)です。 3行まとめ Opus 5は放っておくと応答が前より長くなる。「簡潔さの指示」を基本セットとして書いておこう（effortでは短くならない） 公式ガイドは、プロンプト内の検証指示を 「削除してください」とまで明言。今までの品質担保の常識が逆効果になる 思考はデフォル...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/little_hand_s/articles/72646a09f49d2a",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "モデルの進化で「検証して」が冗長なコストになるの面白い。プロンプト削る引き算のチューニングが大事だな",
-          "tags": [],
-          "timestamp": "2026/07/26 22:12"
-        },
-        {
-          "user": "kkeisuke",
-          "comment": "手元のCLAUDE.mdやスキルを開いて、簡潔さの指示を足し、「検証して」「再確認して」を探して消す",
-          "tags": [],
-          "timestamp": "2026/07/26 15:10"
-        }
-      ],
-      "fetchedAt": "2026-07-26T13:42:07.043082+00:00"
-    },
-    {
-      "id": "h_6b1dd7cb",
-      "title": "『みいちゃんと山田さん』反対運動への所見｜Ganot/哲学,政治思想,法律と人権/記事作成にAI補助利用",
-      "url": "https://note.com/ganot/n/ned74462afe7e",
-      "domain": "note.com",
-      "bookmarkCount": 9,
-      "summary": "1. 批判の拙さ 『みいちゃんと山田さん』のアニメ化に対して、「性風俗のノーマライズ」と「知的・発達特性のある人へのスティグマ再生産」を理由に反対する声がある。代表的な郡司真子氏は、支援者・母親としての立場から「加害性」を指摘し、アニメ化に反対する。論理的に整理された体裁を取っているが、作品批判とし...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/ganot/n/ned74462afe7e",
-      "comments": [
-        {
-          "user": "TakenokoGod",
-          "comment": "\"「みぃちゃん」という語が社会に定着\"←そうとは現状言えないので、これもまた駄文だ。",
-          "tags": [],
-          "timestamp": "2026/07/26 22:29"
-        },
-        {
-          "user": "rag_en",
-          "comment": "郡司真子氏の記事のメタブでも述べたが、そもそも“記事で危惧されているような受容のされ方”をしても何の問題もない。あの手の難癖は結局、『夜職や障害者は、「Woke的思想」に基づいて描け』と言っているだけ。",
-          "tags": [
-            "表現・思想",
-            "社会",
-            "漫画",
-            "アニメ",
-            "男女",
-            "労働"
-          ],
-          "timestamp": "2026/07/26 22:23"
-        },
-        {
-          "user": "lacucaracha",
-          "comment": "「みいちゃんかよ」が侮蔑として通用するようになるのであれば、自分 or 家族のことかもと福祉や医療につながる道が広がることではあるよね。とはおもう。元より別の形で蔑称がつけられていたのだろうしね。",
-          "tags": [],
-          "timestamp": "2026/07/26 22:01"
-        },
-        {
-          "user": "ganot",
-          "comment": "書いた",
-          "tags": [],
-          "timestamp": "2026/07/26 17:43"
-        }
-      ],
-      "fetchedAt": "2026-07-26T13:42:05.412114+00:00"
-    },
-    {
-      "id": "h_a60f7d90",
-      "title": "理解を手放さない - Shin x Blog",
-      "url": "https://blog.shin1x1.com/entry/dont-let-go-of-understanding",
-      "domain": "blog.shin1x1.com",
-      "bookmarkCount": 8,
-      "summary": "AI コーディングエージェントに実装を任せると、あっという間に成果物が出来上がってきます。この速度を活かすなら、人間の理解を待たずにどんどん先へ進めるのが合理的にも見えます。人間が理解していなくても AI が理解していれば良く、分からないことが出てきたらその時に AI に聞けば良い、という考え方です。これは...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shin1x1.com/entry/dont-let-go-of-understanding",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "AIが書くコードが増えるほど人間の理解とレビュー能力がボトルネックになるの納得。認知的負債の話も興味深い",
-          "tags": [],
-          "timestamp": "2026/07/26 22:12"
-        },
-        {
-          "user": "shin1x1",
-          "comment": "書きました",
-          "tags": [
-            "AI",
-            "development"
-          ],
-          "timestamp": "2026/07/26 22:07"
-        }
-      ],
-      "fetchedAt": "2026-07-26T13:42:05.055476+00:00"
+      "fetchedAt": "2026-07-26T19:20:07.709740+00:00"
     },
     {
       "id": "h_c9cf25c6",
       "title": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/80419aea/20250527_resources_standard_guidelines_guideline_01.pdf",
       "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/80419aea/20250527_resources_standard_guidelines_guideline_01.pdf",
       "domain": "digital.go.jp",
-      "bookmarkCount": 6,
+      "bookmarkCount": 19,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/e2a06143-ed29-4f1d-9c31-0f06fca67afc/80419aea/20250527_resources_standard_guidelines_guideline_01.pdf",
       "comments": [
+        {
+          "user": "mirakux",
+          "comment": "チームけらい支持してたテクウヨさん達www",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/07/27 02:09"
+        },
         {
           "user": "kiririmode",
           "comment": "デジ庁。リスク評価によってAI利用の可否を決めるのではなく、評価結果を使って、案件の速度、監督レベル、業務フロー、責任範囲を設計。高リスク案件とは禁止対象ではなく、より高度な設計と説明責任を要求される",
@@ -483,8 +489,19 @@
           "timestamp": "2025/10/27 10:33"
         }
       ],
-      "fetchedAt": "2026-07-26T13:42:06.570219+00:00"
+      "fetchedAt": "2026-07-26T19:20:08.419857+00:00"
+    },
+    {
+      "id": "h_b311ca18",
+      "title": "iPhoneの「連絡先」アプリにある「マイカード」を使い分けよう",
+      "url": "https://news.mynavi.jp/article/20260725-ipadiphonehacks/",
+      "domain": "news.mynavi.jp",
+      "bookmarkCount": 6,
+      "summary": "連絡先アプリといえば、友人・知人の住所や電話番号、メールアドレスなどを管理するためのもの。登録しておけば、電話がかかってきたとき画面に名前を表示してくれたり、おやすみモード/集中モードで例外扱いしたり、なにかと便利になります。 「マイカード」は、連絡先アプリにおける自分の情報です。連絡先アプリには...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.mynavi.jp/article/20260725-ipadiphonehacks/",
+      "comments": [],
+      "fetchedAt": "2026-07-26T19:20:07.408326+00:00"
     }
   ],
-  "lastCollection": "2026-07-26T13:42:07.783793+00:00"
+  "lastCollection": "2026-07-26T19:20:09.537452+00:00"
 }
