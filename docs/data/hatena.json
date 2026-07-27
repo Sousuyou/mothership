@@ -5,10 +5,30 @@
       "title": "出張者が標的に：ホテルWi-Fi経由でMicrosoft 365認証情報を窃取、MFAもすり抜け | 財経新聞",
       "url": "https://www.zaikei.co.jp/article/20260726/862851.html",
       "domain": "zaikei.co.jp",
-      "bookmarkCount": 190,
+      "bookmarkCount": 211,
       "summary": "米国、インド、サウジアラビアの出張者を標的に、ホテルのWi-Fiを経由してMicrosoft 365の認証情報を盗み出す攻撃キャンペーンが確認された。セキュリティ企業ReliaQuestが7月24日に報告したもので、フィッシングメールや不正な添付ファイルを必要とせず、侵害されたネットワークに接続して業務用アカウントにログインす...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.zaikei.co.jp/article/20260726/862851.html",
       "comments": [
+        {
+          "user": "paradisemaker",
+          "comment": "普通に証明書エラー出るはずで、それ無視しないと起こらないことなのに、そこはぼかして書いている、非常に問題のある記事",
+          "tags": [],
+          "timestamp": "2026/07/28 02:27"
+        },
+        {
+          "user": "fashi",
+          "comment": "さすがにMicrosoftがDNSポイズニング対策をしてないわけがないだろ / 正規のデバイスコードフローはありそう",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/07/28 02:00"
+        },
+        {
+          "user": "hatebu_admin",
+          "comment": "そうはならんやろとGPTと壁打ちしたけど公開情報が少なすぎるか意図的に肝心な部分が伏せられてるになったわ",
+          "tags": [],
+          "timestamp": "2026/07/28 00:36"
+        },
         {
           "user": "tei_wa1421",
           "comment": "えええー",
@@ -26,187 +46,81 @@
           "comment": "記事本文に「同じMicrosoftのログインページ」って書いてるけど、元記事を読むと正規ドメインの詐称じゃなくて攻撃者自前ドメインへの誘導のようなので誤解を生む表現だと思う。なので証明書エラーは出ない。",
           "tags": [],
           "timestamp": "2026/07/27 21:47"
-        },
-        {
-          "user": "spray_donuts_3co",
-          "comment": "まともな会社の利用規定なら、公共Wi-Fiどころか自分のスマホとのテザリングさえも禁じてる。",
-          "tags": [],
-          "timestamp": "2026/07/27 21:28"
-        },
-        {
-          "user": "koinobori",
-          "comment": "財経新聞だしなあと思ったが、geminiに言わせれば、非ssl通信をリダイレクトして偽認証画面に飛ばすとか。wifi接続直後はブラウザもwifiの認証と誤認しやすく警告が出にくいとのこと。認証だけテザリングも良い対策らしい",
-          "tags": [],
-          "timestamp": "2026/07/27 21:08"
-        },
-        {
-          "user": "beerbeerkun",
-          "comment": "証明書エラー無視したのなら成立するな。従業員教育が必要なのか。",
-          "tags": [],
-          "timestamp": "2026/07/27 21:03"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:11.733807+00:00"
+      "fetchedAt": "2026-07-27T19:43:40.865611+00:00"
     },
     {
       "id": "h_f2c76849",
       "title": "メルカリ、梨の転売疑惑に「盗品の出品は確認されず」 誹謗中傷には利用制限も",
       "url": "https://www.itmedia.co.jp/news/articles/2607/27/news081.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 160,
+      "bookmarkCount": 183,
       "summary": "今回の発信の背景には、福岡県うきは市の梨農園で起きた大量盗難がある。テレ朝NEWSなどの報道によると、収穫を目前にした品種「幸水」約5000個が7月中旬に盗難に遭い、被害額は約200万円に上るという。同じ農園は前年にも同規模の被害を受けており、農園主は閉園を決めたと伝えられている。 事件がテレビやSNSで広まる...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/27/news081.html",
       "comments": [
         {
-          "user": "sumida",
-          "comment": "農作物じゃなく模型？だけど、商品が全部作者さんの手元にあるのに他人が勝手にメルカリで「販売」してて、通報しても「問題ありませんでした」みたいに言われたって話を聞いたことあるから信用してない。",
+          "user": "nakakzs",
+          "comment": "今の体制だと、仮に反社のマネロンで使われていても通りそうな気がする。",
           "tags": [
-            "犯罪"
+            "メルカリ"
           ],
-          "timestamp": "2026/07/27 23:47"
+          "timestamp": "2026/07/28 03:47"
         },
         {
-          "user": "poliphilus",
-          "comment": "マトモな農家が農作物をメルカリで売るかな？ BASE や Shopify など自前でネットショップを構える方法はいくらでもあろう",
+          "user": "wordi",
+          "comment": "メルカリでも梨売ってるんだへぇ～と見に行ったら、福岡農園の梨の発送元が熊本県だったのでそっ閉じした",
           "tags": [],
-          "timestamp": "2026/07/27 23:25"
+          "timestamp": "2026/07/28 02:28"
         },
         {
-          "user": "pendamadura",
-          "comment": "そもそもメルカリで食い物買うやつがヤバすぎだろ。ロンダリングしてんのかな",
+          "user": "hituzinosanpo",
+          "comment": "メルカリでフルーツ買ったことあるし、買って失敗した人も知ってる。レビューをチェックすること、あきらかに生産者って人からしか買わないのがコツ。レアフルーツ買うならメルカリなんよ。沖縄のとか。",
           "tags": [],
-          "timestamp": "2026/07/27 23:23"
+          "timestamp": "2026/07/28 02:03"
         },
         {
-          "user": "trace22",
-          "comment": "これメルカリが盗品ではないと保証すると理解していいのか？だめそうだけど",
+          "user": "yamadar",
+          "comment": "肛門「誰だ！」うんこ「屁です」 肛門「よし、通れ」僕「アァッ……」",
           "tags": [],
-          "timestamp": "2026/07/27 23:09"
+          "timestamp": "2026/07/28 01:56"
         },
         {
-          "user": "ikebukuro3",
-          "comment": "逆に盗品がどうかの判断なんか民間企業ができるわけないだろ。警察の権限をメルカリに与えるつもりか？",
+          "user": "maguro1111",
+          "comment": "今日もはてブは世間知らずのキチガイだらけ",
           "tags": [],
-          "timestamp": "2026/07/27 23:01"
+          "timestamp": "2026/07/28 01:43"
         },
         {
-          "user": "sskjz",
-          "comment": "盗品だと決めつけるのはヤバいだろ。",
+          "user": "mkotatsu",
+          "comment": "都会の駅前にトラックで大量の桃とかを安売りしに来てるやつ、あれがそういうやつだと思ってた",
           "tags": [],
-          "timestamp": "2026/07/27 22:45"
+          "timestamp": "2026/07/28 01:22"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:10.328285+00:00"
-    },
-    {
-      "id": "h_a5957548",
-      "title": "1日500コミットは、もう読めない ── だからコードレビューをやめた",
-      "url": "https://zenn.dev/singularity/articles/stopped-reviewing-my-code",
-      "domain": "zenn.dev",
-      "bookmarkCount": 156,
-      "summary": "最近、マージボタンを押すとき、僕はその diff を読んでいないことのほうが多くなりました。 コードレビューをしていません。 場合によっては、動作確認もしていません。 こう書くと無責任に聞こえると思います。実際、少し前の僕がこれを読んだら「そんなの事故るに決まってる」と言ったはずです。 でも、事故っていな...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/stopped-reviewing-my-code",
-      "comments": [
-        {
-          "user": "north_korea",
-          "comment": "いきなり「どう作ったか」の話が始まっていつまでたっても「何を作ったか」が出てこない記事があまりに多すぎる。",
-          "tags": [],
-          "timestamp": "2026/07/27 23:30"
-        },
-        {
-          "user": "gengesa",
-          "comment": "コードを読む必要がないと主張するクソ記事は読む必要がない ── だから記事を読むのをやめた",
-          "tags": [],
-          "timestamp": "2026/07/27 22:23"
-        },
-        {
-          "user": "morucy",
-          "comment": "てめえで全部ケツ拭くならそれでもいいんじゃね？チームメンバーがもしこれやって、なんか起きたときに「AIがやったんでわかりません復旧できません」って一言でもぬかしたらはっ倒すけど。",
-          "tags": [],
-          "timestamp": "2026/07/27 22:16"
-        },
-        {
-          "user": "nicht-sein",
-          "comment": "コミットの粒度が違いすぎるとしか思えなかった。いや型をかっちり守らせてテストも厚くCIを回しまくる、って方向性は良いと思うんだけど",
-          "tags": [],
-          "timestamp": "2026/07/27 21:37"
-        },
-        {
-          "user": "imash",
-          "comment": "50コミットのプロダクトを10個掛け持ちとか？",
-          "tags": [],
-          "timestamp": "2026/07/27 19:23"
-        },
-        {
-          "user": "ultimatebreak",
-          "comment": "レビューが必要ないくらいガチガチに規約とテスト用意するって偉い人が言ってた",
-          "tags": [],
-          "timestamp": "2026/07/27 18:09"
-        }
-      ],
-      "fetchedAt": "2026-07-27T14:50:13.167932+00:00"
-    },
-    {
-      "id": "h_afcca500",
-      "title": "ウィンドウズが「ASIO」標準対応になる件。裏事情をヤマハに聞いてみた【藤本健のDigital Audio Laboratory】",
-      "url": "https://av.watch.impress.co.jp/docs/series/dal/2127950.html",
-      "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 136,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/series/dal/2127950.html",
-      "comments": [
-        {
-          "user": "atsushieno",
-          "comment": "本文中でも言及されているけどUSB Audioドライバ限定であり、任意のデバイスに対応させる必要があるWASAPIの改良で実現するのは無理ではないか",
-          "tags": [],
-          "timestamp": "2026/07/27 22:36"
-        },
-        {
-          "user": "nicht-sein",
-          "comment": "Music Center for PCがASIOに対応していたなー。音質変わってるとは思うんだけど、それ以上にPCでのボリューム調整が出来なかったりするのが不便な印象",
-          "tags": [],
-          "timestamp": "2026/07/27 21:47"
-        },
-        {
-          "user": "napsucks",
-          "comment": "“Snapdragonは性能が低く、事務用途くらいにしか使えないという印象” そうなんだ。snapdragon800とか当時モバイルデバイス向けとしては群を抜く性能で度肝を抜かれたものだが。// 筆者にはchatGPT work(codex)をお勧めしたい",
-          "tags": [],
-          "timestamp": "2026/07/27 21:46"
-        },
-        {
-          "user": "shoh8",
-          "comment": "こいつは骨太の記事。あとで読む",
-          "tags": [
-            "あとで読む",
-            "DTM",
-            "音楽"
-          ],
-          "timestamp": "2026/07/27 21:44"
-        },
-        {
-          "user": "bventi",
-          "comment": "田中正造…？",
-          "tags": [],
-          "timestamp": "2026/07/27 21:22"
-        },
-        {
-          "user": "m50747",
-          "comment": "ASIOって何？",
-          "tags": [],
-          "timestamp": "2026/07/27 21:01"
-        }
-      ],
-      "fetchedAt": "2026-07-27T14:50:14.274799+00:00"
+      "fetchedAt": "2026-07-27T19:43:38.062432+00:00"
     },
     {
       "id": "h_938cbc19",
       "title": "MIXI、新卒エンジニア向け研修資料＆動画を無料公開 「実践的なAI活用術」を12科目で紹介",
       "url": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000223/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 78,
+      "bookmarkCount": 145,
       "summary": "MIXIは7月27日、2026年度入社の新卒エンジニア向けに実施した技術研修の資料とアーカイブ動画を公開した。全12科目を通じ、業務におけるAIの活用法などを紹介している。 Gitやコンテナ技術、セキュリティ、モバイルアプリ開発、データ活用などのテーマごとに実施した全12科目の研修資料と一部のアーカイブ動画を公開した...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2607/27/2000000223/",
       "comments": [
+        {
+          "user": "sambmetta",
+          "comment": "いつまでも新卒向け研修をしている人たち",
+          "tags": [],
+          "timestamp": "2026/07/28 03:44"
+        },
+        {
+          "user": "hkanemat",
+          "comment": "技術者倫理研修もやってくらはい",
+          "tags": [],
+          "timestamp": "2026/07/28 00:32"
+        },
         {
           "user": "nguyen-oi",
           "comment": "新卒からAI活用前提の研修か。資料タダで読めるのはありがたい",
@@ -214,17 +128,23 @@
           "timestamp": "2026/07/27 21:06"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:10.805054+00:00"
+      "fetchedAt": "2026-07-27T19:43:37.479699+00:00"
     },
     {
       "id": "h_2d1732fa",
       "title": "「ソフトウェアアーキテクチャの基礎」を読んで設計判断の引き出しが増えた",
       "url": "https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review",
       "domain": "zenn.dev",
-      "bookmarkCount": 48,
+      "bookmarkCount": 70,
       "summary": "書籍情報 書名：ソフトウェアアーキテクチャの基礎 第2版 ―エンジニアリングに基づく体系的アプローチ 著者：Mark Richards, Neal Ford 訳者：島田浩二 出版社：オライリー・ジャパン はじめに 「ソフトウェアアーキテクチャの基礎」を読んだ。 AIエージェントの普及によって、開発者一人がカバーする範囲が広がっている...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review",
       "comments": [
+        {
+          "user": "mochizoo",
+          "comment": "AIに書かせた読書感想文を読む教師の気持ちがよくわかるな 書き方よりもちゃんと内容で判断しようとしてもチラチラ出てくる臭い言い回しが時間の無駄感を再認識させてくれる",
+          "tags": [],
+          "timestamp": "2026/07/28 00:22"
+        },
         {
           "user": "sayuremix",
           "comment": "読んでみたい",
@@ -238,46 +158,14 @@
           "timestamp": "2026/07/27 19:04"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:13.659607+00:00"
-    },
-    {
-      "id": "h_e2c42e88",
-      "title": "東大松尾・岩澤研が講義動画の英語字幕を自動生成するAIアプリを無償公開／日本語音声の書き起こし、文章の整形、英訳、字幕の分割、品質チェックまでを自動実行",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2127822.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 38,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2127822.html",
-      "comments": [
-        {
-          "user": "ys0000",
-          "comment": "“ライセンスはApache-2.0。”おぉ。以前は公開されるが商用不可なケースもあったが、今回はちゃんと商用可なのね。",
-          "tags": [],
-          "timestamp": "2026/07/27 21:11"
-        },
-        {
-          "user": "Galaxy42",
-          "comment": "いいじゃん",
-          "tags": [
-            "これはきになる"
-          ],
-          "timestamp": "2026/07/27 20:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "留学生向け講義の英語化をOSSで効率化するの松尾研らしくて有能だけど、結局最終確認は人手なのリアルだな",
-          "tags": [],
-          "timestamp": "2026/07/27 19:38"
-        }
-      ],
-      "fetchedAt": "2026-07-27T14:50:14.869242+00:00"
+      "fetchedAt": "2026-07-27T19:43:39.147071+00:00"
     },
     {
       "id": "h_9115fae9",
       "title": "検索結果に「詐欺ではありません」と表示させる詐欺手口、警視庁が注意喚起 AI要約も餌食に",
       "url": "https://www.itmedia.co.jp/news/articles/2607/27/news076.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 36,
+      "bookmarkCount": 45,
       "summary": "警視庁サイバーセキュリティ対策課は7月24日、SNS型投資詐欺グループがWeb検索の仕組みを悪用し、検索結果を汚染する手口を確認したとして、公式Xで「検索結果のみを過信しないよう注意しましょう」と呼び掛けた。 確認した手口では、被害者が詐欺グループに誘導されたSNSグループやWebサイトの名称を検索すると、検索結...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/27/news076.html",
       "comments": [
@@ -318,14 +206,46 @@
           "timestamp": "2026/07/27 21:54"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:12.146475+00:00"
+      "fetchedAt": "2026-07-27T19:43:39.492715+00:00"
+    },
+    {
+      "id": "h_e2c42e88",
+      "title": "東大松尾・岩澤研が講義動画の英語字幕を自動生成するAIアプリを無償公開／日本語音声の書き起こし、文章の整形、英訳、字幕の分割、品質チェックまでを自動実行",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2127822.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 44,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2127822.html",
+      "comments": [
+        {
+          "user": "ys0000",
+          "comment": "“ライセンスはApache-2.0。”おぉ。以前は公開されるが商用不可なケースもあったが、今回はちゃんと商用可なのね。",
+          "tags": [],
+          "timestamp": "2026/07/27 21:11"
+        },
+        {
+          "user": "Galaxy42",
+          "comment": "いいじゃん",
+          "tags": [
+            "これはきになる"
+          ],
+          "timestamp": "2026/07/27 20:26"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "留学生向け講義の英語化をOSSで効率化するの松尾研らしくて有能だけど、結局最終確認は人手なのリアルだな",
+          "tags": [],
+          "timestamp": "2026/07/27 19:38"
+        }
+      ],
+      "fetchedAt": "2026-07-27T19:43:40.381366+00:00"
     },
     {
       "id": "h_7ba5848e",
       "title": "MIXI、AIと共創する次世代エンジニア育成に向けた2026年度新卒技術研修資料を公開 | ニュース| 株式会社MIXI",
       "url": "https://mixi.co.jp/news/2026/0727/55293/",
       "domain": "mixi.co.jp",
-      "bookmarkCount": 21,
+      "bookmarkCount": 37,
       "summary": "～現場エンジニアによる実務に基づいたAI活用ノウハウを組み入れ、実践力を育成～ 株式会社MIXI（東京都渋谷区、代表取締役社長CEO：木村 弘毅）は、2026年度入社の当社新卒社員向け技術研修資料を公開しました。当社のノウハウを広く共有し、IT業界の技術発展に貢献することを目的に継続している取り組みで、今年度は12...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mixi.co.jp/news/2026/0727/55293/",
       "comments": [
@@ -336,31 +256,20 @@
           "timestamp": "2026/07/27 22:32"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:15.258157+00:00"
-    },
-    {
-      "id": "h_fcf581e8",
-      "title": "「AIを使えるところを探す」という発想が間違っている — LLMを導入すべきか6つの問いで判断するフレームワーク",
-      "url": "https://techfeed.io/entries/6a65420cd0c20765e83dd880",
-      "domain": "techfeed.io",
-      "bookmarkCount": 19,
-      "summary": "7月22日、Cameron Palmerが「Should you even use an LLM?」と題した記事を公開した。Palmer氏はAI実装コンサルタントとして、自身のリード発掘システムで痛烈な失敗を経験した——LLMエージェントに処理を丸投げした結果、800件以上のリードを手作業で確認し直す羽目になったという。この記事では、その教訓をもとに構築...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a65420cd0c20765e83dd880",
-      "comments": [],
-      "fetchedAt": "2026-07-27T14:50:17.042554+00:00"
+      "fetchedAt": "2026-07-27T19:43:38.892255+00:00"
     },
     {
       "id": "h_b7c58e52",
       "title": "周囲から頼られ、「優秀だ」と評されるソフトウェアエンジニアの6つのタイプ - mtx2s’s blog",
       "url": "https://mtx2s.hatenablog.com/entry/2026/07/27/194549",
       "domain": "mtx2s.hatenablog.com",
-      "bookmarkCount": 16,
+      "bookmarkCount": 27,
       "summary": "多くの組織には、確かな実力を備え、周囲から頼られ、一目（いちもく）置かれるソフトウェアエンジニアがいる。組織の中でも限られた存在だ。純粋な技術力の高さだけでなく、仕事を通じて周囲に貢献し、確かな信頼を獲得している人物である。 “他者から頼られる”というのも、優れたエンジニアの一つの表れ方だろう。 た...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mtx2s.hatenablog.com/entry/2026/07/27/194549",
       "comments": [
         {
           "user": "Niemand",
-          "comment": "手が早かったり一見致知識豊富で頼りにされていたけど、爆弾を仕込んでいるだけの人もいるから、1年後程度の結果も観察しないと危険。",
+          "comment": "手が早かったり知識豊富で頼りにされていたけど、爆弾を仕込んでいるだけの人もいるから、1年程度後の結果も観察しないと危険。",
           "tags": [],
           "timestamp": "2026/07/27 22:38"
         },
@@ -371,26 +280,84 @@
           "timestamp": "2026/07/27 22:32"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:15.880102+00:00"
+      "fetchedAt": "2026-07-27T19:43:40.085431+00:00"
     },
     {
-      "id": "h_062c9562",
-      "title": "GitHub - vercel-labs/scriptc: TypeScript-to-Native Compiler",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "domain": "github.com",
-      "bookmarkCount": 8,
-      "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/vercel-labs/scriptc",
+      "id": "h_6dc90827",
+      "title": "寄稿：弁護士ドットコムにおける AWS DevOps Agent の活用事例 – インシデント対応の自動化と属人化の解消 | Amazon Web Services",
+      "url": "https://aws.amazon.com/jp/blogs/news/bengo4com-devops-agent-case-study/",
+      "domain": "aws.amazon.com",
+      "bookmarkCount": 13,
+      "summary": "Amazon Web Services ブログ 寄稿：弁護士ドットコムにおける AWS DevOps Agent の活用事例 – インシデント対応の自動化と属人化の解消 本稿は、弁護士ドットコム株式会社 CTO 田中 慎司 氏、プロダクト開発本部 Platform & Reliability Engineering 部 (以下、PRE 部) 部長 熊谷 晃 氏、同 PRE 部 原口 慎太郎 氏による...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/bengo4com-devops-agent-case-study/",
+      "comments": [],
+      "fetchedAt": "2026-07-27T19:43:39.807015+00:00"
+    },
+    {
+      "id": "h_e9620818",
+      "title": "RTX 3090（24GB）で7Bモデル学習を成立― 個人GPUで大規模Transformerを動かすための実践記録 - Qiita",
+      "url": "https://qiita.com/nakatada-lab/items/9f45910262d238964997",
+      "domain": "qiita.com",
+      "bookmarkCount": 13,
+      "summary": "すべての失敗に共通するのは、「巨大なstateが存在する前提で、それをどう扱うか」を最適化していたことです。正解は前提そのものを変えることでした。 教訓: 制約が厳しい環境では、「既存の仕組みを工夫して使う」より「制約に合った仕組みを選ぶ（または作る）」方が効果的。 落とし穴 7: DataLoaderの「見えないボト...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/nakatada-lab/items/9f45910262d238964997",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "Vercelがまた面白そうなの出してきたな。LLVM/Cに落とすTSネイティブコンパイラか",
+          "user": "yorkfield",
+          "comment": "\"CPU Offloadは転送速度が壁\" \"NVMe直接読み書きは桁違いに遅い\" ／ 遅いんだろうなとは思ってたけど、実際にやるとやっぱり遅いんだなあ。",
           "tags": [],
-          "timestamp": "2026/07/27 23:38"
+          "timestamp": "2026/07/28 03:24"
         }
       ],
-      "fetchedAt": "2026-07-27T14:50:16.688382+00:00"
+      "fetchedAt": "2026-07-27T19:43:41.150651+00:00"
+    },
+    {
+      "id": "h_da82e781",
+      "title": "Z世代に聞く次の流行、「AIイラスト」が1位に 「Claude Code」も上位",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/27/news092.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 13,
+      "summary": "2026年も下半期を迎え、「Z世代」の若者たちがこれから流行ると思うものについて、市場調査会社のアスマーク（東京都渋谷区）などがインターネットでアンケートを実施した。生成AIに作成させた画像「AIイラスト」や、テレビアニメ化されたマンガ「日本三國（にっぽんさんごく）」、女子高生ロックバンドの「ねぎ塩豚丼」...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/articles/2607/27/news092.html",
+      "comments": [
+        {
+          "user": "somaria3",
+          "comment": "ブッダボウルなあ。ありゃ旧い日本人には出にくい発想よね。残飯みてえだなと思うが雑穀評価されるんはいいことだと思う",
+          "tags": [],
+          "timestamp": "2026/07/28 00:43"
+        },
+        {
+          "user": "T-anal",
+          "comment": "AIイラストはいらすとやに取って代わられてるくらい街中に普及していて成熟期突入してるよな。",
+          "tags": [],
+          "timestamp": "2026/07/28 00:17"
+        },
+        {
+          "user": "opaopachang",
+          "comment": "何をどうやったら日本三國が2位になるんだろう",
+          "tags": [],
+          "timestamp": "2026/07/28 00:13"
+        },
+        {
+          "user": "tetlabo",
+          "comment": "若者の反AI離れ",
+          "tags": [],
+          "timestamp": "2026/07/27 19:36"
+        }
+      ],
+      "fetchedAt": "2026-07-27T19:43:41.548562+00:00"
+    },
+    {
+      "id": "h_a7c740a1",
+      "title": "【2026年版】MIXI 新卒向け技術研修を公開しました。",
+      "url": "https://zenn.dev/mixi/articles/fd62f8ddc178f6",
+      "domain": "zenn.dev",
+      "bookmarkCount": 11,
+      "summary": "2026年度新卒向け技術研修の資料と動画を公開しました。 MIXIの新卒向け技術研修では、一部の科目を除き、実際の開発現場で活躍するエンジニアが講師を務めています。技術や開発環境の変化に合わせて毎年カリキュラムを見直し、現場で必要となる知識や技術を学べる研修を目指しています。 また、職種や配属先にかかわら...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mixi/articles/fd62f8ddc178f6",
+      "comments": [],
+      "fetchedAt": "2026-07-27T19:43:38.604323+00:00"
     }
   ],
-  "lastCollection": "2026-07-27T14:50:17.042582+00:00"
+  "lastCollection": "2026-07-27T19:43:41.548588+00:00"
 }
