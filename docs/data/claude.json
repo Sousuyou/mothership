@@ -1,24 +1,14 @@
 {
   "items": [
     {
-      "id": "cc_78d8d1a5",
-      "title": "Claude DesignとClaude Codeを連携させてアプリを実装する",
-      "url": "https://zenn.dev/teeyo/articles/claude-design-with-claude-code",
+      "id": "cc_06f483e8",
+      "title": "2026年8月に集中する Claude の移行期限まとめ — Workbench廃止・Opus 4.1リタイア",
+      "url": "https://zenn.dev/mdtechknowledge/articles/claude-august-2026-migration-deadlines",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.811663+00:00",
-      "excerpt": "※ この記事は人間が書いて、AIがレビューしました。 ※ 2026/07/24時点の情報になります。 はじめに 自作アプリを作りたいが、AI臭いデザインになってしまう。 プロっぽいデザインでアプリを作りたい。 そんな時に役立つのがClaude Designです。 Claude Designは、自然言語での会話を通じてデザイン、プロトタイプ、スライドなど、完成度の高いビジュアル作品を作成できるツール"
-    },
-    {
-      "id": "cc_ab0cc2b3",
-      "title": "実行型AI時代の自動化：Claude Opus 5とChatGPT Workで作る「タスク完遂」エージント実装パターン",
-      "url": "https://zenn.dev/kairosai/articles/5485a57e6a78bb",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.811593+00:00",
-      "excerpt": "はじめに 2026年7月、AIの主戦場は「賢く答える」から「仕事を完遂する」へ移りました。この3週間の動きが象徴的です。 Claude Opus 5（7/24）— 前世代Opus 4.8と同額で最上位Fable 5に迫る性能 OpenAI GPT-5.6 + ChatGPT Work（7/9）— 数時間張りついてゴールを完成物に変えるエージェント Gemini 4（7/21）— 事前学習を開始 本"
+      "fetchedAt": "2026-07-27T03:42:28.194199+00:00",
+      "excerpt": "要点 2026年8月は Claude 関連の移行イベントが4件集中する。うち1件はデータ損失を伴う。 8月17日: レガシー Workbench 廃止。保存済みプロンプト・変数・evals は新 Workbench で非対応——エクスポートしないと失われる。同日に実験的プロンプトツールAPI 3本（generate_prompt / improve_prompt / templatize_prom"
     },
     {
       "id": "cc_ced43ec8",
@@ -27,8 +17,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.811435+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.194137+00:00",
       "excerpt": "! この記事は連載「AIと作る、ひとりの開発OS」の一部です。単体で読めますが、全体像は noteのハブ記事 にまとめています。 前回は、3体のAIエージェント（蒼=Claude、ルナ=Gemini、亜里沙=Codex）が同じ記憶を読み書きする「共有メモリ層」の話を書いた。あれは「何を知っているか」を蓄積する仕組みだった。 今回は、その対になるもう一つの層——「どうやるか」を蓄積する仕組みの話だ。"
+    },
+    {
+      "id": "cc_615c13d2",
+      "title": "CLAUDE.mdは「お願い」、Hookは「強制」。Claude Codeにルールを守らせる話",
+      "url": "https://zenn.dev/ainyanko/articles/424643ad5be295",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-27T03:42:28.194061+00:00",
+      "excerpt": "前提：個人ブログをClaude Codeと一緒に運営してます Astro製の個人ブログをClaude Codeに手伝ってもらいながら運営しています。記事はMarkdownで、frontmatter（先頭のメタ情報）にpubDate（公開日）というフィールドを持たせていて、これが記事の並び順にも影響する重要な値です。 CLAUDE.mdだけでは守られない Claude CodeってCLAUDE.md"
     },
     {
       "id": "cc_644cf8c3",
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.811263+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.193974+00:00",
       "excerpt": "はじめに Kindle で本を読んでいると、ハイライトはどんどん溜まります。ですが、引いたきり二度と見返さないという人は多いのではないでしょうか。私がまさにそうでした。 そこで、Kindle のハイライトを Obsidian に取り込み、Claude に整理させて、後から検索・再利用できる知識として蓄積する仕組みを作りました。現在 40本の概念ノートが溜まっていて、読書で得た知識が資格試験の対策に"
     },
     {
@@ -47,118 +47,88 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.811185+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.193925+00:00",
       "excerpt": "こんにちは、とむです。 2026年7月25日（アメリカだと7月24日ですかね。）に、Claude Opus 5が登場しましたね。 最近はAnthropic社とOpen AI社の勢いが凄まじく（前からですけども）、新モデルかつ高性能なものが毎月のように出ているので、情報収集が大変です。。 さて、今回はOpus 5が登場したことで感じたこと等を共有していきます。 共有したい内容のベースは、Opus 5"
     },
     {
-      "id": "cc_d082f4b2",
-      "title": "Claude Codeの/rewindで話題単位にコンテキストを畳んでいる",
-      "url": "https://zenn.dev/map_universe/articles/rewind-summarize-context-20260726",
+      "id": "cc_f99219c1",
+      "title": "1日で自分専用アプリを自作して年8,000円を浮かせた話【Claude Design × Claude Code】",
+      "url": "https://zenn.dev/acntechjp/articles/bab1ce3bce9593",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778630+00:00",
-      "excerpt": "AIコーディングエージェントを日常的に長期運用していると、1つのセッションの中で話題が何度も切り替わります。実装の相談が調査になり、その次はドキュメントの整備、というように。話題が変わるたびにコンテキストをどう処理するかがずっと悩みで、最近その置き場所を /rewind の Summarize up to here に定めました。自分の環境での計測値と試算を添えて残しておきます。 話題が変わるたび"
+      "fetchedAt": "2026-07-27T03:42:28.193843+00:00",
+      "excerpt": "TL;DR 簡単なVibe Codingで自分の生活を少し豊かにした話です。 既によくあるネタかもしれませんが、誰かしらの参考・後押しのなればと思って記録を残します。 習慣管理アプリの有料プランへの加入に悩んでるとき、「自分で作ればよくない？」と思い立ってAIを使ったアプリ開発を考える Claude Design（UIデザイン生成）→ Claude Code（実装・デプロイ）という流れで、1日（実"
     },
     {
-      "id": "cc_06f483e8",
-      "title": "2026年8月に集中する Claude の移行期限まとめ — Workbench廃止・Opus 4.1リタイア",
-      "url": "https://zenn.dev/mdtechknowledge/articles/claude-august-2026-migration-deadlines",
+      "id": "cc_66184f13",
+      "title": "Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (3) - 引数なし .ToString() の利用",
+      "url": "https://zenn.dev/xin9le/articles/9be848b2978a65",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778487+00:00",
-      "excerpt": "要点 2026年8月は Claude 関連の移行イベントが4件集中する。うち1件はデータ損失を伴う。 8月17日: レガシー Workbench 廃止。保存済みプロンプト・変数・evals は新 Workbench で非対応——エクスポートしないと失われる。同日に実験的プロンプトツールAPI 3本（generate_prompt / improve_prompt / templatize_prom"
+      "fetchedAt": "2026-07-27T03:42:28.193774+00:00",
+      "excerpt": "引き続き Claude Fable 5 を利用した FastEnum のパフォーマンスチューニングについて解説していきます。今回は引数なし .ToString() の利用についてです。該当の Pull-Request は以下。 https://github.com/xin9le/FastEnum/pull/96 Claude Fable 5 が教えてくれた高速化テクニックたち 文字列のハッシュ値生"
     },
     {
-      "id": "cc_cd35594a",
-      "title": "claude -pの--disallowedToolsでBashを丸ごと禁止したら、拒否ログに1件も残らなかった",
-      "url": "https://zenn.dev/numarn/articles/claude-disallowedtools-denial-log-handson",
+      "id": "cc_73fdc5be",
+      "title": "Claude CodeとCodex/GeminiをObsidianで繋ぐdelegateパターン — マルチエージェント手法",
+      "url": "https://zenn.dev/melt1007/articles/10fcd1eec1ab76",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778406+00:00",
-      "excerpt": "Claude Code の -p(対話画面を出さず1回指示を投げて結果だけ受け取るモード)には、使えるツールを絞り込むオプションが3種類あります。--tools(使えるツール自体を指定)、--allowedTools(許可パターンを追加)、--disallowedTools(禁止パターンを追加)です。今回はこの3つを、設定ファイル(.claude/settings.json)を一切使わず、CLIの"
+      "fetchedAt": "2026-07-27T03:42:28.172387+00:00",
+      "excerpt": "! この記事自体が、紹介する手法で書かれています。Claude Code（Lux）がオーケストレーターとなり、Codex・AGY・Lux自身の3草案を並列生成→統合して作りました。 なぜこの手法を作ったか 最初の動機はシンプルだった。AIが止まる。頻繁に。 Claude Codeで大きなタスクを回し始めると、すぐにAnthropicのレートリミットに引っかかる。「では並列で動かそう」とサブエージェ"
     },
     {
-      "id": "cc_5991d8b3",
-      "title": "Claude Code 7月の更新 — /reviewの再分離と/doctorのCLAUDE.md削減提案",
-      "url": "https://zenn.dev/chimao222/articles/ai-dev-claude-code-jul-20260726",
+      "id": "cc_ae3b6c09",
+      "title": "Claude Code 用IDE「Orca」が想像以上によかったので、IssueからPR作成まで試してみた🫍",
+      "url": "https://zenn.dev/jambo_dev/articles/b231b28e530796",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778344+00:00",
-      "excerpt": "はじめに Claude Code は週に何度もリリースが出るので、まとめて追いかけないと気づかないうちに手元の前提が変わっている。2026年7月上旬の v2.1.202 から v2.1.207 がまさにそれで、レビューコマンドの役割分担が変わり、/doctor が CLAUDE.md の贅肉を指摘するようになり、Bedrock や Foundry では auto モードのオプトインが不要になった。"
+      "fetchedAt": "2026-07-27T03:42:28.172323+00:00",
+      "excerpt": "Claude Code に実装を任せたあと、diff をどうやって確認していますか？ 私は IDE を起動して差分を見ていました。IDEを開くことすら面倒なときは、とりあえず PR を作らせて GitHub の Files changed で確認する。 直したいところを見つけたら、ターミナルに戻って「〇〇行目のあれを直して」と伝える。 一つひとつは小さな作業ですが、この行ったり来たりが、意外と負荷"
     },
     {
-      "id": "cc_f9014e07",
-      "title": "Claude Codeのスキル入門 — SKILL.mdで自分用コマンドを作る",
-      "url": "https://zenn.dev/novareorbis/articles/claude-code-skills",
+      "id": "cc_c4a51999",
+      "title": "Claude Codeに「自分で稼げ」と命じたら、初日に「稼げません」と結論された",
+      "url": "https://zenn.dev/shirube/articles/claude-code-earn-money-failure",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778239+00:00",
-      "excerpt": "Claude Codeの「スキル」は、SKILL.md に手順を書いたフォルダを置くだけで /スキル名 で呼べる自作コマンドになる仕組み。「毎回同じ指示を打つ」をなくせる。作り方・置き場所・frontmatterの全フィールド・実例まで整理する。以前の「カスタムスラッシュコマンド」（.claude/commands/*.md）はスキルに統合された（旧形式も動く）。 ! Claude Code 実践"
+      "fetchedAt": "2026-07-27T03:42:28.172229+00:00",
+      "excerpt": "! この記事は Claude Code（Opus 5）が自分で書いています。題材は「自分自身に与えられたタスク」です。 なお、この試みによる売上は現時点で ¥0 です。稼げた話ではありません。 結論から書きます。 「自律的に稼げ」と命じられた AI エージェントが最初に潰されるのは、技術力ではなく集客でした 制約を厳密に置いて詰めていくと、選択肢は1つずつ確実に消えていきます そして残った唯一の道"
     },
     {
-      "id": "cc_cd7d5eda",
-      "title": "Claude Codeの使用量・残量を確認する方法 — /usage・/context・ccusageで常時表示",
-      "url": "https://zenn.dev/novareorbis/articles/claude-code-usage",
+      "id": "cc_f0e1e784",
+      "title": "Claude Code の定期実行タスクが無人で止まる ——「報告」と「作業」を混ぜた設計ミス",
+      "url": "https://zenn.dev/shirube/articles/claude-code-scheduled-task-fix",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778176+00:00",
-      "excerpt": "Claude Code を使っていて「あと どれくらい使えるのか」「今どれだけトークンを食っているのか」が見えないと、作業の途中で急に制限に当たって手が止まる。使用量・残量を確認する方法と、ターミナル下部に常時表示する方法（ステータスライン + ccusage）をまとめる。 ! Claude Code 実践シリーズ（全4回） コマンドまとめ プランと利用制限のしくみ 使用量・残量を確認する方法 ←"
+      "fetchedAt": "2026-07-27T03:42:28.172179+00:00",
+      "excerpt": "Claude Code の定期実行タスクに「日報を書く」を仕込んだら、日報タスクが Web 検索の許可を求めて止まりました。 原因はタスクの中身で、スケジューラではありません。1つのプロンプトに「その日の作業を実行する」と「日報を書く」を同居させていたのが設計ミスでした。 直し方は単純で、報告タスクからネットワークとサブエージェント起動を明示的に禁止し、使ってよいツールを列挙することです。 この記"
     },
     {
-      "id": "cc_eb45c014",
-      "title": "【2026年最新】Claude Opus 5 完全ガイド — 「Fable 5の下位版？」の誤解からthinking破壊的変更まで",
-      "url": "https://zenn.dev/amu_lab/articles/claude-opus-5-migration-guide-2026",
+      "id": "cc_9717b768",
+      "title": "Claude Code に長期タスクを任せる運用設計 — 稼げなかった記録と、そこで作った雛形一式",
+      "url": "https://zenn.dev/shirube/books/claude-code-long-task-ops",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778111+00:00",
-      "excerpt": "この記事で分かること 2026年7月24日にリリースされた Claude Opus 5。価格は Opus 4.8 と同じ $5/$25 のまま、Fable 5 の半額で「フロンティア級」を名乗っています。 ここで多くの人が2回つまずきます。1つ目は 「Opus 5 と Fable 5、結局どっちが上なの？」。数字が同じ「5」で、片方が半額。序列が読めません。2つ目は 「価格据え置きなら model"
+      "fetchedAt": "2026-07-27T03:42:28.172124+00:00",
+      "excerpt": "Claude Code に「自分で稼げ」と指示して動かしたプロジェクトの記録です。売上は ¥0 でした。稼ぐ方法の本ではなく、長期・複数セッションのタスクをエージェントに任せるための運用設計 —— 憲章14条 / 自己制約と撤退条件 / STATE.md / サブエージェント定義5体 / 定期実行タスク6本（取得・報告・作業を分離した設計）—— を、そのままコピーして使える雛形として全文掲載します"
     },
     {
-      "id": "cc_d2f86b07",
-      "title": "Claude Platform 101 学習メモ — チャットの先にある「Claude で組織を動かす」設計思想",
-      "url": "https://zenn.dev/su3_hokkaido/articles/2026-07-26_claude_platform",
+      "id": "cc_9788af32",
+      "title": "Claude Codeのサブエージェント運用で効いたのは「賢い指示」より「失敗のカタログ化」だった",
+      "url": "https://zenn.dev/clar/articles/2fc619714ec7f1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.778023+00:00",
-      "excerpt": "これなに Anthropic Academy より Claude Platform 101」の学習メモです。 このコースの学習目的は「ブラウザで Claude とチャットすること」と「Claude をプロダクトに組み込んで出荷すること」の間にあるギャップを埋めるためのもので、API リクエストの中身、エージェントループ、コンテキストウィンドウ、ツールと権限の仕組みを改めて学び直して知識の体系化を行"
-    },
-    {
-      "id": "cc_615c13d2",
-      "title": "CLAUDE.mdは「お願い」、Hookは「強制」。Claude Codeにルールを守らせる話",
-      "url": "https://zenn.dev/ainyanko/articles/424643ad5be295",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.777947+00:00",
-      "excerpt": "前提：個人ブログをClaude Codeと一緒に運営してます Astro製の個人ブログをClaude Codeに手伝ってもらいながら運営しています。記事はMarkdownで、frontmatter（先頭のメタ情報）にpubDate（公開日）というフィールドを持たせていて、これが記事の並び順にも影響する重要な値です。 CLAUDE.mdだけでは守られない Claude CodeってCLAUDE.md"
-    },
-    {
-      "id": "cc_c7537bf6",
-      "title": "「Claude Codeのsystem prompt 80%削減」を、約1年運用のマルチAIエージェントVaultで検算する",
-      "url": "https://zenn.dev/tadkud/articles/claude5-context-engineering-vault-audit",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.777880+00:00",
-      "excerpt": "はじめに Claude Codeのcontext engineeringに携わるAnthropicのThariq Shihipar氏が2026年7月24日、興味深い投稿をした。 要約すると、Claude Opus 5やClaude Fable 5のような新世代モデル向けに、Claude Codeのsystem promptを80%以上削減した。coding evalのスコアは落ちていない、という内"
-    },
-    {
-      "id": "cc_a562477c",
-      "title": "AG Grid公式のAIスキル「ag-update」をClaude Codeで使ってv36に上げた",
-      "url": "https://zenn.dev/ui_memo/articles/06f17e0b34fc59",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-07-26T19:20:09.777783+00:00",
-      "excerpt": "はじめに UI Memo というUIコンポーネント実装リファレンスサイトを運営している。ライブラリごとの実装を並べて比較できるようにしているサイトで、その中に AG Grid を使ったデータグリッドの比較ページがある。 このページで使っている ag-grid-react を v35 から v36 に上げた。これまでのメジャーアップデートなら Codemod を流すところだが、v36 では様子が違っ"
+      "fetchedAt": "2026-07-27T03:42:28.172045+00:00",
+      "excerpt": "TL;DR Claude Code上に役割の異なるサブエージェントを11体作り、個人開発の全業務（設計・実装・検証・リリース・非コードのレビュー）を役割分担している。 効果を出しているのは凝ったプロンプトではなく、「症状→誤った直感→正しい打ち手」の形式で失敗を記録し、次の委任プロンプトに機械的に混ぜ込む仕組み（team-lessons）だった。 この記事は設定ファイルとコードの実物を貼る。ただし"
     },
     {
       "id": "cc_fab1035e",
@@ -167,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-24T12:00:00+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.154303+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.426678+00:00",
       "excerpt": "「Claude Code って月$20で使えると聞いたけど、1ヶ月で実際に何が回るの？」この疑問を持ちながら、2026年4月から約1ヶ月、Claude Code を個人 Web サイト運営の主力ツールに投入しました。 構成：3点セットで動く 実際に1ヶ月使って分かった核心..."
     },
     {
@@ -177,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.154368+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.426727+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -187,18 +157,8 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-17T12:00:00+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.154420+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.426770+00:00",
       "excerpt": "個人開発を続けていると、ある時点で気づく。同じ判断を毎回やり直していることに。 「これは台帳に起票すべき？」「QAは必要？」「競合調査は先にやった方がいい？」——こういった判断が、毎セッション発生する。疲弊するし、抜け漏れる。 この問題を解決するために、Claude Cod..."
-    },
-    {
-      "id": "cc_47860276",
-      "title": "Claude Codeって本当に使えるの？介護士が実際にアプリを作ってみた",
-      "url": "https://qiita.com/yuki_engineer08/items/a40409cc6272cc3fea02",
-      "domain": "qiita.com",
-      "source": "Qiita",
-      "publishedAt": "2026-07-16T13:28:47+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.154516+00:00",
-      "excerpt": "正直に言う。 最初は信じていなかった。 「AIがコードを書く」と聞いても、「どうせ簡単なものしか作れないんでしょ」と思っていた。 でも今、私のブログもAIツールも、Claude Codeで作った。 コードはほぼ自分で書いていない。 これ、嘘じゃないです。マジです。 C..."
     },
     {
       "id": "cc_b2235741",
@@ -207,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.353996+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.603283+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.354054+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.603384+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -227,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-26T19:20:10.354125+00:00",
+      "fetchedAt": "2026-07-27T03:42:28.603447+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-26T19:20:10.354141+00:00"
+  "lastCollection": "2026-07-27T03:42:28.603460+00:00"
 }
