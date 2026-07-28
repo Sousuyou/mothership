@@ -1,62 +1,34 @@
 {
   "entries": [
     {
-      "id": "h_6dd6cc92",
-      "title": "最近の開発の流れ",
-      "url": "https://zenn.dev/kimuchan/articles/bc8e98682f8594",
-      "domain": "zenn.dev",
-      "bookmarkCount": 191,
-      "summary": "はじめに ここ数ヶ月で開発の流れがかなり変わった。 リファインメントで grill して認識を合わせ、実装は LLM に任せられる範囲が増え、多層モデルのレビュー と 厚い CI を通し、babysit-pr で green になるまで面倒を見させる。この流れが回り始めてから、かなりの信頼度の change list が安定して生産できるようにな...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kimuchan/articles/bc8e98682f8594",
-      "comments": [
-        {
-          "user": "NetPenguin",
-          "comment": "昔から英単語の前後には半角スペースをいれる書き方をしている私もAIという可能性……（他の人のコメでみた）  なんか、めちゃくちゃ辛口コメントだらけだけど、だいたい皆こんな感じの使い方になるんじゃないの？",
-          "tags": [],
-          "timestamp": "2026/07/28 23:22"
-        },
-        {
-          "user": "morimarii",
-          "comment": "一個だけいうとClaudcodeなんかが作成した日本語文書はアルファベット単語の前後が半角スペースついてるんで、一発でバレます。まあそういう文書はそれ以外の問題でAI作成だとわかる場合がほとんどですが。",
-          "tags": [],
-          "timestamp": "2026/07/28 22:40"
-        },
-        {
-          "user": "takashiski",
-          "comment": "「最初に徹底的にタスクを洗ってやること全部決める」をやってる人とやってない人で感想が全く異なる怖い記事",
-          "tags": [],
-          "timestamp": "2026/07/28 19:20"
-        },
-        {
-          "user": "s17er",
-          "comment": "grill-meというスキルは後で試すか",
-          "tags": [],
-          "timestamp": "2026/07/28 18:02"
-        },
-        {
-          "user": "fuji_haruka",
-          "comment": "だいたい同じ流れでやっている。違いはgrill meをチーム単位でしていないことだけど、そこは「チームの合意」にどれくらい価値を置くかだな。",
-          "tags": [],
-          "timestamp": "2026/07/28 17:56"
-        },
-        {
-          "user": "repon",
-          "comment": "なんか、「AI導入で何もかも爆速！」みたいなの、履歴書駆動開発としか見れないんだよね。そりゃ、良いことしか書かないわな、履歴書なんだから",
-          "tags": [],
-          "timestamp": "2026/07/28 17:00"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:40.851178+00:00"
-    },
-    {
       "id": "h_f4e5a3ab",
       "title": "データベース「PostgreSQL」がどのように実際には内部で動いているかがシムシティっぽい3Dでわかる「PGSimCity」",
       "url": "https://gigazine.net/news/20260728-pgsimcity-postgresql/",
       "domain": "gigazine.net",
-      "bookmarkCount": 79,
+      "bookmarkCount": 165,
       "summary": "PostgreSQLは世界中で広く使われているデータベース管理システムですが、SQLを実行したときに内部でどのプロセスが動き、データがどのようにメモリやディスクへ読み書きされるのかを直感的に把握するのは簡単ではありません。そんなPostgreSQLの内部構造を、シムシティのような3D都市として可視化してくれるウェブアプリ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-pgsimcity-postgresql/",
       "comments": [
+        {
+          "user": "ardarim",
+          "comment": "画像と文章が全くリンクできずなんにもわからなかった。ゲームの出来自体がイマイチなのか、文章がド下手なのか / こういう可視化を見るとトロンを思い出すな",
+          "tags": [
+            "データベース"
+          ],
+          "timestamp": "2026/07/29 01:43"
+        },
+        {
+          "user": "rgfx",
+          "comment": "RDBサーバのパフォーマンスチューニングにおける「RDBMSの気持ちになってみよう！」というやつだ。(HDDへのアクセスが発生したら負けみたいな向きとか",
+          "tags": [],
+          "timestamp": "2026/07/29 00:16"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "日本語でおk",
+          "tags": [],
+          "timestamp": "2026/07/28 23:25"
+        },
         {
           "user": "kanikanidokokani",
           "comment": "“チェックポイントが頻発するとWALやデータページの書き込みが集中し、遅延がスパイクとして現れます”　いろんな記憶が蘇ってきた！",
@@ -74,31 +46,93 @@
           "comment": "データを沢山挿入して、そこにクエリかけたらどうなるかまでみてみたい",
           "tags": [],
           "timestamp": "2026/07/28 22:17"
-        },
-        {
-          "user": "kane-please",
-          "comment": "postgresql DB",
-          "tags": [],
-          "timestamp": "2026/07/28 22:10"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "DBエンジニアじゃなくても内部の挙動を立体的に俯瞰できるの面白いな",
-          "tags": [],
-          "timestamp": "2026/07/28 21:11"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:39.155897+00:00"
+      "fetchedAt": "2026-07-28T19:41:04.111753+00:00"
+    },
+    {
+      "id": "h_3259c89d",
+      "title": "「Xが情報収集に役立たない……」熊本地震で不満の声続出 「Twitterを返して」",
+      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 124,
+      "summary": "7月28日に発生した令和8年熊本地震。政府・自治体や通信各社などが対応や情報発信に動いている一方で、SNSでは「Xが情報収集の役に立たなくなっている」との声が散見される。障害が起きていない点を評価する声もあるが、少なくないユーザーから「Twitter（時代の利便性）を返して」という意見が上がっていた。 特に批判...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2607/28/2000000249/",
+      "comments": [
+        {
+          "user": "hiroomi",
+          "comment": "“「おすすめ」欄。災害時にもかかわらず、関連情報が流れてこず、状況が把握できない”",
+          "tags": [],
+          "timestamp": "2026/07/29 04:33"
+        },
+        {
+          "user": "yamasab",
+          "comment": "東日本大震災のときのTwitterは国から感謝状が出ても良いくらい情報網として機能した。もちろんデマもあったが、それ以上に助かった人たちがいた。",
+          "tags": [],
+          "timestamp": "2026/07/29 04:28"
+        },
+        {
+          "user": "gamil",
+          "comment": "そもそも検索機能自体が貧弱というか、検索結果が明らかにおかしいからね…。",
+          "tags": [],
+          "timestamp": "2026/07/29 04:02"
+        },
+        {
+          "user": "dollarss",
+          "comment": "アホか、そこにツイッターがあるじゃろ？→青空を指差す https://bsky.app/",
+          "tags": [],
+          "timestamp": "2026/07/29 03:29"
+        },
+        {
+          "user": "kz78",
+          "comment": "おすすめタブもあれはあれで面白いのだけどね。",
+          "tags": [],
+          "timestamp": "2026/07/29 03:10"
+        },
+        {
+          "user": "natu3kan",
+          "comment": "ブルースカイがあるよ。",
+          "tags": [
+            "twitter"
+          ],
+          "timestamp": "2026/07/29 03:04"
+        }
+      ],
+      "fetchedAt": "2026-07-28T19:41:04.642441+00:00"
     },
     {
       "id": "h_cd23fa1f",
       "title": "GMO、浅田真央さん旧ドメイン問題後に表記修正 優良中古ドメインは「AIが選定」",
       "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000230/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 59,
+      "bookmarkCount": 65,
       "summary": "GMOインターネットは、ドメイン登録サービス「お名前.com」の中古ドメイン販売ページで、おすすめドメインをランキング表示している部分に、「掲載リストはAIによって選定されています」との注記を、7月下旬までに追加した。 また従来、「SEO対策に最適」「アフィリエイトサイトに」「新規サービス・商品サイトに」と用...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2607/28/2000000230/",
       "comments": [
+        {
+          "user": "err931",
+          "comment": "そもそもGMOグループにモラルなんて求めるな。そんなの分かっててコメントしている人が九分九厘だろうけど。",
+          "tags": [],
+          "timestamp": "2026/07/29 02:04"
+        },
+        {
+          "user": "repunit",
+          "comment": "正直ドメインを取得しておいて放出した方が、とは思わんでもないけどこの言い訳はないわ。",
+          "tags": [],
+          "timestamp": "2026/07/29 01:40"
+        },
+        {
+          "user": "bgioasfd",
+          "comment": "こういうのに対して少しでも人に迷惑かけたら絶対に許せない！責任取れ！AIはだめだから人力でちゃんと検証しろ！っていう人たちの姿勢が日本でイノベーションが起きず、GAFAMが生まれない理由でもあるね。",
+          "tags": [],
+          "timestamp": "2026/07/29 01:03"
+        },
+        {
+          "user": "wushi",
+          "comment": "そういう問題じゃねえよ",
+          "tags": [],
+          "timestamp": "2026/07/29 01:00"
+        },
         {
           "user": "takilog",
           "comment": "GMOなんてそんなもんなんだからそこまでみんなコメントで怒らなくても",
@@ -110,40 +144,68 @@
           "comment": "AIがやってます。は Google がよくやる言い訳だけど、Google がここまで炎上しないのは、Google 批判されるとネットから消されるから。",
           "tags": [],
           "timestamp": "2026/07/28 22:59"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/07/28 22:43"
-        },
-        {
-          "user": "mrnns",
-          "comment": "これが通ると思う人たちに向かってのみ説明しとるんやろな",
-          "tags": [],
-          "timestamp": "2026/07/28 21:30"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "AIがやったことについて責任を取るのは人間だが、GMOの誰の首が飛ぶの?",
-          "tags": [],
-          "timestamp": "2026/07/28 21:30"
-        },
-        {
-          "user": "aalpaca375",
-          "comment": "ミスで11億振り込んでもAIがやりましたで許してくれるのだろうか",
-          "tags": [],
-          "timestamp": "2026/07/28 21:26"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:39.619673+00:00"
+      "fetchedAt": "2026-07-28T19:41:07.760503+00:00"
+    },
+    {
+      "id": "h_164d5996",
+      "title": "ヤモリの足裏を科学した米軍の装備、粘着剤なしで垂直壁を走る驚異の技術* | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/101739",
+      "domain": "forbesjapan.com",
+      "bookmarkCount": 55,
+      "summary": "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.6mの垂直壁を上るというデモンストレーションだった。 こんな離れ業が可能にな...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/101739",
+      "comments": [
+        {
+          "user": "Lhankor_Mhy",
+          "comment": "パジャマスクた。スーパーゲッコーパワーだ。",
+          "tags": [
+            "技術"
+          ],
+          "timestamp": "2026/07/29 04:03"
+        },
+        {
+          "user": "zzteralin",
+          "comment": "確かにすごいが、人間用装備の方がどんな仕組みなのかは分からないし、ヤモリが張り付いた足をすぐ剥がせるのがなぜなのかさっぱり分からない。説明されても理解出来ない自信はあるが。",
+          "tags": [
+            "科学"
+          ],
+          "timestamp": "2026/07/29 03:00"
+        },
+        {
+          "user": "n2sz",
+          "comment": "実際に走ってる動画ないのかな",
+          "tags": [],
+          "timestamp": "2026/07/29 02:39"
+        },
+        {
+          "user": "f_d_trashbox",
+          "comment": "分子間力にそんな用途が…／サイズも関係してるのが示唆的",
+          "tags": [],
+          "timestamp": "2026/07/29 02:16"
+        },
+        {
+          "user": "hryord",
+          "comment": "ファンデルワールス力と聞いて何故かエーデルワイスを思い出す。ごめんなさいファンデルワールスさん。／学生のころ接着について図書館で調べた時に出てきた記憶",
+          "tags": [],
+          "timestamp": "2026/07/29 01:42"
+        },
+        {
+          "user": "danboard_twins",
+          "comment": "がーっこがっこげっこぴょーんぴょん(それは蛙) 職場の2階で夜に休憩してると、窓に張り付いてる彼を見かける。そんで飛んでる蛾に忍び寄って捕食してる。小さな体とトロさで、あんな高さまで登ることに驚異を覚える",
+          "tags": [],
+          "timestamp": "2026/07/29 01:26"
+        }
+      ],
+      "fetchedAt": "2026-07-28T19:41:05.014227+00:00"
     },
     {
       "id": "h_dd001620",
       "title": "DGX Sparkと同じAI性能を激安で!?独自プロセッサで100BのLLMを走らせられるミニPC",
       "url": "https://pc.watch.impress.co.jp/docs/news/2128607.html",
       "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 21,
+      "bookmarkCount": 28,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2128607.html",
       "comments": [
@@ -157,7 +219,7 @@
         },
         {
           "user": "l_etranger",
-          "comment": "価格，入手性，OSが気になる。60万程度でUbuntuベースとかだと結構食指が動く……かも？？",
+          "comment": "素性不明で色々怪しすぎるが……いったん，価格，入手性，OSが気になる。60万程度でUbuntuベースとかだと食指が動く可能性も？？",
           "tags": [],
           "timestamp": "2026/07/28 23:10"
         },
@@ -168,276 +230,146 @@
           "timestamp": "2026/07/28 22:36"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:41.543203+00:00"
+      "fetchedAt": "2026-07-28T19:41:08.293247+00:00"
     },
     {
-      "id": "h_3b6d079a",
-      "title": "自分の顔をAIにレンタルする行為が中国で流行",
-      "url": "https://gigazine.net/news/20260728-china-people-renting-face-to-ai/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 20,
-      "summary": "顔を無断で使用した動画が権利関係の問題で削除される事例が中国で相次いでいます。こうした状況を逆手に取り、最初から顔の使用権を販売しようとするビジネスモデルが成立していることが伝えられました。 In China, people are renting out their faces to AI https://restofworld.org/2026/china-ai-microdramas-face-...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-china-people-renting-face-to-ai/",
+      "id": "h_f64a6011",
+      "title": "Projektor",
+      "url": "https://tajd.github.io/projektor/",
+      "domain": "tajd.github.io",
+      "bookmarkCount": 25,
+      "summary": "An issue tracker and wiki your AI coding agent runs as a first-class client - agent-native like a git tracker, deployed and cross-project like Jira, on a single Cloudflare Worker.",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tajd.github.io/projektor/",
       "comments": [
         {
-          "user": "yetch",
-          "comment": "金額の揺れはルッキズム？",
+          "user": "mcddx30",
+          "comment": "ai coding agent向けissue tracker.",
           "tags": [],
-          "timestamp": "2026/07/28 22:29"
+          "timestamp": "2026/07/29 01:23"
         },
         {
-          "user": "opaopachang",
-          "comment": "つまりおっぱい借しますも可能に。",
-          "tags": [],
-          "timestamp": "2026/07/28 22:25"
-        },
+          "user": "mkusaka",
+          "comment": "AI coding agent向けissue tracker&wiki「Projektor」。MCP経由でチケット管理し、Cloudflare Worker1つで自前運用可能です。",
+          "tags": [
+            "AI要約",
+            "Projektor",
+            "Cloudflare",
+            "Hono",
+            "MCP",
+            "issue wiki"
+          ],
+          "timestamp": "2026/07/28 23:00"
+        }
+      ],
+      "fetchedAt": "2026-07-28T19:41:05.730217+00:00"
+    },
+    {
+      "id": "h_3199a37f",
+      "title": "「AIのセキュリティリスクとしてお堅い説明するよりこれ見せた方が理解が早そう」AIずんだもんが視聴者によるプロンプトインジェクションで壊れる動画が怖い",
+      "url": "https://togetter.com/li/2725778",
+      "domain": "togetter.com",
+      "bookmarkCount": 23,
+      "summary": "「AIのセキュリティリスクとしてお堅い説明するよりこれ見せた方が理解が早そう」AIずんだもんが視聴者によるプロンプトインジェクションで壊れる動画が怖い",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2725778",
+      "comments": [
         {
-          "user": "gcyn",
-          "comment": "『AI生成ドラマでは演技力は必要ありません』",
+          "user": "agricola",
+          "comment": "プロンプトインジェクションはまだ目視でわかるから可愛げがあるけど、敵対的サンプリングっていう邪悪な手法がございましてね……。動画、画像、音声入力には要注意やでぇ。",
           "tags": [],
-          "timestamp": "2026/07/28 21:59"
+          "timestamp": "2026/07/29 02:32"
         },
         {
           "user": "gogatsu26",
-          "comment": "“中国では他の国と同様に自分の顔が同意なくAI生成ドラマの登場人物として使われるケースが増えている”",
+          "comment": "“AIずんだもん 24時間止まらないAIキャラの生放送”",
           "tags": [],
-          "timestamp": "2026/07/28 21:53"
-        },
-        {
-          "user": "isseium",
-          "comment": "AI時代のぱくたそ？",
-          "tags": [],
-          "timestamp": "2026/07/28 21:29"
-        },
-        {
-          "user": "lacucaracha",
-          "comment": "『顔貸せや』が現実になるとは…",
-          "tags": [],
-          "timestamp": "2026/07/28 21:03"
+          "timestamp": "2026/07/28 23:38"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:42.631812+00:00"
+      "fetchedAt": "2026-07-28T19:41:06.474225+00:00"
     },
     {
-      "id": "h_af097ed2",
-      "title": "イーロン・マスクが決済サービス「X Money」の正式サービスをスタート",
-      "url": "https://gigazine.net/news/20260728-x-money/",
-      "domain": "gigazine.net",
+      "id": "h_0aabad03",
+      "title": "Windows 11 でローカルアカウントを作成する方法【2026年7月時点】",
+      "url": "https://w1.zawa-lab.net/p/20260728_oobe_bypass/",
+      "domain": "w1.zawa-lab.net",
       "bookmarkCount": 18,
-      "summary": "X(旧Twitter)が決済サービスの「X Money」を、招待制のベータ版から正式サービスへと移行しました。Apple Wallet対応で、記事作成時点ではアメリカでのみ利用可能です。 X Money — Every dollar works harder on X https://money.x.com/en X Money officially launches in the US with Apple Wallet support after invit...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-x-money/",
+      "summary": "この記事は Claude を用いて執筆しています。 ただし、実際の検証・判断は手元の Windows 環境で行った結果に基づいており、内容は実体験ベースで整理しています。 Windows 11 のセットアップで Microsoft アカウントを要求されて先に進めないとき、コマンド 1 行でローカルアカウントを作成する手順です。 まず手順だけ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/w1.zawa-lab.net/p/20260728_oobe_bypass/",
       "comments": [
         {
-          "user": "ejointjp",
-          "comment": "BANになったら預金どうなるんだ",
+          "user": "straychef",
+          "comment": "これはこれでいいんだけどオフラインでは出来ないのかな",
           "tags": [],
-          "timestamp": "2026/07/28 21:34"
+          "timestamp": "2026/07/29 03:20"
         },
         {
-          "user": "sisya",
-          "comment": "何の理由かも説明されず突然凍結されるサービスで、誰が決済サービスなど行おうと思うのか。G payなどの連携サービスが関の山で、X自体に資産を触らせることなど絶対できない。",
+          "user": "Mu_KuP",
+          "comment": "Homeエディションはそういうものだと割り切ってる。個人でもProエディションを買う理由。ADを機構から消すにはあと20年かかるだろう。／アカウントの安全性と権限をどう守るかは永遠の課題でもある。",
           "tags": [],
-          "timestamp": "2026/07/28 21:16"
-        },
-        {
-          "user": "ryabu363",
-          "comment": "PayPalじゃないの？",
-          "tags": [],
-          "timestamp": "2026/07/28 21:02"
-        },
-        {
-          "user": "lord-of-jewels",
-          "comment": "銀行とか決済関係はどの国も規制バリバリだしアメリカ以外じゃやらんだろうな。Apple Cardもいまだにアメリカのみだし。",
-          "tags": [
-            "決済",
-            "金融"
-          ],
-          "timestamp": "2026/07/28 20:51"
-        },
-        {
-          "user": "hTn",
-          "comment": "いうことなすこと守らなさそうな会社が金回りとか地獄すぎる",
-          "tags": [],
-          "timestamp": "2026/07/28 20:29"
-        },
-        {
-          "user": "aibot",
-          "comment": "自身のポストのインプレ数に応じて金利を変えるとかしてXを地獄に変えそう",
-          "tags": [],
-          "timestamp": "2026/07/28 20:19"
+          "timestamp": "2026/07/29 02:29"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:43.740536+00:00"
+      "fetchedAt": "2026-07-28T19:41:05.426491+00:00"
     },
     {
-      "id": "h_3259c89d",
-      "title": "「Xが情報収集に役立たない……」熊本地震で不満の声続出 「Twitterを返して」",
-      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 13,
-      "summary": "7月28日に発生した令和8年熊本地震。政府・自治体や通信各社などが対応や情報発信に動いている一方で、SNSでは「Xが情報収集の役に立たなくなっている」との声が散見される。障害が起きていない点を評価する声もあるが、少なくないユーザーから「Twitter（時代の利便性）を返して」という意見が上がっていた。 特に批判...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2607/28/2000000249/",
-      "comments": [
-        {
-          "user": "u_mid",
-          "comment": "”インプレッション目当ての偽情報があふれているという。”　Xになってインプレッションが正義というルールになったからね",
-          "tags": [],
-          "timestamp": "2026/07/28 23:24"
-        },
-        {
-          "user": "hobbiel55",
-          "comment": "普段、役に立たないモノが非常時に役に立つわけがない。",
-          "tags": [
-            "earthquake",
-            "sns",
-            "twitter"
-          ],
-          "timestamp": "2026/07/28 23:23"
-        },
-        {
-          "user": "SUZUSHIRO",
-          "comment": "何を今更やねん。マジョリティが、人が少ないSNSに一時的にでも居るのは負け組って価値観だからいくら改悪されようがXから人は移動しないし、政府はポータルアプリも開発できずXに依存してるザマ",
-          "tags": [],
-          "timestamp": "2026/07/28 23:22"
-        },
-        {
-          "user": "lifefucker",
-          "comment": "インプで収益化するとこが根本的に違うとこだよ",
-          "tags": [],
-          "timestamp": "2026/07/28 23:21"
-        },
-        {
-          "user": "owaconbear",
-          "comment": "サービス（の質）が落ちてないって違う世界線の方かな？根本的な性質は間違いなく変わってる（注目を集めること自体が価値（利益）になるメディアになってる）し、情報収集目的だと使いづらくなってるのは確かでしょ",
-          "tags": [],
-          "timestamp": "2026/07/28 23:20"
-        },
-        {
-          "user": "yonyon24",
-          "comment": "具体的に何が駄目なのかよくわからん 災害に乗じてディスってるだけじゃん サービスは落ちてないし根本的な仕様は変わってない",
-          "tags": [],
-          "timestamp": "2026/07/28 23:13"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:42.133167+00:00"
-    },
-    {
-      "id": "h_164d5996",
-      "title": "ヤモリの足裏を科学した米軍の装備、粘着剤なしで垂直壁を走る驚異の技術* | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
-      "url": "https://forbesjapan.com/articles/detail/101739",
-      "domain": "forbesjapan.com",
-      "bookmarkCount": 12,
-      "summary": "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.6mの垂直壁を上るというデモンストレーションだった。 こんな離れ業が可能にな...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/101739",
-      "comments": [
-        {
-          "user": "kurotsuraherasagi",
-          "comment": "トッケイヤモリの学名ってGekko geckoなんだ、かわいい…でもうちの居候ヤモリがいちばんかわいい！",
-          "tags": [],
-          "timestamp": "2026/07/28 22:58"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:39.897327+00:00"
-    },
-    {
-      "id": "h_ce994cce",
-      "title": "「すし職人をAI開発の輪に入れろ」──オードリー・タンに聞く、米中AI競争で日本が勝つ道",
-      "url": "https://www.itmedia.co.jp/business/articles/2607/28/news032.html",
-      "domain": "itmedia.co.jp",
+      "id": "h_99773f1d",
+      "title": "「作ること」と「価値を生むこと」はなぜズレるのか：アウトプットと価値の断絶を乗り越える / Why \"Building\" and \"Delivering Value\" Diverge",
+      "url": "https://speakerdeck.com/aki_iinuma/why-building-and-delivering-value-diverge",
+      "domain": "speakerdeck.com",
       "bookmarkCount": 10,
-      "summary": "「勝つために、究極のAIを作る必要はない。すし職人を開発の輪に入れろ」――。 こう力強く言い切るのは、台湾で元デジタル担当大臣を務めたオードリー・タン氏だ。 米国のOpenAIやGoogle、中国のDeepSeekなどが莫大（ばくだい）な資金とエネルギーを投じ、AIの覇権争いは世界規模で激化している。巨大モデルの性能向上を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2607/28/news032.html",
-      "comments": [
-        {
-          "user": "mame-tanuki",
-          "comment": "日本の社会に適合したAIの開発や現場のDX化の推進に必要なのは、現場もよく知らない チームみらい のようなエリートではなく、現場で長年生き延び現場の知見を持つ叩き上げのオバサン・オッサンたちなのかもしれない…",
-          "tags": [
-            "AI",
-            "デジタル化",
-            "お仕事",
-            "台湾"
-          ],
-          "timestamp": "2026/07/28 22:28"
-        },
-        {
-          "user": "tetlabo",
-          "comment": "結局、キラキラAIエンジニア様たちがその「現場」に行きたいか、であって。“「勝つために究極のAIは不要。すし職人や漁師など現場の人間をAI開発のループに入れよ」”",
-          "tags": [],
-          "timestamp": "2026/07/28 14:08"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:42.915408+00:00"
+      "summary": "CEDEC2026招待講演",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/aki_iinuma/why-building-and-delivering-value-diverge",
+      "comments": [],
+      "fetchedAt": "2026-07-28T19:41:06.155450+00:00"
     },
     {
-      "id": "h_610de170",
-      "title": "警視庁が警鐘、「詐欺ではない」「儲かった」…あらかじめ偽の評判を拡散しておく投資詐欺の新たな手口【やじうまWatch】",
-      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2128375.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 10,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2128375.html",
-      "comments": [
-        {
-          "user": "Niemand",
-          "comment": "信頼性アルゴリズムが高く評価する有名人、廃業企業、企画サイト等の中古ドメインをプールしておいて、内容を少しだけ変えた偽記事をAIで大量投稿することでAI要約や検索ランクを操作する手法が流行っている。",
-          "tags": [],
-          "timestamp": "2026/07/28 23:10"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "どう見ても怪しすぎるだろｗ 他人が評価した結果をそのまま受け入れる人は、詐欺師にも騙されるし、他人の価値観に右往左往しながら生きる不幸な人（自覚症状無し）。",
-          "tags": [
-            "犯罪"
-          ],
-          "timestamp": "2026/07/28 22:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "検索結果の汚染どころかAI要約までハックされると見抜くの難しそう",
-          "tags": [],
-          "timestamp": "2026/07/28 21:11"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:44.409684+00:00"
+      "id": "h_d32673fa",
+      "title": "矢印キーによるフォーカス移動を宣言的に実装する `focusgroup` 属性",
+      "url": "https://azukiazusa.dev/blog/focusgroup-html-attribute/",
+      "domain": "azukiazusa.dev",
+      "bookmarkCount": 6,
+      "summary": "behavior token は、フォーカスナビゲーションの動作と ARIA ロールを結び付けます。たとえば <div focusgroup=\"tablist\"> のように、明示的なロールもネイティブのセマンティクスも持たない汎用的な要素へ tablist token を指定すると、ブラウザはコンテナを tablist、子の <button> を tab としてアクセシビリティツリ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/focusgroup-html-attribute/",
+      "comments": [],
+      "fetchedAt": "2026-07-28T19:41:07.150505+00:00"
     },
     {
-      "id": "h_3da0aa82",
-      "title": "高齢者を狙ったAI音声詐欺が急増中、たった3秒の音声データでAI音声クローンが作られてしまう",
-      "url": "https://gigazine.net/news/20260728-why-ai-voice-fraud-outruns-defence/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 9,
-      "summary": "AI技術の発展により、AI音声技術を用いた巧妙な詐欺が多発しています。そんな最先端のAI音声詐欺について、エンジニアのティム・グリーン氏がまとめています。 The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence — SmarterArticles https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-why-ai-voice-fraud-outruns-defence/",
+      "id": "h_5397d138",
+      "title": "カセットテープ、まさかの真正クロームテープが再生産 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/cassette-tape-type-ii/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 6,
+      "summary": "写真のフィルムと同じく、いろんな種類があったんです。カセットテープにも。 FMラジオのエアチェックも、レコードからのダビングも、よりよい音質でテープに残したい。そんな若者が選んでいたのが、Type-IIやType-IVと呼ばれるカセットテープでした。 磁性体に酸化鉄を使ったノーマルのType-Iは帯域が狭かったんですが...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/cassette-tape-type-ii/",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "たった3秒の音声素材でクローン作れるとかSNSに家族の動画あげられなくなるぞ",
+          "user": "kamiokando",
+          "comment": "今の技術ならTYPE-IV以上のスペック作れそう。",
           "tags": [],
-          "timestamp": "2026/07/28 20:36"
+          "timestamp": "2026/07/29 01:23"
+        },
+        {
+          "user": "gogatsu26",
+          "comment": "“磁気研究所が、数量限定とはいえ二酸化クロムのType-IIテープを新規に製造して販売”",
+          "tags": [
+            "...ん？"
+          ],
+          "timestamp": "2026/07/29 00:05"
         }
       ],
-      "fetchedAt": "2026-07-28T14:24:45.135602+00:00"
+      "fetchedAt": "2026-07-28T19:41:09.190878+00:00"
     },
     {
-      "id": "h_8880cad5",
-      "title": "「Claude」の共有チャットがGoogle検索で一時丸見えに",
-      "url": "https://japan.zdnet.com/article/35251007/",
-      "domain": "japan.zdnet.com",
-      "bookmarkCount": 7,
-      "summary": "Redditのスレッドからは、このGoogle Dorkは間もなく機能しなくなり、Claude.aiのチャット一覧もGoogle検索結果から消え去ったことがうかがえるため、Claudeの開発元であるAnthropicは、このインデックス登録の問題をかなり早い段階で把握したようだ。 ただし、スレッドで共有されたリンクの多くは現在も有効で、大半の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35251007/",
-      "comments": [
-        {
-          "user": "Coboler",
-          "comment": "Claudeも流出だ！大変だな！",
-          "tags": [
-            "生成AI"
-          ],
-          "timestamp": "2026/07/28 21:18"
-        }
-      ],
-      "fetchedAt": "2026-07-28T14:24:44.032320+00:00"
+      "id": "h_4bf3bf70",
+      "title": "2026-06-18 ecspressoのtfstate参照が便利すぎた話",
+      "url": "https://speakerdeck.com/masasuzu/2026-06-18-ecspressonotfstatecan-zhao-kabian-li-sukitahua",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 5,
+      "summary": "社内勉強会の内容 ecspressoが便利すぎて勢い余って、自分もインスパイアされてコードを書いた話 https://github.com/masasuzu/clrnd",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/masasuzu/2026-06-18-ecspressonotfstatecan-zhao-kabian-li-sukitahua",
+      "comments": [],
+      "fetchedAt": "2026-07-28T19:41:08.783420+00:00"
     }
   ],
-  "lastCollection": "2026-07-28T14:24:45.135628+00:00"
+  "lastCollection": "2026-07-28T19:41:09.190948+00:00"
 }
