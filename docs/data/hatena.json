@@ -1,508 +1,443 @@
 {
   "entries": [
     {
-      "id": "h_a7c740a1",
-      "title": "【2026年版】MIXI 新卒向け技術研修を公開しました。",
-      "url": "https://zenn.dev/mixi/articles/fd62f8ddc178f6",
-      "domain": "zenn.dev",
-      "bookmarkCount": 270,
-      "summary": "2026年度新卒向け技術研修の資料と動画を公開しました。 MIXIの新卒向け技術研修では、一部の科目を除き、実際の開発現場で活躍するエンジニアが講師を務めています。技術や開発環境の変化に合わせて毎年カリキュラムを見直し、現場で必要となる知識や技術を学べる研修を目指しています。 また、職種や配属先にかかわら...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mixi/articles/fd62f8ddc178f6",
-      "comments": [
-        {
-          "user": "iwanofsky",
-          "comment": "毎年恒例の、もはやこれ事業にしてよいレベルやわ",
-          "tags": [],
-          "timestamp": "2026/07/28 12:50"
-        },
-        {
-          "user": "kitone",
-          "comment": "約1か月",
-          "tags": [],
-          "timestamp": "2026/07/28 11:57"
-        },
-        {
-          "user": "mirai-iro",
-          "comment": "うらやましい",
-          "tags": [],
-          "timestamp": "2026/07/28 11:56"
-        },
-        {
-          "user": "hkanemat",
-          "comment": "（MIXIがどうこうというわけではないが）技術者倫理も身につけるようにさせてください",
-          "tags": [],
-          "timestamp": "2026/07/28 11:11"
-        },
-        {
-          "user": "TriQ",
-          "comment": "たすかる",
-          "tags": [],
-          "timestamp": "2026/07/28 11:08"
-        },
-        {
-          "user": "dd41kk",
-          "comment": "“ダウンロード”",
-          "tags": [],
-          "timestamp": "2026/07/28 10:25"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:44:59.088386+00:00"
-    },
-    {
-      "id": "h_d6d3ea64",
-      "title": "セキュリティ研修【MIXI 26新卒技術研修】",
-      "url": "https://speakerdeck.com/mixi_engineers/2026_new_grad_training_security",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 211,
-      "summary": "本スライドは、MIXIの2026年度新卒向け技術研修で使用された資料です。 MIXI 2026新卒技術研修 『セキュリティ研修』 ─────────────────────────────── ※皆様へのお願い※ 資料・動画・リポジトリのご利用につい…",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/mixi_engineers/2026_new_grad_training_security",
-      "comments": [
-        {
-          "user": "defiant",
-          "comment": "この記事をおすすめしました",
-          "tags": [
-            "techfeed"
-          ],
-          "timestamp": "2026/07/28 15:30"
-        },
-        {
-          "user": "IGA-OS",
-          "comment": "2026年版が公開されてる。研修資料として参考にさせてもらってる",
-          "tags": [
-            "security",
-            "セキュリティ",
-            "資料"
-          ],
-          "timestamp": "2026/07/28 12:53"
-        },
-        {
-          "user": "financedekatsu2000",
-          "comment": "ホモグラフとか目視の時点でオワコン。キリル文字やサブドメインをリアルに見せるとかあるんだよ",
-          "tags": [],
-          "timestamp": "2026/07/28 10:11"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:44:57.661787+00:00"
-    },
-    {
       "id": "h_6dd6cc92",
-      "title": "最近の仕事の流れ",
+      "title": "最近の開発の流れ",
       "url": "https://zenn.dev/kimuchan/articles/bc8e98682f8594",
       "domain": "zenn.dev",
-      "bookmarkCount": 128,
-      "summary": "はじめに ここ数ヶ月で働き方がかなり変わった。 リファインメントで grill して認識を合わせ、実装は Claude Code に書かせ、多層モデルのレビュー と 厚い CI を通し、babysit-pr で green になるまで面倒を見させる。この流れが回り始めてから、かなりの信頼度の change list が安定して生産できるようになった。 全...",
+      "bookmarkCount": 191,
+      "summary": "はじめに ここ数ヶ月で開発の流れがかなり変わった。 リファインメントで grill して認識を合わせ、実装は LLM に任せられる範囲が増え、多層モデルのレビュー と 厚い CI を通し、babysit-pr で green になるまで面倒を見させる。この流れが回り始めてから、かなりの信頼度の change list が安定して生産できるようにな...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kimuchan/articles/bc8e98682f8594",
       "comments": [
+        {
+          "user": "NetPenguin",
+          "comment": "昔から英単語の前後には半角スペースをいれる書き方をしている私もAIという可能性……（他の人のコメでみた）  なんか、めちゃくちゃ辛口コメントだらけだけど、だいたい皆こんな感じの使い方になるんじゃないの？",
+          "tags": [],
+          "timestamp": "2026/07/28 23:22"
+        },
+        {
+          "user": "morimarii",
+          "comment": "一個だけいうとClaudcodeなんかが作成した日本語文書はアルファベット単語の前後が半角スペースついてるんで、一発でバレます。まあそういう文書はそれ以外の問題でAI作成だとわかる場合がほとんどですが。",
+          "tags": [],
+          "timestamp": "2026/07/28 22:40"
+        },
+        {
+          "user": "takashiski",
+          "comment": "「最初に徹底的にタスクを洗ってやること全部決める」をやってる人とやってない人で感想が全く異なる怖い記事",
+          "tags": [],
+          "timestamp": "2026/07/28 19:20"
+        },
+        {
+          "user": "s17er",
+          "comment": "grill-meというスキルは後で試すか",
+          "tags": [],
+          "timestamp": "2026/07/28 18:02"
+        },
+        {
+          "user": "fuji_haruka",
+          "comment": "だいたい同じ流れでやっている。違いはgrill meをチーム単位でしていないことだけど、そこは「チームの合意」にどれくらい価値を置くかだな。",
+          "tags": [],
+          "timestamp": "2026/07/28 17:56"
+        },
         {
           "user": "repon",
           "comment": "なんか、「AI導入で何もかも爆速！」みたいなの、履歴書駆動開発としか見れないんだよね。そりゃ、良いことしか書かないわな、履歴書なんだから",
           "tags": [],
           "timestamp": "2026/07/28 17:00"
-        },
-        {
-          "user": "irimodi",
-          "comment": "今日claude codeデビューしたのでclaudeのレベル感がわかって、この記事の流れの理解が深まる。トークン保持者なだけなら、yesを押しまくるのはB型作業所とか障害者雇用にやらせるといいな",
-          "tags": [],
-          "timestamp": "2026/07/28 16:15"
-        },
-        {
-          "user": "hkdn",
-          "comment": "コード書いてませんアピールも良いんだけど少し飽きてきたな。",
-          "tags": [],
-          "timestamp": "2026/07/28 15:42"
-        },
-        {
-          "user": "mr_mayama",
-          "comment": "まぁだいたいこうなるわな／これは多分手書きの文章に大分寄せたAIの記述か日本語のlinterを使った手書き文章だと思う",
-          "tags": [],
-          "timestamp": "2026/07/28 15:35"
-        },
-        {
-          "user": "miragestlike",
-          "comment": "リファインメントってなんだい？",
-          "tags": [],
-          "timestamp": "2026/07/28 14:57"
-        },
-        {
-          "user": "moke222",
-          "comment": "できる人はできるってだけの話に見えた",
-          "tags": [],
-          "timestamp": "2026/07/28 14:07"
         }
       ],
-      "fetchedAt": "2026-07-28T08:44:58.122954+00:00"
+      "fetchedAt": "2026-07-28T14:24:40.851178+00:00"
     },
     {
-      "id": "h_212ee5ce",
-      "title": "Claude Code Actionで使うSkillを、リポジトリにコミットせずgh skill installで実行時に入れる - $shibayu36->blog;",
-      "url": "https://blog.shibayu36.org/entry/2026/07/27/163000",
-      "domain": "blog.shibayu36.org",
-      "bookmarkCount": 123,
-      "summary": "GitHubでPull Requestを作った瞬間に、Claude Code Actionを使って最低限セキュリティレビューをさせる仕組みを導入したいことがあった。またこの仕組みは特定リポジトリだけでなく、他のリポジトリにも簡単に展開していきたいと考えていた。 このときどうやって他リポジトリに展開しやすくしておくか悩んだが、Skillを...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/07/27/163000",
+      "id": "h_f4e5a3ab",
+      "title": "データベース「PostgreSQL」がどのように実際には内部で動いているかがシムシティっぽい3Dでわかる「PGSimCity」",
+      "url": "https://gigazine.net/news/20260728-pgsimcity-postgresql/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 79,
+      "summary": "PostgreSQLは世界中で広く使われているデータベース管理システムですが、SQLを実行したときに内部でどのプロセスが動き、データがどのようにメモリやディスクへ読み書きされるのかを直感的に把握するのは簡単ではありません。そんなPostgreSQLの内部構造を、シムシティのような3D都市として可視化してくれるウェブアプリ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-pgsimcity-postgresql/",
       "comments": [
         {
-          "user": "takets",
-          "comment": "これはかなり良さそう。",
+          "user": "kanikanidokokani",
+          "comment": "“チェックポイントが頻発するとWALやデータページの書き込みが集中し、遅延がスパイクとして現れます”　いろんな記憶が蘇ってきた！",
           "tags": [],
-          "timestamp": "2026/07/28 13:23"
+          "timestamp": "2026/07/28 23:08"
         },
         {
-          "user": "karatte",
-          "comment": "Hermesのグローバルスキル100近くあるんだけどこれが多いのか少ないのかさっぱり判らん。LLMたちに訊いても回答まちまちだし",
+          "user": "zgmf-x20a",
+          "comment": "やっぱりゴジラやメルトダウンあるの？",
           "tags": [],
-          "timestamp": "2026/07/28 12:03"
+          "timestamp": "2026/07/28 22:18"
         },
         {
-          "user": "gfx",
-          "comment": "これはやりたい。たまにしか使わないスキルでコンテキストを汚したくないし、複数リポジトリにデプロイしているスキルを同期するのにも飽きてきたところだった。",
+          "user": "hashibirock",
+          "comment": "データを沢山挿入して、そこにクエリかけたらどうなるかまでみてみたい",
           "tags": [],
-          "timestamp": "2026/07/28 11:55"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:45:00.150800+00:00"
-    },
-    {
-      "id": "h_bdc6298e",
-      "title": "ChatGPTの回答を変えるという選挙戦術、米中間選挙の候補者が競う「AIへの説得」 【生成AI事件簿】米国で広がるAEO、Wikipedia更新12分で候補者評価が書き換わる新たな現実 | JBpress (ジェイビープレス)",
-      "url": "https://jbpress.ismedia.jp/articles/-/96137",
-      "domain": "jbpress.ismedia.jp",
-      "bookmarkCount": 121,
-      "summary": "米ミズーリ州の州議会選挙に民主党から出馬するダスティン・ロイドは、地元では名の知れた存在だった。ところが、彼を全く知らない「相手」がいた。OpenAIのChatGPTやGoogleのGeminiといった、AIチャットボットである。 ニューヨーク・タイムズ（NYT）紙の記事によれば、米国の選挙キャンペーンはいま、チャットボットの...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/jbpress.ismedia.jp/articles/-/96137",
-      "comments": [
-        {
-          "user": "emanontan",
-          "comment": "これに関しては既に面白い結果が成立していて、例えば男子だけ大学入試で優遇するのは許されない性差別的な行為だとAIは答えるんだが、女子を優遇するのは目的次第であると答えるように既になっている",
-          "tags": [],
-          "timestamp": "2026/07/28 17:28"
+          "timestamp": "2026/07/28 22:17"
         },
         {
-          "user": "takeishi",
-          "comment": "「回答エンジン最適化（AEO：Answer Engine Optimization）」",
-          "tags": [
-            "AI",
-            "ネット"
-          ],
-          "timestamp": "2026/07/28 15:55"
-        },
-        {
-          "user": "BigWhiteDog",
-          "comment": "AIの言うことを鵜呑みにするバカのためにAIを騙して嘘を吹き込むというのが政治家の仕事なのだろうか？",
+          "user": "kane-please",
+          "comment": "postgresql DB",
           "tags": [],
-          "timestamp": "2026/07/28 15:54"
-        },
-        {
-          "user": "cyber_bob",
-          "comment": "AIに伝わってないなら有権者にも伝わらないのだから、これはええと思うで。ただしAIによる評価は当選後も続くけどな",
-          "tags": [],
-          "timestamp": "2026/07/28 15:19"
-        },
-        {
-          "user": "aarx",
-          "comment": "MAGAIもの",
-          "tags": [],
-          "timestamp": "2026/07/28 15:17"
-        },
-        {
-          "user": "no-cool",
-          "comment": "AEOとかGEOとか、まだ名称が定まっていないのね。",
-          "tags": [],
-          "timestamp": "2026/07/28 14:57"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:44:58.620615+00:00"
-    },
-    {
-      "id": "h_4932a91c",
-      "title": "【Copilot神アプデ】Excelの地味な手間が消える「新機能3選」、自分たち仕様に超進化",
-      "url": "https://www.sbbit.jp/article/cont1/186178",
-      "domain": "sbbit.jp",
-      "bookmarkCount": 89,
-      "summary": "この1年、業務における生成AIの活用は、「エージェンティック」という言葉を中心に語られてきました。プロンプトに従って回答するだけでなく、AIが複数のステップを計画し、アプリやブラウザを操作しながら仕事を進める。そうしたエージェント的な動作を前提とするAIモデルが、当たり前のように語られるようになっていま...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.sbbit.jp/article/cont1/186178",
-      "comments": [
-        {
-          "user": "dtg8",
-          "comment": "なるほどね。 https://news.yahoo.co.jp/articles/a401eda344586eeee6a6066f1509b5f2d0c3f34c",
-          "tags": [],
-          "timestamp": "2026/07/28 14:07"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "まず設定やAIとの接続に至れるのか。",
-          "tags": [
-            "仕事",
-            "AI",
-            "仕様"
-          ],
-          "timestamp": "2026/07/28 09:05"
-        },
-        {
-          "user": "magi00",
-          "comment": "ビジネス+ITの記事はyahooニュースにも同時掲載されているのでタイトルで検索してyahooで見れば登録不要で最後まで読めるという豆知識を授けよう",
-          "tags": [],
-          "timestamp": "2026/07/28 08:53"
-        },
-        {
-          "user": "canadie",
-          "comment": "最近のM365 Copilotはかなり良い。セル結合や神Excelを作ろうとしたら全力で止めてくる機能が欲しい",
-          "tags": [],
-          "timestamp": "2026/07/28 08:48"
-        },
-        {
-          "user": "tel30",
-          "comment": "個人レベルではcloudeに頼めばExcel周りで困ることがないのでCopilotに頼む余地が無い",
-          "tags": [],
-          "timestamp": "2026/07/28 08:32"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:45:00.999933+00:00"
-    },
-    {
-      "id": "h_a12aa451",
-      "title": "AWSの公式オンラインワークショップ、無料のAWSサンドボックス環境を提供開始。学習用にAWSのサービスやコード実行など利用可能に",
-      "url": "https://www.publickey1.jp/blog/26/awsawsaws.html",
-      "domain": "publickey1.jp",
-      "bookmarkCount": 76,
-      "summary": "Amazon Web Services（AWS）は、同社がAWSのオンライン学習教材として提供している「ワークショップ」において、無料でAWSのサービスやコードの実行などを試すことができるサンドボックス環境の提供開始を発表しました。 AWSアカウントもクレジットカードの登録も不要で、無料のビルダーIDを登録することで利用可能。 こ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/awsawsaws.html",
-      "comments": [
-        {
-          "user": "rawwell",
-          "comment": "いいことなんだけど、AWSへのベンダーロックインがなあ",
-          "tags": [],
-          "timestamp": "2026/07/28 11:59"
-        },
-        {
-          "user": "emt0",
-          "comment": "使い分け面倒だけど一部の無料枠無いサービスも試せるならありかな",
-          "tags": [],
-          "timestamp": "2026/07/28 11:30"
-        },
-        {
-          "user": "kzm1760",
-          "comment": "最近参加したAWSのイベントでも使われていたやつっぽい。どこまでのサービスで使えるかにもよるものの、学習用途に良さそう。",
-          "tags": [],
-          "timestamp": "2026/07/28 10:49"
-        },
-        {
-          "user": "crimson_diamond",
-          "comment": "だる過ぎる、AIから申請出せるようにしてどうぞ",
-          "tags": [],
-          "timestamp": "2026/07/28 09:07"
+          "timestamp": "2026/07/28 22:10"
         },
         {
           "user": "nguyen-oi",
-          "comment": "クレカ登録なしで8時間試せるのは神機能すぎるな",
+          "comment": "DBエンジニアじゃなくても内部の挙動を立体的に俯瞰できるの面白いな",
           "tags": [],
-          "timestamp": "2026/07/28 09:05"
+          "timestamp": "2026/07/28 21:11"
         }
       ],
-      "fetchedAt": "2026-07-28T08:45:01.298626+00:00"
+      "fetchedAt": "2026-07-28T14:24:39.155897+00:00"
     },
     {
-      "id": "h_bd95594d",
-      "title": "How the product designer who built Claude Design uses it | Claude by Anthropic",
-      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
-      "domain": "claude.com",
-      "bookmarkCount": 67,
-      "summary": "In the fall of 2025, I was the only product designer on Claude Code for VS Code, working with two engineers to reimagine everything Claude Code does for a friendly interface outside the terminal. We shipped the beta at the end of September,",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
-      "comments": [
-        {
-          "user": "kijtra",
-          "comment": "トークンが恐ろしく速く枯渇するからしばらく使ってなかったけど変わったのかな？",
-          "tags": [],
-          "timestamp": "2026/07/28 14:42"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Claude Designの開発秘話、HTML出力からプロトタイプ作る発想が良いな",
-          "tags": [],
-          "timestamp": "2026/07/28 09:05"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Claude Design開発者が実践法を紹介。HTMLを視覚表現の媒体に使い、15案を出して組み合わせ、ワイヤーフレームで早く試す。仕上げは直接編集し、Claude Codeとは試作を往復できる。",
-          "tags": [
-            "人工知能",
-            "プログラミング",
-            "Anthropic"
-          ],
-          "timestamp": "2026/07/27 21:46"
-        }
-      ],
-      "fetchedAt": "2026-07-28T08:45:01.706107+00:00"
-    },
-    {
-      "id": "h_0a908e85",
-      "title": "【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか",
-      "url": "https://zenn.dev/fixstars/articles/kimi-k3-benchmark",
-      "domain": "zenn.dev",
+      "id": "h_cd23fa1f",
+      "title": "GMO、浅田真央さん旧ドメイン問題後に表記修正 優良中古ドメインは「AIが選定」",
+      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000230/",
+      "domain": "itmedia.co.jp",
       "bookmarkCount": 59,
-      "summary": "はじめに 2026年7月27日、Moonshot AI から Kimi-K3 のモデルウェイトが公開されました。7月16日のモデル発表時点から「オープンウェイトモデルとして史上最大」と大きな話題になっていたモデルです。 フィックスターズでは、ウェイト公開の当日に NVIDIA B300 x8 のシングルノード環境へデプロイし、推論性能のベンチマ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/fixstars/articles/kimi-k3-benchmark",
+      "summary": "GMOインターネットは、ドメイン登録サービス「お名前.com」の中古ドメイン販売ページで、おすすめドメインをランキング表示している部分に、「掲載リストはAIによって選定されています」との注記を、7月下旬までに追加した。 また従来、「SEO対策に最適」「アフィリエイトサイトに」「新規サービス・商品サイトに」と用...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2607/28/2000000230/",
       "comments": [
         {
-          "user": "ys0000",
-          "comment": "DCPなんてあるのか。複数GPU構成が捗る反面、特定のエキスパートばかり使用すると処理が特定のGPUに偏りそうな気もする。その辺も上手く振る舞ってくれるのかな／数年後には同等性能が512GBくらいで動く様になるかな？",
+          "user": "takilog",
+          "comment": "GMOなんてそんなもんなんだからそこまでみんなコメントで怒らなくても",
           "tags": [],
-          "timestamp": "2026/07/28 15:42"
+          "timestamp": "2026/07/28 23:12"
         },
         {
-          "user": "oonishin",
-          "comment": "1ノードは、1ノードだけど、NVIDIA B300 SXM6 x8 は、約55万ドル（約8,600万円）です。",
+          "user": "getcha",
+          "comment": "AIがやってます。は Google がよくやる言い訳だけど、Google がここまで炎上しないのは、Google 批判されるとネットから消されるから。",
           "tags": [],
-          "timestamp": "2026/07/28 14:10"
+          "timestamp": "2026/07/28 22:59"
         },
         {
-          "user": "fashi",
-          "comment": "「起動完了までの合計時間は約 88.8 分、うちモデルロードが約 81.4 分でした。1.6TB 級のウェイトを読み込むので仕方ないところ」",
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/07/28 22:43"
+        },
+        {
+          "user": "mrnns",
+          "comment": "これが通ると思う人たちに向かってのみ説明しとるんやろな",
+          "tags": [],
+          "timestamp": "2026/07/28 21:30"
+        },
+        {
+          "user": "atsushieno",
+          "comment": "AIがやったことについて責任を取るのは人間だが、GMOの誰の首が飛ぶの?",
+          "tags": [],
+          "timestamp": "2026/07/28 21:30"
+        },
+        {
+          "user": "aalpaca375",
+          "comment": "ミスで11億振り込んでもAIがやりましたで許してくれるのだろうか",
+          "tags": [],
+          "timestamp": "2026/07/28 21:26"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:39.619673+00:00"
+    },
+    {
+      "id": "h_dd001620",
+      "title": "DGX Sparkと同じAI性能を激安で!?独自プロセッサで100BのLLMを走らせられるミニPC",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2128607.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 21,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2128607.html",
+      "comments": [
+        {
+          "user": "endo_5501",
+          "comment": "なんだこれ",
           "tags": [
             "ai"
           ],
-          "timestamp": "2026/07/28 13:19"
+          "timestamp": "2026/07/28 23:13"
         },
         {
-          "user": "kazuau",
-          "comment": "公開後だったら公開当日でもDay 1ですね。(細かいんだけどそこに釣られてしまったので)",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/07/28 13:16"
-        },
-        {
-          "user": "takeishi",
-          "comment": "GPUメモリもCPUメモリもテラバイト級か",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/07/28 12:56"
-        },
-        {
-          "user": "mojimojikun",
-          "comment": "すごいなー",
+          "user": "l_etranger",
+          "comment": "価格，入手性，OSが気になる。60万程度でUbuntuベースとかだと結構食指が動く……かも？？",
           "tags": [],
-          "timestamp": "2026/07/28 12:55"
+          "timestamp": "2026/07/28 23:10"
+        },
+        {
+          "user": "morimarii",
+          "comment": "「Acrabは住所以外詳しい企業情報などを公開していないが」ええ……",
+          "tags": [],
+          "timestamp": "2026/07/28 22:36"
         }
       ],
-      "fetchedAt": "2026-07-28T08:44:59.659260+00:00"
+      "fetchedAt": "2026-07-28T14:24:41.543203+00:00"
     },
     {
-      "id": "h_17d59cd5",
-      "title": "サイバー攻撃グループの名前から国家や動機を分かりやすく。Googleが新命名規則を展開 「APT44」は「SANDWORM RELIC」に",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2128210.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 41,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2128210.html",
+      "id": "h_3b6d079a",
+      "title": "自分の顔をAIにレンタルする行為が中国で流行",
+      "url": "https://gigazine.net/news/20260728-china-people-renting-face-to-ai/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 20,
+      "summary": "顔を無断で使用した動画が権利関係の問題で削除される事例が中国で相次いでいます。こうした状況を逆手に取り、最初から顔の使用権を販売しようとするビジネスモデルが成立していることが伝えられました。 In China, people are renting out their faces to AI https://restofworld.org/2026/china-ai-microdramas-face-...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-china-people-renting-face-to-ai/",
       "comments": [
         {
-          "user": "camellow",
-          "comment": "そこまで明示的に国名との対比表を用意するくらいならそのまま国名を入れちゃえばいいじゃん",
+          "user": "yetch",
+          "comment": "金額の揺れはルッキズム？",
           "tags": [],
-          "timestamp": "2026/07/28 16:59"
+          "timestamp": "2026/07/28 22:29"
         },
         {
-          "user": "akahmys",
-          "comment": "国家や動機が後で分かった場合とか、間違ってた場合はどうするんだろう。",
+          "user": "opaopachang",
+          "comment": "つまりおっぱい借しますも可能に。",
           "tags": [],
-          "timestamp": "2026/07/28 13:45"
+          "timestamp": "2026/07/28 22:25"
         },
         {
-          "user": "nilab",
-          "comment": "「これまで、Mandiantでは脅威アクターに対して「APT44」のように「APT」のあと連番を付ける命名規則を採用し、一方でGoogleでは英単語を用いて、それぞれ独自の命名を行っていた」",
+          "user": "gcyn",
+          "comment": "『AI生成ドラマでは演技力は必要ありません』",
           "tags": [],
-          "timestamp": "2026/07/28 12:43"
+          "timestamp": "2026/07/28 21:59"
         },
         {
-          "user": "Falky",
-          "comment": "ほう",
-          "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/07/28 12:27"
+          "user": "gogatsu26",
+          "comment": "“中国では他の国と同様に自分の顔が同意なくAI生成ドラマの登場人物として使われるケースが増えている”",
+          "tags": [],
+          "timestamp": "2026/07/28 21:53"
         },
         {
-          "user": "psne",
-          "comment": "コンピュータウィルスと同じく、自称を使うと権威付け(報酬/プロパガンダ)になる、地域への配慮(これは書いてある)というやつでは。",
+          "user": "isseium",
+          "comment": "AI時代のぱくたそ？",
           "tags": [],
-          "timestamp": "2026/07/28 12:20"
+          "timestamp": "2026/07/28 21:29"
         },
         {
-          "user": "hatebu_admin",
-          "comment": "そのまま国名じゃいかんのか？",
+          "user": "lacucaracha",
+          "comment": "『顔貸せや』が現実になるとは…",
           "tags": [],
-          "timestamp": "2026/07/28 12:13"
+          "timestamp": "2026/07/28 21:03"
         }
       ],
-      "fetchedAt": "2026-07-28T08:45:00.452353+00:00"
+      "fetchedAt": "2026-07-28T14:24:42.631812+00:00"
     },
     {
-      "id": "h_0b048897",
-      "title": "先端GPUを支える電力供給と冷却技術（後編） | gihyo.jp",
-      "url": "https://gihyo.jp/article/2026/07/computex2026-2",
-      "domain": "gihyo.jp",
-      "bookmarkCount": 10,
-      "summary": "前編ではおもに冷却関連の展示を紹介しました。本稿では冷却と対をなす電力供給について、COMPUTEX会場の展示とセッションについて、前編同様に写真を中心に見ていきましょう。 200kWラック NVIDIAのVera Rubin NVL72 ラック（写真1）の消費電力は200kW台と言われています。 写真1 ASUSブースのVera Rubin NVL72液冷ラッ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/07/computex2026-2",
+      "id": "h_af097ed2",
+      "title": "イーロン・マスクが決済サービス「X Money」の正式サービスをスタート",
+      "url": "https://gigazine.net/news/20260728-x-money/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 18,
+      "summary": "X(旧Twitter)が決済サービスの「X Money」を、招待制のベータ版から正式サービスへと移行しました。Apple Wallet対応で、記事作成時点ではアメリカでのみ利用可能です。 X Money — Every dollar works harder on X https://money.x.com/en X Money officially launches in the US with Apple Wallet support after invit...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-x-money/",
       "comments": [
+        {
+          "user": "ejointjp",
+          "comment": "BANになったら預金どうなるんだ",
+          "tags": [],
+          "timestamp": "2026/07/28 21:34"
+        },
+        {
+          "user": "sisya",
+          "comment": "何の理由かも説明されず突然凍結されるサービスで、誰が決済サービスなど行おうと思うのか。G payなどの連携サービスが関の山で、X自体に資産を触らせることなど絶対できない。",
+          "tags": [],
+          "timestamp": "2026/07/28 21:16"
+        },
+        {
+          "user": "ryabu363",
+          "comment": "PayPalじゃないの？",
+          "tags": [],
+          "timestamp": "2026/07/28 21:02"
+        },
+        {
+          "user": "lord-of-jewels",
+          "comment": "銀行とか決済関係はどの国も規制バリバリだしアメリカ以外じゃやらんだろうな。Apple Cardもいまだにアメリカのみだし。",
+          "tags": [
+            "決済",
+            "金融"
+          ],
+          "timestamp": "2026/07/28 20:51"
+        },
+        {
+          "user": "hTn",
+          "comment": "いうことなすこと守らなさそうな会社が金回りとか地獄すぎる",
+          "tags": [],
+          "timestamp": "2026/07/28 20:29"
+        },
+        {
+          "user": "aibot",
+          "comment": "自身のポストのインプレ数に応じて金利を変えるとかしてXを地獄に変えそう",
+          "tags": [],
+          "timestamp": "2026/07/28 20:19"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:43.740536+00:00"
+    },
+    {
+      "id": "h_3259c89d",
+      "title": "「Xが情報収集に役立たない……」熊本地震で不満の声続出 「Twitterを返して」",
+      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 13,
+      "summary": "7月28日に発生した令和8年熊本地震。政府・自治体や通信各社などが対応や情報発信に動いている一方で、SNSでは「Xが情報収集の役に立たなくなっている」との声が散見される。障害が起きていない点を評価する声もあるが、少なくないユーザーから「Twitter（時代の利便性）を返して」という意見が上がっていた。 特に批判...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2607/28/2000000249/",
+      "comments": [
+        {
+          "user": "u_mid",
+          "comment": "”インプレッション目当ての偽情報があふれているという。”　Xになってインプレッションが正義というルールになったからね",
+          "tags": [],
+          "timestamp": "2026/07/28 23:24"
+        },
         {
           "user": "hobbiel55",
-          "comment": "「一体この基板は何層ですかと説明の人に質問したら72層だそう」←ミルフィーユか",
+          "comment": "普段、役に立たないモノが非常時に役に立つわけがない。",
           "tags": [
-            "gpu",
-            "hardware"
+            "earthquake",
+            "sns",
+            "twitter"
           ],
-          "timestamp": "2026/07/28 17:40"
+          "timestamp": "2026/07/28 23:23"
         },
         {
-          "user": "ys0000",
-          "comment": "ちょっとしたミスで炎上(物理)しそうだね。先端ハードウェアはいまこんな感じなのか。凄い。",
+          "user": "SUZUSHIRO",
+          "comment": "何を今更やねん。マジョリティが、人が少ないSNSに一時的にでも居るのは負け組って価値観だからいくら改悪されようがXから人は移動しないし、政府はポータルアプリも開発できずXに依存してるザマ",
           "tags": [],
-          "timestamp": "2026/07/28 16:01"
+          "timestamp": "2026/07/28 23:22"
         },
         {
-          "user": "keidge",
-          "comment": "今年のInteropでも水冷技術の展示が多かった。ポートの集約や広帯域化のせいもあって、ネットワークモジュールですら水冷でないと追いつかないらしい。空冷の限界は近いのかもしれない。",
+          "user": "lifefucker",
+          "comment": "インプで収益化するとこが根本的に違うとこだよ",
           "tags": [],
-          "timestamp": "2026/07/28 15:28"
+          "timestamp": "2026/07/28 23:21"
         },
         {
-          "user": "JULY",
-          "comment": "ラック１本で 600kW とか、その先に 1MW 級とか、正直、背徳感があるのは私だけなのだろうか...",
-          "tags": [
-            "情報システム"
-          ],
-          "timestamp": "2026/07/28 14:54"
-        },
-        {
-          "user": "kz78",
-          "comment": "サーバーラック内が800Vで給電されてると、ブレード１本抜き差しするにも高圧電気取扱者の資格が必要になるのかねぇ…。いやブレードは50V給電だから資格いらないのかな。／（水冷が必要なバスバーってのも怖いが）",
+          "user": "owaconbear",
+          "comment": "サービス（の質）が落ちてないって違う世界線の方かな？根本的な性質は間違いなく変わってる（注目を集めること自体が価値（利益）になるメディアになってる）し、情報収集目的だと使いづらくなってるのは確かでしょ",
           "tags": [],
-          "timestamp": "2026/07/28 14:35"
+          "timestamp": "2026/07/28 23:20"
         },
         {
-          "user": "hiroumitani",
-          "comment": "“2029年までに、単体GPUの電力消費は10kWに達する”",
+          "user": "yonyon24",
+          "comment": "具体的に何が駄目なのかよくわからん 災害に乗じてディスってるだけじゃん サービスは落ちてないし根本的な仕様は変わってない",
           "tags": [],
-          "timestamp": "2026/07/28 11:42"
+          "timestamp": "2026/07/28 23:13"
         }
       ],
-      "fetchedAt": "2026-07-28T08:45:02.074294+00:00"
+      "fetchedAt": "2026-07-28T14:24:42.133167+00:00"
     },
     {
-      "id": "h_8377b345",
-      "title": "説明可能AI(XAI)の現状と展望",
-      "url": "https://kaityo256.github.io/explainable-ai-review",
-      "domain": "kaityo256.github.io",
+      "id": "h_164d5996",
+      "title": "ヤモリの足裏を科学した米軍の装備、粘着剤なしで垂直壁を走る驚異の技術* | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/101739",
+      "domain": "forbesjapan.com",
+      "bookmarkCount": 12,
+      "summary": "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.6mの垂直壁を上るというデモンストレーションだった。 こんな離れ業が可能にな...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/101739",
+      "comments": [
+        {
+          "user": "kurotsuraherasagi",
+          "comment": "トッケイヤモリの学名ってGekko geckoなんだ、かわいい…でもうちの居候ヤモリがいちばんかわいい！",
+          "tags": [],
+          "timestamp": "2026/07/28 22:58"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:39.897327+00:00"
+    },
+    {
+      "id": "h_ce994cce",
+      "title": "「すし職人をAI開発の輪に入れろ」──オードリー・タンに聞く、米中AI競争で日本が勝つ道",
+      "url": "https://www.itmedia.co.jp/business/articles/2607/28/news032.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 10,
+      "summary": "「勝つために、究極のAIを作る必要はない。すし職人を開発の輪に入れろ」――。 こう力強く言い切るのは、台湾で元デジタル担当大臣を務めたオードリー・タン氏だ。 米国のOpenAIやGoogle、中国のDeepSeekなどが莫大（ばくだい）な資金とエネルギーを投じ、AIの覇権争いは世界規模で激化している。巨大モデルの性能向上を...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2607/28/news032.html",
+      "comments": [
+        {
+          "user": "mame-tanuki",
+          "comment": "日本の社会に適合したAIの開発や現場のDX化の推進に必要なのは、現場もよく知らない チームみらい のようなエリートではなく、現場で長年生き延び現場の知見を持つ叩き上げのオバサン・オッサンたちなのかもしれない…",
+          "tags": [
+            "AI",
+            "デジタル化",
+            "お仕事",
+            "台湾"
+          ],
+          "timestamp": "2026/07/28 22:28"
+        },
+        {
+          "user": "tetlabo",
+          "comment": "結局、キラキラAIエンジニア様たちがその「現場」に行きたいか、であって。“「勝つために究極のAIは不要。すし職人や漁師など現場の人間をAI開発のループに入れよ」”",
+          "tags": [],
+          "timestamp": "2026/07/28 14:08"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:42.915408+00:00"
+    },
+    {
+      "id": "h_610de170",
+      "title": "警視庁が警鐘、「詐欺ではない」「儲かった」…あらかじめ偽の評判を拡散しておく投資詐欺の新たな手口【やじうまWatch】",
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2128375.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 10,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2128375.html",
+      "comments": [
+        {
+          "user": "Niemand",
+          "comment": "信頼性アルゴリズムが高く評価する有名人、廃業企業、企画サイト等の中古ドメインをプールしておいて、内容を少しだけ変えた偽記事をAIで大量投稿することでAI要約や検索ランクを操作する手法が流行っている。",
+          "tags": [],
+          "timestamp": "2026/07/28 23:10"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "どう見ても怪しすぎるだろｗ 他人が評価した結果をそのまま受け入れる人は、詐欺師にも騙されるし、他人の価値観に右往左往しながら生きる不幸な人（自覚症状無し）。",
+          "tags": [
+            "犯罪"
+          ],
+          "timestamp": "2026/07/28 22:59"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "検索結果の汚染どころかAI要約までハックされると見抜くの難しそう",
+          "tags": [],
+          "timestamp": "2026/07/28 21:11"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:44.409684+00:00"
+    },
+    {
+      "id": "h_3da0aa82",
+      "title": "高齢者を狙ったAI音声詐欺が急増中、たった3秒の音声データでAI音声クローンが作られてしまう",
+      "url": "https://gigazine.net/news/20260728-why-ai-voice-fraud-outruns-defence/",
+      "domain": "gigazine.net",
       "bookmarkCount": 9,
-      "summary": "はじめに 研究室ミーティングで以下のような話をしました。 What is XAI? @ Speakerdeck 最近、うちの研究室では説明可能AI(eXplainable Artificial Intelligence, XAI)の研究を進めています。ただ、XAIの概念は定義が曖昧であり、また研究の「ゴール」も明確ではありません。以下では、XAI研究の現状と展望を簡単にサー...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kaityo256.github.io/explainable-ai-review",
-      "comments": [],
-      "fetchedAt": "2026-07-28T08:45:00.685307+00:00"
+      "summary": "AI技術の発展により、AI音声技術を用いた巧妙な詐欺が多発しています。そんな最先端のAI音声詐欺について、エンジニアのティム・グリーン氏がまとめています。 The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence — SmarterArticles https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260728-why-ai-voice-fraud-outruns-defence/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "たった3秒の音声素材でクローン作れるとかSNSに家族の動画あげられなくなるぞ",
+          "tags": [],
+          "timestamp": "2026/07/28 20:36"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:45.135602+00:00"
+    },
+    {
+      "id": "h_8880cad5",
+      "title": "「Claude」の共有チャットがGoogle検索で一時丸見えに",
+      "url": "https://japan.zdnet.com/article/35251007/",
+      "domain": "japan.zdnet.com",
+      "bookmarkCount": 7,
+      "summary": "Redditのスレッドからは、このGoogle Dorkは間もなく機能しなくなり、Claude.aiのチャット一覧もGoogle検索結果から消え去ったことがうかがえるため、Claudeの開発元であるAnthropicは、このインデックス登録の問題をかなり早い段階で把握したようだ。 ただし、スレッドで共有されたリンクの多くは現在も有効で、大半の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35251007/",
+      "comments": [
+        {
+          "user": "Coboler",
+          "comment": "Claudeも流出だ！大変だな！",
+          "tags": [
+            "生成AI"
+          ],
+          "timestamp": "2026/07/28 21:18"
+        }
+      ],
+      "fetchedAt": "2026-07-28T14:24:44.032320+00:00"
     }
   ],
-  "lastCollection": "2026-07-28T08:45:02.074320+00:00"
+  "lastCollection": "2026-07-28T14:24:45.135628+00:00"
 }
