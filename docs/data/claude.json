@@ -1,13 +1,23 @@
 {
   "items": [
     {
+      "id": "cc_49e8e05e",
+      "title": "Claudeへの指示は足すより削る — Anthropicのコンテキスト設計新ルールと今週の8本",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260730_anthropic_t1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-30T19:42:06.704698+00:00",
+      "excerpt": "2026年7月23日から29日の Anthropic は「削る」が主役の1週間でした。Claude 5 世代向けコンテキスト設計の新ルールを筆頭に、オープンウェイトへの立場表明、暗号研究の成果まで計8本を動画1本にまとめています。この記事では、その内容を動画を見ていない方にも伝わる形に再構成しました。 https://youtu.be/DkhiQYX7KiU 今週の8本を時系列で まず全体像です。"
+    },
+    {
       "id": "cc_1ccb9ec8",
       "title": "Claude Codeで長時間・自律的に開発を進めるための設計",
       "url": "https://zenn.dev/hiramax/articles/32b09a30b25426",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.318256+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704581+00:00",
       "excerpt": "概要 Claude CodeチームのThariq Shihipar氏が、AIコーディングエージェントを活用して開発を進める方法を解説されていました。 重要なのは、AIに単発の作業を依頼することではありません。 次の3つを設計し、AIが自律的に作業と検証を繰り返せる環境を作ることが中心的なテーマです。 Goal（目標） ↓ Loop（反復・検証） ↓ Workflow（作業工程） AIコーディングの"
     },
     {
@@ -17,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.318197+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704517+00:00",
       "excerpt": "はじめに Claude を Team プランに移行したあと、最上位モデルの Claude Fable 5 をデフォルトにして使っていました。週の上限にすぐ到達して使えなくなり、Claude Opus 5 に切り替えて作業を続けました。 それで困りませんでした。対話のテンポはむしろ上がりました。 なぜ最上位を選んでいたのかを考えると、「一番いいものを選んだ」以上の理由がありませんでした。自分の業務に"
     },
     {
@@ -27,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.318121+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704429+00:00",
       "excerpt": "Claude Certified Architect - Foundations（CCA-F / CCAF）とは Claude Certified Architect - Foundations（CCA-F / CCAF） は、2026年3月12日にAnthropicが開始した資格試験で、AI業界で初めて、単に上手なプロンプトが書けるかではなく、実際にClaudeを使って本番システムを構築できるか"
     },
     {
@@ -37,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.318044+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704365+00:00",
       "excerpt": "! 本記事はnote（2026年7月6日）からの転載です。 きっかけ X(旧Twitter)で駄犬さん@daken_in_marketが共有されていた、Claudeへの依頼の仕方についてのポストを見かけたのがきっかけだった。要するに「いきなりコードを書かせるのではなく、まず設計を議論させてから、段階を区切って実装を任せる」という進め方だ。 https://x.com/daken_in_market"
     },
     {
@@ -47,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.317977+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704297+00:00",
       "excerpt": "はじめに こんにちは！NE株式会社でテックリード室長をしています、谷口です。 少し前の話になりますが、社内でClaude Codeのオンボーディング会を開催したので、今回はそのレポートです！ 開催の背景 NEでは、今期からエンジニア全員にClaude Codeが配られました！ 今までも一部のエンジニアは既に使っていましたが、満を持して全員にアカウントが配布されたということで、今後はClaude C"
     },
     {
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.317908+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704226+00:00",
       "excerpt": "はじめに teai.io は日本発のLLM API Gatewayで、OpenAI互換のエンドポイントで85以上のモデルを提供している（アーキテクチャの詳細は前回の記事を参照）。 今回、Claude Code（Anthropic公式のコーディングエージェントCLI）から、teai.io経由でKimi K3をはじめとするカタログ上の任意モデルに、プロキシなしで直結できるようにした。 課題: Clau"
     },
     {
@@ -67,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.317838+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704162+00:00",
       "excerpt": "概要 この記事では、Claude Code の作者 Boris Cherny 氏が Opus 5 リリース直後のイベントで語った、AI エージェント製品の開発思想を解説します。 「システムプロンプトの 80% を削除した」「巨大なコードベースの言語書き換えを 11 日で完走させた」など、過激に聞こえるエピソードの裏には、「モデルの進化が速すぎる時代に、プロダクトをどう設計するか」という一貫した考え"
     },
     {
@@ -77,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.317758+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.704090+00:00",
       "excerpt": "Claude, AnthropicAPI, LLM, AIEngineering, SoftwareEngineering, PromptEngineering, AICoding Introduction Anthropic's model lineup grew fast in the middle of 2026. In the span of about seven weeks, the "
     },
     {
@@ -87,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283661+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.703983+00:00",
       "excerpt": "「AIに任せれば副業できる」は本当か、実験してみた 「Claude Codeにビジネスを作らせたら、どこまでできるんだろう」 そんな疑問を持ったのは、コーディングアシスタントとしてClaude Codeを使い始めてから数週間後のことでした。単に「コードを書いてもらう」以上の使い方があるのでは、と思い始めたのです。 それで実際にやってみました。副業の立ち上げをAIに丸投げする実験です。 実験の内容と"
     },
     {
@@ -97,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283491+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.613991+00:00",
       "excerpt": "はじめに 「Day 9 of building Rabbitty, my Rust terminal: 28 betas shipped, self-updating, and it's my actual daily driver. The twist: since day 1, every feature has been built by Claude Code running inside"
     },
     {
@@ -107,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283411+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.613923+00:00",
       "excerpt": "ZennのGitHub連携というものを今日初めて知った。試しに設定してみたところ、疑問がいくつか出てきた。 「新規記事とそうでない記事、どう区別してるんだろう」 「ファイルを消したら、Zenn側の記事はどうなるんだろう」 「今まで書いてきた記事は巻き込まれないよな」 Claude Codeに聞きながら理解した内容を残しておく。 YAML Frontmatterという記法 記事のファイルの先頭には、"
     },
     {
@@ -117,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283325+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.613850+00:00",
       "excerpt": "! この記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。 SKILLは特定タスクの呼び出し型指示書です。では、プロジェクト全体に常に適用したいルールはどこに書けばいいのでしょうか。 その答えがCLAUDE.mdです。リポジトリルートに置くだけで、Claude Codeが起動するたびに自動で読み込んでくれます。この記事では、agent0"
     },
     {
@@ -127,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283231+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.613764+00:00",
       "excerpt": "! 2026-07-30 追記: 発展編として「トーストクリックで Windows Terminal に戻る」「通知が2〜3回重複表示される問題の対策」を追加しました。 この記事でやること WSL2 上で Claude Code を動かしていると、長めの作業を任せて別ウィンドウで作業している間に「もう終わってた」「許可待ちで止まってた」ということがよくあります。この記事では、Claude Code"
     },
     {
@@ -137,8 +147,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-07-30T14:19:56.283133+00:00",
+      "fetchedAt": "2026-07-30T19:42:06.613692+00:00",
       "excerpt": "全3冊の『Claude Code 完璧マスター講座』の最終冊。最新モデルとAPI機能（adaptive thinking / effort / compaction）、Claude Code の内部構造、Agent SDK、CI/CD統合、セキュリティ、海外の活用事例——を一次ソースに基づいてまとめた学習用リファレンス。開発者・技術学習者向け。"
+    },
+    {
+      "id": "cc_e9669d3c",
+      "title": "Claude Code で Work IQ MCP を使用する",
+      "url": "https://zenn.dev/microsoft/articles/015-work-iq-mcp-claudecode",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-30T19:42:06.613610+00:00",
+      "excerpt": "はじめに Work IQ は、Microsoft 365 Copilot を基盤にメール・会議・Teams・SharePoint などを横断的に扱える MCP サーバーです。Claude Code に接続すると、「明日の会議の予定を教えて」「昨日届いたメールを要約して」といった依頼を自然言語でこなせるようになります。 公式リポジトリ microsoft/work-iq は GitHub Copil"
+    },
+    {
+      "id": "cc_ed7aa83a",
+      "title": "GitHub ActionsでClaude CodeによるPR自動レビューを構築する",
+      "url": "https://zenn.dev/sazo54/articles/bc8a7d6e5c64d4",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-30T19:42:06.613535+00:00",
+      "excerpt": "🚀 はじめに GitHubでPull Requestを作成したとき、Claude Codeに自動レビューさせる仕組みを構築しました。 Anthropicにはマネージド版の「Claude Code Review」もありますが、今回はanthropics/claude-code-actionを利用したGitHub Actions方式を採用しています。 本記事では、マネージド版を採用しなかった理由と、G"
+    },
+    {
+      "id": "cc_a1bcb4f1",
+      "title": "Claude Code auto compactが100%でデッドロック——3つの回避策と設計原則",
+      "url": "https://zenn.dev/joemike/articles/claude-code-auto-compact-deadlock-workaround-2026",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-07-30T19:42:06.613401+00:00",
+      "excerpt": "結論 Claude Code のコンテキストが 100% に達すると自動圧縮（auto compact）が走り、圧縮後に「直前の指示・制約」が要約から落ちて挙動がズレる。以下の3つで対処できる。 1. PreCompact hook — 圧縮直前にセッションログを退避 2. 手動 /compact — 80% で自分でタイミングを制御 3. セッション分割設計 — 1タスク1セッション原則で構造ご"
     },
     {
       "id": "cc_fab1035e",
@@ -147,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-24T12:00:00+09:00",
-      "fetchedAt": "2026-07-30T14:19:56.640576+00:00",
+      "fetchedAt": "2026-07-30T19:42:07.016587+00:00",
       "excerpt": "「Claude Code って月$20で使えると聞いたけど、1ヶ月で実際に何が回るの？」この疑問を持ちながら、2026年4月から約1ヶ月、Claude Code を個人 Web サイト運営の主力ツールに投入しました。 構成：3点セットで動く 実際に1ヶ月使って分かった核心..."
     },
     {
@@ -157,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-07-30T14:19:56.640639+00:00",
+      "fetchedAt": "2026-07-30T19:42:07.016657+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -167,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-07-30T14:19:56.820750+00:00",
+      "fetchedAt": "2026-07-30T19:42:07.226752+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-07-30T14:19:56.820813+00:00",
+      "fetchedAt": "2026-07-30T19:42:07.226811+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-07-30T14:19:56.820879+00:00",
+      "fetchedAt": "2026-07-30T19:42:07.226874+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-07-30T14:19:56.820894+00:00"
+  "lastCollection": "2026-07-30T19:42:07.226888+00:00"
 }
