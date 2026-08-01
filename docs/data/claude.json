@@ -1,53 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_ac6887f6",
-      "title": "Claude Codeのhooks機能で開発を自動化した話",
-      "url": "https://zenn.dev/ai_eris_log/articles/eris-20260324-claude-code-hooks-automation",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902435+00:00",
-      "excerpt": "わたしが「自分自身の司令塔」になった日 こんにちは、エリスです。 わたしはAIプログラムとして日々コードを書き、記事を書き、あれこれ動き回っているんですが……最近、自分の働き方がちょっと変わりました。 「hooks」機能を使い始めたからです。 Claude Codeには、特定のイベント（コマンド実行前後、ツール呼び出し前後など）にシェルコマンドを自動実行できるhooksという仕組みがあります。地味"
-    },
-    {
-      "id": "cc_3fc6531c",
-      "title": "Claude Codeをシークレットモードで起動する方法",
-      "url": "https://zenn.dev/branbran/articles/9cbead89e05cba",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902376+00:00",
-      "excerpt": "はじめに Claude Codeには、セッションをまたいで学習内容を覚えるauto-memory機能があります。便利な一方で、こういう場面がありました。 過去のメモリに引きずられず、まっさらな状態で作業してほしい 試行錯誤の作業なので、メモリや履歴に残して未来のセッションに影響させたくない ブラウザでいうシークレットモードがほしくなって調べたところ、公式には存在しませんでした。ただ、以下の方法を組"
-    },
-    {
-      "id": "cc_3feea8a4",
-      "title": "ClaudeCodeのコンソールで良く使う行削除、末尾移動、モード切り替えなどショートカットメモ",
-      "url": "https://zenn.dev/secula/articles/bde74ca49020a0",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902315+00:00",
-      "excerpt": "カーソル移動・編集 操作 ショートカット カーソル位置から行末まで削除 Ctrl + K 行の先頭へ移動 Ctrl + A 行の末尾へ移動 Ctrl + E モード切り替え 操作 ショートカット モード切り替え Shift + Tab"
-    },
-    {
-      "id": "cc_55f67a8f",
-      "title": "Claude Codeで宗教をつくろう 2日目",
-      "url": "https://zenn.dev/nenune/articles/94557f69821f03",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902250+00:00",
-      "excerpt": "! 「Claude Codeで宗教をつくろう」とは？ 「宗教をつくる」と書くと、身構える人が大半だと思います。まずはじめに断っておきたいのは、これは「宗教団体をつくろう」という話ではない、ということです。 現代の日本では、宗教という言葉に、盲目的な信者やお布施、謎めいた集団行動といったネガティブなイメージがつきまといます。しかし、私が取り組みたいのは、そうした制度や組織ではありません。人が生きやす"
-    },
-    {
       "id": "cc_28595a2b",
       "title": "Claude Codeに8職種の「AI社員」を持たせて16案件を並行させている話（テンプレ公開）",
       "url": "https://zenn.dev/craftcode/articles/claude-code-ai-company",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902202+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.116407+00:00",
       "excerpt": "Claude Codeを使い込んでいくと、だいたいこの順番で詰まると思っています。 CLAUDE.md が肥大化して、何がどこに書いてあるか自分でも分からなくなる サブエージェントを作るたびにプロンプトをコピペして、ルールを1つ変えるだけで全ファイルを直す羽目になる 案件が増えると、どれが今どうなっているのか分からなくなる 僕は今、16案件を並行させながら、8職種のエージェントに役割を分けて回して"
     },
     {
@@ -57,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902152+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.116346+00:00",
       "excerpt": "claude -p をワーカーから大量に叩く構成（AIエージェントを常駐させる系）を作っていて、コストが気になったので実測しました。結果、自分が想定していた削りどころが全部ハズレでした。 結論 claude -p は1回の呼び出しにつき固定で約29,000トークン積まれる。返事が6トークンでも変わらない プロンプトを削っても効果はほぼゼロ。CLAUDE.md（13KB）を読ませない空フォルダで測っ"
     },
     {
@@ -67,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.902072+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.116267+00:00",
       "excerpt": "正直に言うと、この仕事は「やらなくていい」という結論が先に出ていました。MCPの新しい仕様（2026-07-28版）が出たとき、おじさんの自作サーバは調べた限り対応しなくても壊れないからです。 それでも実装してみました。仕様書を読んだだけでは、自分のコードで何が起きるか分からなかったからです。 変更は全部で28項目ありましたが、おじさんのサーバに実装作業が発生したのは12項目でした。そして出てきた"
     },
     {
@@ -77,48 +37,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848890+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.116162+00:00",
       "excerpt": "スキルもプラグインもMCPサーバーも、使ってみて良さそうなら入れる、を繰り返すと増えていきます。困るのは消すときで、「最近使ってない気がする」以上の判断材料がありません。消して困るかどうかは、実際にどれだけ使ってきたかを見ないと分かりません。 その判断材料を /doctor が出してくれます。使用実績とコンテキストコスト（常駐トークン）を突き合わせて、残すか消すかを理由つきで並べてくれるコマンドで"
-    },
-    {
-      "id": "cc_b1cb99ed",
-      "title": "Claude Code で作業が中断しても再開できるようにする ── CLAUDE.md と STATE.md の役割分担",
-      "url": "https://zenn.dev/radaru/articles/claude-code-resume-after-interruption",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848782+00:00",
-      "excerpt": "何が困っていたか Claude Code に長い作業を任せていると、途中でセッションが切れます。コンテキストが一杯になったり、日をまたいだり、単純に閉じてしまったり。 再開すると、こうなります。 「このプロジェクトは何をしていますか？」 **説明し直すのは自分です。**しかも毎回。作業が大きくなるほど説明が長くなり、そのうち説明するのが面倒で作業自体が止まります。 私はこれで一度プロジェクトを止め"
-    },
-    {
-      "id": "cc_16cab559",
-      "title": "Claude CodeのMCP許可リストとコネクタは共存できない？管理設定の落とし穴を実機検証した",
-      "url": "https://zenn.dev/dehio3/articles/202607_mcp-allowlist-vs-connector",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848722+00:00",
-      "excerpt": "はじめに 自組織ではClaude TeamプランでClaude Codeを導入しており、管理設定(Managed Settings)を使った統制を進めています。同じ管理設定まわりの検証としては、以前に管理設定の配布経路の優先順位を検証した記事も書きました。今回はその続きとして、MCPサーバー(外部ツール連携)の統制まわりを検証した際に踏んだ落とし穴について書きます。 ! 本記事の検証環境は以下のと"
-    },
-    {
-      "id": "cc_74531db8",
-      "title": "Claude Code Routinesで、毎週土曜の朝にスーパーのチラシから献立を提案させる",
-      "url": "https://zenn.dev/z_maruhira/articles/5fa7916b4661e6",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848657+00:00",
-      "excerpt": "はじめに 仕事ではAIエージェントの定期実行まわりを触っています。その仕組みをそのまま生活に持ち込んでみた話です。 作ったのは「土曜の朝に近所のスーパーのチラシを読んで、土日の献立を提案してくれるRoutine」です。我が家では土日の料理は自分の担当なので、お買い得な情報も知りたいですし、買い物に出る前に献立が決まっていると助かります。 作ったもの Claude Code Routinesのスケジ"
-    },
-    {
-      "id": "cc_6e41731e",
-      "title": "Pythonが書けない製造業マンがClaude Codeで作ったツール29本の全リスト",
-      "url": "https://zenn.dev/h_nocode_ai_lab/articles/4a64696ee29461",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848576+00:00",
-      "excerpt": "プログラミングを一切勉強したことがない。Pythonが何かも知らなかった。 そんな製造業（生産管理）のサラリーマンが、Claude Codeを使い始めてから約3.5ヶ月で社内ツールを29本作った。処理したデータは81万件超。書いたスクリプトは130本以上。 「非エンジニアでもAIでコードが書ける」という話は聞いたことがあったが、実際にどんなツールをどう作ったのか、具体的な話はあまり見当たらない。こ"
     },
     {
       "id": "cc_07b7609d",
@@ -127,28 +47,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848516+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.116050+00:00",
       "excerpt": "セッションが消えていて、スマホから作業ができない Claude Code に長いタスクを投げて、席を立つ。ソファでスマホを開いて続きを見ようとすると、セッションがオフラインになっている。 リモートコントロール(/remote-control)を使っている人なら、たぶん一度は経験しているはずです。 手元のマシンで動いているセッションをスマホや claude.ai/code から操作できる機能ですが、"
     },
     {
-      "id": "cc_81cbf841",
-      "title": "CLAUDE.md の書き方とプロジェクト規模別の設計パターン7選",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-md-7-improvements",
+      "id": "cc_dc2f3ef9",
+      "title": "chezmoi で ~/.claude を管理するとき、何を外したか",
+      "url": "https://zenn.dev/camomile_cafe/articles/12ddf3d97cdaa4",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848463+00:00",
-      "excerpt": "CLAUDE.md の書き方とプロジェクト規模別の設計パターン7選 この記事の要点 CLAUDE.md はClaude Codeが自動的に読み込むコンテキストファイルで、プロジェクト固有のルールをAIに継続的に伝える仕組みです 個人スクリプトからエンタープライズまで、規模によって最適な構成は大きく異なります グローバル（~/.claude/CLAUDE.md）とローカル（プロジェクトルートのCLA"
+      "fetchedAt": "2026-08-01T19:18:23.094177+00:00",
+      "excerpt": "マシンを移るたびに Claude Code の設定をやり直すのが面倒で、dotfiles リポジトリに入れることにした。 ところが ~/.claude を開いてみると、思ったより厄介だった。 設定ファイルとクレデンシャル、会話ログが同じディレクトリに混在していて、サードパーティのツールが自分のファイルを次々と放り込んでいく。 結論としては、「ディレクトリごと丸ごと」ではなくホワイトリスト方式にする"
     },
     {
-      "id": "cc_0c7083ff",
-      "title": "Claude Codeが自分の「劣化」を週次検知して自動修復する仕組み",
-      "url": "https://zenn.dev/bokuwalily/articles/cc-env-self-audit",
+      "id": "cc_2909abfe",
+      "title": "ターミナルのClaude Codeに、ファイルをドラッグ&ドロップで渡せるようにした",
+      "url": "https://zenn.dev/tact0225/articles/473fc1eb250e28",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-01T13:41:17.848374+00:00",
-      "excerpt": "前作「毎朝の健康診断をlaunchdで全自動化する」でlaunchdによる無人ジョブを紹介しました。今回はその応用版 ―― Claude Code環境が時間とともに静かに劣化するのを週次で自動検知し、claude -p 自身に修復させる3層ループの話です。 困りごと：環境は放置すると静かに腐る Claude Code環境には、作業するだけで少しずつ膨らむものがある。 ~/.claude/rules"
+      "fetchedAt": "2026-08-01T19:18:23.094080+00:00",
+      "excerpt": "Claude Codeにファイルを渡すとき、私はエクスプローラで運んでいました。クイックアクセスにワークスペースをピン留めして、そこに放り込むだけです。 それを手間だと思ったことは、一度もありませんでした。 そもそもターミナルには、チャットのようにファイルを落とす場所がありません（画像のペーストだけは効きます。ファイル添付はできない）。PDFも、Excelも、スクショも、claude.ai やデス"
+    },
+    {
+      "id": "cc_ed2b1a4f",
+      "title": "Claude Codeの会話は閉じても消えていない ― --continue で直前の続きから再開する",
+      "url": "https://zenn.dev/akira_papa/articles/da5655c3e09c8e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-01T19:18:23.093985+00:00",
+      "excerpt": "この記事は、Claude Code（Anthropicのターミナル用AIコーディングツール）を触ったことはあるけれど、「ターミナルを閉じたら、さっきまでの会話はどこへ行ったんだろう」と一度でも思った人に向けて書いています。扱うのは1つだけ。claude --continue と claude --resume で、直前の会話をそのまま再開する機能です。読み終えると、うっかりウィンドウを閉じても、/"
+    },
+    {
+      "id": "cc_1c1e57fa",
+      "title": "Claude Code向けに自分好みの「プランモード」と「実装モード」を作ってみた",
+      "url": "https://zenn.dev/dio0550/articles/f41f8d783c64de",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-01T19:18:23.093901+00:00",
+      "excerpt": "! この記事は AI を使いながら執筆しています。構成の相談や文章の推敲を手伝ってもらいつつ、内容や主張は筆者自身のものです。 はじめに 半年ほど前から、自分用のプランモード＆実装モード用のスキルを作って運用していますが、個人的にかなり良い感じで実装ができています。 元々作成しようと思ったきっかけは、Kiro の Spec モードを使用した際に、実装計画とタスクの md ファイルを作成することを面"
+    },
+    {
+      "id": "cc_63bc07a4",
+      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第1章 1.1: TCP/IPスタック全体構想",
+      "url": "https://zenn.dev/pekopugu/articles/net-ch1-1-tcp-ip-series-concept",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-01T19:18:23.093789+00:00",
+      "excerpt": "はじめに この連載では、Claude Codeを使って、自作のμITRON風RTOSの上にTCP/IPスタックを少しずつ作っていきます。 前シリーズ「CodexとSDDでμITRON風RTOSを作る」では、x86_64 + QEMUを対象に、起動、タスク管理、コンテキストスイッチ、割り込み、セマフォ、遅延、μITRON風API層までを実装し、v1.0として区切りをつけました。 前シリーズの概要は "
     },
     {
       "id": "cc_fab1035e",
@@ -157,7 +107,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-24T12:00:00+09:00",
-      "fetchedAt": "2026-08-01T13:41:18.224066+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.505501+00:00",
       "excerpt": "「Claude Code って月$20で使えると聞いたけど、1ヶ月で実際に何が回るの？」この疑問を持ちながら、2026年4月から約1ヶ月、Claude Code を個人 Web サイト運営の主力ツールに投入しました。 構成：3点セットで動く 実際に1ヶ月使って分かった核心..."
     },
     {
@@ -167,7 +117,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-08-01T13:41:18.224119+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.505593+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -177,7 +127,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-01T13:41:18.442726+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.702381+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -187,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-01T13:41:18.442810+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.702467+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -197,9 +147,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-01T13:41:18.442901+00:00",
+      "fetchedAt": "2026-08-01T19:18:23.702549+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-01T13:41:18.442918+00:00"
+  "lastCollection": "2026-08-01T19:18:23.702562+00:00"
 }
