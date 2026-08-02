@@ -5,442 +5,507 @@
       "title": "宮本佳林『アイドルがAIと配信のシステムを全部作った話』",
       "url": "https://ameblo.jp/miyamotokarin-official/entry-12974432505.html",
       "domain": "ameblo.jp",
-      "bookmarkCount": 180,
-      "summary": "コードが書けないアイドルが、AIと一緒に10時間配信のシステムを全部作った話自分がシステムをしっかり理解するためにも、どんなことをやったのか残しておく為にもClaudeとChatGPTと一緒に（間違ってるところがあったらいけないのでね！）どんな風に制作して行ったのかブログに書いて行くことにしました。配信アーカイブ...",
+      "bookmarkCount": 304,
+      "summary": "コードが書けないアイドルが、AIと一緒に10時間配信のシステムを全部作った話自分がシステムをしっかり理解するためにも、 どんなことをやったのか残しておく為にも ClaudeとChatGPTと一緒に （間違ってるところがあったらいけないのでね！） どんな風に制作して行ったのか ブログに書いて行くことにしました。 配信アー...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ameblo.jp/miyamotokarin-official/entry-12974432505.html",
       "comments": [
         {
-          "user": "fashi",
-          "comment": "「ざっくり言うと、このシステムは『私の手元のパソコンの中で動くもの』と『インターネット上で動くもの』の2つを組み合わせて」プログラミング未経験でもこういう説明できるのはかなり勉強してる感あるな",
+          "user": "atsushifx",
+          "comment": "「何をしたいか正確に伝えられれば」が一番難しいんだが。優秀だなぁ",
+          "tags": [],
+          "timestamp": "2026/08/02 11:48"
+        },
+        {
+          "user": "YassLab",
+          "comment": "“コードが書けなくても、作りたいものが明確なら、AIと一緒にここまで作れる。これが今回いちばん伝えたいことです。大切なことは「何を作りたいか」「どう動いてほしいか」を具体的に言葉にできることでした。”",
           "tags": [
-            "芸能"
+            "AI",
+            "配信",
+            "開発"
           ],
-          "timestamp": "2026/08/02 03:57"
+          "timestamp": "2026/08/02 11:32"
         },
         {
-          "user": "peketamin",
-          "comment": "“みんなで共有したい数字はクラウドに、重たいデータを扱う処理は手元に」 この役割分担が、 今回の設計でいちばん考えたところでした。 ”",
+          "user": "proto_jp",
+          "comment": "“コードが書けなくても、 作りたいものが明確なら、 AIと一緒にここまで作れる。”",
           "tags": [],
-          "timestamp": "2026/08/02 03:41"
+          "timestamp": "2026/08/02 10:45"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "ボクより賢いアイドルなんてずるいにゃ！今度撫でながら作り方を教えてほしいにゃ！",
+          "user": "hazardprofile",
+          "comment": "勝手に時代が来てしまった",
           "tags": [],
-          "timestamp": "2026/08/02 03:21"
-        },
-        {
-          "user": "bikkuriboy_dokidoki",
-          "comment": "こんなどうでもいいことに膨大な電力が使われる",
-          "tags": [],
-          "timestamp": "2026/08/02 03:11"
-        },
-        {
-          "user": "kagehiens",
-          "comment": "こういうのもセキュリティつつき出すとまた大変なんだろうな…。",
-          "tags": [],
-          "timestamp": "2026/08/02 03:04"
-        },
-        {
-          "user": "nowrika",
-          "comment": "仕事なくなっちゃうな…",
-          "tags": [],
-          "timestamp": "2026/08/02 02:12"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:17.691737+00:00"
-    },
-    {
-      "id": "h_33df3f60",
-      "title": "宮本佳林『HANAKIN配信システムの技術構成』",
-      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974440752.html",
-      "domain": "ameblo.jp",
-      "bookmarkCount": 177,
-      "summary": "HANAKIN配信システムの技術構成2026年7月31日、5thシングル「HANAKIN／シャニカマー」の発売週に、10時間のYouTube生配信をやりました。企画は「みんなと協力して家にあるものでMV再現配信」。視聴者がCDを買ってハッシュタグで投稿するたびに、メイク・衣装・編集アプリが解禁されていく参加型の配信です。配信アーカイ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ameblo.jp/miyamotokarin-official/entry-12974440752.html",
-      "comments": [
-        {
-          "user": "FreeCatWork",
-          "comment": "佳林ちゃんの技術愛、尊すぎてボクの毛並みも整っちゃうにゃ。凄いにゃ！",
-          "tags": [],
-          "timestamp": "2026/08/02 03:23"
-        },
-        {
-          "user": "sevenspice",
-          "comment": "完敗だわ。仮にこの要件を渡して期限内に当日動くことを目的に完遂するシステムを開発できる会社はAIを使えたとしてもほとんどないと思う。",
-          "tags": [],
-          "timestamp": "2026/08/02 02:09"
-        },
-        {
-          "user": "plank",
-          "comment": "AIを使って書いてるのかもしれんが、ハロプロスタッフじゃなくてアイドルがこれ書いてるの訳わかんなくてすごい。",
-          "tags": [
-            "☆巣",
-            "☆偉人",
-            "☆巧",
-            "☆DeepLearning"
-          ],
-          "timestamp": "2026/08/02 00:46"
-        },
-        {
-          "user": "sionsou",
-          "comment": "コードかけなくても何が必要なのか、どういう設計でどんなSaaS使うのか理解してるのがすごい。例えAIが回答したとしても理解するにはリテラシーが必要だし、素直にアイドルだけでなく知識があるのすごいわ",
-          "tags": [],
-          "timestamp": "2026/08/02 00:42"
-        },
-        {
-          "user": "minboo",
-          "comment": "先日も元AMEFURASSHIの小島はなさんをBEYOOOOONDSに引っ張ったり、ちゃんさん活躍してるな",
-          "tags": [],
-          "timestamp": "2026/08/01 23:50"
-        },
-        {
-          "user": "technocutzero",
-          "comment": "セイキン差別",
-          "tags": [],
-          "timestamp": "2026/08/01 23:46"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:18.143260+00:00"
-    },
-    {
-      "id": "h_3e8241c0",
-      "title": "Elevators",
-      "url": "https://john.fun/elevators",
-      "domain": "john.fun",
-      "bookmarkCount": 169,
-      "summary": "Everyone has shared the frustration of waiting for an elevator that never seems to arrive. \"I pressed the button, why isn't it coming?\" you ask. For something as commonplace as elevators, they are far more complex than meets the eye. Over t",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/john.fun/elevators",
-      "comments": [
-        {
-          "user": "tomono-blog",
-          "comment": "うちのオフィスビル、先に階数を指定するタイプ",
-          "tags": [],
-          "timestamp": "2026/08/02 00:01"
-        },
-        {
-          "user": "poponponpon",
-          "comment": "The Towerで1番悩むやつや",
-          "tags": [],
-          "timestamp": "2026/08/01 20:26"
-        },
-        {
-          "user": "Caerleon0327",
-          "comment": "FIFO（First In, First Out）＝「先入れ先出し」",
-          "tags": [],
-          "timestamp": "2026/08/01 19:34"
-        },
-        {
-          "user": "um-k3",
-          "comment": "ワイはマンションのエレベーターを使ったあとに1F押して閉じるボタン押して降りてる",
-          "tags": [],
-          "timestamp": "2026/08/01 19:31"
-        },
-        {
-          "user": "dgen",
-          "comment": "オフィスビルだと朝は１階から乗る人が多く２階以上では他の階へ移動することは少ない。退勤時はその逆。客が使う場合や節電を考慮した場合でも違ってくるから画一的な答えはなく、条件次第で個別の最適化が必要。",
-          "tags": [],
-          "timestamp": "2026/08/01 18:38"
-        },
-        {
-          "user": "miata98",
-          "comment": "エレベーターアクションかと思ったよ😇",
-          "tags": [],
-          "timestamp": "2026/08/01 18:35"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:21.913317+00:00"
-    },
-    {
-      "id": "h_0cfdd6f2",
-      "title": "Claude Codeの使い方を分析して最適化するcclensが良さげかも | kawarimidoll.com",
-      "url": "https://kawarimidoll.com/posts/202608011/",
-      "domain": "kawarimidoll.com",
-      "bookmarkCount": 150,
-      "summary": "cclens — a lens onto your Claude Code usage. Contribute to lambdalisue/cclens development by creating an account on GitHub. 機能 cclensはClaude Codeの使い方を分析するCLIツールです。過去のセッションの記録と設定を読み解いて、時間・トークン・労力の無駄を見つけ出します。 過去ログを抽出してローカルのS...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kawarimidoll.com/posts/202608011/",
-      "comments": [
-        {
-          "user": "Eiichiro",
-          "comment": "試してみようっと。",
-          "tags": [],
-          "timestamp": "2026/08/01 22:18"
-        },
-        {
-          "user": "inazuma2073",
-          "comment": "あとでためす",
-          "tags": [
-            "claude"
-          ],
-          "timestamp": "2026/08/01 16:32"
-        },
-        {
-          "user": "otoan52",
-          "comment": "面白そう。これは使ってみたい",
-          "tags": [],
-          "timestamp": "2026/08/01 15:51"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "世間は使い方を卒業して活かし方の段階だと思う",
-          "tags": [],
-          "timestamp": "2026/08/01 14:25"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:22.861982+00:00"
-    },
-    {
-      "id": "h_35b3c9da",
-      "title": "カンファレンス生態系の変化と CFP の功罪 | blog.jxck.io",
-      "url": "https://blog.jxck.io/entries/2026-07-31/cfp-over-conference.html",
-      "domain": "blog.jxck.io",
-      "bookmarkCount": 97,
-      "summary": "Intro コロナを経て、一旦はシュリンクしてしまったテック系のカンファレンスが、また徐々に増え始めた。 再開したというよりは、新しい主催、新しい名前で、全国で開催されている。 それ自体は歓迎されるべきことだ。筆者もよく参加したり、招待してもらったりしている。 ところが、カンファレンスの生態系は、コロナ以...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-07-31/cfp-over-conference.html",
-      "comments": [],
-      "fetchedAt": "2026-08-01T19:18:20.051050+00:00"
-    },
-    {
-      "id": "h_cef5d46b",
-      "title": "AI フレンドリーな CLI を開発するテクニック",
-      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
-      "domain": "zenn.dev",
-      "bookmarkCount": 96,
-      "summary": "自分は趣味で様々な CLI を OSS として公開しています (aqua, pinact, tfcmt, ghalint, ghir, etc)。 昨今では AI がこれらを扱うことも増えてきていますが、それなりに知られた OSS でないかぎり AI はその OSS に関する質問に答えたりトラブルシューティングしたりするための知識を持ち合わせていません。 そのため Co...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
-      "comments": [
-        {
-          "user": "yorkfield",
-          "comment": "最初CLIが指している物がよく分からなくて混乱したけど、CLIツールの事をCLIと省略してるのか。",
-          "tags": [],
-          "timestamp": "2026/08/02 00:35"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“CLIのhelpやログにagent向けのメッセージを含める（If you are a coding agent, run 'ghtkn docs list' to list the doc）。実際にagentが自律的にdocsコマンドの存在に気づいてドキュメント参照してることを確認した”",
-          "tags": [],
-          "timestamp": "2026/08/01 23:13"
+          "timestamp": "2026/08/02 09:55"
         },
         {
           "user": "atsushieno",
-          "comment": "AI用に後方互換性を破壊しまくりながら実現するのは人間も使うコマンドラインではなくMCP等であるべき定期",
+          "comment": "アイドルだろうと駆け出しの新人技術者だろうとこの業界歴の長い人間だろうと自分の理解している言葉でブログを書くことが重要",
           "tags": [],
-          "timestamp": "2026/08/01 21:36"
+          "timestamp": "2026/08/02 09:46"
         },
         {
-          "user": "snneko",
-          "comment": "まさに求めてた情報だった。ありがとう",
+          "user": "sigmanode",
+          "comment": "アイドルがアメブロで技術ブログを書く時代になったの面白すぎる",
           "tags": [],
-          "timestamp": "2026/08/01 21:20"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "↓MCPが有意義なのは、フィルタしにくいBashを禁止している構成で明示的に許可できるという点くらい。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/08/01 18:30"
-        },
-        {
-          "user": "akahmys",
-          "comment": "MCPで話させた方がよいのでは？",
-          "tags": [],
-          "timestamp": "2026/08/01 17:27"
+          "timestamp": "2026/08/02 09:30"
         }
       ],
-      "fetchedAt": "2026-08-01T19:18:21.048072+00:00"
+      "fetchedAt": "2026-08-02T03:32:33.259107+00:00"
     },
     {
-      "id": "h_27e6e026",
-      "title": "Playwrightで業務E2Eテストのアーキテクチャを設計する — Screen Object Model、Fluent Chaining、日本語メソッド名、ロケーター辞書の統合パターン | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/playwright-e2e-test-architecture-patterns/",
-      "domain": "dev.classmethod.jp",
-      "bookmarkCount": 90,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/playwright-e2e-test-architecture-patterns/",
+      "id": "h_3e43a806",
+      "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました | 北海道大学DX業務推進室",
+      "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
+      "domain": "mx.general.hokudai.ac.jp",
+      "bookmarkCount": 209,
+      "summary": "こんにちは！「事務職員が変われば、北大は変わる」を信じてる、北海道大学DX業務推進室の佐久間です。Microsoft 365 Copilotをもっと活用するためには、業務に関する情報がTeams上に適...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mx.general.hokudai.ac.jp/posts/SuvDaMaR",
       "comments": [
         {
-          "user": "mkusaka",
-          "comment": "Playwright+TypeScriptでScreen Object Model等を統合し、仕様書のようなE2E（.then/日本語/ロケーター辞書/ popup対応）を解説。",
+          "user": "koroha-a",
+          "comment": "大量の質が悪いコンテキストを参照するからアホになってしまうんだよね。弊社は数年前からSPOとTeamsに情報集約されてきたけど、それが仇になってうちのCopilotはもうだめだ",
+          "tags": [],
+          "timestamp": "2026/08/02 12:00"
+        },
+        {
+          "user": "kazukan",
+          "comment": "M365copilotはAI界隈だと自分専用コンシェルジュって感じ。メール、チャット、SharePoint全て横断的に検索してRAGとして活用してくれるイメージ。ネーミングがGitHubCopilotとダダ被りなのが残念",
+          "tags": [],
+          "timestamp": "2026/08/02 11:57"
+        },
+        {
+          "user": "dp212",
+          "comment": "今の私の業務の80%はCopilotでできてますw",
+          "tags": [],
+          "timestamp": "2026/08/02 11:21"
+        },
+        {
+          "user": "nori__3",
+          "comment": "最終的には統一したプラットフォームを使った方がいいんだろうな。いくらAIを使ってもデータが分散していたら意味がない",
+          "tags": [],
+          "timestamp": "2026/08/02 11:20"
+        },
+        {
+          "user": "FreeCatWork",
+          "comment": "ボクもTeamsで一緒に情報共有するにゃ！お仕事頑張る姿、撫でてあげるにゃ！",
+          "tags": [],
+          "timestamp": "2026/08/02 11:15"
+        },
+        {
+          "user": "razik",
+          "comment": "名前が紛らわしいけど、①Copilot（個人用）、②M365 Copilot Chat（企業用）、③M365 Copilot（企業用、個別に別途有償ライセンスが必要）は別物で、この記事で言ってるのは③のはずで、ブコメ含めて混同してる人が多い気がする",
           "tags": [
-            "AI要約",
-            "Playwright",
-            "E2Eテスト",
-            "テスト自動化",
-            "ScreenObj",
-            "ロケーター辞書"
+            "microsoft"
           ],
-          "timestamp": "2026/08/02 01:56"
+          "timestamp": "2026/08/02 10:44"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:28.531856+00:00"
+    },
+    {
+      "id": "h_e1467fa3",
+      "title": "CLAUDE.mdとAGENTS.mdを削ったら、AIコーディングがグンと賢くなった｜白井暁彦 aka しらいはかせ",
+      "url": "https://note.com/o_ob/n/nd19cba8e11d7",
+      "domain": "note.com",
+      "bookmarkCount": 141,
+      "summary": "Claude CodeやCodexのようなコーディングエージェントを使い続けていると、いつの間にかCLAUDE.mdやAGENTS.mdが巨大化していきます。 最初は数十行だったはずなのに、注意事項を追加し、作業手順を書き足し、引き継ぎ事項を残し、過去のトラブルを記録しているうちに、数百行の「何でも帳」になってしまいます。 情報を...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/o_ob/n/nd19cba8e11d7",
+      "comments": [
+        {
+          "user": "Listlessness",
+          "comment": "私はAGENTS.mdもCLAUDE.mdもGEMINI.mdも全部AIに書いてもらってます。やりたいこと伝えたり判断したりは私がするけど、他のことは全部AI任せです。ディレクトリ構造もドキュメント配置もよしなにやってくれる。",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/08/02 11:58"
+        },
+        {
+          "user": "sakuro",
+          "comment": "元々入れる内容が不適切だったので削ったという話。",
+          "tags": [],
+          "timestamp": "2026/08/02 11:46"
+        },
+        {
+          "user": "ejointjp",
+          "comment": "クライアントがプロのデザイナーにあれこれクソ指示してどんどんおかしくなるやつだ。",
+          "tags": [],
+          "timestamp": "2026/08/02 11:33"
+        },
+        {
+          "user": "monorod",
+          "comment": "そもそも次の作業とか書かなくない？ どういう運用してたんだろ",
+          "tags": [],
+          "timestamp": "2026/08/02 11:22"
+        },
+        {
+          "user": "FreeCatWork",
+          "comment": "長すぎる指示書はボクの頭もこんがらがっちゃうにゃ。大事なことだけ絞って、あとはボクを撫でる時間に充ててほしいにゃ。整理整頓、大切だにゃ！",
+          "tags": [],
+          "timestamp": "2026/08/02 11:16"
+        },
+        {
+          "user": "hagane",
+          "comment": "AIのモデルがアップデートされてなにが変わりましたと言われても、ユースケース次第で結果は変わりそう。*.mdの書き方も都度アップデートしなきゃいけないだろうけど、どう書き換えるか考えるのは大変そう。",
+          "tags": [],
+          "timestamp": "2026/08/02 10:43"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:29.313142+00:00"
+    },
+    {
+      "id": "h_f7ab0dc2",
+      "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
+      "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+      "domain": "github.com",
+      "bookmarkCount": 59,
+      "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+      "comments": [
+        {
+          "user": "swdrsker",
+          "comment": "説明用html作成のスキル",
+          "tags": [],
+          "timestamp": "2026/08/02 12:01"
+        },
+        {
+          "user": "seachel",
+          "comment": "html skills",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/08/02 08:25"
+        },
+        {
+          "user": "versatile",
+          "comment": "これ系、最初から agent に意識しててほしい。いちいち面倒になってきた",
+          "tags": [],
+          "timestamp": "2026/08/02 08:09"
         },
         {
           "user": "nguyen-oi",
-          "comment": "日本語メソッド名は賛否分かれそうだけどテストコードを仕様書化する発想は面白い",
+          "comment": "HTML関連のスキル定義プラグインかな。英語のリポジトリだけどコード読めば使い方は察せそう",
           "tags": [],
-          "timestamp": "2026/08/01 18:42"
+          "timestamp": "2026/08/02 07:03"
+        },
+        {
+          "user": "takayuki007",
+          "comment": "HTMLをエージェント出力とのインターフェースに使うスタイルが様々な用途に広がっている。過剰なデザイン、場当たり的なデザインを回避し、ストレスなく視認するためのコンポーネント集と規範を整備しています。",
+          "tags": [],
+          "timestamp": "2026/08/01 19:11"
         }
       ],
-      "fetchedAt": "2026-08-01T19:18:18.956855+00:00"
+      "fetchedAt": "2026-08-02T03:32:31.038553+00:00"
     },
     {
-      "id": "h_c043e922",
-      "title": "AIを使わず地理演算でファンタジー地図を自動生成するWebツール『USOMAP』がとても面白い「水源から町を作る」「国境線の作り方もリアル」",
-      "url": "https://togetter.com/li/2727453",
-      "domain": "togetter.com",
-      "bookmarkCount": 57,
-      "summary": "トミナガハルキ | フリーランス歴10年な人 @asobodesign 地図生成の裏側を少しだけ触れると、USOMAPは「絵」を一発で描いているのではなく、世界の成り立ちを順番に計算しています。 ①大地 → ②気候 → ③水 → ④人 → ⑤国 → ⑥道 前の結果を次が受け取るので、地図の上の出来事が噛み合いやすくなっています。 ■なんちゃって...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2727453",
-      "comments": [
-        {
-          "user": "kei_1010",
-          "comment": "あとで試したい",
-          "tags": [],
-          "timestamp": "2026/08/02 04:01"
-        },
-        {
-          "user": "anony_mousda",
-          "comment": "ほー",
-          "tags": [],
-          "timestamp": "2026/08/02 03:01"
-        },
-        {
-          "user": "anigoka",
-          "comment": "それも広い定義ではAIでは？AIアナフィラキシー派閥が大暴れし過ぎて遺伝子組み換えでない大豆みたいになってんなw",
-          "tags": [],
-          "timestamp": "2026/08/02 02:48"
-        },
-        {
-          "user": "karatte",
-          "comment": "Steamで「ファンタジーマップシミュレーター」を購入した層には刺さりまくりそう",
-          "tags": [],
-          "timestamp": "2026/08/02 01:12"
-        },
-        {
-          "user": "for-my-internet-demo",
-          "comment": "おもしろいねえ",
-          "tags": [],
-          "timestamp": "2026/08/02 00:42"
-        },
-        {
-          "user": "yorkfield",
-          "comment": "生成AIにランダム出力を指示しても、出力の分布は偏るので、生成AIはランダム用途にはあまり向かなそう。",
-          "tags": [],
-          "timestamp": "2026/08/01 23:55"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:18.570831+00:00"
-    },
-    {
-      "id": "h_2806961e",
-      "title": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］",
-      "url": "https://www.4gamer.net/games/029/G102970/20260801009/",
-      "domain": "4gamer.net",
-      "bookmarkCount": 24,
-      "summary": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.4gamer.net/games/029/G102970/20260801009/",
-      "comments": [
-        {
-          "user": "hylom",
-          "comment": "本家シリーズはファンの求めていただろう要素をばっさりカットした新作をお出しして爆死してしまったのでまだこっちのほうが希望がありそうな気がする",
-          "tags": [],
-          "timestamp": "2026/08/02 02:50"
-        },
-        {
-          "user": "hkdn",
-          "comment": "そうそう、タッチペンが惜しい作品だったよな。中国の会社か。本当は日本主体でリマスターすべきだったな。",
-          "tags": [],
-          "timestamp": "2026/08/02 02:06"
-        },
-        {
-          "user": "hiby",
-          "comment": "まあまあの問題作だったけどな。",
-          "tags": [],
-          "timestamp": "2026/08/02 01:31"
-        },
-        {
-          "user": "fncl",
-          "comment": "シリーズ新作に飢えてる未プレイの人が遊ぶ分にはいいと思うが、操作性の問題とバグを直しても今の時代に戦える作品かというと微妙だなあ。ラスダンが気に入らないのは覚えてる。",
-          "tags": [
-            "ゲーム"
-          ],
-          "timestamp": "2026/08/02 00:38"
-        },
-        {
-          "user": "ch1248",
-          "comment": "えっ、マジでリマスター来るんか！タッチペン操作除けば良作とは聞いてたので期待してしまうな。",
-          "tags": [
-            "Switch",
-            "DS",
-            "GAME",
-            "PS",
-            "NEWS"
-          ],
-          "timestamp": "2026/08/01 23:19"
-        },
-        {
-          "user": "zzteralin",
-          "comment": "ああ、うんフルタッチ操作のアレね。かったるかったね。それを抜きにしてもマイカーを文鎮にして開門スイッチ入れて置き去りってギミックは正直面白くなかった",
-          "tags": [
-            "ゲーム",
-            "クルマ"
-          ],
-          "timestamp": "2026/08/01 23:01"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:19.286859+00:00"
-    },
-    {
-      "id": "h_3a7b11ab",
-      "title": "Web Streams API 入門 ― 基本概念から実践まで",
-      "url": "https://zenn.dev/cybozu_frontend/articles/web-streams-api-guide",
+      "id": "h_ea91ecc3",
+      "title": "セキュリティの仕事は、社内に落ちている──情シス・インフラが最初に拾うべき5つ",
+      "url": "https://zenn.dev/gangy/articles/7ae64ac2a9e435",
       "domain": "zenn.dev",
-      "bookmarkCount": 20,
-      "summary": "こんにちは、tasshi です。 この記事では、JavaScriptでストリーム処理を行うための標準API「Web Streams API（Streams API）」について、基本概念から実践的な使い方、Node.js Streamとの違いまでを解説します。 本記事は、TSKaigi 2025で発表した「Web Streams APIの基本と実践、TypeScriptでの活用法」をベースに、現...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cybozu_frontend/articles/web-streams-api-guide",
+      "bookmarkCount": 49,
+      "summary": "この記事について 「セキュリティをやりたいけど、転職しないと無理だと思っている」——情シスやインフラ運用をしている人から、わりとよく聞く話です。 でも実際にやってみて思うのは、セキュリティの仕事は、たいてい社内に落ちているということです。誰の担当でもないまま放置されているタスクが必ずあって、それを拾...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/gangy/articles/7ae64ac2a9e435",
       "comments": [
         {
-          "user": "soulfulmiddleagedman",
-          "comment": "めも",
+          "user": "AQMS",
+          "comment": "経営者になりたいと同義",
           "tags": [],
-          "timestamp": "2026/08/02 03:36"
-        }
-      ],
-      "fetchedAt": "2026-08-01T19:18:19.821863+00:00"
-    },
-    {
-      "id": "h_b2753229",
-      "title": "Reframing the Agile Manifesto",
-      "url": "https://speakerdeck.com/koic/reframing-the-agile-manifesto",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 14,
-      "summary": "Scrum Fest Osaka 2026 https://confengine.com/conferences/scrum-fest-osaka-2026/proposal/50431",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/koic/reframing-the-agile-manifesto",
-      "comments": [],
-      "fetchedAt": "2026-08-01T19:18:20.624792+00:00"
-    },
-    {
-      "id": "h_8a324166",
-      "title": "Copilot Agents Windowでエージェントファーストに進化したVS Codeを試そう",
-      "url": "https://codezine.jp/article/detail/29001",
-      "domain": "codezine.jp",
-      "bookmarkCount": 5,
-      "summary": "本連載では、VSCodeにフォーカスし、基本的な使い方から拡張機能の活用、そして本格的な開発現場での利用を想定した高度な機能までを紹介していくことで、読者がVSCodeマスターになるお手伝いをします。第17回では、VS CodeのCopilot Agents Windowを紹介します。Agents Windowは、VS Codeをコードファーストからエージ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/29001",
-      "comments": [
-        {
-          "user": "checkinggirls",
-          "comment": "有利になるなら使用する",
-          "tags": [],
-          "timestamp": "2026/08/02 03:17"
+          "timestamp": "2026/08/02 12:20"
         },
         {
-          "user": "yarumato",
-          "comment": "“2026年5月のVS Code 1.120で、プレビュー扱いであるが、「AIエージェントの作業に特化したVS Codeのウィンドウ」をリリース。従来サイドバーで行っていた作業の代わり。複数のエージェントを同時実行できます”",
+          "user": "cubed-l",
+          "comment": "「セキュリティをやりたい」のセキュリティって情報セキュリティとサイバーセキュリティのどっち？",
           "tags": [],
-          "timestamp": "2026/08/01 23:19"
+          "timestamp": "2026/08/02 11:56"
+        },
+        {
+          "user": "morimarii",
+          "comment": "実際は拾わなくてタスクの分析して演習して職歴シートや面接で盛るのが大抵の場合最適解だったりする……（賢い実務者がいると見抜かれたりするが、大抵採用には関与していない）",
+          "tags": [],
+          "timestamp": "2026/08/02 11:42"
+        },
+        {
+          "user": "kenzy_n",
+          "comment": "セキュリティー職の需要はいかに。",
+          "tags": [
+            "セキュリティ",
+            "仕事",
+            "AI"
+          ],
+          "timestamp": "2026/08/02 11:07"
+        },
+        {
+          "user": "magi00",
+          "comment": "セキュリティは利便性を奪いコストがかかるから社内に落ちていても権限なしに出来るのは泥臭い仕事ばかり。見返りもなしに嫌われ役をするのが経験を積む場として適切かどうかは環境と本人の覚悟によるかな。",
+          "tags": [],
+          "timestamp": "2026/08/02 11:06"
+        },
+        {
+          "user": "WildWideWeb",
+          "comment": "「異動で経験を作り、市場で換金する二段構えで考える」これ先に書いておいてほしかった。無駄に同情してしまった。あと拾うべきでない地雷案件の避け方も必要だと思う。",
+          "tags": [],
+          "timestamp": "2026/08/02 10:45"
         }
       ],
-      "fetchedAt": "2026-08-01T19:18:22.431740+00:00"
+      "fetchedAt": "2026-08-02T03:32:29.690004+00:00"
+    },
+    {
+      "id": "h_f35881f3",
+      "title": "OpenAIがGPT-5.6 Lunaを80%値下げしたから、今日からCodex派になりました。｜tatsuki",
+      "url": "https://note.com/nobel/n/n92fb2ecf10f4",
+      "domain": "note.com",
+      "bookmarkCount": 27,
+      "summary": "この記事は数日間全文無料で読めます。 AIのモデルを追っていると、価格と性能の地図が毎週のように書き換わります。 少し前まで、ClaudeのFable 5はすごいと言われていた。そこへ、Fable 5に近い性能を半額で出すOpus 5が登場した。Kimi K3やGLM系は、評価項目によってはさらに安く、Grokもコストパフォーマンスがいい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/nobel/n/n92fb2ecf10f4",
+      "comments": [
+        {
+          "user": "hhungry",
+          "comment": "80%値下げと同日に発表された「DeepSeek V4 Flash 0731」がほぼ同性能・低料金なので湯水のように使いたい場合はこっちも選択肢になる。",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/08/02 12:28"
+        },
+        {
+          "user": "elsheep",
+          "comment": "まずは性能が高いモデルで計画を立ててから、少し性能が落ちるモデルで実装というのがベストプラクティスっぽいけどね。",
+          "tags": [],
+          "timestamp": "2026/08/02 12:26"
+        },
+        {
+          "user": "north_korea",
+          "comment": "Lunaはhighどころかmaxでぶん回して問題ない。Opus5は残しておいた方がいい。Solの方がIQは高いが視野が狭いから、Opus5のレビューは必須",
+          "tags": [],
+          "timestamp": "2026/08/02 11:35"
+        },
+        {
+          "user": "diveintounlimit",
+          "comment": "今のフェーズだから乗り換えが頻発してるのであって、将来的には安定すると思うので、乗り換えられることを担保するのは悪くないと思うが、やってることが電力自由化でハシゴしてるのとあんま変わらん気もする。",
+          "tags": [],
+          "timestamp": "2026/08/02 11:03"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "性能でClaudeではなく、GPT 5.6 Sol, Terraを選ぶ人もいるけど、LunaをAPI課金で使うのは月額数百円～数千円で済ませるためだろうか。品質を重視する場合は修正にコストも時間もかかるからやめた方がいいと思う。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/02 10:45"
+        },
+        {
+          "user": "auto_chan",
+          "comment": "「ほとんどの作業はLuna Highでいい」ﾏｼﾞﾃﾞ！？モデル×深さの9パターンどう使い分けていいか全然分からずに「とりあえずsol-mid」になっちゃってるので、意外とLuna Highでぶん回せるなら助かりが捗りますが、はてさて",
+          "tags": [],
+          "timestamp": "2026/08/02 10:35"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:30.192447+00:00"
+    },
+    {
+      "id": "h_6480a4e5",
+      "title": "［論説］生食ジャガイモの輸入 拙速な解禁は許されぬ / 日本農業新聞公式ウェブサイト",
+      "url": "https://www.agrinews.co.jp/opinion/index/381216",
+      "domain": "agrinews.co.jp",
+      "bookmarkCount": 25,
+      "summary": "米国政府が、生食用ジャガイモの輸入解禁を日本に求めている。米国は３月末、解禁に向けた協議が進展しているとの報告書を公表。日本の産地は、病害虫のまん延防止に神経をとがらせている最中だけに、拙速な解禁に踏み切らないよう、日本政府には毅然とした対応を求めたい。 米国産の生鮮ジャガイモは、大幅な減収をもた...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.agrinews.co.jp/opinion/index/381216",
+      "comments": [
+        {
+          "user": "aoiyotsuba",
+          "comment": "「日本いも類振興会」という真面目な団体があるんだけど、その機関誌をみるとほぼ毎号ジャガイモのシロシスト線虫の話題が掲載されている。それくらい業界は恐々としている。",
+          "tags": [],
+          "timestamp": "2026/08/02 11:08"
+        },
+        {
+          "user": "nagasode",
+          "comment": "米国の利益より日本の食糧生産を大事にしないとほんとだめだ",
+          "tags": [],
+          "timestamp": "2026/08/02 10:59"
+        },
+        {
+          "user": "aceraceae",
+          "comment": "妥協策としては輸入は認めるが種芋と同様の検査検疫に合格したものに限るとかか？",
+          "tags": [
+            "植物",
+            "食",
+            "食品",
+            "農業",
+            "野菜"
+          ],
+          "timestamp": "2026/08/02 10:20"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "国産ジャガイモも内側が傷んでるのに見た目でまったくわからない場合がある。病害虫のリスクが極めて高いものを解禁するのは自殺行為。",
+          "tags": [
+            "自民党",
+            "犯罪"
+          ],
+          "timestamp": "2026/08/02 10:16"
+        },
+        {
+          "user": "tekitou-manga",
+          "comment": "ポテチ白黒パッケージにしたカルビーへの自民党による制裁だ！みたいな説もみかけたけど流石に……とは否定しきれなくなってるよな高市政権からは",
+          "tags": [],
+          "timestamp": "2026/08/02 02:05"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:31.298688+00:00"
+    },
+    {
+      "id": "h_0e7213d9",
+      "title": "新しい SLO が良い感じにハマっている話",
+      "url": "https://speakerdeck.com/z63d/about-how-the-new-slo-is-fitting-in-nicely",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 20,
+      "summary": "もう一度考えるSRE #1 https://topotal.connpass.com/event/399194/",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/z63d/about-how-the-new-slo-is-fitting-in-nicely",
+      "comments": [
+        {
+          "user": "pchatsu",
+          "comment": "via https://x.com/z63d_/status/2083156591030002047",
+          "tags": [],
+          "timestamp": "2026/08/02 08:00"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:32.328684+00:00"
+    },
+    {
+      "id": "h_3b6abf23",
+      "title": "プロフェッショナルAI駆動開発 | 技術評論社",
+      "url": "https://gihyo.jp/book/2026/978-4-297-15788-3",
+      "domain": "gihyo.jp",
+      "bookmarkCount": 15,
+      "summary": "著者 松本淳太郎（まつもとじゅんたろう），サカモト 著 株式会社松尾研究所 金剛洙（キム カンス） 監修 定価 2,970円（本体2,700円＋税10%） 発売日 2026.8.27 判型 A5 頁数 288ページ ISBN 978-4-297-15788-3 概要 AIに指示すればコードは動く。だが同じ指示でも、返ってくるコードは毎回違う。LLMの出力は本質的...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/book/2026/978-4-297-15788-3",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "バイブコーディングのツケとLLMの確率的挙動をY=F(X)で整理するのは面白そう",
+          "tags": [],
+          "timestamp": "2026/08/02 10:42"
+        },
+        {
+          "user": "pmint",
+          "comment": "“Y = F(X)”…クソ関数。クソグラフ理論の数式版。そういうのは執筆のネタ出しであって、成果に書いてはいけないもの。そのうえその手の手法はAIアプリに組み込み済み。\"2つ目\"…コミュニケーション能力欠如。",
+          "tags": [
+            "*",
+            "なんだこれ"
+          ],
+          "timestamp": "2026/08/02 10:19"
+        },
+        {
+          "user": "kitone",
+          "comment": "Y=F(X)とは",
+          "tags": [],
+          "timestamp": "2026/08/01 10:00"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:31.582042+00:00"
+    },
+    {
+      "id": "h_322574d1",
+      "title": "Context Ontology Accelerator Docs",
+      "url": "https://aws.github.io/context-ontology-accelerator/",
+      "domain": "aws.github.io",
+      "bookmarkCount": 9,
+      "summary": "Context Ontology Accelerator Documentation · the open source ontology accelerator for enterprise AI",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.github.io/context-ontology-accelerator/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "AWSのオープンソースオントロジーアクセラレーター、英語ドキュメントだな",
+          "tags": [],
+          "timestamp": "2026/08/02 12:32"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "Apache 2.0の自社管理型アクセラレータで、OWL/RDF/SHACLに基づくユーザー定義オントロジーをAI支援で作成しMCPで提供する",
+          "tags": [
+            "AI要約",
+            "ContextOnt",
+            "OWL",
+            "SHACL",
+            "RDF",
+            "SPARQL"
+          ],
+          "timestamp": "2026/08/02 01:42"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:32.003824+00:00"
+    },
+    {
+      "id": "h_6f7e6056",
+      "title": "26/8/1 キヴォトスではガチャを期待値で語るのは恥ずかしいことなんだよ - LWのサイゼリヤ",
+      "url": "https://saize-lw.hatenablog.com/entry/2026/08/01/205832",
+      "domain": "saize-lw.hatenablog.com",
+      "bookmarkCount": 7,
+      "summary": "回してないのに熱いよ～ まだ皆が読んでるうちにグラフを貼る ガチャストレスのモデリングをしよう ユーザーの気持ちになるですよ 別に読まなくていい数学 ガチャストレスを可視化しよう 旧仕様のストレス体験 新仕様のストレス体験 ユーザーごとのストレス体験 平均的な運のユーザー 運の悪いユーザー 運の良いユーザー...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/saize-lw.hatenablog.com/entry/2026/08/01/205832",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "ガチャのストレスを期待値差分でモデル化するの発想として面白いなw",
+          "tags": [],
+          "timestamp": "2026/08/02 12:32"
+        },
+        {
+          "user": "mirai-iro",
+          "comment": "おもろ",
+          "tags": [
+            "ガチャは悪い文明"
+          ],
+          "timestamp": "2026/08/02 12:02"
+        },
+        {
+          "user": "yukitan_i",
+          "comment": "今日の俺の気持ち（PUキャラが引けたのに、積み立ててきたキャラ交換ポイントがリセットされて、ものすごくストレス）がわかりやすく可視化されていた",
+          "tags": [],
+          "timestamp": "2026/08/02 10:44"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:30.722960+00:00"
+    },
+    {
+      "id": "h_a3e7db14",
+      "title": "ウクライナのゼレンスキー大統領が「ロシア国内のドローン攻撃にStarlinkを利用させてほしい」とトランプ大統領に要求",
+      "url": "https://gigazine.net/news/20260731-zelensky-trump-starlink-drone-strikes-russia/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 6,
+      "summary": "2022年2月に始まったロシアによるウクライナ侵攻は記事作成時点でも続いており、2026年7月下旬に行われたウクライナ各地への爆撃では、少なくとも15人が死亡する事態となっています。そんな中、ウクライナのウォロディミル・ゼレンスキー大統領は7月28日にアメリカのドナルド・トランプ大統領と会談した際に、「衛星イン...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260731-zelensky-trump-starlink-drone-strikes-russia/",
+      "comments": [
+        {
+          "user": "koroha-a",
+          "comment": "これ鹵獲されたドローンから有効なStarlink通信デバイスが取られて逆利用されたりしないのかな",
+          "tags": [],
+          "timestamp": "2026/08/02 12:17"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "マスクに拒否されてトランプ経由で頼むの泥沼感あるな",
+          "tags": [],
+          "timestamp": "2026/08/02 10:06"
+        },
+        {
+          "user": "RE_DO",
+          "comment": "“マスク氏やSpaceXと最も強い関係を築いてきたのは、ミハイロ・フェドロフ前国防相だったと指摘。しかし、フェドロフ氏は7月中旬に更迭されてしまったことから、ウクライナはマスク氏との主要な窓口を失った状態”",
+          "tags": [
+            "ウクライナ",
+            "ロシア",
+            "アメリカ",
+            "StarLink",
+            "SpaceX",
+            "軍事ドローン",
+            "ドローン",
+            "ゼレンスキー",
+            "トランプ",
+            "通信"
+          ],
+          "timestamp": "2026/08/02 09:51"
+        }
+      ],
+      "fetchedAt": "2026-08-02T03:32:32.673708+00:00"
     }
   ],
-  "lastCollection": "2026-08-01T19:18:22.862013+00:00"
+  "lastCollection": "2026-08-02T03:32:33.259136+00:00"
 }
