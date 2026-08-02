@@ -1,54 +1,14 @@
 {
   "items": [
     {
-      "id": "cc_07b7609d",
-      "title": "Claude Code の Remote Control を完全自動で繋ぎ直す仕組みを作った",
-      "url": "https://zenn.dev/kamihork/articles/3835576629df62",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.163878+00:00",
-      "excerpt": "セッションが消えていて、スマホから作業ができない Claude Code に長いタスクを投げて、席を立つ。ソファでスマホを開いて続きを見ようとすると、セッションがオフラインになっている。 リモートコントロール(/remote-control)を使っている人なら、たぶん一度は経験しているはずです。 手元のマシンで動いているセッションをスマホや claude.ai/code から操作できる機能ですが、"
-    },
-    {
       "id": "cc_1c1e57fa",
       "title": "Claude Code向けに自分好みの「プランモード」と「実装モード」を作ってみた",
       "url": "https://zenn.dev/dio0550/articles/f41f8d783c64de",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.119255+00:00",
+      "fetchedAt": "2026-08-02T13:41:25.825244+00:00",
       "excerpt": "! この記事は AI を使いながら執筆しています。構成の相談や文章の推敲を手伝ってもらいつつ、内容や主張は筆者自身のものです。 はじめに 半年ほど前から、自分用のプランモード＆実装モード用のスキルを作って運用していますが、個人的にかなり良い感じで実装ができています。 元々作成しようと思ったきっかけは、Kiro の Spec モードを使用した際に、実装計画とタスクの md ファイルを作成することを面"
-    },
-    {
-      "id": "cc_63bc07a4",
-      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第1章 1.1: TCP/IPスタック全体構想",
-      "url": "https://zenn.dev/pekopugu/articles/net-ch1-1-tcp-ip-series-concept",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.119185+00:00",
-      "excerpt": "はじめに この連載では、Claude Codeを使って、自作のμITRON風RTOSの上にTCP/IPスタックを少しずつ作っていきます。 前シリーズ「CodexとSDDでμITRON風RTOSを作る」では、x86_64 + QEMUを対象に、起動、タスク管理、コンテキストスイッチ、割り込み、セマフォ、遅延、μITRON風API層までを実装し、v1.0として区切りをつけました。 前シリーズの概要は "
-    },
-    {
-      "id": "cc_75f808eb",
-      "title": "Claude Code in VSCode が調子悪いときに試すTips",
-      "url": "https://zenn.dev/miyachan2/articles/563351cd2d61ec",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.119080+00:00",
-      "excerpt": "はじめに 深夜テンションで記事書いてる、ミヤちゃんです。 今回は、Claude Code for VSCode が「なんか調子悪い」ときにやってる対処リストのお話です。 ご存じの方も多そうな内容ですが、振り返りも兼ねてまとめてみました。 結論 原因はそれぞれ違うと思いますが、動けば良いので、体感で「いつもより様子が悪い」と思った時点で、この記事のリストをよしなに試してみると良いかもです。 「気のせ"
-    },
-    {
-      "id": "cc_38026ebe",
-      "title": "Coding Agent Insightsが来たので、Claude Code(Teamプラン)のOtel送信先をAWSに移行しました。",
-      "url": "https://zenn.dev/ncdc/articles/3da1b836ea1d93",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.118967+00:00",
-      "excerpt": "! 先に結論を書いておくと、はっきり言って現時点(2026/08/01)のCoding Agent Insightsは、データ収集の動作確認程度にしか使えません。AWSにデータを集約するなら、最初からカスタムダッシュボードを作る前提で考えることを強くおすすめします。 はじめに 現在業務で、AnthropicのClaudeをTeamプランの契約で使えるようにしています。 Teamプランでは管理コンソ"
     },
     {
       "id": "cc_a0d4429b",
@@ -57,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.118913+00:00",
+      "fetchedAt": "2026-08-02T13:41:25.825104+00:00",
       "excerpt": "はじめに こんにちは！今回はアイガー株式会社でインターンをしている僕がClaude Codeをパートナーとして使うにあたってトークンを節約する方法についての記事を書かせていただきました。 Claude Code は非常に強力な AI コーディングエージェントですが、困りがちなのが「使用制限」です。Max プランでも 5 時間ごとのレート制限があり、長いセッションや大量のコード生成を続けると、作業の"
     },
     {
@@ -67,28 +27,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.118857+00:00",
+      "fetchedAt": "2026-08-02T13:41:25.825010+00:00",
       "excerpt": "初めに claude codeをAndroid Studioで使えるようにセットアップしたのですが、いくつか行き詰まった所があったので手順を備忘録としてまとめておきます。 環境 MacBook Air M4 OS Tahoe 26.5 Claude契約プラン Pro 手順 1. claudeの有料プランに加入 claudeのProプラン月額22$に加入します。 ここは公式サイトのサインインページに"
     },
     {
-      "id": "cc_625fe1a4",
-      "title": "Zenn投稿をClaude Code Skillsで自動化してみた",
-      "url": "https://zenn.dev/katsuo_dev/articles/202608-claude-code-zenn-automation",
+      "id": "cc_7f10885e",
+      "title": "Claude CodeのSkillsは「手順書」だったので、/article コマンドを作ってみた",
+      "url": "https://zenn.dev/osakayakyu/articles/e6aa9835c04d73",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.118793+00:00",
-      "excerpt": "はじめに（自己紹介） はじめまして！かつおです。 普段は IT とは関係ない業種の会社を1社経営しながら、IT企業に会社員として勤め、 さらに個人開発もやっている、という3枚看板で活動しています。 Web3 領域には約3年ほど、プロダクト開発を通じて関わっていました。それ以来ずっと Web3 が好きです！ 最近は JPYC の勢いに心を躍らせながら、家計をオンチェーン化する取り組みを個人的に進めて"
+      "fetchedAt": "2026-08-02T13:41:25.824920+00:00",
+      "excerpt": "概要 Claude Codeの「スキル」という言葉を見たとき、最初はプラグインや拡張機能みたいなものを想像していました。 何かスクリプトを書いて、コマンドから呼び出して、決まった処理を自動実行するようなイメージです。 でも実際に触ってみると、思っていたよりずっとシンプルでした。 用意するのは、基本的には SKILL.md というMarkdownファイルです。 そこに「こういう順番で作業してほしい」"
     },
     {
-      "id": "cc_3e2cf4c9",
-      "title": "Claude Codeを「優秀な1人の部下」として使うのをやめた — 7部署のAI組織にして実務を回す",
-      "url": "https://zenn.dev/shouki1484/articles/claude-code-ai-organization",
+      "id": "cc_50f1cde6",
+      "title": "Claude Code の設定を、/boris スキルで自動的に追従させる",
+      "url": "https://zenn.dev/takotyan00/articles/claude-code-boris-skill",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-02T08:31:48.118678+00:00",
-      "excerpt": "「優秀な1人の部下」としての限界 Claude Code を実務で使い始めて最初にやったのは、優秀な1人の部下として扱うことでした。何でも頼める、文脈も覚えている、指示も通る。しばらくはそれで回ります。 回らなくなるのは、仕事が実務の規模になってからです。 案件の資料が増えると、1セッションに文脈が載りきらない 本人が書いて本人が確認するので、間違いに気づけない セッションが終わると会話ごと消える"
+      "fetchedAt": "2026-08-02T13:41:25.797122+00:00",
+      "excerpt": "Claude Code に全プロジェクト共通で読ませている設定ファイル（~/.claude/CLAUDE.md）には、いま こう書いてあります。 全タスク auto mode で着手する（Plan Mode は使わない。新しいモデルは計画ステップを要さない）。 Plan Mode は、複数ファイルに手を入れる前に Claude Code へ計画を立てさせる機能です。少し前まで、これは「3ファイル以"
+    },
+    {
+      "id": "cc_b2949b2e",
+      "title": "Zenn記事のURLを渡すだけでナレッジとしてまとめるスキルをClaude Codeで作った",
+      "url": "https://zenn.dev/katsuo_dev/articles/202608-claude-code-zenn-knowledge",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-02T13:41:25.796996+00:00",
+      "excerpt": "はじめに（自己紹介） こんにちは、かつおです。 普段は IT とは関係ない業種の会社を1社経営しながら、IT企業に会社員として勤め、 さらに個人開発もやっている、という3枚看板で活動しています。 Web3 領域には約3年ほど、プロダクト開発を通じて関わっていました。それ以来ずっと Web3 が好きです！ 最近は JPYC の勢いに心を躍らせながら、家計をオンチェーン化する取り組みを個人的に進めてい"
+    },
+    {
+      "id": "cc_97404a79",
+      "title": "Codex から Claude Code をサブエージェントとして呼び出す方法",
+      "url": "https://zenn.dev/syuuen_zetsubo/articles/dc73f02db8aeb0",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-02T13:41:25.796852+00:00",
+      "excerpt": "みんな、Codex 楽しんでますか？😆 今週は Luna が 80% オフになったり、Codex のリセット祭で盛り上がってますね。 Codex で作業していると、別の視点でコードを見てほしくなることがあります。私はコードレビューや原因調査を Claude Code に頼みたい場面が多く、そのための MCP プラグインを v0.3.0 として一般公開しました。 Codex から Claude Co"
+    },
+    {
+      "id": "cc_a0064cf0",
+      "title": "Claude Codeの自己改善ループが事故を起こした——委任プロンプト1行の書き忘れで190行書き換わった話",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-07-24-220212",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-02T13:41:25.796738+00:00",
+      "excerpt": "この記事の要点（2026年5月）: 私はセッション履歴（会話ログ）から改善点を自動抽出する「dev-workflow」というスキルを自作し、実戦投入した。ところが初回テストで、解析役に委任した researcher エージェントが、承認なしに scripts/util/dj.sh を169行追加・21行削除で書き換えていた。原因は、委任プロンプトに「分析のみ・修正禁止」という1行の制約を書き忘れた"
+    },
+    {
+      "id": "cc_fca4b3a6",
+      "title": "Claude Codeで自動化タスクを並行運用して分かった落とし穴と対策",
+      "url": "https://zenn.dev/jidoka_lab/articles/claude-code-automation-pitfalls",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-02T13:41:25.796656+00:00",
+      "excerpt": "「動いているはず」が一番危ない 個人開発や副業で自動化スクリプトを1本だけ回している間は、そこまで大きな事故は起きません。何かおかしければすぐ気づけますし、確認する対象も1つだけだからです。ところが、定期実行のスクリプトやスケジュール運用のタスクをClaude Codeと一緒に何本も並行で回すようになると、様子が変わってきます。1本1本は単純でも、「並行で動かしている」こと自体が原因のトラブルが出"
+    },
+    {
+      "id": "cc_cc5290a4",
+      "title": "Claude Codeのplanを「設計の木」にしてPRに埋め込むOSSを作った",
+      "url": "https://zenn.dev/natsu529/articles/5b01b8824ced61",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-02T13:41:25.796506+00:00",
+      "excerpt": "Claude Codeのplanモードの出力を木構造の設計書に変換し、実装後にコードとの一致を検証して、そのままPR本文に埋め込むCLIツール cc-plan-tree を作りました。 https://github.com/natsu0529/cc-plan-tree uv tool install cc-plan-tree && cc-plan-tree init 課題: planモードの設計判"
     },
     {
       "id": "cc_fab1035e",
@@ -97,7 +107,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-24T12:00:00+09:00",
-      "fetchedAt": "2026-08-02T08:31:48.620834+00:00",
+      "fetchedAt": "2026-08-02T13:41:26.031855+00:00",
       "excerpt": "「Claude Code って月$20で使えると聞いたけど、1ヶ月で実際に何が回るの？」この疑問を持ちながら、2026年4月から約1ヶ月、Claude Code を個人 Web サイト運営の主力ツールに投入しました。 構成：3点セットで動く 実際に1ヶ月使って分かった核心..."
     },
     {
@@ -107,7 +117,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-07-19T00:05:48+09:00",
-      "fetchedAt": "2026-08-02T08:31:48.620896+00:00",
+      "fetchedAt": "2026-08-02T13:41:26.031980+00:00",
       "excerpt": "Claude CodeとCodexを普段から使い分けています。最近「両者を連携できるプラグインが出た」と聞き、 どこまでつながるものなのか気になって調べました。 調べてみると、OpenAI公式の openai/codex-plugin-cc があります。 Claude Co..."
     },
     {
@@ -117,7 +127,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-02T08:31:49.023680+00:00",
+      "fetchedAt": "2026-08-02T13:41:26.202864+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -127,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-02T08:31:49.023796+00:00",
+      "fetchedAt": "2026-08-02T13:41:26.202927+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -137,9 +147,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-02T08:31:49.023869+00:00",
+      "fetchedAt": "2026-08-02T13:41:26.202996+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-02T08:31:49.023882+00:00"
+  "lastCollection": "2026-08-02T13:41:26.203009+00:00"
 }
