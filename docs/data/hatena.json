@@ -5,113 +5,130 @@
       "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
       "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
       "domain": "zenn.dev",
-      "bookmarkCount": 318,
+      "bookmarkCount": 431,
       "summary": "2026年8月、Anthropic が「Claude の生成テキストに機械可読なマーク（電子透かし）を埋め込む」と発表しました[1]。EU AI Act 第50条の透明性規範（Code of Practice on Transparency of AI-Generated Content）に署名したことに伴うもので、2026年8月2日以降にリリースされるモデルは、EU 圏内に限らず世界中でテキス...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/hellorusk/articles/3328866ca9e922",
       "comments": [
         {
-          "user": "dollarss",
-          "comment": "日本語ではかなり難しそうだが…それができるなら凄いよな。",
+          "user": "rgfx",
+          "comment": "embeddingの話だ",
           "tags": [],
-          "timestamp": "2026/08/13 11:14"
+          "timestamp": "2026/08/13 16:28"
         },
         {
-          "user": "mochinaga",
-          "comment": "プログラムにもウォーターマークいれるのすごい技術",
-          "tags": [],
-          "timestamp": "2026/08/13 11:06"
-        },
-        {
-          "user": "s17er",
-          "comment": "AIっぽい文章ってのがそのままウォーターマーキングとなるみたいな",
-          "tags": [],
-          "timestamp": "2026/08/13 10:56"
-        },
-        {
-          "user": "anonymighty",
-          "comment": "虐殺器官みたいに人間の考えに影響を与えるような言葉選びもできそう・・・。",
+          "user": "misshiki",
+          "comment": "Claudeが生成文への電子透かし導入へ。単語選択の統計的な「癖」で検出し、品質を変えない方式も実用化。一方、言い換え・翻訳には弱く、検出されても「Claudeが著者」の証明にはならない。",
           "tags": [
-            "社会"
+            "Anthropic",
+            "Claude",
+            "法律と倫理"
           ],
-          "timestamp": "2026/08/13 10:48"
+          "timestamp": "2026/08/13 16:05"
         },
         {
-          "user": "pj_lim",
-          "comment": "ふむ、わからん",
-          "tags": [],
-          "timestamp": "2026/08/13 10:44"
+          "user": "bxmcr",
+          "comment": "私も無理なのでは、と思っていました💦技術の進歩の早さ！",
+          "tags": [
+            "LLM",
+            "セキュリティ",
+            "研究",
+            "ai"
+          ],
+          "timestamp": "2026/08/13 16:03"
         },
         {
-          "user": "akiramaz",
-          "comment": "専門的な文章なのに読みやすくて面白い",
+          "user": "casm",
+          "comment": "おもろいなぁ",
           "tags": [],
-          "timestamp": "2026/08/13 10:32"
+          "timestamp": "2026/08/13 15:44"
+        },
+        {
+          "user": "defiant",
+          "comment": "この記事をおすすめしました",
+          "tags": [
+            "人工知能",
+            "文章生成AI",
+            "techfeed"
+          ],
+          "timestamp": "2026/08/13 15:39"
+        },
+        {
+          "user": "toyoshi",
+          "comment": "マルチバイト文字なら普通に埋め込めそうだけどそういう技術もあるのだろうか。半角英数がなくなる日も来るかも。",
+          "tags": [],
+          "timestamp": "2026/08/13 14:53"
         }
       ],
-      "fetchedAt": "2026-08-13T02:27:57.627012+00:00"
+      "fetchedAt": "2026-08-13T07:42:47.121550+00:00"
     },
     {
       "id": "h_43c09a29",
       "title": "AIが実装し、AIがテストし、AIが「問題ありません」と言う時代の品質保証 - Qiita",
       "url": "https://qiita.com/y0us91/items/2feffd2cc6c672717973",
       "domain": "qiita.com",
-      "bookmarkCount": 190,
+      "bookmarkCount": 350,
       "summary": "はじめに Coding Agentの進化によって、ソフトウェア開発の形が大きく変わり始めています。 少し前までAIによる開発支援といえば、 コード補完 コード生成 リファクタリング テストコード生成 など、「人間が主体で、AIが支援する」使い方が中心でした。 しかし現在のCoding Agentは、単にコードを生成するだけではあり...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/y0us91/items/2feffd2cc6c672717973",
       "comments": [
         {
-          "user": "Xray",
-          "comment": "人間がやってて品質保証ができていたのか？みたいな議論が必要では。自動テスト不可能な領域の話であればそもそもAIが出てきてはいけない。",
+          "user": "iouri",
+          "comment": "ユーザーサポートもユーザーも全部AIにすればいいんだよｗ",
           "tags": [],
-          "timestamp": "2026/08/13 11:23"
+          "timestamp": "2026/08/13 16:33"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "AIがテストしてもボクの可愛さはバグなしにゃ！人間もボクを撫でて品質保証してにゃん。",
+          "user": "ochikun",
+          "comment": "つまりこれからは、AIの出力を信じることしかできない人材か、その出力の妥当性を確認できる人材かに分かれるってことだよな",
           "tags": [],
-          "timestamp": "2026/08/13 11:16"
+          "timestamp": "2026/08/13 16:26"
         },
         {
-          "user": "sds-page",
-          "comment": "人間が手抜きするようにAIも手抜きする。抜けを見つけて要求仕様をmdファイルに積んでいくしかない",
+          "user": "misshiki",
+          "comment": "AIが実装・テスト・修正まで担う時代は、テストが通っただけでは正しさを保証できない。人間は「何を正しいとするか」「何を必ず検証するか」を定義し、AIとは独立した確認手段を用意することが重要。",
           "tags": [
-            "Qiita",
-            "AI",
-            "仕様",
-            "問題"
+            "人工知能",
+            "プログラミング"
           ],
-          "timestamp": "2026/08/13 11:02"
+          "timestamp": "2026/08/13 16:08"
         },
         {
-          "user": "m50747",
-          "comment": "AIがだんだん賢くなってるので日々感じることは、大体人間のソフトウェアエンジニアと扱いが似てきていること。人間のエンジニアを雇って仕事をさせた時にここまでのことをやるのか？同僚に対してここまでやるのか？",
+          "user": "mayumayu_nimolove",
+          "comment": "コードは問題ありません。でも売れるんですかこれ？",
           "tags": [],
-          "timestamp": "2026/08/13 10:58"
+          "timestamp": "2026/08/13 15:49"
         },
         {
-          "user": "s17er",
-          "comment": "マネージャーやプロダクトオーナーが開発チームに対してどのように品質保証をやらせるか、その報告をどう判断するかという視点",
-          "tags": [],
-          "timestamp": "2026/08/13 10:53"
+          "user": "fashi",
+          "comment": "AIが「これはテストが間違ってるのでテストを修正します」と言うのはよく見る / この記事も同じこと繰り返しててワードサラダみがあるな",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/08/13 15:47"
         },
         {
-          "user": "manaten",
-          "comment": "人間の営みに関わるものを開発してる限り、仕様策定はもちろんだがテストの何処かの工程でも人の手は絶対必要なのでは、という仮説を持っている",
+          "user": "soulfulmiddleagedman",
+          "comment": "mutation test あたりをやりたいとは思ってるけど。",
           "tags": [],
-          "timestamp": "2026/08/13 10:42"
+          "timestamp": "2026/08/13 15:11"
         }
       ],
-      "fetchedAt": "2026-08-13T02:27:57.195754+00:00"
+      "fetchedAt": "2026-08-13T07:42:45.643605+00:00"
     },
     {
       "id": "h_316289be",
       "title": "オントロジーと知識グラフ入門：URI から RDF、RDFS、OWL、推論、SPARQL まで整理して学ぶ - Qiita",
       "url": "https://qiita.com/haystacker/items/376d86bcbeefc3885183",
       "domain": "qiita.com",
-      "bookmarkCount": 156,
+      "bookmarkCount": 195,
       "summary": "これを下から順番に理解していくと、「今どの話をしているのか」「何がどの上に乗っているのか」が見えやすくなります。 この記事で扱う題材 扱う概念は次の 5 つです。 Animal（動物） Mammal（哺乳類） Cat（猫） Dog（犬） hasLegCount（足の本数） そして、基本となる知識は次の通りです。 Cat は Mammal である Dog...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/haystacker/items/376d86bcbeefc3885183",
       "comments": [
+        {
+          "user": "mickn",
+          "comment": "RDF-Star / RDF 1.2 / SHACLやProperty Graphの話も見てみたい。OWLは使いにくいからSHACL、みたいな流れとか、A-Box、T-Boxとかの話とか、schema.orgの語彙の話とか。あとSKOS",
+          "tags": [],
+          "timestamp": "2026/08/13 12:14"
+        },
         {
           "user": "theta",
           "comment": "読んでて吐き気がしてくるんですが……",
@@ -145,400 +162,471 @@
           "timestamp": "2026/08/13 05:14"
         }
       ],
-      "fetchedAt": "2026-08-13T02:27:58.130729+00:00"
+      "fetchedAt": "2026-08-13T07:42:48.980445+00:00"
     },
     {
       "id": "h_ad677f38",
       "title": "同僚女性教諭の水着画像をAIで生成 男性教諭を懲戒 神奈川県教委：朝日新聞",
       "url": "https://www.asahi.com/articles/ASV8D2SY0V8DULOB00HM.html",
       "domain": "asahi.com",
-      "bookmarkCount": 123,
+      "bookmarkCount": 186,
       "summary": "神奈川県教育委員会は12日、生徒に性行為の動画を見せたり、生成AI（人工知能）で同僚の女性教諭の水着姿の画像を作ったりしたなどとして、県立高校の男性教諭4人を懲戒処分にし、発表した。 県教委によると…",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASV8D2SY0V8DULOB00HM.html",
       "comments": [
         {
-          "user": "Kil",
-          "comment": "仕事で使うスマホはきっちり分けましょう。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:26"
-        },
-        {
-          "user": "kahoma621",
-          "comment": "こっそりやるならまだしも、あまりにもお粗末すぎる ＞男性教諭が学校の貸与パソコンを使った直後に男子生徒に貸した際に、水着画像が表示された。男性教諭がアカウントからログアウトしていなかった",
-          "tags": [],
-          "timestamp": "2026/08/13 11:16"
-        },
-        {
-          "user": "quietus",
-          "comment": "“横浜市の県立高の男性総括教諭（40代）は、教え子だった女子大学生（20代）と外出した際に、自家用車内でひざの上に座らせるなどしたとして停職6カ月”既婚者だったってこと？そうでなければいいのでは。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:13"
-        },
-        {
-          "user": "pink_revenge",
-          "comment": "県警もヤバいでお馴染みなのに、神奈川県凄いな。いや、これはちゃんと処分してるから立派なのか…？",
+          "user": "ytRino",
+          "comment": "\"自身のスマホで学校用の個人グーグルアカウントに入り、生成AIで同僚の女性教諭の水着姿の画像を作成\" \"男性教諭が学校の貸与パソコンを使った直後に男子生徒に貸した際に、水着画像が表示された\"",
           "tags": [
-            "社会"
+            "news",
+            "AI"
           ],
-          "timestamp": "2026/08/13 11:03"
+          "timestamp": "2026/08/13 16:10"
         },
         {
-          "user": "kobito19",
-          "comment": "ああ、3つの別々の件をひっくるめて報じてるのか",
+          "user": "lacucaracha",
+          "comment": "停職6ヶ月は実質退職勧告だと思うけど、いろいろ問題はあると思うがそのレベルなのかなあと思わんくもない。もっとアタオカなヤツを見すぎて感覚が麻痺してるからかもしれんが。",
           "tags": [],
-          "timestamp": "2026/08/13 11:01"
+          "timestamp": "2026/08/13 16:05"
         },
         {
-          "user": "hatebu_admin",
-          "comment": "神奈川県警の偉業にはまだまだ及ばない",
+          "user": "mugimugigohan",
+          "comment": "管理職がそのレベルっていうのが絶望的",
           "tags": [],
-          "timestamp": "2026/08/13 10:55"
-        }
-      ],
-      "fetchedAt": "2026-08-13T02:27:58.438613+00:00"
-    },
-    {
-      "id": "h_9d381538",
-      "title": "2040年の就業構造推計（改訂版）と 人材需給ミスマッチを踏まえた取組について 2026年６月 経済産業省 産業人材課",
-      "url": "https://www.mhlw.go.jp/content/12602000/001715120.pdf",
-      "domain": "mhlw.go.jp",
-      "bookmarkCount": 72,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.mhlw.go.jp/content/12602000/001715120.pdf",
-      "comments": [
-        {
-          "user": "jintrick",
-          "comment": "p.16 AX時代の人材育成",
-          "tags": [],
-          "timestamp": "2026/08/13 10:14"
+          "timestamp": "2026/08/13 15:44"
         },
         {
-          "user": "T-norf",
-          "comment": "地域・業界での人材の取り合いよね。県庁の人からFDEって単語が出るぐらい、生成AIを活用した社内システム整備をするような人材が不足するの、火を見るより明らかよね。いろんなところで、綱引き頑張るべ",
-          "tags": [],
-          "timestamp": "2026/08/13 10:07"
-        },
-        {
-          "user": "napsucks",
-          "comment": "受益者負担で企業に1人100万の大卒採用税を課し、大学振興費用に充てましょう。親の負担も減って少子化対策にもなる。",
-          "tags": [],
-          "timestamp": "2026/08/13 10:05"
-        },
-        {
-          "user": "owl23",
-          "comment": "なぜか2040年の労働者供給が計7,153万人となっている。日本人の生産年齢人口は1000万人以上減るはずだから、経産省は外国人労働者が1000万人以上入る想定なのかな。https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r04/html/nd121110.html",
-          "tags": [],
-          "timestamp": "2026/08/13 09:36"
-        },
-        {
-          "user": "masatomo-m",
-          "comment": "リスキリングが提案されているが、民間は評価制度に応じて辞めるまで給与を下げることしかしないだろうから、これは国や自治体などが本気で取り組まないと元高収入無職を生み出しそう",
-          "tags": [],
-          "timestamp": "2026/08/13 09:34"
-        },
-        {
-          "user": "bonnbonn1400",
-          "comment": "大学再編にも使われてて 1.出生数から2040年の大学淘汰確定。市場原理（大都市や文系偏重）任せだとマズい。2.大学側「国がデータ出さないと個別で再編は無理」 3.データ出す。再編基金作る 4.今の再編・理工系増の流れ",
-          "tags": [],
-          "timestamp": "2026/08/13 07:38"
-        }
-      ],
-      "fetchedAt": "2026-08-13T02:27:59.186220+00:00"
-    },
-    {
-      "id": "h_c968da44",
-      "title": "Google版“AirTag”こと「Pixel Tag」登場 10億台のAndroidネットワークで居場所を探知",
-      "url": "https://www.itmedia.co.jp/news/article/2608/12/2000000518/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 69,
-      "summary": "米Googleは8月12日、紛失防止タグ「Google Pixel Tag」を発表した。鍵や財布、スーツケースなどに取り付け、持ち物の位置を「Find Hub」アプリで確認できる。日本では単品5010円、4個セットが1万6940円で、11月に発売予定だ。 Bluetoothの通信範囲内なら、タグのスピーカーから音を鳴らして探せるほか、タグのボタンでス...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/12/2000000518/",
-      "comments": [
-        {
-          "user": "suginoy",
-          "comment": "盗まれたときに役に立たないな “見知らぬタグが自分と一緒に移動していると検出した場合は、スマートフォンが自動で通知し、対処の手順を案内する”",
-          "tags": [],
-          "timestamp": "2026/08/13 10:58"
-        },
-        {
-          "user": "irh_nishi",
-          "comment": "ついにスティック形状の小型なTagが出たのか！って思ったら薄さアピールだった。。。しかも大して薄くない。",
-          "tags": [],
-          "timestamp": "2026/08/13 10:47"
-        },
-        {
-          "user": "FlowerLounge",
-          "comment": "10億のデバイスで走るAndroid",
-          "tags": [],
-          "timestamp": "2026/08/13 10:24"
-        },
-        {
-          "user": "commecco",
-          "comment": "昔アリエクで激安タグを見つけてウキウキで買ったら自分の端末でしか見つけられないゴミだった。安いのには理由がある。だからこのタグが高いのには理由があるはず（と思いたい）",
-          "tags": [],
-          "timestamp": "2026/08/13 10:21"
-        },
-        {
-          "user": "strangerxxx",
-          "comment": "\"タグのボタンでスマートフォンを鳴らすこともできる\" これ誤爆するので本当にいらない",
-          "tags": [],
-          "timestamp": "2026/08/13 10:19"
-        },
-        {
-          "user": "napsucks",
-          "comment": "そういえばmamorioはまだ生きてるのかな",
-          "tags": [],
-          "timestamp": "2026/08/13 09:31"
-        }
-      ],
-      "fetchedAt": "2026-08-13T02:27:58.738273+00:00"
-    },
-    {
-      "id": "h_95f15386",
-      "title": "「Linux」デスクトップの平日利用率は22％に急増--各種データで鮮明な人気ぶり",
-      "url": "https://japan.zdnet.com/article/35251503/",
-      "domain": "japan.zdnet.com",
-      "bookmarkCount": 37,
-      "summary": "ウェブトラフィック分析サイトのStatCounterが発表したデータによると、北米のデスクトップ市場における「Linux」のシェアが過去最高の10.65％に達した。多くの人々やLinuxファンでさえ、これをフェイクニュースだと受け流した。しかし、筆者が2025年に数値を確認した際、StatCounterが示していた最高値は5％をわずかに...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35251503/",
-      "comments": [
-        {
-          "user": "dtg8",
-          "comment": "完全な妄想だけど、利用人数がではなく利用台数が増えただけのような気が… やってる人だけがやってると言うか。もちろんWindowsのおせっかい機能に嫌気が差してみたいなケースはあるだろうけども。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:25"
-        },
-        {
-          "user": "m50747",
-          "comment": "恐らくAIに寄り沿った鈍重で広告塗れのOSに嫌気がさした人達なんだろう。自分もその一人開発環境はOmarchyに移した。SSD512GB,メモリ16GBの13年前のMacBook Proでもサクサク動いちゃう。macOSやWIndowsには幻滅ですよ。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:22"
-        },
-        {
-          "user": "nippondanji",
-          "comment": "OneDriveを使わせようとしたり広告が出てきたりしないからな（笑）",
-          "tags": [],
-          "timestamp": "2026/08/13 10:49"
-        },
-        {
-          "user": "s17er",
-          "comment": "MSOfficeに囚われていなければ移行しやすい",
-          "tags": [],
-          "timestamp": "2026/08/13 10:39"
-        },
-        {
-          "user": "koutya07",
-          "comment": "OSに金払うのがバカバカしいから数年前からUbuntuしか使ってない",
-          "tags": [],
-          "timestamp": "2026/08/13 10:22"
-        },
-        {
-          "user": "sgo2",
-          "comment": "最近はAIにCLIツール使わせるのがブームらしいので必然的にLinuxが有利に&一昔前のWindows並にライトユーザーフレンドリーになってるからDesktopも…というユーザーが増加中",
-          "tags": [],
-          "timestamp": "2026/08/13 10:20"
-        }
-      ],
-      "fetchedAt": "2026-08-13T02:27:59.752734+00:00"
-    },
-    {
-      "id": "h_0cf797b4",
-      "title": "最新鋭のiPhoneを買って喜んでいたが",
-      "url": "https://anond.hatelabo.jp/20260813095445",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 34,
-      "summary": "一番使っているアプリが、初期装備の天気予報だった。 猫に小判、宝の持ち腐れとはこういう現象のことだったのだな。 いやiPhoneの天気予報って、意外と予報が当たるし、使いやすいのよ。 「あと〇分で雨が降り始めます」とか、リアルタイムで伝えてくれるのがいい。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260813095445",
-      "comments": [
-        {
-          "user": "m50747",
-          "comment": "一番使っているアプリが天気とは聞き捨てならんですな。本当ははてブアプリじゃないの？いやここではそう書くべきでは。それが大人の嗜み。嘘です。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:27"
-        },
-        {
-          "user": "sds-page",
-          "comment": "PS5買って遊んでるゲームが原神だけ",
+          "user": "narwhal",
+          "comment": "「横浜市の県立高の男性総括教諭（40代）は、教え子だった女子大学生（20代）と外出した際に、自家用車内でひざの上に座らせるなどしたとして停職6カ月となった」",
           "tags": [
-            "増田",
-            "iphone",
-            "生活"
+            "学校"
           ],
-          "timestamp": "2026/08/13 11:18"
+          "timestamp": "2026/08/13 15:42"
         },
         {
-          "user": "ustam",
-          "comment": "それよりも、Apple Watchは睡眠ログを取る以外何の役にも立ってないんだが…。",
+          "user": "timoni",
+          "comment": "卒業後に教え子と何しようが勝手だろう。これで処分をくだすのは人権侵害では",
           "tags": [],
-          "timestamp": "2026/08/13 11:05"
+          "timestamp": "2026/08/13 15:40"
         },
         {
-          "user": "takuver4",
-          "comment": "iPhone のカメラは性能が良いので、ぜひ色々と撮影してSNSに投稿して下さいませ。",
+          "user": "iwanofsky",
+          "comment": "自己の想像や妄想は仕方ない、他者に晒すなよ",
           "tags": [],
-          "timestamp": "2026/08/13 11:03"
-        },
-        {
-          "user": "kamm",
-          "comment": "最大スペックのiPhoneを購入して3年くらい使って下取り、の繰り返し。10万円くらいで下取りしてくれるから助かってる。天気予報はヤフーのアプリ使ってるな。降雨レーダーとあと何分後に雨が降るか教えてくれる",
-          "tags": [],
-          "timestamp": "2026/08/13 10:57"
-        },
-        {
-          "user": "bfoj",
-          "comment": "pro maxは失敗した。airでじゅうぶん",
-          "tags": [],
-          "timestamp": "2026/08/13 10:48"
+          "timestamp": "2026/08/13 15:23"
         }
       ],
-      "fetchedAt": "2026-08-13T02:27:59.449906+00:00"
+      "fetchedAt": "2026-08-13T07:42:47.737310+00:00"
     },
     {
       "id": "h_38ff7634",
       "title": "Cloudflareは16年間ずっと同じことをしている。「通り道を支配する」という設計思想を知る",
       "url": "https://zenn.dev/akari1106/articles/9d2abbc63a4abb",
       "domain": "zenn.dev",
-      "bookmarkCount": 30,
+      "bookmarkCount": 108,
       "summary": "はじめに Cloudflare OSの話を3本書きました。ローカルLLMで三目並べに5ラウンドかけた奮闘記、モデル間の受け渡し設計の話、セキュリティとガバナンスの話。 3本目でこう書きました。「思想さえ理解すれば、この環境は怖くない」と。 ……で、その思想って結局なんやねん、という。 自分で書いておいて回収してないんです...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/akari1106/articles/9d2abbc63a4abb",
       "comments": [
         {
-          "user": "hapilaki",
-          "comment": "Cloudflare「誰だ！」AI「人間です」Cloudflare「嘘をつくな」AI「すみません、通行料払います」Cloudflare「よし、通れ」",
-          "tags": [
-            "webサービス"
-          ],
-          "timestamp": "2026/08/13 10:34"
+          "user": "everybodyelse",
+          "comment": "なげえw 最近Cloudflareを使い始めた自分としては良くわかる思想。",
+          "tags": [],
+          "timestamp": "2026/08/13 16:41"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "通り道に立って全処理する思想の一貫性がすごいな。Sandstormの文脈まで回収してて読み応えあった",
+          "user": "ryudenx",
+          "comment": "なるほど、だからDNSもProxyがあるのか",
           "tags": [],
-          "timestamp": "2026/08/13 09:43"
+          "timestamp": "2026/08/13 14:24"
+        },
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "資料あんがと",
+          "tags": [],
+          "timestamp": "2026/08/13 14:23"
+        },
+        {
+          "user": "notepc-5522",
+          "comment": "クラウドフレアを使う事自体がサイバー攻撃の強力な抑止力になってるのは、確かだと思う。",
+          "tags": [],
+          "timestamp": "2026/08/13 12:56"
+        },
+        {
+          "user": "shoh8",
+          "comment": "ストーリーめちゃ面白く読みました。",
+          "tags": [
+            "cloudflare",
+            "セキュリティ",
+            "設計"
+          ],
+          "timestamp": "2026/08/13 12:30"
+        },
+        {
+          "user": "dollarss",
+          "comment": "しかし道路というには、もはやクラフレはドライブスルーが充実し過ぎてて営業店舗（エンドポイントサーバ）を脅かすほどだ。第三極として非常に重要な存在で、赤米等の競合が提供する機能が限定的なのが不安だ。",
+          "tags": [],
+          "timestamp": "2026/08/13 12:24"
         }
       ],
-      "fetchedAt": "2026-08-13T02:28:00.124372+00:00"
+      "fetchedAt": "2026-08-13T07:42:46.026479+00:00"
     },
     {
-      "id": "h_610b4bde",
-      "title": "楽天モバイル、10月以降もKDDIのローミング一部継続を強調",
-      "url": "https://www.watch.impress.co.jp/docs/news/2132370.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 23,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2132370.html",
+      "id": "h_c968da44",
+      "title": "Google版“AirTag”こと「Pixel Tag」登場 10億台のAndroidネットワークで居場所を探知",
+      "url": "https://www.itmedia.co.jp/news/article/2608/12/2000000518/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 107,
+      "summary": "米Googleは8月12日、紛失防止タグ「Google Pixel Tag」を発表した。鍵や財布、スーツケースなどに取り付け、持ち物の位置を「Find Hub」アプリで確認できる。日本では単品5010円、4個セットが1万6940円で、11月に発売予定だ。 Bluetoothの通信範囲内なら、タグのスピーカーから音を鳴らして探せるほか、タグのボタンでス...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/12/2000000518/",
       "comments": [
         {
-          "user": "shoot_c_na",
-          "comment": "ウチの町内は楽天の電波だけど、駅前とかけっこうな範囲がまだKDDIに頼ってるので、ここでバイバイして大丈夫なのか？とけっこう心配",
+          "user": "netafull",
+          "comment": "“日本では単品5010円、4個セットが1万6940円で、11月に発売予定だ。”",
+          "tags": [],
+          "timestamp": "2026/08/13 16:10"
+        },
+        {
+          "user": "SATTON",
+          "comment": "言うてUWB搭載Android機は高価格帯フラグシップ機のみやな。",
+          "tags": [],
+          "timestamp": "2026/08/13 16:09"
+        },
+        {
+          "user": "yo_aibou",
+          "comment": "なんか分厚いなぁと思ってたけど、どうやらCR2032のボタン電池で動かすものっぽい（1年持続）。昨今のリチウム電池の爆発を回避するための策とか？",
+          "tags": [],
+          "timestamp": "2026/08/13 15:40"
+        },
+        {
+          "user": "agrisearch",
+          "comment": "紛失防止タグ「Google Pixel Tag」",
           "tags": [
-            "ケータイ"
+            "ICT",
+            "通信",
+            "生活"
           ],
-          "timestamp": "2026/08/13 10:05"
+          "timestamp": "2026/08/13 14:40"
         },
         {
-          "user": "natadecoco1",
-          "comment": "いつになったら都心でまともに繋がるようになるのか。まともに繋がったら文字通り最強だけど。",
+          "user": "mugimugigohan",
+          "comment": "UWBって消えた規格じゃないんだ",
           "tags": [],
-          "timestamp": "2026/08/13 10:01"
+          "timestamp": "2026/08/13 14:01"
         },
         {
-          "user": "napsucks",
-          "comment": "いつまでローミングに頼ってんだよ。ちゃんと投資しろ",
+          "user": "u_mid",
+          "comment": "今の日本のiPhone・Android比率は大体半々で、年齢（20代以下はiPhone、40代以上はAndroid多い）と性別（女性の方がiPhone比率高い）で変わるので、生活圏がどういう所かで変わるかもしれない https://mmdlabo.jp/investigation/detail_2496.html",
           "tags": [],
-          "timestamp": "2026/08/13 09:39"
-        },
-        {
-          "user": "kenchan3",
-          "comment": "先週かなり山の中に行ったけど、auはプラチナバンドで4G繋がるのにRMは繋がらないというのをみて、僻地でもほぼローミング切られてるんじゃないかと思わなくもない。前なら山の中でもauつながればRMも繋がったのに。",
-          "tags": [],
-          "timestamp": "2026/08/13 08:37"
-        },
-        {
-          "user": "hamigaki_now",
-          "comment": "株価対策で躍起になってんのかな。あんだけドーンと落ちたらなあ。家族の携帯を楽天にしようかと思ってたけどちょっと様子見しないといけなくなってしまった。",
-          "tags": [],
-          "timestamp": "2026/08/13 08:35"
-        },
-        {
-          "user": "TakamoriTarou",
-          "comment": "我が郷里ではなぜか楽天が最も電波がよいと言う原因不明の怪奇現象起きているので困りはしないけど、近いの地下街とかは地味に困るのでは。",
-          "tags": [],
-          "timestamp": "2026/08/13 08:15"
+          "timestamp": "2026/08/13 13:59"
         }
       ],
-      "fetchedAt": "2026-08-13T02:28:00.497947+00:00"
+      "fetchedAt": "2026-08-13T07:42:49.423136+00:00"
     },
     {
-      "id": "h_b5fe1e71",
-      "title": "Rails is done",
-      "url": "https://lucas.dohmen.io/posts/2026/08/09/rails-is-done/",
-      "domain": "lucas.dohmen.io",
-      "bookmarkCount": 16,
-      "summary": "If you need more context on why Rails needs a new leadership, here is David Celis summing it up a year ago, Paul Battley a few weeks ago, and—even though it is hard to believe—it even got worse since then. How could a fork even work? Rails ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/lucas.dohmen.io/posts/2026/08/09/rails-is-done/",
+      "id": "h_0cf797b4",
+      "title": "最新鋭のiPhoneを買って喜んでいたが",
+      "url": "https://anond.hatelabo.jp/20260813095445",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 79,
+      "summary": "一番使っているアプリが、初期装備の天気予報だった。 猫に小判、宝の持ち腐れとはこういう現象のことだったのだな。 いやiPhoneの天気予報って、意外と予報が当たるし、使いやすいのよ。 「あと〇分で雨が降り始めます」とか、リアルタイムで伝えてくれるのがいい。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260813095445",
       "comments": [
         {
-          "user": "mshkh",
-          "comment": "あらあら。Amiko の名前の由来はよく分からないが、エスペラント語？",
-          "tags": [
-            "Rails",
-            "DHH",
-            "Amiko"
-          ],
-          "timestamp": "2026/08/13 11:21"
+          "user": "kaionji",
+          "comment": "よかったね",
+          "tags": [],
+          "timestamp": "2026/08/13 15:52"
         },
         {
-          "user": "masatomo-m",
-          "comment": "言いたいことはわかるが、RailsはRails is Omakase（いわゆるCoC）以外でもちゃんとConfigurableな要素もあるので、わざわざforkする必要性を感じない。forkすることによって請求力を失ったものが多すぎてなあ",
+          "user": "kaitoster",
+          "comment": "首都圏なら東京アメッシュをブクマして雨雲の動きチェックすれば良いのでは。",
+          "tags": [
+            "iphone",
+            "アプリ",
+            "ケータイ",
+            "携帯電話",
+            "天気"
+          ],
+          "timestamp": "2026/08/13 15:52"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "siriオフにしてるしゲームもしないから、12miniでお釣りがくる感じ。",
           "tags": [],
-          "timestamp": "2026/08/13 10:35"
+          "timestamp": "2026/08/13 15:51"
+        },
+        {
+          "user": "hiduki001",
+          "comment": "ミドルスペックの使ってるけどフラッグシップ機と比べて明確に端々が遅いよ。そりゃ使ってれば気づかないけど使う時間が長ければ長いほどロスタイムがあることがもったいなくは思う",
+          "tags": [],
+          "timestamp": "2026/08/13 15:34"
+        },
+        {
+          "user": "ssfu",
+          "comment": "天気予報はリアルタイムであることをいいことにずっと修正してるからな。当たらないことを前提に考えなきゃいけない。",
+          "tags": [],
+          "timestamp": "2026/08/13 14:59"
+        },
+        {
+          "user": "Kaisai_Adashino",
+          "comment": "でもときどき、ふだんつかわないその機種の最新鋭の機能つかったりすることもあって、とにかく語彙力が追いつかないほどすごくて面白かったり、逆にちょっと便利で気がきいてたりおおーってなる。それが楽しみなんだ",
+          "tags": [],
+          "timestamp": "2026/08/13 14:57"
         }
       ],
-      "fetchedAt": "2026-08-13T02:28:00.980232+00:00"
+      "fetchedAt": "2026-08-13T07:42:48.122634+00:00"
     },
     {
       "id": "h_8fec90a8",
       "title": "Why Japanese firms are being so slow to use AI",
       "url": "https://www.bbc.com/news/articles/cwymw4434v7o",
       "domain": "bbc.com",
-      "bookmarkCount": 9,
+      "bookmarkCount": 53,
       "summary": "Studies show that Japanese firms are dragging their feet when it comes to using AI Facing acute labour shortages, ageing demographics and chronic productivity problems, Japanese companies should be fertile ground for the take-up of artifici",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.bbc.com/news/articles/cwymw4434v7o",
       "comments": [
         {
-          "user": "aua",
-          "comment": "あんたらみたいな無責任な仕事をしないだけ",
+          "user": "palsy",
+          "comment": "元請が下請に渡す書面でAIを使うことは許されるけど、逆は許されない。そんなことはありませんかね…",
           "tags": [],
-          "timestamp": "2026/08/13 11:22"
+          "timestamp": "2026/08/13 16:39"
         },
         {
-          "user": "casm",
-          "comment": "「\"Where tolerance for AI mistakes is close to zero, especially in anything client facing.」日本人相手に商売してるのが良くない。",
-          "tags": [],
-          "timestamp": "2026/08/13 11:18"
+          "user": "misshiki",
+          "comment": "日本で仕事にAIを使う労働者は8.4％。米50％、英32％より低く、リスク回避、合意形成重視、IT人材不足、古いシステム、雇用維持が導入の壁。企業利用率は75％まで増えたが、実利用は限定的。",
+          "tags": [
+            "人工知能"
+          ],
+          "timestamp": "2026/08/13 16:07"
         },
         {
-          "user": "srgy",
-          "comment": "記事タイトルが厚切りジェイソンで再生されてしまった",
+          "user": "mayumayu_nimolove",
+          "comment": "ま、このブコメ群の答え合わせも1年後でしょ。ブクマって1年後に通知される機能ないの？w",
           "tags": [],
-          "timestamp": "2026/08/13 11:16"
+          "timestamp": "2026/08/13 14:35"
         },
         {
-          "user": "quh",
-          "comment": "”resemble one of the country's slow-moving, traditional Noh plays”　逆に世界のほうが過熱して踊らされすぎでは。ワールドイズダンシングなんちゃって",
+          "user": "room661",
+          "comment": "理由は簡単、終身雇用だよ。AIで省力化しても (解雇できんので) 人件費が減るわけでもなく、むしろAI企業への支払いがコストになる。／ 欧米中心主義なんて書いて☆つけてる人はどんだけ歪んだ思考回路なのか。",
           "tags": [],
-          "timestamp": "2026/08/13 11:14"
+          "timestamp": "2026/08/13 14:27"
         },
         {
-          "user": "sgo2",
-          "comment": "割り切り(切り捨て)を良しとしない文化",
+          "user": "diveintounlimit",
+          "comment": "日本はわりと現状維持の塊だからなぁ。米国からもそういう見方されてるのは面白い。",
           "tags": [],
-          "timestamp": "2026/08/13 11:11"
+          "timestamp": "2026/08/13 13:35"
+        },
+        {
+          "user": "hammam",
+          "comment": "会社が使うなって言うんだよ／二和シャッター",
+          "tags": [],
+          "timestamp": "2026/08/13 13:09"
         }
       ],
-      "fetchedAt": "2026-08-13T02:28:01.736332+00:00"
+      "fetchedAt": "2026-08-13T07:42:51.505970+00:00"
+    },
+    {
+      "id": "h_ec8e8daa",
+      "title": "Word・Excel・PDFなどの文書をAIが読みやすいMarkdownに爆速変換する「anydoc」がオープンソース公開（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/08/12/5385.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 51,
+      "summary": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、WordやPDFといった多様な文書をMarkdown（GitHub-Flavored Markdown）に高速変換するRust製ライブラリ「anydoc」を取り上げます。...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/08/12/5385.html",
+      "comments": [
+        {
+          "user": "regularexception",
+          "comment": "Excel方眼紙や矢印オブジェクトや、切り貼り画像も再現してくれるのかな",
+          "tags": [],
+          "timestamp": "2026/08/13 16:32"
+        },
+        {
+          "user": "lacucaracha",
+          "comment": "おーそうかい。ほな経産省ご謹製の霞が関ポンチ絵食わせてみるかい。",
+          "tags": [],
+          "timestamp": "2026/08/13 16:06"
+        },
+        {
+          "user": "ardarim",
+          "comment": "Excel方眼紙とかPDFとか、いっそ画像で渡したほうが認識してくれる、と最近は聞くけどね",
+          "tags": [
+            "あとでよむ",
+            "人工知能",
+            "ツール"
+          ],
+          "timestamp": "2026/08/13 15:42"
+        },
+        {
+          "user": "kojikoji75",
+          "comment": "RAGを使っていると、検索精度を上げるには「そもそも文書をどう取り込むか」が重要だと感じる。 WordやExcel、PDFをMarkdownに統一できるなら、前処理もシンプルにできそう。",
+          "tags": [],
+          "timestamp": "2026/08/13 15:18"
+        },
+        {
+          "user": "pelicaan",
+          "comment": "こう言うのをみるたび、結合セルがもりもりで、肝心なところは記号になってる表、表の形式をなしている画像、アイコンを線で繋いだシステム構成図などを、どうAIへの入力とすればいいのか悩むよ。",
+          "tags": [],
+          "timestamp": "2026/08/13 15:07"
+        },
+        {
+          "user": "kazukan",
+          "comment": "つい先週何とか苦労して自作したばかりというのに…またお試しが発生…",
+          "tags": [],
+          "timestamp": "2026/08/13 13:33"
+        }
+      ],
+      "fetchedAt": "2026-08-13T07:42:49.816814+00:00"
+    },
+    {
+      "id": "h_fa87bc63",
+      "title": "個人開発のAIデザインツール「Rikyū」 “幾何学的なデザイン”機能が秀逸と話題に",
+      "url": "https://www.itmedia.co.jp/news/article/2608/13/2000000514/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 39,
+      "summary": "円や直線を使って幾何学的にロゴをデザインできる──そんなサービスを日本の個人開発者が作り、Xで話題となっている。この機能を紹介した投稿の表示回数は500万件を超えた。 サービス名は「Rikyū」。作りたいものを指示することで、ロゴやWebサイト、ポスターなどさまざまなデザインを作成できるという。MCP連携にも対応...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/13/2000000514/",
+      "comments": [
+        {
+          "user": "pribetch",
+          "comment": "平面に近いほど曲面を構成する球の半径は大きくなるという理論に基づく巨乳平面説を思い出した",
+          "tags": [],
+          "timestamp": "2026/08/13 16:23"
+        },
+        {
+          "user": "Falky",
+          "comment": "なるほど",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/08/13 16:09"
+        },
+        {
+          "user": "miata98",
+          "comment": "サイト見たら、何故か試す気がなくなった",
+          "tags": [],
+          "timestamp": "2026/08/13 15:54"
+        },
+        {
+          "user": "chiekochanpre",
+          "comment": "そうだろ？",
+          "tags": [],
+          "timestamp": "2026/08/13 15:10"
+        },
+        {
+          "user": "n2sz",
+          "comment": "利休？",
+          "tags": [],
+          "timestamp": "2026/08/13 14:37"
+        },
+        {
+          "user": "renu",
+          "comment": "どんなデザインも大量の円と直線を組み合わせればこんな風に表せるのではと思うんだけど、何か理論に基づいたデザインシステムなのだろうか。どうも雰囲気でやっているように見えてしまう・・・",
+          "tags": [],
+          "timestamp": "2026/08/13 14:32"
+        }
+      ],
+      "fetchedAt": "2026-08-13T07:42:51.180919+00:00"
+    },
+    {
+      "id": "h_234d6694",
+      "title": "HDDが容量2桁台でもがいている間、SSDは512TBに到達した",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132491.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 36,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132491.html",
+      "comments": [
+        {
+          "user": "u_mid",
+          "comment": "フォームファクタはEDSFF規格のE2。E2は大容量重視でHDDを置き換える用途の2Uサーバー向けとのこと。速度重視はE3。",
+          "tags": [],
+          "timestamp": "2026/08/13 16:39"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "本当はSSDが欲しいけど、節約してLLMのモデル置き場をHDDにしたら何百GBのロードにえらく待たされる。KVキャッシュのキャッシュとしてもSSDは使うし、大容量SSDは正義。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/13 16:29"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "推定価格3000万円前後だってさ。こいつは2Uに40台(20PB)刺さるんで、ラック1つで120PB余裕(電力的に2U×6程度が限界)",
+          "tags": [],
+          "timestamp": "2026/08/13 16:28"
+        },
+        {
+          "user": "collectedseptember",
+          "comment": "でも、お高いんでしょう？",
+          "tags": [],
+          "timestamp": "2026/08/13 16:25"
+        },
+        {
+          "user": "ssfu",
+          "comment": "この御時世でいくらするんだろ。",
+          "tags": [],
+          "timestamp": "2026/08/13 16:08"
+        },
+        {
+          "user": "Nishinomiya-Radio",
+          "comment": "NANDメモリーの会社の株を全力で買います！！！どの会社がいいですか？",
+          "tags": [],
+          "timestamp": "2026/08/13 16:00"
+        }
+      ],
+      "fetchedAt": "2026-08-13T07:42:48.563097+00:00"
+    },
+    {
+      "id": "h_10e0853b",
+      "title": "豪州にあるグーグル★2.6評価のパン屋が別な意味でやばかった件について",
+      "url": "https://ysd.theletter.jp/posts/9e2baae7-642f-47b4-aca0-c8227f217037",
+      "domain": "ysd.theletter.jp",
+      "bookmarkCount": 30,
+      "summary": "オーストラリアの首都キャンベラは人工都市で、繁華街と呼べる場所はほとんどありません。あるのはキャンベラセンターというショッピングモールくらい。食品も書籍も土産物も揃いますが、逆に言えばここ以外ではなかなか買えなさそうです。選択肢がすくなすぎる。 到着した夜、このモール内のスーパーcolesに行ってみま...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ysd.theletter.jp/posts/9e2baae7-642f-47b4-aca0-c8227f217037",
+      "comments": [
+        {
+          "user": "behuckleberry02",
+          "comment": "昭和の頃、大してうまくもないが潰れない飯屋がヤクザの表稼業だったことがあった。そういう感じか。日本のガチ中華にもそういうのあるんだろか。そういえば『ギャングース』にも盗品を捌くガチ中華屋が出てきたな。",
+          "tags": [],
+          "timestamp": "2026/08/13 15:57"
+        },
+        {
+          "user": "mats3003",
+          "comment": "そんなまずいパン屋が羽振りがいいってそりゃ怪しいわな（別にそういう理由で捜査されたわけではなさそうだが）　関係ないが中華ベーカリーが日本にも欲しい。知る限り新小岩の1件しかない。",
+          "tags": [],
+          "timestamp": "2026/08/13 15:15"
+        },
+        {
+          "user": "Helfard",
+          "comment": "まあ下手に流行ると全くの偶然に「ステーキ定食、弱火でじっくり」とオーダーしてくる客が居ないとも限らないしな。日本にも1万人くらいはスパイが居るだろうけど、隠れ蓑の中で一番飯が美味い店だけ知りたいな。",
+          "tags": [],
+          "timestamp": "2026/08/13 15:06"
+        },
+        {
+          "user": "ko2inte8cu",
+          "comment": "Los Pollos Hermanosは美味いんだがな。",
+          "tags": [],
+          "timestamp": "2026/08/13 14:53"
+        },
+        {
+          "user": "izumit5",
+          "comment": "フーセン被るしかないっしょー",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/08/13 14:47"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "オーストラリアのパン屋に中国のスパイが潜入してて評価2.6なのは草",
+          "tags": [],
+          "timestamp": "2026/08/13 14:42"
+        }
+      ],
+      "fetchedAt": "2026-08-13T07:42:50.444517+00:00"
     }
   ],
-  "lastCollection": "2026-08-13T02:28:01.736359+00:00"
+  "lastCollection": "2026-08-13T07:42:51.505989+00:00"
 }
