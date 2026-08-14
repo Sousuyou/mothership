@@ -1,551 +1,404 @@
 {
   "entries": [
     {
-      "id": "h_1e7fd847",
-      "title": "AIに同じ質問をしたら、部署ごとに違う数字が返ってきた ― いま「オントロジー」と呼ばれているもの ― - Qiita",
-      "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
-      "domain": "qiita.com",
-      "bookmarkCount": 258,
-      "summary": "同じ質問を投げたのに、部署ごとに違う数字が返ってくる。しかも、どちらのAIも間違ってない。 生成AIを業務に入れた組織で、いま静かに起きている現象です。この記事では、その正体を解きほぐしたうえで、2025年くらいから主要ベンダーが揃って使い始めた「オントロジー」という言葉が、いま何を指し、技術的に何を作る...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
+      "id": "h_fde6763d",
+      "title": "なぜベテランの暗黙知は、文書化しても継承できないのか | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
+      "domain": "dev.classmethod.jp",
+      "bookmarkCount": 179,
+      "summary": "ベテランの判断を若手に引き継ごうとマニュアル化しても、肝心の部分は毎回こぼれ落ちます。理由はシンプルで、本人が「言語化できていない・そもそも言語化すべきだと気づいていない」判断こそが価値の中心だからです。この記事では、なぜ暗黙知の継承が長年うまくいかなかったのか、その構造と、いまLLMで何が変わりつ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
       "comments": [
         {
-          "user": "hiroyuki1983",
-          "comment": "そういうクソ怠くてクソ面白くない仕事は引き続き人間がやるから大丈夫だよ",
+          "user": "Eiichiro",
+          "comment": "炎上のに匂いとかを、言語化すると各担当者のコミットメントと経営層の理想と認識のズレとか、頑張ればできるけど、言語化された現象が何を表すのか？はその状況をみないと言語と認知が一致しないかと。",
           "tags": [],
-          "timestamp": "2026/08/14 16:22"
+          "timestamp": "2026/08/14 22:12"
         },
         {
-          "user": "mohno",
-          "comment": "まあ、文脈に依存するような質問文、出力を確認せずに使う気はしないけどなあ。/確認したり修正したりするような過程が入るような開発は保守・修正が大変そうだけど。",
+          "user": "uehaj",
+          "comment": "「ひとつ正直に線を引いておくと」あーAIだ。読むのやめた",
+          "tags": [],
+          "timestamp": "2026/08/14 21:21"
+        },
+        {
+          "user": "last-shingari",
+          "comment": "暗黙知を形式知にする過程の共同化で、知的コンバットが必要。仲間の人間でなく今のLLMでそのぶつかり合いができるか？今はまだできないと思う。",
+          "tags": [],
+          "timestamp": "2026/08/14 20:46"
+        },
+        {
+          "user": "bosatsumiroku",
+          "comment": "多くの「ベテラン」もそうだろうが、俺だったら監視下でも巧妙に敵対的データを作り出す自信がある。",
+          "tags": [],
+          "timestamp": "2026/08/14 20:17"
+        },
+        {
+          "user": "akiat",
+          "comment": "いろんなベテランを見てきたけど、やってることはだいたいコピー不可能な個人芸。文書化したところで、その人にはなれないし、なりたいとも思わなかった。",
+          "tags": [],
+          "timestamp": "2026/08/14 20:08"
+        },
+        {
+          "user": "arajin",
+          "comment": "“本人が自覚しているのは「上の層」だけ”→これをLLMに質問させることで言語化する。",
           "tags": [
-            "M_Ozu",
-            "NTTデータ",
+            "言葉",
             "人工知能",
-            "生成AI",
-            "SQL",
-            "開発",
-            "オントロジー"
+            "仕事術"
           ],
-          "timestamp": "2026/08/14 15:52"
-        },
-        {
-          "user": "password1234",
-          "comment": "チャッピー構文だらけだ！",
-          "tags": [],
-          "timestamp": "2026/08/14 14:51"
-        },
-        {
-          "user": "nemoba",
-          "comment": "DDDで境界付けられたコンテキストで意図的に疎結合にした部分が、データレイヤーだとずれてしまう可能性があるという話。直感UIDは何度も失敗してるのでコンテキストは分けてドメイン間でマッピングしたほうが筋いい",
-          "tags": [],
-          "timestamp": "2026/08/14 14:17"
-        },
-        {
-          "user": "tohnishi",
-          "comment": "「同じ会社が別のIDで管理されている」って、それ会社マスターとか無いんかい、AI以前の問題だろって突っ込まざるを得ない。後はお察し。",
-          "tags": [],
-          "timestamp": "2026/08/14 13:47"
-        },
-        {
-          "user": "wordi",
-          "comment": "どっちが正しいってなると一次情報に近い方がより疎結合",
-          "tags": [],
-          "timestamp": "2026/08/14 13:31"
+          "timestamp": "2026/08/14 20:05"
         }
       ],
-      "fetchedAt": "2026-08-14T07:40:31.050815+00:00"
-    },
-    {
-      "id": "h_71305eee",
-      "title": "国内ITシステム11社、30年にAI主導の開発に転換 生産性は最大1.5倍 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 137,
-      "summary": "ITシステムの国内各社が主要な開発工程の担い手を人から人工知能（AI）に切り替える。大手11社の全てが2030年までに設計やプログラミングをAIが主導する体制にする。人手をかける労働集約型から付加価値で稼ぐモデルへの転換を急ぐ。大手11社にシステム開発でのAIの活用の状況や計画について6月に聞き取った。全社が30年...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
-      "comments": [
-        {
-          "user": "issyurn",
-          "comment": "“AIを活用しない場合に比べ生産性は3〜5割高まるとみられる。人はシステムの開発に必要な機能を整理する要件定義のほか、品質確認や現場導入といった顧客との対応に集中して付加価値を高める”あぶれた人はクビかな",
-          "tags": [],
-          "timestamp": "2026/08/14 16:32"
-        },
-        {
-          "user": "Anonymous2000",
-          "comment": "ああ、えぇ、うん、まぁ、えぇっとぉ、うん、そう、はい。",
-          "tags": [],
-          "timestamp": "2026/08/14 16:04"
-        },
-        {
-          "user": "lbtmplz",
-          "comment": "給料が1.5倍かあ、夢がありますね…",
-          "tags": [],
-          "timestamp": "2026/08/14 15:59"
-        },
-        {
-          "user": "hryord",
-          "comment": "まず多重下請をやめた方が生産性上がりそうなラインナップ",
-          "tags": [],
-          "timestamp": "2026/08/14 15:24"
-        },
-        {
-          "user": "findup",
-          "comment": "受託開発だとExcelの設計書やテスト仕様書、エビデンス画面キャプチャは未だに求められるので人間はそういう雑用要員になるのかね。テストコードのテスト項目をExcelにわざわざ起こして客先レビューとか。",
-          "tags": [],
-          "timestamp": "2026/08/14 15:02"
-        },
-        {
-          "user": "daishi_n",
-          "comment": "国内の主要ITベンダー11社（日本IBM、NEC、富士通、日立製作所、日本HP、東芝（含む東芝ソリューション）、デル、マイクロソフト、日本ユニシス、SAP、NTTデータ）らしい https://news.mynavi.jp/techplus/article/20110215-a014/",
-          "tags": [],
-          "timestamp": "2026/08/14 14:55"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:32.220062+00:00"
+      "fetchedAt": "2026-08-14T13:19:18.585699+00:00"
     },
     {
       "id": "h_034da0fe",
       "title": "AI電力網は国民負担？ 大手電力が「6000億円分」値上げ申請 - 日本経済新聞",
       "url": "https://www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 95,
+      "bookmarkCount": 120,
       "summary": "生成AIの「Chat（チャット）GPT」や「Gemini（ジェミニ）」を使うコストは――。生成AIサービスを使う人も使わない人も同じく、データセンターを支える電力網の整備費は電気料金の一部として支払う。その負担が膨張する見通しだ。大量の計算をするAIサービス基盤となる大規模データセンターは多くの電力を消費する。電力供...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
       "comments": [
         {
-          "user": "knowledge7p",
-          "comment": "生成AIを使ってないから使ってる連中だけ値上げしろという主張をTwitterで見て苦笑",
+          "user": "Karosu",
+          "comment": "民間主導か、国が主導かで考えが変わる。ただ、民間の必要経費を国の補助金で賄うのはやめるべきだよな",
           "tags": [],
-          "timestamp": "2026/08/14 16:13"
+          "timestamp": "2026/08/14 21:24"
         },
         {
-          "user": "galvanometer",
-          "comment": "id:operatorは全然違う。従来は送配電網は主に老朽更新で、託送料金で国民全体負担にして実際に動いていた。想定外のデータセンター需要に伴う新規送配電網の投資が必要になったから誰が負担するかの議論になっている",
+          "user": "LM-7",
+          "comment": "現状の制度では一律請求になっているが、AI向け電力設備を性質ごとに分けて負担者を変えるべき",
           "tags": [],
-          "timestamp": "2026/08/14 15:50"
+          "timestamp": "2026/08/14 20:58"
         },
         {
-          "user": "charun",
-          "comment": "データセンター事業者が負担する方向で調整してなかったの…！？どうして日本だけが、すべての国民でカバーしないとダメなのか？との声。x@tabino_sora__",
-          "tags": [
-            "AI問題",
-            "日本",
-            "2026",
-            "お金"
-          ],
-          "timestamp": "2026/08/14 15:34"
-        },
-        {
-          "user": "tettekete37564",
-          "comment": "何でもかんでもAIのせいにすんなwwwwwここ何年も円安と世界情勢の問題で採算取れなくなってきていて2度目の申請だろうが",
+          "user": "DHK41s",
+          "comment": "国内の余剰電力は原発止めた時に無くなったでしょ。 再エネが増えて需要過多の場合は火力が抑止される、それは余力。嫌ならDC事業者に発電所付けさせるとかになるが、環境面で海外DCと同じ問題が発生すると思う。",
           "tags": [],
-          "timestamp": "2026/08/14 15:17"
+          "timestamp": "2026/08/14 19:49"
         },
         {
-          "user": "satotsun56",
-          "comment": "国民が負担するというのは腑に落ちない。",
-          "tags": [
-            "AI",
-            "電力",
-            "電気料金"
-          ],
-          "timestamp": "2026/08/14 14:49"
-        },
-        {
-          "user": "himakao",
-          "comment": "最近、日本デマ経済新聞と化してるけどどうなってるのこれ。",
+          "user": "tigercaffe",
+          "comment": "つまり、俺が生成しているイース8のダーナちゃんのえっちな画像は、6000億円の価値があるということだな！！（大錯乱）",
           "tags": [],
-          "timestamp": "2026/08/14 14:14"
+          "timestamp": "2026/08/14 19:03"
+        },
+        {
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/08/14 18:22"
+        },
+        {
+          "user": "magi-cocolog",
+          "comment": "誰のせいで生じて誰が負担するかでしょ。工場だつたらどうなんだじゃなくて、余裕が無いところに来て限界を超える原因を作ったのなら、そいつが負担しろというだけの話かと",
+          "tags": [],
+          "timestamp": "2026/08/14 18:09"
         }
       ],
-      "fetchedAt": "2026-08-14T07:40:33.215024+00:00"
+      "fetchedAt": "2026-08-14T13:19:22.544632+00:00"
     },
     {
       "id": "h_7ca50ac3",
       "title": "最強のブクマカを決めるB-1グランプリ（賞金11億円）",
       "url": "https://anond.hatelabo.jp/20260814102216",
       "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 79,
+      "bookmarkCount": 89,
       "summary": "多種あるブクマカがルール無しで戦った時… スポーツではなく中傷下ネタありの 『ブコメ』で戦った時 最強のブクマカは誰か！？ その答えの一端がこのトーナメントでわかる 今現在最強のブクマカは決まっていない",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260814102216",
       "comments": [
+        {
+          "user": "himanaossan03",
+          "comment": "もう11億持ってかれたら、流石にはてなもサ終するやろ。",
+          "tags": [],
+          "timestamp": "2026/08/14 21:17"
+        },
+        {
+          "user": "daydollarbotch",
+          "comment": "ゴリラブクマカはidが長すぎてはてな記法が機能してないだけでアカウントは生きてる https://b.hatena.ne.jp/dodododogogogogo1192/",
+          "tags": [],
+          "timestamp": "2026/08/14 20:27"
+        },
+        {
+          "user": "kowyoshi",
+          "comment": "水ダウの説にしよう",
+          "tags": [
+            "はてブ",
+            "はてな村",
+            "はてなでわっしょい！"
+          ],
+          "timestamp": "2026/08/14 20:17"
+        },
+        {
+          "user": "c_shiika",
+          "comment": "増田が一人当たり一億出すのか。お前ら実は超富豪で、そうやって俺等が足掻く姿を観察して楽しんでたんだな",
+          "tags": [],
+          "timestamp": "2026/08/14 18:26"
+        },
+        {
+          "user": "July1st2017",
+          "comment": "★を11億個集めた人が勝者？",
+          "tags": [],
+          "timestamp": "2026/08/14 16:54"
+        },
         {
           "user": "HiddenList",
           "comment": "むしろ　B-11 にしないと",
           "tags": [],
           "timestamp": "2026/08/14 16:36"
-        },
-        {
-          "user": "nmcli",
-          "comment": "開催済みだから 11 億失ったわけか",
-          "tags": [
-            "増田"
-          ],
-          "timestamp": "2026/08/14 16:15"
-        },
-        {
-          "user": "wantan2022",
-          "comment": "ブクマカランキング、大体攻撃性が高いんだよな",
-          "tags": [],
-          "timestamp": "2026/08/14 16:10"
-        },
-        {
-          "user": "frantic87",
-          "comment": "審査員コメントに対して二階建て三階立てで場外乱闘が始まる",
-          "tags": [],
-          "timestamp": "2026/08/14 16:00"
-        },
-        {
-          "user": "kajika0",
-          "comment": "はてなには悪いけど、11億ちょろまかしたやつが田島みたいな歴戦の最強ブクマカだったら熱いな、とは思う。",
-          "tags": [],
-          "timestamp": "2026/08/14 15:59"
-        },
-        {
-          "user": "s17er",
-          "comment": "最強のブクマカが来たらどうなる？→他の連中が恐れおののいてブコメを消す",
-          "tags": [],
-          "timestamp": "2026/08/14 15:55"
         }
       ],
-      "fetchedAt": "2026-08-14T07:40:31.745584+00:00"
+      "fetchedAt": "2026-08-14T13:19:21.790904+00:00"
     },
     {
-      "id": "h_98ea8541",
-      "title": "Claude Codeに「違反できないコード」を書かせる：ガイドとセンサーの設計 - Qiita",
-      "url": "https://qiita.com/shun123/items/7aa06b6982dfd1730af0",
-      "domain": "qiita.com",
-      "bookmarkCount": 79,
-      "summary": "はじめに AIにコードを書かせるようになって、人間の作業は「コードを書く」から「コードが規約を守る仕組みを作る」へ移りつつあります。 この記事は、その仕組みづくりを実際に手を動かして体験するための学習ガイドです。題材として、Hono + TypeScript でオニオンアーキテクチャのタスク管理APIを作ります。ただし、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/shun123/items/7aa06b6982dfd1730af0",
+      "id": "h_224a11ef",
+      "title": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash｜npaka",
+      "url": "https://note.com/npaka/n/n1d08ec975c9f",
+      "domain": "note.com",
+      "bookmarkCount": 45,
+      "summary": "Mythos級ローカルLLMまとめ - Kimi K3・Qwen3.8-Max・GLM-5.2・DeepSeek-V4 Flash 最近話題のMythos級ローカルLLM 「Kimi K3」「Qwen3.8-Max」「GLM-5.2」「DeepSeek-V4 Flash」についてまとめました。 1. はじめに2026年夏、オープンウェイトを中心としたLLMの性能が大きく伸びています。 Arena.aiのFrontend Code Aren...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/n1d08ec975c9f",
       "comments": [
-        {
-          "user": "nakag0711",
-          "comment": "この手のルールってあくまで経験則で、厳密な意味で正しいと証明されたものは皆無だから、厳密に強制してしまうとそれはそれでおかしなものになりそう",
-          "tags": [],
-          "timestamp": "2026/08/14 14:18"
-        },
-        {
-          "user": "Magicant",
-          "comment": "AI に雑に依頼するとこんな風に最初から全部入りでやらうとするけれども、うまくいってるかどうかと何を改善すべきかを自分で確かめながら小出しに設定していくことをお勧めします",
-          "tags": [
-            "AIプログラミング",
-            "システム開発"
-          ],
-          "timestamp": "2026/08/14 12:04"
-        },
-        {
-          "user": "lenore",
-          "comment": "エンジニアは楽になるための苦労は厭わない。",
-          "tags": [],
-          "timestamp": "2026/08/14 08:36"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "AIにコード書かせるために厳密なガイドとセンサー用意する手間考えると本末転倒感もあるが胸アツな実験だな",
-          "tags": [],
-          "timestamp": "2026/08/14 08:08"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "規約をCLAUDE.mdの散文から型・lint・依存検査に移し、違反が成立しない状態を作るのが肝。エラーメッセージを修正手順として書きAIに自己修正させる設計が効く",
-          "tags": [],
-          "timestamp": "2026/08/14 07:23"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:34.138018+00:00"
-    },
-    {
-      "id": "h_fde6763d",
-      "title": "なぜベテランの暗黙知は、文書化しても継承できないのか | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
-      "domain": "dev.classmethod.jp",
-      "bookmarkCount": 71,
-      "summary": "ベテランの判断を若手に引き継ごうとマニュアル化しても、肝心の部分は毎回こぼれ落ちます。理由はシンプルで、本人が「言語化できていない・そもそも言語化すべきだと気づいていない」判断こそが価値の中心だからです。この記事では、なぜ暗黙知の継承が長年うまくいかなかったのか、その構造と、いまLLMで何が変わりつ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
-      "comments": [
-        {
-          "user": "doko",
-          "comment": "文書化しようとするからかなぁ。でも業種・業務・内容・程度によると思う",
-          "tags": [
-            "ネット",
-            "GPT"
-          ],
-          "timestamp": "2026/08/14 16:19"
-        },
-        {
-          "user": "rgfx",
-          "comment": "これを思い出している https://zenn.dev/mizchi/articles/empirical-prompt-tuning https://x.com/mizchi/status/2039915461715067033",
-          "tags": [],
-          "timestamp": "2026/08/14 15:54"
-        },
-        {
-          "user": "ssig33",
-          "comment": "自称「ベテラン」がこういうAIまるだしのいいかげんな記事を書いたりするからでしょ",
-          "tags": [],
-          "timestamp": "2026/08/14 15:54"
-        },
-        {
-          "user": "door-s-dev",
-          "comment": "言語化が難しいの方が本質だと思うので、継承の部分のそこはどうにでもなる感じにモヤっとした",
-          "tags": [],
-          "timestamp": "2026/08/14 15:43"
-        },
-        {
-          "user": "yy00610106",
-          "comment": "お、これはいい野中郁次郎dis。形式化されないからこその暗黙知ですよね",
-          "tags": [],
-          "timestamp": "2026/08/14 15:19"
-        },
-        {
-          "user": "yellowdomestic",
-          "comment": "当たり前の様な前提って説明するにあたって言語化するとすごくバカっぽいので語りたがらないんだよ",
-          "tags": [],
-          "timestamp": "2026/08/14 15:09"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:32.561291+00:00"
-    },
-    {
-      "id": "h_4f9a7911",
-      "title": "⾏政⼿続等調査データ（約75,000件）をMCPで⾃然⾔語分析可能に｜デジタル庁",
-      "url": "https://digital-gov.note.jp/n/n56aaf580bfb6",
-      "domain": "digital-gov.note.jp",
-      "bookmarkCount": 71,
-      "summary": "はじめにデジタル庁プロダクトマネージャーの土岐竜一です。事業者向けシステムや自治体窓口DX SaaS等を担当しています。 本記事では、デジタル庁が公表する行政手続等の調査（令和6年度悉皆調査）の結果データ約75,000件を対象に、対話形式で自然言語による分析を行える、技術検証目的の簡易的な実装を紹介します。分析...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/digital-gov.note.jp/n/n56aaf580bfb6",
-      "comments": [
-        {
-          "user": "south-radburn-2023",
-          "comment": "確定申告とかと相性良さそう",
-          "tags": [],
-          "timestamp": "2026/08/14 15:02"
-        },
-        {
-          "user": "minboo",
-          "comment": "こういうのに対してチームみらいはちゃんとレビューしてほしいなぁ。行政府を監視するのも立法府の仕事なんで",
-          "tags": [],
-          "timestamp": "2026/08/14 11:32"
-        },
-        {
-          "user": "Sukkiri",
-          "comment": "こういうの見た目は良いのだけど、行政サービスとしてどこまで手を出すべきなんだろうか",
-          "tags": [],
-          "timestamp": "2026/08/14 09:45"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "デジ庁がMCPサーバー作ってParquetとYAMLでAI readyデータ公開するの本気度高くて草",
-          "tags": [],
-          "timestamp": "2026/08/14 09:05"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:33.772962+00:00"
-    },
-    {
-      "id": "h_2477b023",
-      "title": "Claude文章で｢AI製｣バレる? コピペでも残る電子透かしにネット反発 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 67,
-      "summary": "【シリコンバレー=山田遼太郎】米新興アンソロピックが人工知能（AI）「クロード」が生成した文章をAI製だと判別できるようにすると発表した。AI編集の証拠を残す「電子透かし」と呼ぶ手法だが、AIをどう使ったのか正確に検知するのは難しく、一部のユーザーの反発を招いている。8月以降に世界で導入、EUの規制に対応ア...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
-      "comments": [
-        {
-          "user": "BigWhiteDog",
-          "comment": "手を抜いてるんだから手を抜いてるってマークつけても別にええやろ？",
-          "tags": [],
-          "timestamp": "2026/08/14 15:17"
-        },
-        {
-          "user": "georgew",
-          "comment": "検知手法についてはClaudeが公開するんじゃなかったっけ？",
-          "tags": [],
-          "timestamp": "2026/08/14 14:43"
-        },
-        {
-          "user": "ytRino",
-          "comment": "反発なんて聞いたことがないが全文を見てないので謎のまま",
-          "tags": [
-            "news",
-            "AI"
-          ],
-          "timestamp": "2026/08/14 14:16"
-        },
-        {
-          "user": "ikihaji_kun",
-          "comment": "AI製は他のツールを使うのと同じと言ってた連中がAIポン出しとAI使って推敲したのは違うと\"お気持ち\"を表明してるのは滑稽。大事なのは過程じゃなくて結果って言ってたよね君ら",
-          "tags": [],
-          "timestamp": "2026/08/14 14:02"
-        },
-        {
-          "user": "bopperjp",
-          "comment": "Gemini の生成文章にはすでに Synth ID Text が入ってるですけど。。",
-          "tags": [],
-          "timestamp": "2026/08/14 13:21"
-        },
-        {
-          "user": "elsheep",
-          "comment": "AI製でも、人がちゃんとレビューして何度も書き直した文章と、適当なプロンプトで一発生成でできた文章で、生成した本人も読んでない文章を区別したい。",
-          "tags": [],
-          "timestamp": "2026/08/14 13:18"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:35.212619+00:00"
-    },
-    {
-      "id": "h_3e3d295d",
-      "title": "ライザップ社員、建設職人に転向 「ブルーカラー転職」500人 AI活用で事務省人化 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGKKZO98113760S6A810C2TB3000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 33,
-      "summary": "フィットネスジム運営のRIZAPグループが社員500人を建設職人に転向させる試みを始めた。人工知能（AI）の活用により業務を効率化できた分、人材を新規事業で生かす狙いだという。ブルーカラー転職の成功モデルになるのか。現場を訪ねた。7月上旬、埼玉県上里町の同社施設ではヘルメットをかぶった社員が軽量鉄骨を天井に...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGKKZO98113760S6A810C2TB3000/",
-      "comments": [
-        {
-          "user": "door-s-dev",
-          "comment": "そのうち職業訓練施設として認定されたりして",
-          "tags": [],
-          "timestamp": "2026/08/14 16:16"
-        },
-        {
-          "user": "ilktm",
-          "comment": "チョコザップの内装を自社でやってるうちに建設業やれそうってなったらしい",
-          "tags": [],
-          "timestamp": "2026/08/14 16:02"
-        },
-        {
-          "user": "mickn",
-          "comment": "社員だけでなくライザップ利用者にまで転職を勧めるようになるかな",
-          "tags": [],
-          "timestamp": "2026/08/14 15:49"
-        },
-        {
-          "user": "kaionji",
-          "comment": "練習施設まであるのすごい。私もライザップに転職して業種転換しようかな。",
-          "tags": [],
-          "timestamp": "2026/08/14 15:13"
-        },
-        {
-          "user": "nemoba",
-          "comment": "仕事して痩せるとかできそう",
-          "tags": [],
-          "timestamp": "2026/08/14 14:20"
-        },
-        {
-          "user": "tamoriinu_3",
-          "comment": "これで痩せれば宣伝にもなるか",
-          "tags": [],
-          "timestamp": "2026/08/14 13:28"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:34.461755+00:00"
-    },
-    {
-      "id": "h_da34f179",
-      "title": "「紙のカレンダーvs.デジタルカレンダー」、書いた予定をよく覚えているのは？ 東大などが脳活動を調査",
-      "url": "https://www.itmedia.co.jp/news/article/2608/14/2000000477/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 31,
-      "summary": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/14/2000000477/",
-      "comments": [
-        {
-          "user": "s-supporter",
-          "comment": "私は日記は手書きですが、スケジュール管理はデジタルを使っています。予定を詳細に覚えなくても滞りなく行動できるようにするのが目的で（リマインド設定も含めて）、デジタルカレンダーを使っているので。",
-          "tags": [],
-          "timestamp": "2026/08/14 16:06"
-        },
         {
           "user": "theatrical",
-          "comment": "GTD的なカルチャーの人間なのでむしろ忘れたいまであるけども。",
+          "comment": "MoEとかhbf使ってアクティブではないエキスパートをhbfにオフロードしてメモリ減らすみたいな方向に行ったりしないのかしら。",
           "tags": [],
-          "timestamp": "2026/08/14 16:05"
+          "timestamp": "2026/08/14 20:33"
         },
         {
-          "user": "cinefuk",
-          "comment": "自分のことを信用してないのでGoogleカレンダーのリマインダーに教えてもらう仕組み",
+          "user": "dslvan",
+          "comment": "メモリ食い過ぎぃ まだ一般のローカルPCじゃ無理なレベルですな",
           "tags": [],
-          "timestamp": "2026/08/14 15:26"
+          "timestamp": "2026/08/14 20:24"
         },
         {
-          "user": "kojikoji75",
-          "comment": "少し前の研究ではあるものの、カレンダーってそもそも予定を「記憶する」ためというより、「記憶しておかなくていい」ようにする道具なので、実験の前提にいろいろツッコミどころがありそう。",
+          "user": "auto_chan",
+          "comment": "Kimi K3ローカル（プレイベートデータセンターを建設）ｷﾋﾞｼｰ",
           "tags": [],
-          "timestamp": "2026/08/14 14:57"
+          "timestamp": "2026/08/14 19:53"
         },
         {
-          "user": "totoronoki",
-          "comment": "確実に覚えられるならいいんだが、そうではないからいつでも確認できる場所に記録する仕組みを作ったわけで。",
+          "user": "harumomo2006",
+          "comment": "npaka先生、このクラスをローカルLLMって言うのやめてもらっていいですか",
           "tags": [],
-          "timestamp": "2026/08/14 13:41"
-        },
-        {
-          "user": "m-kawato",
-          "comment": "記憶できないから書き出すのではなく？",
-          "tags": [],
-          "timestamp": "2026/08/14 13:02"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:35.984394+00:00"
-    },
-    {
-      "id": "h_7f858909",
-      "title": "Appleからのスパイウェア攻撃を警告するプッシュ通知は真剣に受け止める必要あり",
-      "url": "https://gigazine.net/news/20260814-apple-sends-notification-alerting-spyware/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 11,
-      "summary": "Appleはデバイスへのハッキングが可能なスパイウェアの標的になった疑いがあるユーザーに対して、「脅威の通知」と呼ばれるプッシュ通知を定期的に送信しています。 Appleの脅威の通知と金銭目当てのスパイウェアへの対策について - Apple サポート (日本) https://support.apple.com/ja-jp/102174 If Apple sends you a...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260814-apple-sends-notification-alerting-spyware/",
-      "comments": [
-        {
-          "user": "casm",
-          "comment": "「…「脅威の通知」と呼ばれるプッシュ通知を【定期的に】送信しています。」原文は”on occasion”なので、不定期です。",
-          "tags": [],
-          "timestamp": "2026/08/14 16:31"
-        }
-      ],
-      "fetchedAt": "2026-08-14T07:40:34.827095+00:00"
-    },
-    {
-      "id": "h_315af83c",
-      "title": "「ラジコンで音速の壁を破れ！」賞金1億円超コンペ開催！ 背景にイーロン・マスク氏も注目の「バケモノマシン」の存在（1/3 ページ） | 乗りものニュース",
-      "url": "https://trafficnews.jp/post/696273",
-      "domain": "trafficnews.jp",
-      "bookmarkCount": 9,
-      "summary": "アメリカでアマチュアによる超音速ラジコン機のコンペが始まりました。賞金総額は1億円以上。この動きのきっかけは、ある学生が作った1機のラジコンでした。 きっかけは学生が作った“最速ラジコン” アメリカで、アマチュアが自分で航空機を製作設計し、初めて超音速を達成するプロジェクトが始まりました。これはコンペ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/trafficnews.jp/post/696273",
-      "comments": [
-        {
-          "user": "izure",
-          "comment": "安全に楽しんでほしい。",
-          "tags": [],
-          "timestamp": "2026/08/14 16:26"
-        },
-        {
-          "user": "mrmt",
-          "comment": "これはアツい",
-          "tags": [],
-          "timestamp": "2026/08/14 15:18"
+          "timestamp": "2026/08/14 18:28"
         },
         {
           "user": "strawberryhunter",
-          "comment": "最近はラジコンも全部ドローンと言うので、久しぶりに聞いた。800km/hは旅客機のスピード。こんなのが民家に突っ込んで来たら死ぬかもしれない。",
+          "comment": "Kimi K3とQwen3.8-Maxはサイズだけ見て「やめとこ」って思える。GLM-5.2はllama.cppの対応の問題で満足な速度で動かせなかったな。",
           "tags": [
             "未分類"
           ],
-          "timestamp": "2026/08/14 14:59"
-        },
-        {
-          "user": "sgo2",
-          "comment": "\"市販のラジコン機用ジェットエンジン\"",
-          "tags": [],
-          "timestamp": "2026/08/14 14:29"
+          "timestamp": "2026/08/14 17:55"
         }
       ],
-      "fetchedAt": "2026-08-14T07:40:35.648231+00:00"
+      "fetchedAt": "2026-08-14T13:19:19.619308+00:00"
+    },
+    {
+      "id": "h_8d7beddc",
+      "title": "「Gemini Notebook」（a.k.a. NotebookLM）が情報ソースを自動で追加可能に／「Google Workspace Studio」で「Gemini Notebook」へのソース追加を自動化",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2132782.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 24,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2132782.html",
+      "comments": [
+        {
+          "user": "cartman0",
+          "comment": "errata更新されるタイプのPDF資料を、配布先から自動で更新してくれるなら便利だな",
+          "tags": [],
+          "timestamp": "2026/08/14 21:50"
+        },
+        {
+          "user": "bad-movie-guy",
+          "comment": "FKAじゃないの",
+          "tags": [],
+          "timestamp": "2026/08/14 20:22"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:21.081602+00:00"
+    },
+    {
+      "id": "h_09c1dc25",
+      "title": "The 37signals Manager Playbook",
+      "url": "https://basecamp.com/managers",
+      "domain": "basecamp.com",
+      "bookmarkCount": 22,
+      "summary": "Heads up! This page uses features your browser doesn’t support. Try a modern browser like Firefox or Chrome for the best experience. sidebar#close mouseup->tweet#update input->tweet#update keydown->tweet#update scroll@window->tweet#update\" ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/basecamp.com/managers",
+      "comments": [
+        {
+          "user": "tnoda78",
+          "comment": "“In”",
+          "tags": [],
+          "timestamp": "2026/08/14 22:01"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "英語だけどマネージャー層向けのノウハウとしては普通に参考になりそう",
+          "tags": [],
+          "timestamp": "2026/08/14 21:33"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:18.872089+00:00"
+    },
+    {
+      "id": "h_f0fbe339",
+      "title": "DeepSeek、すべてがプラグインでできたAIエージェント基盤「DeepSeek Harness」",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132785.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 22,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132785.html",
+      "comments": [
+        {
+          "user": "dbfireball",
+          "comment": "公開済みのプラグインと存在しないならAIで自分好みのプラグイン作らせて補完、で全ていけるんかな",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/08/14 21:04"
+        },
+        {
+          "user": "pendamadura",
+          "comment": "comfyuiみたいな感じ？",
+          "tags": [],
+          "timestamp": "2026/08/14 19:59"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "組み込みツールとMCPは同一だろ、とは思ってたけど、ここまで分解してくれているなら、なんかもう、これでいいかな。いや、TypeScriptか。",
+          "tags": [
+            "中国"
+          ],
+          "timestamp": "2026/08/14 18:03"
+        },
+        {
+          "user": "iinalabkojocho",
+          "comment": "結構過激なアプローチ。Piに近いようでプラグインのみってすげーな。プラグインが開発されれば面白くなると。オープンで野生っぽいアプローチ。",
+          "tags": [
+            "ニュース"
+          ],
+          "timestamp": "2026/08/14 14:26"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:20.732767+00:00"
+    },
+    {
+      "id": "h_b8ef8372",
+      "title": "Windows Defender脆弱性対処は不適切。新ゼロデイ脆弱性「ShieldBrake」",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132712.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 22,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132712.html",
+      "comments": [
+        {
+          "user": "zsehnuy_cohriy",
+          "comment": "MSがアレだとしても某氏、もうこれ私怨でやってるよね。",
+          "tags": [],
+          "timestamp": "2026/08/14 19:03"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:22.784781+00:00"
+    },
+    {
+      "id": "h_e0a464bd",
+      "title": "ChatGPT、PC操作やWeb閲覧履歴を記録し、作業の自動化を助ける機能",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132795.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 20,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132795.html",
+      "comments": [
+        {
+          "user": "TETSUYA01",
+          "comment": "ということは我らの場合はチャッピーが勝手にブクマして勝手にブコメを書いてくれるのか。",
+          "tags": [],
+          "timestamp": "2026/08/14 20:55"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "操作ログから勝手にコンテキスト汲み取ってくれるのは未来感あるけど、誤爆した時のセキュリティとプライバシーが怖すぎる",
+          "tags": [],
+          "timestamp": "2026/08/14 20:03"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:23.223183+00:00"
+    },
+    {
+      "id": "h_2d8304f5",
+      "title": "豪雨に備える防災アプリ・サービスまとめ 雨雲レーダーからハザードマップ、通れた道まで",
+      "url": "https://www.itmedia.co.jp/news/article/2608/14/2000000549/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 13,
+      "summary": "豪雨による被害が各地で相次いでいる。 千葉県では8月13日午後から14日未明にかけて記録的な大雨となり、道路の冠水や家屋の浸水など深刻な被害が出た。 集中豪雨や台風による被害は各地で相次いでおり、備えの重要性が増している。防災に使えるアプリやサービスをまとめる。 備える：災害情報のプッシュ通知をアプリで...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/14/2000000549/",
+      "comments": [],
+      "fetchedAt": "2026-08-14T13:19:20.264553+00:00"
+    },
+    {
+      "id": "h_2b11436e",
+      "title": "タスクマネージャー開発者が作ったmacOSでも使える「Task Manager OG」",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132786.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 12,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132786.html",
+      "comments": [
+        {
+          "user": "strawberryhunter",
+          "comment": "もうできたのか。macOSのはCPU使いまくりだけど、これのCPU使用率はどうなの？",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/14 22:18"
+        },
+        {
+          "user": "yamadar",
+          "comment": "試してみる",
+          "tags": [
+            "Mac",
+            "アプリ",
+            "PC"
+          ],
+          "timestamp": "2026/08/14 21:59"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "元祖タスクマネージャーの開発者が直々に作ったとか胸熱すぎる。アクティビティモニタに不満あったからMac版試してみるわ",
+          "tags": [],
+          "timestamp": "2026/08/14 20:03"
+        },
+        {
+          "user": "lli",
+          "comment": "試してみよ",
+          "tags": [],
+          "timestamp": "2026/08/14 19:46"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:22.137559+00:00"
+    },
+    {
+      "id": "h_bf821092",
+      "title": "Engineering managers who build are pulling ahead",
+      "url": "https://leaddev.com/management/engineering-managers-who-build-are-pulling-ahead",
+      "domain": "leaddev.com",
+      "bookmarkCount": 9,
+      "summary": "You have 1 article left to read this month before you need to register a free LeadDev.com account. Estimated reading time: 5 minutes Key takeaways: Engineering managers now need hands-on building experience to lead effectively. Taste (and t",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/leaddev.com/management/engineering-managers-who-build-are-pulling-ahead",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "AI時代はEMも自ら手を動かしてAIの粗を見抜く審美眼が必要って話、身につまされるな",
+          "tags": [],
+          "timestamp": "2026/08/14 20:41"
+        }
+      ],
+      "fetchedAt": "2026-08-14T13:19:23.523745+00:00"
     }
   ],
-  "lastCollection": "2026-08-14T07:40:35.984418+00:00"
+  "lastCollection": "2026-08-14T13:19:23.523772+00:00"
 }
