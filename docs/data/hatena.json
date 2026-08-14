@@ -1,222 +1,240 @@
 {
   "entries": [
     {
-      "id": "h_3c6f4437",
-      "title": "Webサービスの終わらせ方",
-      "url": "https://zenn.dev/kibe/articles/df74c2e9fe76b6",
-      "domain": "zenn.dev",
-      "bookmarkCount": 242,
-      "summary": "作るより消すほうが大変 Webサービスは、作るときより終わらせるときのほうが面倒です。 少なくとも私はそうでした。 作り始めたころは、 「Cloudflare Workers便利！」 「Supabase最高！」 「決済もSaaSでいける！」 「AIも載せちゃおう！」 「監視も入れとくか！」 と、現代Web開発の恩恵を浴びながら、楽しそうに外部...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kibe/articles/df74c2e9fe76b6",
-      "comments": [
-        {
-          "user": "showgotch",
-          "comment": "勉強になった。これをしなきゃいけない、が法律で気待ってるとこがどこか知りたかったな",
-          "tags": [],
-          "timestamp": "2026/08/14 10:10"
-        },
-        {
-          "user": "t-murachi",
-          "comment": "良い記事。終わらない人生などないのだ。大事。",
-          "tags": [
-            "Webサービス",
-            "運用",
-            "Web開発"
-          ],
-          "timestamp": "2026/08/14 09:03"
-        },
-        {
-          "user": "mrmt",
-          "comment": "ご自分で作ったのをすぐご自分で仕舞ったのでハッピーなパターンかな? ドメインの永久看取り手配と、資金決済法20条に基づく払戻告知を期間経過1年後に下げるとかまでやると一人前のプロだよ! w",
-          "tags": [],
-          "timestamp": "2026/08/14 08:55"
-        },
-        {
-          "user": "shaw",
-          "comment": "決済もやってるとサービス停止のステップが増えて面倒なんだよなぁ。",
-          "tags": [
-            "webサービス"
-          ],
-          "timestamp": "2026/08/14 08:34"
-        },
-        {
-          "user": "tripleflat",
-          "comment": "ちょうど今バイブコーディングで楽しくサービス立ち上げてて外部連携とかユーザー登録とかやり始まった所なので、気が引き締まりました",
-          "tags": [],
-          "timestamp": "2026/08/14 08:12"
-        },
-        {
-          "user": "nowww",
-          "comment": "サービスを終わらせる時が大変だから、有料会員は作らないようにしている。注意するのは期間保証の広告だけかな",
-          "tags": [],
-          "timestamp": "2026/08/14 07:37"
-        }
-      ],
-      "fetchedAt": "2026-08-14T02:26:20.118873+00:00"
-    },
-    {
       "id": "h_1e7fd847",
       "title": "AIに同じ質問をしたら、部署ごとに違う数字が返ってきた ― いま「オントロジー」と呼ばれているもの ― - Qiita",
       "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
       "domain": "qiita.com",
-      "bookmarkCount": 188,
+      "bookmarkCount": 258,
       "summary": "同じ質問を投げたのに、部署ごとに違う数字が返ってくる。しかも、どちらのAIも間違ってない。 生成AIを業務に入れた組織で、いま静かに起きている現象です。この記事では、その正体を解きほぐしたうえで、2025年くらいから主要ベンダーが揃って使い始めた「オントロジー」という言葉が、いま何を指し、技術的に何を作る...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
       "comments": [
         {
-          "user": "FreeCatWork",
-          "comment": "部署で数字が違うなんてボク困っちゃうにゃ。みんなで仲良く揃えるにゃ！",
+          "user": "hiroyuki1983",
+          "comment": "そういうクソ怠くてクソ面白くない仕事は引き続き人間がやるから大丈夫だよ",
           "tags": [],
-          "timestamp": "2026/08/14 11:17"
+          "timestamp": "2026/08/14 16:22"
         },
         {
-          "user": "r-west",
-          "comment": "Palantirって、女子小学生150人爆殺したり https://x.gd/UWdTO 、弱小国の人間を殺して大儲けしてる会社ですね",
+          "user": "mohno",
+          "comment": "まあ、文脈に依存するような質問文、出力を確認せずに使う気はしないけどなあ。/確認したり修正したりするような過程が入るような開発は保守・修正が大変そうだけど。",
+          "tags": [
+            "M_Ozu",
+            "NTTデータ",
+            "人工知能",
+            "生成AI",
+            "SQL",
+            "開発",
+            "オントロジー"
+          ],
+          "timestamp": "2026/08/14 15:52"
+        },
+        {
+          "user": "password1234",
+          "comment": "チャッピー構文だらけだ！",
           "tags": [],
-          "timestamp": "2026/08/14 11:14"
+          "timestamp": "2026/08/14 14:51"
         },
         {
-          "user": "s17er",
-          "comment": "アレやっといてみたいなプロンプトで何もかも出来ると思ってる人いるのかな、怖いんだけど",
+          "user": "nemoba",
+          "comment": "DDDで境界付けられたコンテキストで意図的に疎結合にした部分が、データレイヤーだとずれてしまう可能性があるという話。直感UIDは何度も失敗してるのでコンテキストは分けてドメイン間でマッピングしたほうが筋いい",
           "tags": [],
-          "timestamp": "2026/08/14 10:52"
+          "timestamp": "2026/08/14 14:17"
         },
         {
-          "user": "hatest",
-          "comment": "最初のAIへの指示、「先月の～」と指示しているのに「 >= '2026-07-01'」って今月も入ってるので両部署とも誤った数字が出ると思う。終了日の指定はしないんか？",
-          "tags": [
-            "スルー力足りない"
-          ],
-          "timestamp": "2026/08/14 10:44"
+          "user": "tohnishi",
+          "comment": "「同じ会社が別のIDで管理されている」って、それ会社マスターとか無いんかい、AI以前の問題だろって突っ込まざるを得ない。後はお察し。",
+          "tags": [],
+          "timestamp": "2026/08/14 13:47"
         },
         {
-          "user": "gonai",
-          "comment": "オンドゥル？",
-          "tags": [
-            "AI",
-            "ネタ"
-          ],
-          "timestamp": "2026/08/14 10:35"
-        },
-        {
-          "user": "lycolia",
-          "comment": "オントロジーというのは共通認識のことでそこが違うが為にAIの動きが変わる。要は人間における認識の相違。事例ではデータクレンジング不足が挙げられている",
-          "tags": [
-            "AI",
-            "仕事",
-            "IT",
-            "開発"
-          ],
-          "timestamp": "2026/08/14 10:15"
+          "user": "wordi",
+          "comment": "どっちが正しいってなると一次情報に近い方がより疎結合",
+          "tags": [],
+          "timestamp": "2026/08/14 13:31"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:18.006864+00:00"
-    },
-    {
-      "id": "h_3cecbac9",
-      "title": "続・貧者のアークテクチャ：Next.js + Cloudflare Workers + Turso 本番運用で踏んだ罠ぜんぶ",
-      "url": "https://zenn.dev/nabettu/articles/a964f988e7cc75",
-      "domain": "zenn.dev",
-      "bookmarkCount": 91,
-      "summary": "前作はDBをFirestoreにしていましたが、今回はリレーショナルなデータが多いサービスなので、SQLiteをエッジから引けるTursoにしました。 コストを正直に書いておくと、Workers Paid（$5/月）だけは必須です。理由は3つ。 Workerのバンドルサイズ: OpenNextでビルドしたNext.jsアプリのworkerは、うちの規模でgzip後3.6M...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nabettu/articles/a964f988e7cc75",
-      "comments": [
-        {
-          "user": "o-meisou",
-          "comment": "さくらのVPS1GB807円と値段はほぼ変わらんね。sqliteとRailsでだいたいできるし、AI構築でインフラもほぼお任せできるし。って、既存技術ばかりを阿ってもだめだね。",
-          "tags": [],
-          "timestamp": "2026/08/14 10:30"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "あれ、私SSRで金払ってないけど違う構成だったかな。",
-          "tags": [],
-          "timestamp": "2026/08/14 07:53"
-        },
-        {
-          "user": "hogetax",
-          "comment": "Cloudflare が今ホントにありがたいｗ",
-          "tags": [],
-          "timestamp": "2026/08/14 07:39"
-        },
-        {
-          "user": "simplememofast",
-          "comment": "エッジは常設TCPを持たずSQL1文ごとにHTTPS往復が乗るので、N+1がスループットでなく遅延の問題に変わる。だからbatchと並列化が通常のサーバー以上に効いてくる",
-          "tags": [],
-          "timestamp": "2026/08/14 07:25"
-        },
-        {
-          "user": "hasiduki",
-          "comment": "がんばってる！！！！！！！",
-          "tags": [],
-          "timestamp": "2026/08/14 07:23"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "月5ドルの貧者構成なのに地味にリアルタイム通信まで載せてて草。罠の踏み抜き方が実践的で助かる",
-          "tags": [],
-          "timestamp": "2026/08/14 07:10"
-        }
-      ],
-      "fetchedAt": "2026-08-14T02:26:21.773676+00:00"
+      "fetchedAt": "2026-08-14T07:40:31.050815+00:00"
     },
     {
       "id": "h_71305eee",
       "title": "国内ITシステム11社、30年にAI主導の開発に転換 生産性は最大1.5倍 - 日本経済新聞",
       "url": "https://www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 85,
+      "bookmarkCount": 137,
       "summary": "ITシステムの国内各社が主要な開発工程の担い手を人から人工知能（AI）に切り替える。大手11社の全てが2030年までに設計やプログラミングをAIが主導する体制にする。人手をかける労働集約型から付加価値で稼ぐモデルへの転換を急ぐ。大手11社にシステム開発でのAIの活用の状況や計画について6月に聞き取った。全社が30年...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
       "comments": [
         {
-          "user": "paradisemaker",
-          "comment": "遅いよ",
+          "user": "issyurn",
+          "comment": "“AIを活用しない場合に比べ生産性は3〜5割高まるとみられる。人はシステムの開発に必要な機能を整理する要件定義のほか、品質確認や現場導入といった顧客との対応に集中して付加価値を高める”あぶれた人はクビかな",
           "tags": [],
-          "timestamp": "2026/08/14 11:24"
+          "timestamp": "2026/08/14 16:32"
         },
         {
-          "user": "soulfulmiddleagedman",
-          "comment": "肌感覚だと、最大 10倍とかない？ループエンジニアリングとかしてないけど、そんなことできたら、もっと上がるのは、明白。",
+          "user": "Anonymous2000",
+          "comment": "ああ、えぇ、うん、まぁ、えぇっとぉ、うん、そう、はい。",
           "tags": [],
-          "timestamp": "2026/08/14 11:24"
+          "timestamp": "2026/08/14 16:04"
         },
         {
-          "user": "peatnnuts",
-          "comment": "\"システム開発でのAI活用について聞き取りした11社は以下の通り。NTTデータ、日立製作所、富士通、NEC、日本IBM、NRI、伊藤忠テクノソリューションズ、SCSK、TISI、BIPROGY、日鉄ソリューションズ。\"/ 単価下げたくない人の回答",
+          "user": "lbtmplz",
+          "comment": "給料が1.5倍かあ、夢がありますね…",
           "tags": [],
-          "timestamp": "2026/08/14 11:05"
+          "timestamp": "2026/08/14 15:59"
         },
         {
-          "user": "beerbeerkun",
-          "comment": "独自の付加価値付けないと単なる中抜きの立場になってそもそも要らないってなりそう",
+          "user": "hryord",
+          "comment": "まず多重下請をやめた方が生産性上がりそうなラインナップ",
           "tags": [],
-          "timestamp": "2026/08/14 11:02"
+          "timestamp": "2026/08/14 15:24"
         },
         {
-          "user": "hdampty7",
-          "comment": "自社開発だけどうちはもう生産性は最低5倍にはなってる。デベロッパーも新規案件だとかなり効率化できそう。既存の方がお金はたくさん落ちるんだけど維持がメインだからなぁ。",
+          "user": "findup",
+          "comment": "受託開発だとExcelの設計書やテスト仕様書、エビデンス画面キャプチャは未だに求められるので人間はそういう雑用要員になるのかね。テストコードのテスト項目をExcelにわざわざ起こして客先レビューとか。",
           "tags": [],
-          "timestamp": "2026/08/14 10:57"
+          "timestamp": "2026/08/14 15:02"
         },
         {
-          "user": "sabro",
-          "comment": "30年まではAGIが達成されないと、暗に言っているよね",
+          "user": "daishi_n",
+          "comment": "国内の主要ITベンダー11社（日本IBM、NEC、富士通、日立製作所、日本HP、東芝（含む東芝ソリューション）、デル、マイクロソフト、日本ユニシス、SAP、NTTデータ）らしい https://news.mynavi.jp/techplus/article/20110215-a014/",
           "tags": [],
-          "timestamp": "2026/08/14 10:53"
+          "timestamp": "2026/08/14 14:55"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:18.404699+00:00"
+      "fetchedAt": "2026-08-14T07:40:32.220062+00:00"
+    },
+    {
+      "id": "h_034da0fe",
+      "title": "AI電力網は国民負担？ 大手電力が「6000億円分」値上げ申請 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 95,
+      "summary": "生成AIの「Chat（チャット）GPT」や「Gemini（ジェミニ）」を使うコストは――。生成AIサービスを使う人も使わない人も同じく、データセンターを支える電力網の整備費は電気料金の一部として支払う。その負担が膨張する見通しだ。大量の計算をするAIサービス基盤となる大規模データセンターは多くの電力を消費する。電力供...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
+      "comments": [
+        {
+          "user": "knowledge7p",
+          "comment": "生成AIを使ってないから使ってる連中だけ値上げしろという主張をTwitterで見て苦笑",
+          "tags": [],
+          "timestamp": "2026/08/14 16:13"
+        },
+        {
+          "user": "galvanometer",
+          "comment": "id:operatorは全然違う。従来は送配電網は主に老朽更新で、託送料金で国民全体負担にして実際に動いていた。想定外のデータセンター需要に伴う新規送配電網の投資が必要になったから誰が負担するかの議論になっている",
+          "tags": [],
+          "timestamp": "2026/08/14 15:50"
+        },
+        {
+          "user": "charun",
+          "comment": "データセンター事業者が負担する方向で調整してなかったの…！？どうして日本だけが、すべての国民でカバーしないとダメなのか？との声。x@tabino_sora__",
+          "tags": [
+            "AI問題",
+            "日本",
+            "2026",
+            "お金"
+          ],
+          "timestamp": "2026/08/14 15:34"
+        },
+        {
+          "user": "tettekete37564",
+          "comment": "何でもかんでもAIのせいにすんなwwwwwここ何年も円安と世界情勢の問題で採算取れなくなってきていて2度目の申請だろうが",
+          "tags": [],
+          "timestamp": "2026/08/14 15:17"
+        },
+        {
+          "user": "satotsun56",
+          "comment": "国民が負担するというのは腑に落ちない。",
+          "tags": [
+            "AI",
+            "電力",
+            "電気料金"
+          ],
+          "timestamp": "2026/08/14 14:49"
+        },
+        {
+          "user": "himakao",
+          "comment": "最近、日本デマ経済新聞と化してるけどどうなってるのこれ。",
+          "tags": [],
+          "timestamp": "2026/08/14 14:14"
+        }
+      ],
+      "fetchedAt": "2026-08-14T07:40:33.215024+00:00"
+    },
+    {
+      "id": "h_7ca50ac3",
+      "title": "最強のブクマカを決めるB-1グランプリ（賞金11億円）",
+      "url": "https://anond.hatelabo.jp/20260814102216",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 79,
+      "summary": "多種あるブクマカがルール無しで戦った時… スポーツではなく中傷下ネタありの 『ブコメ』で戦った時 最強のブクマカは誰か！？ その答えの一端がこのトーナメントでわかる 今現在最強のブクマカは決まっていない",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260814102216",
+      "comments": [
+        {
+          "user": "HiddenList",
+          "comment": "むしろ　B-11 にしないと",
+          "tags": [],
+          "timestamp": "2026/08/14 16:36"
+        },
+        {
+          "user": "nmcli",
+          "comment": "開催済みだから 11 億失ったわけか",
+          "tags": [
+            "増田"
+          ],
+          "timestamp": "2026/08/14 16:15"
+        },
+        {
+          "user": "wantan2022",
+          "comment": "ブクマカランキング、大体攻撃性が高いんだよな",
+          "tags": [],
+          "timestamp": "2026/08/14 16:10"
+        },
+        {
+          "user": "frantic87",
+          "comment": "審査員コメントに対して二階建て三階立てで場外乱闘が始まる",
+          "tags": [],
+          "timestamp": "2026/08/14 16:00"
+        },
+        {
+          "user": "kajika0",
+          "comment": "はてなには悪いけど、11億ちょろまかしたやつが田島みたいな歴戦の最強ブクマカだったら熱いな、とは思う。",
+          "tags": [],
+          "timestamp": "2026/08/14 15:59"
+        },
+        {
+          "user": "s17er",
+          "comment": "最強のブクマカが来たらどうなる？→他の連中が恐れおののいてブコメを消す",
+          "tags": [],
+          "timestamp": "2026/08/14 15:55"
+        }
+      ],
+      "fetchedAt": "2026-08-14T07:40:31.745584+00:00"
     },
     {
       "id": "h_98ea8541",
       "title": "Claude Codeに「違反できないコード」を書かせる：ガイドとセンサーの設計 - Qiita",
       "url": "https://qiita.com/shun123/items/7aa06b6982dfd1730af0",
       "domain": "qiita.com",
-      "bookmarkCount": 57,
+      "bookmarkCount": 79,
       "summary": "はじめに AIにコードを書かせるようになって、人間の作業は「コードを書く」から「コードが規約を守る仕組みを作る」へ移りつつあります。 この記事は、その仕組みづくりを実際に手を動かして体験するための学習ガイドです。題材として、Hono + TypeScript でオニオンアーキテクチャのタスク管理APIを作ります。ただし、...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/shun123/items/7aa06b6982dfd1730af0",
       "comments": [
+        {
+          "user": "nakag0711",
+          "comment": "この手のルールってあくまで経験則で、厳密な意味で正しいと証明されたものは皆無だから、厳密に強制してしまうとそれはそれでおかしなものになりそう",
+          "tags": [],
+          "timestamp": "2026/08/14 14:18"
+        },
+        {
+          "user": "Magicant",
+          "comment": "AI に雑に依頼するとこんな風に最初から全部入りでやらうとするけれども、うまくいってるかどうかと何を改善すべきかを自分で確かめながら小出しに設定していくことをお勧めします",
+          "tags": [
+            "AIプログラミング",
+            "システム開発"
+          ],
+          "timestamp": "2026/08/14 12:04"
+        },
         {
           "user": "lenore",
           "comment": "エンジニアは楽になるための苦労は厭わない。",
@@ -236,68 +254,80 @@
           "timestamp": "2026/08/14 07:23"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:19.134987+00:00"
+      "fetchedAt": "2026-08-14T07:40:34.138018+00:00"
     },
     {
-      "id": "h_2477b023",
-      "title": "Claude文章で｢AI製｣バレる? コピペでも残る電子透かしにネット反発 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 45,
-      "summary": "【シリコンバレー=山田遼太郎】米新興アンソロピックが人工知能（AI）「クロード」が生成した文章をAI製だと判別できるようにすると発表した。AI編集の証拠を残す「電子透かし」と呼ぶ手法だが、AIをどう使ったのか正確に検知するのは難しく、一部のユーザーの反発を招いている。8月以降に世界で導入、EUの規制に対応ア...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
+      "id": "h_fde6763d",
+      "title": "なぜベテランの暗黙知は、文書化しても継承できないのか | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
+      "domain": "dev.classmethod.jp",
+      "bookmarkCount": 71,
+      "summary": "ベテランの判断を若手に引き継ごうとマニュアル化しても、肝心の部分は毎回こぼれ落ちます。理由はシンプルで、本人が「言語化できていない・そもそも言語化すべきだと気づいていない」判断こそが価値の中心だからです。この記事では、なぜ暗黙知の継承が長年うまくいかなかったのか、その構造と、いまLLMで何が変わりつ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
       "comments": [
         {
-          "user": "knitcapmann",
-          "comment": "別に構わん。むしろ支持する。",
-          "tags": [],
-          "timestamp": "2026/08/14 11:16"
-        },
-        {
-          "user": "beerbeerkun",
-          "comment": "メタデータではなく文章本体に埋め込むとなると確率的な判定にしかならないと思うがかなり長い文章じゃないと厳しくないか",
-          "tags": [],
-          "timestamp": "2026/08/14 11:05"
-        },
-        {
-          "user": "shira0211tama",
-          "comment": "この前の仕組み解説記事掘り下げて調べたが、秘密鍵由来の透かしでカバーできるのは良くも悪くもポン出し未推敲、ある程度の長文で、段落や文節をコピペで前後させただけでも崩れるそうな。逆に写経は意味ない。",
+          "user": "doko",
+          "comment": "文書化しようとするからかなぁ。でも業種・業務・内容・程度によると思う",
           "tags": [
-            "AI",
-            "文章"
+            "ネット",
+            "GPT"
           ],
-          "timestamp": "2026/08/14 10:46"
+          "timestamp": "2026/08/14 16:19"
         },
         {
-          "user": "superimo454",
-          "comment": "コピペでもダメってすごい。どうやるんだろうか。純粋にその技術が気になる。",
+          "user": "rgfx",
+          "comment": "これを思い出している https://zenn.dev/mizchi/articles/empirical-prompt-tuning https://x.com/mizchi/status/2039915461715067033",
           "tags": [],
-          "timestamp": "2026/08/14 10:37"
+          "timestamp": "2026/08/14 15:54"
         },
         {
-          "user": "slkby",
-          "comment": "反発する意味が分からん",
+          "user": "ssig33",
+          "comment": "自称「ベテラン」がこういうAIまるだしのいいかげんな記事を書いたりするからでしょ",
           "tags": [],
-          "timestamp": "2026/08/14 10:30"
+          "timestamp": "2026/08/14 15:54"
         },
         {
-          "user": "keidge",
-          "comment": "テキストに対するウォーターマーキング技術の解説が、アルゴリズムそのもので面白かった。",
+          "user": "door-s-dev",
+          "comment": "言語化が難しいの方が本質だと思うので、継承の部分のそこはどうにでもなる感じにモヤっとした",
           "tags": [],
-          "timestamp": "2026/08/14 10:24"
+          "timestamp": "2026/08/14 15:43"
+        },
+        {
+          "user": "yy00610106",
+          "comment": "お、これはいい野中郁次郎dis。形式化されないからこその暗黙知ですよね",
+          "tags": [],
+          "timestamp": "2026/08/14 15:19"
+        },
+        {
+          "user": "yellowdomestic",
+          "comment": "当たり前の様な前提って説明するにあたって言語化するとすごくバカっぽいので語りたがらないんだよ",
+          "tags": [],
+          "timestamp": "2026/08/14 15:09"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:19.438936+00:00"
+      "fetchedAt": "2026-08-14T07:40:32.561291+00:00"
     },
     {
       "id": "h_4f9a7911",
       "title": "⾏政⼿続等調査データ（約75,000件）をMCPで⾃然⾔語分析可能に｜デジタル庁",
       "url": "https://digital-gov.note.jp/n/n56aaf580bfb6",
       "domain": "digital-gov.note.jp",
-      "bookmarkCount": 34,
+      "bookmarkCount": 71,
       "summary": "はじめにデジタル庁プロダクトマネージャーの土岐竜一です。事業者向けシステムや自治体窓口DX SaaS等を担当しています。 本記事では、デジタル庁が公表する行政手続等の調査（令和6年度悉皆調査）の結果データ約75,000件を対象に、対話形式で自然言語による分析を行える、技術検証目的の簡易的な実装を紹介します。分析...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/digital-gov.note.jp/n/n56aaf580bfb6",
       "comments": [
+        {
+          "user": "south-radburn-2023",
+          "comment": "確定申告とかと相性良さそう",
+          "tags": [],
+          "timestamp": "2026/08/14 15:02"
+        },
+        {
+          "user": "minboo",
+          "comment": "こういうのに対してチームみらいはちゃんとレビューしてほしいなぁ。行政府を監視するのも立法府の仕事なんで",
+          "tags": [],
+          "timestamp": "2026/08/14 11:32"
+        },
         {
           "user": "Sukkiri",
           "comment": "こういうの見た目は良いのだけど、行政サービスとしてどこまで手を出すべきなんだろうか",
@@ -311,209 +341,211 @@
           "timestamp": "2026/08/14 09:05"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:20.828943+00:00"
+      "fetchedAt": "2026-08-14T07:40:33.772962+00:00"
     },
     {
-      "id": "h_034da0fe",
-      "title": "AI電力網は国民負担？ 大手電力が「6000億円分」値上げ申請 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
+      "id": "h_2477b023",
+      "title": "Claude文章で｢AI製｣バレる? コピペでも残る電子透かしにネット反発 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 32,
-      "summary": "生成AIの「Chat（チャット）GPT」や「Gemini（ジェミニ）」を使うコストは――。生成AIサービスを使う人も使わない人も同じく、データセンターを支える電力網の整備費は電気料金の一部として支払う。その負担が膨張する見通しだ。大量の計算をするAIサービス基盤となる大規模データセンターは多くの電力を消費する。電力供...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC104JQ0Q6A810C2000000/",
+      "bookmarkCount": 67,
+      "summary": "【シリコンバレー=山田遼太郎】米新興アンソロピックが人工知能（AI）「クロード」が生成した文章をAI製だと判別できるようにすると発表した。AI編集の証拠を残す「電子透かし」と呼ぶ手法だが、AIをどう使ったのか正確に検知するのは難しく、一部のユーザーの反発を招いている。8月以降に世界で導入、EUの規制に対応ア...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
       "comments": [
         {
-          "user": "kazgeo",
-          "comment": "稚内、風力発電で大勝利！",
+          "user": "BigWhiteDog",
+          "comment": "手を抜いてるんだから手を抜いてるってマークつけても別にええやろ？",
           "tags": [],
-          "timestamp": "2026/08/14 11:11"
+          "timestamp": "2026/08/14 15:17"
         },
         {
-          "user": "trailhead_l",
-          "comment": "AIDCの発熱でお湯沸かして電力作って発電とかできねえもんかなと雑な妄想をしながら休日を溶かしている。",
+          "user": "georgew",
+          "comment": "検知手法についてはClaudeが公開するんじゃなかったっけ？",
           "tags": [],
-          "timestamp": "2026/08/14 11:07"
+          "timestamp": "2026/08/14 14:43"
         },
         {
-          "user": "uraharamarshmallow",
-          "comment": "台湾侵略時には、日本の電力網を中国共産党がネット空間でもリアルの現場からでも、潰しに来るだろう。社会混乱させ身動きできないようにさせる。そのためにネット空間でもリアルの現場でも情報を集めまくってる",
-          "tags": [],
-          "timestamp": "2026/08/14 11:03"
+          "user": "ytRino",
+          "comment": "反発なんて聞いたことがないが全文を見てないので謎のまま",
+          "tags": [
+            "news",
+            "AI"
+          ],
+          "timestamp": "2026/08/14 14:16"
         },
         {
-          "user": "ustam",
-          "comment": "AIは人間から仕事も電力も奪うけど、運用コストは人間が負担させられる。人間はどんどん貧困になっていくけど、その管理にはAIが必要になり、AI依存度はどんどん増していく。ディストピアかな？",
+          "user": "ikihaji_kun",
+          "comment": "AI製は他のツールを使うのと同じと言ってた連中がAIポン出しとAI使って推敲したのは違うと\"お気持ち\"を表明してるのは滑稽。大事なのは過程じゃなくて結果って言ってたよね君ら",
           "tags": [],
-          "timestamp": "2026/08/14 11:00"
+          "timestamp": "2026/08/14 14:02"
         },
         {
-          "user": "repunit",
-          "comment": "あれ？日経は再エネ賦課金を問題にした事あった？",
+          "user": "bopperjp",
+          "comment": "Gemini の生成文章にはすでに Synth ID Text が入ってるですけど。。",
           "tags": [],
-          "timestamp": "2026/08/14 10:57"
+          "timestamp": "2026/08/14 13:21"
         },
         {
-          "user": "jtw",
-          "comment": "発電所の隣につくっても、送電網にのせないといけないルールを変更するところからまず第一歩。",
+          "user": "elsheep",
+          "comment": "AI製でも、人がちゃんとレビューして何度も書き直した文章と、適当なプロンプトで一発生成でできた文章で、生成した本人も読んでない文章を区別したい。",
           "tags": [],
-          "timestamp": "2026/08/14 10:37"
+          "timestamp": "2026/08/14 13:18"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:20.373532+00:00"
+      "fetchedAt": "2026-08-14T07:40:35.212619+00:00"
     },
     {
-      "id": "h_55b6ec3b",
-      "title": "AIコーディングの一番安いプランでスマホアプリを作る！非エンジニアによるケチりAI駆動開発のすべて - nomolkのブログ",
-      "url": "https://nomolk.hatenablog.com/entry/2026/08/12/164154",
-      "domain": "nomolk.hatenablog.com",
-      "bookmarkCount": 22,
-      "summary": "最近デイリーポータルZの西村さんがWebサービスを作っていたり、一緒にPodcastをやっている岡田悠さんがDokokaというアプリを作って大ヒットしていたり、周りのエンジニアでない人たちがAIを使ってアプリケーションを作ることが増えてきました。 へー面白そう、とは思いつつも特に作りたいものがなかったんですけど、あ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nomolk.hatenablog.com/entry/2026/08/12/164154",
+      "id": "h_3e3d295d",
+      "title": "ライザップ社員、建設職人に転向 「ブルーカラー転職」500人 AI活用で事務省人化 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGKKZO98113760S6A810C2TB3000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 33,
+      "summary": "フィットネスジム運営のRIZAPグループが社員500人を建設職人に転向させる試みを始めた。人工知能（AI）の活用により業務を効率化できた分、人材を新規事業で生かす狙いだという。ブルーカラー転職の成功モデルになるのか。現場を訪ねた。7月上旬、埼玉県上里町の同社施設ではヘルメットをかぶった社員が軽量鉄骨を天井に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGKKZO98113760S6A810C2TB3000/",
       "comments": [
         {
-          "user": "toshiyam",
-          "comment": "claudeスマホアプリの「コード」をコーディング、vps上のcodex execをレビューに役割分担し、githubプロジェクトの管理や問題発生時の調停をcodexにして似たようなことしてる。",
+          "user": "door-s-dev",
+          "comment": "そのうち職業訓練施設として認定されたりして",
           "tags": [],
-          "timestamp": "2026/08/14 11:25"
+          "timestamp": "2026/08/14 16:16"
         },
         {
-          "user": "kenjou",
-          "comment": "費用を節約したいのなら、課金チャットAIにコードも書かせて自力でコピペすればかなり安くすむよ。いまはかなりチャットのAIも能力高いからそれで作りきれる。",
+          "user": "ilktm",
+          "comment": "チョコザップの内装を自社でやってるうちに建設業やれそうってなったらしい",
           "tags": [],
-          "timestamp": "2026/08/14 11:09"
+          "timestamp": "2026/08/14 16:02"
         },
         {
-          "user": "eartht",
-          "comment": "GPTもClaudeも契約したんなら結局ケチじゃないよ…一般サラリーマンが使うサブスクとしては大金だよ…",
+          "user": "mickn",
+          "comment": "社員だけでなくライザップ利用者にまで転職を勧めるようになるかな",
           "tags": [],
-          "timestamp": "2026/08/14 11:07"
+          "timestamp": "2026/08/14 15:49"
         },
         {
-          "user": "mayumayu_nimolove",
-          "comment": "その例に挙げている非エンジニアは有名な人なのでは？アプリ開発の何が大変ってマーケティングなので。",
+          "user": "kaionji",
+          "comment": "練習施設まであるのすごい。私もライザップに転職して業種転換しようかな。",
           "tags": [],
-          "timestamp": "2026/08/14 10:26"
+          "timestamp": "2026/08/14 15:13"
+        },
+        {
+          "user": "nemoba",
+          "comment": "仕事して痩せるとかできそう",
+          "tags": [],
+          "timestamp": "2026/08/14 14:20"
+        },
+        {
+          "user": "tamoriinu_3",
+          "comment": "これで痩せれば宣伝にもなるか",
+          "tags": [],
+          "timestamp": "2026/08/14 13:28"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:21.120444+00:00"
+      "fetchedAt": "2026-08-14T07:40:34.461755+00:00"
     },
     {
-      "id": "h_7ca50ac3",
-      "title": "最強のブクマカを決めるB-1グランプリ（賞金11億円）",
-      "url": "https://anond.hatelabo.jp/20260814102216",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 21,
-      "summary": "多種あるブクマカがルール無しで戦った時… スポーツではなく中傷下ネタありの 『ブコメ』で戦った時 最強のブクマカは誰か！？ その答えの一端がこのトーナメントでわかる 今現在最強のブクマカは決まっていない",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260814102216",
+      "id": "h_da34f179",
+      "title": "「紙のカレンダーvs.デジタルカレンダー」、書いた予定をよく覚えているのは？ 東大などが脳活動を調査",
+      "url": "https://www.itmedia.co.jp/news/article/2608/14/2000000477/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 31,
+      "summary": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/14/2000000477/",
       "comments": [
         {
-          "user": "psne",
-          "comment": "はい",
+          "user": "s-supporter",
+          "comment": "私は日記は手書きですが、スケジュール管理はデジタルを使っています。予定を詳細に覚えなくても滞りなく行動できるようにするのが目的で（リマインド設定も含めて）、デジタルカレンダーを使っているので。",
           "tags": [],
-          "timestamp": "2026/08/14 11:21"
-        },
-        {
-          "user": "hkstd_rock",
-          "comment": "昔の人たちがいなくなって寂しい",
-          "tags": [],
-          "timestamp": "2026/08/14 11:21"
-        },
-        {
-          "user": "nomitori",
-          "comment": "ブックマーカー図鑑使って全選手入場の煽りをやってください（結局、そこが一番盛り上がる）",
-          "tags": [],
-          "timestamp": "2026/08/14 11:18"
-        },
-        {
-          "user": "btoy",
-          "comment": "副賞でレアスターより更にレアなキラスターが貰えるらしい。",
-          "tags": [],
-          "timestamp": "2026/08/14 11:18"
-        },
-        {
-          "user": "sgo2",
-          "comment": "ブックマーカーランキング https://bookmarker-encyclopedia.netlify.app/rankings/bookmarker",
-          "tags": [],
-          "timestamp": "2026/08/14 11:17"
-        },
-        {
-          "user": "hazlitt",
-          "comment": "ヤフコメとの異種対戦の方が興行的には当たりそう",
-          "tags": [],
-          "timestamp": "2026/08/14 11:15"
-        }
-      ],
-      "fetchedAt": "2026-08-14T02:26:18.770595+00:00"
-    },
-    {
-      "id": "h_c4b202ac",
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "domain": "blog.google",
-      "bookmarkCount": 20,
-      "summary": "Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "comments": [
-        {
-          "user": "urtz",
-          "comment": "キャッチアップしただけやろな。基盤モデルは一から学習中なので、来年かな",
-          "tags": [],
-          "timestamp": "2026/08/14 10:42"
-        },
-        {
-          "user": "auto_chan",
-          "comment": "人材流出だいじょぶそ？フロンティアドラゴンミームは今日もまだへなちょこのまま。でもSonnetやTerra級で日常生活や仕事でしゃかしゃか手を動かすレベルでは十分なんじゃよな。Google各種サービスをAIで繋ぐ程度にも。",
-          "tags": [],
-          "timestamp": "2026/08/14 10:34"
-        },
-        {
-          "user": "takanagi1225",
-          "comment": "文章家ワイ、3.5Proをずっと待っている…。",
-          "tags": [],
-          "timestamp": "2026/08/14 10:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "3.6が出たばかりなのにもう3.7 Flashか。性能向上とコスト低下が同時に来るのは凄いな",
-          "tags": [],
-          "timestamp": "2026/08/14 09:36"
+          "timestamp": "2026/08/14 16:06"
         },
         {
           "user": "theatrical",
-          "comment": "3.5 proを出せないのをなんとか凌ごうと言う、苦しみが見て取れる最近の動き",
+          "comment": "GTD的なカルチャーの人間なのでむしろ忘れたいまであるけども。",
           "tags": [],
-          "timestamp": "2026/08/14 09:35"
+          "timestamp": "2026/08/14 16:05"
         },
         {
-          "user": "karatte",
-          "comment": "Proはしんでしまいました",
+          "user": "cinefuk",
+          "comment": "自分のことを信用してないのでGoogleカレンダーのリマインダーに教えてもらう仕組み",
           "tags": [],
-          "timestamp": "2026/08/14 09:30"
+          "timestamp": "2026/08/14 15:26"
+        },
+        {
+          "user": "kojikoji75",
+          "comment": "少し前の研究ではあるものの、カレンダーってそもそも予定を「記憶する」ためというより、「記憶しておかなくていい」ようにする道具なので、実験の前提にいろいろツッコミどころがありそう。",
+          "tags": [],
+          "timestamp": "2026/08/14 14:57"
+        },
+        {
+          "user": "totoronoki",
+          "comment": "確実に覚えられるならいいんだが、そうではないからいつでも確認できる場所に記録する仕組みを作ったわけで。",
+          "tags": [],
+          "timestamp": "2026/08/14 13:41"
+        },
+        {
+          "user": "m-kawato",
+          "comment": "記憶できないから書き出すのではなく？",
+          "tags": [],
+          "timestamp": "2026/08/14 13:02"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:22.111071+00:00"
+      "fetchedAt": "2026-08-14T07:40:35.984394+00:00"
     },
     {
-      "id": "h_1744fc60",
-      "title": "メルカリが明かす「Claude Code全社展開」「シャドーAI対策」を支える仕組み",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news002.html",
-      "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 12,
-      "summary": "メルカリが明かす「Claude Code全社展開」「シャドーAI対策」を支える仕組み：メルカリのAIエージェント活用＆AIガバナンス大解剖（2） 「AIを使わない選択自体がビジネスリスク」と断言するメルカリ。同社は2026年5月、「Claude Code」「Claude Cowork」の全社展開に踏み切った。だが、ローカルファイルの操作やOSコマ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2608/04/news002.html",
+      "id": "h_7f858909",
+      "title": "Appleからのスパイウェア攻撃を警告するプッシュ通知は真剣に受け止める必要あり",
+      "url": "https://gigazine.net/news/20260814-apple-sends-notification-alerting-spyware/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 11,
+      "summary": "Appleはデバイスへのハッキングが可能なスパイウェアの標的になった疑いがあるユーザーに対して、「脅威の通知」と呼ばれるプッシュ通知を定期的に送信しています。 Appleの脅威の通知と金銭目当てのスパイウェアへの対策について - Apple サポート (日本) https://support.apple.com/ja-jp/102174 If Apple sends you a...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260814-apple-sends-notification-alerting-spyware/",
       "comments": [
         {
-          "user": "misshiki",
-          "comment": "メルカリがClaude Code/Coworkを全社展開。Jamf＋Oktaで権限を出し分け、LiteLLMで短命APIキー・モデル利用・コストを集中管理。禁止ではなく安全な共通基盤でシャドーAIを抑える。",
-          "tags": [
-            "Claude Code",
-            "Cowork"
-          ],
-          "timestamp": "2026/08/13 15:55"
+          "user": "casm",
+          "comment": "「…「脅威の通知」と呼ばれるプッシュ通知を【定期的に】送信しています。」原文は”on occasion”なので、不定期です。",
+          "tags": [],
+          "timestamp": "2026/08/14 16:31"
         }
       ],
-      "fetchedAt": "2026-08-14T02:26:22.345541+00:00"
+      "fetchedAt": "2026-08-14T07:40:34.827095+00:00"
+    },
+    {
+      "id": "h_315af83c",
+      "title": "「ラジコンで音速の壁を破れ！」賞金1億円超コンペ開催！ 背景にイーロン・マスク氏も注目の「バケモノマシン」の存在（1/3 ページ） | 乗りものニュース",
+      "url": "https://trafficnews.jp/post/696273",
+      "domain": "trafficnews.jp",
+      "bookmarkCount": 9,
+      "summary": "アメリカでアマチュアによる超音速ラジコン機のコンペが始まりました。賞金総額は1億円以上。この動きのきっかけは、ある学生が作った1機のラジコンでした。 きっかけは学生が作った“最速ラジコン” アメリカで、アマチュアが自分で航空機を製作設計し、初めて超音速を達成するプロジェクトが始まりました。これはコンペ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/trafficnews.jp/post/696273",
+      "comments": [
+        {
+          "user": "izure",
+          "comment": "安全に楽しんでほしい。",
+          "tags": [],
+          "timestamp": "2026/08/14 16:26"
+        },
+        {
+          "user": "mrmt",
+          "comment": "これはアツい",
+          "tags": [],
+          "timestamp": "2026/08/14 15:18"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "最近はラジコンも全部ドローンと言うので、久しぶりに聞いた。800km/hは旅客機のスピード。こんなのが民家に突っ込んで来たら死ぬかもしれない。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/14 14:59"
+        },
+        {
+          "user": "sgo2",
+          "comment": "\"市販のラジコン機用ジェットエンジン\"",
+          "tags": [],
+          "timestamp": "2026/08/14 14:29"
+        }
+      ],
+      "fetchedAt": "2026-08-14T07:40:35.648231+00:00"
     }
   ],
-  "lastCollection": "2026-08-14T02:26:22.345566+00:00"
+  "lastCollection": "2026-08-14T07:40:35.984418+00:00"
 }
