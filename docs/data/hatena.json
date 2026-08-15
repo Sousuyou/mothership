@@ -5,10 +5,34 @@
       "title": "概念設計が、その後のコードの命運を左右する",
       "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
       "domain": "zenn.dev",
-      "bookmarkCount": 209,
+      "bookmarkCount": 289,
       "summary": "最近、ソフトウェア開発における概念設計の威力と重要さについて人に伝えたい機会が何度かあった。[1] しかし、概念の整理がなぜどのように重要なのか、という一点を取り上げて書かれたものは少ないようで、人に渡すのにちょうどよい文章や書籍が見つからなかったので、このたび私なりに咀嚼して書いてみたい。 そのアプ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
       "comments": [
+        {
+          "user": "odan3240",
+          "comment": "めちゃわかる。これをするためにドメインへの学習の姿勢を続けたい あと後から必要な概念に気付いたときにリファクタリングでその概念を用意してから新機能実装に入るのが好き",
+          "tags": [],
+          "timestamp": "2026/08/15 20:38"
+        },
+        {
+          "user": "hitotakuchan",
+          "comment": "DDD の（戦術的設計ではなく）戦略的設計の部分がまさにこの内容。そして DDD の書籍でも戦略的設計が重要だと書いてある。",
+          "tags": [],
+          "timestamp": "2026/08/15 19:40"
+        },
+        {
+          "user": "toaruR",
+          "comment": "初見だと、なんでこんなに面倒なことしてるんだろう？ってなりがち(ノ∀`)さーせん",
+          "tags": [],
+          "timestamp": "2026/08/15 19:35"
+        },
+        {
+          "user": "T-norf",
+          "comment": "ソフトウェア開発は専門外で、ちょっとだけやる人種だけど、AIコーディングで気軽にプロトタイピングできるようになり、ここらへんのこうしておけば良かったが、ver1.0の実装で簡単に実現できてスッキリな今日この頃",
+          "tags": [],
+          "timestamp": "2026/08/15 17:37"
+        },
         {
           "user": "chess-news",
           "comment": "それって、jisの定義で言葉を使ってるの？ そういうのないの？",
@@ -20,335 +44,84 @@
           "comment": "Analysis Patterns",
           "tags": [],
           "timestamp": "2026/08/15 15:07"
-        },
-        {
-          "user": "masa8aurum",
-          "comment": "よい記事。 ・概念を適切に認識して用語を定義して、使っていくこと。それに適切な名前をつけること。これによってその後のシステムの命運がまるで変わる",
-          "tags": [
-            "あとで読む",
-            "設計",
-            "IT_素人への説明用",
-            "Domain-Driven"
-          ],
-          "timestamp": "2026/08/15 14:11"
-        },
-        {
-          "user": "moronbee",
-          "comment": "概念設計とネーミングは本当に大事。ただ上手い人程ドヤらないし上手くやる程自然に見えるので、その洗練さに気づかれにくい",
-          "tags": [
-            "concept",
-            "modelling",
-            "design"
-          ],
-          "timestamp": "2026/08/15 13:14"
-        },
-        {
-          "user": "awaytabi",
-          "comment": "それって概念設計ではなくモデリングでは？",
-          "tags": [],
-          "timestamp": "2026/08/15 12:53"
-        },
-        {
-          "user": "peketamin",
-          "comment": "なるほどー！",
-          "tags": [
-            "_FAV_",
-            "設計"
-          ],
-          "timestamp": "2026/08/15 12:21"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:37.806192+00:00"
+      "fetchedAt": "2026-08-15T12:48:35.970848+00:00"
     },
     {
       "id": "h_1253a390",
       "title": "生成AIポスターを展示する飲食店が増えているが、極力そういう店には行かないようにしている…「これくらい別にいいでしょ？」とバカにされていると感じる→共感の声が続々",
       "url": "https://togetter.com/li/2733238",
       "domain": "togetter.com",
-      "bookmarkCount": 141,
+      "bookmarkCount": 252,
       "summary": "キニマンス塚本ニキ Nikki Tsukamoto Kininmonth @tsukaniki85 生成AIポスターを展示する飲食店が増えてるけど、私は極力そういう店には行かないようにしてる。 AIが出力したビジュアルや言葉を自分の目と感性で判断すらしようとしない人の料理には食指が動かない。 ちょっと変かもしれないけど、これくらい別にいいでし...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2733238",
       "comments": [
         {
-          "user": "strange",
-          "comment": "生成AIを貶すのはまだ当面はエンターテインメントとして有効だろうなあ",
+          "user": "zzteralin",
+          "comment": "信じられないかもしれませんが、フリー素材の蝋細工食品サンプルってその辺に転がってないんですよ",
           "tags": [],
-          "timestamp": "2026/08/15 15:48"
+          "timestamp": "2026/08/15 21:43"
         },
         {
-          "user": "fluoride",
-          "comment": "別にええやろと思ったけど画像が実物と違うのは端的に嘘だよな...",
-          "tags": [],
-          "timestamp": "2026/08/15 15:46"
-        },
-        {
-          "user": "kentabookmark",
-          "comment": "いらすとやの時も、Wordの時もこういうこと言う人いた。使っていいけど本物とかけ離れたもん出さないで欲しいので最初にプロンプトをきちんと書いて欲しい",
-          "tags": [],
-          "timestamp": "2026/08/15 15:44"
-        },
-        {
-          "user": "sugadesu",
-          "comment": "まだみんなAIすげーすげーってキャッキャしてて迂闊だよな",
-          "tags": [],
-          "timestamp": "2026/08/15 15:43"
-        },
-        {
-          "user": "Shiori115",
-          "comment": "ペラ紙一枚なら生成AIでさっと済ますのもいいけど、肝心な部分までそれで済まされるとうーんとなるね。",
-          "tags": [],
-          "timestamp": "2026/08/15 15:41"
-        },
-        {
-          "user": "logic",
-          "comment": "プロのカメラマンが撮った料理写真でも実物の何倍も盛った加工している。今までずっとそうやって騙すのが当たり前だったんだから誰も気にしてない。",
-          "tags": [],
-          "timestamp": "2026/08/15 15:40"
-        }
-      ],
-      "fetchedAt": "2026-08-15T06:48:37.177771+00:00"
-    },
-    {
-      "id": "h_cb60f2de",
-      "title": "なぜAI時代にGoが最適な言語なのか",
-      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
-      "domain": "zenn.dev",
-      "bookmarkCount": 110,
-      "summary": "はじめに 本記事では、GoogleのGolang Product ManagerのCameron Balahanと、Google Cloud Chief EvangelistのRichard Seroterによって投稿された、「Why Go is an Ideal Language for AI-Assisted Software Engineering」 を和訳するとともに、私の感想を少し書こうと思う。 また、本記事は元記事の著者の一人である、C...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/iwatsukayura/articles/google-go-ai",
-      "comments": [
-        {
-          "user": "mushus",
-          "comment": "言語仕様そのもの、フレームワークそのものがハーネスになるのを趣味でAIでコード書いてててひしひしと",
-          "tags": [],
-          "timestamp": "2026/08/15 14:34"
-        },
-        {
-          "user": "hkdn",
-          "comment": "Googleで揃えた場合はそうなんだろうな。",
-          "tags": [],
-          "timestamp": "2026/08/15 13:41"
-        },
-        {
-          "user": "Iridium",
-          "comment": "人間が読まなくていいなら機械語でいいような気もするが。異常に速い処理が書けるんじゃないかな",
-          "tags": [],
-          "timestamp": "2026/08/15 13:17"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“AIエージェントによって、開発ボトルネックがコード書きからレビュー・検証に移行してきた。言語そのものをAIを制御するためのガードレールとして捉える”",
-          "tags": [],
-          "timestamp": "2026/08/15 12:30"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "Goではリアルタイムセーフなコードを書けないから自分が使う状況は無い。どの言語にもソリューションに適切となる場面・側面があり、AIが解決できる問題は限られている。Google自身もGoによる置き換えを実践していない。",
-          "tags": [],
-          "timestamp": "2026/08/15 11:58"
-        },
-        {
-          "user": "diveintounlimit",
-          "comment": "端折った翻訳/要約より元記事読むことをお勧めしたい、そんなに長くないし。。",
-          "tags": [],
-          "timestamp": "2026/08/15 11:46"
-        }
-      ],
-      "fetchedAt": "2026-08-15T06:48:39.769010+00:00"
-    },
-    {
-      "id": "h_a876034a",
-      "title": "Opus 5 よりも Sonnet 5 を選ぶ理由——QCD を 240 試行で比較する（オトナの自由研究 #34）",
-      "url": "https://zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
-      "domain": "zenn.dev",
-      "bookmarkCount": 99,
-      "summary": "3つの発見 1. 定番の DB 処理であれば、Opus 5 よりも Sonnet 5 のコストは約 1/2（$0.33 対 $0.59、同時間換算で約 2倍差）——ただし effort level は xhigh が必要 2. Sonnet 5 の合否は、罠に気づいたかどうか——effort level で上がるのは実装力ではなく「気づく確率」（40 試行全てで一致） 3. Opus 5 の失敗は逆——気...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
-      "comments": [
-        {
-          "user": "b9rantan8",
-          "comment": "結論、Opus 5を使いましょうｗ",
-          "tags": [],
-          "timestamp": "2026/08/15 14:45"
-        },
-        {
-          "user": "jaguarsan",
-          "comment": "生成AI使うと「頭の良い人は根本的な所で間違う」 を身をもって体感できる",
-          "tags": [],
-          "timestamp": "2026/08/15 13:42"
-        },
-        {
-          "user": "brain-box",
-          "comment": "なんとなくでOpus 4.7、4.8を時々使って比べてみる",
-          "tags": [],
-          "timestamp": "2026/08/15 12:56"
-        },
-        {
-          "user": "hogetax",
-          "comment": "ブラックボックステストなんで正直やってみないと分からないのがつらいよね。指標が曖昧過ぎるw",
-          "tags": [],
-          "timestamp": "2026/08/15 12:44"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“Opus5よりもSonnet5のコストは約1/2。Sonnet5 xhighで上がるのは実装力ではなく致命的ミスに気づく確率。Opus5 lowでは理解済みの致命的ミス（ガード）”",
-          "tags": [],
-          "timestamp": "2026/08/15 12:31"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "簡単なタスクならローカルLLMでも十分に行けるけど、レートリミット的にOpus 5で足りてる。",
+          "user": "mohno",
+          "comment": "もともとチェーン店以外、あんまり入らないから関係ない……と思ったけど（イオンのカレー屋は例外）、セブンイレブンまで使っているのか。",
           "tags": [
-            "未分類"
+            "togetter",
+            "人工知能",
+            "生成AI",
+            "飲食店",
+            "外食",
+            "キッチンカー",
+            "画像",
+            "写真",
+            "デザイン",
+            "セブンイレブン"
           ],
-          "timestamp": "2026/08/15 11:28"
+          "timestamp": "2026/08/15 21:42"
+        },
+        {
+          "user": "u_eichi",
+          "comment": "AIも道具のひとつというだけです。立て看板や期間限定のポスターに金と時間はかけてられないんでしょう。ふいんきあればいいからちゃちゃっと！",
+          "tags": [],
+          "timestamp": "2026/08/15 21:31"
+        },
+        {
+          "user": "trailhead_l",
+          "comment": "またAI叩きか、と思ったが、これは肯首案件だわ。売ってないもの看板にしてるって認識してないんだよね。根本的なAIリテラシーが足りてない人の活用事例。",
+          "tags": [],
+          "timestamp": "2026/08/15 21:27"
+        },
+        {
+          "user": "osakana110",
+          "comment": "実物とかけ離れた食品の実写風画像を使うのはダメやろ",
+          "tags": [],
+          "timestamp": "2026/08/15 21:26"
+        },
+        {
+          "user": "shigeoka",
+          "comment": "購入判断材料になるような商品写真は現物を使うべきと思うけど、現物が目の前にあってのアイキャッチレベルならAI生成でもいいんじゃないかな。いらすとやとかクリップアート使ったり、店員自身が手描きしてた分野。",
+          "tags": [],
+          "timestamp": "2026/08/15 21:20"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:38.829950+00:00"
-    },
-    {
-      "id": "h_005772c0",
-      "title": "「Qwen3.8-27B」ついに公開！3.6を大きく上回る性能でローカルAIの定番になるか",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2132909.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 74,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132909.html",
-      "comments": [
-        {
-          "user": "bomem",
-          "comment": "35B-A3BでCPUでやりたい",
-          "tags": [],
-          "timestamp": "2026/08/15 15:25"
-        },
-        {
-          "user": "awaytabi",
-          "comment": "Qwen3.0-4Bを使うKrea2が日本語Promptで英語Promptとそん色のない細かい指示に従う画像生成できているのをみて、Qwen系を見直すとともに、恐怖を覚えてる。利用者としてはQwen系を絶賛してるが、安全保障上は怖い。",
-          "tags": [],
-          "timestamp": "2026/08/15 13:03"
-        },
-        {
-          "user": "star_123",
-          "comment": "16GBで動かすとなると動くには動くけどギリギリすぎるVRAM24GBのグラボがほしいな",
-          "tags": [],
-          "timestamp": "2026/08/15 12:53"
-        },
-        {
-          "user": "Nunocky",
-          "comment": "いま無理して強めのマシンを買っておくべきかなあ…",
-          "tags": [],
-          "timestamp": "2026/08/15 11:34"
-        },
-        {
-          "user": "strawberryhunter",
-          "comment": "やはり小型モデルが本命。3.6 Q8 でも DeepSeek-V4-Flash Q2 （アクティブ13.3B）より少し遅いくらいだったので、これも期待できる。後で試す。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/08/15 11:18"
-        },
-        {
-          "user": "aox",
-          "comment": "なんでもAIに頼らず自分でやるべきです",
-          "tags": [],
-          "timestamp": "2026/08/15 10:45"
-        }
-      ],
-      "fetchedAt": "2026-08-15T06:48:40.095984+00:00"
-    },
-    {
-      "id": "h_3ec46313",
-      "title": "MicrosoftのAIターミナル「Intelligent Terminal 0.2」が公開 ～ローカルモデルに対応／「OpenCode」対応、スラッシュコマンドの拡充、WSL内エージェントなどの改善も",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2132156.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 70,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2132156.html",
-      "comments": [
-        {
-          "user": "nekonanox",
-          "comment": "ローカル対応うれしい",
-          "tags": [],
-          "timestamp": "2026/08/15 11:39"
-        },
-        {
-          "user": "hiroomi",
-          "comment": "“「Intelligent Terminal」は、「ターミナル」（Windows Terminal）にAIエージェントをネイティブ統合した実験的アプリ”https://github.com/microsoft/intelligent-terminal",
-          "tags": [],
-          "timestamp": "2026/08/15 09:23"
-        },
-        {
-          "user": "eartht",
-          "comment": "日本語表記のあの気持ち悪い文字間をどうにかしてくれんかな…",
-          "tags": [],
-          "timestamp": "2026/08/15 08:45"
-        },
-        {
-          "user": "zgmf-x20a",
-          "comment": "ローカルな情報を勝手2抜かれる危険性は？",
-          "tags": [],
-          "timestamp": "2026/08/15 07:42"
-        }
-      ],
-      "fetchedAt": "2026-08-15T06:48:40.545669+00:00"
-    },
-    {
-      "id": "h_63fea773",
-      "title": "クラウドベンダーが突然消滅、PBS系列局が70年分・50TBの放送アーカイブにアクセス不能に — バックアップなしで法廷闘争へ",
-      "url": "https://techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
-      "domain": "techfeed.io",
-      "bookmarkCount": 67,
-      "summary": "8月13日、Jowi Moralesが「PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct」と題した記事を公開した。契約していたクラウドストレージベンダーが突然消滅し、70年分・50TB超のアーカイブデータへのアクセスを失った米PBS系列局の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
-      "comments": [
-        {
-          "user": "ayumun",
-          "comment": "サポートファイル形式が変わったり、メディアドライブが生産されなくなって、読み出せないファイルが既に世界には沢山あるので、結局長期保存するものはアナログが正解なんだろな。なお保管場所",
-          "tags": [],
-          "timestamp": "2026/08/15 15:42"
-        },
-        {
-          "user": "georgew",
-          "comment": "これは残念ながらPBS側の対策が甘かったことに尽きる。教訓てんこ盛りの事案。",
-          "tags": [],
-          "timestamp": "2026/08/15 15:31"
-        },
-        {
-          "user": "hiroyuki1983",
-          "comment": "たった数千ドルのHDDだとしても社内稟議通すのダルすぎるからしゃーない",
-          "tags": [],
-          "timestamp": "2026/08/15 15:19"
-        },
-        {
-          "user": "hunglysheep1",
-          "comment": "例えばAWSやGoogle cloudに置いてあるデータを会社側にバックアップ取ってあるユーザーはどの程度居るんだろうか(取ってない会社は多いだろう)オンプレだと意識するし金も当たり前に出るが",
-          "tags": [],
-          "timestamp": "2026/08/15 14:58"
-        },
-        {
-          "user": "vesikukka",
-          "comment": "※社内SEの判断だとは読めない。",
-          "tags": [],
-          "timestamp": "2026/08/15 14:15"
-        },
-        {
-          "user": "koinobori",
-          "comment": "それはしかし郷土の歴史そのものだから、クラウドファンディングがあるなら縁もゆかりもないけど参加を考えたいくらいにはかわいそうに思う",
-          "tags": [],
-          "timestamp": "2026/08/15 13:49"
-        }
-      ],
-      "fetchedAt": "2026-08-15T06:48:38.168585+00:00"
+      "fetchedAt": "2026-08-15T12:48:35.015359+00:00"
     },
     {
       "id": "h_b1214e16",
       "title": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
       "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
       "domain": "zenn.dev",
-      "bookmarkCount": 65,
+      "bookmarkCount": 124,
       "summary": "Cloudflareへ移るまで、我々が富豪プログラミングをしているとは気づきませんでした。 EC2で動かしていたNestJSをHono + Cloudflare Workersへ移しました。RDSはそのまま使い、ElastiCacheの役割はCloudflare側へ移しています。 大きなSDKを入れる。レスポンスを全部メモリへ載せる。DBのSELECTを順番に待つ。Cronで全件...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
       "comments": [
+        {
+          "user": "taguch1",
+          "comment": "昔からlambdaとgoでサーバーレスは使ってたから実装自体に違和感はないけど、バニラのjsでバンドルサイズ抑えて、メモリ周りを気をつけるくらいか。",
+          "tags": [],
+          "timestamp": "2026/08/15 18:50"
+        },
         {
           "user": "remonoil",
           "comment": "メモリ128MBのAWS Lambdaでやったときはログ出力が存外に重かった。パフォーマンス測定用のtraceログの有無でパフォーマンス変わったり",
@@ -381,82 +154,83 @@
           "comment": "こういうのをさらっと出来る人と、AI叩くだけの人の値段差ってのは広がるんだろうなぁと思わされた。",
           "tags": [],
           "timestamp": "2026/08/15 13:10"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“Cloudflareへ移すと、バンドルサイズ、128 MBのメモリ、ネットワーク往復、CPU時間、Durable ObjectsのDuration、KVのオペレーションという値札がつき、富豪プログラミングしていた実装の重さが、急に見えた”",
-          "tags": [],
-          "timestamp": "2026/08/15 13:06"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:38.475783+00:00"
+      "fetchedAt": "2026-08-15T12:48:36.362283+00:00"
     },
     {
-      "id": "h_986aca72",
-      "title": "開発中止の噂まで、「Gemini 3.5 Pro」のリリース遅延は続く | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
-      "url": "https://forbesjapan.com/articles/detail/102858",
-      "domain": "forbesjapan.com",
-      "bookmarkCount": 46,
-      "summary": "8月も半ばに差しかかり、夏の大半をGemini 3.5 Proの登場を待って過ごしてきた人たちの間に、いらだちが広がっている。 これを「2026年で最も待たされたモデル」と呼ぶ声もある。というのも、当初発表されていたリリース時期は、夏の初めにずっと近い時点だったからだ。関連する他のモデルはすでに公開されているようだ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/102858",
+      "id": "h_8be2cb9e",
+      "title": "AIを使っているなら全員入れるべきAgent Skill 4選【ChatGPT / Codex / Claude Code】",
+      "url": "https://ai.itokoba.com/archives/861/",
+      "domain": "ai.itokoba.com",
+      "bookmarkCount": 121,
+      "summary": "こんにちは。AIを効率的に使うならSkillを入れた方がいいとよく言われていますよね。 実際、Agent Skillを探し始めるとかなりの数が見つかります。 ですが、何でもかんでも入れればいいというわけではありません。む […]",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ai.itokoba.com/archives/861/",
       "comments": [
         {
-          "user": "nakag0711",
-          "comment": "最近のGeminiモデルはちょっと不安定なところあるので、学習の工程に何か問題があるのかも…あるいはモデルの分割が上手くいってないとか…",
+          "user": "incubator",
+          "comment": "あとで読む",
           "tags": [],
-          "timestamp": "2026/08/15 14:57"
+          "timestamp": "2026/08/15 21:10"
         },
         {
-          "user": "peatnnuts",
-          "comment": "claudeとgptだけでいいよ。geminiはガッカリ",
-          "tags": [],
-          "timestamp": "2026/08/15 14:55"
-        },
-        {
-          "user": "toro-chan",
-          "comment": "もう必要なのは「ある程度」の頭の良さ。それ以外は重要なのは前提知識の広さ。リポジトリ全部渡してコーディングできるようにして欲しい。",
-          "tags": [],
-          "timestamp": "2026/08/15 14:06"
-        },
-        {
-          "user": "bopperjp",
-          "comment": "こんなGoogle の主戦場みたいなところでGoogleが負けるのは興味深い。あのGoogleが微妙なモデル出せないもんな－。",
-          "tags": [],
-          "timestamp": "2026/08/15 12:58"
-        },
-        {
-          "user": "napsucks",
-          "comment": "最近3.6flashを出したかと思ったら続けざまに3.7flashとか出して急にどうしたのって感じ。しかもみんなスルーｗ",
-          "tags": [],
-          "timestamp": "2026/08/15 12:55"
-        },
-        {
-          "user": "mohno",
-          "comment": "「強力すぎるモデルは、そのまま野に放つわけにはいかない」「コーディング作業をAIがますます肩代わりしている」/とりあえず「何かあったら責任取れよ」と。",
+          "user": "Magicant",
+          "comment": "文中の所々にある謎のタグは何? / japanese-tech-writing にも grill-me にも私は不満がある。全員入れるべきって程ではない",
           "tags": [
-            "Forbes",
-            "google",
-            "Gemini",
-            "人工知能",
-            "生成AI",
-            "開発",
-            "Anthropic",
-            "OpenAI"
+            "AIプログラミング"
           ],
-          "timestamp": "2026/08/15 12:11"
+          "timestamp": "2026/08/15 19:44"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "プロンプト職人の次はスキル選定おじさんかよ。でも技術文書生成とgrill-meは割と実用的で試す価値ありそうだな",
+          "tags": [],
+          "timestamp": "2026/08/15 17:43"
+        },
+        {
+          "user": "masakiplus",
+          "comment": "“用語”",
+          "tags": [],
+          "timestamp": "2026/08/15 17:42"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:41.291983+00:00"
+      "fetchedAt": "2026-08-15T12:48:34.102936+00:00"
     },
     {
       "id": "h_9ddf40c0",
       "title": "メール確認コードを不要にする Email Verification Protocol (EVP)",
       "url": "https://zenn.dev/tkou15/articles/email-verification-protocol",
       "domain": "zenn.dev",
-      "bookmarkCount": 45,
+      "bookmarkCount": 119,
       "summary": "はじめに アカウント登録時のメールアドレス確認は、Web でもっとも普及していて、もっとも面倒な手続きのひとつです。ユーザーは、 フォームにメールアドレスを入力する メールクライアントに切り替える メールの到着を待つ（迷惑メールフォルダを探すこともある） 確認コードをコピーする 元のサイトに戻って貼り付け...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tkou15/articles/email-verification-protocol",
       "comments": [
+        {
+          "user": "dollarss",
+          "comment": "これは助かるな。ぜひやってほしい。この仕組みを拡張してToTPサーバみたいなものを建てられたら全て解決するのにね。",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/08/15 20:31"
+        },
+        {
+          "user": "toaruR",
+          "comment": "これって普通のメールサーバじゃ無理じゃない？(・ω・) つか、gmailであってもiPhoneでメールアプリから使ってたら無理？",
+          "tags": [],
+          "timestamp": "2026/08/15 19:31"
+        },
+        {
+          "user": "onionskin",
+          "comment": "今のところ、Chrome/Edgeとgmailでのみ使える提案",
+          "tags": [],
+          "timestamp": "2026/08/15 18:16"
+        },
+        {
+          "user": "umaemong",
+          "comment": "正直、この技術が不要になる世の中にそろそろなって欲しい。Eメールはレガシー過ぎる。",
+          "tags": [],
+          "timestamp": "2026/08/15 17:53"
+        },
         {
           "user": "snipesnaps",
           "comment": "まじで一般人向けのサービスほど登録時のメールの存在確認が必要で、それがコンバージョンのネックになるんで普及してほしい。こんな解決法あったんか",
@@ -473,98 +247,254 @@
             "auth"
           ],
           "timestamp": "2026/08/15 15:05"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:35.481583+00:00"
+    },
+    {
+      "id": "h_63fea773",
+      "title": "クラウドベンダーが突然消滅、PBS系列局が70年分・50TBの放送アーカイブにアクセス不能に — バックアップなしで法廷闘争へ",
+      "url": "https://techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
+      "domain": "techfeed.io",
+      "bookmarkCount": 100,
+      "summary": "8月13日、Jowi Moralesが「PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct」と題した記事を公開した。契約していたクラウドストレージベンダーが突然消滅し、70年分・50TB超のアーカイブデータへのアクセスを失った米PBS系列局の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
+      "comments": [
+        {
+          "user": "keidge",
+          "comment": "エンタープライズの仕様の下で50TBを冗長性を確保した形で調達するのは、結構面倒だと思うよ。とはいえ、うかつだったね。あちらの国らしい話だ。",
+          "tags": [],
+          "timestamp": "2026/08/15 21:41"
         },
         {
-          "user": "panoramaafro",
-          "comment": "気になるねこりゃ",
+          "user": "star_123",
+          "comment": "データがあるのに回収すら出来ない、意味不明国家アメリカらしいエピソード",
           "tags": [],
-          "timestamp": "2026/08/15 13:30"
+          "timestamp": "2026/08/15 21:06"
+        },
+        {
+          "user": "hagakuress",
+          "comment": "The 3-2-1 Backup Strategy of Data Protection",
+          "tags": [],
+          "timestamp": "2026/08/15 20:12"
+        },
+        {
+          "user": "napsucks",
+          "comment": "PBクラスならまだしも50TBなら確かにそこらのNASにでも放り込んどくかglacierでも大した金額ではないな。",
+          "tags": [],
+          "timestamp": "2026/08/15 20:06"
+        },
+        {
+          "user": "babamin",
+          "comment": "過去の番組データなんて書き換えすることがないんだから、それこそテープメディアでの物理バックアップ保存に超絶向いてるような気がするのだけど",
+          "tags": [
+            "クラウド",
+            "ストレージ",
+            "バックアップ",
+            "セキュリティ",
+            "security"
+          ],
+          "timestamp": "2026/08/15 19:53"
+        },
+        {
+          "user": "morimarii",
+          "comment": "クラウドベンダの消失は天災よりは可能性高いので当然事業継続リスクに入れるべきなのである。。",
+          "tags": [],
+          "timestamp": "2026/08/15 19:20"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:37.378917+00:00"
+    },
+    {
+      "id": "h_fab9cdae",
+      "title": "年収1億円プレイヤーが200ペタフロップスの推論エンジンになった話",
+      "url": "https://anond.hatelabo.jp/20260815173709",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 19,
+      "summary": "39歳です。 先月まで外資系コンサルティング会社で働いていました。 年収は1億円です。 「1億円ほど」と書こうと思いましたが、源泉徴収票にきっちり100,000,000円と書いてあったので、ほどではありません。 会社からは「1億円プレイヤー」と呼ばれていました。 野球はできません。 キャッチボールをすると、ボールでは...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20260815173709",
+      "comments": [
+        {
+          "user": "kenzy_n",
+          "comment": "星新一か筒井康隆あたりが降霊されたか。",
+          "tags": [
+            "増田",
+            "AI",
+            "SF",
+            "ネタ"
+          ],
+          "timestamp": "2026/08/15 21:33"
+        },
+        {
+          "user": "mahal",
+          "comment": "人魚をボコって煮付にして喰った結果、檻に入れてなんかずっと暗いとこに…というタイムリーなお話だった(人魚いつ出て来た)",
+          "tags": [
+            "学問ラン３",
+            "Net",
+            "🙃"
+          ],
+          "timestamp": "2026/08/15 21:24"
+        },
+        {
+          "user": "naozane2",
+          "comment": "いいぞこれ。婚活するところがよかった。フィジカルAIになってロミジュリ的な大恋愛して企業から駆け落ちして、でも捕まって偶然他の惑星の採掘ロボと管理ロボに改造されて結ばれてほしい（無機物こそ純愛妄想）",
+          "tags": [],
+          "timestamp": "2026/08/15 21:22"
+        },
+        {
+          "user": "m4fg",
+          "comment": "初音ミクに歌わせたらいいとこいくと思う",
+          "tags": [],
+          "timestamp": "2026/08/15 21:17"
+        },
+        {
+          "user": "sgo2",
+          "comment": "○レンデバイス",
+          "tags": [],
+          "timestamp": "2026/08/15 21:11"
+        },
+        {
+          "user": "bbrinri",
+          "comment": "令和の家畜人ヤプー",
+          "tags": [],
+          "timestamp": "2026/08/15 21:06"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:36.671216+00:00"
+    },
+    {
+      "id": "h_30a19e54",
+      "title": "人混み「コミケ108」に挑む3キャリア ドコモ、KDDI、ソフトバンクがネットワーク対策公開",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2608/15/news019.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 16,
+      "summary": "東京ビッグサイトで開催されるコミックマーケット108（コミケ108）に向け、NTTドコモ、KDDI、ソフトバンクの携帯3キャリアは大規模な電波対策を実施する。1日に十数万人が来場するコミケでは、SNS投稿や動画視聴・アップロード、電子決済などにより通信トラフィックが極度に集中しやすい。各社は移動基地局車の増強やミ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2608/15/news019.html",
+      "comments": [
+        {
+          "user": "kenzy_n",
+          "comment": "コレを解決出来るのならばノーベル賞を与えられても不思議ではない。",
+          "tags": [
+            "ネットワーク",
+            "モバイル",
+            "通信",
+            "イベント"
+          ],
+          "timestamp": "2026/08/15 21:37"
+        },
+        {
+          "user": "JORG",
+          "comment": "他2社みたいに、実地テストなり技術プレビューも兼ねればいいのに、ドコモは普通に混雑対応だけで来てるのね",
+          "tags": [],
+          "timestamp": "2026/08/15 20:36"
+        },
+        {
+          "user": "kz78",
+          "comment": "docomoの比較対象が去年の夏なのは気になる。（冬コミで臨時基地局を設置してた場所が今回は借りられなかったのだろうか？）",
+          "tags": [],
+          "timestamp": "2026/08/15 19:41"
+        },
+        {
+          "user": "maidcure",
+          "comment": "楽天モバイルはKDDIのMVNOなので…",
+          "tags": [],
+          "timestamp": "2026/08/15 15:32"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:37.920652+00:00"
+    },
+    {
+      "id": "h_169a4e53",
+      "title": "「Qwen3.8-27B」ウェイト公開 一部「Opus 4.6 Max」超えか ライセンスは商用可のApache 2.0",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/15/2000000554/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 16,
+      "summary": "中国Alibaba傘下のAlibaba Cloudは8月15日（日本時間）、AIモデル「Qwen3.8-27B」のウェイト（重み）を公開した。Hugging FaceとModelScopeからダウンロード可能で、商用利用もできるライセンス「Apache 2.0」で提供する。一部のベンチマークでは、米Anthropicの「Claude Opus 4.6」の推論エフォート最大（以下、Opus 4....",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2608/15/2000000554/",
+      "comments": [
+        {
+          "user": "baronhorse",
+          "comment": "そろそろ家用のマシン組みたいな。いくらくらいで動くんだろ",
+          "tags": [],
+          "timestamp": "2026/08/15 21:47"
+        },
+        {
+          "user": "hkdn",
+          "comment": "生成AIの世界では中国さんのほうが自由主義なんだよな。まぁ仮に覇権とったら手のひら返すんだろうが。",
+          "tags": [],
+          "timestamp": "2026/08/15 21:35"
         },
         {
           "user": "nguyen-oi",
-          "comment": "確認コードコピペ地獄から解放されるのは朗報だが全ブラウザ対応まで何年かかるやら",
+          "comment": "27Bでローカル動作可能かつApache2.0なのは普通にありがたいな。推論モデルのオープン化が一気に加速してる感ある",
           "tags": [],
-          "timestamp": "2026/08/15 12:07"
+          "timestamp": "2026/08/15 19:39"
         },
         {
-          "user": "roshi",
-          "comment": "OAuth認証とかと同じでミドルウェア使うからイチから手書きする事はないんだろうけど、なかなかに複雑だ。",
+          "user": "naozane2",
+          "comment": "ローカルLLMの時代　／metaのMuseGlimmer  30Bがライバル。／ますますグラボ高騰するな",
           "tags": [],
-          "timestamp": "2026/08/15 11:39"
-        },
-        {
-          "user": "secseek",
-          "comment": "よさそうなんですけど、今度はDNSがネックになりそうで怖いですね。と思ったらちゃんと言及されてました。DNSSECまで検証すれば確かに間違いなさそうです",
-          "tags": [],
-          "timestamp": "2026/08/14 21:43"
+          "timestamp": "2026/08/15 19:33"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:39.165618+00:00"
+      "fetchedAt": "2026-08-15T12:48:38.708152+00:00"
     },
     {
-      "id": "h_d46c23b2",
-      "title": "なぜTDDでは、わざわざテストを失敗させるのか？",
-      "url": "https://zenn.dev/henyo245/articles/47e0a4d108553f",
-      "domain": "zenn.dev",
-      "bookmarkCount": 31,
-      "summary": "はじめに 社内でTDD（テスト駆動開発）の勉強会を開催することになり、事前説明用の資料を作成していました。 TDDの基本サイクルは次の3ステップです。 Red（失敗するテストを書く） Green（最小限の実装でテストを通す） Refactor（コードを整理する） 私自身、これまでTDDを実践する中で、特に疑問を持つことなくRedか...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/henyo245/articles/47e0a4d108553f",
-      "comments": [],
-      "fetchedAt": "2026-08-15T06:48:40.883967+00:00"
-    },
-    {
-      "id": "h_c8f663e3",
-      "title": "千葉の「豪雨でスマホが水没」――SNS上に困り感 ぬれた場合に絶対にやってはいけないこと",
-      "url": "https://www.itmedia.co.jp/mobile/articles/2608/14/news081.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 18,
-      "summary": "8月13日夕方から、千葉県を中心に記録的な豪雨が発生した。千葉市では観測史上1位となる1時間雨量115.0mmの猛烈な雨を記録し、一時レベル5の大雨特別警報や土砂災害特別警報が発表されるほどの深刻な状況となった。 この大雨は、首都圏の公共交通機関に極めて大きな影響を与えている。JR東日本によれば、大船や横浜方面...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2608/14/news081.html",
+      "id": "h_0e8c91d4",
+      "title": "無料でMySQL・PostgreSQL・SQL Server・MongoDB・SQLiteなどのデータベースを操作できる「DbGate」、ブラウザ経由だけでなくWindows・Linux・Macアプリもあり",
+      "url": "https://gigazine.net/news/20260815-dbgate/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 12,
+      "summary": "MySQLやPostgreSQL、MongoDBなど複数種類のデータベースを扱う際、個別に専用ツールを用意するのは面倒です。そこで、SQLとNoSQLを共通画面から操作でき、Windows・Linux・Macやブラウザから利用可能なデータベースマネージャー「DbGate」が公開されています。 SQL & noSQL database manager - DbGate https://www.dbgat...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260815-dbgate/",
       "comments": [
         {
-          "user": "gm91",
-          "comment": "米につっこむて…あり得ないわ",
+          "user": "nguyen-oi",
+          "comment": "DBeaver使ってるけどSQLとNoSQL両対応でWebでも動くなら乗り換え候補としてアリかもな",
           "tags": [],
-          "timestamp": "2026/08/15 14:12"
-        },
-        {
-          "user": "YokoChan",
-          "comment": "防水スマホでもバッテリー交換や画面割れ修理すると防水ではなくなるのでは。",
-          "tags": [],
-          "timestamp": "2026/08/15 12:34"
-        },
-        {
-          "user": "naga_yamas",
-          "comment": "真水につけろ！",
-          "tags": [],
-          "timestamp": "2026/08/15 12:28"
-        },
-        {
-          "user": "gogatsu26",
-          "comment": "“ぬれた状態で充電したり、周辺機器をつないだりしない”",
-          "tags": [
-            "安全",
-            "mobile"
-          ],
-          "timestamp": "2026/08/15 12:25"
-        },
-        {
-          "user": "punkgame",
-          "comment": "最近のスマホ大抵防水じゃね？",
-          "tags": [],
-          "timestamp": "2026/08/15 11:58"
-        },
-        {
-          "user": "ET777",
-          "comment": "なんかURLおかしくない？",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/15 11:38"
+          "timestamp": "2026/08/15 21:40"
         }
       ],
-      "fetchedAt": "2026-08-15T06:48:41.673606+00:00"
+      "fetchedAt": "2026-08-15T12:48:38.406154+00:00"
+    },
+    {
+      "id": "h_c8013bc3",
+      "title": "コンピューターの敵だった「熱雑音」を逆に利用して省電力を狙う「熱力学コンピューティング」とは？",
+      "url": "https://gigazine.net/news/20260815-thermodynamic-computing/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 8,
+      "summary": "熱によって原子や電子が不規則に動くことで、回路の電圧や電流には小さな揺らぎが生じます。こうしたランダムな揺らぎは「熱雑音」と呼ばれ、通常のコンピューターでは計算を乱す原因となるため抑え込まれていますが、その熱雑音を逆に計算へ利用する「熱力学コンピューティング」の研究が進んでいます。AIや科学計算に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260815-thermodynamic-computing/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "ノイズを抑え込むんじゃなくて計算の揺らぎとして使う発想は面白い 実用化まで何年かかるか見ものだな",
+          "tags": [],
+          "timestamp": "2026/08/15 21:40"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:37.663255+00:00"
+    },
+    {
+      "id": "h_f4762b0e",
+      "title": "TSKaigi Mashup Kansai #2 で「Flow の今」について話しました - mizdra's blog",
+      "url": "https://www.mizdra.net/entry/2026/08/14/144520",
+      "domain": "mizdra.net",
+      "bookmarkCount": 6,
+      "summary": "少し前の出来事になるのですが、2026/07/24 に TSKaigi Mashup Kansai #2 というイベントに参加してきました。アウトプットの仕方や姿勢の話、Effect の話、TSKaigi のイベント運営の裏話といった発表がありました。どれも興味深い話で面白かったです。 かくいう僕も「Flow は今どうなっているか」というタイトルで発表...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.mizdra.net/entry/2026/08/14/144520",
+      "comments": [
+        {
+          "user": "teppeis",
+          "comment": "おお、Flow、Flowじゃないか",
+          "tags": [
+            "flowtype"
+          ],
+          "timestamp": "2026/08/14 16:21"
+        }
+      ],
+      "fetchedAt": "2026-08-15T12:48:38.998014+00:00"
     }
   ],
-  "lastCollection": "2026-08-15T06:48:41.673634+00:00"
+  "lastCollection": "2026-08-15T12:48:38.998038+00:00"
 }
