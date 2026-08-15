@@ -1,163 +1,276 @@
 {
   "entries": [
     {
-      "id": "h_09c1dc25",
-      "title": "The 37signals Manager Playbook",
-      "url": "https://basecamp.com/managers",
-      "domain": "basecamp.com",
-      "bookmarkCount": 213,
-      "summary": "Heads up! This page uses features your browser doesn’t support. Try a modern browser like Firefox or Chrome for the best experience. sidebar#close mouseup->tweet#update input->tweet#update keydown->tweet#update scroll@window->tweet#update\" ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/basecamp.com/managers",
-      "comments": [
-        {
-          "user": "airj12",
-          "comment": "入り口しか読んでないけど、めっちゃコミュニケーションしろ、て感じ",
-          "tags": [],
-          "timestamp": "2026/08/15 09:16"
-        },
-        {
-          "user": "pchatsu",
-          "comment": "via https://x.com/iwashi86/status/2088158685432528983",
-          "tags": [],
-          "timestamp": "2026/08/15 08:04"
-        },
-        {
-          "user": "gadget-lab",
-          "comment": "後で読みたい。The 37signals Manager Playbook",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/15 00:37"
-        },
-        {
-          "user": "prjpn",
-          "comment": "AIのハーネスにしたら動きそう",
-          "tags": [],
-          "timestamp": "2026/08/14 23:05"
-        },
-        {
-          "user": "tnoda78",
-          "comment": "“In”",
-          "tags": [],
-          "timestamp": "2026/08/14 22:01"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "英語だけどマネージャー層向けのノウハウとしては普通に参考になりそう",
-          "tags": [],
-          "timestamp": "2026/08/14 21:33"
-        }
-      ],
-      "fetchedAt": "2026-08-15T01:37:06.916867+00:00"
-    },
-    {
       "id": "h_148d5c25",
       "title": "概念設計が、その後のコードの命運を左右する",
       "url": "https://zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
       "domain": "zenn.dev",
-      "bookmarkCount": 74,
+      "bookmarkCount": 209,
       "summary": "最近、ソフトウェア開発における概念設計の威力と重要さについて人に伝えたい機会が何度かあった。[1] しかし、概念の整理がなぜどのように重要なのか、という一点を取り上げて書かれたものは少ないようで、人に渡すのにちょうどよい文章や書籍が見つからなかったので、このたび私なりに咀嚼して書いてみたい。 そのアプ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/takeshi_teshima/articles/bae79b2f0f97be",
       "comments": [
         {
-          "user": "Eiichiro",
-          "comment": "概念設計の大事さは、その通り。 ただこの仕様だと、暗黙の条件分岐になる、再配送と複数配送の区別が難しく、マイページや管理画面でどう見せるか？一番はOrderの変更反映がむずい。とかいろいろ課題がある。",
+          "user": "chess-news",
+          "comment": "それって、jisの定義で言葉を使ってるの？ そういうのないの？",
           "tags": [],
-          "timestamp": "2026/08/15 10:26"
+          "timestamp": "2026/08/15 15:40"
         },
         {
-          "user": "tettekete37564",
-          "comment": "“概念を正しく切り分けると、それまで「注意して防ぐ」必要があったバグが、そもそも発生しにくくなる。” < これな。ロジックではなくシステムや構造で解決するのが優秀なエンジニアに必要な素養だと思っている",
+          "user": "ducky19999",
+          "comment": "Analysis Patterns",
           "tags": [],
-          "timestamp": "2026/08/15 10:20"
+          "timestamp": "2026/08/15 15:07"
         },
         {
-          "user": "Magicant",
-          "comment": "練習問題が良くできてる",
+          "user": "masa8aurum",
+          "comment": "よい記事。 ・概念を適切に認識して用語を定義して、使っていくこと。それに適切な名前をつけること。これによってその後のシステムの命運がまるで変わる",
           "tags": [
-            "システム設計",
-            "プログラミング"
+            "あとで読む",
+            "設計",
+            "IT_素人への説明用",
+            "Domain-Driven"
           ],
-          "timestamp": "2026/08/15 09:56"
+          "timestamp": "2026/08/15 14:11"
         },
         {
-          "user": "uehaj",
-          "comment": "概念設計＝人工的なラングの分節というソシュール記号学の工学的応用。概念の正誤基準は現実との鏡像一致でなく実践での摩擦の少なさ。概念は経験の法廷に体系として問われ帳尻合わせが増えすぎた枠は改訂を迫られる",
-          "tags": [],
-          "timestamp": "2026/08/15 09:55"
+          "user": "moronbee",
+          "comment": "概念設計とネーミングは本当に大事。ただ上手い人程ドヤらないし上手くやる程自然に見えるので、その洗練さに気づかれにくい",
+          "tags": [
+            "concept",
+            "modelling",
+            "design"
+          ],
+          "timestamp": "2026/08/15 13:14"
         },
         {
-          "user": "revert",
-          "comment": "とても同意できるし本当に大事だよね。一方で、適切な関心単位に分解することを思いつける人は経験的にはかなり少ない",
+          "user": "awaytabi",
+          "comment": "それって概念設計ではなくモデリングでは？",
           "tags": [],
-          "timestamp": "2026/08/15 08:35"
+          "timestamp": "2026/08/15 12:53"
         },
         {
-          "user": "mak_in",
-          "comment": "実装のコストが下がった今、思想がより大事になるはず。そこまで理解できる開発者は少ない。指示を出せばできる、でも指示を言語化するには現実世界を観測する必要がある、観測から言語化にはフィルター≒思想がいる",
-          "tags": [],
-          "timestamp": "2026/08/15 08:15"
+          "user": "peketamin",
+          "comment": "なるほどー！",
+          "tags": [
+            "_FAV_",
+            "設計"
+          ],
+          "timestamp": "2026/08/15 12:21"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:04.384174+00:00"
+      "fetchedAt": "2026-08-15T06:48:37.806192+00:00"
+    },
+    {
+      "id": "h_1253a390",
+      "title": "生成AIポスターを展示する飲食店が増えているが、極力そういう店には行かないようにしている…「これくらい別にいいでしょ？」とバカにされていると感じる→共感の声が続々",
+      "url": "https://togetter.com/li/2733238",
+      "domain": "togetter.com",
+      "bookmarkCount": 141,
+      "summary": "キニマンス塚本ニキ Nikki Tsukamoto Kininmonth @tsukaniki85 生成AIポスターを展示する飲食店が増えてるけど、私は極力そういう店には行かないようにしてる。 AIが出力したビジュアルや言葉を自分の目と感性で判断すらしようとしない人の料理には食指が動かない。 ちょっと変かもしれないけど、これくらい別にいいでし...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2733238",
+      "comments": [
+        {
+          "user": "strange",
+          "comment": "生成AIを貶すのはまだ当面はエンターテインメントとして有効だろうなあ",
+          "tags": [],
+          "timestamp": "2026/08/15 15:48"
+        },
+        {
+          "user": "fluoride",
+          "comment": "別にええやろと思ったけど画像が実物と違うのは端的に嘘だよな...",
+          "tags": [],
+          "timestamp": "2026/08/15 15:46"
+        },
+        {
+          "user": "kentabookmark",
+          "comment": "いらすとやの時も、Wordの時もこういうこと言う人いた。使っていいけど本物とかけ離れたもん出さないで欲しいので最初にプロンプトをきちんと書いて欲しい",
+          "tags": [],
+          "timestamp": "2026/08/15 15:44"
+        },
+        {
+          "user": "sugadesu",
+          "comment": "まだみんなAIすげーすげーってキャッキャしてて迂闊だよな",
+          "tags": [],
+          "timestamp": "2026/08/15 15:43"
+        },
+        {
+          "user": "Shiori115",
+          "comment": "ペラ紙一枚なら生成AIでさっと済ますのもいいけど、肝心な部分までそれで済まされるとうーんとなるね。",
+          "tags": [],
+          "timestamp": "2026/08/15 15:41"
+        },
+        {
+          "user": "logic",
+          "comment": "プロのカメラマンが撮った料理写真でも実物の何倍も盛った加工している。今までずっとそうやって騙すのが当たり前だったんだから誰も気にしてない。",
+          "tags": [],
+          "timestamp": "2026/08/15 15:40"
+        }
+      ],
+      "fetchedAt": "2026-08-15T06:48:37.177771+00:00"
     },
     {
       "id": "h_cb60f2de",
       "title": "なぜAI時代にGoが最適な言語なのか",
       "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
       "domain": "zenn.dev",
-      "bookmarkCount": 70,
+      "bookmarkCount": 110,
       "summary": "はじめに 本記事では、GoogleのGolang Product ManagerのCameron Balahanと、Google Cloud Chief EvangelistのRichard Seroterによって投稿された、「Why Go is an Ideal Language for AI-Assisted Software Engineering」 を和訳するとともに、私の感想を少し書こうと思う。 また、本記事は元記事の著者の一人である、C...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/iwatsukayura/articles/google-go-ai",
       "comments": [
         {
-          "user": "higgsino",
-          "comment": "Goが最適かどうかはわからないけど、シンタックスが好きじゃないって理由で候補から除外することはなくなったな。どうせAIに書かせるわけだからね",
+          "user": "mushus",
+          "comment": "言語仕様そのもの、フレームワークそのものがハーネスになるのを趣味でAIでコード書いてててひしひしと",
           "tags": [],
-          "timestamp": "2026/08/15 10:34"
+          "timestamp": "2026/08/15 14:34"
         },
         {
-          "user": "airj12",
-          "comment": "AIが書くなら固い(型安全とか制約機構がちゃんとしている)言語がいいとは思う",
+          "user": "hkdn",
+          "comment": "Googleで揃えた場合はそうなんだろうな。",
           "tags": [],
-          "timestamp": "2026/08/15 10:09"
+          "timestamp": "2026/08/15 13:41"
         },
         {
-          "user": "remonoil",
-          "comment": "TypeScriptでいいよ",
+          "user": "Iridium",
+          "comment": "人間が読まなくていいなら機械語でいいような気もするが。異常に速い処理が書けるんじゃないかな",
           "tags": [],
-          "timestamp": "2026/08/15 10:01"
+          "timestamp": "2026/08/15 13:17"
         },
         {
-          "user": "masatotoro",
-          "comment": "Rustの方が良いのでは？",
+          "user": "yarumato",
+          "comment": "“AIエージェントによって、開発ボトルネックがコード書きからレビュー・検証に移行してきた。言語そのものをAIを制御するためのガードレールとして捉える”",
           "tags": [],
-          "timestamp": "2026/08/15 09:58"
+          "timestamp": "2026/08/15 12:30"
         },
         {
-          "user": "fuji_haruka",
-          "comment": "誰もコードを自分では読まなくなるんだからreadableの価値は低下していくだろうけどね",
+          "user": "atsushieno",
+          "comment": "Goではリアルタイムセーフなコードを書けないから自分が使う状況は無い。どの言語にもソリューションに適切となる場面・側面があり、AIが解決できる問題は限られている。Google自身もGoによる置き換えを実践していない。",
           "tags": [],
-          "timestamp": "2026/08/15 09:38"
+          "timestamp": "2026/08/15 11:58"
         },
         {
-          "user": "kwsktr",
-          "comment": "最近スクリプト作るとき、何も考えずPythonを選んでて、AIも良しなにしてくれるし、なにも不自由なかったのは膨大なライブラリに救われてただけだった。動けばいいけど、数が増えるとますます自分で書けなくなっていく",
+          "user": "diveintounlimit",
+          "comment": "端折った翻訳/要約より元記事読むことをお勧めしたい、そんなに長くないし。。",
           "tags": [],
-          "timestamp": "2026/08/15 09:12"
+          "timestamp": "2026/08/15 11:46"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:05.026162+00:00"
+      "fetchedAt": "2026-08-15T06:48:39.769010+00:00"
+    },
+    {
+      "id": "h_a876034a",
+      "title": "Opus 5 よりも Sonnet 5 を選ぶ理由——QCD を 240 試行で比較する（オトナの自由研究 #34）",
+      "url": "https://zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
+      "domain": "zenn.dev",
+      "bookmarkCount": 99,
+      "summary": "3つの発見 1. 定番の DB 処理であれば、Opus 5 よりも Sonnet 5 のコストは約 1/2（$0.33 対 $0.59、同時間換算で約 2倍差）——ただし effort level は xhigh が必要 2. Sonnet 5 の合否は、罠に気づいたかどうか——effort level で上がるのは実装力ではなく「気づく確率」（40 試行全てで一致） 3. Opus 5 の失敗は逆——気...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
+      "comments": [
+        {
+          "user": "b9rantan8",
+          "comment": "結論、Opus 5を使いましょうｗ",
+          "tags": [],
+          "timestamp": "2026/08/15 14:45"
+        },
+        {
+          "user": "jaguarsan",
+          "comment": "生成AI使うと「頭の良い人は根本的な所で間違う」 を身をもって体感できる",
+          "tags": [],
+          "timestamp": "2026/08/15 13:42"
+        },
+        {
+          "user": "brain-box",
+          "comment": "なんとなくでOpus 4.7、4.8を時々使って比べてみる",
+          "tags": [],
+          "timestamp": "2026/08/15 12:56"
+        },
+        {
+          "user": "hogetax",
+          "comment": "ブラックボックステストなんで正直やってみないと分からないのがつらいよね。指標が曖昧過ぎるw",
+          "tags": [],
+          "timestamp": "2026/08/15 12:44"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“Opus5よりもSonnet5のコストは約1/2。Sonnet5 xhighで上がるのは実装力ではなく致命的ミスに気づく確率。Opus5 lowでは理解済みの致命的ミス（ガード）”",
+          "tags": [],
+          "timestamp": "2026/08/15 12:31"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "簡単なタスクならローカルLLMでも十分に行けるけど、レートリミット的にOpus 5で足りてる。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/15 11:28"
+        }
+      ],
+      "fetchedAt": "2026-08-15T06:48:38.829950+00:00"
+    },
+    {
+      "id": "h_005772c0",
+      "title": "「Qwen3.8-27B」ついに公開！3.6を大きく上回る性能でローカルAIの定番になるか",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2132909.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 74,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132909.html",
+      "comments": [
+        {
+          "user": "bomem",
+          "comment": "35B-A3BでCPUでやりたい",
+          "tags": [],
+          "timestamp": "2026/08/15 15:25"
+        },
+        {
+          "user": "awaytabi",
+          "comment": "Qwen3.0-4Bを使うKrea2が日本語Promptで英語Promptとそん色のない細かい指示に従う画像生成できているのをみて、Qwen系を見直すとともに、恐怖を覚えてる。利用者としてはQwen系を絶賛してるが、安全保障上は怖い。",
+          "tags": [],
+          "timestamp": "2026/08/15 13:03"
+        },
+        {
+          "user": "star_123",
+          "comment": "16GBで動かすとなると動くには動くけどギリギリすぎるVRAM24GBのグラボがほしいな",
+          "tags": [],
+          "timestamp": "2026/08/15 12:53"
+        },
+        {
+          "user": "Nunocky",
+          "comment": "いま無理して強めのマシンを買っておくべきかなあ…",
+          "tags": [],
+          "timestamp": "2026/08/15 11:34"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "やはり小型モデルが本命。3.6 Q8 でも DeepSeek-V4-Flash Q2 （アクティブ13.3B）より少し遅いくらいだったので、これも期待できる。後で試す。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/15 11:18"
+        },
+        {
+          "user": "aox",
+          "comment": "なんでもAIに頼らず自分でやるべきです",
+          "tags": [],
+          "timestamp": "2026/08/15 10:45"
+        }
+      ],
+      "fetchedAt": "2026-08-15T06:48:40.095984+00:00"
     },
     {
       "id": "h_3ec46313",
       "title": "MicrosoftのAIターミナル「Intelligent Terminal 0.2」が公開 ～ローカルモデルに対応／「OpenCode」対応、スラッシュコマンドの拡充、WSL内エージェントなどの改善も",
       "url": "https://forest.watch.impress.co.jp/docs/news/2132156.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 49,
+      "bookmarkCount": 70,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2132156.html",
       "comments": [
+        {
+          "user": "nekonanox",
+          "comment": "ローカル対応うれしい",
+          "tags": [],
+          "timestamp": "2026/08/15 11:39"
+        },
         {
           "user": "hiroomi",
           "comment": "“「Intelligent Terminal」は、「ターミナル」（Windows Terminal）にAIエージェントをネイティブ統合した実験的アプリ”https://github.com/microsoft/intelligent-terminal",
@@ -177,290 +290,281 @@
           "timestamp": "2026/08/15 07:42"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:06.019413+00:00"
+      "fetchedAt": "2026-08-15T06:48:40.545669+00:00"
     },
     {
-      "id": "h_a876034a",
-      "title": "Opus 5 よりも Sonnet 5 を選ぶ理由——QCD を 240 試行で比較する（オトナの自由研究 #34）",
-      "url": "https://zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
+      "id": "h_63fea773",
+      "title": "クラウドベンダーが突然消滅、PBS系列局が70年分・50TBの放送アーカイブにアクセス不能に — バックアップなしで法廷闘争へ",
+      "url": "https://techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
+      "domain": "techfeed.io",
+      "bookmarkCount": 67,
+      "summary": "8月13日、Jowi Moralesが「PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct」と題した記事を公開した。契約していたクラウドストレージベンダーが突然消滅し、70年分・50TB超のアーカイブデータへのアクセスを失った米PBS系列局の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techfeed.io/entries/6a7e3a5aec7a075ad3292ac1",
+      "comments": [
+        {
+          "user": "ayumun",
+          "comment": "サポートファイル形式が変わったり、メディアドライブが生産されなくなって、読み出せないファイルが既に世界には沢山あるので、結局長期保存するものはアナログが正解なんだろな。なお保管場所",
+          "tags": [],
+          "timestamp": "2026/08/15 15:42"
+        },
+        {
+          "user": "georgew",
+          "comment": "これは残念ながらPBS側の対策が甘かったことに尽きる。教訓てんこ盛りの事案。",
+          "tags": [],
+          "timestamp": "2026/08/15 15:31"
+        },
+        {
+          "user": "hiroyuki1983",
+          "comment": "たった数千ドルのHDDだとしても社内稟議通すのダルすぎるからしゃーない",
+          "tags": [],
+          "timestamp": "2026/08/15 15:19"
+        },
+        {
+          "user": "hunglysheep1",
+          "comment": "例えばAWSやGoogle cloudに置いてあるデータを会社側にバックアップ取ってあるユーザーはどの程度居るんだろうか(取ってない会社は多いだろう)オンプレだと意識するし金も当たり前に出るが",
+          "tags": [],
+          "timestamp": "2026/08/15 14:58"
+        },
+        {
+          "user": "vesikukka",
+          "comment": "※社内SEの判断だとは読めない。",
+          "tags": [],
+          "timestamp": "2026/08/15 14:15"
+        },
+        {
+          "user": "koinobori",
+          "comment": "それはしかし郷土の歴史そのものだから、クラウドファンディングがあるなら縁もゆかりもないけど参加を考えたいくらいにはかわいそうに思う",
+          "tags": [],
+          "timestamp": "2026/08/15 13:49"
+        }
+      ],
+      "fetchedAt": "2026-08-15T06:48:38.168585+00:00"
+    },
+    {
+      "id": "h_b1214e16",
+      "title": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
+      "url": "https://zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
       "domain": "zenn.dev",
-      "bookmarkCount": 45,
-      "summary": "3つの発見 1. 定番の DB 処理であれば、Opus 5 よりも Sonnet 5 のコストは約 1/2（$0.33 対 $0.59、同時間換算で約 2倍差）——ただし effort level は xhigh が必要 2. Sonnet 5 の合否は、罠に気づいたかどうか——effort level で上がるのは実装力ではなく「気づく確率」（40 試行全てで一致） 3. Opus 5 の失敗は逆——気...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nnakapa/articles/lab-34-opus5-sonnet5-qcd",
+      "bookmarkCount": 65,
+      "summary": "Cloudflareへ移るまで、我々が富豪プログラミングをしているとは気づきませんでした。 EC2で動かしていたNestJSをHono + Cloudflare Workersへ移しました。RDSはそのまま使い、ElastiCacheの役割はCloudflare側へ移しています。 大きなSDKを入れる。レスポンスを全部メモリへ載せる。DBのSELECTを順番に待つ。Cronで全件...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/rdlabo/articles/cloudflare-workers-after-rich-programming",
       "comments": [
         {
-          "user": "aomvce",
-          "comment": "ファブル使え、一番いいやつ",
+          "user": "remonoil",
+          "comment": "メモリ128MBのAWS Lambdaでやったときはログ出力が存外に重かった。パフォーマンス測定用のtraceログの有無でパフォーマンス変わったり",
           "tags": [],
-          "timestamp": "2026/08/15 10:25"
+          "timestamp": "2026/08/15 15:15"
         },
         {
-          "user": "diveintounlimit",
-          "comment": "それにしてもopus 5たまに激しく頭悪いけどな。賢いけどミスが多いんじゃなくて単純に阿呆。",
+          "user": "nakag0711",
+          "comment": "select並列はなんかデッドロックが怖いな…というかトランザクションはバラバラで読むの？",
           "tags": [],
-          "timestamp": "2026/08/15 10:07"
+          "timestamp": "2026/08/15 14:21"
         },
         {
-          "user": "chiba1008",
-          "comment": "まだClaudeで消耗してるの？",
-          "tags": [],
-          "timestamp": "2026/08/15 10:02"
+          "user": "pekee-nuee-nuee",
+          "comment": "cloudflare使うこと増えてきたからなあ。なんか色々と考え方変わりそうな感じはあったけども。まとめてくれて感謝",
+          "tags": [
+            "プログラミング",
+            "技術"
+          ],
+          "timestamp": "2026/08/15 13:51"
         },
         {
-          "user": "kijtra",
-          "comment": "処理系ならいいけど、資料とかの成果物はSonnetは良くない印象。Opusは少し情報過多、Fableは流石というイメージ。",
+          "user": "gimonfu_usr",
+          "comment": "“Cloudflare”　　https://note.com/o_ob/n/ndadf268735f4　（　ずっと無料でありつづけるというなぞの信頼　）",
           "tags": [],
-          "timestamp": "2026/08/15 09:58"
+          "timestamp": "2026/08/15 13:19"
         },
         {
-          "user": "morimarii",
-          "comment": "AIにミスが多いって仕組み知ってれば当たり前なんだけどよく知らない人からすると奇異に映るかもしれないと思った",
+          "user": "cinq_na",
+          "comment": "こういうのをさらっと出来る人と、AI叩くだけの人の値段差ってのは広がるんだろうなぁと思わされた。",
           "tags": [],
-          "timestamp": "2026/08/15 09:27"
+          "timestamp": "2026/08/15 13:10"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "effort levelで罠に気づく確率が変わるって分析がガチで面白い。モデル性能以前にパラメータ設定が死活問題だな",
+          "user": "yarumato",
+          "comment": "“Cloudflareへ移すと、バンドルサイズ、128 MBのメモリ、ネットワーク往復、CPU時間、Durable ObjectsのDuration、KVのオペレーションという値札がつき、富豪プログラミングしていた実装の重さが、急に見えた”",
           "tags": [],
-          "timestamp": "2026/08/15 09:02"
+          "timestamp": "2026/08/15 13:06"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:05.344533+00:00"
-    },
-    {
-      "id": "h_569f3ba4",
-      "title": "ブラウザでPC-98が起動!! FreeDOS(98)同梱＆AI操作対応の「WebNP2」 - RetroPC NEWS",
-      "url": "https://retropcnews.com/archives/7688",
-      "domain": "retropcnews.com",
-      "bookmarkCount": 40,
-      "summary": "インストール不要。プラグインも不要。URLを開くだけで、ブラウザの中にPC-98が立ち上がる——そんなWebプレイヤー「WebNP2」が公開されています。 WebNP2とは WebNP2は、春うららさんが開発する、ブラウザで動作するPC-98エミュレータです。フロントエンドは Vite + TypeScript で、コアは NP2kai-wasm になります。 実機...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/retropcnews.com/archives/7688",
-      "comments": [
-        {
-          "user": "fashi",
-          "comment": "AIにPC-98の開発させるのもあり",
-          "tags": [
-            "エミュ"
-          ],
-          "timestamp": "2026/08/15 09:28"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "ピポッ！",
-          "tags": [],
-          "timestamp": "2026/08/15 07:14"
-        },
-        {
-          "user": "Galaxy42",
-          "comment": "平安京エイリアン",
-          "tags": [
-            "これはすごい",
-            "これはこれは"
-          ],
-          "timestamp": "2026/08/15 05:00"
-        },
-        {
-          "user": "straychef",
-          "comment": "こっちも",
-          "tags": [],
-          "timestamp": "2026/08/15 02:12"
-        }
-      ],
-      "fetchedAt": "2026-08-15T01:37:08.972261+00:00"
-    },
-    {
-      "id": "h_005772c0",
-      "title": "「Qwen3.8-27B」ついに公開！3.6を大きく上回る性能でローカルAIの定番になるか",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2132909.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 37,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2132909.html",
-      "comments": [
-        {
-          "user": "hokkey",
-          "comment": "今回はMoE版出してくんないのかな～ Denseだと遅くて…",
-          "tags": [],
-          "timestamp": "2026/08/15 10:34"
-        },
-        {
-          "user": "knok",
-          "comment": "DLが遅いねんな…",
-          "tags": [],
-          "timestamp": "2026/08/15 10:06"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "試す",
-          "tags": [],
-          "timestamp": "2026/08/15 09:48"
-        },
-        {
-          "user": "hhungry",
-          "comment": "来年の今頃にはこれくらいのパラメータ数でもFable5級になってるに10ドル賭ける",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/08/15 09:29"
-        },
-        {
-          "user": "zsehnuy_cohriy",
-          "comment": "来たわね",
-          "tags": [],
-          "timestamp": "2026/08/15 09:10"
-        },
-        {
-          "user": "iinalabkojocho",
-          "comment": "これぐらいの大きさがローカルの最大許容範囲かもね。早速動かしてみますよ。数兆とかはプロ向けも公開しますよ。って感じだもの。",
-          "tags": [
-            "ニュース",
-            "AI"
-          ],
-          "timestamp": "2026/08/15 01:26"
-        }
-      ],
-      "fetchedAt": "2026-08-15T01:37:05.731714+00:00"
+      "fetchedAt": "2026-08-15T06:48:38.475783+00:00"
     },
     {
       "id": "h_986aca72",
       "title": "開発中止の噂まで、「Gemini 3.5 Pro」のリリース遅延は続く | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
       "url": "https://forbesjapan.com/articles/detail/102858",
       "domain": "forbesjapan.com",
-      "bookmarkCount": 20,
+      "bookmarkCount": 46,
       "summary": "8月も半ばに差しかかり、夏の大半をGemini 3.5 Proの登場を待って過ごしてきた人たちの間に、いらだちが広がっている。 これを「2026年で最も待たされたモデル」と呼ぶ声もある。というのも、当初発表されていたリリース時期は、夏の初めにずっと近い時点だったからだ。関連する他のモデルはすでに公開されているようだ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forbesjapan.com/articles/detail/102858",
       "comments": [
         {
-          "user": "aomvce",
-          "comment": "クロードに完敗",
+          "user": "nakag0711",
+          "comment": "最近のGeminiモデルはちょっと不安定なところあるので、学習の工程に何か問題があるのかも…あるいはモデルの分割が上手くいってないとか…",
           "tags": [],
-          "timestamp": "2026/08/15 10:30"
+          "timestamp": "2026/08/15 14:57"
         },
         {
-          "user": "morimarii",
-          "comment": "Geminiを押してた会社の人が涙目になっているので、そろそろ助けてあげてください。",
+          "user": "peatnnuts",
+          "comment": "claudeとgptだけでいいよ。geminiはガッカリ",
           "tags": [],
-          "timestamp": "2026/08/15 09:39"
+          "timestamp": "2026/08/15 14:55"
         },
         {
-          "user": "llllIIIIllll",
-          "comment": "一般人はflashで十分だからプロユースは他社に任せていいんじゃないかな。",
+          "user": "toro-chan",
+          "comment": "もう必要なのは「ある程度」の頭の良さ。それ以外は重要なのは前提知識の広さ。リポジトリ全部渡してコーディングできるようにして欲しい。",
           "tags": [],
-          "timestamp": "2026/08/15 08:44"
+          "timestamp": "2026/08/15 14:06"
         },
         {
-          "user": "hhungry",
-          "comment": "しばらくは3.7 flashで遊んでればええやろ",
+          "user": "bopperjp",
+          "comment": "こんなGoogle の主戦場みたいなところでGoogleが負けるのは興味深い。あのGoogleが微妙なモデル出せないもんな－。",
           "tags": [],
-          "timestamp": "2026/08/15 08:32"
+          "timestamp": "2026/08/15 12:58"
         },
         {
-          "user": "takanagi1225",
-          "comment": "一般人がアプリに欲しい新機能とかどうでもいいので、まずリリース予定の3.5Proを先にデプロイしてくれよな～。前者のビルドに取り掛かるのはその次だろうよ。",
+          "user": "napsucks",
+          "comment": "最近3.6flashを出したかと思ったら続けざまに3.7flashとか出して急にどうしたのって感じ。しかもみんなスルーｗ",
           "tags": [],
-          "timestamp": "2026/08/15 08:24"
+          "timestamp": "2026/08/15 12:55"
         },
         {
-          "user": "jebelxc2002",
-          "comment": "geminiは神社仏閣や記念碑の碑文をわかりやすく読んでくれてワクワクする解説までつけてくれるから応援してる！",
-          "tags": [],
-          "timestamp": "2026/08/15 07:56"
+          "user": "mohno",
+          "comment": "「強力すぎるモデルは、そのまま野に放つわけにはいかない」「コーディング作業をAIがますます肩代わりしている」/とりあえず「何かあったら責任取れよ」と。",
+          "tags": [
+            "Forbes",
+            "google",
+            "Gemini",
+            "人工知能",
+            "生成AI",
+            "開発",
+            "Anthropic",
+            "OpenAI"
+          ],
+          "timestamp": "2026/08/15 12:11"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:07.393398+00:00"
+      "fetchedAt": "2026-08-15T06:48:41.291983+00:00"
     },
     {
-      "id": "h_3031db81",
-      "title": "南海電鉄「数カ月かかった乗務員計画」が1週間に 「量子コンピュータを疑似再現」で鉄道現場はどう変わる？",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news043.html",
-      "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 12,
-      "summary": "南海電鉄「数カ月かかった乗務員計画」が1週間に 「量子コンピュータを疑似再現」で鉄道現場はどう変わる？：運用計画づくりを縛る多くの制約条件とは 南海電気鉄道と日立製作所は、日立独自技術「CMOSアニーリング」を活用し、鉄道の乗務員・車両の運用計画を自動作成するシステムの構築を始める。熟練者の手作業に依...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2608/14/news043.html",
+      "id": "h_9ddf40c0",
+      "title": "メール確認コードを不要にする Email Verification Protocol (EVP)",
+      "url": "https://zenn.dev/tkou15/articles/email-verification-protocol",
+      "domain": "zenn.dev",
+      "bookmarkCount": 45,
+      "summary": "はじめに アカウント登録時のメールアドレス確認は、Web でもっとも普及していて、もっとも面倒な手続きのひとつです。ユーザーは、 フォームにメールアドレスを入力する メールクライアントに切り替える メールの到着を待つ（迷惑メールフォルダを探すこともある） 確認コードをコピーする 元のサイトに戻って貼り付け...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tkou15/articles/email-verification-protocol",
       "comments": [
         {
-          "user": "Galaxy42",
-          "comment": "熟練の職人が定年でようやく？",
-          "tags": [
-            "これはなんだ",
-            "これはこれは"
-          ],
-          "timestamp": "2026/08/15 09:09"
+          "user": "snipesnaps",
+          "comment": "まじで一般人向けのサービスほど登録時のメールの存在確認が必要で、それがコンバージョンのネックになるんで普及してほしい。こんな解決法あったんか",
+          "tags": [],
+          "timestamp": "2026/08/15 15:22"
         },
         {
-          "user": "yodogawa-kahan",
-          "comment": "乗務員のアクスタと電車に見立てたケースを特注して楽しくなりました、のほうがいい。",
+          "user": "kaorun",
+          "comment": "ぜひ普及してほしい、けど、こういう素敵でモダンな仕組みができてもアカウントの所有検証を全くせずEMailアドレス入力だけのザル実装なクソ通販サイトや会員サイトは無くならないんだろうなぁ…",
           "tags": [
-            "鉄道"
+            "browser",
+            "security",
+            "email",
+            "auth"
           ],
-          "timestamp": "2026/08/14 20:25"
-        }
-      ],
-      "fetchedAt": "2026-08-15T01:37:07.661294+00:00"
-    },
-    {
-      "id": "h_c3a81cd9",
-      "title": "デジカメ動画Watch：【レビュー】Insta360 X6 イメージセンサー、エンジン共にグレードアップ！ カメラ内での自動編集も",
-      "url": "https://dc.watch.impress.co.jp/docs/review/moviewatch/2132773.html",
-      "domain": "dc.watch.impress.co.jp",
-      "bookmarkCount": 12,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dc.watch.impress.co.jp/docs/review/moviewatch/2132773.html",
-      "comments": [
-        {
-          "user": "cinefuk",
-          "comment": "（360°カメラに特化したソニー製カスタム1/1.1型スクエアセンサーを前後に2基搭載。X5の1/1.28型からスペックアップし」「X5/X4 Air同様、破損したレンズの交換にも対応しているので、レンズ交換キットを持ち歩けば」",
-          "tags": [
-            "カメラ"
-          ],
-          "timestamp": "2026/08/15 09:48"
+          "timestamp": "2026/08/15 15:05"
         },
         {
-          "user": "fashi",
-          "comment": "「ソニー製カスタム1/1.1型スクエアセンサー」",
-          "tags": [
-            "デジカメ"
-          ],
-          "timestamp": "2026/08/15 09:29"
-        }
-      ],
-      "fetchedAt": "2026-08-15T01:37:08.283415+00:00"
-    },
-    {
-      "id": "h_a83ac6d8",
-      "title": "Gemini 3.7 Flash を発表",
-      "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/",
-      "domain": "blog.google",
-      "bookmarkCount": 10,
-      "summary": "広くご活用いただいている Flash シリーズの進化をさらに進め、コーディングやエージェント機能においてこれまでで最も高性能な主力モデル Gemini 3.7 Flash を本日より公開します。 今回の公開は Gemini 3.6 Flash からわずか 3 週間で実現しました。これは開発者の皆さまから寄せられたフィードバックと、新しいモデル...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.google/intl/ja-jp/company-news/technology/gemini-37-flash/",
-      "comments": [
+          "user": "panoramaafro",
+          "comment": "気になるねこりゃ",
+          "tags": [],
+          "timestamp": "2026/08/15 13:30"
+        },
         {
           "user": "nguyen-oi",
-          "comment": "3週間で次世代出すスピード感エグすぎて追いつけんわ",
+          "comment": "確認コードコピペ地獄から解放されるのは朗報だが全ブラウザ対応まで何年かかるやら",
           "tags": [],
-          "timestamp": "2026/08/15 07:05"
+          "timestamp": "2026/08/15 12:07"
+        },
+        {
+          "user": "roshi",
+          "comment": "OAuth認証とかと同じでミドルウェア使うからイチから手書きする事はないんだろうけど、なかなかに複雑だ。",
+          "tags": [],
+          "timestamp": "2026/08/15 11:39"
         },
         {
           "user": "secseek",
-          "comment": "Proが出ないのにFlashばかりどんどん出ますね",
+          "comment": "よさそうなんですけど、今度はDNSがネックになりそうで怖いですね。と思ったらちゃんと言及されてました。DNSSECまで検証すれば確かに間違いなさそうです",
           "tags": [],
-          "timestamp": "2026/08/14 10:53"
+          "timestamp": "2026/08/14 21:43"
         }
       ],
-      "fetchedAt": "2026-08-15T01:37:09.277734+00:00"
+      "fetchedAt": "2026-08-15T06:48:39.165618+00:00"
     },
     {
       "id": "h_d46c23b2",
       "title": "なぜTDDでは、わざわざテストを失敗させるのか？",
       "url": "https://zenn.dev/henyo245/articles/47e0a4d108553f",
       "domain": "zenn.dev",
-      "bookmarkCount": 5,
+      "bookmarkCount": 31,
       "summary": "はじめに 社内でTDD（テスト駆動開発）の勉強会を開催することになり、事前説明用の資料を作成していました。 TDDの基本サイクルは次の3ステップです。 Red（失敗するテストを書く） Green（最小限の実装でテストを通す） Refactor（コードを整理する） 私自身、これまでTDDを実践する中で、特に疑問を持つことなくRedか...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/henyo245/articles/47e0a4d108553f",
       "comments": [],
-      "fetchedAt": "2026-08-15T01:37:08.543302+00:00"
+      "fetchedAt": "2026-08-15T06:48:40.883967+00:00"
+    },
+    {
+      "id": "h_c8f663e3",
+      "title": "千葉の「豪雨でスマホが水没」――SNS上に困り感 ぬれた場合に絶対にやってはいけないこと",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2608/14/news081.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 18,
+      "summary": "8月13日夕方から、千葉県を中心に記録的な豪雨が発生した。千葉市では観測史上1位となる1時間雨量115.0mmの猛烈な雨を記録し、一時レベル5の大雨特別警報や土砂災害特別警報が発表されるほどの深刻な状況となった。 この大雨は、首都圏の公共交通機関に極めて大きな影響を与えている。JR東日本によれば、大船や横浜方面...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2608/14/news081.html",
+      "comments": [
+        {
+          "user": "gm91",
+          "comment": "米につっこむて…あり得ないわ",
+          "tags": [],
+          "timestamp": "2026/08/15 14:12"
+        },
+        {
+          "user": "YokoChan",
+          "comment": "防水スマホでもバッテリー交換や画面割れ修理すると防水ではなくなるのでは。",
+          "tags": [],
+          "timestamp": "2026/08/15 12:34"
+        },
+        {
+          "user": "naga_yamas",
+          "comment": "真水につけろ！",
+          "tags": [],
+          "timestamp": "2026/08/15 12:28"
+        },
+        {
+          "user": "gogatsu26",
+          "comment": "“ぬれた状態で充電したり、周辺機器をつないだりしない”",
+          "tags": [
+            "安全",
+            "mobile"
+          ],
+          "timestamp": "2026/08/15 12:25"
+        },
+        {
+          "user": "punkgame",
+          "comment": "最近のスマホ大抵防水じゃね？",
+          "tags": [],
+          "timestamp": "2026/08/15 11:58"
+        },
+        {
+          "user": "ET777",
+          "comment": "なんかURLおかしくない？",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/08/15 11:38"
+        }
+      ],
+      "fetchedAt": "2026-08-15T06:48:41.673606+00:00"
     }
   ],
-  "lastCollection": "2026-08-15T01:37:09.277760+00:00"
+  "lastCollection": "2026-08-15T06:48:41.673634+00:00"
 }
