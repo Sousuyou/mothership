@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.501962+00:00",
+      "fetchedAt": "2026-08-16T12:50:23.412883+00:00",
       "excerpt": "はじめに 家計の明細を集計して、その結果をローカルLLMに説明させる仕組みを作っています。設計の話は前回書きました。 https://zenn.dev/taikikei/articles/412dec52461cb2 今回は、その仕組みに3つのモデルを差し替えて同じ入力を食わせた記録です。 llm-jp-3.7b（2.3GB） qwen2.5:7b-instruct-q4_K_M（4.7GB） g"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.501811+00:00",
+      "fetchedAt": "2026-08-16T12:50:23.412550+00:00",
       "excerpt": "はじめに こんにちは！AWS でソリューションアーキテクトをしている町田です。 今回は、Claude Desktop (Cowork) から Box にアクセスするためのカスタムアプリ（OAuth 2.0）をセットアップして接続してみました。 Developer Console で作成したカスタムアプリ（OAuth 2.0）は、MCP サーバーそのものではなく、認証のための「鍵（アクセストークン）"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.501683+00:00",
+      "fetchedAt": "2026-08-16T12:50:23.412292+00:00",
       "excerpt": "はじめに 2026年8月、Claudeの認定資格4種をすべて取得した。 最初に書いておくと、当然のことながら資格を持っていることと、業務で即戦力になれることは同じではない。 特に生成AIは変化が速く、試験で学んだ知識が陳腐化する速度も速い。 それでも、私はClaude認定資格を取る意味は十分にあると思っている。 自然言語で使える生成AIは、誰でも「使えます」と言いやすい。 一方で、その人がプロンプ"
     },
     {
@@ -37,98 +37,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.501610+00:00",
+      "fetchedAt": "2026-08-16T12:50:23.412164+00:00",
       "excerpt": "2026年8月、AnthropicがClaudeの生成テキストに機械可読な透かしを埋め込むと発表しました。EU AI法50条2項への対応が発端ですが、適用範囲は地域で切られておらず、対象モデルを提供する全地域に及びます。 この記事は「透かしが入った」ことの是非ではなく、この技術が原理的に何を保護できて、何を保護できないのかを整理します。結論から言えば、保護範囲はかなり狭いのが実情です。そしてその狭"
     },
     {
-      "id": "cc_5add1010",
-      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第5章 5.1: UDPを受信してpayloadをdumpする",
-      "url": "https://zenn.dev/pekopugu/articles/net-ch5-1-udp-receive",
+      "id": "cc_2e1d7296",
+      "title": "ゼロから始めるClaude Code #10 トークン節約の考え方：コンテキストは有限資源である",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477635+00:00",
-      "excerpt": "はじめに 第4章でIPv4の受信(4.1)・送信(4.2)と、その上の最初の上位プロトコルICMP echo往復(4.3)まで来ました。ipv4_input()は受信フレームを解析・検証して[ipv4] dispatch: icmp|udp|tcp|unknownまで振り分け、ICMP分岐だけがicmp_input()へ実際に引き渡しています。UDP分岐(proto=17)はまだ素通し——[ipv"
+      "fetchedAt": "2026-08-16T12:50:23.380154+00:00",
+      "excerpt": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はメモリ機能で、セッションをまたいで文脈を持ち越す3つの方法を試しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-09-memory 前回の最後に、こう書きました。CLAUDE.md も自動メモリも「毎セッション読み込まれる」——つまり、便利さはタダ"
     },
     {
-      "id": "cc_e01b65d1",
-      "title": "Amazon SageMaker StudioのJupyterLab：Claude Code on Amazon Bedrockで国内推論",
-      "url": "https://zenn.dev/aws_japan/articles/20260811-sagemaker-jupyterlab-claude-code-acp",
+      "id": "cc_5fff8d31",
+      "title": "Claude Codeで「ホワイト企業マップ」を個人開発した話",
+      "url": "https://zenn.dev/hayatech/articles/develop-whapp-1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477571+00:00",
-      "excerpt": "「このデータを分類する Notebook を作って」 研究者が JupyterLab のチャット欄からそう頼むと、Claude Code が .ipynb を作り、実行結果を見ながら次の検証まで一緒に考えてくれる。そんな環境を Amazon SageMaker Studio 上に作ってみます。 Amazon SageMaker Studio の JupyterLab には、ACP を通じたコーディ"
+      "fetchedAt": "2026-08-16T12:50:23.380073+00:00",
+      "excerpt": "はじめに AIを活用した開発に興味を抱き、Claude Codeで個人開発のアプリを作ってみようと考えました。 市場調査をしたうえでニッチなサービスを提供したい、自分の得意な技術スタックを活用したいと考え、公的なホワイト企業認定・公表データを集約し、地図・一覧・詳細で可視化するWebサービス「ホワっぷ -ホワイト企業マップ-」を個人開発しました。 ホワっぷ -ホワイト企業マップ- Web版：htt"
     },
     {
-      "id": "cc_db1d6e1e",
-      "title": "ChatGPT・Codex・Claude Codeをどう役割分担したか。実際のチケットで紹介",
-      "url": "https://zenn.dev/keisuke1306/articles/03-chatgpt-claude-codex-roles",
+      "id": "cc_60cba470",
+      "title": "Claude CodeをDiscordに住まわせたら、1セッション1268万トークン溶けた話",
+      "url": "https://zenn.dev/tyamahori/articles/df489c04a0193a",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477482+00:00",
-      "excerpt": "導入 この記事は、ChatGPT・Claude Code・Codex・Notionを組み合わせた「AI駆動開発」というテーマで書いている記事の1本です。実際に運用しているポートフォリオサイトの改修にこの開発フローを適用しながら、実践の中で見えてきたことをもとに書いています。 現在は、ChatGPTを要求整理・壁打ち、Codexをテックリード、Claude Codeを実装担当として使い分けています。"
+      "fetchedAt": "2026-08-16T12:50:23.379952+00:00",
+      "excerpt": "はじめに 「Discord botを自作する」と聞けば、discord.jsやdiscord.pyでイベントハンドラを書く姿を思い浮かべると思う。 そういえばですが、僕が運営するコミュニティ( Funabashi.dev )のbotには、その手のコードがほとんどない。 返信を作っているのは、手元のMacで動くClaude Codeそのものだ。 僕は船橋市のITコミュニティ「Funabashi.de"
     },
     {
-      "id": "cc_ec88c86a",
-      "title": "Claude Code・Codex・自作エージェント基盤を併用して固まった「使い分けの結論」",
-      "url": "https://zenn.dev/tadkud/articles/ai-runtime-lanes-claude-codex-hermes",
+      "id": "cc_dd5af2e4",
+      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
+      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477421+00:00",
-      "excerpt": "はじめに AIエージェントに業務を任せる実験を続けている。いま手元では、定常ジョブが約100本（cron定義を数えた実測）、毎日自動で回っていて、記事の下書き、市況の収集、週報、メトリクス集計までがほぼ無人で流れる。使っているのはClaude Code、Codex CLI、自作のエージェント基盤（以下Hermes）の3系統。 3つも併用していると必ず聞かれるのが「結局どれが一番いいのか」だが、しば"
-    },
-    {
-      "id": "cc_7467d492",
-      "title": "LTSpice × Claude Code を MCP で繋いで AI に電子回路を設計させる",
-      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260501005814-533b8e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477358+00:00",
-      "excerpt": "TL;DR AI に「5V で赤色 LED を安全に光らせる回路を作って、電流値も教えて」と打つだけで、本物の LTSpice が回路図を生成し、シミュレーションを実行し、I = 10.8 mA という数値で返してくる時代になった。 仕組みは MCP (Model Context Protocol)。stdio トランスポートで動作するため、Claude Code だけでなく Codex CLI "
-    },
-    {
-      "id": "cc_e4391432",
-      "title": "コードが読めない文系大学生が、Claude Codeに全自動売買システムを作らせて実弾投入直前まで来た話",
-      "url": "https://zenn.dev/selenium/articles/claude-code-auto-trading",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477235+00:00",
-      "excerpt": "はじめに 私は文系の大学生で、プログラミングはできません。forループと言われても何のことか分かりません。そんな人間が2026年8月5日、Claude Codeに「全部任せる」と告げてから2週間で、暗号資産の全自動売買システムがクラウド上で毎朝無人稼働するようになり、来週には少額実弾投入のゲート判定を迎えます。インフラ費用は0円(すべて無料枠)です。 この記事はその自慢……ではなく、コードが読めな"
-    },
-    {
-      "id": "cc_87e75475",
-      "title": "Claude Codeで挫折しないための30語",
-      "url": "https://zenn.dev/todo_inc/books/be87a733eb854e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477162+00:00",
-      "excerpt": "「CLAUDE.mdって何?」で検索して、結局よくわからないまま閉じてしまった——そんな経験はありませんか。 Claude Codeで挫折しないための30語を、一言の意味だけでなく「覚える理由」「使いどころ」「コマンド例」「よくある勘違い」までセットでまとめました。読み終える頃には、「調べながら使う」から「わかって使う」に変わっています。"
-    },
-    {
-      "id": "cc_44483b35",
-      "title": "Claude Codeをデスクトップアプリで使う場合とCLIで使う場合の違いを調べてみた",
-      "url": "https://zenn.dev/shogo_h/articles/claude-code-desktop-vs-cli",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.477007+00:00",
-      "excerpt": "はじめに 私は日常的にClaude Codeを使用して開発や調べ物等を行なっているのですが、特に深く考えずClaude Desktop上のCodeタブから使用しておりました。 会社の同僚の中でも大きく分けるとClaude Desktopから利用する派とCLIからclaudeコマンドで利用する派が存在しておりました。 アクセスできる機能観点での違いはあるのか、裏側の挙動に違いはあるのかなどなどが気に"
-    },
-    {
-      "id": "cc_e5e8c459",
-      "title": "Claude CodeはYouTubeを見られない — Gemini APIで楽曲をリバースエンジニアリングした話",
-      "url": "https://zenn.dev/fukukei23/articles/youtube-gemini-reverse-engineering-song-prompt",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-16T06:49:57.476892+00:00",
-      "excerpt": "Claude CodeはYouTubeを見られない — Gemini APIで楽曲をリバースエンジニアリングした話 はじめに 「このYouTube動画と同じ雰囲気の曲をAIで作りたい」。そう思った時、最初にぶつかる壁があります。 コーディング向けAIエージェント（Claude Code等）は、YouTube動画を視聴・聴取できない。 テキストは読める、画像は一部見える、しかし動画の音響と映像を時間"
+      "fetchedAt": "2026-08-16T12:50:23.379820+00:00",
+      "excerpt": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ、使える知識だけをノートに抜き出させることにしました。こうしてはじめて、溜めた記録が使えるものになりました。そして一番効いたのは、ノートを生成する仕組みではなく、"
     },
     {
       "id": "cc_b2235741",
@@ -137,7 +87,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-16T06:49:57.965927+00:00",
+      "fetchedAt": "2026-08-16T12:50:27.692206+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -147,7 +97,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-16T06:49:57.965991+00:00",
+      "fetchedAt": "2026-08-16T12:50:27.692304+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -157,9 +107,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-16T06:49:57.966059+00:00",
+      "fetchedAt": "2026-08-16T12:50:27.692413+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-16T06:49:57.966069+00:00"
+  "lastCollection": "2026-08-16T12:50:27.692424+00:00"
 }
