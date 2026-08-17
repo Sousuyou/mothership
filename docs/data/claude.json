@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_43f7e1a7",
-      "title": "Claude認定資格4種をコンプリートした話（2026年8月時点）",
-      "url": "https://zenn.dev/doai/articles/1b60be8da3ba3a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.908267+00:00",
-      "excerpt": "はじめに 2026年8月、Claudeの認定資格4種をすべて取得した。 最初に書いておくと、当然のことながら資格を持っていることと、業務で即戦力になれることは同じではない。 特に生成AIは変化が速く、試験で学んだ知識が陳腐化する速度も速い。 それでも、私はClaude認定資格を取る意味は十分にあると思っている。 自然言語で使える生成AIは、誰でも「使えます」と言いやすい。 一方で、その人がプロンプ"
-    },
-    {
-      "id": "cc_762a8cf4",
-      "title": "Claudeのテキスト透かしは、何を守れないのか",
-      "url": "https://zenn.dev/coldcola/articles/claude-text-watermark",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.908218+00:00",
-      "excerpt": "2026年8月、AnthropicがClaudeの生成テキストに機械可読な透かしを埋め込むと発表しました。EU AI法50条2項への対応が発端ですが、適用範囲は地域で切られておらず、対象モデルを提供する全地域に及びます。 この記事は「透かしが入った」ことの是非ではなく、この技術が原理的に何を保護できて、何を保護できないのかを整理します。結論から言えば、保護範囲はかなり狭いのが実情です。そしてその狭"
-    },
-    {
       "id": "cc_2ed93fb7",
       "title": "Claudeの「見えない透かし」はどこに入る？ ― SynthID-TextのSamplingを理解する",
       "url": "https://zenn.dev/50s_zerotohero/articles/e5198b07a3c9f0",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.908103+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.248186+00:00",
       "excerpt": "2026年8月、Anthropicは今後のClaudeが生成するテキストに 透かし（Watermark） を入れることを発表しました。 https://www.anthropic.com/news/claude-text-watermark 画像の透かしならイメージしやすいですが、テキストに「見えない透かし」を入れるとは、どういうことでしょうか。 文章に特殊な文字が追加されるわけでも、「Gener"
     },
     {
@@ -37,18 +17,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.908052+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.248125+00:00",
       "excerpt": "Claude Tagを使って、コード調査、原因特定、PR作成まで行いました。 まだ運用方法は固まっていません。実際の業務で使いながら、どこまで任せられるのかを見ている段階です。 今回、一つの問い合わせを同じSlackスレッドで追ったことで、想像していたより広い範囲を任せられることが分かりました。一方で、継続して使うなら考えておきたい点も見えてきました。 この記事では、その実例と、使ってみて分かった"
-    },
-    {
-      "id": "cc_dd5af2e4",
-      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
-      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.907998+00:00",
-      "excerpt": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ、使える知識だけをノートに抜き出させることにしました。こうしてはじめて、溜めた記録が使えるものになりました。そして一番効いたのは、ノートを生成する仕組みではなく、"
     },
     {
       "id": "cc_7d46db22",
@@ -57,8 +27,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.907904+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.248021+00:00",
       "excerpt": "概要 例えば、Claude Code に日本語のドキュメントを書かせると、読解負荷の高い文がまぎれ込みます。二重否定や長すぎる一文、「重要なのは〜」のような定型句です。CLAUDE.md に「読みやすく書いて」と指示しても、毎回守られる保証はありません。指示はモデルの判断を経由するからです。 そこで hook を使います。hook はライフサイクルの決まった時点でシェルコマンドを実行する仕組みで、"
+    },
+    {
+      "id": "cc_7749c8df",
+      "title": "Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (4) - 文字列に対する switch 文での比較",
+      "url": "https://zenn.dev/xin9le/articles/a537775e87b814",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.247840+00:00",
+      "excerpt": "引き続き Claude Fable 5 を利用した FastEnum のパフォーマンスチューニングについて解説していきます。今回は文字列に対する switch 文での比較についてです。該当の Pull-Request は以下。 https://github.com/xin9le/FastEnum/pull/97 今回のは「知ってたけど失念してた」系で、Claude に指摘されて「ぐえー、何やってん"
+    },
+    {
+      "id": "cc_f876da4a",
+      "title": "ClaudeのUsageの仕組みを理解し、効率的に使う方法",
+      "url": "https://zenn.dev/sun_asterisk/articles/01b275b5360c29",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.247713+00:00",
+      "excerpt": "はじめに Claude を使い始めたばかりの頃、たいしたことをしていないのに使用量の上限にすぐ達してしまう、ということはないでしょうか。その多くは、Claude が使用量をどう計算しているのかをまだ理解していないことが原因です。 私もまったく同じでした。かなり感覚的に Claude を使っていて、必要なことをそのまま打ち込むだけで、日々の操作が知らないうちに使用量を消費していることに気づいていませ"
+    },
+    {
+      "id": "cc_97d13508",
+      "title": "コードはClaudeに書かせた。でも計算式は一度も信用しなかった",
+      "url": "https://zenn.dev/highreso/articles/6ec05800f89f3c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.247638+00:00",
+      "excerpt": "「Llama 3.1 70Bをフルファインチューニングするなら、H200は何枚必要?」 LLMに聞けば、それっぽい答えはすぐ返ってくる。数字も具体的だし、説明も筋が通っているように見える。ただ、その数字が正しいかどうかは、また別の話だった。 僕はエンジニアではない。コードもほぼ書けない。それでも今回、この問いにちゃんと答えるためのGPUメモリ(VRAM)見積もりツールを作った。中身のコードはほぼ全"
+    },
+    {
+      "id": "cc_dd5af2e4",
+      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
+      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.219752+00:00",
+      "excerpt": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ、使える知識だけをノートに抜き出させることにしました。こうしてはじめて、溜めた記録が使えるものになりました。そして一番効いたのは、ノートを生成する仕組みではなく、"
+    },
+    {
+      "id": "cc_063b02a4",
+      "title": "Claude Code 資産の DSH 互換性を rc.6 ソースで実測した対照表（リクエスト毎の token 請求書つき）",
+      "url": "https://zenn.dev/sjh9714/articles/9e69fc58531f51",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.219645+00:00",
+      "excerpt": "前回は引っ越しツール dsh-movein を紹介しました。今回はツールの裏にある調査そのものを公開します。Claude Code の各資産が DeepSeek Harness で実際どうなるか、全部 0.1.0-rc.6 のソースで逐項確認した結果と、意外と誰も計算していない「持ち込んだスキルがリクエスト毎に何 token 食うか」の実測です。 互換性対照表 Claude Code 資産 DSH"
+    },
+    {
+      "id": "cc_923ffc06",
+      "title": "Claude Code × Geminiで挑む個人開発 〜AWS資格対策アプリ「Dojoru」開発記〜",
+      "url": "https://zenn.dev/jiro2026/books/dojoru-kaihatsu-hiwa",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T07:06:14.219558+00:00",
+      "excerpt": "AWS SAP-C02対策アプリ「Dojoru」を、Claude CodeとGeminiを使って個人開発した記録。Claude Codeを開く前の壁打ちから、AIに仮想的な「部署」を持たせて回した体制づくり、AI生成コンテンツに潜んでいた統計的な欠陥、UI改善、リリース運用までを全9話で振り返る。"
     },
     {
       "id": "cc_f296b4a8",
@@ -67,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.831372+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.219507+00:00",
       "excerpt": "結論 Claude Code の hook（拡張機能）が、ある日4時間ほど1本も動かなくなった。原因はラッパースクリプトの実行権限が抜けていたという、それだけの話だった。だがこの事故が突きつけたのはもっと一般的な問題で、「動いていないこと」に気づける仕組みを持たない監視・ガードレールは、無いのと同じだ、ということだった。 hook が動かなくなっても、Claude Code は普通に動き続けた。エ"
     },
     {
@@ -77,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.831261+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.219368+00:00",
       "excerpt": "Hermes Agentを導入した翌日、Discordからの依頼を起点に、停止中のDraft PRを整理し、最新のmainから実装をやり直し、新しいPRを作るところまで進めました。 実装はGPT-5.6 Sol / max、実装後の検証はHermes、独立レビューはClaude Opus 5 / maxです。実装にはCodex CLI、レビューにはClaude Codeを使い、最後のmergeだけ"
     },
     {
@@ -87,18 +117,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.831180+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.219252+00:00",
       "excerpt": "先に結論（TL;DR） 定型Web作業のエージェント評価で、Claude Code headless（claude -p）側の成功率が3/24から21/24まで動いた。モデルもプロンプトの中身も変えていない。変えたのは、指示をプロセスに渡す実装だけ。 原因：Windowsでclaude -pをPythonからsubprocess起動すると、複数行のプロンプトが最初の改行以降で失われる。npmでグロ"
-    },
-    {
-      "id": "cc_a3cd895b",
-      "title": "「消したら賢くなった」回は伸びるか — Claude Code の作者に2回目を賭ける（#24 投稿前予測）",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr24-cherny-prediction",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T01:42:09.831051+00:00",
-      "excerpt": "この記事は何か 海外のTech Talkを日本語の縦型ショートに切り出して TikTok に投稿しています。1本の元動画から9〜10本のクリップを作り、投稿する前に「どれが伸びるか」を予測して保存し、あとで実測と突き合わせています。 今回の #24 は Boris Cherny（Claude Code の作者）が Y Combinator Startup School 2026 で話した「Clau"
     },
     {
       "id": "cc_b2235741",
@@ -107,7 +127,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-17T01:42:10.474934+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.754752+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -117,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-17T01:42:10.474990+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.754822+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -127,9 +147,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-17T01:42:10.475046+00:00",
+      "fetchedAt": "2026-08-17T07:06:14.754897+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-17T01:42:10.475056+00:00"
+  "lastCollection": "2026-08-17T07:06:14.754913+00:00"
 }
