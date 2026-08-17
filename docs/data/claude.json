@@ -1,63 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_2ed93fb7",
-      "title": "Claudeの「見えない透かし」はどこに入る？ ― SynthID-TextのSamplingを理解する",
-      "url": "https://zenn.dev/50s_zerotohero/articles/e5198b07a3c9f0",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315832+00:00",
-      "excerpt": "2026年8月、Anthropicは今後のClaudeが生成するテキストに 透かし（Watermark） を入れることを発表しました。 https://www.anthropic.com/news/claude-text-watermark 画像の透かしならイメージしやすいですが、テキストに「見えない透かし」を入れるとは、どういうことでしょうか。 文章に特殊な文字が追加されるわけでも、「Gener"
-    },
-    {
-      "id": "cc_e3967dca",
-      "title": "Claude Tagを使用して分かったこと",
-      "url": "https://zenn.dev/seasea/articles/2ddcb3271b77f5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315772+00:00",
-      "excerpt": "Claude Tagを使って、コード調査、原因特定、PR作成まで行いました。 まだ運用方法は固まっていません。実際の業務で使いながら、どこまで任せられるのかを見ている段階です。 今回、一つの問い合わせを同じSlackスレッドで追ったことで、想像していたより広い範囲を任せられることが分かりました。一方で、継続して使うなら考えておきたい点も見えてきました。 この記事では、その実例と、使ってみて分かった"
-    },
-    {
-      "id": "cc_dd5af2e4",
-      "title": "Claude Code のログ2GB、活用するつもりがただ溜めていただけだった ― AIに毎晩資産化させて解決",
-      "url": "https://zenn.dev/hoshiorange/articles/16-claude-code-log-distillation-knowledge-base",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315714+00:00",
-      "excerpt": "こんにちは。AIと一緒に仕事をした記録が2GBほど溜まっていました。いつか活用するつもりで消さずにいたのですが、読み返した回数はゼロ。つまり、活用できていませんでした。 先に結論を書きます。ログを後から読み返すのはやめて、AIに毎晩読ませ、使える知識だけをノートに抜き出させることにしました。こうしてはじめて、溜めた記録が使えるものになりました。そして一番効いたのは、ノートを生成する仕組みではなく、"
-    },
-    {
-      "id": "cc_7d46db22",
-      "title": "Claude Code の hook で作る「書いたら直る」ループ — 日本語明晰化プラグインを題材に",
-      "url": "https://zenn.dev/bamboo_nova/articles/ee2fbc5daf4f45",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315627+00:00",
-      "excerpt": "概要 例えば、Claude Code に日本語のドキュメントを書かせると、読解負荷の高い文がまぎれ込みます。二重否定や長すぎる一文、「重要なのは〜」のような定型句です。CLAUDE.md に「読みやすく書いて」と指示しても、毎回守られる保証はありません。指示はモデルの判断を経由するからです。 そこで hook を使います。hook はライフサイクルの決まった時点でシェルコマンドを実行する仕組みで、"
-    },
-    {
-      "id": "cc_7749c8df",
-      "title": "Claude Fable 5 が教えてくれた FastEnum の高速化テクニック (4) - 文字列に対する switch 文での比較",
-      "url": "https://zenn.dev/xin9le/articles/a537775e87b814",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315489+00:00",
-      "excerpt": "引き続き Claude Fable 5 を利用した FastEnum のパフォーマンスチューニングについて解説していきます。今回は文字列に対する switch 文での比較についてです。該当の Pull-Request は以下。 https://github.com/xin9le/FastEnum/pull/97 今回のは「知ってたけど失念してた」系で、Claude に指摘されて「ぐえー、何やってん"
-    },
-    {
       "id": "cc_f876da4a",
       "title": "ClaudeのUsageの仕組みを理解し、効率的に使う方法",
       "url": "https://zenn.dev/sun_asterisk/articles/01b275b5360c29",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315354+00:00",
+      "fetchedAt": "2026-08-17T18:47:52.756324+00:00",
       "excerpt": "はじめに Claude を使い始めたばかりの頃、たいしたことをしていないのに使用量の上限にすぐ達してしまう、ということはないでしょうか。その多くは、Claude が使用量をどう計算しているのかをまだ理解していないことが原因です。 私もまったく同じでした。かなり感覚的に Claude を使っていて、必要なことをそのまま打ち込むだけで、日々の操作が知らないうちに使用量を消費していることに気づいていませ"
     },
     {
@@ -67,38 +17,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.315259+00:00",
+      "fetchedAt": "2026-08-17T18:47:52.756262+00:00",
       "excerpt": "「Llama 3.1 70Bをフルファインチューニングするなら、H200は何枚必要?」 LLMに聞けば、それっぽい答えはすぐ返ってくる。数字も具体的だし、説明も筋が通っているように見える。ただ、その数字が正しいかどうかは、また別の話だった。 僕はエンジニアではない。コードもほぼ書けない。それでも今回、この問いにちゃんと答えるためのGPUメモリ(VRAM)見積もりツールを作った。中身のコードはほぼ全"
     },
     {
-      "id": "cc_968a897f",
-      "title": "CLAUDE.mdが肥大化する前に見直したいAI Agent向けルール設計",
-      "url": "https://zenn.dev/kiri_kunn/articles/303d1c87c51749",
+      "id": "cc_21fc18ca",
+      "title": "Anthropic公式が公開！Claudeのシステムプロンプトから学ぶ設計ノウハウ",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-08-16-2222",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.283753+00:00",
-      "excerpt": "はじめに Claude CodeなどのAI Coding Agentを使っていると、 ある問題に気づきます。 最初は数行だったCLAUDE.mdが、 気づけば、 CLAUDE.md 300行 500行 1000行... のように増えていく。 最初は自然な流れです。 AI Agentが間違える。 ↓ 注意を書く。 ↓ 次回から防げる。 ↓ また別の問題が起きる。 ↓ さらに追記する。 結果として、 "
-    },
-    {
-      "id": "cc_d27c8ca6",
-      "title": "Claude Fable 5 highとGPT-5.6 Sol medium、ハルシネーションが少ないのはどちらか",
-      "url": "https://zenn.dev/kimkiyong/articles/812773a906ace6",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.283614+00:00",
-      "excerpt": "Claude CodeのClaude Fable 5 highと、CodexのGPT-5.6 Sol medium。普段の開発で使うなら、どちらがもっともらしい誤情報を出しにくいのでしょうか。 公開ベンチマークを調べた結論は、少し歯切れの悪いものになりました。 Fable 5 highとSol mediumのハルシネーション率を、同じ条件で直接比較した公開データはありません。 ただし、近い条件の知"
-    },
-    {
-      "id": "cc_2e1ee145",
-      "title": "子どもの頃の「あったらいいのに」を、Claude Codeと夜な夜な作り直した",
-      "url": "https://zenn.dev/yyj_dev/articles/30c62e5e2b977e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.283546+00:00",
-      "excerpt": "子どもの頃、ゲーム機の中のポケモン図鑑を眺めながら、「ここにこういう機能があったらいいのに」とばかり考えていました。ランダムに一匹選んでくれるボタン。鳴き声だけ流して当てさせるクイズ。カートリッジは決められたことしかしてくれないので、願望はノートの端に書かれるだけで、実装される日は来ませんでした。 大人になった私はコードが書けます。ただし使える時間は平日の夜と週末だけです。この規模の「おもちゃ箱」"
+      "fetchedAt": "2026-08-17T18:47:52.756088+00:00",
+      "excerpt": "はじめに 2024年、LLM（大規模言語モデル）を活用したアプリケーション開発や日常的な開発業務における「プロンプトエンジニアリング」の重要性は高まる一方です。 そんな中、Anthropic社が Claude 3.5 Sonnet や Claude 3 Opus などのWeb UI・公式アプリで使用されている実際の「システムプロンプト（System Prompts）」を公式ドキュメントで一挙公開 "
     },
     {
       "id": "cc_4da8225d",
@@ -107,8 +37,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-17T12:55:04.283355+00:00",
+      "fetchedAt": "2026-08-17T18:47:52.720309+00:00",
       "excerpt": "先月、情報系の国際会議に投稿するフルペーパーをClaude Codeを使いながら執筆しました。 結論から言うと、執筆速度は確実に上がった一方で、自分で論文を書いた経験と、人間とAIの協業が重要だと感じました。 この記事では、実際にどのような役割分担とワークフローで論文を書いたのか、注意点などを備忘録としてまとめました。なお、具体的な研究内容には踏み込みません。 ! 投稿する学会や出版社によってAI"
+    },
+    {
+      "id": "cc_4f806563",
+      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第5章 5.2: UDP echoサーバを実装する",
+      "url": "https://zenn.dev/pekopugu/articles/net-ch5-2-udp-echo-server",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.720219+00:00",
+      "excerpt": "はじめに 前回5.1で、ホストのPowerShellからudp::10007(=ゲストport7)へ送ったUDPがslirp経由で届き、受信経路(eth→ipv4→udp)でudp_input()が解析してpayloadをdumpするところまで来ました。ただし5.1は受信・解析・dumpだけ——checksumはcksum=0x..と表示するだけで検証せず、応答(echo back)も送りませんで"
+    },
+    {
+      "id": "cc_d4d02d43",
+      "title": "【Claude Code】＠ファイル指定はpath指定より速いという事実",
+      "url": "https://zenn.dev/secula/articles/ccd31dd1035417",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.720099+00:00",
+      "excerpt": "どっちも変わらないと思っていたのですが、公式のブログによると 下記の理由により、@メンションの方が速いとのことでした。 ファイルは名前で書くのではなく、@メンションで指定してください。ファイルがメッセージに直接添付されるため、Read の呼び出しを 1 回節約できます。Claude がファイルを探しにいかなければならない場合は、検索の手間も省けます。 以前作った下記の設定は無駄ではなかった。 ya"
+    },
+    {
+      "id": "cc_1edd6b67",
+      "title": "Claude Codeの会話ログは既定30日で消える。私の6月は5セッションしか残っていなかった",
+      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-logs-vanish-30-days",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.720014+00:00",
+      "excerpt": "自分がAIに何を頼んできたのかを、そろそろ一次データで見てみたくなった。 家庭の面倒ごとを自作ツールで潰す作業を1年ほど続けていて、その大半をAIと一緒にやっている。ということは ~/.claude/projects/ の下に、私が何に時間を溶かしてきたかの記録が全部あるはずだ。自己申告でも記憶でもない、タイムスタンプ付きの一次データが。 そう思ってログを集計して、最初に出てきたのがこれだった。 "
+    },
+    {
+      "id": "cc_c20b11a3",
+      "title": "Claude Code入門：インストールから最初の自動化まで全部やる",
+      "url": "https://zenn.dev/mingw/articles/d76fdd1e899ad7",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.719942+00:00",
+      "excerpt": "「Claude Codeって話題になってるけど、なんだか難しそう」 「黒い画面（ターミナル）とか出てきそうで、自分には無理かも」 そう思っていませんか？ 大丈夫です。この記事では、プログラミング未経験の方でもClaude Codeをインストールして、最初の「自動化」を動かすところまでを、手順どおりにやるだけでたどり着けるように全部書きました。 この記事でできるようになること Claude Code"
+    },
+    {
+      "id": "cc_559dde3e",
+      "title": "スマホから Claude Code を動かしたくて、tmux と SSH の地雷を4つ踏んだ話",
+      "url": "https://zenn.dev/otterd/articles/750480878e817e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.719850+00:00",
+      "excerpt": "やりたかったこと 家の Mac で回している Claude Code を、外出先の iPhone からそのまま覗いて、続きを指示したい。 やることは一見単純です。tmux でセッションを作って、スマホから SSH で attach するだけ。実装を始めたときは「週末で終わるだろう」と本気で思っていました。 実際には、tmux と SSH の「普段は絶対に踏まない側の挙動」 を4つ踏み抜きました。ど"
+    },
+    {
+      "id": "cc_966ca25c",
+      "title": "Excelの業務ルールをClaude Codeスキルで編集可能にする：OpenL Tablets Toolの3スキル分割設計",
+      "url": "https://zenn.dev/eyeofjapetus/articles/openl-tablets-tool-skill-design",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-17T18:47:52.719723+00:00",
+      "excerpt": "はじめに Claude CodeのようなLLMエージェントに、Excelで管理された業務ルール——IF文の連なりや決定木、計算式の集合——を自然言語の指示だけで編集させたい場面が増えています。「この条件に該当する場合の割引率を5%に変更して」「新しい判定条件を1行追加して」といった依頼をチャットで済ませ、Excelを直接開いて手で編集する手間を省きたい、という要望です。特にOpenL Tablet"
     },
     {
       "id": "cc_b2235741",
@@ -117,7 +107,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-17T12:55:04.866964+00:00",
+      "fetchedAt": "2026-08-17T18:47:53.565277+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -127,7 +117,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-17T12:55:04.867028+00:00",
+      "fetchedAt": "2026-08-17T18:47:53.565346+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -137,9 +127,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-17T12:55:04.867096+00:00",
+      "fetchedAt": "2026-08-17T18:47:53.565418+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-17T12:55:04.867107+00:00"
+  "lastCollection": "2026-08-17T18:47:53.565428+00:00"
 }
