@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_6266ad02",
-      "title": "仕事で使える!! プルリク作成・更新の Claude Code スキルを全文公開",
-      "url": "https://zenn.dev/progate/articles/2a1edb0307e495",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.494666+00:00",
-      "excerpt": "Progate でエンジニアをしている横江( @yokoe24 )です！ 先日 Findy さんが、各社で使われているスキルについての記事を公開してくださいました！ 非常にいい記事でしたね。 しかし、私は思うのです・・・ そのスキルの中身を教えてほしい！！！！！ 各社のノウハウが詰まっているから公開しにくい面もあるとは思いますが、 世の中の開発スピードを上げるために、OSS的な精神で公開してもらえ"
-    },
-    {
-      "id": "cc_4eb7cb8c",
-      "title": "Claudeが全出力に\"見えない透かし\"を入れ始めたので、AI使用を100%公言している個人開発者が検査を1本だけ足した話",
-      "url": "https://zenn.dev/abyssgate/articles/claude-watermark-full-disclosure-dev",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.494572+00:00",
-      "excerpt": "はじめに 2026年8月11日、Anthropicが「Claudeの生成物に機械可読なマークを入れる」と発表しました。テキストには読んでも分からない統計的な透かし、画像などのファイルにはC2PA形式の署名メタデータ。EU域内だけでなく、全世界のユーザーが対象です。 発表からの1週間、この話題はずっと燃えています。透かし剥がしのOSSが6日で登場し、「文法チェック程度の編集で破れる」という開発者の指"
-    },
-    {
       "id": "cc_b0c62f21",
       "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
       "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.494506+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.256989+00:00",
       "excerpt": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-08-17付のMicrosoft Foundry公式ブログで、FoundryのClaudeモデルに Structured outputs / Web search"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.494380+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.256832+00:00",
       "excerpt": "ふりかえりノートアプリ「Stockr」を開発している株式会社ビルディットの富田です。 この夏、StockrをリモートMCP（Model Context Protocol）サーバー化し、 公式MCPレジストリへの公開・OpenAI（ChatGPT Apps）への審査提出・Anthropic（Claudeコネクタディレクトリ）への審査提出 まで、走り切りました。なお、本日(2026/8/19)時点で審"
     },
     {
@@ -47,8 +27,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.494295+00:00",
-      "excerpt": "はじめに こんにちは、フェニックスです。 「未来レーダー（MiraiRadar.com）」という、世界の予測市場（Polymarket）のリアルマネー確率と日本の世論をリアルタイムに比較・可視化するWebサービスを個人で作って公開しました。 そして今回、このサービスをCloudflare上でWebMCP（Model Context Protocol）に対応させ、Claude DesktopやCur"
+      "fetchedAt": "2026-08-19T18:42:37.256744+00:00",
+      "excerpt": "はじめに こんにちは、フェニックスです。 「未来レーダー（MiraiRadar.com）」という、世界の予測市場（Polymarket）のリアルマネー確率と日本の世論をリアルタイムに比較・可視化するWebサービスを個人で作って公開しました。 そして今回、このサービスを Cloudflare上でWebMCP（Model Context Protocol）に対応させ、Claude DesktopやCu"
+    },
+    {
+      "id": "cc_78738061",
+      "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
+      "url": "https://zenn.dev/kiri_kunn/articles/a74e1d32e2a74d",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T18:42:37.256682+00:00",
+      "excerpt": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicによると、Claude Mythos PreviewとClaude Opus 4.8を使った実験では、15種類の標的に対してbinderを設計し、そのうち14種類で"
+    },
+    {
+      "id": "cc_9915dea2",
+      "title": "\"やったのは AI だけど、バグがあったら俺の責任\" — Code w/ Claude in Tokyo 2026 に行ってきた",
+      "url": "https://zenn.dev/rb_engineering/articles/f5e5fa60ae0d96",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T18:42:37.256583+00:00",
+      "excerpt": "Rebase の髙畠裕二 @_ug_ です。 Code w/ Claude in Tokyo 2026 に参加してきました！✌️✌️ 最初から最後まで Anthropic 社員の講演を聞き通したので、中の人がどう Claude Code を使っているのか、いま何が most concern なのかを、資料ではなく肌で感じることができました。以下、印象に残ったところだけ。 Boris さん 🧮 登場"
+    },
+    {
+      "id": "cc_7f15e472",
+      "title": "Claudeでコードを書き、Codexでレビューさせた時におきたこと",
+      "url": "https://zenn.dev/saltmu/articles/e1414887002126",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T18:42:37.256466+00:00",
+      "excerpt": "AI駆動開発実験中のそるとむです。 要件を人間が伝え、Claude CodeでIssue、コードを書き、GitHub上のPRをCodexでレビュー、あるいはその逆を組み合わせ、日々の開発をフル自律に近い形で回す実験を続けています。時々Antigravityも使っています。 その中で最近起きた印象的な二つのPRを紹介します。 ドキュメントPR（#510）: 指摘に対応するたびに記述が肥大化し、11巡"
+    },
+    {
+      "id": "cc_27466b35",
+      "title": "ゼロから始めるClaude Code #11 実践編：初めての自作ツール、ポモドーロタイマーを一緒に作る",
+      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-11-pomodoro",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T18:42:37.199090+00:00",
+      "excerpt": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回はトークン節約の考え方を整理しました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-10-tokens 今回は実践編です。ここまでの連載は「Claude Codeの使い方」を学ぶ回が続きましたが、今回は趣向を変えて、読者のあなたが、自分だけのツールを実際に"
     },
     {
       "id": "cc_1bf1206a",
@@ -57,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.472091+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198963+00:00",
       "excerpt": "Claude Codeの応答に出てきたリンクを、キーボードだけで開くCLIツール cclinks を作りました。キーを1つ押すと、これまでのセッションに出てきたリンクが一覧で出て、絞り込んでEnterを押すとブラウザで開きます。 きっかけは、リンクを開くときだけ毎回マウスに持ち替えていたことでした。Cmd+クリックで開くことはできます。ただ、そのたびにキーボードから手が離れます。 リポジトリは以下"
     },
     {
@@ -67,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.472041+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198898+00:00",
       "excerpt": "Anthropicから登場したターミナル一体型AIツールClaude Codeは、単なるコード補完や簡単なWebアプリ開発に留まらず、より低レイヤなシステム制御やハードウェア制御においても驚異的な威力を発揮しています。 今回は、海外で大きな話題となった**「Claude Codeを使って、macOS非対応のプリンター（HP Laser 1008a）をネイティブ印刷可能にした実践例」**をピックアッ"
     },
     {
@@ -77,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471936+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198762+00:00",
       "excerpt": "Claude Code には auto mode という設定があり、そこでは classifier と呼ばれる別のモデルが見張り役として実行の前に審査します。 どのプランでも使えますが、Pro、Max、Team では最初からこれが選ばれています。 許可範囲をはみ出すと判断されれば、実行の前に止まります。 --dangerously-skip-permissions は、その見張りごと外して、ふだん"
     },
     {
@@ -87,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471888+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198697+00:00",
       "excerpt": "はじめに こんにちは、@katzchangです。Splunk Services Japanで、Splunk Observability Cloudの導入支援をしています。 TheGateBreakerさん、いろいろお試しいただいきありがとうございます！この記事では、Claude Code のテレメトリを素の OTLP エンドポイントで Splunk Observability Cloud に直送し"
     },
     {
@@ -97,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471835+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198619+00:00",
       "excerpt": "「この画面、こういう感じで実装します」と説明して合意したのに、出来上がったものを見たら「思ってたのと違う」。 こんな経験、Web開発をしていたら誰でも一度はありますよね🙂‍↕️ Figmaを開いてがっつり設計するほどの規模ではない。でも言葉だけだと細部が詰まらない。結果として、実装が終わってから初めて「微妙なUI/UX」を見ることになります。 Claude Codeに /design コマンドが入"
     },
     {
@@ -107,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471777+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198546+00:00",
       "excerpt": "金曜9時、自動投稿がスキップされていた 今週の金曜朝、いつものように投稿が上がっているはずが、パイプラインのログを見ると以下の一行で処理が止まっていた。 notes/log.mdが前回投稿時から更新されていないため、投稿をスキップします バグではない。notes/log.md の SHA256 ハッシュを前回投稿時と比較し、変化がなければ重複防止でスキップする、という自分で仕込んだ安全弁だった。ロ"
     },
     {
@@ -117,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471725+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198474+00:00",
       "excerpt": "こんにちは、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 会議が終わった直後って、いちばん疲れてませんか？ 議事録は手元にあるのに、そこからが長い。 議事録を読み返す → タスクを拾い出す → 優先度を付ける → 担当を決める → チケットに起こす → …やっと着手(数日後) → 「あの件、何の話だっけ？」 会議の成果は本来 Next Action(次にや"
     },
     {
@@ -127,18 +147,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471657+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.198363+00:00",
       "excerpt": "claude -p(Claude Codeを対話なしで1回だけ呼ぶモード)を自動化のバッチ処理に組み込むとき、前に「同じ質問を10回投げたら答えの速さ・長さはばらつくのか」を実測したことがありました。そのときのプロンプトは「文章を要約して」という自由記述寄りの1種類だけで、たまたま揺れる指標(所要時間・文字数)と揺れない指標(応答したモデル自体)の両方が見えました。 今回気になったのは、その揺れ方"
-    },
-    {
-      "id": "cc_e740150c",
-      "title": "CLAUDE.md書き方：AIエージェントに「効くルール」を書く6原則",
-      "url": "https://zenn.dev/kujira_ai/articles/175921712ec48b",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-19T12:57:49.471573+00:00",
-      "excerpt": "この記事で書くこと Claude Codeを毎日の仕事で使うようになって1年以上になります。CLAUDE.md（プロジェクトのルールファイル）に「これは守ってほしい」と書いても、実際には守られなかったり、私自身が後から見返して「これじゃ伝わらないな」と気づいたりすることが何度もありました。 この記事では、そうやって書き直しを繰り返す中で見えてきた「書いたのに効かないルール」と「ちゃんと機能するルー"
     },
     {
       "id": "cc_b2235741",
@@ -147,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-19T12:57:49.990956+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.665994+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -157,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-19T12:57:49.991005+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.666063+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -167,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-19T12:57:49.991058+00:00",
+      "fetchedAt": "2026-08-19T18:42:37.666139+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-19T12:57:49.991068+00:00"
+  "lastCollection": "2026-08-19T18:42:37.666151+00:00"
 }
