@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.097656+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.263164+00:00",
       "excerpt": "勉強会や学会の発表スライドでは、企業や個人開発者が現場で得た知見を惜しみなく公開しています。実際に動かしてみて分かったこと、運用して初めて見えた落とし穴が、わかりやすく読める形でまとまっており、非常に有益な情報資産です。 ただ、それらは Speaker Deck・Docswell・SlideShare に散らばっているため、あとから目的の資料にたどり着くのが難しいこともあります。 そこで、日本語 "
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.097467+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.263085+00:00",
       "excerpt": "前回は、Concrete CMS MCP Server の位置づけと前提（API の有効化・Integration）を整理しました。 https://zenn.dev/hissy/articles/concretecms-mcp-intro 今回は、ローカル stdio で Claude Desktop と Cursor からつなぐところまで進めます。Claude Desktop では Relea"
     },
     {
@@ -27,48 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.097316+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.263014+00:00",
       "excerpt": "前編のおさらい 前編では、素の Claude Code が業務で使いにくかった理由（要点の伝わらない成果物・危険な操作にブレーキがない・こちらの文脈を知らない）と、それを埋める4レイヤーの作り込みを、実際の設定とともに書きました。 CLAUDE.md（常時ルール）：仕事の型、ISMS、破壊的操作の3原則 hooks（機械的ガードレール）：「お願い」ではなく exit 2 で止める skills（タ"
-    },
-    {
-      "id": "cc_4eb7cb8c",
-      "title": "Claudeが全出力に\"見えない透かし\"を入れ始めたので、AI使用を100%公言している個人開発者が検査を1本だけ足した話",
-      "url": "https://zenn.dev/abyssgate/articles/claude-watermark-full-disclosure-dev",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.096913+00:00",
-      "excerpt": "はじめに 2026年8月11日、Anthropicが「Claudeの生成物に機械可読なマークを入れる」と発表しました。テキストには読んでも分からない統計的な透かし、画像などのファイルにはC2PA形式の署名メタデータ。EU域内だけでなく、全世界のユーザーが対象です。 発表からの1週間、この話題はずっと燃えています。透かし剥がしのOSSが6日で登場し、「文法チェック程度の編集で破れる」という開発者の指"
-    },
-    {
-      "id": "cc_b0c62f21",
-      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
-      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.096711+00:00",
-      "excerpt": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-08-17付のMicrosoft Foundry公式ブログで、FoundryのClaudeモデルに Structured outputs / Web search"
-    },
-    {
-      "id": "cc_20d50e66",
-      "title": "[社内勉強会資料公開] Claude Code 入門 #6 — Agent Skillsで業務をテンプレ化する",
-      "url": "https://zenn.dev/cscloud_blog/articles/csc-claude-code-study-session-06",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.064052+00:00",
-      "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ CSC社内で開催している「CloudFastener の TAM(テクニカルアカウントマネージャー)向けに、Claude Codeを初歩から実践まで学ぶ勉強会」の第6回資料です。前回はモデルとeffortの使い分けを扱い、タスクの性質に応じて思考力と速度・コストのバランスを調整する方"
-    },
-    {
-      "id": "cc_424940b4",
-      "title": "MWAA×EventBridge通知にBedrock Claude Opus 5を組み込むGovCloud設計",
-      "url": "https://zenn.dev/geneg/articles/2026-08-17-claude-opus-5-is-now-available",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063987+00:00",
-      "excerpt": "はじめに 以前書いた「MWAA Serverless × EventBridge 通知で変わるサーバーレス設計パターン」は、Airflow の実行結果を EventBridge 経由でファンアウトし、Slack やチケット起票につなげる構成を扱いました。想定以上に反応が良く、「DAG 失敗時の通知をもっと賢くしたい」「規制業界でも同じ構成を使いたい」という声を複数もらったので、今回はその両方に答え"
     },
     {
       "id": "cc_9e86647c",
@@ -77,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063901+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.262948+00:00",
       "excerpt": "2026年8月17日の朝、claude.ai を開いた。Workbench タブが消えていた。それだけだった。 Claude Code のターミナルは普通に動いていた。dodax-pilot の自走バッチも、aimaker-lab の記事生成ジョブも、前日と何も変わらずに動いた。 Workbench 廃止は「プロンプトを試す GUI が Console（console.anthropic.com）"
     },
     {
@@ -87,28 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063781+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.262835+00:00",
       "excerpt": "Progate でエンジニアをしている横江( @yokoe24 )です！ 先日 Findy さんが、各社で使われているスキルについての記事を公開してくださいました！ 非常にいい記事でしたね。 しかし、私は思うのです・・・ そのスキルの中身を教えてほしい！！！！！ 各社のノウハウが詰まっているから公開しにくい面もあるとは思いますが、 世の中の開発スピードを上げるために、OSS的な精神で公開してもらえ"
     },
     {
-      "id": "cc_e6f5efe4",
-      "title": "【Claude Code】git worktreeで複数のClaude Codeを並列で走らせる 〜“無限の部下”を実際に並列稼働〜",
-      "url": "https://zenn.dev/m16_llc/articles/claude-code-git-worktree-parallel",
+      "id": "cc_b0c62f21",
+      "title": "FoundryのClaudeにWeb検索・MCPコネクタ等5機能、Hosted on Azure対応の実態",
+      "url": "https://zenn.dev/kazu_aiengineer/articles/foundry-claude-server-tools-azure",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063707+00:00",
-      "excerpt": "こんにちは、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 Claude Codeを実案件(AI開発のPoC)で回していると、あるとき気づきます。「待ち時間、自分だけ手が空いてない…?」 Claude Codeが実装している数分間、こちらは基本的に見ているだけです。1つのセッションで1つのタスクを回している限り、優秀な部下が1人しかいないのと同じ。部下が作業"
-    },
-    {
-      "id": "cc_33bd85af",
-      "title": "Claude Codeに見せない技術: AIに入力できないデータを分析する",
-      "url": "https://zenn.dev/green_tea/articles/a994964786cb4f",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063621+00:00",
-      "excerpt": "! 本記事では、単にsettings.jsonにdenyを書くだけではなく、5層： データ分離 permissions sandbox hooks 運用ルール で、機密情報をAIに「見せられない」状態を作ります。あわせて、その設定漏れ・劣化[1]を自動検知する仕組みも用意します。 ! Claude Codeは更新が速く、設定キーやフックの仕様は変わり得ます。導入時は公式ドキュメントで最新仕様を確認"
+      "fetchedAt": "2026-08-19T01:39:34.262642+00:00",
+      "excerpt": "! 2026-08-18 時点の公式ブログ・ドキュメントに基づいています。後述の通り発表とドキュメントの記述に食い違いがある過渡期なので、導入判断の際は文末の一次ソースと自分のデプロイでの挙動を必ず確認してください。 先に結論 2026-08-17付のMicrosoft Foundry公式ブログで、FoundryのClaudeモデルに Structured outputs / Web search"
     },
     {
       "id": "cc_e829d27e",
@@ -117,8 +67,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-18T18:46:16.063473+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.228700+00:00",
       "excerpt": "! この記事は「上級者向けの自動化テクニック」ではありません。プログラミング初心者の私が、Claude Codeに手伝ってもらいながら、専門用語を1つずつ確認しつつ組み立てた記録です。同じように「AIと一緒なら、自分もこのくらいの自動化ができるかも」と思ってもらえたら嬉しいです。 今回やったこと Zennに記事を投稿するとき、これまでは自分で1からMarkdownを書いてコピペしていました。 今回"
+    },
+    {
+      "id": "cc_1bab4bd4",
+      "title": "Claude Code で make run-api を実行したら postgres ホスト名が解決できなかった話",
+      "url": "https://zenn.dev/tsuzudev05/articles/claude-code-postgres-hostname-fix",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.228388+00:00",
+      "excerpt": "はじめに DevContainer で開発している Go の API サーバーを Claude Code のターミナルから make run-api で起動しようとしたところ、こんなエラーが出ました。 DATABASE_URL=postgresql://postgres:pass@postgres:5432/learning go run ./cmd/api 2026/05/30 10:45:09"
+    },
+    {
+      "id": "cc_4eb7cb8c",
+      "title": "Claudeが全出力に\"見えない透かし\"を入れ始めたので、AI使用を100%公言している個人開発者が検査を1本だけ足した話",
+      "url": "https://zenn.dev/abyssgate/articles/claude-watermark-full-disclosure-dev",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.228194+00:00",
+      "excerpt": "はじめに 2026年8月11日、Anthropicが「Claudeの生成物に機械可読なマークを入れる」と発表しました。テキストには読んでも分からない統計的な透かし、画像などのファイルにはC2PA形式の署名メタデータ。EU域内だけでなく、全世界のユーザーが対象です。 発表からの1週間、この話題はずっと燃えています。透かし剥がしのOSSが6日で登場し、「文法チェック程度の編集で破れる」という開発者の指"
+    },
+    {
+      "id": "cc_f878a1d1",
+      "title": "Claude Codeのサブエージェントに何を記憶させるべきか：memory: projectの設計と検証",
+      "url": "https://zenn.dev/kai_ai/articles/b27c2647bd0f60",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.228059+00:00",
+      "excerpt": "Claude Codeのサブエージェントに何を記憶させるべきか：memory: projectの設計と検証 Claude Codeのカスタムサブエージェントへmemory: projectを設定すると、プロジェクト固有の知識をセッションをまたいで保存できます。 では、何を記憶させればよいのでしょうか。保存対象を増やすほど、次回の調査は楽になるのでしょうか。 先に結論を書くと、memory: pro"
+    },
+    {
+      "id": "cc_a74b39ae",
+      "title": "中学生の期末試験対策を、Claude Codeで“AI家庭教師チーム”運用してみた",
+      "url": "https://zenn.dev/jiro2026/articles/claude-code-ai-katei-kyoshi-team",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.227882+00:00",
+      "excerpt": "はじめに 中学校程度の学習であれば、「苦手の把握 → 対策の実施 → 再チェック → 対策の見直し」というPDCAサイクルをきちんと回すことが有効だと考えています。ただ、これを一人ひとりに合わせて手軽にやろうとすると、これまでは学習塾や家庭教師をつけないとなかなか実現できませんでした。 そこに生成AIが登場して、「もしかしてこれ、AIでもできるのでは」と思い立ちました。ちょうど夏休みで、中学1年生"
+    },
+    {
+      "id": "cc_a599745f",
+      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第6章 6.1: TCP passive openを実装する",
+      "url": "https://zenn.dev/pekopugu/articles/net-ch6-1-tcp-passive-open",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.227695+00:00",
+      "excerpt": "はじめに 第5章でUDP(コネクションレス)の受信・echoまで来ました。第6章からは本シリーズ初のコネクション指向プロトコル、TCPに入ります。TCPは「接続を確立し、データを順序保証つきで運び、接続を畳む」——その最初の一歩が3-way handshakeです。 ソースコードはシリーズ冒頭のGitHubリポジトリを参照してください。 6.1は、この握手のサーバ側(passive open)だけ"
+    },
+    {
+      "id": "cc_cafcc831",
+      "title": "Claude Code /todo の resume_condition——タスクが「昇格していいですか？」と確認してくるTODOリスト",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-08-16-222000",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-19T01:39:34.227544+00:00",
+      "excerpt": "この記事について: 私が個人で作って公開している Claude Code のスキル /todo（GitHub Issues を使う GTD タスク管理ツール）には、条件が揃うと向こうから次の一手を提示してくる機能が3つある。完了時の次タスク提示、依存関係での自動昇格、時間経過での自動浮上だ。この記事では実際の出力文言と実運用での挙動を紹介する。中でも、時間が来ただけでは機械的に昇格させず「再開条件"
     },
     {
       "id": "cc_b2235741",
@@ -127,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-18T18:46:16.591213+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.682533+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -137,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-18T18:46:16.591279+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.682629+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -147,9 +157,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-18T18:46:16.591364+00:00",
+      "fetchedAt": "2026-08-19T01:39:34.682734+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-18T18:46:16.591379+00:00"
+  "lastCollection": "2026-08-19T01:39:34.682750+00:00"
 }
