@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_9915dea2",
-      "title": "\"やったのは AI だけど、バグがあったら俺の責任\" — Code w/ Claude in Tokyo 2026 に行ってきた",
-      "url": "https://zenn.dev/rb_engineering/articles/f5e5fa60ae0d96",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532720+00:00",
-      "excerpt": "Rebase の髙畠裕二 @_ug_ です。 Code w/ Claude in Tokyo 2026 に参加してきました！✌️✌️ 最初から最後まで Anthropic 社員の講演を聞き通したので、中の人がどう Claude Code を使っているのか、いま何が most concern なのかを、資料ではなく肌で感じることができました。以下、印象に残ったところだけ。 Boris さん 🧮 登場"
-    },
-    {
-      "id": "cc_7f15e472",
-      "title": "Claudeでコードを書き、Codexでレビューさせた時におきたこと",
-      "url": "https://zenn.dev/saltmu/articles/e1414887002126",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532646+00:00",
-      "excerpt": "AI駆動開発実験中のそるとむです。 要件を人間が伝え、Claude CodeでIssue、コードを書き、GitHub上のPRをCodexでレビュー、あるいはその逆を組み合わせ、日々の開発をフル自律に近い形で回す実験を続けています。時々Antigravityも使っています。 その中で最近起きた印象的な二つのPRを紹介します。 ドキュメントPR（#510）: 指摘に対応するたびに記述が肥大化し、11巡"
-    },
-    {
       "id": "cc_96a709b2",
       "title": "AIを利用した開発のコツ - 開発中のゲーム「Nozile」をClaude Codeを使ってどうやって開発したのかとAIに渡した資料の公開",
       "url": "https://zenn.dev/xmichinokux/articles/8c6f3c0455e340",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532592+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.135566+00:00",
       "excerpt": "初めまして、「ま」といいます。 昔、とあるゲーム会社でプランナーとして働いたのですが、現在は実家に帰ってのんびり生活をしながら何故か野良で音楽エンジニアをやっていました。 去年の5月に初めてChatGPTを使い、ChatGPTとの会話からとあるAIを利用したシステムのアイデアが生まれました。 それを去年末に開発を試みるもとん挫し、今年の春、Claude Codeを利用して開発に成功しました。 しか"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532470+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.135402+00:00",
       "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ 皆さんは Security Hub の Finding、severity の高い順に対応していますか？ 2026 年 7 月 27 日に「AWS Security Hub MCP App」が Preview として公開されました。 https://aws.amazon.com/jp/"
     },
     {
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532403+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.135313+00:00",
       "excerpt": "概要 この記事では、CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」にきれいに分かれるという現象を、実験形式で共有します。 同じ指示を CLAUDE.md の適用前後で実行し、7つの規約それぞれについて「効いたか / 効かなかったか」を判定する演習です。結果を先に言うと、守られなかったのは 4項目。そしてその4項目には、はっきりした共通点がありました。 前回はコードレビューの"
     },
     {
@@ -57,28 +37,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532352+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.135244+00:00",
       "excerpt": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicによると、Claude Mythos PreviewとClaude Opus 4.8を使った実験では、15種類の標的に対してbinderを設計し、そのうち14種類で"
-    },
-    {
-      "id": "cc_76cc3e6e",
-      "title": "Claude Codeのstatuslineは「使用率」ではなく「ペース」で色を付ける",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_statusline_pace_coloring",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532305+00:00",
-      "excerpt": "TL;DR Claude Codeのstatuslineに何を出すかも重要だが、どう色を付けるかも重要 context使用量率は絶対値で色付けしてよいが、レート制限に対する使用率の絶対値で色付けすると「週の後半はずっと赤」になり、警告として機能しない 使用率 ÷ 週の経過率（ペース）で色を付けると、期間中つねに「順調 / 要注意 / 要介入」の3段階などで意識できる prompt cache 失効"
-    },
-    {
-      "id": "cc_f9f19cd9",
-      "title": "Claude Code の週次レートリミットを回帰で逆算したら、キャッシュ読取がタダだった",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_weekly_rate_reverse_engineering",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532251+00:00",
-      "excerpt": "TL;DR Claude Code サブスクの週次レートリミット（Fable 5 週次、以下 f5/w）の消費式を、手元の利用ログから推定した 結果: Δf5/w[%] ≈ 2.75 × キャッシュ書込(1h)[Mtok] + 27.5 × 出力[Mtok]（R²=0.55） キャッシュ読取の係数はほぼゼロ。APIのドル建て料金（読取は入力の 0.1 倍）とは別の計算式で動いているっぽい つまり、"
     },
     {
       "id": "cc_d0c96eba",
@@ -87,38 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.532176+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.135138+00:00",
       "excerpt": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を使いこなせていないエンジニアを対象としています。 > - Claude Codeの全機能（スキル・タスク・フック・MCPサーバー・エージェントモードなど）を体系的"
     },
     {
-      "id": "cc_6ac5afa6",
-      "title": "ゼロから始めるClaude Code #12 フック（hooks）編：Claudeの判断に頼らず「必ず」動く自動化",
-      "url": "https://zenn.dev/mika_and_coco/articles/claude-code-diary-12-hooks",
+      "id": "cc_1d6cb00a",
+      "title": "Claude Code の利用ログを SQLite に取り込んで API 換算したら302万円だった",
+      "url": "https://zenn.dev/chiisanasoft/articles/88757cec318916",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.407385+00:00",
-      "excerpt": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は初めての自作ツール、ポモドーロタイマーを作りました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-11-pomodoro 前回の開発中、筆者にはこんな場面がありました。Claude に修正を頼んで、待っている間に別の作業をしていたら——とっくに終わってい"
-    },
-    {
-      "id": "cc_fc8f56f2",
-      "title": "Claude CodeとPythonでローカルファイル変更を自動分析・Mac通知",
-      "url": "https://zenn.dev/ikuokuotiak/articles/claude-code-local-file-auto-analysis",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.407335+00:00",
-      "excerpt": "Claude CodeとPythonでローカルファイル変更を自動分析・Mac通知 はじめに 私ahicは、日々の業務で13体のAIエージェントを運用し、AIとRPAによる自動化を追求しています。今回は、Macのローカル環境で発生するファイルの変更を自動で検知し、その内容をClaude Codeで分析、結果をMacの通知として受け取るシステムをご紹介します。 これにより、新着ファイルの手動確認の手間"
-    },
-    {
-      "id": "cc_f4290694",
-      "title": "Claude Codeで作業の片手間に自分だけのブラウザ拡張を作ればいい",
-      "url": "https://zenn.dev/shibata/articles/25433f3c3bd10e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.407273+00:00",
-      "excerpt": "背景 見たくない記事が目に入ったり、ゾンビスクロールを誘発するサイトを見すぎてしまうことに気づき、アクセスを制限する拡張機能を探した。 ストアには類似の拡張が並んでいたが、要求する権限が本来必要な範囲より広かったり、信頼できる作者であっても継続的にセキュリティは信頼できるのか不安だったり、欲しい挙動と微妙にずれていたりした。 結論 雑な指示で片手間で30分〜1時間あれば誰でもできる。自分でエディタ"
+      "fetchedAt": "2026-08-20T18:49:01.134997+00:00",
+      "excerpt": "Claude Code などのサブスクリプションプランで使っていると、実際にどれだけ使ったのかが見えません。 そこで、ローカルに残っている利用ログを全部 SQLite に取り込み、Anthropic API の公式単価で換算してみました。4か月弱、73,548ターンで API 換算302万円 でした（1 USD = 159円）。 使ったのは phuryn/claude-usage（MIT）をフォー"
     },
     {
       "id": "cc_1147fcba",
@@ -127,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.407158+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.092018+00:00",
       "excerpt": "Claude Codeは2026年8月4日から17日にかけて、v2.1.222からv2.1.234まで9件のリリースを出しました。同じ期間にAnthropic公式ブログも1本公開されています。この記事はその内容を、動画を見ていない人にも伝わる形でまとめたものです。 9本のうち、実際に手を動かす価値があったのは3件です。サブエージェントが会話ごと引き継がれるようになったこと、会話を畳むコマンドの使い"
     },
     {
@@ -137,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.407094+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.091945+00:00",
       "excerpt": "1. はじめに こんにちは、TOKIUMの小松です。 今年の4月に入社して未経験でエンジニアになった駆け出しエンジニアです。 駆け出しということもあり、Claude Code で知らない技術をキャッチアップすることも多いです。AIに質問すれば、丁寧な解説は返ってくる。返ってくるのですが、長い。読み終えても「で、結局まず何をすればいいんだ？」がわからず聞き直す、というような作業が発生していました。答"
     },
     {
@@ -147,8 +87,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-20T13:00:10.406980+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.091845+00:00",
       "excerpt": "複数のプロジェクトを横断してClaude Codeに調査や作業を頼んでいると、「サブエージェントを一度に何体まで投げていいのか」が地味に気になる場面がある。大きな調査ほどタスクを細かく分けてサブエージェントに振りたくなるが、これまでは総数の上限を気にして分割・統合の設計をする必要があった。2026年8月4日リリースのClaude Code v2.1.221で、このあたりの仕様がまとまって変わったの"
+    },
+    {
+      "id": "cc_233b6de6",
+      "title": "Claude CodeのOTelイベントログで「誰がどのMCPを使っているか」を可視化する",
+      "url": "https://zenn.dev/dehio3/articles/202608_otel-mcp-usage-visualization",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-20T18:49:01.091677+00:00",
+      "excerpt": "はじめに Claude CodeとOpenTelemetryを組み合わせて利用状況を可視化する記事は、これまでにもいくつか見かけました。ただそのほとんどはメトリクス(トークン数・コスト・ユーザー数など)を使ったダッシュボードで、「どれだけ使ったか」を可視化するものでした。 自組織ではClaude TeamプランでClaude Codeを導入しており、外部連携(MCPサーバー)の利用実態を把握したう"
+    },
+    {
+      "id": "cc_405806c7",
+      "title": "コードより日本語を書く時間が長くなったので、Claude Codeに話しかけて開発している",
+      "url": "https://zenn.dev/hanaseru/articles/2748b1ecccc040",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-20T18:49:01.091615+00:00",
+      "excerpt": "最初に開示しておきます。筆者は、本記事の後半で紹介する音声入力アプリ「Hanaseru」の開発元（株式会社ソフトスタジオ）の人間です。製品の話は1セクションに分けてあるので、そこまでは「AIコーディング時代の入力をどうするか」という一般的な話として読んでいただけたらうれしいです。 1日の入力を振り返ったら、日本語のほうが多かった Claude CodeやCursorで開発するようになってから、自分"
+    },
+    {
+      "id": "cc_76cc3e6e",
+      "title": "Claude Codeのstatuslineは「使用率」ではなく「ペース」で色を付ける",
+      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_statusline_pace_coloring",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-20T18:49:01.091536+00:00",
+      "excerpt": "TL;DR Claude Codeのstatuslineに何を出すかも重要だが、どう色を付けるかも重要 context使用量率は絶対値で色付けしてよいが、レート制限に対する使用率の絶対値で色付けすると「週の後半はずっと赤」になり、警告として機能しない 使用率 ÷ 週の経過率（ペース）で色を付けると、期間中つねに「順調 / 要注意 / 要介入」の3段階などで意識できる prompt cache 失効"
+    },
+    {
+      "id": "cc_f9f19cd9",
+      "title": "Claude Code の週次レートリミットを回帰で逆算したら、キャッシュ読取がタダだった",
+      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_weekly_rate_reverse_engineering",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-20T18:49:01.091463+00:00",
+      "excerpt": "TL;DR Claude Code サブスクの週次レートリミット（Fable 5 週次、以下 f5/w）の消費式を、手元の利用ログから推定した 結果: Δf5/w[%] ≈ 2.75 × キャッシュ書込(1h)[Mtok] + 27.5 × 出力[Mtok]（R²=0.55） キャッシュ読取の係数はほぼゼロ。APIのドル建て料金（読取は入力の 0.1 倍）とは別の計算式で動いているっぽい つまり、"
+    },
+    {
+      "id": "cc_44d1a980",
+      "title": "システムプロンプトを80%消したら賢くなった — Claude Code 作者 Boris Cherny の回を要点解説",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr24-cherny-summary",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-20T18:49:01.091359+00:00",
+      "excerpt": "この記事について ! 本記事は Boris Cherny（Claude Code 作者 / Anthropic）が Y Combinator Startup School 2026 で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確認ください。翻訳全文の掲載は行っていません。 Claude Code を"
     },
     {
       "id": "cc_b2235741",
@@ -157,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-20T13:00:11.193989+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.741834+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -167,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-20T13:00:11.194065+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.741904+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -177,9 +167,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-20T13:00:11.194121+00:00",
+      "fetchedAt": "2026-08-20T18:49:01.741979+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-20T13:00:11.194131+00:00"
+  "lastCollection": "2026-08-20T18:49:01.741991+00:00"
 }
