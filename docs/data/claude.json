@@ -1,43 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_76cc3e6e",
-      "title": "Claude Codeのstatuslineは「使用率」ではなく「ペース」で色を付ける",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_statusline_pace_coloring",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538928+00:00",
-      "excerpt": "TL;DR Claude Codeのstatuslineに何を出すかも重要だが、どう色を付けるかも重要 context使用量率は絶対値で色付けしてよいが、レート制限に対する使用率の絶対値で色付けすると「週の後半はずっと赤」になり、警告として機能しない 使用率 ÷ 週の経過率（ペース）で色を付けると、期間中つねに「順調 / 要注意 / 要介入」の3段階などで意識できる prompt cache 失効"
-    },
-    {
-      "id": "cc_f9f19cd9",
-      "title": "Claude Code の週次レートリミットを回帰で逆算したら、キャッシュ読取がタダだった",
-      "url": "https://zenn.dev/crandim_r_and_d/articles/260817_claude_code_weekly_rate_reverse_engineering",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538862+00:00",
-      "excerpt": "TL;DR Claude Code サブスクの週次レートリミット（Fable 5 週次、以下 f5/w）の消費式を、手元の利用ログから推定した 結果: Δf5/w[%] ≈ 2.75 × キャッシュ書込(1h)[Mtok] + 27.5 × 出力[Mtok]（R²=0.55） キャッシュ読取の係数はほぼゼロ。APIのドル建て料金（読取は入力の 0.1 倍）とは別の計算式で動いているっぽい つまり、"
-    },
-    {
-      "id": "cc_d0c96eba",
-      "title": "Claude Code 完全攻略ガイド ――AI時代の次世代コーディング・ワークフロー",
-      "url": "https://zenn.dev/pakku8914/books/claude_code_master_course",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538789+00:00",
-      "excerpt": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を使いこなせていないエンジニアを対象としています。 > - Claude Codeの全機能（スキル・タスク・フック・MCPサーバー・エージェントモードなど）を体系的"
-    },
-    {
       "id": "cc_1d6cb00a",
       "title": "Claude Code の利用ログを SQLite に取り込んで API 換算したら302万円だった",
       "url": "https://zenn.dev/chiisanasoft/articles/88757cec318916",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538669+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.788052+00:00",
       "excerpt": "Claude Code などのサブスクリプションプランで使っていると、実際にどれだけ使ったのかが見えません。 そこで、ローカルに残っている利用ログを全部 SQLite に取り込み、Anthropic API の公式単価で換算してみました。4か月弱、73,548ターンで API 換算302万円 でした（1 USD = 159円）。 使ったのは phuryn/claude-usage（MIT）をフォー"
     },
     {
@@ -47,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538574+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787961+00:00",
       "excerpt": "「並列にすれば速い」と思ってgit操作込みで投げたら、コミットが混ざった 3本のTaskを並列で走らせて、それぞれに実装を任せたことがある。「3倍速いはず」と思っていたが、できあがったコミットはどれも中途半端に混ざっていた。片方のsubagentがcheckoutしたブランチに、もう片方が気づかずcommitしていた。 読み取り専用の調査タスクなら、Claude CodeのAgent toolで複"
     },
     {
@@ -57,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538513+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787890+00:00",
       "excerpt": "はじめに こんにちわ、SRE室の西田です。 SREをしていると、GuardDutyのセキュリティアラートって大量にきたりしませんか？ AmazonQからSlackに通知もらって、Findings調べて、、、っていうあの作業、単純ですけど割と手間！！ ということで、Claude Tag + Amazon GuardDuty Investigation Agent を組み合わせて、セキュリティアラート"
     },
     {
@@ -67,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538448+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787827+00:00",
       "excerpt": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 2026年8月、Anthropic が Claude の生成テキストに人間には読めない電子透かしを入れると公表した。噂ではなく公式発表だ 方式は Google DeepMind の SynthID-Text ベース。不可視文字を混ぜるのではなく、語を選ぶときの乱数の出所を鍵に差し替える コード"
     },
     {
@@ -77,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538382+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787764+00:00",
       "excerpt": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使えます」。しかも、ブラウザを行き来することなく、ノートを書きながらその場でAIと対話できます。 本記事では、ObsidianでAIを利用するためのプラグイン設定か"
     },
     {
@@ -87,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538304+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787689+00:00",
       "excerpt": "2026年8月2日から、Claudeの文章には透かしが入っている ご存知の方も多いと思いますが、2026年8月2日以降にローンチされたモデルが生成したテキストには 人間の目には見えない透かし（ウォーターマーク） が埋め込みされるようになりました。 このニュースがすごい勢いで流れた反面、誤解もかなりの量で一緒に流れました。「ゼロ幅スペースが仕込まれてるらしい」「翻訳すれば消える」「200トークン以下"
     },
     {
@@ -97,17 +67,17 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538239+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787626+00:00",
       "excerpt": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, hooks, and dynamic workflows, organized by the problem each one solves. Introduct"
     },
     {
-      "id": "cc_0dd92250",
+      "id": "cc_b0b85dbf",
       "title": "claude のメモリを棚卸しする",
-      "url": "https://zenn.dev/centerfield77/articles/c1e963064d05fd",
+      "url": "https://zenn.dev/cureapp/articles/c1e963064d05fd",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.538156+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.787547+00:00",
       "excerpt": "https://x.com/kenn/status/2090438812854087756?s=20 このツイート見て「やべ、なんも意識してなかった」となったのがきっかけ よしなにやってくれてるんだろうくらいだったので、この際ちゃんと調べて棚卸しした そもそも claude のメモリとは 理解しているつもりだったけどちゃんと調べてなかったので調べた https://code.claude.com/"
     },
     {
@@ -117,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497997+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.758265+00:00",
       "excerpt": "はじめに どうも、TOKIUMで今年からエンジニアデビューした とりのひと です。 配属から1ヶ月、まだまだ開発素人です。 今回の記事では、そんな私が配属された直後に作成した個人ナレッジベースについて話していきます。 まず、配属直後にいちばん困ったのは、覚えることが多すぎて、頭に入れるのが追いつかないことでした。 コードの層責務、ドメインの用語、金額計算のルール、業務エンティティの状態遷移、認証ま"
     },
     {
@@ -127,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497916+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.758185+00:00",
       "excerpt": "TL;DR Claude Code 2.1.238 で、プラグインマーケットプレイスに headersHelper が入りました。短命トークンなどの HTTP ヘッダーをコマンドで生成し、カタログと同一オリジンのアーカイブ取得に添える仕組みです。 認証必須のカタログを立てて実際に試したところ、claude -p のような 非対話セッションでは helper が一度も実行されず、Authorizat"
     },
     {
@@ -137,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497822+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.758091+00:00",
       "excerpt": "effort を下げたら品質が上がった Claude Code を Opus 5 で使っていて、順序のおかしいことに気づいた。 effort を xhigh から medium に下げたら、出力の品質が上がった。 逆である。xhigh の方が上位設定なのだから、下げれば質は落ちるはずだ。しかも xhigh のときの出力が短かったわけではない。むしろ長い。長いのに、詰めが甘い。「考えが長い割に浅慮」"
     },
     {
@@ -147,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497751+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.758020+00:00",
       "excerpt": "Claude Code を使い始めると、設定の中に 「effort」 という項目があることに気づきます。 low / medium / high / xhigh / max の5段階。名前からして、上げれば上げるほど賢くなりそうに見えます。 でも実際は違います。最大にすると、かえって仕事の質が落ちることがあります。 この記事では、その理由と、じゃあどう設定すればいいのかを、初心者向けに説明します。"
     },
     {
@@ -157,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497612+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.757881+00:00",
       "excerpt": "はじめに この連載では、AIエージェントを支える考え方として、Harness、Loop Engineering、Tool Engineering、Memoryといった要素を扱ってきました。以前の記事では、Claude Codeの自動モードを取り上げ、Human-in-the-loopの実装例として紹介しました。 今回は少し視点を広げて、Claude Codeを使ったAI駆動開発そのものについて、公"
     },
     {
@@ -167,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497516+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.757788+00:00",
       "excerpt": "新しいAIエージェントを覚えるために、別のAIエージェントに先生役を頼んでみました。ただし、先生に実装も実験も任せると、私が考える前に答えができあがります。 そこで、Claude Codeを講師、Codexを工作担当、Hermes Agentを学習対象兼実験機に分けました。予測し、Hermesを操作し、結果を検算するのは人間の担当です。 2026年7月17日にこの環境を作り、8月19日時点で8件の"
     },
     {
@@ -177,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T12:58:59.497388+00:00",
+      "fetchedAt": "2026-08-21T18:45:19.757660+00:00",
       "excerpt": "Claude Codeのサブエージェント（Agentツール、旧Taskツール）は「知ってはいるが、結局メイン会話で全部やってしまう」機能の代表格ではないでしょうか。私たちはAIエージェントを部署に見立てて記事制作・マーケティングを運用しており、その実運用で定着した設計パターンを7つに整理し、失敗しやすいポイントとあわせてまとめます。 仕様に関する記述は、Anthropic公式ドキュメント（Crea"
     },
     {
@@ -187,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-21T12:58:59.906570+00:00",
+      "fetchedAt": "2026-08-21T18:45:20.165688+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -197,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-21T12:59:00.164091+00:00",
+      "fetchedAt": "2026-08-21T18:45:20.398678+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-21T12:59:00.164152+00:00",
+      "fetchedAt": "2026-08-21T18:45:20.398738+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-21T12:59:00.164220+00:00",
+      "fetchedAt": "2026-08-21T18:45:20.398805+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-21T12:59:00.164234+00:00"
+  "lastCollection": "2026-08-21T18:45:20.398819+00:00"
 }
