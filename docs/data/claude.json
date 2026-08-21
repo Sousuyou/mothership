@@ -1,34 +1,14 @@
 {
   "items": [
     {
-      "id": "cc_e5da2148",
-      "title": "Security Hub MCP App × Claude Desktop の機能が追加されたので使い所を考えてみた",
-      "url": "https://zenn.dev/cscloud_blog/articles/security-hub-mcp-app",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.742438+00:00",
-      "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ 皆さんは Security Hub の Finding、severity の高い順に対応していますか？ 2026 年 7 月 27 日に「AWS Security Hub MCP App」が Preview として公開されました。 https://aws.amazon.com/jp/"
-    },
-    {
-      "id": "cc_d7a254ad",
-      "title": "【チームによるAI駆動開発の勘所：第3回】CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」の違い",
-      "url": "https://zenn.dev/scalar_sol_blog/articles/8525ec289be69b",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.742347+00:00",
-      "excerpt": "概要 この記事では、CLAUDE.md に書いた規約が「守られるもの」と「守られないもの」にきれいに分かれるという現象を、実験形式で共有します。 同じ指示を CLAUDE.md の適用前後で実行し、7つの規約それぞれについて「効いたか / 効かなかったか」を判定する演習です。結果を先に言うと、守られなかったのは 4項目。そしてその4項目には、はっきりした共通点がありました。 前回はコードレビューの"
-    },
-    {
-      "id": "cc_5b97fc8d",
-      "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
-      "url": "https://zenn.dev/kuromame_kun/articles/8afc488f701ba3",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.742278+00:00",
-      "excerpt": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。 Claudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。 Anthropicによると、Claude Mythos PreviewとClaude Opus 4.8を使った実験では、15種類の標的に対してbinderを設計し、そのうち14種類で"
+      "id": "cc_fe8bf83b",
+      "title": "Cursor vs Claude Code 比較【2026年8月版】料金・機能・使い分けを個人開発者目線で解説",
+      "url": "https://qiita.com/aimakerlab/items/73978089bc457f5158dd",
+      "domain": "qiita.com",
+      "source": "Qiita",
+      "publishedAt": "2026-08-21T12:00:03+09:00",
+      "fetchedAt": "2026-08-21T06:56:22.135588+00:00",
+      "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
       "id": "cc_76cc3e6e",
@@ -37,18 +17,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.742212+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.882845+00:00",
       "excerpt": "TL;DR Claude Codeのstatuslineに何を出すかも重要だが、どう色を付けるかも重要 context使用量率は絶対値で色付けしてよいが、レート制限に対する使用率の絶対値で色付けすると「週の後半はずっと赤」になり、警告として機能しない 使用率 ÷ 週の経過率（ペース）で色を付けると、期間中つねに「順調 / 要注意 / 要介入」の3段階などで意識できる prompt cache 失効"
-    },
-    {
-      "id": "cc_d0c96eba",
-      "title": "Claude Code 完全攻略ガイド ――AI時代の次世代コーディング・ワークフロー",
-      "url": "https://zenn.dev/pakku8914/books/claude_code_master_course",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.742105+00:00",
-      "excerpt": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を使いこなせていないエンジニアを対象としています。 > - Claude Codeの全機能（スキル・タスク・フック・MCPサーバー・エージェントモードなど）を体系的"
     },
     {
       "id": "cc_f9f19cd9",
@@ -57,18 +27,98 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.716006+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.882778+00:00",
       "excerpt": "TL;DR Claude Code サブスクの週次レートリミット（Fable 5 週次、以下 f5/w）の消費式を、手元の利用ログから推定した 結果: Δf5/w[%] ≈ 2.75 × キャッシュ書込(1h)[Mtok] + 27.5 × 出力[Mtok]（R²=0.55） キャッシュ読取の係数はほぼゼロ。APIのドル建て料金（読取は入力の 0.1 倍）とは別の計算式で動いているっぽい つまり、"
     },
     {
-      "id": "cc_44d1a980",
-      "title": "システムプロンプトを80%消したら賢くなった — Claude Code 作者 Boris Cherny の回を要点解説",
-      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr24-cherny-summary",
+      "id": "cc_d0c96eba",
+      "title": "Claude Code 完全攻略ガイド ――AI時代の次世代コーディング・ワークフロー",
+      "url": "https://zenn.dev/pakku8914/books/claude_code_master_course",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715912+00:00",
-      "excerpt": "この記事について ! 本記事は Boris Cherny（Claude Code 作者 / Anthropic）が Y Combinator Startup School 2026 で語った内容の紹介と論評を目的としています。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確認ください。翻訳全文の掲載は行っていません。 Claude Code を"
+      "fetchedAt": "2026-08-21T06:56:21.882703+00:00",
+      "excerpt": "> 本教材は、Claude Codeの現在リリースされている全機能を網羅的に学習できる実践的な教材です。 CLAUDE.mdの作成やファイルメンションといった基本操作は習得済みだが、スキル・タスク・フック・MCPサーバーなどの高度な機能を使いこなせていないエンジニアを対象としています。 > - Claude Codeの全機能（スキル・タスク・フック・MCPサーバー・エージェントモードなど）を体系的"
+    },
+    {
+      "id": "cc_6c9b97f8",
+      "title": "Claude Tag+Amazon GuardDuty Investigation Agentでセキュリティアラートの一次トリアージを自動化",
+      "url": "https://zenn.dev/dgtech/articles/20260811-secalert-triage",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882536+00:00",
+      "excerpt": "はじめに こんにちわ、SRE室の西田です。 SREをしていると、GuardDutyのセキュリティアラートって大量にきたりしませんか？ AmazonQからSlackに通知もらって、Findings調べて、、、っていうあの作業、単純ですけど割と手間！！ ということで、Claude Tag + Amazon GuardDuty Investigation Agent を組み合わせて、セキュリティアラート"
+    },
+    {
+      "id": "cc_8ab48d53",
+      "title": "45. Claudeの出力に電子透かしが入った — 仕組みと、職種ごとの実際の影響",
+      "url": "https://zenn.dev/yamada_ai_dev/articles/claude-text-watermark-impact",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882466+00:00",
+      "excerpt": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 2026年8月、Anthropic が Claude の生成テキストに人間には読めない電子透かしを入れると公表した。噂ではなく公式発表だ 方式は Google DeepMind の SynthID-Text ベース。不可視文字を混ぜるのではなく、語を選ぶときの乱数の出所を鍵に差し替える コード"
+    },
+    {
+      "id": "cc_d7290449",
+      "title": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法",
+      "url": "https://zenn.dev/yukihayama/articles/obsidian-ai-plugins",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882396+00:00",
+      "excerpt": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使えます」。しかも、ブラウザを行き来することなく、ノートを書きながらその場でAIと対話できます。 本記事では、ObsidianでAIを利用するためのプラグイン設定か"
+    },
+    {
+      "id": "cc_12a09513",
+      "title": "Claudeの文章に「見えない透かし」が入り始めた話を、一次情報だけで整理する",
+      "url": "https://zenn.dev/saishunkansys/articles/6b32bee71afe14",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882315+00:00",
+      "excerpt": "2026年8月2日から、Claudeの文章には透かしが入っている ご存知の方も多いと思いますが、2026年8月2日以降にローンチされたモデルが生成したテキストには 人間の目には見えない透かし（ウォーターマーク） が埋め込みされるようになりました。 このニュースがすごい勢いで流れた反面、誤解もかなりの量で一緒に流れました。「ゼロ幅スペースが仕込まれてるらしい」「翻訳すれば消える」「200トークン以下"
+    },
+    {
+      "id": "cc_3150c6e3",
+      "title": "Stop Using Claude Code the Same Way for Every Problem.",
+      "url": "https://zenn.dev/neotechpark/articles/4afadd0b46694a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882248+00:00",
+      "excerpt": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, hooks, and dynamic workflows, organized by the problem each one solves. Introduct"
+    },
+    {
+      "id": "cc_0dd92250",
+      "title": "claude のメモリを棚卸しする",
+      "url": "https://zenn.dev/centerfield77/articles/c1e963064d05fd",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882149+00:00",
+      "excerpt": "https://x.com/kenn/status/2090438812854087756?s=20 このツイート見て「やべ、なんも意識してなかった」となったのがきっかけ よしなにやってくれてるんだろうくらいだったので、この際ちゃんと調べて棚卸しした そもそも claude のメモリとは 理解しているつもりだったけどちゃんと調べてなかったので調べた https://code.claude.com/"
+    },
+    {
+      "id": "cc_fcef5e08",
+      "title": "Claude Opus 5 の effort は「賢さのツマミ」ではなくなった(エンジニア向け)",
+      "url": "https://zenn.dev/manntera/articles/66a7f64cf0534c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.882073+00:00",
+      "excerpt": "effort を下げたら品質が上がった Claude Code を Opus 5 で使っていて、順序のおかしいことに気づいた。 effort を xhigh から medium に下げたら、出力の品質が上がった。 逆である。xhigh の方が上位設定なのだから、下げれば質は落ちるはずだ。しかも xhigh のときの出力が短かったわけではない。むしろ長い。長いのに、詰めが甘い。「考えが長い割に浅慮」"
+    },
+    {
+      "id": "cc_36f5805a",
+      "title": "Claude Codeの回答がイマイチだなぁ？って思った時に読む記事(非エンジニア向け)",
+      "url": "https://zenn.dev/manntera/articles/9e98c6850f63c7",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.881984+00:00",
+      "excerpt": "Claude Code を使い始めると、設定の中に 「effort」 という項目があることに気づきます。 low / medium / high / xhigh / max の5段階。名前からして、上げれば上げるほど賢くなりそうに見えます。 でも実際は違います。最大にすると、かえって仕事の質が落ちることがあります。 この記事では、その理由と、じゃあどう設定すればいいのかを、初心者向けに説明します。"
     },
     {
       "id": "cc_28c05ed9",
@@ -77,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715792+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.862055+00:00",
       "excerpt": "この記事の実施記録: Claude Codeで、進行管理役のエージェントが自分自身の行動規範ファイルを編集しようとしたところ、permission mode（実行モードという枠組み）の一状態であるauto modeの中で働く判定機構にブロックされた。エラーメッセージは「権限ルールを足せば解決する」と案内したが、.claude/settings.local.json の許可リスト（調査時点で577件"
     },
     {
@@ -87,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715729+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861989+00:00",
       "excerpt": "こんにちは、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 Claude Codeで数日がかりの開発をしていると、必ずこの朝がやってきます。 昨日: 設計の背景を説明して、試行錯誤して、ようやく方針が固まって実装が進んだ 今朝: 新しいセッションを開く → 「このプロジェクトについて教えてください」状態😇 自分: (昨日あんなに説明したのに…また最初から?)"
     },
     {
@@ -97,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715637+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861900+00:00",
       "excerpt": "私は毎朝、iA Writer でモーニングページ（その日の思考をただ書き出す日記のようなもの）を書いています。気づけば3年、600件を超えていました。 ところが、書いた文章はほとんど読み返していませんでした。iA Writer は書くのには最高ですが、「あの時どう考えていたか」を横断的にたどる用途には向いていません。全文検索はできても、テーマでまとまらないし、関連する日を並べてくれるわけでもありま"
     },
     {
@@ -107,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715568+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861833+00:00",
       "excerpt": "CLAUDE.md や AGENTS.md にプロジェクト固有の手順を書いても、ファイルが存在するだけでは、その指示が実行結果へ反映された証拠にはなりません。メインのテストが通っていても、指示ファイルにだけ書いた追加作業が抜けている可能性は残ります。 そこで、同じタスクを「指示ファイルなし」と「あり」で実行し、指示ファイルにだけ書いたマーカーと変更範囲を比較しました。2026年8月11日にClau"
     },
     {
@@ -117,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715457+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861723+00:00",
       "excerpt": "はじめに 6.2でESTABLISHED状態で届いたデータセグメントを受理し、payloadをdumpしてrcv_nxtを前進させ、純ACK(flags=0x10)を返すところまで作りました。受信→ACKの片道です。6.3はその逆向き——我々が payload を載せたセグメントを送り返し、snd_nxtをデータ長ぶん前進させ、相手から返ってくる「我々のデータへのACK」を消化するところまでを作り"
     },
     {
@@ -127,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715344+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861614+00:00",
       "excerpt": "Claude Code などのサブスクリプションプランで使っていると、実際にどれだけ使ったのかが見えません。 そこで、ローカルに残っている利用ログを全部 SQLite に取り込み、Anthropic API の公式単価で換算してみました。4か月弱、73,548ターンで API 換算302万円 でした（1 USD = 159円）。 使ったのは phuryn/claude-usage（MIT）をフォー"
     },
     {
@@ -137,8 +187,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-21T01:43:06.715226+00:00",
+      "fetchedAt": "2026-08-21T06:56:21.861522+00:00",
       "excerpt": "「並列にすれば速い」と思ってgit操作込みで投げたら、コミットが混ざった 3本のTaskを並列で走らせて、それぞれに実装を任せたことがある。「3倍速いはず」と思っていたが、できあがったコミットはどれも中途半端に混ざっていた。片方のsubagentがcheckoutしたブランチに、もう片方が気づかずcommitしていた。 読み取り専用の調査タスクなら、Claude CodeのAgent toolで複"
+    },
+    {
+      "id": "cc_bbbb0639",
+      "title": "Claude CodeとCodexを併用する ― 環境構築から、両者が衝突し合った実録まで",
+      "url": "https://zenn.dev/rarino/articles/2240a9b16d050a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-21T06:56:21.861386+00:00",
+      "excerpt": "gen-fashion は、Claude Code と Codex を併用して作りました。アプリの背景やハッカソンでの要件定義については、シリーズの紹介記事にまとめています。 ただし、「設計は Claude、実装は Codex」のように綺麗に分けたわけではありません。どちらも設計します。どちらも実装します。そして...残念ながら、どちらも間違えるんです。 だから大事なのは、AI エージェントを役割"
     },
     {
       "id": "cc_b2235741",
@@ -147,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-21T01:43:07.124562+00:00",
+      "fetchedAt": "2026-08-21T06:56:22.349841+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -157,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-21T01:43:07.124628+00:00",
+      "fetchedAt": "2026-08-21T06:56:22.349918+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -167,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-21T01:43:07.124697+00:00",
+      "fetchedAt": "2026-08-21T06:56:22.350001+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-21T01:43:07.124709+00:00"
+  "lastCollection": "2026-08-21T06:56:22.350016+00:00"
 }

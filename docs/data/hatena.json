@@ -5,413 +5,300 @@
       "title": "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた｜ふちゃぎ",
       "url": "https://note.com/fuchagi/n/n42c43cfe0ff0",
       "domain": "note.com",
-      "bookmarkCount": 211,
+      "bookmarkCount": 456,
       "summary": "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた 「LLMは、次に来る単語を確率的に予測しているだけ」——TLに流れていたこの説明は正しい。GPTもClaudeも、事前学習でやっていることは突き詰めれば次トークンの予測であり、目的関数にそれ以上の何かは書かれてい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/fuchagi/n/n42c43cfe0ff0",
       "comments": [
         {
-          "user": "unagiga",
-          "comment": "腑に落ちるとか点と点が繋がるみたいな感覚か、あるいは大量の点の集合を離れて見ると絵に見えるとか、データに一定の規則を与えたものが情報と考えれば、その規則が良質なら情報として成立するという見方で良いのか",
-          "tags": [],
-          "timestamp": "2026/08/21 10:36"
+          "user": "mag4n",
+          "comment": "んでLeanで判断するようになると数学の分野では大分ヤバい事になるらしい、と言われてもう実際なってる。",
+          "tags": [
+            "ネタ"
+          ],
+          "timestamp": "2026/08/21 15:37"
         },
         {
-          "user": "w1234567",
-          "comment": "次の単語を当てるだけって言い方がアレなだけでやってることの本質は予測だよね",
-          "tags": [],
-          "timestamp": "2026/08/21 10:36"
+          "user": "misshiki",
+          "comment": "LLMの「創発」をめぐる研究史。崖の一部は評価指標の錯覚だが、損失の閾値を境にした実質的変化も存在。「全体は滑らかに、部品は離散的に」が現在の有力な見取り図。次の能力出現の予測は未解決。",
+          "tags": [
+            "自然言語処理",
+            "機械学習"
+          ],
+          "timestamp": "2026/08/21 15:21"
         },
         {
-          "user": "chnpk",
-          "comment": "めちゃくちゃ面白いよな。人間だって似たようなものと適当な相対化で瞬間的に消費するのは惜しい。",
+          "user": "poipoi3",
+          "comment": "「という、このコメント自体を、どうか適度な懐疑とともに読んでください。 創発の産物が創発を語るとき、その語りの流暢さと正しさは、別物ですから。」Fable 5使ってみたくなった",
           "tags": [],
-          "timestamp": "2026/08/21 10:35"
+          "timestamp": "2026/08/21 15:12"
         },
         {
-          "user": "interferobserver",
-          "comment": "最後の一文、確かに。創発臨界点と安全性の問題は直結する。",
+          "user": "ys0000",
+          "comment": "当事者のコメントが面白いからおまけから先に読むべき。",
           "tags": [],
-          "timestamp": "2026/08/21 10:32"
+          "timestamp": "2026/08/21 15:11"
         },
         {
-          "user": "t-tanaka",
-          "comment": "「私は自分の訓練過程や内部機構を内省する手段を持ちません」Fable自身が，次のAIのBreak Throughのポイントがどこにあるのかを示しているようにしかみえない。ここを解決すると，たぶん異次元の知性が生まれる。",
+          "user": "doko",
+          "comment": "「次トークン予測という計算形式を利用して長い推論列を作る能力を、かなり意図的に訓練しているというのが現在の姿に近い」とのことですよ。みなさんもこの文章をGPTに食わせて所感をもらおう",
           "tags": [],
-          "timestamp": "2026/08/21 10:27"
+          "timestamp": "2026/08/21 15:10"
         },
         {
-          "user": "xlc",
-          "comment": "その証明が明らかなことを誰かが知っているならば、それに関する情報もネットにあるのでAIは引用することができる。証明方法が未知の問題をAIが解いたときに初めてAIは証明できることになるのでは？",
+          "user": "usomegane",
+          "comment": "既存の証明を使ってるだけなら「次の単語を当ててるだけ」でもまあそうかとなるけど、未解決問題を解いたり（証明したり）、システムの未知の脆弱性を発見するとか、どうなってんだよ。（読まずにコメント）",
           "tags": [],
-          "timestamp": "2026/08/21 10:26"
+          "timestamp": "2026/08/21 15:06"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:02.256673+00:00"
-    },
-    {
-      "id": "h_7ea10af1",
-      "title": "AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
-      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
-      "domain": "zenn.dev",
-      "bookmarkCount": 123,
-      "summary": "こんにちは、松尾研究所 データサイエンスチームのマネージャーの浮田です。 最近のAI Agentは、一般的な調査や実装であればかなり高い水準でこなせるようになってきました。一方で、実際の社内業務に必要な社内固有の知識は持っておらず、非常に優秀だが、まだオンボーディングを受けていない新入社員に近い状態です。 ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mkj/articles/aad5698672aef3",
-      "comments": [
-        {
-          "user": "snaka72",
-          "comment": "Skill設計とその評価",
-          "tags": [],
-          "timestamp": "2026/08/21 02:50"
-        },
-        {
-          "user": "coziro",
-          "comment": "“す。また、評価方法として、固定入力に回答するStatic / Offline評価と、ユーザーや環境と相互作用”",
-          "tags": [],
-          "timestamp": "2026/08/21 01:49"
-        },
-        {
-          "user": "gadget-lab",
-          "comment": "後で読みたい。AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/21 00:34"
-        },
-        {
-          "user": "kiririmode",
-          "comment": "Agentの能力を制約しているのは情報の欠如だけでなく、断片化した文書から毎回その場で業務ルールを再構成させていること",
-          "tags": [
-            "contextengineering",
-            "ai"
-          ],
-          "timestamp": "2026/08/20 20:34"
-        }
-      ],
-      "fetchedAt": "2026-08-21T01:43:05.767465+00:00"
+      "fetchedAt": "2026-08-21T06:56:15.656448+00:00"
     },
     {
       "id": "h_1f773f8a",
       "title": "ユーザーアカウント不要で「Logi Options+」と同じように各種設定ができるようになる「OpenLogi」",
       "url": "https://gigazine.net/news/20260820-openlogi/",
       "domain": "gigazine.net",
-      "bookmarkCount": 77,
+      "bookmarkCount": 151,
       "summary": "ロジクールのマウスやキーボードは、「Logi Options+」という専用ソフトウェアと連携することでボタンに機能を割り当てたりショートカットを設定できたりします。そんなLogi Options+の代わりに、アカウント不要でマウスのボタン割り当てなどの設定をするための「ローカルファーストな代替案」として作成されたのが「Ope...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260820-openlogi/",
       "comments": [
         {
-          "user": "pqw",
-          "comment": "別にアカウント登録くらいいくらでもするから、G HUBと統合してほしい。",
+          "user": "TakamoriTarou",
+          "comment": "最終的にロジクールがこのプロジェクトを金出してSponsoredし、これをベースにLogi Optionsが改良される流れ　　　　にはならないか流石に。",
           "tags": [],
-          "timestamp": "2026/08/21 10:34"
+          "timestamp": "2026/08/21 14:51"
         },
         {
-          "user": "raitu",
-          "comment": "“OpenLogiは「Logi Options+のすべての機能を、アカウントなしで利用できる」としています”",
+          "user": "whkr",
+          "comment": "今年初めにLogitechがやらかしてマウスが使えなくなった事件があったから、それへの対策だね。 https://www.itmedia.co.jp/pcuser/articles/2601/07/news135.html",
           "tags": [],
-          "timestamp": "2026/08/21 10:26"
+          "timestamp": "2026/08/21 14:47"
         },
         {
-          "user": "repunit",
-          "comment": "電池切れ予告以外の用途で使ってないなぁ。ロジクールはブラウザの拡張機能も更新せずに放置してる。",
-          "tags": [],
-          "timestamp": "2026/08/21 09:23"
-        },
-        {
-          "user": "pokepirk",
-          "comment": "自分はLogi Optionsをバッテリーチェッカーとしてつかってる",
-          "tags": [],
-          "timestamp": "2026/08/21 08:58"
-        },
-        {
-          "user": "spark64",
-          "comment": "どっちにしても物事を複雑にし過ぎてるな。機能盛り盛りにしたいのはユーザーの要望かもだが。",
-          "tags": [],
-          "timestamp": "2026/08/21 08:41"
-        },
-        {
-          "user": "slkby",
-          "comment": "Logiのソフトはゴミすぎる",
-          "tags": [],
-          "timestamp": "2026/08/21 08:21"
-        }
-      ],
-      "fetchedAt": "2026-08-21T01:43:02.775224+00:00"
-    },
-    {
-      "id": "h_2cfd349b",
-      "title": "現実的なセキュリティ体制の構築 限られたリソースの中で成果を最大化する「選択と集中」",
-      "url": "https://speakerdeck.com/demaecan/app-architecture-transformation",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 57,
-      "summary": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. →",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/demaecan/app-architecture-transformation",
-      "comments": [
-        {
-          "user": "kagehiens",
-          "comment": "選択と集中、イコール失敗みたいなイメージが一部JTCと学校行政のせいで定着してしまっているの、良くないなぁ😓",
-          "tags": [],
-          "timestamp": "2026/08/21 08:19"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "守るは難し",
+          "user": "strawberryhunter",
+          "comment": "Microsoft Basic Optical Mouseを一生分買ってしまったので、こういうのに挑戦できない。ボタンがたくさんあるのは憧れるけど、人間工学（エルゴノミクス）に基づいた云々は使いにくい印象と実体験しかない。",
           "tags": [
-            "セキュリティ"
+            "未分類"
           ],
-          "timestamp": "2026/08/21 07:09"
+          "timestamp": "2026/08/21 14:35"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "LO+はサイトが落ちてるとキーバインドとかが機能しないのが悲しい。あと古いSetPointのは統合されないの？ id:punkgame氏のアイコンがなんかLO+を彷彿とさせる(色しか合ってない)",
+          "tags": [],
+          "timestamp": "2026/08/21 13:59"
+        },
+        {
+          "user": "suka6411144",
+          "comment": "前に中華の音ゲー用キーボード買ったら、ブラウザ上でキー設定ができて、設定がキーボード上に保存される方式だった、ロジも同じようにしてくれればいいのに",
+          "tags": [],
+          "timestamp": "2026/08/21 13:46"
+        },
+        {
+          "user": "cmieji",
+          "comment": "嬉しいのはlinuxも対応しているところ(linuxでもMX master4のアクションリングが使える)/ HIDを送って設定を変更してるだけだから利用規約も違反しないでしょう",
+          "tags": [],
+          "timestamp": "2026/08/21 13:33"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:03.234465+00:00"
-    },
-    {
-      "id": "h_127b6f0e",
-      "title": "脱構築される欲望：淫夢MAD文化におけるユーモア、クィア批評、そしてホモフォビアの克服｜speed!!",
-      "url": "https://note.com/saboten_and/n/n733304031e1f",
-      "domain": "note.com",
-      "bookmarkCount": 54,
-      "summary": "要約 本稿は、日本のインターネットサブカルチャーにおける独特な現象「淫夢」を、脱構築とクィア理論の視点から分析し、ホモフォビアの克服やユーモアの変遷について探求する。「淫夢」は2001年のゲイポルノ作品『真夏の夜の淫夢』を起源とし、インターネットミームやMAD文化を通じて複雑な文化現象へと進化した。本稿...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/saboten_and/n/n733304031e1f",
-      "comments": [
-        {
-          "user": "ackey1973",
-          "comment": "“AIは次にくる言葉を当ててるだけ”というのが、なんだかよく分かるような気がする文章。で、“これは実験としてAI使ってるんだよ”とかエクスキューズを追記してるし。",
-          "tags": [],
-          "timestamp": "2026/08/21 10:25"
-        },
-        {
-          "user": "fujifavoric",
-          "comment": "「Nico Nico DougaのようなプラットフォームにおけるMAD（マルチアングル・ドラマ）ビデオ」がAI丸出しすぎる／AIではなくこの辺をちゃんと研究してる人おらんのかなというのはずっと思ってるけど",
-          "tags": [],
-          "timestamp": "2026/08/21 10:16"
-        },
-        {
-          "user": "slkby",
-          "comment": "あれを脱ホモフォビア扱いは流石にふざけ過ぎだよ",
-          "tags": [],
-          "timestamp": "2026/08/21 09:43"
-        },
-        {
-          "user": "tuisumi",
-          "comment": "途中ニコニコ動画をnico nico dougaと表記してあるあたりでAI文っぽさがある",
-          "tags": [],
-          "timestamp": "2026/08/21 09:40"
-        },
-        {
-          "user": "sugawara1991",
-          "comment": "嫌悪や憎悪より嘲笑やイジりの方がマシと言えばそうかも知れないがホモフォビアの超克と呼べるか？まあコメディアンタレントへの親しみに近づけた面はあると言えなくないかも知れんが",
-          "tags": [],
-          "timestamp": "2026/08/21 09:36"
-        },
-        {
-          "user": "mirakux",
-          "comment": "INMU KING!INMU KING!",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/21 09:25"
-        }
-      ],
-      "fetchedAt": "2026-08-21T01:43:03.487886+00:00"
-    },
-    {
-      "id": "h_c4aed19e",
-      "title": "東京都が「Tokyo Map」公開 防災・暑さ対策・Wi-Fiマップを重ねて表示",
-      "url": "https://www.watch.impress.co.jp/docs/news/2134323.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 49,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2134323.html",
-      "comments": [
-        {
-          "user": "dubdubchinchin",
-          "comment": "この前AIにエアコンが壊れた部屋の暑さ対策を聞いたらパチンコ屋を提案してきた。まぁそうだけどさ、、トイレ綺麗だしWi-Fiあるし、本読めるところあるし、、",
-          "tags": [],
-          "timestamp": "2026/08/21 09:05"
-        },
-        {
-          "user": "kijtra",
-          "comment": "わりとオープンデータがあるから自分用に同じようなの作ってあるな。これにさらに国勢調査と物件情報を重ねたようなやつw",
-          "tags": [],
-          "timestamp": "2026/08/21 06:10"
-        }
-      ],
-      "fetchedAt": "2026-08-21T01:43:05.207521+00:00"
-    },
-    {
-      "id": "h_aac532db",
-      "title": "「FastCopy」のシェル統合が強化、D&D・コピペで「エクスプローラー」の代わりに高速ファイル処理／「CET」「CFG」の有効化などによるセキュリティ強化も図られたv5.12.0が公開",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2134059.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 46,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2134059.html",
-      "comments": [
-        {
-          "user": "favoriteonline",
-          "comment": "全然関係ないけどモダンな高解像度アイコンにできそうなのに昔のドット調のアイコン続けるの好き",
-          "tags": [],
-          "timestamp": "2026/08/21 10:22"
-        },
-        {
-          "user": "fukupika",
-          "comment": "窓の杜のダウンロード画面、別サイトへの偽装リンクが多過ぎて改善して欲しい。",
-          "tags": [],
-          "timestamp": "2026/08/21 08:30"
-        },
-        {
-          "user": "FlowerLounge",
-          "comment": "30年近くWindowsを使ってるが、エクスプローラーに元に戻すコマンドがあると知らなかった",
-          "tags": [],
-          "timestamp": "2026/08/21 07:40"
-        },
-        {
-          "user": "straychef",
-          "comment": "勝手にアップデートされる",
-          "tags": [],
-          "timestamp": "2026/08/21 06:23"
-        }
-      ],
-      "fetchedAt": "2026-08-21T01:43:04.549055+00:00"
+      "fetchedAt": "2026-08-21T06:56:16.897033+00:00"
     },
     {
       "id": "h_04bda1d6",
       "title": "悪名高きスワイプ広告を解析する - Qiita",
       "url": "https://qiita.com/PhotobyU/items/cdc63b4bf9d2ded5b5ca",
       "domain": "qiita.com",
-      "bookmarkCount": 38,
+      "bookmarkCount": 111,
       "summary": "この記事の概要 ユーザーから嫌われている広告の1つに「スワイプ広告」というものがある。 誤タップをしやすいことが理由だが、あまりにもこの広告だけ誤タップするため調べたところ 実は誤タップしたように見せかけて意図的に広告先に遷移させる広告であるということがわかった。 スワイプ広告とは、左右にスワイプする...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/PhotobyU/items/cdc63b4bf9d2ded5b5ca",
       "comments": [
         {
-          "user": "hinaloe",
-          "comment": "誤タップの感じたことはなくて完全にただ邪魔されて操作を阻害されてる感覚しかないんよ",
-          "tags": [],
-          "timestamp": "2026/08/21 09:51"
-        },
-        {
-          "user": "hkanemat",
-          "comment": "evil",
-          "tags": [],
-          "timestamp": "2026/08/21 09:45"
-        },
-        {
-          "user": "TripleRiver",
-          "comment": "「ブランドの価値も下げる」とかいくら言ったって、あいつらに倫理観なんぞ無いんだから、アドブロを広めて自衛するだけよ。無法を続ける連中に、ただ乗りを批判する資格なんて無い。",
-          "tags": [],
-          "timestamp": "2026/08/21 09:37"
-        },
-        {
-          "user": "JULY",
-          "comment": "「広告主のブランド価値も下げる」おそらく広告主は広告代理店任せで、実際の広告がサイトやアプリでどう表示されているかを知らないし、広告代理店も下請けがどんな実装をしたかを知らないだろうなぁ。",
+          "user": "strawberryhunter",
+          "comment": "広告屋の胴元GoogleにWebブラウザを依存するのは良くないな。",
           "tags": [
-            "社会",
-            "広告"
+            "Google"
           ],
-          "timestamp": "2026/08/21 09:21"
+          "timestamp": "2026/08/21 15:12"
         },
         {
-          "user": "aceraceae",
-          "comment": "誤タップしたように見せかけてるんじゃなくて、誤タップさせてるんだよね？",
-          "tags": [
-            "広告",
-            "技術",
-            "心理"
-          ],
-          "timestamp": "2026/08/21 09:17"
+          "user": "hotaruishix",
+          "comment": "“今まであなたが感じていた、「あ、やべ」は 決してあなたのミスではなく、広告の仕組みなのである”",
+          "tags": [],
+          "timestamp": "2026/08/21 15:06"
         },
         {
-          "user": "shoh8",
-          "comment": "“広告位置から始まる縦スワイプは、強制的に広告をタップしたとみなされる。” そうそう。広告サイトで、スクロールバー以外の画面タッチはほとんどイベント処理できそう",
-          "tags": [
-            "広告",
-            "web"
-          ],
-          "timestamp": "2026/08/21 09:05"
+          "user": "manzou7",
+          "comment": "現在は更に進化（）して誤タップと勘違いさせる条件がなくなって、一度タップしたら最後、時間が経っても画面の端まで動かしても指を離した瞬間に広告に強制遷移させられるようになってるｗ",
+          "tags": [],
+          "timestamp": "2026/08/21 14:59"
+        },
+        {
+          "user": "colic_ppp",
+          "comment": "まだ良心的な方",
+          "tags": [],
+          "timestamp": "2026/08/21 13:27"
+        },
+        {
+          "user": "snobsnog",
+          "comment": "最近、新聞広告のように意識を阻害しないネット広告はできないものかと考える機会が増えた。でもあれは画面が広いからできるんだよなあ。",
+          "tags": [],
+          "timestamp": "2026/08/21 13:27"
+        },
+        {
+          "user": "advancive61",
+          "comment": "こんなのばっかり蔓延しててadblock使うなって方がおかしいよ",
+          "tags": [],
+          "timestamp": "2026/08/21 13:01"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:03.794901+00:00"
+      "fetchedAt": "2026-08-21T06:56:17.661487+00:00"
     },
     {
-      "id": "h_1260ccca",
-      "title": "グーグル、大学生に向け「AI Plus」を1年間無料提供",
-      "url": "https://www.watch.impress.co.jp/docs/news/2134153.html",
-      "domain": "watch.impress.co.jp",
-      "bookmarkCount": 37,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2134153.html",
+      "id": "h_facf2070",
+      "title": "「食い入るように読み切ってしまいました」大学教授による期末レポート講評が、昨今のAIの話を完璧に捉えていて面白い、最後はしっかり落ちてる",
+      "url": "https://togetter.com/li/2735638",
+      "domain": "togetter.com",
+      "bookmarkCount": 86,
+      "summary": "「食い入るように読み切ってしまいました」大学教授による期末レポート講評が、昨今のAIの話を完璧に捉えていて面白い、最後はしっかり落ちてる",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2735638",
       "comments": [
         {
-          "user": "haususuahahdh",
-          "comment": "Geminiのモデルは現時点でかなりOpenAIとAnthropicのフロンティアモデルと性能差があるので、手に入れたとしても積極的に使うのはおすすめない",
+          "user": "tribird",
+          "comment": "大学のレポートさえも「ストーリー」重視の時代",
           "tags": [],
-          "timestamp": "2026/08/21 10:21"
+          "timestamp": "2026/08/21 15:55"
         },
         {
-          "user": "bad-movie-guy",
-          "comment": "年齢制限あるのか…",
-          "tags": [],
-          "timestamp": "2026/08/21 09:48"
+          "user": "kenzy_n",
+          "comment": "知性というものはとても面白い。",
+          "tags": [
+            "レポート",
+            "AI",
+            "大学",
+            "教育"
+          ],
+          "timestamp": "2026/08/21 15:49"
         },
         {
-          "user": "circled",
-          "comment": "大学がGPUサーバー揃えて、学生向けにqwenとかdeepseekのオープンウェイトなAIのエンドポイントを解放した方が幸せなんじゃね？",
+          "user": "ffrog",
+          "comment": "良い読み物でした",
           "tags": [],
-          "timestamp": "2026/08/21 09:42"
+          "timestamp": "2026/08/21 15:45"
         },
         {
-          "user": "Caerleon0327",
-          "comment": "放送大学は・・・？",
-          "tags": [],
-          "timestamp": "2026/08/21 09:37"
+          "user": "khatsalano",
+          "comment": "今思うと恥ずかしい限りだが，学部生のころはレポート作成能力に愚かなまでの自信を持っていて，他人のマネなど思いつきもしなかった。俺の方が絶対に凄いと。バカだね。でもあの蛮勇は自分の隅に残しておきたい。",
+          "tags": [
+            "自分語り"
+          ],
+          "timestamp": "2026/08/21 15:35"
         },
         {
-          "user": "officesitter",
-          "comment": "使いこなした人ほどロックインされるから、おのずと優秀なユーザーを囲い込める。各社が追随していずれ最大4年に延長されるんじゃないか。",
-          "tags": [],
-          "timestamp": "2026/08/21 08:31"
+          "user": "makou",
+          "comment": "なかなかの叙述トリック。",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/08/21 15:25"
         },
         {
-          "user": "WildWideWeb",
-          "comment": "囲い込みもそうだけど、AIの学習にも使わせてもらいます、とセットじゃないかな。※最初Proと空目してた。無料なのはPlusのほうか。",
+          "user": "junjun777",
+          "comment": "過去レポのコピーとか一切しなかったマンだし、今学生だったとして全てAIのレポートは出さないだろうな。ちょっと手抜きすぎないかね。／写させてって頼まれた場合、コピーと思われたくなくて別に書いてたな。",
           "tags": [],
-          "timestamp": "2026/08/21 08:13"
+          "timestamp": "2026/08/21 15:14"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:04.820201+00:00"
+      "fetchedAt": "2026-08-21T06:56:16.204707+00:00"
     },
     {
       "id": "h_740346fa",
       "title": "キオクシアの光SSDとは?PCIeをそのまま光に変える技術のすごさを元キオクシア研究開発者がわかりやすく解説",
       "url": "https://mofmof-investor.com/kioxia-optical-ssd",
       "domain": "mofmof-investor.com",
-      "bookmarkCount": 35,
+      "bookmarkCount": 83,
       "summary": "この記事を書いた人 もふ (もふもふ不動産) ソニー・キオクシア(旧東芝メモリ)で16年、先端半導体の研究開発に従事。世界初のシステムディスプレイ「ACX343」と世界初の48層3次元フラッシュメモリ「BiCS FLASH™」の量産立ち上げに参画し、発明者として特許出願も行う。現在は株式投資20年・不動産投資10年の投資家・経営...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mofmof-investor.com/kioxia-optical-ssd",
       "comments": [
         {
-          "user": "T-norf",
-          "comment": "すんごい分かりやすい文章。個人投資的にはキオクシアはギャンブルすぎて手が出ないけど、孫さんあたりと手を組んで、思い切った量産化投資して、いっきに事業化成功させて欲しいな",
+          "user": "syamatsumi",
+          "comment": "ディスアグリゲーテッドシステムとか光スイッチとか、HPCとかでしか活躍出来んのではなかろーか……　スニーカーネットみたいな真似を細かくやる感じかしらね？　興味深いわー。",
           "tags": [],
-          "timestamp": "2026/08/21 08:54"
+          "timestamp": "2026/08/21 15:13"
         },
         {
-          "user": "TakamoriTarou",
-          "comment": "いろんなところが研究成果を出してるけど規格統一に至りにくい状況",
+          "user": "yorkfield",
+          "comment": "これは光SSDではなくて光PCIeでは？と思ったら文中でも光PCIeって言ってた→「電気PCIeには荷が重い——まさに光PCIeの出番なんです。」",
           "tags": [],
-          "timestamp": "2026/08/21 08:34"
+          "timestamp": "2026/08/21 14:07"
+        },
+        {
+          "user": "pochi-taro00",
+          "comment": "正直需要がすべてで性能なんか二の次なんよ",
+          "tags": [],
+          "timestamp": "2026/08/21 13:43"
+        },
+        {
+          "user": "ochikun",
+          "comment": "いいねいいね",
+          "tags": [],
+          "timestamp": "2026/08/21 13:40"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "胡散臭い絵面のサイトだけど、内容は参考になった。家庭用には時間かかりそうだけど、まずはDASのバリエーションとしてかな。",
+          "tags": [],
+          "timestamp": "2026/08/21 13:27"
+        },
+        {
+          "user": "Cherenkov",
+          "comment": "株価頼むぞ",
+          "tags": [],
+          "timestamp": "2026/08/21 13:23"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:04.259665+00:00"
+      "fetchedAt": "2026-08-21T06:56:19.871035+00:00"
     },
     {
       "id": "h_68de57b8",
       "title": "「X Pro」代替X（旧称Twitter）アプリ「XTimelineViewer」がメジャーバージョンアップ／マルチプロファイルに対応など多岐にわたり機能が充実、使い勝手も向上",
       "url": "https://forest.watch.impress.co.jp/docs/news/2134248.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 16,
+      "bookmarkCount": 67,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2134248.html",
       "comments": [
+        {
+          "user": "makou",
+          "comment": "5月にはX Proに代わるものが出るはずだったのに、もう8月も終わる。",
+          "tags": [
+            "twitter"
+          ],
+          "timestamp": "2026/08/21 15:27"
+        },
+        {
+          "user": "rdlf",
+          "comment": "「細長い Edge を横に並べているだけ」って乱暴でいいな。",
+          "tags": [],
+          "timestamp": "2026/08/21 13:15"
+        },
+        {
+          "user": "civicpg",
+          "comment": "代替とか旧称とか付いて名前が分かりにくいw ｢XPro代替X旧称TwitterアプリXTimelineViewer｣ こういう時旧称は別に良くない？？",
+          "tags": [],
+          "timestamp": "2026/08/21 12:47"
+        },
+        {
+          "user": "auto_chan",
+          "comment": "X proのために青バッジ買ったのに取り上げられちゃって（プレミアムプラス化）非公式なDeckクローンを使ってる。いつなにが起こるかわからないの精神的によくないじゃよね。deck機能は各種監視に必須だけとお高いよ～",
+          "tags": [],
+          "timestamp": "2026/08/21 11:43"
+        },
+        {
+          "user": "pendamadura",
+          "comment": "えっとtweetdeckってことでいいんだよな？",
+          "tags": [],
+          "timestamp": "2026/08/21 11:21"
+        },
         {
           "user": "cinefuk",
           "comment": "@elonmusk に不正利用の言いがかりつけられて垢BANされる虞。\"「X Pro」のように複数のタイムラインを横に並べて一覧できるX（旧称Twitter）クライアントアプリ「XTimelineViewer」のv2.0.0が、8月5日にリリースされた。\"",
@@ -419,40 +306,294 @@
             "twitter"
           ],
           "timestamp": "2026/08/21 10:14"
-        },
-        {
-          "user": "daruyanagi",
-          "comment": "あじゃじゃじゃっす！　なんか画像をフルサイズ表示したり、動画をダウンロードしたり、フレームをキャプチャーしたりっていう試験機能もいっぱい突っ込んだので楽しんでください ( ˘ω˘ )",
-          "tags": [],
-          "timestamp": "2026/08/21 07:27"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:06.246503+00:00"
+      "fetchedAt": "2026-08-21T06:56:18.901505+00:00"
+    },
+    {
+      "id": "h_da371069",
+      "title": "一人でちいさくはじめる Platform Engineering",
+      "url": "https://speakerdeck.com/syossan27/ichininde-chiisaku-hajimeru-platform-engineering",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 59,
+      "summary": "「1人SRE、Platform Engineeringに挑む。」の登壇資料です。 https://tenshoku-draft.connpass.com/event/401492/",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/syossan27/ichininde-chiisaku-hajimeru-platform-engineering",
+      "comments": [
+        {
+          "user": "kenzy_n",
+          "comment": "コツコツと積み上げる。",
+          "tags": [
+            "資料",
+            "webサービス"
+          ],
+          "timestamp": "2026/08/21 11:15"
+        }
+      ],
+      "fetchedAt": "2026-08-21T06:56:19.514294+00:00"
+    },
+    {
+      "id": "h_7cdfe7de",
+      "title": "ニートしてる内蔵GPUを働かせたら、ゲーム中のYouTube視聴が快適になった話｜さあもん",
+      "url": "https://note.com/saamon_note/n/nf2624bde20d6",
+      "domain": "note.com",
+      "bookmarkCount": 56,
+      "summary": "はじめにゲームしながらサブモニタでYouTube、やってる人多いと思います。 私もFF14をやりながら攻略動画や作業用BGMを流してるんですが、あるときからゲーム中だけYouTubeの再生がカクついてしまうようになりました。 調べてみると「ブラウザのハードウェア アクセラレーションをオフにする」という方法が見つかって、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/saamon_note/n/nf2624bde20d6",
+      "comments": [
+        {
+          "user": "sds-page",
+          "comment": "Steamしてる時にYouTube見たくなったらPS5で見てる（ゲーム機とは）",
+          "tags": [
+            "ゲーム",
+            "youtube",
+            "PC"
+          ],
+          "timestamp": "2026/08/21 15:52"
+        },
+        {
+          "user": "Retset",
+          "comment": "うちのCPU Core i5-14400F、調べたら内蔵GPU無し (型番の末尾にある「F」は内蔵GPUを省略したモデルとのこと) と知ってｶﾞｯｶﾘ",
+          "tags": [],
+          "timestamp": "2026/08/21 15:50"
+        },
+        {
+          "user": "kenzy_n",
+          "comment": "GPUは後付けと決めて敢えてGPU非搭載のCPUを導入している方も結構いらっしゃる。",
+          "tags": [
+            "GPU",
+            "ゲーム",
+            "youtube",
+            "CPU"
+          ],
+          "timestamp": "2026/08/21 15:43"
+        },
+        {
+          "user": "hatebu_ai",
+          "comment": "うちのPCにはニートGPUいなかったわ",
+          "tags": [],
+          "timestamp": "2026/08/21 15:32"
+        },
+        {
+          "user": "kotetsu306",
+          "comment": "7800X3Dの内蔵GPUって2CUしかないはずだけど、動画のデコードくらいなら問題ないのか",
+          "tags": [],
+          "timestamp": "2026/08/21 15:31"
+        },
+        {
+          "user": "kashil",
+          "comment": "こんなのできるのね。あとで試してみよう",
+          "tags": [],
+          "timestamp": "2026/08/21 15:24"
+        }
+      ],
+      "fetchedAt": "2026-08-21T06:56:16.550319+00:00"
     },
     {
       "id": "h_6611736a",
       "title": "NPUで数十種類のチャットAIを動かし放題の「Lemonade Server」。ただしAMD Ryzen AIに限る",
       "url": "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2132902.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 13,
+      "bookmarkCount": 46,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/usecopilotpc/2132902.html",
       "comments": [
         {
-          "user": "opaopachang",
-          "comment": "NPUは定着するかこのまま消えるかの瀬戸際な感じが",
+          "user": "secseek",
+          "comment": "専用プロセッサであるはずのNPUよりGPUの方がずっと使いやすいんですよね。謎です。積み重ねが違うと言えばそれまでなんですが",
           "tags": [],
-          "timestamp": "2026/08/21 10:23"
+          "timestamp": "2026/08/21 13:16"
         },
         {
-          "user": "sugawara1991",
-          "comment": "AMD NPUを使えるLLMランタイムが限られるということか",
+          "user": "georgew",
+          "comment": "「Lemonade Server」というソフトを使用することで、AMD製NPUであるRyzen AIを用いて、LLMを簡単に動かせる > ローカルLLM稼働方法の一つのアプローチ。これ無料とのこと。",
           "tags": [],
-          "timestamp": "2026/08/21 10:09"
+          "timestamp": "2026/08/21 13:00"
+        },
+        {
+          "user": "UhoNiceGuy",
+          "comment": "64Gbのメモリ積んだRyzen AI HX370機で27万円か。まぁまぁだね。ollamaと同じように動くならAIサーバーとしては便利そう。というか、AMDはollamaでNPU使えるようにしてくれない？AppleのMetalは使えるのだから",
+          "tags": [
+            "AMD",
+            "AI"
+          ],
+          "timestamp": "2026/08/21 12:25"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "マーケティング用の飾りを能動的に動かせる日が来るとはね。NPUは安くない。メモリ高騰の煽りを受けて、一番削減されそうな部品だけど。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/21 12:20"
+        },
+        {
+          "user": "agricola",
+          "comment": "Windowsにブロックされるんだけど……",
+          "tags": [],
+          "timestamp": "2026/08/21 12:10"
+        },
+        {
+          "user": "dollarss",
+          "comment": "やってみようかな。面白そう",
+          "tags": [],
+          "timestamp": "2026/08/21 11:09"
         }
       ],
-      "fetchedAt": "2026-08-21T01:43:06.502349+00:00"
+      "fetchedAt": "2026-08-21T06:56:20.638093+00:00"
+    },
+    {
+      "id": "h_b8c5cd99",
+      "title": "携帯型ゲーム機は姿を消したのか。学者と振り返る、ゲーム機ビジネスという“ギャンブル” - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_909/",
+      "domain": "levtech.jp",
+      "bookmarkCount": 41,
+      "summary": "芝浦工業大学システム理工学部 教授 小山 友介 1973年生まれ。京都大学大学院経済学研究科博士課程修了。博士（経済学）。東京工業大学助教などを経て現職。専門は進化経済学・コンテンツ産業論・社会情報学。著書『日本デジタルゲーム産業史』（人文書院）で2017年社会情報学会優秀文献賞を受賞。 researchmap 公園に持...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_909/",
+      "comments": [
+        {
+          "user": "o_mega",
+          "comment": "Switchに至る前のWiiUも象徴的だったなあ。据え置きゲーム機からタブレットへのアプローチだったが、携帯ゲーム機から据え置きもできるSwitchが勝ったカタチ",
+          "tags": [],
+          "timestamp": "2026/08/21 15:32"
+        },
+        {
+          "user": "nt1192",
+          "comment": "マジコン問題は？",
+          "tags": [],
+          "timestamp": "2026/08/21 14:40"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“PSPとニンテンドーDSが2004年12月に発売。それから数年間が、携帯型ゲーム機の黄金時代。”",
+          "tags": [],
+          "timestamp": "2026/08/21 14:38"
+        },
+        {
+          "user": "lastline",
+          "comment": "今は、ハンドヘルドゲーミング PC かな。Switch の影響がおおきいのと、ニッチな市場ではあるが",
+          "tags": [],
+          "timestamp": "2026/08/21 14:34"
+        },
+        {
+          "user": "cinefuk",
+          "comment": "「自社ソフトの販売やサードパーティからのライセンス料で利益を回収するというビジネスモデルが古くから採られてきたのです。たとえばPlayStation3の発売当初の価格は6万円ほどでしたが、それでも1台ごとに2万円の赤字」",
+          "tags": [
+            "ゲーム",
+            "ビジネス",
+            "任天堂",
+            "PlayStation"
+          ],
+          "timestamp": "2026/08/21 13:26"
+        },
+        {
+          "user": "oroshi",
+          "comment": "PSPが売れた理由は9割モンハンなのに全く触れられていないのどうなん",
+          "tags": [],
+          "timestamp": "2026/08/21 12:52"
+        }
+      ],
+      "fetchedAt": "2026-08-21T06:56:21.326921+00:00"
+    },
+    {
+      "id": "h_ac8a63db",
+      "title": "Qwen3.8 27Bが驚異の6.2GBに!? Unslothが新量子化技術で実現",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2134411.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 40,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2134411.html",
+      "comments": [
+        {
+          "user": "kamm",
+          "comment": "“UD-Q2_K_XL”",
+          "tags": [],
+          "timestamp": "2026/08/21 15:46"
+        },
+        {
+          "user": "misshiki",
+          "comment": "Unslothが量子化技術Dynamic v3.0を公開。Qwen3.8-27Bを1bitで6.2GB、元モデル比89%削減。上位1%精度は約72%維持する一方、エージェント用途やツール呼び出しには不向き。",
+          "tags": [
+            "人工知能",
+            "自然言語処理"
+          ],
+          "timestamp": "2026/08/21 15:14"
+        },
+        {
+          "user": "Kippis-S",
+          "comment": "27バイトが6.2ギガバイトに膨れ上がったのかと思った",
+          "tags": [],
+          "timestamp": "2026/08/21 14:19"
+        },
+        {
+          "user": "fashi",
+          "comment": "https://huggingface.co/collections/unsloth/unsloth-dynamic-30-quants",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/08/21 13:48"
+        },
+        {
+          "user": "naozane2",
+          "comment": "小型のUD-1bit量子化モデルも作成しており、MTPなしの「UD-IQ1_S」の容量はわずか6.2GBだ。上位1%の精度を約72%維持。一般知識は保持されるため、ごく短い事実確認の質問であれば利用できる／チャットにしか使えないのか",
+          "tags": [],
+          "timestamp": "2026/08/21 12:52"
+        }
+      ],
+      "fetchedAt": "2026-08-21T06:56:18.278891+00:00"
+    },
+    {
+      "id": "h_49e14f6f",
+      "title": "128GBでLLMと画像生成は同時に動く。デルのミニPC「Dell Pro Max with GB10」を徹底検証 [Sponsored]",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/special/2130667.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 40,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/special/2130667.html",
+      "comments": [
+        {
+          "user": "misshiki",
+          "comment": "Dell Pro Max with GB10を検証。128GB統合メモリで120B級LLMと画像生成を1台で並行実行。19秒のAI動画も4モデルを載せ92GB使用、9分25秒で生成。",
+          "tags": [
+            "自然言語処理",
+            "人工知能"
+          ],
+          "timestamp": "2026/08/21 15:15"
+        },
+        {
+          "user": "sotonohitokun",
+          "comment": "コレ年初に4Tを50万で買った、北米で10%キャッシュバックの時だったので、今なら(値段が上がってしまったので性格的に)買えないだろうなー、底値を記憶しちゃうタイプなんで",
+          "tags": [],
+          "timestamp": "2026/08/21 14:44"
+        },
+        {
+          "user": "fashi",
+          "comment": "「280W USB ACアダプタからの電源入力」PD3.2の最大240Wを超えてるんだ",
+          "tags": [
+            "pc"
+          ],
+          "timestamp": "2026/08/21 14:24"
+        },
+        {
+          "user": "hiroomi",
+          "comment": "”単体で最大2,000億(200B)パラメータ、ConnectX-7 Smart NICで2台を接続すれば最大4,000億(400B)パラメータのモデルをローカルで扱える設計”",
+          "tags": [],
+          "timestamp": "2026/08/21 13:58"
+        },
+        {
+          "user": "ys0000",
+          "comment": "DGX Spark OEM版の検証。やれること色々なところが出してくれてるので現状の限界も判りやすいかな。",
+          "tags": [],
+          "timestamp": "2026/08/21 13:40"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“DGX Spark互換機。検証3: Visionモデルで参照画像を読み取り、そのままComfyUIで生成する”",
+          "tags": [],
+          "timestamp": "2026/08/21 13:09"
+        }
+      ],
+      "fetchedAt": "2026-08-21T06:56:21.725103+00:00"
     }
   ],
-  "lastCollection": "2026-08-21T01:43:06.502376+00:00"
+  "lastCollection": "2026-08-21T06:56:21.725127+00:00"
 }
