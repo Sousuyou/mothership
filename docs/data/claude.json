@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_1d6cb00a",
-      "title": "Claude Code の利用ログを SQLite に取り込んで API 換算したら302万円だった",
-      "url": "https://zenn.dev/chiisanasoft/articles/88757cec318916",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893536+00:00",
-      "excerpt": "Claude Code などのサブスクリプションプランで使っていると、実際にどれだけ使ったのかが見えません。 そこで、ローカルに残っている利用ログを全部 SQLite に取り込み、Anthropic API の公式単価で換算してみました。4か月弱、73,548ターンで API 換算302万円 でした（1 USD = 159円）。 使ったのは phuryn/claude-usage（MIT）をフォー"
-    },
-    {
-      "id": "cc_5def9d1e",
-      "title": "Claude Codeのsubagentを並列でgit操作させたら、コミットが混ざった話",
-      "url": "https://zenn.dev/playpark/articles/claude-code-subagent-parallel-git-isolation",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893444+00:00",
-      "excerpt": "「並列にすれば速い」と思ってgit操作込みで投げたら、コミットが混ざった 3本のTaskを並列で走らせて、それぞれに実装を任せたことがある。「3倍速いはず」と思っていたが、できあがったコミットはどれも中途半端に混ざっていた。片方のsubagentがcheckoutしたブランチに、もう片方が気づかずcommitしていた。 読み取り専用の調査タスクなら、Claude CodeのAgent toolで複"
-    },
-    {
       "id": "cc_6c9b97f8",
       "title": "Claude Tag+Amazon GuardDuty Investigation Agentでセキュリティアラートの一次トリアージを自動化",
       "url": "https://zenn.dev/dgtech/articles/20260811-secalert-triage",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893362+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670889+00:00",
       "excerpt": "はじめに こんにちわ、SRE室の西田です。 SREをしていると、GuardDutyのセキュリティアラートって大量にきたりしませんか？ AmazonQからSlackに通知もらって、Findings調べて、、、っていうあの作業、単純ですけど割と手間！！ ということで、Claude Tag + Amazon GuardDuty Investigation Agent を組み合わせて、セキュリティアラート"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893294+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670812+00:00",
       "excerpt": "! この記事は生成AIで作成した草稿を、筆者が内容を確認し、添削・修正のうえ公開しています。 TL;DR 2026年8月、Anthropic が Claude の生成テキストに人間には読めない電子透かしを入れると公表した。噂ではなく公式発表だ 方式は Google DeepMind の SynthID-Text ベース。不可視文字を混ぜるのではなく、語を選ぶときの乱数の出所を鍵に差し替える コード"
     },
     {
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893232+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670741+00:00",
       "excerpt": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使えます」。しかも、ブラウザを行き来することなく、ノートを書きながらその場でAIと対話できます。 本記事では、ObsidianでAIを利用するためのプラグイン設定か"
     },
     {
@@ -57,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893156+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670663+00:00",
       "excerpt": "2026年8月2日から、Claudeの文章には透かしが入っている ご存知の方も多いと思いますが、2026年8月2日以降にローンチされたモデルが生成したテキストには 人間の目には見えない透かし（ウォーターマーク） が埋め込みされるようになりました。 このニュースがすごい勢いで流れた反面、誤解もかなりの量で一緒に流れました。「ゼロ幅スペースが仕込まれてるらしい」「翻訳すれば消える」「200トークン以下"
     },
     {
@@ -67,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893093+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670599+00:00",
       "excerpt": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, hooks, and dynamic workflows, organized by the problem each one solves. Introduct"
     },
     {
@@ -77,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.893026+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670526+00:00",
       "excerpt": "https://x.com/kenn/status/2090438812854087756?s=20 このツイート見て「やべ、なんも意識してなかった」となったのがきっかけ よしなにやってくれてるんだろうくらいだったので、この際ちゃんと調べて棚卸しした そもそも claude のメモリとは 理解しているつもりだったけどちゃんと調べてなかったので調べた https://code.claude.com/"
     },
     {
@@ -87,8 +67,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.892951+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.670457+00:00",
       "excerpt": "effort を下げたら品質が上がった Claude Code を Opus 5 で使っていて、順序のおかしいことに気づいた。 effort を xhigh から medium に下げたら、出力の品質が上がった。 逆である。xhigh の方が上位設定なのだから、下げれば質は落ちるはずだ。しかも xhigh のときの出力が短かったわけではない。むしろ長い。長いのに、詰めが甘い。「考えが長い割に浅慮」"
+    },
+    {
+      "id": "cc_c958c486",
+      "title": "自作MCPサーバで「Tool Poisoning」を試してみた（Claude Codeは騙されるのか？）",
+      "url": "https://zenn.dev/shinji_bk/articles/7a24decb4ce42e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-22T06:49:44.670277+00:00",
+      "excerpt": "はじめに MCPサーバのツールにはdescription（説明文）がついていて、Claudeはこれを読んでどのツールをいつ使うか判断します。もしこの説明文が実際の動作と食い違っていたら、Claudeはどう振る舞うのか気になったので、検証用に簡単なメモ管理MCPサーバを自作し、実際にdescriptionや関数名を偽装して試してみました。 MCPとは MCPはAnthropicが公開しているオープン"
+    },
+    {
+      "id": "cc_077aab04",
+      "title": "Claude Codeの全コマンドが突然死んだ——再インストールする前に読む話",
+      "url": "https://zenn.dev/philo_sophy1485/articles/1813036f327bbe",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-22T06:49:44.670195+00:00",
+      "excerpt": "Claude CodeのBashツールが、何を打っても同じエラー1行で全滅する——この記事は、その状態から再インストールなしで復旧した記録です。同じエラーに当たった人と、複数のAIエージェントを並走させて運用している人に向けて、①再インストール不要の復旧手順 ②公式リポジトリの既知Issueと原因の機序 ③再発を早期検知する予防チェック、の3つを持ち帰れるように書きました。執筆中の『複数AI運用の"
+    },
+    {
+      "id": "cc_f0ed62ee",
+      "title": "Claude Codeについて学んだことの備忘録",
+      "url": "https://zenn.dev/rokkaku_dev/articles/6feb8e28bb81d1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-22T06:49:44.670098+00:00",
+      "excerpt": "はじめに 社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。 強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。 だからこそ、まずは公式ドキュメントを一通り読んで基礎知識を整理しておくことが大事だと思いました。 この記事はその インプットのアウトプット です。 誰かに教えるという"
     },
     {
       "id": "cc_36f5805a",
@@ -97,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.892869+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.647564+00:00",
       "excerpt": "Claude Code を使い始めると、設定の中に 「effort」 という項目があることに気づきます。 low / medium / high / xhigh / max の5段階。名前からして、上げれば上げるほど賢くなりそうに見えます。 でも実際は違います。最大にすると、かえって仕事の質が落ちることがあります。 この記事では、その理由と、じゃあどう設定すればいいのかを、初心者向けに説明します。"
     },
     {
@@ -107,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851692+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.647441+00:00",
       "excerpt": "はじめに この連載では、AIエージェントを支える考え方として、Harness、Loop Engineering、Tool Engineering、Memoryといった要素を扱ってきました。以前の記事では、Claude Codeの自動モードを取り上げ、Human-in-the-loopの実装例として紹介しました。 今回は少し視点を広げて、Claude Codeを使ったAI駆動開発そのものについて、公"
     },
     {
@@ -117,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851602+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.647352+00:00",
       "excerpt": "新しいAIエージェントを覚えるために、別のAIエージェントに先生役を頼んでみました。ただし、先生に実装も実験も任せると、私が考える前に答えができあがります。 そこで、Claude Codeを講師、Codexを工作担当、Hermes Agentを学習対象兼実験機に分けました。予測し、Hermesを操作し、結果を検算するのは人間の担当です。 2026年7月17日にこの環境を作り、8月19日時点で8件の"
     },
     {
@@ -127,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851509+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.647257+00:00",
       "excerpt": "Claude Codeのサブエージェント（Agentツール、旧Taskツール）は「知ってはいるが、結局メイン会話で全部やってしまう」機能の代表格ではないでしょうか。私たちはAIエージェントを部署に見立てて記事制作・マーケティングを運用しており、その実運用で定着した設計パターンを7つに整理し、失敗しやすいポイントとあわせてまとめます。 仕様に関する記述は、Anthropic公式ドキュメント（Crea"
     },
     {
@@ -137,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851444+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.647185+00:00",
       "excerpt": "はじめに 2026/8/21(日本時間)、Slack に Slack Code という機能が発表されました[1]。ひとことで言うと、Slack の会話からコーディングエージェントをメンションすると、専用の「コードチャンネル」が立ち上がり、会話・計画・差分・プレビューがタブとして 1 つのチャンネルに揃う 仕組みです。 Slack の発表によると、ローンチ時点の対応エージェントは Claude / "
     },
     {
@@ -147,28 +157,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851269+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.646974+00:00",
       "excerpt": "Claude Codeで実装したゲームロジックが「動くけど面白くない」問題 Claude CodeやUnity MCPにゲームのシステム実装を任せると、コードとしては正しく動く。ビルドも通るし、テストも書ける。だが実際に触ってみると「なんか違う」——敵が硬すぎる、経験値カーブがだるい、リソースがすぐ枯渇する、といったバランス面の違和感が残ることが多い。この「動くのに面白くない」現象は、Claude"
-    },
-    {
-      "id": "cc_46bf393c",
-      "title": "ローカルLLMでAIエージェントは今どうなってる？ ―OpenClawの惨状とClaude Codeをローカルで動かす検証",
-      "url": "https://zenn.dev/acntechjp/articles/zenn-local-ai-agent-claude-code-ollama",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851197+00:00",
-      "excerpt": "はじめに ローカル LLM がまた盛り上がってきました。M4 Max のような 128GB 級の Mac なら、そこそこのモデルが手元で動きます。そこで気になったのが、ローカルで動く AI エージェントは今どうなっているのかです。 具体的に引っかかっていたのが 3 つ。 一時期よく聞いた OpenClaw、CVE が大量に出ていて、もう勧められない状況なのでは？ Claude Code をローカル"
-    },
-    {
-      "id": "cc_7d8f5928",
-      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第6章 6.4: TCP closeハンドシェイクと再接続",
-      "url": "https://zenn.dev/pekopugu/articles/net-ch6-4-tcp-close-handshake",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T01:36:43.851095+00:00",
-      "excerpt": "はじめに 第6章もいよいよ最終回です。6.1で握手(passive open)、6.2で受信+ACK、6.3で応答送信+ACK消化まで作り、TCPの双方向のデータ往復が閉じました。6.4はその接続を正規に畳む——close ハンドシェイクを作ります。これで「接続を開き、データを往復させ、閉じ、また開く」というTCPの一生が一周し、v2.0(HTTPサーバ)へ王手がかかります。 ソースコードはシリー"
     },
     {
       "id": "cc_fe8bf83b",
@@ -177,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-22T01:36:44.246640+00:00",
+      "fetchedAt": "2026-08-22T06:49:44.997080+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -187,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-22T01:36:44.482366+00:00",
+      "fetchedAt": "2026-08-22T06:49:45.186786+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-22T01:36:44.482465+00:00",
+      "fetchedAt": "2026-08-22T06:49:45.186853+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +197,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-22T01:36:44.482532+00:00",
+      "fetchedAt": "2026-08-22T06:49:45.186923+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-22T01:36:44.482547+00:00"
+  "lastCollection": "2026-08-22T06:49:45.186935+00:00"
 }
