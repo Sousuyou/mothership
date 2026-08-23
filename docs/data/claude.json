@@ -1,104 +1,54 @@
 {
   "items": [
     {
-      "id": "cc_d7290449",
-      "title": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法",
-      "url": "https://zenn.dev/yukihayama/articles/obsidian-ai-plugins",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.702266+00:00",
-      "excerpt": "Obsidian × AIプラグイン — ChatGPTとClaudeをノート内で使う方法 Obsidianを使い始めた方からよく聞く質問があります。 「ObsidianでChatGPTやClaudeを使えるのですか？」 答えは「はい、使えます」。しかも、ブラウザを行き来することなく、ノートを書きながらその場でAIと対話できます。 本記事では、ObsidianでAIを利用するためのプラグイン設定か"
-    },
-    {
-      "id": "cc_12a09513",
-      "title": "Claudeの文章に「見えない透かし」が入り始めた話を、一次情報だけで整理する",
-      "url": "https://zenn.dev/saishunkansys/articles/6b32bee71afe14",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.702187+00:00",
-      "excerpt": "2026年8月2日から、Claudeの文章には透かしが入っている ご存知の方も多いと思いますが、2026年8月2日以降にローンチされたモデルが生成したテキストには 人間の目には見えない透かし（ウォーターマーク） が埋め込みされるようになりました。 このニュースがすごい勢いで流れた反面、誤解もかなりの量で一緒に流れました。「ゼロ幅スペースが仕込まれてるらしい」「翻訳すれば消える」「200トークン以下"
-    },
-    {
-      "id": "cc_3150c6e3",
-      "title": "Stop Using Claude Code the Same Way for Every Problem.",
-      "url": "https://zenn.dev/neotechpark/articles/4afadd0b46694a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.702124+00:00",
-      "excerpt": "A research-backed map of Claude Code's extension system: model and effort, context, CLAUDE.md, skills, MCP, subagents, hooks, and dynamic workflows, organized by the problem each one solves. Introduct"
-    },
-    {
-      "id": "cc_b0b85dbf",
-      "title": "claude のメモリを棚卸しする",
-      "url": "https://zenn.dev/cureapp/articles/c1e963064d05fd",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.702048+00:00",
-      "excerpt": "https://x.com/kenn/status/2090438812854087756?s=20 このツイート見て「やべ、なんも意識してなかった」となったのがきっかけ よしなにやってくれてるんだろうくらいだったので、この際ちゃんと調べて棚卸しした そもそも claude のメモリとは 理解しているつもりだったけどちゃんと調べてなかったので調べた https://code.claude.com/"
-    },
-    {
-      "id": "cc_fcef5e08",
-      "title": "Claude Opus 5 の effort は「賢さのツマミ」ではなくなった(エンジニア向け)",
-      "url": "https://zenn.dev/manntera/articles/66a7f64cf0534c",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.701974+00:00",
-      "excerpt": "effort を下げたら品質が上がった Claude Code を Opus 5 で使っていて、順序のおかしいことに気づいた。 effort を xhigh から medium に下げたら、出力の品質が上がった。 逆である。xhigh の方が上位設定なのだから、下げれば質は落ちるはずだ。しかも xhigh のときの出力が短かったわけではない。むしろ長い。長いのに、詰めが甘い。「考えが長い割に浅慮」"
-    },
-    {
-      "id": "cc_36f5805a",
-      "title": "Claude Codeの回答がイマイチだなぁ？って思った時に読む記事(非エンジニア向け)",
-      "url": "https://zenn.dev/manntera/articles/9e98c6850f63c7",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.701895+00:00",
-      "excerpt": "Claude Code を使い始めると、設定の中に 「effort」 という項目があることに気づきます。 low / medium / high / xhigh / max の5段階。名前からして、上げれば上げるほど賢くなりそうに見えます。 でも実際は違います。最大にすると、かえって仕事の質が落ちることがあります。 この記事では、その理由と、じゃあどう設定すればいいのかを、初心者向けに説明します。"
-    },
-    {
       "id": "cc_c958c486",
       "title": "自作MCPサーバで「Tool Poisoning」を試してみた（Claude Codeは騙されるのか？）",
       "url": "https://zenn.dev/shinji_bk/articles/7a24decb4ce42e",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.701680+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.452850+00:00",
       "excerpt": "はじめに MCPサーバのツールにはdescription（説明文）がついていて、Claudeはこれを読んでどのツールをいつ使うか判断します。もしこの説明文が実際の動作と食い違っていたら、Claudeはどう振る舞うのか気になったので、検証用に簡単なメモ管理MCPサーバを自作し、実際にdescriptionや関数名を偽装して試してみました。 MCPとは MCPはAnthropicが公開しているオープン"
     },
     {
-      "id": "cc_1d6fb30e",
-      "title": "Claude Codeで作ったゲームロジックが「動くのに面白くない」ときに見直す要件定義のコツ",
-      "url": "https://zenn.dev/unidesign/articles/claude-code-game-balance-requirements",
+      "id": "cc_14b5f7f2",
+      "title": "Claude Sonnet 5とGPT-5.6が出揃った今、エージェント自動化を最小コードで組む",
+      "url": "https://zenn.dev/kairosai/articles/9d0e994d2dd352",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676817+00:00",
-      "excerpt": "Claude Codeで実装したゲームロジックが「動くけど面白くない」問題 Claude CodeやUnity MCPにゲームのシステム実装を任せると、コードとしては正しく動く。ビルドも通るし、テストも書ける。だが実際に触ってみると「なんか違う」——敵が硬すぎる、経験値カーブがだるい、リソースがすぐ枯渇する、といったバランス面の違和感が残ることが多い。この「動くのに面白くない」現象は、Claude"
+      "fetchedAt": "2026-08-23T01:46:29.452677+00:00",
+      "excerpt": "はじめに 2026年7月、AI御三家の新モデルが出揃いました。OpenAIのGPT-5.6（7/9公開、Sol/Luna/Terraの3バリアント＋ChatGPT Work）、AnthropicのClaude Sonnet 5（7/1公開、Opus 4.8の約90%を約40%の価格で）、そしてGoogleのGemini 3.5 Flash。 共通するキーワードは「エージェント」。今回は、複数モデル"
     },
     {
-      "id": "cc_46bf393c",
-      "title": "ローカルLLMでAIエージェントは今どうなってる？ ―OpenClawの惨状とClaude Codeをローカルで動かす検証",
-      "url": "https://zenn.dev/acntechjp/articles/zenn-local-ai-agent-claude-code-ollama",
+      "id": "cc_04728dab",
+      "title": "Claudeのテキスト透かし（ウォーターマーク）は何をしているのか ── サンプリングの仕組みから理解する",
+      "url": "https://zenn.dev/rinrin_ds_17/articles/bc093cfa3bdbd1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676753+00:00",
-      "excerpt": "はじめに ローカル LLM がまた盛り上がってきました。M4 Max のような 128GB 級の Mac なら、そこそこのモデルが手元で動きます。そこで気になったのが、ローカルで動く AI エージェントは今どうなっているのかです。 具体的に引っかかっていたのが 3 つ。 一時期よく聞いた OpenClaw、CVE が大量に出ていて、もう勧められない状況なのでは？ Claude Code をローカル"
+      "fetchedAt": "2026-08-23T01:46:29.452600+00:00",
+      "excerpt": "はじめに 2026年8月14日、AnthropicがClaudeの出力テキストに透かし（ウォーターマーク）を入れると発表しました。これを受けて、Sebastian Raschka氏（『Build a Large Language Model From Scratch』の著者）が「How Claude Watermarks AI-Generated Text」という48分の解説動画＋スライドを公開し"
     },
     {
-      "id": "cc_7d8f5928",
-      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第6章 6.4: TCP closeハンドシェイクと再接続",
-      "url": "https://zenn.dev/pekopugu/articles/net-ch6-4-tcp-close-handshake",
+      "id": "cc_e8e436ec",
+      "title": "なぜ、GPTのTerra以下、ClaudeのSonnet以下、Geminiの全部に価値が無いのか？",
+      "url": "https://zenn.dev/pdfractal/articles/55929755eb39c1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676675+00:00",
-      "excerpt": "はじめに 第6章もいよいよ最終回です。6.1で握手(passive open)、6.2で受信+ACK、6.3で応答送信+ACK消化まで作り、TCPの双方向のデータ往復が閉じました。6.4はその接続を正規に畳む——close ハンドシェイクを作ります。これで「接続を開き、データを往復させ、閉じ、また開く」というTCPの一生が一周し、v2.0(HTTPサーバ)へ王手がかかります。 ソースコードはシリー"
+      "fetchedAt": "2026-08-23T01:46:29.452531+00:00",
+      "excerpt": "はじめに 2026年現在、大規模言語モデルは露骨な階層商品になっています。OpenAIはGPT-5.6 Solを最上位、Terraを日常業務向けのバランス型、Lunaを高速・低価格モデルとして位置づけています。AnthropicもClaude Opusを上位に置き、Sonnetを価格と性能のバランスに優れたモデルとして提供しています。GoogleもGeminiのFlash系を速度と費用対効果に優れ"
+    },
+    {
+      "id": "cc_8413e66b",
+      "title": "スマホのSlackから自宅PCのClaude Codeを動かす。ポート開放は要らなかったが、作っているのは自宅への遠隔実行経路だった",
+      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-headless-slack-relay",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-23T01:46:29.452452+00:00",
+      "excerpt": "家の面倒ごとを自作ツールで潰す作業を1年ほど続けていて、その大半をAIと一緒にやっている。記録も集計も提案も、PCの前に座れば全部そこにある。 問題は、私がPCの前にいる時間が1日のうちごくわずかだということだった。 「さっきの、記録しておきたい」と思うのは決まって外にいるときだ。子どもと公園にいるとき、通勤の電車の中、寝る前の布団の中。そのとき手元にあるのはスマホだけで、書き留めておきたいことは"
     },
     {
       "id": "cc_8cd0dab3",
@@ -107,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676561+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.373562+00:00",
       "excerpt": "はじめに Claude Code をゼロから学ぶ初心者向け連載です。前回は Obsidian 連携で、自分の知識ベースを Claude に読ませました。 https://zenn.dev/mika_and_coco/articles/claude-code-diary-13-obsidian 第7回（Git連携編）で「チームでの使い方は別の回で」と予告してから、ずっと先送りにしてきた宿題を、いよい"
     },
     {
@@ -117,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676490+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.373424+00:00",
       "excerpt": "Claude CodeのBashツールが、何を打っても同じエラー1行で全滅する——この記事は、その状態から再インストールなしで復旧した記録です。同じエラーに当たった人と、複数のAIエージェントを並走させて運用している人に向けて、①再インストール不要の復旧手順 ②公式リポジトリの既知Issueと原因の機序 ③再発を早期検知する予防チェック、の3つを持ち帰れるように書きました。執筆中の『複数AI運用の"
     },
     {
@@ -127,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676420+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.373288+00:00",
       "excerpt": "結論：無料プロバイダを束ねればClaude Codeは無料で動く。ただし壁が2つある 各社が配っている無料APIをまとめて束ね、Claude Codeの「頭脳」をそこに差し替える。これでサブスク枠を使わずにターミナルのClaude Codeが動きます。ただし、素直につないだだけでは動きません。「大きな入力を弾く壁」と「大きな出力を弾く壁」の2つにぶつかります。この記事は、実際に手元のMacで詰まっ"
     },
     {
@@ -137,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676328+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.373087+00:00",
       "excerpt": "はじめに 社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。 強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。 だからこそ、まずは公式ドキュメントを一通り読んで基礎知識を整理しておくことが大事だと思いました。 この記事はその インプットのアウトプット です。 誰かに教えるという"
     },
     {
@@ -147,8 +97,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-22T18:38:14.676142+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.372794+00:00",
       "excerpt": "AGENTS.md を置いているリポジトリで Claude Code も使いたい。 検索すると ln -s AGENTS.md CLAUDE.md が出てきて、実際これは公式が案内している手順です。 ただし、この1行で繋がるのはルートの1ファイルだけです。 そして繋いだ先の Claude Code は、AGENTS.md とは逆の規則でファイルを解決します。 モノレポで nested な AGEN"
+    },
+    {
+      "id": "cc_cc4c4ea5",
+      "title": "Claude Code のデスクトップ操作、内蔵の computer-use ではなく Windows-MCP を使っている理由",
+      "url": "https://zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-23T01:46:29.372621+00:00",
+      "excerpt": "Claude Code にデスクトップ操作を任せる手段には、内蔵の computer-use があります。画面を撮ってピクセル座標でクリックするこの方式のまま任せ続けてよいのか気になって代わりを探し、UI Automation で画面を構造として読む Windows-MCP に入れ替えました。メモ帳への入力という同じタスクを両方に実行させて、操作の中身がどこで変わるのかを確かめてみました。 TL;"
+    },
+    {
+      "id": "cc_d97518c3",
+      "title": "Claude Code でサブエージェント並列オーケストレーションを組むんやで｜Shorts 自動化を題材に",
+      "url": "https://zenn.dev/masayan1126/books/shorts-orchestration-pipeline",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-23T01:46:29.372338+00:00",
+      "excerpt": "Claude Code の並列セッション × 8 体のサブエージェント × フィードバックループで、AI パイプラインを組む設計思想を、Shorts 自動化（24 本以上の実運用）を題材に全部見せたるで。"
     },
     {
       "id": "cc_fe8bf83b",
@@ -157,7 +127,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-22T18:38:14.954503+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.745701+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -167,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-22T18:38:15.164772+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.983382+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-22T18:38:15.164852+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.983450+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +157,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-22T18:38:15.165021+00:00",
+      "fetchedAt": "2026-08-23T01:46:29.983517+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-22T18:38:15.165035+00:00"
+  "lastCollection": "2026-08-23T01:46:29.983534+00:00"
 }
