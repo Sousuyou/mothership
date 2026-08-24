@@ -1,53 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_14b5f7f2",
-      "title": "Claude Sonnet 5とGPT-5.6が出揃った今、エージェント自動化を最小コードで組む",
-      "url": "https://zenn.dev/kairosai/articles/9d0e994d2dd352",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601734+00:00",
-      "excerpt": "はじめに 2026年7月、AI御三家の新モデルが出揃いました。OpenAIのGPT-5.6（7/9公開、Sol/Luna/Terraの3バリアント＋ChatGPT Work）、AnthropicのClaude Sonnet 5（7/1公開、Opus 4.8の約90%を約40%の価格で）、そしてGoogleのGemini 3.5 Flash。 共通するキーワードは「エージェント」。今回は、複数モデル"
-    },
-    {
-      "id": "cc_04728dab",
-      "title": "Claudeのテキスト透かし（ウォーターマーク）は何をしているのか ── サンプリングの仕組みから理解する",
-      "url": "https://zenn.dev/rinrin_ds_17/articles/bc093cfa3bdbd1",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601661+00:00",
-      "excerpt": "はじめに 2026年8月14日、AnthropicがClaudeの出力テキストに透かし（ウォーターマーク）を入れると発表しました。これを受けて、Sebastian Raschka氏（『Build a Large Language Model From Scratch』の著者）が「How Claude Watermarks AI-Generated Text」という48分の解説動画＋スライドを公開し"
-    },
-    {
-      "id": "cc_e8e436ec",
-      "title": "なぜ、GPTのTerra以下、ClaudeのSonnet以下、Geminiの全部に価値が無いのか？",
-      "url": "https://zenn.dev/pdfractal/articles/55929755eb39c1",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601598+00:00",
-      "excerpt": "はじめに 2026年現在、大規模言語モデルは露骨な階層商品になっています。OpenAIはGPT-5.6 Solを最上位、Terraを日常業務向けのバランス型、Lunaを高速・低価格モデルとして位置づけています。AnthropicもClaude Opusを上位に置き、Sonnetを価格と性能のバランスに優れたモデルとして提供しています。GoogleもGeminiのFlash系を速度と費用対効果に優れ"
-    },
-    {
-      "id": "cc_8413e66b",
-      "title": "スマホのSlackから自宅PCのClaude Codeを動かす。ポート開放は要らなかったが、作っているのは自宅への遠隔実行経路だった",
-      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-headless-slack-relay",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601540+00:00",
-      "excerpt": "家の面倒ごとを自作ツールで潰す作業を1年ほど続けていて、その大半をAIと一緒にやっている。記録も集計も提案も、PCの前に座れば全部そこにある。 問題は、私がPCの前にいる時間が1日のうちごくわずかだということだった。 「さっきの、記録しておきたい」と思うのは決まって外にいるときだ。子どもと公園にいるとき、通勤の電車の中、寝る前の布団の中。そのとき手元にあるのはスマホだけで、書き留めておきたいことは"
-    },
-    {
       "id": "cc_cd418fe7",
       "title": "ClaudeTAGの使い方事例",
       "url": "https://zenn.dev/seiuchi3939/articles/claudetag-boxstatus-incident-7b21",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601422+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.164432+00:00",
       "excerpt": "ClaudeTAGがリリースされてからしばらくは、とりあえずSlackのチャンネルに追加してたまに話しかけている、という程度の使い方をしていました。 ただ最近、以下の使い方が地味に便利だったので共有します。 課題: BoxStatusの障害通知が追いにくい 自分のワークスペースでは、BoxStatusからの障害情報をSlackに通知するようにしています。しかし、この通知には以下のような問題がありま"
     },
     {
@@ -57,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601338+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.164360+00:00",
       "excerpt": "概要 Claudeを触っていく中で、プログラムの中からClaudeを呼び出して使いたい場面が出てきましたので、今回はAPIをコード上から呼び出してレスポンスをもらうところまでやってみました。 準備前提 APIキーを取得する APIを利用するためには、Claude Consoleに登録する必要があります。 私はすでにClaudeのプロプランに入っていましたが、Consoleは別料金体系のようでした."
     },
     {
@@ -67,8 +27,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.601183+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.164246+00:00",
       "excerpt": "自分用メモです👀 普段はClaude CodeやCodexを利用しています。 5時間制限や週間制限にちょくちょく引っ掛かるので、使用ペース調整のためにアレやコレやツールを試したり、以下のような可視化モニターを作ってチェックしていたりしたのですが、、、 最近、作業環境は一周回ってCLIベースに戻ってきたので、ステータスラインに常時表示する方針に変えました。 そのメモです。 以下のように表示しています"
+    },
+    {
+      "id": "cc_88c8700b",
+      "title": "Claude APIの業務効率化活用事例！開発工数を削減する具体的な連携ノウハウ",
+      "url": "https://zenn.dev/noa_senn/articles/claude-api-use-cases-efficiency",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T07:09:19.164082+00:00",
+      "excerpt": "自社の業務プロセスにおいて、大量のデータ処理やメールの下書き作成、プログラムのデバッグ作業に追われていませんか。私の経験では、これらの業務はClaude APIをシステムに組み込むことで、最大半分以上の時間を削減可能です。 今回は、Anthropic社が提供する「Claude API」を活用し、実務で業務効率化を実現した具体的な導入事例や、初心者でも簡単に始められるシステム連携の手順について徹底的"
+    },
+    {
+      "id": "cc_cae8cd4c",
+      "title": "Next.js 16 + Supabase + Claude API で AI学習 SaaS を 2 日で作った話",
+      "url": "https://zenn.dev/ze1ny/articles/codesensei-2days-build",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T07:09:19.164020+00:00",
+      "excerpt": "! この記事は CodeSensei の開発記録です。個人開発で、着想から本番デプロイまで2日間で Phase 1〜3 + ユーザー獲得施策までを一気に構築しました。技術選定と「早く出す」ための意思決定を共有します。 何を作ったか CodeSensei — あなたのコードが教科書になる AI 学習プラットフォーム 15コース・188レッスン・95冊の技術書の知見を内蔵 ユーザーの GitHub リ"
+    },
+    {
+      "id": "cc_796852a0",
+      "title": "Claude Codeの共有コンテキストをチーム単位で集約するCockpit",
+      "url": "https://zenn.dev/estie/articles/06fc8455ae24cb",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T07:09:19.163929+00:00",
+      "excerpt": "株式会社estie（エスティ）でエンジニアをしている山本( https://x.com/yamachandrs )です。 私たちのチームでは、Claude Codeで利用する共有コンテキストとSkillを、Cockpitと呼ぶ1つのリポジトリに集約しています。 Claude Codeでは、プロジェクト固有のSkillを各リポジトリの .claude/skills/ に置き、複数リポジトリで共有する"
+    },
+    {
+      "id": "cc_c7d6a656",
+      "title": "Qwen3.8-27BをOllamaで24GB GPUに導入する方法【Claude Code連携】",
+      "url": "https://zenn.dev/ruralwritter/articles/6da70647bb70c8",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T07:09:19.121473+00:00",
+      "excerpt": "日本語で記事を書くのは今回が初めてです。何かお気づきの点があれば、ぜひご指摘いただければ幸いです。 ollama run qwen3.8 を初めて叩いた次の一手で、VRAMが飛びかけた Qwen3.8-27Bが出たばかりだったので、手元のRTX 3090 24GBで試してみました。デフォルトタグのQ4_K_M（18GB）はあっさり動いたんです。じゃあ調子に乗ってQ8_0も、と手を出したら30GB。"
     },
     {
       "id": "cc_294bb7f3",
@@ -77,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.560231+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.121380+00:00",
       "excerpt": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.md（引き継ぎ）/ QUESTIONS ファイル（質問リスト）/ 一意採番（Q1・P2 方式）の 3 点セットで対処している HANDOFF.md は時系列ログでは"
     },
     {
@@ -87,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.560146+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.121295+00:00",
       "excerpt": "※この記事はClaude Codeと相談しながら書きました。 最近、キングジムのポメラDM250を入手したので、Debianを入れてLinux化し、外出先でClaude Codeを触るための「キーボード付きリモート端末」に仕立ててみた。Claude Code本体はDM250では動かさない。Tailscale越しに自宅の作業機へmoshで入り、作業機上でClaude Codeを動かす。DM250は表"
     },
     {
@@ -97,8 +97,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.560053+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.121202+00:00",
       "excerpt": "現在、自社プロダクトの開発でAI駆動開発（AI-Driven Development）をガッツリ導入してゴリゴリ進めているのですが、先日ちょっと嬉しい出来事があったので共有させてください！ 最近、AIエージェント界隈でよく耳にする「ハーネス（Harness）」や「ループエンジニアリング（Loop Engineering）」というキーワード。 気になったので、開発パートナーとして毎日使っているCla"
+    },
+    {
+      "id": "cc_4d7b3b1b",
+      "title": "Claude Code と opencode のツール呼び出し構造の違い",
+      "url": "https://zenn.dev/siren1234/articles/tool-call-diff",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T07:09:19.121120+00:00",
+      "excerpt": "Claude Code と opencode のツール呼び出し構造の違い qwen3-coder:30b などの大規模言語モデル（LLM）を用いたエージェント開発において、ツール呼び出し構造の互換性は重要です。特にコンテキスト長が256Kを超えるモデルでは、外部情報取得（WebFetchなど）が不可欠であり、動作原理の違いが大きな差になります。 この記事では、現時点での Claude Code と"
     },
     {
       "id": "cc_6010fe8d",
@@ -107,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.559969+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.121034+00:00",
       "excerpt": "sandbox.enabled を有効にして npm test や pytest のたびに出る確認を止めたあと、127.0.0.1 の dev server やモック API を叩く統合テストだけが落ちるようになった、という状況を考えます。dev server の access log にはリクエストが1件も届いていません。ここで取れる選択肢は、sandbox.network.allowedDom"
     },
     {
@@ -117,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T01:44:14.559852+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.120917+00:00",
       "excerpt": "課題提起：顧客チャット履歴に埋もれる貴重な要望を自動化で掘り起こす 日々、顧客とのコミュニケーションは様々なチャネルで行われています。特にチャットツール（Slack, Teamsなど）はリアルタイム性の高さから多用されますが、その履歴には製品やサービスに対する貴重な要望、フィードバック、改善点などが膨大に埋もれています。 これらの情報を手動で抽出し、整理し、タスク管理ツールへ連携する作業は、非常に"
     },
     {
@@ -127,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-24T01:44:14.827186+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.476052+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -137,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-24T01:44:15.008774+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.732102+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -147,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-24T01:44:15.008849+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.732163+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -157,9 +167,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-24T01:44:15.008934+00:00",
+      "fetchedAt": "2026-08-24T07:09:19.732228+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-24T01:44:15.008947+00:00"
+  "lastCollection": "2026-08-24T07:09:19.732241+00:00"
 }
