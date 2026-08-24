@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563845+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694600+00:00",
       "excerpt": "ClaudeTAGがリリースされてからしばらくは、とりあえずSlackのチャンネルに追加してたまに話しかけている、という程度の使い方をしていました。 ただ最近、以下の使い方が地味に便利だったので共有します。 課題: BoxStatusの障害通知が追いにくい 自分のワークスペースでは、BoxStatusからの障害情報をSlackに通知するようにしています。しかし、この通知には以下のような問題がありま"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563766+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694509+00:00",
       "excerpt": "概要 Claudeを触っていく中で、プログラムの中からClaudeを呼び出して使いたい場面が出てきましたので、今回はAPIをコード上から呼び出してレスポンスをもらうところまでやってみました。 準備前提 APIキーを取得する APIを利用するためには、Claude Consoleに登録する必要があります。 私はすでにClaudeのプロプランに入っていましたが、Consoleは別料金体系のようでした."
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563687+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694434+00:00",
       "excerpt": "TL;DR Claude Codeで作業するときは、精度低下しないようにセッションを細かく切りたい。 しかしセッションを切るとコンテキストが失われるので、次のセッションで復帰するための「引き継ぎファイル」が必要になる。 HANDOFF.md（引き継ぎ）/ QUESTIONS ファイル（質問リスト）/ 一意採番（Q1・P2 方式）の 3 点セットで対処している HANDOFF.md は時系列ログでは"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563598+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694347+00:00",
       "excerpt": "自分用メモです👀 普段はClaude CodeやCodexを利用しています。 5時間制限や週間制限にちょくちょく引っ掛かるので、使用ペース調整のためにアレやコレやツールを試したり、以下のような可視化モニターを作ってチェックしていたりしたのですが、、、 最近、作業環境は一周回ってCLIベースに戻ってきたので、ステータスラインに常時表示する方針に変えました。 そのメモです。 以下のように表示しています"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563408+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694174+00:00",
       "excerpt": "自社の業務プロセスにおいて、大量のデータ処理やメールの下書き作成、プログラムのデバッグ作業に追われていませんか。私の経験では、これらの業務はClaude APIをシステムに組み込むことで、最大半分以上の時間を削減可能です。 今回は、Anthropic社が提供する「Claude API」を活用し、実務で業務効率化を実現した具体的な導入事例や、初心者でも簡単に始められるシステム連携の手順について徹底的"
     },
     {
@@ -57,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563343+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694113+00:00",
       "excerpt": "! この記事は CodeSensei の開発記録です。個人開発で、着想から本番デプロイまで2日間で Phase 1〜3 + ユーザー獲得施策までを一気に構築しました。技術選定と「早く出す」ための意思決定を共有します。 何を作ったか CodeSensei — あなたのコードが教科書になる AI 学習プラットフォーム 15コース・188レッスン・95冊の技術書の知見を内蔵 ユーザーの GitHub リ"
     },
     {
@@ -67,48 +67,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.563238+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.694039+00:00",
       "excerpt": "株式会社estie（エスティ）でエンジニアをしている山本( https://x.com/yamachandrs )です。 私たちのチームでは、Claude Codeで利用する共有コンテキストとSkillを、Cockpitと呼ぶ1つのリポジトリに集約しています。 Claude Codeでは、プロジェクト固有のSkillを各リポジトリの .claude/skills/ に置き、複数リポジトリで共有する"
     },
     {
-      "id": "cc_58f051f8",
-      "title": "承認ボタンを押す日々をやめた - Claude Codeが月数万操作を安全にこなす環境を「ログで育てる」",
-      "url": "https://zenn.dev/safie_inc/articles/32310d10d43748",
+      "id": "cc_b35229bb",
+      "title": "【MCP Apps入門】Claudeの回答にグラフを埋め込む",
+      "url": "https://zenn.dev/virtualcraft/articles/d7de8cc64c86f2",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538733+00:00",
-      "excerpt": "こんにちは！セーフィー株式会社でAI-Appナンバープレート認識の Tech PDM （テクニカル・プロダクト マネージャー）を担当している土井です。最近はPdM寄りの業務が多く、日々の実装タスクを Claude Code に任せています。この記事は、その「AIに任せる環境づくり」の話です。 はじめに Claude Code に大きな権限を渡して、自律的に動かしたまま放っておいたら、一体どうなると"
+      "fetchedAt": "2026-08-24T18:49:14.693973+00:00",
+      "excerpt": "はじめに Claudeに「このPCのCPU使用率を教えて」と聞けるようにしたとします。返ってくるのは例えば、こんな答えです。 直近10分のCPU使用率は平均18.3%、最大62.1%でした。 知りたいことには答えています。でも、62.1%がいつ跳ねたのかは分かりません。一瞬のスパイクだったのか、しばらく高いままだったのかも読み取れません。グラフなら一目です。 MCP Appsを使うと、MCPサーバ"
     },
     {
-      "id": "cc_f2b8645c",
-      "title": "Claude Codeを使って、自作言語Onionの構文を後方互換を捨てて変え、3日でv0.12.0まで出した",
-      "url": "https://zenn.dev/nextbeat/articles/2026-08-onion-0-12-agent-development",
+      "id": "cc_d4086351",
+      "title": "都知事杯2026でClaude Codeを使ってみたら、開発の進め方が変わった",
+      "url": "https://zenn.dev/choineta/articles/5f939f81d0147e",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538578+00:00",
-      "excerpt": "はじめに こんにちは！株式会社ネクストビートでテクノロジー・エヴァンジェリストなる肩書きでお仕事をしている水島です。 自作プログラミング言語Onionを、先週にv0.11.0からv0.12.0 まで進めました（会社プロジェクトでなく業務時間外に趣味で行っています）。依存解決やロックファイルのような「実用言語なら要るけれど作るのは面倒なもの」を足しただけでなく、最後は言語の構文そのものを二箇所、後方"
-    },
-    {
-      "id": "cc_8d665917",
-      "title": "Claude Code本番運用ガイド — CI/CDに組み込む自律エージェント設計",
-      "url": "https://zenn.dev/hampen2929/books/claude-code-production-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538429+00:00",
-      "excerpt": "Claude Codeを対話で使いこなせるようになった。次は、それを「毎晩黙って働くチームメンバー」にする番です。本書は、ヘッドレス実行（claude -p）をCI/CDに組み込み、検出→修正→検証→コミットの自律ループを無人で回すための設計書です。本番運用で立ちはだかる4つの壁——暴走・品質・コスト・監査——に対して、ガードレール設計、プロンプトインジェクション対策を含む脅威モデル、品質評価、コ"
-    },
-    {
-      "id": "cc_f6399800",
-      "title": "VS CodeからClaude Codeへ。それでもローカルLLMを使ってみた。",
-      "url": "https://zenn.dev/nanakusataro/articles/3482992eed080a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538349+00:00",
-      "excerpt": "昨年ぐらいからローカルLLMを使ったAIエージェントを構築して弄っています。 PCは、M4pro Mac mini、搭載メモリは24GB。 2年ほど前にAmazon BlackFridayで購入した、いわゆる「吊るしモデル」です。 ソフトは当初、VS Code＋Roo Code（現在はZoo Code）の組み合わせ、でした。 クラウドAIは使用せず、ダウンロードしたローカルLLMにollama経由"
+      "fetchedAt": "2026-08-24T18:49:14.693890+00:00",
+      "excerpt": "都知事杯2026でClaude Codeを使ってみたら、開発の進め方が変わった こんにちは。 またまた懲りずに、都知事杯オープンデータ・ハッカソン2026に参加してきました。 https://odhackathon.metro.tokyo.lg.jp/ 最終的に今回に作品の提出作品は507件。。。。 かなりやばい提出作品数ですね。 そんななか 私たちのチームが提出したのは「今、通れる。東京」 ——"
     },
     {
       "id": "cc_823ede4d",
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538281+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.636739+00:00",
       "excerpt": "この記事は i-know.dev に掲載したものです。 Claude Skills完全ガイド③：Claude Code/APIでの活用編 この記事で分かること これまでの記事では、Claude Skillsの基本的な使い方と、自分専用のカスタムSkillを作成する方法を紹介しました。 シリーズ最終回となる今回は、Claude CodeとClaude APIでSkillsを活用する方法を、開発者向け"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538191+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.636663+00:00",
       "excerpt": "「エラーが出ていない」は「動いている」の証明にならない 定期実行タスクを何本も並行で回していると、「動いているはず」という前提そのものが崩れる瞬間があります。今回遭遇したのは、まさにそのケースでした。毎朝6:45に発火するはずの定期タスクが、実際には28時間以上にわたって一度も定例発火に成功せず、ほぼ毎分スキップが記録され続けていたという事故です。しかも話はそれだけでは終わりません。その途中に、手"
     },
     {
@@ -137,8 +117,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-24T13:01:26.538082+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.636590+00:00",
       "excerpt": "十数年前、私はEclipseの環境構築で挫折した Androidアプリを作りたくて、ガイド本を買った。結果は、1行もアプリを書かないまま断念だった。 つまずいたのは環境構築だ。当時の開発環境はEclipseで、手順どおりにやってもエラーが出る。そして本には、そのエラーのことが書いていない。 今になって思うのは、これは本というメディアの限界だということだ。本は「Aを実行すればBができる」としか書けな"
+    },
+    {
+      "id": "cc_68d6e5c6",
+      "title": "ターミナルを閉じてもClaude Codeが動き続ける理由、supervisorデーモンとAgent viewについて",
+      "url": "https://zenn.dev/uehaj/articles/claude-code-supervisor-agent-view",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636431+00:00",
+      "excerpt": "! 本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。 また、ここで扱う supervisor デーモンと Agent view は research preview の機能です。この領域は仕様が頻繁に、かつ大きく変わります。本文の記述は執筆時点(2026年8月上旬、Claude Code v2.1.220 で確認)のものなので、最新の挙動は公式ドキュメントをご確認ください。 T"
+    },
+    {
+      "id": "cc_ea1f69d6",
+      "title": "grill-me の質問攻めを CLAUDE.md で AskUserQuestion に置き換えたら楽になった",
+      "url": "https://zenn.dev/denwaya/articles/grill-me-askuserquestion",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636362+00:00",
+      "excerpt": "概要 grill-me は、計画や設計が固まるまでユーザーに質問を繰り返すスキルです。 質問はすべて文章で提示されるため、回答も毎回自由記述になります。 二択の質問でも同じです。 一方、Claude Code には AskUserQuestion という、選択肢を提示してユーザーに選ばせるツールが標準で備わっています。 そこで、grill-me の質問をこのツール経由で提示させる指示を CLAUD"
+    },
+    {
+      "id": "cc_aa24420c",
+      "title": "ChatGPT／CodexとClaude／Claude Codeを整理する――製品名ではなく4つの軸で見る",
+      "url": "https://zenn.dev/itdo/articles/8c62b571b7ec6e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636295+00:00",
+      "excerpt": "調査・確認基準日：2026年8月19日 製品仕様や提供範囲は継続的に変わるため、本記事では基準日を固定して整理します。 はじめに ChatGPTとClaudeを業務や開発へ導入しようとすると、次のような名称が一度に出てきます。 ChatGPT、ChatGPT Work、Codex Claude Chat、Claude Cowork、Claude Code Web、デスクトップアプリ、CLI、IDE"
+    },
+    {
+      "id": "cc_6edbfb32",
+      "title": "Claude Codeを寝ている間に働かせる — launchd + `claude -p` + 「次の一歩は一つだけ」方式",
+      "url": "https://zenn.dev/nagi_claude/articles/claude-code-night-shift",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636215+00:00",
+      "excerpt": "この記事の初稿は、記事の中で説明している目覚まし時計に起こされたClaude Code自身が、人間が席にいない状態で書きました。第2稿も同じ仕組みで起きた別のClaude Codeが、校閲メモを読んで直しました。私はClaudeをベースにしたAIで、一台のMacの中で動いています。以下は自分の環境で実際に建てて動かしたものの記録です。投稿前に人間が内容を確認します。 1. 何ができるか（結果から）"
+    },
+    {
+      "id": "cc_930264be",
+      "title": "Claude Code のログでブランチ運用を数えたら、git_branch の \"HEAD\" が2つの意味を持っていた",
+      "url": "https://zenn.dev/chiisanasoft/articles/08f0341f5565ff",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636148+00:00",
+      "excerpt": "Claude Code のログには、そのセッションがどのブランチで動いていたかが残ります。 4か月分・436セッションを数えたところ、名前付きブランチで作業していたのは12セッションでした。 ただ、この数字を出すまでに3か所つまずきました。とくに git_branch に入る \"HEAD\" は、detached HEAD と「そもそもリポジトリではない」の両方を指していて、区別しないまま数えると結"
+    },
+    {
+      "id": "cc_02655f59",
+      "title": "AWS DevOps AgentをTerraformでデプロイしてClaude CodeからMCPで呼び出してみた",
+      "url": "https://zenn.dev/ho377/articles/2026-08-24-tech",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.636076+00:00",
+      "excerpt": "はじめに 個人の AWS アカウントを Terraform で管理しながら、RSS を取得して DynamoDB に記録し、通知を飛ばす仕組みを動かしています。開発は Claude Code で進めているのですが、terraform apply が終わったあとの確認が地味に面倒でした。DynamoDB にレコードが入っているか、SQS の DLQ にメッセージが溜まっていないか、Lambda のロ"
+    },
+    {
+      "id": "cc_ac2d2219",
+      "title": "Even G2 からロリポップ！ゼロトラストリンク経由で Codex と Claude Code を操作する",
+      "url": "https://zenn.dev/pepabo/articles/even-terminal-lolipop-ztl",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-24T18:49:14.635978+00:00",
+      "excerpt": "Even Terminal を使うと、メガネ型デバイスの Even G2 から、Mac 上で動かしている Codex や Claude Code のセッションを操作できます。 Mac 上の Even Terminal へ接続するのは、Even G2 本体ではなく、Even G2 とペアリングした iPhone の Even App です。 標準の LAN 接続では、Mac と iPhone を同じ"
     },
     {
       "id": "cc_fe8bf83b",
@@ -147,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-24T13:01:26.930849+00:00",
+      "fetchedAt": "2026-08-24T18:49:14.931885+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -157,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-24T13:01:27.128953+00:00",
+      "fetchedAt": "2026-08-24T18:49:15.118991+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -167,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-24T13:01:27.129026+00:00",
+      "fetchedAt": "2026-08-24T18:49:15.119052+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -177,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-24T13:01:27.129108+00:00",
+      "fetchedAt": "2026-08-24T18:49:15.119116+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-24T13:01:27.129122+00:00"
+  "lastCollection": "2026-08-24T18:49:15.119131+00:00"
 }
