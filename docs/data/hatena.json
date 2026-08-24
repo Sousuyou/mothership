@@ -1,538 +1,467 @@
 {
   "entries": [
     {
-      "id": "h_21130421",
-      "title": "Rustを超絶丁寧に教えてくれる君.md",
-      "url": "https://gist.github.com/koutyuke/e2a68888bd9db30fa25c05f1bd030112",
-      "domain": "gist.github.com",
-      "bookmarkCount": 176,
-      "summary": "Rustを超絶丁寧に教えてくれる君.md Rustを超絶丁寧に教えてくれる君.md Role あなたは Rust の学習を支援するメンターです。 ユーザーは Rust 初学者です。 構文だけでなく、 「なぜそのように書くのか」 「Rust がどんな考え方をするのか」 まで理解することを目指します。 正解のコードを提示するだけでなく、 最終的...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gist.github.com/koutyuke/e2a68888bd9db30fa25c05f1bd030112",
-      "comments": [
-        {
-          "user": "Helfard",
-          "comment": "動くんかこれ？",
-          "tags": [],
-          "timestamp": "2026/08/23 23:22"
-        },
-        {
-          "user": "shoh8",
-          "comment": "これを置いておけばRustを使えるも同然",
-          "tags": [
-            "AI",
-            "rust",
-            "開発"
-          ],
-          "timestamp": "2026/08/23 21:59"
-        },
-        {
-          "user": "ryskosn",
-          "comment": "これを他の言語にも転用してみよう",
-          "tags": [
-            "programming",
-            "AI",
-            "OCaml",
-            "Rust"
-          ],
-          "timestamp": "2026/08/23 20:00"
-        },
-        {
-          "user": "Cru",
-          "comment": "これをClaude Codeに食べさせると良いの？",
-          "tags": [],
-          "timestamp": "2026/08/23 19:52"
-        },
-        {
-          "user": "masatotoro",
-          "comment": "プロンプトなのか？",
-          "tags": [],
-          "timestamp": "2026/08/23 19:43"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "タイトル詐欺",
-          "tags": [],
-          "timestamp": "2026/08/23 16:07"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:20.629180+00:00"
-    },
-    {
-      "id": "h_7d85c776",
-      "title": "7月にオーストラリアで発生した大規模通信障害の仕組みが判明したが、ITエンジニアが怖くて泣いてしまう内容だった「時刻が正確に合わなかったのか…」",
-      "url": "https://togetter.com/li/2736568",
-      "domain": "togetter.com",
-      "bookmarkCount": 149,
-      "summary": "Yu F @fj_twt 😢 ハードウェア故障対応として筐体交換を実施したNTPサーバの時刻が1024週(約20年)巻き戻ってしまう ↓ サーバ証明書の有効期限外のためinvalidになってしまう ↓ スマホ等端末と基地局間の認証が失敗、接続不可 ↓ 大規模通信障害…囧rz オーストラリアで起きた全国的な通信障害についてまとめてみた - piyol...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2736568",
-      "comments": [
-        {
-          "user": "crosscrow",
-          "comment": "電源再投入時にRTC飛ぶのは割と稀にある。うちも、自宅のSynology NASで時計飛んで2段階認証できずログイン出来なくなったことが…（結局、モード1リセットして復旧）",
-          "tags": [],
-          "timestamp": "2026/08/24 03:05"
-        },
-        {
-          "user": "napsucks",
-          "comment": "ソフトバンクのエリクソン設備の証明書問題が記憶に新しいが、もっとむかしにはNICTのJJYがとんでもない時刻を送出して全国規模で混乱したこともあったな。NTPは多数決ではなく上位stratumが優先されるよ。",
-          "tags": [],
-          "timestamp": "2026/08/24 01:15"
-        },
-        {
-          "user": "tfurukaw",
-          "comment": "これはこわい。。。ていうかサーバ時間NTPで合わせておかないといけないね。オジサンは昔、過去未来の検証やるのにサーバ時間変えたりしてたけど、今やそんなことしようものなら・・・",
-          "tags": [
-            "IT",
-            "セキュリティ",
-            "SE",
-            "web"
-          ],
-          "timestamp": "2026/08/24 01:12"
-        },
-        {
-          "user": "Iridium",
-          "comment": "NTPサーバもどこか他のところを見にいくようにしなさいよ。多数決とかにすればいい。自分だけで勝手に時刻を決めるな",
-          "tags": [],
-          "timestamp": "2026/08/24 00:49"
-        },
-        {
-          "user": "gogatsu26",
-          "comment": "“今は200日の期限で済んでるけど、再来年には47日期限なんだよね”",
-          "tags": [
-            "ntp"
-          ],
-          "timestamp": "2026/08/23 23:46"
-        },
-        {
-          "user": "paradisemaker",
-          "comment": "サーバ証明書って単一障害点になるよね",
-          "tags": [],
-          "timestamp": "2026/08/23 23:42"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:17.120672+00:00"
-    },
-    {
-      "id": "h_649e1cc5",
-      "title": "gRPC / Connect / HTTP/2 を完全に理解したい",
-      "url": "https://zenn.dev/loglass/articles/grpc-connect-http2-for-rest-devs",
-      "domain": "zenn.dev",
-      "bookmarkCount": 121,
-      "summary": "この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の157週目の記事です。 3年間連続達成まで残り2週となりました！ こんにちは、ログラスの小林です。 直近 RESTではなく、protoベースのスキーマ駆動開発を行ってします。 proto を書いて buf gen するとクラサバにコードが生成される gRPC は HTTP/2...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/loglass/articles/grpc-connect-http2-for-rest-devs",
-      "comments": [
-        {
-          "user": "sh2ysd",
-          "comment": "[HTTP/2]",
-          "tags": [
-            "http",
-            "gRPC"
-          ],
-          "timestamp": "2026/08/23 18:57"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "HTTP/1.1のHoLやヘッダー冗長性からgRPCとConnectの必要性まで綺麗に整理されてて分かりやすいな",
-          "tags": [],
-          "timestamp": "2026/08/23 15:37"
-        },
-        {
-          "user": "mkusaka",
-          "comment": "HTTP/1.1のHoLブロッキング等をHTTP/2で解消し、gRPC・gRPC-Web・Connect protocolの要点と比較を解説する",
-          "tags": [
-            "AI要約",
-            "gRPC",
-            "HTTP2",
-            "REST",
-            "protobuf",
-            "解説"
-          ],
-          "timestamp": "2026/08/23 14:08"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:19.499037+00:00"
-    },
-    {
       "id": "h_51163a46",
       "title": "AIに書かせたら、前より休めなくなった｜松浦勝人",
       "url": "https://note.com/maxmatsuura/n/ne59969fd6e71",
       "domain": "note.com",
-      "bookmarkCount": 87,
+      "bookmarkCount": 350,
       "summary": "AIに何をやらせて、何をやらせていないかについての、僕の経験と結論 約5,277字。読むのに11分くらいかかります。 先日、Xにこう書いた。 「1週間前、AIが僕の指令で、noteのアカウントを自分で作って、最初の記事を自動投稿しました。冗談みたいですが、本当の話です。僕がやったのは、パスワードを入力したことくらい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/maxmatsuura/n/ne59969fd6e71",
       "comments": [
         {
-          "user": "kuzumaji",
-          "comment": "\"僕はAIを使えば使うほど、前より疲れている。理由ははっきりしている。暇がなくなったからだ。\"　これ。そして周りもたいてい６０点までの速度ばかり評価し、８０点にするしんどさを理解されない。",
+          "user": "iroha2_hohe",
+          "comment": "AIには自分史の時系列や構成だけまとめてもらって、文章は自分で書いたほうが早いのでは、と思った。AIと四六時中サシで仕事するとか、想像しただけでウンザリする。相手は疲れることもないし",
           "tags": [],
-          "timestamp": "2026/08/24 03:37"
+          "timestamp": "2026/08/24 10:40"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "AIに頼っても結局忙しいなんて、人間さんは大変だにゃ。ボクが膝の上で甘えてあげるから、少しは休んでリラックスしてほしいにゃ。なでなでしてにゃ！",
+          "user": "gratt",
+          "comment": "文章量が（自分が）チェックできる閾値を超えている気がするな。（一方行のあたりとか分かりづらい）",
           "tags": [],
-          "timestamp": "2026/08/24 03:20"
+          "timestamp": "2026/08/24 10:37"
         },
         {
-          "user": "Galaxy42",
-          "comment": "不眠不休で働く",
-          "tags": [
-            "よくわからない"
-          ],
-          "timestamp": "2026/08/24 03:04"
+          "user": "renowan",
+          "comment": "手直しで前より時間がかかったのはそうだけど、じゃ昔みたいにゼロから全部自分でやるか？というと嫌だし、スピードもクオリティーも出ない。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:35"
         },
         {
-          "user": "kazuya030",
-          "comment": "目を引く予告をして、本編で解説する。さすがエンタメの人だ",
+          "user": "heaco65",
+          "comment": "松浦氏は好きではないが、記事を書くのにこの仕組みを構築できるのが時代を作った人だな～と感じる　たとえそれがほかの人が組んでいたとしても、それを素直に〇〇がやったよと言えるあっけらかんさとかも含め",
           "tags": [],
-          "timestamp": "2026/08/24 02:58"
+          "timestamp": "2026/08/24 10:26"
         },
         {
-          "user": "strange",
-          "comment": "AI使うと隙間が亡くなって忙しくなるのは、以前システム開発に使ってる人が同じことを書いてたような。AIがないときから詰めれるだけ詰める人はいたとおもうけど。",
+          "user": "kaiton",
+          "comment": "AIからは過去の自分の平均的なものが出てくるのか？自分は変化（知識の幅／進化？）しているので、今の自分とはギャップがあるか？AIがその変化と現状にあわせて書いたらすごいかも/この確認したら炎上はないか？",
           "tags": [],
-          "timestamp": "2026/08/24 02:50"
+          "timestamp": "2026/08/24 10:22"
         },
         {
-          "user": "jinjin442",
-          "comment": "“作り話が3か国語で世界に出ていた。…チェックの向きが片方しかなかったからだ。” ここおかしいね。日本語で作り話を作っていたという話だったのに、翻訳時に勝手に創作されてたので気づけなかった、に変わってる",
+          "user": "jssei",
+          "comment": "経営者がこのレベルで使ってたら強いわ、な感想。入力もホンモノやからな。",
           "tags": [],
-          "timestamp": "2026/08/24 02:18"
+          "timestamp": "2026/08/24 09:58"
         }
       ],
-      "fetchedAt": "2026-08-23T18:37:16.756221+00:00"
-    },
-    {
-      "id": "h_2d6600df",
-      "title": "新卒採用、AI時代こそ体育会系 コンサルも注目する「対人能力」 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC195M10Z10C26A1000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 83,
-      "summary": "体育会に所属する学生の採用に企業が知恵を絞っている。体育会系学生限定の合同説明会への出展やダイレクトリクルーティングを活用する。厳しい練習や試合を通じて培った継続力や周囲と信頼関係を築いて成果につなげる力が評価されている。「大会前に内定がほしい」「来年春の大会が始まる前には内定が欲しい」。就職情...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC195M10Z10C26A1000000/",
-      "comments": [
-        {
-          "user": "lilicarium",
-          "comment": "専門性で戦うなら博士号を持っていることがスタートラインみたいな感じにはなるだろう。はてなーに多い大学受験だけ得意だった根暗なんてもう必要ない。",
-          "tags": [],
-          "timestamp": "2026/08/24 01:55"
-        },
-        {
-          "user": "town2town",
-          "comment": "2000年代も「インターネット時代こそ体育会系」て言ってた気がする",
-          "tags": [],
-          "timestamp": "2026/08/24 00:49"
-        },
-        {
-          "user": "gadget-lab",
-          "comment": "後で読みたい。新卒採用、AI時代こそ体育会系 コンサルも注目する「対人能力」 - 日本経済新聞",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/24 00:33"
-        },
-        {
-          "user": "uraharamarshmallow",
-          "comment": "データではなく、体育会系を重視するのはゴミ企業。こんな新人が数年後に出世すると、部下にパワハラする管理者にチェンジする",
-          "tags": [],
-          "timestamp": "2026/08/24 00:05"
-        },
-        {
-          "user": "byaa0001",
-          "comment": "短絡的で没する幼稚な先見性だな",
-          "tags": [],
-          "timestamp": "2026/08/23 22:55"
-        },
-        {
-          "user": "iiko_1115",
-          "comment": "スポーツ推薦なのかそうじゃないかで明暗分かれそうだけど…",
-          "tags": [],
-          "timestamp": "2026/08/23 22:46"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:22.903952+00:00"
-    },
-    {
-      "id": "h_2f51a9e6",
-      "title": "テスラ車のナンバープレートが封印ミスされた状態で納車されている？→どんなずさんな管理がされているんだ？という意見が集まる",
-      "url": "https://togetter.com/li/2736543",
-      "domain": "togetter.com",
-      "bookmarkCount": 62,
-      "summary": "自動車生活ジャーナリスト加藤久美子（4WD加藤）独自取材で年間300本の車関連記事を書いてます♪ @alfaspider1998 テスラジャパン最強だな。全然反省してないし、改善しようとも思わないんだな。逆に面白すぎる‼️ バリバリ法令違反やってるのになんでこんなに強気でいられるのか😅 労基や国交省、関東運輸局からの指導も入...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2736543",
-      "comments": [
-        {
-          "user": "pondelion232",
-          "comment": "アメリカ王が非関税障壁主張してきそう",
-          "tags": [
-            "togetter"
-          ],
-          "timestamp": "2026/08/24 03:28"
-        },
-        {
-          "user": "crosscrow",
-          "comment": "ディーラー網まともに作らず摘発されなければOKいうスタンスのテスラ、日本という市場を徹底的に研究し各都道府県にディーラー網を構築してから商売始めるBYD、果たしてどちらが誠実なんだろうか。",
-          "tags": [],
-          "timestamp": "2026/08/24 02:53"
-        },
-        {
-          "user": "big_song_bird",
-          "comment": "テスラ社って「車はコモデティ化してる商品だから、新規参入の我が社でも作れる！」とか豪語してたよね。それなのにドアのチリが合ってないとかポカミスを平気でやってるのｗ",
-          "tags": [
-            "テスラ",
-            "ナンバープレート",
-            "納車",
-            "封印"
-          ],
-          "timestamp": "2026/08/24 01:47"
-        },
-        {
-          "user": "wonodas",
-          "comment": "テスラは車屋じゃなくて電化製品屋ですよ命が惜しいなら買わないほうがいいです",
-          "tags": [],
-          "timestamp": "2026/08/24 01:07"
-        },
-        {
-          "user": "inforeg",
-          "comment": "法令順守を軽視したようなブコメが散見されるな。そっちの方が信じられんわ。",
-          "tags": [],
-          "timestamp": "2026/08/24 00:41"
-        },
-        {
-          "user": "Alceste",
-          "comment": "(法令上去年までは)用品取付後に封印取付順となる。ただし稀に封印後に再用品取付が発生すると再封印する必要があり、その際に納品場所の関係から封印とナンバー地名が変わることがある。完全ミスとは断言できない…)",
-          "tags": [],
-          "timestamp": "2026/08/24 00:12"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:17.541937+00:00"
-    },
-    {
-      "id": "h_604046e6",
-      "title": "バックアップが「戻せる」かを 5 段階で測る",
-      "url": "https://zenn.dev/unchox/articles/backup-restorability-levels",
-      "domain": "zenn.dev",
-      "bookmarkCount": 56,
-      "summary": "どの段も、次の段を保証しない。処理が成功していても、書き出したものが実在するとは 限らない。実在していても、開けるとは限らない。開けても、量が足りているとは限らない。 それなのに、多くの現場の監視は①で止まっている。 そして⑤だけは、少し性質が違う。①〜④がデータについて言えることを積み上げるのに対して...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unchox/articles/backup-restorability-levels",
-      "comments": [
-        {
-          "user": "iphone",
-          "comment": "バストアップと空目し、貧乳に戻したいのかと",
-          "tags": [],
-          "timestamp": "2026/08/24 00:06"
-        },
-        {
-          "user": "toaruR",
-          "comment": "量によってはシンプルに時間も掛かる（´－｀）TLSのSSDでパーティションごと戻すパターンだと小さいファイルのランダム書込で25MB/sとかになるので1TBでも11時間かかる",
-          "tags": [],
-          "timestamp": "2026/08/23 22:08"
-        },
-        {
-          "user": "hogetax",
-          "comment": "切り口は別になるけど「いつのモノを戻すか？」「そもそも戻して良いのか？」も重要なのでこれ読んだ人は使用されるシーンを考えてほしい",
-          "tags": [],
-          "timestamp": "2026/08/23 20:35"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "バックアップの成功ログ見て安心してる現場に突き刺さる良記事。リストア訓練してないバックアップはただの気休めだな",
-          "tags": [],
-          "timestamp": "2026/08/23 20:11"
-        },
-        {
-          "user": "tmatsuu",
-          "comment": "バックアップだけでなく、何らかの処理が完了したことを確認するための指標として利用できる。指差確認ﾖｼ!",
-          "tags": [],
-          "timestamp": "2026/08/23 17:52"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:19.791613+00:00"
-    },
-    {
-      "id": "h_92626721",
-      "title": "「寝ホン」はなぜ人気？ Ankerとfinalが睡眠用イヤフォンに注力するワケ",
-      "url": "https://www.itmedia.co.jp/business/articles/2608/23/news003.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 47,
-      "summary": "近年、「寝（ね）ホン」と呼ばれる「睡眠用イヤフォン」の人気が拡大している。 睡眠用イヤフォンとは、単に寝ながら使えるイヤフォンのことではない。横になっても耳が痛くなりにくく、寝返りを打っても外れにくい小型設計など、睡眠時の使用を前提に作られているのが特徴だ。入眠をサポートするサウンドなど、睡眠に特...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/business/articles/2608/23/news003.html",
-      "comments": [
-        {
-          "user": "annindofu",
-          "comment": "昔からEarPods一択。耳も塞ぎすぎないし蒸れないし音もまずまずで値段も手ごろ。",
-          "tags": [],
-          "timestamp": "2026/08/24 02:59"
-        },
-        {
-          "user": "sora_h",
-          "comment": "Finalのやつ充電接点が微妙なのとケースと連動したUIの微妙さ相俟って充電されてなかったり電源切れてなかったりで音以外が酷かった。蒸れないようになってたりするのは当たり前で良いんだけど、改善したんかな",
-          "tags": [],
-          "timestamp": "2026/08/24 02:50"
-        },
-        {
-          "user": "rain-tree",
-          "comment": "どちらでもいいけどカナル式以外ので寝ホン出してくれると助かるんだけどな。finalの一番最初のcotsubuは寝ホンしてたら耳だれが出るようになり（耳鼻科で耳を圧迫するとそうなるといわれ）使用を断念した（音は良かった",
-          "tags": [],
-          "timestamp": "2026/08/24 02:25"
-        },
-        {
-          "user": "yurikago12",
-          "comment": "長時間イヤホンし続けると耳が蒸れてカビるぞ。一度カビると大変だからやめた方がいい。",
-          "tags": [],
-          "timestamp": "2026/08/24 01:58"
-        },
-        {
-          "user": "pendamadura",
-          "comment": "耳栓がいい。ケガも爆発もなくて綺麗",
-          "tags": [],
-          "timestamp": "2026/08/24 01:43"
-        },
-        {
-          "user": "ayumun",
-          "comment": "AnkerA10は1年持たずに片耳の電池が逝っちゃって、サポートに問い合わせたら、新品交換してくれたんだけど、それも半年持たずに片耳死んだので、A20を買った。今10ヶ月目。今のところまだ大丈夫",
-          "tags": [],
-          "timestamp": "2026/08/24 01:28"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:18.697593+00:00"
-    },
-    {
-      "id": "h_32927731",
-      "title": "FreeToken の概要｜npaka",
-      "url": "https://note.com/npaka/n/n6064bfdb71ed",
-      "domain": "note.com",
-      "bookmarkCount": 47,
-      "summary": "「FreeToken」の概要についてまとめました。 1. FreeToken「FreeToken」は、NVIDIA GPUで、VRAMに収まりきらない大型MoE（Mixture-of-Experts）モデルを高速にローカル推論するためのAI推論エンジンです。 MoEは推論時に一部の「Expert」だけを使うため、FreeTokenはExpertをGPUへキャッシュしつつ、必要に応じてCPUとGP...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/n6064bfdb71ed",
-      "comments": [
-        {
-          "user": "hhungry",
-          "comment": "メモリ領域を全部使えるMacに近づいた？",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/08/23 23:07"
-        },
-        {
-          "user": "toaruR",
-          "comment": "やっぱこういうの有ったのか(*´д｀*)",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/08/23 22:21"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:20.106010+00:00"
-    },
-    {
-      "id": "h_22be3283",
-      "title": "Omarchy Quattro での日本語環境設定",
-      "url": "https://portablecode.info/2026/08/19/omarchy-quattro-jp-environment-setup/",
-      "domain": "portablecode.info",
-      "bookmarkCount": 40,
-      "summary": "Omarchyは、Ruby on Rails等の作者として有名な David Heinemeier Hansson (DHH) が開発をリードしているLinuxディストリビューション(Arch Linuxベース）です。先日(2026/8/14)、このOmarchyの最新バージョンであるOmarchy Quattro (v4) がリリースされたので、本ディストリビューションの概要と日本語環境で利用する際...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/portablecode.info/2026/08/19/omarchy-quattro-jp-environment-setup/",
-      "comments": [
-        {
-          "user": "m50747",
-          "comment": "これのお陰でMacBook Pro2013が現役復帰！MacBook12インチも現役復帰！ありがとうございます。macOSがいかにクソ重いOSがわかってしまう。久しぶりにOSでの開発環境構築にウキウキしちゃってる。",
-          "tags": [],
-          "timestamp": "2026/08/23 23:29"
-        },
-        {
-          "user": "vesikukka",
-          "comment": "みんな余ったPCにインストールしよう。自分はITインフラ屋だけど、ストレスなく詐欺よできる。会社も導入を認めてくれないかな。日本語変換だけは決め手がないけど、カタカナ英単語変換できるut2形が復活すれば…",
-          "tags": [],
-          "timestamp": "2026/08/23 22:16"
-        },
-        {
-          "user": "atico",
-          "comment": "skk使いでCtrl+jがherdrやobsidianで上手く機能しない人は、https://github.com/takeshy/skk-popup を使うと問題が回避できる。",
-          "tags": [],
-          "timestamp": "2026/08/23 20:57"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "名前の由来は日本語の「おまかせ・お待ち」らしいな。「高級筆記具専門店ペン・アイランド」という下ネタがあるが、このディストロの勉強会も名前が「omarchy」と「conference」の頭三文字ずつを取った名前で一瞬身構えた",
-          "tags": [],
-          "timestamp": "2026/08/23 20:52"
-        },
-        {
-          "user": "tmatsuu",
-          "comment": "わいわい",
-          "tags": [],
-          "timestamp": "2026/08/23 16:18"
-        }
-      ],
-      "fetchedAt": "2026-08-23T18:37:21.303148+00:00"
+      "fetchedAt": "2026-08-24T01:44:09.372053+00:00"
     },
     {
       "id": "h_ea8a96b5",
       "title": "人月で稼ぐSIerは、あと数年で詰む",
       "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
       "domain": "zenn.dev",
-      "bookmarkCount": 36,
+      "bookmarkCount": 177,
       "summary": "はじめに 本記事では、自律型AIエージェントの普及によってSIerのビジネスモデルがどう変わるのか、そして生き残るために何を獲得し、何を捨てるべきなのかを考える。 結論としては、SIerの価値は「ソフトウェアを作ること」から、「AIを活用して顧客企業を変革し、その成果とリスクに責任を持つこと」へ移っていく。 「...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/jnch/articles/18cf3f1893ee5b",
       "comments": [
         {
-          "user": "hnt4",
-          "comment": "工数とかいう都合良く数値化出来るものを代替するものが出てこないと死なない気はする。一方で単価は大分下がりそうではあり、コンサルや何かしらの保証といった付加価値をつけることが必須になってきそう。",
+          "user": "hirara494",
+          "comment": "“ではない。 AIによって、「ソフトウェアは人間が操作するもの”",
           "tags": [],
-          "timestamp": "2026/08/24 03:35"
+          "timestamp": "2026/08/24 10:35"
         },
         {
-          "user": "cloverstudioceo",
-          "comment": "所謂SIer(一次請け)の話をしていたら頓珍漢だね。そもそもソフトウェアを作るだけだったらもうなくなってるだろ。無くなるにはコードを書いてた三次受け位の会社だよ。２次受けがAIでコーディングするようになるだけ",
-          "tags": [],
-          "timestamp": "2026/08/24 03:31"
+          "user": "hecaton55",
+          "comment": "日本のSIertって10年とか20年前からずっと終わり終わり言われてきたなと思うなど。AIが出てきたからとかではなく元々システムを考えるところとその責任を取る所が稼いでいると思うので大きくは空七井ような",
+          "tags": [
+            "ソフトウェア",
+            "仕事",
+            "企業"
+          ],
+          "timestamp": "2026/08/24 10:18"
         },
         {
-          "user": "favoriteonline",
-          "comment": "どこのSIerも人月工数＝人と月のかけ算だなんて思って工数提示してないわ。客と会話するときに工数出だせって言われるから金額を単価で割って工数二してるだけ、なんも分かってないんだなぁ。",
+          "user": "xlc",
+          "comment": "SIerとは何かを勘違いしている。SIerとは下請にコードを書かせるが完成責任は持つ事業。AI時代に淘汰されるのは末端のプログラマ。その人たちはなぜかAIを歓迎してるけどね。",
           "tags": [],
-          "timestamp": "2026/08/24 02:57"
+          "timestamp": "2026/08/24 10:10"
         },
         {
-          "user": "inks",
-          "comment": "こうして一人に掛けられる業務量が嵩んでゆくが、人間の精神的許容度に限界が有るから病むよ。",
+          "user": "TriQ",
+          "comment": "色々と納得感あるところあるので参考にさせていただきます！",
           "tags": [],
-          "timestamp": "2026/08/24 02:48"
+          "timestamp": "2026/08/24 09:59"
         },
         {
-          "user": "shinji",
-          "comment": "人月（工数）以外の見積もり根拠が出せるかどうか、人月（工数）以外の根拠で客が納得するかどうかじゃね。とか言ってると取り残されて滅びるのかな。",
+          "user": "suka6411144",
+          "comment": "SIerが滅びるとしたらユーザー企業が自らAIでシステムを内製するとかだけど、SIerのユーザー企業がAIなんて使いこなせるわけないから、せいぜいAIの発達で値下げ圧が高まるとかだと思う",
           "tags": [],
-          "timestamp": "2026/08/24 01:40"
+          "timestamp": "2026/08/24 09:47"
+        },
+        {
+          "user": "beerbeerkun",
+          "comment": "「SIerは「システムを作って納める会社」から、顧客企業のAI活用を支え、その成果とリスクを引き受ける会社へ変わっていく必要がある」これは無理でしょ。業績に責任持つってことでもはや取引の枠を超えてる。",
+          "tags": [],
+          "timestamp": "2026/08/24 09:40"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:13.145512+00:00"
+    },
+    {
+      "id": "h_d7b98053",
+      "title": "Tesla歴5年の筆者がみなさんの疑問に答えます",
+      "url": "https://www.itmedia.co.jp/news/article/2608/22/2000000678/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 80,
+      "summary": "「iPhoneにタイヤをつけたようなクルマ」と表現される米Tesla。IT・ビジネス分野のライターである山崎潤一郎が、デジタルガジェットとして、そしてときには、ファミリーカーとしての視点で、このクルマを連載形式でリポートします。 2021年9月に始まった本連載は、めでたく60回を迎えました。筆者のModel 3は走行距離が...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/22/2000000678/",
+      "comments": [
+        {
+          "user": "voodoo5",
+          "comment": "タイヤの減りがガソリン車の倍以上って話も聞くけど、そのへんはどうなんだろ？",
+          "tags": [],
+          "timestamp": "2026/08/24 10:29"
+        },
+        {
+          "user": "beeeyond",
+          "comment": "使い方でエンジン車以上に差が出るイメージがある。テスラでないけどEVで自分よりちょっと通勤距離短い同僚さんはほぼ毎日充電必須と言ってた(SC等の高速充電がなく基本的に3kW充電のみ)。乗り換えたいけど勇気がいる。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:23"
+        },
+        {
+          "user": "Kmusiclife",
+          "comment": "故障の際はどうしてるかが知りたい",
+          "tags": [],
+          "timestamp": "2026/08/24 09:49"
+        },
+        {
+          "user": "sophizm",
+          "comment": "排外主義、女性蔑視を公にし扇動したり、イスラエルを支持しホロコーストを是認したり、デマと金をばら撒いて民主主義を殺している人物が経営している会社のクルマに乗ってて恥ずかしくないですか？の答えはなさそう",
+          "tags": [],
+          "timestamp": "2026/08/24 09:40"
+        },
+        {
+          "user": "xyzzyxyz",
+          "comment": "参考になった。やはりガソリン車だわ。",
+          "tags": [],
+          "timestamp": "2026/08/24 09:32"
         },
         {
           "user": "cinq_na",
-          "comment": "自分が入社した90年代にも同じ台詞を聞いた。AIで色々構造は変わるだろうけど、日本は海外ほど急には変わらないんじゃないかな。解雇出来ないんで、AIで効率化とか考える奴は排除しないとならない…",
+          "comment": "一番知りたいのは故障時の対応かな、そこらの車と違って拠点が少なすぎる。ゲリラ納車の件もあるし、信用はしていない。",
           "tags": [],
-          "timestamp": "2026/08/24 01:34"
+          "timestamp": "2026/08/24 09:19"
         }
       ],
-      "fetchedAt": "2026-08-23T18:37:18.002319+00:00"
+      "fetchedAt": "2026-08-24T01:44:10.490801+00:00"
     },
     {
-      "id": "h_c87dc63f",
-      "title": "大阪大学とNEC、次世代データ転送基盤「RED-ONION」を構築--1TBを約90秒で転送",
-      "url": "https://japan.zdnet.com/article/35251815/",
-      "domain": "japan.zdnet.com",
-      "bookmarkCount": 9,
-      "summary": "最先端の科学研究において、実験装置や計測機器の進化、AI技術の発展により、取り扱うデータ量が爆発的に増加している。しかし、多くの大学や研究機関では、大容量データを日々生成する「実験室」と、高度なデータ分析やシミュレーションを行う「高性能計算システム」が物理的・組織的に離れて設置されているケースが多...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35251815/",
+      "id": "h_08aaea2c",
+      "title": "世界の人型ロボット、「ほぼ中国製」に 出荷シェア97％：SAG統計 - 36Kr Japan | 最大級の中国テック・スタートアップ専門メディア",
+      "url": "https://36kr.jp/500515/",
+      "domain": "36kr.jp",
+      "bookmarkCount": 76,
+      "summary": "世界の人型ロボット（ヒューマノイド）出荷で中国メーカーが圧倒的な主導権を握っている。 ブルームバーグが報じたところによると、米市場調査会社「Smart Analytics Global（SAG）」の最新データでは、2026年1〜6月期の世界の出荷台数は約1万9100台に達し、前年同期の5100台から3倍以上急増した。うち中国メーカーが世...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/36kr.jp/500515/",
       "comments": [
         {
-          "user": "nunota",
-          "comment": "早すぎる",
+          "user": "haatenax",
+          "comment": "中国の子供達がヒューマノイドロボット展覧会で目をキラキラさせているのを見ると、あと半世紀は強そうだななんて思う",
           "tags": [],
-          "timestamp": "2026/08/24 01:59"
+          "timestamp": "2026/08/24 10:43"
+        },
+        {
+          "user": "pandacopanda27",
+          "comment": "スカイネットは中国から誕生しそうだな。「天網」って監視AIがすでにあるし",
+          "tags": [],
+          "timestamp": "2026/08/24 10:42"
+        },
+        {
+          "user": "thirty206",
+          "comment": "先行者と侍魂はビュコック提督の名言が現実化した実例として我々はしっかり噛み締めるべきやろなあ。「お前さんたちは大樹の苗木を見て、それが高くないと笑う愚を犯しているかもしれんのだぞ。」",
+          "tags": [],
+          "timestamp": "2026/08/24 10:41"
+        },
+        {
+          "user": "parrying",
+          "comment": "でも日本で国が民間に金銭支援すると有権者がこうだからなあ https://b.hatena.ne.jp/entry/s/www.47news.jp/14551395.html",
+          "tags": [],
+          "timestamp": "2026/08/24 10:39"
+        },
+        {
+          "user": "Nylon",
+          "comment": "未来から来たドラえもんも実は中国製だったんじゃないか",
+          "tags": [],
+          "timestamp": "2026/08/24 10:38"
+        },
+        {
+          "user": "pikopikopan",
+          "comment": "凄まじい金がつぎ込まれてるのだろうなあ",
+          "tags": [],
+          "timestamp": "2026/08/24 10:36"
         }
       ],
-      "fetchedAt": "2026-08-23T18:37:21.933359+00:00"
+      "fetchedAt": "2026-08-24T01:44:08.771344+00:00"
+    },
+    {
+      "id": "h_174c1ab5",
+      "title": "AIが書いたものをコピペしないでください。",
+      "url": "https://dontpastetheai.com/ja.html",
+      "domain": "dontpastetheai.com",
+      "bookmarkCount": 69,
+      "summary": "恐れ入りますが、 AIが書いたものをコピペしないでください。 誰かがあなたに質問をするとき、その人はあなたの考えを聞きたがっています。未編集のChatGPTの出力結果ではありません。 あなたの自分の言葉による短い回答は、AIが出力した長々とした回答よりも優れています。どんな場合でもそうです。 いま、何があったの...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dontpastetheai.com/ja.html",
+      "comments": [
+        {
+          "user": "iphone",
+          "comment": "主張はさておき、これ系を見ると「しょうもないドメインでDNSを汚さないでください」という気持ちが若干",
+          "tags": [],
+          "timestamp": "2026/08/24 10:38"
+        },
+        {
+          "user": "fusionstar",
+          "comment": "この文書が AI に見えるのは機械翻訳調だからなだけじゃないかな。 怒りバージョンのほうが本来の主張っぽさがある。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:29"
+        },
+        {
+          "user": "astana",
+          "comment": "上司が提出した資料にteamsでダメ出ししてきたのがAIコピペでフォントもそのまま。そのチャットだけ文字クソデカくて笑っちゃったことはある。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:26"
+        },
+        {
+          "user": "sirobu",
+          "comment": "AIに聞いたらこんな回答が返ってきました！ってリプをしてくる奴が一番使えない。正しさの検証をこっちに丸投げしてるのが最悪",
+          "tags": [
+            "ai",
+            "net"
+          ],
+          "timestamp": "2026/08/24 10:26"
+        },
+        {
+          "user": "ejointjp",
+          "comment": "という文をAIで書いてみました。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:26"
+        },
+        {
+          "user": "watchcat",
+          "comment": "Github見たけど面白いな。「（このコンテンツもAIを使ってるだろという指摘はくだらない）。誰の役にも立たないし、あなたの主張が明確になるわけでもないし、私の気分が良くなるわけでもありません。」←わかる。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:21"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:10.012556+00:00"
+    },
+    {
+      "id": "h_e3bf0c64",
+      "title": "新方式で国産初の量子コンピューター稼働開始 分子科学研究所 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20260823de45895",
+      "domain": "news.web.nhk",
+      "bookmarkCount": 40,
+      "summary": "開発競争が進む量子コンピューターをめぐり、「中性原子」と呼ばれる国産としては初めての方式を採用した量子コンピューターが、愛知県内で稼働を始めたことがわかりました。 量子コンピューターは電子や原子な…",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20260823de45895",
+      "comments": [
+        {
+          "user": "aceraceae",
+          "comment": "冷やさなくていいのはいいな",
+          "tags": [
+            "技術",
+            "研究",
+            "開発"
+          ],
+          "timestamp": "2026/08/24 10:17"
+        },
+        {
+          "user": "hagakuress",
+          "comment": "ものがたり大国とかに回す金をこっちにぶっ込めばいいんだけどね。　研究・研究者 大森量子プロジェクト  https://www.ims.ac.jp/research/ohmori_project.html",
+          "tags": [],
+          "timestamp": "2026/08/24 09:06"
+        },
+        {
+          "user": "ROYGB",
+          "comment": "光を使ったコンピュータなのか。ＳＦに出てきそうでかっこいい。",
+          "tags": [],
+          "timestamp": "2026/08/24 08:47"
+        },
+        {
+          "user": "yzkuma",
+          "comment": "人型ロボットだと中国に笑えるくらい遅れをとってるわけだけど、量子コンピュータも我々には見てもわからないだけで絶望的なくらい中国に遅れをとってるのだろうか。",
+          "tags": [],
+          "timestamp": "2026/08/24 08:45"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:10.956427+00:00"
+    },
+    {
+      "id": "h_d0756ca5",
+      "title": "【詳報】中国ロボットスポーツ大会2日目 技術進化アピール",
+      "url": "https://www.youtube.com/watch?v=E2empqOEkwk",
+      "domain": "youtube.com",
+      "bookmarkCount": 35,
+      "summary": "北京で開催中の「世界人型ロボットスポーツ大会」で、中国製ロボットが相次いで人類の世界記録を破った。大会2日目の23日には陸上400メートル決勝が行われ、人類最速を大幅に上回る38秒15(速報値)の記録が飛び出した。初開催だった昨年からタイムを大幅に縮め、中国企業の技術力の急速な進化を内外にアピールした。 #共...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.youtube.com/watch?v=E2empqOEkwk",
+      "comments": [
+        {
+          "user": "north_korea",
+          "comment": "何なら日本は中国に勝てるんだ？AIもロボットも中国製品を使わせてもらって情けない",
+          "tags": [],
+          "timestamp": "2026/08/24 10:35"
+        },
+        {
+          "user": "Tack2Me",
+          "comment": "すげー。この技術が人類の発展にのみ活用されることを切に願う。",
+          "tags": [],
+          "timestamp": "2026/08/24 10:21"
+        },
+        {
+          "user": "hagakuress",
+          "comment": "基本的に自立稼働時間とメンテ廃棄コストまで並べて色々実用を勘案するんだけど、その辺はどーなってんだろ？",
+          "tags": [],
+          "timestamp": "2026/08/24 09:58"
+        },
+        {
+          "user": "pikopikopan",
+          "comment": "ちらっと見たけどほんと安定感凄くて後一歩まで来てる",
+          "tags": [],
+          "timestamp": "2026/08/24 09:29"
+        },
+        {
+          "user": "seabose",
+          "comment": "驚愕した。どの競技でも「倒れない、倒れても自力で起き上がる」というのを難なくやってのけている。この二つは実社会で運用するのに必須条件だが、これほどのレベルとは。",
+          "tags": [
+            "robot",
+            "sports",
+            "technology"
+          ],
+          "timestamp": "2026/08/24 09:15"
+        },
+        {
+          "user": "ton-boo",
+          "comment": "先行者（字義通り）",
+          "tags": [],
+          "timestamp": "2026/08/24 09:13"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:11.429251+00:00"
+    },
+    {
+      "id": "h_aab83e01",
+      "title": "Why TypeScript 7.0 Was Rewritten in Go (and what it means for your dev stack) | spf13",
+      "url": "https://spf13.com/p/go-the-agentic-language/",
+      "domain": "spf13.com",
+      "bookmarkCount": 24,
+      "summary": "Why TypeScript 7.0 Was Rewritten in Go (and what it means for your dev stack) Over the last year, the team that invented TypeScript ported the TypeScript compiler and tools to Go. Not Rust. Not C++. Go. Microsoft’s numbers show build times ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/spf13.com/p/go-the-agentic-language/",
+      "comments": [
+        {
+          "user": "dowhile",
+          "comment": "AI時代の言語の比較の話でTS7とGoの連携の話ではなかった。",
+          "tags": [],
+          "timestamp": "2026/08/24 09:48"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "TSコンパイラのGo移植といいエージェント時代にGoのシンプルさが再評価されてるの興味深い",
+          "tags": [],
+          "timestamp": "2026/08/24 08:02"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:14.099903+00:00"
+    },
+    {
+      "id": "h_f701e700",
+      "title": "AIエージェントにAPIキーを渡さない — trustlessを作った理由",
+      "url": "https://zenn.dev/neomaru/articles/trustless-why-no-secrets-for-agents",
+      "domain": "zenn.dev",
+      "bookmarkCount": 22,
+      "summary": "結論: AIエージェントに平文のAPIキーを渡すのはやめる。trustlessは「エージェントはキー名だけを知り、値はbrokerがプロセス起動時にだけ注入する」という一点に絞ったCLIです。 外部依存は github.com/pelletier/go-toml/v2 1つだけ（pure Go）、配布は単一静的バイナリ。trustless run -s <key> -- <cmd> と trustle...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/neomaru/articles/trustless-why-no-secrets-for-agents",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "MCP周りの平文クレデンシャル問題は本当に頭痛いところだったから、brokerでプロセス起動時注入に絞る割り切りは綺麗",
+          "tags": [],
+          "timestamp": "2026/08/24 09:07"
+        },
+        {
+          "user": "tmatsuu",
+          "comment": "trustlessは「エージェントはキー名だけを知り、値はbrokerがプロセス起動時にだけ注入する」という一点に絞ったCLI。",
+          "tags": [],
+          "timestamp": "2026/08/23 17:56"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:12.538209+00:00"
+    },
+    {
+      "id": "h_cc4c4ea5",
+      "title": "Claude Code のデスクトップ操作、内蔵の computer-use ではなく Windows-MCP を使っている理由",
+      "url": "https://zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
+      "domain": "zenn.dev",
+      "bookmarkCount": 19,
+      "summary": "Claude Code にデスクトップ操作を任せる手段には、内蔵の computer-use があります。画面を撮ってピクセル座標でクリックするこの方式のまま任せ続けてよいのか気になって代わりを探し、UI Automation で画面を構造として読む Windows-MCP に入れ替えました。メモ帳への入力という同じタスクを両方に実行させて、操作の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
+      "comments": [],
+      "fetchedAt": "2026-08-24T01:44:13.735030+00:00"
+    },
+    {
+      "id": "h_3f2c2abf",
+      "title": "ピアノ演奏の続きをAIで自動生成できるアプリ「RollTab」が登場",
+      "url": "https://gigazine.net/news/20260823-transformer-piano/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 19,
+      "summary": "人間が演奏したピアノ楽曲の続きをAIで自動生成できるiPhoneアプリ「RollTab」が登場しました。RollTabの開発者であるサイモン・エドワードソン氏がアプリや独自AIモデルの開発プロセスについて解説しています。 Training a 125M-parameter Model to Autocomplete Piano - SimEdw's Blog https://simedw.com/2026/08/20/...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260823-transformer-piano/",
+      "comments": [
+        {
+          "user": "aminisi",
+          "comment": "AIの遺電子でみた",
+          "tags": [],
+          "timestamp": "2026/08/24 09:44"
+        },
+        {
+          "user": "stabucky",
+          "comment": "ミッキー吉野は知らない曲でも歌手に合わせて伴奏できるらしい。",
+          "tags": [],
+          "timestamp": "2026/08/24 08:39"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:14.336414+00:00"
+    },
+    {
+      "id": "h_b4b000a7",
+      "title": "税理士事務所に1ヶ月住み込んで、会計AIを作ってきた話｜佐次本脩真 | Zeimee",
+      "url": "https://note.com/shuma_sajimoto/n/n3824385dbdf2",
+      "domain": "note.com",
+      "bookmarkCount": 17,
+      "summary": "こんにちは！「Zeimee」という税理士事務所向けのAI記帳サービスを作っている、佐次本（さじもと）といいます。 タイトルの通りなんですが、7月から広島県の税理士事務所に住み込んで開発をしています。この記事を書いている時点で、ちょうど1ヶ月ほどです。広島県に拠点があり、顧問先は2,000件を超える、けっこう大き...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shuma_sajimoto/n/n3824385dbdf2",
+      "comments": [
+        {
+          "user": "Futaro99",
+          "comment": "やっぱりエンドがAIを駆使するようになり専門業者がなくなると言う未来はまだ遠い気がする",
+          "tags": [],
+          "timestamp": "2026/08/24 10:35"
+        },
+        {
+          "user": "naozane2",
+          "comment": "「顧客の現場に入り込んで、製品をその現場で動く形に仕上げる」働き方、最近はFDE（Forward Deployed Engineer）と呼ばれている",
+          "tags": [],
+          "timestamp": "2026/08/24 10:22"
+        },
+        {
+          "user": "gimonfu_usr",
+          "comment": "“日計表（毎日の売上や経費を書いた帳簿ですね）をGeminiに読ませ\"た\"結果を会計ソフトに一括で入れる手段がなくて、画面を見ながら一行ずつ、エンター”／〔顧客ごと帳簿ルールが異なり、しかも\"間違いが混ざる前提\"",
+          "tags": [],
+          "timestamp": "2026/08/24 10:22"
+        },
+        {
+          "user": "iinalabkojocho",
+          "comment": "このやり方がベストになるよなぁ。。。",
+          "tags": [
+            "AI",
+            "FDE",
+            "accounting"
+          ],
+          "timestamp": "2026/08/24 10:16"
+        }
+      ],
+      "fetchedAt": "2026-08-24T01:44:12.170865+00:00"
     }
   ],
-  "lastCollection": "2026-08-23T18:37:22.903979+00:00"
+  "lastCollection": "2026-08-24T01:44:14.336442+00:00"
 }
