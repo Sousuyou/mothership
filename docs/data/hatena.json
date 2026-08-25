@@ -1,411 +1,164 @@
 {
   "entries": [
     {
-      "id": "h_5f381b44",
-      "title": "「うわ、すげえ！」Unreal EngineをCodexに操作させたら制作の常識が変わった (1/5)",
-      "url": "https://ascii.jp/elem/000/004/428/4428658/",
-      "domain": "ascii.jp",
-      "bookmarkCount": 318,
-      "summary": "6月にリリースされたEpic Gamesのゲームエンジン「Unreal Engine 5.8（UE5）」で、AIを通じてアプリケーションの操作を可能にするMCP（モデル・コンテキスト・プロトコル）を実験的機能として使えるようになりました。なかなかとっつきにくく、まだ使用事例が多く出てきていないこともあり、どこまで使えるのか測りかね...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/428/4428658/",
-      "comments": [
-        {
-          "user": "abababababababa",
-          "comment": "最近ChatGPTに仕様書を作ってもらって、Google スプレッドシートで素材一覧を作り、画像素材を作らせながら、その仕様書でClaude試作品を作り、出来た画像は全部そっちに入れて命名変更や処理して7割完成する。",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/08/25 21:15"
-        },
-        {
-          "user": "hamacheese",
-          "comment": "絵はAIでも描けるよなと思ってBlenderで遊び出したらBlender MCPが出てきて、じゃあゲームにしようと思ってUE5に持ってって遊んでたらもう追いつかれた。なんか後から始めて兄を超える弟みたい。いやマジで。",
-          "tags": [],
-          "timestamp": "2026/08/25 19:38"
-        },
-        {
-          "user": "megadrive",
-          "comment": "MCP全て変えてまう",
-          "tags": [],
-          "timestamp": "2026/08/25 18:52"
-        },
-        {
-          "user": "tomono-blog",
-          "comment": "3Dプリンタだけで出力するくらいなら、UE5はいらずHi3Dだけで3Dプリンター専用に上手くデータを作ってくれます。",
-          "tags": [],
-          "timestamp": "2026/08/25 17:41"
-        },
-        {
-          "user": "racooon",
-          "comment": "UE5.8、MCP経由で制御すると遅すぎてまだ使えん、という情報をCEDECでみたが、Pythonで動かしてそのあたりクリアしてるっぽいな。Sequencerはデモツールとしては相当使いやすいツールだけど、AIでやってくれるのならいいな。",
-          "tags": [],
-          "timestamp": "2026/08/25 16:28"
-        },
-        {
-          "user": "misshiki",
-          "comment": "UE5.8をCodex＋MCPで操作。Blenderのパーツ分割やNiagaraの炎、砲撃・爆発・レーザーまでAIに任せ、3Dモデル作成から戦闘シーン完成まで約5時間。人間の役割は「操作」から「何を作らせるか」へ。",
-          "tags": [
-            "Codex",
-            "プログラミング",
-            "MCP"
-          ],
-          "timestamp": "2026/08/25 16:13"
-        }
-      ],
-      "fetchedAt": "2026-08-25T12:57:46.872513+00:00"
-    },
-    {
-      "id": "h_144c57dd",
-      "title": "新「マイナアプリ」きょうスタート 「デジタル認証アプリ」統合、水色→ピンクに",
-      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000732/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 175,
-      "summary": "デジタル庁は8月25日、「マイナポータルアプリ」と「デジタル認証アプリ」の機能を統合した新「マイナアプリ」の提供を始めた。 マイナンバーカードを使った手続きの際、従来はマイナポータルアプリとデジタル認証アプリの2つを使い分ける必要があったが、マイナアプリへの統合により、1つで済むようになる。 すでにマイ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/25/2000000732/",
-      "comments": [
-        {
-          "user": "netafull",
-          "comment": "“マイナンバーカードを使った手続きの際、従来はマイナポータルアプリとデジタル認証アプリの2つを使い分ける必要があったが、マイナアプリへの統合により、1つで済むようになる。”",
-          "tags": [],
-          "timestamp": "2026/08/25 21:29"
-        },
-        {
-          "user": "ayumun",
-          "comment": "“「マイナポータルアプリ」と「デジタル認証アプリ」の機能を統合した新「マイナアプリ」” マイナポケットは？統合されないの？",
-          "tags": [],
-          "timestamp": "2026/08/25 20:41"
-        },
-        {
-          "user": "hossyusa",
-          "comment": "このアプリのせいじゃないかもだけど、マイナ免許証とマイナポータル連携させようとしたらループして出来なかった。調べたら実物カードでログインしないと出来ないらしい。無事出来たけど誰が分かるんだこんなの。",
-          "tags": [],
-          "timestamp": "2026/08/25 20:30"
-        },
-        {
-          "user": "tomono-blog",
-          "comment": "日本通信のFPOSとは、競合するようでしない感じ、デジ庁のは本人確認のための電子証明書利用。FPOSは属性認証やデータ連携も出来る強み。どちらもマイナカードの電子証明書をスマホに移すという仕組みは同じ。",
-          "tags": [],
-          "timestamp": "2026/08/25 20:26"
-        },
-        {
-          "user": "atohiro",
-          "comment": "マイナアプリになってパスポート申請のクレカ支払いでトラあったみたいだけど、概ね順調に移行してる感じ。パスワード変更できるのも好感。広報不足のブクマあったけど、個人的には今までより話題に上ってたかなと。",
-          "tags": [],
-          "timestamp": "2026/08/25 20:16"
-        },
-        {
-          "user": "twjunk",
-          "comment": "マイナカードを作れずやっていける限界ギリギリまでマイナカードは持たない方向で頑張ろうと思ってます！アプリがマイナカードなしで使えないのは残念です！",
-          "tags": [],
-          "timestamp": "2026/08/25 19:02"
-        }
-      ],
-      "fetchedAt": "2026-08-25T12:57:47.853939+00:00"
-    },
-    {
       "id": "h_2a077062",
       "title": "povo、「5G SA(スタンドアローン)」サービスを提供開始",
       "url": "https://povo.jp/news/newsrelease/20260825_01/",
       "domain": "povo.jp",
-      "bookmarkCount": 173,
+      "bookmarkCount": 261,
       "summary": "KDDI、沖縄セルラー、KDDI Digital Lifeは2026年8月25日から、オンライン専用ブランド「povo2.0」の「通話＋データ」プランをご契約のお客さまを対象に、「5G SA(スタンドアローン)」サービス(以下5G SA)(注1)の提供を開始します。これにより、au/UQ mobile/povo(powered by the KDDI network)のマルチブランドで、5G SA...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/povo.jp/news/newsrelease/20260825_01/",
       "comments": [
         {
-          "user": "yamanka00",
-          "comment": "今までのpovoもSIMも5G対応だったはずなんだけど……どゆこと…？🤔",
+          "user": "puruhime",
+          "comment": "スタンドアローン……？",
           "tags": [],
-          "timestamp": "2026/08/25 21:54"
+          "timestamp": "2026/08/26 01:55"
         },
         {
-          "user": "mohno",
-          "comment": "「KDDIは、Sub6(3.7GHz帯/4.0GHz帯を活用した高速5Gネットワーク)対応エリア全域で5G SAを提供」「Android端末については、SIMフリー端末を含む他社が販売する端末等は5G SA通信に対応していない場合があります」←そうなのか。",
+          "user": "tobira70",
+          "comment": "携帯古いから使えない…涙",
+          "tags": [],
+          "timestamp": "2026/08/26 01:14"
+        },
+        {
+          "user": "ya--mada",
+          "comment": "Pixel 9a(OK)/Pixel 10a(NG)/Pixel 8a以前(NG) https://povo.jp/product",
+          "tags": [],
+          "timestamp": "2026/08/26 00:18"
+        },
+        {
+          "user": "tasknow",
+          "comment": "本人確認が全然終わらないまま日を跨いで不安",
+          "tags": [],
+          "timestamp": "2026/08/26 00:13"
+        },
+        {
+          "user": "tetzl",
+          "comment": "きになる",
           "tags": [
-            "povo",
-            "KDDI",
-            "au",
-            "通信",
-            "キャリア",
-            "5G",
-            "スマートフォン",
-            "Android"
+            "mobile",
+            "network"
           ],
-          "timestamp": "2026/08/25 21:52"
+          "timestamp": "2026/08/26 00:07"
         },
         {
-          "user": "kenchan3",
-          "comment": "5GSA用の専用simが必要なのか。そりゃそうか",
+          "user": "daishi_n",
+          "comment": "povoの非常用回線は4G LTEルータなので5G SA化はまだ見送りかな。SIMカードなので有料だし。auもSIMカードの5G SA化は同額取られた。5G SA化しても5G NSAエリアでは5G NSA、4Gエリアでは継続して4Gで使えるよ。",
           "tags": [],
-          "timestamp": "2026/08/25 21:41"
-        },
-        {
-          "user": "gairasu",
-          "comment": "なんでpixel9aは対応で10aはダメなんじゃ！！",
-          "tags": [],
-          "timestamp": "2026/08/25 21:30"
-        },
-        {
-          "user": "bml",
-          "comment": "楽天のやばいとこは狙い撃ちしてそうだな。",
-          "tags": [],
-          "timestamp": "2026/08/25 21:09"
-        },
-        {
-          "user": "sirobu",
-          "comment": "今までの5G NSA=基地局は4Gと共用。4Gが混むと影響受ける。5G SA=基地局が専用になるから混みにくくなる。ネットワークスライシングとか専用サービスが使えるようになるけどまだ整備されてない……てことであってたっけ？",
-          "tags": [
-            "mobile"
-          ],
-          "timestamp": "2026/08/25 20:46"
+          "timestamp": "2026/08/26 00:01"
         }
       ],
-      "fetchedAt": "2026-08-25T12:57:44.474207+00:00"
-    },
-    {
-      "id": "h_d3c9c125",
-      "title": "「まるで奇行種」――とある人型ロボの爆走フォームが話題に 中国のロボット運動会400m走で優勝",
-      "url": "https://www.itmedia.co.jp/news/article/2608/24/2000000730/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 145,
-      "summary": "「まるで奇行種」――人型ロボットが独特なフォームでトラックを駆け抜ける映像が、SNSで話題だ。ロボットは、中国の北京人形機器人創新中心（TianGong Robotics）が開発した「天工 Omni」。8月23日（現地時間）、北京で開催中の「第2回世界人型ロボット運動会」の400m走・小型組で、45秒66を記録し優勝した。Xなどでは、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/24/2000000730/",
-      "comments": [
-        {
-          "user": "sabinezu",
-          "comment": "足をマンガみたいに回転させて走って欲しい。",
-          "tags": [],
-          "timestamp": "2026/08/25 20:37"
-        },
-        {
-          "user": "fluoride",
-          "comment": "こういうのがいい。もっと冒涜的な動きでヒトをぶっちぎってほしい",
-          "tags": [],
-          "timestamp": "2026/08/25 20:22"
-        },
-        {
-          "user": "Cichla",
-          "comment": "もっと学習が極まって、極めてなにか生命に対する侮辱を感じるフォームが最速になる未来を見てみたい",
-          "tags": [],
-          "timestamp": "2026/08/25 19:11"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "GMOのロボを笑ってるんじゃなくて、爆速の中国ロボがGMOロボを追い抜く様を見て笑ってるんだよ。どっちかって言うと中国ロボの変態ぶり。",
-          "tags": [],
-          "timestamp": "2026/08/25 17:45"
-        },
-        {
-          "user": "bigburn",
-          "comment": "将棋AIも人間の思考をトレースしてるわけではないので、そりゃフィジカルAIも人体からかけ離れた最適解を取りますよねと。",
-          "tags": [],
-          "timestamp": "2026/08/25 17:32"
-        },
-        {
-          "user": "aw18831945",
-          "comment": "100mのロボットは普通の腕振りをしているのでカーブが関係しているのかも",
-          "tags": [],
-          "timestamp": "2026/08/25 17:16"
-        }
-      ],
-      "fetchedAt": "2026-08-25T12:57:49.821769+00:00"
-    },
-    {
-      "id": "h_f19d52a6",
-      "title": "最近見てる技術コミュニティについて",
-      "url": "https://comamoca.dev/blog/2026-08-24-tech-communities-im-following-recently/",
-      "domain": "comamoca.dev",
-      "bookmarkCount": 127,
-      "summary": "「みんなAIの話ばかりしてて面白くない」とよく聞くようになった。 実際TwitterでLLMの話を聞かないことはないし、僕自身もよくするようになった。 個人的には面白いおもちゃの末席にLLMが加わった感じがして面白くはあるのだけど、いかんせん技術サイトの話題がAI一色になると胸焼けしてしまう。 そんな感じなので最近...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/comamoca.dev/blog/2026-08-24-tech-communities-im-following-recently/",
-      "comments": [
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "有料コミュニティの情報が知りたいんだよね。無料は誰でも見れるから。",
-          "tags": [],
-          "timestamp": "2026/08/25 20:48"
-        },
-        {
-          "user": "hkdn",
-          "comment": "AIは面白いけどね。でも確かに1人でやっちゃうかも。おじさんが今どきのテーマでコミュニティ入っても仕方ないし。",
-          "tags": [],
-          "timestamp": "2026/08/25 19:19"
-        },
-        {
-          "user": "augsUK",
-          "comment": "技術として必要な話はAIと解決するから、素朴なみんなの疑問をみんなで話せる場は減っただろうね。",
-          "tags": [],
-          "timestamp": "2026/08/25 19:04"
-        },
-        {
-          "user": "hurafula",
-          "comment": "AIニュースばかりでつまらなくなったHackerNewsオルタナとして作られた https://crow.watch けど全然過疎ってる",
-          "tags": [],
-          "timestamp": "2026/08/25 18:49"
-        },
-        {
-          "user": "otihateten3510",
-          "comment": "みんな技術的な面白い話をAIとしてるからじゃない？",
-          "tags": [],
-          "timestamp": "2026/08/25 15:22"
-        }
-      ],
-      "fetchedAt": "2026-08-25T12:57:45.955850+00:00"
-    },
-    {
-      "id": "h_96ad0b28",
-      "title": "新API「HTML-in-Canvas」を紹介 - CanvasにHTMLを描くAPIは何を解決するのか？ - ICS MEDIA",
-      "url": "https://ics.media/entry/260825/",
-      "domain": "ics.media",
-      "bookmarkCount": 32,
-      "summary": "新API「HTML-in-Canvas」を紹介 CanvasにHTMLを描くAPIは何を解決するのか？ 波打つ入力フォームや発光するボタン、ウェブページ全体の派手なグリッチ表現やトランジション……。最近SNSでこうしたウェブページデモを見かける機会が増えてきました。こうしたデモの多くに利用されている新しい技術がHTML-in-Canvasと呼ばれ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ics.media/entry/260825/",
-      "comments": [],
-      "fetchedAt": "2026-08-25T12:57:45.145501+00:00"
-    },
-    {
-      "id": "h_8c607f3a",
-      "title": "新「マイナアプリ」登場、旧「マイナポータルアプリ」との違いは 一通り触ってみた",
-      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000742/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 32,
-      "summary": "デジタル庁は8月25日、「マイナポータルアプリ」と「デジタル認証アプリ」の機能を統合した新「マイナアプリ」（iOS、Android）の提供を始めた。「アプリの統合」と聞くと使用感の大きな変化を想像するが、実際はどうなのか。記者のiPhoneで移行し、新アプリの中身も一通り確かめた。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/25/2000000742/",
-      "comments": [
-        {
-          "user": "ryunosinfx",
-          "comment": "おーちゃんとスマホだけで成りすましはしづらいようにはなってるんやな。ただ全国民相手のアプリのくせにアイコンコロコロ変えるのはアカンのちゃうんちゃうん？",
-          "tags": [],
-          "timestamp": "2026/08/25 19:46"
-        },
-        {
-          "user": "kemurit",
-          "comment": "チャージスポットとマイナ連携すると、特定の年齢以下だと割引されるキャンペーンしてんだって、なにそれ😲",
-          "tags": [],
-          "timestamp": "2026/08/25 18:30"
-        },
-        {
-          "user": "tarodja3",
-          "comment": "😃📲【新・マイナアプリ】",
-          "tags": [],
-          "timestamp": "2026/08/25 17:47"
-        },
-        {
-          "user": "queeuq",
-          "comment": "マイナアプリはandroidは動作機種を機種単位で確認してるんだろうけど絞ってるのがな。デジタル認証はかなり緩かったのに統合されたから劣化。メイン機は影響ないから今は影響が軽微だが。",
-          "tags": [],
-          "timestamp": "2026/08/25 15:45"
-        }
-      ],
-      "fetchedAt": "2026-08-25T12:57:49.302344+00:00"
+      "fetchedAt": "2026-08-25T18:47:28.817414+00:00"
     },
     {
       "id": "h_2eea7e7b",
       "title": "「まるでキャバクラ」――「ライザのアトリエ」主人公と話せるAIアプリに「課金圧強すぎ」の声 「10日に会話15回」で月額980円",
       "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000774/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 26,
+      "bookmarkCount": 96,
       "summary": "人気RPG「ライザのアトリエ」の主人公「ライザ」と会話できるAIアプリ「RyzaChat ライザと創るあなただけのひと夏の夢物語」の配信が8月25日に始まった。人気作、しかも生成AIを使ったアプリとあってリリース前から注目を浴びていたが、無料で会話できる回数が少なく、有料プランにも利用枠の上限があることからユーザー...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/25/2000000774/",
       "comments": [
         {
-          "user": "u_mid",
-          "comment": "”月額980円、年額6000円。3日間の無料トライアルも用意するが、終了の24時間前までにキャンセルしなければ、年額プランへ自動的に移行する。”　3日間と言いつつ2日でキャンセルしないと6000円取られる罠が仕掛けてある",
+          "user": "iphone",
+          "comment": "なかなか面白そうではあったが、ミスったらいきなり年額を支払わるのはダークパターン過ぎる。まあLLMのAPI利用は（自社ロックインに寄与するチャットと違って）高いんだけど、にしても使い方がうまくなさげ",
           "tags": [],
-          "timestamp": "2026/08/25 21:51"
+          "timestamp": "2026/08/26 03:45"
         },
         {
-          "user": "mojimojikun",
-          "comment": "ケチついちゃってるなー(なお自分もケチをつけてしまっている方)",
+          "user": "technocutzero",
+          "comment": "キャバクラじゃないよ、これが錬金術だよ",
           "tags": [],
-          "timestamp": "2026/08/25 21:43"
+          "timestamp": "2026/08/26 02:39"
         },
         {
-          "user": "pikopikopan",
-          "comment": "アコギな",
+          "user": "circma",
+          "comment": "価格はこんなもん、だけど課金誘導の露骨さや年額プランのキャンセルのやりにくさはお行儀が悪いというレベルに収まっていない",
           "tags": [],
-          "timestamp": "2026/08/25 21:35"
+          "timestamp": "2026/08/26 02:23"
         },
         {
-          "user": "n2sz",
-          "comment": "キャラ絵とかボイスはいい感じなんだけど、とにかく会話できる量が少ないんだよなあ。会話クオリティ維持のためにそれなりの上位モデルを使って高くなってんのかね。",
-          "tags": [],
-          "timestamp": "2026/08/25 21:10"
+          "user": "misafusa",
+          "comment": "たああああっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっか！！！！",
+          "tags": [
+            "ゲーム",
+            "ネタ"
+          ],
+          "timestamp": "2026/08/26 01:34"
         },
         {
-          "user": "yu_kawa",
-          "comment": "これが大成功したら他のゲームでも出るから期待だけど既に脱獄的な遊びをしている（するよね）からコンプラ的に厳しそう",
+          "user": "cider_kondo",
+          "comment": "何かを連想しそうでずーっと考えてたが、ドリームキャストの通信料金だと気づいた https://note.com/syosin_kai/n/n22ddabbfd43f KDDがセガ買収する世界線てありえたんだろうか？(後年KDDIがクソ会社買い漁るの考えるとアリと思えるが",
           "tags": [],
-          "timestamp": "2026/08/25 21:06"
+          "timestamp": "2026/08/26 01:28"
         },
         {
-          "user": "TakenokoGod",
-          "comment": "このアプリが発表されてからGemini liveを使い始めたけれど結構面白いな。",
+          "user": "shikiarai",
+          "comment": "脳内でライザシミュレーションもできない弱者のための装置。AIなんて使う暇があったらてめえの使ってない脳みそのクレジット消費しようや",
           "tags": [],
-          "timestamp": "2026/08/25 21:06"
+          "timestamp": "2026/08/26 01:27"
         }
       ],
-      "fetchedAt": "2026-08-25T12:57:45.537144+00:00"
+      "fetchedAt": "2026-08-25T18:47:29.723470+00:00"
     },
     {
-      "id": "h_8663b6ef",
-      "title": "東京23区で「徒歩10分以内」に駅がない地域はどこ？ 駅空白地帯マップが話題",
-      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000759/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 25,
-      "summary": "東京23区周辺を対象に、徒歩10分内・15分内に駅がない地域をそれぞれ赤色で示した2枚の地図が、Xで話題だ。統計データの地図表示サービス「47maps」の公式Xアカウント（@47maps）が投稿したもので、鉄道網が発達した都心部でも、徒歩10分圏では駅に届かない地域が広範囲に残る様子が見て取れる。 徒歩10分内の地図では、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/25/2000000759/",
+      "id": "h_96ad0b28",
+      "title": "新API「HTML-in-Canvas」を紹介 - CanvasにHTMLを描くAPIは何を解決するのか？ - ICS MEDIA",
+      "url": "https://ics.media/entry/260825/",
+      "domain": "ics.media",
+      "bookmarkCount": 89,
+      "summary": "新API「HTML-in-Canvas」を紹介 CanvasにHTMLを描くAPIは何を解決するのか？ 波打つ入力フォームや発光するボタン、ウェブページ全体の派手なグリッチ表現やトランジション……。最近SNSでこうしたウェブページデモを見かける機会が増えてきました。こうしたデモの多くに利用されている新しい技術がHTML-in-Canvasと呼ばれ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ics.media/entry/260825/",
+      "comments": [],
+      "fetchedAt": "2026-08-25T18:47:29.994532+00:00"
+    },
+    {
+      "id": "h_add3a161",
+      "title": "自分が \"コントロールできる\" と思い込んで \"引き出しを増やす\"",
+      "url": "https://speakerdeck.com/konifar/jibun-ga-kontororu-dekiru-to-omoikon-de-hikidashi-o-fuyasu",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 75,
+      "summary": "シンプレクス株式会社の社内イベント Simplex Biz Day 2026 にて話した内容",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/konifar/jibun-ga-kontororu-dekiru-to-omoikon-de-hikidashi-o-fuyasu",
       "comments": [
         {
-          "user": "ustam",
-          "comment": "とりあえず足立新田。スーパー堤防の上に立地しており、東京で最も安全な場所だが交通の弁が悪過ぎて勿体なさ過ぎ",
-          "tags": [],
-          "timestamp": "2026/08/25 21:50"
-        },
-        {
-          "user": "pedalfar",
-          "comment": "杉並の赤エリアだけど、おかげで静かで環境はいいよ。周辺は家賃も多分安い。",
-          "tags": [],
-          "timestamp": "2026/08/25 21:36"
-        },
-        {
-          "user": "aga_aga",
-          "comment": "駅多すぎ、人多すぎ、集まりすぎ。東京一極集中解消は国是とすべし。鉄道運賃最低2倍、通勤通学定期券廃止、通勤手当廃止、あらゆる策を投じて東京から人を散らせ。東京に住めないなら地方で生きろ。",
-          "tags": [],
-          "timestamp": "2026/08/25 21:35"
-        },
-        {
-          "user": "centersky",
-          "comment": "どの駅にも徒歩10分で駅につくって過剰すぎない？",
-          "tags": [],
-          "timestamp": "2026/08/25 21:25"
-        },
-        {
-          "user": "zakochan",
-          "comment": "やはりGISの可視化は楽しい。QGISならフリーだしこれぐらいの空間情報は扱えるので興味がある人どうぞ",
-          "tags": [],
-          "timestamp": "2026/08/25 21:11"
-        },
-        {
-          "user": "aceraceae",
-          "comment": "うちぎりぎり10分以上なんだよな。前住んでたところは駅から2分くらいだったんでいつもしんどい。",
+          "user": "genhou",
+          "comment": "“あらゆることを「自分でコントロールできる」と思い込んでみる” 大事。「仕事なんかしなくてもいい」と思い込めば、割と結構しなくても良くなるよ。",
           "tags": [
-            "東京",
-            "地図",
-            "地域",
-            "駅",
-            "あとで読む"
+            "極端"
           ],
-          "timestamp": "2026/08/25 21:01"
+          "timestamp": "2026/08/26 02:38"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "丁寧だな。私は気にせずストレートに言う。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/26 02:37"
+        },
+        {
+          "user": "miyauchi_it",
+          "comment": "わかりやすーい！いつもすごい言い方になってしまうので引き出し増やさないと。",
+          "tags": [],
+          "timestamp": "2026/08/25 23:35"
+        },
+        {
+          "user": "CardamomPowder",
+          "comment": "うーん…言ってる事は分かる。けど自分にはしんどいと思う事の方が多くて、これって再現性あるのかなぁって思ってしまった。",
+          "tags": [],
+          "timestamp": "2026/08/25 23:27"
         }
       ],
-      "fetchedAt": "2026-08-25T12:57:48.593656+00:00"
+      "fetchedAt": "2026-08-25T18:47:30.755672+00:00"
     },
     {
       "id": "h_273b83a1",
       "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた",
       "url": "https://zenn.dev/layerx/articles/e01465a15e79c2",
       "domain": "zenn.dev",
-      "bookmarkCount": 24,
+      "bookmarkCount": 54,
       "summary": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた こんにちは。アカウント基盤開発部でエンジニアをしている tkmt (たくまつ) です。 今回は、IETF で標準化が進んでいる Transaction Tokens について調査してまとめてみました。というのも、この Transaction Tokens が解...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/layerx/articles/e01465a15e79c2",
       "comments": [
@@ -416,51 +169,289 @@
           "timestamp": "2026/08/25 21:21"
         }
       ],
-      "fetchedAt": "2026-08-25T12:57:46.319191+00:00"
+      "fetchedAt": "2026-08-25T18:47:31.352643+00:00"
     },
     {
-      "id": "h_add3a161",
-      "title": "自分が \"コントロールできる\" と思い込んで \"引き出しを増やす\"",
-      "url": "https://speakerdeck.com/konifar/jibun-ga-kontororu-dekiru-to-omoikon-de-hikidashi-o-fuyasu",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 11,
-      "summary": "シンプレクス株式会社の社内イベント Simplex Biz Day 2026 にて話した内容",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/konifar/jibun-ga-kontororu-dekiru-to-omoikon-de-hikidashi-o-fuyasu",
-      "comments": [],
-      "fetchedAt": "2026-08-25T12:57:50.209185+00:00"
-    },
-    {
-      "id": "h_cd6853a0",
-      "title": "IIJmio、ギガプランに「SMS機能付きeSIM」と「au網データ専用eSIM」を追加 9月1日～",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2135268.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 9,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2135268.html",
+      "id": "h_8663b6ef",
+      "title": "東京23区で「徒歩10分以内」に駅がない地域はどこ？ 駅空白地帯マップが話題",
+      "url": "https://www.itmedia.co.jp/news/article/2608/25/2000000759/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 53,
+      "summary": "東京23区周辺を対象に、徒歩10分内・15分内に駅がない地域をそれぞれ赤色で示した2枚の地図が、Xで話題だ。統計データの地図表示サービス「47maps」の公式Xアカウント（@47maps）が投稿したもので、鉄道網が発達した都心部でも、徒歩10分圏では駅に届かない地域が広範囲に残る様子が見て取れる。 徒歩10分内の地図では、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2608/25/2000000759/",
       "comments": [
         {
-          "user": "nmcli",
-          "comment": "SMSあり2Gで820円よい",
+          "user": "strange",
+          "comment": "全般的に雑だな",
+          "tags": [],
+          "timestamp": "2026/08/25 23:33"
+        },
+        {
+          "user": "MarvinParnroid",
+          "comment": "陸の孤島、江戸川区。",
+          "tags": [],
+          "timestamp": "2026/08/25 22:57"
+        },
+        {
+          "user": "ffggmm",
+          "comment": "池袋とか新宿とか、駅に重なるように赤が表示されてないか。それ以外にも所々おかしい。個人が趣味でやったというならともかく、地図に関連した会社が堂々と出していいものには見えないなぁ。",
+          "tags": [],
+          "timestamp": "2026/08/25 22:49"
+        },
+        {
+          "user": "shuinout",
+          "comment": "忘らるる都、大田区",
+          "tags": [],
+          "timestamp": "2026/08/25 22:36"
+        },
+        {
+          "user": "psne",
+          "comment": "千代田1の邸宅も行けないのか、という知見を得たやつ。／確かに10分強で、バスの時間が合わない時は歩くか。となる色だったやつ。",
+          "tags": [],
+          "timestamp": "2026/08/25 22:29"
+        },
+        {
+          "user": "tybalt",
+          "comment": "目的地までの接続のある駅があるかが大事かなと思う",
           "tags": [
-            "技術"
+            "Map"
           ],
-          "timestamp": "2026/08/25 21:39"
-        },
-        {
-          "user": "momonga_dash",
-          "comment": "au網に変えたいけど、povoで冗長化している意味無くなるから変えられない😭",
-          "tags": [],
-          "timestamp": "2026/08/25 18:38"
-        },
-        {
-          "user": "secseek",
-          "comment": "eSIMだといまだに5Gが使えなかったりしてましたが今回はどうなんでしょうか",
-          "tags": [],
-          "timestamp": "2026/08/25 14:48"
+          "timestamp": "2026/08/25 22:20"
         }
       ],
-      "fetchedAt": "2026-08-25T12:57:48.916773+00:00"
+      "fetchedAt": "2026-08-25T18:47:32.741980+00:00"
+    },
+    {
+      "id": "h_9b0f355e",
+      "title": "敵対的検証をLLMコードレビューで試すと何が起きるのか",
+      "url": "https://zenn.dev/knowledgesense/articles/0cb441713c9fee",
+      "domain": "zenn.dev",
+      "bookmarkCount": 28,
+      "summary": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 AIでコードのレビューをする際に敵対的検証をすることで性能が上がるとされています。そこにさらに、その検証を監視する役を付けることでレビューの精度を上げる手法「Adversarial Review」について紹介します。 サマリー 最近、敵対的検証という言葉を耳にす...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/knowledgesense/articles/0cb441713c9fee",
+      "comments": [
+        {
+          "user": "hogetax",
+          "comment": "調査目的でよく使うけどなかなか鋭い指摘があって重宝している。コメ欄見るとコードだと重箱の隅つつく感じになるのか^^;",
+          "tags": [],
+          "timestamp": "2026/08/26 03:42"
+        },
+        {
+          "user": "puruhime",
+          "comment": "これって「敵対的生成ネットワーク」の敵対的なのかな。確かに仕組みとしては近しいような気はするのだけど",
+          "tags": [],
+          "timestamp": "2026/08/26 02:06"
+        },
+        {
+          "user": "revert",
+          "comment": "今はCriticを自分の目でやって勘の維持とレベル上げをしてるけど、そのうちここも自動化されるのだろうなとも思っている",
+          "tags": [],
+          "timestamp": "2026/08/26 00:55"
+        },
+        {
+          "user": "gadget-lab",
+          "comment": "後で読みたい。敵対的検証をLLMコードレビューで試すと何が起きるのか",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/08/26 00:35"
+        },
+        {
+          "user": "gabill",
+          "comment": "難癖のようなエッジケースを指摘され、それに対応したら新たなエッジケースが発生し、無限に重箱の角を突くループでどんどんどんどんコードが複雑になるのでこの方法しんどいなと思ってる",
+          "tags": [],
+          "timestamp": "2026/08/25 23:27"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "敵対的なレビューをレビューして薄めるのか。要らねえ。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/25 23:21"
+        }
+      ],
+      "fetchedAt": "2026-08-25T18:47:32.371229+00:00"
+    },
+    {
+      "id": "h_bc646378",
+      "title": "Apple、新しいM6とM5 Proを搭載し、さらにパワフルになったMac miniを発表",
+      "url": "https://www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "domain": "apple.com",
+      "bookmarkCount": 21,
+      "summary": "M6とM5 Pro搭載の新しいMac mini、AIパフォーマンスを飛躍的に向上。常時稼働のエージェント型コンピューティングで業界をリードするデスクトップに驚異的なパワーを Mac miniは、最大4倍高速なAIパフォーマンス、最大2倍高速なグラフィックスとストレージ、強化された接続性のすべてを、超コンパクトなボディで提供しま...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "comments": [
+        {
+          "user": "browncapuchin",
+          "comment": "M6/M5 Proが発売されたら認定整備済みM4/M4 Proが出回るのでこまめにチェック",
+          "tags": [],
+          "timestamp": "2026/08/26 03:41"
+        },
+        {
+          "user": "ochikun",
+          "comment": "M1ユーザを煽ってるなぁ。まあ、普段使いならM1で事足りるし",
+          "tags": [],
+          "timestamp": "2026/08/26 03:39"
+        },
+        {
+          "user": "pendamadura",
+          "comment": "500GBの値段見てから決めるかな",
+          "tags": [],
+          "timestamp": "2026/08/26 03:20"
+        },
+        {
+          "user": "seiya0820",
+          "comment": "“M6搭載Mac miniの価格は149,800円（税込）” 1.5倍早くなくていいからM4版が7万円台で買える時に買っておくべきだった。",
+          "tags": [],
+          "timestamp": "2026/08/26 02:15"
+        },
+        {
+          "user": "Ryo_K",
+          "comment": "M6の性能は見えないが、WiFi7対応したのは少し惹かれるか。まぁそこまで積極的な買替え圧力にはならないかなー。",
+          "tags": [],
+          "timestamp": "2026/08/26 02:01"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "M5 Pro 20コアGPU 64GBで515,800円。LLMの行列演算が速いのいいねえ。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/26 01:32"
+        }
+      ],
+      "fetchedAt": "2026-08-25T18:47:31.942509+00:00"
+    },
+    {
+      "id": "h_c28f0456",
+      "title": "デモGIFの録画をコードで表現できるVHSが便利。AIに任せられるのも良い - $shibayu36->blog;",
+      "url": "https://blog.shibayu36.org/entry/2026/08/25/173000",
+      "domain": "blog.shibayu36.org",
+      "bookmarkCount": 19,
+      "summary": "CLIツールのREADME用のデモGIFを画面録画で手撮りするのは面倒だ。先日herdrのpluginを作った時、VHSを使ったらこれが劇的に楽になった。 VHSはcharmbracelet製のツールだ。公式には「Write terminal GIFs as code for integration testing and demoing your CLI tools」と説明されている。つまり、CLIツールのデモ用に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/08/25/173000",
+      "comments": [
+        {
+          "user": "richmikan",
+          "comment": "メジャーバージョンが上がるとS-VHSになるのかな？",
+          "tags": [],
+          "timestamp": "2026/08/26 00:43"
+        },
+        {
+          "user": "gogatsu26",
+          "comment": "“VHSはcharmbracelet製のツールだ。公式には「Write terminal GIFs as code for integration testing and demoing your CLI tools」と説明されている。つまり、CLIツールのデモ用に、ターミナル操作のGIFをコードとして書けるツール”　まぎらわしい",
+          "tags": [],
+          "timestamp": "2026/08/26 00:04"
+        },
+        {
+          "user": "kkobayashi",
+          "comment": "ベータではいかんのか？",
+          "tags": [],
+          "timestamp": "2026/08/25 23:29"
+        },
+        {
+          "user": "mizdra",
+          "comment": "なるほど。録画できるものはターミナル上に描画されるものだけか。",
+          "tags": [
+            "terminal"
+          ],
+          "timestamp": "2026/08/25 18:10"
+        }
+      ],
+      "fetchedAt": "2026-08-25T18:47:34.571764+00:00"
+    },
+    {
+      "id": "h_3e7c8dae",
+      "title": "Anthropicの最上位AIモデル「Claude Fable 5」は企業需要が伸びず苦戦、AI企業のビジネスモデルが覆される可能性も",
+      "url": "https://gigazine.net/news/20260825-anthropic-best-ai-model-struggles/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 15,
+      "summary": "AI開発企業のAnthropicは2026年6月、記事作成時点で最上位となるAIモデル「Claude Fable 5」をリリースしました。ところが、Claude Fable 5の利用量は伸び悩んでおり、より大規模で高度なAIモデルを追求するAI開発企業のビジネスモデルを根本的に変える可能性もあると、経済紙のフィナンシャル・タイムズが報じています...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260825-anthropic-best-ai-model-struggles/",
+      "comments": [
+        {
+          "user": "strawberryhunter",
+          "comment": "Opus 5 とベンチマークがほとんど変わらないとAnthropicが言ってるんだから、顧客は単純に2倍のコストは払うわけがないのでは。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/08/26 01:39"
+        },
+        {
+          "user": "sub_low",
+          "comment": "毎週足りんのだけど。もう一ライセンス契約するか？思ってるところ",
+          "tags": [],
+          "timestamp": "2026/08/26 01:17"
+        },
+        {
+          "user": "kamm",
+          "comment": "なんか性能ナーフされてる気がするんだよな",
+          "tags": [],
+          "timestamp": "2026/08/26 00:38"
+        },
+        {
+          "user": "prjpn",
+          "comment": "高度な仕事してる人が少ないという証左なのでは？",
+          "tags": [],
+          "timestamp": "2026/08/26 00:37"
+        },
+        {
+          "user": "naozane2",
+          "comment": "AI最上位モデル。神様みたいに神棚に飾って必要な時だけ聞く用途。",
+          "tags": [],
+          "timestamp": "2026/08/26 00:29"
+        },
+        {
+          "user": "zentarou",
+          "comment": "ヒト以上の能力があってもヒト以上の価値を生み出すのは難しい",
+          "tags": [],
+          "timestamp": "2026/08/26 00:24"
+        }
+      ],
+      "fetchedAt": "2026-08-25T18:47:33.073854+00:00"
+    },
+    {
+      "id": "h_3c4e4af0",
+      "title": "「メタルギアオンライン」でロビー参加だけでPCを乗っ取られる恐れ、任意コード実行につながる脆弱性が判明",
+      "url": "https://gigazine.net/news/20260825-metal-gear-online-3-rce/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 7,
+      "summary": "PC版「メタルギアオンライン」のバージョン1.1.2.8に、悪意あるホストが用意したロビーへ参加するだけでプレイヤーのPC上で任意のコードを実行される可能性がある脆弱(ぜいじゃく)性が存在していたことをCERT Coordination Center(CERT/CC)が2026年8月24日に明らかにしました。脆弱性は「CVE-2026-19874」として登録され...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260825-metal-gear-online-3-rce/",
+      "comments": [
+        {
+          "user": "Itti-nino3",
+          "comment": "「これぞガンズ・オブ・ザ・パトリオットだ！」",
+          "tags": [
+            "ゲーム",
+            "ネタ"
+          ],
+          "timestamp": "2026/08/26 01:20"
+        },
+        {
+          "user": "pribetch",
+          "comment": "コントローラー繋いでたら振動始めそう",
+          "tags": [
+            "PC",
+            "ゲーム"
+          ],
+          "timestamp": "2026/08/26 00:35"
+        }
+      ],
+      "fetchedAt": "2026-08-25T18:47:34.161976+00:00"
+    },
+    {
+      "id": "h_ea3b9dad",
+      "title": "povo、高速な「5G SA」対応へ SIMは交換",
+      "url": "https://www.watch.impress.co.jp/docs/news/2135339.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 6,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2135339.html",
+      "comments": [],
+      "fetchedAt": "2026-08-25T18:47:33.762701+00:00"
     }
   ],
-  "lastCollection": "2026-08-25T12:57:50.209205+00:00"
+  "lastCollection": "2026-08-25T18:47:34.571791+00:00"
 }

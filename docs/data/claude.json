@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473518+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.965233+00:00",
       "excerpt": "この記事は i-know.dev に掲載したものです。 Claude Skills完全ガイド③：Claude Code/APIでの活用編 この記事で分かること これまでの記事では、Claude Skillsの基本的な使い方と、自分専用のカスタムSkillを作成する方法を紹介しました。 シリーズ最終回となる今回は、Claude CodeとClaude APIでSkillsを活用する方法を、開発者向け"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473465+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.965141+00:00",
       "excerpt": "! 本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。 また、ここで扱う supervisor デーモンと Agent view は research preview の機能です。この領域は仕様が頻繁に、かつ大きく変わります。本文の記述は執筆時点(2026年8月上旬、Claude Code v2.1.220 で確認)のものなので、最新の挙動は公式ドキュメントをご確認ください。 T"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473428+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.965073+00:00",
       "excerpt": "概要 grill-me は、計画や設計が固まるまでユーザーに質問を繰り返すスキルです。 質問はすべて文章で提示されるため、回答も毎回自由記述になります。 二択の質問でも同じです。 一方、Claude Code には AskUserQuestion という、選択肢を提示してユーザーに選ばせるツールが標準で備わっています。 そこで、grill-me の質問をこのツール経由で提示させる指示を CLAUD"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473389+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.965008+00:00",
       "excerpt": "調査・確認基準日：2026年8月19日 製品仕様や提供範囲は継続的に変わるため、本記事では基準日を固定して整理します。 はじめに ChatGPTとClaudeを業務や開発へ導入しようとすると、次のような名称が一度に出てきます。 ChatGPT、ChatGPT Work、Codex Claude Chat、Claude Cowork、Claude Code Web、デスクトップアプリ、CLI、IDE"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473353+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964947+00:00",
       "excerpt": "Claude Code のログには、そのセッションがどのブランチで動いていたかが残ります。 4か月分・436セッションを数えたところ、名前付きブランチで作業していたのは12セッションでした。 ただ、この数字を出すまでに3か所つまずきました。とくに git_branch に入る \"HEAD\" は、detached HEAD と「そもそもリポジトリではない」の両方を指していて、区別しないまま数えると結"
     },
     {
@@ -57,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473316+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964879+00:00",
       "excerpt": "TL;DR ChatGPT・Claude・Geminiは3社とも「会話をまたいで記憶する」機能を持つが、内部構造は「明示的な事実リスト」「暗黙の傾向推測」「セッション/プロジェクト単位の要約」という異なる層で実装されており、オフにする操作もその層ごとに独立している ChatGPTは「保存されたメモリ（saved memories）」と「チャット履歴の参照（reference chat histor"
     },
     {
@@ -67,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473283+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964799+00:00",
       "excerpt": "前々回と前回で、小さなKnowledge Graphを使ったGraph RAGを作り、Local / Vertex AIの構成比較まで作成しました。 ここまでで普通の質問にはかなり答えられるようになりました。しかしそもそもこのGraph、質問に答えるための情報がちゃんと入ってるんだっけという課題があります。LLMは「分かりません」と返すことはできますが、知りたかったのはむしろその先、なぜ答えられな"
     },
     {
@@ -77,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473218+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964684+00:00",
       "excerpt": "はじめに 現在、RevenueCat のハッカソンに参加するため、iOS アプリを開発しています。 開発には、Claude Code の月額20ドルの Pro プランを使っています。 その開発を自動化するため、初めて 自動開発ハーネス（planner → generator → evaluator の3エージェント構成）を組みました。ところが、generator（コード生成担当）にどのモデルを使う"
     },
     {
@@ -87,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473162+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964583+00:00",
       "excerpt": "はじめに こんにちは。Fairy Devices プロダクト開発部の河野（かわの）です。業務ではRustを使ったWebバックエンドサービスの開発や、Kubernetes等を使ったインフラ構築を担当しています。Rust歴は約10年で、rust-lang-jp等のRustのコミュニティーではtatsuya6502として活動しています。 Claude Codeは1年前（2025年8月）から業務で使ってい"
     },
     {
@@ -97,58 +97,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.473109+00:00",
+      "fetchedAt": "2026-08-25T18:47:34.964488+00:00",
       "excerpt": "自分用メモ👀 ※2026/08/25時点 普段はClaude CodeやCodexを利用しています。 作業環境は、最近一周回って、またCLI単体に戻っていて、少し利用量を節約したくて、表題の仕組みを入れることにしました🦔 普段使いはSonnetにしつつ、難しい問題だけ段階的に相談する構成にします。 役割は次のように分けています。 モデル 役割 Sonnet 普段の調査・実装・テスト Opus Cl"
     },
     {
-      "id": "cc_fb7cd27e",
-      "title": "Cursor vs Claude Code 2026：ターミナルで作って、IDE で磨く",
-      "url": "https://zenn.dev/videostance/articles/5a546596660f12",
+      "id": "cc_480e4864",
+      "title": "難しいのは LLM じゃなかった — Claude Code に毎日ブログ記事を書かせて43日",
+      "url": "https://zenn.dev/kuu_dqx/articles/headless-claude-code-43days",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.402881+00:00",
-      "excerpt": "「Cursor vs Claude Code」の議論は、よく「どちらが勝つか」のタイトルマッチのように語られます。でも実際に両方を使い込んでいる開発者たちの結論は、ほぼ一致しています——この 2 つはライバルではなく、1 つのワークフローの両輪です。 Claude Code にはターミナルで機能開発や大規模リファクタリングを任せ、Cursor の IDE ではインライン編集やタブ補完で仕上げを行う"
+      "fetchedAt": "2026-08-25T18:47:34.891187+00:00",
+      "excerpt": "個人ブログに、LLM が書いた記事を無人で毎日1本公開する仕組みを動かしています。人のレビューは挟みません。毎日12時、誰も見ていないところで記事が生成され、ビルドされ、配信され、SNSに告知が飛びます。 稼働は43日、記事は43本。欠測ゼロです。 始める前、私が身構えていたのは「LLM がとんでもないことを書いたらどうするか」でした。実際に運用してみると、そこはほとんど問題になりませんでした。 "
     },
     {
-      "id": "cc_d33a7586",
-      "title": "Claude Opus 4.8 / Opus 5 / Fable 5 を比較。同じカンプからフォームのHTML・CSS・JSを書かせた",
-      "url": "https://zenn.dev/frontendclip/articles/cba334764b5c7a",
+      "id": "cc_f5601ed6",
+      "title": "Claude Codeの起点ディレクトリは何を変えるのか",
+      "url": "https://zenn.dev/kai_ai/articles/c393052a9d9c97",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.402783+00:00",
-      "excerpt": "1か月ほど前に、Figmaのカンプとバリデーション定義書を渡してお問い合わせフォームを実装させる検証を行いました。使ったのは Claude Opus 4.8 です。 https://frontendclip.com/ai-coding-contact-form/ その後 Opus 5 と Fable 5 が出たので、条件を一切変えずに、3モデルで同じものを作らせました。 同じカンプ、同じプロンプト"
+      "fetchedAt": "2026-08-25T18:47:34.891118+00:00",
+      "excerpt": "Claude Codeで同じプロンプトを使っても、開始するディレクトリによって結果が変わることがあります。 中心となる問いは、次の一つです。 起点ディレクトリは、Claude Codeの仕事へ何を渡しているのか。 先に結論を書くと、起点は主に「起動時の指示」「標準の探索範囲」「設定の発見範囲」を変えます。フォルダ整理によってモデル自体の知能が上がるわけではありません。 この記事では、2026年8月"
     },
     {
-      "id": "cc_52c972b7",
-      "title": "Claude CodeでμITRON風RTOSにTCP/IPスタックを作る 第7章 7.2: 200 OKと固定HTMLを返す(v2.0)",
-      "url": "https://zenn.dev/pekopugu/articles/net-ch7-2-http-static-response",
+      "id": "cc_10b6cda8",
+      "title": "Claude CodeをCIに入れる前に考えるべき脅威モデル",
+      "url": "https://zenn.dev/hampen2929/articles/20260825-ci-agent-threat-model",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.402722+00:00",
-      "excerpt": "はじめに 第6章でTCPの一生(握手→データ往復→close→再接続)が一周し、7.1でESTABLISHEDの受信データをHTTPリクエスト行(method SP path SP version CRLF)としてパースできるようになりました。7.2(本記事)はその到達点です——パース結果に基づきHTTPレスポンス(200 OK + 固定HTML)を生成し、tcp がそれを送ります。これで自作HT"
+      "fetchedAt": "2026-08-25T18:47:34.890997+00:00",
+      "excerpt": "Claude Codeのヘッドレス実行（claude -p）をCIに組み込んで、自律修正・レビュー・Issueトリアージを無人で回す——そういう構成を作る前に押さえておくべき脅威モデルと防御設計を整理します。対象は、claude -p の基本は分かっていて、これからチームのCIに入れようとしている人です。導入の稟議で最初に問われるのはたいていセキュリティなので、稟議に答えるための整理としても使える"
     },
     {
-      "id": "cc_eac80abb",
-      "title": "木工所の基幹システムをOdoo×Claude Codeで内製した設計録",
-      "url": "https://zenn.dev/yutaka8484/articles/kobayashi-20260821-odoo-claude-code-erp",
+      "id": "cc_eb220ec6",
+      "title": "Claude Code の完了通知を Discord に送る — 公式プラグインの実装を読んで分かったこと",
+      "url": "https://zenn.dev/kurimochi29/articles/claude-code-discord-notify",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.402653+00:00",
-      "excerpt": "前職のシステム入替から見えた「内製」という選択肢 前職の機械メーカーでは、受注から請求までを含む基幹システムの入替をプロジェクトマネージャーとして率いました。パッケージソフトの標準機能に業務を合わせる調整に2年半を費やし、そこで得た結論は「カスタマイズのコストが、中小企業の意思決定速度と噛み合わない」というものでした。1画面の変更に見積と稟議と数ヶ月を要するパッケージ導入の構造は、木工所の規模では"
+      "fetchedAt": "2026-08-25T18:47:34.890894+00:00",
+      "excerpt": "Claude Code に時間のかかる処理を任せて、席を離れる。戻ってきたら終わっていた——それ自体はいいのですが、終わったことに気づくのが30分後だったりします。 定期実行しているタスクなら、なおさらです。ターミナルを開いていない時間帯に動くので、成否を知るには自分から見に行くしかありません。 そこで、完了したらスマホに通知が飛ぶようにしました。使ったのは Claude Code の公式 Dis"
     },
     {
-      "id": "cc_75be381f",
-      "title": "[社内勉強会資料公開] Claude Code 入門 #7 — プラグインとマーケットプレイスで一気に拡張する",
-      "url": "https://zenn.dev/cscloud_blog/articles/csc-claude-code-study-session-07",
+      "id": "cc_c1a26027",
+      "title": "Claude Codeを1ヶ月動かした記録——月$20の内訳とハマった3か所",
+      "url": "https://zenn.dev/aimakerlab/articles/1f88290d414c7b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-25T12:57:50.402602+00:00",
-      "excerpt": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！ CSC社内で開催している「CloudFastener の TAM(テクニカルアカウントマネージャー)向けに、Claude Codeを初歩から実践まで学ぶ勉強会」の第7回資料です。前回は、Agent Skillsを使って定型業務をテンプレ化する方法を扱いました。 https://zen"
+      "fetchedAt": "2026-08-25T18:47:34.890825+00:00",
+      "excerpt": "Claude Code を入れたのは4月中旬だった。個人開発の作業をターミナルに集約したかっただけで、1ヶ月後にこれが主力ツールになるとは思っていなかった。 「1ヶ月使い倒した後に分かること」の一次記録がまだ少ないので、ここに残す。 インストール直後にやらかした話 npm install -g @anthropic-ai/claude-code claude 手順自体は問題ない。問題はホームディレ"
+    },
+    {
+      "id": "cc_13ac990d",
+      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
+      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-25T18:47:34.890728+00:00",
+      "excerpt": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質差の大半は知能ではなく規律・順序・検証の差なので、それをスキル(working method + チーム別playbook)として明文化し、サブエージェントチーム"
+    },
+    {
+      "id": "cc_de55e33d",
+      "title": "Claude Code v2.1.234、使用量上限リセット後の自動再開設定を検証",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260822_general_t1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-25T18:47:34.890636+00:00",
+      "excerpt": "Claude Code の v2.1.234(2026年8月17日リリース)で、使用量の上限がリセットされたときにセッションの続きを自動で再開する設定が加わりました。既定はオンなので、自分で何も変更していなくても、更新した時点で挙動はもう変わっています。 この記事では、設定の場所と対象範囲、切ったほうがよい人とそのままでよい人、まだ確認できていない点をまとめます。 https://youtu.be"
     },
     {
       "id": "cc_fe8bf83b",
@@ -157,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-25T12:57:50.750757+00:00",
+      "fetchedAt": "2026-08-25T18:47:35.324149+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -167,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-25T12:57:50.984223+00:00",
+      "fetchedAt": "2026-08-25T18:47:35.540617+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-25T12:57:50.984256+00:00",
+      "fetchedAt": "2026-08-25T18:47:35.540678+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +207,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-25T12:57:50.984295+00:00",
+      "fetchedAt": "2026-08-25T18:47:35.540745+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-25T12:57:50.984302+00:00"
+  "lastCollection": "2026-08-25T18:47:35.540760+00:00"
 }
