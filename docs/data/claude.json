@@ -1,13 +1,33 @@
 {
   "items": [
     {
+      "id": "cc_b9c1cef3",
+      "title": "Claude CodeのMEMORY棚卸しスキルを自作して1ヶ月間使ってみた",
+      "url": "https://zenn.dev/fairydevices/articles/0723b8b06c1957",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.684303+00:00",
+      "excerpt": "はじめに こんにちは。Fairy Devices プロダクト開発部の河野（かわの）です。業務ではRustを使ったWebバックエンドサービスの開発や、Kubernetes等を使ったインフラ構築を担当しています。Rust歴は約10年で、rust-lang-jp等のRustのコミュニティーではtatsuya6502として活動しています。 Claude Codeは1年前（2025年8月）から業務で使ってい"
+    },
+    {
+      "id": "cc_c508fbe0",
+      "title": "メモ：Claude CodeをSonnet中心に、必要時にOpus・Codex Sol・Fableへエスカレーションする",
+      "url": "https://zenn.dev/kazuhito/articles/8d1d9ce50abea7",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.684236+00:00",
+      "excerpt": "自分用メモ👀 ※2026/08/25時点 普段はClaude CodeやCodexを利用しています。 作業環境は、最近一周回って、またCLI単体に戻っていて、少し利用量を節約したくて、表題の仕組みを入れることにしました🦔 普段使いはSonnetにしつつ、難しい問題だけ段階的に相談する構成にします。 役割は次のように分けています。 モデル 役割 Sonnet 普段の調査・実装・テスト Opus Cl"
+    },
+    {
       "id": "cc_0b19c4d9",
       "title": "Claude Code × Gemini CLIをオーケストレーションしてEC分析を多角的に回す方法",
       "url": "https://zenn.dev/web_benriya/articles/claude-code-gemini-cli-orchestration-ec",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168526+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.684149+00:00",
       "excerpt": "はじめに 「売上データは毎月Excelで集計しているが、どこに問題があるのかよくわからない」「GA4のレポートを見ても、次に何をすべきかピンとこない」——そう感じているEC担当者の方は少なくないのではないでしょうか。 近年、Claude CodeやGemini CLIといったAIアシスタントをコマンドラインから直接呼び出せるツールが登場し、データ分析の現場に大きな変化をもたらしています。それぞれの"
     },
     {
@@ -17,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168409+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.684059+00:00",
       "excerpt": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 https://zenn.dev/yui/articles/e4f8268ab5c6c1 Fable 5とOpus/Sonnetの品質差の大半は知能ではなく規律・順序・検証の差なので、それをスキル(working method + チーム別playbook)として明文化し、サブエージェントチーム"
     },
     {
@@ -27,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168337+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.684001+00:00",
       "excerpt": "はじめに：Claudeの口癖は「落ち着いてください。」 こんにちは、TOKIUMの中谷です。今年の4月に、開発完全未経験のまま新卒で入社しました。2ヶ月の開発研修を経て、いまはチームに配属されて1ヶ月の新人エンジニアです。 研修のチーム開発は、思いきり試して、思いきり失敗できる場所でした。Claude Code（以下 Claude）をフル稼働させてどんどんPRを出し、バグが出たら直して、また学ぶ。"
     },
     {
@@ -37,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168276+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.683952+00:00",
       "excerpt": "しんどい障害調査をなくしたい 障害調査には慣れと知識が必要です。どこを見るか、どの順番で見るか、そこから何を読み取るか。経験のある人ほど早く原因に近づけるし、経験がなければ手が止まります。 だから新人にとって、障害対応は「できればやりたくない仕事」になりがちです。早く原因を突き止めなければならない焦燥感の中で、それでも原因が分からない。あの時間のつらさは、慣れていてもきついものです。 そこで障害調"
     },
     {
@@ -47,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168203+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.683890+00:00",
       "excerpt": "TL;DR ClaudeのChatとCoworkで同じmemoryを使えるようになり、ユーザー自身が保存内容を編集・削除できるようになりました。 共有memoryを自分のAgentへ組み込むなら、jobをqueueへ入れたあとにmemoryが更新されるケースを分けて考える必要があります。 jobへmemoryRevisionを保存し、実行直前のrevisionと違えば処理を止めます。この記事では、"
     },
     {
@@ -57,48 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168106+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.683798+00:00",
       "excerpt": "はじめに 複雑な要件定義や設計判断には、最も高い能力を持つAIモデルを使いたい。一方で、リポジトリの調査、実装、テスト、修正といったトークン量の多い作業まで同じモデルへ任せると、そのモデルの利用枠を早く消費します。 そこで、高性能モデルを「司令塔」、別のモデルを「実装ワーカー」として分けます。司令塔は目的、計画、品質判断に集中し、ワーカーがコードを調査・実装します。 この記事では、Claude C"
-    },
-    {
-      "id": "cc_687c26bb",
-      "title": "Claude Code の permissions.deny を10通りの書き方で破ってみた",
-      "url": "https://zenn.dev/just_ryo/articles/2e3fadcfb587fa",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.168040+00:00",
-      "excerpt": ".claude/settings.json の permissions.deny に Bash(git push *) を書くと、git push は実行前に弾かれる。これは効く。 では、どこまで効くのか。実際に破りにいった記録です。 結論を先に書くと、丸かっこで囲むだけで抜けます。 ( git push ) deny の書き方を何行足しても、この形は塞げませんでした。 検証環境 macOS (D"
-    },
-    {
-      "id": "cc_ddf2efa6",
-      "title": "Claudeのトークン数はブラウザだけでは正確に数えられない",
-      "url": "https://zenn.dev/a1221/articles/claude-token-count-browser-limit",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.167962+00:00",
-      "excerpt": "はじめに ブラウザ内で完結するトークンカウンターを作って運用しています。入力したテキストをサーバーへ一切送らない、という制約を全ツールに課しているサイトの一部です。 GPTのトークン数は、この制約の中で正確に数えられます。js-tiktoken に o200k_base の辞書が同梱されていて、モデル本体と同じBPEをブラウザで走らせられるからです。 Claudeは数えられません。これは実装をサボ"
-    },
-    {
-      "id": "cc_82dcfd7e",
-      "title": "ARD（Agentic Resource Discovery）を Claude Code に導入する",
-      "url": "https://zenn.dev/k_yoshiya/articles/claude-code-ard-agentfinder",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.167870+00:00",
-      "excerpt": "はじめに 「この作業に使える MCP サーバーやスキル、もうどこかにあるんじゃないか」と思いながら、結局 Web 検索で探し回った経験はないでしょうか。 そこで ARD（Agentic Resource Discovery）のクライアント側コネクタ agentfinder を Claude Code に導入し、実際に検索を実行して観測しました。ARD は「AI が使える道具（MCP サーバー・Sk"
-    },
-    {
-      "id": "cc_876a3688",
-      "title": "ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話",
-      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:24.167775+00:00",
-      "excerpt": "はじめに 退勤直前にタスクを投げ、PCを閉じて帰る。寝ている間にテスト、AIによるレビュー修正まで回ってPRが上がってくる。翌朝、上がってきたPRをレビューする。 これは現在の私の開発の実情です。私がここでやることは2つだけで、止まったエージェントを起こすことと、承認が必要なものの確認・許可をすることです。 これは何も私に限った話ではないと感じてます。 実際クラウドエージェントでの開発は海外では当"
     },
     {
       "id": "cc_2e875cc6",
@@ -107,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:23.746125+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.624754+00:00",
       "excerpt": "社内の情シスとして、Claude Codeを自分の開発業務（レガシーPHP・Oracle・Windowsサーバーの保守）で数ヶ月使い倒し、同僚にも配り始めました。その過程で「CLAUDE.mdに禁止事項を書くだけでは事故は防げない」という結論に至り、PreToolUse hooksによる機械的なガードレールに全部寄せました。この記事はその設計メモです。 なぜCLAUDE.mdでは足りないか CLA"
     },
     {
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:23.746059+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.624706+00:00",
       "excerpt": "TL;DR Claude (Code) Desktop版が微妙に使いにくい（良いところもあるけど）ので、Claude Codeはターミナルで操作している。でもMarkdownを「読む」「ちょっと直す」の動線があんまり良くない。 別窓でIDEで読み書きしているが、複数プロジェクトを同時並行で進めてるとウィンドウが迷子になってしまって面倒。 私は\"にわか\"ターミナルユーザーなので、tmuxとかエディタ"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:23.745937+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.624619+00:00",
       "excerpt": "はじめに 前回の7.2で v2.0 に到達し、本編は完結しました。ブラウザに It works! を返す最小HTTPサーバが、 NICドライバからHTTPまで全部自作で動いています。 ただ、動くことと安全であることは別です。このスタックが処理しているのはネットワークから来るバイト列—— つまり、こちらの都合を一切考慮しない入力です。本編では「slirpが送ってくる正しいパケット」を前提に 積み上げ"
     },
     {
@@ -137,8 +117,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-26T13:03:23.745809+00:00",
+      "fetchedAt": "2026-08-26T19:55:14.624557+00:00",
       "excerpt": "web開発見習いのu-shinです! 今回は僕が開発したメモアプリ｢まとめときや｣とClaude Codeを連携させた仕組みについて、使っている技術を解説していきます。 最初はREST APIとPythonスクリプトで作ったのですが、それだと一般ユーザーには使えないことが分かり、最終的にMCP（Model Context Protocol）サーバーを自作するところまで作り直しました。その過程をまる"
+    },
+    {
+      "id": "cc_ba7a1df2",
+      "title": "AI社員の社則（CLAUDE.md憲法）の書き方 — 一人会社をAIエージェントで回す10のルール",
+      "url": "https://zenn.dev/t001ff/articles/kado-claude-md-constitution",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.624421+00:00",
+      "excerpt": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 AIエージェント：役目と指示を受けて、自分で仕事を進めるAIです。 検証：できあがった物が、条件や元の資料と合うかを確かめることです。 リポジトリ：仕事のファイルと、その変更の記録をまとめて置く場所です。 Claude CodeやCodexへ仕"
+    },
+    {
+      "id": "cc_eab108f4",
+      "title": "ClaudeとCodexで「作る役」と「疑う役」を分ける相互チェック設計",
+      "url": "https://zenn.dev/t001ff/articles/kado-cross-verify-agents",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.624369+00:00",
+      "excerpt": "筆者（青木 博資）がAI社員（Claude / Codex）と運営する一人会社KADOの実例です。AI社員が執筆し、筆者が事実確認と最終確認をしています。 検証：できあがった物が、条件や元の資料と合うかを確かめることです。 モデル：ClaudeやCodexなど、AIの頭脳の種類や版です。 同じAIのセルフチェックだけでは、前提を疑いにくい 同じ会話の中で「確認もして」と頼むと、誤字や単純なもれは見"
+    },
+    {
+      "id": "cc_3945da39",
+      "title": "Power AutomateをGUIで作るのをやめて、Claude + GitHubでコード管理してみた",
+      "url": "https://zenn.dev/explaza/articles/6c42a0dc0339ec",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.624316+00:00",
+      "excerpt": "最近、お仕事でPower AutomateのSolutionを構築する機会がありました。 PowerAutomateといえば、ブラウザ上のGUIからフローを作成・編集・テストするイメージが強かったので、最初はブラウザを開いて手でポチポチと作ってましたが、時間が掛かりすぎるため、途中で方針を変えました笑 今回はGUIを中心に開発するのではなく、Claudeから指示してPAC CLI + Datave"
+    },
+    {
+      "id": "cc_687c26bb",
+      "title": "Claude Code の permissions.deny を10通りの書き方で破ってみた",
+      "url": "https://zenn.dev/just_ryo/articles/2e3fadcfb587fa",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-26T19:55:14.624209+00:00",
+      "excerpt": ".claude/settings.json の permissions.deny に Bash(git push *) を書くと、git push は実行前に弾かれる。これは効く。 では、どこまで効くのか。実際に破りにいった記録です。 結論を先に書くと、丸かっこで囲むだけで抜けます。 ( git push ) deny の書き方を何行足しても、この形は塞げませんでした。 検証環境 macOS (D"
     },
     {
       "id": "cc_84bb0e72",
@@ -147,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-08-26T13:03:24.340473+00:00",
+      "fetchedAt": "2026-08-26T19:55:15.107259+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -157,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-26T13:03:24.340548+00:00",
+      "fetchedAt": "2026-08-26T19:55:15.107336+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -167,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-26T13:03:24.508669+00:00",
+      "fetchedAt": "2026-08-26T19:55:15.505328+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-26T13:03:24.508730+00:00",
+      "fetchedAt": "2026-08-26T19:55:15.505382+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +207,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-26T13:03:24.508806+00:00",
+      "fetchedAt": "2026-08-26T19:55:15.505437+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-26T13:03:24.508818+00:00"
+  "lastCollection": "2026-08-26T19:55:15.505449+00:00"
 }
