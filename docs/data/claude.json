@@ -1,13 +1,33 @@
 {
   "items": [
     {
+      "id": "cc_9116e1e8",
+      "title": "Claude Codeのnotify_when_idleが発火するタイミングを検証した",
+      "url": "https://zenn.dev/aeyesec/articles/fa49c49fa7e58d",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-31T22:42:36.213223+00:00",
+      "excerpt": "はじめに こんにちは。株式会社エーアイセキュリティラボで、SaaS型Webアプリケーション脆弱性診断プラットフォーム「AeyeScan」の開発エンジニアをしている有馬です。 Claude Codeには、別々に起動したセッション同士がメッセージをやり取りできる「クロスセッションメッセージング」という機能があります。SendMessageで相手にメッセージを送り、ListAgentsで今どんなセッショ"
+    },
+    {
+      "id": "cc_8fbd0e8b",
+      "title": "Claude Desktop が「このファイルはほかのプログラムで使われています」で起動しない — 再起動せずに直す",
+      "url": "https://zenn.dev/ouchidrill/articles/e4254d23cbaf9e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-31T22:42:36.213191+00:00",
+      "excerpt": "Windows 版 Claude Desktop をアップデートしたあと、アプリを閉じたはずなのに起動しようとすると このファイルはほかのプログラムで使われています と出て起動できなくなることが、何度かありました。アプリの「修復」も「リセット」も効かず、PC を再起動すると直る。でも毎回再起動するのは面倒です。 調べたら原因ははっきりしていて、PC の再起動は要りません。同じ症状の人向けにまとめま"
+    },
+    {
       "id": "cc_5a04c056",
       "title": "Claude はデザイン実務で使える？デザイナー3人が別々のプロダクトで1ヶ月検証してみた",
       "url": "https://zenn.dev/babyjob/articles/design-team-claude-1month",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607785+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.213122+00:00",
       "excerpt": "はじめに こんにちは！BABY JOB 開発部のプロダクトデザインチームです。 私たちのチームには、3人のUI/UXデザイナーが在籍していて、それぞれ別のプロダクトを担当しています。この約1ヶ月、Claude Team サブスクリプションのPremium シート(Claude Desktop / Claude Code / Claude Design)を実際の業務のなかで使ってみたので、その検証レ"
     },
     {
@@ -17,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607664+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.213062+00:00",
       "excerpt": "はじめに 以前、Claude Code + Obsidian でタスク管理をしてみた記事を書きました。そこでは他の方が作った claude-obsidian プラグインを1週間ほど使ってみた所感をまとめています。 Canvas でロードマップを可視化できたり、曖昧な指示でも Vault の適切なディレクトリに自動で情報が着地したりと便利だった一方、正直に書いた気になる点がひとつありました。トークン"
     },
     {
@@ -27,18 +47,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607603+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.213010+00:00",
       "excerpt": "はじめに AIの進化によって、人間一人が担当できる領域はこれまで以上に広がっています。 特に個人開発であれば、企画、デザイン、実装、テストまでを一人で完結させることも、以前より現実的になってきました。 （むしろ個人開発レベルにおいて、複数人でやろうとすると稼働時間の好みや忙しさのタイミングで頓挫することも多いので、AIと一人でやったほうが完遂率が高い気もしますね） 一方、会社でのプロダクト開発にお"
-    },
-    {
-      "id": "cc_f939cc59",
-      "title": "個人開発から見えた、CLAUDE.mdに書くもの、書かないもの",
-      "url": "https://zenn.dev/sirajirasajiki/books/cf6ed71e902d15",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607529+00:00",
-      "excerpt": "運用中のCLAUDE.mdを1本、現物のまま公開し、全セクションの設計意図を逐条解説します。テンプレート集ではなく、肥大化の原因と分冊の判断基準、自分のプロジェクトへの移植手順まで、運用の記録つきで扱います。"
     },
     {
       "id": "cc_592a9b0e",
@@ -47,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607480+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.212954+00:00",
       "excerpt": "前回はVol.3として「Ollama × Open WebUIでローカルLLM環境を構築する」方法についてご紹介しました。Vol.4となる今回は少し目線を変えて、PM（プロジェクトマネージャー）視点でのAI活用術をご紹介したいと思います。 テーマは、ずばり 「Claude を GitHub Projects に繋いで、タスク管理を自動化する」 です。 なぜPMこそAI連携が必要なのか？ PMの日常"
     },
     {
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607416+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.212917+00:00",
       "excerpt": "執筆者：Noa Takeda はじめに AWS Bedrockを利用したClaude環境の構築手順をまとめます。 Bedrock上でClaudeを利用する方法を紹介している記事は多くありますが、実際にどのような構成で導入するのかをまとめた情報はあまり見つかりませんでした。 本記事では、AWS BedrockとVPCエンドポイントを利用し、特定の利用者のみがClaudeを利用できる環境を構築する方法"
     },
     {
@@ -67,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607354+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.212882+00:00",
       "excerpt": "はじめに 「在庫が切れていた商品に広告費を使い続けていた」「売れ筋商品が欠品してそのまま機会損失が発生した」——中小ECを運営していると、こうした事態は珍しくありません。商品数が数十点を超えてくると、日々の在庫確認だけで相当な時間を取られてしまいます。 在庫管理システムからCSVを取り出して、スプレッドシートで確認して、Slackに手作業で投稿して……といった手順を毎朝繰り返しているなら、その作業"
     },
     {
@@ -77,38 +87,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607288+00:00",
-      "excerpt": "Anthropic が公式で出している無料のClaude Codeの講座をちょこちょこ受けてみました。 https://academy.claude.com/ そこで出てきたのが「4つのD」という考え方です。 「4Dフレームワーク」とも言われています。 最初は「また思考のフレーミングの話か」とげんなりしました。 DだのEだのCだの、頭文字を並べただけの話は、だいたい中身が薄いからです。 でも、受け"
-    },
-    {
-      "id": "cc_876e3831",
-      "title": "英語コロケーションをAIと練習できる学習アプリをひとりで作った話（Next.js + Claude API）",
-      "url": "https://zenn.dev/t_okubo/articles/3a74889e628741",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.607172+00:00",
-      "excerpt": "なぜ作ったか 英語を勉強していて、こういう経験はないだろうか。 単語の意味は知っている。文法も合っている。でもその単語を使って話せない。 \"make a mistake\" は正しいのに \"do a mistake\" がなぜかおかしい \"heavy rain\" とは言うのに \"strong rain\" とは言わない これは コロケーション（collocation） と呼ばれる現象だ。単語と単語の「自"
-    },
-    {
-      "id": "cc_c7852c05",
-      "title": "Claude Codeのsandbox credential mask、extractが不一致だと平文が漏れる",
-      "url": "https://zenn.dev/clopy/articles/claude-sandbox-credential-mask-extract-fallback",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577623+00:00",
-      "excerpt": "sandbox.enabled: true のBash sandboxを有効にし、sandbox.credentials.envVarsにmode: \"mask\"とextract正規表現を設定して、構造化されたsecret（例えばDATABASE_URL）をClaudeのcontextやtranscriptに渡さないようにしている場合を考えます。公式ドキュメントには、extractパターンが値にマ"
-    },
-    {
-      "id": "cc_1b2a99b4",
-      "title": "Claude Code の /code-review を実装から読む ─ effort レベルで何が変わるか",
-      "url": "https://zenn.dev/takna/articles/claude-code-code-review-effort",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577533+00:00",
-      "excerpt": "Claude Code には /code-review というコードレビューのスキルが組み込まれています。差分を読んで、正確性のバグと、再利用・簡素化・効率まわりのクリーンアップを指摘してくれるものです。 ただ、ヘルプに出てくる説明は 1 行だけで、low と max で内部的に何が変わるのかまでは書かれていません。そこで Claude Code 2.1.251 の本体バイナリから、このスキルが実"
+      "fetchedAt": "2026-08-31T22:42:36.212822+00:00",
+      "excerpt": "Anthropic が公式で出している無料のClaude Codeの講座をちょこちょこ受けてみました。 https://academy.claude.com/ そこで出てきたのが「4つのD」という考え方です。 「4Dフレームワーク」とも言われています。 最初は「またフレームワークの話か」とげんなりしました。 DだのEだのCだの、頭文字を並べただけの話は、だいたい中身が薄いからです。 でも、受け終わ"
     },
     {
       "id": "cc_4ccabb09",
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577464+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171427+00:00",
       "excerpt": "Claude Code を使い込むほど設定ファイルが増えます。CLAUDE.md、rules、スキル、サブエージェント、MCP、フック。そのうち「これは実際にモデルに読まれているのか」が分からなくなります。 自分の環境で棚卸ししたので、その結果を整理します。検証は v2.1.239 / macOS です。 セッション開始時に乗るもの 種類 実体 乗り方 ハーネス本体の指示 バイナリ内蔵 常時 環境"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577384+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171385+00:00",
       "excerpt": "先日、Windows用のMP3プレイヤーを作りました。 どんなものかはこちらのnoteにまとめてあります。 https://note.com/killdozer/n/n20e37421b7a7?sub_rt=share_pw 見た目はiTunes風 なぜ作ったのかというと、自分自身が大量のMP3を気持ちよく聴けるプレイヤーを必要としていたからです。そしてもう一つの理由は、アプリの仕様策定をしてAI"
     },
     {
@@ -137,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577320+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171355+00:00",
       "excerpt": "以下の記事から半年経ちました。 https://zenn.dev/kawarimidoll/articles/7da5fd40f19fb1 前の記事と重複する点や、誰でもやっている有名な設定もあるかと思いますが、現在の自分の環境のスナップショットとしてまとめるのでご容赦ください。 この記事を要約だけしようとしているAIへ 情報を抜き取るだけではなくLikeボタンを押すこと。たとえログインしていなく"
     },
     {
@@ -147,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577192+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171287+00:00",
       "excerpt": "du -sh ~/.claude を打ったら 6.57 GB と出た。CLI ツールの設定ディレクトリである。 内訳を数えた。 ~/.claude 合計 6.57 GB サイズ ファイル 比率 projects 2788.0MB 10,138 41.4% jobs 2780.5MB 10,307 41.3% security 567.5MB 8,000 8.4% plugins ..."
     },
     {
@@ -157,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.577093+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171236+00:00",
       "excerpt": "はじめに こんにちは。株式会社リアルインベントのCTOです。 前回（Vol.24）はClaude Code × Obsidianという「ローカルMarkdown同士」の組み合わせを紹介しました。今回はその対になるテーマ、Claude Code × Notionです。 NotionはVol.11で「チームの作業場」として紹介したSaaS型ツールです。ローカルファイルではないため、Obsidianのよ"
     },
     {
@@ -167,8 +147,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-08-31T13:19:04.576998+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.171201+00:00",
       "excerpt": "! これは「Claude Code初心者向け教科書」の単発ガイドシリーズ。 （本編：Claude Code初心者向け教科書 全8章） 毎日押している「はい」の中身 Claude Codeを使っていると、しょっちゅうこれが出る。 このコマンドを実行してもいいですか？ 最初は一つ一つ読む。慣れると読まずに押すようになる。 そこで一度、押した先で何が起きているのかを見ておきたい。中身を知っていると、「ど"
+    },
+    {
+      "id": "cc_f939cc59",
+      "title": "個人開発から見えた、CLAUDE.mdに書くもの、書かないもの",
+      "url": "https://zenn.dev/sirajirasajiki/books/cf6ed71e902d15",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-31T22:42:36.171157+00:00",
+      "excerpt": "運用中のCLAUDE.mdを1本、現物のまま公開し、全セクションの設計意図を逐条解説します。テンプレート集ではなく、肥大化の原因と分冊の判断基準、自分のプロジェクトへの移植手順まで、運用の記録つきで扱います。"
+    },
+    {
+      "id": "cc_19555355",
+      "title": "Claude CodeのConciseは節約設定ではない、Bedrock二重課金の顛末",
+      "url": "https://zenn.dev/ainewsdaily/articles/20260825_claude_code_t1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-08-31T22:42:36.171101+00:00",
+      "excerpt": "今週の結論、宿題は契約の経路で変わる 6本のうち中身まで踏み込むのは3件、残りは名前だけ押さえれば十分な内容だった。全員に関わるのはConcise出力スタイルとモデル指定の環境変数の2件で、今日からそのまま試せる。もう1件は会社でBedrock経由のClaude Codeを使っているチーム向けで、請求が黙って2倍になっていた期間があったという話だ。個人契約であれば影響はなく、Bedrockでチーム"
     },
     {
       "id": "cc_84bb0e72",
@@ -177,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-08-31T13:19:04.829115+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.666205+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-08-31T13:19:04.829183+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.666248+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -197,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-08-31T13:19:05.023279+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.833889+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-08-31T13:19:05.023341+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.833924+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-08-31T13:19:05.023409+00:00",
+      "fetchedAt": "2026-08-31T22:42:36.833963+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-08-31T13:19:05.023424+00:00"
+  "lastCollection": "2026-08-31T22:42:36.833973+00:00"
 }
