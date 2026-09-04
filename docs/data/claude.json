@@ -1,124 +1,94 @@
 {
   "items": [
     {
-      "id": "cc_48992ba6",
-      "title": "Claude Fable 5.1への移行は何を基準に判断するべきか",
-      "url": "https://zenn.dev/kai_ai/articles/930b02de9c8dc3",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.751298+00:00",
-      "excerpt": "Claude Fable 5.1では、長時間のエージェント処理や複数段階の調査に関する性能向上と、プロンプトキャッシュ読み込み料金の引き下げが発表されました。 では、Fable 5を使っているシステムは、すぐに5.1へ全面移行するべきでしょうか。 結論は、モデル名や1トークンあたりの料金だけでは決められない、です。 キャッシュ読み込みは安くなりましたが、入力・出力の基本単価は据え置きです。さらにA"
-    },
-    {
-      "id": "cc_08e9ba25",
-      "title": "Claude Fable 5.1 を使ってみる：長時間エージェント開発で注目したい進化点",
-      "url": "https://zenn.dev/idnet/articles/d041991dde0608",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.751230+00:00",
-      "excerpt": "2026年9月、Anthropic は Claude Fable 5.1 を発表しました。 本モデルは、単発の質問応答だけでなく、長時間にわたるコーディング、調査、ツール操作、複数ステップの業務自動化を想定したフロンティアモデルです。 本記事では、Fable 5.1 の位置づけ、主な性能、コスト面の変化、実務での使いどころを、AI アプリケーション開発者の視点で整理します。 注意: 本記事中のベン"
-    },
-    {
-      "id": "cc_dd86ccad",
-      "title": "同じ指示でもここまで違う。ポケモン対戦ログのJSON→Markdown化でClaudeとGeminiを比べた",
-      "url": "https://zenn.dev/hoakari/articles/2026-09-03-poke-saifu-claude-gemini-comparison",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.751165+00:00",
-      "excerpt": "前回の記事では、ポケモン対戦の動画やスクリーンショットからOCRでテキストを抽出し、JSONに変換する Poke-Saifu の話を書きました。 今回は、その続きです。 Poke-Saifuが出力したJSONと、対戦中の「見せ合い」画面のスクリーンショットをAIに渡して、読みやすいMarkdownの対戦記録に変換してみました。同じ前提指示・同じ入力をClaudeとGeminiに与えたのですが、結果"
-    },
-    {
-      "id": "cc_f58174ba",
-      "title": "ルールではなくskillに指示を書くことで、Claudeのコメントを減らせた",
-      "url": "https://zenn.dev/uzu_tech/articles/58a84a9346b910",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.751100+00:00",
-      "excerpt": "はじめに 株式会社Sally 所属エンジニアの @wellPicker です。 弊社では、スマホやパソコンでマダミスを遊べるアプリであるウズや、マダミス情報・予約管理サイトマダミス.jp、マダミス開発ツールウズスタジオを開発しています。 マダミスについてはこちらをご覧ください。 Claude Code に実装させると、コメントがやたら長くなります。設定 1 行に 18 行のコメントが付くこともあり"
-    },
-    {
-      "id": "cc_04476e83",
-      "title": "Claude Code が目標から逸れたことは、数えるまで分からない",
-      "url": "https://zenn.dev/erenoa6622/articles/goal-drift-counted-by-commit-path",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.751016+00:00",
-      "excerpt": "! AI エージェントに長い仕事を任せていて、成果物は積み上がっているのに「頼まれた仕事とは違うものが増えている気がする」── その症状を、感触ではなく件数で見るための記事です。Claude Code に事業側の作業まで任せている運用で、実際に逸れて、実際に数えた記録を根拠にしています。汎用の方法論ではなく、一つの運用で起きたこと（n=1）の話です。 3行で言うと 依頼主が出した第一目標は「人に読"
-    },
-    {
-      "id": "cc_20470949",
-      "title": "Claude CodeにProfile機能を導入する",
-      "url": "https://zenn.dev/explaza/articles/8ce3ed2bbec7c7",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.750927+00:00",
-      "excerpt": "こんにちは、@_mkazutakaです。 「役割ごとに Claude Code の設定をまるごと入れ替えたい」と思ったことはないでしょうか？ 例えば、開発で使うスキルと、相談用の資料を作るスキル、面談のときに使うスキルは、それぞれまったくの別物です。もっというと本業で使うスキルとプライベートで使うスキルも別かもしれませんね。 ところが今のコーディングエージェント、ここでは Claude Code "
-    },
-    {
-      "id": "cc_6d0f6a5b",
-      "title": "MagicPod MCPサーバーとClaude Skillsで実現する、QA定型業務の標準化",
-      "url": "https://zenn.dev/genda_jp/articles/70c29cc3fed698",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.750790+00:00",
-      "excerpt": "こんにちは、Platform Engineering部 QAの池上です。GENDAではMagicPodを使ったE2Eテスト自動化を複数のプロダクトで運用しています。私はその中で、バッチ実行の結果確認やテスト環境の整備といったテスト自動化関連の業務を主に担当しています。 GENDAでは自動テストのツールとしてMagicPodを採用しています。GENDAはM&Aによって取り扱うプロダクトの種類・数が時"
-    },
-    {
-      "id": "cc_abf1efe0",
-      "title": "claude --debug apiでcache_controlが見えなかった話",
-      "url": "https://zenn.dev/clopy/articles/claude-debug-api-cache-control-gap",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.692394+00:00",
-      "excerpt": "症状: --debug api --debug-fileでcache_controlを探したが1件も出てこない プロジェクトのサブエージェント (.claude/agents/*.md) に experimental: cacheTtl: 1h を設定した場合、Claude Code のドキュメントには「サブスクリプションの使用量クレジットで動いているセッションでは 1h が無視される」という記載"
-    },
-    {
       "id": "cc_b6c393d5",
       "title": "Claude Code の /resume が探しにくいので、会話履歴を全文検索するスキルを作った",
       "url": "https://zenn.dev/penpeen/articles/035351eeffcaec",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.692244+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.365132+00:00",
       "excerpt": "resume について Claude Code には /resume という機能があります。過去のセッションを一覧から選んで、その会話の続きから再開できる機能です。 https://code.claude.com/docs/ja/sessions 一覧には各セッションが 1 行ずつ並び、文字を打ち込むとその場で絞り込みができます。 困りごと 実際に使ってみると、検索しても目的のセッションが見つから"
     },
     {
-      "id": "cc_a21e33c6",
-      "title": "Claude Codeの制限モードでスキルが消えた原因と直し方",
-      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-restricted-mode-skills",
+      "id": "cc_89e2d262",
+      "title": "【Vol.25】SaaSがAIの中に入る日 — Claudeforceに学ぶ「AIから呼ばれる側」の設計",
+      "url": "https://zenn.dev/tech_realinvent/articles/9e5edbbd4ea776",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.692074+00:00",
-      "excerpt": "Claude Codeの制限モードでスキルが消えた原因と直し方 この記事の要点 Claude Codeは権限設定やサンドボックス機能により、状況次第でツールやスキルの実行を制限することがあります。 Qiitaでは、制限モードの導入後に自作スキル47本がすべて認識されなくなったという報告があります。 スキルが消えたときは、設定ファイルの権限範囲とスキルの配置場所を順に確認すると原因を切り分けやすいで"
+      "fetchedAt": "2026-09-04T11:00:22.364965+00:00",
+      "excerpt": "はじめに こんにちは。株式会社リアルインベントCTOです。 noteでも違う話題で度々投稿しています。ご興味あれば覗いてください。（こちら） さてさて先日の内容ではありますが、Salesforce が自社製品についてかなり思い切ったことを言いました。「もう Salesforce のアプリを開く必要はない」。CRM 最大手が、自社の画面を開かせなくていいと宣言したわけです。 Anthropic との"
     },
     {
-      "id": "cc_4399686a",
-      "title": "Claude CodeのArtifactでの公開をPreToolUseフックで社内ツールに誘導する",
-      "url": "https://zenn.dev/pepabo/articles/930739777a86d7",
+      "id": "cc_682114df",
+      "title": "Codex / Claude Codeの使用量を最適化する。Thinking・レビュー・コンテキスト運用見直しプロンプト",
+      "url": "https://zenn.dev/joh_luck/articles/c93bf3668c49b2",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.691928+00:00",
-      "excerpt": "複数のTeamにまたがるArtifact共有の課題 GMOペパボでは、部門単位でClaudeのTeamプランを契約しています。理由はいくつかありますが、一番大きいのはTeamプランの上限人数が150人(2026年9月時点)であることです。 Claude CodeのArtifactツールは、作成したHTMLをclaude.ai上でホストして公開できます。公開範囲は「自分だけ」「組織内の特定のメンバー"
+      "fetchedAt": "2026-09-04T11:00:22.364902+00:00",
+      "excerpt": "はじめに CodexやClaude Codeで最上位プランを使っていても、開発量が増えると利用制限にかかることがあります。 特に、常時高いThinking設定を使っていたり、自動レビューを何度も回したり、不要なコンテキストを毎回読み込ませていると、想像以上に使用量が膨らみます。 そこで今回、以下をまとめて見直すためのプロンプトを作りました。 モデル・Thinkingレベルの使い分け 自動レビューの"
     },
     {
-      "id": "cc_822cbb90",
-      "title": "Claude CodeのskillsでAI仮想会社の社員を作る",
-      "url": "https://zenn.dev/yukke_dev/articles/20260903-claude-code-skills-ai-company",
+      "id": "cc_fb845b9c",
+      "title": "不要になったPCがAI秘書サーバーになった話【Claude Code + Ubuntu】",
+      "url": "https://zenn.dev/hifn/articles/old_pc_ai_server_draft",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.691801+00:00",
-      "excerpt": "この記事は、Claude Code の skills を「AI仮想会社の社員」として扱い、リサーチ、執筆、校閲の流れをファイルで分けて運用する実験の記録です。 対象読者は、AIエージェントに同じ作業手順を何度も説明していて、プロジェクト内に再利用できる作業ルールを置きたいエンジニアです。 ここでは実際にこのリポジトリに置いている CLAUDE.md と .claude/skills/ を一次情報と"
+      "fetchedAt": "2026-09-04T11:00:22.364839+00:00",
+      "excerpt": "はじめに 「AI秘書を作りたいけど、専用サーバーを買う余裕はない」 そう思っている人は多いと思います。でも実際には、今手元にある古いPCで十分動きます。 自分が使っているのは NEC VersaPro。5〜6年前のビジネス向けノートPCです。スペックはこれだけ： 項目 スペック CPU Intel Core i5-10210Y（4コア8スレッド） RAM 8 GB SSD 128 GB 月額コスト"
+    },
+    {
+      "id": "cc_95f7eaeb",
+      "title": "Claude CodeにMCPサーバーを接続して外部ツールを持たせる",
+      "url": "https://zenn.dev/hifn/articles/mcp-claude-code-external-tools",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:22.364774+00:00",
+      "excerpt": "はじめに 前回の記事（大学生がClaude Code × Discord Botで自分専用AI秘書を作った話）で、AI秘書Dotの全体構成を紹介しました。 その中で「Claude CodeがGoogle Calendarに直接アクセスできる」と書いたのに、具体的な設定方法を説明しませんでした。 今回はその肝心な部分——MCP（Model Context Protocol）の設定方法を、実際に動かし"
+    },
+    {
+      "id": "cc_cb42215b",
+      "title": "Claude Fable 5.1、GPT-6 Astra。爆速進化の時代に、人間は何をすべきなのか",
+      "url": "https://zenn.dev/eques_blog/articles/190b5c5a7aa980",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:22.364679+00:00",
+      "excerpt": "はじめに 私は札幌で現役のAIコンサルをしながら、「札幌すごいAI会」というコミュニティを運営しています。 2025年3月に発足して、これまでイベントを30回以上開催し、Discordは200名を越えました。2026年2月には「札幌すごいAIまつり」という100名規模のAIフェスを個人で開催し、北海道新聞にも取り上げてもらいました。同年6月にはAI映画祭とAIハッカソンを同日開催、そして8月には映"
+    },
+    {
+      "id": "cc_584e8e6d",
+      "title": "【受託SE向け】Claude Codeを「毎朝記憶が消える天才新人」として運用したら壊れなくなった【hook39本を全公開】",
+      "url": "https://zenn.dev/soeno9/books/claude-code-jutaku-ops",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:22.364614+00:00",
+      "excerpt": "受託開発SEが自分のプロジェクトで実際に回している Claude Code の運用一式を公開します。CLAUDE.md を 59 行に保つ規約分冊、役割別に設計した hook 39 本、AI の「直しました」を機械的に検証するビルドタイムスタンプ、知識の揮発を防ぐ自動 push とメモリ index 監視、RTK / kizami 導入時に踏んだ罠まで。すべて実際の settings.json と"
+    },
+    {
+      "id": "cc_be25fa1c",
+      "title": "Claude Code を 6 本並列で回し、コードでなく動作と資料で確認する運用：命名・git 隔離・セッション間通信・操縦席",
+      "url": "https://zenn.dev/daichi_pep/articles/claude-code-six-parallel-sessions",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:22.364535+00:00",
+      "excerpt": "Claude Code を使うようになってから、確認の仕方を変えました。コードを自分で読む代わりに、動かして挙動を見る、全体像を Claude に資料として起こさせて読む、の 2 つで確認しています。理由は効率だけではありません。今のモデルの水準だと、自分でコードレビューをするより、この方が結局誤りが少なく、品質や方向性のズレも出にくいと感じているからです。 同じ資料やスクリーンショット、動画は、"
+    },
+    {
+      "id": "cc_e4e2bf41",
+      "title": "Claude/ChatGPT/Gemini 即効スキル25個 全文日本語化（省略なし・コピペ可）",
+      "url": "https://zenn.dev/trailfusionai/articles/ai-news-20260513000251-07fa5e",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:22.364444+00:00",
+      "excerpt": "Claude の Skills、ChatGPT の Custom GPT、Gemini の Gem — どれも本質は「役割と制約を明文化した .md」を読み込ませることです。本記事では、英語圏で配布されている実用スキル25個を 一切省略せず・そのままコピペで使える形 で全文日本語化してまとめました。元ネタは Nico (@nicos_ai) による配布パック。 各スキルの本文は ```markdo"
     },
     {
       "id": "cc_60c6e36e",
@@ -127,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.691429+00:00",
+      "fetchedAt": "2026-09-04T11:00:21.836093+00:00",
       "excerpt": "Claude Codeの永続メモリ（auto memory）を5ヶ月使い、6プロジェクトに112件の知見が溜まった。今回これを棚卸しして、壊れていた箇所を実際に修理するところまでやった。先に結果を書く。 「自分の作業スタイルや指示の癖を学習してくれる」と思って導入したが、作業スタイルの記録は112件中1件。大半は環境依存の罠の記録だった メモリ同士を繋ぐ [[ ]] リンクは96個中27個が壊れて"
     },
     {
@@ -137,8 +107,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-04T04:01:22.691199+00:00",
+      "fetchedAt": "2026-09-04T11:00:21.835997+00:00",
       "excerpt": "結論 PreCompact hookには2種類あり、目的がまったく違う。 種類 目的 Claudeの動作 バックアップ型（ファイルコピー） 人間がcompact前ログを読み返す 変わらない ルール注入型（stdout出力） compactサマリーに制約を含める 変わる 私はバックアップ型を入れて「解決した」と思っていたが、Claudeの動作は何も変わっていなかった。 最初に持っていた誤解 「CLA"
+    },
+    {
+      "id": "cc_3afe58af",
+      "title": "Claude Code 2.1.251前でもsymlink探索起点へのRead denyは効くか実測した",
+      "url": "https://zenn.dev/clopy/articles/claude-grep-glob-symlink-deny-still-blocks",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:21.835909+00:00",
+      "excerpt": "結論から: 探索起点そのものがsymlinkでも、permissions.denyはブロックしていた Claude Codeの changelog 2.1.251（2026-08-28）にはこう書かれています。 Fixed Grep and Glob not applying Read(...) deny rules to files reached through a symlinked sea"
+    },
+    {
+      "id": "cc_b6007b3d",
+      "title": "Claude Fable 5.1の「ワンショット開発」をGitHubまで読んでみた",
+      "url": "https://zenn.dev/dantarg/articles/fable51-one-shot-is-not-one-loop",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:21.835818+00:00",
+      "excerpt": "2026年9月1日、AnthropicがClaude Fable 5.1とClaude Mythos 5.1を発表しました。 それから数日。海外でも国内でも、かなりの勢いで事例と評価が流れています。 ベンチマークが強い。 Minecraftを模したゲーム、Mario Kart風のレーシングゲーム、FPS、実在都市の3D再現。長い作業も、人間が付きっきりにならなくても進める。 one prompt、"
+    },
+    {
+      "id": "cc_97cdedef",
+      "title": "Claude Code に5人格を分担させて並列開発する",
+      "url": "https://zenn.dev/quintetkit/articles/claude-code-multi-persona-workflow",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-04T11:00:21.835589+00:00",
+      "excerpt": "Claude Code に大きめの依頼をすると、こうなりませんか。 認証まわりを頼んだのに、ついでにエラーハンドリングの共通化まで入っている 差分が 40 ファイルあり、全部読む気力が湧かないので雰囲気で承認する 3 日後、なぜこの実装になっているのか自分でも説明できない 並列で走らせたいが、競合が怖くて結局 1 本ずつ回している 3 ヶ月で個人アプリを 10 本作り、うち 2 本を App St"
     },
     {
       "id": "cc_f73cedfd",
@@ -147,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-04T04:01:22.919106+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.595533+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -157,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-04T04:01:22.919191+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.595605+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -167,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-09-04T04:01:22.919271+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.595670+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -177,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-04T04:01:23.089081+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.771352+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-04T04:01:23.089161+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.771497+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -197,9 +197,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-04T04:01:23.089246+00:00",
+      "fetchedAt": "2026-09-04T11:00:22.771583+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-04T04:01:23.089261+00:00"
+  "lastCollection": "2026-09-04T11:00:22.771597+00:00"
 }
