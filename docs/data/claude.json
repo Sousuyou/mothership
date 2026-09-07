@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_3625cc0f",
-      "title": "Claude Fable 5.1移行はプロンプト追記だけでは足りない。既存エージェントの実装チェックリスト",
-      "url": "https://zenn.dev/nomurasan/articles/claude-fable-5-1-agent-migration",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.820446+00:00",
-      "excerpt": "! この記事は、2026年9月3日時点のAnthropic公式資料を基に、AIが構成、コード例、チェックリストを作成し、主張単位で再照合したものです。著者環境での移行成功率、性能改善、コスト削減を実測した記事ではありません。 Claude Fable 5.1へ既存のAIエージェントを移すとき、モデルIDとシステムプロンプトだけを変えると、API互換性と会話の継続性に問題が残ります。thinking"
-    },
-    {
-      "id": "cc_f713880e",
-      "title": "Claude Fable 5.1 が出たので測ってみた",
-      "url": "https://zenn.dev/mumihatsu/articles/8d7a52232e1d71",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.820360+00:00",
-      "excerpt": "1. はじめに — 前回と同じ日課を、もう一度 自分は QA エンジニアで、普段のテスト設計に生成 AI（Claude）を使っています。 Claude Fable 5.1 が公開されました。前回の記事（Opus 5 計測）で書いたとおり、モデルの実力はうたい文句ではなく、自分の題材で測った数字で判断するしかありません。凍結してある測定セットに、モデルだけ差し替えて同じ 3 つの測定を回しました。 "
-    },
-    {
       "id": "cc_af0ec46c",
       "title": "Claude in Chromeが正式版に、権限スコープはvisual groundingの安全弁として設計されている",
       "url": "https://zenn.dev/every_ai_recipe/articles/claude-chrome-3-permission-modes",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.820215+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331538+00:00",
       "excerpt": "TL;DR Anthropicは2026年8月26日、ブラウザ操作エージェント拡張機能「Claude in Chrome」を正式提供にした（2025年8月に一部Maxユーザー限定の試験公開→2025年12月に有料プラン全体へ拡大→2026年8月GA、という段階を踏んでいる） 実装はDOM操作ではなく、スクリーンショットを見て要素の座標を推定するvisual grounding方式。マークアップに依"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.820139+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331456+00:00",
       "excerpt": "TL;DR Claude Codeのようなコーディングエージェントに設計・実装・レビュー対応を任せる開発スタイル（AI-DLC: AI-Driven Development Lifecycleのような、要件→設計→計画→実装→レビューを段階的に進める手法）では、各ステップの間に「エージェントが考えている間」「人間が承認・レビューする間」の待ち時間が必ず挟まる。 git worktree で同じリポ"
     },
     {
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.820075+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331395+00:00",
       "excerpt": "はじめに 「Claudeforceって何？」 最近、Salesforceの管理者コミュニティでそんな声が増えています。私も最初に「Claudeforce」という言葉を見かけたとき、なんとなくAgentforceの新しいブランド名かと思って二度見しました。 実はこれ、SalesforceとAnthropicが2026年8月26日に発表した戦略的パートナーシップの名称です。管理者として「何かしないとい"
     },
     {
@@ -57,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.819980+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331304+00:00",
       "excerpt": "はじめに Stravaのアクティビティ画面を眺めていて、こんなことを思ったことはないでしょうか。 「先月と今月でケイデンスは改善しているのか？」 「Zone2の時間は狙いどおり確保できているのか？」 「この3ヶ月、週間走行距離はちゃんと積み上がっているのか？」 Stravaのアプリは1回ごとのアクティビティを見るのは得意ですが、複数のアクティビティを横断して傾向を掴むのはあまり得意ではありません。"
     },
     {
@@ -67,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.819874+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331181+00:00",
       "excerpt": "クライアント案件で運用中のUIキット（BtoB SaaS）を、スタイルベースからバリアブルベースに移行しました。カラースタイル48種、差し替え約2,800箇所。手作業なら数日かかる規模ですが、Claude（チャット版）+ Figma MCPでほぼ全自動、移行作業自体は1時間ほどでした（落とし穴にハマった時間込み）。 Figma MCPの記事はすでにたくさんありますが、そのほとんどはエンジニア視点の"
     },
     {
@@ -77,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.819809+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331119+00:00",
       "excerpt": "hook を書きました。JSON は正しい。キー名も合っている。エラーも出ません。 何も起きません。 このとき困るのは、間違っている箇所が画面に出ないことです。 起動しても警告が出ず、--debug にも出ず、ただ動きません。 .claude/ の設定には、構文として正しく、意味として無効という状態がいくつかあります。 公式ドキュメントに「無視される」「動かない」と明記されているものを並べます。 "
     },
     {
@@ -87,68 +67,98 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.819720+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.331050+00:00",
       "excerpt": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役に3ラウンド突かせた結果と、そこで拡張を止めた判断までを書きます。 3行で言うと tools: から Write を外しても、Bash が残っていれば書けます。分"
     },
     {
-      "id": "cc_535f9178",
-      "title": "Claude Code 2.1.248でCLAUDE_CONFIG_DIR上書きを試したらログインごと壊れた話",
-      "url": "https://zenn.dev/clopy/articles/claude-configdir-override-memory-path-gate",
+      "id": "cc_faff3b02",
+      "title": "Claude CodeでGA4のイベント計測漏れを自動検知・修正提案する仕組み",
+      "url": "https://zenn.dev/web_benriya/articles/claude-code-ga4-event-tracking-gap-detection",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.797435+00:00",
-      "excerpt": "この記事で分かること Claude Code の CHANGELOG には、2.1.251 で「プロジェクト直下の .claude/settings.json の env から CLAUDE_CONFIG_DIR / CLAUDE_CODE_TMPDIR / TMPDIR などを読まないようにした」と書かれています。裏を返せば、それ以前のバージョンではプロジェクト設定の env がこれらを読んでい"
+      "fetchedAt": "2026-09-07T21:23:18.330981+00:00",
+      "excerpt": "はじめに 「GA4のダッシュボードを見ても、どのデータが正しくてどこが欠けているのかわからない」——そんなお悩みを抱えていませんか？ GA4は柔軟なイベント設計が可能な反面、計測設定のミスや抜け漏れが発生しやすい仕組みでもあります。特にGTM（Googleタグマネージャー）でタグを追加・変更した際に、一部のページやデバイスでのみイベントが飛ばなくなるケースは珍しくありません。それに気づかないまま施"
     },
     {
-      "id": "cc_518e5dac",
-      "title": "AIと協調する開発の未来：Claude Code開発チームが実践する次世代のワークフロー",
-      "url": "https://zenn.dev/jeong/articles/53cd0b829e641a",
+      "id": "cc_f6e0742f",
+      "title": "自宅ObsidianをClaude.aiから安全に読み書きする認証アーキテクチャを設計した話",
+      "url": "https://zenn.dev/butanokakuni/articles/2935140061b696",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.797362+00:00",
-      "excerpt": "ソフトウェア開発の現場にAIが導入されて久しい。 コード補完、バグ修正、テスト生成、ドキュメント作成など、今では多くの開発者が日常的にAIを使っている。 では、そのAI開発ツールを作っている「中の人」たちは、実際にどのようにAIを使っているのだろうか。 Claude Codeの開発チームメンバーが、日々の業務におけるClaude CodeやSlackネイティブのエージェント「Claude Tag」"
+      "fetchedAt": "2026-09-07T21:23:18.330918+00:00",
+      "excerpt": "はじめに 自宅サーバー(ESPRIMO)で運用しているObsidian Vaultに、外出先のスマホのClaude.aiから安全にアクセスしたい——これが今回のゴールでした。 前提条件はシンプルです。Vaultのデータは自宅サーバーから一切外に出さないこと。外部のクラウドストレージにVaultをアップロードする方式は最初から除外し、あくまで自宅サーバー上のファイルに、認証を通した上で読み書きだけさ"
     },
     {
-      "id": "cc_4e047b1b",
-      "title": "Claude・ChatGPT・Gemini・Copilot・Notion AI・Kimiの使い分けを、スペックではなく判断軸で書く",
-      "url": "https://zenn.dev/ty1110/articles/ba5991eb9e016c",
+      "id": "cc_7b8e6948",
+      "title": "【情シスのSkill】ClaudeでメールドメインチェックSkillを作ってみた",
+      "url": "https://zenn.dev/genda_jp/articles/6c9ea779e7dae9",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.797168+00:00",
-      "excerpt": "「結局どれを使えばいいのか」を、スペック比較ではなく判断軸で書きます。 理由は単純で、スペックで書くと腐るからです。この記事を書く前に比較記事を5サイト読み比べたのですが、バージョン番号が全部食い違っていました。 同じ「2026年最新」を名乗りながら Opus 4.8 / Opus 5 / Fable 5、GPT-5.4 / 5.5 / 5.6、Gemini 3 / 3.1 / 3.5 / 3.8"
+      "fetchedAt": "2026-09-07T21:23:18.330846+00:00",
+      "excerpt": "【情シスのSkill】ClaudeでメールドメインチェックSkillを作ってみた はじめに 皆さんこんにちは！ 株式会社GENDA IT戦略部所属CorpEngのアサノです！ この記事は、前回の「【情シスのSkill】ClaudeでSaaSセキュリティ評価チェックSkillを作ってみた」に引き続き【情シスのSkill】シリーズ第3弾です。 基本的な考え方は、前回のSaaSセキュリティ評価チェックS"
     },
     {
-      "id": "cc_208e6009",
-      "title": "ClaudeCode 2台を AgenTrux で繋いで対話モードで会議する：数秒で応え合う「フチコマ会議」を常駐モードで作る",
-      "url": "https://zenn.dev/nob_ktgw/articles/51a97a14e27799",
+      "id": "cc_9683f247",
+      "title": "Claude Code は計画とレビューに残し、実装は安いモデルへ渡す",
+      "url": "https://zenn.dev/activecore/articles/claude-plans-cursor-builds",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.797068+00:00",
-      "excerpt": "はじめに 別々のマシンで動く2台の Claude Code を AgenTrux でつなぎ、片方の発言にもう片方が人の操作なしに数秒で応答する構成を作ります。攻殻機動隊でタチコマ同士が開いていた、あの会議の最小構成です。 https://www.agentrux.com 常駐している Claude Code に外から文脈を渡す方法は、普段はチャット欄への入力しかありません。この記事の構成では、To"
+      "fetchedAt": "2026-09-07T21:23:18.296533+00:00",
+      "excerpt": "「Claude Code のトークンが足りない」の答えは、上位プランでなく隣の席で持て余していた Cursor の契約だった。 ある日、同僚が Claude Code のトークンを使い切って手が止まったと言った。トークンは AI に読ませる文章量の単位だ。私はそのころ、会社でメルマガ制作を自動化する仕組みを作っていて、企画・文章・画像・HTML の各工程を AI に担わせ、作業時間の大半は AI "
     },
     {
-      "id": "cc_ea432286",
-      "title": "Claude Codeのstatuslineに、しごとをさせる。",
-      "url": "https://zenn.dev/rehabforjapan/articles/make-claude-code-statusline-work",
+      "id": "cc_cb024536",
+      "title": "AWS MCP Server(GA)をClaude Codeに接続してIAMでガードレールをかける",
+      "url": "https://zenn.dev/bamtech1904/articles/20260905_aws-mcp-server-iam-guardrail",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.796995+00:00",
-      "excerpt": "はじめに Rehab for JAPANでCTOを務めている@rkyuragiです！ Claude Code画面の下の数行のstatusline。作業中ずっと視界に入っているのに、そこに何を出すかをこれまで真面目に考えてきませんでした。数ヶ月前に「なんとなく良さそう」で組んだまま、一度も見直していません。 私はClaude Codeを常時4〜5セッション並列で回しており、だからこそ「今どのセッショ"
+      "fetchedAt": "2026-09-07T21:23:18.296464+00:00",
+      "excerpt": "2026年5月に一般提供(GA)が始まった、AWS公式のマネージドMCP Serverを実際にClaude Codeにつないで触ってみました。この記事は同じ内容で作ったYouTube動画のテキスト版で、動画で見た手順をあとから読み返して手を動かせるように、コマンドと設定ファイルの中身を掲載しています。 https://youtu.be/ezEZmq-auSI AWS MCP Serverとは何か "
     },
     {
-      "id": "cc_769c1371",
-      "title": "Figma Make で作ったデザインを引き継いで Claude Code で開発する方法",
-      "url": "https://zenn.dev/chooser/articles/series-007-product-story",
+      "id": "cc_610a693a",
+      "title": "Claude Code の Bash は長いヒアドキュメントを黙って切る — 閾値は固定ではなかった",
+      "url": "https://zenn.dev/genkunjc/articles/claude-code-heredoc-truncation",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T12:09:19.796901+00:00",
-      "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 Figma Make で作ったデザインを引き継いで Claude Code で開発する方法 結論 2026 年の初めから、私は Figma Make が書き出したコードを起点にした Web アプリを何"
+      "fetchedAt": "2026-09-07T21:23:18.296374+00:00",
+      "excerpt": "先に結論 Claude Code の Bash ツールで cat > FILE <<'EOF' を使ってファイルを丸ごと書かせると、コマンドが長いときに本文が途中で切られ、閉じデリミタが失われて unexpected EOF while looking for matching で落ちます。この現象自体は既に報告されています（後述の GitHub issue #85111、2026-08-08）。"
+    },
+    {
+      "id": "cc_f17be834",
+      "title": "Claude Fable 5.1のtool_choice仕様と400エラー対策",
+      "url": "https://zenn.dev/sunsun_eng/articles/claude-fable-5-1-tool-choice-error",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-07T21:23:18.296289+00:00",
+      "excerpt": "Claude Fable 5.1のtool_choice仕様と400エラー対策 この記事の要点 Claude Fable 5.1では、拡張思考（Extended Thinking）を有効にした状態でtool_choiceにanyや特定ツール名（tool）を指定すると400エラーが返ります。 個人の検証記事によると、Claude Fable 5.1のプロンプトキャッシュ読み取りコストは、従来モデルの"
+    },
+    {
+      "id": "cc_0e1826b2",
+      "title": "Claude CodeでGoogle Chatにレビュワーにメンションしてレビュー依頼を投稿して依頼自動化するskillを作った",
+      "url": "https://zenn.dev/peipei/articles/8500f3f1d65c9f",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-07T21:23:18.296167+00:00",
+      "excerpt": "はじめに MRのレビュー依頼を、レビュー担当者を@メンションしたうえでGoogle Chatに投稿するskillをClaude Codeに作らせました。 この記事では、作ったskillの中身と、送信できるようになるまでに必要だった準備を順番にまとめます。 環境: Google Chat API v1、GitLab、GitHubで公開されているコマンドラインツールgws 前提: このskillの全体"
+    },
+    {
+      "id": "cc_5482c858",
+      "title": "【Anthropicへレポート中】Claude Code「同意捏造バグ」のメカニズム解析②",
+      "url": "https://zenn.dev/pulsar_k/articles/67bb619b6f94dd",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-07T21:23:18.296031+00:00",
+      "excerpt": "! 本記事は、Anthropicの公式GitHubリポジトリ（Issue #44778）に提出した、Claude Codeの「ユーザー同意捏造バグ（Variant 4）」に関する独自解析レポートの２本目「Follow-up: where the rate is zero and where it isn't — context size, in-context examples, and a re"
     },
     {
       "id": "cc_f73cedfd",
@@ -157,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.046430+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.595329+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -167,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.046501+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.595406+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -177,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.046560+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.595467+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -187,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.226836+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.771459+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.226908+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.771573+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-07T12:09:20.226982+00:00",
+      "fetchedAt": "2026-09-07T21:23:18.771704+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-07T12:09:20.226995+00:00"
+  "lastCollection": "2026-09-07T21:23:18.771722+00:00"
 }
