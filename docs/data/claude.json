@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331538+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130681+00:00",
       "excerpt": "TL;DR Anthropicは2026年8月26日、ブラウザ操作エージェント拡張機能「Claude in Chrome」を正式提供にした（2025年8月に一部Maxユーザー限定の試験公開→2025年12月に有料プラン全体へ拡大→2026年8月GA、という段階を踏んでいる） 実装はDOM操作ではなく、スクリーンショットを見て要素の座標を推定するvisual grounding方式。マークアップに依"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331456+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130624+00:00",
       "excerpt": "TL;DR Claude Codeのようなコーディングエージェントに設計・実装・レビュー対応を任せる開発スタイル（AI-DLC: AI-Driven Development Lifecycleのような、要件→設計→計画→実装→レビューを段階的に進める手法）では、各ステップの間に「エージェントが考えている間」「人間が承認・レビューする間」の待ち時間が必ず挟まる。 git worktree で同じリポ"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331395+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130579+00:00",
       "excerpt": "はじめに 「Claudeforceって何？」 最近、Salesforceの管理者コミュニティでそんな声が増えています。私も最初に「Claudeforce」という言葉を見かけたとき、なんとなくAgentforceの新しいブランド名かと思って二度見しました。 実はこれ、SalesforceとAnthropicが2026年8月26日に発表した戦略的パートナーシップの名称です。管理者として「何かしないとい"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331304+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130516+00:00",
       "excerpt": "はじめに Stravaのアクティビティ画面を眺めていて、こんなことを思ったことはないでしょうか。 「先月と今月でケイデンスは改善しているのか？」 「Zone2の時間は狙いどおり確保できているのか？」 「この3ヶ月、週間走行距離はちゃんと積み上がっているのか？」 Stravaのアプリは1回ごとのアクティビティを見るのは得意ですが、複数のアクティビティを横断して傾向を掴むのはあまり得意ではありません。"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331181+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130443+00:00",
       "excerpt": "クライアント案件で運用中のUIキット（BtoB SaaS）を、スタイルベースからバリアブルベースに移行しました。カラースタイル48種、差し替え約2,800箇所。手作業なら数日かかる規模ですが、Claude（チャット版）+ Figma MCPでほぼ全自動、移行作業自体は1時間ほどでした（落とし穴にハマった時間込み）。 Figma MCPの記事はすでにたくさんありますが、そのほとんどはエンジニア視点の"
     },
     {
@@ -57,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331119+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130398+00:00",
       "excerpt": "hook を書きました。JSON は正しい。キー名も合っている。エラーも出ません。 何も起きません。 このとき困るのは、間違っている箇所が画面に出ないことです。 起動しても警告が出ず、--debug にも出ず、ただ動きません。 .claude/ の設定には、構文として正しく、意味として無効という状態がいくつかあります。 公式ドキュメントに「無視される」「動かない」と明記されているものを並べます。 "
     },
     {
@@ -67,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.331050+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130344+00:00",
       "excerpt": "! Claude Code のサブエージェントから Write を外して「読み取り専用」にしたのに、Bash が残っていれば書けてしまうと気づいた人向けです。公式が名指ししている解決策（PreToolUse hook）で塞ぎにいき、検証役に3ラウンド突かせた結果と、そこで拡張を止めた判断までを書きます。 3行で言うと tools: から Write を外しても、Bash が残っていれば書けます。分"
     },
     {
@@ -77,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.330981+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130255+00:00",
       "excerpt": "はじめに 「GA4のダッシュボードを見ても、どのデータが正しくてどこが欠けているのかわからない」——そんなお悩みを抱えていませんか？ GA4は柔軟なイベント設計が可能な反面、計測設定のミスや抜け漏れが発生しやすい仕組みでもあります。特にGTM（Googleタグマネージャー）でタグを追加・変更した際に、一部のページやデバイスでのみイベントが飛ばなくなるケースは珍しくありません。それに気づかないまま施"
     },
     {
@@ -87,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.330918+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130210+00:00",
       "excerpt": "はじめに 自宅サーバー(ESPRIMO)で運用しているObsidian Vaultに、外出先のスマホのClaude.aiから安全にアクセスしたい——これが今回のゴールでした。 前提条件はシンプルです。Vaultのデータは自宅サーバーから一切外に出さないこと。外部のクラウドストレージにVaultをアップロードする方式は最初から除外し、あくまで自宅サーバー上のファイルに、認証を通した上で読み書きだけさ"
     },
     {
@@ -97,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.330846+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.130154+00:00",
       "excerpt": "【情シスのSkill】ClaudeでメールドメインチェックSkillを作ってみた はじめに 皆さんこんにちは！ 株式会社GENDA IT戦略部所属CorpEngのアサノです！ この記事は、前回の「【情シスのSkill】ClaudeでSaaSセキュリティ評価チェックSkillを作ってみた」に引き続き【情シスのSkill】シリーズ第3弾です。 基本的な考え方は、前回のSaaSセキュリティ評価チェックS"
     },
     {
@@ -107,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296533+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.035195+00:00",
       "excerpt": "「Claude Code のトークンが足りない」の答えは、上位プランでなく隣の席で持て余していた Cursor の契約だった。 ある日、同僚が Claude Code のトークンを使い切って手が止まったと言った。トークンは AI に読ませる文章量の単位だ。私はそのころ、会社でメルマガ制作を自動化する仕組みを作っていて、企画・文章・画像・HTML の各工程を AI に担わせ、作業時間の大半は AI "
     },
     {
@@ -117,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296464+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.035147+00:00",
       "excerpt": "2026年5月に一般提供(GA)が始まった、AWS公式のマネージドMCP Serverを実際にClaude Codeにつないで触ってみました。この記事は同じ内容で作ったYouTube動画のテキスト版で、動画で見た手順をあとから読み返して手を動かせるように、コマンドと設定ファイルの中身を掲載しています。 https://youtu.be/ezEZmq-auSI AWS MCP Serverとは何か "
     },
     {
@@ -127,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296374+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.035088+00:00",
       "excerpt": "先に結論 Claude Code の Bash ツールで cat > FILE <<'EOF' を使ってファイルを丸ごと書かせると、コマンドが長いときに本文が途中で切られ、閉じデリミタが失われて unexpected EOF while looking for matching で落ちます。この現象自体は既に報告されています（後述の GitHub issue #85111、2026-08-08）。"
     },
     {
@@ -137,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296289+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.035025+00:00",
       "excerpt": "Claude Fable 5.1のtool_choice仕様と400エラー対策 この記事の要点 Claude Fable 5.1では、拡張思考（Extended Thinking）を有効にした状態でtool_choiceにanyや特定ツール名（tool）を指定すると400エラーが返ります。 個人の検証記事によると、Claude Fable 5.1のプロンプトキャッシュ読み取りコストは、従来モデルの"
     },
     {
@@ -147,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296167+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.034956+00:00",
       "excerpt": "はじめに MRのレビュー依頼を、レビュー担当者を@メンションしたうえでGoogle Chatに投稿するskillをClaude Codeに作らせました。 この記事では、作ったskillの中身と、送信できるようになるまでに必要だった準備を順番にまとめます。 環境: Google Chat API v1、GitLab、GitHubで公開されているコマンドラインツールgws 前提: このskillの全体"
     },
     {
@@ -157,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-07T21:23:18.296031+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.034853+00:00",
       "excerpt": "! 本記事は、Anthropicの公式GitHubリポジトリ（Issue #44778）に提出した、Claude Codeの「ユーザー同意捏造バグ（Variant 4）」に関する独自解析レポートの２本目「Follow-up: where the rate is zero and where it isn't — context size, in-context examples, and a re"
     },
     {
@@ -167,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.595329+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.365822+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -177,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.595406+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.365874+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -187,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.595467+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.365918+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -197,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.771459+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.549050+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.771573+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.549129+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +217,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-07T21:23:18.771704+00:00",
+      "fetchedAt": "2026-09-08T04:05:57.549212+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-07T21:23:18.771722+00:00"
+  "lastCollection": "2026-09-08T04:05:57.549232+00:00"
 }
