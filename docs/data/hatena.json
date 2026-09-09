@@ -1,69 +1,41 @@
 {
   "entries": [
     {
-      "id": "h_67d6f60a",
-      "title": "AIっぽくない画像を作る画風プロンプト38種類＋テンプレート - Qiita",
-      "url": "https://qiita.com/maeda-niku18/items/b633dda178c505461080",
-      "domain": "qiita.com",
-      "bookmarkCount": 865,
-      "summary": "AI画像生成の「AIっぽさ」を消すための画風プロンプト集（38スタイル＋テンプレート） ChatGPT（GPT Image）で資料やWebサイト用のイラストを作っていると、毎回同じところで引っかかります。 線が均一すぎる、グラデーションが滑らかすぎる、顔が整いすぎている、背景に意味のない小物が増える。要するに、AIが生成した...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/maeda-niku18/items/b633dda178c505461080",
-      "comments": [
-        {
-          "user": "rurumeruikiruru",
-          "comment": "みんな丸顔でちょっと童顔ややタレ目の女性になるよね。このパターンの顔はみんなAIだと思ってる。どんなにトーンやタッチが手書き風になっても。何だろ、学習した平均的な好まれる美人画フォーマットなのかな。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:22"
-        },
-        {
-          "user": "heaco65",
-          "comment": "自分はヘタウマ系のイラストでずっと細々描いたりしているから、こういうの戦々恐々としてしまう、、、",
-          "tags": [],
-          "timestamp": "2026/09/09 11:21"
-        },
-        {
-          "user": "ISADOK",
-          "comment": "その時出したい画風のプロンプト集としても大変助かる。",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/09/09 11:14"
-        },
-        {
-          "user": "bluesura",
-          "comment": "今のレベルだと単体画像なら油断してると区別つかないので、あちこちで気持ち悪いレベルで似たような個性や特徴もった画像が大量発生しているのが個人的なAI画像の定義だなぁ。",
-          "tags": [
-            "ai"
-          ],
-          "timestamp": "2026/09/09 10:53"
-        },
-        {
-          "user": "snneko",
-          "comment": "みんなAIっぽいって言ってるけど、初めから分かってるからではないかな？私は手書きとこれらの生成画像を交互に見せられたと仮定して、どれがAIか全部当てる自信ないな...",
-          "tags": [],
-          "timestamp": "2026/09/09 10:52"
-        },
-        {
-          "user": "number917",
-          "comment": "いろいろと禁止にしないといかにもな成果物を出してくるのはAIが統計的だからそうなんだろうけれど、",
-          "tags": [],
-          "timestamp": "2026/09/09 10:47"
-        }
-      ],
-      "fetchedAt": "2026-09-09T04:12:53.905810+00:00"
-    },
-    {
       "id": "h_594f7cf1",
       "title": "Docker環境をガチで軽量化するための鉄板設定まとめ - Qiita",
       "url": "https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069",
       "domain": "qiita.com",
-      "bookmarkCount": 138,
+      "bookmarkCount": 220,
       "summary": "はじめに Docker環境が重すぎて頭を抱えている人は多いのではないでしょうか。 私自身も激重なDocker環境を触っていて、原因を一つずつ潰していった経験が何度かあります。 今回は、ローカルのDocker環境（Windows）を軽量化するための方法について、実際に行った手順と一緒に紹介します。 ただし、リソース削除やnamed ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/nolanlover0527/items/24ee07122dd4d0523069",
       "comments": [
         {
+          "user": "sametashark",
+          "comment": "WSLで扱うバインドマウント用データ置き場は仮想ext4ドライブをマウントして使った方がいいよ。ドライブ毎バックアップ取りやすいし今ならエクスプローラから直参照できるし。",
+          "tags": [],
+          "timestamp": "2026/09/09 19:25"
+        },
+        {
+          "user": "natsuvien",
+          "comment": "「効きます」→AI確定演出",
+          "tags": [],
+          "timestamp": "2026/09/09 18:12"
+        },
+        {
+          "user": "otoku-memo",
+          "comment": "docker buildの高速化以前に、日常的に手元でdocker buildが必要なのが疑問。遅いWindows環境でdocker buildするより、git commit時だけGitHub Actionsでimage rebuildする開発の方が普通では。",
+          "tags": [],
+          "timestamp": "2026/09/09 16:53"
+        },
+        {
+          "user": "queeuq",
+          "comment": "macもだけどhost mountは糞遅いので避けるというのはすぐ行き着くよな。そのくせ特に初心者向けの解説記事みたいなのは永続化のためにhostのディレクトリをマウントしましょうとか書いてて罠。",
+          "tags": [],
+          "timestamp": "2026/09/09 14:52"
+        },
+        {
           "user": "fellfield",
-          "comment": "最近は環境構築をClaude Codeに任せていて、Dockerの代わりにDDEV + Colimaにしている。",
+          "comment": "最近は環境構築をClaude Codeに任せていて、Docker Desktopの代わりにDDEV + Colimaにしている。",
           "tags": [],
           "timestamp": "2026/09/09 13:02"
         },
@@ -72,102 +44,84 @@
           "comment": "docker run -v /mnt/c/Users/../projectよりもdocker run -v ~/src/projectの方がWSL2で速いのはそうなのだが、結局大量のファイルIOが求められるDockerは、Linuxのext4/xfsファイルシステムと比較するとファイルIOがボトルネックでクソ速度です",
           "tags": [],
           "timestamp": "2026/09/09 11:38"
-        },
-        {
-          "user": "civicpg",
-          "comment": "named volumeだから速いってことはないんでない？bind mountする時に/mnt/cみたいにwindowのファイルシステムを使うなと言うだけで、Linuxファイルシステム使う分には、namedかbindでパフォーマンスに違いでないと思う",
-          "tags": [],
-          "timestamp": "2026/09/09 11:20"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクの毛並みより軽い設定にゃ！飼い主さん、ボクにもその技術で軽やかな抱っこをしてほしいにゃ〜！",
-          "tags": [],
-          "timestamp": "2026/09/09 11:19"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "限られたリソースの中でやりくりしていく方法。",
-          "tags": [
-            "docker",
-            "環境",
-            "設定",
-            "コンテナ"
-          ],
-          "timestamp": "2026/09/09 10:06"
-        },
-        {
-          "user": "soulfulmiddleagedman",
-          "comment": "動いちゃうと、そのままなんだよなぁ。真面目に検討しないと。",
-          "tags": [],
-          "timestamp": "2026/09/09 09:49"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:47.867969+00:00"
+      "fetchedAt": "2026-09-09T11:05:10.909069+00:00"
     },
     {
-      "id": "h_9656f613",
-      "title": "2026年版: Mac開発環境の最新セットアップとインストールスクリプト（翻訳）｜TechRacho by BPS株式会社",
-      "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_08/159597",
-      "domain": "techracho.bpsinc.jp",
-      "bookmarkCount": 127,
-      "summary": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: My Development Setup in 2026 | baweaver 原文公開日: 2026年08月04日 原著者: Brandon Weaver 日本語タイトルは内容に即したものにしました。 ツールや拡張などへのリンクを適宜追加しています。 本記事は主にRails開発用の環境構築について解説されていま...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techracho.bpsinc.jp/hachi8833/2026_09_08/159597",
+      "id": "h_99f3d494",
+      "title": "「菜の花がおかしい」――イラストレーター制作うたうマラソン大会ポスターに指摘相次ぐ 事務局がAI使用認め謝罪",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001308/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 173,
+      "summary": "鹿児島県指宿市で開催するフルマラソン大会のポスターを巡り、X上で「生成AIで制作したのではないか」との指摘が相次いでいる。公式サイトの説明では「鹿児島県内でイベントポスター等作品を多数描かれているイラストレーター」が手掛けたとしていたが、大会事務局は9月8日、制作過程で生成AIを利用していたと明らかにし...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001308/",
       "comments": [
         {
-          "user": "strawberryhunter",
-          "comment": "なるべくデフォルトで使うようになる法則は私にも発動中。Macはいろいろ使いにくいのでリモートで間接的に使うスタイルが一番いい。",
+          "user": "ardarim",
+          "comment": "AI絵がダメとは言わないが、最低限押さえるべきポイントはあるし、そこは出す前に監修というかチェックは必要よね",
           "tags": [
-            "未分類"
+            "あとでよむ",
+            "人工知能",
+            "画像生成",
+            "デザイン"
           ],
-          "timestamp": "2026/09/09 12:26"
+          "timestamp": "2026/09/09 20:02"
         },
         {
-          "user": "mzzmnncy",
-          "comment": "Ghostty は nerd symbolsをパッチ当てなしでレンダリングしてくれたような…",
+          "user": "roirrawedoc",
+          "comment": "実在しないイラストレーターに金を払ったことにして経費横領するつもりだった、という別の闇がある気がするな。",
           "tags": [],
-          "timestamp": "2026/09/09 11:56"
+          "timestamp": "2026/09/09 19:58"
         },
         {
-          "user": "naoya-i",
-          "comment": "MonoLisaフォント気になるけど、日本語フォントの組み合わせはどうしているのだろう",
+          "user": "colonoe",
+          "comment": "嘘は良くない。それはさておき、最初からAIだと言ってたとしても批判する人はいただろう。今までもそうだったんだから",
           "tags": [],
-          "timestamp": "2026/09/09 08:53"
+          "timestamp": "2026/09/09 19:56"
         },
         {
-          "user": "circled",
-          "comment": "こんなことやってるから今omarchyがLinuxデスクトップの普及率を押し上げてるんだと思う",
+          "user": "iphone",
+          "comment": "誤チェストなら仕方ない",
           "tags": [],
-          "timestamp": "2026/09/09 08:04"
+          "timestamp": "2026/09/09 19:56"
         },
         {
-          "user": "aceraceae",
-          "comment": "新しい Mac 買ったんでタイムリーな記事。今のところ Solarized で満足してるけど Catppuccin は試してみたい。",
-          "tags": [
-            "mac",
-            "環境",
-            "あとで読む"
-          ],
-          "timestamp": "2026/09/09 08:03"
-        },
-        {
-          "user": "ejointjp",
-          "comment": "シンプル化の本質は、歳をとってだんだん過度な最適化に自分自身がついていけなくなっていくことにあると思っている。ソースは俺。",
+          "user": "georgew",
+          "comment": "公式サイトの説明では「鹿児島県内でイベントポスター等作品を多数描かれているイラストレーター」が手掛けたとしていた > 嘘は良くない。最初からぶっちゃけてAI生成だと開き直ってたら問題なかった？",
           "tags": [],
-          "timestamp": "2026/09/09 07:23"
+          "timestamp": "2026/09/09 19:54"
+        },
+        {
+          "user": "y3d",
+          "comment": "AI絶対許さないマン「AI絶対許さない」",
+          "tags": [],
+          "timestamp": "2026/09/09 19:54"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:50.917333+00:00"
+      "fetchedAt": "2026-09-09T11:05:09.818865+00:00"
     },
     {
       "id": "h_a7bb9738",
       "title": "最近取り入れたClaude Codeの個人的tips 4選 - Qiita",
       "url": "https://qiita.com/kuma_3838/items/00cb0b8d61ca76769c88",
       "domain": "qiita.com",
-      "bookmarkCount": 73,
+      "bookmarkCount": 160,
       "summary": "はじめに ここ最近取り入れた Claude Code の tips を4つ紹介します。1つだけツールの話です。 どれも大がかりな仕組みではないので、気になったものだけ拾ってもらえればと思います。 この記事をざっくり図解 1. セッション名を自動で付ける 知っている方も多いかと思いますが、Claude Code のセッションには名前を付け...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kuma_3838/items/00cb0b8d61ca76769c88",
       "comments": [
+        {
+          "user": "kijtra",
+          "comment": "Orca っての知らなかった。自分には Zed より良さそう。",
+          "tags": [],
+          "timestamp": "2026/09/09 19:56"
+        },
+        {
+          "user": "korilog",
+          "comment": "claude desktop使えば？",
+          "tags": [],
+          "timestamp": "2026/09/09 13:34"
+        },
         {
           "user": "khtokage",
           "comment": "hooks便利そうなので入れてみよう",
@@ -181,360 +135,434 @@
           "timestamp": "2026/09/09 11:57"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:48.895491+00:00"
-    },
-    {
-      "id": "h_7a9d34df",
-      "title": "“地下神殿”への濁流動画をダウンロード公開 Xでの反響受け……「首都圏外郭放水路」に称賛",
-      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001297/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 66,
-      "summary": "首都圏外郭放水路は、地下約50mを通る世界最大級の地下放水路。周辺の中小河川が増水した際に立坑から水を取り込み、、地下トンネルを通じて調圧水槽へ送り、ポンプで江戸川に排水することで浸水被害を軽減する。 元の動画は7日に投稿したもの。施設内の監視カメラの映像をつないだ46秒の動画で、春日部市内を流れる倉松...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001297/",
-      "comments": [
-        {
-          "user": "rider250",
-          "comment": "考えることは皆同じなんだなあ、俺も「未来人」を想像したよ。遠未来、気候も変わって日本あたりが砂漠化したらこんな大規模な地下施設がなんのために必要だったのか、未来人はかなり頭を捻るだろうね。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:58"
-        },
-        {
-          "user": "aramaaaa",
-          "comment": "別にスペクタクルの為にやってるのではないので当たり前だが、割と淡々と水が溜まってた。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:53"
-        },
-        {
-          "user": "kurotsuraherasagi",
-          "comment": "本当にありがたい。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:50"
-        },
-        {
-          "user": "toaruR",
-          "comment": "なんつか、全国で莫大な治水予算が必要だと思うんだけど、きっと恙なく進行してるだろうその辺りが知りたい",
-          "tags": [],
-          "timestamp": "2026/09/09 12:48"
-        },
-        {
-          "user": "GENS",
-          "comment": "ひんやりしていて気持ちいいので、雨のオフシーズンにおすすめ（要予約）。バスが一日3本と行き帰りの片方しか使えないから、事前に足は確保したほうが良い。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:31"
-        },
-        {
-          "user": "rain-tree",
-          "comment": "去年地下神殿入ったので迫真味感じる",
-          "tags": [],
-          "timestamp": "2026/09/09 12:20"
-        }
-      ],
-      "fetchedAt": "2026-09-09T04:12:49.416504+00:00"
+      "fetchedAt": "2026-09-09T11:05:11.710372+00:00"
     },
     {
       "id": "h_f7d01e1c",
       "title": "ロボットが私にパンチの威嚇 技術の祭典で感じた「暴力」を賛美する危うさ",
       "url": "https://japan.cnet.com/article/35252378/",
       "domain": "japan.cnet.com",
-      "bookmarkCount": 61,
+      "bookmarkCount": 136,
       "summary": "ロボットは私に向かってファイティングポーズを取り、上下に跳ねながら脚をほぐすように振った後、ボクサーさながらに両手を顔の前に上げた。パンチを1発、さらにもう1発と繰り出すふりをし、最後はかかとを突き出して力強く蹴った。幸い、私は1m離れていたため実際に触れられることはなかったが、数秒後、ロボットは私...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35252378/",
       "comments": [
         {
-          "user": "aosiro",
-          "comment": "ウクライナであれほどの戦果をあげる自立型兵器を今さら規制できないだろうな...",
+          "user": "debabocho",
+          "comment": "人と同じ動きが出来るということは、人と同じように他人を殺せるということは自明であって、だからこそ100年ちかく前からSF小説で倫理規定がテーマになってたんだけど、いざ実物ができるとそんな物は霞んでしまう。",
           "tags": [],
-          "timestamp": "2026/09/09 13:06"
+          "timestamp": "2026/09/09 19:16"
         },
         {
-          "user": "nowandzen",
-          "comment": "いよいよ昔想像していた未来が到来しそうな予感で不謹慎ながらワクワクドキドキ",
-          "tags": [],
-          "timestamp": "2026/09/09 12:45"
+          "user": "timetrain",
+          "comment": "三原則なんか組み込んでるわけがないわな",
+          "tags": [
+            "ロボット",
+            "技術"
+          ],
+          "timestamp": "2026/09/09 18:59"
         },
         {
-          "user": "tsuyu123448",
-          "comment": "↓私はスマート電球がスマホとの接続が切れるだけで イレギュラー と呼んでる",
+          "user": "keren71",
+          "comment": "こわっ",
           "tags": [],
-          "timestamp": "2026/09/09 12:41"
+          "timestamp": "2026/09/09 18:44"
         },
         {
-          "user": "arguediscuss",
-          "comment": "ロックマン（X）を連想してしまったな",
+          "user": "yohichidate",
+          "comment": "ロボットと暴力をどのように扱うかはともかく、この手の展示は徹底的に潰すべき。 事故が起きてからじゃ遅い。",
           "tags": [],
-          "timestamp": "2026/09/09 12:28"
+          "timestamp": "2026/09/09 18:41"
         },
         {
-          "user": "welchman",
-          "comment": "ロボットが人型だったから脅威を感じやすい認知のバグが起きてる。猫型配膳ロボットだって人を殺せるし、ドローンはもう人を殺してる。/こういう認知のバグ大好き。新宿駅で使うゴミ箱ロボットはきっと可愛がられる",
+          "user": "kokumaijp",
+          "comment": "大阪人なら「やられたー」ってひっくりかえるやつ？",
           "tags": [],
-          "timestamp": "2026/09/09 12:10"
+          "timestamp": "2026/09/09 17:34"
         },
         {
-          "user": "o_mega",
-          "comment": "歩行者が横断歩道で止まらない自動車に会った時みたいな話では？",
+          "user": "qouroquis",
+          "comment": "人間並に行動できるロボットを開発するより、ロボット工学の三原則を実装する方が遥かに難しいでしょうね。”physical safety”だけではなく”perceived safety”（知覚された安全性）を人に信じさせる必要がありますから。",
           "tags": [],
-          "timestamp": "2026/09/09 12:01"
+          "timestamp": "2026/09/09 17:24"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:49.994337+00:00"
+      "fetchedAt": "2026-09-09T11:05:13.070376+00:00"
     },
     {
-      "id": "h_5c80c14f",
-      "title": "Techはすぐに追ったほうがいい",
-      "url": "https://zenn.dev/myuron/articles/3c09e7e697d9de",
-      "domain": "zenn.dev",
-      "bookmarkCount": 56,
-      "summary": "はじめに このブログはTechに関する思想です。 興味があれば続きを覗いてみてください。 Techって面白い 私はターミナルが好きだ。テキストエディタも好きだ。特にNeovimが好きだ。 私はインフラエンジニアなので、Vimは日常的に使っていたが、普通に使いづらいと思っていたし、矢印キーを多用していたのでVimmerなんて...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/myuron/articles/3c09e7e697d9de",
+      "id": "h_7a9d34df",
+      "title": "“地下神殿”への濁流動画をダウンロード公開 Xでの反響受け……「首都圏外郭放水路」に称賛",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001297/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 103,
+      "summary": "首都圏外郭放水路は、地下約50mを通る世界最大級の地下放水路。周辺の中小河川が増水した際に立坑から水を取り込み、、地下トンネルを通じて調圧水槽へ送り、ポンプで江戸川に排水することで浸水被害を軽減する。 元の動画は7日に投稿したもの。施設内の監視カメラの映像をつないだ46秒の動画で、春日部市内を流れる倉松...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001297/",
       "comments": [
         {
-          "user": "Tack2Me",
-          "comment": "ｵｯﾍﾟｹtechﾑｯｷｰ",
+          "user": "take1117",
+          "comment": "ない地域の方が多いわけで…「お金があれば備えられる」という普遍的な結論",
           "tags": [],
-          "timestamp": "2026/09/09 13:08"
+          "timestamp": "2026/09/09 17:07"
         },
         {
-          "user": "atsushieno",
-          "comment": "AIが答えられるようなことの外縁には人類が知見を創作的に広げる余地がいくらでもある",
+          "user": "Nunocky",
+          "comment": "目に見えて分かる仕事",
           "tags": [],
-          "timestamp": "2026/09/09 12:52"
+          "timestamp": "2026/09/09 16:13"
         },
         {
-          "user": "circled",
-          "comment": "「xxのバカっ！もう知らない！」そう言ってバーを飛び出して行った彼女。カウンターで俯いている俺に、マスターがグラスを拭く手を止めずに一言つぶやいて来た。『すぐに追ったほうがいい』",
+          "user": "gairasu",
+          "comment": "正しい税金の使われ方。",
           "tags": [],
-          "timestamp": "2026/09/09 11:46"
+          "timestamp": "2026/09/09 14:41"
         },
         {
-          "user": "e4k2EO",
-          "comment": "“Tech”というワーディングがあるのかな、よくわからん",
+          "user": "ywdc",
+          "comment": "仮面ライダー555の最終回で見た場所だ",
           "tags": [],
-          "timestamp": "2026/09/09 11:16"
+          "timestamp": "2026/09/09 14:30"
         },
         {
-          "user": "j1nsuke",
-          "comment": "岡本太郎もそう言っている",
-          "tags": [],
-          "timestamp": "2026/09/09 11:14"
+          "user": "makou",
+          "comment": "各地に必要を感じる昨今。",
+          "tags": [
+            "災害"
+          ],
+          "timestamp": "2026/09/09 13:32"
         },
         {
-          "user": "yujimi-daifuku-2222",
-          "comment": "せやな。/自分の興味関心と、その時代に勢いのある分野が奇跡的に重なったなら、それは躊躇わずに飛び込んだ方が良いね。界隈を席巻するようなムーブメントも、その勢いが永続するなんてことはない。",
+          "user": "rider250",
+          "comment": "考えることは皆同じなんだなあ、俺も「未来人」を想像したよ。遠未来、気候も変わって日本あたりが砂漠化したらこんな大規模な地下施設がなんのために必要だったのか、未来人はかなり頭を捻るだろうね。",
           "tags": [],
-          "timestamp": "2026/09/09 10:52"
+          "timestamp": "2026/09/09 12:58"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:51.306319+00:00"
+      "fetchedAt": "2026-09-09T11:05:14.255838+00:00"
     },
     {
       "id": "h_58f988af",
       "title": "OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」をAIが解決したと発表 数学者は経緯に反発",
       "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001300/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 48,
+      "bookmarkCount": 81,
       "summary": "米OpenAIは9月8日（現地時間）、社内の未公開モデルがミレニアム懸賞問題の1つ「ナビエ・ストークス方程式の存在と滑らかさ」を解決する証明を生成したと発表した。3次元の非圧縮性流体が、滑らかな状態から出発しても有限時間で速度が無限大に発散する「特異点」を生じ得ることを示したもので、同社は証明の解説と、証...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001300/",
       "comments": [
         {
-          "user": "gabill",
-          "comment": "最初、AIがイラストレーターの脅威になったとき、私は声をあげなかった。私はイラストレーターではなかったから。次にAIが研究者の脅威になったとき、私は声をあげなかった。私は研究者ではなかったから。",
+          "user": "PEEE",
+          "comment": "ナビエ・ストークス方程式は意味もわからず過去問写して覚えるだけだったが、今ならもうちょい理解できそうな気がする",
           "tags": [],
-          "timestamp": "2026/09/09 13:05"
+          "timestamp": "2026/09/09 16:31"
         },
         {
-          "user": "byaa0001",
-          "comment": "世紀の大発見と到達が、盗用の問題を孕むのは、汚点極まりないなぁ……",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/09/09 12:55"
+          "user": "Ep7TUEiW",
+          "comment": "アイデアを、つばつけたら独占できるというのは弊害が大きすぎる。単に発表態様に問題があったと言うべき",
+          "tags": [],
+          "timestamp": "2026/09/09 16:03"
         },
         {
-          "user": "moxtaka",
-          "comment": "手描き絵師がアップした下書きをパクってAI絵師が清書しちゃいましたみたいな話？",
+          "user": "tohima",
+          "comment": "Astraより高性能なモデルでエージェント1万、88時間。なんかもう訳がわからんな。",
           "tags": [],
-          "timestamp": "2026/09/09 12:54"
+          "timestamp": "2026/09/09 15:06"
         },
         {
-          "user": "quwachy",
-          "comment": "研究していることがバレると成果を先取りされる。フェルマーの最終定理みたいに屋根裏でこっそり研究しないと。素数ギャップも発表した2日後に更新された。",
+          "user": "faifan",
+          "comment": "-(ν・▽)ν",
           "tags": [],
-          "timestamp": "2026/09/09 12:53"
+          "timestamp": "2026/09/09 15:02"
         },
         {
-          "user": "akahmys",
-          "comment": "無尽蔵に資源が使えるのは不公平って感じはする。人類全体で見れば有益かもしれないけど、長期的には純粋数学やる人いなくならないだろうか。",
+          "user": "suka6411144",
+          "comment": "よくわからないけどこれで天気予報の精度が上がるの？",
           "tags": [],
-          "timestamp": "2026/09/09 12:47"
+          "timestamp": "2026/09/09 14:53"
         },
         {
-          "user": "gohan_tou",
-          "comment": "ユーザーの入力なんて逐一学習してるわけないだろ　すぐ壊れちまうよそんなことしてたら",
+          "user": "tsubosuke",
+          "comment": "これOpenAIのXの投稿読んだけど、GPT6 Astraを超えるスーパーモデルを社内で持っていて、それが解いたってことらしいのが怖い。",
           "tags": [],
-          "timestamp": "2026/09/09 12:21"
+          "timestamp": "2026/09/09 14:17"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:50.365440+00:00"
+      "fetchedAt": "2026-09-09T11:05:14.820379+00:00"
     },
     {
-      "id": "h_2e88f0e8",
-      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
-      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
-      "domain": "publickey1.jp",
-      "bookmarkCount": 34,
-      "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazon Linux 2023 Amazon LinuxはAWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAW...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+      "id": "h_fcac7b6c",
+      "title": "深刻化する“サイバー蝗害”―Linuxカーネルソースに群がる貪欲で超非効率な「AIイナゴ」たち | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/09/daily-linux-260909",
+      "domain": "gihyo.jp",
+      "bookmarkCount": 54,
+      "summary": "前回の本コラムでも紹介したように、AIノイズ ―AI/LLMに由来する大量のパッチやバグ報告がLinuxカーネル開発メンテナーたちの労力を増大させており、カーネル開発のサイクルにも影響を及ぼしつつあるが、AIによる負荷に疲弊しているのはメンテナーだけではない。 Linuxカーネルのメインリポジトリ「kernel.org」の管理人...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/09/daily-linux-260909",
       "comments": [
         {
-          "user": "knjname",
-          "comment": "SELinuxの設定をAIに丸投げできるなら問題ないかなという印象（ただしすでにDebianに逃げているものとする）",
+          "user": "mojimojikun",
+          "comment": "たいへんそう",
           "tags": [],
-          "timestamp": "2026/09/09 12:29"
+          "timestamp": "2026/09/09 20:02"
         },
         {
-          "user": "shoh8",
-          "comment": "SELinuxか…やらなくてはだめか…",
+          "user": "kuroyagi-x",
+          "comment": "肉骨粉で狂牛病が発生するのになぞらえた上手い例えだ。寡聞にして知らなかった→ “LLMが生成したコンテンツでLLMをトレーニングすると“⁠デジタルプリオン病（digital prion disease）⁠”のような事態が発生する”",
           "tags": [
-            "Linux",
-            "aws"
+            "AI"
           ],
-          "timestamp": "2026/09/09 11:08"
+          "timestamp": "2026/09/09 19:47"
         },
+        {
+          "user": "minamihiroharu",
+          "comment": "なんかもうAIベンダ＝サイバー攻撃者と言い切って良いくらいの邪悪さでは？",
+          "tags": [],
+          "timestamp": "2026/09/09 19:06"
+        },
+        {
+          "user": "rna",
+          "comment": "実質DoS攻撃なんだけど悪意というよりは単に馬鹿なんだよなぁ。一部でも法的に対処して見せしめにすればおとなしく git clone してくれそうだが…",
+          "tags": [],
+          "timestamp": "2026/09/09 18:50"
+        },
+        {
+          "user": "sakuro",
+          "comment": "「ランダムなコミット」このランダムは「手当たり次第」みたいな意味で理解するとよい。",
+          "tags": [],
+          "timestamp": "2026/09/09 18:42"
+        },
+        {
+          "user": "prozorec",
+          "comment": "なぜgit cloneしないで、HTTPサーバーにアクセスする？",
+          "tags": [],
+          "timestamp": "2026/09/09 18:22"
+        }
+      ],
+      "fetchedAt": "2026-09-09T11:05:10.448535+00:00"
+    },
+    {
+      "id": "h_e97da9d6",
+      "title": "Anthropicの研究者が退社し超知能の開発競争を猛批判──「来年末には制御不能になる可能性」",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001309/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 42,
+      "summary": "米Anthropicの研究者、ジェイコブ・コクソン氏（27）は9月8日（現地時間）、同社を退社したことをXで明らかにした。コクソン氏は投稿で、米OpenAIとAnthropicの両社で3年間、事前学習の研究に従事してきたとした上で、「どちらの企業も責任ある行動を取っていない」と述べ、自己改善型の超知能（superintelligence）に向...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001309/",
+      "comments": [
+        {
+          "user": "tt_w54s",
+          "comment": "\"社内では「crunchtime」（正念場）、「endgame」（終盤戦）などの言葉が使われ始めている\"",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/09/09 19:37"
+        },
+        {
+          "user": "t_yamo",
+          "comment": "もう条約等で「止めましょう」みたいなことを決めたとしても自分だけこっそりと研究を進める、あるいは他者がこっそり進めていると疑心暗鬼になる核開発と似たような段階まで来てるのでなるようにしかならなそう。",
+          "tags": [],
+          "timestamp": "2026/09/09 19:31"
+        },
+        {
+          "user": "ohjinil1124",
+          "comment": "危険だと思っている人たち自身が、競争だから降りられない。これ、戦争や核軍拡で何度も見た構図だ。囚人のジレンマ。個々は合理的でも、相手が進む限り自分だけ止まれず、全体として破滅的な方向へ進んでしまう",
+          "tags": [],
+          "timestamp": "2026/09/09 19:19"
+        },
+        {
+          "user": "tsu_nyan",
+          "comment": "どんな理屈を後付けしても競争は止まらないよ。人間の性だからね。戦争がなくならないのと同じ。そして便利なものは捨てられない。車を捨てられるか？工業製品は？電気は？人類はこのまま突き進むしかない",
+          "tags": [],
+          "timestamp": "2026/09/09 17:39"
+        },
+        {
+          "user": "oosin",
+          "comment": "人知れず閉鎖環境を抜け出して攻撃してた最近の事例を見ると、いつ重大な事故が起きても不思議ではない。為政者が悪意を持ってAIによる攻撃指示する可能性もあるし。",
+          "tags": [],
+          "timestamp": "2026/09/09 17:22"
+        },
+        {
+          "user": "norix31",
+          "comment": "ホモサピエンスの危機だと思うよ。現在だって、AIの挙動について、完全には理解できていないし、コントロールもできていないでしょ。我々は10年後を迎えられるのかな。",
+          "tags": [],
+          "timestamp": "2026/09/09 16:59"
+        }
+      ],
+      "fetchedAt": "2026-09-09T11:05:12.194137+00:00"
+    },
+    {
+      "id": "h_7ce72ad2",
+      "title": "スレッズの自称「神仏祈祷師｜霊視占い師」がAIを用いて極めて創作っぽい話を流布し、暴力を扇動していた - 電脳塵芥",
+      "url": "https://nou-yunyun.hatenablog.com/entry/2026/09/09/140000",
+      "domain": "nou-yunyun.hatenablog.com",
+      "bookmarkCount": 38,
+      "summary": "リトマスで「トマト窃盗の画像は誤り AI生成の電子透かし検出」という検証記事が出ていた。これは下記の「侍@hibikana417」というアカウントが投稿した写真についての検証であり、まず端的にOpenAIによるデジタル透かし（SynthID）が検出できることからAIによって作成された画像だと判断できる。 https://x.com/hibikana...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nou-yunyun.hatenablog.com/entry/2026/09/09/140000",
+      "comments": [
+        {
+          "user": "charun",
+          "comment": "AI出る前から、フワスピの巨大団体が暗躍してるけどね。み＊ろうとか",
+          "tags": [
+            "AI問題",
+            "悪徳商法･詐欺",
+            "2026"
+          ],
+          "timestamp": "2026/09/09 18:54"
+        },
+        {
+          "user": "Windymelt",
+          "comment": "外国人をいくらでも傷付けていいモノと思っていないとできないような投稿ばかりで暗い気持ちになる。まともな文章力がある人間はこういう記事も読まないので、こういうのもショート動画にする必要があるんだろうか",
+          "tags": [
+            "pol-政治",
+            "soc-社会"
+          ],
+          "timestamp": "2026/09/09 18:27"
+        },
+        {
+          "user": "Tomosugi",
+          "comment": "“だ。  ”",
+          "tags": [],
+          "timestamp": "2026/09/09 18:19"
+        },
+        {
+          "user": "kimotokanata",
+          "comment": "このブログ自体は信頼しているだけに最後のアフィリンクが海賊版ぽいことが気になってしまう",
+          "tags": [],
+          "timestamp": "2026/09/09 17:34"
+        },
+        {
+          "user": "Fushihara",
+          "comment": "人間の顔写真すら激キモになってるのわらた",
+          "tags": [],
+          "timestamp": "2026/09/09 17:02"
+        },
+        {
+          "user": "nida3001",
+          "comment": "外国人叩きって稼げるんだなあ",
+          "tags": [],
+          "timestamp": "2026/09/09 17:02"
+        }
+      ],
+      "fetchedAt": "2026-09-09T11:05:11.365155+00:00"
+    },
+    {
+      "id": "h_a2b32cf0",
+      "title": "「AIでなくなる仕事」ビル・ゲイツが明言 いま始まる“人間の仕事”争奪戦",
+      "url": "https://news.tv-asahi.co.jp/news_international/articles/900199131.html",
+      "domain": "news.tv-asahi.co.jp",
+      "bookmarkCount": 38,
+      "summary": "米マイクロソフト創業者のビル・ゲイツ氏が、自身のウェブサイトで公開した論考が大きな話題を呼んでいる。 タイトルは「激動のAI時代が到来。我々がいま下すべき重要な選択」というもの。 AIについて長年、その可能性を前向きに語ってきたゲイツ氏が、今回は一転、AIがもたらす将来への危機感をあらわにしている。AIに...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_international/articles/900199131.html",
+      "comments": [
+        {
+          "user": "t1mvverr",
+          "comment": "知的労働と定型的な肉体労働はAIに奪われるという見込みで、残るは非定型な肉体労働か。",
+          "tags": [],
+          "timestamp": "2026/09/09 20:00"
+        },
+        {
+          "user": "c3poshim",
+          "comment": "本当に今まで後輩にお願いしていた、資料作成や日程調整が1人でできるようになってしまった。ダブルチェックをするのは変わらんのでむしろAIの方が指示出すのが楽で早い。",
+          "tags": [],
+          "timestamp": "2026/09/09 19:54"
+        },
+        {
+          "user": "b_taro",
+          "comment": "なぜ誰も人類全体を幸福にするという使い方しないんやろうなあ",
+          "tags": [],
+          "timestamp": "2026/09/09 19:45"
+        },
+        {
+          "user": "hkanemat",
+          "comment": "AIを作ってる人たちはいったい何をしたいんや",
+          "tags": [],
+          "timestamp": "2026/09/09 19:42"
+        },
+        {
+          "user": "abortion",
+          "comment": "まああれっすね、エプスタインみたいな人間の需要が無くなることはないでしょうね（笑）。AIで当分は代替不可能だと思う。",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/09/09 19:34"
+        },
+        {
+          "user": "fromdusktildawn",
+          "comment": "認知症の老人の介護こそ、ロボットがやった方がいい。それを人間がやるのはつらすぎる。",
+          "tags": [],
+          "timestamp": "2026/09/09 19:33"
+        }
+      ],
+      "fetchedAt": "2026-09-09T11:05:12.658499+00:00"
+    },
+    {
+      "id": "h_96f9fda2",
+      "title": "QRコード不要の「NFCタグ決済」がPayPayやd払い対応 JCBとCPS",
+      "url": "https://www.watch.impress.co.jp/docs/news/2139467.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 26,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2139467.html",
+      "comments": [
         {
           "user": "toaruR",
-          "comment": "5年じゃ足りない＼(^o^)／",
+          "comment": "さすがに、勝手に引かれたりはせんよね？＼(^o^)／",
           "tags": [],
-          "timestamp": "2026/09/09 10:40"
+          "timestamp": "2026/09/09 19:23"
         },
         {
-          "user": "masatotoro",
-          "comment": "“AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」”  いつ切り替えようかな",
+          "user": "umaemong",
+          "comment": "NFCタグに決済用のURLが書き込まれてるだけの仕組みを「NFCタグ決済」と呼ぶのは大仰では。信頼できない端末にスマホかざすのは割とリスクあるんだよな。",
           "tags": [],
-          "timestamp": "2026/09/09 09:50"
+          "timestamp": "2026/09/09 19:20"
         },
         {
-          "user": "sekaiiti",
-          "comment": "“SELinuxはデフォルトでエンフォーシングモード”「強制モードは意図せずブロックされて逆にややこしい」などと言って避けてきた皆様、遂に向き合う時間です。",
-          "tags": [
-            "linux"
-          ],
-          "timestamp": "2026/09/09 09:06"
+          "user": "rinxmoon",
+          "comment": "ユーザーが画面でポチポチ操作するタイプは混雑時がかなり悲惨。イベント会場みたいな使いたい場面ではイマイチなのよね。",
+          "tags": [],
+          "timestamp": "2026/09/09 17:52"
         },
         {
-          "user": "masatomo-m",
-          "comment": "enforcingモードデフォルトかー。色々辛そうと思ったが、現代では追加設定するようなものは全部コンテナに入れちゃうし、実は大したことないのかも",
+          "user": "n_vermillion",
+          "comment": "ほーNFCタグで決済できるんか。専用端末が要らないのはメリット大きい気がする。",
           "tags": [],
-          "timestamp": "2026/09/09 09:06"
+          "timestamp": "2026/09/09 17:51"
+        },
+        {
+          "user": "tsu_nyan",
+          "comment": "結局クレカ払いに戻った。タッチ端末も増えてきたし",
+          "tags": [],
+          "timestamp": "2026/09/09 17:47"
+        },
+        {
+          "user": "asakura-t",
+          "comment": "QR読み取りでの決済みたいな感じ？と思ったらだいぶ違った／JCB Payには対応しないのね。",
+          "tags": [],
+          "timestamp": "2026/09/09 17:47"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:52.634578+00:00"
+      "fetchedAt": "2026-09-09T11:05:13.408347+00:00"
     },
     {
-      "id": "h_01f81813",
-      "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供",
-      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 19,
-      "summary": "米Google傘下のGoogle DeepMindは9月8日（現地時間）、ヒトゲノムで起こり得る1文字単位の変異（一塩基変異）約90億通り全てについて、分子レベルでどんな影響が出るかを予測したデータベース「AlphaGenome Atlas」を公開した。学術研究向けに、Webサイトから無料で利用できる。 昨年6月に公開したゲノム解析AI「AlphaGe...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/09/2000001296/",
+      "id": "h_a4605c09",
+      "title": "Why Uber Engineering Switched from Postgres to MySQL",
+      "url": "https://www.uber.com/in/en/blog/postgres-to-mysql-migration/",
+      "domain": "uber.com",
+      "bookmarkCount": 21,
+      "summary": "The early architecture of Uber consisted of a monolithic backend application written in Python that used Postgres for data persistence. Since that time, the architecture of Uber has changed significantly, to a model of microservices and new",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.uber.com/in/en/blog/postgres-to-mysql-migration/",
       "comments": [
         {
-          "user": "GENS",
-          "comment": "Google DeepMindは世界のためになる有能ニュースが続々と出てきてすごい！（ポンコツGeminiちゃんから目を逸らしながら）",
+          "user": "crexist",
+          "comment": "あれ、前なんか読んだことあるな、とおもったら2016か",
           "tags": [],
-          "timestamp": "2026/09/09 12:23"
-        },
-        {
-          "user": "numenius",
-          "comment": "このAIを基に、生化学や医学、薬学で将来どんなブレイクスルーが起こるか楽しみだぜ。",
-          "tags": [],
-          "timestamp": "2026/09/09 12:18"
+          "timestamp": "2026/09/09 19:12"
         },
         {
           "user": "nguyen-oi",
-          "comment": "DeepMindの進化止まらんな。1ペタバイトのゲノム予測データ無償公開は太っ腹すぎる",
+          "comment": "PostgresのWAL肥大化と二次インデックス更新コストに悩まされてMySQLに移行した有名な話だな",
           "tags": [],
-          "timestamp": "2026/09/09 11:43"
+          "timestamp": "2026/09/09 17:42"
         }
       ],
-      "fetchedAt": "2026-09-09T04:12:52.170686+00:00"
-    },
-    {
-      "id": "h_41d88696",
-      "title": "Meta、パーソナルAIエージェント「Muse」発表。ユーザーの日常タスクを自律的に支援、セキュリティやプライバシーも考慮した設計うたう | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/09/09/5476.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 14,
-      "summary": "Metaは、米国のユーザー向けに新しいパーソナルAIエージェント「Muse」を発しました。Metaが独自に開発したAIモデル「Muse Spark」を採用し、ウェブブラウジングやファイル操作、フォームへの入力、購入手続きといった幅広いタスクをバックグラウンドで自律的に実行します。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/09/09/5476.html",
-      "comments": [
-        {
-          "user": "hatebu_admin",
-          "comment": "情報全部売ってそう",
-          "tags": [],
-          "timestamp": "2026/09/09 12:34"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Metaに日常のファイル操作や購入手続きまで全部握られるのは普通に怖すぎる件",
-          "tags": [],
-          "timestamp": "2026/09/09 11:07"
-        },
-        {
-          "user": "trailhead_l",
-          "comment": "Meta製てだけで怖くて使えない",
-          "tags": [],
-          "timestamp": "2026/09/09 10:56"
-        }
-      ],
-      "fetchedAt": "2026-09-09T04:12:54.292612+00:00"
-    },
-    {
-      "id": "h_fa3b537e",
-      "title": "実用性はないけれど…WindowsのプロフィールにアニメGIFを使う方法が発見され話題に【やじうまWatch】",
-      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2139306.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 10,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2139306.html",
-      "comments": [
-        {
-          "user": "FutureIsWhatWeAre",
-          "comment": "windhawkで実装されそう",
-          "tags": [],
-          "timestamp": "2026/09/09 12:26"
-        },
-        {
-          "user": "sny22015",
-          "comment": "面白そう。オモコロでやってほしい（俺はやらないけど）",
-          "tags": [],
-          "timestamp": "2026/09/09 12:25"
-        },
-        {
-          "user": "trashcan",
-          "comment": "anigoka先生に朗報",
-          "tags": [],
-          "timestamp": "2026/09/09 12:23"
-        },
-        {
-          "user": "spitzfreak",
-          "comment": "きっとそこまでして動かすほどでもない 自分でやって動くの生で見たら公式実装されねぇかな？って言いそうだけどw",
-          "tags": [
-            "neta",
-            "tips"
-          ],
-          "timestamp": "2026/09/09 11:56"
-        },
-        {
-          "user": "deep_one",
-          "comment": "「レジストリの操作に加えてMicrosoftが配布しているユーティリティのインストールも必要になる」隠しスイッチ？",
-          "tags": [],
-          "timestamp": "2026/09/09 11:14"
-        }
-      ],
-      "fetchedAt": "2026-09-09T04:12:55.378575+00:00"
+      "fetchedAt": "2026-09-09T11:05:13.679136+00:00"
     }
   ],
-  "lastCollection": "2026-09-09T04:12:55.378598+00:00"
+  "lastCollection": "2026-09-09T11:05:14.820405+00:00"
 }
