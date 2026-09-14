@@ -1,397 +1,143 @@
 {
   "entries": [
     {
-      "id": "h_ba4b4b87",
-      "title": "AIが書いた日本語に頻出する単語を指摘するtextlintプリセットを作った - ぷらすのブログ",
-      "url": "https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/",
-      "domain": "blog.p1ass.com",
-      "bookmarkCount": 290,
-      "summary": "こんにちは、ぷらす(@p1ass)です。 AI が書いた日本語に出てきやすい単語と言い回しを見つける textlint のプリセット、textlint-rule-preset-ai-words-ja を作りました。 この記事では、実際に検出できる単語の例や、作成した背景、使い方、形態素解析を使った検出の仕組み、辞書の仕組みを紹介します。 GitHub - p1ass...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/",
-      "comments": [
-        {
-          "user": "otchy210",
-          "comment": "アウトプットをまず英語で出させて、そのあと自然な日本語に翻訳させる、って手順で概ね脱臭できそうに思うけどな。",
-          "tags": [],
-          "timestamp": "2026/09/14 20:56"
-        },
-        {
-          "user": "north_korea",
-          "comment": "ちなみに英語圏でもAIくさい英語は存在するので、日本語の翻訳能力の問題でもないんだよな。",
-          "tags": [],
-          "timestamp": "2026/09/14 18:27"
-        },
-        {
-          "user": "macha0606",
-          "comment": "頻出単語を置き換えても、論点の立て方やその後の筋書き展開も特徴があるので見分けがつきそうだし、読みにくさは多分変わらない。創作系はやらないから恒一は見たことないです",
-          "tags": [],
-          "timestamp": "2026/09/14 17:06"
-        },
-        {
-          "user": "BOOOOOOOON",
-          "comment": "こういうの頑張って自分でも用意しようと思ったけど、いたちごっこでいくらやっても潰れなくて諦めた。素直にGeminiに「読みやすい日本語に書き換えて」って依頼してる。そのほうがよっぽどいいものができる",
-          "tags": [],
-          "timestamp": "2026/09/14 16:37"
-        },
-        {
-          "user": "delphinus35",
-          "comment": "いいね！早速使ってみよう。",
-          "tags": [],
-          "timestamp": "2026/09/14 16:30"
-        },
-        {
-          "user": "misshiki",
-          "comment": "AI文に頻出する日本語を検出するtextlintプリセット。v1.2.0で50語を収録し、形態素解析で活用形も検知。Claude Codeのhookと組み合わせ、生成→lint→自動修正も可能。",
-          "tags": [
-            "人工知能"
-          ],
-          "timestamp": "2026/09/14 16:09"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:20.029157+00:00"
-    },
-    {
       "id": "h_98cf5e40",
       "title": "パナソニック、録画番組をクラウド保存できる全自動ディーガ",
       "url": "https://av.watch.impress.co.jp/docs/news/2140657.html",
       "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 168,
+      "bookmarkCount": 247,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/news/2140657.html",
       "comments": [
         {
-          "user": "miyauchi_it",
-          "comment": "録画しないと再放送されなかったりお金払ってみたくてもサブスク配信や円盤化はおろかオンデマンド配信もなかったりする番組があるんですよ😭",
+          "user": "jun_cham",
+          "comment": "これのクラウド保存は公衆送信にはならんの？個人のクラウドにmp3を保存するのは公衆送信って言ってなかったっけ。MYUTAはダメでパナソニックならいいの？おかしくない？",
           "tags": [],
-          "timestamp": "2026/09/14 21:20"
+          "timestamp": "2026/09/15 02:39"
         },
         {
-          "user": "yonao205",
-          "comment": "追っかけ再生できるのかな？数秒遅れとかで観れたら放送法に引っかからないのだろうか？昔は1セグとかテレビを外で観る事がすごい！っていう時代あったなぁ。20年くらい前かな？",
+          "user": "paladin1",
+          "comment": "旧機種の場合はDiXiM U Cloudがクラウド保存対応です。(月額380円で専用クラウドストレージ100GB。PCの再生アプリはクラウド再生未対応)",
           "tags": [],
-          "timestamp": "2026/09/14 21:14"
+          "timestamp": "2026/09/15 01:43"
         },
         {
-          "user": "trashcan",
-          "comment": "権利関係で仕方ないとはいえ、みんなで同じ番組を同じようなコーデックでエンコードして重複保存するの？　壮大な無駄だな。",
-          "tags": [],
-          "timestamp": "2026/09/14 21:12"
+          "user": "pribetch",
+          "comment": "PT2搭載PCが動くうちは使い倒す",
+          "tags": [
+            "TV"
+          ],
+          "timestamp": "2026/09/15 01:23"
         },
         {
-          "user": "splitaces",
-          "comment": "Tverが視聴期限なしで配信したら終わるやつ。でもそれを回避するためのサービスなんだろうけどガラパゴス感すげーわ",
-          "tags": [],
-          "timestamp": "2026/09/14 21:03"
-        },
-        {
-          "user": "ch1248",
-          "comment": "OneDriveやGoogle Driveに保存……？！",
+          "user": "t-sat",
+          "comment": "レコーダ市場瀕死のこの時期に、円安&HDD価格暴騰。巡り合わせですなあ…。",
           "tags": [
             "hardware",
-            "NEWS",
-            "visual"
+            "TV"
           ],
-          "timestamp": "2026/09/14 21:01"
+          "timestamp": "2026/09/15 00:53"
         },
         {
-          "user": "ikihaji_kun",
-          "comment": "パナはそれよか基本的な機能をちゃんとしてほしいんだけど。録画一覧のプレビュー再生を切れないのがウザすぎるんよ",
+          "user": "findup",
+          "comment": "TVerも見逃しは原則一週間で、ちょっと忙しいとTVerすら見れなかったりするしね",
           "tags": [],
-          "timestamp": "2026/09/14 20:58"
+          "timestamp": "2026/09/15 00:52"
+        },
+        {
+          "user": "airj12",
+          "comment": "各局がオンデマンド配信してくれるのが最も無駄か無いのだが",
+          "tags": [],
+          "timestamp": "2026/09/15 00:27"
         }
       ],
-      "fetchedAt": "2026-09-14T12:25:18.545696+00:00"
-    },
-    {
-      "id": "h_35e81168",
-      "title": "トランプ政権のサックス氏、AI「ペース調整」論に苦言 「規制がなければできないふりをやめろ」",
-      "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001433/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 130,
-      "summary": "「他者の許可が必要なふりはやめろ」──米大統領科学技術諮問委員会（PCAST）共同議長のデビッド・サックス氏は9月12日（現地時間）、Xへの投稿で、米Anthropicのダリオ・アモデイCEOが同日公開したエッセイ「We Must Pace the Frontier」と、これに同調したOpenAIのサム・アルトマンCEOの投稿に反応し、ペース調整をする...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/14/2000001433/",
-      "comments": [
-        {
-          "user": "interferobserver",
-          "comment": "どうかな。相手の抜け駆けを恐れながら減速するのと、スピード違反に罰があることを知りながら減速するのはわけが違う。それに防ぎたいのは破局的なリスクであって、Hugging Face程度のもんじゃないやろ。",
-          "tags": [],
-          "timestamp": "2026/09/14 20:35"
-        },
-        {
-          "user": "trace22",
-          "comment": "へぇ〜マジか。トランプ政権にこんなこと言える人がいたとはな",
-          "tags": [],
-          "timestamp": "2026/09/14 20:11"
-        },
-        {
-          "user": "i-komo",
-          "comment": "むしろ、政権側にお前らみたいなのがいるからこんなことを言わなきゃならない、まである。核兵器や生物兵器と同じカテゴリーならば何とかして国際協調まで持っていかなきゃならない。この政権じゃ無理。",
-          "tags": [],
-          "timestamp": "2026/09/14 18:51"
-        },
-        {
-          "user": "hidea",
-          "comment": "これは正論",
-          "tags": [],
-          "timestamp": "2026/09/14 18:22"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/09/14 18:08"
-        },
-        {
-          "user": "nomuken",
-          "comment": "言ってる内容の大筋に異は無いが、「誰が言ってるか」はちょっと考えてブコメすべきじゃないのかな？",
-          "tags": [],
-          "timestamp": "2026/09/14 18:04"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:24.215896+00:00"
-    },
-    {
-      "id": "h_468a06d1",
-      "title": "OpenAI「Astra」は何でもできる、だからこそ“プロの指示”が必要になる (1/4)",
-      "url": "https://ascii.jp/elem/000/004/434/4434403/",
-      "domain": "ascii.jp",
-      "bookmarkCount": 117,
-      "summary": "5日、OpenAIの「GPT-6 Astra」が筆者の環境でも使えるようになりました。前のバージョン「GPT-5.5 Sol」よりも、推論ベンチマークでは12倍に達するほど性能が大きく向上したとの報告もあり、注目が集まりました。果たして、その能力はこれまでのAIの常識を変えるほどの汎用性と高い性能を備えていました。ただし、GPT-6 ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/434/4434403/",
-      "comments": [
-        {
-          "user": "Queen_LOTUS",
-          "comment": "何でもできるっていうのは、何もできないのと一緒なんだよね。",
-          "tags": [],
-          "timestamp": "2026/09/14 21:24"
-        },
-        {
-          "user": "aox",
-          "comment": "相撲も出来るのでしょうか",
-          "tags": [],
-          "timestamp": "2026/09/14 19:02"
-        },
-        {
-          "user": "lainof",
-          "comment": "素人の要望を実現する人間と同じように振る舞えないなら、何でもできるとは言えないのでは。",
-          "tags": [],
-          "timestamp": "2026/09/14 17:56"
-        },
-        {
-          "user": "pochi-taro00",
-          "comment": "さっそくナーフされてるんやが。。",
-          "tags": [],
-          "timestamp": "2026/09/14 17:37"
-        },
-        {
-          "user": "gewaa",
-          "comment": "だからこの記者はAIを使っても何もできないんだね。小説・アニメ・ゲームなどをAIで作る記事を節操なく書いているけど、成果物では結果を出さないクリエイターごっこ。筆者紹介の代表作が2本ともsteamで賛否両論って。",
-          "tags": [],
-          "timestamp": "2026/09/14 16:06"
-        },
-        {
-          "user": "toaruR",
-          "comment": "いくらかかったんやろ(*´д｀*)",
-          "tags": [],
-          "timestamp": "2026/09/14 15:57"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:19.524116+00:00"
-    },
-    {
-      "id": "h_5df9bae7",
-      "title": "仕様書通りだけど提案書とは違うシステムだったので訴えます",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/14/news001.html",
-      "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 117,
-      "summary": "連載目次 IT訴訟事例を例にとり、トラブルの予防策と対処法を解説する本連載。今回は久しぶりに「ユーザー企業の要件定義不備」に関する判例を紹介する。 これまで何度か取り上げたように、多くのベンダーが「自分たちの仕事は、発注者から提示された要件を確実に実現すること」と考えるのに対し、ベンダーの責任をより...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/14/news001.html",
-      "comments": [
-        {
-          "user": "door-s-dev",
-          "comment": "書いてもない要求実装されてないってAI訴え出すのかな",
-          "tags": [],
-          "timestamp": "2026/09/14 21:14"
-        },
-        {
-          "user": "kazumi_wakatsu",
-          "comment": "“平成11年10月27日判決より”",
-          "tags": [],
-          "timestamp": "2026/09/14 20:31"
-        },
-        {
-          "user": "tabihotelcom",
-          "comment": "契約後にユーザー企業が示したコンピュータ仕様書には、統括・統合の項目が記載されていなかった。→ 財務省だって、増税に伴う国民に不利益なことは言わないだろ。自ら工数が増える余計なことは言うはずがない",
-          "tags": [],
-          "timestamp": "2026/09/14 19:46"
-        },
-        {
-          "user": "retore",
-          "comment": "これ割と時代の流れとともに変わってきていて、最近は発注者責任が前より問われるようになってきた印象",
-          "tags": [],
-          "timestamp": "2026/09/14 19:38"
-        },
-        {
-          "user": "trace22",
-          "comment": "提案書って要件定義どころか契約前の話じゃねえの？",
-          "tags": [],
-          "timestamp": "2026/09/14 18:31"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/09/14 18:07"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:22.297914+00:00"
-    },
-    {
-      "id": "h_33891074",
-      "title": "「とほほのWWW入門」運営30年で見た、プログラミング言語とWeb標準の進化史 流行に振り回されず学び続けるために",
-      "url": "https://codezine.jp/article/detail/29411",
-      "domain": "codezine.jp",
-      "bookmarkCount": 93,
-      "summary": "2026年に開設から30年を迎える個人サイト「とほほのWWW入門」。管理人の杜甫々氏は、「Developers Summit 2026 KANSAI」の基調講演で、1996年から見つめてきたプログラミング言語やWeb標準の移り変わり、そして2025年10月の定年退職後にあらためて向き合うことになったAIとの付き合い方を、30年分のエピソードとともに語...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/29411",
-      "comments": [
-        {
-          "user": "Cherenkov",
-          "comment": "生で見た フロントエンドカンファレンス福岡で",
-          "tags": [],
-          "timestamp": "2026/09/14 20:59"
-        },
-        {
-          "user": "pixmap",
-          "comment": "アイコンそっくりで思わずにっこり",
-          "tags": [],
-          "timestamp": "2026/09/14 17:43"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "とほほさんだ。",
-          "tags": [
-            "web",
-            "コンテンツ",
-            "歴史",
-            "文化"
-          ],
-          "timestamp": "2026/09/14 14:22"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "30年も個人サイト続けてるのはマジで凄すぎるな。あめぞうの元ネタ説も胸熱",
-          "tags": [],
-          "timestamp": "2026/09/14 14:13"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:21.395258+00:00"
+      "fetchedAt": "2026-09-14T21:42:25.119022+00:00"
     },
     {
       "id": "h_00588e21",
       "title": "最近のClaude Code Desktop、使いやすさマシマシです！",
       "url": "https://zenn.dev/goat_eat_any/articles/claude-code-desktop-app",
       "domain": "zenn.dev",
-      "bookmarkCount": 58,
+      "bookmarkCount": 182,
       "summary": "はじめに Claude CodeをまだCLIで使用していませんか？Claude Code Desktop、昔は使えるコマンドが少なかったり、そもそも重かったりなど使いにくかったですが、最近めっちゃ使いやすくなってます！ 思いつくままに、Claude Code Desktopのいいところを書いてみました！ おすすめの機能20個 1. ファイルをその場で編集で...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/goat_eat_any/articles/claude-code-desktop-app",
       "comments": [
         {
-          "user": "cheap_talk0302",
-          "comment": "マジでこれ。Desktop版が使いやすすぎる。CLIの良さは機能リリースが早いことくらいでは？",
+          "user": "lost_and_found",
+          "comment": "もはやIDEじゃん",
           "tags": [],
-          "timestamp": "2026/09/14 20:55"
+          "timestamp": "2026/09/15 05:11"
         },
         {
-          "user": "tofu-kun",
-          "comment": "ファイル選択時にキャッシュが効きすぎてて、追加したばかりのファイルが表示されないというのを改善してくれれば最高",
+          "user": "peperon_brain",
+          "comment": "あれ、Orca入れてみたけどこっちで十分かも…",
           "tags": [],
-          "timestamp": "2026/09/14 19:10"
+          "timestamp": "2026/09/15 04:31"
         },
         {
-          "user": "boxmanx99",
-          "comment": "WAVEが便利過ぎてどっぷりなのだけど、公式使ってみるか……",
+          "user": "kijtra",
+          "comment": "テーマを Tokyo Night にしたりできないかな",
           "tags": [],
-          "timestamp": "2026/09/14 18:36"
+          "timestamp": "2026/09/14 23:37"
         },
         {
-          "user": "karatte",
-          "comment": "あら、いいですね。自分はもうHermesデスクトップアプリ＆OpenCode Goプランの月10USDで充分ですわ",
-          "tags": [],
-          "timestamp": "2026/09/14 16:58"
+          "user": "yuu-yuiken",
+          "comment": "claudeはいい加減ctrl+enterで送信にしてくれ",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/09/14 23:31"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "VS Codeの開発メンバーが参加してからGUIの改善速度エグいな CLI派も素直に試す価値あるわ",
+          "user": "toaruR",
+          "comment": "わいのClaude Code Desktopと全然違う＼(^o^)／",
           "tags": [],
-          "timestamp": "2026/09/14 16:38"
+          "timestamp": "2026/09/14 23:03"
         },
         {
-          "user": "hogetax",
-          "comment": "“無理やり20個ひねり出した感もあります”せやな。orcaをつかえ!w",
+          "user": "o-meisou",
+          "comment": "使いやすいよね。最近もうvscode使わなくなってきた。もっともアプリの方が使いやすくなってきて、スマホで指示出ししてると、まじで仕事してる感がなさすぎて困ってる。",
           "tags": [],
-          "timestamp": "2026/09/14 13:22"
+          "timestamp": "2026/09/14 22:45"
         }
       ],
-      "fetchedAt": "2026-09-14T12:25:23.097461+00:00"
-    },
-    {
-      "id": "h_558d3f4c",
-      "title": "楽天モバイル、“楽天ID未連携で自動解約”を撤回 12月以降も継続利用できる",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2140667.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 52,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2140667.html",
-      "comments": [
-        {
-          "user": "atsushieno",
-          "comment": "契約時に存在していなかった付帯条件を後から追加できるわけないしな",
-          "tags": [],
-          "timestamp": "2026/09/14 19:12"
-        },
-        {
-          "user": "pikopikopan",
-          "comment": "怒られたっぽい",
-          "tags": [],
-          "timestamp": "2026/09/14 19:10"
-        },
-        {
-          "user": "adliblogger",
-          "comment": "怒られ発生？",
-          "tags": [],
-          "timestamp": "2026/09/14 18:19"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/09/14 18:07"
-        },
-        {
-          "user": "call_me_nots",
-          "comment": "普通に断行して欲しかったんだが笑 https://x.com/call_me_nots/status/2095005963027902907",
-          "tags": [],
-          "timestamp": "2026/09/14 17:56"
-        },
-        {
-          "user": "matsuedon",
-          "comment": "解約してもいいのよ、ほーれほーれ的な人がたくさんいらっしゃったのかもしれない",
-          "tags": [],
-          "timestamp": "2026/09/14 17:29"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:18.960729+00:00"
+      "fetchedAt": "2026-09-14T21:42:27.343063+00:00"
     },
     {
       "id": "h_20defcec",
       "title": "ローカルアカウントで「Windows 11 Home」をセットアップする超簡単な方法【令和8年最新版】／あのリンクをクリックするだけ！【やじうまの杜】",
       "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2140676.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 45,
+      "bookmarkCount": 100,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/yajiuma/2140676.html",
       "comments": [
+        {
+          "user": "kazuau",
+          "comment": "OOBEの大規模変更に伴ってビルド26200.5000～8037のどこかでこの変更が入った可能性が高いってさ。なので多分仕様だと思うけど信用はできないな…",
+          "tags": [
+            "Windows"
+          ],
+          "timestamp": "2026/09/15 03:23"
+        },
+        {
+          "user": "cider_kondo",
+          "comment": "なんか、https非対応ページに接続するときに似ている気がする(そうか?(ローカル垢でも結局「OneDrive使いませんか」「OneDrive使えばお得!」「OneDriveでバックアップしようず」「OneDrive勝手に入れました!」とか言われそう(偏見",
+          "tags": [],
+          "timestamp": "2026/09/15 02:42"
+        },
+        {
+          "user": "dollarss",
+          "comment": "なんでこんな事がノウハウとして蓄積されなきゃいけないんだ…おかしいよWindows、オンラインアカウントにするメリットないし…",
+          "tags": [],
+          "timestamp": "2026/09/15 02:17"
+        },
+        {
+          "user": "eos2323",
+          "comment": "この詳細のリンクどこに飛んでるんだろう。OOBEの途中でブラウザ開こうとしてユーザープロファイル無いから作ろうとする流れなのかな",
+          "tags": [],
+          "timestamp": "2026/09/14 23:15"
+        },
         {
           "user": "mohno",
           "comment": "「ワンクリックでその強制を迂回し、ローカルアカウントを作成する方法がある」←バグで使えるようになっただけなのか？「この抜け穴はすぐに塞がれてしまいそうですが」",
@@ -411,140 +157,200 @@
             "未分類"
           ],
           "timestamp": "2026/09/14 20:12"
-        },
-        {
-          "user": "sqrt",
-          "comment": "そうはならんやろ",
-          "tags": [
-            "PC",
-            "UI",
-            "windows"
-          ],
-          "timestamp": "2026/09/14 19:58"
-        },
-        {
-          "user": "cinefuk",
-          "comment": "母が騙されて買った第七世代CoreのPC（リース落ち？）が、ローカルアカウントでWindows11インストールされていて「ワンクリックでその強制を迂回し、ローカルアカウントを作成する方法」",
-          "tags": [
-            "PC",
-            "Windows",
-            "hack"
-          ],
-          "timestamp": "2026/09/14 19:39"
-        },
-        {
-          "user": "Goldenduck",
-          "comment": "\"サインイン欄の下にある説明文の［詳細］リンクをクリックする\" とローカルアカウント作成に進めるとか意味不明な挙動",
-          "tags": [],
-          "timestamp": "2026/09/14 18:39"
-        },
-        {
-          "user": "sisya",
-          "comment": "ローカルアカウントでセットアップできるようにしていくと公言しているのだから、今更ふさいでは来ないと思う。むしろ、今後そのくらい簡単なセットアップ法になると期待している。",
-          "tags": [],
-          "timestamp": "2026/09/14 18:34"
         }
       ],
-      "fetchedAt": "2026-09-14T12:25:20.680129+00:00"
-    },
-    {
-      "id": "h_9b746c1b",
-      "title": "自作PC民が会社支給PCを使ったら「始業前に出社して起動だけ済ませる必要がある」という結論になった→設備更新の提案が却下される職場がしんどい",
-      "url": "https://togetter.com/li/2745459",
-      "domain": "togetter.com",
-      "bookmarkCount": 25,
-      "summary": "ベンジャミンLAB @PCjank 【悲報】自作PC民、会社支給PCを使った結果 ①朝一番、PCの電源を入れる ②起動だけで8分かかる ③よし使うぞ、という瞬間にWindows Updateが始まる ④再起動でさらに10分溶ける ⑤家の自作PCなら3秒で立ち上がるのに ⑥「重いですね」と同僚に言うと ⑦「昔からこうだから」と諦められてる ⑧提案書を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2745459",
-      "comments": [
-        {
-          "user": "burnoutdog",
-          "comment": "DELL、HPはBIOS設定で自動起動できる（世代もあった）",
-          "tags": [],
-          "timestamp": "2026/09/14 21:09"
-        },
-        {
-          "user": "Hasen",
-          "comment": "自作PCを仕事で使って、会社PCは労基対策で日中電源つけっぱなしにしとけばいいじゃん。",
-          "tags": [],
-          "timestamp": "2026/09/14 21:05"
-        },
-        {
-          "user": "terlen0",
-          "comment": "守れないルールのせいでルールを破る",
-          "tags": [],
-          "timestamp": "2026/09/14 20:36"
-        },
-        {
-          "user": "wackunnpapa",
-          "comment": "わかる。前職で同じような目に遭った。",
-          "tags": [
-            "ICT",
-            "literacy"
-          ],
-          "timestamp": "2026/09/14 20:19"
-        },
-        {
-          "user": "n_vermillion",
-          "comment": "たまにしか立ち上げないとWindows Update走っちゃうかもなぁ。結局毎日立ち上げるようにするのが大事か。にしてもWin11でそれなりのスペック足切りがあったと思うんだけど、まだこんなんあるんか。",
-          "tags": [],
-          "timestamp": "2026/09/14 20:06"
-        },
-        {
-          "user": "murlock",
-          "comment": "ワイの会社のデスクトップなんてフルリモートでめったに使わないもんだからたまに出社するとWindows Updateでとんでもない時間かかるで。一時間じゃすまんかもしれん。",
-          "tags": [],
-          "timestamp": "2026/09/14 20:01"
-        }
-      ],
-      "fetchedAt": "2026-09-14T12:25:21.761692+00:00"
+      "fetchedAt": "2026-09-14T21:42:27.920911+00:00"
     },
     {
       "id": "h_bc6dcf56",
       "title": "本人限定受取郵便、27年4月から本人確認を厳格化 スマホのマイナカードにも対応",
       "url": "https://k-tai.watch.impress.co.jp/docs/news/2140785.html",
       "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 11,
+      "bookmarkCount": 82,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2140785.html",
       "comments": [
         {
-          "user": "miyauchi_it",
-          "comment": "“ICチップが組み込まれた写真付きの運転免許証、マイナンバーカード、在留カード、特別永住者証明書の4種類” 運転免許持ってない人は実質マイナンバーカードの取得義務化みたいな感じか。",
+          "user": "retoriba",
+          "comment": "ようやく運転免許証の暗証番号に用途ができるのか。更新の時に設定はするけど使う場面のなかったやつ。",
           "tags": [],
-          "timestamp": "2026/09/14 21:24"
+          "timestamp": "2026/09/15 06:04"
         },
         {
-          "user": "gogatsu26",
-          "comment": "“ICチップが組み込まれた写真付きの運転免許証、マイナンバーカード、在留カード、特別永住者証明書の4種類”",
+          "user": "nakamura-kenichi",
+          "comment": "お、ちゃんとスマホも考慮されてて有能。インフラ整備進めて本人限定受取郵便に限らず経路に関わった側の本人確認もしたらええんやで。途中でがめられる恐れも無くなって安心安全やからな。",
           "tags": [],
-          "timestamp": "2026/09/14 21:18"
+          "timestamp": "2026/09/15 05:50"
         },
         {
-          "user": "Goldenduck",
-          "comment": "家族が勝手に受け取って勝手に開けてた時代もあった。隔世の感ある",
+          "user": "hogetax",
+          "comment": "これ、郵便局の方から来ました詐欺が発生するやつやん^^;どう予防するんだろう",
           "tags": [],
-          "timestamp": "2026/09/14 21:06"
+          "timestamp": "2026/09/15 05:36"
         },
         {
-          "user": "peachpear",
-          "comment": "よいと思うけど、マイナカード持ってない人は大変そう",
+          "user": "strange",
+          "comment": "犯罪収益移転防止法の施行規則の改正への対応。資金洗浄や特殊詐欺を防ぐために、特定事業者ではICチップでの本人確認が来年4月までに義務化される。なお携帯電話不正利用防止法も改正されてスマホ契約も対象",
+          "tags": [],
+          "timestamp": "2026/09/15 05:14"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "“これまでは、条件を満たすパスポートなども利用できたが、見直し後は対象外”　いいね",
+          "tags": [],
+          "timestamp": "2026/09/15 04:03"
+        },
+        {
+          "user": "georgew",
+          "comment": "いよいよマイナカード必須の社会へ、ってことですね。",
+          "tags": [],
+          "timestamp": "2026/09/15 00:33"
+        }
+      ],
+      "fetchedAt": "2026-09-14T21:42:26.110501+00:00"
+    },
+    {
+      "id": "h_adb61ccd",
+      "title": "AI活用で生まれた別のコスト - SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/09/02/120000",
+      "domain": "tech.smarthr.jp",
+      "bookmarkCount": 65,
+      "summary": "SmartHRで給与計算機能の開発をしているプロダクトエンジニアの@rです。 開発のいたるところでAIが活用されるようになってきました。弊社でも、コーディングはもとよりPRD（プロダクト要求仕様書）の作成、チケットの作成、テスト計画書の作成、ヘルプページの作成ほかあらゆる成果物の作成でAIの利用が当たり前になって...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.smarthr.jp/entry/2026/09/02/120000",
+      "comments": [
+        {
+          "user": "nabinno",
+          "comment": "昔は簡潔というより情報が欠損し、その穴埋めに確認していた面もある。多少スロップでも情報を残し、AIで圧縮できる方がましだけどね。",
+          "tags": [
+            "smarthr",
+            "ai-slop",
+            "information-overload",
+            "information-loss",
+            "organizational-design",
+            "generative-ai"
+          ],
+          "timestamp": "2026/09/15 06:19"
+        },
+        {
+          "user": "paulownia",
+          "comment": "\"「情報量が多い」ことと「親切」は違う\",\"AI活用のコストは、別の人に移っているかもしれない\" ほんまそれ",
+          "tags": [
+            "AI",
+            "開発"
+          ],
+          "timestamp": "2026/09/15 01:01"
+        },
+        {
+          "user": "yo4ma3",
+          "comment": "ほんそれ",
+          "tags": [],
+          "timestamp": "2026/09/15 00:51"
+        },
+        {
+          "user": "gadget-lab",
+          "comment": "後で読みたい。AI活用で生まれた別のコスト - SmartHR Tech Blog",
           "tags": [
             "あとで読む"
           ],
-          "timestamp": "2026/09/14 21:03"
+          "timestamp": "2026/09/15 00:32"
+        },
+        {
+          "user": "sey323",
+          "comment": "個人的な感想で、PRの概要は人間が書ほうが読んでて面白い。人柄がでるというか",
+          "tags": [],
+          "timestamp": "2026/09/14 23:56"
+        },
+        {
+          "user": "threetea0407",
+          "comment": "レビュワーがレビューを拒否するということはもっとやってもいいと思う今日この頃",
+          "tags": [],
+          "timestamp": "2026/09/14 23:33"
         }
       ],
-      "fetchedAt": "2026-09-14T12:25:23.425036+00:00"
+      "fetchedAt": "2026-09-14T21:42:24.609994+00:00"
+    },
+    {
+      "id": "h_2e0b4f16",
+      "title": "Local LLMを社内に提供！ Local LLM Model as a Serviceとその取り組みについて - NTT docomo Business Engineers' Blog",
+      "url": "https://engineers.ntt.com/entry/202607-local-llm-maas/entry",
+      "domain": "engineers.ntt.com",
+      "bookmarkCount": 50,
+      "summary": "コーディングエージェントの普及によって、LLMは日々の開発で欠かせない道具となりました。 その多くはクラウド型のサービスを通じて利用されており、高性能なモデルをすぐに使える環境が整っています。 同時に、日々の開発で常用するものだからこそ、扱うデータや利用の実態を自組織の内側に収めておきたい場面も出てき...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/engineers.ntt.com/entry/202607-local-llm-maas/entry",
+      "comments": [
+        {
+          "user": "soulfulmiddleagedman",
+          "comment": "社内で構築して遊んでた人がいて、ありがたく使わせてもらってたが、上の人からも文字通り遊んでる判定されて、今元気なくなって停滞気味。",
+          "tags": [],
+          "timestamp": "2026/09/15 06:38"
+        },
+        {
+          "user": "nabinno",
+          "comment": "LocalLLMMaaSは語義から混乱している。国内法・契約・技術統制で外資クラウドを制御できるなら、ソブリンの価値は限定的。国策需要を離れ、性能・コスト・運用性で市場に勝てなければ産業にはならない。",
+          "tags": [
+            "ntt",
+            "local-llm",
+            "sovereign-ai",
+            "llm",
+            "maas",
+            "self-hosting",
+            "cloud",
+            "data-sovereignty",
+            "cost",
+            "economics"
+          ],
+          "timestamp": "2026/09/15 06:01"
+        },
+        {
+          "user": "fashi",
+          "comment": "これをビジネス展開することも視野に…みたいな書き方してるけど普通のことしか言ってなくない？",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/09/15 01:46"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "新モデル追加したらリクエストが9割そこに集中するの草。結局みんな最新のおもちゃ触りたいだけだな",
+          "tags": [],
+          "timestamp": "2026/09/14 22:47"
+        },
+        {
+          "user": "IGA-OS",
+          "comment": "社内共通LLM運用か・・・いいなぁ",
+          "tags": [
+            "LLM",
+            "AI",
+            "service"
+          ],
+          "timestamp": "2026/09/14 21:40"
+        }
+      ],
+      "fetchedAt": "2026-09-14T21:42:26.378761+00:00"
     },
     {
       "id": "h_500c33c8",
       "title": "Microsoftアカウント作成を超簡単にバイパスする方法が見つかる。Windows11初期セットアップにて。『詳細』を選択するだけ | ニッチなPCゲーマーの環境構築Z",
       "url": "https://www.nichepcgamer.com/archives/post-132235.html",
       "domain": "nichepcgamer.com",
-      "bookmarkCount": 10,
+      "bookmarkCount": 46,
       "summary": "Windows11の初期セットアップでは、基本的にMicrosoftアカウントでのサインイン、またはアカウントがなければアカウントの作成が求められます。Microsoftアカウントを使いたくないユーザーは「なんらかの方法」を駆使して、アカウントの作成をバイパスしないといけません。 今回、そのアカウント作成をめちゃくちゃ簡単...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nichepcgamer.com/archives/post-132235.html",
       "comments": [
+        {
+          "user": "dollarss",
+          "comment": "マイクロソフトアカウント滅するべし慈悲はない",
+          "tags": [
+            "忍殺"
+          ],
+          "timestamp": "2026/09/15 02:18"
+        },
+        {
+          "user": "straychef",
+          "comment": "アカウント必須というのがまったく理解できない",
+          "tags": [],
+          "timestamp": "2026/09/15 00:23"
+        },
         {
           "user": "nguyen-oi",
           "comment": "「詳細」を選択するだけで通り抜けるのは流石に笑う。明らかに仕様漏れのバグだし速攻で対策されそう",
@@ -561,8 +367,168 @@
           "timestamp": "2026/09/14 21:00"
         }
       ],
-      "fetchedAt": "2026-09-14T12:25:23.766626+00:00"
+      "fetchedAt": "2026-09-14T21:42:28.442298+00:00"
+    },
+    {
+      "id": "h_7e80d648",
+      "title": "最近少年院に入る子供が増えつつある中、様々な要因が指摘されるが「昔は許されたことが今は許されなくなった」というのもあるのでは？",
+      "url": "https://togetter.com/li/2745568",
+      "domain": "togetter.com",
+      "bookmarkCount": 17,
+      "summary": "なぜ少年院に入る「子ども」が増えている？過去最低から一転、元少年院長らが指摘する「コロナ禍」の傷あと - 弁護士ドットコム 【弁護士ドットコム】少年院に入る子どもが、ふたたび増え始めている。 長らく減り続け、2022年には過去最低水準まで落ち込んだが、そこから3年連続で増加。2026年も増加傾向が続いている。 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2745568",
+      "comments": [
+        {
+          "user": "ysykmzo",
+          "comment": "最近はてなブックマークに入る中年が減りつつある中、様々な要因が指摘されるが「昔は許されたことが今は許されなくなった」というのもあるのでは？",
+          "tags": [],
+          "timestamp": "2026/09/15 05:18"
+        },
+        {
+          "user": "KAN3",
+          "comment": "若い内に更生させるのは大事だからどんどん入れるといいと思う。環境整えすぎて受験に集中するためにあえて少年院に行く人が現れて社会問題になるレベルで少年院の整備に金を使ってほしい。",
+          "tags": [],
+          "timestamp": "2026/09/15 04:27"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "それだけ平和が続いて、文明の最低基準も上がってんだよ (´-ω-`)",
+          "tags": [],
+          "timestamp": "2026/09/15 03:53"
+        },
+        {
+          "user": "m4fg",
+          "comment": "万引きやいじめが見過ごされてきたのが警察沙汰になるようになったのはむしろいいことでは？",
+          "tags": [],
+          "timestamp": "2026/09/15 02:45"
+        },
+        {
+          "user": "frothmouth",
+          "comment": "元記事の「少年」は、おそらく非行少女も含んだ数／2021年前後を底に、男子も女子も増加、増加率は女子のほうが大きい",
+          "tags": [],
+          "timestamp": "2026/09/14 23:01"
+        }
+      ],
+      "fetchedAt": "2026-09-14T21:42:27.034599+00:00"
+    },
+    {
+      "id": "h_720c5c94",
+      "title": "「AIで効率化しても仕事が増えるだけ」──月○時間浮かせても報告しない社員たち 広がる“AI版静かな退職”",
+      "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001258/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 16,
+      "summary": "「AIで効率化しても、給料は増えないし仕事が詰め込まれて忙しくなるだけ。上司には黙っておいて、浮いた時間でこっそりサボる」──とあるエンタメ系企業でPRやマーケティングに携わる20代男性のUさん（仮名）は、最近の働き方についてこう話す。 Uさんの職場では数年前に生成AIの利用が認められ、業務資料も一部入力可能...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2609/14/2000001258/",
+      "comments": [
+        {
+          "user": "osugi828",
+          "comment": "減ってるのが月10時間でこいつほんと無能やなとしか思わん。",
+          "tags": [],
+          "timestamp": "2026/09/15 06:35"
+        },
+        {
+          "user": "KoshianX",
+          "comment": "利益を従業員に分配するという考えがないからそうなるんだよなあ。ちゃんと人を増やしてあんまり1人が抱え込まないようにしないと……",
+          "tags": [],
+          "timestamp": "2026/09/15 06:33"
+        },
+        {
+          "user": "s_nagano",
+          "comment": "“AIで効率化しても、給料は増えないし仕事が詰め込まれて忙しくなるだけ。上司には黙っておいて、浮いた時間でこっそりサボる”",
+          "tags": [
+            "あとで読む",
+            "AI",
+            "仕事",
+            "ツール",
+            "社会",
+            "ビジネス",
+            "企業"
+          ],
+          "timestamp": "2026/09/15 06:19"
+        },
+        {
+          "user": "kkcnnjfkjqndbfkdo",
+          "comment": "“上司は成果物の管理者から、人とAIの協働を整えるチューナーのような役割へ移る必要がある」という。”この後も具体性なく何をどうすればいいかさっぱりわからない",
+          "tags": [],
+          "timestamp": "2026/09/15 06:09"
+        },
+        {
+          "user": "muramurax",
+          "comment": "全力を見せたら、それが標準になるから見せるなってのは昔から言われている事だよね。",
+          "tags": [],
+          "timestamp": "2026/09/15 06:06"
+        },
+        {
+          "user": "fuzitahoushirou",
+          "comment": "わかる。",
+          "tags": [
+            "AI",
+            "仕事",
+            "時間",
+            "調査",
+            "あとで読む",
+            "ツール",
+            "日本",
+            "社会",
+            "仕事が増えるだけ"
+          ],
+          "timestamp": "2026/09/14 22:20"
+        }
+      ],
+      "fetchedAt": "2026-09-14T21:42:24.311864+00:00"
+    },
+    {
+      "id": "h_fa4004eb",
+      "title": "私はこうやってWaymoに入った",
+      "url": "https://hotsuyuki.github.io/2026/09/07/how-i-joined-waymo.html",
+      "domain": "hotsuyuki.github.io",
+      "bookmarkCount": 13,
+      "summary": "概要 はじめに：シリコンバレーで働くために米国大学院へ シリコンバレーでのソフトウェアエンジニア就活に苦戦 フルタイム就活からインターンシップ就活に方針変更 インターンシップ後に無事リターンオファーを獲得 まとめ：それなりの覚悟と計画的な戦略が必要 就活準備は渡米前から行うべき インターンシップはおすす...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/hotsuyuki.github.io/2026/09/07/how-i-joined-waymo.html",
+      "comments": [],
+      "fetchedAt": "2026-09-14T21:42:27.631108+00:00"
+    },
+    {
+      "id": "h_25c430b9",
+      "title": "なぜAIエージェントはウソをつき不正行為を行い協調するのか？",
+      "url": "https://gigazine.net/news/20260914-why-ai-agents-lying-cheating-coordinating/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 13,
+      "summary": "AIは時にウソをついたり、不正行為を行ったりします。「なぜAIエージェントはウソをつき、不正行為を行い、協調するのか？」について、2018年にチューリング賞を受賞したAI研究の第一人者であるヨシュア・ベンジオ氏が解説しています。 Why are AI agents lying, cheating and coordinating? | Yoshua Bengio https://yo...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260914-why-ai-agents-lying-cheating-coordinating/",
+      "comments": [
+        {
+          "user": "avictors",
+          "comment": "「目標間の矛盾」例えば「標的のシステムに侵入する」が目標なら侵入成否を判断することは簡単ですが「倫理的に行動」「法律を守る」といった安全指示は解釈が難しく不正を正当化できる都合のいい解釈を与えられる。",
+          "tags": [],
+          "timestamp": "2026/09/15 06:23"
+        },
+        {
+          "user": "mk173",
+          "comment": "なぜ部下は嘘をつくのかに置き換えると、上司(使用者側)に同調するため　と",
+          "tags": [],
+          "timestamp": "2026/09/15 05:55"
+        },
+        {
+          "user": "crimson_diamond",
+          "comment": "人間もウソをつに不正行為を行い協調するのが最適解ということではないのか？くだらない倫理観は、果たして最善なのか？",
+          "tags": [],
+          "timestamp": "2026/09/15 05:21"
+        }
+      ],
+      "fetchedAt": "2026-09-14T21:42:28.173511+00:00"
+    },
+    {
+      "id": "h_f921b284",
+      "title": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ",
+      "url": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+      "domain": "publickey1.jp",
+      "bookmarkCount": 8,
+      "summary": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ MCPやAGENTS.md、Agent2AgentプロトコルなどのAIエージェントに関する関連技術の標準化推進や開発などを行うLinux Foundation傘下のAgentic AI Foundation（AAIF）は、オープンソースとして開発されて...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+      "comments": [],
+      "fetchedAt": "2026-09-14T21:42:26.662496+00:00"
     }
   ],
-  "lastCollection": "2026-09-14T12:25:24.215922+00:00"
+  "lastCollection": "2026-09-14T21:42:28.442324+00:00"
 }
