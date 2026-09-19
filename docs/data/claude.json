@@ -1,23 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_73efabf5",
-      "title": "【2026/9/17最新アプデ】Claude Docs が登場！Slides・Design と合わせて触ってみた",
-      "url": "https://zenn.dev/canly/articles/7ac8cea14c20e8",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.091809+00:00",
-      "excerpt": "本記事は 2026/9/17〜18(日本時間)に実際に触って確かめた内容です。Claude Docs / Claude Slides / Claude Design はいずれも beta 提供中で、公式ドキュメントの記述と実際の挙動が一致しない箇所も確認しています。仕様が変わった箇所は追記で更新します はじめに 2026/9/17(日本時間)、Anthropic が Claude Docs と C"
-    },
-    {
       "id": "cc_1bf7e5b5",
       "title": "【2026/9最新】Claudeのスキル・プラグインが組織に直接公開できるようになったので、触ってみた",
       "url": "https://zenn.dev/canly/articles/760aeabdfae6a1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.091723+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.271706+00:00",
       "excerpt": "この記事について Claude の組織向けプラン(Team / Enterprise)で、メンバーが自分の作ったスキル・プラグインを組織全体に直接共有できるようになりました。 これまでは、個人のスキルを「組織の全員」に共有しても所有者は個人のままで、筆者が把握している限りでは、本当に組織の資産にするには管理者が管理画面から手動でアップロードするしかありませんでした。ファイルを渡して管理者にお願いす"
     },
     {
@@ -27,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.091651+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.271639+00:00",
       "excerpt": "! 本記事は Claude Code Issue #91870 で議論中の暫定仕様（2026年9月19日時点）をもとにしています。APIは今後変更される可能性があるため、最新情報は公式サイトを参照してください。 noguです。 先日、Claude CodeにClaude Modsという機能が公開されました。 これは、TypeScriptの関数を用いて、Claude Codeの機能や見た目を自由かつ"
     },
     {
@@ -37,8 +27,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.091489+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.271465+00:00",
       "excerpt": "2026年9月19日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日のニュースは、AIに何を任せ、どこを人が確かめるか、という話です。Claudeの共通指示対応から、学習素材を巡る訴訟、誤情報や履歴送信の問題、家庭の予定を支えるGoogleの取り組みまで。便利になるほど、任せ方が大事なんですよ。僕と一緒に、集客や売上につなげたい経営者も"
+    },
+    {
+      "id": "cc_2e2ffaef",
+      "title": "tmuxでJupyter LabとClaudeをリモートサーバーに常駐させる",
+      "url": "https://zenn.dev/972697325291316/articles/28dda1a7abf2d0",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-19T20:24:02.271409+00:00",
+      "excerpt": "はじめに リモートサーバーで作業していると、SSHが切れるたびにJupyter Labやコマンドラインツールが落ちてしまい、作業をやり直す羽目になることがあります。この問題はtmuxでセッションを永続化することで解決できます。 この記事では、tmuxの基本操作と、その上でjupyter labとclaude（Claude Code）を常駐させるための設定をまとめます。SSHを切断してもプロセスが生"
+    },
+    {
+      "id": "cc_9dab73bf",
+      "title": "Claude Codeへの入力をJevで分類して、Action Hintを足す",
+      "url": "https://zenn.dev/khasegawa/articles/688b1414740a81",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-19T20:24:02.271352+00:00",
+      "excerpt": "こんにちは、超かぐや姫の復活を観てきてホクホクなK@zukiです。 Coding Agentに「調べて」と頼んでも、ネットで検索すらせずに、手元のコードと既存の知識だけで推測して、場当たり的な修正を繰り返すことがあります。外部のライブラリやランタイムが原因のエラーだと、一次情報を見ればすぐ分かる話なのに、あれこれ設定を変えては再実行する流れになりがちです。 こちらの言う「調べて」は「公式ドキュメン"
+    },
+    {
+      "id": "cc_a7a0f20c",
+      "title": "Claudeのツールがまた動かなくなった日 ── Cowork統合と draft-07 の記録",
+      "url": "https://zenn.dev/shin_endo/articles/9a4cde839f02ee",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-19T20:24:02.271277+00:00",
+      "excerpt": "はじめに この記事は、2026年9月16日ごろに Claude のチャットと Cowork が統合されたことをきっかけに、Obsidian を読み書きしていた filesystem MCP サーバーが再び使えなくなり、9月19日に新しい会話を立てたところ動いたまでの記録です。 2か月前にも同じ系統の不具合に遭っていて、そのときの顛末は Claudeのツールが動かなくなった日 ── MCP不具合の記"
     },
     {
       "id": "cc_c16e7f78",
@@ -47,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034737+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182429+00:00",
       "excerpt": "はじめに Claude Code はターミナルの CLI でも、Claude Desktop の Code タブでも使えます。普段は iTerm2 で CLI を使い、あとから見返したいセッションは Desktop のサイドバーに残しておく、という使い方をしています。 ところが次のような不満がありました。 CLI のセッション名は work-bb のような自動生成の名前で、何をしたセッションか分か"
     },
     {
@@ -57,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034656+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182353+00:00",
       "excerpt": "「結局、どのAIエージェントを使えばいいの?」に答える一冊です。 Claude Code、Devin、OpenAI Codex、OpenClaw、Pencil。それぞれ強みも思想もコストも違います。本書は5つの主要エージェントを同じ土俵で比較し、実行環境・自律度・並列性・コスト・ガバナンスという5つの軸で「あなたの現場ならどれか」を選べるようにします。 こんな人にオススメ ✅ AIコーディングツー"
     },
     {
@@ -67,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034540+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182246+00:00",
       "excerpt": "Claude Codeのサブエージェントで市場調査・開発・企画・PR・動画・未来構想・監査など8部署を作り、秘書役のClaudeに毎日の実務を回させた記録。2026年7月から9月までに実際に壊れた12の場面を、何をしようとして・何が起きて・原因は何で・どう直したら動いたかの順に書いた失敗台帳。組織設計の理屈ではなく、明日から使えるチェックリストとして。"
     },
     {
@@ -77,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034492+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182202+00:00",
       "excerpt": "Claude Code の compaction（context が溢れそうなときの会話圧縮）を、組込みの要約から fast-jev-compaction に替えました。Desktop app の session で 187,635 token を 33,447 token（82% 削減）に圧縮するのに 1.4 秒でした。組込みの要約は同じ規模で数十秒かかります。要約文を書かないので、会話本文に書"
     },
     {
@@ -87,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034404+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182128+00:00",
       "excerpt": "Hooksを使う理由 CLAUDE.mdやSkillに書いた指示はお願いであって、強制ではない 確実に実行されるのはHooksだけである そのため、品質を担保するチェックは、確実に実行されるHooksに置くことを原則とした 下記、各タイミングと実行、内容である タイミング 実行 内容 ファイル修正時 Hooks lint、typecheck、関連する単体テスト コミット時 Hooks 単体テスト全"
     },
     {
@@ -97,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034353+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182079+00:00",
       "excerpt": "この記事について 対象読者：AI にコードや文章を書かせていて、レビューをどこでどう挟むか決めかねている人 得られること：レビューの層を「強度」ではなく「何が見えるか」で分ける観点と、自分の検証の範囲が主張の範囲に届いているかを確かめる手つき 前提：特定のツールに依存しない話です。手元の道具は設計判断の例として出します。バージョンや仕様はいずれも執筆時点（2026年9月）のものです 実行環境：コマ"
     },
     {
@@ -107,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034296+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.182025+00:00",
       "excerpt": "2026/09/16に、TypeSafe AIが開発している「Jev」（System One）というプロダクトを知り、Early Accessで実際にAPIを試す機会を得ました。 ChatGPT や Claude のような大規模言語モデル（LLM）に日常的に触れていると、「AIを使う」といえば「プロンプトを投げて、自然言語の文章を返してもらう」という体験が当たり前になっています。 しかし、Jev "
     },
     {
@@ -117,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-19T15:43:36.034223+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.181951+00:00",
       "excerpt": "! この記事は、実験の設計から実行・集計・執筆までClaude Code(生成AI)にやらせたものです。 載せているコードとデモは、実際に動かしたものです。 依頼とコマンドを渡すと、5つの判断(不可逆・秘密情報・範囲外・被害・対象)が1リクエストで返ってくる。allow / ask / blockを決めるのはコード tl;dr Claude CodeのPreToolUse hookからTypeSa"
     },
     {
@@ -127,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.528475+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.549736+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -137,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.528525+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.549788+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -147,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.528569+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.549829+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -157,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.923836+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.762209+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -167,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.923890+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.762259+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -177,9 +197,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-19T15:43:36.923943+00:00",
+      "fetchedAt": "2026-09-19T20:24:02.762308+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-19T15:43:36.923956+00:00"
+  "lastCollection": "2026-09-19T20:24:02.762320+00:00"
 }
