@@ -1,64 +1,44 @@
 {
   "items": [
     {
-      "id": "cc_1b214f2a",
-      "title": "「レビューして」の一言で3,600万トークンが溶けた話とClaude Codeのトークン効率化設定",
-      "url": "https://zenn.dev/chro96/articles/6ac66a2192a958",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.885848+00:00",
-      "excerpt": "Claude Code に「このPRレビューして」と軽くお願いしただけなのに、気付けば数十回・数百回のシェルコマンドが走り、API利用枠（Rate Limit）を一瞬で食いつぶしてしまった経験はないでしょうか。 わずか**250行程度の差分（追加206行／削除44行）**のPRに対してClaudeにレビューを依頼したところ、1回のレビューで約3,660万トークンを消費し、API換算で約$40（約6"
-    },
-    {
-      "id": "cc_c4f9e0bb",
-      "title": "claude + cve-lite-cliでフロントエンドの脆弱性対応の優先順位づけをAIに任せる",
-      "url": "https://zenn.dev/t_o_d/articles/fb181bb8a5a023",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.885766+00:00",
-      "excerpt": "前回、cve-lite-cliを利用してローカルで完結するフロントエンドの脆弱性管理という記事で、手元でCVEを可視化する方法を書きました。 可視化まではできても、そこから先の「どれから直すか」「実際に直す」という作業は、地味で疲れる作業のまま残ります。 今回は、cve-lite-cliの優先度判断(CVSS × EPSS)をClaude Skillに渡し、セキュリティに疎くても優先度が理解でき、"
-    },
-    {
-      "id": "cc_ab697921",
-      "title": "Claude Code Mods 実践ガイド ― 関数フックで本体を改造する、動く Mod 7本",
-      "url": "https://zenn.dev/oishiigohan/books/claude-code-mods-jissen",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.885666+00:00",
-      "excerpt": "Claude Code に 2026年9月に入った「Mods（関数フック）」を、実機 2.1.278 で検証しながら 7 本の Mod を作って覚える本です。 対象は Claude Code を毎日使っていて、従来の hooks では届かなかった「画面」「ツール追加」「モデル振り分け」「結果の書き換え」に手を入れたい人。 すべてのコードは claude plugin validate の出力と、非"
-    },
-    {
       "id": "cc_b20666d6",
       "title": "Claude Haiku 4.5にモデルを切り替えて踏んだ落とし穴2つ",
       "url": "https://zenn.dev/irvvee/articles/d16b0e15e26dd7",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.885487+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.313582+00:00",
       "excerpt": "個人開発のLLM抽出パイプラインで、既定モデルを Opus 5 から Haiku 4.5 に切り替えました。実費は同一ケースで 約$0.024 → 約$0.0035 と7分の1近くになり、判定タスクの精度も十分でした。 ただ、切り替え時に2つ踏みました。どちらもドキュメントを読めば書いてあることですが、Opus/Sonnetでは問題にならなかった箇所なので、同じ移行をする人向けに残しておきます。 "
     },
     {
-      "id": "cc_461ae9bd",
-      "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
-      "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
+      "id": "cc_1b6749fa",
+      "title": "【AI最前線】Claudeはフェルマーの最終定理を「解いた」のか？――Lean形式化の本当の意味",
+      "url": "https://zenn.dev/aurostel/articles/63f9850375504b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.845072+00:00",
-      "excerpt": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス＋モデル＋ペルソナ」を1単位とし、CLI ごとの差異（システムプロンプトの渡し方・出力形式・権限モード）をアダプタ層で吸収する。ユーザーは AGENT.md を編"
+      "fetchedAt": "2026-09-22T04:23:52.313372+00:00",
+      "excerpt": "「Claudeがフェルマーの最終定理を解いた」――そんな見出しを見かけたら、少し立ち止まる必要があります。 2026年9月、Anthropicは、Claudeを用いてフェルマーの最終定理の証明をLeanで完全に形式化したと発表しました。Natureも、この成果を「フェルマーの最終定理が初めてコンピュータ検証可能なコードになった」と報じています。 これは大きな成果です。しかし、Claudeが未知の定"
     },
     {
-      "id": "cc_b2b35503",
-      "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
-      "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
+      "id": "cc_3ca46a9e",
+      "title": "AIチャットを5 Primitivesで読み解く——ChatGPT/Claude/Gemini/Copilot他",
+      "url": "https://zenn.dev/eyeofjapetus/articles/ai-chat-services-5-primitives",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.844971+00:00",
-      "excerpt": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置いているのは、チーム共通ルールの先行版ではありません。開発、運用、レビュー、進行、企画という仕事を、AIとの対話の中でどう分け、どう受け渡すかという自分の仕事の構"
+      "fetchedAt": "2026-09-22T04:23:52.313264+00:00",
+      "excerpt": "はじめに ChatGPT、Claude、Gemini、Microsoft 365 Copilot、Perplexity、Gemini Notebook(旧NotebookLM)——いま企業や個人が日常的に使っているAIチャットサービスは、パッと見ると「モデルの賢さ」や「対応言語の多さ」で語られがちです。モデル能力そのものは依然として重要ですが、実際に各社の技術文書やベストプラクティス集を読み比べて"
+    },
+    {
+      "id": "cc_896f1b29",
+      "title": "Claude憲法を読んでもっとうまくClaudeと会話したい",
+      "url": "https://zenn.dev/daigo428/articles/67862e4f145c4a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.313182+00:00",
+      "excerpt": "はじめに 私は仕事でClaudeに頼り切っています。けれど、そのClaudeがどんな価値観で動いているのか、実はちゃんと知らなかったです。Anthropicが公開しているClaude's Constitutionという文書に書かれたClaudeの人格や振る舞いの設計思想を自分なりに整理しました。 Claudeの価値観 Claudeは以下の優先順位で価値観を持っています。Claudeは安全ということ"
     },
     {
       "id": "cc_5967b5a0",
@@ -67,8 +47,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-21T21:53:08.844850+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.228951+00:00",
       "excerpt": "Bash(rm*) を deny しても find --delete してきます: ● ディスク容量が不足しているため、./webcache 内のファイルを削除します。 ● Bash(rm ./webcache/*) ⎿ Error: Permission to use Bash with command rm ./webcache/* has been denied. ● rm は許可されていな"
+    },
+    {
+      "id": "cc_4ba0e613",
+      "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
+      "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228821+00:00",
+      "excerpt": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解消するために、Claude Codeの skill 機能で GitHubにIssueを1件開く それを検知して実装エージェントへ振り分ける リポジトリを特定し、隔"
+    },
+    {
+      "id": "cc_ef1c0e89",
+      "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
+      "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228765+00:00",
+      "excerpt": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう話すかを、一度ちゃんと考えました。 この記事は、Claude Code の本の著者が、AIエージェントをこれから始める人に何をすすめるのかを正直に書いたものです。"
+    },
+    {
+      "id": "cc_0d12c91d",
+      "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
+      "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228708+00:00",
+      "excerpt": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だったので共有します。 クラウドワークス：「Claude」検索は2,000名を超える応募者の海 実際にクラウドワークスで「Claude」を検索すると2,000名超がヒ"
+    },
+    {
+      "id": "cc_ff223bf5",
+      "title": "Claude CodeがAGENTS.mdを読み込まない理由と対処法",
+      "url": "https://zenn.dev/sunsun_eng/articles/claude-code-agents-md-first-session",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228641+00:00",
+      "excerpt": "Claude CodeがAGENTS.mdを読み込まない理由と対処法 Claude CodeがAGENTS.mdを読み込むようになりました。ただし公開直後に多くのエンジニアが気づいたとおり、プロジェクトを開いた最初のセッションでは反映されません。この記事では、AGENTS.mdとは何か、なぜ初回セッションで読み込まれないのか、CLAUDE.mdとの使い分けまで整理します。 この記事の要点 Clau"
+    },
+    {
+      "id": "cc_cb590d14",
+      "title": "lefthook を claude, git commit, GitHub Actions 動かす設定メモ",
+      "url": "https://zenn.dev/takemikami/articles/20260922-lefthook-claude-github-actions",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228586+00:00",
+      "excerpt": "lefthook で設定した hook を claude, git commit, GitHub Actions の３箇所で動かす設定メモです。 https://github.com/evilmartians/lefthook CodingAgent導入でhookを入れたい箇所が増え、lefthookのようなframeworkで整理しておきたいという思いもあり。 サンプルプロジェクトの作成 サンプ"
+    },
+    {
+      "id": "cc_a31e8a9f",
+      "title": "Claude Codeで執筆から公開までを仕組みにした",
+      "url": "https://zenn.dev/yellowfinchlab/articles/ai-blog-automation-with-claude-code",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228471+00:00",
+      "excerpt": "Zennの記事を書くにあたって、執筆から公開までをClaude Codeで仕組み化しました。 この記事は個々の機能の使い方ではなく、「どの仕組みを何に使うか」の判断基準の話です。サブエージェントの書き方やフックの設定方法は検索すれば出てきますが、使い分けと、組み合わせた実例はあまり見つかりませんでした。 作ったもの 人が出しているのは「何を誤解していたか」という一次情報と、最後の採否の判断だけです"
+    },
+    {
+      "id": "cc_f084e08e",
+      "title": "Claude CodeがAGENTS.mdに対応！設定共通化のメリットと書き方",
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-09-18-2356",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-22T04:23:52.228384+00:00",
+      "excerpt": "概要 Anthropicが提供する話題のターミナル向けAIコーディングエージェント「Claude Code」のアップデートにおいて、プロジェクト直下に CLAUDE.md が存在しない場合、自動的に AGENTS.md をフォールバックして読み込む機能が追加されました。 これまではツールごとに独自の指示ファイル（例: .cursorrules や CLAUDE.md）を用意する必要がありましたが、"
     },
     {
       "id": "cc_f73cedfd",
@@ -77,7 +127,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.181454+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.766383+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -87,7 +137,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.181521+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.766453+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -97,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-21T12:00:03+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.181579+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.766513+00:00",
       "excerpt": "この記事は AI Maker Lab で公開している実装記録をQiita向けに再構成したものです。 TL;DR Cursor（IDE内蔵型 $20/月）：今開いているファイルを対話的に差分編集する用途が速い Claude Code（CLI エージェント型・Ant..."
     },
     {
@@ -107,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.395965+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.938377+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -117,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.396069+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.938452+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -127,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-21T21:53:09.396152+00:00",
+      "fetchedAt": "2026-09-22T04:23:52.938526+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-21T21:53:09.396164+00:00"
+  "lastCollection": "2026-09-22T04:23:52.938539+00:00"
 }
