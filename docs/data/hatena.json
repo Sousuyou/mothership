@@ -1,551 +1,455 @@
 {
   "entries": [
     {
-      "id": "h_4b3de83d",
-      "title": "AIに文章を書かせると一番言いたいことが埋もれるので、想定読者と読後感を先に決めさせるSkillを作った - $shibayu36->blog;",
-      "url": "https://blog.shibayu36.org/entry/2026/09/24/173000",
-      "domain": "blog.shibayu36.org",
-      "bookmarkCount": 382,
-      "summary": "最近AIにブログ記事やドキュメントを書かせることが増えた。しかしAIに書かせると、余計な前提や補足が多くて一番言いたいことが埋もれてしまう。かといって「もっと短くして」と指示すると、今度は具体例など本当に大事な部分まで削られ、スカスカで伝わらない文書になる。「この補足は消して、この具体例は残して」と...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/09/24/173000",
-      "comments": [
-        {
-          "user": "ackey1973",
-          "comment": "仕事で文書作らなきゃいけないとかならともかく、ブログとかでわざわざ“AIに書かせる”意味が心底分からない。文書書くためにAIを活用する、なら分かるが。何のために文書書いてるん？ゴミ量産してないよね？",
-          "tags": [],
-          "timestamp": "2026/09/25 20:27"
-        },
-        {
-          "user": "peppers_white",
-          "comment": "うまく使う人は自分で書いてAIにダメだしさせるのに力を入れてるから、才能の差がまた可視化されてるなと感じる",
-          "tags": [],
-          "timestamp": "2026/09/25 19:11"
-        },
-        {
-          "user": "dot",
-          "comment": "音声入力でざっくり表現したいことのアウトラインを作ってAIで推敲すると、AIを活用して楽をしつつAIぽさはかなり薄れるので良いと思う。ただし、PRやコメントみたいな端的な目的は向かないが。",
-          "tags": [],
-          "timestamp": "2026/09/25 18:48"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "生成AIは統計的モデルだから、人間の「一番言いたいこと」はAIにとっては「巨大な異物でありノイズ」なんだよ。クリエイティブ用途がうまく行かない理由も一つはこれ。言いたいことを狙って消されるから。",
-          "tags": [],
-          "timestamp": "2026/09/25 18:35"
-        },
-        {
-          "user": "shikiarai",
-          "comment": "自分で書けよ。その方が気持ちいいだろ。気持ちいいとQoLがあがる。",
-          "tags": [],
-          "timestamp": "2026/09/25 18:34"
-        },
-        {
-          "user": "nagaichi",
-          "comment": "生成AI出力の長文をそのままブログに貼ったり、小説投稿サイトにお出ししたりしてる人は、それで承認欲求が満たせるんだろうか。",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/09/25 18:06"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:40.838600+00:00"
-    },
-    {
-      "id": "h_bdcb7faa",
-      "title": "みんなJevの話してる。やってないの俺だけ",
-      "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
-      "domain": "zenn.dev",
-      "bookmarkCount": 367,
-      "summary": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分はまだAPIキーすら持っていません。 やってないのは俺だけか…という焦りを燃料に、Jevとは何か、なぜ騒がれているのか、LLM...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
-      "comments": [
-        {
-          "user": "portal18",
-          "comment": "ざっと読んだけど、AI以前のSiriとかGoogle アシスタントとかCortanaとかに比較的ちかい...? AI以前のSiriもよくつかっていた自分にとってはわるくなさそう。",
-          "tags": [],
-          "timestamp": "2026/09/25 20:07"
-        },
-        {
-          "user": "dot",
-          "comment": "今の所既存のLLMでやるとトークンをガリガリ削られるような膨大な処理を、Jevにぶん投げてざっくり閾値を作ってフィルタするのに便利だなと。既存のLLMの置き換えというよりも一部処理を代替させてる。",
-          "tags": [],
-          "timestamp": "2026/09/25 18:35"
-        },
-        {
-          "user": "yamadar",
-          "comment": "Jev、サインアップしたけどアクセス過多なのか何なのかコンソール入れないから、待ち行列に並んでる状態よ",
-          "tags": [],
-          "timestamp": "2026/09/25 18:08"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "自分のゲームに組み込みたくて、敵AIの判断に使わせてるけど、アクションゲームだと人間の反射神経に敵わない。動作はコードにやらせて、判断だけさせる方向で検討中。",
-          "tags": [],
-          "timestamp": "2026/09/25 17:58"
-        },
-        {
-          "user": "buenoskun",
-          "comment": "Jevってなんですか？おいしいの？",
-          "tags": [],
-          "timestamp": "2026/09/25 17:49"
-        },
-        {
-          "user": "sumika_fijimoto",
-          "comment": "Javaに空目してうっそ！？！？ってなった",
-          "tags": [],
-          "timestamp": "2026/09/25 17:46"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:39.588436+00:00"
-    },
-    {
-      "id": "h_518ba74a",
-      "title": "ソフトウェアエンジニアとしてのぼくは、もう死んでいた｜choo",
-      "url": "https://note.com/choo/n/nf2a81eced17b",
-      "domain": "note.com",
-      "bookmarkCount": 251,
-      "summary": "もう一年近くコードを一切書いていない。 ぼくは以前、ソフトウェアエンジニアとしてコードをかなり書いていたという自信がある。 仕事としては15年近く主にコードを書く職種だったし、個人開発を本格的に始めた6年くらい前からは、フロントエンド、バックエンド問わず、ガリガリコードを書いていた。 「どういうWebサー...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/choo/n/nf2a81eced17b",
-      "comments": [
-        {
-          "user": "atsushieno",
-          "comment": "自分はAIが他所から学んできて生成したコードを読んで自分の知見として消化することがあるので、「AIがコードを書くから読まなくなった」みたいなブコメの言い分には全く共感できない",
-          "tags": [],
-          "timestamp": "2026/09/25 19:57"
-        },
-        {
-          "user": "guntz",
-          "comment": "AIの書いたコード見て、こんな便利なクラスあったんだ〜ためになるねぇ〜と感嘆することが割とある",
-          "tags": [],
-          "timestamp": "2026/09/25 19:45"
-        },
-        {
-          "user": "chinpokomon_master",
-          "comment": "ソフトウェアエンジニアの仕事は文字打つことじゃないだろ。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:21"
-        },
-        {
-          "user": "ejointjp",
-          "comment": "僕のような中途半端なエンジニアにはAIはメリットしかないが、真のエンジニアにとってはいろいろ思うところはあるだろうな。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:18"
-        },
-        {
-          "user": "lilicarium",
-          "comment": "PMOなり営業なり経営に近い事やらなきゃ派遣で事足りてしまうかなって正直思うよ。危機感持ってるだけマシ。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:14"
-        },
-        {
-          "user": "itotto",
-          "comment": "わかる。いちばん楽しいところをとられてしまったという感覚を自分はずっと感じてる。",
-          "tags": [
-            "雑記",
-            "開発"
-          ],
-          "timestamp": "2026/09/25 18:54"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:40.226729+00:00"
-    },
-    {
-      "id": "h_f649b0b7",
-      "title": "「Python」のWindowsフルインストーラーが引退へ、「3.16」以降は提供されず／これからは「Python Install Manager」で導入・管理",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2142666.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 129,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2142666.html",
-      "comments": [
-        {
-          "user": "tettekete37564",
-          "comment": "大体Windowsがおかしい。Linuxやmacで開発やってきた人間にとってはかなり特殊で不思議な環境",
-          "tags": [],
-          "timestamp": "2026/09/25 17:06"
-        },
-        {
-          "user": "aya_momo",
-          "comment": "WSL2になって本当にWindowsのPythonを使わなくなった。",
-          "tags": [
-            "プログラミング"
-          ],
-          "timestamp": "2026/09/25 15:54"
-        },
-        {
-          "user": "suka6411144",
-          "comment": "そうなんだ、じゃあ私uv使うね",
-          "tags": [],
-          "timestamp": "2026/09/25 14:09"
-        },
-        {
-          "user": "poponponpon",
-          "comment": "Python、なぜ入り口を幾つも幾つも作ってしまうのか問題",
-          "tags": [],
-          "timestamp": "2026/09/25 13:56"
-        },
-        {
-          "user": "ynxdaz",
-          "comment": "winget とかあるのになんで専用車輪をもういっこ作るかなと思ってPEP(https://peps.python.org/pep-0773/ )読んだら、もちろん考慮済みで、まあまあ苦労した物語が書かれてて同意した。",
-          "tags": [],
-          "timestamp": "2026/09/25 13:30"
-        },
-        {
-          "user": "sgo2",
-          "comment": "embeddable版はzipで配布されてるからポン置き運用が出来るけど、中の*._pthを消さないとPYTHONEHOME/PYTHONPATHが無視される、pipが入ってない等の罠がある",
-          "tags": [],
-          "timestamp": "2026/09/25 13:18"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:42.245814+00:00"
-    },
-    {
-      "id": "h_6a4dcbcf",
-      "title": "「部活で褒めるのが苦手」と言う次女に「観察上手になればいい」と話した - レバテックLAB",
-      "url": "https://levtech.jp/media/detail_931/",
-      "domain": "levtech.jp",
-      "bookmarkCount": 128,
-      "summary": "しんざき システムエンジニア、PM、ケーナ奏者、三児の父。南米民族音楽の演奏が趣味。仕事・育児・演奏活動の傍ら、レトロゲーム雑記ブログ「不倒城」を20年程運営している。 @shinzaki ブログ：「不倒城」 著者記事一覧 こんにちは、しんざきです。 他人を褒めるのは苦手なんですが、自分を褒めるのは正直めちゃくち...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_931/",
-      "comments": [
-        {
-          "user": "yamiyami27",
-          "comment": "すぐに褒められなくても、注意しなければいけない時に「前は良かった」と伝える時のクッションになる。",
-          "tags": [],
-          "timestamp": "2026/09/25 20:31"
-        },
-        {
-          "user": "Derabon",
-          "comment": "マネジメントでも一緒ですね。よく観察して、考えてフィードバックを伝える。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:14"
-        },
-        {
-          "user": "big_song_bird",
-          "comment": "褒めるとおだてるは違うからね〜。後輩もその辺は敏感だから迂闊に出来ない。普段から雑談して距離を縮めておくのが良いのかも。",
-          "tags": [
-            "しんざき",
-            "ブログ",
-            "子育て",
-            "躾",
-            "部活",
-            "先輩",
-            "後輩"
-          ],
-          "timestamp": "2026/09/25 19:11"
-        },
-        {
-          "user": "twjunk",
-          "comment": "ワイはそこまでじゃないが素直に「すごいな」と思ったことを口にしたらそれが相手を不快にした、という経験のある発達障害者は結構いて、難しい話だなといつも思うのだ",
-          "tags": [],
-          "timestamp": "2026/09/25 18:33"
-        },
-        {
-          "user": "otihateten3510",
-          "comment": "アメリカ人の褒め力を日本人に少しだけ分けて欲しい",
-          "tags": [],
-          "timestamp": "2026/09/25 18:19"
-        },
-        {
-          "user": "popio",
-          "comment": "タイトルしんざきさん余裕",
-          "tags": [],
-          "timestamp": "2026/09/25 18:16"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:41.243703+00:00"
-    },
-    {
       "id": "h_284ec9fc",
       "title": "スマート冷蔵庫のファームウェアアップデート失敗で冷蔵機能が停止、食品が腐る事態に【やじうまWatch】",
       "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2143157.html",
       "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 124,
+      "bookmarkCount": 198,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/yajiuma/2143157.html",
       "comments": [
         {
-          "user": "petitbang",
-          "comment": "デカすぎて文鎮にもならねえ！",
+          "user": "unagiga",
+          "comment": "20年遅れてやってきた付加価値病",
           "tags": [],
-          "timestamp": "2026/09/25 20:34"
+          "timestamp": "2026/09/26 01:58"
         },
         {
-          "user": "katz3",
-          "comment": "「冷蔵庫に隠しておいたバラバラ死体が、アップデート失敗のせいで腐り始め」というミステリ展開のご提供。",
+          "user": "Goldenduck",
+          "comment": "PCですらローカルで動くというのに……いや動かないようにしてくるOSもいるけど",
           "tags": [],
-          "timestamp": "2026/09/25 20:18"
+          "timestamp": "2026/09/26 01:33"
         },
         {
-          "user": "shoot_c_na",
-          "comment": "なんでもスマート化の弊害。つかなんで庫内まで影響するの？中身を検索して今日の献立決めるとかがメイン機能じゃないの？",
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/09/26 01:04"
+        },
+        {
+          "user": "daishi_n",
+          "comment": "冷蔵庫の自律制御機能とスマート機能は別ソフトウェアで動かすしかないけど、自律制御機能にバグがない、とは言えんしねぇ。",
+          "tags": [],
+          "timestamp": "2026/09/26 00:55"
+        },
+        {
+          "user": "dltlt",
+          "comment": "基本的な温度制御機能はHWレベルでインターフェースと分離しておいて、後者から受け取った温度指定値はミラーしておけばいいような。｜ファームウェア更新不良以外の原因でも文鎮になるテスラのほうが酷いかな。",
           "tags": [
-            "セキュリティ"
+            "コネクテッド禍"
           ],
-          "timestamp": "2026/09/25 20:16"
+          "timestamp": "2026/09/26 00:33"
         },
         {
-          "user": "longyang",
-          "comment": "サムスンがどこまで保証するのか見ものではある。食に影響のある家電をスマート化するのはまだ気乗りしないかな。",
-          "tags": [
-            "家電",
-            "トラブル"
-          ],
-          "timestamp": "2026/09/25 19:57"
-        },
-        {
-          "user": "portal18",
-          "comment": "さすがに24時間稼働する必要があるものは上下分離をして、ボタンは一切効かなくなってもせめて冷却装置だけは前回の設定で動作するみたいな設計にするべき。",
+          "user": "kirte",
+          "comment": "腐ってやがる･･･早すぎたんだ",
           "tags": [],
-          "timestamp": "2026/09/25 19:48"
-        },
-        {
-          "user": "iphone",
-          "comment": "庫じゃん",
-          "tags": [],
-          "timestamp": "2026/09/25 19:45"
+          "timestamp": "2026/09/26 00:06"
         }
       ],
-      "fetchedAt": "2026-09-25T11:35:38.550760+00:00"
+      "fetchedAt": "2026-09-25T16:58:36.288594+00:00"
     },
     {
       "id": "h_682b6e8a",
       "title": "グーグル「Gemini」に電話代行の新機能 レストラン予約もお任せ",
       "url": "https://japan.cnet.com/article/35252958/",
       "domain": "japan.cnet.com",
-      "bookmarkCount": 120,
+      "bookmarkCount": 187,
       "summary": "Googleは米国時間9月24日、モバイル版「Gemini」のAI機能を拡張し、日常の電話をユーザーに代わってこなす、新たなAIエージェント機能を発表した。世界中の内向的な人に朗報だ。ただし、細かな利用条件にも目を通しておきたい。Geminiが代わりにできることには限りがあるからだ。 この機能は、スマートフォンでGeminiを...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35252958/",
       "comments": [
         {
-          "user": "udongerge",
-          "comment": "なんだかあべこべな感じだなあ",
+          "user": "yahsusu",
+          "comment": "googleの行動規範はたしか Be Evil だったけか。",
           "tags": [],
-          "timestamp": "2026/09/25 20:30"
+          "timestamp": "2026/09/26 01:24"
         },
         {
-          "user": "mujou03",
-          "comment": "Androidの強みが出せるか それはともかく悪用されて炎上した店とかに電話しまくってGemini attackとか言われそう",
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
           "tags": [],
-          "timestamp": "2026/09/25 20:30"
+          "timestamp": "2026/09/26 01:05"
         },
         {
-          "user": "naozane2",
-          "comment": "星新一のショートショート『肩の上の秘書』は来年実現しそうだな。",
-          "tags": [],
-          "timestamp": "2026/09/25 20:27"
-        },
-        {
-          "user": "ty356trt5",
-          "comment": "\"モバイル版「Gemini」のAI機能を拡張\"をオートリザーブと同一視・・・？？本文読んでる？",
-          "tags": [],
-          "timestamp": "2026/09/25 20:22"
-        },
-        {
-          "user": "morixmori18752",
-          "comment": "認知症の親の相手とか勝手にしてくれないだろうか",
-          "tags": [],
-          "timestamp": "2026/09/25 20:18"
-        },
-        {
-          "user": "nekoleaf",
-          "comment": "そこまでして電話でやるんじゃなくて、ネットを介してやればいいじゃないかと",
-          "tags": [],
-          "timestamp": "2026/09/25 20:09"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:38.958319+00:00"
-    },
-    {
-      "id": "h_569b0a58",
-      "title": "メモ帳としても便利に使える「GitHub」アプリ、エンジニアだけのツールじゃない [てっぱんアプリ！]",
-      "url": "https://k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 118,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/column/teppan/2142991.html",
-      "comments": [
-        {
-          "user": "jb8079431525325",
-          "comment": "エクセル方眼紙で文書書いてそう。画像の彩度上げるためだけにAI使ったどこかの国の国土交通省を笑えんな",
-          "tags": [],
-          "timestamp": "2026/09/25 20:02"
-        },
-        {
-          "user": "take-it",
-          "comment": "privateリポジトリを開発で使ってる人らのほうが使用頻度高いだろうから、そもそもそういう既存ユーザーの方が金払うべきでは。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:48"
-        },
-        {
-          "user": "umaemong",
-          "comment": "発想は面白いと思うので、こっそりやるぶんには良いと思う。Impressの読者でこれを実践する人は元々GitHub使ってる気もするし、謎に流行らなければまぁいいのでは。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:15"
-        },
-        {
-          "user": "ch1248",
-          "comment": "🤔",
+          "user": "gadget-lab",
+          "comment": "後で読みたい。グーグル「Gemini」に電話代行の新機能 レストラン予約もお任せ",
           "tags": [
-            "Git"
+            "あとで読む"
           ],
-          "timestamp": "2026/09/25 18:31"
+          "timestamp": "2026/09/26 00:36"
         },
         {
-          "user": "dot",
-          "comment": "githubじゃなくてもいい用途でgithubのリソースを無駄に使われると、本当にgithubを必要としている人が迷惑を被る可能性があるので、こういうのはあまり感心できないな。",
+          "user": "ssfu",
+          "comment": "キングボンビー化しませんかそれ。",
           "tags": [],
-          "timestamp": "2026/09/25 17:32"
+          "timestamp": "2026/09/26 00:28"
         },
         {
-          "user": "auto_chan",
-          "comment": "publicのままいいメモを書いてくれますように！",
+          "user": "dekasasaki",
+          "comment": "実験で終わりそう",
           "tags": [],
-          "timestamp": "2026/09/25 17:15"
+          "timestamp": "2026/09/25 23:52"
+        },
+        {
+          "user": "gcyn",
+          "comment": "退職とかもかしら？",
+          "tags": [],
+          "timestamp": "2026/09/25 23:45"
         }
       ],
-      "fetchedAt": "2026-09-25T11:35:43.471963+00:00"
-    },
-    {
-      "id": "h_0bb01c04",
-      "title": "「LLMの出力コードを理解できない初心者ばかり」 PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
-      "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 37,
-      "summary": "「LLMの出力コードを理解できない初心者ばかり」 PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言：コミュニティーでのAI利用の是非を問う 「PlayStation 5」でLinuxを動かすことを目指してきた非公式のハックプロジェクト「PS5 Linux」で、中心開発者が開発から離れることを明らかにした。背景には、LLMを使っ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
-      "comments": [
-        {
-          "user": "ssssschang",
-          "comment": "滅びたほうがいいコミュニティが順当に滅びてむしろLLMの有用性を示すニュースじゃね",
-          "tags": [],
-          "timestamp": "2026/09/25 19:30"
-        },
-        {
-          "user": "kz78",
-          "comment": "PS5をハックしてLinux動かそうぜってプロジェクトなのに、PS5の脆弱性を素直にソニーに報告するやつがいてやってらんねぇと。",
-          "tags": [],
-          "timestamp": "2026/09/25 19:26"
-        },
-        {
-          "user": "hgaragght",
-          "comment": "逆ギレ",
-          "tags": [
-            "これはひどい"
-          ],
-          "timestamp": "2026/09/25 18:53"
-        },
-        {
-          "user": "peperon_brain",
-          "comment": "おめでとう！スクリプトキディはLLMキディに進化(？)した！",
-          "tags": [],
-          "timestamp": "2026/09/25 18:46"
-        },
-        {
-          "user": "fncl",
-          "comment": "LLMに脆弱性を潰されて捨て台詞言ってるようにしか見えないのだが、この記事は何を伝えたいのだろうか。",
-          "tags": [],
-          "timestamp": "2026/09/25 18:39"
-        },
-        {
-          "user": "hebomegane_sun",
-          "comment": "たぶん協力しようと思って参加したんだろうけどすごい展開だな",
-          "tags": [],
-          "timestamp": "2026/09/25 18:12"
-        }
-      ],
-      "fetchedAt": "2026-09-25T11:35:41.848630+00:00"
+      "fetchedAt": "2026-09-25T16:58:36.585303+00:00"
     },
     {
       "id": "h_8e166f66",
       "title": "AI議事録の「誰の発言か分からん」を解決。0.1B「Nemotron 3 Diarization」無償公開",
       "url": "https://pc.watch.impress.co.jp/docs/news/2143200.html",
       "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 21,
+      "bookmarkCount": 89,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2143200.html",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "NVIDIAの1億パラメーター程度の軽量モデルか。議事録の「誰が喋ったか」問題は永遠の課題だし、ローカルで動くのは夢があるな",
+          "user": "munioka303",
+          "comment": "Teamsのcopaくんはその点優秀だと思う",
           "tags": [],
-          "timestamp": "2026/09/25 19:46"
+          "timestamp": "2026/09/26 01:39"
         },
         {
-          "user": "star_123",
-          "comment": "あとで試す",
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/09/26 01:06"
+        },
+        {
+          "user": "gadget-lab",
+          "comment": "後で読みたい。AI議事録の「誰の発言か分からん」を解決。0.1B「Nemotron 3 Dia",
           "tags": [
             "あとで読む"
           ],
-          "timestamp": "2026/09/25 19:17"
+          "timestamp": "2026/09/26 00:35"
+        },
+        {
+          "user": "fashi",
+          "comment": "「モデル自体は文字起こしを行なわず、音声認識(ASR)と組み合わせる」",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/09/26 00:17"
+        },
+        {
+          "user": "PikaCycling",
+          "comment": "自作の録音文字起こしソフトに組み込んでみよう。",
+          "tags": [],
+          "timestamp": "2026/09/25 23:32"
+        },
+        {
+          "user": "sotonohitokun",
+          "comment": "コレとJevとWeSpeakerとEchoハックを組み合わせるとWakeCall無しでAIスピーカーに頼めるな。",
+          "tags": [],
+          "timestamp": "2026/09/25 23:03"
         }
       ],
-      "fetchedAt": "2026-09-25T11:35:43.094127+00:00"
+      "fetchedAt": "2026-09-25T16:58:37.189869+00:00"
+    },
+    {
+      "id": "h_0bb01c04",
+      "title": "「LLMの出力コードを理解できない初心者ばかり」 PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
+      "domain": "atmarkit.itmedia.co.jp",
+      "bookmarkCount": 67,
+      "summary": "「LLMの出力コードを理解できない初心者ばかり」 PS5非公式ハックの主導者が離脱、AI時代のOSS開発に苦言：コミュニティーでのAI利用の是非を問う 「PlayStation 5」でLinuxを動かすことを目指してきた非公式のハックプロジェクト「PS5 Linux」で、中心開発者が開発から離れることを明らかにした。背景には、LLMを使っ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2609/25/news048.html",
+      "comments": [
+        {
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/09/26 01:06"
+        },
+        {
+          "user": "daishi_n",
+          "comment": "GTA6の発売待ち希望だったのは「PS5 Linux + Stream でPC版GTA6 を遊べるようにしたかった」らしい。正しいかどうかは別としてゲーミングPCが高価過ぎるとそういう活動もあるよな、とは思う",
+          "tags": [],
+          "timestamp": "2026/09/26 00:20"
+        },
+        {
+          "user": "fashi",
+          "comment": "「「なぜそうなるのかを説明できるか」が開発者に問われる」それもAIに教えてもらえるよ",
+          "tags": [
+            "話題"
+          ],
+          "timestamp": "2026/09/26 00:16"
+        },
+        {
+          "user": "hylom",
+          "comment": "GTA6の発売まで待ってほしいというのはどういう理由なんだろう、穴がふさがれる前にGTA6の解析をやりたかったのか、それとも海賊版を動かしたかったのか……",
+          "tags": [],
+          "timestamp": "2026/09/26 00:14"
+        },
+        {
+          "user": "NEXTAltair",
+          "comment": "猛々しい。盗みではないけど",
+          "tags": [
+            "AI",
+            "LLM"
+          ],
+          "timestamp": "2026/09/25 23:50"
+        },
+        {
+          "user": "eroyama",
+          "comment": "グエン君なら増田でfirst bucomeしてるよ",
+          "tags": [],
+          "timestamp": "2026/09/25 22:21"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:38.985237+00:00"
+    },
+    {
+      "id": "h_b0563196",
+      "title": "議事録をAIに要約させてチームで共有していたが、ある日部長に「先週の会議は結論出たっけ？」と聞かれて要約を見返したら結論が…3か月分の議事録が半分くらい創作だった",
+      "url": "https://togetter.com/li/2750223",
+      "domain": "togetter.com",
+      "bookmarkCount": 59,
+      "summary": "限界エンジニア @moti256 議事録をAIに要約させてチームに共有してたんだけど、ある日部長に、先週の会議って結論出たっけって聞かれて。要約を見返したら、ちゃんと結論が書いてあるんだよね。ただ録音を聞き直したら、誰もそんなこと言ってませんでした。三ヶ月分の議事録、半分くらい創作でした。 2026-09-25 11:40:00",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2750223",
+      "comments": [
+        {
+          "user": "Goldenduck",
+          "comment": "いつの時代の話をしてるのだろうか。変になるの固有名詞くらいだが",
+          "tags": [],
+          "timestamp": "2026/09/26 01:50"
+        },
+        {
+          "user": "marumarumarumox",
+          "comment": "何のツール使ってんの？インプ稼ぎの嘘松すぎん？",
+          "tags": [],
+          "timestamp": "2026/09/26 00:51"
+        },
+        {
+          "user": "makou",
+          "comment": "はい。",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/09/26 00:38"
+        },
+        {
+          "user": "sextremely",
+          "comment": "マックス松浦のnoteはあっという間に飽きられてしまった",
+          "tags": [],
+          "timestamp": "2026/09/26 00:15"
+        },
+        {
+          "user": "xx9xx91024",
+          "comment": "teamsで発言者ごとの文字起こしをそのまま保存しておいて、後でAIにこんなことあったっけ？とか聞いた方がなんだかんだ正確だったりする。まぁ文字起こし自体が破損してたりすることもあるけど",
+          "tags": [],
+          "timestamp": "2026/09/26 00:12"
+        },
+        {
+          "user": "yogasa",
+          "comment": "覚えてるうちに見直したら聞き直さなくても済むのに。だいたいみたらわかる程度の議事録は作ってくれるけどね",
+          "tags": [],
+          "timestamp": "2026/09/25 23:38"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:36.880432+00:00"
+    },
+    {
+      "id": "h_b3618b3e",
+      "title": "EXPLAIN で詰まったときの三つ目の手札、Optimizer Trace の話 - Timee Product Team Blog",
+      "url": "https://tech.timee.co.jp/entry/2026/09/25/162348",
+      "domain": "tech.timee.co.jp",
+      "bookmarkCount": 48,
+      "summary": "はじめに こんにちは。プラットフォームエンジニアリングチームに所属している徳富(@yannKazu1)です。 MySQL が遅いとき、まず EXPLAIN で計画を見る。見積もりが怪しければ EXPLAIN ANALYZE で実測と突き合わせる。たいていのケースはこの二つで十分で、実際自分もそれで困ったことはほとんどありませんでした。 ところ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.timee.co.jp/entry/2026/09/25/162348",
+      "comments": [
+        {
+          "user": "clubman023",
+          "comment": "へー",
+          "tags": [],
+          "timestamp": "2026/09/26 00:52"
+        },
+        {
+          "user": "tkysktmt",
+          "comment": "“EXPLAIN 系だけだと「変な計画が選ばれる」までしか言えませんが、Trace を読んだことで「確定処理の再チェックで range が捨てられている」と書けるようになりました”",
+          "tags": [],
+          "timestamp": "2026/09/25 23:17"
+        },
+        {
+          "user": "rgfx",
+          "comment": "そんなことあるんだ(おもしれーーー)",
+          "tags": [],
+          "timestamp": "2026/09/25 22:31"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:37.478321+00:00"
+    },
+    {
+      "id": "h_1a6aab78",
+      "title": "業務プロセスをいじっても生産性は上がらない。あるいは業務を良くするテコについて：プロジェクトマジック：オルタナティブ・ブログ",
+      "url": "https://blogs.itmedia.co.jp/magic/2026/09/post_157.html",
+      "domain": "blogs.itmedia.co.jp",
+      "bookmarkCount": 36,
+      "summary": "★「業務改革≒プロセスの見直し」と思っていた時期が僕にもあった 業務改革を仕事にしているし、ズバリ「業務改革の教科書」という本も書いているので、amazonで「業務改革」を検索することもある。その際に目につくのは「業務フローの書き方」みたいな本だ。少しずつ切り口を変えて、とてもたくさんある。 あたかも「業...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blogs.itmedia.co.jp/magic/2026/09/post_157.html",
+      "comments": [
+        {
+          "user": "Eiichiro",
+          "comment": "同感！とはいえ、現行業務に最適化されすぎてしまっていて、足枷になってるケース(たとえば、小口顧客に最適化されたフローだったが、大口が増えつつあって、、、)のようなケースは、BPRとして取り組むかな。",
+          "tags": [],
+          "timestamp": "2026/09/26 01:49"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "結局のところ現場のマンパワー頼みで回ってるから、フローをいじっても残業が減らないのが日本企業の闇",
+          "tags": [],
+          "timestamp": "2026/09/25 22:44"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:37.726512+00:00"
     },
     {
       "id": "h_87822c1f",
       "title": "InstagramとFacebookに投稿された偽広告の責任をMetaが負うとの判決をドイツの裁判所が下す、偽広告コンテンツの削除と損害賠償の支払いが命じられる",
       "url": "https://gigazine.net/news/20260925-meta-fake-ads/",
       "domain": "gigazine.net",
-      "bookmarkCount": 16,
+      "bookmarkCount": 36,
       "summary": "Metaは年間総収益の約10％を詐欺広告から得ていたと報じられるなど、InstagramやFacebookにおいて詐欺的な広告がまん延していることが問題視されています。ドイツの金融ポータルサイトが自身の商標を無断で使用した広告についてMetaを提訴した結果、ドイツの裁判所は「プラットフォームに第三者が投稿した偽の広告につい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260925-meta-fake-ads/",
       "comments": [
         {
-          "user": "quality1",
-          "comment": "当然でしょ。広告審査をサボるな。昔はMetaだって全部人が審査してたんだから無理ではない。",
+          "user": "cl-gaku",
+          "comment": "そらそうだろ",
           "tags": [],
-          "timestamp": "2026/09/25 20:03"
+          "timestamp": "2026/09/25 22:41"
         },
         {
-          "user": "cinefuk",
-          "comment": "著名人の投資詐欺バナー広告 \"原告の金融ポータルサイト「Finanzfluss」は、自社の商標登録されたロゴと共同創業者であるトーマス・ケール氏の画像が詐欺的な意図をもって投資を推奨する投稿に無断で使用されたとして\"",
+          "user": "matsuedon",
+          "comment": "今日見たひどい広告は「次へ」だけしか書いてない広告でしたよchatworkさん。metaに限らず、もうちょっとなんとかしたら。",
+          "tags": [],
+          "timestamp": "2026/09/25 22:27"
+        },
+        {
+          "user": "nakex1",
+          "comment": "判決の射程をどのくらいと考えるか。自ら広告を募集する大手SNSに限るか，アドネットワークにより配信される広告を表示するサイトまで含むと考えるか。",
           "tags": [
+            "国際",
             "広告",
-            "facebook",
-            "詐欺"
+            "sns"
           ],
-          "timestamp": "2026/09/25 19:49"
+          "timestamp": "2026/09/25 22:08"
         },
         {
-          "user": "tGsQqV",
-          "comment": "こういうの日本でもやってほしい。YouTubeやTwitterでもおねがいします。",
+          "user": "nilab",
+          "comment": "「Metaは年間総収益の約10％を詐欺広告から得ていたと報じられるなど、InstagramやFacebookにおいて詐欺的な広告がまん延していることが問題視されています」",
           "tags": [],
-          "timestamp": "2026/09/25 19:25"
+          "timestamp": "2026/09/25 21:53"
         },
         {
-          "user": "hagakuress",
-          "comment": "ヨシ！",
-          "tags": [],
-          "timestamp": "2026/09/25 19:11"
+          "user": "kisaragiakagi",
+          "comment": "幸福の科学の霊言シリーズの広告に掲載媒体が責任を負える…か？",
+          "tags": [
+            "ドイツ"
+          ],
+          "timestamp": "2026/09/25 21:44"
+        },
+        {
+          "user": "jyib1302",
+          "comment": "プラットフォーム側に賠償責任が生じる判例が出て、実際に応じたとする事例が出てくると、放置する等に賠償しなければいけなくなるので、対応せざるを得なくなる。このムーブ、各国も追随してほしいもんだね",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/09/25 21:04"
         }
       ],
-      "fetchedAt": "2026-09-25T11:35:42.560661+00:00"
+      "fetchedAt": "2026-09-25T16:58:39.691767+00:00"
     },
     {
-      "id": "h_c6b46d3d",
-      "title": "ChatGPTなどのAIに企業の偽の連絡先を出力させユーザーを詐欺へと導くサイバー攻撃「Dark Sourcery」",
-      "url": "https://gigazine.net/news/20260925-dark-sourcery-hackers-manipulate-ai-scam/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 12,
-      "summary": "ChatGPTやGeminiといったAIチャットボットによる出力を汚染するために、悪意のあるリンクやデータをインターネット上にばらまくというサイバー攻撃キャンペーン「Dark Sourcery」について、サイバーセキュリティ企業・Vigilance Securityの研究者が報告しています。 Dark Sourcery: How Hackers Manipulate AI to Scam Y...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20260925-dark-sourcery-hackers-manipulate-ai-scam/",
+      "id": "h_bd08d908",
+      "title": "Verilogで学ぶCPU自作入門.pdf",
+      "url": "https://speakerdeck.com/uyuki234/verilog-de-manabu-cpu-jisaku-nyuumon",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 33,
+      "summary": "2026年9月23日、KC3で実施した「Verilogで学ぶCPU自作入門」の講義資料です。公開にあたり、一部修正・補足しています。 「CPUを自作した！」という経験を持ち帰ることを目標に、論理回路・DFF・クロックから1bit CPU、4bit CPU「TD4」へと順番に説明します。 ハン…",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/uyuki234/verilog-de-manabu-cpu-jisaku-nyuumon",
       "comments": [
         {
-          "user": "cess",
-          "comment": "\"このような「AI汚染のための偽造コンテンツ」をインターネット上に大量に投稿することで、Google検索のAIによる概要が、「攻撃者が偽造した連絡先」をユーザーに提示するケースが確認されています。\"",
+          "user": "prostaglandin",
+          "comment": "そういえばSystemCは今どうなっているのか？",
           "tags": [],
-          "timestamp": "2026/09/25 19:21"
+          "timestamp": "2026/09/26 00:33"
+        },
+        {
+          "user": "tkysktmt",
+          "comment": "程よいレベル感。ハンズオンが無償のEDAツール入れて〜とかじゃなくWebアプリで実行可能にしてるみたいなのも良い",
+          "tags": [],
+          "timestamp": "2026/09/25 23:37"
         },
         {
           "user": "nguyen-oi",
-          "comment": "AIのハルシネーション悪用とかタチ悪すぎだろ",
+          "comment": "CPU自作はロマンだけど、1時間で流し込むのはなかなかのスパルタ講義で草",
           "tags": [],
-          "timestamp": "2026/09/25 19:12"
+          "timestamp": "2026/09/25 22:44"
         }
       ],
-      "fetchedAt": "2026-09-25T11:35:43.795408+00:00"
+      "fetchedAt": "2026-09-25T16:58:38.458812+00:00"
+    },
+    {
+      "id": "h_04ddbb17",
+      "title": "OpenAIとClaudeのAgent SDKから学ぶAgentの基本構成 - ぷらすのブログ",
+      "url": "https://blog.p1ass.com/posts/agent-foundations/",
+      "domain": "blog.p1ass.com",
+      "bookmarkCount": 20,
+      "summary": "こんにちは、ぷらす(@p1ass)です。 最近、Agent を「使う側」ではなく「作る側」に興味を持ち始めています。 色々と新しい学びが多いなぁと感じているので、せっかくなので自分が学んだ Agent の開発について、何回かに分けて記事を書いていこうと思います。 現在予定しているテーマは次の 7 つです。 Agent の基本構成 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.p1ass.com/posts/agent-foundations/",
+      "comments": [
+        {
+          "user": "gadget-lab",
+          "comment": "後で読みたい。OpenAIとClaudeのAgent SDKから学ぶAgentの基本構成 -",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/09/26 00:33"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "結局中身はプロンプトとwhileループだけど、各社SDKの思想の違いが見えて面白い。Goの実装例があるのは助かる",
+          "tags": [],
+          "timestamp": "2026/09/25 23:39"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:38.715224+00:00"
+    },
+    {
+      "id": "h_22dd14c5",
+      "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+      "domain": "zenn.dev",
+      "bookmarkCount": 15,
+      "summary": "はじめに Jevのデモとして公式ではDOOMをプレイさせるデモがありました。 100ms前後のレイテンシでレスポンスを返せるため、リアルタイム制御に使えるという点が強調されています。 またXをみているとJevにゲームをプレイさせた投稿を多く見かけました。 「BERTでよい」論などあると思いますが、特にゲームにおいては入...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nwn/articles/e49154653ecea9",
+      "comments": [],
+      "fetchedAt": "2026-09-25T16:58:39.215263+00:00"
+    },
+    {
+      "id": "h_a1bf638f",
+      "title": "ネジザウルスはもういらない!? エンジニアがJIS規格を無視して作った“なめない”ビットの秘密を探る 【テレワークグッズ・ミニレビュー 第168回】",
+      "url": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/2143353.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 14,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/column/teleworkgoods/2143353.html",
+      "comments": [
+        {
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/09/26 01:07"
+        }
+      ],
+      "fetchedAt": "2026-09-25T16:58:39.462860+00:00"
     }
   ],
-  "lastCollection": "2026-09-25T11:35:43.795445+00:00"
+  "lastCollection": "2026-09-25T16:58:39.691793+00:00"
 }
