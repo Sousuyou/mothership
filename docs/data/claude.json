@@ -1,23 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_7dc83938",
-      "title": "Claude Codeのセッションが180件になったので、題名をAIに付け直させて、新しいセッションにも自動で効かせた",
-      "url": "https://zenn.dev/shoujiki_panman/articles/claude-code-session-titles-hook",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.906098+00:00",
-      "excerpt": "本記事について Claudeデスクトップアプリの Code タブ（Claude Code）で、セッション（会話）が180件たまっていました。題名の多くは「きた」「次」「続きから」「これなんすか」です。どれが何の会話か、題名からは分かりませんでした。 この記事は、それを1回の会話で片付けた記録です。作業はすべてClaudeに頼んでやってもらいました。最後に、新しいセッションでも同じ状態が続くようにし"
-    },
-    {
       "id": "cc_c8f5077b",
       "title": "Claude Codeのサブエージェントを作業の種類ごとに分けてトークン消費を抑えた",
       "url": "https://zenn.dev/arithan/articles/claude-code-subagent-context-split",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.906048+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.632857+00:00",
       "excerpt": "はじめに 親セッションのContextは小さいのに、利用枠の減りが速い。 そう感じているなら、サブエージェントの側を一度見てみる価値があります。 筆者の手元では、1回の委任で約87万トークン・ツール呼び出し約500回まで膨らんだエージェントがいました。 気づけたのは、エージェントごとの数値を並べて見るようにしてからです。 この記事では、個人開発の1つのプロジェクトで約80セッション分のトークン使用"
     },
     {
@@ -27,48 +17,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.905985+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.632741+00:00",
       "excerpt": "こんにちは！e-dashでエンジニアをしているimueです。 突然ですが、みなさん 毎日の生活の「ゴミの分別」って難しいと思いませんか？ これは「燃えるゴミ」なのだろうか それとも「プラスチック」なのだろうか...? 自分が住んでいる地域は 少しゴミの分別が厳しいため、悩むことが多いです。 弊社 e-dash は企業の CO2排出量の可視化・削減を支援する会社であり、 仕事では大きなスケールの排出"
-    },
-    {
-      "id": "cc_040979b2",
-      "title": "Claude Tool Use で作るKYC書類解析パイプライン：Anthropic金融エージェントの仕組みを自前実装で理解する",
-      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-10-ai-2026510-notic-zkxlob",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.905888+00:00",
-      "excerpt": "書類1枚のOCR結果を渡したら、氏名・生年月日・書類番号がスキーマ崩れなしのJSONで返ってくる。Anthropicが2026年5月に公開した anthropics/financial-services リポジトリが話題だが、KYCスクリーナーのコアは意外とシンプルだ。Claude APIの Tool Use を使えば、同じ仕組みが30〜40行で自前実装できる。テンプレートをそのまま使うより、内部"
-    },
-    {
-      "id": "cc_833b9e14",
-      "title": "Claude API の tool_use 実装で必ずハマる5つの罠",
-      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-10-ai-2026510-notic-zkxlod",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.905835+00:00",
-      "excerpt": "はじめに Anthropic が公開した金融業務向けエージェントテンプレート群（KYC・ピッチブック生成・月次決算処理など）が注目を集めている。これらを参考に社内のドキュメント処理エージェントを実装しようとすると、tool_use (function calling) の実装ミスで詰まるエンジニアが後を絶たない。 本稿では筆者が実際に踏んだ5つの典型的な落とし穴と、正しい実装パターンを紹介する。G"
-    },
-    {
-      "id": "cc_513c880e",
-      "title": "ローカルLLM環境の構築をClaude Codeに丸ごとやらせたら、思ったより自分で考えて作っていた話",
-      "url": "https://zenn.dev/htanijiri/articles/02-claude-code-built-local-llm",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839487+00:00",
-      "excerpt": "前回、Mac mini (M4)の上に完全ローカルで動く文字起こし・要約パイプラインを作った話を書きました。中身の技術的なハマりどころ（Whisperの幻聴とかnum_ctxとか）はそっちにまとめてあります。 ローカルLLMで文字起こし・要約をやってハマった話（mlx-whisper × Ollama） 前回の末尾で「今回は技術面の話が主体で、Claude Codeがどこまで自走したかはまた別に書"
-    },
-    {
-      "id": "cc_cbc964f3",
-      "title": "Claude Codeのサブエージェント間はファイル経由で受け渡す",
-      "url": "https://zenn.dev/yorusuzu/articles/claude-code-subagent-file-handoff",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839452+00:00",
-      "excerpt": "この記事について 前回の記事「Claude Codeでサブエージェントが増えたら、メインセッションをPMに固定する」では、メインセッションを PM として固定する体制について書きました。今回はその体制の中で、複数のサブエージェントの成果物をどう受け渡しているか（ファイル経由の受け渡し設計）を、実際に運用しているリポジトリの構成をもとに具体的に書きます。 コピーして使える最小サンプルをリポジトリの "
     },
     {
       "id": "cc_aeed970c",
@@ -77,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839393+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.632618+00:00",
       "excerpt": "Claude Certified Architect – Foundations（略称CCA-F、試験コードCCAR-F）のDomain 3「Claude Code Configuration & Workflows」は、配点の20%を占めます。 Claude Codeを毎日使っている人でも、このDomainで迷うことがあります。 普段は「動けばよい」ので、指示をどこに置くかを深く考えずに済むから"
     },
     {
@@ -87,28 +37,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839351+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.632547+00:00",
       "excerpt": "! この記事の目安は、2026年9月時点のモデル（Opus 5.5 / Fable 5.1 / Sonnet 5.5 ほか）と Claude Code CLI 2.1.28x で、筆者の業務題材を使った比較試験にもとづきます。一般的なベンチマークではなく「自分たちの作業でどう選ぶか」の一例として読んでください。モデルは入れ替わるので、考え方の方を持ち帰ってもらえると嬉しいです。 TL;DR 選ぶつ"
-    },
-    {
-      "id": "cc_71b4b9af",
-      "title": "Claude Codeに全権限を渡しても止まる操作がある — 権限モードと安全チェックは別物だった",
-      "url": "https://zenn.dev/zeroyen_dev/articles/claude-code-permission-still-blocked",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839313+00:00",
-      "excerpt": "Claude Code の権限モードを bypassPermissions（すべて許可）にして、許可ルールも100件入れた状態で、それでも実行が拒否される操作がありました。 拒否のメッセージはこれです。 Permission for this action was denied by the Claude Code auto mode classifier. Reason: Blocked by "
-    },
-    {
-      "id": "cc_45a7aafb",
-      "title": "Claude Codeを無人で回す実測ノート ── 止まらないまま効かなくなる場所",
-      "url": "https://zenn.dev/sivami/books/611972abc8ad72",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839274+00:00",
-      "excerpt": "Claude Codeを夜間・無人で数ヶ月回して、実際に踏んだ「止まらないのに効いていない」壊れ方と、その直し方の記録。引き継ぎ書テンプレート、黙って止まる5つの層、無人前に見る15項目。1章は無料。"
     },
     {
       "id": "cc_68ddf397",
@@ -117,18 +47,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839242+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.632479+00:00",
       "excerpt": "はじめに AIにお金を稼がせる仕組みを1か月作って、PRは #60 まで、売上は0円。ここまでの2本では、その「売上0円」のほうを振り返ってきました。 https://zenn.dev/sukoshift/articles/ai-money-os-1month-zero-yen https://zenn.dev/sukoshift/articles/too-much-building-zero-y"
     },
     {
-      "id": "cc_fe2f073d",
-      "title": "Claude Code と Codex を最小の有料プラン同士で組ませるまで",
-      "url": "https://zenn.dev/twinharness/articles/claude-code-codex-lowest-plans-duo",
+      "id": "cc_040979b2",
+      "title": "Claude Tool Use で作るKYC書類解析パイプライン：Anthropic金融エージェントの仕組みを自前実装で理解する",
+      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-10-ai-2026510-notic-zkxlob",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839200+00:00",
-      "excerpt": "一人暮らしの大学生なので、AI にかけるお金はなるべく抑えたいと思っています。最初は Claude の Pro プランだけで開発していましたが、使用枠はすぐに尽きました。かといって上位プランは値段が一気に上がるので、手が出ません。 そこで思いついたのが、Claude と Codex の一番安い有料プランを両方契約するやり方です。Claude を上位プランに上げるより安く済み、使える量も増やせます。"
+      "fetchedAt": "2026-09-30T05:06:47.632418+00:00",
+      "excerpt": "書類1枚のOCR結果を渡したら、氏名・生年月日・書類番号がスキーマ崩れなしのJSONで返ってくる。Anthropicが2026年5月に公開した anthropics/financial-services リポジトリが話題だが、KYCスクリーナーのコアは意外とシンプルだ。Claude APIの Tool Use を使えば、同じ仕組みが30〜40行で自前実装できる。テンプレートをそのまま使うより、内部"
+    },
+    {
+      "id": "cc_833b9e14",
+      "title": "Claude API の tool_use 実装で必ずハマる5つの罠",
+      "url": "https://zenn.dev/yunisuta/articles/ai1-dedup-ai-2026-05-10-ai-2026510-notic-zkxlod",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.632336+00:00",
+      "excerpt": "はじめに Anthropic が公開した金融業務向けエージェントテンプレート群（KYC・ピッチブック生成・月次決算処理など）が注目を集めている。これらを参考に社内のドキュメント処理エージェントを実装しようとすると、tool_use (function calling) の実装ミスで詰まるエンジニアが後を絶たない。 本稿では筆者が実際に踏んだ5つの典型的な落とし穴と、正しい実装パターンを紹介する。G"
     },
     {
       "id": "cc_54d8540e",
@@ -137,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839134+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.584345+00:00",
       "excerpt": "8 月中旬から、ターミナルを cmux に替えて Claude Code を動かしています。1 つのウィンドウに案件ごとのワークスペースを並べ、それぞれで Claude Code とブラウザを横に置く使い方です。今日の時点で、1 つのウィンドウにターミナル 16 枚とブラウザ 3 枚が開いています（cmux 0.64.25）。 便利さの話はほかの記事に任せて、ここでは 実際に踏んだこと を 3 つ"
     },
     {
@@ -147,8 +87,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-09-29T22:06:24.839067+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.584267+00:00",
       "excerpt": "Claude CodeやCodex CLIに長い作業を任せていると、利用上限で停止し、解除された後も「続きを進めて」と入力するまで作業が止まることがあります。 unsnoozeを導入すると、利用上限による停止を追跡し、解除時刻を待って同じセッションへ再開メッセージを送れます。 この記事では、導入から通常の起動、状態確認、自動再開の停止までを扱います。利用上限そのものが増えるわけではありません。公式"
+    },
+    {
+      "id": "cc_af6e7d18",
+      "title": "Claude Codeのサブエージェントはmodelを書かないと親を継ぐ：未指定の3経路と部下1人9万トークンの実測",
+      "url": "https://zenn.dev/yuu_inaka/articles/claude-subagent-model-inherit",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.584146+00:00",
+      "excerpt": "結論を先に書きます。 .claude/agents/*.md に model: を書かないサブエージェントは、親のモデルをそのまま継ぎます。私の環境では6本中4本が未指定で、コマンドを走らせて結果を写すだけの役まで一番高いモデル（opus）で回していました。Claude を呼ぶ経路も3つが未指定でした。 「部下（サブエージェント）を増やせばトークンが減る」は外れでした。部下も CLAUDE.md "
+    },
+    {
+      "id": "cc_1a9dfc56",
+      "title": "CLAUDE.mdの肥大化は、ルールを足す時の4段階の判断で防ぐ",
+      "url": "https://zenn.dev/arithan/articles/claude-md-keep-lean",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.584075+00:00",
+      "excerpt": "はじめに CLAUDE.mdは、気づくと太っています。 決まりを1つ足すたびに、理由や背景も一緒に書き足してしまうからです。 そして長くなってから、どれを消すかで悩みます。 筆者のプロジェクトでも、CLAUDE.mdは書き始めてから約3.5日、20回ほどの書き換えで、字数が最初の約17倍に膨らみました。 作り直した直後は約1,200字で、膨らんだ時の約4分の1になりました。 「最優先の決まり」の節"
+    },
+    {
+      "id": "cc_0d658fae",
+      "title": "スマホから Claude Code と Codex を使う②：アプリのリモートと Termius を使い分ける",
+      "url": "https://zenn.dev/yohakucode/articles/phone-dev-remote-control",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.583994+00:00",
+      "excerpt": "クラウドの VM で動かしている Claude Code と Codex を、スマホから使うシリーズの2回目です。前回は、作業場になる VM を用意しました。今回は、次の3つを書きます。 スマホのアプリから、VM の Claude Code と Codex を操作する「アプリのリモート」の始め方 アプリのリモートと、SSH アプリ Termius の使い分け 地味に面倒な、アップデートの扱い 確か"
+    },
+    {
+      "id": "cc_229e896b",
+      "title": "特定企業の脅威を把握して検知ルールを作成してみた - Claude Code with Anomali",
+      "url": "https://zenn.dev/minaminameatan/articles/63c7409dcb6166",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.583861+00:00",
+      "excerpt": "特定の企業がさらされている脅威を把握して、その脅威を事前検知するためのSigmaルールを作成しました。韓国のAmazonと呼ばれているCoupang社を対象としています。 前提条件 Web上のコンテンツ, 有償版Shodan CLIによるスキャン結果、Anomali社のManaged Intelligence as a Seviceが主たるソースです。ラップトップはMacBookで、Claude "
+    },
+    {
+      "id": "cc_15345bcf",
+      "title": "Claude Code に同じ注意をくり返さないために、設定を6つのスコープに置き分けた",
+      "url": "https://zenn.dev/charge0315/articles/912c18631eb8c0",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-09-30T05:06:47.583750+00:00",
+      "excerpt": "Claude Code に同じ注意を三度くり返したことはありませんか。 「コミットはまだしないで」「そのコマンドは PowerShell では動かない」「テストを直すんじゃなくて実装を直して」。 個人開発の日本株検証システムを Claude Code と一緒に作ってきた中で、最初の数週間はまさにこの状態でした。 いまは同じ注意をくり返すことがほとんどなくなりました。モデルが賢くなったからではなく、"
     },
     {
       "id": "cc_f73cedfd",
@@ -157,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-09-29T22:06:25.214272+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.826700+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -167,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-09-29T22:06:25.214318+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.826767+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -177,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-09-29T22:06:25.439972+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.988436+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -187,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-09-29T22:06:25.440010+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.988499+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -197,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-09-29T22:06:25.440053+00:00",
+      "fetchedAt": "2026-09-30T05:06:47.988578+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-09-29T22:06:25.440066+00:00"
+  "lastCollection": "2026-09-30T05:06:47.988592+00:00"
 }
