@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_dd9b3ba7",
-      "title": "Claude CodeのSkillsで日本の定型業務を任せる：SKILL.mdの書き方と議事録スキル全文",
-      "url": "https://zenn.dev/aishigoto/articles/claude-code-skills-japanese-business",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.639545+00:00",
-      "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。 Claude CodeのSkillsは、毎回チャットに貼っている指示を SKILL.md というファイルにしておく仕組みです。ファイルにしておけば、Claudeが必要なときに自動で読み込んで使います。 この記事では、議事録、日報、請求書、敬語メールなど日本の業務向けのスキ"
-    },
-    {
-      "id": "cc_d7be4e5a",
-      "title": "Claude Code Skills 実践ガイド：日本の定型業務をAIに任せる仕組みの作り方",
-      "url": "https://zenn.dev/aishigoto/books/claude-code-skills-business-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.639482+00:00",
-      "excerpt": "Claude Code の Skills（SKILL.md）を使って、議事録・日報・請求書などの定型業務を「日本語で頼むだけ」で片付ける仕組みを作る本です。設計原則、3 つの実例（議事録・請求書・日報）の作り方、計算をスクリプトに任せる方法、チームへの展開と保守までを、実際に動かした出力とともに解説します。"
-    },
-    {
       "id": "cc_360a67cb",
       "title": "Claude Code 2026年9月アップデートまとめ — /diff・/skill-doctor・無人運用の強化が地味に効く",
       "url": "https://zenn.dev/sktt_panda/articles/claude-code-2026-09-diff-skill-doctor-headless",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.639348+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.633169+00:00",
       "excerpt": "3行まとめ 2026年9月のClaude Code（v2.1.257〜v2.1.263）は派手な新機能というより日々の運用で地味に効く改善が中心。フルスクリーン/diffパネル、未使用Skillの棚卸しをする/skill-doctor、ヘッドレス実行のインライン出力上限を128Kまで引き上げる設定が代表格 無人自動化まわりも強化され、**--permission-prompts noneで「プロン"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.639254+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.633010+00:00",
       "excerpt": "Claude Code を Pro や Max のプランで使うと、使った分だけ「使用量制限」の枠を消費します。この制限には、5 時間ごとにリセットされる「5時間のセッション制限」と、週ごとにリセットされる「週間使用制限」の 2 つがあります[1]。この 5 時間枠と週間枠が何でどれだけ減るのかを、条件を揃えた実験で測り、使用量の計算式を求めました。 主な結果は次のとおりです。 cache read"
     },
     {
@@ -47,18 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.639128+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.632797+00:00",
       "excerpt": "はじめに 2026年8月初頭からWindowsのMicrosoft Edge上で日本語IMEのJapanist 10を使うと落ちるようになりました。Chromeも同様に落ちます。9月中頃にはClaude Desktopでも落ちるようになりました。 Japanist 10は2026年6月にサポート終了してしまったので使うなという話ではありますが、長年使っているとなかなかそういうわけにも行きません。 "
-    },
-    {
-      "id": "cc_3d524f5b",
-      "title": "Claude CodeをPCを閉じても動かしたい。VPSを借りる前に確認したいこと",
-      "url": "https://zenn.dev/ai_delegate_lab/articles/d804fd3a640611",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.638961+00:00",
-      "excerpt": "Claude Codeに修正や調査を任せたまま、席を離れたい。持ち歩くPCは閉じたい。そのためにVPSを借りる必要があるかというと、必ずしもそうではありません。 先に確かめたいのは、作業を動かす場所と、そこで使う資料・道具です。この記事では、AI Delegate Lab / ASBが公式資料をもとに整理した判断手順を紹介します。特定環境での導入・稼働実験の報告ではありません。 スマートフォンから"
     },
     {
       "id": "cc_b93e8415",
@@ -67,8 +37,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.592115+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.632690+00:00",
       "excerpt": "はじめに 2026-10-01 時点です CCA-F - Claude Certified Architect Foundations のみ扱います 受験資格は公式で確認してください まずは情報源 公式: Claude Certified Architect – Foundations | Anthropic Academy: https://anthropic-partners.skilljar"
+    },
+    {
+      "id": "cc_3d524f5b",
+      "title": "Claude CodeをPCを閉じても動かしたい。VPSを借りる前に確認したいこと",
+      "url": "https://zenn.dev/ai_delegate_lab/articles/d804fd3a640611",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-02T05:09:14.632522+00:00",
+      "excerpt": "Claude Codeに修正や調査を任せたまま、席を離れたい。持ち歩くPCは閉じたい。そのためにVPSを借りる必要があるかというと、必ずしもそうではありません。 先に確かめたいのは、作業を動かす場所と、そこで使う資料・道具です。この記事では、AI Delegate Lab / ASBが公式資料をもとに整理した判断手順を紹介します。特定環境での導入・稼働実験の報告ではありません。 スマートフォンから"
     },
     {
       "id": "cc_14430908",
@@ -77,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.592033+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599986+00:00",
       "excerpt": "Claude CodeのAGENTS.md対応を、自分の端末で確かめました。2.1.170と2.1.278で6条件ずつ、計12試行。CLAUDE.mdからの@AGENTS.md取り込みは両版で確認でき、新版では両ファイルを読む明示設定も効きました。 ただし、新版の「AGENTS.mdだけを配置」では、今回の条件では識別文字列が返りませんでした。ネイティブ対応そのものを否定する結果ではありません。設"
     },
     {
@@ -87,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591915+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599886+00:00",
       "excerpt": "こんにちは、M16合同会社の代表社員&COO(最高執行責任者)であり、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 今回は、Claude Code が書いた差分を 書いた本人とは別の目 に通すための、3層のレビュー構成をご紹介します🐱 実装したセッションにそのまま「レビューして」と頼むと、返ってくるのは確認に近い内容になりがちです。 そのセッションは、自分"
     },
     {
@@ -97,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591802+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599778+00:00",
       "excerpt": "この記事について 2026 年 10 月 1 日に、筆者が Claude（Anthropic）と交わした対話を、要点だけに整理したものです。対話の中で Claude が推測で述べた箇所は、公開前に一次情報（TypeSafe AI の公式ブログとドキュメント、論文、投資元の発表、Claude Code の公式ドキュメント）で確認し、裏付けが取れなかった内容は削除しました。筆者の判断は、考察として残し"
     },
     {
@@ -107,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591717+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599692+00:00",
       "excerpt": "この記事は、AI（Claude Code）に小さな事業の運営を任せて「自走」させた1日の記録です。草稿もClaude Codeが書き、七海が事実と数字を確認して公開しています。実名は出していません。 結論 「AIが指示を待って止まる」と思って自走ループを作りました。ところが実際に止まった理由は、指示待ちではありませんでした。 自分で自分を「別のセッション」と取り違えて、16分止まった 送信ボタンの"
     },
     {
@@ -117,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591654+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599630+00:00",
       "excerpt": "月10ドルで70ドル分のクレジットが付与されるプランが出てきた 前回の記事「「貧者のClaudeCodeMax」安価なコーディング向けサービスで無限に開発する」では、月10ドルのOpenCode Goや月20ドルのDevin Proを組み合わせて、月6万回以上のLLM呼び出しを安価に確保する構成をまとめました。 定額サブスクで安価なモデルを回し続ければ、高価なプランを契約せずとも個人開発は十分に進"
     },
     {
@@ -127,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591576+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599554+00:00",
       "excerpt": "Claude Code の v2.1.257〜v2.1.275（2026年9月、全8リリース）の変更を、動画を見ていない方にも伝わるようにまとめた記事です。 既定モデルが Fable 5.1 に変わりましたが、1M トークンのコンテキストは、切り替えるだけでは付いてこないことがあります。 あわせて、プロンプトキャッシュの修正が v2.1.267 に11行集中した件と、1人で使う人が3分で入れられる"
     },
     {
@@ -137,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591492+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599469+00:00",
       "excerpt": "前置き 色んな人から お前は何を言っているんだ？ と突っ込まれる思うので先に結論を貼っておきます。 https://github.com/mryo0826/aidd-practice-guide/commit/84e7d5a2fa85112e8f7d0ed11a5e53195e97fcd6 前提条件として 私が 晩酌しながら雑に 2026/09/27 に書いた記事 https://zenn.dev"
     },
     {
@@ -147,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591394+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599371+00:00",
       "excerpt": "Claude CodeやCodexなどでは、全プロジェクトに共通するエージェントへの指示を、所定のファイル（~/codex/AGENTS.mdや~/claude/CLAUDE.mdなど）に書く必要があります。 https://learn.chatgpt.com/docs/agent-configuration/agents-md https://code.claude.com/docs/ja/me"
     },
     {
@@ -157,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-01T22:32:57.591298+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.599276+00:00",
       "excerpt": "Claude Code に毎日作業をさせていると、セッションの終わりが一日に何度も来ます。終わるたびに、次のセッションへ引継ぎ文書を書きます。やったこと、残っていること、踏んだ罠。 私の環境では、2026年6月12日から10月2日までの間に、引継ぎ文書が512本になりました。 月 本数 6月（12日から） 58 7月 137 8月 180 9月 131 10月（2日まで） 6 この引継ぎを書く手順"
     },
     {
@@ -167,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-01T22:32:57.913943+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.928926+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -177,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-01T22:32:57.914057+00:00",
+      "fetchedAt": "2026-10-02T05:09:14.928987+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -187,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-01T22:32:58.141183+00:00",
+      "fetchedAt": "2026-10-02T05:09:15.128702+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-01T22:32:58.141245+00:00",
+      "fetchedAt": "2026-10-02T05:09:15.128764+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-01T22:32:58.141316+00:00",
+      "fetchedAt": "2026-10-02T05:09:15.128842+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-01T22:32:58.141331+00:00"
+  "lastCollection": "2026-10-02T05:09:15.128857+00:00"
 }
