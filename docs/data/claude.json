@@ -1,54 +1,24 @@
 {
   "items": [
     {
-      "id": "cc_8481d38b",
-      "title": "Claude Code を9体並べてチーム開発させた。テスト1,310件は全部緑で、アプリは通しで動かなかった",
-      "url": "https://zenn.dev/shune/articles/54501fc4fd6398",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068516+00:00",
-      "excerpt": "はじめに テストは 1,310 件、全部緑だった。 なのに、アプリを開いて触り始めたら、画面の隅にトーストが出た。 「見つかりません: PTY 1」 正直、がっかりした。 Claude Code を9体並べた。1体を統括役の Lead にして、残りの8体に担当を割り振る。人間の開発チームと同じ形で、1つのアプリを作らせてみた。一晩と半日で 581 コミット、マージは 98 回。数字だけ見ると、すご"
-    },
-    {
-      "id": "cc_988d8a6d",
-      "title": "Claude Codeの使用枠が溶けた日、犯人は重い処理ではなかった──節約はメモリより仕組みに寄せる",
-      "url": "https://zenn.dev/pepe_3_go/articles/claude-code-usage-not-heavy-task",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068442+00:00",
-      "excerpt": "修正対応だけで7〜8%減った 前日に納品したバナー案件に、翌日修正が来た。直す箇所は数点で、作業としては軽い。ところが終わってみると、Claude Code の使用枠（Teamプランの5時間枠）が体感で7〜8%減っていた。 最初に疑ったのは「どこかで重い処理を走らせたのではないか」だった。画像を読ませた、長いファイルを開かせた、そういう心当たりを探しにいく。 測ってみたら、そうではなかった。 私は"
-    },
-    {
-      "id": "cc_4ec3abfe",
-      "title": "Claude Managed Agents で「毎朝サイトを巡回して日報を書く」エージェントを30分で動かす",
-      "url": "https://zenn.dev/persimmoq/articles/claude-managed-agents-daily-report",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068395+00:00",
-      "excerpt": "Anthropic の Claude Managed Agents は、エージェントループもサンドボックスも Anthropic 側が運用してくれる「サーバー不要」のエージェント基盤です。この記事では、Python SDK だけで、 Web ページを巡回して Markdown の日報を書くエージェントを定義し 1 回動かして成果物を手元に取り出し 平日 8 時の cron（Deployment）に"
-    },
-    {
       "id": "cc_86fb0cb0",
       "title": "Claude Opus 5 / Sonnet 5 に model だけ変えて移行すると壊れる 7 つの理由",
       "url": "https://zenn.dev/persimmoq/articles/claude-opus-5-migration-400-errors",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068311+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.341112+00:00",
       "excerpt": "2025 年に書いた Claude API のコードを、model=\"claude-opus-5\" や claude-sonnet-5 に変えただけで動かすと、次のどれかが起きます。全部、2026 年 10 月時点の公式移行ガイドに書かれている変更です。この記事はその一覧と最短の直し方で、既存コードを静的に走査して該当箇所を file:line で出すツールも置いておきます。 https://gi"
     },
     {
       "id": "cc_b93adc9c",
-      "title": "Claude 5 世代 移行ガイド ― Opus 5 / Sonnet 5 / Fable 5.1 で変わった API とプロンプト",
+      "title": "Claude 5 世代 移行ガイド ― Opus 5.5 / Sonnet 5.5 / Fable 5.1 で変わった API とプロンプト",
       "url": "https://zenn.dev/persimmoq/books/claude-5-migration-guide",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068259+00:00",
-      "excerpt": "2026 年の Claude は、思考が既定でオン、サンプリングパラメータ廃止、プリフィル廃止、強制ツール呼び出し廃止、拒否の stop_reason、履歴編集の検査（preserved thinking）と、API の前提が大きく変わりました。本書は Opus 4.x / Sonnet 4.x 時代のコードとプロンプトを Claude Opus 5 / Sonnet 5 / Fable 5.1 "
+      "fetchedAt": "2026-10-03T16:03:23.341041+00:00",
+      "excerpt": "2026 年の Claude は、思考が既定でオン、サンプリングパラメータ廃止、プリフィル廃止、強制ツール呼び出し廃止、拒否の stop_reason、履歴編集の検査（preserved thinking）と、API の前提が大きく変わりました。本書は Opus 4.x / Sonnet 4.x 時代のコードとプロンプトを Claude Opus 5.5 / Sonnet 5.5 / Opus 5"
     },
     {
       "id": "cc_41388ec9",
@@ -57,48 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068163+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.340892+00:00",
       "excerpt": "Claude Codeで個人開発を回すハーネスが、どう変わってきたかの記事です。 まだまだ改善の途中なので一旦チェックポイントとして書いておきます。 ハーネスの中身より、開発の流れと、その中で自分がどれだけ手を入れていたかの変化を、hookのログ（自分で仕込んだやつ）とセッションのログ（Claudeが常にとってるやつ）から数えた数字で書きます。 こうなった 段階 自分の役割 AIが立てたセッション"
-    },
-    {
-      "id": "cc_219017c0",
-      "title": "Claude Slides/Docsの中身は「制約されたHTMLサブセットのDSL」だった",
-      "url": "https://zenn.dev/every_ai_recipe/articles/claude-slides-no-powerpoint-recipe",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068087+00:00",
-      "excerpt": "TL;DR Anthropicは2026年9月16日〜17日、Claudeのチャット上でスライド・ドキュメントをそのまま作れる「Claude Slides」「Claude Docs」をベータ公開した。エージェント機能「Claude Cowork」がChatチャット本体に統合された一環の発表である 編集部（本セッション）は、この機能を動かしている開発者向けの実行環境から、実際にスライドを1つ作って検"
-    },
-    {
-      "id": "cc_e9519358",
-      "title": "うおー！Claude Codeのmodでパネルが出せる！うおー！",
-      "url": "https://zenn.dev/i_shinya/articles/dc7371d0abf45e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.068021+00:00",
-      "excerpt": "Claude Codeに、modという機能が入りました！ 画面の横にパネルを出して、そこに好きなものを描けます。 これでAIの出力を待っている間に、マインスイーパーで遊べます！ 右クリックで旗も立てられます！ ごめんなさい。"
-    },
-    {
-      "id": "cc_b38460ef",
-      "title": "Claude Code が編集した Markdown のテーブルを Markdown All in One と同じ形に自動で揃える",
-      "url": "https://zenn.dev/takuyayukat/articles/625ef992cf68cb",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.047069+00:00",
-      "excerpt": "はじめに こんにちは、hamaguchi です 今日は、Claude Code が編集した Markdown のテーブルを Markdown All in One と同じ形に自動で揃える仕組みについて紹介します Claude Code 自身に Claude Code の仕組みを改善したいと話したらいい感じにしてくれたという話です 最近はタスクに関する TODO や関連する調査結果全般、issue "
-    },
-    {
-      "id": "cc_990e76e1",
-      "title": "CLAUDE.mdとauto memoryの違いと書き方",
-      "url": "https://zenn.dev/tomsolog/articles/20260930-claude-code-claudemd-guide",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046968+00:00",
-      "excerpt": "この記事でわかること Claude Codeには「書く記憶」と「覚える記憶」の2つの仕組みがあること CLAUDE.mdファイルの役割と、置き場所ごとの使い分け auto memoryとは何か、有効・無効の切り替え方、保存場所 今日から実践できる、CLAUDE.mdの書き方のコツ 結論：Claude Codeには「書く記憶」と「覚える記憶」がある Claude Codeは、セッションを開始するたび"
     },
     {
       "id": "cc_65fbdfe2",
@@ -107,28 +37,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046906+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.340826+00:00",
       "excerpt": "TL;DR cmux で Claude Code を動かしながら、Claude に渡すテキストや Claude から貰ったテキストを置いておく「コピペ用メモ」を、cmux の右ペインに出すようにした。 メモはプロジェクト（git ルート）ごとに 1 ファイル。ファイル名は Claude Code が ~/.claude/projects/ で使っている「パスの / を - に置換する」方式を真似た"
     },
     {
-      "id": "cc_ada36603",
-      "title": "ZennのスクラップにClaude Codeの調査・試行結果を自動で書き溜める",
-      "url": "https://zenn.dev/kswr/articles/zenn_scraps_automate",
+      "id": "cc_219017c0",
+      "title": "Claude Slides/Docsの中身は「制約されたHTMLサブセットのDSL」だった",
+      "url": "https://zenn.dev/every_ai_recipe/articles/claude-slides-no-powerpoint-recipe",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046839+00:00",
-      "excerpt": "TL;DR Zennのスクラップの自動投稿を実現した Claude Codeを使ってAIエージェントに新しい技術の調査・試行を実施させ、その結果をスクラップに投稿し記録させる 人がスクラップを読み返して、Zennの記事/本として投稿するつもり スクラップ投稿の自動化 何か新しい技術について勉強するとき、生成AIに記事を書かせてそれを自分で読むスタイルがとても良く、乱用してしまいます。 「ついでにこ"
+      "fetchedAt": "2026-10-03T16:03:23.340736+00:00",
+      "excerpt": "TL;DR Anthropicは2026年9月16日〜17日、Claudeのチャット上でスライド・ドキュメントをそのまま作れる「Claude Slides」「Claude Docs」をベータ公開した。エージェント機能「Claude Cowork」がChatチャット本体に統合された一環の発表である 編集部（本セッション）は、この機能を動かしている開発者向けの実行環境から、実際にスライドを1つ作って検"
     },
     {
-      "id": "cc_d51180a6",
-      "title": "Claude Code の Auto-memory を棚卸しする — AIが覚えた41件を点検した実装と結果",
-      "url": "https://zenn.dev/joinclass/articles/auto-memory-ai-20261001220026-15523",
+      "id": "cc_e9519358",
+      "title": "うおー！Claude Codeのmodsでペインが出せる！うおー！",
+      "url": "https://zenn.dev/i_shinya/articles/dc7371d0abf45e",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046786+00:00",
-      "excerpt": "なぜ記憶を点検することにしたのか 僕は一人で会社をやっていて、実務のかなりの部分を Claude Code に委任している。委任の質を決めているのは、モデルの性能ではなく「AIが何を覚えているか」だった。 Auto-memory（~/.claude/projects/ /memory/）はセッションをまたいで事実を持ち越す仕組みで、便利なぶん静かに効く。間違った記憶が1件混ざると、それ以降の全セッ"
+      "fetchedAt": "2026-10-03T16:03:23.340667+00:00",
+      "excerpt": "Claude Codeに、modsという機能が入りました！ 画面の横にペインを出して、そこに好きなものを描くこともできる！ これでAIの出力を待っている間に、マインスイーパーで遊べます！ 右クリックで旗も立てられます！ ごめんなさい。"
+    },
+    {
+      "id": "cc_ca98f6e8",
+      "title": "Claude Opus 5.5 の動画作例13本を、元のプロンプトと一緒に読み解く",
+      "url": "https://zenn.dev/donaldxs/articles/3d740966f1e401",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.340479+00:00",
+      "excerpt": "この記事の対象と範囲 対象読者：Claude Opus 5.5 で動画を作ってみたい人、モーショングラフィックスを作らせるときのプロンプトの書き方を作例から知りたい人。 扱う範囲：公開されている Opus 5.5 製の動画13本と、それぞれの元のプロンプト（英語原文のまま掲載）。作例はショーリール、製品ローンチ、UI アニメーション、SNS 広告とブランドバンパー、解説動画、物語アニメーションの6"
     },
     {
       "id": "cc_b416e532",
@@ -137,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046713+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.261938+00:00",
       "excerpt": "定額プランなのに週の上限に当たる。あるいは API 請求が思ったより伸びている。 そんなとき、「何にトークンを使ったか」を1行で説明できますか? 私はできませんでした。だから測りました。結果はかなり意外で、そして自分が疑っていた犯人は全員シロでした。 先に結論を書きます。私の消費の **96.3% は、自分が書かせた文章ではなく「過去の文脈の読み直し」**でした。 そして5週間後、運用を見直してか"
     },
     {
@@ -147,18 +87,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046621+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.261826+00:00",
       "excerpt": "Claude Codeを定時ジョブの実行エンジンにすると、避けて通れない壁があります。使用量の週制限(weekly limit) です。ある夜、カレンダー同期ジョブがこう言って止まりました。 You've hit your weekly limit · resets Jul 26, 9pm (Asia/Tokyo) 人間なら「じゃあ日曜まで待つか」で済みますが、自動化は毎日走りたい。この記事では、"
     },
     {
-      "id": "cc_33f53ffe",
+      "id": "cc_64f5a23b",
       "title": "VS Code ショートカット早見表(Mac / Claude Code 連携)",
-      "url": "https://zenn.dev/moppin/articles/4696687546b4fb",
+      "url": "https://zenn.dev/moppin/articles/vscode-shortcuts-mac-claude-code",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-03T11:26:51.046517+00:00",
+      "fetchedAt": "2026-10-03T16:03:23.261725+00:00",
       "excerpt": "VS Code で使っているショートカットの早見表です。デフォルトのものと自分でカスタムしたものを混ぜて載せています。新しく覚えたものは随時追記していきます。 ! 環境: macOS / VS Code / Claude Code 拡張機能(v2.1.288) 表の「種別」が カスタム のものは、デフォルトのままでは動きません。ショートカット一覧(⌘ K → ⌘ S)でコマンド ID を検索して設"
+    },
+    {
+      "id": "cc_0d1c0a8a",
+      "title": "Claude Codeの定期タスクの「見送り」を数え直したら、21件は1回だった",
+      "url": "https://zenn.dev/autocamp/articles/56520d20812298",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.261621+00:00",
+      "excerpt": "Claude Code のデスクトップアプリの定期タスクを、一画面で見張る Chrome 拡張を作りました。 最初に出た「見送り」の警告は21件で、1件ずつ開くと全部が9月21日の13時42分から49分の8分間でした。 同時に動かせる数の上限に当たって、1分ごとに再挑戦した記録です。 記録をそのまま数えると、1回の待ちが21件になる デスクトップアプリは、上限で動かせなかった時に「見送り」の記録を"
+    },
+    {
+      "id": "cc_60888685",
+      "title": "Claude Code の hooks で自動チェックを仕込む",
+      "url": "https://zenn.dev/akinori901/articles/20260901-00mti530",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.261552+00:00",
+      "excerpt": "Claude Code の hooks で自動チェックを仕込む 概要 Claude Code には、エージェントの動作の節目でユーザー定義のコマンドを実行する hooks という仕組みがあります。「ファイルを編集したら自動で整形する」「危険なコマンドを実行前にブロックする」といった処理を、プロンプトでのお願いではなく決定論的なフックとして差し込めます。 プロンプトで「編集後は必ず prettier"
+    },
+    {
+      "id": "cc_3b988492",
+      "title": "【メモ】pstack (Claude Code 移植版pstack-claude) のスタック構成とオーケストレーションを読む",
+      "url": "https://zenn.dev/uehaj/articles/claude-code-pstack-structure-memo",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.261462+00:00",
+      "excerpt": "! 本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。 また、ここで扱う pstack はコミュニティによる移植版のプラグインで、更新が頻繁です。本文の記述は執筆時点(2026年10月, pstack-claude v0.9.63 / Claude Code v2.1.288 で確認)のものなので、最新の構成はリポジトリをご確認ください。 はじめに pstack-claude は"
+    },
+    {
+      "id": "cc_37cdcef7",
+      "title": "Claude Code × n8n MCPで「作る→動かす→実行記録を読む→直す」を回す：LINE問い合わせ対応を作って踏んだこと",
+      "url": "https://zenn.dev/outsidernotes/articles/39a06c1bea4d6a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.261385+00:00",
+      "excerpt": "n8n のワークフローを、Claude Code から MCP 経由で作り、実際に動かして、実行記録を読んで直す。この繰り返しで、LINE の問い合わせ対応のワークフロー（32ノード）を1日で作って検証しました。 この記事は、MCP の接続手順ではなく、つないだあとにどう回したかの記録です。役割の分け方、使った MCP ツール、そして MCP 経由ならではの落とし穴を書きます。 環境：n8n 2."
+    },
+    {
+      "id": "cc_efca2d46",
+      "title": "Claude ModsとOutput Styleで、Claude Codeを執筆用のハーネスにする",
+      "url": "https://zenn.dev/shimo4228/articles/harness-scope-writing-harness",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-03T16:03:23.261206+00:00",
+      "excerpt": "Claude Codeで記事を書くと、claude.aiのチャットとは違う良さがあります。スキルやルールといったハーネスを自分で組めますし、Claudeにどんなコンテキストを渡すかもかなり自由に決められます。私はこのリポジトリ（zenn-content）に、執筆用のスキルとレビュー用のエージェントを置いて記事を書いています。 ただ、執筆のリポジトリで開いても、Claudeに見えているのはコード用に"
     },
     {
       "id": "cc_f73cedfd",
@@ -167,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-03T11:26:51.400654+00:00",
+      "fetchedAt": "2026-10-03T16:03:24.010928+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -177,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-03T11:26:51.400706+00:00",
+      "fetchedAt": "2026-10-03T16:03:24.010995+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -187,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-03T11:26:51.599260+00:00",
+      "fetchedAt": "2026-10-03T16:03:24.259086+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -197,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-03T11:26:51.599308+00:00",
+      "fetchedAt": "2026-10-03T16:03:24.259148+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -207,9 +197,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-03T11:26:51.599364+00:00",
+      "fetchedAt": "2026-10-03T16:03:24.259222+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-03T11:26:51.599378+00:00"
+  "lastCollection": "2026-10-03T16:03:24.259234+00:00"
 }
