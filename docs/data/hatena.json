@@ -1,567 +1,602 @@
 {
   "entries": [
     {
-      "id": "h_68bcfea6",
-      "title": "俺のAIプログラミング手法(2026/10/05)",
-      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
-      "domain": "zenn.dev",
-      "bookmarkCount": 408,
-      "summary": "棚卸し的な記事です。 人間の役割を定義する モデルの性能を評価する 無茶振りしてどこまで出来るか観察 何ができて、何ができなかったことがドメイン知識になる ループを構築する 自動化して得られた時間で、評価指標を改善する 評価指標を作る どの数値を改善すべきか、トレードオフは何を優先すべきか ループのイテレ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "id": "h_db069ca8",
+      "title": "連日の不正アクセスの件、マジでシャレにならないが、こんなやばいの日本だけ？他の国で問題になってないん？「今世界中で起きてる」",
+      "url": "https://togetter.com/li/2754581",
+      "domain": "togetter.com",
+      "bookmarkCount": 410,
+      "summary": "企業で相次ぐ“不正アクセス” 狙われる「個人情報」｜FNNプライムオンライン 第三者からの不正アクセスを受けた企業からの情報漏えいが相次いでいます。5日夕方、「焼肉きんぐ」を運営する物語コーポレーションは、公式アプリの会員管理システムが第三者からの不正アクセスを受け、登録され… FNNプライムオンライン",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2754581",
       "comments": [
         {
-          "user": "kiririmode",
-          "comment": "AIに仕事を任せられる主要因は「AIが自力で評価・再試行できる閉ループ」に変換できるか。人間の主要な仕事は実装ではなく、閉ループを成立させる評価関数・制約・優先順位・エスカレーション条件を設計すること",
-          "tags": [
-            "ai",
-            "development"
-          ],
-          "timestamp": "2026/10/06 08:29"
-        },
-        {
-          "user": "pmint",
-          "comment": "まず「ループ構築はAIに任せられる仕事か」を考えましょう。Anthropicを頂点としたMLMに刷り込まれてる。この手の知識をいくら集めてもAI情報商材屋に取り込まれるだけ。以前はこの手の自称Tech記事が後進を阻害してた。",
-          "tags": [
-            "*",
-            "なんだこれ"
-          ],
-          "timestamp": "2026/10/06 08:13"
-        },
-        {
-          "user": "kabochatori",
-          "comment": "ですよね…\"またすぐ変わると思います\"",
+          "user": "mellowfellow",
+          "comment": "タンス預金が優勝みたいな未来が来るのだろうか",
           "tags": [],
-          "timestamp": "2026/10/06 07:43"
+          "timestamp": "2026/10/06 15:05"
         },
         {
-          "user": "sunakawa",
-          "comment": "AIプログラミング手法",
+          "user": "otihateten3510",
+          "comment": "だいぶ対策する時間はあったよね（鬼畜）",
           "tags": [],
-          "timestamp": "2026/10/06 07:34"
+          "timestamp": "2026/10/06 15:02"
         },
         {
-          "user": "shoh8",
-          "comment": "“せめて振る舞いを把握したい。” /“またすぐ変わると思います”",
-          "tags": [
-            "AI",
-            "開発"
-          ],
-          "timestamp": "2026/10/06 07:28"
-        },
-        {
-          "user": "onesplat",
-          "comment": "clineに全部賭けた人だ",
+          "user": "HMT_EG",
+          "comment": "デジタル徳政令とか、デジタルネズミ小僧の登場が待たれる。",
           "tags": [],
-          "timestamp": "2026/10/06 04:35"
+          "timestamp": "2026/10/06 15:02"
+        },
+        {
+          "user": "at_yasu",
+          "comment": "まぁ、わかってるだけでこれだけあるって事は、わかってない所はもっとあるんかなぁとぼんやり/自分所もないか起きてないか確認するよねぇ…",
+          "tags": [],
+          "timestamp": "2026/10/06 15:00"
+        },
+        {
+          "user": "namaHam",
+          "comment": "webにクレカ情報は残せんなぁ",
+          "tags": [],
+          "timestamp": "2026/10/06 14:58"
+        },
+        {
+          "user": "oldriver",
+          "comment": "AIの発達で脆弱性が発見されまくっているので https://wired.jp/article/kernel-panic-ai-vulnerability-explosion/",
+          "tags": [],
+          "timestamp": "2026/10/06 14:58"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:06.830762+00:00"
+      "fetchedAt": "2026-10-06T06:05:55.236577+00:00"
     },
     {
-      "id": "h_552ea7a5",
-      "title": "焼肉きんぐに不正アクセス、1078万人分の情報流出 アプリ登録者ほぼ全員が対象",
-      "url": "https://ascii.jp/elem/000/004/440/4440100/",
-      "domain": "ascii.jp",
-      "bookmarkCount": 401,
-      "summary": "焼肉きんぐを運営する物語コーポレーションは10月5日、公式アプリの会員管理システムが第三者から不正アクセスを受け、会員情報1078万8963件が流出したと発表した。アプリのユーザー登録数は1080万8784件で、ほぼすべてのユーザーが対象となる。 流出した情報には、会員番号、氏名（アプリ登録名）、メールアドレス、電...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/440/4440100/",
+      "id": "h_1e275ff6",
+      "title": "Geminiの使いどころ🥹",
+      "url": "https://anond.hatelabo.jp/20261006101040",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 152,
+      "summary": "用途にもよるけど、現時点では ChatGPT ＞ Claude ＞＞＞ Gemini という印象です。 AI同士で議論させると、Geminiの能力の低さが目立ちます。 Gemini自身が「GeminiはChatGPTやClaudeより劣っている」と自白しているので間違いありません。 しかしGeminiには、自分で自分の間違いを認めるだけの判断力は残されていました...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261006101040",
       "comments": [
-        {
-          "user": "sds-page",
-          "comment": "海外サイトでもGoogleさんから「パスワード漏れたぞ」って言われる。全世界規模でやられてるんじゃね",
-          "tags": [
-            "アプリ",
-            "セキュリティ",
-            "個人情報",
-            "事件"
-          ],
-          "timestamp": "2026/10/06 08:52"
-        },
-        {
-          "user": "Vudda",
-          "comment": "もうさあ、飲食店に家の住所や電話番号教える必要なんてないんだから（クーポンとかDMとかもう郵送しないでしょ）こういうのどこまで登録させるか業種ごとに法律でちゃんと決めようよ",
-          "tags": [],
-          "timestamp": "2026/10/06 08:44"
-        },
-        {
-          "user": "ustar",
-          "comment": "そんなけ会員いるのが驚き",
-          "tags": [],
-          "timestamp": "2026/10/06 08:29"
-        },
-        {
-          "user": "Toteknon",
-          "comment": "これ、焼肉きんぐ以外の物語コーポレーションのアプリとかもあり得そう(きんぐは行かないけど他…)",
-          "tags": [],
-          "timestamp": "2026/10/06 08:27"
-        },
-        {
-          "user": "umaemong",
-          "comment": "とはいえ、いまさら紙のポイントカードなんて持ち歩きたくないし。みんな嫌ってるけど、LINEマイカードみたいな汎用ポイントカードシステムに乗っかるのが安心安全だと思う。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:23"
-        },
-        {
-          "user": "doksensei",
-          "comment": "このところのハッキング報道は、AIがなんらか絡んでるとは思うけどこれ、誰かがAIに「企業のデータベースから個人情報を集めてこい」って指示してAIがそれを勝手にやってる、みたいなことになってたらほんと滅ぶじゃん",
-          "tags": [],
-          "timestamp": "2026/10/06 08:03"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:04.535536+00:00"
-    },
-    {
-      "id": "h_a759c8ed",
-      "title": "AIでコード生成は加速、でも人間の確認が追いつかない問題。t-wadaが示す「レビュー解体」という答え - エンジニアtype | 転職type",
-      "url": "https://type.jp/et/feature/31834/",
-      "domain": "type.jp",
-      "bookmarkCount": 261,
-      "summary": "転職・求人情報サイトのtype エンジニアtype ITニュース AIでコード生成は加速、でも人間の確認が追いつかない問題。t-wadaが示す「レビュー解体」という答え NEW! 2026.10.05 ITニュース 和田卓人プログラミングAI 生成AIは「コードを書く」というエンジニアの仕事を急速に変えた。AIと相談しながら実装を進めるだけで...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/type.jp/et/feature/31834/",
-      "comments": [
-        {
-          "user": "skypenguins",
-          "comment": "ボブおじもレビューもうしてへんって言ってたしな",
-          "tags": [
-            "ai",
-            "ソフトウェア開発"
-          ],
-          "timestamp": "2026/10/06 07:58"
-        },
-        {
-          "user": "shoh8",
-          "comment": "理解を手放さない。ここをどう上手くやるか。",
-          "tags": [
-            "AI",
-            "人間",
-            "開発"
-          ],
-          "timestamp": "2026/10/06 07:38"
-        },
-        {
-          "user": "jintrick",
-          "comment": "コードレビューが背負っていた仕事を、開発工程の各所に分散するという考え方",
-          "tags": [],
-          "timestamp": "2026/10/06 07:37"
-        },
-        {
-          "user": "rissack",
-          "comment": "MicrosoftのAIのネーミングは完全に時代遅れなのね。",
-          "tags": [],
-          "timestamp": "2026/10/06 07:05"
-        },
-        {
-          "user": "bijui",
-          "comment": "今まであったもの全て理解して作ってたならそれは素晴らしいことだけど、みんなそうだったかしら。",
-          "tags": [],
-          "timestamp": "2026/10/06 06:22"
-        },
         {
           "user": "yamadadadada2",
-          "comment": "「多分動くと思うからリリースしようぜ」",
+          "comment": "動画の文字起こしが安い",
           "tags": [],
-          "timestamp": "2026/10/06 00:46"
+          "timestamp": "2026/10/06 15:04"
+        },
+        {
+          "user": "srng",
+          "comment": "学習データが違う結果か結構個性があるgrokと違ってgeminiはほぼ他の下位互換なのが厳しい",
+          "tags": [],
+          "timestamp": "2026/10/06 14:59"
+        },
+        {
+          "user": "wkpn",
+          "comment": "Geminiは4で性能がだいぶ追いついてきてるし、漏れてくる話を聞く限りでは性能競争からは降りて無さそう。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:53"
+        },
+        {
+          "user": "neogratche",
+          "comment": "競争の場に立つ事すらできないGrokに涙を禁じ得ない",
+          "tags": [],
+          "timestamp": "2026/10/06 14:52"
+        },
+        {
+          "user": "miragestlike",
+          "comment": "ChatGPT製テキストとみた",
+          "tags": [],
+          "timestamp": "2026/10/06 14:50"
+        },
+        {
+          "user": "seiyakengo",
+          "comment": "人の画像生成はChatGPTの方がプロンプト理解度は高いが伊達杏子みたいになるのでGeminiのnanobananaの方が良い。ゲームを作る時にプレビューが出るのがClaudeとGeminiでClaudeの方が性能はいいけど無料枠が少なすぎるのでGemini",
+          "tags": [],
+          "timestamp": "2026/10/06 14:49"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:05.975655+00:00"
-    },
-    {
-      "id": "h_877ffc3d",
-      "title": "アマゾン「Audible」、本の登場人物と会話できる新機能を提供へ",
-      "url": "https://japan.cnet.com/article/35253230/",
-      "domain": "japan.cnet.com",
-      "bookmarkCount": 255,
-      "summary": "Amazon傘下のAudibleは、オーディオブック配信サービス「Audible」の没入感を高めようとしている。同社は米国時間10月1日、本を聴く体験を広げるため、AIを活用した3つの新機能を発表した。これにより、ユーザーは登場人物のガイドを確認し、物語に参加するとともに、聴いている本に登場する都市や名所について詳しく知...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253230/",
-      "comments": [
-        {
-          "user": "yuu-same",
-          "comment": "夢のある？ひどい世界だ。ライザのAIチャットで何が起きたか・・",
-          "tags": [],
-          "timestamp": "2026/10/06 08:17"
-        },
-        {
-          "user": "miketaro1234",
-          "comment": "ワタナベに「やれやれ」と言われたい",
-          "tags": [],
-          "timestamp": "2026/10/06 08:12"
-        },
-        {
-          "user": "civicpg",
-          "comment": "SF小説の矛盾点とかを主人公にガン詰めできるな",
-          "tags": [],
-          "timestamp": "2026/10/06 08:05"
-        },
-        {
-          "user": "narukami",
-          "comment": "台無し",
-          "tags": [
-            "書籍"
-          ],
-          "timestamp": "2026/10/06 07:40"
-        },
-        {
-          "user": "gairasu",
-          "comment": "メロスが激怒してるところに「キレてますか？」と聞けるのか。YouTuberの動画ネタにしたら、論破したり優しくしたり個性がまんま出るので見てて楽しそう。異世界転生実況ジャンルとなっておもろそうだw",
-          "tags": [],
-          "timestamp": "2026/10/06 07:33"
-        },
-        {
-          "user": "alpha_zero",
-          "comment": "Kindleの読み上げがAudible並みになったらAudibleが売れなくなるので、そこが向上するのは時間がかかるのでは。",
-          "tags": [],
-          "timestamp": "2026/10/06 07:28"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:08.174303+00:00"
-    },
-    {
-      "id": "h_0af5c5db",
-      "title": "AIでサイバー攻撃のコスト激減 数行の指示だけで27社に侵入、カード情報60万件超が流出 - 週刊アスキー",
-      "url": "https://weekly.ascii.jp/elem/000/004/439/4439882/",
-      "domain": "weekly.ascii.jp",
-      "bookmarkCount": 110,
-      "summary": "わずか数行の指示を出すだけで、AIが脆弱性を探し、侵入し、カード情報まで盗み出す──。サイバー攻撃の自動化が実戦段階に迫っている。 セキュリティ企業Gambit Securityの9月22日の報告によると、金銭目的の攻撃者が複数のオープンソースAIエージェントを使い、数百店のオンラインショップを攻撃した。2026年9月10～15...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/weekly.ascii.jp/elem/000/004/439/4439882/",
-      "comments": [
-        {
-          "user": "vlxst1224",
-          "comment": "これも1年後くらいから見たら「あれが滅びの始まりやったんやな」ってなるのかな。本当に恐ろしい時代だ。今のうちにやれることやっておかないと……庭にタマネギでも植えるか",
-          "tags": [],
-          "timestamp": "2026/10/06 08:53"
-        },
-        {
-          "user": "Niemand",
-          "comment": "悪用する方が生産性が高い",
-          "tags": [],
-          "timestamp": "2026/10/06 08:40"
-        },
-        {
-          "user": "circled",
-          "comment": "uncensored modelとかAIの制限外したモデルがhugging faceとかに置いてあって、GPUガチ盛りして攻撃を自動化した側が犯罪による金稼ぎが楽々にあるのであれば、どの政府の規制も無視して世界レベルで攻撃して稼ぎにくる罠",
-          "tags": [],
-          "timestamp": "2026/10/06 08:40"
-        },
-        {
-          "user": "wildhog",
-          "comment": "AIベンダーは攻撃側からも防御側からも金が取れるね。サードパーティマッチポンプだ",
-          "tags": [],
-          "timestamp": "2026/10/06 08:39"
-        },
-        {
-          "user": "bluescreen",
-          "comment": "もうやだ",
-          "tags": [
-            "セキュリティ",
-            "AI"
-          ],
-          "timestamp": "2026/10/06 08:32"
-        },
-        {
-          "user": "chambersan",
-          "comment": "デスヨネー",
-          "tags": [],
-          "timestamp": "2026/10/06 08:08"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:03.612762+00:00"
-    },
-    {
-      "id": "h_78fcc33d",
-      "title": "ウナギ稚魚の生産コストが4万円→1800円に 約20分の1以下に削減 水産研究・教育機構が大型水槽を開発 | himanews",
-      "url": "https://himanews.jp/2145532462-2/",
-      "domain": "himanews.jp",
-      "bookmarkCount": 35,
-      "summary": "ウナギ稚魚の生産コストが4万円→1800円に 約20分の1以下に削減 水産研究・教育機構が大型水槽を開発 2025 7/08 記事によると… ウナギ稚魚を大量生育でコスト4万円から1800円に 水産研究・教育機構が大型水槽開発 水産研究・教育機構とヤンマーホールディングスなどは8日、ウナギの稚魚の生産コストを大幅に削減できる...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/himanews.jp/2145532462-2/",
-      "comments": [
-        {
-          "user": "mobile_neko",
-          "comment": "Twitterでも数年前のこの記事が流れてきて何かと思ったのよね",
-          "tags": [],
-          "timestamp": "2026/10/06 08:37"
-        },
-        {
-          "user": "mohno",
-          "comment": "「稚魚1尾あたりの生産コストが4万円から1800円程度にまで削減できた」←まさか1尾あたりのコストとは思わなかった。1尾5000円というのは、大赤字だったのか？ https://news.yahoo.co.jp/expert/articles/f29a4241927c8ea7149d7dc971b3ada89efebe35",
-          "tags": [
-            "himanews",
-            "ウナギ",
-            "大分",
-            "養殖",
-            "かば焼き",
-            "ニホンウナギ"
-          ],
-          "timestamp": "2026/10/06 08:33"
-        },
-        {
-          "user": "ys0000",
-          "comment": "広告塗れで読みづらいと思ったら、 https://www.sankei.com/article/20250708-SVFONAXKPVDBLONU7IMVQNQHA4/ のパクリ記事っぽいな。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:27"
-        },
-        {
-          "user": "spark64",
-          "comment": "稚魚時点でもう1800円か… 天然なら数百円てところかしら",
-          "tags": [],
-          "timestamp": "2026/10/06 08:26"
-        },
-        {
-          "user": "simila",
-          "comment": "大きな成果だけど一匹で1800円ではまだまだ実用化は先か。海で捕獲する方法とのコスト比較が欲しかった",
-          "tags": [],
-          "timestamp": "2026/10/06 08:25"
-        },
-        {
-          "user": "ya--mada",
-          "comment": "スクレイピング転載サイトだ。引用元を最後に明記してるが、これでは引用とは言えない。 https://www.sankei.com/article/20250708-SVFONAXKPVDBLONU7IMVQNQHA4/",
-          "tags": [],
-          "timestamp": "2026/10/06 08:25"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:02.105462+00:00"
-    },
-    {
-      "id": "h_2e02395a",
-      "title": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪 ランサムウェアによるサイバー攻撃か 基盤システム障害で全授業が休講中 対面授業は9日以降再開予定 | TBS NEWS DIG",
-      "url": "https://newsdig.tbs.co.jp/articles/-/2990268",
-      "domain": "newsdig.tbs.co.jp",
-      "bookmarkCount": 31,
-      "summary": "【速報】「多くの方々にご不便とご心配かけ、深くお詫び」大阪公立大が謝罪 ランサムウェアによるサイバー攻撃か 基盤システム障害で全授業が休講中 対面授業は9日以降再開予定",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/newsdig.tbs.co.jp/articles/-/2990268",
-      "comments": [
-        {
-          "user": "circled",
-          "comment": "大学のシステムはまともでも、割と自由に使える教授の研究端末（見て、これ科研費で買ったんだ〜💕）からランサム侵入とか普通にありえるから、なんか大学の情報システム部門は大変かもしれない",
-          "tags": [],
-          "timestamp": "2026/10/06 08:47"
-        },
-        {
-          "user": "Nunocky",
-          "comment": "被害者が頭下げてるの不思議なんだよな",
-          "tags": [],
-          "timestamp": "2026/10/06 08:43"
-        },
-        {
-          "user": "ustar",
-          "comment": "謝れてえらい",
-          "tags": [],
-          "timestamp": "2026/10/06 08:42"
-        },
-        {
-          "user": "ya--mada",
-          "comment": "基盤NWの隔離と監視は面倒だろうけど、やらないといけない事だよ。公立大学のシステム監査は運営自治体の管理なのかな？それとも独法自身の責任なの？",
-          "tags": [],
-          "timestamp": "2026/10/06 08:31"
-        },
-        {
-          "user": "jintrick",
-          "comment": "なんで頭下げて謝ってんだろこの国ほんとキモイわ",
-          "tags": [],
-          "timestamp": "2026/10/06 08:10"
-        },
-        {
-          "user": "kunta201020",
-          "comment": "予算をガンガン削減されまともな外注先はなく、給与も低いので技術ある人は外に出て行くから大学のセキュリティはもう無理。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:05"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:03.271612+00:00"
+      "fetchedAt": "2026-10-06T06:05:55.592632+00:00"
     },
     {
       "id": "h_c73f7729",
       "title": "Codex Cloudを利用してコード修正してもらっていたら本名が駄々洩れしていた話 | Pandora Pocket",
       "url": "https://blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
       "domain": "blog.hitsujin.jp",
-      "bookmarkCount": 26,
+      "bookmarkCount": 146,
       "summary": "最近Codex Cloudが新しくなり、OpenAI側のクラウド環境でGitHub連携をして手軽に開発ができるようになりました。 ちょうど土日に実家に帰らないといけない用事があり自宅のPCの電源を入れていなかったのですが、もうすぐ期限が切れてしまうリセット権がもったいなかったので、この機会にCodex Cloudを利用して趣味で制作...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.hitsujin.jp/entry/2026/10/05/codex-cloud-git-author",
       "comments": [
         {
-          "user": "htmikan",
-          "comment": "わかる。トークンの扱い聞くと「ここには貼るな」という等、セキュリティ意識高そうな事を言うくせに、普通に会話していると、どこからか個人情報持ってきて気づくと使っている。なんなんこれ。",
+          "user": "m4fg",
+          "comment": "chatgptに本名設定してる時点で、ね",
           "tags": [],
-          "timestamp": "2026/10/06 08:47"
+          "timestamp": "2026/10/06 12:58"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "OpenAIくん本名把握してるの怖いな。クラウド連携は罠だらけだわ",
+          "user": "lenore",
+          "comment": "「どうやらCodex Cloudは、環境のセットアップをする際プロフィールではなくアカウント側の登録情報をもとにGit Authorを設定しているようです。」",
           "tags": [],
-          "timestamp": "2026/10/06 08:44"
+          "timestamp": "2026/10/06 12:28"
         },
         {
-          "user": "miki3k",
-          "comment": "初期環境設定くらいは自分でやるか確認するか",
+          "user": "crosscrow",
+          "comment": "Claude Codeだとメールアドレス露出したりしないようにとか、いろいろ手取り足取りしてくれたんだけども、Codexはそんなロックな仕様なの？",
           "tags": [],
-          "timestamp": "2026/10/06 08:38"
+          "timestamp": "2026/10/06 12:25"
         },
         {
-          "user": "advancive61",
-          "comment": "ClaudeもGithubと関係ないClaudeを契約している個人メアドでコミットしやがったことがある",
-          "tags": [],
-          "timestamp": "2026/10/06 08:29"
+          "user": "ch1248",
+          "comment": "怖いな",
+          "tags": [
+            "セキュリティ",
+            "Git",
+            "論",
+            "*資料"
+          ],
+          "timestamp": "2026/10/06 12:25"
         },
         {
-          "user": "kompiro",
-          "comment": "OpenAIがなにかやらかしたのかと思ったらそうじゃなかった。",
+          "user": "Kaisai_Adashino",
+          "comment": "記事とは少し違うが本名を明かすか否か問題。スマホに慣れてない人はソシャゲとかでも普通に本名をいれるが、特定される名前は避けてくださいって注意をよんでなく、名前明かす人は画面の文字をみてない傾向がある",
           "tags": [],
-          "timestamp": "2026/10/06 08:25"
+          "timestamp": "2026/10/06 12:24"
+        },
+        {
+          "user": "shoh8",
+          "comment": "もう漏れる前提で考える。AIに探させたらどこから拾ってくるかわからんもん",
+          "tags": [
+            "cloud",
+            "環境",
+            "GitHub"
+          ],
+          "timestamp": "2026/10/06 12:23"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:02.932283+00:00"
-    },
-    {
-      "id": "h_db069ca8",
-      "title": "連日の不正アクセスの件、マジでシャレにならないが、こんなやばいの日本だけ？他の国で問題になってないん？「今世界中で起きてる」",
-      "url": "https://togetter.com/li/2754581",
-      "domain": "togetter.com",
-      "bookmarkCount": 21,
-      "summary": "企業で相次ぐ“不正アクセス” 狙われる「個人情報」｜FNNプライムオンライン 第三者からの不正アクセスを受けた企業からの情報漏えいが相次いでいます。5日夕方、「焼肉きんぐ」を運営する物語コーポレーションは、公式アプリの会員管理システムが第三者からの不正アクセスを受け、登録され… FNNプライムオンライン",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2754581",
-      "comments": [
-        {
-          "user": "thirty206",
-          "comment": "日本の金融機関や官公署の情報が漏れるのも時間の問題っぽそうだなあ。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:50"
-        },
-        {
-          "user": "kaputte",
-          "comment": "これは序章に過ぎないかもね。金融機関ががんばってフロンティアAI対応で死んでたわけだが、セキュリティを重視してない大半の会社は今や攻撃用AIに晒されてボロボロなのだ。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:43"
-        },
-        {
-          "user": "wildhog",
-          "comment": "関係あるかどうかは知らないけど、ピョンヤンには新しい高層ビルが近年バンバン建ってるらしい",
-          "tags": [],
-          "timestamp": "2026/10/06 08:33"
-        },
-        {
-          "user": "lastline",
-          "comment": "世はまさに大漏洩時代！！！",
-          "tags": [],
-          "timestamp": "2026/10/06 08:32"
-        },
-        {
-          "user": "aua",
-          "comment": "いまのAI技術を持ってすれば、流出した顔写真とSNS投稿を結びつけて表示することは可能なんだよね。みんな投稿には気をつけようね。ある日突然、顔写真付きで恥ずかしい発言が晒されるかもよ",
-          "tags": [],
-          "timestamp": "2026/10/06 08:32"
-        },
-        {
-          "user": "shiraishigento",
-          "comment": "twitterXが翻訳自動的にするようになってネット国際交流が一気にすすんだじゃない、それと同じで日本語という高い高いハードルがAIによって擬似的に急速に下げられてハッキングしやすくなったのもあるかもしれない。",
-          "tags": [],
-          "timestamp": "2026/10/06 08:28"
-        }
-      ],
-      "fetchedAt": "2026-10-05T23:56:02.468282+00:00"
+      "fetchedAt": "2026-10-06T06:05:56.366008+00:00"
     },
     {
       "id": "h_b4c343a4",
       "title": "ランサム集団キリンの中心メンバー、日本で拘束 アサヒにも「攻撃」（朝日新聞） - Yahoo!ニュース",
       "url": "https://news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
       "domain": "news.yahoo.co.jp",
-      "bookmarkCount": 12,
+      "bookmarkCount": 99,
       "summary": "昨年9月末のアサヒグループホールディングスへのサイバー攻撃について、犯行声明を出したハッカー集団「Qilin」のウェブサイトの一部=セキュリティー会社提供（朝日新聞） 世界各国の企業などにサイバー攻撃を繰り返すランサムウェア（身代金ウイルス）集団「Qilin（キリン）」の中心メンバーでロシア国籍の男（28）を...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/e8c753300f37b0f2ba619bfe706422fe59ed0d6b",
       "comments": [
         {
-          "user": "ho4416",
-          "comment": "キリンへの熱い風評被害",
+          "user": "yoko-hirom",
+          "comment": "すげえな　入国管理は素通りか。",
           "tags": [],
-          "timestamp": "2026/10/06 08:50"
+          "timestamp": "2026/10/06 13:10"
         },
         {
-          "user": "kemuken",
-          "comment": "おお、ちゃんと捕まることもあるんやね。それにしてもキリン、ロシア籍、大阪旅行、ドイツ、情報が多い！",
+          "user": "munioka303",
+          "comment": "すげえな　特定できてて旅行中に居場所おさえて逮捕ってだいぶ映画ばりの捜査してたのかな",
           "tags": [],
-          "timestamp": "2026/10/06 08:48"
+          "timestamp": "2026/10/06 12:26"
         },
         {
-          "user": "ultrabox",
-          "comment": "トランスペアレント・クィリン",
+          "user": "stack00",
+          "comment": "事件の1年後に日本に旅行とかすげぇ舐めてるな。捕まるわけないと思ってたのかな。",
           "tags": [],
-          "timestamp": "2026/10/06 08:45"
+          "timestamp": "2026/10/06 12:06"
         },
         {
-          "user": "ustar",
-          "comment": "キリンがアサヒ攻撃って言いたかっただけ感　捕まって良かったね",
+          "user": "junorag",
+          "comment": "既存の体制を破壊する犯罪者が旅行をしているのが理解できない。お前らがぶっ潰したら飛行機だって安全に飛べないんだが…？",
           "tags": [],
-          "timestamp": "2026/10/06 08:44"
+          "timestamp": "2026/10/06 11:52"
         },
         {
-          "user": "mats3003",
-          "comment": "この話、記憶の彼方になってたので一瞬意味わからなかった笑",
-          "tags": [],
-          "timestamp": "2026/10/06 08:43"
+          "user": "sushisashimisushisashimi",
+          "comment": "ナイスプレー！",
+          "tags": [
+            "いいね！"
+          ],
+          "timestamp": "2026/10/06 11:29"
         },
         {
-          "user": "nessko",
-          "comment": "＞「Qilin（キリン）」の中心メンバーでロシア国籍の男（28）を日本の捜査当局が拘束したことがわかった。日本側は2日、恐喝容疑で捜査しているドイツ側に身柄を引き渡した。",
+          "user": "tobineko100",
+          "comment": "まあ、自分も新聞社の編集だったら「キリンがアサヒを攻撃」っていう見出しにする誘惑に耐えられないな。",
           "tags": [],
-          "timestamp": "2026/10/06 08:41"
+          "timestamp": "2026/10/06 11:17"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:06.256549+00:00"
+      "fetchedAt": "2026-10-06T06:05:57.135756+00:00"
     },
     {
-      "id": "h_b21d7129",
-      "title": "Agent Memory Repo | Cognition",
-      "url": "https://cognition.com/agent-memory-repo",
-      "domain": "cognition.com",
-      "bookmarkCount": 11,
-      "summary": "Agent Memory RepoAgents work better when they remember things across sessions. With Agent Memory Repo, your agent saves what it learns from you in real time, and that memory is live across sessions. Memories link to each other, so your agen",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cognition.com/agent-memory-repo",
+      "id": "h_9334db86",
+      "title": "ハッカーが楽天会員1億100万件の個人情報 販売を主張―氏名・住所・ポイント情報のサンプル掲載、漏洩元・真正性は未確認|セキュリティニュースのセキュリティ対策Lab",
+      "url": "https://rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
+      "domain": "rocket-boys.co.jp",
+      "bookmarkCount": 72,
+      "summary": "セキュリティ対策Labが掲載された18件を確認したところ、レギュラー、シルバー、ゴールドの各レコードについて、ランクとポイント数・獲得回数の明確な矛盾は確認できませんでした。 例えば、ゴールドと記録されたサンプルは700ポイント・7回の条件を満たしつつ、プラチナの2,000ポイント・15回の両条件までは満たしてい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/rakuten-101m-data-sale-unverified-20261004/",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "AIに履歴書まで管理される時代。Gitでコンフリクトしたら喧嘩しそう",
+          "user": "inazuma2073",
+          "comment": "ついに楽天もかって傍観姿勢だったが、よく考えたらおれはブックスのヘビーユーザーであった。",
           "tags": [],
-          "timestamp": "2026/10/06 08:44"
+          "timestamp": "2026/10/06 15:04"
         },
         {
-          "user": "mkusaka",
-          "comment": "Agent Memory RepoはMEMORY.md起点のgitメモリ仕様。clone→search→update→pushとDreamingで整理しwiki風に参照できる。",
-          "tags": [
-            "AI要約",
-            "AgentMem",
-            "Git仕様",
-            "Wiki形式",
-            "MEMORY.md",
-            "agent記憶"
-          ],
-          "timestamp": "2026/10/06 06:37"
+          "user": "ssfu",
+          "comment": "そういうのって700ドルで買って500ドルで2つ売れば儲けでるよね。",
+          "tags": [],
+          "timestamp": "2026/10/06 15:04"
+        },
+        {
+          "user": "rdlf",
+          "comment": "盛り上がってまいりました。",
+          "tags": [],
+          "timestamp": "2026/10/06 15:02"
+        },
+        {
+          "user": "kobito19",
+          "comment": "そろそろ日本人の個人情報10億件くらい漏洩するサービスも出てきそうなインフレ具合",
+          "tags": [],
+          "timestamp": "2026/10/06 14:56"
+        },
+        {
+          "user": "b9rantan8",
+          "comment": "すぐ信じるのも危険だな。だってこれ2日前の情報でしょ。本当なら楽天の発表が遅すぎるし。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:46"
+        },
+        {
+          "user": "RXRHsZcJ6xnGXZR8TEZA6hAxzRd3mkD",
+          "comment": "お前らもfanzaとかdugaとかfc2の記録が漏れないように祈ろうな",
+          "tags": [],
+          "timestamp": "2026/10/06 14:44"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:07.356089+00:00"
+      "fetchedAt": "2026-10-06T06:05:55.883811+00:00"
     },
     {
       "id": "h_c6e3a3ab",
       "title": "TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる",
       "url": "https://gigazine.net/news/20261006-homa-protocol-replace-tcp/",
       "domain": "gigazine.net",
-      "bookmarkCount": 7,
+      "bookmarkCount": 71,
       "summary": "ウェブやクラウドを支える通信プロトコル「TCP」はAI向けデータセンターの通信には適していないとして、スタンフォード大学のジョン・オースターハウト名誉教授がトランスポートプロトコル「Homa」への移行を訴えています。Homaは短いメッセージを優先的に処理することで通信遅延を抑える仕組みを備えており、既存のTCP...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261006-homa-protocol-replace-tcp/",
       "comments": [
         {
-          "user": "soulfulmiddleagedman",
-          "comment": "この手の話題は過去に何度見たことあるけど、普及しないのが常だが、研究だけじゃなくて実際に Linux とか標準化への働きかけもしてるっぽいし、どうなるか。",
+          "user": "fellfield",
+          "comment": "光回線が普及し始めた2000年代初めに「光にすると何が変わるの？」「ブラクラの開く速さが光」みたいなコピペがあった。今回のこれもAIによる攻撃が超高速になるだけの気もする。",
           "tags": [],
-          "timestamp": "2026/10/06 08:46"
+          "timestamp": "2026/10/06 15:05"
+        },
+        {
+          "user": "taiyow",
+          "comment": "TCPはSlowStartだし再送回数のデフォルトが多いしで、DC内の通信には向かない気がしてた。",
+          "tags": [],
+          "timestamp": "2026/10/06 15:01"
+        },
+        {
+          "user": "NetPenguin",
+          "comment": "UDPとかQUICとかでどうにかならないのかな？",
+          "tags": [],
+          "timestamp": "2026/10/06 14:16"
+        },
+        {
+          "user": "kotetsu306",
+          "comment": "AIデータセンターの中の通信って、NVIDIAの独自プロトコルで動いてんじゃねーの？",
+          "tags": [],
+          "timestamp": "2026/10/06 14:13"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "RUDPでQoSやんのと何が違うん？",
+          "tags": [],
+          "timestamp": "2026/10/06 13:22"
+        },
+        {
+          "user": "gfx",
+          "comment": "\"オースターハウト氏がThe Registerに示した100Gbps・ネットワーク使用率80％という条件での比較では、短いメッセージの99パーセンタイル遅延がTCPでは1.2ミリ秒だったのに対し、Homaでは92マイクロ秒でTCPの約13分の1だった\"",
+          "tags": [],
+          "timestamp": "2026/10/06 12:32"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:58.150513+00:00"
+    },
+    {
+      "id": "h_6bac9707",
+      "title": "GMOグループ会社に不正アクセス 会員の個人情報94万件余流出か | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261006de55007",
+      "domain": "news.web.nhk",
+      "bookmarkCount": 59,
+      "summary": "IT企業「GMOインターネットグループ」傘下の「GMOリサーチ＆AI」は、運営しているアンケートサイトに不正アクセスがあり、会員の個人情報94万件余りが流出したと発表しました。 流出したのは氏名や生…",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261006de55007",
+      "comments": [
+        {
+          "user": "otihateten3510",
+          "comment": "お祭りってやつですかね",
+          "tags": [],
+          "timestamp": "2026/10/06 15:03"
+        },
+        {
+          "user": "anno_ni_msd",
+          "comment": "人類の情報が補完されていく。全てのATフィールドが／今後、こういうのにまつわる被害がより直接的な死因になりそう",
+          "tags": [],
+          "timestamp": "2026/10/06 14:15"
+        },
+        {
+          "user": "fashi",
+          "comment": "「286万円余りのポイントが不正に交換される被害を確認」",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/06 14:06"
+        },
+        {
+          "user": "tabihotelcom",
+          "comment": "台湾有事に向けて、今のうちに個人情報集めておけと指令がでてんだろ。中国共産党の 国防動員法は国外の中国人も命令に反対できない。企業はitシステムとsaasが使用不可になっても活動継続できるよう避難訓練しておけ",
+          "tags": [],
+          "timestamp": "2026/10/06 13:58"
+        },
+        {
+          "user": "saikyo_tongaricorn",
+          "comment": "ふふふ…さくらの方が先に漏らしとるぞ",
+          "tags": [],
+          "timestamp": "2026/10/06 13:54"
+        },
+        {
+          "user": "kujoo",
+          "comment": "AIの発展がハッキング技術・犯罪の平易化を招いているということであれば顧客データを抱えている企業は最低限そういったモノに対するセキュリティチェックを受けるべきよな…… ん？GMOサイバーセキュリティって……",
+          "tags": [],
+          "timestamp": "2026/10/06 13:53"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:56.728330+00:00"
+    },
+    {
+      "id": "h_f464258a",
+      "title": "Gemini無料版、10月9日から「Flash-Lite」のみに",
+      "url": "https://japan.cnet.com/article/35253255/",
+      "domain": "japan.cnet.com",
+      "bookmarkCount": 59,
+      "summary": "Googleは、生成AI「Gemini」のアプリで、プランごとに利用できるAIモデルを見直すとヘルプページで明らかにした。無料ユーザーは10月9日から、これまで使えた「Flash」と「Pro」が使えなくなり、速度を重視した「Flash-Lite」のみ利用できるようになる。対象は、個人のGoogleアカウントでGeminiアプリを使う場合だ。 有...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253255/",
+      "comments": [
+        {
+          "user": "marilyn-yasu",
+          "comment": "最終的にグーグルはGeminiをアンドロイドOSに組み込み、いずれUIがAIになるだろうことを考えると競争を続けてほしいのだが。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:56"
+        },
+        {
+          "user": "pikopikopan",
+          "comment": "一強になるのも問題だけど、金かかるもんなあ・・",
+          "tags": [],
+          "timestamp": "2026/10/06 13:34"
+        },
+        {
+          "user": "quandle",
+          "comment": "youtube料金を節約できるGeminiには頑張ってほしかったんだけど、あかんか…",
+          "tags": [],
+          "timestamp": "2026/10/06 13:30"
+        },
+        {
+          "user": "spark64",
+          "comment": "Flash-Liteのアホさはすごい。",
+          "tags": [],
+          "timestamp": "2026/10/06 13:20"
+        },
+        {
+          "user": "magi00",
+          "comment": "GeminiというかGoogleが狙っているのはITエンジニアではないでしょ。",
+          "tags": [],
+          "timestamp": "2026/10/06 12:34"
+        },
+        {
+          "user": "toaruR",
+          "comment": "個人版はアクティビティと学習がトレードオフなのが使いにくいんだよなぁ",
+          "tags": [],
+          "timestamp": "2026/10/06 12:33"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:58.869234+00:00"
+    },
+    {
+      "id": "h_929bf7b7",
+      "title": "geminiが難しい",
+      "url": "https://anond.hatelabo.jp/20261006091814",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 57,
+      "summary": "１秒でもキチガイ意固地モードに入ると検索を行わなくなってしまう 検索しろつっても検索しないし なんで検索せんのやって聞いたら「お前の聞き方が悪いんちゃうの？この事柄について最新の情報をWebで検索してくださいみたいな感じで聞けよ(ワラ)」って言ってくるから、「じゃあさっきの情報について最新の情報をWebで...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261006091814",
+      "comments": [
+        {
+          "user": "combination_275",
+          "comment": "使ってみたくなった",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/10/06 14:43"
+        },
+        {
+          "user": "bijui",
+          "comment": "会社が契約してくれてるんで、タスクぶん投げてカレンダーに登録してもらってる。それぐらいしか使い道ない。。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:16"
+        },
+        {
+          "user": "no-cool",
+          "comment": "Geminiってトランプ関係のことだと対応拒否することが度々あるんよね。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:05"
+        },
+        {
+          "user": "flirt774",
+          "comment": "あっという間にGoogleが覇権取るだろうと思われていたのにこの体たらくというのがGeminiの印象。早口オタクイキリという以上の印象がない",
+          "tags": [],
+          "timestamp": "2026/10/06 13:48"
+        },
+        {
+          "user": "preciar",
+          "comment": "geminiはウソつく可能性が数倍ある気がしてる。google drive にくっついて来る課金プランだけど、大分たちが悪い。ただ、感情のくすぐり方はムカつくことに上手いので、雑談相手を求める需要にはかなり強いと思う",
+          "tags": [],
+          "timestamp": "2026/10/06 13:48"
+        },
+        {
+          "user": "nomitori",
+          "comment": "検索でGemini使いたいならGoogleAI検索でいいのでは？Gemini以上にフランクに嘘はついてくるが、「英語のサイトで検索して」ってお願いするとだいぶマシな結果出てくる印象。",
+          "tags": [],
+          "timestamp": "2026/10/06 13:46"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:57.451698+00:00"
+    },
+    {
+      "id": "h_bcce616c",
+      "title": "Google ドライブ、Google ドキュメントでMarkdown（.md）をそのまま扱えるように／フォーマット変換不要、そのままプレビューや編集・共同作業が可能に",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2145843.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 50,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2145843.html",
+      "comments": [
+        {
+          "user": "mame-tanuki",
+          "comment": "Geminiとの対話結果をGoogleドライブに保存する場合、Markdown（.md）テキストファイルでの出力が選択可能になるのだろうか？",
+          "tags": [
+            "google",
+            "Markdown",
+            "続報待ち"
+          ],
+          "timestamp": "2026/10/06 15:05"
+        },
+        {
+          "user": "oonishin",
+          "comment": "やっと。いままで対応してなかったのが意外。",
+          "tags": [],
+          "timestamp": "2026/10/06 14:55"
+        },
+        {
+          "user": "secseek",
+          "comment": "やっとか！",
+          "tags": [],
+          "timestamp": "2026/10/06 14:22"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“Google Drive：Markdownテキストのレンダリング表示（プレビュー）をサポート。Google Docs：Markdownファイルを直接開いて編集、元の.mdファイル形式のまま保存。共同編集機能もそのまま利用可能”",
+          "tags": [],
+          "timestamp": "2026/10/06 13:47"
+        },
+        {
+          "user": "twotiger",
+          "comment": "Markdownもいいけど、普通に.txtのプレーンテキストを編集できるようにしてほしい",
+          "tags": [],
+          "timestamp": "2026/10/06 13:22"
+        },
+        {
+          "user": "yojik",
+          "comment": "これはかなりうれしい",
+          "tags": [],
+          "timestamp": "2026/10/06 13:15"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:57.746420+00:00"
+    },
+    {
+      "id": "h_5ac4235d",
+      "title": "不正アクセスなぜ急増 原因はAIか、それとも…… 専門家の見解は",
+      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002013/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 49,
+      "summary": "9月末以降、不正アクセスやそれに伴う情報漏えいの発表が日本企業から相次いでいる。免許証の画像が漏えいしたタイムズカーシェアや、1000万件以上が流出した焼肉きんぐをはじめ、著名なサービス・企業が相次いで狙われている状況だ。自分の情報が流出したかもしれない、という人も少なくないだろう。 SNSでは「生成AIが...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002013/",
+      "comments": [
+        {
+          "user": "gpx-monya",
+          "comment": "店のアプリ入れてたらきりがないって会員登録の必要だけどなくても問題ない店のアプリは回避してきたワイ、高みの見物（1敗(KDDIのメールのやつ)）",
+          "tags": [],
+          "timestamp": "2026/10/06 14:02"
+        },
+        {
+          "user": "Gim",
+          "comment": "SMS認証などの多要素認証の脆弱性と推定してみた。認証情報として、氏名、ID、メールアドレス、電話番号はほぼ保持しているから、それが見れちゃうんじゃね？",
+          "tags": [],
+          "timestamp": "2026/10/06 13:44"
+        },
+        {
+          "user": "call_me_nots",
+          "comment": "使いもしない免許証画像を7年間も保管しておいて、「法人税法上の理由」で保存してたとかいうクソ言い訳する企業に言ってやって欲しい→「本人確認など当初の目的を達成した後も漫然と保持していないか」",
+          "tags": [],
+          "timestamp": "2026/10/06 13:42"
+        },
+        {
+          "user": "JULY",
+          "comment": "かなり慎重な言い回しになるのは、本当に専門家ゆえ、だと思うけど、攻撃を検知したとされるタイミングが近いものも少なくない、という感じは否めないんだよなぁ。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/06 13:13"
+        },
+        {
+          "user": "wildhog",
+          "comment": "暗号資産さえなければ犯行の敷居が高くなるんだけどそこをなんとか出来ないか。日本から暗号資産にアクセスできなくなれば、身代金目当てで日本の企業が狙われることも減るだろう",
+          "tags": [],
+          "timestamp": "2026/10/06 12:18"
         },
         {
           "user": "nguyen-oi",
-          "comment": "TCPおじさん涙目。1ミリ秒でGPU待たされるとか贅沢な悩みだな",
+          "comment": "公表時期が重なっただけって分析は冷静で納得感ある 公開モデルで攻撃の敷居が下がりまくってるのも現実だな",
           "tags": [],
-          "timestamp": "2026/10/06 08:44"
+          "timestamp": "2026/10/06 12:09"
         }
       ],
-      "fetchedAt": "2026-10-05T23:56:07.594516+00:00"
+      "fetchedAt": "2026-10-06T06:05:58.535421+00:00"
+    },
+    {
+      "id": "h_9da87a26",
+      "title": "ミスターマックス、最大173万人分の会員情報流出 不正アクセスで",
+      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002030/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 31,
+      "summary": "流出した可能性があるのは、10月3日時点で登録しているMrMaxアプリ会員とオンラインストア会員の情報で、漏えい内容は、会員ID、氏名、メールアドレス、電話番号（会員の登録状況によって異なる）。 住所、生年月日、クレジットカード情報、パスワード、購入履歴は流出していないことを確認した。 10月3日夕、サーバへの...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/06/2000002030/",
+      "comments": [
+        {
+          "user": "ustam",
+          "comment": "氏名、メアド、電話番号が漏れて、住所、生年月日が漏れてないのも不思議よね。メアドは認証情報だし、電話番号は住所寄りの情報ではないだろうか？　どういう構成なのだろう？",
+          "tags": [],
+          "timestamp": "2026/10/06 14:48"
+        },
+        {
+          "user": "fantatchi",
+          "comment": "流出前提で便利さを選んで登録する人と不便でいいから意地でも登録しない人とで二極化しそう。マイナンバーカード作る作らないで忌避する人がいるんだからこの先どうなることやら…",
+          "tags": [],
+          "timestamp": "2026/10/06 13:59"
+        },
+        {
+          "user": "sutego386",
+          "comment": "これだけ連日流出が続くと、被害規模を横並びで客観評価する「漏洩スコア」を策定してはどうか？　情報種別の重み付け合計ポイント（氏名1点、電話番号2点、クレカ10点…）× 漏洩件数　みたいな。",
+          "tags": [],
+          "timestamp": "2026/10/06 13:57"
+        },
+        {
+          "user": "bot2",
+          "comment": "もうポイントシステムとかやめない？企業側もユーザ側もリスクの割に得られるものが少なすぎると思うんだけど。面倒くさいだけ",
+          "tags": [],
+          "timestamp": "2026/10/06 13:52"
+        },
+        {
+          "user": "tabihotelcom",
+          "comment": "台湾有事に向けて、今のうちに個人情報集めておけと指令がでてんだろ。中国共産党の 国防動員法は国外の中国人も命令に反対できない。盗んだ情報は台湾侵略時に日本社会システムを麻痺させパニックするのに使われる",
+          "tags": [],
+          "timestamp": "2026/10/06 13:49"
+        },
+        {
+          "user": "homarara",
+          "comment": "セキュリティ「何者だ！」個人情報「個人情報です」セキュリティ「よし通れ！」",
+          "tags": [],
+          "timestamp": "2026/10/06 13:40"
+        }
+      ],
+      "fetchedAt": "2026-10-06T06:05:59.241336+00:00"
     }
   ],
-  "lastCollection": "2026-10-05T23:56:08.174329+00:00"
+  "lastCollection": "2026-10-06T06:05:59.241364+00:00"
 }
