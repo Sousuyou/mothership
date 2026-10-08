@@ -1,457 +1,614 @@
 {
   "entries": [
     {
-      "id": "h_9b13a3b5",
-      "title": "相次ぐWEBシステムからの情報漏洩事案について | セキュリティ研究センターブログ",
-      "url": "https://security.macnica.co.jp/blog/2026/10/web-incidents2026.html",
-      "domain": "security.macnica.co.jp",
-      "bookmarkCount": 654,
-      "summary": "1.記事概要 国内の法人・企業が運営するWEBシステムからの情報漏洩が相次いでいます。後述の通り過去のサイバー攻撃と異なる点が多いため、セキュリティ専門家間でも事件に関する解釈が一部揺らいでいます。また、被害公表においても「不正アクセス」「個人情報◯◯件漏洩」といった概要の説明はあっても、他組織が自社シ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/security.macnica.co.jp/blog/2026/10/web-incidents2026.html",
+      "id": "h_7be49bea",
+      "title": "2026年 情報漏洩・不正アクセスTier表",
+      "url": "https://ai.itokoba.com/security-tier/",
+      "domain": "ai.itokoba.com",
+      "bookmarkCount": 567,
+      "summary": "D浅い情報の限定的な誤送付等で、削除・回収と転送抑止を裏づけられる事案。低位でも被害ゼロを意味しない。 2026年に公表された国内の事案・国内で利用されるサービス。掲載数は会社数・独立した事件数とは異なります。続報に応じて更新します。 公表日は続報・報道の掲載日を含みます。出典は各事案の詳細記事に掲載し...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ai.itokoba.com/security-tier/",
       "comments": [
         {
-          "user": "financedekatsu2000",
-          "comment": "無駄に長期間保存する必要はないし、加えて個人情報を平文で保存していることが時代に合ってない",
+          "user": "mermaidtan",
+          "comment": "これが序章なんだよね…。これから世界の仕組みは変わらざるを得ないよね…。",
           "tags": [],
-          "timestamp": "2026/10/08 07:47"
+          "timestamp": "2026/10/08 14:29"
         },
         {
-          "user": "Gka",
-          "comment": "実際に起きているのはアクセス権などの基礎的な不備や既知の脆弱性と書いてあるよ。金をかけないからと悪態をつく人はエンジニアとして矜持はないのかね。程度が低すぎる基礎的な問題。",
+          "user": "nojimage",
+          "comment": "楽天ドライブがSなのは納得いかん",
           "tags": [],
-          "timestamp": "2026/10/08 07:45"
+          "timestamp": "2026/10/08 14:23"
         },
         {
-          "user": "T-norf",
-          "comment": "n=1でやられたログ見てると、APIとか入力値を狙ってくるのだけど、網羅性が従来の、ん百万円かかる脆弱性診断より広かったのよね。ま、頑張って守りましょ",
+          "user": "nagaduru",
+          "comment": "noteがない",
           "tags": [],
-          "timestamp": "2026/10/08 07:12"
+          "timestamp": "2026/10/08 14:16"
         },
         {
-          "user": "shindo_ryo",
-          "comment": "実際に起きてるのは攻撃の高度化というより低コスト化。既知の脆弱性でも人間が全部試すのは手間がかかったけど、AIであれば短時間で高速に総当りできる。穴が１つでもあったら突かれる可能性がより高くなった。",
-          "tags": [],
-          "timestamp": "2026/10/08 07:08"
-        },
-        {
-          "user": "hogetax",
-          "comment": "妄想だけど「画期的なログ解析ツール（？）が開発されて、テスト導入してみた企業で侵入されていることが一気に発覚し発表が相次いだ！」とか。発表されているいくつかの事例で発見できた経緯が想像できないのがある",
+          "user": "nui81",
+          "comment": "いやー、まとめると壮観。",
           "tags": [
-            "陰謀論"
+            "セキュリティ",
+            "まとめ"
           ],
-          "timestamp": "2026/10/08 06:00"
+          "timestamp": "2026/10/08 14:10"
         },
         {
-          "user": "kuni92",
-          "comment": "“重点的に確認するIPアドレス  　・210.149.87[.]120  　・69.10.51[.]162 ”",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/10/08 04:48"
+          "user": "kazoo_oo",
+          "comment": "このどさくさのタイミングで25年12月の漏洩を公表する HIS もなかなかひどい。",
+          "tags": [],
+          "timestamp": "2026/10/08 14:03"
+        },
+        {
+          "user": "mujou03",
+          "comment": "平文で保存という質の悪さでSSSなのかな？",
+          "tags": [],
+          "timestamp": "2026/10/08 13:49"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:19.873085+00:00"
-    },
-    {
-      "id": "h_ecf90f9e",
-      "title": "最近のLLMは黙って考えられるようになっている - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "url": "https://joisino.hatenablog.com/entry/filler",
-      "domain": "joisino.hatenablog.com",
-      "bookmarkCount": 225,
-      "summary": "LLM の「思考」といえば思考の連鎖 (Chain of Thought; CoT) が有名ですが、思考の連鎖はいわば「喋りながら考えている」ことに相当します。これに対して、最近の LLM は「黙って」考えられるようになってきています。 鍵となるのはフィラートークン (filler tokens) です。これは「.」などの意味のないトークンのことで...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/joisino.hatenablog.com/entry/filler",
-      "comments": [
-        {
-          "user": "n_pikarin7",
-          "comment": "あの、あーっと、あー、えっと、えーと、えー、42!",
-          "tags": [],
-          "timestamp": "2026/10/08 06:31"
-        },
-        {
-          "user": "star_123",
-          "comment": "フィラートークン=思考タイムか。フィラートークンだけ与え続けたら妄想し続けるのかな",
-          "tags": [],
-          "timestamp": "2026/10/08 04:26"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクみたいに黙って熟考して、ご主人にゃに甘える隙を狙ってるのかにゃ？",
-          "tags": [],
-          "timestamp": "2026/10/08 03:24"
-        },
-        {
-          "user": "leiopathes",
-          "comment": "チャットでも考え中に.を打つようにしよう",
-          "tags": [],
-          "timestamp": "2026/10/08 03:01"
-        },
-        {
-          "user": "devgai",
-          "comment": "あー、人間からフィラーをなくしたら頭悪くなるのかな",
-          "tags": [],
-          "timestamp": "2026/10/08 02:35"
-        },
-        {
-          "user": "koseki",
-          "comment": "浜松のはふざけたネタを混ぜるように決定論的にできてるんだよね？…………だよね？",
-          "tags": [],
-          "timestamp": "2026/10/08 02:24"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:20.835123+00:00"
-    },
-    {
-      "id": "h_b8a49e07",
-      "title": "伝書鳩に不正アクセス 野鳩侵入で情報漏えい２４０万件",
-      "url": "https://kyoko-np.net/2026100801.html",
-      "domain": "kyoko-np.net",
-      "bookmarkCount": 84,
-      "summary": "伝書鳩による通信サービスを提供するピジョネットインターナショナル（東京都西多摩郡）は７日、外部からの不正アクセスによって約２４０万件の情報が漏えいした可能性があると発表した。認証していない野鳩が侵入した形跡があったという。 同社によると、３日に外部からの不正アクセスを確認した。伝書鳩を飼育する鳩舎...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kyoko-np.net/2026100801.html",
-      "comments": [
-        {
-          "user": "chocolaterock",
-          "comment": "雉鳩なのか土鳩なのか",
-          "tags": [],
-          "timestamp": "2026/10/08 07:54"
-        },
-        {
-          "user": "tanakamak",
-          "comment": "これはピジョナリー・カンパニー >> \"伝書鳩による通信サービスを提供するピジョネットインターナショナル（東京都西多摩郡）\"",
-          "tags": [],
-          "timestamp": "2026/10/08 07:53"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "バックドア（裏口）から侵入とか羽紋認証とか、じわじわくるワード多すぎて草",
-          "tags": [],
-          "timestamp": "2026/10/08 07:49"
-        },
-        {
-          "user": "hiroshe",
-          "comment": "AIはこういうのも学習してるんやろか",
-          "tags": [],
-          "timestamp": "2026/10/08 07:48"
-        },
-        {
-          "user": "kukurukakara",
-          "comment": "三上洋さん,羊にしたのか.",
-          "tags": [
-            "情報",
-            "不正",
-            "コミュニケーション"
-          ],
-          "timestamp": "2026/10/08 07:42"
-        },
-        {
-          "user": "greenbow",
-          "comment": "こういうの好き “のろし通信企業スモークＸ”",
-          "tags": [],
-          "timestamp": "2026/10/08 07:36"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:19.197148+00:00"
-    },
-    {
-      "id": "h_6099a044",
-      "title": "IDCFクラウドへのランサム攻撃、495の企業・自治体に影響 一部には「復元難しい」との通達も",
-      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002107/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 61,
-      "summary": "ソフトバンク子会社のIDCフロンティアは10月7日、法人向けクラウドサービス「IDCFクラウド」で起きている障害について、第三者によるランサムウェア攻撃が原因だったと明かし、影響範囲は495の企業・自治体に及ぶと発表した。これを受け、同日朝から利用企業によるサービス停止や一部機能の不具合の公表が相次いでいる。...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/07/2000002107/",
-      "comments": [
-        {
-          "user": "Ohi",
-          "comment": "idcfクラウド",
-          "tags": [
-            "サイバー攻撃",
-            "security"
-          ],
-          "timestamp": "2026/10/08 07:21"
-        },
-        {
-          "user": "morimarii",
-          "comment": "世界がどんどん壊れていく……",
-          "tags": [],
-          "timestamp": "2026/10/08 06:58"
-        },
-        {
-          "user": "vbamacroinfo",
-          "comment": "技術系エンジニアより、他人を管理する文系管理者の方が給料高かったら、良いエンジニアが育つ訳がない。そんな技術軽視の人事制度を抜本的に変えないと、日本のIT産業は今後もトラブル続くだろうな",
-          "tags": [],
-          "timestamp": "2026/10/08 02:48"
-        },
-        {
-          "user": "www6",
-          "comment": "この前さくらもやられてたし、国産クラウド、ガバメントクラウドなんて砂上の楼閣やのう",
-          "tags": [],
-          "timestamp": "2026/10/08 02:22"
-        },
-        {
-          "user": "err931",
-          "comment": "なんだかんだでAWSなどのビッグテックで基盤システムまで侵入されたという報告がないので、安全側に倒すならビッグテックのクラウドを使うのが正解となってしまうんだよな。",
-          "tags": [],
-          "timestamp": "2026/10/08 02:05"
-        },
-        {
-          "user": "toro-chan",
-          "comment": "さすが国産クラウドっすね。普通ならセキュリティも考慮してるはずなんだが、どこから侵入されたのか。もともと完全に防御するなんて無理だしな。",
-          "tags": [],
-          "timestamp": "2026/10/08 01:14"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:21.076652+00:00"
-    },
-    {
-      "id": "h_3bbc34e9",
-      "title": "逆の立場から考える職務経歴書 / A Resume from the Employer’s Perspective",
-      "url": "https://speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 43,
-      "summary": "https://forkwell.connpass.com/event/407263/ の登壇資料です。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/iwashi86/a-resume-from-the-employers-perspective",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "採用側の視点を意識するだけで経歴書の書き方がガラッと変わる。転職活動中の人は必読の資料",
-          "tags": [],
-          "timestamp": "2026/10/08 07:49"
-        },
-        {
-          "user": "theatrical",
-          "comment": "履歴書とか、職務経歴書は、職務経歴とかのパーソナルデータと、採用要項とか会社のvision的なrequirementsと、テンプレートから生成させるskill作ってて、応募先ごとに作り分けてる",
-          "tags": [],
-          "timestamp": "2026/10/08 01:38"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:22.472208+00:00"
+      "fetchedAt": "2026-10-08T05:35:37.231634+00:00"
     },
     {
       "id": "h_e80b2142",
       "title": "銀行もやられるの時間の問題だろ。そんな事ありえないwと言うだろうが、銀行のデータ全部消滅したらどうなるんだ。いま預金通帳もってない者多いだろ。おれは持ってるが、記入された残高が今銀行にあると証明するすべがない。その後ATMで引き出してませんか？カード会社が引き落としてませんか？とか。→「これを一番恐れている🥶 ネット証券ネット銀行…。 怖いよ〜😭」",
       "url": "https://posfie.com/@petaritape/p/wXRbWdC",
       "domain": "posfie.com",
-      "bookmarkCount": 42,
+      "bookmarkCount": 267,
       "summary": "ポンピィ @pom_pom_pee 銀行もやられるの時間の問題だろ。そんな事ありえないwと言うだろうが、銀行のデータ全部消滅したらどうなるんだ。いま預金通帳もってない者多いだろ。おれは持ってるが、記入された残高が今銀行にあると証明するすべがない。その後ATMで引き出してませんか？カード会社が引き落としてませんか？...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/wXRbWdC",
       "comments": [
         {
-          "user": "tonocchokun",
-          "comment": "マジレスすると何もかも津波でさらわれてもどうにかできるように設計されているが、弱小地銀についてはちょっとわからんね",
+          "user": "takanq",
+          "comment": "「復旧に時間を要する」がどの程度想定、許容されるかよね。口座の確認が出来ないから不渡りでましたーとなってしまうのを防げるのかと...",
           "tags": [],
-          "timestamp": "2026/10/08 07:52"
+          "timestamp": "2026/10/08 14:02"
         },
         {
-          "user": "satoshinbo",
-          "comment": "デジタル情報が全部消失して世界経済が崩壊したっていう米ドラマあったの思い出したわ。まさに実現しそうってことね。",
+          "user": "sekiryo",
+          "comment": "ダメか！消滅しないか！こうなったら民主主義先進国フランスを見習って焼き討…… 銀行が壊滅してローンも徳政令カードな風説を流布して無駄遣いをさせれば景気が良くなるかもしれん。",
           "tags": [],
-          "timestamp": "2026/10/08 07:44"
+          "timestamp": "2026/10/08 13:27"
         },
         {
-          "user": "spark64",
-          "comment": "そもそも通帳だって残高の証明にはならんよな。株はほふりで保護されてるとは思うが… 証券会社の現金も信託管理されてるはずで、ストレートな銀行預金より冗長性ありそうだが",
-          "tags": [],
-          "timestamp": "2026/10/08 07:40"
-        },
-        {
-          "user": "kamiokando",
-          "comment": "確かに人類の危機だわ。",
-          "tags": [],
-          "timestamp": "2026/10/08 07:31"
-        },
-        {
-          "user": "mohno",
-          "comment": "すでに攻撃を受けてはいるんだろうなあ。対策してるとは思うけど、銀行がやられたら通貨不安すら起こしかねないので「たいして預けてないから大丈夫」でもないとは思う。",
+          "user": "nakakzs",
+          "comment": "セキュリティに「絶対」はありえないけど、さすがに今までのセキュリティホール突かれた事例と、金融機関の堅牢性（というか隔絶しているライン）はいっしょにしないほうがいい）個別ハッキングはあるだろうが）。",
           "tags": [
-            "posfie",
             "togetter",
-            "銀行",
             "セキュリティ",
-            "Web",
-            "通帳",
-            "インターネット",
-            "クレジットカード",
-            "金融",
-            "防犯"
+            "銀行"
           ],
-          "timestamp": "2026/10/08 07:17"
+          "timestamp": "2026/10/08 13:23"
         },
         {
-          "user": "collectedseptember",
-          "comment": "通帳なし口座は記帳代わりの取引歴PDFがダウンロードできるはず。銀行なら1000万円までは国の保証があるが証券会社がやられたら泣き寝入りか訴訟のどちらかを選ばなければならない。",
+          "user": "hdampty7",
+          "comment": "でも、自分がもしハックする側で壊すくらいのシステムに干渉する力があるならバレないように自分の口座にお金入れるとか、死んでる口座から少額を送金するとかじゃない？",
           "tags": [],
-          "timestamp": "2026/10/08 07:13"
+          "timestamp": "2026/10/08 13:16"
+        },
+        {
+          "user": "bokmal",
+          "comment": "“だから備蓄とYoutuberが言ってたんだ”“大体の銀行はこの数ヶ月で急ピッチで対応済みなんだよ” 「急ピッチの対応」がなんとも心配だし情報源がYouTuberなのも心配だしとにかく心配に満ちたまとめだ",
+          "tags": [],
+          "timestamp": "2026/10/08 13:00"
+        },
+        {
+          "user": "psne",
+          "comment": "大手でも中規模以下でも基本的に共通基盤(所謂勘定系システムパッケージ)を使っているのでは。",
+          "tags": [],
+          "timestamp": "2026/10/08 12:59"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:20.133793+00:00"
+      "fetchedAt": "2026-10-08T05:35:39.255407+00:00"
     },
     {
-      "id": "h_bfd3e204",
-      "title": "【開催報告 & 資料公開】Claude Mythos 時代の AWS セキュリティ対策 ～ AWS Security Agent ご紹介 ～ | Amazon Web Services",
-      "url": "https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/",
-      "domain": "aws.amazon.com",
-      "bookmarkCount": 34,
-      "summary": "Amazon Web Services ブログ 【開催報告 & 資料公開】Claude Mythos 時代の AWS セキュリティ対策 ～ AWS Security Agent ご紹介 ～ こんにちは。アマゾン ウェブ サービス ジャパン合同会社 パートナーソリューションアーキテクトの深井宣之です。 2026 年 7 月 30 日に AWS 公共パートナーネットワーク（PSN）セミナー...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-july/",
+      "id": "h_b8a49e07",
+      "title": "伝書鳩に不正アクセス 野鳩侵入で情報漏えい２４０万件",
+      "url": "https://kyoko-np.net/2026100801.html",
+      "domain": "kyoko-np.net",
+      "bookmarkCount": 226,
+      "summary": "伝書鳩による通信サービスを提供するピジョネットインターナショナル（東京都西多摩郡）は７日、外部からの不正アクセスによって約２４０万件の情報が漏えいした可能性があると発表した。認証していない野鳩が侵入した形跡があったという。 同社によると、３日に外部からの不正アクセスを確認した。伝書鳩を飼育する鳩舎...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/kyoko-np.net/2026100801.html",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "AIが自律的に脆弱性を発見して攻撃してくる時代、防衛側もAIエージェントに頼るしかないな",
+          "user": "syuu256",
+          "comment": "鳥類キャリアによるIP",
           "tags": [],
-          "timestamp": "2026/10/08 07:49"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:21.771639+00:00"
-    },
-    {
-      "id": "h_9b9ce943",
-      "title": "食品大手ニッスイ グループ会社への不正アクセスで入荷・出荷できず",
-      "url": "https://news.tv-asahi.co.jp/news_economy/articles/000538550.html",
-      "domain": "news.tv-asahi.co.jp",
-      "bookmarkCount": 34,
-      "summary": "1 食品大手のニッスイはグループ会社でシステム障害が発生し、商品の入荷や出荷ができない状態になっていると発表しました。 ニッスイによりますと、7日からグループ会社の日水物流が扱う冷凍食品などの入荷や出荷ができない状態になっているということです。 日水物流が利用する委託先のデータセンターに不正アクセスが...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_economy/articles/000538550.html",
-      "comments": [
-        {
-          "user": "nilab",
-          "comment": "「7日からグループ会社の日水物流が扱う冷凍食品などの入荷や出荷ができない状態に」「ニッスイグループが管理する個人情報や顧客データの外部への流出については、現在確認中」",
-          "tags": [],
-          "timestamp": "2026/10/08 07:40"
+          "timestamp": "2026/10/08 13:23"
         },
         {
-          "user": "kohakuirono",
-          "comment": "一周回って電話とFAXと手書き伝票が最善の防衛策になるかもしれない。最近ではアメリカのFBIやオラクルみたいなそこやられたらあかんやろと言うところもやられてるし日本の一企業にどうこう出来る次元じゃないわ。",
+          "user": "etr",
+          "comment": "元せたがやV15・ITジャーナリストの三上洋さんが元ネタ。雑誌・ラジオの製作で良く拝見してました。",
           "tags": [],
-          "timestamp": "2026/10/08 07:05"
+          "timestamp": "2026/10/08 12:55"
         },
         {
-          "user": "takanagi1225",
-          "comment": "日本企業のサイバーセキュリティザルすぎて楽しそうまであるな。",
+          "user": "shinji",
+          "comment": "“クレジットカードの暗証番号やマイナンバーといった重要な個人情報は、石板に刻んで庭に埋めるなど自己防衛を考えなければならない時代になるのではないか” 個人で出来る対策てすね。",
           "tags": [],
-          "timestamp": "2026/10/08 06:33"
+          "timestamp": "2026/10/08 12:34"
         },
         {
-          "user": "Lian",
-          "comment": "また?と思ったが、前のはニチレイだったか。IDFC関係かな",
+          "user": "warp9",
+          "comment": "画像の虫メガネが＋ではなくーになっている事に、実際に機能する事に今さら気付いた。 画像はもっと雑なのが好き。",
+          "tags": [],
+          "timestamp": "2026/10/08 12:33"
+        },
+        {
+          "user": "kaerudayo",
+          "comment": "“９月上旬には、のろし通信企業スモークＸでも暗号化された煙の色や量がＡＩによって解読されて２５万件の顧客情報が流出している” え、のろしまでダメなの。",
           "tags": [
-            "news"
+            "ネタ",
+            "セキュリティ"
           ],
-          "timestamp": "2026/10/08 06:21"
+          "timestamp": "2026/10/08 12:28"
         },
         {
-          "user": "scavenger-folk99",
-          "comment": "ヤバい。俺がカニシューマイ好きなことが世界中に広められてしまう。",
+          "user": "ton-boo",
+          "comment": "こんな分かりやすい白い鳩使うのは素人だから実際の漏洩件数はこの数倍はあるはず。ちゃんと鍵マーク付きの鳩を使え",
           "tags": [],
-          "timestamp": "2026/10/08 05:55"
+          "timestamp": "2026/10/08 12:28"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:22.231894+00:00"
-    },
-    {
-      "id": "h_fb0698da",
-      "title": "手動テストを渡すだけでE2Eが完成する仕組みを作りました - kickflow Tech Blog",
-      "url": "https://tech.kickflow.co.jp/entry/2026/10/06/105939",
-      "domain": "tech.kickflow.co.jp",
-      "bookmarkCount": 33,
-      "summary": "手動テストを渡すだけでE2Eが完成する仕組みを作りました こんにちは、kickflow QAチームのyanagiyaです。 今回は、テスト管理ツールに登録したテストケースを起点に、Playwright のE2Eテストを書いてPRを出すところまでを Claude Code に任せるスキルを作りました。 あわせて、E2E専用のテナントを用意し、どのテストを...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.kickflow.co.jp/entry/2026/10/06/105939",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "Claude Codeを使いこなしてて凄い。テストコード作成からPRまで自動化は夢があるな",
-          "tags": [],
-          "timestamp": "2026/10/08 07:49"
-        }
-      ],
-      "fetchedAt": "2026-10-07T22:57:20.395330+00:00"
+      "fetchedAt": "2026-10-08T05:35:41.117869+00:00"
     },
     {
       "id": "h_13b67ec8",
       "title": "IDCFクラウドへのランサムウェア攻撃についてまとめてみた - piyolog",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/10/08/070606",
       "domain": "piyolog.hatenadiary.jp",
-      "bookmarkCount": 12,
+      "bookmarkCount": 209,
       "summary": "2026年10月7日、IDCフロンティアは、同社が提供するクラウドサービス「IDCFクラウド」の一部のシステムが第三者からのランサムウェア攻撃を受け、障害が発生していると公表しました。ここでは関連する情報をまとめます。 東日本リージョン1への攻撃 IDCフロンティアは10月7日13時52分の第1報で、「IDCFクラウド」の一部...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/08/070606",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "さすがのpiyolog、情報まとまるのが早くて助かる。影響範囲が広すぎて各社の混乱がリアルに伝わる",
+          "user": "taiyow",
+          "comment": "すごい時代になった。クラウドのリージョンまるごと人質か。",
           "tags": [],
-          "timestamp": "2026/10/08 07:49"
+          "timestamp": "2026/10/08 14:15"
+        },
+        {
+          "user": "at_yasu",
+          "comment": "お疲れ様です",
+          "tags": [],
+          "timestamp": "2026/10/08 12:54"
+        },
+        {
+          "user": "dorje2009",
+          "comment": "イミュータブルバックアップを有効にしていたユーザー企業は復旧できそうなんだろうか？piyokangoさん本当おつかれさまです",
+          "tags": [],
+          "timestamp": "2026/10/08 12:25"
+        },
+        {
+          "user": "thorthewind",
+          "comment": "piyologの中の人が過労死しないか心配になるレベルでインシデントが起きまくってる",
+          "tags": [],
+          "timestamp": "2026/10/08 12:05"
+        },
+        {
+          "user": "nyankosenpai",
+          "comment": "この会社でセキュリティがダメってなったら、他の会社全滅レベルだと思うな",
+          "tags": [],
+          "timestamp": "2026/10/08 11:48"
+        },
+        {
+          "user": "hanenone",
+          "comment": "被害企業もだけどpiyologさんもたいへんだ",
+          "tags": [],
+          "timestamp": "2026/10/08 11:19"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:21.300902+00:00"
+      "fetchedAt": "2026-10-08T05:35:38.550444+00:00"
     },
     {
-      "id": "h_a072d155",
-      "title": "【速報】RTX Spark搭載Surfaceが正式発表、18コア/24GBモデルや20コア/128GBモデル",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2146579.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 12,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2146579.html",
+      "id": "h_16ed91e9",
+      "title": "直近で相次いでいる国内組織における不正アクセスに関する注意喚起",
+      "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+      "domain": "jpcert.or.jp",
+      "bookmarkCount": 173,
+      "summary": "JPCERT-AT-2026-0030 JPCERT/CC 2026-10-08 I. 概要各被害公表や報道のとおり、直近2026年9月前後で国内組織における不正アクセスによる個人情報等の漏えい被害が相次いでいます。 複数の製品やサービスで被害が発生している中、技術的な情報の共有が不足しており、把握している情報は限定的かつ断片的であるものの、攻...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.jpcert.or.jp/at/2026/at260030.html",
       "comments": [
         {
-          "user": "unmarshal",
-          "comment": "“Homeモデルが51万3,480円” 解散！",
+          "user": "tohokuaiki",
+          "comment": "うわぁ、ある意味王道な対策方法ではあるが、これをマジメに導入できる企業がどれだけあるだろうか…とも思う",
           "tags": [],
-          "timestamp": "2026/10/08 07:56"
+          "timestamp": "2026/10/08 14:25"
         },
         {
-          "user": "homarara",
-          "comment": "自動車並みの値段に驚かなくなって来た。",
+          "user": "kkobayashi",
+          "comment": "GDPRじゃないけど無意味に個人情報を収集するのをそもそも止めよう。ネットの記事を読むのになんで住所氏名年齢勤務先の情報がいるんだ",
           "tags": [],
-          "timestamp": "2026/10/08 07:56"
+          "timestamp": "2026/10/08 14:10"
         },
         {
-          "user": "sajiwo",
-          "comment": "前からsurfaceは割高感があったけど、もう全然買えるレベルじゃなくなってしまった。",
+          "user": "nilab",
+          "comment": "直近で相次いでいる国内組織における不正アクセスに関する注意喚起",
+          "tags": [],
+          "timestamp": "2026/10/08 13:57"
+        },
+        {
+          "user": "dekawo",
+          "comment": "今日やらなー",
+          "tags": [],
+          "timestamp": "2026/10/08 13:54"
+        },
+        {
+          "user": "kurotsuraherasagi",
+          "comment": "あとで読むにしたいところだけど今読まねば…",
+          "tags": [],
+          "timestamp": "2026/10/08 13:43"
+        },
+        {
+          "user": "JULY",
+          "comment": "攻撃元の IP アドレスが公開されている。報告でも、攻撃元をブロックして一次対策として効果を上げている。逆にここが人間ぽくないんだよなぁ。レジデンシャルプロキシを取っ替え引っ替え、とするよなぁ、人間なら。",
           "tags": [
-            "ブコメしたいだけ"
+            "セキュリティ"
           ],
-          "timestamp": "2026/10/08 07:40"
-        },
-        {
-          "user": "shaokuz",
-          "comment": "\"CPU 20コア、GPU 6,144コア、メモリ128GB、ストレージ1TB、Windows 11 Proという構成で109万4,280円となり\" で一瞬ひえ〜ってなったけどエントリーモデルが51万の方がインパクト/ 2600ドル51万ってドル円レートどうなってんだこれ？？",
-          "tags": [],
-          "timestamp": "2026/10/08 07:31"
-        },
-        {
-          "user": "tyhe",
-          "comment": "んでお値段は何百万円なんです？って思ったら109万円。メモリ24GBにしても50万かー。ちょっと手が出ないなー。",
-          "tags": [],
-          "timestamp": "2026/10/08 07:29"
-        },
-        {
-          "user": "ookitasaburou",
-          "comment": "“Surface Laptop Ultraは、NVIDIA RTX Spark(N1X)を搭載し、メモリは24GB～128GB、”",
-          "tags": [],
-          "timestamp": "2026/10/08 06:37"
+          "timestamp": "2026/10/08 13:36"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:21.528876+00:00"
+      "fetchedAt": "2026-10-08T05:35:37.675980+00:00"
     },
     {
-      "id": "h_fa10d312",
-      "title": "Shipping JPEG XL in Chrome | Blog | Chrome for Developers",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "domain": "developer.chrome.com",
-      "bookmarkCount": 6,
-      "summary": "Published: October 6, 2026 We're excited to announce that Chrome is shipping decoding support for the JPEG XL (.jxl) image format starting from Chrome 155. JPEG XL is a next-generation image format designed to meet the needs of modern web d",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "id": "h_4f35d7d7",
+      "title": "PhotoshopやIllustratorをオープンソースで再構築した「Crafting Apps」が日本語フォント、UIの日本語化に対応",
+      "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/crafting-apps-20261008.html/index.html",
+      "domain": "coliss.com",
+      "bookmarkCount": 112,
+      "summary": "10/5に紹介した、PhotoshopやIllustratorをオープンソースで再構築した「Crafting Apps」が早くも日本語フォント、UIの日本語化に対応した模様。 下記の画像はCrafting AppsのPhotoCraftで、PSDを作成し、レイヤーを作成し、日本語フォントを使用したものです。 Crafting Appsは、Photoshop, Illustrator, Premiere Pro,...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/coliss.com/wp-content/cache/all/articles/build-websites/operation/work/crafting-apps-20261008.html/index.html",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "やっとChromeでJXLサポートされるのか、長かったな",
+          "user": "kuzumaji",
+          "comment": "AIによる模倣ツールでソフトウェア価値が落ちて、みんなが群がった所にバックドア仕込まれてて、みたいな？",
           "tags": [],
-          "timestamp": "2026/10/07 23:10"
+          "timestamp": "2026/10/08 14:24"
+        },
+        {
+          "user": "kkobayashi",
+          "comment": "えぐう",
+          "tags": [],
+          "timestamp": "2026/10/08 14:13"
+        },
+        {
+          "user": "ryouchi",
+          "comment": "自宅で趣味で使うならこれで十分やな",
+          "tags": [],
+          "timestamp": "2026/10/08 14:12"
+        },
+        {
+          "user": "colonoe",
+          "comment": "id:mayumayu_nimolove 多くの反AI絵師はそんなこと気にしないだろう。X使ってるし",
+          "tags": [],
+          "timestamp": "2026/10/08 13:56"
+        },
+        {
+          "user": "ke_log",
+          "comment": "書き出しと一括作業が日本語で上手くできるようなら個人製作はこっちでもいいかも。",
+          "tags": [],
+          "timestamp": "2026/10/08 13:55"
+        },
+        {
+          "user": "kurataikutu",
+          "comment": "なんかスピードが速くてついていけてない。さすがAI。なんで本家はAI使ってAI抜きの作業オンリー版を作らんのか。AIの使い所が間違っとる",
+          "tags": [],
+          "timestamp": "2026/10/08 13:50"
         }
       ],
-      "fetchedAt": "2026-10-07T22:57:21.966393+00:00"
+      "fetchedAt": "2026-10-08T05:35:38.094361+00:00"
+    },
+    {
+      "id": "h_afe94839",
+      "title": "「Windows」アプリの「リモート PC」接続が一般提供に、RDC接続もこのアプリにお任せ／職場または学校のアカウントは不要",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2146580.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 99,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2146580.html",
+      "comments": [
+        {
+          "user": "mohno",
+          "comment": "Homeエディションで使えるの？というかリモートデスクトップがHomeエディションで使えればいいんだが。/まあ、他の手段があるからいいけど。",
+          "tags": [
+            "インプレス",
+            "Windows",
+            "Microsoft",
+            "リモート",
+            "技術",
+            "リモートPC",
+            "リモートデスクトップ"
+          ],
+          "timestamp": "2026/10/08 13:15"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "普通にmstsc.exeを使っているなら乗り換える理由が全くないやつ。どちらかと言えばMacにリモートデスクトップ接続したい。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/10/08 13:04"
+        },
+        {
+          "user": "inaken1980",
+          "comment": "軽く使ってみたけど機能不足とバグがあってまだmstsc.exeから離れられなかった。.rdpファイルのインポート・エクスポートは早急に対応して欲しい。今後に期待。",
+          "tags": [],
+          "timestamp": "2026/10/08 12:34"
+        },
+        {
+          "user": "coriander35",
+          "comment": "ワイMac民、WindowsAppはWindowsには提供されていなかったことを初めて知る",
+          "tags": [],
+          "timestamp": "2026/10/08 11:55"
+        },
+        {
+          "user": "sametabetai",
+          "comment": "今までも普通にRDP接続使えてたような…？RDPとRDCの違いはいったい…？/OS同梱のRDP接続以外はサポート終了してたようで、それの後継だったのね。",
+          "tags": [],
+          "timestamp": "2026/10/08 11:20"
+        },
+        {
+          "user": "sametashark",
+          "comment": "無料のPCサポート謳う業者に相談するようなリテラシーの人々が遠隔操作でカモられるだけなのでは",
+          "tags": [],
+          "timestamp": "2026/10/08 10:37"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:40.640774+00:00"
+    },
+    {
+      "id": "h_ba2b0c91",
+      "title": "トラックボールの“玉”をフッ素コーティング。約5秒で乾くエレコム「M-TAFD01」 - エルミタージュ秋葉原",
+      "url": "https://www.gdm.or.jp/pressrelease/2026/1007/655190",
+      "domain": "gdm.or.jp",
+      "bookmarkCount": 92,
+      "summary": "トラックボールの“玉”をフッ素コーティング。約5秒で乾くエレコム「M-TAFD01」 2026.10.07 13:43 更新 2026.10.07 配信 フッ素コーティングで摩擦を軽減、汚れの付着や水濡れも抑制 エレコム株式会社（本社：大阪府大阪市）は2026年10月7日、トラックボール用ボールメンテナンスキット「M-TAFD01」を発表した。10月上旬...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gdm.or.jp/pressrelease/2026/1007/655190",
+      "comments": [
+        {
+          "user": "ninjaripaipan",
+          "comment": "ヨーヨーのベアリングに使える？…",
+          "tags": [],
+          "timestamp": "2026/10/08 14:20"
+        },
+        {
+          "user": "ryouchi",
+          "comment": "マウスを開けてボールやマウスの中に詰まったゴミをキレイにするの、もうやらなくなったなー",
+          "tags": [],
+          "timestamp": "2026/10/08 14:08"
+        },
+        {
+          "user": "Baybridge",
+          "comment": "“玉職人”って単語が脳裏をよぎったが、忘れることにする。",
+          "tags": [
+            "ガジェット",
+            "ネタ",
+            "PC"
+          ],
+          "timestamp": "2026/10/08 13:56"
+        },
+        {
+          "user": "minaminoani",
+          "comment": "エレコムのベアリング支持トラックボールを愛用しているのだけど、効果があるのだろうか。現状でもスルスルでゴミも溜まらないし、不満はないのだが。",
+          "tags": [],
+          "timestamp": "2026/10/08 13:24"
+        },
+        {
+          "user": "nack1024",
+          "comment": "玉の滑りよくしても意味なくね？",
+          "tags": [],
+          "timestamp": "2026/10/08 13:11"
+        },
+        {
+          "user": "birds9328",
+          "comment": "ちょっと気になる",
+          "tags": [],
+          "timestamp": "2026/10/08 13:08"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:40.341533+00:00"
+    },
+    {
+      "id": "h_5d58ad9c",
+      "title": "【もう無理だよ…】免許証画像まで流出する時代に、エンジニアは何をすればいいのか - Qiita",
+      "url": "https://qiita.com/shinkai_/items/4c6c12324e115a125621",
+      "domain": "qiita.com",
+      "bookmarkCount": 81,
+      "summary": "このほか、Gyazoでユーザー関連データ約2,362万件、ムラウチドットコムで771万6,811件の個人情報の持ち出しが確認されたと報じられています。 ただしGyazoの件数は、メールアドレス未登録の匿名ユーザーも含みます。 件数を単純に足しても意味がないので、数字は規模感の目安として見るのがよさそうです。 参考：各社公...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/shinkai_/items/4c6c12324e115a125621",
+      "comments": [
+        {
+          "user": "ounzy",
+          "comment": "事故は起きるという前提のもとに、ダメージコントロールするという概念が無さすぎる。会社風土や経営層側の話だよ",
+          "tags": [],
+          "timestamp": "2026/10/08 14:34"
+        },
+        {
+          "user": "knitcapmann",
+          "comment": "パスワードの使い回しをするなって言われてももう遅いんだよ。30年前からの何百っていうパスワードをひとつづつ見直せってか？無責任なこと言うな。ってデジタル庁には言いたい。あと国の役割をちゃんと果たせ。",
+          "tags": [],
+          "timestamp": "2026/10/08 14:29"
+        },
+        {
+          "user": "clubman023",
+          "comment": "うーん",
+          "tags": [],
+          "timestamp": "2026/10/08 14:24"
+        },
+        {
+          "user": "hidari_kiki",
+          "comment": "あとで読みます",
+          "tags": [],
+          "timestamp": "2026/10/08 14:19"
+        },
+        {
+          "user": "pixmap",
+          "comment": "何をすればいいのか。取得・保存する情報を最小限にして、保存する場所、アクセス権限、バックアップ運用指針・削除方針をきちんと定める。免許証画像みたいな情報を強度のある暗号化もせずに保存するのは論外。",
+          "tags": [],
+          "timestamp": "2026/10/08 14:17"
+        },
+        {
+          "user": "mrnns",
+          "comment": "“常に最新のファームウェアに更新する” これの相談をするとすぐダウンタイムを気にする偉い人がいるんだよね。エンジニアの自責も限界ですわ。",
+          "tags": [],
+          "timestamp": "2026/10/08 13:57"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:39.602598+00:00"
+    },
+    {
+      "id": "h_74fa9d81",
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった - Qiita",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "domain": "qiita.com",
+      "bookmarkCount": 79,
+      "summary": "はじめに 社内 SaaS に「アプリ内アンケート機能」を追加しました。質問を作るのはビジネス側の責任者、箱を作るのは開発側という分担です。 要件のすり合わせ開始から、実装完了（PR 3本マージ）までは 2 日でした。 速かった理由は、AI の実装力ではありません。要件定義の順序を変えたことです。文章で要件を固めてか...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "comments": [
+        {
+          "user": "mostan",
+          "comment": "AIで作った画面モック見せると、一般人にはほぼ完成品に見えるため、簡単にできるじゃんと工数を買い叩かれる恐れはある",
+          "tags": [],
+          "timestamp": "2026/10/08 14:33"
+        },
+        {
+          "user": "miiruW",
+          "comment": "これは私もやってみて良いなと感じたことなり",
+          "tags": [],
+          "timestamp": "2026/10/08 13:36"
+        },
+        {
+          "user": "shikiarai",
+          "comment": "わしゃ昔からポンチ絵フロー図とモックと文章のセットで要件定義しとるで",
+          "tags": [],
+          "timestamp": "2026/10/08 13:20"
+        },
+        {
+          "user": "hdampty7",
+          "comment": "訓練されていない一般職の人は文章だけでシステム仕様やアプリ動作を想定するのは難しい。物を出す方が進みが早い。一方でアプリ内アンケート機能の要件定義が甘いのでどうせまた同じような別機能を作るとかありそう",
+          "tags": [],
+          "timestamp": "2026/10/08 12:58"
+        },
+        {
+          "user": "ls-ltr",
+          "comment": "画面への指摘をどう要件定義に落とし込むかなんよな、、、",
+          "tags": [],
+          "timestamp": "2026/10/08 12:34"
+        },
+        {
+          "user": "bike-a-to-z",
+          "comment": "uiuxデザイナーが駆逐された理由はこれよな。今思うと理想ばかり掲げてるやつは可視化されない分凄そうに見えてただけで、間挟まないでやり取りできたほうが質がいい",
+          "tags": [],
+          "timestamp": "2026/10/08 10:03"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:41.400540+00:00"
+    },
+    {
+      "id": "h_7baa8c62",
+      "title": "何もできないC言語が好き。『猫でもわかるプログラミング』を30年運営する医師に迫る - レバテックLAB",
+      "url": "https://levtech.jp/media/detail_941/",
+      "domain": "levtech.jp",
+      "bookmarkCount": 69,
+      "summary": "医師／「粂井ネット」代表 粂井 康孝（くめい・やすたか） 1955年生まれ。1980年に旭川医科大学を卒業後、内科医に。現在は社会医療法人アンリー・デュナン会 深川第一病院の副院長を務め、糖尿病専門医として診療にあたる。本業の傍ら、1996年にプログラミング初学者向け学習サイト「猫でもわかるプログラミング」を開...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_941/",
+      "comments": [
+        {
+          "user": "yarumato",
+          "comment": "“1996年に「猫でもわかるプログラミング」を開設。ホームページをつくりたいという思いがあっただけで、じゃあ何をコンテンツとして載せるかって”",
+          "tags": [],
+          "timestamp": "2026/10/08 14:32"
+        },
+        {
+          "user": "cad-san",
+          "comment": "減色された写真、アクセスカウンター、フォント芸。全てがみな懐かしい…",
+          "tags": [
+            "プログラミング"
+          ],
+          "timestamp": "2026/10/08 13:53"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "30年勉強した猫に及ばない",
+          "tags": [],
+          "timestamp": "2026/10/08 13:44"
+        },
+        {
+          "user": "kenhrn04",
+          "comment": "「はじめてのC」",
+          "tags": [],
+          "timestamp": "2026/10/08 13:09"
+        },
+        {
+          "user": "chiusagi",
+          "comment": "うわあー。めっちゃ記憶よみがえった。世話になったし周りも「初心者はとほほか猫見ておけ」が合言葉だった。",
+          "tags": [
+            "プログラマ"
+          ],
+          "timestamp": "2026/10/08 12:49"
+        },
+        {
+          "user": "junglejungle",
+          "comment": "無茶苦茶お世話になりました。Niftyやインターネット黎明期は、気軽に質問なんてしようものなら袋叩きにされてたから、初心者には超貴重な情報源だった。あの頃は、なんであんなに怒られたんだろうかね。",
+          "tags": [],
+          "timestamp": "2026/10/08 12:36"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:39.961099+00:00"
+    },
+    {
+      "id": "h_7d213386",
+      "title": "オリコンニュースのYouTubeチャート記事で2位の「INMU KING」がきちんと解説されてネット民が歓喜と困惑…1位になったら日本代表の曲がAI楽曲になるのか",
+      "url": "https://togetter.com/li/2755497",
+      "domain": "togetter.com",
+      "bookmarkCount": 44,
+      "summary": "オリコンニュース @oricon 🎥今週のYouTubeチャート ⠀ EBiDAN「Yes! 東京」が首位返り咲き❗ ミセスTOP100に13曲ランクイン ⠀ YAJU-MC「INMU KING」2位、 初登場から3週連続で自己最高位を記録 oricon.co.jp/news/2484831/f… ⠀ 🏇初登場でTOP10 Kroi「SPIN」千葉雄喜「死ぬか生きるか」 pic.x.com/pJ3DlatjcL 2026-10-07...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2755497",
+      "comments": [
+        {
+          "user": "thirty206",
+          "comment": "海外も合わせると確実に数千万人は知ってるネットミームに育ってしまったからなあ。何がここまで人を惹きつけてしまうのかは割と本気で研究の必要あるんとちゃうか。",
+          "tags": [],
+          "timestamp": "2026/10/08 13:25"
+        },
+        {
+          "user": "nicoyou",
+          "comment": "なんだかわからないけど嫌いなアレ関係っぽいので調べることもできない。（予測変換で覚えられるのも嫌）／というか今なんで流行ってるの？",
+          "tags": [
+            "music",
+            "togetter"
+          ],
+          "timestamp": "2026/10/08 13:12"
+        },
+        {
+          "user": "HMT_EG",
+          "comment": "人権侵害とか言ってるアホは、高市早苗とか天皇陛下とか絶対に揶揄するなよ。｜とはいえ野獣先輩他、登場人物の皆様にはなんらかの形で還元されて欲しいな。",
+          "tags": [],
+          "timestamp": "2026/10/08 13:00"
+        },
+        {
+          "user": "EastHop",
+          "comment": "喜んでるやつ、自分の顔でやられる可能性があることを想像しないのか？って思う",
+          "tags": [],
+          "timestamp": "2026/10/08 12:41"
+        },
+        {
+          "user": "masa_bob",
+          "comment": "それがすべてではないにせよ、淫夢ネタでつるんでた尾島が区長選で完敗して無職になったのにまだ荻野稔はそのノリをやってるのか",
+          "tags": [],
+          "timestamp": "2026/10/08 12:36"
+        },
+        {
+          "user": "keshimini",
+          "comment": "倫理的にも、淫夢民が平和に楽しみ続けるためにも、表に出ない方が良いモノなのに、優れたコンテンツが愛され広まるのは止められないという市場原理的なパワーがもはや抑えきれなくなってきている。いや正直、草。",
+          "tags": [],
+          "timestamp": "2026/10/08 12:35"
+        }
+      ],
+      "fetchedAt": "2026-10-08T05:35:41.755140+00:00"
     }
   ],
-  "lastCollection": "2026-10-07T22:57:22.472232+00:00"
+  "lastCollection": "2026-10-08T05:35:41.755169+00:00"
 }
