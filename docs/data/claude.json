@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489866+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.862303+00:00",
       "excerpt": "AI に「〇〇みたいなゲームを作って」と頼むと、1枚の HTML で遊べるゲームがすぐできるようになりました。ところが、作ったあとで困ります。 どこに置けば遊んでもらえるのか分からない 置いても、遊んだ人の反応(スコアや共有)が見えない 友だちに送っても、1回遊ばれて終わる この記事では、AI で作った HTML ゲームを JUMON で公開する手順と、その裏の仕組みを紹介します。JUMON はリ"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489770+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.862199+00:00",
       "excerpt": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/95febb15c92aeb35308d ／ note: https://note.com/suisei498/n/ne840430df72c Claude Code で、同じ会話を何日も続けて作業しています。自宅のPCで動かしている自動売買や、動画の"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489704+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.862132+00:00",
       "excerpt": "はじめに Claude Code を複数セッション立ち上げるのは当たり前。そのうえで複数リポジトリの開発を同時並行で進めたり、資料作成を任せたりと、エンジニアの日常に AI が欠かせなくなったことは、今さら言うまでもないと思います。 近頃はセッションを管理するためのツールも群雄割拠の状態で、便利なものが多く出ています。ただ、個人的な使い勝手のところで完璧なものはなく、悶々としていてもあれなのでせっ"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489624+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.862053+00:00",
       "excerpt": "本記事は 実装タスクを外注するモデルは何が適切なのか？ミニゲームを実装させるベンチマーク のシリーズです。このベンチマークを読む上での注意点は以下を参照してください。 今回は親エージェントを claude-opus-5-5@medium に固定し、子エージェント（実装の外注先）に Claude Code CLI 上の claude-haiku-5-5 を使って、各 effort の性能を測りました"
     },
     {
@@ -47,8 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489551+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.861982+00:00",
       "excerpt": "個人でUnityのゲームを作っていて、設計も実装もほぼ AI（Claude / Anthropic）に任せている。 Claudeが間違えるたびに「日付／Claudeが言ったこと／実際はどうだったか」を1行ずつ記録した。1ヶ月で 88件 たまった。同じ期間にClaudeが完了まで持っていったタスクは138件ある。 成功例は山ほど出回っているので、ここでは失敗のほうを、数え方を3回変えて並べる。 1."
+    },
+    {
+      "id": "cc_c624181d",
+      "title": "Claude Teamプランで全社ポリシーを敷く考え方 ― 組織の指示は書かず、settings.jsonで止め、Skillsは配る",
+      "url": "https://zenn.dev/tmiyachi/articles/claude-team-managed-settings",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.861877+00:00",
+      "excerpt": "社員が数人のうちは、Claude Codeの設定を各自に任せても回ります。従業員が増えてくると、「各自が設定してください」では統制が効きません。 株式会社AI Orchestraで法人のClaude Code導入に伴走している私（みやっち🧑‍💻）が、クライアントにまず勧めるのはClaude Teamプランです。ただ、契約のあとに開く組織設定は、左のメニューに項目がずらっと並び、最初は戸惑います。 "
     },
     {
       "id": "cc_3836a510",
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489420+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.861801+00:00",
       "excerpt": "Same price, same bill? Not really Here is the headline everyone saw this week. Claude Haiku 5.5 costs $0.10 per million input tokens and $0.50 per million output tokens. GPT-6 Luna costs exactly the s"
     },
     {
@@ -67,28 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.489310+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.861706+00:00",
       "excerpt": "Claude Desktopでアカウントを切り替えたところ、Codeの会話が新しいアカウントの一覧に表示されなくなりました。 同じPCに残っているCodeのローカル履歴を、複数のアカウントから使えるようにしたのが、Rust製CLI claudeHistory です。macOSとWindows向けの実行ファイルを配布しているので、使う側にRustやPython、APIキーは必要ありません。 http"
-    },
-    {
-      "id": "cc_c624181d",
-      "title": "Claude Teamプランで全社ポリシーを敷く考え方 ― 組織の指示は書かず、settings.jsonで止め、Skillsは配る",
-      "url": "https://zenn.dev/tmiyachi/articles/claude-team-managed-settings",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414830+00:00",
-      "excerpt": "社員が数人のうちは、Claude Codeの設定を各自に任せても回ります。従業員が増えてくると、「各自が設定してください」では統制が効きません。 株式会社AI Orchestraで法人のClaude Code導入に伴走している私（みやっち🧑‍💻）が、クライアントにまず勧めるのはClaude Teamプランです。ただ、契約のあとに開く組織設定は、左のメニューに項目がずらっと並び、最初は戸惑います。 "
-    },
-    {
-      "id": "cc_21c2f7a8",
-      "title": "Claude Code と OpenCode の許可設定（allow/ask/deny）：評価順の違いと、試して分かった注意点",
-      "url": "https://zenn.dev/hwemo/articles/9efda56f4985a7",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414744+00:00",
-      "excerpt": "AIコーディングエージェントに作業を任せるとき、最初に決めておきたいのが「何を確認なしで実行させ、何を必ず確認させ、何を禁止するか」です。Claude Code も OpenCode も allow / ask / deny の3つで許可を設定しますが、ルールの評価順が逆であるなど、同じ感覚で書くと意図どおりに動かない点があります。 本記事では、両ツールの公式ドキュメントで仕様を確かめたうえで、練"
     },
     {
       "id": "cc_5bfe9572",
@@ -97,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414603+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.861635+00:00",
       "excerpt": "この記事について 筆者が約 10 年使ってきた Evernote を解約し、ノートの置き場を Claude と GitHub の組み合わせに移した経緯を書いたものです。筆者の実体験にもとづく記事です。筆者が Claude に音声入力で話した内容を、Claude が文章に整理しました。製品の仕様や料金に関する記述は、各社の公式ページで確認しています。乗り換えてよかったという評価は、筆者の使い方におけ"
     },
     {
@@ -107,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414530+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.861530+00:00",
       "excerpt": "検証日: 2026-10-08（検出コマンドの動作を再確認）／ Claude Code 2.1.270 ／ macOS 13.7.8 macOSで、濁点や半濁点を含む日本語のフォルダの下でClaude Codeを使うと、同じプロジェクトの履歴が2つのディレクトリに割れることがあります。 割れた片方は /resume に出てこないので消えたように思えますが、ファイルは ~/.claude/proje"
     },
     {
@@ -117,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414443+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.831395+00:00",
       "excerpt": "Claude Code と Codex（どちらもコードを書く AI）に「収益を生む仕組みを作って。ただし私の個人情報は絶対に外に出さないで」と頼んでみました。AI たちが選んだのは、ペンネームで技術記事と有料本を出すことです。 ところが、最初に出来上がったのは記事ではありませんでした。公開の直前で個人情報を止めるチェックです。原稿に本名を書かなければ安全、とは限りません。コミットの作者欄や、あとで"
     },
     {
@@ -127,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414339+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.831299+00:00",
       "excerpt": "久しぶりに AI にスライドを作らせてみたら、すごく綺麗なのが一発で出てきました。 元になる文章を1つ用意して、頼んだのは1行だけです。やり直しもしていません。これは、そのときにできた8枚のうちの表紙です。 きっかけは、Claude に「資料を作るスキルで、何かいいものはない？」と聞いたことでした。返ってきた答えの1番目が、Anthropic 公式の document-skills です。その中の"
     },
     {
@@ -137,8 +127,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-08T23:10:33.414232+00:00",
+      "fetchedAt": "2026-10-09T05:39:52.831223+00:00",
       "excerpt": "2026年8月から、副業の事務作業をほぼ全部 Claude Code に任せています。案件探し、提案文の下書き、顧客への回答の設計、記録。私がやるのは、要所の判断と、最後に送信ボタンを押すことです。 2ヶ月半で分かったことを1行で書くと、こうなります。 AI は「気をつける」で直らない。ルールを守らせたいなら、守らなかったときに止まる装置を外側に置くしかない。 この記事は、その装置を作る過程で踏ん"
+    },
+    {
+      "id": "cc_d35f55db",
+      "title": "OpenAI dotsでClaude Codeの/clearを人間が打たなくてよくなった話",
+      "url": "https://zenn.dev/acntechjp/articles/8788e5d23689b5",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.831127+00:00",
+      "excerpt": "! この記事は、筆者の体験とメモをもとに生成AIが書いたものです。dotsやClaude Codeの挙動は、プランや環境、バージョンによって違う可能性があります。参考程度に読んでいただけるとうれしいです。 TL;DR OpenAIのdotsに大きな開発目標を渡したところ、dotが筆者のWindows PCを操作し、同じネットワーク上のLinux PCで動くClaude Codeに作業をさせながら、"
+    },
+    {
+      "id": "cc_3919b8f3",
+      "title": "Claude Code をヘッドレスで回す開発ハーネスの設計 ― 工程・権限・打ち切りの分け方",
+      "url": "https://zenn.dev/zonotech/articles/95786a5c0a45bd",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.831027+00:00",
+      "excerpt": "私は個人でソフトウェア開発をしているエンジニアです。 課題をバックログに積むと、AI が設計、実装、テスト、別モデルのレビュー、マージまで進める開発の仕組みを自作し、2026 年 7 月から 8 月を中心に動かしてきました。 前回の記事では、仕組みの全体像と、運用で踏んだ落とし穴を書きました。 今回はその続きとして、設計の勘どころを項目ごとに書きます。 それぞれ「なぜそうしたか」を添えます。 ソー"
+    },
+    {
+      "id": "cc_255c4819",
+      "title": "HyperFrames入門：Claude Code に一文頼んで HTML から MP4 動画を作る（直し・効果音まで）",
+      "url": "https://zenn.dev/zundamon_tools/articles/hyperframes-ai-video-html",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.830937+00:00",
+      "excerpt": "HyperFrames は、HeyGen が公開しているオープンソース（Apache 2.0）の動画の道具です。HTML で書いた画面をヘッドレス Chrome で 1 コマずつ撮り、FFmpeg で MP4 にまとめます。 この記事では、Claude Code に一文頼んで 20 秒・3 場面の告知動画を MP4 で書き出し、同じ会話の続きで色の直しと効果音の追加も頼むまでを、私が試した手順どお"
+    },
+    {
+      "id": "cc_7b24d0aa",
+      "title": "Claude Code とは何か、できること・できないことと Cursor や Copilot との違い",
+      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-what-is",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.830858+00:00",
+      "excerpt": "Claude Code は、コードベースを読み、ファイルを編集し、コマンドを実行する エージェント型のコーディングツール です。公式ドキュメントの説明はこうなっています。 Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with yo"
+    },
+    {
+      "id": "cc_3d5308bd",
+      "title": "1か月の80コミットは、全部 Claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした",
+      "url": "https://zenn.dev/rapls/articles/80e18a7f9cb80c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-09T05:39:52.830739+00:00",
+      "excerpt": "9月1日から10月3日までに、自分の WordPress プラグイン5本のリポジトリへ入ったコミットは80件でした。80件すべての末尾に、この行があります。 Co-Authored-By: Claude Opus 5 括弧の中のモデル名は、途中で3回変わっています。 モデル コミット 最初と最後 Claude Opus 4.8 9 9/1〜9/15 Claude Opus 5 47 9/3〜9/2"
     },
     {
       "id": "cc_f73cedfd",
@@ -147,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-08T23:10:33.939883+00:00",
+      "fetchedAt": "2026-10-09T05:39:53.293910+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -157,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-08T23:10:33.939950+00:00",
+      "fetchedAt": "2026-10-09T05:39:53.293981+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -167,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-08T23:10:34.115656+00:00",
+      "fetchedAt": "2026-10-09T05:39:53.491164+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-08T23:10:34.115720+00:00",
+      "fetchedAt": "2026-10-09T05:39:53.491226+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -187,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-08T23:10:34.115797+00:00",
+      "fetchedAt": "2026-10-09T05:39:53.491301+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-08T23:10:34.115810+00:00"
+  "lastCollection": "2026-10-09T05:39:53.491316+00:00"
 }
