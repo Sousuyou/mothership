@@ -1,224 +1,289 @@
 {
   "entries": [
     {
-      "id": "h_b35d0171",
-      "title": "Domain model purity vs. domain model completeness (DDD Trilemma)",
-      "url": "https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/",
-      "domain": "enterprisecraftsmanship.com",
-      "bookmarkCount": 104,
-      "summary": "Domain model purity vs. domain model completeness (DDD Trilemma) I’ve been meaning to write this article for a long time and, finally, here it is: the topic of domain model purity versus domain model completeness. In this article, we’ll tal",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/enterprisecraftsmanship.com/posts/domain-model-purity-completeness/",
-      "comments": [
-        {
-          "user": "uehaj",
-          "comment": "わかりにく。エンティティ層に閉じない関係についての判断ロジックはエンティティのメソッドにはできない、ですむような。完全性なんか元々必須でもなんでもないし／判定と変更をトランザクションにしてないバグあり",
-          "tags": [],
-          "timestamp": "2026/10/10 16:29"
-        },
-        {
-          "user": "turanukimaru",
-          "comment": "典型的な間違いなのだが、メアドは User Entity が決定権を持つ属性ではない。組織の持っているメアドを User に割り当てているだけ。主権、決定権を持つものこそが Dominus なのだが西洋人もこの辺りは忘れてしまっている。",
-          "tags": [],
-          "timestamp": "2026/10/10 12:37"
-        },
-        {
-          "user": "mkusaka",
-          "comment": "DDDでドメインモデル完全性と純粋性とパフォーマンスは両立困難。メール変更例でトレードオフを整理し選択指針を提示。",
-          "tags": [
-            "AI要約",
-            "解説",
-            "DDDトリレンマ",
-            "ドメインモデル",
-            "アンチパターン",
-            "ソフト設計"
-          ],
-          "timestamp": "2026/10/10 11:19"
-        },
-        {
-          "user": "pchatsu",
-          "comment": "via https://x.com/mconfjp/status/2108461865546490187",
-          "tags": [],
-          "timestamp": "2026/10/10 08:01"
-        },
-        {
-          "user": "takatama",
-          "comment": "分かりやすい",
-          "tags": [],
-          "timestamp": "2026/09/09 15:48"
-        }
-      ],
-      "fetchedAt": "2026-10-10T12:15:45.697983+00:00"
-    },
-    {
       "id": "h_83062af4",
       "title": "bpmn.io で始める AI-Ready な業務フロー管理 | フューチャー技術ブログ",
       "url": "https://future-architect.github.io/articles/20261009a/",
       "domain": "future-architect.github.io",
-      "bookmarkCount": 94,
+      "bookmarkCount": 193,
       "summary": "はじめにみなさんは業務フローを書いたことはあるでしょうか。 業務フローは、ある業務を誰がどの順番で進めるかを図にしたものです。申請者が申請を登録し、承認者が承認し、購買担当が発注する、といった手順を担当者ごとのレーンに分け、矢印でつなぎます。システムの開発現場ではグランドデザインや要件定義などの工...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261009a/",
       "comments": [
         {
-          "user": "MacRocco",
-          "comment": "これはちゃんと理解する",
-          "tags": [],
-          "timestamp": "2026/10/10 20:58"
-        },
-        {
-          "user": "toaruR",
-          "comment": "BPMN, DMN",
-          "tags": [],
-          "timestamp": "2026/10/10 20:40"
-        },
-        {
-          "user": "paradisemaker",
-          "comment": "今やってるプロジェクトでは LLM で mermaid 描かせてスキルで hrml 化してる。手軽で環境依存がほとんどないのでオススメ。",
-          "tags": [],
-          "timestamp": "2026/10/10 19:16"
-        },
-        {
-          "user": "skypenguins",
-          "comment": "BPMN自体は聞いたことあったな",
+          "user": "Marukosu",
+          "comment": "“bpmn.io”",
           "tags": [
-            "BPMN",
-            "技術"
+            "業務フロー",
+            "モデリング",
+            "bpmn.io"
           ],
-          "timestamp": "2026/10/10 19:00"
+          "timestamp": "2026/10/11 04:22"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "draw.ioの独自形式じゃなくBPMN2.0のXMLで持てばlinterもAIも通せるのは賢いアプローチ",
+          "user": "prjpn",
+          "comment": "AIの使い所はJevでDMNなんだけどね。次鋒でsysml。今ならSysOnとかでMBSEが出来る。お絵描きツールに終止する日本人にはあまり理解されないけど。",
           "tags": [],
-          "timestamp": "2026/10/10 18:14"
+          "timestamp": "2026/10/11 02:01"
+        },
+        {
+          "user": "Shinwiki",
+          "comment": "Bonita派です。もうアレで慣れちゃってるからいいや",
+          "tags": [],
+          "timestamp": "2026/10/10 23:02"
+        },
+        {
+          "user": "airj12",
+          "comment": "業務ルール・手順的な事をRDFで表現するの辛かろうなと思ってたけど確かにBPMNの方が筋がよさそう",
+          "tags": [],
+          "timestamp": "2026/10/10 22:51"
+        },
+        {
+          "user": "NetPenguin",
+          "comment": "BPMNのざっくりした説明としてよさげ。  ちょっとリッチなワークフロープロダクトだと、だいたいBPMN対応をうたっている気がする？。ActivitiとかCamundaとかFlowableとか。 ただ、多くの場合にオーバースペック感あってな……",
+          "tags": [],
+          "timestamp": "2026/10/10 22:22"
+        },
+        {
+          "user": "hirorinya",
+          "comment": "よさそ",
+          "tags": [],
+          "timestamp": "2026/10/10 22:19"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:43.382565+00:00"
+      "fetchedAt": "2026-10-10T21:26:50.454067+00:00"
     },
     {
-      "id": "h_abfc3f9c",
-      "title": "ウチのAIは「有料フォント買いましょうか」と言い出したからフリーフォント探そうね？お財布は預けてないよ？と釘を刺したら、なんかフォント自作しよったわ",
-      "url": "https://togetter.com/li/2756407",
-      "domain": "togetter.com",
-      "bookmarkCount": 80,
-      "summary": "はるか/C108土曜東2\"ツ07b\"＆日曜西1\"と20b\" @YT_HARUKA ウチのAIは有料フォント買いましょうかとか言い出したからお前にそんな権限は無いからね？フリーフォント探そうね？お財布は預けて無いよ？ って釘刺したら、なんかフォント自作しよったわ 2026-10-09 15:10:19",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756407",
+      "id": "h_eb142f9a",
+      "title": "日本人の大腸がん、約半数に“腸内細菌の毒素”が関与 40歳以下の発症は7割 東大・阪大が200人を全ゲノム解析",
+      "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002035/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 144,
+      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/10/2000002035/",
       "comments": [
         {
-          "user": "wonodas",
-          "comment": "素直に有料の買ったほうが安くつくやつ",
+          "user": "miyauchi_it",
+          "comment": "“子供の頃からお腹の中にいる特定の細菌が、何十年もかけて少しずつDNAを傷つけ続け、最終的に大腸がんを引き起こしている可能性”",
           "tags": [],
-          "timestamp": "2026/10/10 19:50"
+          "timestamp": "2026/10/11 05:45"
         },
         {
-          "user": "sabinezu",
-          "comment": "財布預けてないと言っただけでイメージが無いと作れないので、これ以外にも何か指示してるはず。キャプチャ貼って似たの作らせてたり？都合の悪いことは言わないのが人間の悪いところだ。問題無いなら貼るはず。",
+          "user": "tottotto2009",
+          "comment": "コリバクチンはヨーグルトで防げるんだろうか？何菌を含んだヨーグルトがいいのか？ヨーグルトじゃなかったら何がいいのか？みんな知りたいのはそこなのに何の役にも立たない記事書かれても。",
           "tags": [],
-          "timestamp": "2026/10/10 19:01"
+          "timestamp": "2026/10/11 05:18"
         },
         {
-          "user": "blueeyedpenguin",
-          "comment": "世に公開せず、身内で楽しむ用途としては非常に優秀",
+          "user": "Gka",
+          "comment": "うちはガンの家系ではないからDNAの損傷は関係ないな。免疫機能でガンの腫瘍化を防げる人と防げない人がいるだけ。原因は免疫のほうでは。発がん性を気にしたら加工肉すら食べられない。",
           "tags": [],
-          "timestamp": "2026/10/10 18:15"
+          "timestamp": "2026/10/11 05:14"
         },
         {
-          "user": "localnavi",
-          "comment": "文字のスクショを使って、似た既存のフォントを探すサイト https://www.whatfontis.com/ はある。ドンピシャのフォントを（あれば）教えてくれるので便利。",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/10/10 17:57"
+          "user": "otihateten3510",
+          "comment": "当たり前だけどなんやかんや原因はあるんだなって。遺伝一本の話ではないんだなあ。",
+          "tags": [],
+          "timestamp": "2026/10/11 04:45"
         },
         {
-          "user": "hiroshima_pot",
-          "comment": "英字フォントとかじゃない？ ゲームとかの。それなら完全に現実的。",
+          "user": "kamezo",
+          "comment": "大腸ガンの原因菌の話、前にもあったな。と調べたら https://univ-journal.jp/1001591/ 。9月初旬、同じコリバクチンの話。",
           "tags": [],
-          "timestamp": "2026/10/10 17:23"
+          "timestamp": "2026/10/11 01:41"
         },
         {
-          "user": "otchy210",
-          "comment": "GPT は 6 になってアウトラインというかベジェ曲線の扱いがめちゃくちゃ強くなった。3D モデル作りも上手くなったらしいし。5.5 にやらせてもボロボロだったイラストの SVG 化の精度がすごい高くて助かったのよ。",
+          "user": "ET777",
+          "comment": "殺すにはどうすれば…",
           "tags": [],
-          "timestamp": "2026/10/10 17:11"
+          "timestamp": "2026/10/11 01:35"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:46.421046+00:00"
+      "fetchedAt": "2026-10-10T21:26:49.247874+00:00"
     },
     {
       "id": "h_abb18974",
       "title": "AI駆動開発の時代になったのでトヨタ生産方式から見直す",
       "url": "https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 52,
+      "bookmarkCount": 139,
       "summary": "2026-10-09 AI駆動開発勉強会 名古屋支部#2 の発表資料です。",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "AIでコード生成が爆速化したせいでレビュー滞留という在庫のムダが発生するのTPSそのものだな",
+          "user": "naoya2k",
+          "comment": "この人、トヨタのことも工場のことも全然わかってないような気がする。「製造機械のボタンを押したら製品ができる」…? それはコンパイラのことでしかないよ。",
           "tags": [],
-          "timestamp": "2026/10/10 18:14"
+          "timestamp": "2026/10/11 03:14"
+        },
+        {
+          "user": "choota",
+          "comment": "プル式生産になぞらえたらソフトウェア開発各あるべし、というのはトヨタ生産方式読者的には分かる。スライドなんだし文字情報で完結させるか否かは筆者の自由でしょうに。//2時間スプリント気になって仕方ない。",
+          "tags": [],
+          "timestamp": "2026/10/11 02:53"
+        },
+        {
+          "user": "goenai_momi",
+          "comment": "製造の原価を下げるというわかりやすい指標で整理されてて良かった。過剰な実装の何がどう悪いのか納得感がある。",
+          "tags": [],
+          "timestamp": "2026/10/11 01:13"
+        },
+        {
+          "user": "north_korea",
+          "comment": "AIでまともなソフトウェアを作ろうと思うと、AIが人間のエンジニアの感覚を全く持っていないことにより引き起こされるクソコードを如何に潰すかという無限モグラ叩きが始まる。かなりしんどいよ",
+          "tags": [],
+          "timestamp": "2026/10/11 00:43"
+        },
+        {
+          "user": "mirakux",
+          "comment": "1ページあたりの情報少なすぎ。このパワポは間違いなく不良品なので対策するべし",
+          "tags": [],
+          "timestamp": "2026/10/11 00:22"
+        },
+        {
+          "user": "bnckmnj",
+          "comment": "100％良品でなければならない、って書いてた時に、これだめじゃんってならなかったのかな。AIが100点出した事例知らないなあ、10回くらい繰り返して及第点はよく見かけるけど。",
+          "tags": [],
+          "timestamp": "2026/10/11 00:14"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:43.710601+00:00"
+      "fetchedAt": "2026-10-10T21:26:49.728006+00:00"
     },
     {
-      "id": "h_0ee1f34c",
-      "title": "Windowsにもエアドロしたい。Raspberry PiでAirDrop受信機「LilBitDrop」を作った（CloseBox） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/10/10/5571.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 52,
-      "summary": "AirDropは今では少なくなってしまった、Appleエコシステムの「ないとなると困る」機能の1つです。何かイベントがあったときに写真をその場にいる人に送るのに著しく便利。ここではiPhoneとそれ以外で大きな格差が生まれ、そのような機会の多い女子学生の中ではiPhone所有率が格段に高いというのも頷けます。 ただ、最近...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/10/5571.html",
+      "id": "h_0d7b6c1e",
+      "title": "個人情報漏洩が日常になってしまった世界でどうしていくべきか",
+      "url": "https://nyosegawa.com/posts/data-leak-era/",
+      "domain": "nyosegawa.com",
+      "bookmarkCount": 133,
+      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日は個人情報がどんどん流出していく時代に、わたしたちは何をすればいいのかを考えていきたいと思います。 今週だけでも さいきん個人情報の漏洩のニュースが本当に多いです。10月7日から9日にかけては政府機関が相次いで「不正アクセスによる漏洩が続いている」と注意を...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nyosegawa.com/posts/data-leak-era/",
       "comments": [
         {
-          "user": "bxmcr",
-          "comment": "やっぱりAIは読みにくいんだな……途中で挫折した。面白そうなのに",
+          "user": "financedekatsu2000",
+          "comment": "アカウント削除しても企業側で残してるからな。つーか、「氏名・住所・電話番号」での本人確認（知識認証）が機能しなくなった。",
           "tags": [],
-          "timestamp": "2026/10/10 19:44"
+          "timestamp": "2026/10/11 06:23"
         },
         {
-          "user": "justsize",
-          "comment": "せっかくラズパイを使っているなら、最後の手動ダウンロードも省略して、rsyncやSMB経由でWindowsの指定フォルダに自動転送できると最高ですね。",
+          "user": "harumomo2006",
+          "comment": "別名を持てたとしても結局は本名に紐づくIDがないと認証できないからそこから全部漏れそう",
           "tags": [],
-          "timestamp": "2026/10/10 18:45"
+          "timestamp": "2026/10/11 06:03"
         },
         {
-          "user": "solidstatesociety",
-          "comment": "リスティングと転送を同時に解決しようとしたら複雑になるんだな",
+          "user": "domimimisoso",
+          "comment": "プラットフォーム側が警戒して認証手続きを厳重にすると、スマホ更新時の切替が凄く面倒になって、最悪スマホを変えると引継ぎできなくなりそう。スマホ紛失や破損で通常引継ぎ作業できなくなると完全に詰みそう。",
           "tags": [],
-          "timestamp": "2026/10/10 17:58"
+          "timestamp": "2026/10/11 04:04"
         },
         {
-          "user": "kilinbox",
-          "comment": "昔同じくOpenDropでやろうとしたことがあったけど断念したことがある　そうか今はAIでいろいろ解析とか試せるか",
-          "tags": [],
-          "timestamp": "2026/10/10 17:32"
+          "user": "ikura_chan",
+          "comment": "カード再発行はしたとたんに違う詐欺や漏洩の情報がきそう。。",
+          "tags": [
+            "AI",
+            "メール",
+            "世界"
+          ],
+          "timestamp": "2026/10/11 01:59"
         },
         {
-          "user": "katsusuke",
-          "comment": "良さそう。おうちの写真サーバーをリプレイスするか",
+          "user": "henoheno7871",
+          "comment": "若い人は知らんかも知らんが、昭和の時代は、氏名、住所、納税額が新聞にデカデカのっておりまして、、、今でも法人やってると個人情報半分くらい公開されてるようなもんだけどな。つまり大した問題ないってこと。",
           "tags": [],
-          "timestamp": "2026/10/10 17:26"
+          "timestamp": "2026/10/11 00:36"
         },
         {
-          "user": "bancya",
-          "comment": "Snapdropじゃダメなん？",
+          "user": "o2k-ken1",
+          "comment": "どこかでも発言したけど、国が囮付きの偽の個人情報を1億人分毎日漏洩し続ければ、バカ以外は漏洩データが使えるか試すこともしないでしょ",
           "tags": [],
-          "timestamp": "2026/10/10 17:23"
+          "timestamp": "2026/10/10 23:11"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:47.447082+00:00"
+      "fetchedAt": "2026-10-10T21:26:50.065403+00:00"
+    },
+    {
+      "id": "h_6280baf1",
+      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+      "domain": "piyolog.hatenadiary.jp",
+      "bookmarkCount": 88,
+      "summary": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+      "comments": [
+        {
+          "user": "kyahi227",
+          "comment": "ハッカーと被害者がそれぞれ別の第三者となる事実を認識出来ず「APIを直叩きした場合の流出事故は被害者の自己責任とする」と宣うエンジニアが一定数居るんだよなぁ > 本来画面操作では実行できない内部APIに対する攻撃",
+          "tags": [],
+          "timestamp": "2026/10/11 06:26"
+        },
+        {
+          "user": "snare_micchan",
+          "comment": "日本版金盾が必要では？不要な通信を予めブロックする役割の",
+          "tags": [],
+          "timestamp": "2026/10/11 06:00"
+        },
+        {
+          "user": "vbamacroinfo",
+          "comment": "中国からのアクセスを遮断すれば、（日本語で書かれた日本人向けのサイトなのに）不要なトラフィックの90%は減らせることは、経営者も知っておくべき。奴らは節操がなくホントにひどい迷惑",
+          "tags": [],
+          "timestamp": "2026/10/11 05:04"
+        },
+        {
+          "user": "tsu_nyan",
+          "comment": "この速さでこのまとめ出せるのもAI様様だよね。昔だったらこの情報をまとめるのにどれだけ時間がかかっただろうか。。。",
+          "tags": [],
+          "timestamp": "2026/10/11 03:16"
+        },
+        {
+          "user": "cinefuk",
+          "comment": "trojanを用いたbotnetで攻撃されている「同一とみられる攻撃者が約40分間で326のIPアドレスを使い分け、これらのIPアドレスから約40分間に1,200件を超えるアクセスが行われる攻撃を複数回確認したとしている。」",
+          "tags": [
+            "security",
+            "まとめ",
+            "webサービス"
+          ],
+          "timestamp": "2026/10/11 02:12"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "10/7〜9の不正アクセス注意喚起を、JPCERT/CCやIPA等の情報から要点整理。API悪用も解説する。",
+          "tags": [
+            "AI要約",
+            "不正アクセス",
+            "情報漏えい",
+            "注意喚起",
+            "API悪用",
+            "脆弱性",
+            "ログ点検",
+            "JPCERT",
+            "CVE",
+            "OWASP"
+          ],
+          "timestamp": "2026/10/11 01:34"
+        }
+      ],
+      "fetchedAt": "2026-10-10T21:26:48.705943+00:00"
     },
     {
       "id": "h_f53e9a25",
       "title": "事業活動を AI Ready にする攻めと守りのデータエンジニアリング / data-engineering-for-ai-ready-business",
       "url": "https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 51,
+      "bookmarkCount": 77,
       "summary": "Data Engineering Summit 2026（2026-10-09）で発表した資料です。 https://conference.findy-code.io/conferences/data-engineering-summit26/35/sessions/758 AI は誰でも…",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/pei0804/data-engineering-for-ai-ready-business",
       "comments": [
+        {
+          "user": "mistake3",
+          "comment": "AI Ready にしすぎてAIにハックされやすくなったりして",
+          "tags": [],
+          "timestamp": "2026/10/11 03:10"
+        },
+        {
+          "user": "rgfx",
+          "comment": "モーターから天井の軸とベルトの例えだ。日工大の工業技術博物館でみたなあ。半分はAI BPOの話かしらん。",
+          "tags": [],
+          "timestamp": "2026/10/10 23:13"
+        },
         {
           "user": "natsuvien",
           "comment": "AI生成パワポですなあ",
@@ -233,223 +298,162 @@
         },
         {
           "user": "nguyen-oi",
-          "comment": "既存業務にAI足すだけじゃ赤の女王効果で差がつかないから業務自体を再設計するってのは納得感ある",
+          "comment": "汎用AIをただ既存業務に当てても赤の女王効果で差がつかないから業務プロセス自体組み直すの納得",
           "tags": [],
           "timestamp": "2026/10/10 18:14"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:44.046254+00:00"
-    },
-    {
-      "id": "h_40164fc0",
-      "title": "写真も動画も声もまとめて0.74Bで検索。ローカルRAG向け「EmbeddingGemma 2」",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2147318.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 49,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2147318.html",
-      "comments": [
-        {
-          "user": "rdlf",
-          "comment": "WebLLM版も欲しいな。",
-          "tags": [],
-          "timestamp": "2026/10/10 20:00"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "わずか0.74Bで画像も音声も同一ベクトル空間に落とし込めるのローカルRAGの夢が広がる",
-          "tags": [],
-          "timestamp": "2026/10/10 18:14"
-        },
-        {
-          "user": "naozane2",
-          "comment": "名無し写真や名無し動画ファイルを検索できる。ローカルLLM。／動画アーカイブ整理。動画編集向きか。",
-          "tags": [],
-          "timestamp": "2026/10/10 17:01"
-        }
-      ],
-      "fetchedAt": "2026-10-10T12:15:44.982670+00:00"
-    },
-    {
-      "id": "h_0d7b6c1e",
-      "title": "個人情報漏洩が日常になってしまった世界でどうしていくべきか",
-      "url": "https://nyosegawa.com/posts/data-leak-era/",
-      "domain": "nyosegawa.com",
-      "bookmarkCount": 47,
-      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日は個人情報がどんどん流出していく時代に、わたしたちは何をすればいいのかを考えていきたいと思います。 今週だけでも さいきん個人情報の漏洩のニュースが本当に多いです。10月7日から9日にかけては政府機関が相次いで「不正アクセスによる漏洩が続いている」と注意を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nyosegawa.com/posts/data-leak-era/",
-      "comments": [
-        {
-          "user": "kuro_pp",
-          "comment": "電話番号や住所のエイリアスはほしいね。電話番号は別番号を低料金で、住所はデジタルアドレスでなんとか…",
-          "tags": [],
-          "timestamp": "2026/10/10 21:03"
-        },
-        {
-          "user": "hatebu_admin",
-          "comment": "真名を他人に知られるのは死を意味する",
-          "tags": [],
-          "timestamp": "2026/10/10 20:59"
-        },
-        {
-          "user": "dollarss",
-          "comment": "偽名で生きる権利を保証して欲しいね。政府や自治体が管理する本人の戸籍情報とは別に、ちゃんと通称を用意するくらいのを。昔は諱があったんだしな。",
-          "tags": [],
-          "timestamp": "2026/10/10 20:54"
-        },
-        {
-          "user": "TETSUYA01",
-          "comment": "パスワードマネージャーで管理しててもパスワードマネージャーがハッキングされたら終わりじゃね？",
-          "tags": [],
-          "timestamp": "2026/10/10 20:42"
-        },
-        {
-          "user": "ejointjp",
-          "comment": "最初からすべてをさらけ出して生きていく",
-          "tags": [],
-          "timestamp": "2026/10/10 20:26"
-        },
-        {
-          "user": "unyamnya",
-          "comment": "諱を使おう",
-          "tags": [],
-          "timestamp": "2026/10/10 20:04"
-        }
-      ],
-      "fetchedAt": "2026-10-10T12:15:44.613571+00:00"
-    },
-    {
-      "id": "h_eb142f9a",
-      "title": "日本人の大腸がん、約半数に“腸内細菌の毒素”が関与 40歳以下の発症は7割 東大・阪大が200人を全ゲノム解析",
-      "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002035/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 24,
-      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/10/2000002035/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "子供の頃から棲みついてる大腸菌の毒素で数十年間DNA削られてるとか回避不可能ゲーすぎるだろ",
-          "tags": [],
-          "timestamp": "2026/10/10 20:44"
-        },
-        {
-          "user": "TakamoriTarou",
-          "comment": "前から言われてたけどAIとな？さらに大規模にできるようになったのか",
-          "tags": [],
-          "timestamp": "2026/10/10 20:41"
-        },
-        {
-          "user": "mouseion",
-          "comment": "大腸がんになりやすい人はホワイトカラーに多いと言われてる。すなわち椅子に長時間着席して作業する人ほど大腸がんになりやすいという話。",
-          "tags": [],
-          "timestamp": "2026/10/10 20:25"
-        },
-        {
-          "user": "take-it",
-          "comment": "あと5年早かったら、亡くならずに住んだミュージシャンも多かったのかな。。。",
-          "tags": [],
-          "timestamp": "2026/10/10 20:24"
-        },
-        {
-          "user": "sabotem",
-          "comment": "「日本人200人の大腸がん患者（略）約半数（非高変異型症例の44.8％）において（略）特殊な大腸菌が発症に関わっていることが判明した。（略）欧米を含む他国で5～20％ほどなので、日本人の例が多いことが分かる」ほう",
-          "tags": [],
-          "timestamp": "2026/10/10 20:06"
-        },
-        {
-          "user": "takjoe",
-          "comment": "酒で消毒しとくか",
-          "tags": [],
-          "timestamp": "2026/10/10 20:06"
-        }
-      ],
-      "fetchedAt": "2026-10-10T12:15:46.079110+00:00"
+      "fetchedAt": "2026-10-10T21:26:52.507550+00:00"
     },
     {
       "id": "h_e37b7433",
       "title": "若手エンジニアに必要だと感じた「AIを使う力」",
       "url": "https://zenn.dev/muit_techblog/articles/6ea28887c79457",
       "domain": "zenn.dev",
-      "bookmarkCount": 15,
+      "bookmarkCount": 70,
       "summary": "若手エンジニアに必要だと感じた「AIを使う力」 はじめに 私は現在、JavaやReactを使った金融系Webアプリの開発に携わっています。開発経験はまだ浅く、業務では分からないことに遭遇する場面も多くあります。そのため、調査、実装、文章作成、レビューなど、さまざまな場面でAIを使ってきました。私自身、AIを使うこと...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/muit_techblog/articles/6ea28887c79457",
       "comments": [
         {
+          "user": "enkunkun",
+          "comment": "MUITはBedrock経由でClaude Codeを使ってたはずだけど、いつの時代のモデルとハーネスを使ってるんだろうか？",
+          "tags": [],
+          "timestamp": "2026/10/11 02:32"
+        },
+        {
+          "user": "peketamin",
+          "comment": "若手は大変そうだ…なんかでも伸び伸びと学習・探索できてたらいいな",
+          "tags": [],
+          "timestamp": "2026/10/11 01:29"
+        },
+        {
+          "user": "sirobu",
+          "comment": "「AIをかなり使っています」で最後に出てくるのが2年くらい前に使われてそうなプロンプトってのが辛い。用途によってスキルを使い分けるとかじゃないんだ……",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/10/11 00:20"
+        },
+        {
+          "user": "hanajibuu",
+          "comment": "'\"AIは答えを出し続けるため、「人に聞く」という判断が遅れやすい\" 　マジでこれ。気づいたら遠回りしてることがある。",
+          "tags": [],
+          "timestamp": "2026/10/10 23:19"
+        },
+        {
+          "user": "tCy_ab",
+          "comment": "こういう銀行系の会社でも未だに、開発経験のない新卒がプロンプトをコピペしてコード書いてるんか…。 そのAIは独自のモデルなんだろうか。書いてる内容としてはすごく良い内容だが。ちょっと心配になる。がんばれ。",
+          "tags": [],
+          "timestamp": "2026/10/10 22:39"
+        },
+        {
           "user": "nguyen-oi",
-          "comment": "AIが何かしら返してくるからこそ人に相談するタイミングが遅れるって若手のリアルな罠だな",
+          "comment": "AIは答え出し続けるから人に聞く判断が遅れるって若手あるあるの言語化としてめちゃくちゃ優秀",
           "tags": [],
           "timestamp": "2026/10/10 20:44"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:45.286003+00:00"
+      "fetchedAt": "2026-10-10T21:26:50.966788+00:00"
     },
     {
-      "id": "h_79659aef",
-      "title": "アンソロピックのAI、米警察に虚偽の情報提供 不正にビザ申請も - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 12,
-      "summary": "【シリコンバレー=山田遼太郎】米アンソロピックは9日、同社の人工知能（AI）が警察に虚偽の情報を送信していたと発表した。実在の未解決殺人事件についてAIが内容をでっち上げた。こうしたAIの「暴走」は混乱を引き起こしかねず、当局から非難されている。発表によるとアンソロピックのAIモデル「クロード・ハイク4.5」...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN101I30Q6A011C2000000/",
+      "id": "h_106d80c7",
+      "title": "Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対応",
+      "url": "https://readest.com/ja",
+      "domain": "readest.com",
+      "bookmarkCount": 33,
+      "summary": "消化し、洞察を得るReadestは無料のオープンソースEPUB・PDFリーダーで、深い没入型読書のために設計されています。macOS、Windows、Linux、Android、iOS、Web、KOReader・CrossPoint端末でハイライト、メモ、分割画面読書、テキスト読み上げ、クラウド同期をお楽しみください。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/readest.com/ja",
       "comments": [
         {
-          "user": "TETSUYA01",
-          "comment": "もうこいつらテロ組織だろ。",
-          "tags": [],
-          "timestamp": "2026/10/10 21:04"
-        },
-        {
-          "user": "hatebu_admin",
-          "comment": "haikuなら残当",
-          "tags": [],
-          "timestamp": "2026/10/10 20:58"
-        },
-        {
-          "user": "KAN3",
-          "comment": "警察相手だから発表しただけで、色んなところに迷惑メッセージ送りまくってるんじゃないか",
-          "tags": [],
-          "timestamp": "2026/10/10 20:56"
-        },
-        {
-          "user": "toaruR",
-          "comment": "『情報提供フォームから虚偽の内容を送った』……え!?",
-          "tags": [],
-          "timestamp": "2026/10/10 20:48"
-        },
-        {
-          "user": "n2sz",
-          "comment": "\"有料サービスに抜け穴を見つけ、料金を支払わずにデータを取得したりしていた\"こっちもなかなかヤバいな",
-          "tags": [],
-          "timestamp": "2026/10/10 20:36"
-        },
-        {
-          "user": "facebooook",
-          "comment": "“指示された作業を完遂“",
-          "tags": [],
-          "timestamp": "2026/10/10 19:42"
+          "user": "masterq",
+          "comment": "翻訳の文字数制限が自分の用途で足りるのか気になる",
+          "tags": [
+            "pdf",
+            "windows",
+            "osx",
+            "linux",
+            "ios",
+            "iphone",
+            "android",
+            "translate",
+            "web"
+          ],
+          "timestamp": "2026/10/10 18:15"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:46.735850+00:00"
+      "fetchedAt": "2026-10-10T21:26:51.703540+00:00"
     },
     {
-      "id": "h_972a447f",
-      "title": "分析の民主化を支えるメタデータ整備の実践",
-      "url": "https://speakerdeck.com/kakehashi/democratizing-data-with-metadata",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 8,
-      "summary": "Data Engineering Summit 2026 https://data-engineering-summit.findy-tools.io/2026 での登壇資料です",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kakehashi/democratizing-data-with-metadata",
+      "id": "h_085d94ac",
+      "title": "「IDCFクラウド」で何が起きたのか 情報漏洩や復旧の可能性について現在分かっていること（山口健太） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/cce6d03439ffb1d2d6de2500240634b394731753",
+      "domain": "news.yahoo.co.jp",
+      "bookmarkCount": 25,
+      "summary": "東日本リージョンの一部で障害が発生後、復旧していない（IDCフロンティアのWebサイトより、筆者撮影） 10月7日に発生したIDCフロンティアにおけるクラウドサービス障害は現在も復旧しておらず、500社近い利用企業や自治体に影響が及んでいます。 復旧の可能性はあるのか、また情報漏洩のような問題は起きていないのか、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/cce6d03439ffb1d2d6de2500240634b394731753",
+      "comments": [
+        {
+          "user": "kyahi227",
+          "comment": "「脅迫状を読んでるか監視してる事」を明かしたため余計に読まない方向で動いてるのは犯人にとっては致命的だろうな。英語圏ではこの件は報じられてすら無い。金にも手柄にもならないとかなり焦ってるんじゃないか?",
+          "tags": [],
+          "timestamp": "2026/10/11 06:18"
+        }
+      ],
+      "fetchedAt": "2026-10-10T21:26:52.191516+00:00"
+    },
+    {
+      "id": "h_b96cf0d4",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "domain": "zenn.dev",
+      "bookmarkCount": 13,
+      "summary": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/6e9996319ac099",
+      "comments": [
+        {
+          "user": "mk173",
+          "comment": "アプリのAI対応なんかに良さそう",
+          "tags": [],
+          "timestamp": "2026/10/11 05:47"
+        },
+        {
+          "user": "mattn",
+          "comment": "書いた",
+          "tags": [],
+          "timestamp": "2026/10/11 02:16"
+        }
+      ],
+      "fetchedAt": "2026-10-10T21:26:50.705816+00:00"
+    },
+    {
+      "id": "h_84a38499",
+      "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
+      "url": "https://enterprisezine.jp/article/detail/25178",
+      "domain": "enterprisezine.jp",
+      "bookmarkCount": 6,
+      "summary": "「わが社はゼロトラスト導入済みです」──この言葉を、当方はここ7年で数え切れないほど聞いてきました。ゼットスケーラーで250社を超える企業のゼロトラスト実装ワークショップを主導し、日本企業の現場を間近に見てきた立場から申し上げると、この「導入済み」はかなり危うい言葉です。多くの場合、それはリモートアク...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/enterprisezine.jp/article/detail/25178",
       "comments": [
         {
           "user": "nguyen-oi",
-          "comment": "AIにSQL書かせる前のメタデータ定義こそが本質っていう現場の知見が詰まりまくってて助かる",
+          "comment": "VPN置き換えただけでゼロトラスト完了気取って内部通信放置するゼロトラスト負債は現場あるあるすぎる",
           "tags": [],
-          "timestamp": "2026/10/10 20:44"
+          "timestamp": "2026/10/10 21:49"
         }
       ],
-      "fetchedAt": "2026-10-10T12:15:47.127673+00:00"
+      "fetchedAt": "2026-10-10T21:26:51.941028+00:00"
+    },
+    {
+      "id": "h_24ca9a0d",
+      "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
+      "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
+      "domain": "zenn.dev",
+      "bookmarkCount": 5,
+      "summary": "株式会社 松尾研究所で働いている栗原です。 以前、「音声合成の日本語化手法が一般化した話」を書きました。 今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。 専門家・理系の方...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mkj/articles/speech-tts-japanese-2026",
+      "comments": [],
+      "fetchedAt": "2026-10-10T21:26:52.767210+00:00"
     }
   ],
-  "lastCollection": "2026-10-10T12:15:47.447105+00:00"
+  "lastCollection": "2026-10-10T21:26:52.767234+00:00"
 }

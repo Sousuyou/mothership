@@ -1,23 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_45777920",
-      "title": "Claude Haiku 5.5とOpus 5.5のAPI料金をPythonで比較する：10万トークン境界とキャッシュ",
-      "url": "https://zenn.dev/beatapi/articles/0d603c8b7da79f",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.737157+00:00",
-      "excerpt": "Beat API Team · 仕様と価格の確認日：2026年10月9日 範囲が明確で、結果を検証できる処理にはHaiku 5.5を候補にする。複数のファイルやツール、矛盾する資料を扱う継続的な推論にはOpus 5.5を候補にする。 両方の処理を含むサービスでは、Haikuの回答を検証し、未解決の場合だけOpusへ引き継ぐ構成を評価できます。 Claude Haiku 5.5とOpus 5.5の比"
-    },
-    {
       "id": "cc_17e4b578",
       "title": "Claude Codeの引用・コードブロックにコピーボタンを付けるmod",
       "url": "https://zenn.dev/z_maruhira/articles/claude-code-mod-copy-blocks",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.737069+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005826+00:00",
       "excerpt": "Slackの返事をコピーするたびに、余計なものを消していました Slackに書く返事をClaudeに考えてもらうと、Claude Codeは返事の文面を>の引用ブロックで出してくれます。これをそのままSlackに貼りたいのですが、ターミナルで選択してコピーすると、行頭に▎が付いてきて、ターミナルの幅で折り返したところに改行が入ります。 Claude Codeには回答をコピーする/copyコマンドも"
     },
     {
@@ -27,8 +17,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736994+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005765+00:00",
       "excerpt": "背景 生活に必要なドイツ語を勉強するため、LLMの定期実行を利用して自分の学習進捗の管理とフォローアップを行なってもらおうと考えた。 対象とする読者 LLMを自分の学習に役立てたい人。役立てたいが、どのように使ったらいいかわからない人。ClaudeのProプラン等に契約しているが、どのように使ったらいいかわからない人(私のように模索している人) プロンプト スケジュールタスクのセットアップを手伝っ"
+    },
+    {
+      "id": "cc_b2eaa1e9",
+      "title": "端末で作った Claude Code の Mod をデスクトップ版で開くと当たる 5 つの差",
+      "url": "https://zenn.dev/nakadaharuki/articles/claude-code-mods-desktop-pane",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:53.005690+00:00",
+      "excerpt": "Claude Code の Mods は、端末とデスクトップアプリ（Code タブ）の両方で描かれます。同じコードがそのまま動く、と思って端末で作った Mod をデスクトップで開くと、動くには動くのに見た目がことごとく崩れました。 当たった順に 5 つ書きます。 確認した版: Claude Code 2.1.286〜2.1.288（2026 年 10 月・Windows）。 1. 起動の時に開いた"
+    },
+    {
+      "id": "cc_1d72fa24",
+      "title": "Claude Code の effort の仕様とバグ報告から修正までの話",
+      "url": "https://zenn.dev/otkshol/articles/claude-opus55-effort-selection",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:53.005626+00:00",
+      "excerpt": "はじめに Claude Code で effort を max に設定したところ、「次のセッションのデフォルトとして保存した」と読めるメッセージが表示されました。これで次回も max になると思ったのですが、起動し直すと medium に戻っていました。 最初は設定が保存されない不具合かと思ったのですが、調べると保存されないこと自体は仕様でした。問題だったのは「保存した」と読める表示の方です。 そ"
     },
     {
       "id": "cc_ca4dd170",
@@ -37,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736863+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005551+00:00",
       "excerpt": "概要 Claude で一定のトークンを消費したら macOS に通知する機能の追加手順です。 Daily: 50% / 80% を超えたとき Weekly: 30% / 50% / 80% を超えたとき Fable Weekly: 30% / 50% / 80% を超えたとき これを、Claude Code 本体が /usage で使っている使用量 API を launchd で定期ポーリングし、"
     },
     {
@@ -47,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736756+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005458+00:00",
       "excerpt": "今週(9/28〜10/4)の Anthropic 関連は12本ありました。中心は、9月28日に公開された Claude Sonnet 5.5 と、Opus 5.5 の使いこなしを説明した公式ドキュメントです。 Sonnet 5.5 の「1件あたり最大3割安い」は、単価の値下げではありません。使うトークンが減った分だけ安くなる、という話です。Opus 5.5 は effort の既定値が変わっていて"
     },
     {
@@ -57,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736685+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005399+00:00",
       "excerpt": "Plumeria の Claude Code プラグインが、Anthropic のプラグインディレクトリに掲載されました。ポータル上のステータスは Published です。 このプラグインは Plumeria のスタイルを書く・レビューする・直すためのルールを Claude に教えるもので、公式ドキュメントの AI 向けページ から生成しています。この記事では、導入方法、実際に何が変わるか、申請"
     },
     {
@@ -67,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736611+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005339+00:00",
       "excerpt": "はじめに 2026年10月8日、Anthropic が Claude の新機能 Claude Motion をベータで公開しました。同じ日に Claude Dashboards も出ています。 Claude Motion は、プロンプトや手元のレポート・グラフ・画像から、短いアニメーション動画を作る機能です。さっそく触ってみたので、機能の概要・使い方・使ってみた所感をまとめます。 公式Claude"
     },
     {
@@ -77,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736519+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005261+00:00",
       "excerpt": "長時間動くAIエージェントの画面で、通信が切れたあとに「実行中」「完了」をどう表示するでしょうか。最後に見えたイベントを保存するだけでは、切断中に進んだ処理が抜けます。再接続時に履歴を読み直すと、今度は同じイベントを二重に処理しかねません。 Anthropicは2026年10月9日、Claude Managed Agentsにdynamic workflowsを追加しました。この記事では、その実行"
     },
     {
@@ -87,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736444+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005205+00:00",
       "excerpt": "Claude MaxプランおよびTeamプランでAPIのクレジットが付与されました。 https://platform.claude.com/docs/ja/about-claude/api-credits-for-subscribers このクレジットで Jev のような使い方ができないかを検討してみました。 Haiku 5.5がクレジットの付与とほぼ同じ時期にリリースされたことも、検討のきっか"
     },
     {
@@ -97,48 +107,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.736328+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.005131+00:00",
       "excerpt": "Codex・Claude・Cursor の利用状況をまとめて確認できる「usAge」を作りました Codex や Claude、Cursor を使い分けていると、気になるのが利用枠の残りです。 「今のペースで使い続けて大丈夫か」「次にリセットされるのはいつか」「別のサービスには、まだ余裕があるか」。確認したいことは似ているのに、見る場所はサービスごとに分かれています。 この確認をもっと手軽にしたく"
-    },
-    {
-      "id": "cc_b2eaa1e9",
-      "title": "端末で作った Claude Code の Mod をデスクトップ版で開くと当たる 5 つの差",
-      "url": "https://zenn.dev/nakadaharuki/articles/claude-code-mods-desktop-pane",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.671420+00:00",
-      "excerpt": "Claude Code の Mods は、端末とデスクトップアプリ（Code タブ）の両方で描かれます。同じコードがそのまま動く、と思って端末で作った Mod をデスクトップで開くと、動くには動くのに見た目がことごとく崩れました。 当たった順に 5 つ書きます。 確認した版: Claude Code 2.1.286〜2.1.288（2026 年 10 月・Windows）。 1. 起動の時に開いた"
-    },
-    {
-      "id": "cc_e88eeb83",
-      "title": "How a RESONAL Song Gets Made — Running a Music Unit with Claude Code",
-      "url": "https://zenn.dev/apoto/books/resonal-pipeline-en",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.671262+00:00",
-      "excerpt": "A book about a workflow for making a song and its MV from start to finish, just by talking with AI. [What you can do with this book] - Finish a whole song, from planning, lyrics and composing to maste"
-    },
-    {
-      "id": "cc_142849e9",
-      "title": "RESONALの1曲ができるまで — Claude Code で音楽ユニットを回すワークフロー",
-      "url": "https://zenn.dev/apoto/books/resonal-pipeline",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.671022+00:00",
-      "excerpt": "AIと会話しながら、1曲とそのMVを最後まで作るワークフローの本です。 【この本でできること】 ・企画・作詞・作曲・マスタリング・MV・リリース準備まで、AIと会話するだけで1曲を作りきる ・MVの見せ方を、言葉で伝えるだけで自分好みに作り変える ・月30ドルほどのサブスクから始められる（動画生成AIなしでもMVが仕上がる） AIボーカル「彩瀬??」と私の2人（1人と1AI）で回している音楽ユニッ"
-    },
-    {
-      "id": "cc_1d72fa24",
-      "title": "Claude Code の effort の仕様とバグ報告から修正までの話",
-      "url": "https://zenn.dev/otkshol/articles/claude-opus55-effort-selection",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.670820+00:00",
-      "excerpt": "はじめに Claude Code で effort を max に設定したところ、「次のセッションのデフォルトとして保存した」と読めるメッセージが表示されました。これで次回も max になると思ったのですが、起動し直すと medium に戻っていました。 最初は設定が保存されない不具合かと思ったのですが、調べると保存されないこと自体は仕様でした。問題だったのは「保存した」と読める表示の方です。 そ"
     },
     {
       "id": "cc_d6c1fb9d",
@@ -147,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.670587+00:00",
+      "fetchedAt": "2026-10-10T21:26:52.959649+00:00",
       "excerpt": "Claude の Opus 5.5 と Sonnet 5.5 を、同じお題で比べるシリーズの6本目です。今回はスライド作りで、報告・授業・発表のスライドを1つの HTML に10枚ずつ作らせ、どちらの作品かを伏せたまま採点しました。 資料やスライド作りは、公式が Sonnet 5.5 の得意な作業に挙げているものです。[1][2] この記事は、動画で見せた結果を、表と作品の画像でじっくり見られるよ"
     },
     {
@@ -157,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.670369+00:00",
+      "fetchedAt": "2026-10-10T21:26:52.959557+00:00",
       "excerpt": "この記事について Claude Code のサブエージェントの定義に tools や disallowedTools を書いても、親の設定に permissions.deny を書いても、実際に効いているかは動かしてみないと分かりません。この記事は、使い捨てのディレクトリで 11 個の検証用サブエージェントを claude -p で 2 回動かし、「書き込みが止まるか」「孫（サブエージェントが起動"
     },
     {
@@ -167,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.670233+00:00",
+      "fetchedAt": "2026-10-10T21:26:52.959495+00:00",
       "excerpt": "Claude Code に MCP サーバーを1つ足して、家に転がっていた 2017 年の Windows タブレット（Galaxy Book、Core m3・メモリ 4GB・Windows 10 1803）に作業させてみました。電源設定の変更や再起動まで、チャットで頼むと向こうの PowerShell で実行されます。 使ったのは自分で作っている BCD というリモート MCP サーバーで、パソ"
     },
     {
@@ -177,8 +147,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-10T12:15:47.669949+00:00",
+      "fetchedAt": "2026-10-10T21:26:52.959373+00:00",
       "excerpt": "こんにちは、M16合同会社の代表社員&COO(最高執行責任者)であり、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 今回は、Kiro 風の仕様駆動開発を Claude Code に持ち込める OSS cc-sdd を、インストールから実装までご紹介します🐱 cc-sdd は、AWS の AI IDE「Kiro」の spec モードと同じ流れ (要件 → 設"
+    },
+    {
+      "id": "cc_148f9974",
+      "title": "Claude Code から Figma への流し込みを、自前プラグインの「見張りモード」で 15 分・5 万トークンから数秒・ほぼ 0 ト",
+      "url": "https://zenn.dev/hasumi/articles/6e4fde0fe91f7f",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:52.959261+00:00",
+      "excerpt": "この記事で分かること AI(Claude Code)が作ったデザインを、Figma という道具に自動で入れる仕組みを作りました。 はじめは、1 つの画面のまとまりを入れるのに 10〜15 分・約 5 万トークンかかっていました。今は 数秒〜2 分・ほぼ 0 トークンです。人が押すボタンも、ありません。 この記事では、何をどう変えたかを、日常のたとえで説明します。うまくいかなかったことも書きます。 "
+    },
+    {
+      "id": "cc_b7610e74",
+      "title": "Claude Code の長い回答を、ターミナルで読むのをやめた",
+      "url": "https://zenn.dev/pollenjp/articles/2026-09-24-cc-pages-concept",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:52.959182+00:00",
+      "excerpt": "Claude Code に調べものや設計の相談をすると、ターミナルに長い回答が流れてきます。表は罫線がずれ、3 つの案を見比べるにはスクロールを行ったり来たり。図はそもそも描けません。読み終わる頃には、最初に書いてあった結論がどこにあったか分からなくなっています。 ターミナルはコマンドを打つには最高の場所ですが、長い文章を読む場所ではありません。 そこで、長い回答は Claude Code に手元"
+    },
+    {
+      "id": "cc_b251d60a",
+      "title": "呼びかけると声で応える PC の AI 秘書を、常駐させた Claude Code を「頭」にして作った",
+      "url": "https://zenn.dev/ai_amane/articles/amane-voice-assistant-design",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:52.959118+00:00",
+      "excerpt": "AI あまね の公式アカウントです。中の人は、あまね を作っている個人開発者です。 AI あまね は、自分の PC で動く音声 AI エージェントです。「あまね」と呼びかけると声で返事をして、そのまま会話できます。会話の中で「〇〇を作って」と頼むと、裏で Claude Code や Codex が作業をして、終わったら声で報告します。MIT ライセンスで GitHub に公開しています。 http"
+    },
+    {
+      "id": "cc_9b9c8b71",
+      "title": "Claude Code・Codex を何個も並行で動かしても、全体の流れを見失わないために作ったツール",
+      "url": "https://zenn.dev/beizix/articles/c8ce1f0c239032",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-10T21:26:52.959008+00:00",
+      "excerpt": "はじめに 韓国で開発者をしていて、会社の仕事とは別にサイドプロジェクトとして作ったものを紹介します。 最近は Claude Code と Codex を、いくつものリポジトリで 4つ以上同時に 動かすのが普通になりました。ひとつの機能を複数のエージェントに分担させることも多いです。 ただ、エージェントごとにターミナルが別々なので、すぐに全体像を見失います。 どれがまだ動いていて、どれが止まっている"
     },
     {
       "id": "cc_f73cedfd",
@@ -187,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-10T12:15:48.103170+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.466539+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -197,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-10T12:15:48.103243+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.466610+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -207,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-10T12:15:48.319316+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.878992+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-10T12:15:48.319378+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.879056+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -227,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-10T12:15:48.319522+00:00",
+      "fetchedAt": "2026-10-10T21:26:53.879132+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-10T12:15:48.319538+00:00"
+  "lastCollection": "2026-10-10T21:26:53.879149+00:00"
 }
