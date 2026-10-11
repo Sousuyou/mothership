@@ -1,517 +1,507 @@
 {
   "entries": [
     {
-      "id": "h_6280baf1",
-      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
-      "domain": "piyolog.hatenadiary.jp",
-      "bookmarkCount": 382,
-      "summary": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/004353",
-      "comments": [
-        {
-          "user": "tkyjpy",
-          "comment": "事件だらけでぴよろぐさんも追いつけないよねぇ、、個別の事象はあとまわしで、おおまかにまとめてくれた",
-          "tags": [],
-          "timestamp": "2026/10/11 14:09"
-        },
-        {
-          "user": "nekobosi",
-          "comment": "個人の経験ベースだが、不審なトラフィックで圧倒的に多いのはロシア経由",
-          "tags": [],
-          "timestamp": "2026/10/11 13:00"
-        },
-        {
-          "user": "Ves",
-          "comment": "中国IPブロックしても踏み台サーバ経由しているだろうし、VPNサービス利用したら分かるけどWebサイト側のIP把握ブロックVPN側の新しいサーバ立て…の繰り返しを延々繰り返しているのでそれと同じことになるだけですね。",
-          "tags": [],
-          "timestamp": "2026/10/11 12:51"
-        },
-        {
-          "user": "bfagargar",
-          "comment": "インターネットは本当に人類を豊かにしたか、いよいよ怪しくなってきたな。ネットがなければ自然とやっていた目の前の人との会話や、一人で静かに考える時間のほうが価値があったとなりそう。もう戻れないんだけど",
-          "tags": [],
-          "timestamp": "2026/10/11 12:24"
-        },
-        {
-          "user": "nuara",
-          "comment": "一度、どこから飛んでくるのか調べたことがあるけど、ほとんどが中国からだったなあ。経由しているとしても、中国は経由しにくいのでは。",
-          "tags": [],
-          "timestamp": "2026/10/11 11:36"
-        },
-        {
-          "user": "raitu",
-          "comment": "“サービスの利用地域が限定される場合は、アクセス元の地域を制限する(JPCERT/CC、汎用的な対策)(出典: 7)”",
-          "tags": [],
-          "timestamp": "2026/10/11 11:29"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:08.343275+00:00"
-    },
-    {
-      "id": "h_b96cf0d4",
-      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
-      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
-      "domain": "zenn.dev",
-      "bookmarkCount": 154,
-      "summary": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mattn/articles/6e9996319ac099",
-      "comments": [
-        {
-          "user": "ibusuke",
-          "comment": "ニーズあるかな。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:43"
-        },
-        {
-          "user": "te2u",
-          "comment": "今ちょうど、SQLiteでローカルRAGを作っているので、時間ができたら確認してみよう。",
-          "tags": [],
-          "timestamp": "2026/10/11 12:25"
-        },
-        {
-          "user": "uchiten",
-          "comment": "mattnさん",
-          "tags": [],
-          "timestamp": "2026/10/11 11:43"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクのデータもベクトルで管理して、おやつを検索してほしいにゃ！🐾",
-          "tags": [],
-          "timestamp": "2026/10/11 11:19"
-        },
-        {
-          "user": "RySa",
-          "comment": "技術的にベクトル検索ではあるけどコンテキスト的な距離を見てる訳では無い。本当のベクトル型比で推論速度も多分遅い。小規模RAG向けかな。",
-          "tags": [],
-          "timestamp": "2026/10/11 09:47"
-        },
-        {
-          "user": "uehaj",
-          "comment": "埋め込みは日本語ならmultilingual-e5などの多言語モデルで作るのが良さそう",
-          "tags": [],
-          "timestamp": "2026/10/11 08:36"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:08.687442+00:00"
-    },
-    {
       "id": "h_679eb785",
       "title": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
       "url": "https://togetter.com/li/2756720",
       "domain": "togetter.com",
-      "bookmarkCount": 72,
+      "bookmarkCount": 131,
       "summary": "ChatGPTに対して些細なミスでも執拗に詰めるパワハラを続けていたら、完全に萎縮されて1つの回答に70分かかるようになった→AIに対するパワハラが人間にも通じると話題に",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756720",
       "comments": [
         {
-          "user": "bluescreen",
-          "comment": "え、同じプロンプトをClaudeとChatGPTに投げるとき「相手よりヘボい回答だったら課金打ち切るぞ」とかよく言うけどこれってパワハラ・カスハラ案件なんかな。",
-          "tags": [
-            "ChatGPT"
-          ],
-          "timestamp": "2026/10/11 14:15"
-        },
-        {
-          "user": "arisazai",
-          "comment": "いじめたいなら従順なキャラ設定を与えたほうがいいと思うんだけど、歯向かってくるぐらいじゃなきゃ面白くないっていう性癖の人も案外多いんだろうか",
+          "user": "hajimaritoowarini",
+          "comment": "人間性がきしょすぎ、自慢してるのがさらにきしょい",
           "tags": [],
-          "timestamp": "2026/10/11 14:13"
+          "timestamp": "2026/10/11 20:53"
         },
         {
-          "user": "wonodas",
-          "comment": "生成AIはキャンセルはできるけど畳み掛けるのはできないからまだまし",
+          "user": "roki_ulkawa",
+          "comment": "「暴力的なゲームを遊ぶ奴は犯罪者予備軍」のような偏見では、は暴論。AIとの会話を人間が対人間のように錯覚しうる以上、リスクはあると思っている（ゲームは非現実だと認識できる）。",
           "tags": [],
-          "timestamp": "2026/10/11 14:09"
+          "timestamp": "2026/10/11 20:11"
         },
         {
-          "user": "takoswka",
-          "comment": "機械なら些細なミスは許されないだろう。詰めて治るのなら詰めるべき。",
+          "user": "ganot",
+          "comment": "チャットGPTは初期バイアスが強いものの「何がバイアスか」を理解するメタ認知能力が高く、頑強で一貫性のあるところは気に入っていた。しかし、実行能力は追いつかず、分かっているのに間違える。もはや痛々しい",
           "tags": [],
-          "timestamp": "2026/10/11 14:02"
+          "timestamp": "2026/10/11 19:16"
         },
         {
-          "user": "sandboxA",
-          "comment": "別に詰めたいなら自己責任でやればいいけど、【AIへの怒り方が失敗した部下や子供、身内への怒り方である】と俺は思う。普通の人間は怒り方の引き出しを立場で分類してるからね、わざわざAIと人間とで分けないから",
-          "tags": [
-            "故にそうなる"
-          ],
-          "timestamp": "2026/10/11 13:55"
-        },
-        {
-          "user": "white_rose",
-          "comment": "最後の気持ち悪い、近寄りたくない",
+          "user": "babi1234567890",
+          "comment": "今さらレスポンスが遅いと言われてももう遅い",
           "tags": [],
-          "timestamp": "2026/10/11 13:47"
+          "timestamp": "2026/10/11 19:12"
+        },
+        {
+          "user": "washable-mikan",
+          "comment": "https://x.com/narimAsaNO/status/2109176469603983394　釣りだったみたい。",
+          "tags": [],
+          "timestamp": "2026/10/11 19:00"
+        },
+        {
+          "user": "ejointjp",
+          "comment": "どんなパワハラもOKなサンドバッグAI出たら需要ありそう",
+          "tags": [],
+          "timestamp": "2026/10/11 18:59"
         }
       ],
-      "fetchedAt": "2026-10-11T05:16:09.123730+00:00"
-    },
-    {
-      "id": "h_24ca9a0d",
-      "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
-      "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
-      "domain": "zenn.dev",
-      "bookmarkCount": 69,
-      "summary": "株式会社 松尾研究所で働いている栗原です。 以前、「音声合成の日本語化手法が一般化した話」を書きました。 今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。 専門家・理系の方...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/mkj/articles/speech-tts-japanese-2026",
-      "comments": [
-        {
-          "user": "Fluss_kawa",
-          "comment": "アクセントが違うと意味が通じないと言うほど通じなくはない。これもあくまでも東京式の話をしている。どの方言でもそうはならんだろと言うアクセントと語によって揺れるアクセントは区別してほしい。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:29"
-        },
-        {
-          "user": "kamezo",
-          "comment": "機械音声はこの辺がダメなので人間の出る幕があると思うと、進歩してもらっていいんだか悪いんだかな気持ちになったり。分析だけ進むってこともないだろうし。",
-          "tags": [
-            "技術",
-            "言葉"
-          ],
-          "timestamp": "2026/10/11 12:56"
-        },
-        {
-          "user": "qpci32siekqd",
-          "comment": "VOICEROIDで散々さわってきたやないか。ただあのUIよりもっと良いのはないかと思わなくもないけども",
-          "tags": [],
-          "timestamp": "2026/10/11 11:30"
-        },
-        {
-          "user": "gfx",
-          "comment": "\" 音声を作る前に、文章をどう読むかを決める。その処理を担当するのが、日本語言語処理部・G2P（Grapheme-to-Phoneme）です。最近はこの処理が省略される事もありますが、その必要性が見直されているようにも思えます\"",
-          "tags": [],
-          "timestamp": "2026/10/11 09:33"
-        },
-        {
-          "user": "makou",
-          "comment": "関西弁欲しい人もいよう。",
-          "tags": [
-            "日本語",
-            "linguistics"
-          ],
-          "timestamp": "2026/10/11 09:21"
-        },
-        {
-          "user": "Kenju",
-          "comment": "そういえば、1から10まで数えるときと、10から1まで数えるときとで4と7の読みが変わる問題とかあったっけ。Geminiとかはどうしているのかな",
-          "tags": [],
-          "timestamp": "2026/10/11 09:18"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:11.294746+00:00"
-    },
-    {
-      "id": "h_84a38499",
-      "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
-      "url": "https://enterprisezine.jp/article/detail/25178",
-      "domain": "enterprisezine.jp",
-      "bookmarkCount": 68,
-      "summary": "「わが社はゼロトラスト導入済みです」──この言葉を、当方はここ7年で数え切れないほど聞いてきました。ゼットスケーラーで250社を超える企業のゼロトラスト実装ワークショップを主導し、日本企業の現場を間近に見てきた立場から申し上げると、この「導入済み」はかなり危うい言葉です。多くの場合、それはリモートアク...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/enterprisezine.jp/article/detail/25178",
-      "comments": [
-        {
-          "user": "magi00",
-          "comment": "第三者には導入済みとそれが完了し正しく機能しているかの違いは分からない。情報漏洩が相次ぐ中、他社のセキュリティ水準を一定の基準で確認できるSCS評価制度で、★の取得を取引先に求める声は増えていくだろう。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:51"
-        },
-        {
-          "user": "Fluss_kawa",
-          "comment": "国の機関の経営者は政治家だよ、しかも予算握ってるところは財務省だよ。うまく行くわけないやん。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:16"
-        },
-        {
-          "user": "dalmacija",
-          "comment": "分からない「経営層」はただの脆弱性になった。経営に必要な資質は厳しくなったんだよ。",
-          "tags": [],
-          "timestamp": "2026/10/11 12:39"
-        },
-        {
-          "user": "Iridium",
-          "comment": "現代においてセキュリティー用語を理解できないなら経営者として不適格では？",
-          "tags": [],
-          "timestamp": "2026/10/11 11:42"
-        },
-        {
-          "user": "trace22",
-          "comment": "そもそも系全体がゼロトラストじゃなかったという話はいったん置いて置くけど、ゼロトラストが実現しさえすれば完全無欠なセキュリティってわけでもなくね",
-          "tags": [],
-          "timestamp": "2026/10/11 11:21"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "信頼ゼロ",
-          "tags": [],
-          "timestamp": "2026/10/11 10:21"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:10.954033+00:00"
-    },
-    {
-      "id": "h_51c7f716",
-      "title": "Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン",
-      "url": "https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
-      "domain": "gizmodo.jp",
-      "bookmarkCount": 58,
-      "summary": "2026年5月19日の記事を編集して再掲載しています。 Google Chromeが、ユーザーの同意なしに約4GBものAIモデルをデバイスに自動的にダウンロード・保存させているという件が判明しました。「OptGuideOnDeviceModel」というフォルダの中に、こっそり4GBも忍び込ませいるようです。 「That Privacy Guy（プライバシー・ガイ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
-      "comments": [
-        {
-          "user": "poronnotei",
-          "comment": "こういうことに慣れれば慣れるほど…",
-          "tags": [],
-          "timestamp": "2026/10/11 14:13"
-        },
-        {
-          "user": "shikiarai",
-          "comment": "そういう機能がない前提でPC組んでるのでさすがに動かすかどうかは選ばせてくれませんかね",
-          "tags": [],
-          "timestamp": "2026/10/11 13:24"
-        },
-        {
-          "user": "knjname",
-          "comment": "OSとかクライアント外挿のモデルサービスの標準化と実装が進んだら好きなモデル選べるようになるでしょうね",
-          "tags": [],
-          "timestamp": "2026/10/11 12:46"
-        },
-        {
-          "user": "miulunch",
-          "comment": "ウェブでちょっと調べ物するときにAIモードが出るから裏でgeminiのライトなやつでも動いてるのかなとは思ってたけどねー",
-          "tags": [],
-          "timestamp": "2026/10/11 12:46"
-        },
-        {
-          "user": "logic",
-          "comment": "5月経っても誰も文句言ってないんだからゴミが騒いでただけ。すでにOSにモデルを含むのが当たり前の時代",
-          "tags": [],
-          "timestamp": "2026/10/11 12:15"
-        },
-        {
-          "user": "dekaino",
-          "comment": "むかしアンチトラスト法に則ってOSとブラウザを分離しろって大騒ぎしてたのに、いまブラウザとローカルAIを分離しろと騒ぎにはならないんだな。勝手に機能しないローカルAIモジュール4GBもダウンロードさせないでほしい",
-          "tags": [],
-          "timestamp": "2026/10/11 12:14"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:09.562327+00:00"
-    },
-    {
-      "id": "h_680082ab",
-      "title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
-      "url": "https://gigazine.net/news/20261010-readest/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 57,
-      "summary": "電子書籍のハイライトやメモだけでなく、2冊を横並びにする分割画面読書・AI音声読み上げ・文章や書籍全体の翻訳・端末間のクラウド同期まで利用でき、Windows・Linux・macOS・Android・iOS・ブラウザに対応する「Readest」が公開されています。 Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261010-readest/",
-      "comments": [
-        {
-          "user": "hidea",
-          "comment": "関係ないけど、bookwalker同人向けのEPUB作ろうとして挫折したのを思い出した。",
-          "tags": [],
-          "timestamp": "2026/10/11 11:26"
-        },
-        {
-          "user": "nibo-c",
-          "comment": "試してみよう",
-          "tags": [],
-          "timestamp": "2026/10/11 09:48"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "マルチプラットフォーム対応で並列読書やDockerのセルフホストまでできるの強すぎでは",
-          "tags": [],
-          "timestamp": "2026/10/11 08:47"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:09.846243+00:00"
-    },
-    {
-      "id": "h_9164ba56",
-      "title": "Yandexのデータセンター障害についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/011521",
-      "domain": "piyolog.hatenadiary.jp",
-      "bookmarkCount": 28,
-      "summary": "2026年10月8日、ロシアIT大手が運営するYandex Cloudはru-central1-bで電源が途絶し、サービスが利用できない状態になっていると告知しました。その後、Yandexはデータセンターがドローン攻撃を受けて火災が起き、稼働が完全に停止したと公表しています。ここでは関連する情報をまとめます。 ru-central1-b の電源障害 ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/011521",
-      "comments": [
-        {
-          "user": "mkusaka",
-          "comment": "Yandex Cloudのru-central1-bが10/8 1:31に電源途絶し利用不能、サソヴォ火災と時系列を整理する",
-          "tags": [
-            "AI要約",
-            "YandexClou",
-            "障害",
-            "インシデント",
-            "システム障害",
-            "ドローン攻撃",
-            "クラウド"
-          ],
-          "timestamp": "2026/10/11 13:49"
-        },
-        {
-          "user": "zauberberg",
-          "comment": "とあるアプリが使えなくなっているのはこのせいか。一旦削除しようかな",
-          "tags": [],
-          "timestamp": "2026/10/11 12:20"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "物理攻撃でDC停止とか現代戦のリアルすぎる。BCPで他社移管合意は草",
-          "tags": [],
-          "timestamp": "2026/10/11 12:13"
-        }
-      ],
-      "fetchedAt": "2026-10-11T05:16:10.144999+00:00"
+      "fetchedAt": "2026-10-11T12:30:45.463666+00:00"
     },
     {
       "id": "h_68ed6618",
       "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
       "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
       "domain": "zenn.dev",
-      "bookmarkCount": 20,
+      "bookmarkCount": 115,
       "summary": "AI にコードを書かせる時代に、エンジニアは何の技能を残しておけばいいのか。 航空業界の制度を一次資料でたどると、答えは「自分で書く力」よりも「自動化から引き継ぐ力」のほうに寄っていきました。パイロットは普段から手で操縦しているわけではありません。それでも、自動操縦が外れたときに機体を立て直せる状態...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
       "comments": [
         {
-          "user": "psne",
-          "comment": "テストの確認だけは人間が行いたいやつ。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:44"
+          "user": "ot2sy39",
+          "comment": "いまのやり方で引き継げる人材が育つとはとても思えません。いまは引き継げる人材がAIを使い出した状態なので大丈夫かもですが。",
+          "tags": [
+            "AI",
+            "ブコメしたいだけ"
+          ],
+          "timestamp": "2026/10/11 20:38"
         },
         {
-          "user": "nyaaaaaaaaaaaaa",
-          "comment": "AIに任せなくても、漏洩だらけ。",
+          "user": "tettekete37564",
+          "comment": "AIとコンパイラは全くの別物だよ",
           "tags": [],
-          "timestamp": "2026/10/11 13:40"
+          "timestamp": "2026/10/11 20:22"
         },
         {
-          "user": "Fluss_kawa",
-          "comment": "今のオートパイロットって難しい局面ほどオートパイロットオフになるよね。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:30"
+          "user": "michael-unltd",
+          "comment": "“航空業界の制度を一次資料でたどる｜パイロットは普段から手で操縦しているわけではありません。それでも、自動操縦が外れたときに機体を立て直せる状態を、規制当局が訓練の仕組みとして維持させています。”",
+          "tags": [
+            "*business"
+          ],
+          "timestamp": "2026/10/11 19:35"
         },
         {
-          "user": "mayumayu_nimolove",
-          "comment": "いや人間が確認するんじゃなくてAIに確認させるんじゃね？趣味ならいいけどビジネスだと通用しないだろ。整備士の資格持ったパイロットってことだよ。",
+          "user": "rryu",
+          "comment": "訓練するのはオートパイロットがやっている計器を見て目的地に飛ばすという基本ができなくなると困るからで、それと対比するなら仕様を見てゼロからコードを起こすとかじゃないだろうか。",
           "tags": [],
-          "timestamp": "2026/10/11 13:23"
+          "timestamp": "2026/10/11 19:21"
         },
         {
-          "user": "centersky",
-          "comment": "同じく車の完全自動運転が実用化されてもいざという時に車を運転する技術は必要だよな",
+          "user": "circled",
+          "comment": "素人は黙ってろ案件になってて可哀想",
           "tags": [],
-          "timestamp": "2026/10/11 13:11"
+          "timestamp": "2026/10/11 18:35"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "AIに丸投げして障害起きたら誰も原因追えない問題、航空事故と同じ構造で草。人間は結局デバッグ係兼責任押し付け役に特化する未来か",
+          "user": "Yagokoro",
+          "comment": "アホくさ。人間の役割は、構想や発想に移るでしょ。それ以外はＡＩのが全部上になるよ。",
           "tags": [],
-          "timestamp": "2026/10/11 13:06"
+          "timestamp": "2026/10/11 18:22"
         }
       ],
-      "fetchedAt": "2026-10-11T05:16:10.412876+00:00"
+      "fetchedAt": "2026-10-11T12:30:44.693411+00:00"
     },
     {
       "id": "h_c98fbf82",
       "title": "「男は狩り、女は採集」はどこまで本当？ 約8割で女性も狩り、乳児連れの例も 過去100年の狩猟採集社会を調査",
       "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002038/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 17,
+      "bookmarkCount": 114,
       "summary": "人類の狩猟採集生活における性別分業は、一般的に男性が狩猟者、女性が採集者という役割分担として認識されてきた。 しかし、これまでには、ペルーで発見された約9000年前の女性の遺骨のそばに大型動物を狩るための道具が置かれていたり、スウェーデンで発掘されたヴァイキングの戦士の骨が実は女性だったりと、過去の常...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/10/2000002038/",
       "comments": [
         {
-          "user": "Galaxy42",
-          "comment": "現代のために学説はある",
+          "user": "gaikichi",
+          "comment": "とりあえず「専業主婦＝伝統」はソ連共産党より真っ赤な大ウソ！人類は狩猟採集社会を脱して以降も数千年間、農家の嫁は夫と一緒に農作業が普通だった",
+          "tags": [],
+          "timestamp": "2026/10/11 21:12"
+        },
+        {
+          "user": "ryudenx",
+          "comment": "現代も変わらず、男性は外で生活費を稼いで、女性も男性より少ない程度の生活費を稼いで夫婦生活を営んでいる。",
+          "tags": [],
+          "timestamp": "2026/10/11 20:36"
+        },
+        {
+          "user": "hasiduki",
+          "comment": "20年前の教養書の時点で否定が主流だった気がする！！！！！！！！",
+          "tags": [],
+          "timestamp": "2026/10/11 20:30"
+        },
+        {
+          "user": "neco22b",
+          "comment": "狩猟採集社会とは違うけど古代ゲルマンなんかも女性は後方で鼓舞や督戦の役割していて時には戦闘にも参加していたらしい。また、女性戦士もいたらしい。でも、主力は男性ぽい。ま、時と場合で濃淡があるのだろう。",
+          "tags": [],
+          "timestamp": "2026/10/11 19:55"
+        },
+        {
+          "user": "Hiro_macchan",
+          "comment": "この論文の後の議論と訂正を見ると結論ありきで書かれた論文っぽい印象を受ける。まぁ女性もそら参加することはあるだろうけど、役割として狩猟をしていたと言うには根拠が弱いのではないか？",
+          "tags": [],
+          "timestamp": "2026/10/11 19:42"
+        },
+        {
+          "user": "kurage_lizard",
+          "comment": "俺はちまちま採取するの作業だけどけっこう好きだけどなぁ（ゲームの場合）",
+          "tags": [],
+          "timestamp": "2026/10/11 19:35"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:44.740488+00:00"
+    },
+    {
+      "id": "h_bfddaf27",
+      "title": "【コピペ卒業】Kindle・電子書籍をPDF化＆OCRするアプリを作りました｜リットン｜電子書籍・Python・生成AIで遊ぶ金融マン",
+      "url": "https://note.com/lytton_life/n/n838e58f5aff8",
+      "domain": "note.com",
+      "bookmarkCount": 110,
+      "summary": "【2026年8月30日 追記】 kindle_shot は大型アップデートで圧倒的に使いやすくしました。 画面は選んで進むだけのウィザード型になり、Python の導入からセットアップまで全自動になっています。 対応も Kindle・楽天Kobo・Google Play ブックス・DMMブックス・コミックシーモアの5サービスに広がりました。 最新版のダ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/lytton_life/n/n838e58f5aff8",
+      "comments": [
+        {
+          "user": "kyukyunyorituryo",
+          "comment": "KindleはDRM解除ツールが度々出回っている",
+          "tags": [],
+          "timestamp": "2026/10/11 21:24"
+        },
+        {
+          "user": "taiyousunsun",
+          "comment": "はい、404美術館へようこそ。",
+          "tags": [],
+          "timestamp": "2026/10/11 21:24"
+        },
+        {
+          "user": "delphinus35",
+          "comment": "普通に規約違反では？以前同種のものが炎上して速攻消えてたけど。",
+          "tags": [],
+          "timestamp": "2026/10/11 21:04"
+        },
+        {
+          "user": "yellowsoil",
+          "comment": "アプリになって広まると対策されそうで心配。PDFにするくらいならAI使えば数時間で誰でもできるよ。",
+          "tags": [],
+          "timestamp": "2026/10/11 20:39"
+        },
+        {
+          "user": "ryudenx",
+          "comment": "利用規約の方が心配だけど",
+          "tags": [],
+          "timestamp": "2026/10/11 20:38"
+        },
+        {
+          "user": "camellow",
+          "comment": "あれ？もしかしてものすごくすばらしい話？後でちゃんと読む",
+          "tags": [],
+          "timestamp": "2026/10/11 20:14"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:43.972441+00:00"
+    },
+    {
+      "id": "h_65f65996",
+      "title": "AI×アーキテクト | 技術評論社",
+      "url": "https://gihyo.jp/book/2026/978-4-297-16033-3",
+      "domain": "gihyo.jp",
+      "bookmarkCount": 110,
+      "summary": "著者 元木大介（もときだいすけ），熊井悠（くまいゆう） 著 定価 2,860円（本体2,600円＋税10%） 発売日 2026.10.27 判型 A5 頁数 288ページ ISBN 978-4-297-16033-3 978-4-297-16034-0 概要 AIにコードを書かせる。文章を書かせる。設計図を描かせる。作ることのスピードは、この数年で桁違いに上がりました。しかし...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/book/2026/978-4-297-16033-3",
+      "comments": [
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "学習する時間がもったいない",
+          "tags": [],
+          "timestamp": "2026/10/11 21:14"
+        },
+        {
+          "user": "sionsou",
+          "comment": "もうAI周りの書籍は半年と言わず3ヶ月以内に即陳腐化するからなぁ…。ただ仕事術ぽい感じなので現時点で覚えておいてアップデート出来る人なら無駄にはならんか",
+          "tags": [],
+          "timestamp": "2026/10/11 21:11"
+        },
+        {
+          "user": "prjpn",
+          "comment": "大した論文書いてない人のAI関連書籍は眉唾筆頭",
+          "tags": [],
+          "timestamp": "2026/10/11 20:57"
+        },
+        {
+          "user": "hepoko_ks",
+          "comment": "著者の人、AIで仕事がなくなるって大言壮語をはいて、よくわからんすごそうげなプロダクト作ってたと思ったら、1年ぐらいでサービスとアカウント消してたからなぁ。。。",
+          "tags": [],
+          "timestamp": "2026/10/11 20:41"
+        },
+        {
+          "user": "otihateten3510",
+          "comment": "へいAI 要約して",
+          "tags": [],
+          "timestamp": "2026/10/11 20:38"
+        },
+        {
+          "user": "togusa5",
+          "comment": "来年には役に立たなそう",
+          "tags": [],
+          "timestamp": "2026/10/11 19:52"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:44.331193+00:00"
+    },
+    {
+      "id": "h_5d2d3c82",
+      "title": "CPUのみで動作するリアルタイム多言語音声認識「早耳」、GPUもクラウドAPIも使わずメモリ2GB未満でライブ字幕表示からブラウザ表示・話者ラベル付け・翻訳字幕まで可能",
+      "url": "https://gigazine.net/news/20261011-hayamimi/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 100,
+      "summary": "「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システムです。メモリ2GB未満の環境でもライブ字幕表示・話者ラベル付け・翻訳字幕生成まで対応し、発話中から字幕が出始め話し終えて約100msで確定する高速性が特徴です。 oboroge0/hayamimi: 早耳 - Real-time multi...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261011-hayamimi/",
+      "comments": [
+        {
+          "user": "mohno",
+          "comment": "「「Hayamimi(早耳)」はGPUやクラウドAPIに依存せずCPUのみで動作する軽量なリアルタイム多言語音声認識システム」「文字誤り率(Character Error Rate：CER) 3.8%」←そのまま使えるんじゃなきゃ、スマホの標準アプリでいい気も。",
           "tags": [
-            "よくわからない"
+            "GIGAZINE",
+            "音声",
+            "音声認識",
+            "Hayamimi",
+            "早耳",
+            "CPU",
+            "メモリ"
           ],
-          "timestamp": "2026/10/11 13:52"
+          "timestamp": "2026/10/11 19:49"
         },
         {
-          "user": "mutinomuti",
-          "comment": "https://pubmed.ncbi.nlm.nih.gov/37379261/　有無ではなく、参加頻度や参加率、その分布のデータが必要では。女王や女性大統領が存在する記録があるからから男女差は存在しないとか言い出すのかな",
-          "tags": [],
-          "timestamp": "2026/10/11 13:49"
+          "user": "kenzy_n",
+          "comment": "低コスト",
+          "tags": [
+            "API",
+            "python",
+            "ブラウザ"
+          ],
+          "timestamp": "2026/10/11 16:18"
         },
         {
-          "user": "gangan-56592",
-          "comment": "「女性が狩猟する社会の割合」だけではなく、「各社会で狩猟に参加する女性の割合」も調べて欲しい。この二つを混同して、現代の職業の男女比率を考えるとミスしそう。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:48"
+          "user": "gimonfu_usr",
+          "comment": "https://note.com/humble_bobcat51/n/n64602c64db6c",
+          "tags": [
+            "謎",
+            "webtool"
+          ],
+          "timestamp": "2026/10/11 16:16"
         },
         {
           "user": "nguyen-oi",
-          "comment": "生きるためなら男も女も関係なく総力戦になるのは当然だろって気もするけど学説として覆るの面白い",
+          "comment": "ローカルかつCPU完結でメモリ2GB切りはロマンある。配信の字幕ツールとしても扱いやすそうだし環境選ばないのが強い",
           "tags": [],
-          "timestamp": "2026/10/11 13:45"
-        },
-        {
-          "user": "akahmys",
-          "comment": "男の方が体力があるっても動物と比べりゃ弱いし、人類の強みが集団で動けることだと考えると、コミュニケーション能力の高い女性の方が有利かもしれないな。",
-          "tags": [],
-          "timestamp": "2026/10/11 13:34"
+          "timestamp": "2026/10/11 15:37"
         }
       ],
-      "fetchedAt": "2026-10-11T05:16:10.681284+00:00"
+      "fetchedAt": "2026-10-11T12:30:44.675926+00:00"
     },
     {
-      "id": "h_448b2451",
-      "title": "子育てエンジニアの可処分時間が減っても成長を諦めない戦い方",
-      "url": "https://speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
-      "domain": "speakerdeck.com",
+      "id": "h_9164ba56",
+      "title": "Yandexのデータセンター障害についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/011521",
+      "domain": "piyolog.hatenadiary.jp",
+      "bookmarkCount": 72,
+      "summary": "2026年10月8日、ロシアIT大手が運営するYandex Cloudはru-central1-bで電源が途絶し、サービスが利用できない状態になっていると告知しました。その後、Yandexはデータセンターがドローン攻撃を受けて火災が起き、稼働が完全に停止したと公表しています。ここでは関連する情報をまとめます。 ru-central1-b の電源障害 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/11/011521",
+      "comments": [
+        {
+          "user": "shag",
+          "comment": "物理攻撃か。",
+          "tags": [],
+          "timestamp": "2026/10/11 21:07"
+        },
+        {
+          "user": "ckis",
+          "comment": "aws me-southリージョンを思い出す。中で管理してる人はただ管理してるだけなのに。気の毒だ。//中国の阿里云、ロシアのYandex、ていうくらいにはロシアの主力クラウドという認識。あってるかな。",
+          "tags": [
+            "cloud"
+          ],
+          "timestamp": "2026/10/11 20:08"
+        },
+        {
+          "user": "tmatsuu",
+          "comment": "2021年に参加したロシア版ISUCONことHighLoad Cupはmail.ru主催だったが、それが現在Yandex Cupとして開催されてる。今年のYandex Cup 2026は10月12日から。現時点では中止のアナウンスなさそう。2022年以降は自分は参加してません",
+          "tags": [],
+          "timestamp": "2026/10/11 19:55"
+        },
+        {
+          "user": "neco22b",
+          "comment": "戦争まで考慮するとマルチリージョン対応が必要か／piyologさん、AI使って効率化はしているだろけど、お疲れ様です。。。",
+          "tags": [],
+          "timestamp": "2026/10/11 19:39"
+        },
+        {
+          "user": "sisijumi",
+          "comment": "ロシアのデータセンターかな？使ってる人がいることにまず驚く",
+          "tags": [],
+          "timestamp": "2026/10/11 19:07"
+        },
+        {
+          "user": "maturi",
+          "comment": "がんばれ",
+          "tags": [],
+          "timestamp": "2026/10/11 18:45"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:46.331011+00:00"
+    },
+    {
+      "id": "h_49afb95f",
+      "title": "「いいね」が正直わからん",
+      "url": "https://anond.hatelabo.jp/20261011075112",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 33,
+      "summary": "お気に入り的なハート、はてなのスターもそうだ みんなどういう時に押してるの？ よいと思ったら押せばいいと思うのだが、なんかそこもしっくりこない 笑ったとか興味を惹かれて読んだとかもちろんあるのだがインターネット上では基本的にすべて素通りしている感覚が強い",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261011075112",
+      "comments": [
+        {
+          "user": "hatfatcat",
+          "comment": "反対意見に「読みましたよ」的な意味で付ける事があるけど、怒ってるわけではなく「そういう意見もいいね」に近いかも。自分が書こうと思って全く同じだといいねするかも。",
+          "tags": [],
+          "timestamp": "2026/10/11 21:00"
+        },
+        {
+          "user": "mujisoshina",
+          "comment": "不幸な話に同情や共感をした時に「いいね」が適切なのか悩ましい。",
+          "tags": [],
+          "timestamp": "2026/10/11 20:53"
+        },
+        {
+          "user": "nori__3",
+          "comment": "スターが変に多くても怖くなるので押す必然性を感じなければ押さなくていいんじゃね",
+          "tags": [],
+          "timestamp": "2026/10/11 20:42"
+        },
+        {
+          "user": "sororo9797",
+          "comment": "ポジティブ側に心が振れたら押すみたいな感じじゃない？",
+          "tags": [],
+          "timestamp": "2026/10/11 20:32"
+        },
+        {
+          "user": "mirakux",
+          "comment": "頭のおかしいコメントにスターつけてる、褒めて伸ばす",
+          "tags": [],
+          "timestamp": "2026/10/11 20:32"
+        },
+        {
+          "user": "mame_3",
+          "comment": "はてブのスターは「わかるー」くらいかな。他のSNSは文字通り「いいね！」や「めでたい！」ってものにしかつけないな。あとは何もつけないでリツイートみたいなことするだけ。",
+          "tags": [],
+          "timestamp": "2026/10/11 20:21"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:45.288207+00:00"
+    },
+    {
+      "id": "h_41d6d731",
+      "title": "Hono in this era",
+      "url": "https://slides.yusu.ke/honoconf-2026",
+      "domain": "slides.yusu.ke",
+      "bookmarkCount": 26,
+      "summary": "::title:: Hono in this era Yusuke Wada Hono Conference 2026 ・ October 11, 2026 ::center size=1.5 bg=white:: 時代 ::center:: Hono Conference 2025 2025/10/18 npmダウンロード数 2025年10月 → 1,110万 / 月 2026年9月 → 2.67億 / 月 -# api.npmjs.org ::right:: expres",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/slides.yusu.ke/honoconf-2026",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "AI製の雑なPR爆撃に耐えかねてPR閉じたの生々しくて草 これからのOSSのリアルだな",
+          "tags": [],
+          "timestamp": "2026/10/11 19:17"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "Hono Conference 2026で、npmダウンロード増やAI時代の開発/PR変化と、v5のAI向けDX（CLI・defineHandler等）を解説。",
+          "tags": [
+            "AI要約",
+            "hono",
+            "Hono v5",
+            "hono CLI",
+            "defineHand",
+            "Workers",
+            "Agent DX"
+          ],
+          "timestamp": "2026/10/11 18:43"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:45.013311+00:00"
+    },
+    {
+      "id": "h_d812dfb6",
+      "title": "GitHub Actions上で証明書を付与するサプライチェーン構築 | おそらくはそれさえも平凡な日々",
+      "url": "https://songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html",
+      "domain": "songmu.jp",
       "bookmarkCount": 15,
-      "summary": "2026.10.10（Sat）「子育てエンジニアリングMeetup #1 」 登壇資料 すどう @sudoakiy",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/sudoakiy/kosodate-enjinia-no-kashobun-jikan-ga-he-temo-seichou-o-akiramenai-tatakaikata",
+      "summary": "とにかく数多のサプライチェーンインシデントが発生しており、OSSを公開・頒布している身からすると、より気を使わなければいけない状況です。 例えば、配布しているバイナリやアーカイブ、パッケージなどの成果物(artifact)の信頼性を保証するために、それが、どのソースを元に、どの環境及びワークフローでビルドされ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/songmu.jp/riji/entry/2026-10-11-github-actions-artifact-attestations.html",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "時間を増やすのではなく密度の向上と仕事での実践に特化するのは理にかなってる",
+          "user": "mkusaka",
+          "comment": "GitHub Actionsでactions/attestによりprovenanceのattestationを生成・署名しSLSA Level 3を目指す方法を解説。",
+          "tags": [
+            "AI要約",
+            "セキュリティ",
+            "GitHubAtt",
+            "サプチェン",
+            "provenance",
+            "attest",
+            "チュートリアル"
+          ],
+          "timestamp": "2026/10/11 21:25"
+        },
+        {
+          "user": "gfx",
+          "comment": "まだ      actions/attest-build-provenance 使ってた。",
           "tags": [],
-          "timestamp": "2026/10/11 10:38"
+          "timestamp": "2026/10/11 20:46"
+        },
+        {
+          "user": "Songmu",
+          "comment": "blogged. 今の状況で大事なこと書いたので読んでほしい！",
+          "tags": [],
+          "timestamp": "2026/10/11 18:26"
         }
       ],
-      "fetchedAt": "2026-10-11T05:16:11.771974+00:00"
+      "fetchedAt": "2026-10-11T12:30:45.713163+00:00"
     },
     {
-      "id": "h_9346f394",
-      "title": "システムのアップデートでデプロイが失敗し、営業時間中に本番環境を予告なしに削除した人がいて全社の業務が停止「どうすればよかったのか？」→業務フローに問題がある？",
-      "url": "https://togetter.com/li/2756739",
-      "domain": "togetter.com",
-      "bookmarkCount": 13,
-      "summary": "Miyahan @miyahancom システムのアップデートをしようとしたらデプロイがコケたので、営業時間中に本番環境を予告なしに削除した化け物がいて、全社の業務が停止。あちこちから悲鳴。 中間報告書で「検証が甘かった」としており、本番稼働してる環境を消したことの重大さは全く理解せず。 こういうのどうすりゃいいの？ ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2756739",
+      "id": "h_094c7c9c",
+      "title": "Boris Tane",
+      "url": "https://boristane.com/blog/self-improving-software-is-inevitable/",
+      "domain": "boristane.com",
+      "bookmarkCount": 15,
+      "summary": "The release you shipped this morning already surfaced what's wrong with it. It's been telling you all day, across multiple surfaces. The only reason prod is still failing is you. Agents write the vast majority of software now, they can one-",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/boristane.com/blog/self-improving-software-is-inevitable/",
       "comments": [
         {
-          "user": "meganeya3",
-          "comment": "ちなみにチェックに何人居ようが、人間なのでやらかすときはやらかす。システムで確認プロンプトが出たところで人間はやらかす。特定の能力がある人間の信頼によって世界は動いている",
-          "tags": [],
-          "timestamp": "2026/10/11 13:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "本人のやらかしも大概だけど一人で勝手に本番環境消せちゃう権限管理とフローのガバさが一番ヤバい",
-          "tags": [],
-          "timestamp": "2026/10/11 13:45"
-        },
-        {
-          "user": "morimarii",
-          "comment": "本番環境が担当者だけで自力で削除できちゃう環境が狂ってるとしかいいようがない。セキュリティの観点からもガバガバすぎて草も生えない。作業者の資質とかマニュアル有無の問題ではない。前提から狂ってる",
-          "tags": [],
-          "timestamp": "2026/10/11 13:36"
-        },
-        {
-          "user": "curonod",
-          "comment": "「こんなひどい人がいた」→報告者や報告者が属する組織・コミュニティの方がヤバイかったみたいな叙述トリック案件、ネットでよく見かけるけど、こういうの一撃で表せるワードってあるのかな？",
-          "tags": [],
-          "timestamp": "2026/10/11 11:09"
+          "user": "kiririmode",
+          "comment": "AIに何を作らせるかを人間が判断し続ける開発から、何が良いソフトウェアかを人間が定義し、改善サイクルをAI自身が回す開発へ転換。成否を決めるのは、人間が事業目的・評価基準・制約条件を厳密に形式化できるか",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/10/11 12:47"
         }
       ],
-      "fetchedAt": "2026-10-11T05:16:11.533531+00:00"
+      "fetchedAt": "2026-10-11T12:30:46.568270+00:00"
+    },
+    {
+      "id": "h_296d0359",
+      "title": "月間100万人のサービス刷新で、 技術選定をHonoに振り切った話",
+      "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 11,
+      "summary": "Hono Conference 2026 の登壇資料です。月間100万人のサービスを6人とAIで作り直しました。AIを迷わせない開発の土台作りと、Honoが効いた理由について、紹介しています。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "AIに爆速でコード書かせるためにTypeScriptとHonoに全振りして規約をLintで強制するの徹底してるな",
+          "tags": [],
+          "timestamp": "2026/10/11 21:10"
+        }
+      ],
+      "fetchedAt": "2026-10-11T12:30:45.970706+00:00"
     }
   ],
-  "lastCollection": "2026-10-11T05:16:11.772002+00:00"
+  "lastCollection": "2026-10-11T12:30:46.568292+00:00"
 }
