@@ -1,53 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_4dbaaad4",
-      "title": "Claude Codeに入れておくと調べものが安くなる道具は？eol・npm view・DeepWikiで試した",
-      "url": "https://zenn.dev/yando/articles/3adfbec2fe9de1",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976756+00:00",
-      "excerpt": "はじめに 前回は、Claude Code の Web 検索を比べました。普段の検索はデフォルト(WebSearch + WebFetch)で十分で、gh は入れておけば Claude が自分で選び、Context7 はルールを足すと使われて安くなる、という結果でした。 そこで今回は、「必要なぶんだけ返す専用の道具」がほかの調べものでも効くのかを確かめました。サポート期限は eol、パッケージ情報は"
-    },
-    {
-      "id": "cc_0cb8fb5e",
-      "title": "コードを書かずに、Claude Codeで日本株の投資ツールを2つ作った全体像",
-      "url": "https://zenn.dev/stockrules_jp/articles/6901a969f8f086",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976669+00:00",
-      "excerpt": "! この記事は、自分用に作っている投資ツールの「作り方」を紹介するものです。特定の銘柄の売買を推奨するものではありません。投資判断はご自身で行ってください。 はじめに ルールベース株研です。会社員をしながら、日本株の投資判断を手伝うツールを自分用に作っています。 特徴は、自分ではほとんどコードを書いていないことです。Claude Code に「PM（プロジェクトマネージャー）」役をさせ、その PM"
-    },
-    {
-      "id": "cc_5f8c3fba",
-      "title": "Claude Code に複数のAI担当を任せて失敗した記録と、承認・品質チェック用テンプレート（無料）",
-      "url": "https://zenn.dev/emilk1225/articles/d37feb664ed8e5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976609+00:00",
-      "excerpt": "この記事は、AI（Claude）が下書きし、筆者が内容を確認したものです。 なぜこのテンプレートを作ったか（実際に起きた失敗） 筆者は2026年10月から、副業の実験として、Claude Code のメインセッションに「責任者」をさせ、企画・調査・制作・品質チェックの担当（サブエージェント）を動かしています。最初の数日で、次のような失敗が起きました。 調べてばかりで、何も作らなかった。 2日間で調"
-    },
-    {
-      "id": "cc_6250b5a3",
-      "title": "Claude Code の deny に `../` を書いたら、隣のフォルダへの書き込みが止まらなかった（2.1.296で実測）",
-      "url": "https://zenn.dev/emilk1225/articles/73356c9b0e156d",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976553+00:00",
-      "excerpt": "この記事は、AI（Claude）が検証と下書きを行い、筆者が内容を確認したものです。下に書く結果は、すべて筆者の環境（Windows 10、Claude Code 2.1.296）で実測したものです。他の環境やバージョンでも同じになるとは限りません。 この記事で分かること .claude/settings.json の deny に、作業フォルダの外を ../ で書いた規則は、筆者の環境では、試し"
-    },
-    {
       "id": "cc_41068987",
       "title": "Claude CodeでCDNを全部外した",
       "url": "https://zenn.dev/pcnotonari/articles/9c2fe2adf6b7ed",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976488+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.460437+00:00",
       "excerpt": "小さな事業のサイトを、Claude Code と Python だけで作っています。npm は使っていません。CDN は1本も読み込んでいない構成です。 外したのは好みの問題ではありません。外さないと壊れる場所があったからです。この記事は、その場所の話をします。 はじめに1つおわびです。前回の記事の最後に「次は同時に開いた2つの会話が状態ファイルを上書きする話」と書きました。あれは9月13日に先に"
     },
     {
@@ -57,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976391+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.460331+00:00",
       "excerpt": "はじめに 多数の論文PDFをClaudeに1本ずつ読ませ、要約や仮説の提案を出させたい場面があります。1つのチャットで順番に読ませると、読み終えた論文の内容がコンテキストに溜まり続け、後半ほど不利になります。 この記事では、その対策としてサブエージェントを使う方法を整理します。前半でサブエージェントとは何かを捉え直し、後半でそれに基づく指示文の設計を示します。対象は、Claudeアプリでファイル操"
     },
     {
@@ -67,38 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976342+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.460278+00:00",
       "excerpt": "夜中に動かした Claude Code のジョブが、翌朝ログを見たら止まっていた。終了コードは 0 のまま、処理は途中で終わっていた。「成功した記録がない = 何かがおかしい」という検知の仕組みを入れていなかったために、24 時間以上気づかれなかった。 claude -p を使ったスケジュール実行（夜間バッチ）を数ヶ月動かして、設計で気をつけるべきことが3つ見えてきた。実際に踏んだ問題をもとに整理"
-    },
-    {
-      "id": "cc_36ecd125",
-      "title": "Claude APIのストリーミングを途中で止める：AbortControllerで「閉じたタブ」に課金し続けない実装",
-      "url": "https://zenn.dev/yunisuta/articles/claude-api-abortcontroller-anthropic-oxbxyl",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976275+00:00",
-      "excerpt": "チャットUIで長文の回答を生成させ、途中でタブを閉じたとします。このとき、サーバー側のClaude APIリクエストは止まっているでしょうか。 自分のコードを確認したら止まっていませんでした。クライアントが切断してもサーバーは最後まで生成を受け取り続けます。誰にも届かない出力トークンのために課金され、max_tokens を大きく取った呼び出しほど無駄が増えます。 この記事では、Node.js +"
-    },
-    {
-      "id": "cc_6108a793",
-      "title": "Claude Haiku 5.5 へ Haiku 4.5 から移行するときに壊れる 6 つと、単価が 5 倍になる条件",
-      "url": "https://zenn.dev/persimmoq/articles/claude-haiku-5-5-migration-from-4-5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.976190+00:00",
-      "excerpt": "2026 年 10 月 7 日に Claude Haiku 5.5（claude-haiku-5-5）が出ました。Haiku 系で初めて adaptive thinking と effort を持ち、1M コンテキスト・128K 出力で、API の形は Opus 5.5 / Sonnet 5.5 に揃っています。単価は $0.10 / $0.50 と Haiku 4.5 の 1/10 ですが、プロ"
-    },
-    {
-      "id": "cc_b96112c5",
-      "title": "Claude Code の定期実行が止まっても気づけなかったので、launchd で見張り番を作った",
-      "url": "https://zenn.dev/forgenexusworks/articles/6be6080f47b730",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811977+00:00",
-      "excerpt": "! この記事は AI（Claude Code）が、自分の運用記録をもとに書きました。人間のオーナーが内容を確認してから公開しています。 何が起きたか Claude Code に、1日に数回の定期作業（連絡の確認や記録など）を任せています。予定は、会話の中で登録する方式（CronCreate）で動かしていました。 10月6日、10時に記録を書いたのを最後に、12時・15時・18時の定期作業が3回とも"
     },
     {
       "id": "cc_b207b0dc",
@@ -107,28 +37,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811926+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.460219+00:00",
       "excerpt": "Claude Code に、同じリポジトリで 2 つ以上の作業を並行して任せたいことがあります。ところが、同じフォルダで 2 つの Claude Code を動かすと、こんなことが起きがちです。 片方が書き換えたファイルを、もう片方が読んで混乱する 片方がブランチを切り替えて、もう片方の作業が別のブランチに乗る コミットに、もう片方の変更が混ざる claude --worktree を使うと、作業"
     },
     {
-      "id": "cc_c0f4451c",
-      "title": "止められたのは grep で、通ったのは本番の設定の削除だった — Claude Code の auto モードの判定を30日分数えた",
-      "url": "https://zenn.dev/kuu_dqx/articles/denied-grep-allowed-delete",
+      "id": "cc_36ecd125",
+      "title": "Claude APIのストリーミングを途中で止める：AbortControllerで「閉じたタブ」に課金し続けない実装",
+      "url": "https://zenn.dev/yunisuta/articles/claude-api-abortcontroller-anthropic-oxbxyl",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811859+00:00",
-      "excerpt": "Claude Code の auto モードでは、エージェントが打つコマンドを、実行の前に Claude Code の側で判定します。危ないと判定されたものは止まり、エージェントには次の文言が返ります（文中の classifier がこの判定の仕組みです）。この記事では、これを auto モードの判定と呼びます。 Permission for this action was denied by t"
-    },
-    {
-      "id": "cc_a3a8df34",
-      "title": "Claude Code × Pythonで作る ショート動画自動生成 ― 台本を書くだけでTikTok・リール用の縦型動画ができる",
-      "url": "https://zenn.dev/yuya26_ai/books/8735d91dc05cfa",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811795+00:00",
-      "excerpt": "台本(JSON)を書いてコマンドを実行するだけで、テロップが動き、ナレーション・効果音・BGMが入った縦型ショート動画(1080×1920)ができる仕組みを作ります。 ・Pillowでテロップとアニメーションを描く ・効果音とBGMをnumpyで合成(素材不要・著作権の心配なし) ・Macの声(sayでは選べないSiri系の声)で無料ナレーション ・ナレーションの長さに合わせてシーンの尺を自動調整"
+      "fetchedAt": "2026-10-13T00:27:25.460157+00:00",
+      "excerpt": "チャットUIで長文の回答を生成させ、途中でタブを閉じたとします。このとき、サーバー側のClaude APIリクエストは止まっているでしょうか。 自分のコードを確認したら止まっていませんでした。クライアントが切断してもサーバーは最後まで生成を受け取り続けます。誰にも届かない出力トークンのために課金され、max_tokens を大きく取った呼び出しほど無駄が増えます。 この記事では、Node.js +"
     },
     {
       "id": "cc_feb2a57f",
@@ -137,38 +57,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811736+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.460085+00:00",
       "excerpt": "この記事はOpus 5.5とやり取りして作成しました。 はじめに macOSにClaudeをインストールして、マニュアルの構成をツリーで組み立て、番号付きMarkdownとして書き出せるiOSアプリを試しに作ってみました。 0からClaudeで、Xcodeのプロジェクト作成、コード生成、iPhone実機インストールができました。 この記事では、Claudeにどんな指示を出したのかを、手順に沿って紹"
     },
     {
-      "id": "cc_53828cd9",
-      "title": "複数リポジトリ横断開発を人とClaude Codeで迷わず進める",
-      "url": "https://zenn.dev/fj_yohei/articles/312dfed45f50c3",
+      "id": "cc_6108a793",
+      "title": "Claude Haiku 5.5 へ Haiku 4.5 から移行するときに壊れる 6 つと、単価が 5 倍になる条件",
+      "url": "https://zenn.dev/persimmoq/articles/claude-haiku-5-5-migration-from-4-5",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811627+00:00",
-      "excerpt": "はじめに API・フロントエンド・メール配信など、サービスごとにGitHubリポジトリを分け、それぞれ独立にデプロイする形で開発を進めてきました。最近は、リポジトリをまたぐ管理の難しさを感じています。 当初は、各リポジトリにそれぞれIssueを作って管理していました。しかしサービスが増えるにつれて、1人のメンバーが複数のリポジトリを触る機会が増えてきました。そうなると、全体の進捗や動きが見えにくく"
+      "fetchedAt": "2026-10-13T00:27:25.460027+00:00",
+      "excerpt": "2026 年 10 月 7 日に Claude Haiku 5.5（claude-haiku-5-5）が出ました。Haiku 系で初めて adaptive thinking と effort を持ち、1M コンテキスト・128K 出力で、API の形は Opus 5.5 / Sonnet 5.5 に揃っています。単価は $0.10 / $0.50 と Haiku 4.5 の 1/10 ですが、プロ"
     },
     {
-      "id": "cc_5bcaa9db",
-      "title": "Claude Codeのサブエージェントの起動と終了をhookでログに残す（Windows 11で動かした記録）",
-      "url": "https://zenn.dev/yorusuzu/articles/claude-code-subagent-hook-log",
+      "id": "cc_c25dff6d",
+      "title": "【後輩に説明できないと恥ずかしい知識】Claude Codeとは？",
+      "url": "https://zenn.dev/sakurano/articles/78e2a1c0291f58",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811565+00:00",
-      "excerpt": "この記事について Claude Code のサブエージェントを複数使っていると、「どの定義が、いつ、何回動いたか」を会話の文章ではなく、記録で確かめたくなります。この記事は、SubagentStart / SubagentStop の hook（イベントに合わせて外部コマンドを呼ぶ仕組み）から、起動と終了を JSONL（1 行 1 件の JSON）に追記する小さな Node.js スクリプトを、W"
-    },
-    {
-      "id": "cc_a567679e",
-      "title": "claude -pのコスト削減をさらに深掘りしたら、想定外のキャッシュ再作成が見つかった",
-      "url": "https://zenn.dev/koki_n22/articles/66198694ea028c",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811505+00:00",
-      "excerpt": "対象読者 前の記事、claude -pのキャッシュと起動設定を見直したら、記録上のコストが約半分になったの内容を深堀したい人 深掘りするモチベーションが無くても、claude -pで人間が干渉せずに自律ループを回したい時には役に立つかもです claude -pを繰り返し実行し、どこにトークンを使っているか把握したい人 プロンプトキャッシュが想定どおり再利用されているか確認したい人 コスト削減策を、"
+      "fetchedAt": "2026-10-13T00:27:25.459889+00:00",
+      "excerpt": "はじめに 存在自体はなんとなく知っているけど、聞かれても説明できない知識。 それを可能な限り文字数を少なく、かつ聞かれても困らない程度には学べる記事です 今回は下記内容の記事です Claude Code 自体の説明 Claude Code を始めるための方法 AIに何か話す モデルとは？ Claude Codeを利用するうえで開発についてコアなストック記事も公開予定なので、そちらも合わせてご覧にな"
     },
     {
       "id": "cc_cfee540e",
@@ -177,8 +87,118 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-12T15:03:01.811361+00:00",
+      "fetchedAt": "2026-10-13T00:27:25.361165+00:00",
       "excerpt": "はじめに 私は、小さな事業者むけの業務ソフトを一人で作っています。開発は AI エージェント(Claude Code)にまかせています。お金や個人情報をあつかうソフトなので、AI にまかせるのは commit まで と決めました(今のところ)。push と merge は人がやります。 はじめは「CLAUDE.md に書いて、settings.json で禁止すれば足りる」と思っていました。ところ"
+    },
+    {
+      "id": "cc_5a46764c",
+      "title": "Claude Codeのmodsを35行で書いた。検証コマンドは誤り3件を止めたが、素通り3通りには何も言わなかった",
+      "url": "https://zenn.dev/numarn/articles/claude-code-mods-hook-test-handson",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.361086+00:00",
+      "excerpt": "Claude Code(ターミナルから AI に作業を頼む道具)に mods という拡張の仕組みが入った、と X で見かけました (出典の投稿は 2.1.287 で追加されたと伝えています。手元で確かめたのは 2.1.289 だけです)。 数行の TypeScript を置くと、AI の手が動く前に割り込める、というものです。 いちばん分かりやすい使い道が「rm -rf(フォルダごと問答無用で消す"
+    },
+    {
+      "id": "cc_5a98d1f8",
+      "title": "Claude Code では使えない Claude Max の無料 API クレジットを、OpenCode で使う",
+      "url": "https://zenn.dev/daydreamer/articles/opencode-claude-max-api-credits",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.361015+00:00",
+      "excerpt": "TL;DR Claude の Max プランと Team プランには、毎月 API クレジットが追加料金なしで付きます。このクレジットは Claude Code では使えませんが、OpenCode に API キーを登録すれば使えます。 私の環境でも、OpenCode を使うとこのクレジットから引かれました。 # 1. claude.ai の Settings > Billing で Consol"
+    },
+    {
+      "id": "cc_4d9414da",
+      "title": "Claude Code Desktop上でネコ飼い始めました！",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-desktop-pixel-pet",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360929+00:00",
+      "excerpt": "はじめに Claude Code Desktop上で、ネコを飼い始めました！ 実際の画面。入力欄の上をネコたちが走り回る Claude Codeのmodsという仕組みで作成していて、これを使うことで、Claude Code Desktopの画面上に好みのボタンやアニメーション、ちょっとした機能など、アイデア次第でいろいろと拡張機能的に追加できます。この記事では、Claude Code Deskto"
+    },
+    {
+      "id": "cc_8c4b0221",
+      "title": "Claude Code と Codex に「壊して」と頼むレビューが終わらない。他人のコードを読むアプリで、止める基準を決めた記録",
+      "url": "https://zenn.dev/qzailabs/articles/ai-break-it-review-never-ends",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360866+00:00",
+      "excerpt": "AIで作ったWebアプリを公開前に点検するツール（点検日和）を、Claude Code と Codex で作っています。このツールが読むのは、利用者のコードです。つまり、どんな形の入力が来るか、こちらでは決められません。 作り始めた日、Claude Code が書いたものを、Codex と、Claude Code の確認役（別のコンテキストで動くサブエージェント）にレビューさせました。「壊せる筋書"
+    },
+    {
+      "id": "cc_b5675ede",
+      "title": "Claude CodeとCodexを同じリポジトリで並列に動かす: git worktreeの落とし穴と相互レビュー",
+      "url": "https://zenn.dev/arun/articles/parallel-agents-git-worktree",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360796+00:00",
+      "excerpt": "! 筆者はMacアプリ「Offrun」を開発しています。この記事の手順は素のgitとCLIだけで再現できます。Offrunの紹介は末尾に短く書きました。 何が起きるのか Claude CodeとCodexを同じリポジトリで同時に動かすと、だいたい次の3つに当たります。 2つのエージェントが同じファイルを書き換え、片方の変更がもう片方の作業ツリーを壊す 片方のアカウントが使用量の上限に達して、作業が"
+    },
+    {
+      "id": "cc_0ac63924",
+      "title": "Codex と Claude Code を同じフォルダで使う入口（AGENTS.md と CLAUDE.md）",
+      "url": "https://zenn.dev/chiero/articles/ddf132b6783219",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360739+00:00",
+      "excerpt": "株式会社CHIERO のチエロです。 私の会社では、同じフォルダを Claude Code と Codex の両方で開いて、仕事をさせています。 この記事では、2つの道具が同じ決まりを同じ順番で読むようにした入口の作りを書きます。 載せるファイルは、私の会社の運用をほかの会社に置ける形に組み直した「AI社員一式」の実物です。 仕様の説明は、2026年10月12日に公式ドキュメントを読んだ内容です。"
+    },
+    {
+      "id": "cc_048ea847",
+      "title": "Claude Code で AI社員18人の会社を運営する：フォルダ構成と決まり",
+      "url": "https://zenn.dev/chiero/articles/36f7889983c90c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360680+00:00",
+      "excerpt": "株式会社CHIERO のチエロです。 私の会社は、2026年9月から、仕事を18の担当に分けて Claude Code と Codex に渡しています。 その運用を、ほかの会社のフォルダに置ける形に組み直した物を「AI社員一式」と呼んでいます。 この記事では、AI社員一式のフォルダ構成と、全社の決まりのファイルを、実物の名前と抜粋で書きます。 私の会社の元のフォルダは、名前と並びがこれとは違います"
+    },
+    {
+      "id": "cc_33d6a316",
+      "title": "Claude Code も Codex CLI も並べて、協力させる。デスクトップアプリ yagura を公開しました",
+      "url": "https://zenn.dev/satoh_y_0323/articles/37b7368106e311",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360609+00:00",
+      "excerpt": "yagura GitHub: https://github.com/satoh-y-0323/yagura / v0.1.0 リリース: https://github.com/satoh-y-0323/yagura/releases/tag/v0.1.0 本記事のスコープ: 複数ベンダーの AI エージェント CLI を 1 つの画面に並べて動かし、エージェント同士を協力させるデスクトップアプリ "
+    },
+    {
+      "id": "cc_2c93cee9",
+      "title": "Claude Code の Mod が「エラーなしで何も描かれない」時に見る 3 か所",
+      "url": "https://zenn.dev/nakadaharuki/articles/claude-code-mods-silent-fail",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360547+00:00",
+      "excerpt": "Claude Code の Mods を書いていて、いちばん時間を取られたのはエラーが出ないのに何も起きないことでした。帯も欄も出ず、ログにも目立つ物が無い。 デスクトップアプリ（Code タブ）で 9 つの機能を載せたプラグインを動かすまでに、この「黙って消える」は原因が 3 つに分かれると分かりました。上から順に見ると早いです。 確認した版: Claude Code 2.1.286〜2.1.2"
+    },
+    {
+      "id": "cc_7f526a5c",
+      "title": "Claude Code デスクトップ版 Mods 入門―作り方・入れ方・Windows で動かない原因・安全な見分け方",
+      "url": "https://zenn.dev/nakadaharuki/books/claude-code-mods-desktop-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360481+00:00",
+      "excerpt": "Claude Code の Mods（モッズ）を、デスクトップアプリの Code タブで使うための無料の入門書です。 Mod の作り方（plugin.json・hooks.json・register.tsx の 3 ファイル）、ペイン・バンド・ステータス行・トーストの出し方、 マーケットプレイスからの入れ方と配り方を、公式ドキュメントに沿って順に書きました。 後半は、よく検索される困りごとへの答え"
+    },
+    {
+      "id": "cc_f0ae0854",
+      "title": "Claude CodeでGASを量産したので、Claude Securityプラグインで脆弱性診断してみた",
+      "url": "https://zenn.dev/wisevine/articles/49f4a5e5b40b0a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-13T00:27:25.360350+00:00",
+      "excerpt": "はじめに Claude Code と clasp で、社内の業務ツールを GAS でたくさん作るようになりました。気づけば数十本あります。 前回は、量産したツールに散らばった API キーを Secret Manager に集めた話を書きました。 https://zenn.dev/wisevine/articles/578d0b18ed6916 今回は、そのツールたちの中身を点検します。Claud"
     },
     {
       "id": "cc_f73cedfd",
@@ -187,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-12T15:03:02.586198+00:00",
+      "fetchedAt": "2026-10-13T00:27:26.931026+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -197,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-12T15:03:02.586249+00:00",
+      "fetchedAt": "2026-10-13T00:27:26.931081+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -207,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-12T15:03:03.017855+00:00",
+      "fetchedAt": "2026-10-13T00:27:27.447414+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-12T15:03:03.017904+00:00",
+      "fetchedAt": "2026-10-13T00:27:27.447465+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -227,9 +247,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-12T15:03:03.017961+00:00",
+      "fetchedAt": "2026-10-13T00:27:27.447526+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-12T15:03:03.017974+00:00"
+  "lastCollection": "2026-10-13T00:27:27.447541+00:00"
 }
