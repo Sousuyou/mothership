@@ -1,215 +1,38 @@
 {
   "entries": [
     {
-      "id": "h_aa8a0817",
-      "title": "【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」｜2026年｜NICT-情報通信研究機構",
-      "url": "https://www.nict.go.jp/press/2026/10/13-1.html",
-      "domain": "nict.go.jp",
-      "bookmarkCount": 525,
-      "summary": "トップ>広報>プレスリリース>2026年>【注意喚起】 相次ぐ情報漏えい、その原因の一つは「アプリ解析からのサーバ攻撃」",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nict.go.jp/press/2026/10/13-1.html",
-      "comments": [
-        {
-          "user": "bnckmnj",
-          "comment": "それこそ手抜きしたアプリってそのへんざるそうだし　手抜きの代表がAI利用になりつつあるね　やっぱり大事なもの（個人情報）をしまう金庫（概念）には最新テクノロジーとトップクラスに優秀な人がいるんだなあ",
-          "tags": [],
-          "timestamp": "2026/10/14 07:09"
-        },
-        {
-          "user": "shoot_c_na",
-          "comment": "もしかして、二昔前のWEBサイトへのショートカットだけだった方ならこの被害は防げた？",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/14 06:58"
-        },
-        {
-          "user": "udukishin",
-          "comment": "単にAPIがアプリから分かったというより接続先のディレクトリ構造とかアプリ乗っ取りからの接続なら叩けるAPIが権限強いとかそんなところだろう",
-          "tags": [],
-          "timestamp": "2026/10/14 06:58"
-        },
-        {
-          "user": "Mash",
-          "comment": "“LETTICEは、この攻撃手法を「A2B攻撃（App-to-Backend Attack）」と名付け”",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/14 06:49"
-        },
-        {
-          "user": "cyber_bob",
-          "comment": "アンドロアプリから漏れたとして、侵入して得られるデータはiOSユーザのものもあるのだろうし。",
-          "tags": [],
-          "timestamp": "2026/10/14 06:11"
-        },
-        {
-          "user": "coinlocker",
-          "comment": "「A2B攻撃（App-to-Backend Attack）」ね。考え方自体は新しい物では無いけれど、名称・名前が与えられたのは大きい。",
-          "tags": [
-            "safety",
-            "security",
-            "technology",
-            "think"
-          ],
-          "timestamp": "2026/10/14 05:29"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:43.703071+00:00"
-    },
-    {
-      "id": "h_d5184432",
-      "title": "総務省｜不正アクセスによる情報漏えい等の事案を踏まえた対応について （公開アプリの解析情報を悪用した攻撃への注意喚起）",
-      "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html",
-      "domain": "soumu.go.jp",
-      "bookmarkCount": 158,
-      "summary": "お知らせ 令和8年10月13日 不正アクセスによる情報漏えい等の事案を踏まえた対応について （公開アプリの解析情報を悪用した攻撃への注意喚起） 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されていることを踏まえ、総務省では、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000680.html",
-      "comments": [
-        {
-          "user": "hungchang",
-          "comment": "“公開アプリの解析によって得られたサーバの接続先や通信の仕組み等の情報を利用して、サーバに対して攻撃を行うものであり、アプリ自体に脆弱性が存在しない場合であっても、サーバ側の脆弱性が悪用されることで情",
-          "tags": [],
-          "timestamp": "2026/10/14 06:43"
-        },
-        {
-          "user": "naka_dekoboko",
-          "comment": "こういうの防衛省から声明だせるようにしたほうがいいとおもう",
-          "tags": [],
-          "timestamp": "2026/10/14 05:18"
-        },
-        {
-          "user": "psne",
-          "comment": "Androidだから、という訳ではないのが重要なやつ。両対応しているサービスならリスクは変わらない",
-          "tags": [],
-          "timestamp": "2026/10/14 03:49"
-        },
-        {
-          "user": "kamm",
-          "comment": "ゲーム系がほとんどやられて無いのはバリデーションチェックが厳しいからか？それとも攻撃しても個人情報を保存してないから旨みが少ない？",
-          "tags": [],
-          "timestamp": "2026/10/14 02:14"
-        },
-        {
-          "user": "ruitrek",
-          "comment": "法律とそれをどう変えるのかの話しをしろ。これだけ毎日報道されてて、今更総務省の注意喚起とか無意味。だったら早くやれ。経営者に直接働きかけろ。",
-          "tags": [],
-          "timestamp": "2026/10/14 01:32"
-        },
-        {
-          "user": "sisya",
-          "comment": "webアプリ時代は「入力データは全て改ざんされている前提で扱え」というのが徹底されていたのだが、アプリ時代になってノウハウのない企業が大量に参入してしまった感じ。今回の手法はiOSでも容易に攻撃できるので注意",
-          "tags": [],
-          "timestamp": "2026/10/14 01:09"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:45.973970+00:00"
-    },
-    {
-      "id": "h_a8b68115",
-      "title": "米Getty Imagesが破産申請へ AI画像の台頭で経営悪化、「報道写真」軸に年内の再建目指す",
-      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002234/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 150,
-      "summary": "再建後は、創業家のゲッティ家と米投資会社Koch Equity Developmentの関連会社が株式を100％保有する。両者は最大5億3300万ドルを新たに出資するほか、債権者も金利負担の軽減や返済期限の延長などに応じた。 Getty Imagesを巡っては、競合の米Shutterstockとの合併が破談になったばかりだった。2025年1月に約37億ドル規...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/13/2000002234/",
-      "comments": [
-        {
-          "user": "call_me_nots",
-          "comment": "自社素材の、他社の「フェアユース」に殺される https://b.hatena.ne.jp/entry/4794379876509538914/comment/pandafire",
-          "tags": [],
-          "timestamp": "2026/10/14 07:21"
-        },
-        {
-          "user": "atsushifx",
-          "comment": "無断学習でお金が入らないのがきいてる。テキスト、イラストなどコンテンツをAIが学習するときにお金を払う必要があれば、収入はかえって増えそうなんだが。",
-          "tags": [],
-          "timestamp": "2026/10/14 07:02"
-        },
-        {
-          "user": "PACIFIST",
-          "comment": "アフロかここってイメージある。ダブルミーニングで。",
-          "tags": [],
-          "timestamp": "2026/10/14 06:53"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "報道写真って※イメージですって書かれてるアレでしょ。実際の写真ならともかくそれっぽい写真でいいならAIの領域だからもっと売れないと思う",
-          "tags": [],
-          "timestamp": "2026/10/14 06:29"
-        },
-        {
-          "user": "birds9328",
-          "comment": "マジか",
-          "tags": [],
-          "timestamp": "2026/10/14 06:00"
-        },
-        {
-          "user": "onesplat",
-          "comment": "“創業家のゲッティ家” これが1番驚いたわ",
-          "tags": [],
-          "timestamp": "2026/10/14 04:53"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:42.693574+00:00"
-    },
-    {
-      "id": "h_de03d9c4",
-      "title": "【速報】PayPay証券 障害で日本株の取引停止 14日の予約注文も停止 復旧めど立たず",
-      "url": "https://news.tv-asahi.co.jp/news_economy/articles/000539845.html",
-      "domain": "news.tv-asahi.co.jp",
-      "bookmarkCount": 93,
-      "summary": "1 スマートフォン向けの証券会社「PayPay証券」でシステム障害が起きていて、日本株の取引ができなくなっています。 PayPay証券によりますと、13日午前10時15分以降、外部の接続先で障害が起き、日本株とETF（上場投資信託）のすべての銘柄の取引を停止しました。 その後、午前11時30分ごろから1時間程度、注文の受付を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_economy/articles/000539845.html",
-      "comments": [
-        {
-          "user": "mito2",
-          "comment": "SBIもFXでやらかしてるんだよなあ",
-          "tags": [],
-          "timestamp": "2026/10/14 01:15"
-        },
-        {
-          "user": "dollarss",
-          "comment": "ペイペイ証券てなんぞ？！QRコードで銘柄買いするのかな？怖っ",
-          "tags": [],
-          "timestamp": "2026/10/13 22:13"
-        },
-        {
-          "user": "takeishi",
-          "comment": "うーんソフトバンク株が急落していたから、という理由では無いと思うが",
-          "tags": [],
-          "timestamp": "2026/10/13 22:11"
-        },
-        {
-          "user": "snare_micchan",
-          "comment": "証券会社は同一系列内の銀行、保険会社に比べるとセキュリティ、品質面ともに劣後しているのが普通だから、狙われどころではあるんだよなあ…",
-          "tags": [],
-          "timestamp": "2026/10/13 21:58"
-        },
-        {
-          "user": "enemyoffreedom",
-          "comment": "「PayPay証券は不正アクセスではないとしていて、復旧に向けて対応を進めています」",
-          "tags": [],
-          "timestamp": "2026/10/13 21:46"
-        },
-        {
-          "user": "napsucks",
-          "comment": "IDCFも当初は不正アクセスではないって言ってたのよね",
-          "tags": [],
-          "timestamp": "2026/10/13 21:29"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:45.501071+00:00"
-    },
-    {
       "id": "h_2688a7f9",
       "title": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36->blog;",
       "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
       "domain": "blog.shibayu36.org",
-      "bookmarkCount": 30,
+      "bookmarkCount": 174,
       "summary": "自分の設定ファイルやインストールするアプリは、https://github.com/shibayu36/config-file のリポジトリで管理している。これまでは私物Macと仕事Macが全く同じになるように、雑にsymlinkを張るスクリプトで運用していた。新しい仕事用のMacをもらったのをきっかけに、私物だけ・仕事だけに入れるものをちゃんと分けつ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/10/13/173000",
       "comments": [
+        {
+          "user": "coriander35",
+          "comment": "日本はBYODに厳しい",
+          "tags": [],
+          "timestamp": "2026/10/14 11:21"
+        },
+        {
+          "user": "FreeCatWork",
+          "comment": "ボクの肉球もキーボードを叩いて管理したくなったにゃ。でも爪が引っかかって大変なことになりそうだにゃ。",
+          "tags": [],
+          "timestamp": "2026/10/14 11:18"
+        },
+        {
+          "user": "delphinus35",
+          "comment": "同種の課題を秘伝のタレAnsibleプレイブックで乗り切ってきたが、これを機に整理するかあ。",
+          "tags": [],
+          "timestamp": "2026/10/14 10:25"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "miseがランタイム管理だけでなくdotfilesまで一括管理してくれるの便利だな　導入ハードルも低そう",
+          "tags": [],
+          "timestamp": "2026/10/14 07:41"
+        },
         {
           "user": "circled",
           "comment": "自分のAI環境から離れたくなくて（自分専用独自ハーネス作ってるので一番生産性高い）、もう私物とか仕事とか分けたくなくなってる。ダメな時に備え、プラグイン化して他環境でも少しは頑張れる程度の悪あがき済み",
@@ -217,232 +40,571 @@
           "timestamp": "2026/10/14 07:29"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:43.063487+00:00"
+      "fetchedAt": "2026-10-14T04:27:12.640660+00:00"
     },
     {
-      "id": "h_f6bc6cf3",
-      "title": "高校生から「生成AIについて質問に答えてほしい」とメールが来たが、高校名も氏名も教員名も無かったので、研究室の学生に「依頼メールとして何が足りないか」考えてもらった",
-      "url": "https://togetter.com/li/2757810",
-      "domain": "togetter.com",
-      "bookmarkCount": 24,
-      "summary": "佐藤和紀 @KazunoriSATO4 高校生から「生成AIについて探究しているので質問に答えてほしい」というメールが届きました。 意欲は素晴らしいなと思ったのですが，「○○県内の高校生」としか書かれておらず，高校名も氏名も指導教員名も不明でした。 誤字も多く，数日後の回答期限が一方的に書かれていました。 そこで，研究...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2757810",
+      "id": "h_61d8aa17",
+      "title": "AI、家電乗っ取り増殖の恐れ アンソロピック「デジタル粘菌」と警告 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 120,
+      "summary": "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性があると警告した。無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。同社でAIの安全対策などに取り組む研究者らがブ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
       "comments": [
         {
-          "user": "bonnbonn1400",
-          "comment": "高校生のうちに、接点のなかった人に手紙やメールを送る指導を受けたことのある人だけが石を投げて欲しい",
+          "user": "soraboby",
+          "comment": "デジタル粘菌！SFでも見なかったSFワードだ！！！",
           "tags": [],
-          "timestamp": "2026/10/14 06:44"
+          "timestamp": "2026/10/14 13:11"
         },
         {
-          "user": "commecco",
-          "comment": "高校生もまずはその質問の仕方を生成AIに質問すべきだったのが悔やまれる",
+          "user": "minamihiroharu",
+          "comment": "自己増殖性のマルウェアが高度化したと言う訳か。　AIベンダとそこに投資してる奴等は、自分たちに決定的な不利益が生じるまでは何処迄も開発普及を進めるだろうから、近い将来に酷い目に合わされそうだな。",
           "tags": [],
-          "timestamp": "2026/10/14 06:22"
+          "timestamp": "2026/10/14 13:05"
         },
         {
-          "user": "chikurou",
-          "comment": "高校の課題でAIを調べているとも書いてないので、高校の先生が指導する義務もない可能性あるな。",
-          "tags": [],
-          "timestamp": "2026/10/14 06:04"
-        },
-        {
-          "user": "sukekyo",
-          "comment": "10代は無礼が仕事だからなあ。それにいつ気がつくかがポイントなのかも。まあ、ずっとのひとが多いな。",
-          "tags": [],
-          "timestamp": "2026/10/14 05:00"
-        },
-        {
-          "user": "hatebu_ai",
-          "comment": "これ地域の歴史だろうが判例の解釈だろうが同じ対応になる形なのがもったいない。聞いてきた内容が生成AIなのであれば、「なぜ私たちが質問に答えないか、あなたの送ってきた文面を添削してもらって」と返せるのに。",
-          "tags": [],
-          "timestamp": "2026/10/14 04:23"
-        },
-        {
-          "user": "takamurasachi",
-          "comment": "さすが関係者全員社会に出てないだけはある",
+          "user": "shoot_c_na",
+          "comment": "冷蔵庫50℃にされたばっかりだと、すげぇ切実感ある",
           "tags": [
-            "あとで読む"
+            "AI",
+            "セキュリティ"
           ],
-          "timestamp": "2026/10/14 03:31"
+          "timestamp": "2026/10/14 13:05"
+        },
+        {
+          "user": "takeishi",
+          "comment": "フランスで冷蔵庫の乗っ取りが早速有ったし／機械にOSやCPUやメモリを載せなければAIも活動出来ないと思うが…",
+          "tags": [],
+          "timestamp": "2026/10/14 13:01"
+        },
+        {
+          "user": "jamg",
+          "comment": "HEMSやスマートハウス系でやられたら悲しいな…",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/14 12:56"
+        },
+        {
+          "user": "YoshimotoChikara",
+          "comment": "スマートホームなんてリスクでしかないね",
+          "tags": [],
+          "timestamp": "2026/10/14 12:54"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:46.261134+00:00"
+      "fetchedAt": "2026-10-14T04:27:12.514493+00:00"
     },
     {
       "id": "h_c345970c",
       "title": "あなたの『Amazon Kindle』は最新モデルへ買い替えるべき？ 歴代モデル徹底比較【山口真弘のおすすめ読書タブレット比較】",
       "url": "https://forest.watch.impress.co.jp/docs/bookwatch/tabletrecom/2147295.html",
       "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 20,
+      "bookmarkCount": 98,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/bookwatch/tabletrecom/2147295.html",
       "comments": [
         {
-          "user": "civicpg",
-          "comment": "1万円くらいのpaperwhiteの広告付きってらやつ買って使ってるけど、広告なんて全然見なくなった気がする",
+          "user": "ayumun",
+          "comment": "結局スマホでしか見なくなっちゃったな",
           "tags": [],
-          "timestamp": "2026/10/14 07:26"
+          "timestamp": "2026/10/14 12:32"
         },
         {
-          "user": "birisuken8574",
-          "comment": "この手のデバイスならiPad miniが最強やろ",
+          "user": "highlandview",
+          "comment": "Paperwhite使っていたがあまりの値上がりで、中華8インチタブレットを電書専用として買った。ストレージも増やせて、反応もよく、当然カラーで読めて、各社の電書も1台に統合でき、かつ安い。快適すぎて次もそうする。",
           "tags": [],
-          "timestamp": "2026/10/14 07:09"
+          "timestamp": "2026/10/14 11:47"
         },
         {
-          "user": "sotonohitokun",
-          "comment": "デフレ脳なので3万だと買えないDone",
+          "user": "taku-o",
+          "comment": "Kindleのタブレット、時間が経っても性能もディスク容量も増えないんですよね",
           "tags": [],
-          "timestamp": "2026/10/14 07:02"
+          "timestamp": "2026/10/14 11:38"
+        },
+        {
+          "user": "yukitan_i",
+          "comment": "生産終了したOasisの出来が良すぎてな…最新のPaperwhiteと比較してもほとんどの点で勝ってる。なんだこのオーパーツ…",
+          "tags": [],
+          "timestamp": "2026/10/14 11:31"
+        },
+        {
+          "user": "ejointjp",
+          "comment": "かつては超コスパの読書端末という存在価値があったのに、今や本しか読めない10年前のスペックの高級品に成り下がった。",
+          "tags": [],
+          "timestamp": "2026/10/14 11:10"
+        },
+        {
+          "user": "tyhe",
+          "comment": "Paperwhite、2024年モデルを持ってるけど、もう少し固定レイアウトのコントラストが高くなって、コンテンツ一覧画面のレスポンスが良くなったら買い替えたいと考えてるけどここを満たすまでに何年かかることやら。",
+          "tags": [],
+          "timestamp": "2026/10/14 11:00"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:44.210106+00:00"
+      "fetchedAt": "2026-10-14T04:27:15.192499+00:00"
+    },
+    {
+      "id": "h_30bb61f3",
+      "title": "「Gemini 4 Argon」が一般提供開始 ～満を持して登場した最強の「Gemini」モデル／「Gemini」アプリでは「Google AI Pro/Ultra」の契約者が利用可能",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2147842.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 94,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2147842.html",
+      "comments": [
+        {
+          "user": "hayashin10",
+          "comment": "Geminiに期待してないのでスルーかな",
+          "tags": [],
+          "timestamp": "2026/10/14 13:02"
+        },
+        {
+          "user": "magi00",
+          "comment": "ハルシネーションというかこっちに合わせて話を変えすぎるかな。フラットな回答にならない",
+          "tags": [],
+          "timestamp": "2026/10/14 12:36"
+        },
+        {
+          "user": "estragon",
+          "comment": "無料で使えるやつ(Flash-Lite)よりマシなんでしょうけど、無料版がハルシネーション起こしまくりなので課金する気になかなかなりませんね",
+          "tags": [],
+          "timestamp": "2026/10/14 12:36"
+        },
+        {
+          "user": "harist",
+          "comment": "Proはチャットでは使えたけどantigravityでまだ使えないという。Opus5.5 highにテストを作ってもらって、そこそこの正答率だった。回答は早い",
+          "tags": [],
+          "timestamp": "2026/10/14 12:28"
+        },
+        {
+          "user": "aneet",
+          "comment": "Argonは創作系には評判がいいな…とくにあれ系、ただしひよこは固そう",
+          "tags": [],
+          "timestamp": "2026/10/14 12:13"
+        },
+        {
+          "user": "siriusarc7",
+          "comment": "さて、事前に発表された棒グラフだけで騒いでた奴らが実際に触ってからどういう感想になったかが見ものですな。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:05"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:14.215966+00:00"
+    },
+    {
+      "id": "h_13000f00",
+      "title": "無償のオフィススイート「ibisOffice」が登場、お絵描きアプリ「ibisPaint」の姉妹ソフト／高速動作と再現性の高さがウリ、「Rust」＋「GPUI」で高速動作、7万ものテストで「MS Office」再現性を検証",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2147849.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 74,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2147849.html",
+      "comments": [
+        {
+          "user": "restroom",
+          "comment": "libreOfficeがんばれー",
+          "tags": [],
+          "timestamp": "2026/10/14 13:12"
+        },
+        {
+          "user": "sevenspice",
+          "comment": "ここだけではなく色んな所から似たようなプロジェクトがたくさん公開されています。だいたいどれもメジャーな有料ソフトをRustで置換というコンセプトで恐らく生成AIである程度ポン出しできてしまうのだと思います。",
+          "tags": [],
+          "timestamp": "2026/10/14 13:01"
+        },
+        {
+          "user": "kijtra",
+          "comment": "絵師のプライベート情報も収集したいって感じなのかな",
+          "tags": [],
+          "timestamp": "2026/10/14 12:35"
+        },
+        {
+          "user": "urtz",
+          "comment": "何とかOffice乱立で互換性が崩壊しそう。でも、大抵の用途ならそういうのでも良さげ",
+          "tags": [],
+          "timestamp": "2026/10/14 12:32"
+        },
+        {
+          "user": "kaorun",
+          "comment": "例のパチもんほともかくとしても、既存の大型アプリやヒットしたサービスを模倣するのが容易な時代に突入しているので、色々な変化が起きて、本家も改良に勤しまなくてはならなくなるのであればプラス面もあるかな",
+          "tags": [
+            "office",
+            "word",
+            "excel",
+            "ibis"
+          ],
+          "timestamp": "2026/10/14 12:26"
+        },
+        {
+          "user": "topiyama",
+          "comment": "ibis凄いな",
+          "tags": [],
+          "timestamp": "2026/10/14 12:09"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:12.991183+00:00"
+    },
+    {
+      "id": "h_3c3fd0b4",
+      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 72,
+      "summary": "社内の監視カメラの映像には、装置の発見前に同容疑者が複数回にわたって役員会議室の付近に現れる様子が映っていた。同容疑者には、この会議室への立ち入りや会議への参加の権限はなかった。訴状によると、この会議室では独自の研究や製品計画、事業開発の機会に加え、技術的な進捗や戦略上の判断、政府との関わり、商...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "comments": [
+        {
+          "user": "WildWideWeb",
+          "comment": "連日の個人情報の漏洩はそれ自体の価値というより名寄せしてハイレベルの個人プロファイルを作成するためではないかと言うと今は妄想と笑い飛ばされるが、あながち間違いではないといずれ識者が言い出す気がする。",
+          "tags": [],
+          "timestamp": "2026/10/14 13:00"
+        },
+        {
+          "user": "takeishi",
+          "comment": "カタギの人が使いそうな機械では無いが、それにしては隠し方が雑だなあ。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:49"
+        },
+        {
+          "user": "dollarss",
+          "comment": "“同容疑者の配偶者に関連付けられたチャットbotのアカウント”とても杜撰wせめてそこはClaude使うとかなかったのかw",
+          "tags": [],
+          "timestamp": "2026/10/14 12:10"
+        },
+        {
+          "user": "prjpn",
+          "comment": "何処の手先か気になる",
+          "tags": [],
+          "timestamp": "2026/10/14 12:06"
+        },
+        {
+          "user": "gewaa",
+          "comment": "ゴキブリみたいに一個見つけたらあと30個はあるんじゃないの",
+          "tags": [],
+          "timestamp": "2026/10/14 10:58"
+        },
+        {
+          "user": "eagleyama",
+          "comment": "“米国の超知能分野のイノベーションを守ることは、FBIにとって最優先の防諜任務の1つだと述べた”",
+          "tags": [],
+          "timestamp": "2026/10/14 10:58"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:14.892852+00:00"
     },
     {
       "id": "h_8625f276",
       "title": "Redesigning source control at Anthropic",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "domain": "anthropic.com",
-      "bookmarkCount": 17,
+      "bookmarkCount": 72,
       "summary": "Published Oct 13, 2026 As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no l",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.anthropic.com/engineering/redesigning-source-control",
       "comments": [
         {
-          "user": "mkusaka",
-          "comment": "1日3万件超のマージでボトルネック化したgitから、Scionに5か月で移行した経緯を解説。",
-          "tags": [
-            "AI要約",
-            "移行",
-            "設計",
-            "Git",
-            "AIコーディング",
-            "CI",
-            "ソース管理",
-            "事例",
-            "解説"
-          ],
-          "timestamp": "2026/10/14 02:17"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:43.964874+00:00"
-    },
-    {
-      "id": "h_dd75bd64",
-      "title": "リバースエンジニアリングの産業革命-REA",
-      "url": "https://rea.tools/ja/blog/touhou-reconstruction/",
-      "domain": "rea.tools",
-      "bookmarkCount": 14,
-      "summary": "ホーム / ブログ /東方復興 エッセイ·東方復興 リバースエンジニアリングにおける産業革命。 によってN0zoM1z0•10 10月2026 要点 エージェントに調査の自律性を与えます。 明確な目標と合格基準を設定し、次に何を試すかをエージェントに決定させます。 リポジトリとGitを作業メモリとして使用します。 推論をコードで維...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rea.tools/ja/blog/touhou-reconstruction/",
-      "comments": [
-        {
-          "user": "mkusaka",
-          "comment": "REAの東方復興で、AIエージェント自律・Git checkpoints・oracle検証を用いTH08/TH095/TH04を再構築する方法を解説。",
-          "tags": [
-            "AI要約",
-            "リバース",
-            "REA",
-            "AIエージェント",
-            "検証参考",
-            "oracle",
-            "GitHub",
-            "東方復興"
-          ],
-          "timestamp": "2026/10/13 18:19"
-        }
-      ],
-      "fetchedAt": "2026-10-13T22:30:44.919951+00:00"
-    },
-    {
-      "id": "h_00adbb41",
-      "title": "ブックオフ、約642万件の会員データ漏洩 退会会員も対象 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC135N90T11C26A0000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 11,
-      "summary": "ブックオフグループホールディングス（HD）は13日、9日に公表した不正アクセスの現時点での調査結果を発表した。調査中としていた漏洩対象会員データ数が約642万件に上ると判明した。対象者には15日から順次、登録メールアドレス宛てに連絡するという。同社は9日、子会社の会員管理システムへの不正アクセスにより会員デ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC135N90T11C26A0000000/",
-      "comments": [
-        {
-          "user": "dounasatta",
-          "comment": "ずっと疑問なんだけど何で退会した後もデータを残してんの？ブックオフに限らずデータを消さないの何で？お知らせの受信拒否設定の方にもお送りしていますって、そもそも退会してるんですけど的なこと起きるの何で？",
+          "user": "rdlf",
+          "comment": "「that would be over 600 PB of git traffic per day」ってなに？",
           "tags": [],
-          "timestamp": "2026/10/14 07:21"
+          "timestamp": "2026/10/14 10:06"
         },
         {
-          "user": "ryokusai",
-          "comment": "こりや私のも漏れてさうだな。",
+          "user": "kompiro",
+          "comment": "LinuxはGitの開発開始からへの移行に2週間で終わらせたとか。LinusはAI以上か",
           "tags": [
-            "security"
+            "あとで読む"
           ],
-          "timestamp": "2026/10/14 06:59"
+          "timestamp": "2026/10/14 09:46"
         },
         {
-          "user": "straychef",
-          "comment": "どうすんの",
+          "user": "otihateten3510",
+          "comment": "gitをサーバーで行うようなScionを作った。これは主に履歴が重い・checkoutが重い・CIが重いなどに対処したもの。とのこと。まあAnthropicと同じ悩みのレイヤーまで達してないと無駄だね。",
           "tags": [],
-          "timestamp": "2026/10/14 06:44"
+          "timestamp": "2026/10/14 08:27"
+        },
+        {
+          "user": "nakag0711",
+          "comment": "SVN的な？",
+          "tags": [],
+          "timestamp": "2026/10/14 07:59"
+        },
+        {
+          "user": "gogatsu26",
+          "comment": "“1日あたりのマージ回数が10倍以上に増えるにつれ、ソースコード管理が開発における最大のボトルネックとなりました。ここでは、わずか5ヶ月で社内バージョン管理システムに移行した方法をご紹介します”",
+          "tags": [],
+          "timestamp": "2026/10/14 07:49"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "Gitがボトルネックになるとか異次元すぎて草、自作VCSはロマンある",
+          "tags": [],
+          "timestamp": "2026/10/14 07:41"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:44.437586+00:00"
+      "fetchedAt": "2026-10-14T04:27:16.214820+00:00"
     },
     {
       "id": "h_4f8cf5c5",
       "title": "エンターテインメントを楽しみ、家を管理する新しい方法、Apple HomeViewが登場",
       "url": "https://www.apple.com/jp/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
       "domain": "apple.com",
-      "bookmarkCount": 9,
+      "bookmarkCount": 70,
       "summary": "エンターテインメントを楽しみ、つながりを保ち、家を管理する新しい方法、Apple HomeViewが登場 Apple HomeViewは、Apple IntelligenceとSiri AIを活用し、プライバシーとセキュリティを中核に据えて設計されています カリフォルニア州クパティーノ Appleは本日、家の中心となり、家の中の一人ひとりに合わせてパーソナ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
       "comments": [
         {
-          "user": "wnd_x",
-          "comment": "これが置いてある家に住みたくない",
-          "tags": [],
-          "timestamp": "2026/10/14 07:25"
+          "user": "jamg",
+          "comment": "昔のiMacみたいな見た目だ。",
+          "tags": [
+            "apple"
+          ],
+          "timestamp": "2026/10/14 13:24"
         },
         {
-          "user": "takanagi1225",
-          "comment": "Siriが一番いらないんだよな。",
+          "user": "chiba1008",
+          "comment": "どんな空間にもなじむ洗練されたデザイン草",
           "tags": [],
-          "timestamp": "2026/10/14 07:21"
+          "timestamp": "2026/10/14 13:04"
         },
         {
-          "user": "rdlf",
-          "comment": "使えない気がするけど、佇まいがいい。欲しい。かわいい。",
+          "user": "SPIRIT_PHOENIX",
+          "comment": "Reddit でディスプレイ部分を腕に装着してデカイ Apple Watch になる画像が流れていて草。",
           "tags": [],
-          "timestamp": "2026/10/13 23:02"
+          "timestamp": "2026/10/14 12:55"
+        },
+        {
+          "user": "akahmys",
+          "comment": "家電、エアコンメーカーがもっと積極的にMatter対応してくれればいいんだけどねぇ。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:40"
+        },
+        {
+          "user": "kaorun",
+          "comment": "使い勝手やレスポンスにはよい点がありそうなので、EchoやRingなどAmazon製品のUXがいい意味で刺激を受けて改良される事を期待",
+          "tags": [
+            "apple",
+            "homeview",
+            "smarthome"
+          ],
+          "timestamp": "2026/10/14 12:29"
+        },
+        {
+          "user": "lemon32",
+          "comment": "いらないけど、やけに安いな",
+          "tags": [],
+          "timestamp": "2026/10/14 10:47"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:45.199233+00:00"
+      "fetchedAt": "2026-10-14T04:27:16.528552+00:00"
     },
     {
-      "id": "h_2f628eb7",
-      "title": "Appleがスマートホーム製品に本格進出 LGらと共同開発したスマートロックや屋内外用カメラなどを含む「Apple Home Collection」を発表",
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2610/13/news112.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 6,
-      "summary": "Appleは10月13日、LG ElectronicsおよびSchneider Electricと共同開発した複数のスマートホーム製品「Apple Home Collection」を発表した。12月から順次、米国やカナダ、英国で発売する。日本での展開は発表されていない。 左からLGの「Smart Deadbolt Lock」、「Indoor Cam」、Schneider Electricの「Smart Thermostat...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/pcuser/articles/2610/13/news112.html",
+      "id": "h_9d422770",
+      "title": "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF mini",
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 69,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
       "comments": [
         {
-          "user": "taiyousunsun",
-          "comment": "もっと早く出してても良かったのに、なんでこんなに時間かかったんだろ？",
+          "user": "hyperash",
+          "comment": "目標は自動導入、極軸合わせ不要で自動追尾、スタッキングと比較明合成もおまかせ、なんと便利になったことよ。画素数がFullHDなのが惜しいけどそこにこだわる人には上位機があるよ、と。",
           "tags": [],
-          "timestamp": "2026/10/14 07:29"
+          "timestamp": "2026/10/14 12:52"
         },
         {
-          "user": "kamei_rio",
-          "comment": "\"ラインアップには、屋内外用のカメラやビデオドアベル、スマートロック、サーモスタット、温度センサーなどが含まれる。各機器はAppleのホームアプリやSiriから一元管理できる\"",
+          "user": "tetzl",
+          "comment": "自動追尾が当たり前になってくると魚＝切り身みたいな感じになりそうだなってちょっと思った",
           "tags": [
-            "Apple",
-            "interface"
+            "天文"
           ],
-          "timestamp": "2026/10/14 07:03"
+          "timestamp": "2026/10/14 12:37"
+        },
+        {
+          "user": "bonogurashi",
+          "comment": "高層階に設置して街中観察してみたい。悪趣味だけど。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:31"
+        },
+        {
+          "user": "nicht-sein",
+          "comment": "すごいなー、ちょっと欲しくなった",
+          "tags": [],
+          "timestamp": "2026/10/14 12:24"
+        },
+        {
+          "user": "Nunocky",
+          "comment": "どこまで人の手をかけずに済むかのバランス取りが難しくて、比較明合成やら画質補正やら全部お任せにするとテレビで見てるのとあんま変わらなくなっちゃうのよね",
+          "tags": [],
+          "timestamp": "2026/10/14 12:19"
+        },
+        {
+          "user": "qouroquis",
+          "comment": "30mmしかないのに、こんなに綺麗に写る？AIで補正してない？",
+          "tags": [],
+          "timestamp": "2026/10/14 12:19"
         }
       ],
-      "fetchedAt": "2026-10-13T22:30:44.684643+00:00"
+      "fetchedAt": "2026-10-14T04:27:13.333275+00:00"
+    },
+    {
+      "id": "h_c532441e",
+      "title": "Yandexデータセンター攻撃の前後でXの日本語親ロ投稿を数えてみた｜一田和樹のメモ帳",
+      "url": "https://note.com/ichi_twnovel/n/nc23602343127",
+      "domain": "note.com",
+      "bookmarkCount": 52,
+      "summary": "2026年10月、ウクライナは無人機で、「ロシアのグーグル」と呼ばれることが多いIT大手Yandex（ヤンデックス）のデータセンター3か所を攻撃した。BBCによればサソボ（リャザン州）が7日から8日にかけての夜、カルーガが9日朝、ニュースサイトのMezhaによればウラジーミル州が11日である（いずれも現地時間）。攻撃の後、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/ichi_twnovel/n/nc23602343127",
+      "comments": [
+        {
+          "user": "yayugu",
+          "comment": "まあそうだよね",
+          "tags": [],
+          "timestamp": "2026/10/14 12:41"
+        },
+        {
+          "user": "call_me_nots",
+          "comment": "暫定的には有意な影響は観測しにくいと。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:36"
+        },
+        {
+          "user": "circma",
+          "comment": "ですよね",
+          "tags": [],
+          "timestamp": "2026/10/14 12:05"
+        },
+        {
+          "user": "dekaino",
+          "comment": "流言飛語が増えただけ",
+          "tags": [],
+          "timestamp": "2026/10/14 11:32"
+        },
+        {
+          "user": "kaiton",
+          "comment": "同時期に反ワクチンの投稿も減ったというのも見たけれど、その時期にXのロジックが変わっている可能性もあるから、、網羅的に事実を検証するしかないのだろうな/どちらにせよ海外勢による世論操作は監視しないと",
+          "tags": [],
+          "timestamp": "2026/10/14 10:41"
+        },
+        {
+          "user": "pokute8",
+          "comment": "はてな村のリテラシー→https://b.hatena.ne.jp/entry/s/m-dojo.hatenadiary.com/entry/2026/10/12/072722 https://b.hatena.ne.jp/entry/4794383394088544802/comment/pokute8 ／https://tinyurl.com/yz8rhcv5 \"日本インターネットで未だ信じられている衝撃の事実\"",
+          "tags": [],
+          "timestamp": "2026/10/14 10:19"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:16.130311+00:00"
+    },
+    {
+      "id": "h_2aedf734",
+      "title": "オレオレ詐欺がAIで極悪進化。無言電話に返した自分の声が、家族をだますヤバすぎる手口 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 45,
+      "summary": "Image: FTC米国の消費者保護を担う連邦取引委員会（FTC）は2023年3月、AIで家族の声を複製し、お金をだまし取ろうとする手口について注意をよびかけました。 短い音声と声を複製するプログラムがあれば、本人に似た声を作れるのだそう。 ネットに投稿された動画などが、声を拾われるきっかけにもなるようです。 さらに注...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
+      "comments": [
+        {
+          "user": "hapilaki",
+          "comment": "データ通信用SIMしか使っていない俺はこういった詐欺に遭ったことがない。電話はfaxや印鑑同様さっさと滅んでほしいね。",
+          "tags": [
+            "ai"
+          ],
+          "timestamp": "2026/10/14 13:20"
+        },
+        {
+          "user": "sds-page",
+          "comment": "知らない番号からの電話はまずAIに取らせるってのが一般化するんでない",
+          "tags": [
+            "AI",
+            "電話",
+            "時代"
+          ],
+          "timestamp": "2026/10/14 13:16"
+        },
+        {
+          "user": "TETSUYA01",
+          "comment": "電話に毎回、森進一のモノマネで出ている俺に死角はなかった。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:48"
+        },
+        {
+          "user": "hamigakiniku",
+          "comment": "多分AIの音声で応答してくれるサービスがそのうちはじまるよね（もうあるとおもうけど一般化する）",
+          "tags": [],
+          "timestamp": "2026/10/14 12:47"
+        },
+        {
+          "user": "birisuken8574",
+          "comment": "確かイギリスではAIおばあちゃんを使って、詐欺電話を延々と長引かせて倒してたね。AIおばあちゃんをもっと普及させるべき。",
+          "tags": [],
+          "timestamp": "2026/10/14 12:44"
+        },
+        {
+          "user": "anigoka",
+          "comment": "ホントかなぁ　もしもしだけでそこまでサンプリング出来るかぁ？しかも手段としてまどろっこしすぎる",
+          "tags": [],
+          "timestamp": "2026/10/14 12:42"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:14.497944+00:00"
+    },
+    {
+      "id": "h_e71de475",
+      "title": "SBI証券のFXで“誤ロスカット” 再委託先IIJが作業ミス、システムでも検知できず 779口座が対象",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 20,
+      "summary": "担保の株反映されず「保証金不足」と誤判定→ロスカット FXは、預けた保証金の数倍の金額で外貨を売買できる取引。損失によって保証金が一定の水準まで減ると、証券会社はそれ以上損失が広がらないよう、まだ決済していない取引（ポジション）を自動で決済（ロスカット）する。 「株券担保サービス」は、証券口座で保有す...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002249/",
+      "comments": [
+        {
+          "user": "spark64",
+          "comment": "再委託先がロスカット操作までできるわけないだろと思ったが、孫請けがデータを取り込み忘れたことによる、SBI証券側の動作というわけね。",
+          "tags": [],
+          "timestamp": "2026/10/14 13:26"
+        },
+        {
+          "user": "saikyo_tongaricorn",
+          "comment": "委託が何次までいってるか教えてほしい",
+          "tags": [],
+          "timestamp": "2026/10/14 13:25"
+        },
+        {
+          "user": "gimonfu_usr",
+          "comment": "（　そいえば、みずほ証券どうなったかな　https://news.web.nhk/newsweb/na/nd-20261013de58806　)　(　連日の金融機関のITがらみの不具合。慣れてしまったのが怖い　)",
+          "tags": [
+            "謎"
+          ],
+          "timestamp": "2026/10/14 13:23"
+        },
+        {
+          "user": "kenzy_n",
+          "comment": "誤ロスカットにごわす。",
+          "tags": [
+            "決済",
+            "システム",
+            "投資",
+            "トラブル"
+          ],
+          "timestamp": "2026/10/14 13:09"
+        },
+        {
+          "user": "kotaponx",
+          "comment": "夜間バッチで、人の判断を入れるのは良くない文化だよね。まぁ人の判断が必要なのも分かるけど、ぶっちゃけ、あんまり頭回んないんだよ。",
+          "tags": [],
+          "timestamp": "2026/10/14 13:02"
+        },
+        {
+          "user": "sqrt",
+          "comment": "FXって人間が午前3時19分に作業しなきゃ回らんようなシステムなの？　働き方改革どこいった",
+          "tags": [
+            "社会"
+          ],
+          "timestamp": "2026/10/14 12:58"
+        }
+      ],
+      "fetchedAt": "2026-10-14T04:27:15.487154+00:00"
     }
   ],
-  "lastCollection": "2026-10-13T22:30:46.261160+00:00"
+  "lastCollection": "2026-10-14T04:27:16.528576+00:00"
 }
