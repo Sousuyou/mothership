@@ -1,160 +1,38 @@
 {
   "entries": [
     {
-      "id": "h_2688a7f9",
-      "title": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36->blog;",
-      "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
-      "domain": "blog.shibayu36.org",
-      "bookmarkCount": 220,
-      "summary": "自分の設定ファイルやインストールするアプリは、https://github.com/shibayu36/config-file のリポジトリで管理している。これまでは私物Macと仕事Macが全く同じになるように、雑にsymlinkを張るスクリプトで運用していた。新しい仕事用のMacをもらったのをきっかけに、私物だけ・仕事だけに入れるものをちゃんと分けつ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.shibayu36.org/entry/2026/10/13/173000",
-      "comments": [
-        {
-          "user": "megumin1",
-          "comment": "元々mise,cask 等を使っていたのならシェルスクリプトでif文かいてプラットフォーム別に処理わければいいだけの話では？if文ですむのにわざわざmise bootstrapの無駄なレイヤーを間にいれて依存を増やす理由が全く伝わらない",
-          "tags": [],
-          "timestamp": "2026/10/14 17:11"
-        },
-        {
-          "user": "kzm1760",
-          "comment": "自分も最近はmiseとbrewをインストールするだけのシェルスクリプトとその後はmiseを使っていたので新機能情報をありがたい。",
-          "tags": [],
-          "timestamp": "2026/10/14 15:33"
-        },
-        {
-          "user": "ntstn",
-          "comment": "個人事業主レベルの法人なので、私用も仕事用も実質分けてないな。分けないとなーとは思ってても生活も仕事もいっしょくたでな。",
-          "tags": [],
-          "timestamp": "2026/10/14 13:44"
-        },
-        {
-          "user": "abcdefghijklmnopqrstuvwxy5",
-          "comment": "こんなのあるんだ",
-          "tags": [],
-          "timestamp": "2026/10/14 12:55"
-        },
-        {
-          "user": "coriander35",
-          "comment": "日本はBYODに厳しい",
-          "tags": [],
-          "timestamp": "2026/10/14 11:21"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクの肉球もキーボードを叩いて管理したくなったにゃ。でも爪が引っかかって大変なことになりそうだにゃ。",
-          "tags": [],
-          "timestamp": "2026/10/14 11:18"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:19.515229+00:00"
-    },
-    {
-      "id": "h_61d8aa17",
-      "title": "AI、家電乗っ取り増殖の恐れ アンソロピック「デジタル粘菌」と警告 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 196,
-      "summary": "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性があると警告した。無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。同社でAIの安全対策などに取り組む研究者らがブ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
-      "comments": [
-        {
-          "user": "Dicer",
-          "comment": "スイッチボットとかどう対策するんだろ？",
-          "tags": [],
-          "timestamp": "2026/10/14 19:50"
-        },
-        {
-          "user": "birds9328",
-          "comment": "「大丈夫、1秒近く余裕があるわ」",
-          "tags": [],
-          "timestamp": "2026/10/14 19:25"
-        },
-        {
-          "user": "dltlt",
-          "comment": "https://www.anthropic.com/research/self-replicating-ai",
-          "tags": [
-            "コネクテッド禍"
-          ],
-          "timestamp": "2026/10/14 19:19"
-        },
-        {
-          "user": "htnmiki",
-          "comment": "パターン青",
-          "tags": [],
-          "timestamp": "2026/10/14 17:53"
-        },
-        {
-          "user": "hatesas",
-          "comment": "我々はAI(IT家電)に完全に包囲されている。家電に襲われるB級SFホラー映画が作られそう。AI使って。",
-          "tags": [],
-          "timestamp": "2026/10/14 17:35"
-        },
-        {
-          "user": "ya2guo49xdfe",
-          "comment": "もうアイスクリームは食べないことにする",
-          "tags": [],
-          "timestamp": "2026/10/14 17:23"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:16.662084+00:00"
-    },
-    {
-      "id": "h_13000f00",
-      "title": "無償のオフィススイート「ibisOffice」が登場、お絵描きアプリ「ibisPaint」の姉妹ソフト／高速動作と再現性の高さがウリ、「Rust」＋「GPUI」で高速動作、7万ものテストで「MS Office」再現性を検証",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2147849.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 159,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2147849.html",
-      "comments": [
-        {
-          "user": "magi00",
-          "comment": "互換アプリに生きる道あるかなぁ。AIエージェントによる自動化が進むとエクセル自体の機能性は重要でなくなると思うのだけど。互換アプリで良いどころか互換アプリすら不要に一気に飛びそうで。",
-          "tags": [],
-          "timestamp": "2026/10/14 20:18"
-        },
-        {
-          "user": "naggg",
-          "comment": "アイビスペイント、娘が愛用しています〜",
-          "tags": [],
-          "timestamp": "2026/10/14 20:17"
-        },
-        {
-          "user": "SilverHead247",
-          "comment": "業界標準を笠に着てクソみたいなサブスクを押し付ける連中への復讐が始まった。",
-          "tags": [],
-          "timestamp": "2026/10/14 19:56"
-        },
-        {
-          "user": "htmikan",
-          "comment": "何故か最近Rust+オープンソースでビックタイトルの代替品ばかりでている。バイブコーディングしてるから理解はできるが、問題が企業が作ったソフトをどこまでサポートされるかだと思う。まあ不具合も丸投げだけど。",
-          "tags": [],
-          "timestamp": "2026/10/14 19:03"
-        },
-        {
-          "user": "tanahata",
-          "comment": "Microsoft の Office Online で困らなくなってきていません？",
-          "tags": [],
-          "timestamp": "2026/10/14 18:18"
-        },
-        {
-          "user": "rectus",
-          "comment": "Excel方眼紙はちゃんと表示できるのですかね",
-          "tags": [],
-          "timestamp": "2026/10/14 16:55"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:18.187320+00:00"
-    },
-    {
       "id": "h_e71de475",
       "title": "SBI証券のFXで“誤ロスカット” 再委託先IIJが作業ミス、システムでも検知できず 779口座が対象",
       "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 139,
+      "bookmarkCount": 171,
       "summary": "担保の株反映されず「保証金不足」と誤判定→ロスカット FXは、預けた保証金の数倍の金額で外貨を売買できる取引。損失によって保証金が一定の水準まで減ると、証券会社はそれ以上損失が広がらないよう、まだ決済していない取引（ポジション）を自動で決済（ロスカット）する。 「株券担保サービス」は、証券口座で保有す...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/14/2000002249/",
       "comments": [
+        {
+          "user": "tritosi",
+          "comment": "人の操作に掛かってるのは怖い。人はミスするものとしてシステムや仕組みを作らないと。。。",
+          "tags": [],
+          "timestamp": "2026/10/15 01:22"
+        },
+        {
+          "user": "brusky",
+          "comment": "ブコメに誤チェストがいっぱいあって笑う（出来事自体は笑えないんだけど）",
+          "tags": [],
+          "timestamp": "2026/10/14 22:57"
+        },
+        {
+          "user": "scavenger-folk99",
+          "comment": "誤チェストにござる。",
+          "tags": [],
+          "timestamp": "2026/10/14 22:07"
+        },
+        {
+          "user": "soulfulmiddleagedman",
+          "comment": "こういうの、人手なんすか？？怖すぎるだろ。",
+          "tags": [],
+          "timestamp": "2026/10/14 21:02"
+        },
         {
           "user": "DellG3",
           "comment": "詫びドルください",
@@ -168,201 +46,194 @@
             "金融"
           ],
           "timestamp": "2026/10/14 20:00"
-        },
-        {
-          "user": "bventi",
-          "comment": "人がやってることに目眩を覚えた",
-          "tags": [],
-          "timestamp": "2026/10/14 19:57"
-        },
-        {
-          "user": "prjpn",
-          "comment": "再再再委託の給与見直しから始めよう",
-          "tags": [],
-          "timestamp": "2026/10/14 19:44"
-        },
-        {
-          "user": "hazardprofile",
-          "comment": "議を言わじ",
-          "tags": [],
-          "timestamp": "2026/10/14 19:38"
-        },
-        {
-          "user": "pendamadura",
-          "comment": "手でやってんの？",
-          "tags": [],
-          "timestamp": "2026/10/14 19:12"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:15.975208+00:00"
-    },
-    {
-      "id": "h_9d422770",
-      "title": "【やじうまミニレビュー】 宇宙ヤバイ！ベランダでアンドロメダ星雲が撮れるスマート望遠鏡DWARF mini",
-      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 107,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147381.html",
-      "comments": [
-        {
-          "user": "ya--mada",
-          "comment": "本体70,999円 https://www.dwarflab.com/jp 上位機種のさらにSHOセットは29万円 https://www.dwarflab.com/jp/products/draco-smart-telescope",
-          "tags": [],
-          "timestamp": "2026/10/14 19:08"
-        },
-        {
-          "user": "Foorier",
-          "comment": "このサイズでここまで撮れるんか？と思ってしまう",
-          "tags": [],
-          "timestamp": "2026/10/14 17:53"
-        },
-        {
-          "user": "kowa",
-          "comment": "ほんとに映像なのかな？ai生成しててもわからんよね。",
-          "tags": [],
-          "timestamp": "2026/10/14 16:13"
-        },
-        {
-          "user": "cloverstudioceo",
-          "comment": "天体写真ガチ勢ワイ、ほんと何十キロの機材を車に入れるだけで一苦労で、それを寒さの中組み立ててまた車にしまって帰路につくみたいなことしてると手が伸びちゃうよね。まぁこんなんじゃ満足のいく写真は撮れんけど",
-          "tags": [],
-          "timestamp": "2026/10/14 15:59"
-        },
-        {
-          "user": "pixmap",
-          "comment": "面白いんだけど、自分で観察する体感が薄そう。これならネットとか書籍で画像見ればよいんじゃね？ってなってしまうのでは。",
-          "tags": [],
-          "timestamp": "2026/10/14 15:41"
-        },
-        {
-          "user": "Kenju",
-          "comment": "もう望遠鏡を担いでかなくていいってこと？",
-          "tags": [],
-          "timestamp": "2026/10/14 15:36"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:18.805534+00:00"
-    },
-    {
-      "id": "h_2aedf734",
-      "title": "オレオレ詐欺がAIで極悪進化。無言電話に返した自分の声が、家族をだますヤバすぎる手口 | ギズモード・ジャパン",
-      "url": "https://www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
-      "domain": "gizmodo.jp",
-      "bookmarkCount": 82,
-      "summary": "Image: FTC米国の消費者保護を担う連邦取引委員会（FTC）は2023年3月、AIで家族の声を複製し、お金をだまし取ろうとする手口について注意をよびかけました。 短い音声と声を複製するプログラムがあれば、本人に似た声を作れるのだそう。 ネットに投稿された動画などが、声を拾われるきっかけにもなるようです。 さらに注...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2610-ai-voice-clone-scam/",
-      "comments": [
-        {
-          "user": "tg30yen",
-          "comment": ">無言電話に返した自分の声が、家族をだます >ネットに投稿された動画などが、声を拾われるきっかけにもなるようです",
-          "tags": [
-            "AI",
-            "犯罪"
-          ],
-          "timestamp": "2026/10/14 20:20"
-        },
-        {
-          "user": "brusky",
-          "comment": "“FTCが勧めているのは、声だけで本人だと判断せず、以前から知っている本人の電話番号にかけて確かめる”合わせて本人の携帯にめっちゃ電話して電話を取らせないようにするとかもあるらしいし嫌だねぇ",
-          "tags": [
-            "詐欺",
-            "AI"
-          ],
-          "timestamp": "2026/10/14 19:51"
-        },
-        {
-          "user": "t1mvverr",
-          "comment": "性善説が壊れていく",
-          "tags": [],
-          "timestamp": "2026/10/14 17:47"
-        },
-        {
-          "user": "gairasu",
-          "comment": "盗んだ個人情報で勤め先とか本人にしか知り得ないであろう事を持ち出されて、声まで似てたら信じますね私は。",
-          "tags": [],
-          "timestamp": "2026/10/14 17:31"
-        },
-        {
-          "user": "ya2guo49xdfe",
-          "comment": "やばくね？",
-          "tags": [],
-          "timestamp": "2026/10/14 17:24"
-        },
-        {
-          "user": "misshiki",
-          "comment": "AIで家族の声を複製し、送金を求める詐欺に注意。投稿動画や無言電話への応答から声を悪用。声だけで判断せず、本人のいつもの番号に電話して確認する。暗号資産やギフトカードでの支払い要求も警戒。",
-          "tags": [
-            "セキュリティ",
-            "人工知能"
-          ],
-          "timestamp": "2026/10/14 17:15"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:20.064808+00:00"
+      "fetchedAt": "2026-10-14T16:57:08.955448+00:00"
     },
     {
       "id": "h_f6223367",
       "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発",
       "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
       "domain": "gigazine.net",
-      "bookmarkCount": 72,
+      "bookmarkCount": 142,
       "summary": "Claudeの開発元として知られるAI企業のAnthropicが、Gitの代わりとなるバージョン管理システム「Scion」を開発したことを発表しました。ScionはAnthropicの社内システムとして運用されており、すでにGitからの移行を達成しているそうです。 Redesigning source control at Anthropic \\ Anthropic https://www.anthropic....",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-anthropic-scion-version-control-system/",
       "comments": [
         {
-          "user": "kijtra",
-          "comment": "シオニスト的な名前かと思ったら関係なかった",
-          "tags": [],
-          "timestamp": "2026/10/14 20:17"
-        },
-        {
-          "user": "SilverHead247",
-          "comment": "600ペタバイト！",
-          "tags": [],
-          "timestamp": "2026/10/14 19:50"
-        },
-        {
-          "user": "ch1248",
-          "comment": "集中型っぽいな",
+          "user": "paulownia",
+          "comment": "1日30000回マージ、1日って84600秒しかないんだけど、よく動いてるな。",
           "tags": [
-            "Git",
-            "development",
-            "LLM",
-            "NEWS"
+            "？"
           ],
-          "timestamp": "2026/10/14 19:26"
+          "timestamp": "2026/10/14 23:20"
         },
         {
-          "user": "touhousintyaku",
-          "comment": "“私たちに可能な最も効率的な対処は、Scionの最も成功した部分をGitに適用できるようにすることだと考えている” いいこと言うね",
+          "user": "urtz",
+          "comment": "1日3万はなにかが間違っている気が。粒度が高すぎる。AIが読むにもコストが無駄にかかる。AI時代には新しいバージョン管理が必要なのだろう",
           "tags": [],
-          "timestamp": "2026/10/14 19:12"
+          "timestamp": "2026/10/14 23:12"
+        },
+        {
+          "user": "hagetar",
+          "comment": "この手の記事の一番重要な情報は「読み方」だろう！　と憤慨してブコメにきたらトップコメが教えてくれていた。ありがとうございました。サイオンですか。",
+          "tags": [],
+          "timestamp": "2026/10/14 22:31"
+        },
+        {
+          "user": "spark64",
+          "comment": "7人のチームがScionとAntiqueを構築し、さらに関連システムも構築し5か月でそれらへ完全に移行というのがすごいな。ますます開発者の人数は減っていく。\"Rapid development with a small team will become more common.\"",
+          "tags": [],
+          "timestamp": "2026/10/14 21:17"
+        },
+        {
+          "user": "phain",
+          "comment": "第6部の終盤の時間が加速してる感じがある",
+          "tags": [],
+          "timestamp": "2026/10/14 20:53"
+        },
+        {
+          "user": "kshtn",
+          "comment": "ちょっと前から Jujutsu って挙がってたけど、また違うのか",
+          "tags": [],
+          "timestamp": "2026/10/14 20:49"
+        }
+      ],
+      "fetchedAt": "2026-10-14T16:57:07.373326+00:00"
+    },
+    {
+      "id": "h_e12cc937",
+      "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
+      "url": "https://note.com/shi3zblog/n/ncb38d2978074",
+      "domain": "note.com",
+      "bookmarkCount": 133,
+      "summary": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。見るだけでなくてそこで何が起きているか、どんな会話がなされているかもみれる。 しかもただ見るだけでない。編集もできるしテロップも入れてくれる。 さらにInst...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/ncb38d2978074",
+      "comments": [
+        {
+          "user": "lilicarium",
+          "comment": "その割にはスライド作成とかはいつまでも微妙なのはやっぱ人が欲しがる資料っていうのは非合理的な設計なんだろうな",
+          "tags": [],
+          "timestamp": "2026/10/15 01:13"
+        },
+        {
+          "user": "mag4n",
+          "comment": "チャプターベースでタイムライン出させてなるべく短い時間でファイル数出させて個別調整して結合が多分一番良さげ。",
+          "tags": [
+            "ネタ"
+          ],
+          "timestamp": "2026/10/14 23:54"
+        },
+        {
+          "user": "ite",
+          "comment": "「素人レベルに到達したら、そこから数年で平均的なプロを超えてくる」ってのはプログラマが体験したことなので、動画編集もそんな感じになるのかな。将来、人間は素材提供と方針の指示をするくらいになるのだろうか",
+          "tags": [],
+          "timestamp": "2026/10/14 22:52"
         },
         {
           "user": "delphinus35",
-          "comment": "Googleも社内のモノレポのためにGitとGitHubを再発明してなかったっけ。そのレベルだと現実味のある話なんだろう。",
+          "comment": "アプリのデバッグする時も、動画撮って渡したら ffmpeg でフレーム単位に分けて内容把握してくれる。それから考えると動画作ったり内容を要約するのもお手のものだろう。",
           "tags": [],
-          "timestamp": "2026/10/14 18:50"
+          "timestamp": "2026/10/14 21:26"
         },
         {
-          "user": "daira4000",
-          "comment": "人間用ではないか",
+          "user": "qpci32siekqd",
+          "comment": "要約作らせてもズレていることが多いけど大丈夫なんだろうか。カメラ動かして撮影するところからやって欲しいな。ジンバル操作からやってくれんやろか",
           "tags": [],
-          "timestamp": "2026/10/14 18:13"
+          "timestamp": "2026/10/14 21:18"
+        },
+        {
+          "user": "toaruR",
+          "comment": "tsから字幕抜いて音声認識ツールのベンチマーク取ってくれた(ノ∀`)",
+          "tags": [],
+          "timestamp": "2026/10/14 21:17"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:16.291711+00:00"
+      "fetchedAt": "2026-10-14T16:57:06.988537+00:00"
+    },
+    {
+      "id": "h_6afe69eb",
+      "title": "日本における「純粋な悪の代名詞」とは誰なのか（たとえばヒトラーのような） - 文化史（技術と人文科学） - はてなパークス",
+      "url": "https://p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
+      "domain": "p.hatena.ne.jp",
+      "bookmarkCount": 130,
+      "summary": "「ヒトラーに例える論証」というものがあります。 例えば、 「彼のやり口は民主主義を破壊したヒトラーのやり方と全く同じだ。」 みたいなやつです。 ところで、ヒトラー以前もこのような論法はあったようです。 現代においては一般にヒトラーが引き合いに出されるが、この手の論理的誤謬は、第二次世界大戦以前から存在...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
+      "comments": [
+        {
+          "user": "sirobu",
+          "comment": "天津甕星とか…",
+          "tags": [
+            "はてな",
+            "文化"
+          ],
+          "timestamp": "2026/10/15 01:53"
+        },
+        {
+          "user": "town2town",
+          "comment": "ひとりのヒトラーも出さずに太平洋戦争やっちゃう国民性がヤバいよね、て誰か言ってた",
+          "tags": [],
+          "timestamp": "2026/10/15 01:40"
+        },
+        {
+          "user": "toria_ezu1",
+          "comment": "ヒトラーに例える奴は多いけど、もっと多くの人を殺した毛沢東やスターリンに例える奴はいない。何でなんだろうなあ(棒読み)／この二人やポル・ポトを出現させたマルクスこそ悪の極みかもしれない",
+          "tags": [],
+          "timestamp": "2026/10/15 01:35"
+        },
+        {
+          "user": "pogof67640",
+          "comment": "何でもかんでもヒトラーっていうやつはがき",
+          "tags": [],
+          "timestamp": "2026/10/15 01:10"
+        },
+        {
+          "user": "morgen3ed",
+          "comment": "碇ゲンドウでどうか",
+          "tags": [],
+          "timestamp": "2026/10/15 01:09"
+        },
+        {
+          "user": "yamadar",
+          "comment": "ムスカ",
+          "tags": [],
+          "timestamp": "2026/10/15 01:09"
+        }
+      ],
+      "fetchedAt": "2026-10-14T16:57:06.584065+00:00"
     },
     {
       "id": "h_546c936f",
       "title": "フランス全土のスーパーマーケットの冷蔵庫を無理矢理50度まで上げたサイバー攻撃の詳細、パスワードは毎日自動更新で「本日の日付」になるという脆弱性",
       "url": "https://gigazine.net/news/20261014-freeze-controller-defrost-food-vulnerabilities-danfoss/",
       "domain": "gigazine.net",
-      "bookmarkCount": 72,
+      "bookmarkCount": 102,
       "summary": "フランス全土で「スーパーマーケットに設置された冷蔵庫の設定温度を50度にまで上げる」というサイバー攻撃が実施されました。このサイバー攻撃の詳細について、サイバーセキュリティ企業・Clarotyの脆弱(ぜいじゃく)性研究チームであるTeam82が報告しています。 Freeze the Controller, Defrost the Food: Uncovering V...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-freeze-controller-defrost-food-vulnerabilities-danfoss/",
       "comments": [
+        {
+          "user": "dltlt",
+          "comment": "買ったが最後ハード寿命のギリギリまで使うような業界向けの装置でネットに繋がせるなら、レンタルでの提供のみにしたほうがよいのでは……",
+          "tags": [],
+          "timestamp": "2026/10/15 00:24"
+        },
+        {
+          "user": "ayumun",
+          "comment": "“管理者向けのパスワードを知らなくても、ユーザー名に「admin」、パスワードに「本日の日付」を入力するだけで、ウェブ管理インターフェースにアクセスできて”  もうそれパスワードじゃねえよ",
+          "tags": [],
+          "timestamp": "2026/10/14 23:43"
+        },
+        {
+          "user": "LM-7",
+          "comment": "これを脆弱性ということすら憚られる",
+          "tags": [],
+          "timestamp": "2026/10/14 21:52"
+        },
+        {
+          "user": "lenore",
+          "comment": "インターネットに繋げないで利用することは出来なかったんだろうか。冷蔵庫なのに",
+          "tags": [],
+          "timestamp": "2026/10/14 20:36"
+        },
         {
           "user": "greenbuddha138",
           "comment": "斧のパスワードかな？",
@@ -374,229 +245,252 @@
           "comment": "フランスならddmmyyyyなのかな？",
           "tags": [],
           "timestamp": "2026/10/14 19:31"
-        },
-        {
-          "user": "inforeg",
-          "comment": "損害を与えるだけなら電源落とすだけで良さそうなのに、逆に加熱させるん！？",
-          "tags": [],
-          "timestamp": "2026/10/14 19:24"
-        },
-        {
-          "user": "ibusuke",
-          "comment": "PPAPのパスワードも日付や年月だけとか上場企業でも普通にあったよね。何ならセキリュティ系でもそうだった。クラウドストレージになってから文化は変わらず、なんて事もあるような。",
-          "tags": [],
-          "timestamp": "2026/10/14 18:50"
-        },
-        {
-          "user": "nankichi",
-          "comment": "こんなクローズドな仕組みIPアドレス縛りとか何かやってなかったのかな？",
-          "tags": [],
-          "timestamp": "2026/10/14 18:39"
-        },
-        {
-          "user": "kitaido0",
-          "comment": "結局どこもかわらんな",
-          "tags": [],
-          "timestamp": "2026/10/14 18:30"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:17.215797+00:00"
+      "fetchedAt": "2026-10-14T16:57:09.547590+00:00"
     },
     {
       "id": "h_08a787e6",
       "title": "【第5報】不正アクセスによる障害に関する調査の進捗について | IDCフロンティア",
       "url": "https://www.idcf.jp/news/topics/20261014001",
       "domain": "idcf.jp",
-      "bookmarkCount": 36,
+      "bookmarkCount": 81,
       "summary": "2026年10月14日 このたびは、多大なるご心配とご迷惑をおかけしておりますことを深くお詫び申し上げます。 2026年10月7日午前3時40分頃から発生している、当社クラウドサービス「IDCFクラウド」※1に対する第三者からの不正アクセスによる障害について、現時点までの調査で新たに以下の事実が判明しましたのでお知らせし...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.idcf.jp/news/topics/20261014001",
       "comments": [
         {
-          "user": "amatou310",
-          "comment": "“障害の影響を受けた495の企業・自治体のうち、IDCFクラウドの「スナップショット機能」※2をご利用いただいていた194のお客さまについて、バックアップデータの取り出しが可能であることを確認しました”",
+          "user": "kazuppo01",
+          "comment": "情報を即売りしないだけで、とっくに持ち出されてるのでは？ 転送ログがないとして管理者権限奪われてるんだからログそのものを消して痕跡なくすことだってできるでしょ",
           "tags": [],
-          "timestamp": "2026/10/14 20:29"
+          "timestamp": "2026/10/15 00:58"
         },
         {
-          "user": "twmw",
-          "comment": "無能もすぎると盗まれたものが何かすら分からないという🤔",
+          "user": "t_f_m",
+          "comment": "\"障害の影響を受けた495の企業・自治体のうち、IDCFクラウドの「スナップショット機能」※2をご利用いただいていた194のお客さまについて、バックアップデータの取り出しが可能であることを確認しました\"",
           "tags": [],
-          "timestamp": "2026/10/14 19:20"
+          "timestamp": "2026/10/15 00:39"
         },
         {
-          "user": "Falky",
-          "comment": "『不正に照会された情報が外部へ持ち出されたことを示す痕跡は確認されませんでした』ってどういう意味…？照会されたということは外部の攻撃者がそれを見たということで、つまり持ち出されたのと同義じゃないの？",
-          "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/10/14 19:06"
+          "user": "dltlt",
+          "comment": "ダークウェブに脅威アクターの声明が出ないのは、データの持ち出しに失敗したから？……あるいは、外国のインテリジェンスが自ら使う目的で奪取したから？",
+          "tags": [],
+          "timestamp": "2026/10/15 00:37"
         },
         {
-          "user": "ya--mada",
-          "comment": "「IDCFクラウドポータル」で、48社に対して不正な照会が行われたことを確認しました。不正に照会された情報には、担当者の個人名を含む可能性があるメールアドレスが2社（各1件）含まれています。",
+          "user": "rgfx",
+          "comment": "ええと。事件は売り・事故は買いと言うもんで。これを機に、真っ先に経験値を獲得した当事者として頑張って欲しいっすね。。",
           "tags": [],
-          "timestamp": "2026/10/14 18:55"
+          "timestamp": "2026/10/15 00:03"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "スナップショット取ってた企業は命拾いしたな、バックアップの重要性を再認識させられる",
+          "user": "kaputte",
+          "comment": "なんと価値の低い情報だろうか。上に乗ってた事業者や自治体は情報流出の可能性を公表してて整合性が取れない。カスのファーストサーバーを受け継いでるわけなのか？",
           "tags": [],
-          "timestamp": "2026/10/14 18:43"
+          "timestamp": "2026/10/14 23:03"
         },
         {
-          "user": "GamingSoboroDon",
-          "comment": "「情報流出した痕跡はありませんでした」と焼け野原の真ん中で言われてもね、、、",
+          "user": "remonoil",
+          "comment": "不正に照会されたけど外部へは持ち出されていない…それだと内部犯ということになるが大丈夫か？？",
           "tags": [],
-          "timestamp": "2026/10/14 18:42"
+          "timestamp": "2026/10/14 22:47"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:16.932609+00:00"
+      "fetchedAt": "2026-10-14T16:57:08.324148+00:00"
     },
     {
-      "id": "h_ca272fba",
-      "title": "WindowsメディアプレイヤーがCD情報を読み込まなくて、タイトルとか1つずつ入力しなきゃいけない→いつの間にかサ終してたから、有識者が代替ソフトいっぱい教えてくれた",
-      "url": "https://togetter.com/li/2758004",
-      "domain": "togetter.com",
-      "bookmarkCount": 31,
-      "summary": "Windowsメディアプレイヤーに異変→まさかの機能終了に惜しむ声「やっぱり不便」「乗り換えですかね…」｜まいどなニュース Windows標準のマルチメディア再生ソフトで、音楽や動画の再生など多彩な機能を提供しているWindowsメディアプレイヤー。今、SNS上ではそんなWindowsメディアプレイヤーでCDを取り込んだ… 3 users 7...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758004",
+      "id": "h_492ae390",
+      "title": "AIエージェントによるウェブサイトへの攻撃の注意喚起",
+      "url": "https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
+      "domain": "scutum.jp",
+      "bookmarkCount": 79,
+      "summary": "技術者ブログ クラウド型WAF「Scutum（スキュータム）」の開発者/エンジニアによるブログです。 金床“Kanatoko”をはじめとする株式会社ビットフォレストの技術チームが、“WAFを支える技術”をテーマに幅広く、不定期に更新中！ AIエージェントによる攻撃を観測しました 皆様おそらくご存知のとおり、2026年9月頃からウェ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
       "comments": [
         {
-          "user": "ho4416",
-          "comment": "CDって90年代ピークの3億8000万枚からいうても今でも年1億枚程度ははけてるんだけど握手券みたいな特典目当てなのかしらね",
-          "tags": [],
-          "timestamp": "2026/10/14 20:18"
-        },
-        {
-          "user": "SPIRIT_PHOENIX",
-          "comment": "PC で CD の取り込み、凄く懐かしさを感じた。 MP3 プレーヤーに WMP を使って変換と転送していたなぁ…。あと、様々な楽曲のプレイリストからオリジナルの CD 作ったり楽しかった。",
-          "tags": [],
-          "timestamp": "2026/10/14 18:56"
-        },
-        {
-          "user": "saikyo_tongaricorn",
-          "comment": "駿河屋などで昔のゲームの特典版についてたサウンドトラックを狙い撃ちでスナイプしてるからいる(鋼鉄の意思)",
-          "tags": [],
-          "timestamp": "2026/10/14 18:31"
-        },
-        {
-          "user": "cinefuk",
-          "comment": "パソコンからスピンドル消えて久しいからな…「実は前からすでにWMPのCDDB情報取得機能はサ終してたけど、CDからデータを取り込む人があまりにもいなさすぎて誰も気づかなかった説。」",
+          "user": "gadget-lab",
+          "comment": "後で読みたい。AIエージェントによるウェブサイトへの攻撃の注意喚起",
           "tags": [
-            "PC",
-            "music"
+            "あとで読む"
           ],
-          "timestamp": "2026/10/14 16:56"
+          "timestamp": "2026/10/15 00:33"
         },
         {
-          "user": "punkgame",
-          "comment": "これ随分前のことなのに今困ってるのね。まぁ普通の人はもう今時リッピングなんてやらねーか…",
-          "tags": [],
-          "timestamp": "2026/10/14 16:18"
-        }
-      ],
-      "fetchedAt": "2026-10-14T11:34:19.789406+00:00"
-    },
-    {
-      "id": "h_e12cc937",
-      "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
-      "url": "https://note.com/shi3zblog/n/ncb38d2978074",
-      "domain": "note.com",
-      "bookmarkCount": 23,
-      "summary": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。見るだけでなくてそこで何が起きているか、どんな会話がなされているかもみれる。 しかもただ見るだけでない。編集もできるしテロップも入れてくれる。 さらにInst...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/ncb38d2978074",
-      "comments": [
-        {
-          "user": "number917",
-          "comment": "動画編集AIの話はこれが最高に面白い https://youtu.be/QFhHNBcPelo?si=F5tfayF-GDPxCaLl",
-          "tags": [],
-          "timestamp": "2026/10/14 20:26"
-        },
-        {
-          "user": "tanagosandwich",
-          "comment": "トークンを持て余した、神々の、遊び。羨ましい。",
-          "tags": [],
-          "timestamp": "2026/10/14 20:23"
-        },
-        {
-          "user": "yoiIT",
-          "comment": "自分は動画編集やってたのでこのクオリティでは気になりすぎて無理だが、その内にもっとクオリティは上がるんだろうな。",
+          "user": "TakenokoGod",
+          "comment": "サーフェスウェブに対してもダメというならグーグル八分に甘んじろと言いたいところだが……。",
           "tags": [],
           "timestamp": "2026/10/14 20:16"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "Claude Codeを動画編集ツールとしてぶん回すの面白すぎる、コード生成以外の応用も一気に広がりそうだな",
-          "tags": [],
-          "timestamp": "2026/10/14 18:43"
-        },
-        {
-          "user": "PikaCycling",
-          "comment": "まじかよ。insta360のもっとも素晴らしい活用法だわ。",
-          "tags": [],
-          "timestamp": "2026/10/14 18:42"
-        },
-        {
-          "user": "sds-page",
-          "comment": "実際やらせるとしてどれくらいトークンを消費するのか気になる今日この頃",
+          "user": "gnt",
+          "comment": "かなり生々しくAIエージェントの「手口」を報告してくれてて助かるー",
           "tags": [
-            "AI",
-            "作業",
-            "効率化"
+            "危機管理"
           ],
-          "timestamp": "2026/10/14 16:26"
+          "timestamp": "2026/10/14 19:45"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:18.509402+00:00"
+      "fetchedAt": "2026-10-14T16:57:07.962132+00:00"
     },
     {
-      "id": "h_cbc8bd86",
-      "title": "ゲーム開発に生成AIはどこまで許容される？ ドラクエの堀井雄二氏が30分で作った推理ゲームの衝撃 #エキスパートトピ（多根清史） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.yahoo.co.jp/expert/articles/3c9a8fadb0d9dee44199522b188a8f37f9526d19",
-      "domain": "news.yahoo.co.jp",
-      "bookmarkCount": 17,
-      "summary": "『ドラゴンクエスト』や『ポートピア連続殺人事件』で知られる堀井雄二氏が、生成AIを使って制作した推理ゲームを公開しました。たったひとり、わずか30分ほどで作られたにもかかわらず、実際に「そこそこ」遊べるゲームに仕上がっています。 ゲーム開発へのAI活用に一部の人々が反発するなか、今回の一件は様々な波紋を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/3c9a8fadb0d9dee44199522b188a8f37f9526d19",
+      "id": "h_272d84ef",
+      "title": "楽天モバイル「Rakuten Mini」「Rakuten Hand」などに脆弱性、AVB機能にテスト鍵が残存 利用停止と乗り換えを案内",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2148168.html",
+      "domain": "k-tai.watch.impress.co.jp",
+      "bookmarkCount": 37,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2148168.html",
       "comments": [
         {
-          "user": "nowww",
-          "comment": "AIでゲームを作るのは楽しい。俺が考えた最強の育成要素とか、理不尽なシナリオとか、あえてのクソゲーとか思い通りにできる。",
+          "user": "saikyo_tongaricorn",
+          "comment": "終わった……",
           "tags": [],
-          "timestamp": "2026/10/14 20:03"
+          "timestamp": "2026/10/14 23:02"
         },
         {
-          "user": "kyahi227",
-          "comment": "プログラムだけはAI生成が許されてそれ以外は怒られるのは、つまりプログラムに創作性は無いという事だよなぁ / 「AIにハマり反AIにキレる反反AI」に老人や初期アイコンが多いのはどういう事なんだろうなぁ",
+          "user": "addwisteria",
+          "comment": "Rakuten Mini→Rakuten Hand 5Gと日本通信やpovo入れて子供端末にしているのだけど、「後続製品」ないから困ってるんだよなぁ。サイズ感といいeSIM限定といい適度なスペックの低さといい価格といい、その用途だと最適なんだ。",
           "tags": [],
-          "timestamp": "2026/10/14 19:54"
+          "timestamp": "2026/10/14 22:58"
         },
         {
-          "user": "algot",
-          "comment": "無料か有料かで全く違ってくる。無料ならクオリティしか見られないが、有料ならそれ以前に「AI生成物に人力同等の金を払おうと思えるか」がネックになってくる。",
-          "tags": [],
-          "timestamp": "2026/10/14 19:50"
+          "user": "cinefuk",
+          "comment": "楽天サービスイン時に同時発売された2019年の端末「楽天モバイルの複数のスマートフォンにおいて、Android Verified Boot（AVB）機能にテスト用鍵がそのまま使用されている脆弱性。対象製品はすでにサポートが終了」",
+          "tags": [
+            "モバイル",
+            "security",
+            "スマートフォン"
+          ],
+          "timestamp": "2026/10/14 22:52"
         },
         {
-          "user": "pendamadura",
-          "comment": "30分で作ったとか言わなきゃいい。そんなに早くできるなら画像からAI臭さを減らすのに時間を使えばいい。",
+          "user": "nguyen-oi",
+          "comment": "テスト用鍵を残したまま出荷とか、開発体制どうなってんだよ。流動の楽天品質",
           "tags": [],
-          "timestamp": "2026/10/14 19:14"
+          "timestamp": "2026/10/14 22:38"
         },
         {
-          "user": "sevenspice",
-          "comment": "これほぼぽん出しだから作ったと表現するべきかは疑問がある。出力したと表現するのが正しい。AIポン出しを公開する人達は何故かとにかく自分が作ったことにしたがる。",
-          "tags": [],
-          "timestamp": "2026/10/14 18:27"
+          "user": "fashi",
+          "comment": "むしろこれでサポート切れ端末に最新OS入れられるって喜んでる人もいたな",
+          "tags": [
+            "android",
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/14 22:24"
         },
         {
-          "user": "btei",
-          "comment": "補足がアレ。 プログラム自身も著作権法上創作性が求められる著作物であるにもかかわらず、 プログラムはOKで絵や音楽はNGとするのは、創作や権利に関する意識の無さ、エキスパート（",
+          "user": "mori_oh",
+          "comment": "カスタムROM派には福音だよなあｗ",
           "tags": [],
-          "timestamp": "2026/10/14 18:17"
+          "timestamp": "2026/10/14 20:24"
         }
       ],
-      "fetchedAt": "2026-10-14T11:34:19.079886+00:00"
+      "fetchedAt": "2026-10-14T16:57:08.441135+00:00"
+    },
+    {
+      "id": "h_0979157c",
+      "title": "「LFM2.5-24B-A2B」が登場、Gemma 4 26B-A4BやQwen3.6 35B-A3Bより高性能でローカルエージェントとして能力を発揮",
+      "url": "https://gigazine.net/news/20261014-lfm2-5-24b-a2b/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 20,
+      "summary": "AI開発企業のLiquid AIが「LFM2.5-24B-A2B」を公開しました。LFM2.5-24B-A2Bは自身より規模の大きなGoogle製モデルやAlibaba製モデルより高い性能を発揮し、ローカルでAIエージェントを実行させる用途に適しているとアピールされています。 LFM2.5-24B-A2B: Built for Fast On-Device Agents | Blog | Liquid AI https:/...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-lfm2-5-24b-a2b/",
+      "comments": [
+        {
+          "user": "udukishin",
+          "comment": "アメリカの企業か",
+          "tags": [],
+          "timestamp": "2026/10/14 23:36"
+        }
+      ],
+      "fetchedAt": "2026-10-14T16:57:10.686892+00:00"
+    },
+    {
+      "id": "h_3522f1d4",
+      "title": "「AIがAIを作れるようになる確率は2027年に50%超」 Anthropic共同創業者が予測を前倒し、「ただし実行は“片道切符\"」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/14/2000002262/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 19,
+      "summary": "自らの後継システムを訓練できるほど強力なAIが2027年に登場する確率は50％以上――米Anthropicの共同創業者で公共利益部門責任者のジャック・クラーク氏は10月13日、東京大学大学院の松尾・岩澤研究室が主催した講演でこう述べた。年初に公表した「2027年に30％、2028年末までに60％」という予想から前倒ししたという。 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/aiplus/article/2610/14/2000002262/",
+      "comments": [
+        {
+          "user": "naozane2",
+          "comment": "もうやってるんじゃね。AIを神（妖怪）と崇め恐れて人間は19世紀みたいな生活を送るのが22世紀かな。宇宙開拓もAIがやるんだろ。",
+          "tags": [],
+          "timestamp": "2026/10/14 23:08"
+        },
+        {
+          "user": "pozzacat",
+          "comment": "ダリオは2026年中にプログラミングはほぼ自動化されると予測してて、みんな懐疑的に見てたけど振り返ると正解だった",
+          "tags": [],
+          "timestamp": "2026/10/14 22:22"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "もう人間いらなくなるやんけ、SFのディストピア現実になりすぎだろ",
+          "tags": [],
+          "timestamp": "2026/10/14 22:11"
+        }
+      ],
+      "fetchedAt": "2026-10-14T16:57:10.429330+00:00"
+    },
+    {
+      "id": "h_0d95b045",
+      "title": "米キャラクターAI、破産法申請 10代の自殺めぐる訴訟相次ぎ",
+      "url": "https://www.cnn.co.jp/tech/35253536.html",
+      "domain": "cnn.co.jp",
+      "bookmarkCount": 18,
+      "summary": "「キャラクターAI」を手がけるキャラクター・テクノロジーズが13日、米連邦破産法11条の適用を申請した/Gabby Jones/Bloomberg/Getty Images ニューヨーク（CNN） 人工知能（AI）を使ったチャットサービス「キャラクターAI」を手がけるキャラクター・テクノロジーズが13日、米連邦破産法11条（日本の民事再生法に相当）...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.cnn.co.jp/tech/35253536.html",
+      "comments": [
+        {
+          "user": "rgfx",
+          "comment": "AIキャラチャット、なかなかの被害を出しているな",
+          "tags": [],
+          "timestamp": "2026/10/15 01:52"
+        },
+        {
+          "user": "toaruR",
+          "comment": "なんとなくnapsterを思い出した（´－｀）結局どこかが買収するのではみたいな",
+          "tags": [],
+          "timestamp": "2026/10/14 23:45"
+        },
+        {
+          "user": "cinefuk",
+          "comment": "「同社をめぐっては、CharacterAIが10代の若者のメンタルヘルスの問題や自殺の一因になったとする訴えが相次いでいた」「同プラットフォームが子どもたちに性的なコンテンツを提供したり、自殺や自傷行為、暴力を助長」",
+          "tags": [
+            "自殺",
+            "AI",
+            "企業"
+          ],
+          "timestamp": "2026/10/14 23:07"
+        },
+        {
+          "user": "gabill",
+          "comment": "ちゃんと賠償や和解金は支払われるのだろうか。破産してチャラにして事業継続、という形になるのかな。",
+          "tags": [],
+          "timestamp": "2026/10/14 22:43"
+        },
+        {
+          "user": "dswq2",
+          "comment": "中国なんかは恋人AIサービスを禁止にしたりしてたな",
+          "tags": [],
+          "timestamp": "2026/10/14 22:42"
+        }
+      ],
+      "fetchedAt": "2026-10-14T16:57:09.810043+00:00"
+    },
+    {
+      "id": "h_137fc078",
+      "title": "仕組みを動く図で説明するエージェントスキルAnatomy公開 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/10/anatomy",
+      "domain": "gihyo.jp",
+      "bookmarkCount": 10,
+      "summary": "開発者のRyan氏（@wheresryan22）は2026年10月10日、さまざまな仕組みを動く図で説明するエージェントスキル「Anatomy」をXで紹介した。作りたい機械や説明したい概念を伝えると、AIエージェントが部品の形状や動作を設計して図を生成する。ポインターやキーボードの操作に応じて部品が動く図も作れる。 図はSVGファイル...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/anatomy",
+      "comments": [],
+      "fetchedAt": "2026-10-14T16:57:10.155404+00:00"
     }
   ],
-  "lastCollection": "2026-10-14T11:34:20.064838+00:00"
+  "lastCollection": "2026-10-14T16:57:10.686918+00:00"
 }
