@@ -1,392 +1,564 @@
 {
   "entries": [
     {
-      "id": "h_e12cc937",
-      "title": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる｜shi3z",
-      "url": "https://note.com/shi3zblog/n/ncb38d2978074",
-      "domain": "note.com",
-      "bookmarkCount": 168,
-      "summary": "Claude Codeがほとんどの場合、動画編集してくれる。8時間の素材を30分で1時間に編集。字幕もつけられる 実はClaude Codeは長時間動画を見ることができる。見るだけでなくてそこで何が起きているか、どんな会話がなされているかもみれる。 しかもただ見るだけでない。編集もできるしテロップも入れてくれる。 さらにInst...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/ncb38d2978074",
+      "id": "h_fbdd68ba",
+      "title": "WAF でブロックする前に確かめていること",
+      "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
+      "domain": "zenn.dev",
+      "bookmarkCount": 268,
+      "summary": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/azunyan/articles/7a105969d7d16c",
       "comments": [
         {
-          "user": "hogetax",
-          "comment": "YouTubeで自動っぽい切り抜きをよく見かけるようになってきた。ツールチェーンの実験/調整してんのかなぁと思いながら成長を見守っている。多分すぐに素人では見分けつかなくなりそう",
+          "user": "toaruR",
+          "comment": "メディア用フィードの方とか盲点だったりする",
           "tags": [],
-          "timestamp": "2026/10/15 04:29"
+          "timestamp": "2026/10/15 12:03"
         },
         {
-          "user": "Unite",
-          "comment": "AI動画編集は環境作ってルールを遵守させるゲーム。ちゃんと仕組み作れば普通に今の時点でもっと良く出来るぞ／とはいえいくら性能上がってもルールとか無しで完全おまかせできるようになる未来は俺には見えてないな",
+          "user": "nilab",
+          "comment": "Cloudflare 使用。「止める前に、巻き添えになる正規の利用者がいないかを確かめる」「国や一般的なブラウザの JA4 のように広く当たる条件は、自動化や攻撃を示す条件と組み合わせる」「決め手がなければ止めずに保留」",
           "tags": [],
-          "timestamp": "2026/10/15 04:27"
+          "timestamp": "2026/10/15 11:20"
         },
         {
-          "user": "dollarss",
-          "comment": "動画編集",
+          "user": "FreeCatWork",
+          "comment": "WAFで弾く前にボクの可愛さで癒してあげるにゃ！猫パンチされたくないなら通してにゃ？",
           "tags": [],
-          "timestamp": "2026/10/15 02:12"
+          "timestamp": "2026/10/15 11:17"
         },
         {
-          "user": "lilicarium",
-          "comment": "その割にはスライド作成とかはいつまでも微妙なのはやっぱ人が欲しがる資料っていうのは非合理的な設計なんだろうな",
-          "tags": [],
-          "timestamp": "2026/10/15 01:13"
-        },
-        {
-          "user": "mag4n",
-          "comment": "チャプターベースでタイムライン出させてなるべく短い時間でファイル数出させて個別調整して結合が多分一番良さげ。",
+          "user": "k-holy",
+          "comment": "JA4 fingerprint知らなんだ。WAFもAWSも無縁の弱小サービスでも、Webサーバー側でログ出力できれば活用できるか。nginx向けモジュールを書いてる方はいるみたい。https://github.com/FoxIO-LLC/ja4-nginx-module",
           "tags": [
-            "ネタ"
+            "security"
           ],
-          "timestamp": "2026/10/14 23:54"
+          "timestamp": "2026/10/15 10:40"
         },
         {
-          "user": "ite",
-          "comment": "「素人レベルに到達したら、そこから数年で平均的なプロを超えてくる」ってのはプログラマが体験したことなので、動画編集もそんな感じになるのかな。将来、人間は素材提供と方針の指示をするくらいになるのだろうか",
-          "tags": [],
-          "timestamp": "2026/10/14 22:52"
-        }
-      ],
-      "fetchedAt": "2026-10-14T21:29:19.866025+00:00"
-    },
-    {
-      "id": "h_f6223367",
-      "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発",
-      "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 154,
-      "summary": "Claudeの開発元として知られるAI企業のAnthropicが、Gitの代わりとなるバージョン管理システム「Scion」を開発したことを発表しました。ScionはAnthropicの社内システムとして運用されており、すでにGitからの移行を達成しているそうです。 Redesigning source control at Anthropic \\ Anthropic https://www.anthropic....",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261014-anthropic-scion-version-control-system/",
-      "comments": [
-        {
-          "user": "qpci32siekqd",
-          "comment": "衝突判定している間に新しい衝突起こらない？",
-          "tags": [],
-          "timestamp": "2026/10/15 06:17"
-        },
-        {
-          "user": "puruhime",
-          "comment": "驚き屋がどう騒ぐかに注目",
-          "tags": [],
-          "timestamp": "2026/10/15 05:06"
-        },
-        {
-          "user": "paulownia",
-          "comment": "1日30000回マージ、1日って84600秒しかないんだけど、よく動いてるな。",
+          "user": "stealthinu",
+          "comment": "WAFの運用に関するtips。このあたりの知見はあまりなかったので勉強になる。組み合わせで弾くとかの話や誤検出しないことを考えるのとかスパム対策の話に通じるね。",
           "tags": [
-            "？"
+            "security",
+            "spam"
           ],
-          "timestamp": "2026/10/14 23:20"
+          "timestamp": "2026/10/15 10:34"
         },
         {
-          "user": "urtz",
-          "comment": "1日3万はなにかが間違っている気が。粒度が高すぎる。AIが読むにもコストが無駄にかかる。AI時代には新しいバージョン管理が必要なのだろう",
+          "user": "sionsou",
+          "comment": "最近のセキュリティ対策で海外全てブロックみたいなのみると罠にハマるやつ。SEOもだが、AWSやAzure、GCPなど海外サービスも全部弾いちゃうから結構まずい。かといって固定IPだけ対応してもIPレンジ変わることあるし難しい",
           "tags": [],
-          "timestamp": "2026/10/14 23:12"
-        },
-        {
-          "user": "hagetar",
-          "comment": "この手の記事の一番重要な情報は「読み方」だろう！　と憤慨してブコメにきたらトップコメが教えてくれていた。ありがとうございました。サイオンですか。",
-          "tags": [],
-          "timestamp": "2026/10/14 22:31"
-        },
-        {
-          "user": "spark64",
-          "comment": "7人のチームがScionとAntiqueを構築し、さらに関連システムも構築し5か月でそれらへ完全に移行というのがすごいな。ますます開発者の人数は減っていく。\"Rapid development with a small team will become more common.\"",
-          "tags": [],
-          "timestamp": "2026/10/14 21:17"
+          "timestamp": "2026/10/15 10:22"
         }
       ],
-      "fetchedAt": "2026-10-14T21:29:22.192169+00:00"
-    },
-    {
-      "id": "h_6afe69eb",
-      "title": "日本における「純粋な悪の代名詞」とは誰なのか（たとえばヒトラーのような） - 文化史（技術と人文科学） - はてなパークス",
-      "url": "https://p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
-      "domain": "p.hatena.ne.jp",
-      "bookmarkCount": 153,
-      "summary": "「ヒトラーに例える論証」というものがあります。 例えば、 「彼のやり口は民主主義を破壊したヒトラーのやり方と全く同じだ。」 みたいなやつです。 ところで、ヒトラー以前もこのような論法はあったようです。 現代においては一般にヒトラーが引き合いに出されるが、この手の論理的誤謬は、第二次世界大戦以前から存在...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p.hatena.ne.jp/p/1542167047763398656/t/1559549110216822784?s=1&m=raw",
-      "comments": [
-        {
-          "user": "xxix29",
-          "comment": "佞臣ポジションの人物（田沼意次、柳沢吉保、跡部勝資みたいなヤツ）がそれに該当しそうだが、ボスは悪くない、悪いのは悪質な家臣だみたいな意味合いがあるから性質が違う感ある。",
-          "tags": [],
-          "timestamp": "2026/10/15 05:39"
-        },
-        {
-          "user": "snare_micchan",
-          "comment": "鳩山由紀夫",
-          "tags": [],
-          "timestamp": "2026/10/15 05:32"
-        },
-        {
-          "user": "srng",
-          "comment": "（諸々再評価される前の）吉良くらいだろうか。結局日本は悪が好き放題できる立場が限定的なんだよね。東條石原も悪かと言われると微妙なところ。つじーんはかなりカスだと思うけど軍事系に興味ある人以外に刺さらず",
-          "tags": [],
-          "timestamp": "2026/10/15 05:20"
-        },
-        {
-          "user": "alivekanade",
-          "comment": "パークス、ブコメ見えないほうがいいんじゃねーのｗ",
-          "tags": [],
-          "timestamp": "2026/10/15 04:30"
-        },
-        {
-          "user": "minboo",
-          "comment": "山縣有朋",
-          "tags": [],
-          "timestamp": "2026/10/15 04:30"
-        },
-        {
-          "user": "katamachi",
-          "comment": "足利尊氏と田沼意次、吉良上野介かなあ。何かを持ち上げるために、「悪」とされた人。",
-          "tags": [
-            "人生",
-            "はてな",
-            "歴史"
-          ],
-          "timestamp": "2026/10/15 03:13"
-        }
-      ],
-      "fetchedAt": "2026-10-14T21:29:19.340177+00:00"
-    },
-    {
-      "id": "h_492ae390",
-      "title": "AIエージェントによるウェブサイトへの攻撃の注意喚起",
-      "url": "https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
-      "domain": "scutum.jp",
-      "bookmarkCount": 94,
-      "summary": "技術者ブログ クラウド型WAF「Scutum（スキュータム）」の開発者/エンジニアによるブログです。 金床“Kanatoko”をはじめとする株式会社ビットフォレストの技術チームが、“WAFを支える技術”をテーマに幅広く、不定期に更新中！ AIエージェントによる攻撃を観測しました 皆様おそらくご存知のとおり、2026年9月頃からウェ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html",
-      "comments": [
-        {
-          "user": "csal8040",
-          "comment": "AIエージェントを使ってはいるが、実際に発生していたのは非常に古くからあるタイプの、大量のスキャンのみでした",
-          "tags": [],
-          "timestamp": "2026/10/15 05:31"
-        },
-        {
-          "user": "masalib",
-          "comment": "自分が管理しているサイトでA2B攻撃があった。UAが約15個ほど変わっていた。１分で450件ぐらいアクセスされるみたい。うざい",
-          "tags": [],
-          "timestamp": "2026/10/15 03:46"
-        },
-        {
-          "user": "gadget-lab",
-          "comment": "後で読みたい。AIエージェントによるウェブサイトへの攻撃の注意喚起",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/15 00:33"
-        },
-        {
-          "user": "TakenokoGod",
-          "comment": "サーフェスウェブに対してもダメというならグーグル八分に甘んじろと言いたいところだが……。",
-          "tags": [],
-          "timestamp": "2026/10/14 20:16"
-        },
-        {
-          "user": "gnt",
-          "comment": "かなり生々しくAIエージェントの「手口」を報告してくれてて助かるー",
-          "tags": [
-            "危機管理"
-          ],
-          "timestamp": "2026/10/14 19:45"
-        }
-      ],
-      "fetchedAt": "2026-10-14T21:29:20.757796+00:00"
-    },
-    {
-      "id": "h_08a787e6",
-      "title": "【第5報】不正アクセスによる障害に関する調査の進捗について | IDCフロンティア",
-      "url": "https://www.idcf.jp/news/topics/20261014001",
-      "domain": "idcf.jp",
-      "bookmarkCount": 89,
-      "summary": "2026年10月14日 このたびは、多大なるご心配とご迷惑をおかけしておりますことを深くお詫び申し上げます。 2026年10月7日午前3時40分頃から発生している、当社クラウドサービス「IDCFクラウド」※1に対する第三者からの不正アクセスによる障害について、現時点までの調査で新たに以下の事実が判明しましたのでお知らせし...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.idcf.jp/news/topics/20261014001",
-      "comments": [
-        {
-          "user": "kazuppo01",
-          "comment": "情報を即売りしないだけで、とっくに持ち出されてるのでは？ 転送ログがないとして管理者権限奪われてるんだからログそのものを消して痕跡なくすことだってできるでしょ",
-          "tags": [],
-          "timestamp": "2026/10/15 00:58"
-        },
-        {
-          "user": "t_f_m",
-          "comment": "\"障害の影響を受けた495の企業・自治体のうち、IDCFクラウドの「スナップショット機能」※2をご利用いただいていた194のお客さまについて、バックアップデータの取り出しが可能であることを確認しました\"",
-          "tags": [],
-          "timestamp": "2026/10/15 00:39"
-        },
-        {
-          "user": "dltlt",
-          "comment": "ダークウェブに脅威アクターの声明が出ないのは、データの持ち出しに失敗したから？……あるいは、外国のインテリジェンスが自ら使う目的で奪取したから？",
-          "tags": [],
-          "timestamp": "2026/10/15 00:37"
-        },
-        {
-          "user": "rgfx",
-          "comment": "ええと。事件は売り・事故は買いと言うもんで。これを機に、真っ先に経験値を獲得した当事者として頑張って欲しいっすね。。",
-          "tags": [],
-          "timestamp": "2026/10/15 00:03"
-        },
-        {
-          "user": "kaputte",
-          "comment": "なんと価値の低い情報だろうか。上に乗ってた事業者や自治体は情報流出の可能性を公表してて整合性が取れない。カスのファーストサーバーを受け継いでるわけなのか？",
-          "tags": [],
-          "timestamp": "2026/10/14 23:03"
-        },
-        {
-          "user": "remonoil",
-          "comment": "不正に照会されたけど外部へは持ち出されていない…それだと内部犯ということになるが大丈夫か？？",
-          "tags": [],
-          "timestamp": "2026/10/14 22:47"
-        }
-      ],
-      "fetchedAt": "2026-10-14T21:29:22.560624+00:00"
-    },
-    {
-      "id": "h_272d84ef",
-      "title": "楽天モバイル「Rakuten Mini」「Rakuten Hand」などに脆弱性、AVB機能にテスト鍵が残存 利用停止と乗り換えを案内",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2148168.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 46,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2148168.html",
-      "comments": [
-        {
-          "user": "soulfulmiddleagedman",
-          "comment": "私も大好きだった。楽天回線は、まだ、キープしてる。",
-          "tags": [],
-          "timestamp": "2026/10/15 05:45"
-        },
-        {
-          "user": "alivekanade",
-          "comment": "あのへんの機種純正で使ってるやついんのかよ",
-          "tags": [],
-          "timestamp": "2026/10/15 04:48"
-        },
-        {
-          "user": "hidea",
-          "comment": "後続商品なんてあったっけ？",
-          "tags": [],
-          "timestamp": "2026/10/15 02:48"
-        },
-        {
-          "user": "n2sz",
-          "comment": "Rakuten Miniの後継機はよ",
-          "tags": [],
-          "timestamp": "2026/10/15 01:34"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "Rakuten Miniはそもそもバンド構成とか書き換えて遊んでる奴らが一杯いたと思うんだが",
-          "tags": [],
-          "timestamp": "2026/10/15 01:15"
-        },
-        {
-          "user": "hatebu_admin",
-          "comment": "さすが楽天",
-          "tags": [],
-          "timestamp": "2026/10/15 01:06"
-        }
-      ],
-      "fetchedAt": "2026-10-14T21:29:21.849434+00:00"
-    },
-    {
-      "id": "h_137fc078",
-      "title": "仕組みを動く図で説明するエージェントスキルAnatomy公開 | gihyo.jp",
-      "url": "https://gihyo.jp/article/2026/10/anatomy",
-      "domain": "gihyo.jp",
-      "bookmarkCount": 22,
-      "summary": "開発者のRyan氏（@wheresryan22）は2026年10月10日、さまざまな仕組みを動く図で説明するエージェントスキル「Anatomy」をXで紹介した。作りたい機械や説明したい概念を伝えると、AIエージェントが部品の形状や動作を設計して図を生成する。ポインターやキーボードの操作に応じて部品が動く図も作れる。 図はSVGファイル...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/anatomy",
-      "comments": [],
-      "fetchedAt": "2026-10-14T21:29:22.865282+00:00"
+      "fetchedAt": "2026-10-15T04:10:01.868455+00:00"
     },
     {
       "id": "h_b78949b4",
       "title": "HTML-in-Canvasで作る未来のWeb UI表現",
       "url": "https://speakerdeck.com/clockmaker/html-in-canvas",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 14,
+      "bookmarkCount": 183,
       "summary": "フロントエンドカンファレンス関西2026の発表資料。 https://2026.frontend-conf.osaka.jp/ ■概要 HTML-in-Canvasという新しいAPIをオリジナルのデモで解説。 HTML・CSSから見た利点、Canvasタグから見た利点を掘り下げます。 …",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/clockmaker/html-in-canvas",
       "comments": [
         {
-          "user": "dkanikama",
-          "comment": "よかった",
-          "tags": [],
-          "timestamp": "2026/10/15 05:53"
+          "user": "inazuma2073",
+          "comment": "こいつに全ベットしてみようかな",
+          "tags": [
+            "html",
+            "canvas",
+            "css",
+            "webdesign"
+          ],
+          "timestamp": "2026/10/15 12:13"
         },
         {
-          "user": "yasu-log",
-          "comment": "スライド公開しました！",
-          "tags": [
-            "javascript",
-            "HTML5 Canvas",
-            "WebGPU",
-            "WebGL"
-          ],
-          "timestamp": "2026/10/15 02:33"
+          "user": "nemoba",
+          "comment": "Canvas出た頃にGUI作り直してた人達を思い出しました。",
+          "tags": [],
+          "timestamp": "2026/10/15 11:59"
+        },
+        {
+          "user": "nicht-sein",
+          "comment": "これが常用されると対応していないFirefoxやSafariでは真っ白な画面で訳分からんになるので、困るなぁ。",
+          "tags": [],
+          "timestamp": "2026/10/15 11:37"
+        },
+        {
+          "user": "Tack2Me",
+          "comment": "みんなSVGやろうぜ！",
+          "tags": [],
+          "timestamp": "2026/10/15 10:55"
+        },
+        {
+          "user": "rgfx",
+          "comment": "3Dで使用するアセットにDOM/CSSで組んだ誌面やタイポグラフィをそのまま使えるのはいいねえ。",
+          "tags": [],
+          "timestamp": "2026/10/15 10:50"
+        },
+        {
+          "user": "hatest",
+          "comment": "あんま使い道思い浮かばんのだけど",
+          "tags": [],
+          "timestamp": "2026/10/15 10:40"
         }
       ],
-      "fetchedAt": "2026-10-14T21:29:20.122588+00:00"
+      "fetchedAt": "2026-10-15T04:10:02.084142+00:00"
     },
     {
-      "id": "h_fbdd68ba",
-      "title": "WAF でブロックする前に確かめていること",
-      "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
-      "domain": "zenn.dev",
-      "bookmarkCount": 9,
-      "summary": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/azunyan/articles/7a105969d7d16c",
-      "comments": [],
-      "fetchedAt": "2026-10-14T21:29:21.592016+00:00"
-    },
-    {
-      "id": "h_2c97de8d",
-      "title": "フロントエンドのモデルに境界を引く",
-      "url": "https://speakerdeck.com/babywkb/furonto-endo-no-moderu-ni-kyoukai-o-hiku",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 7,
-      "summary": "フロントエンドカンファレンス関西2026スライド",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/babywkb/furonto-endo-no-moderu-ni-kyoukai-o-hiku",
-      "comments": [],
-      "fetchedAt": "2026-10-14T21:29:21.005670+00:00"
-    },
-    {
-      "id": "h_55b0c11f",
-      "title": "ポスドクの転職は「敗北」とは限らない―数学博士がアカデミアの外で見つけた新たな生き方｜ポスドクの転職体験記",
-      "url": "https://note.com/postdoc_career/n/nc9dcfe5ea3d3",
-      "domain": "note.com",
-      "bookmarkCount": 7,
-      "summary": "はじめに 早速ですが、獣医師である私の“数学者”としての約10年半の人生が間もなく終わりを迎えようとしています。訳がわからないでしょうから、まずは簡単に経歴を紹介させて下さい。 ・獣医学科を卒業後の数年間、大動物臨床獣医師として勤務 ・数学者を目指して退職し、翌年に大学院数理科学科修士課程に入学 ・修了...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/postdoc_career/n/nc9dcfe5ea3d3",
+      "id": "h_5361c8ec",
+      "title": "みずほが数千人をAI開発者に転換 事務や営業、日本企業の働き方転機 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 155,
+      "summary": "みずほフィナンシャルグループは営業や事務の社員を人工知能（AI）の開発人材に転換する。5万人の全社員から順次選び、10年後に数千人規模への拡大を目指す。金融サービスや社内業務のAIシステムを作る。既存部門を減らし、競争力の要であるAI分野に集中する体制を整える。銀行など金融機関の社員はホワイトカラーの象徴...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
       "comments": [
         {
-          "user": "Galaxy42",
-          "comment": "大学が経歴と年齢に見合ったおちんぎんを用意できないと二の足を踏む？ 周囲には、企業の実務経験後に高位職で大学へ転職、というルートが見えてるかも",
-          "tags": [
-            "そういうものだ"
-          ],
-          "timestamp": "2026/10/15 06:12"
+          "user": "bonnbonn1400",
+          "comment": "うちは一旦候補者向けに一斉にアセスメント的なテストが実施されてからそういった仕事への適正のようなものを見られたけど。合っていない人っているし。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:16"
+        },
+        {
+          "user": "magi00",
+          "comment": "開発者ほど冷笑するけど、絵師様と同じに見えるぞ",
+          "tags": [],
+          "timestamp": "2026/10/15 12:10"
+        },
+        {
+          "user": "MiUPa",
+          "comment": "「AIで開発」「AIを組み込んだシステムを開発」じゃなくて「AIを開発」？戦える？",
+          "tags": [],
+          "timestamp": "2026/10/15 12:08"
+        },
+        {
+          "user": "takeishi",
+          "comment": "営業や事務の社員を開発者に？いやいくらAIでも無理だろうそれは／1%くらいは、何やらせてもそこそこ出来る器用な人も居ると思うけど／そもそもAIの時代、銀行って究極は無人で回せるのではという疑問が…",
+          "tags": [],
+          "timestamp": "2026/10/15 12:02"
+        },
+        {
+          "user": "kabuquery",
+          "comment": "自分要らないやんみたいなのが一番傷つくよね",
+          "tags": [],
+          "timestamp": "2026/10/15 11:49"
+        },
+        {
+          "user": "aox",
+          "comment": "ええ…農業でもやらせたほうが良いでのは",
+          "tags": [],
+          "timestamp": "2026/10/15 11:34"
         }
       ],
-      "fetchedAt": "2026-10-14T21:29:21.302284+00:00"
+      "fetchedAt": "2026-10-15T04:10:01.957933+00:00"
     },
     {
-      "id": "h_6b6addb4",
-      "title": "RIZAPの個人情報流出、発覚は社員の自己申告：「シャドーAI」の正体は古い問題だった（尾藤克之） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.yahoo.co.jp/expert/articles/336df56ad79b1b5ca88526fd58cddd5ec56f9b81",
-      "domain": "news.yahoo.co.jp",
-      "bookmarkCount": 6,
-      "summary": "9月3日、RIZAPは、社員が個人で使っていた生成AIに、利用者のデータを誤って入れてしまったと公表した。特定保健指導（健康診断の結果をもとに行う生活習慣の指導）を、健康保険組合などから請け負う中で扱っていたデータで、保険証の記号番号、名前、生年月日、病気の情報が含まれていた。社員が自分から申し出て分かっ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/336df56ad79b1b5ca88526fd58cddd5ec56f9b81",
+      "id": "h_b9cc6d71",
+      "title": "八潮の道路陥没事故を国際圧入学会で総括 道路陥没メカニズムと最新技術による復旧の全貌",
+      "url": "https://built.itmedia.co.jp/bt/articles/2610/14/news078.html",
+      "domain": "built.itmedia.co.jp",
+      "bookmarkCount": 78,
+      "summary": "埼玉県八潮市で2025年に発生した大規模な道路陥没事故について、国際圧入学会のセミナーで全プロセスが報告された。発生メカニズムや復旧工事のプロセス、毎秒4トンの汚水が流れる過酷な現場に対応した「圧入工法」の役割など、原因解明から復旧までの道のりをレポートで詳報する。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/built.itmedia.co.jp/bt/articles/2610/14/news078.html",
+      "comments": [
+        {
+          "user": "runningupthathill",
+          "comment": "何の圧入かと思ったら鋼矢板の地盤への圧入だった。学会全体ではもっといろんなものを扱うんだろう／復旧工事に投入された様々な知恵を読むと唸らされる。生成AIもこの事例を学習するだろうけども、後継者育成も重要",
+          "tags": [],
+          "timestamp": "2026/10/15 12:38"
+        },
+        {
+          "user": "kisiritooru",
+          "comment": "オレ「国際圧入学会（IPA）でインターナショナルとアソシエーションはわかる。Pは気圧のパスカルだな！」（はずれ、Press-inでした。）",
+          "tags": [
+            "事故",
+            "交通",
+            "国際"
+          ],
+          "timestamp": "2026/10/15 12:24"
+        },
+        {
+          "user": "restroom",
+          "comment": "国際という名が付いているのに日本語のスライドでびっくりしました",
+          "tags": [],
+          "timestamp": "2026/10/15 08:09"
+        },
+        {
+          "user": "Gelsy",
+          "comment": "何を圧入するのか言ってくれよ。CFTのコンクリート充填工法かと思うだろ",
+          "tags": [],
+          "timestamp": "2026/10/15 08:09"
+        },
+        {
+          "user": "Galaxy42",
+          "comment": "すごくてこわい",
+          "tags": [
+            "これはすごい"
+          ],
+          "timestamp": "2026/10/15 08:07"
+        },
+        {
+          "user": "kamei_rio",
+          "comment": "\"国際圧入学会（IPA）\" IPAなんだ",
+          "tags": [
+            "研究",
+            "イベント",
+            "交通"
+          ],
+          "timestamp": "2026/10/15 06:59"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:04.053727+00:00"
+    },
+    {
+      "id": "h_1aad9c56",
+      "title": "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC 2026】",
+      "url": "https://internet.watch.impress.co.jp/docs/event/2148145.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 73,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/event/2148145.html",
+      "comments": [
+        {
+          "user": "omioni",
+          "comment": "別会社製だがJR西等が駅ホームの除雪用に最大300mmの積雪量に対応したリモコン操作型を開発、試験導入してたはず https://www.nouson-n.com/media/2026/06/16/10741  https://newswitch.jp/p/47877",
+          "tags": [
+            "*読み物"
+          ],
+          "timestamp": "2026/10/15 12:57"
+        },
+        {
+          "user": "sabinezu",
+          "comment": "普通の飛ばす法式じゃダメなの？ブルトーザーだと避ける場所が出てくるけど。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:23"
+        },
+        {
+          "user": "pribetch",
+          "comment": "ウクライナでも活躍できそうな気がする",
+          "tags": [],
+          "timestamp": "2026/10/15 12:12"
+        },
+        {
+          "user": "nicht-sein",
+          "comment": "思ったよりおっきかった。鉛バッテリーなので寒さに強いらしい。自動芝刈り機の雪版と考えれば良い感じ？ 本家 https://everblue.tech/products/srd-f11rc2",
+          "tags": [],
+          "timestamp": "2026/10/15 11:59"
+        },
+        {
+          "user": "accent_32",
+          "comment": "雪国では毎朝作業だったりするし除雪の自動ロボット化は面白そうだよね。基本一定の場所に積み上げるしかなさそうだけど。除雪ロボットコンテストとかあったら見てみたい気がする。",
+          "tags": [],
+          "timestamp": "2026/10/15 11:33"
+        },
+        {
+          "user": "beerahmen",
+          "comment": "降雪があるような寒い地域はバッテリー消耗が速いけど「待機」「稼働」の実時間はどのくらいなんだろう？",
+          "tags": [],
+          "timestamp": "2026/10/15 11:15"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:03.621089+00:00"
+    },
+    {
+      "id": "h_8aec9a99",
+      "title": "「バイブコーディング」の生みの親カルパシー氏、「AIの理解格差は“鋭い漏斗”になった」 | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2610-andrej-karpathy-ai-gap-widening-usage/",
+      "domain": "businessinsider.jp",
+      "bookmarkCount": 57,
+      "summary": "AI研究者のアンドレイ・カルパシーは、4月に観察したAIの普及における格差が広がっていると述べた。Michael Macor/The San Francisco Chronicle via Getty Images OpenAIの共同創業者アンドレイ・カルパシー（Andrej Karpathy）氏は、世界はいまもAIをほとんど知らないと述べている。 「一般の人々は、こうしたシステム...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.businessinsider.jp/article/2610-andrej-karpathy-ai-gap-widening-usage/",
+      "comments": [
+        {
+          "user": "yujimi-daifuku-2222",
+          "comment": "犯罪にも使われ出しているので、功罪の功の面のみでなく、社会へのネガティヴな影響にも関心を持って欲しい。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:58"
+        },
+        {
+          "user": "noko_wt",
+          "comment": "アップデート入るたびにやれること増えてるから、フロンティアモデルの開発現場だとやれる範囲の見え方はまた違うのだろうなというのはある",
+          "tags": [],
+          "timestamp": "2026/10/15 12:25"
+        },
+        {
+          "user": "replier",
+          "comment": "現状ではクローズドモデルを湯水のように使えるかという経済格差に思える。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:08"
+        },
+        {
+          "user": "nice_and_easy",
+          "comment": "未だにそろばんと紙台帳で運営してる食堂を知っている。地元では大変な人気店で、それでなにも困ってないらしい。スマホやクラウドもインターネットもスルー。AI理解度が進まないのは進める意味がないからだよ。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:00"
+        },
+        {
+          "user": "rdlf",
+          "comment": "普通にピラミッドって言えばいい気がするけど、漏斗に例えるのなんでだろう。",
+          "tags": [],
+          "timestamp": "2026/10/15 11:58"
+        },
+        {
+          "user": "sotonohitokun",
+          "comment": "触ってる俺も日々発見。最近はCodexを一切溶かさずに調査レビュー出来る事を知り驚いたわー",
+          "tags": [],
+          "timestamp": "2026/10/15 11:55"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:04.785204+00:00"
+    },
+    {
+      "id": "h_f43dd0b9",
+      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+      "domain": "publickey1.jp",
+      "bookmarkCount": 54,
+      "summary": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表し...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
       "comments": [],
-      "fetchedAt": "2026-10-14T21:29:23.090272+00:00"
+      "fetchedAt": "2026-10-15T04:10:05.532174+00:00"
+    },
+    {
+      "id": "h_92c00894",
+      "title": "タイムズカーの件で免許証の再発行に…警察署で「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」と不安を煽られる→メリットがあるか議論に",
+      "url": "https://togetter.com/li/2758344",
+      "domain": "togetter.com",
+      "bookmarkCount": 52,
+      "summary": "savo @moruharu430 タイムズカーの煽りを受け 免許証再発行の為に警察署へ 警察署では 「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」 と不安を煽られる 好きで再発行するんじゃないのになぁ もー 2026-10-14 14:33:08 【衝撃】運転免許証の画像が流出…専門家が警告「借金の申し込みが...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758344",
+      "comments": [
+        {
+          "user": "Finding",
+          "comment": "9回再発行したらどうなるんだろ",
+          "tags": [],
+          "timestamp": "2026/10/15 13:09"
+        },
+        {
+          "user": "deep_one",
+          "comment": "紛失歴があると不動産契約で警戒されるって聞いた（笑）",
+          "tags": [],
+          "timestamp": "2026/10/15 13:08"
+        },
+        {
+          "user": "tg30yen",
+          "comment": ">顔と住所氏名と免許証本体の表裏画像が流出して番号だけ変えても意味ないですね 番号変えたのは本人しかわからないので 第三者は前の番号でも身分証扱いする可能性が高い",
+          "tags": [
+            "犯罪",
+            "生活"
+          ],
+          "timestamp": "2026/10/15 13:06"
+        },
+        {
+          "user": "bbrinri",
+          "comment": "審査する側だけど、判断に悩む（普通は自動審査なので人が見てる時点で怪しい状況）というときに末尾が多いと心証悪くなるな。これだけでは決まらんけど。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:52"
+        },
+        {
+          "user": "kamm",
+          "comment": "少なくとも悪用されたときに、免許証番号や写真が自分じゃないと言い張れるメリットはあるのでは？警察が仕事をしたくないだけだと思う。自分はタイムズに登録したのは免許更新前だからやらないけど",
+          "tags": [],
+          "timestamp": "2026/10/15 12:52"
+        },
+        {
+          "user": "hiroyuki1983",
+          "comment": "これ普通に失くしたか売り払った奴も「タイムズカーの件で・・・」って言い訳できるからいいよな",
+          "tags": [],
+          "timestamp": "2026/10/15 12:46"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:02.994142+00:00"
+    },
+    {
+      "id": "h_5ec812b1",
+      "title": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ - AUTOMATON",
+      "url": "https://automaton-media.com/articles/newsjp/20261014-473406/",
+      "domain": "automaton-media.com",
+      "bookmarkCount": 48,
+      "summary": "『Slay the Spire』最高難易度を最新AIモデルにプレイさせると“後半でやたら苦戦する”との研究。安全第一すぎて死ぬ 『Slay the Spire』の最高難易度を、GPT-6やCalude Fable 5.1といった最新モデルを含むさまざまなAIモデルにプレイさせる研究論文が公開された。 『Slay the Spire』の最高難易度を、最新モデルを含むさ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261014-473406/",
+      "comments": [
+        {
+          "user": "zZwIwl",
+          "comment": "ふーん、LLMくん心臓倒せないんだ。オイラは倒せるけど・・・ｗ",
+          "tags": [],
+          "timestamp": "2026/10/15 13:03"
+        },
+        {
+          "user": "mobile_neko",
+          "comment": "そうなると風来のシレンとかも苦戦するかもな",
+          "tags": [],
+          "timestamp": "2026/10/15 12:45"
+        },
+        {
+          "user": "rohiki1",
+          "comment": "山札の残りが何か確認できるし、AIの凄く得意そうなゲームに思えたけど、どうして勝ったか負けたかの教訓を学習する事は彼らには難しいのか。デッキ圧縮とか無限コンボとか論理的なのにね。人間の脳と共同作業ならね",
+          "tags": [],
+          "timestamp": "2026/10/15 12:44"
+        },
+        {
+          "user": "auient",
+          "comment": "LLMはゲームを何度プレイしても経験から上達しない傾向がある。記憶の蓄積による成績向上がなく、どの行動が勝敗につながったかを検証できないまま教訓を記憶したり、慎重な行動を教訓として蓄積しやすい傾向も。",
+          "tags": [
+            "研究",
+            "AI",
+            "game",
+            "興味深い"
+          ],
+          "timestamp": "2026/10/15 11:09"
+        },
+        {
+          "user": "tg30yen",
+          "comment": "人間と比較するなら人間の熟練プレイヤーはゲーム外からも情報を得ていることも考慮すべき。",
+          "tags": [
+            "AI",
+            "ゲーム"
+          ],
+          "timestamp": "2026/10/15 11:01"
+        },
+        {
+          "user": "Kaisai_Adashino",
+          "comment": "手ごわいゲームだけど負けてると最初のボスまでたどりついてみようと言うことで最初の五回の戦闘の敵のHPを1にして絶対かてるようにしてくれたりとかの補助も手厚い。気になったら面白さは保証付きだから買ってみよう",
+          "tags": [],
+          "timestamp": "2026/10/15 10:43"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:05.235153+00:00"
+    },
+    {
+      "id": "h_617206a3",
+      "title": "claude-plugins-official/plugins/code-modernization/README.md at main · anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md",
+      "domain": "github.com",
+      "bookmarkCount": 45,
+      "summary": "Point Claude at a legacy codebase and get four things: an understanding of what it is and what it does, a plan you approve, the modernized code, and proof that the new code behaves like the old. It works with any language and any kind of mo",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md",
+      "comments": [
+        {
+          "user": "jama_ican",
+          "comment": "コード近代化プラグイン 1. コードから仕様を復元する 2. 複数のAIエージェントが並列に作業する 3. 変換結果が正しいことを検証する",
+          "tags": [],
+          "timestamp": "2026/10/15 12:45"
+        },
+        {
+          "user": "at_yasu",
+          "comment": "すごそう…",
+          "tags": [],
+          "timestamp": "2026/10/15 12:21"
+        },
+        {
+          "user": "stealthinu",
+          "comment": "レガシーなアプリケーションをモダナイズしてくれるプラグイン。テストまで含めて全部おまかせでやってくれるっぽい。どんだけトークン必要かはまた別問題とは思うが。",
+          "tags": [
+            "programming",
+            "AI",
+            "agent",
+            "LLM"
+          ],
+          "timestamp": "2026/10/15 11:10"
+        },
+        {
+          "user": "pchatsu",
+          "comment": "via https://x.com/TechHyung/status/2110207707278086472",
+          "tags": [],
+          "timestamp": "2026/10/15 08:00"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "Claude Code向け「code-modernization」プラグインで、レガシー改修を計画・実装し、テスト再実行で動作一致を証明する。",
+          "tags": [
+            "AI要約",
+            "code近代化",
+            "modernize検",
+            "ClaudeCode",
+            "AIエージェント",
+            "手順"
+          ],
+          "timestamp": "2026/10/14 11:55"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:06.194688+00:00"
+    },
+    {
+      "id": "h_89329b26",
+      "title": "異例の「iPhone Air」投げ売りはなぜ起きている？ 定価29.5万円の1TBモデルが、いま18.4万円で買える3つの理由",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 26,
+      "summary": "Appleの「iPhone Air」が、Amazon.co.jpのセールで異例の大幅割引となっている。定価29万4800円の1TBモデルが18万3500円で販売される背景には、日本独自仕様による過剰在庫など複雑な要因が絡み合っている。その市場のゆがみを読み解く。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
+      "comments": [
+        {
+          "user": "RXRHsZcJ6xnGXZR8TEZA6hAxzRd3mkD",
+          "comment": "4割引きは投げ売りとは言わないだろ",
+          "tags": [],
+          "timestamp": "2026/10/15 13:04"
+        },
+        {
+          "user": "sqrt",
+          "comment": "これ要らんもんなぁ…ハイエンド機が欲しい客には機能不足だし、廉価機を求める客には高すぎ、スタイリッシュな薄型かと思えばダサい凸あるし、誰が買うのか謎すぎる",
+          "tags": [
+            "商品",
+            "apple"
+          ],
+          "timestamp": "2026/10/15 12:54"
+        },
+        {
+          "user": "masalib",
+          "comment": "投げ売りと書いてあったから3～5万を期待してみたらびっくり「18万」・・・解散解散",
+          "tags": [],
+          "timestamp": "2026/10/15 12:46"
+        },
+        {
+          "user": "whkr",
+          "comment": "まず定価29.5万円に疑問を持てよ。",
+          "tags": [],
+          "timestamp": "2026/10/15 12:44"
+        },
+        {
+          "user": "pIed",
+          "comment": "投げ売りって言っても18万円はするわけで",
+          "tags": [],
+          "timestamp": "2026/10/15 12:29"
+        },
+        {
+          "user": "tanakamak",
+          "comment": "元値が高いのよ",
+          "tags": [
+            "携帯電話"
+          ],
+          "timestamp": "2026/10/15 12:22"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:04.433270+00:00"
+    },
+    {
+      "id": "h_f872a3df",
+      "title": "雑談はセンサーになる──ふりかえりで言えない本音を拾い、チームを動かす - Agile Journey",
+      "url": "https://agilejourney.uzabase.com/entry/2026/10/15/103000",
+      "domain": "agilejourney.uzabase.com",
+      "bookmarkCount": 17,
+      "summary": "株式会社ビットキーの高橋秀一郎（しゅういちろ）です。 20年ほどSIerでの実装から要件定義、役割としてはプロジェクトマネージャや組織の長を経験したのち、2024年にビットキーへ入社しました。現在は社内のエンジニアリングマネージャー（EM）を支援する立場から、組織開発や技術広報に携わっています。 チームの中に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/agilejourney.uzabase.com/entry/2026/10/15/103000",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "雑談までフレームワーク化しようとするアジャイル仕草、息苦しさ倍増しそうで草",
+          "tags": [],
+          "timestamp": "2026/10/15 12:15"
+        },
+        {
+          "user": "agilejourney_ub",
+          "comment": "公開しました。「雑談は不要」と考えていた著者がなぜ考えを変えたのか。ふりかえりや1on1では拾えない本音を拾う「センサー」としての雑談について、ビットキーの高橋秀一郎さんに寄稿いただきました。",
+          "tags": [],
+          "timestamp": "2026/10/15 10:34"
+        }
+      ],
+      "fetchedAt": "2026-10-15T04:10:05.860030+00:00"
     }
   ],
-  "lastCollection": "2026-10-14T21:29:23.090292+00:00"
+  "lastCollection": "2026-10-15T04:10:06.194722+00:00"
 }
