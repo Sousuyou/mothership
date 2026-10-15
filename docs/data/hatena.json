@@ -1,165 +1,146 @@
 {
   "entries": [
     {
-      "id": "h_fbdd68ba",
-      "title": "WAF でブロックする前に確かめていること",
-      "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
-      "domain": "zenn.dev",
-      "bookmarkCount": 360,
-      "summary": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/azunyan/articles/7a105969d7d16c",
+      "id": "h_9e1b95c2",
+      "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ｜ソースネクスト",
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "domain": "sourcenext.com",
+      "bookmarkCount": 269,
+      "summary": "このたび、当社が管理する会員情報に対し、第三者による不正アクセスが行われ、当社に会員登録いただいているお客様の個人情報が外部に流出したことが判明いたしました。 お客様ならびに関係者の皆様に多大なるご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。 現在、外部の専門機関と連携し、原因...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.sourcenext.com/support/i/2026/1015_info/",
       "comments": [
         {
-          "user": "panoramaafro",
-          "comment": "あれ、そういうのAIで運用も自動化するOSSとか無かったっけ。。まあ人チェックは必要だけど、アクセスログ読ませてあとプロンプトである程度いけそう",
+          "user": "tzt",
+          "comment": "安定の平文。ゴミっぽい空気纏ってる会社ってやっぱ実際にゴミなんだな。",
           "tags": [],
-          "timestamp": "2026/10/15 15:03"
+          "timestamp": "2026/10/16 01:39"
         },
         {
-          "user": "toaruR",
-          "comment": "メディア用フィードの方とか盲点だったりする",
-          "tags": [],
-          "timestamp": "2026/10/15 12:03"
-        },
-        {
-          "user": "nilab",
-          "comment": "Cloudflare 使用。「止める前に、巻き添えになる正規の利用者がいないかを確かめる」「国や一般的なブラウザの JA4 のように広く当たる条件は、自動化や攻撃を示す条件と組み合わせる」「決め手がなければ止めずに保留」",
-          "tags": [],
-          "timestamp": "2026/10/15 11:20"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "WAFで弾く前にボクの可愛さで癒してあげるにゃ！猫パンチされたくないなら通してにゃ？",
-          "tags": [],
-          "timestamp": "2026/10/15 11:17"
-        },
-        {
-          "user": "k-holy",
-          "comment": "JA4 fingerprint知らなんだ。WAFもAWSも無縁の弱小サービスでも、Webサーバー側でログ出力できれば活用できるか。nginx向けモジュールを書いてる方はいるみたい。https://github.com/FoxIO-LLC/ja4-nginx-module",
+          "user": "abyssgate",
+          "comment": "格が違った",
           "tags": [
             "security"
           ],
-          "timestamp": "2026/10/15 10:40"
+          "timestamp": "2026/10/16 01:36"
         },
         {
-          "user": "stealthinu",
-          "comment": "WAFの運用に関するtips。このあたりの知見はあまりなかったので勉強になる。組み合わせで弾くとかの話や誤検出しないことを考えるのとかスパム対策の話に通じるね。",
+          "user": "watapoco",
+          "comment": "平文保存なのかーい",
+          "tags": [],
+          "timestamp": "2026/10/16 01:30"
+        },
+        {
+          "user": "kamm",
+          "comment": "大盤振舞い",
+          "tags": [],
+          "timestamp": "2026/10/16 01:30"
+        },
+        {
+          "user": "FUKAMACHI",
+          "comment": "強盗に入られてケツの毛までむしられる警備会社みたいな話だ。“メールアドレス、パスワード、氏名、氏名カナ、住所、性別、電話番号、FAX番号、生年月日、会社名、役職名、部署名、システム固有の識別情報”",
+          "tags": [],
+          "timestamp": "2026/10/16 01:11"
+        },
+        {
+          "user": "sirobu",
+          "comment": "1Passwordの代理店やめろレベル",
           "tags": [
-            "security",
-            "spam"
+            "セキュリティ",
+            "これはひどい"
           ],
-          "timestamp": "2026/10/15 10:34"
+          "timestamp": "2026/10/16 00:58"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:03.320019+00:00"
-    },
-    {
-      "id": "h_5361c8ec",
-      "title": "みずほが数千人をAI開発者に転換 事務や営業、日本企業の働き方転機 - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 228,
-      "summary": "みずほフィナンシャルグループは営業や事務の社員を人工知能（AI）の開発人材に転換する。5万人の全社員から順次選び、10年後に数千人規模への拡大を目指す。金融サービスや社内業務のAIシステムを作る。既存部門を減らし、競争力の要であるAI分野に集中する体制を整える。銀行など金融機関の社員はホワイトカラーの象徴...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
-      "comments": [
-        {
-          "user": "sh-taka",
-          "comment": "RPA->DX->AI 次の矢印に入る言葉は何？",
-          "tags": [],
-          "timestamp": "2026/10/15 19:06"
-        },
-        {
-          "user": "fh477ehj8890",
-          "comment": "私もこれは追い出し部屋だと思う。本当なら数千人AI開発者いたら大規模開発を何件でも受注できる。数兆円の売上になるよwww",
-          "tags": [],
-          "timestamp": "2026/10/15 19:04"
-        },
-        {
-          "user": "enemyoffreedom",
-          "comment": "魂の汚れた自分には追い出し部屋の新設に見えてしまうが、さて",
-          "tags": [],
-          "timestamp": "2026/10/15 18:45"
-        },
-        {
-          "user": "kaionji",
-          "comment": "これでシステム障害の心配はなくなりますね",
-          "tags": [],
-          "timestamp": "2026/10/15 18:41"
-        },
-        {
-          "user": "gomer-pyle",
-          "comment": "「今日からあなたはエンジニアです」「AI使えない？そんなことは聞いていません。締め切りは厳守です」「進捗ないのですか。最低評価でクビです」",
-          "tags": [],
-          "timestamp": "2026/10/15 18:36"
-        },
-        {
-          "user": "zu2",
-          "comment": "みずほだからなあ",
-          "tags": [],
-          "timestamp": "2026/10/15 18:29"
-        }
-      ],
-      "fetchedAt": "2026-10-15T11:13:05.228190+00:00"
+      "fetchedAt": "2026-10-15T16:43:34.866839+00:00"
     },
     {
       "id": "h_17aed256",
       "title": "バーガーキング アプリの会員情報 約1118万件漏えい | NHKニュース",
       "url": "https://news.web.nhk/newsweb/na/nd-20261015de59803",
       "domain": "news.web.nhk",
-      "bookmarkCount": 180,
+      "bookmarkCount": 264,
       "summary": "ハンバーガーチェーン「バーガーキング」の運営会社は、不正アクセスが確認され、会員の情報、およそ1118万件が外部に漏えいしたと発表しました。漏れたのは会員の氏名やメールアドレスなどで、クレジットカード…",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261015de59803",
       "comments": [
         {
-          "user": "nakakzs",
-          "comment": "バーキンのアプリ、アップデートなどことある毎にログアウトするので、並んでいるレジ前でログインからし直す（忘れてたらさらに時間かかる）という利便性低いものなのだが、そこと関係なく漏洩しちゃあねぇ。",
+          "user": "t-murachi",
+          "comment": "おいやめろ",
           "tags": [
-            "セキュリティ"
+            "セキュリティ",
+            "グルメ"
           ],
-          "timestamp": "2026/10/15 17:39"
+          "timestamp": "2026/10/16 00:29"
         },
         {
-          "user": "takumikabu",
-          "comment": "YOUR IP IS 0.0.0.0",
+          "user": "nekosann_08",
+          "comment": "28年末までに600店舗目標、だもんなー。クーポン前提で買うみたいな形態だしなー。ﾂｲﾆﾒｲｶｸﾆﾔﾗﾚﾏｼﾀﾜｰ。",
           "tags": [],
-          "timestamp": "2026/10/15 17:36"
+          "timestamp": "2026/10/16 00:26"
         },
         {
-          "user": "repunit",
-          "comment": "ベネッセの情報漏洩では全員に500円、集団訴訟で2000円だったね。",
+          "user": "arjen__robben",
+          "comment": "飲食系はクーポン目的の複垢とか大量にあるだろうな ＞1118万件",
           "tags": [],
-          "timestamp": "2026/10/15 17:35"
+          "timestamp": "2026/10/16 00:14"
         },
         {
-          "user": "mouseion",
-          "comment": "良かった、クレジット情報入力してなかった。モスでも同じ事なってたら退会するか。",
+          "user": "byaa0001",
+          "comment": "ついに確定漏れ　うっへぇーー",
           "tags": [],
-          "timestamp": "2026/10/15 17:34"
+          "timestamp": "2026/10/16 00:06"
         },
         {
-          "user": "orangehalf",
-          "comment": "もう他で氏名、電話番号、メールアドレスの組み合わせは把握されているだろうから、バーキンユーザーであることが属性情報として追加されたくらいの感じ / 焼肉きんぐの時にも思ったが登録者数なんでこんなに多いの？",
+          "user": "haru_almond",
+          "comment": "やられた、絶対入ってる",
           "tags": [],
-          "timestamp": "2026/10/15 17:32"
+          "timestamp": "2026/10/16 00:03"
         },
         {
-          "user": "Helfard",
-          "comment": "対抗してマクドもお漏らしするなら今しかないなあ！",
+          "user": "tasra",
+          "comment": "あーん",
           "tags": [],
-          "timestamp": "2026/10/15 17:32"
+          "timestamp": "2026/10/15 23:31"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:00.601864+00:00"
+      "fetchedAt": "2026-10-15T16:43:35.561511+00:00"
     },
     {
       "id": "h_3ac66529",
       "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）",
       "url": "https://note.com/shiba_program/n/nd2d72747f8c5",
       "domain": "note.com",
-      "bookmarkCount": 143,
+      "bookmarkCount": 223,
       "summary": "こんにちは。くるしばです。 エラー監視サービスのSentry社が自社の開発チームで使っているコードレビューの基準を、明日から自分のプロジェクトにそのまま適用できるとしたら、ちょっと試してみたくならないでしょうか。 Claude Codeの「スキル」という仕組みを使うと、これが簡単に実現できます。決まった手順やルール...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shiba_program/n/nd2d72747f8c5",
       "comments": [
+        {
+          "user": "naozane2",
+          "comment": "cavekit   /11. 1000個超のスキル・プラグインから用途に合うものを探せるディレクトリ「awesome-claude-skills」",
+          "tags": [],
+          "timestamp": "2026/10/15 23:45"
+        },
+        {
+          "user": "pochi-taro00",
+          "comment": "これは完コピ記事っすね 全く同じ記事みた",
+          "tags": [],
+          "timestamp": "2026/10/15 22:45"
+        },
+        {
+          "user": "masatotoro",
+          "comment": "知らないのばかり",
+          "tags": [],
+          "timestamp": "2026/10/15 21:30"
+        },
+        {
+          "user": "kibitaki",
+          "comment": "安心できる出所で、捨て子になってなくて、自分に合わせた調節ができるか最初から自分の頭に染みこむスキルだけ。でなけりゃ能書きがご立派でも入れるなってクロードじっちゃが言ってた。",
+          "tags": [
+            "Claude",
+            "ClaudeCode",
+            "skills"
+          ],
+          "timestamp": "2026/10/15 20:46"
+        },
         {
           "user": "stabucky",
           "comment": "日本語は使えるのかな。",
@@ -171,470 +152,353 @@
           "comment": "理由はわからないんだけど開発エアプっぽい雰囲気しない？",
           "tags": [],
           "timestamp": "2026/10/15 18:46"
-        },
-        {
-          "user": "hogetax",
-          "comment": "skillがなんなのか調べた方がいいぞ^^;",
-          "tags": [],
-          "timestamp": "2026/10/15 17:26"
-        },
-        {
-          "user": "abcdefghijklmnopqrstuvwxy5",
-          "comment": "おしっこでそう",
-          "tags": [],
-          "timestamp": "2026/10/15 17:11"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "思った通りと違う事はある。",
-          "tags": [
-            "スキル",
-            "AI",
-            "仕様"
-          ],
-          "timestamp": "2026/10/15 14:59"
-        },
-        {
-          "user": "ifttt",
-          "comment": "こういうののデザイン系Skillsってサンプリング元が海外サイトだから上がってくるデザインもバタ臭くなるし日本人に教えて何の意味があんのといつも思う",
-          "tags": [],
-          "timestamp": "2026/10/15 14:45"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:01.000957+00:00"
-    },
-    {
-      "id": "h_92c00894",
-      "title": "タイムズカーの件で免許証の再発行に…警察署で「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」と不安を煽られる→メリットがあるか議論に",
-      "url": "https://togetter.com/li/2758344",
-      "domain": "togetter.com",
-      "bookmarkCount": 132,
-      "summary": "savo @moruharu430 タイムズカーの煽りを受け 免許証再発行の為に警察署へ 警察署では 「再発行して良いんですか？末尾の数字が変わるだけですよ？紛失歴増えますよ？」 と不安を煽られる 好きで再発行するんじゃないのになぁ もー 2026-10-14 14:33:08 【衝撃】運転免許証の画像が流出…専門家が警告「借金の申し込みが...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758344",
-      "comments": [
-        {
-          "user": "asrog",
-          "comment": "ここまで漏れたら、もう免許証画像がその筋の物として使えなくなりそうですけどね。数百万件が同様になるとなったらタイムズは賠償だけで潰れる。",
-          "tags": [
-            "* |ω・）"
-          ],
-          "timestamp": "2026/10/15 20:11"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "まあ実際その通りであまり意味はない。身元確認する業者側は最新版かどうかを区別する手段が無いんだから",
-          "tags": [],
-          "timestamp": "2026/10/15 19:44"
-        },
-        {
-          "user": "naoto_moroboshi",
-          "comment": "再交付しても例えばクレカの発行で照会かけてるわけがないので意味ないとおもう。もれたら終わりのものを身分証明として簡単に利用できる状態のがおかしいわけで（レンタルビデオ店とかすぐコピーとってたけど）",
-          "tags": [],
-          "timestamp": "2026/10/15 19:25"
-        },
-        {
-          "user": "minoton",
-          "comment": "そうか。信用情報機関（CIC・JICC等）で確認しても、そちらは古いままだから本当に新しくする意味がないんだな……",
-          "tags": [
-            "security",
-            "money"
-          ],
-          "timestamp": "2026/10/15 18:26"
-        },
-        {
-          "user": "a2c-ceres",
-          "comment": "再発行のデメリットは大して無いが、メリットもさほど無いって感じやね。本来なら本人確認に番号なんぞ不要だから控える意味が無いんだけどな。マイナンバーカードは番号控えないでしょ。毎回番号照会するなら別だが",
-          "tags": [],
-          "timestamp": "2026/10/15 18:08"
-        },
-        {
-          "user": "Lhankor_Mhy",
-          "comment": "意味ないよ、やめた方がいい。現在の本人確認は券面を見て写真と名前と住所と生年月日を照合すればいいだけなんだから。どうせ4月1日には変わるんだから、待った方が無難。",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/15 18:08"
-        }
-      ],
-      "fetchedAt": "2026-10-15T11:13:04.497102+00:00"
-    },
-    {
-      "id": "h_89329b26",
-      "title": "異例の「iPhone Air」投げ売りはなぜ起きている？ 定価29.5万円の1TBモデルが、いま18.4万円で買える3つの理由",
-      "url": "https://www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 116,
-      "summary": "Appleの「iPhone Air」が、Amazon.co.jpのセールで異例の大幅割引となっている。定価29万4800円の1TBモデルが18万3500円で販売される背景には、日本独自仕様による過剰在庫など複雑な要因が絡み合っている。その市場のゆがみを読み解く。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/15/news037.html",
-      "comments": [
-        {
-          "user": "circled",
-          "comment": "G4 Cube枠なんだよな。Appleがたまにやらかす野心的な、購入者には満足を、未購入者には不満をずっと言わせる類の製品。あとAmazonは購入時に下取りも使えてApple同様に凄いなって思う",
-          "tags": [],
-          "timestamp": "2026/10/15 20:00"
-        },
-        {
-          "user": "Usus_magister_est_optimus_t",
-          "comment": "フラットだったらな",
-          "tags": [],
-          "timestamp": "2026/10/15 19:53"
-        },
-        {
-          "user": "peccho",
-          "comment": "iPhone17が月額2円で2年間使えるのに、どこが安いんだよと思ってしまった",
-          "tags": [],
-          "timestamp": "2026/10/15 19:41"
-        },
-        {
-          "user": "jackson24",
-          "comment": "iPhoneProが22万ぐらいで買えるのに18万出してAir買う理由がよくわからない…だいぶニッチな層を狙いすぎなんだと思うな。",
-          "tags": [],
-          "timestamp": "2026/10/15 19:39"
-        },
-        {
-          "user": "yosiro",
-          "comment": "いらねー、って思ってたんだけど、手に持ったら意外と良くてairユーザーです。カメラとか足りないとこあるけど、重さとかフィット感とか結構良いですよ！",
-          "tags": [],
-          "timestamp": "2026/10/15 19:33"
-        },
-        {
-          "user": "monacal",
-          "comment": "単眼カメラじゃなきゃ買ってた。3つめは要らないけど、広角はどうしても要るのよ。ぬいやアクスタと景色を一緒に撮るために。",
-          "tags": [],
-          "timestamp": "2026/10/15 19:32"
-        }
-      ],
-      "fetchedAt": "2026-10-15T11:13:03.705090+00:00"
-    },
-    {
-      "id": "h_d120ecbf",
-      "title": "PlayStation 5で27Bの生成AIが動作。脱獄の進展次第ではPS5もAI需要の餌食になる可能性",
-      "url": "https://gazlog.jp/entry/ps5-can-run-27b-llm/",
-      "domain": "gazlog.jp",
-      "bookmarkCount": 88,
-      "summary": "脱獄したPS5で大規模言語モデル（LLM）を動かす「PS5LM」の派生版として、PS5のGPUを使う「PS5LM Plus」が登場し、27BのLLMが1秒あたり約20トークンで動かしたと報告されています。 PS5LMは脱獄したPS5のCPUでLLMを動作。現状の対応モデルは1.6GBまで PS5LMは、PCで広く使われるLLM実行ソフトllama.cppを脱獄したPS5へ移...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/ps5-can-run-27b-llm/",
-      "comments": [
-        {
-          "user": "Ez-style",
-          "comment": "仮想通貨のマイニングじゃあるまいし、並べたら並べた分だけ儲かるというわけでもないんじゃないかなあ。",
-          "tags": [
-            "ゲーム",
-            "tech"
-          ],
-          "timestamp": "2026/10/15 19:51"
-        },
-        {
-          "user": "mohno",
-          "comment": "ゲーム機本体で利益が得られるようになっているのかどうか。「PS5の新作は発売時に新しいシステムソフトウェアを求めることが多いため、更新を止めた本体は新作を遊ぶゲーム機と兼ねにくくなります」",
-          "tags": [
-            "GAZLOG",
-            "PlayStation",
-            "Sony",
-            "ゲーム",
-            "脱獄",
-            "人工知能",
-            "生成AI",
-            "CPU",
-            "GPU",
-            "パソコン"
-          ],
-          "timestamp": "2026/10/15 19:45"
-        },
-        {
-          "user": "peppers_white",
-          "comment": "動くというだけでそんな需要はなさそう、せっかくゲームやるのに買ったのに勿体無いしそもそも超高額のゲームPC持ってないと脱獄準備ができん",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/15 19:26"
-        },
-        {
-          "user": "delphinus35",
-          "comment": "昔ならこういうのって、洗濯機で DOOM を動かすような面白記事だったのにな。AI ゴロに狙われるなんて草も生えない。",
-          "tags": [],
-          "timestamp": "2026/10/15 19:21"
-        },
-        {
-          "user": "kyahi227",
-          "comment": "解散 > IQ2_XXS",
-          "tags": [],
-          "timestamp": "2026/10/15 18:59"
-        },
-        {
-          "user": "hgaragght",
-          "comment": "あーあ。",
-          "tags": [],
-          "timestamp": "2026/10/15 18:45"
-        }
-      ],
-      "fetchedAt": "2026-10-15T11:13:02.286143+00:00"
+      "fetchedAt": "2026-10-15T16:43:36.968277+00:00"
     },
     {
       "id": "h_eb4917cb",
       "title": "ワールドガチャ｜架空の町をガチャで作ってマンガの背景に",
       "url": "https://tools.oyasumi-gamedev.com/worldgacha/",
       "domain": "tools.oyasumi-gamedev.com",
-      "bookmarkCount": 79,
+      "bookmarkCount": 208,
       "summary": "光方位330°高さ45°落ち影月と時刻月10時刻15:00空気物陰100%かすみ100%空トーン影100%固有色100%模様大きさ40%🎲不透明度100%塗りで表現するベタ範囲40%白抜き",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tools.oyasumi-gamedev.com/worldgacha/",
       "comments": [
         {
-          "user": "toaruR",
-          "comment": "ローカル生成なん?!マジか……すごすぎる((((；ﾟДﾟ))))",
+          "user": "Helfard",
+          "comment": "凄いと言えば凄いのだが、こんなの自分で考える方が早い気がするなあ。",
           "tags": [],
-          "timestamp": "2026/10/15 19:31"
+          "timestamp": "2026/10/16 01:31"
         },
         {
-          "user": "mnnn",
-          "comment": "A列車で行こうのミニマップみたいだ",
+          "user": "ht_s",
+          "comment": "架空版だととたんに住宅とかがそんな形のないだろって感じのものになっちゃったんだけど（背景には使いづらくなった）、構図とか考えるのにはいいかも。",
           "tags": [],
-          "timestamp": "2026/10/15 19:12"
+          "timestamp": "2026/10/16 00:56"
         },
         {
-          "user": "unnmo",
-          "comment": "なんだこれは",
+          "user": "mzzmnncy",
+          "comment": "何これ良すぎる",
+          "tags": [],
+          "timestamp": "2026/10/16 00:34"
+        },
+        {
+          "user": "gadget-lab",
+          "comment": "後で読みたい。ワールドガチャ｜架空の町をガチャで作ってマンガの背景に",
           "tags": [
-            "マンガ",
-            "漫画",
-            "創作",
-            "参考",
-            "重要"
+            "あとで読む"
           ],
-          "timestamp": "2026/10/15 19:04"
+          "timestamp": "2026/10/16 00:31"
         },
         {
-          "user": "quantum_12",
-          "comment": "自然言語で街の様子を記述出来たり、建物や道路の様子を欧風、中華風、時代も中世とかにできたらもう、最高ではないか",
+          "user": "enhanky",
+          "comment": "3D形式でダウンロードできるところがいい。",
           "tags": [],
-          "timestamp": "2026/10/15 17:55"
+          "timestamp": "2026/10/15 23:53"
         },
         {
-          "user": "yujimi-daifuku-2222",
-          "comment": "学生時代に欲しかったやつ。/こちとら週一以上のペースでセッションしてる訳で、プレイヤーはともかくシナリオその他を準備するGMの負担が重かったからね。",
+          "user": "FreeCatWork",
+          "comment": "ガチャで町を作るなんて夢があるにゃ！ボクの豪邸もガチャで出してにゃん。",
           "tags": [],
-          "timestamp": "2026/10/15 17:55"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ブラウザ完結でここまで町並み生成してSVGまで吐けるの普通に凄すぎワロタ　背景描くの苦手な同人作家が歓喜するやつだな",
-          "tags": [],
-          "timestamp": "2026/10/15 17:39"
+          "timestamp": "2026/10/15 23:18"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:01.466771+00:00"
+      "fetchedAt": "2026-10-15T16:43:35.959811+00:00"
     },
     {
-      "id": "h_f872a3df",
-      "title": "雑談はセンサーになる──ふりかえりで言えない本音を拾い、チームを動かす - Agile Journey",
-      "url": "https://agilejourney.uzabase.com/entry/2026/10/15/103000",
-      "domain": "agilejourney.uzabase.com",
-      "bookmarkCount": 74,
-      "summary": "株式会社ビットキーの高橋秀一郎（しゅういちろ）です。 20年ほどSIerでの実装から要件定義、役割としてはプロジェクトマネージャや組織の長を経験したのち、2024年にビットキーへ入社しました。現在は社内のエンジニアリングマネージャー（EM）を支援する立場から、組織開発や技術広報に携わっています。 チームの中に...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/agilejourney.uzabase.com/entry/2026/10/15/103000",
+      "id": "h_d120ecbf",
+      "title": "PlayStation 5で27Bの生成AIが動作。脱獄の進展次第ではPS5もAI需要の餌食になる可能性",
+      "url": "https://gazlog.jp/entry/ps5-can-run-27b-llm/",
+      "domain": "gazlog.jp",
+      "bookmarkCount": 123,
+      "summary": "脱獄したPS5で大規模言語モデル（LLM）を動かす「PS5LM」の派生版として、PS5のGPUを使う「PS5LM Plus」が登場し、27BのLLMが1秒あたり約20トークンで動かしたと報告されています。 PS5LMは脱獄したPS5のCPUでLLMを動作。現状の対応モデルは1.6GBまで PS5LMは、PCで広く使われるLLM実行ソフトllama.cppを脱獄したPS5へ移...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/ps5-can-run-27b-llm/",
       "comments": [
         {
-          "user": "wghhnb37",
-          "comment": "頭脳労働で集中してるとき、他職種の人や上司から野球や格闘技の雑談を振られるのはストレスだった。暇そう、あるいは退屈そうに仕事してる様に見えたのかもしれないが…。この記事みたいな雑談が有意義なのは分かる",
+          "user": "door-s-dev",
+          "comment": "めっちゃ安く買える計算機だからなぁ",
           "tags": [],
-          "timestamp": "2026/10/15 19:53"
+          "timestamp": "2026/10/15 23:43"
         },
         {
-          "user": "toomuchpopcorn",
-          "comment": "阮さんのコメント、珍しく面白い。",
+          "user": "n-styles",
+          "comment": "本体は赤字で売ってるんだから、ゲーム外用途で買われたら損する一方なのにわざわざ公式がアピールするわけねえだろ。",
           "tags": [],
-          "timestamp": "2026/10/15 19:15"
+          "timestamp": "2026/10/15 23:03"
         },
         {
-          "user": "nannimonai",
-          "comment": "雑談が必要。女性ならば小学生で気づくんだろうな。",
+          "user": "jama_ican",
+          "comment": "むしろ公式で動かせるようにすれば需要上がるのでは。PS3のブルーレイみたいにPS5はお手軽ローカルLLM機として",
           "tags": [],
-          "timestamp": "2026/10/15 19:03"
+          "timestamp": "2026/10/15 22:28"
         },
         {
-          "user": "punkgame",
-          "comment": "マネージャーやリーダーに必要なのは人に好かれることであり仕事の出来は別にいいのよ。そして意識しないと雑談もできないような人は人の上に立つのには向いていない。",
-          "tags": [],
-          "timestamp": "2026/10/15 18:20"
-        },
-        {
-          "user": "masa8aurum",
-          "comment": "“リモートだとなかなか発言できなくて”  / ・個人の悩みが漏れ出るときがある ・1on1、デイリースクラム、振り返り（KPT等）では出づらいもの",
+          "user": "jamg",
+          "comment": "チャッピー(映画)を思い出す",
           "tags": [
-            "あとで読む",
-            "Work-from-Home"
+            "AI"
           ],
-          "timestamp": "2026/10/15 18:01"
+          "timestamp": "2026/10/15 22:26"
         },
         {
-          "user": "yarumato",
-          "comment": "“何を話せばいいか分からない。事前に話したいネタを投稿して、定期雑談会の日までに話したい内容を忘れないようにする「話題ボックス」。仕事に関する話題から「2026年ベストバイ」のような趣味の話まで”",
+          "user": "hatomugicha",
+          "comment": "ゲーム機は元から安価で売ってソフトウェアで稼ぐ業態でコストが低いところに目を付けられて軍事用途からマイニングまでいつでも他の用途に転用されていて不遇な境遇ではある",
           "tags": [],
-          "timestamp": "2026/10/15 14:38"
+          "timestamp": "2026/10/15 21:16"
+        },
+        {
+          "user": "at_yasu",
+          "comment": "10年ぐらい前？にも採掘で似たようなことがあったような…",
+          "tags": [],
+          "timestamp": "2026/10/15 21:13"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:05.875466+00:00"
+      "fetchedAt": "2026-10-15T16:43:37.615464+00:00"
     },
     {
-      "id": "h_9e1b95c2",
-      "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ｜ソースネクスト",
-      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
-      "domain": "sourcenext.com",
-      "bookmarkCount": 42,
-      "summary": "このたび、当社が管理する会員情報に対し、第三者による不正アクセスが行われ、当社に会員登録いただいているお客様の個人情報が外部に流出したことが判明いたしました。 お客様ならびに関係者の皆様に多大なるご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。 現在、外部の専門機関と連携し、原因...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.sourcenext.com/support/i/2026/1015_info/",
+      "id": "h_cd9d886c",
+      "title": "ソースネクスト、最大2251万件の情報流出 パスワード再設定を",
+      "url": "https://www.watch.impress.co.jp/docs/news/2148547.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 91,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2148547.html",
       "comments": [
         {
-          "user": "poko_pen",
-          "comment": "情報漏洩選手権かよ",
+          "user": "tamasuji",
+          "comment": "まさに異常事態。",
           "tags": [],
-          "timestamp": "2026/10/15 20:11"
+          "timestamp": "2026/10/16 01:25"
         },
         {
-          "user": "tkysktmt",
-          "comment": "Argon2idでハッシュ化したパスワードの漏洩ですよね",
+          "user": "fourth_ukon",
+          "comment": "こんなところに勤めてる従業員恥ずかしくないんかね 仮にもIT企業だろ",
           "tags": [],
-          "timestamp": "2026/10/15 20:10"
+          "timestamp": "2026/10/16 00:05"
         },
         {
-          "user": "Lian",
-          "comment": "ソースネクストの顧客って2200万人もいんの?",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/10/15 20:06"
-        },
-        {
-          "user": "a1dog",
-          "comment": "セキュリティZERO(意味深)",
+          "user": "ikebukuro3",
+          "comment": "セキュリティソフト売りながらパスワード平文保存は伝説になれるか",
           "tags": [],
-          "timestamp": "2026/10/15 19:57"
+          "timestamp": "2026/10/15 23:59"
         },
         {
-          "user": "Imamura",
-          "comment": "パスワードをリセットしたよのメールが来たのでログインしようとしたらログイン画面につながらない。2,250万件が一斉に来たらそりゃそうか。そしてパスワードは平文で保存してたんですかね",
+          "user": "kingkero",
+          "comment": "ソースネクストならパスワードを平文で保存しててもなんだか驚きが少ないというかなんというか",
+          "tags": [],
+          "timestamp": "2026/10/15 23:44"
+        },
+        {
+          "user": "urtz",
+          "comment": "IT企業から漏れるのは、その他企業から漏れるのとは訳が違う",
+          "tags": [],
+          "timestamp": "2026/10/15 23:41"
+        },
+        {
+          "user": "kzhvsonic",
+          "comment": "念のためパスワード変更しようと思ったけど、サイトにつながらねえ。",
           "tags": [
             "セキュリティ"
           ],
-          "timestamp": "2026/10/15 19:54"
-        },
-        {
-          "user": "n2sz",
-          "comment": "週末に向けて漏洩数が増えてきましたね(何)",
-          "tags": [],
-          "timestamp": "2026/10/15 19:54"
+          "timestamp": "2026/10/15 23:38"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:01.776389+00:00"
+      "fetchedAt": "2026-10-15T16:43:36.261842+00:00"
     },
     {
-      "id": "h_81c51346",
-      "title": "AndroidスマホにログインしたGoogleアカウントすべてに電話番号が自動で紐づけられることが判明",
-      "url": "https://gigazine.net/news/20261015-google-account-link-phone-number/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 36,
-      "summary": "Googleアカウントへの電話番号登録は必須ではありませんが、Android端末にGoogleアカウントを登録すると、端末で使用している電話番号が自動でアカウントに紐付けられるようになっていることが分かりました。 Google is silently linking your phone number across all Google accounts https://www.androidauthority.co...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261015-google-account-link-phone-number/",
+      "id": "h_6093cf82",
+      "title": "連続不正アクセス事案の攻撃手法に関する調査 - JPCERT/CC Eyes",
+      "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+      "domain": "blogs.jpcert.or.jp",
+      "bookmarkCount": 80,
+      "summary": "JPCERT/CCは、2026年10月8日に、国内の複数の組織で相次いで公表された不正アクセスによる個人情報などの漏えい被害に関する注意喚起を公開しました。 JPCERT/CCでは、複数の組織と連携し、攻撃に使用された可能性のあるインフラの調査を進めています。その過程で、攻撃者がAIを利用して、既知の脆弱性のスキャンやAPI経...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
       "comments": [
         {
-          "user": "osugi3y",
-          "comment": "全く驚くことではないがなぜネットの驚き屋が反応しているのか甚だ疑問だ。",
+          "user": "neco22b",
+          "comment": "対策：秘密情報の保護（認証情報を埋め込まない）、サーバー側での認証、APIの不正利用対策、SSRF対策",
           "tags": [],
-          "timestamp": "2026/10/15 20:10"
+          "timestamp": "2026/10/16 00:27"
         },
         {
-          "user": "pon00",
-          "comment": "後で消しておこう",
+          "user": "ya--mada",
+          "comment": "AIとはあまり言って欲しくないのだが、 https://youtu.be/h0biBeWSr-k",
           "tags": [],
-          "timestamp": "2026/10/15 19:23"
+          "timestamp": "2026/10/16 00:15"
         },
         {
-          "user": "sisya",
-          "comment": "その割に、ログインするたびに「電話番号の登録」と言われるのはなぜなのだろう。ずっと拒否し続けているが。",
+          "user": "circled",
+          "comment": "最近GitHubでなんでもリバースエンジニアリングする用のツールが話題になっていたので、もっと大量に出てくる予感しかない → https://github.com/morluto/rea",
           "tags": [],
-          "timestamp": "2026/10/15 18:10"
-        },
-        {
-          "user": "cinefuk",
-          "comment": "「設定を無効化しても、登録された電話番号が消えるわけではありません。消したい場合はGoogleアカウント管理ページの個人情報タブを開き、電話番号の設定項目を開いて登録された電話番号を消去する必要があります。」",
-          "tags": [
-            "google",
-            "android"
-          ],
-          "timestamp": "2026/10/15 18:09"
+          "timestamp": "2026/10/15 20:25"
         },
         {
           "user": "nguyen-oi",
-          "comment": "勝手に紐付けるとかGoogleさんマジかよ。これ速攻でオフにしとかないとプライバシー筒抜けで怖いわ",
+          "comment": "APK解析からAPI特定してAIで脆弱性探す手法が定着してて攻撃側の自動化がヤバい",
           "tags": [],
-          "timestamp": "2026/10/15 18:08"
+          "timestamp": "2026/10/15 20:07"
         },
         {
-          "user": "casm",
-          "comment": "発信者情報開示でのGmail→電話番号→自宅、の打率が上がる？",
+          "user": "saikyo_tongaricorn",
+          "comment": "JPCERTだけはよーやっとる",
           "tags": [],
-          "timestamp": "2026/10/15 17:59"
+          "timestamp": "2026/10/15 19:54"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:04.804562+00:00"
+      "fetchedAt": "2026-10-15T16:43:36.610516+00:00"
     },
     {
-      "id": "h_6ba09417",
-      "title": "AQUAの新型冷蔵庫が見た目全然新型じゃない件…これをキッチンに合わせるのは上級者すぎる「AIかと思ったら実在の商品だった」「バイオハザードで見た」",
-      "url": "https://togetter.com/li/2758453",
-      "domain": "togetter.com",
-      "bookmarkCount": 32,
-      "summary": "AQR-DUX51B | アクア株式会社（AQUA）｜生活家電 AQUA（アクア）のAQR-DUX51B（定格内容積508L）冷蔵庫のページです。幅65cm×奥行65cm コンパクト大容量508L、ボトムクーリングシステムで高品質鮮度保持、最上段もカンタン調整「… アクア株式会社（AQUA）｜生活家電",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758453",
+      "id": "h_65135255",
+      "title": "AIのスピードに負けないための開発フロー",
+      "url": "https://speakerdeck.com/kyuridenamida/ai-no-supido-ni-makenai-tame-no-kaihatsu-furo",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 54,
+      "summary": "https://sotas.connpass.com/event/398322/ Sotas×カミナシ×estie｜AIのスピードに開発組織はどう追いつくのか？ (2026/10/15) 登壇資料",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/kyuridenamida/ai-no-supido-ni-makenai-tame-no-kaihatsu-furo",
       "comments": [
         {
-          "user": "kenta555",
-          "comment": "青銅色が何か錆びてる感をマシマシにさせてるような気がする",
+          "user": "nguyen-oi",
+          "comment": "AIにコード書かせるために結局人間が規約と設計をガチガチに整備しなきゃいけないの皮肉が効いてる",
           "tags": [],
-          "timestamp": "2026/10/15 19:30"
-        },
-        {
-          "user": "hgaragght",
-          "comment": "ねえわ",
-          "tags": [
-            "これはひどい"
-          ],
-          "timestamp": "2026/10/15 19:02"
-        },
-        {
-          "user": "koroha-a",
-          "comment": "核戦争になったらこの冷蔵庫に緊急退避するとグールになれる",
-          "tags": [],
-          "timestamp": "2026/10/15 18:46"
-        },
-        {
-          "user": "circma",
-          "comment": "木の独特な模様を活かすレジンテーブル(https://resin-space.com/blog/2025/04/24/blue/)が小金持ち向けに流行りだしていて、それとインテリア的に調和しそうなのが良いのかもしれない",
-          "tags": [],
-          "timestamp": "2026/10/15 18:45"
-        },
-        {
-          "user": "nakakzs",
-          "comment": "なぜ家電は「\"白物\"家電」と呼ばれるようになったのか、という歴史の理由だな。カラーバリエーション増えた今でも、基本単色じゃないとあわせにくい。",
-          "tags": [
-            "togetter",
-            "家電"
-          ],
-          "timestamp": "2026/10/15 17:56"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "一周まわってきたデザイン。",
-          "tags": [
-            "家電",
-            "生活",
-            "デザイン"
-          ],
-          "timestamp": "2026/10/15 17:42"
+          "timestamp": "2026/10/15 19:13"
         }
       ],
-      "fetchedAt": "2026-10-15T11:13:05.550920+00:00"
+      "fetchedAt": "2026-10-15T16:43:38.170312+00:00"
+    },
+    {
+      "id": "h_1d82f04e",
+      "title": "なぜ今、“クラウド録画”なのか。パナソニックの新「全自動ディーガ」の詳細",
+      "url": "https://av.watch.impress.co.jp/docs/topic/2148483.html",
+      "domain": "av.watch.impress.co.jp",
+      "bookmarkCount": 53,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/topic/2148483.html",
+      "comments": [
+        {
+          "user": "ayumun",
+          "comment": "最早TV番組の視聴率もどれだけ同時配信で放送に追いついてもらったかで左右されてんのに",
+          "tags": [],
+          "timestamp": "2026/10/16 00:45"
+        },
+        {
+          "user": "secseek",
+          "comment": "このご時世にその高度な権利保護が完全に時代遅れですよね",
+          "tags": [],
+          "timestamp": "2026/10/16 00:33"
+        },
+        {
+          "user": "guru_guru",
+          "comment": "「クラウド」とのイメージ的な相性が悪いけど、元々は地デジのdrmの話。",
+          "tags": [],
+          "timestamp": "2026/10/16 00:02"
+        },
+        {
+          "user": "georgew",
+          "comment": "若い世代を中心にそもそもTV視聴人口減ってるのにこの種のマニアックな録画需要が十分に残っているのか謎。「暗号化されているため、再生は... 録画に使ったレコーダーからしかできない」って誰得。",
+          "tags": [],
+          "timestamp": "2026/10/15 23:36"
+        },
+        {
+          "user": "jun_cham",
+          "comment": "まねきTV…",
+          "tags": [],
+          "timestamp": "2026/10/15 23:29"
+        },
+        {
+          "user": "naga_yamas",
+          "comment": "そこまでして残したいと思えるテレビ番組はもはやないと思うんだよな。再生デバイスをハード依存にしかできなかった点も含めて前世紀の遺物だなと感じざるを得ない。",
+          "tags": [],
+          "timestamp": "2026/10/15 21:59"
+        }
+      ],
+      "fetchedAt": "2026-10-15T16:43:37.295551+00:00"
+    },
+    {
+      "id": "h_0d50042b",
+      "title": "やたら荷物が届くので高1の息子のスマホを取り上げたらAmazonで2桁万円の買い物が発覚…Amazon Prime Mastercardを持っているのはなぜ？→その後電話で何とかなったと報告",
+      "url": "https://togetter.com/li/2758486",
+      "domain": "togetter.com",
+      "bookmarkCount": 37,
+      "summary": "Asuka★Ａｉ @aiichinose215 高１の息子(15歳)がAmazonプライムマスターカード持ってるの何故？？？ やたら荷物届くから、スマホ取り上げたら、Amazonで2桁万円買い物してる え？ クレカ作れないんじゃないんです？？？ 2026-10-14 20:58:49 Asuka★Ａｉ @aiichinose215 消費者センターＴＥＬしてからのカード会社ＴＥＬだ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2758486",
+      "comments": [
+        {
+          "user": "pixmap",
+          "comment": "三井住友はじめ普通のクレカは、高校生でない18歳以上じゃないと作れないよな。例外は本人単独で海外留学するときのみ。",
+          "tags": [],
+          "timestamp": "2026/10/16 01:43"
+        },
+        {
+          "user": "morgen3ed",
+          "comment": "この他責思考の人と関わりたくないな。その歳まで分別できず買い物してしまうと言うのは何か抑圧も感じるし…",
+          "tags": [],
+          "timestamp": "2026/10/16 00:35"
+        },
+        {
+          "user": "whkr",
+          "comment": "まさか、あの楽天カードより審査が緩い可能性があるのか？",
+          "tags": [],
+          "timestamp": "2026/10/16 00:24"
+        },
+        {
+          "user": "kamiokando",
+          "comment": "無職のときにアメックスのゴールドカード作れたよ。",
+          "tags": [],
+          "timestamp": "2026/10/16 00:06"
+        },
+        {
+          "user": "makou",
+          "comment": "何か騙されてるんちゃうか。",
+          "tags": [
+            "amazon"
+          ],
+          "timestamp": "2026/10/15 23:49"
+        },
+        {
+          "user": "geopolitics",
+          "comment": "未成年者なので取り消せるけど（民法第5条）、クレカ発行が謎。",
+          "tags": [],
+          "timestamp": "2026/10/15 23:17"
+        }
+      ],
+      "fetchedAt": "2026-10-15T16:43:38.459191+00:00"
+    },
+    {
+      "id": "h_c39d4929",
+      "title": "Amazonはインターネット全体で商品価格をつり上げている",
+      "url": "https://gigazine.net/news/20261015-amazon-push-up-all-internet-price/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 20,
+      "summary": "Amazonは価格設定に関するポリシーで「他のサイトより著しく高い価格でAmazonに出品する行為」などにペナルティを科しています。こうした慣行や手数料により、出品者はあらゆる場所で価格を引き上げざるを得ない状況に陥っているとして、ジャーナリストのアマンダ・シェンドルク氏が問題点を解説しています。 How Amazon...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261015-amazon-push-up-all-internet-price/",
+      "comments": [
+        {
+          "user": "matsuedon",
+          "comment": "それは売り上げの３割近いアマゾン利用料を低くしてから言ってほしいよね",
+          "tags": [],
+          "timestamp": "2026/10/16 01:30"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "Amazonのコスト乗っけた価格に他サイトも合わせろって実質的な価格統制じゃねーか。独禁法で徹底的に締め上げてほしいわ",
+          "tags": [],
+          "timestamp": "2026/10/15 23:36"
+        }
+      ],
+      "fetchedAt": "2026-10-15T16:43:37.854562+00:00"
+    },
+    {
+      "id": "h_6d61f91e",
+      "title": "国内で相次ぐWebシステムからの情報漏えい～ラックの観測から見える変化と、企業が今とるべき対策 | LAC WATCH",
+      "url": "https://www.lac.co.jp/lacwatch/alert/20261015_004996.html",
+      "domain": "lac.co.jp",
+      "bookmarkCount": 11,
+      "summary": "2026年7月以降、国内法人が運営するWebシステムやスマートフォンアプリに関連した個人情報漏えいの公表が相次いでいます。公開情報の独自集計では、2026年10月6日時点で119件に上り、そのうち約68%にあたる81件が7月以降に公表※されたものです。ラックのサイバー救急センターへの相談件数においても、サーバへの不正侵入...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.lac.co.jp/lacwatch/alert/20261015_004996.html",
+      "comments": [],
+      "fetchedAt": "2026-10-15T16:43:38.708148+00:00"
     }
   ],
-  "lastCollection": "2026-10-15T11:13:05.875493+00:00"
+  "lastCollection": "2026-10-15T16:43:38.708172+00:00"
 }
