@@ -5,10 +5,28 @@
       "title": "How the Claude Code team does code review / claude.dev Blog",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "domain": "claude.dev",
-      "bookmarkCount": 75,
+      "bookmarkCount": 169,
       "summary": "We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review ",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.dev/blog/solving-code-review-at-anthropic/",
       "comments": [
+        {
+          "user": "otihateten3510",
+          "comment": "この深い階層でレビューできるhuman天才すぎないか？",
+          "tags": [],
+          "timestamp": "2026/10/17 16:17"
+        },
+        {
+          "user": "awaytabi",
+          "comment": "バグというのは要は機能要求・非機能要求・各種規約との不整合なんだけど、問題はそれをAI（というか人間も）理解できるレベルで明文化しづらいということなんだけど、Claudeはどうやってるんだろう。",
+          "tags": [],
+          "timestamp": "2026/10/17 13:28"
+        },
+        {
+          "user": "fujihiro0",
+          "comment": "コード書くのもテストするのもレビューするのもAIの方が上手。ハルシネーション癖とチート癖あるけど、それもAIでチェックできる。人間の仕事はPM的なものしか残らないだろうな。",
+          "tags": [],
+          "timestamp": "2026/10/17 10:55"
+        },
         {
           "user": "nguyen-oi",
           "comment": "90%がAI製でレビューもAIとか、人間は「何を作るか」決めるだけの装置になりつつあるな。開発スピードの次元が違う",
@@ -16,262 +34,287 @@
           "timestamp": "2026/10/17 10:06"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:23.166403+00:00"
+      "fetchedAt": "2026-10-17T10:26:55.704031+00:00"
     },
     {
       "id": "h_0ebc3fd5",
       "title": "BASE子会社の漏えい、約2335万人分に 209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
       "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 65,
+      "bookmarkCount": 153,
       "summary": "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。25年7月にBASEがEストアーの全株式を取得して子会社化した。 今回の漏えいは8月に公表。詳細を調べた結果、10月16日に最終報が出た。 店舗はID・パスワードなど、購入者はカード情報の一部など漏えい 対象店舗は、シ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/17/2000002349/",
       "comments": [
         {
-          "user": "miki3k",
-          "comment": "カード会社などの判別のために先頭を持っていた→とうぜん取得した側も利用できる",
+          "user": "kshtn",
+          "comment": "最近はまともなところは３Dセキュア的なやつが必須になってきてるしな",
           "tags": [],
-          "timestamp": "2026/10/17 12:52"
+          "timestamp": "2026/10/17 18:04"
         },
         {
-          "user": "nekoline",
-          "comment": "今更ながらBASEの子会社になってた事を知る。てか、親会社まで悪い流れが続いたら嫌だな。",
+          "user": "Palantir",
+          "comment": "前6後4の番号はもうクレカとしては意味がないくらい情報が落とされてる。有効期限もクレカ番号とペアじゃないとあんま意味ない。ちゃんと守ってる。",
           "tags": [],
-          "timestamp": "2026/10/17 12:40"
+          "timestamp": "2026/10/17 17:31"
         },
         {
-          "user": "pikopikopan",
-          "comment": "ああ",
+          "user": "otakumesi",
+          "comment": "クレカの番号も下四桁であってもパスワードみたいにハッシュ化して保存してもいいんじゃないかなぁ、と思うことはある。",
           "tags": [],
-          "timestamp": "2026/10/17 12:36"
+          "timestamp": "2026/10/17 17:07"
         },
         {
-          "user": "m4fg",
-          "comment": "クレカ番号の非保持化は義務付けられてるのになんで保存してるんや？？",
+          "user": "rad-4",
+          "comment": "クレジットカード会社が耐えきれないほどの不正注文がAIにより大量に行われたらどうなるのだろう。 不正利用を仕分けるのすら難しくなり高額な請求が行われてしまうのでは",
           "tags": [],
-          "timestamp": "2026/10/17 12:33"
+          "timestamp": "2026/10/17 16:55"
         },
         {
-          "user": "hry64",
-          "comment": "名義と期限が漏れてる時点で破れちゃう",
+          "user": "otihateten3510",
+          "comment": "あららー、IT関係だとちょっとめぐさいな。しかし明日は我が身なので「どんまい」しか言えない",
           "tags": [],
-          "timestamp": "2026/10/17 12:30"
+          "timestamp": "2026/10/17 16:09"
         },
         {
-          "user": "yoiIT",
-          "comment": "お漏らしが止まらない",
+          "user": "sho",
+          "comment": "先頭6桁と下4桁の保持には正当性があるのをちゃんと説明するのもメディアの仕事じゃないですかねぇ",
           "tags": [],
-          "timestamp": "2026/10/17 12:25"
+          "timestamp": "2026/10/17 15:42"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:22.548251+00:00"
-    },
-    {
-      "id": "h_fc16fc0c",
-      "title": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める",
-      "url": "https://www.4gamer.net/games/050/G105051/20261015021/",
-      "domain": "4gamer.net",
-      "bookmarkCount": 39,
-      "summary": "Windows PC向けNVIDIA製SoC「RTX Spark」の正体が明らかに。Microsoftと共同でゲームへの対応も進める ライター：西川善司 去る北米時間2026年10月7日，NVIDIA製のSoC（System on a Chip）「NVIDIA RTX Spark」搭載PCが，MicrosoftやASUSTeK Computer，MSIなどから発表となった。 その翌日である10月8日，NVIDIAは，米国...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.4gamer.net/games/050/G105051/20261015021/",
-      "comments": [
-        {
-          "user": "qpci32siekqd",
-          "comment": "値段のわりに性能が微妙にならんやろか",
-          "tags": [],
-          "timestamp": "2026/10/17 12:50"
-        },
-        {
-          "user": "inulab",
-          "comment": "どうせ100万なんでしょって考えるとなにも頭に入ってこない",
-          "tags": [],
-          "timestamp": "2026/10/17 12:18"
-        },
-        {
-          "user": "mohno",
-          "comment": "「Arm版Windowsを搭載するRTX Spark環境でPCゲームを動作させるための取り組み」「従来のArm版Windowsでは，アンチチートシステムが動作しない」/ああ、XboxじゃなくWindowsなのか。",
-          "tags": [
-            "4gamer",
-            "Windows",
-            "NVIDIA",
-            "Microsoft",
-            "RTX",
-            "ARM",
-            "ゲーム",
-            "MediaTek",
-            "CPU",
-            "GPU"
-          ],
-          "timestamp": "2026/10/17 11:54"
-        },
-        {
-          "user": "Hiro0138",
-          "comment": "やっぱ値崩れ時にSwitch3になる未来が見える",
-          "tags": [
-            "ゲーム"
-          ],
-          "timestamp": "2026/10/17 11:28"
-        },
-        {
-          "user": "TakamoriTarou",
-          "comment": "でもおたかいんでしょおおおおおおおおお！　　と言いたいけど、ゴリゴリGpU詰むよりはまともになってきた",
-          "tags": [],
-          "timestamp": "2026/10/17 11:06"
-        },
-        {
-          "user": "SilverHead247",
-          "comment": "常に3種類のCPU向けにOSをリニューアルし続けることになったMS。",
-          "tags": [],
-          "timestamp": "2026/10/17 10:03"
-        }
-      ],
-      "fetchedAt": "2026-10-17T03:56:26.660243+00:00"
-    },
-    {
-      "id": "h_b2364c7b",
-      "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
-      "url": "https://zenn.dev/nkzn/articles/my-first-void",
-      "domain": "zenn.dev",
-      "bookmarkCount": 31,
-      "summary": "筆者のポートフォリオサイトnkzn.netは、これまで何度か作り直してきました。最初はNext.jsとExpo(react-native-web)を組み合わせた構成、2代目はExpo Router、3代目はAstroと、その上で動くCMSのEmDashで作り始めたものの、完成しないまま止まっていました。 そこへ2026年10月15日、Cloudflareのブログに「Deploy with ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/nkzn/articles/my-first-void",
-      "comments": [
-        {
-          "user": "tetokon",
-          "comment": "本筋とは関係ないけど、VueもViteもVoidもEvanのプロダクトはVから始まることにこれ読んでて今更気づいた",
-          "tags": [
-            "プログラミング",
-            "web",
-            "OSS",
-            "開発"
-          ],
-          "timestamp": "2026/10/17 10:47"
-        },
-        {
-          "user": "kaorun",
-          "comment": "くさかべさんの話ではなかった",
-          "tags": [
-            "oss"
-          ],
-          "timestamp": "2026/10/17 10:25"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Evan Youの商用化挫折からのCloudflare買収とOSS化の流れが綺麗にまとまってる。中身Honoなのに独自語彙被せるあたり好き嫌い分かれそう",
-          "tags": [],
-          "timestamp": "2026/10/17 09:41"
-        }
-      ],
-      "fetchedAt": "2026-10-17T03:56:24.856526+00:00"
-    },
-    {
-      "id": "h_04c8062c",
-      "title": "さくらのVPSにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
-      "url": "https://vps.sakura.ad.jp/contents/info/202610-pendingapply/",
-      "domain": "vps.sakura.ad.jp",
-      "bookmarkCount": 28,
-      "summary": "平素よりさくらのVPSをご利用いただき、誠にありがとうございます。 Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999、通称「PwnEscape」）について、さくらのVPSにおける現在の対応状況をご案内いたします。 現在、さくらのVPSでは石狩、東京、大阪の全リージョンで新規申し込みの受付を一時的に停止し...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/vps.sakura.ad.jp/contents/info/202610-pendingapply/",
-      "comments": [
-        {
-          "user": "lycolia",
-          "comment": "CVE-2026-99999とかいう冗談のような番号",
-          "tags": [
-            "IT",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/17 12:11"
-        },
-        {
-          "user": "Ashburton",
-          "comment": "「スケールアップの受付停止」や「お客さま持ち込みのISOインストール不可」が正しい対応方法なのだろうか？それらのサービスが必要な既存ユーザーが利用できなくなっちゃう。なんでも止めればいいというものではない",
-          "tags": [],
-          "timestamp": "2026/10/17 10:06"
-        },
-        {
-          "user": "circled",
-          "comment": "KVMがやられるので、IDCFのvmwareの方が影響が低いのだが、IDCFが古いvmwareのせいで先にやられてるっていうアイロニー漂う世界よな",
-          "tags": [],
-          "timestamp": "2026/10/17 09:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "新規停止するレベルの脆弱性とか怖すぎる。PwnEscapeって名前からしてヤバそう",
-          "tags": [],
-          "timestamp": "2026/10/17 09:05"
-        },
-        {
-          "user": "nilab",
-          "comment": "「石狩、東京、大阪の全リージョンで新規申し込みの受付を一時的に停止」「本脆弱性への対応として、ホストメンテナンスを含む必要なメンテナンスを実施する可能性があります」",
-          "tags": [
-            "CVE-2026-99999"
-          ],
-          "timestamp": "2026/10/17 09:02"
-        }
-      ],
-      "fetchedAt": "2026-10-17T03:56:24.228492+00:00"
+      "fetchedAt": "2026-10-17T10:26:55.268510+00:00"
     },
     {
       "id": "h_790aa81a",
       "title": "漢字の上にふりがなを表示する日本語フォント「Furifont」オープンライセンスで公開 | gihyo.jp",
       "url": "https://gihyo.jp/article/2026/10/furifont",
       "domain": "gihyo.jp",
-      "bookmarkCount": 21,
+      "bookmarkCount": 94,
       "summary": "OSS開発者のAnthony Fu氏は2026年10月15日、漢字の上にふりがな（かな文字またはローマ字）を表示するフォント「Furifont」を製作、オープンなライセンス[1]で公開した。日本語学習などに役立てたいとしている。 Furifont⁠：ふりがなを表示するフォント https://furifont.antfu.me/ Hey Japanese learners! I built a fo...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/furifont",
       "comments": [
         {
-          "user": "strawberryhunter",
-          "comment": "うそでしょ？うまく行くの？「今日の日本を築き上げたのは」はどうせ「きょう」でしょ？普通はアイデア倒れで実物を作るまでは行かないよな。",
+          "user": "makou",
+          "comment": "賢い。",
           "tags": [
-            "未分類"
+            "font",
+            "日本語"
           ],
-          "timestamp": "2026/10/17 12:54"
+          "timestamp": "2026/10/17 19:03"
         },
         {
-          "user": "hidari_kiki",
-          "comment": "多すぎるこう言うの考える人頭よすぎる",
+          "user": "duckt",
+          "comment": "ブコメにルビが振れたら表現の幅が広がるのだけれど。トランプ（ばか）とか小泉進次郎（はなたれ）みたいストレートなやつから、成田悠輔（とうきょうじへん）みたいにひねったやつまで（ストレートやがな",
           "tags": [],
-          "timestamp": "2026/10/17 12:47"
+          "timestamp": "2026/10/17 18:44"
         },
         {
-          "user": "smicho",
-          "comment": "おもちゃにされそうな。",
+          "user": "delphinus35",
+          "comment": "ルビのタグ挿入する拡張機能よりは画面表示が崩れなそうだな。",
           "tags": [],
-          "timestamp": "2026/10/17 12:30"
+          "timestamp": "2026/10/17 17:56"
         },
         {
-          "user": "khtno73",
-          "comment": "これ作るのを補助するAIの学習ソースに「忍者と極道」を読ませてぐちゃぐちゃにしてみたい",
+          "user": "ryunosinfx",
+          "comment": "地名が致命的という話だったな…ましてやキラキラネームなど…",
           "tags": [],
-          "timestamp": "2026/10/17 12:23"
+          "timestamp": "2026/10/17 17:44"
         },
         {
-          "user": "stackshortlist",
-          "comment": "ふりがなをフォント側で出せるのは、ルビ対応のないツールでも使えそう。オープンライセンスなのもありがたい",
+          "user": "ton-boo",
+          "comment": "こういうのもいけますか https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10127392580",
           "tags": [],
-          "timestamp": "2026/10/17 12:11"
+          "timestamp": "2026/10/17 16:29"
         },
         {
-          "user": "Falky",
-          "comment": "ローマあざ…",
+          "user": "kamezo",
+          "comment": "〈ふりがな付きの合字（ligatures/リガチャ）としてグリフ（1つの字形）を生成してフォントに組み込む〉〈Webでのふりがな表示にも対応〉なんと⁉︎ どうすりゃそんなことが。ルビの割り付け精度はどの程度なんだろ。",
           "tags": [
-            "!!"
+            "技術",
+            "フォント"
           ],
-          "timestamp": "2026/10/17 12:10"
+          "timestamp": "2026/10/17 16:18"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:23.548287+00:00"
+      "fetchedAt": "2026-10-17T10:26:56.178271+00:00"
+    },
+    {
+      "id": "h_2e03e3ed",
+      "title": "整骨院で施術室の一番奥のベッドに移動させられ、肩の治療なのに両足に器具をはめられてGoogleレビューを強要、その後#9110に相談→警察署→刑事さんから警告してもらった",
+      "url": "https://togetter.com/li/2759213",
+      "domain": "togetter.com",
+      "bookmarkCount": 75,
+      "summary": "🫧稲穂🫧 @honami_warm しょ〜もないんだけど、通ってた整骨院でGoogleレビューを動けない＆逃げられない状態まで作って強要されたので、9110相談→警察署→刑事さんから警告してもらってきた。 50代男性整体師に、施術室の1番奥のベッドに移動するように指示されて、肩の治療なのに両足に器具はめられて寝かされて、 2026-1...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759213",
+      "comments": [
+        {
+          "user": "dadabreton",
+          "comment": "逮捕・監禁罪（刑法220条）じゃないの？",
+          "tags": [],
+          "timestamp": "2026/10/17 19:19"
+        },
+        {
+          "user": "scavenger-folk99",
+          "comment": "良いレビューを投稿して確認できたら割引って手法は頻繁にあるが、そこまで犯罪度合いが高いことをやる程のメリットってあるのかな。",
+          "tags": [],
+          "timestamp": "2026/10/17 19:11"
+        },
+        {
+          "user": "circled",
+          "comment": "個人的に柔道整復師は保険適用治療が出来るのに、整体や鍼灸は腕の良い人でも保険適用出来ないのクソだと思う。特に腰痛。整形外科が馬鹿の一つ覚えみたいにロキソニンしか出さないので、整体や鍼灸の方が遥かにマシ",
+          "tags": [],
+          "timestamp": "2026/10/17 18:53"
+        },
+        {
+          "user": "gui1",
+          "comment": "整骨や鍼灸ってほぼほぼオカルトなんだよな。いいかげんに規制しろよ(´・ω・｀)",
+          "tags": [],
+          "timestamp": "2026/10/17 18:33"
+        },
+        {
+          "user": "e4k2EO",
+          "comment": "今日日こんなことが、すさまじい、Googleレビューは人を狂わせる",
+          "tags": [],
+          "timestamp": "2026/10/17 17:50"
+        },
+        {
+          "user": "sovereignglue",
+          "comment": "こういうのがあるから星が4.5超えてるようなのは信用しにくいんだよね。店舗から全レスとかしてたら特に。",
+          "tags": [],
+          "timestamp": "2026/10/17 17:31"
+        }
+      ],
+      "fetchedAt": "2026-10-17T10:26:57.606267+00:00"
+    },
+    {
+      "id": "h_2b090b3a",
+      "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性 - Qiita",
+      "url": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
+      "domain": "qiita.com",
+      "bookmarkCount": 60,
+      "summary": "本稿は筆者個人の分析であり、所属組織や各事業者の公式見解ではありません。基準日は2026年10月16日（資料確認 21:24 JST）です。CVE・修正版・各事業者の対応状況は変動するため、適用判断時には原典と自環境を再確認してください。本文の参照番号 [n] は末尾「参照」の根拠URLに対応します。 本稿での「確認」の範囲 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/k2_naka/items/fa87685231377f15e7e3",
+      "comments": [
+        {
+          "user": "kshtn",
+          "comment": "こういうのは AlmaLinux が速い印象 https://almalinux.org/blog/2026-10-16-pwnescape-cve-2026-99999/",
+          "tags": [],
+          "timestamp": "2026/10/17 18:27"
+        },
+        {
+          "user": "circled",
+          "comment": "Linuxの仮想マシンとホストの隔離を突破可能な脆弱性なので、1つのハイパーバイザを複数のユーザーを使わせる環境には頭痛い脆弱性だけど、単なるWEBサーバーとして使ってるLinuxをRCEできるわけじゃないからな？",
+          "tags": [],
+          "timestamp": "2026/10/17 17:23"
+        },
+        {
+          "user": "napsucks",
+          "comment": "vmwareでも47876というネットワークスタック経由でのゲストからハイパーバイザへの脱出問題が発覚してるのよね。IDCFではこれが狙われたのではと思われる。",
+          "tags": [],
+          "timestamp": "2026/10/17 13:36"
+        },
+        {
+          "user": "twmw",
+          "comment": "ブラックハッカーとしてはココがWEBシェル仕込んだワードプレスサイトリストの出番じゃあないの？🤔",
+          "tags": [],
+          "timestamp": "2026/10/17 13:29"
+        },
+        {
+          "user": "axaxaxaxxaxaaxaxaxaxaaxaxa",
+          "comment": "なんかふわふわしてるけど、いろんなベンターが対応を急いでいるってことは再現性も簡単なんだろうな",
+          "tags": [],
+          "timestamp": "2026/10/17 13:16"
+        },
+        {
+          "user": "T-norf",
+          "comment": "この文章を見てて、（生成AIチャットの文章と認識して）無意識に追加で質問しそうになってた自分がいた。ただまあ、ゲストOSを攻撃者に掌握されているのが攻撃の前提なので、慌てずパッチで良いかな",
+          "tags": [],
+          "timestamp": "2026/10/17 13:14"
+        }
+      ],
+      "fetchedAt": "2026-10-17T10:26:58.343822+00:00"
+    },
+    {
+      "id": "h_a8a56963",
+      "title": "こんにちは，UUID 芸人です - ハーフダチョウ研究会",
+      "url": "https://mimifuwacc.hatenablog.com/entry/2026/10/17/114300",
+      "domain": "mimifuwacc.hatenablog.com",
+      "bookmarkCount": 44,
+      "summary": "こんにちは，都内で UUID 芸人をやっている id:mimifuwacc です． UUIDv4の衝突が話題になっているので，いいねした人にUUIDv4を配ろうと思います— mimifuwacc (@mimifuwacc) March 23, 2026 ついに UUID を配り終えたので，良いタイミングということで UUID の話をします． そもそも UUID とは まず，UUID について軽く...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mimifuwacc.hatenablog.com/entry/2026/10/17/114300",
+      "comments": [
+        {
+          "user": "circled",
+          "comment": "macOSならuuidgenでUUID作れるのにな。 uuidgen | pbcopy でXにリプライ即返せる罠  具体例-> 37C05590-A46E-42C8-B0E5-D490CFA0C2FD",
+          "tags": [],
+          "timestamp": "2026/10/17 18:58"
+        },
+        {
+          "user": "enemyoffreedom",
+          "comment": "「さらに最近では，色紙に UUID を書かせていただくという，謎の文化まで生まれつつあります」",
+          "tags": [],
+          "timestamp": "2026/10/17 15:52"
+        },
+        {
+          "user": "inatax",
+          "comment": "UUIDなんてなんぼあってもええですからね",
+          "tags": [],
+          "timestamp": "2026/10/17 14:58"
+        },
+        {
+          "user": "sakuro",
+          "comment": "配り終えたってどういうこと?",
+          "tags": [],
+          "timestamp": "2026/10/17 14:27"
+        },
+        {
+          "user": "Futaro99",
+          "comment": "ユニークな活動ですね",
+          "tags": [],
+          "timestamp": "2026/10/17 14:17"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "ただの奇行かと思ったらGoのIssueに繋がってて草。暖かみのある手書きUUIDはちょっと欲しい",
+          "tags": [],
+          "timestamp": "2026/10/17 13:07"
+        }
+      ],
+      "fetchedAt": "2026-10-17T10:26:58.675987+00:00"
     },
     {
       "id": "h_ec81f088",
       "title": "AI「ミューズ」が侵食する旅行サイト ブッキングなど株価軒並み下落 - 日本経済新聞",
       "url": "https://www.nikkei.com/article/DGXZQOFD0801K0Y6A001C2000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 18,
+      "bookmarkCount": 43,
       "summary": "【ニューヨーク=石坪真衣】旅行予約を代行する米メタの「Muse（ミューズ）」の登場以降、米オンライン旅行会社の株価が軟調に推移している。ブッキング・ホールディングスは1割以上下落した。手数料や広告減を招く懸念が指摘されている。QUICK・ファクトセットによると、16日時点の株価はミューズ発表前の9月4日終値比で...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOFD0801K0Y6A001C2000000/",
       "comments": [
+        {
+          "user": "otihateten3510",
+          "comment": "クソすぎたんだ！予約システムが！",
+          "tags": [],
+          "timestamp": "2026/10/17 16:13"
+        },
+        {
+          "user": "Hasen",
+          "comment": "Airbnbはサイト内でしか出ないのあるから性質違うだろうな",
+          "tags": [],
+          "timestamp": "2026/10/17 15:30"
+        },
+        {
+          "user": "augsUK",
+          "comment": "AIにおすすめの宿リスト出してもらって直接予約が普通になってるしなあ。",
+          "tags": [],
+          "timestamp": "2026/10/17 14:06"
+        },
+        {
+          "user": "tk_musik",
+          "comment": "株主なんてざっくり業界でしか見てないので業界単位で上げ下げする。ただ消費者は中身を見ているのでそれが遅れて数字に表れてそこに株主がまた群がってくる",
+          "tags": [],
+          "timestamp": "2026/10/17 13:01"
+        },
         {
           "user": "pedalfar",
           "comment": "旅行に限らず「代理店」という業態がAIに駆逐される前触れなのか。",
@@ -283,177 +326,179 @@
           "comment": "ブッキングやエクスペディアとエアビーは、役割もビジネスモデルも異なると思うが一緒に下落するんだな。ちょっと不思議な感じがする。",
           "tags": [],
           "timestamp": "2026/10/17 12:21"
-        },
+        }
+      ],
+      "fetchedAt": "2026-10-17T10:26:59.941616+00:00"
+    },
+    {
+      "id": "h_0a2a6ac4",
+      "title": "中国製車両、ノルウェー軍の機密情報を記録 訓練中に発覚",
+      "url": "https://www.afpbb.com/articles/-/3658078",
+      "domain": "afpbb.com",
+      "bookmarkCount": 36,
+      "summary": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【10月17日 AFP】ノルウェー軍の訓練中、中国製車両の車載カメラが軍事施設への入場コードや関係者の出入りなど、機密性の高い情報を記録していたことが分かり、コネク...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658078",
+      "comments": [
         {
-          "user": "gimonfu_usr",
-          "comment": "（　？　）",
+          "user": "hozho",
+          "comment": "“ノルウェー軍の訓練中、中国製車両の車載カメラが軍事施設への入場コードや関係者の出入りなど、機密性の高い情報を記録していたことが分かり、コネクテッドカーがもたらすリスクへの懸念が高まっている。”",
           "tags": [
-            "謎",
-            "旅"
+            "ニュース>へー",
+            "世俗>インフラ",
+            "世俗>政治",
+            "世俗>軍事",
+            "交通>クルマ",
+            "生活>パソコン･ネット"
           ],
-          "timestamp": "2026/10/17 12:07"
-        }
-      ],
-      "fetchedAt": "2026-10-17T03:56:25.447461+00:00"
-    },
-    {
-      "id": "h_738062d8",
-      "title": "InstagramグラフAPIのプラットフォーム利用規約違反対応をしました - production.log",
-      "url": "https://blog.naoshihoshi.com/entry/2023/02/17/120000",
-      "domain": "blog.naoshihoshi.com",
-      "bookmarkCount": 18,
-      "summary": "概要 SnapmartアプリではInstagramグラフAPIを使用しているのですが、8月下旬にMeta社より「プラットフォーム違反しているからAPI利用停止するね」とお達しがありました。*1 Instagram連携不具合解消のお知らせ | Snapmart（スナップマート）公式ブログ この記事では、InstagramグラフAPIのプラットフォーム利用規約違反...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.naoshihoshi.com/entry/2023/02/17/120000",
-      "comments": [
-        {
-          "user": "stackshortlist",
-          "comment": "Metaの指摘はA〜Hの項目ごとにスクショ等の証跡を求める形式。保存時の暗号化やTLS1.2以上を普段から設定画面で示せるようにしておくと慌てずに済む",
-          "tags": [],
-          "timestamp": "2026/10/17 11:56"
+          "timestamp": "2026/10/17 18:54"
         },
         {
-          "user": "fog-og-frog2",
-          "comment": "Facebook時代しか知らんが外部検査でいきなりAPI停止するわけなくて、事前にData Protection Assessmentという標本調査で証跡求められてたはずでそれをシカトしたのが理由かな。老鋪ゆえに設定が酷いままだったし良かったわな。",
+          "user": "wildhog",
+          "comment": "これは日本勢にはチャンスなんじゃない？欧州勢も弱ってるし国も民間もロビイストも使ってきっちり動いて欲しい。テスラとも組んで上手くやって欲しいところ",
           "tags": [],
-          "timestamp": "2026/10/17 09:59"
+          "timestamp": "2026/10/17 18:42"
+        },
+        {
+          "user": "gcyn",
+          "comment": "読みました。",
+          "tags": [],
+          "timestamp": "2026/10/17 18:34"
+        },
+        {
+          "user": "aua",
+          "comment": "盗聴機に乗ってるのと変わらんのよ",
+          "tags": [],
+          "timestamp": "2026/10/17 18:14"
+        },
+        {
+          "user": "DIEVOLD",
+          "comment": "中国製は自動車に限らず電化製品も軒並み販売停止になる可能性を考慮して日本企業には動いてもらいたいね。",
+          "tags": [],
+          "timestamp": "2026/10/17 17:30"
+        },
+        {
+          "user": "rna",
+          "comment": "「当社のレンタカーの利用に関連する個人情報が、明確な法的根拠なしに自動車メーカーや当社の所有者、第三者と共有されることはない」中国政府は国家情報法等を根拠に情報取れるよね。",
+          "tags": [],
+          "timestamp": "2026/10/17 17:23"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:25.712472+00:00"
+      "fetchedAt": "2026-10-17T10:26:56.849442+00:00"
     },
     {
-      "id": "h_2b090b3a",
-      "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性 - Qiita",
-      "url": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
-      "domain": "qiita.com",
-      "bookmarkCount": 17,
-      "summary": "本稿は筆者個人の分析であり、所属組織や各事業者の公式見解ではありません。基準日は2026年10月16日（資料確認 21:24 JST）です。CVE・修正版・各事業者の対応状況は変動するため、適用判断時には原典と自環境を再確認してください。本文の参照番号 [n] は末尾「参照」の根拠URLに対応します。 本稿での「確認」の範囲 ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/k2_naka/items/fa87685231377f15e7e3",
+      "id": "h_fad4df2e",
+      "title": "E2E テストのフィードバックループを小さくするためのプラクティス | フューチャー技術ブログ",
+      "url": "https://future-architect.github.io/articles/20261016a/",
+      "domain": "future-architect.github.io",
+      "bookmarkCount": 24,
+      "summary": "はじめに従来より E2E テストはテストピラミッドの頂点に置かれ、テストケース数は必要最低限にする（ユニットテストやインテグレーションテストよりも少なくする）というのがセオリーでした。しかしながら昨今、コーディングエージェントの進化により、これまでのユニットテスト中心のテスト戦略から E2E テスト中心の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261016a/",
       "comments": [
-        {
-          "user": "ryouchi",
-          "comment": "仮想サーバ関係者は休日返上でこれに関わってる感じなんかな？",
-          "tags": [],
-          "timestamp": "2026/10/17 12:03"
-        },
         {
           "user": "nguyen-oi",
-          "comment": "KVMの脆弱性って騒がれてたのに結局ネットワークスタックの古典的バグだったオチかよ。インフラ担当胃が痛そうだな",
+          "comment": "ローカルでここまで環境再現して回せるの強いけど維持管理で力尽きそう",
           "tags": [],
-          "timestamp": "2026/10/17 11:34"
+          "timestamp": "2026/10/17 16:11"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:25.158281+00:00"
+      "fetchedAt": "2026-10-17T10:26:57.954768+00:00"
     },
     {
-      "id": "h_27a8b3dd",
-      "title": "さくらのクラウドにおけるLinuxカーネルの脆弱性（CVE-2026-99999）への対応状況について",
-      "url": "https://cloud.sakura.ad.jp/news/2026/10/16/cve-2026-99999/",
-      "domain": "cloud.sakura.ad.jp",
-      "bookmarkCount": 16,
-      "summary": "平素よりさくらのクラウドをご利用いただき、誠にありがとうございます。 Linuxカーネルのネットワーク処理に関する脆弱性（CVE-2026-99999、通称「PwnEscape」）について、さくらのクラウドにおける現在の対応状況をご案内いたします。 現在の対応状況 2026年10月16日（金）より、さくらのクラウドにおけるリソースの作...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cloud.sakura.ad.jp/news/2026/10/16/cve-2026-99999/",
+      "id": "h_d8ad9144",
+      "title": "亡くなった声優の声、AIでの再現は原則禁止 日俳連が新指針",
+      "url": "https://japan.cnet.com/article/35253656/",
+      "domain": "japan.cnet.com",
+      "bookmarkCount": 13,
+      "summary": "日俳連には約2600人の俳優・声優が加盟する。今回の「音声に関する生成AI利用ガイドライン」は、制作会社やAI開発企業などに順守を呼びかける自主基準だ。日俳連によると、日本には個人の声そのものを包括的に保護する法律がなく、AIによる無断学習や音声生成への対応が課題になっている。 同意や契約の有効期間は原則最...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253656/",
       "comments": [
         {
-          "user": "gabill",
-          "comment": "新規受付停止って、完璧ではないけど絶妙に良いバランスの対応だと思う。",
+          "user": "nekopakopako",
+          "comment": "もし大川隆法が生きていたら、故人の声を使って商売もとい霊言を行っていたんだろうなあ。そうしたカルトやプロパガンダでの利用を事前に阻止するような仕組みは必要じゃないかな",
           "tags": [],
-          "timestamp": "2026/10/17 11:41"
+          "timestamp": "2026/10/17 19:14"
         },
         {
-          "user": "sqrt",
-          "comment": "99999…なんかラスボス感ある識別番号だな…",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/17 10:37"
-        },
-        {
-          "user": "tetsutalow",
-          "comment": "プロジェクト作成は新規受付を一時停止。影響範囲を見極めつつPatch計画立ててるって感じかしら。頑張ってください。",
+          "user": "atsushieno",
+          "comment": "パブリシティ権のカテゴリは人格権であり一身専属で相続も譲渡もできないはずだが。疑似著作権に類する権利を主張する団体なら今後これらの主張は内容を見ずに無視するということでよろしいか。",
           "tags": [],
-          "timestamp": "2026/10/17 09:21"
+          "timestamp": "2026/10/17 19:10"
         },
         {
-          "user": "nilab",
-          "comment": "「通称「PwnEscape」」「2026年10月16日（金）より、さくらのクラウドにおけるリソースの作業空間である「プロジェクト」の新規作成を一時的に停止」",
-          "tags": [
-            "CVE-2026-99999"
-          ],
-          "timestamp": "2026/10/17 09:02"
+          "user": "sangping",
+          "comment": "何の権限もない人たちが「ガイドライン」とか言い出すのも面白い。「懇願」くらいが実態に近いと思うが。",
+          "tags": [],
+          "timestamp": "2026/10/17 19:09"
+        },
+        {
+          "user": "siriusarc7",
+          "comment": "気持ちはわかるんだけど、そういうの世界的に制御してくれないと「法の範囲を理由に海外の無法は許すんだ？」って受け取られ方になるんだよね結局",
+          "tags": [],
+          "timestamp": "2026/10/17 19:04"
+        },
+        {
+          "user": "crimson_diamond",
+          "comment": "死んだ人は死んでいるので、権利はないぞ",
+          "tags": [],
+          "timestamp": "2026/10/17 19:02"
+        },
+        {
+          "user": "rasp_40",
+          "comment": "何かの続編つくるときに足枷にならないか",
+          "tags": [],
+          "timestamp": "2026/10/17 18:55"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:26.284039+00:00"
+      "fetchedAt": "2026-10-17T10:26:59.653720+00:00"
     },
     {
-      "id": "h_2e03e3ed",
-      "title": "整骨院で施術室の一番奥のベッドに移動させられ、肩の治療なのに両足に器具をはめられてGoogleレビューを強要、その後#9110に相談→警察署→刑事さんから警告してもらった",
-      "url": "https://togetter.com/li/2759213",
-      "domain": "togetter.com",
-      "bookmarkCount": 15,
-      "summary": "🫧稲穂🫧 @honami_warm しょ〜もないんだけど、通ってた整骨院でGoogleレビューを動けない＆逃げられない状態まで作って強要されたので、9110相談→警察署→刑事さんから警告してもらってきた。 50代男性整体師に、施術室の1番奥のベッドに移動するように指示されて、肩の治療なのに両足に器具はめられて寝かされて、 2026-1...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759213",
-      "comments": [
-        {
-          "user": "inforeg",
-          "comment": "怖すぎる・・・",
-          "tags": [
-            "togetter"
-          ],
-          "timestamp": "2026/10/17 12:54"
-        },
-        {
-          "user": "bokmal",
-          "comment": "めっちゃ薄めた「ミザリー」だ",
-          "tags": [],
-          "timestamp": "2026/10/17 12:53"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "施術台で拘束してレビュー強要とか監禁罪ギリギリの怪談で草。警察が動いてくれて何よりだがGoogleの星5なんて元から信用できんわな",
-          "tags": [],
-          "timestamp": "2026/10/17 12:41"
-        },
-        {
-          "user": "kohakuirono",
-          "comment": "整骨院の地雷の見分け方の一つがGoogleマップにレビューをやたら要望してくる所。そう言う所はお得だと回数券を売り込んでくるし平気で半年一年通わせようとする。本当にそのレベルの症状なら整形外科で要治療だ。",
-          "tags": [],
-          "timestamp": "2026/10/17 12:31"
-        },
-        {
-          "user": "gimonfu_usr",
-          "comment": "（殺害でもしない限り、そんな強制的レビュー書き換えてしまうやろ。それどころか「拘束されました！」て書かれる）（自分が世話になった歯科でいっちゃん納得いった医院は、コメ数、具体的にはいわないが1桁以内",
-          "tags": [
-            "謎"
-          ],
-          "timestamp": "2026/10/17 12:25"
-        },
-        {
-          "user": "anigoka",
-          "comment": "ショッキングすぎる内容とやり方ガバガバ整体師とツイ主が捨て身戦法すぎて逆に松臭の霊圧が消えた？！（知らんけど真偽｜全員の行動原理がガバ過ぎて真実性の担保投げ捨てた内容なのでむしろ本当かもと思わせるなｗ",
-          "tags": [],
-          "timestamp": "2026/10/17 12:24"
-        }
-      ],
-      "fetchedAt": "2026-10-17T03:56:23.824289+00:00"
-    },
-    {
-      "id": "h_604b96a2",
-      "title": "フィジカルAIの社会実装に向けて -AIエージェントからAgentic Roboticsへ-",
-      "url": "https://speakerdeck.com/hf149/fijikaru-ai-no-shakai-jissou-ni-muke-te-ai-ejento-kara-agentic-robotics-he",
-      "domain": "speakerdeck.com",
+      "id": "h_a893299b",
+      "title": "JR東海、次期新幹線「S0系」29年7月デビュー 自動運転や車内設備強化",
+      "url": "https://www.watch.impress.co.jp/docs/news/2148838.html",
+      "domain": "watch.impress.co.jp",
       "bookmarkCount": 10,
-      "summary": "1. AIの現在地 - 生成AIからエージェントAIへ 2. フィジカルAIの最前線 3. MPRGでの取り組み 4. フィジカルAIの今後 -Agentic Robotics-",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/hf149/fijikaru-ai-no-shakai-jissou-ni-muke-te-ai-ejento-kara-agentic-robotics-he",
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/news/2148838.html",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "卒論レベルなら一週間でAIに書かせられる時代とか、大学の教員も評価の基準作りに頭抱えそう",
+          "user": "shodai",
+          "comment": "自動販売機は無いのか",
           "tags": [],
-          "timestamp": "2026/10/17 12:02"
+          "timestamp": "2026/10/17 19:19"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "N700Sの次だからS0系ってネーミングセンスは原点回帰っぽくて悪くないな",
+          "tags": [],
+          "timestamp": "2026/10/17 17:39"
+        },
+        {
+          "user": "mnnn",
+          "comment": "先の先、一番最初に空気にあたる部分って（全方位に）丸くなくてもよかったのか… あと前から見るとカバっぽい",
+          "tags": [],
+          "timestamp": "2026/10/17 17:26"
         }
       ],
-      "fetchedAt": "2026-10-17T03:56:25.967276+00:00"
+      "fetchedAt": "2026-10-17T10:26:59.046565+00:00"
+    },
+    {
+      "id": "h_3e652830",
+      "title": "ソースネクスト 暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "domain": "news.yahoo.co.jp",
+      "bookmarkCount": 6,
+      "summary": "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。 どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。 システム連携用に暗号化して保存していたソースネクストの発表によれば、直...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
+      "comments": [
+        {
+          "user": "ockeghem",
+          "comment": "メディアにはこういう取材をして欲しいですよね。ただ、この理由は納得できない>ライセンス管理システムとの連携など、パスワードが必要な作業で使う必要があるAPIであったため、パスワードも含めていた",
+          "tags": [],
+          "timestamp": "2026/10/17 18:23"
+        }
+      ],
+      "fetchedAt": "2026-10-17T10:26:59.304343+00:00"
     }
   ],
-  "lastCollection": "2026-10-17T03:56:26.660269+00:00"
+  "lastCollection": "2026-10-17T10:26:59.941639+00:00"
 }
