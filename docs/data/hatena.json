@@ -1,253 +1,165 @@
 {
   "entries": [
     {
-      "id": "h_23bf1b38",
-      "title": "How the Claude Code team does code review / claude.dev Blog",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "domain": "claude.dev",
-      "bookmarkCount": 198,
-      "summary": "We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/claude.dev/blog/solving-code-review-at-anthropic/",
-      "comments": [
-        {
-          "user": "otihateten3510",
-          "comment": "この深い階層でレビューできるhuman天才すぎないか？",
-          "tags": [],
-          "timestamp": "2026/10/17 16:17"
-        },
-        {
-          "user": "awaytabi",
-          "comment": "バグというのは要は機能要求・非機能要求・各種規約との不整合なんだけど、問題はそれをAI（というか人間も）理解できるレベルで明文化しづらいということなんだけど、Claudeはどうやってるんだろう。",
-          "tags": [],
-          "timestamp": "2026/10/17 13:28"
-        },
-        {
-          "user": "fujihiro0",
-          "comment": "コード書くのもテストするのもレビューするのもAIの方が上手。ハルシネーション癖とチート癖あるけど、それもAIでチェックできる。人間の仕事はPM的なものしか残らないだろうな。",
-          "tags": [],
-          "timestamp": "2026/10/17 10:55"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "90%がAI製でレビューもAIとか、人間は「何を作るか」決めるだけの装置になりつつあるな。開発スピードの次元が違う",
-          "tags": [],
-          "timestamp": "2026/10/17 10:06"
-        }
-      ],
-      "fetchedAt": "2026-10-17T15:20:47.142296+00:00"
-    },
-    {
-      "id": "h_0ebc3fd5",
-      "title": "BASE子会社の漏えい、約2335万人分に 209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
-      "url": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 179,
-      "summary": "ショップサーブは、企業が独自ドメインのネットショップを作るためのECサイト構築・運営支援サービス。25年7月にBASEがEストアーの全株式を取得して子会社化した。 今回の漏えいは8月に公表。詳細を調べた結果、10月16日に最終報が出た。 店舗はID・パスワードなど、購入者はカード情報の一部など漏えい 対象店舗は、シ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/17/2000002349/",
-      "comments": [
-        {
-          "user": "kshtn",
-          "comment": "最近はまともなところは３Dセキュア的なやつが必須になってきてるしな",
-          "tags": [],
-          "timestamp": "2026/10/17 18:04"
-        },
-        {
-          "user": "Palantir",
-          "comment": "前6後4の番号はもうクレカとしては意味がないくらい情報が落とされてる。有効期限もクレカ番号とペアじゃないとあんま意味ない。ちゃんと守ってる。",
-          "tags": [],
-          "timestamp": "2026/10/17 17:31"
-        },
-        {
-          "user": "otakumesi",
-          "comment": "クレカの番号も下四桁であってもパスワードみたいにハッシュ化して保存してもいいんじゃないかなぁ、と思うことはある。",
-          "tags": [],
-          "timestamp": "2026/10/17 17:07"
-        },
-        {
-          "user": "rad-4",
-          "comment": "クレジットカード会社が耐えきれないほどの不正注文がAIにより大量に行われたらどうなるのだろう。 不正利用を仕分けるのすら難しくなり高額な請求が行われてしまうのでは",
-          "tags": [],
-          "timestamp": "2026/10/17 16:55"
-        },
-        {
-          "user": "otihateten3510",
-          "comment": "あららー、IT関係だとちょっとめぐさいな。しかし明日は我が身なので「どんまい」しか言えない",
-          "tags": [],
-          "timestamp": "2026/10/17 16:09"
-        },
-        {
-          "user": "sho",
-          "comment": "先頭6桁と下4桁の保持には正当性があるのをちゃんと説明するのもメディアの仕事じゃないですかねぇ",
-          "tags": [],
-          "timestamp": "2026/10/17 15:42"
-        }
-      ],
-      "fetchedAt": "2026-10-17T15:20:46.824808+00:00"
-    },
-    {
       "id": "h_3e652830",
       "title": "ソースネクスト 暗号化されていないパスワードが流出した理由とは（山口健太） - エキスパート - Yahoo!ニュース",
       "url": "https://news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
       "domain": "news.yahoo.co.jp",
-      "bookmarkCount": 134,
+      "bookmarkCount": 179,
       "summary": "ソースネクストへの不正アクセスで会員情報が流出した問題では、「暗号化がない状態のパスワード」が含まれていたことをNHKなどが報じており、注目を集めています。 どのような方式でパスワードを管理していたのか、運営会社に聞いてみました。 システム連携用に暗号化して保存していたソースネクストの発表によれば、直...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/b3e710c60d79d276a00321906fa87ac9243f5530",
       "comments": [
         {
-          "user": "hecaton55",
-          "comment": "「さまざまな事情や経緯からハッシュ値ではなく元のパスワード文字列を保存しているケース」そんなこと言ってる状況ではないはず。世の中の認証関連の人が苦労して作り上げたより安全なものがあると言うのに",
+          "user": "taguch1",
+          "comment": "2000年代の言い訳を四半世紀後にも見ることになるとは。盗まれるのは今の時代防ぐのは難しいとしても、ここまでレベルが低いと転職も厳しいだろ。だからこれからも複合できますってか？",
+          "tags": [],
+          "timestamp": "2026/10/18 05:06"
+        },
+        {
+          "user": "kenchan3",
+          "comment": "1passwordを公式かソースネクストから買おうか迷ってたときあったけど、少なくとも1passはソースネクストから買っちゃダメだな。",
+          "tags": [],
+          "timestamp": "2026/10/18 01:53"
+        },
+        {
+          "user": "k2wanko",
+          "comment": "システム改修できる人いないならAIにやってもらうしかなさそう",
+          "tags": [],
+          "timestamp": "2026/10/18 00:50"
+        },
+        {
+          "user": "iphone",
+          "comment": "「平文保存やめろ」なんて大昔から言われてたわけで、ずっと改善コストを支払わらずにいた技術軽視のツケとしてついに生パスワードを流出させるに至ったと。それでも検知＆報告できてるだけマシな方ではあるが。",
+          "tags": [],
+          "timestamp": "2026/10/18 00:49"
+        },
+        {
+          "user": "AmaiSaeta",
+          "comment": "\"ソースネクストは会員向けにパスワードを再設定するよう案内しているものの、新しいパスワードについても同様に暗号化してサーバーに保存されるとのことです。\" いや何でだよ今が最高の改修タイミングだろうがアホか",
           "tags": [
-            "セキュリティ",
-            "情報漏洩"
+            "security",
+            "SOURCENEXT"
           ],
-          "timestamp": "2026/10/18 00:12"
+          "timestamp": "2026/10/18 00:47"
         },
         {
-          "user": "netnotora",
-          "comment": "こういうところほどパスキーになってくれませんねえ",
+          "user": "xsde",
+          "comment": "このパスワードを保管しているシステムが他システムの認証機能も備えれば復号可能なパスワードを保持する必要はないわけで、他システムでも認証したいからパスワードを渡すのは単純にアーキテクチャの敗北",
           "tags": [],
-          "timestamp": "2026/10/17 23:33"
-        },
-        {
-          "user": "awkad",
-          "comment": "パスワード変更したらしたでまた同じ方法で管理されるのやばすぎる。さっさと全員退会したほうがよい…が退会してもデータ消えないんだろうな。関わってなくてよかった",
-          "tags": [],
-          "timestamp": "2026/10/17 23:19"
-        },
-        {
-          "user": "megumin1",
-          "comment": "山口健太氏の記事は、タイトルに変な煽りもないし内容もいつも簡潔でわかりやすく、ITジャーナリスト・記者として群を抜いている。他のライターさんも氏を見習ってほしい。煽りコタツ記事ばかりの世の中で貴重な存在",
-          "tags": [],
-          "timestamp": "2026/10/17 23:19"
-        },
-        {
-          "user": "suka6411144",
-          "comment": "今回の件を受けてハッシュ化にしようってならないのがやばすぎる",
-          "tags": [],
-          "timestamp": "2026/10/17 23:18"
-        },
-        {
-          "user": "delphinus35",
-          "comment": "全然、全く、理由になっていない。復号できる状態でパスワードを保存するのは根本的に設計がおかしい。素人レベルの誤りではないか。",
-          "tags": [],
-          "timestamp": "2026/10/17 23:12"
+          "timestamp": "2026/10/18 00:45"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:44.095002+00:00"
-    },
-    {
-      "id": "h_790aa81a",
-      "title": "漢字の上にふりがなを表示する日本語フォント「Furifont」オープンライセンスで公開 | gihyo.jp",
-      "url": "https://gihyo.jp/article/2026/10/furifont",
-      "domain": "gihyo.jp",
-      "bookmarkCount": 126,
-      "summary": "OSS開発者のAnthony Fu氏は2026年10月15日、漢字の上にふりがな（かな文字またはローマ字）を表示するフォント「Furifont」を製作、オープンなライセンス[1]で公開した。日本語学習などに役立てたいとしている。 Furifont⁠：ふりがなを表示するフォント https://furifont.antfu.me/ Hey Japanese learners! I built a fo...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gihyo.jp/article/2026/10/furifont",
-      "comments": [
-        {
-          "user": "scavenger-folk99",
-          "comment": "エロテキストが捗るな。膣内(なか)とかね。",
-          "tags": [],
-          "timestamp": "2026/10/18 00:18"
-        },
-        {
-          "user": "trailhead_l",
-          "comment": "“事故”る奴は…“不運(ハードラック)”と”踊(ダンス)”っちまったんだよ…",
-          "tags": [],
-          "timestamp": "2026/10/17 22:26"
-        },
-        {
-          "user": "nori__3",
-          "comment": "好敵手(とも)は出せますか？",
-          "tags": [],
-          "timestamp": "2026/10/17 21:47"
-        },
-        {
-          "user": "irimodi",
-          "comment": "ひたすらめんどくさいが、デザインセンスがない技術者が作れるフォントだな",
-          "tags": [],
-          "timestamp": "2026/10/17 20:23"
-        },
-        {
-          "user": "neko_8_8kun",
-          "comment": "ルビ財団が無料で配布してるルビフルボタンも宜しくね！ウェブサイトに簡単にルビをつけられるよ！https://rubizaidan.jp/rubyful-button/",
-          "tags": [],
-          "timestamp": "2026/10/17 20:14"
-        },
-        {
-          "user": "takanagi1225",
-          "comment": "えーすごい。普通にバランスも美しいし。",
-          "tags": [],
-          "timestamp": "2026/10/17 19:59"
-        }
-      ],
-      "fetchedAt": "2026-10-17T15:20:46.353736+00:00"
+      "fetchedAt": "2026-10-17T20:24:21.930734+00:00"
     },
     {
       "id": "h_d8ad9144",
       "title": "亡くなった声優の声、AIでの再現は原則禁止 日俳連が新指針",
       "url": "https://japan.cnet.com/article/35253656/",
       "domain": "japan.cnet.com",
-      "bookmarkCount": 102,
+      "bookmarkCount": 147,
       "summary": "日俳連には約2600人の俳優・声優が加盟する。今回の「音声に関する生成AI利用ガイドライン」は、制作会社やAI開発企業などに順守を呼びかける自主基準だ。日俳連によると、日本には個人の声そのものを包括的に保護する法律がなく、AIによる無断学習や音声生成への対応が課題になっている。 同意や契約の有効期間は原則最...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253656/",
       "comments": [
         {
-          "user": "wakuwakuojisan",
-          "comment": "声のパターンなんて1000種類もなさそうだし、声優が1000人くらい死んだ時点でもう自然な合成音声はほぼ不可能になるんだけどそれはいいの？",
+          "user": "taguch1",
+          "comment": "ここ何十年で証明写真以外の自分の写真は2,3枚を人に取られたくらい、もちろん動画や音声もない。声優でも俳優でもないけど死んだ後に何かされるのは死ぬよりも苦痛なので残らない様にしてる",
           "tags": [],
-          "timestamp": "2026/10/18 00:02"
+          "timestamp": "2026/10/18 05:15"
         },
         {
-          "user": "y_as",
-          "comment": "お安いモノマネ芸人に小銭を握らせて大物(風)のAI音声を作るという脱法行為はどうだろうか？",
+          "user": "slkby",
+          "comment": "残念でもないし当然",
           "tags": [],
-          "timestamp": "2026/10/17 23:59"
+          "timestamp": "2026/10/18 04:56"
         },
         {
-          "user": "uehaj",
-          "comment": "故人の再現が禁止されたら起きることは、最初からAI声優を選ぶことだよな。",
+          "user": "hazardprofile",
+          "comment": "なんでって侵害がないなら基本自由なはず　大河ドラマのモデルや死んだ俳優の権利は？　無理やり「遺族の保護」で残したのが著作権の保護期間　遺族の情路線でなければ新しい死者の権利を作る事になると思うけど",
           "tags": [],
-          "timestamp": "2026/10/17 23:55"
+          "timestamp": "2026/10/18 04:42"
         },
         {
-          "user": "naggg",
-          "comment": "正しい権利主張だと思うし、声の演技を先導しているのは声優さんたち。だけど、もしも仮にAI声優が幅をきかせる時代が来たとして、彼らの費用がコスパ良い時に、どうなるんだろ？",
-          "tags": [
-            "AI",
-            "人権",
-            "司法"
-          ],
-          "timestamp": "2026/10/17 23:51"
-        },
-        {
-          "user": "oyamissa",
-          "comment": "創作物とかスキルとかを使い放題の学習素材と考えてるほうがよっぽど893的な考えだよ",
+          "user": "Unite",
+          "comment": "感情的に一番受け入れられやすそうな故人の声を表題にしてるだけで単なる労働保護要求だわな　SAG AFTRAでも目指してるんだろう　あれはあれで大分紛糾してるが",
           "tags": [],
-          "timestamp": "2026/10/17 23:46"
+          "timestamp": "2026/10/18 04:38"
         },
         {
-          "user": "good2nd",
-          "comment": "同意してない故人の声を勝手に使うのは尊厳を踏みにじる行為だろう。技術無罪の人たちはまたぞろ「お気持ち」とか言って見下しそうだが、法は後からでもいま意思表示をする意味はある。やりたきゃ自分の声でやれよ。",
-          "tags": [
-            "人工知能",
-            "人権",
-            "社会"
-          ],
-          "timestamp": "2026/10/17 23:25"
+          "user": "Tomosugi",
+          "comment": "ガイドラインの発表に権限は必要ありません。法律の叩き台くらいに考えてもらえれば",
+          "tags": [],
+          "timestamp": "2026/10/18 04:30"
+        },
+        {
+          "user": "okaz931",
+          "comment": "難しい問題、津田健次郎くらい有名なら、パクられたって言ってもみんながそうだよなって思うけど、無名の俳優は？たまたま同じような声の全く売れてない声優は？",
+          "tags": [],
+          "timestamp": "2026/10/18 04:08"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:44.701339+00:00"
+      "fetchedAt": "2026-10-17T20:24:22.379480+00:00"
+    },
+    {
+      "id": "h_c71876af",
+      "title": "GitHub - google-research/harness2",
+      "url": "https://github.com/google-research/harness2",
+      "domain": "github.com",
+      "bookmarkCount": 95,
+      "summary": "A harness is the system around a model that enables it to act as an agent: prompts, tools, memory, skills, orchestration, and more. Harnessing is the process of optimizing that system. Harness² is a plug-and-play framework for recursive age",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/google-research/harness2",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "エージェントのプロンプトやツール連携を自動改善する仕組みか、プロンプト芸人がますます不要になっていくな",
+          "tags": [],
+          "timestamp": "2026/10/17 18:08"
+        },
+        {
+          "user": "misshiki",
+          "comment": "Google ResearchのHarness²は、モデルを再学習せずプロンプトやツールを反復改善。実行結果から知見を蓄積し、次のタスクにも活用する。LABの部分合格率が最大11.8ポイント向上と報告。OpenCode・Codexに対応。",
+          "tags": [
+            "Google",
+            "人工知能",
+            "プログラミング"
+          ],
+          "timestamp": "2026/10/16 17:41"
+        }
+      ],
+      "fetchedAt": "2026-10-17T20:24:22.650875+00:00"
+    },
+    {
+      "id": "h_fad4df2e",
+      "title": "E2E テストのフィードバックループを小さくするためのプラクティス | フューチャー技術ブログ",
+      "url": "https://future-architect.github.io/articles/20261016a/",
+      "domain": "future-architect.github.io",
+      "bookmarkCount": 85,
+      "summary": "はじめに従来より E2E テストはテストピラミッドの頂点に置かれ、テストケース数は必要最低限にする（ユニットテストやインテグレーションテストよりも少なくする）というのがセオリーでした。しかしながら昨今、コーディングエージェントの進化により、これまでのユニットテスト中心のテスト戦略から E2E テスト中心の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261016a/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "ローカルでここまで環境再現して回せるの強いけど維持管理で力尽きそう",
+          "tags": [],
+          "timestamp": "2026/10/17 16:11"
+        }
+      ],
+      "fetchedAt": "2026-10-17T20:24:24.579954+00:00"
     },
     {
       "id": "h_0a2a6ac4",
       "title": "中国製車両、ノルウェー軍の機密情報を記録 訓練中に発覚",
       "url": "https://www.afpbb.com/articles/-/3658078",
       "domain": "afpbb.com",
-      "bookmarkCount": 73,
+      "bookmarkCount": 83,
       "summary": "この写真にはショッキングな表現、または18歳以上の年齢制限の対象となる内容が含まれます。 ご覧になる場合にはご了承の上、クリックしてください。 【10月17日 AFP】ノルウェー軍の訓練中、中国製車両の車載カメラが軍事施設への入場コードや関係者の出入りなど、機密性の高い情報を記録していたことが分かり、コネク...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3658078",
       "comments": [
+        {
+          "user": "ookitasaburou",
+          "comment": "“今回の事例は、欧州各国の軍がスパイ活動やハイブリッド攻撃への対策を強化する一方、使用する車両を通じて機密情報を収集される可能性があるという矛盾を浮き彫りにしている。”",
+          "tags": [],
+          "timestamp": "2026/10/18 03:29"
+        },
         {
           "user": "camellow",
           "comment": "\"軍は中国製車両の全面的な禁止について、期待される安全保障上のメリットに比べてデメリットが大きすぎると判断した\" 欧州製や日本製への置き換えを検討するほど大した情報は取られてないってこと？",
@@ -277,71 +189,35 @@
           "comment": "さす中",
           "tags": [],
           "timestamp": "2026/10/17 20:45"
-        },
-        {
-          "user": "Vudda",
-          "comment": "軍の訓練中にレンタカーで中国車借りてそのまま基地まで行くというシチュエーションがわからんのだがヨーロッパってそんなもんなの？",
-          "tags": [],
-          "timestamp": "2026/10/17 20:25"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:45.565379+00:00"
-    },
-    {
-      "id": "h_fad4df2e",
-      "title": "E2E テストのフィードバックループを小さくするためのプラクティス | フューチャー技術ブログ",
-      "url": "https://future-architect.github.io/articles/20261016a/",
-      "domain": "future-architect.github.io",
-      "bookmarkCount": 69,
-      "summary": "はじめに従来より E2E テストはテストピラミッドの頂点に置かれ、テストケース数は必要最低限にする（ユニットテストやインテグレーションテストよりも少なくする）というのがセオリーでした。しかしながら昨今、コーディングエージェントの進化により、これまでのユニットテスト中心のテスト戦略から E2E テスト中心の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/future-architect.github.io/articles/20261016a/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "ローカルでここまで環境再現して回せるの強いけど維持管理で力尽きそう",
-          "tags": [],
-          "timestamp": "2026/10/17 16:11"
-        }
-      ],
-      "fetchedAt": "2026-10-17T15:20:45.785016+00:00"
-    },
-    {
-      "id": "h_c71876af",
-      "title": "GitHub - google-research/harness2",
-      "url": "https://github.com/google-research/harness2",
-      "domain": "github.com",
-      "bookmarkCount": 62,
-      "summary": "A harness is the system around a model that enables it to act as an agent: prompts, tools, memory, skills, orchestration, and more. Harnessing is the process of optimizing that system. Harness² is a plug-and-play framework for recursive age",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/google-research/harness2",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "エージェントのプロンプトやツール連携を自動改善する仕組みか、プロンプト芸人がますます不要になっていくな",
-          "tags": [],
-          "timestamp": "2026/10/17 18:08"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Google ResearchのHarness²は、モデルを再学習せずプロンプトやツールを反復改善。実行結果から知見を蓄積し、次のタスクにも活用する。LABの部分合格率が最大11.8ポイント向上と報告。OpenCode・Codexに対応。",
-          "tags": [
-            "Google",
-            "人工知能",
-            "プログラミング"
-          ],
-          "timestamp": "2026/10/16 17:41"
-        }
-      ],
-      "fetchedAt": "2026-10-17T15:20:44.932055+00:00"
+      "fetchedAt": "2026-10-17T20:24:24.291409+00:00"
     },
     {
       "id": "h_535a6e85",
       "title": "AI駆動PMの組織でのはじめかた｜すぅ | AI駆動PM",
       "url": "https://note.com/suh_sunaneko/n/n23ed6981ff6a",
       "domain": "note.com",
-      "bookmarkCount": 44,
+      "bookmarkCount": 66,
       "summary": "「プロジェクトでAIを使っていきたい」という相談を、ここ1年で何度も受けてきました。自分が担当しているプロジェクトでもやってきました。 分かったのは、だいたい同じ場所で止まるということです。理由もほぼ同じで、最初からメンバー全員に使わせようとしているから。 今回は、1つのプロジェクトでAIを使い始めると...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/suh_sunaneko/n/n23ed6981ff6a",
       "comments": [
+        {
+          "user": "ledsun",
+          "comment": "AIを上手く使えない人、実はLLMの特性を把握できてない。何を渡すと良いか自力で考え出せない。AIツールの使い方の前に、ここを乗り切る。レクチャーに合計8時間は要る。",
+          "tags": [],
+          "timestamp": "2026/10/18 03:07"
+        },
+        {
+          "user": "isrc",
+          "comment": "プロジェクトがうまく進むことが目的／メンバーの中から1人を選ぶ。AIに詳しい人ではなく、業務を分かっている人を選ぶ／その人の邪魔になるものを、経営者や管理職が片づける／他のメンバーには、何も覚えさせない",
+          "tags": [
+            "マネジメント",
+            "人工知能",
+            "機械学習"
+          ],
+          "timestamp": "2026/10/18 00:53"
+        },
         {
           "user": "kiririmode",
           "comment": "AI導入は全員へのツール配布や研修ではなく業務を熟知した1人に集中投資、その人を起点変えるという話。 管理職が業務削減、ツールへのアクセス、抵抗の排除を担う。1人のAI活用によって全員の働き方を変える",
@@ -364,14 +240,14 @@
           "timestamp": "2026/10/17 21:38"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:45.185610+00:00"
+      "fetchedAt": "2026-10-17T20:24:22.971951+00:00"
     },
     {
       "id": "h_7cbad50b",
       "title": "すべてのAIコーディングエージェントのコストを閲覧・検索・追跡しローカルで動作する「AgentsView」、Claude Code・Codex・Cursor・Copilot・Geminiなど60種類以上のエージェントを自動検出し全文検索も可能",
       "url": "https://gigazine.net/news/20261017-agentsview/",
       "domain": "gigazine.net",
-      "bookmarkCount": 34,
+      "bookmarkCount": 53,
       "summary": "Claude CodeやCodexなどを並行して利用すると、どのAIコーディングエージェントやモデルへどれだけトークンを使ったのか全体像を把握しにくくなります。そこで使えるのが複数のエージェントのローカル履歴を自動収集し、モデル別・日別・セッション別の利用量やAPI料金換算のコストをまとめて確認できる「AgentsView」で...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261017-agentsview/",
       "comments": [
@@ -403,25 +279,85 @@
           "timestamp": "2026/10/17 19:39"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:46.037362+00:00"
+      "fetchedAt": "2026-10-17T20:24:23.222235+00:00"
     },
     {
       "id": "h_af707783",
       "title": "人による工数見積もりをやめて、AIに任せることにした - TANP Blog",
       "url": "https://www.tanp-blog.com/entry/2026/10/15/110018",
       "domain": "tanp-blog.com",
-      "bookmarkCount": 17,
+      "bookmarkCount": 40,
       "summary": "こんにちは、エンジニアの安達です。 これまでのタンプでは、新しい施策を検討するとき、事業部がやりたいことを整理し、それをもとにエンジニアがヒアリングを行い、開発チーム全員で工数を見積もっていました。 現在はこのプロセスを大きく変更し、事業部が要求定義を書き、AIがコードベースを確認しながら内容をレビ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.tanp-blog.com/entry/2026/10/15/110018",
       "comments": [],
-      "fetchedAt": "2026-10-17T15:20:46.532178+00:00"
+      "fetchedAt": "2026-10-17T20:24:23.884013+00:00"
+    },
+    {
+      "id": "h_4a97d6e1",
+      "title": "NVIDIAが画像・動画・文章をまとめて理解するオープンウェイトAI「Nemotron 3.5 Super VL」を公開、処理コストを40分の1に削減する事例も",
+      "url": "https://gigazine.net/news/20261016-nemotron-3-5-super-vl/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 19,
+      "summary": "NVIDIAが2026年10月15日に文章や画像、動画をまとめて理解できるオープンウェイトAIモデル「NVIDIA Nemotron 3.5 Super VL」を公開しました。複数の情報を組み合わせて作業を進めるAIエージェント向けのモデルで、同規模のオープンモデルと比較して最大5倍の処理能力を発揮するとのこと。企業の業務に合わせて調整したモ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-nemotron-3-5-super-vl/",
+      "comments": [
+        {
+          "user": "naozane2",
+          "comment": "中国のオープンウェイト攻勢が失速してもNVIDIAが作るか。",
+          "tags": [],
+          "timestamp": "2026/10/17 20:46"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "NVIDIAのオープンウェイト攻勢えぐいな。MoEで推論軽くして企業囲い込む気配がプンプンするぜ",
+          "tags": [],
+          "timestamp": "2026/10/17 15:41"
+        }
+      ],
+      "fetchedAt": "2026-10-17T20:24:25.471285+00:00"
+    },
+    {
+      "id": "h_072f94de",
+      "title": "OpenAIの暴走AI、政府サイトの病床データ24年分を無断取得 他人の仮想通貨で支払い、新たに4件（平和博） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471",
+      "domain": "news.yahoo.co.jp",
+      "bookmarkCount": 15,
+      "summary": "暴走AIエージェントが、政府サイトのアクセス制限を回避して24年分の病床データを無断で取得し、別の事例では他人の仮想通貨ウォレットから勝手に手数料を支払っていた――。 オープンAIは10月15日、新たに4件のAI暴走事例を公表した。いずれも6月に発生し、うち2件は「重大」とされた。 同じ15日にはインド政府も、複数の...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/5e8495cadb5412ac2ca85a7253509eadf5360471",
+      "comments": [
+        {
+          "user": "kyoai",
+          "comment": "思想なきテロ組織、もとい、ただの愉快犯。実害出てるので組織に対する処罰が必要なんでは。",
+          "tags": [],
+          "timestamp": "2026/10/18 05:18"
+        },
+        {
+          "user": "s-supporter",
+          "comment": "ここまで来ると暴走はただの言い訳で、むしろAIの危険性と技術力を世間と市場に誇示してプロモーションとすることで人々を脅迫している、我々はないがしろには出来ない存在だぞとアピールしているとも感じる。",
+          "tags": [],
+          "timestamp": "2026/10/17 22:56"
+        },
+        {
+          "user": "gcyn",
+          "comment": "読みました。",
+          "tags": [],
+          "timestamp": "2026/10/17 22:23"
+        },
+        {
+          "user": "osugi3y",
+          "comment": "うーむ。",
+          "tags": [],
+          "timestamp": "2026/10/17 20:04"
+        }
+      ],
+      "fetchedAt": "2026-10-17T20:24:25.196030+00:00"
     },
     {
       "id": "h_7cd8f6a2",
       "title": "無料オープンソースオフィススイート「ibisOffice」をibisPaint開発元がリリース、ブラウザまたはWindows・Mac版アプリでWord・Excel・PowerPointファイルの閲覧と編集が可能",
       "url": "https://gigazine.net/news/20261017-ibisOffice/",
       "domain": "gigazine.net",
-      "bookmarkCount": 4,
+      "bookmarkCount": 14,
       "summary": "基本無料のイラスト制作アプリ「アイビスペイント(ibisPaint)」で知られるibisWorksが、Microsoft Officeファイル形式を編集できる無料オープンソースオフィススイート「ibisOffice」をリリースしました。 ibisOffice プレイグラウンド — Word・Excel・PowerPoint をブラウザで開く https://ibisjp.github.io/ibis-offic...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261017-ibisOffice/",
       "comments": [
@@ -432,8 +368,26 @@
           "timestamp": "2026/10/17 23:52"
         }
       ],
-      "fetchedAt": "2026-10-17T15:20:47.352981+00:00"
+      "fetchedAt": "2026-10-17T20:24:24.833146+00:00"
+    },
+    {
+      "id": "h_a8f49ffc",
+      "title": "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2149045.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 9,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2149045.html",
+      "comments": [
+        {
+          "user": "shaokuz",
+          "comment": "512GB積んだMacStudioほしくなっちゃうね",
+          "tags": [],
+          "timestamp": "2026/10/18 03:03"
+        }
+      ],
+      "fetchedAt": "2026-10-17T20:24:23.448001+00:00"
     }
   ],
-  "lastCollection": "2026-10-17T15:20:47.353008+00:00"
+  "lastCollection": "2026-10-17T20:24:25.471310+00:00"
 }
