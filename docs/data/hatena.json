@@ -5,10 +5,38 @@
       "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
       "url": "https://note.com/npaka/n/ndb4b0f424ced",
       "domain": "note.com",
-      "bookmarkCount": 379,
+      "bookmarkCount": 460,
       "summary": "1. はじめに2026年10月、Anthropicは「How the Claude Code team does code review」という技術記事を公開しました。 この記事では、AIによるコード生成が急増する中、Anthropicがどのようにコードレビューを自動化し、品質と開発速度を両立しているのかを紹介しています。 Anthropicでは、Claude Code自身のコードの約9...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/ndb4b0f424ced",
       "comments": [
+        {
+          "user": "satoshi_hiraishi",
+          "comment": "コードレビュー",
+          "tags": [
+            "AI",
+            "Claude",
+            "開発"
+          ],
+          "timestamp": "2026/10/18 23:19"
+        },
+        {
+          "user": "shoh8",
+          "comment": "根幹はCI/CDの整備なんだと思う。人間のレビュも再設計もリリースフローの一部として考える",
+          "tags": [
+            "Claude",
+            "AI",
+            "開発"
+          ],
+          "timestamp": "2026/10/18 21:11"
+        },
+        {
+          "user": "peppers_white",
+          "comment": "これに忠実なデバッグをデバッグ機能実装と一緒に手渡されてやらされたのでclaude製モデルの基本スキルに入ってる模様",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/10/18 20:21"
+        },
         {
           "user": "anonie",
           "comment": "蓄積された秘伝のタレ的知識とプロンプトに関しては当然として、多層防御的なレビューと差し戻しによる修正の自動サイクルを回せる資本力がハードルの高い絶対条件だよね。ローカルLLM環境があれば出来そうだけど…",
@@ -26,184 +54,73 @@
           "comment": "キモはフラグとカナリアだろう。要は多少の間違いは折り込み済み。無課金ユーザでデバッグしてからエンプラにリリースとかやってんだろどうせ。AIどうのこうのはこの場合本質ではない。",
           "tags": [],
           "timestamp": "2026/10/18 19:16"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Claude Codeの約90%をAIが書くAnthropicのレビュー術。AIの多層レビュー、CI、リスク別の人間承認、段階的リリースと迅速な差し戻しを組み合わせる。6～9月に統合PR数は2倍超、差し戻し率は40%以上低下。",
-          "tags": [
-            "Claude Code"
-          ],
-          "timestamp": "2026/10/18 17:42"
-        },
-        {
-          "user": "doiman3d",
-          "comment": "あとで読む",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/18 16:59"
-        },
-        {
-          "user": "PerolineLuv",
-          "comment": "いつも不思議なのは、英文の翻訳概要みたいなページに数百のブクマが付くこと。ブコメ民はAI活用した情報収集や翻訳する能力が無い人が多いのか？",
-          "tags": [],
-          "timestamp": "2026/10/18 15:37"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:51.891942+00:00"
+      "fetchedAt": "2026-10-18T15:41:59.207804+00:00"
     },
     {
       "id": "h_a9b35b9b",
       "title": "スマホの「充電80％止めで長持ち」「挿しっぱなし充電NG」は本当？ 実験で見えた意外な結果",
       "url": "https://www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 292,
+      "bookmarkCount": 425,
       "summary": "急速充電は使わない。満充電のまま朝まで挿しっぱなしにしない。充電は80％で止める。バッテリーを長持ちさせるために、どれか1つは守っている人が多いはずだ。現行のスマートフォンでは、80％で充電を止める設定を用意している機種が多い。この設定は、スマートフォンのバッテリーを長く使う上で有効だとされている。 ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
       "comments": [
         {
-          "user": "poko_pen",
-          "comment": "バッテリー交換を切望する人達いつもいるけど、バッテリー交換出来ていた過去に粗末なバッテリーが多数出て問題になってたのもう忘れたのかな。純正バッテリー高いから同じ問題起こるのは目に見えているのにさ",
+          "user": "deep_one",
+          "comment": "どっちやねん、という感じ。とりあえず高温はよくない。",
           "tags": [],
-          "timestamp": "2026/10/18 19:40"
+          "timestamp": "2026/10/19 00:01"
         },
         {
-          "user": "tachibanagaku",
-          "comment": "スマホもそうだけどバッテリーの充電は触れて熱くならなければ気にしてない。",
-          "tags": [],
-          "timestamp": "2026/10/18 19:14"
-        },
-        {
-          "user": "netafull",
-          "comment": "“1日に80％以上使う人や、地震や停電に備えて常に残量を多く持っておきたい人は、100％充電のままで問題ない。”",
-          "tags": [],
-          "timestamp": "2026/10/18 19:00"
-        },
-        {
-          "user": "gewaa",
-          "comment": "「普段は80%で十分だけどたまに遠出の日は100%まで充電したい」みたいな需要もある。だから任意設定できるのがベスト。「80%に制限したら最初から劣化してるのと同じ」や「自動で調節される」などは賢いバカの意見。",
-          "tags": [],
-          "timestamp": "2026/10/18 18:59"
-        },
-        {
-          "user": "doroyamada",
-          "comment": "うちのAQUOS Phoneは90％なんだが。",
-          "tags": [],
-          "timestamp": "2026/10/18 18:51"
-        },
-        {
-          "user": "orgue",
-          "comment": "accuBatteryというアプリが20→80%の充電で0.1サイクル劣化とか、凄い劣化抑えれるような表示するしAIにそのこと聞くと肯定するので80%未満で抑えており、実際古くなってもヘタリを感じたことはない。他の部分が先に壊れる。",
-          "tags": [],
-          "timestamp": "2026/10/18 18:44"
-        }
-      ],
-      "fetchedAt": "2026-10-18T10:45:51.437894+00:00"
-    },
-    {
-      "id": "h_69f3529f",
-      "title": "Windows11アップデート: 右クリックメニューを高速化する方法 #Windows - いおりのパソコン技術メモ",
-      "url": "https://iori016.hatenablog.com/entry/2025/11/02/110654",
-      "domain": "iori016.hatenablog.com",
-      "bookmarkCount": 284,
-      "summary": "画像の右クリックメニューを高速化 Windows10のサポート期限が切れた為、Windows11にアップデートした人たちが増えていると思いますが、Windows11にして最初に困るのが、Explorerの右クリックメニューの問題です。これをWindows10ライクにする設定は割とよく知られていますが、それでも右クリックメニューの表示が遅いと...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/iori016.hatenablog.com/entry/2025/11/02/110654",
-      "comments": [
-        {
-          "user": "wiz7",
-          "comment": "開いた後にクリックしようとしたらタタタン！って増えてって別の場所に当たるの直そう／回避方法はあるんね",
-          "tags": [],
-          "timestamp": "2026/10/18 19:24"
-        },
-        {
-          "user": "mouki0911",
-          "comment": "レジストリ変更を注意なしで勧めるのはあんまり良くない。",
-          "tags": [],
-          "timestamp": "2026/10/18 17:26"
-        },
-        {
-          "user": "kobito19",
-          "comment": "切り取り、コピーをコンテキストメニューからやろうと思ったことがない",
-          "tags": [],
-          "timestamp": "2026/10/18 17:13"
-        },
-        {
-          "user": "securecat",
-          "comment": "そもそもエクスプローラーがクソすぎるので、秀丸ファイラーClassicです",
-          "tags": [],
-          "timestamp": "2026/10/18 16:48"
-        },
-        {
-          "user": "FlowerLounge",
-          "comment": "あのコンテキストメニューとUSB Aコネクタ形状を考えたヤツは世界中でどんだけ無駄な時間が費やされたか考えてほしい",
-          "tags": [],
-          "timestamp": "2026/10/18 16:05"
-        },
-        {
-          "user": "neco22b",
-          "comment": "そもそもExplorer自体が重すぎ。会社のしょぼいPCだとファイル名変更するだけでも重い。（セキュリティソフトの影響もあるかも？）ファイルマネージャーを復活して欲しいぐらい。個人用PCでは問題ないが。",
-          "tags": [],
-          "timestamp": "2026/10/18 14:58"
-        }
-      ],
-      "fetchedAt": "2026-10-18T10:45:52.374198+00:00"
-    },
-    {
-      "id": "h_4110da41",
-      "title": "Void を触ってみた。もう全部これでよくね？ | ashunar0",
-      "url": "https://ashunar0.dev/posts/try-void/",
-      "domain": "ashunar0.dev",
-      "bookmarkCount": 140,
-      "summary": "はじめに ついに、ついに Void が出ました！！（大歓喜） 発表されてからずっと待っていたので、出たと知ってすぐに触ってみました。 待っていたのは、Void が TS 版の Rails みたいになってくれるんじゃないか、という期待があったからです。自分でもアプリの書き方の規約を作ろうとしていたので、その一部を Void がフ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/try-void/",
-      "comments": [
-        {
-          "user": "misshiki",
-          "comment": "Vite製アプリの開発からデプロイまで支援するVoidの試用記。ファイルベースのルーティング、API増加時の型チェックの軽さ、画面側のデータ管理の簡素化、AI向けドキュメント同梱を評価。",
+          "user": "fieldragon",
+          "comment": "フル充電しなくとも十分に1日分は足りるので、最大80%で使っている",
           "tags": [
-            "プログラミング"
+            "battery",
+            "mobile",
+            "gadget",
+            "hardware"
           ],
-          "timestamp": "2026/10/18 17:39"
+          "timestamp": "2026/10/18 23:19"
         },
         {
-          "user": "aktkro",
-          "comment": "ファイルベースルーティングのことをAppRouterの書き味って言ってるのか",
-          "tags": [],
-          "timestamp": "2026/10/18 16:17"
+          "user": "Rikerike",
+          "comment": "“夏の車内や充電しながらのゲームのように、熱を伴う満充電の放置”やっぱ熱が大敵",
+          "tags": [
+            "mobile",
+            "iphone",
+            "モバイル"
+          ],
+          "timestamp": "2026/10/18 22:43"
         },
         {
-          "user": "suka6411144",
-          "comment": "int main(void)",
+          "user": "nakab",
+          "comment": "2つ前に使っていたスマホは3年経つと電池の減りが早くなったが、1つ前のスマホはエントリーモデルだったにも関わらず、3年経っても電池に問題はなかった。",
           "tags": [],
-          "timestamp": "2026/10/18 16:01"
+          "timestamp": "2026/10/18 22:36"
         },
         {
-          "user": "uehaj",
-          "comment": "AIに最適化したフレームワーク、OSSでも出てきましたか。ローレン・タンがxAI社内でクローズドに開発している「Electron用のNext.jsのようなもの」と言ってたDuneもこんな感じかな。不整合が原理的に起きないルーティング",
+          "user": "iphone",
+          "comment": "メインスマホは95%固定、2年使い切りなのであまり気にしない。サブスマホとほぼ繋ぎっぱのノートPCは80%固定。昔と比べて持ちが良くなり、モバイルバッテリの出番も減った。おもちゃが実用品になってしまったよなぁ。",
           "tags": [],
-          "timestamp": "2026/10/18 15:51"
+          "timestamp": "2026/10/18 22:32"
         },
         {
-          "user": "gasguzzler",
-          "comment": "ネットニュース？",
+          "user": "j1nsuke",
+          "comment": "AI文体でもこんだけビュー回るんだから使わない理由ない",
           "tags": [],
-          "timestamp": "2026/10/18 14:28"
-        },
-        {
-          "user": "colonoe",
-          "comment": "どんなものかは知らないが、紛らわしい名前をつけるな",
-          "tags": [],
-          "timestamp": "2026/10/18 13:45"
+          "timestamp": "2026/10/18 22:28"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:53.643005+00:00"
+      "fetchedAt": "2026-10-18T15:41:55.629035+00:00"
     },
     {
       "id": "h_26f65efe",
       "title": "知らない分野を学ぶ技術 powered by AI - ぷりんの雑記帳",
       "url": "https://smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
       "domain": "smooth-pudding.hatenablog.com",
-      "bookmarkCount": 99,
+      "bookmarkCount": 144,
       "summary": "Open AI が証明したと主張している、Navier-Stokes 方程式の爆発解の構成の書籍を発売しました。 smooth-pudding.hatenablog.com それに関連して、この書籍の活用方法や、AI を使って学びを広げることについて以下の記事で話しました。 smooth-pudding.hatenablog.com 今回はより具体的に、自分がまだ知らない分野につい...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
       "comments": [
@@ -220,144 +137,98 @@
           "timestamp": "2026/10/18 13:38"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:52.756008+00:00"
-    },
-    {
-      "id": "h_fe0e9cf6",
-      "title": "会社の若い子が「ﾙｰﾓｽ…」って呟いたら、スマホのライトがピカァ！ってなったんで俺が🫨⁉️ってなってたら、「魔法…使えるんですよ…」って言われた",
-      "url": "https://togetter.com/li/2759573",
-      "domain": "togetter.com",
-      "bookmarkCount": 81,
-      "summary": "カツオ武士 @katsuobushi0205 会社の若い子が「ﾙｰﾓｽ…」って呟いたら、スマホのライトがピカァ！ってなったんで俺が🫨⁉️ってなってたら、ニチャアって顔して「魔法…使えるんですよ…」って言われたから俺は「べっ💦別にカッコいいとか思ってねーし💦」って強がったけど１人になった時ﾙｰﾓｽ…って自分のスマホで試した…↓ 2026-1...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759573",
-      "comments": [
-        {
-          "user": "retore",
-          "comment": "納豆のタレの袋を切ろうとしているワイ「セクタムセンプラ」",
-          "tags": [],
-          "timestamp": "2026/10/18 19:03"
-        },
-        {
-          "user": "togetter",
-          "comment": "パカパカの携帯から四半世紀でこんなことまでできるようになるんだね〜。",
-          "tags": [
-            "Togetter"
-          ],
-          "timestamp": "2026/10/18 18:32"
-        },
-        {
-          "user": "tk_musik",
-          "comment": "Androidもできるけども",
-          "tags": [],
-          "timestamp": "2026/10/18 17:32"
-        },
-        {
-          "user": "topiyama",
-          "comment": "こういうのって詠唱無しで発動させる方が強そうだけどな",
-          "tags": [],
-          "timestamp": "2026/10/18 17:25"
-        },
-        {
-          "user": "aramaaaa",
-          "comment": "サーモスと唱えると、お湯が冷めない",
-          "tags": [],
-          "timestamp": "2026/10/18 17:24"
-        },
-        {
-          "user": "akagiharu",
-          "comment": "クルーシオクルーシオ・・",
-          "tags": [],
-          "timestamp": "2026/10/18 16:55"
-        }
-      ],
-      "fetchedAt": "2026-10-18T10:45:55.641415+00:00"
-    },
-    {
-      "id": "h_7b9dc16c",
-      "title": "ナオミ・クラインが暴く「テック億万長者という“中身のない男たち”の正体」 | 彼らの態度が「ころころ変わる」不気味な理由",
-      "url": "https://courrier.jp/news/archives/462520/",
-      "domain": "courrier.jp",
-      "bookmarkCount": 79,
-      "summary": "2024年の米大統領選では、それまで民主党支持だったイーロン・マスクらテック億万長者たちが、トランプ支持へと雪崩を打った。なぜ彼らの態度は180度変わったのか？ ジャーナリストのナオミ・クラインは、気候危機やAIによる失業を冷笑し、富と技術の力で世界を私物化しようとする超富裕層の冷酷な本音を、その新著で暴...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/courrier.jp/news/archives/462520/",
-      "comments": [
-        {
-          "user": "dddcic",
-          "comment": "\"中身\"の話してるやつ100%文系なんだよな",
-          "tags": [],
-          "timestamp": "2026/10/18 18:50"
-        },
-        {
-          "user": "hanninyasu",
-          "comment": "俺ら小市民に中身無くても世界に影響無いけどアメリカ大統領に助言できる人間が中身無くて私利私欲だと世界が滅ぶのよね。大いなる力には大いなる責任が伴うって格言知ってる？",
-          "tags": [],
-          "timestamp": "2026/10/18 18:16"
-        },
-        {
-          "user": "differential",
-          "comment": "ショック・ドクトリンの人だ／中身がないと言うのは酷いけど“彼らは民衆と豊かな地球を分かち合うくらいなら、自分たちだけで荒廃した地獄に君臨することを選ぶ”これはちょっとそんな感じがあり面白い(面白くない)",
-          "tags": [],
-          "timestamp": "2026/10/18 18:09"
-        },
-        {
-          "user": "qpci32siekqd",
-          "comment": "既得権益けしからん、テックで貧困なくそうとか学習機会をとかやってたはずなのに、どうしてこうなった。",
-          "tags": [],
-          "timestamp": "2026/10/18 17:56"
-        },
-        {
-          "user": "neet_modi_ki",
-          "comment": "ここのコメ欄にもテック長者批判を腐すコメントが散見されるが、どこに彼らを擁護したいモチベーションが生まれるのだろうか。シンプルに邪悪な連中だと思うんだけど。ITナードの成功譚みたいなのに惹かれるとか？",
-          "tags": [],
-          "timestamp": "2026/10/18 17:47"
-        },
-        {
-          "user": "theatrical",
-          "comment": "価値みたいなものは実態として存在していふものでなく、個々人の観念でしかないので、どんな人間も人によっては中身のない存在に見えるし、逆にも見える。土台が一定でないものなので批評自体無意味な話だと思う。",
-          "tags": [],
-          "timestamp": "2026/10/18 17:41"
-        }
-      ],
-      "fetchedAt": "2026-10-18T10:45:55.285468+00:00"
+      "fetchedAt": "2026-10-18T15:41:57.507786+00:00"
     },
     {
       "id": "h_bcc15528",
       "title": "example.com が刷新された話 | blog.jxck.io",
       "url": "https://blog.jxck.io/entries/2026-10-17/example.com.html",
       "domain": "blog.jxck.io",
-      "bookmarkCount": 74,
+      "bookmarkCount": 115,
       "summary": "Intro http://example.com が刷新されてしまった。 Example Domain ドキュメントや書籍、スライドやコメントなどに、サンプルとして適当な URL を書くことがあるだろう。 例えば、ネットワークでよく出てくる Alice になぞらえて alice [dot] com などと書くと、そのサイトは実在するため、開けばリクエストが飛ぶ。 bob...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-10-17/example.com.html",
       "comments": [],
-      "fetchedAt": "2026-10-18T10:45:53.098438+00:00"
+      "fetchedAt": "2026-10-18T15:41:57.696892+00:00"
     },
     {
-      "id": "h_0cbe3ba8",
-      "title": "ソフトウェアファクトリーとは何で、何ではないのかを考える｜kagaya",
-      "url": "https://note.com/r_kaga/n/n8a0c789af963",
-      "domain": "note.com",
-      "bookmarkCount": 36,
-      "summary": "ソフトウェアファクトリーの仕組みを作りながら考えていることを、いったんまとめてみます。 私は約1年前に会社を共同創業し、シードスタートアップでAIプロダクトを作っています。 長く運用してきたプロダクトや開発体制がある場合とは、導入の前提も違うと思います。 （コスト感覚や導入推進背景、課題も、フェーズや...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/r_kaga/n/n8a0c789af963",
+      "id": "h_9c1edfce",
+      "title": "iOS 27にしてからiPhoneの充電がもたない…。原因は「あの設定」だった | ライフハッカー・ジャパン",
+      "url": "https://www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
+      "domain": "lifehacker.jp",
+      "bookmarkCount": 96,
+      "summary": "iPhoneをiOS 27にアップデートした人のなかには、もうSiri AIやAppleのAIによる写真編集機能のいくつかを試してみた人もいるのではないでしょうか。 その一方で、別のことに気づいた人もいるかもしれません。 iPhoneのバッテリーのもちが悪くなっている、ということです。このアップデートによってバッテリーの駆動時間...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "コード生成させるより検証ループや評価設計の整備に追われるの、完全にAI時代の新しい泥臭さだな",
+          "user": "iphone",
+          "comment": "そんな明確な理由なら27.1くらいには治ってそう。旧ver.が並行メンテされてる間に新ver.を使うのは人柱志願者である。",
           "tags": [],
-          "timestamp": "2026/10/18 16:40"
+          "timestamp": "2026/10/18 23:38"
+        },
+        {
+          "user": "nilab",
+          "comment": "「丸ごと無効にしたい場合は、Wi-Fi設定ページを開き、「接続アシスト」の隣にあるトグルをオフにします」「iOS 27以前は、「Wi-Fiアシスト」と呼ばれていました。ただし、挙動は少し違っていました」",
+          "tags": [],
+          "timestamp": "2026/10/18 21:50"
+        },
+        {
+          "user": "Shock324",
+          "comment": "接続アシストか",
+          "tags": [],
+          "timestamp": "2026/10/18 21:38"
+        },
+        {
+          "user": "racooon",
+          "comment": "知らんかった、オフにした。アプデのたびに余計なことしなさんな。",
+          "tags": [],
+          "timestamp": "2026/10/18 21:30"
+        },
+        {
+          "user": "L-Tip",
+          "comment": "楽天モバイルから他社に変えたら電池持ち良くなったよ。電波の入りの問題だと思うけど。",
+          "tags": [],
+          "timestamp": "2026/10/18 21:17"
+        },
+        {
+          "user": "fashi",
+          "comment": "アシスト有効になっても速度に改善が見られないんだよな…Wi-Fi届きにくい場所は4G/5Gも繋がりにくい",
+          "tags": [
+            "iphone"
+          ],
+          "timestamp": "2026/10/18 20:32"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:54.584138+00:00"
+      "fetchedAt": "2026-10-18T15:41:56.482359+00:00"
     },
     {
       "id": "h_4e1b32d1",
       "title": "オントロジーとは？意味・ナレッジグラフとの違い・LLMでの効果",
       "url": "https://fd-x.co.jp/insights/41-what-is-ontology",
       "domain": "fd-x.co.jp",
-      "bookmarkCount": 35,
+      "bookmarkCount": 92,
       "summary": "最新世代の​モデルでも、​意味の​層を​通した​ほうが​精度は​明確に​高い。​加えて、​文脈付きメタデータを​与えた​場合は​スキーマのみの​プロンプトに​対しSQL生成精度が​3倍、​522問規模の​別ベンチマークでも​38%の​相対改善が​報告されている。 モデルの進化は意味の層を不要にしていない。​むしろエージェントが​...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/fd-x.co.jp/insights/41-what-is-ontology",
       "comments": [
+        {
+          "user": "bondooroo",
+          "comment": "“OWL”",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/10/18 23:23"
+        },
+        {
+          "user": "kyahi227",
+          "comment": "困り事の無い組織にPalantirが入り込む手段以外の意味が現状で存在してない用語",
+          "tags": [],
+          "timestamp": "2026/10/18 22:20"
+        },
+        {
+          "user": "kazukan",
+          "comment": "セマンティックレイヤーもオントロジーもほぼ同じ意味しかない。そしてPOCつって整備したところでビジネスケース立ててないから投資対効果出ない。AIは人が出来ることしか出来ず、最初のブループリントは人が描く。",
+          "tags": [],
+          "timestamp": "2026/10/18 21:55"
+        },
         {
           "user": "nguyen-oi",
           "comment": "結局オントロジー以前に社内で言葉の定義すら統一できてない日本企業の現場で一番刺さりそうな話だな",
@@ -365,14 +236,104 @@
           "timestamp": "2026/10/18 16:40"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:54.031075+00:00"
+      "fetchedAt": "2026-10-18T15:41:56.792284+00:00"
+    },
+    {
+      "id": "h_7df5c167",
+      "title": "変体仮名一覧表",
+      "url": "https://cid.ninjal.ac.jp/kana/list/",
+      "domain": "cid.ninjal.ac.jp",
+      "bookmarkCount": 83,
+      "summary": "©2022 National Institute for Japanese Language and Linguistics",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cid.ninjal.ac.jp/kana/list/",
+      "comments": [
+        {
+          "user": "chikoshoot",
+          "comment": "絶対に「な」だろってやつと、絶対に「し」だろってやつがいる。",
+          "tags": [],
+          "timestamp": "2026/10/19 00:40"
+        },
+        {
+          "user": "regularexception",
+          "comment": "AIに学習させるのに必要そう",
+          "tags": [],
+          "timestamp": "2026/10/19 00:37"
+        },
+        {
+          "user": "ynxdaz",
+          "comment": "「現代の戸籍や住民基本台帳では変体仮名が使われており、変体仮名文字コードが必要」コード空間は空いてるので割り当てるのはいいけど、フォントをインストールする人はほぼいないので実用性は薄いと思います。",
+          "tags": [],
+          "timestamp": "2026/10/19 00:22"
+        },
+        {
+          "user": "sushisashimisushisashimi",
+          "comment": "ニッチやのー、でも素晴らしい",
+          "tags": [],
+          "timestamp": "2026/10/18 23:53"
+        },
+        {
+          "user": "tacamula",
+          "comment": "字体から検索できるようになったら便利そう。ただ古文書を読む人は支援が必要なら文書全体を変換する気もする。一覧、文字コード表的な使い方のものなのかな",
+          "tags": [],
+          "timestamp": "2026/10/18 23:34"
+        },
+        {
+          "user": "SUGIO",
+          "comment": "や行の「い」「え」が無いなと思ったけど、これだけあってもまだ一部なんだろうな。",
+          "tags": [],
+          "timestamp": "2026/10/18 23:22"
+        }
+      ],
+      "fetchedAt": "2026-10-18T15:41:56.073516+00:00"
+    },
+    {
+      "id": "h_11cf4bfa",
+      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "domain": "zenn.dev",
+      "bookmarkCount": 69,
+      "summary": "はじめに オライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。 自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "comments": [
+        {
+          "user": "tmatsuu",
+          "comment": "「O'Reillyが公式のMCPサーバーを出している」「気になる本を気軽に読めることの費用対効果は思っていたより大きい」",
+          "tags": [],
+          "timestamp": "2026/10/18 22:55"
+        },
+        {
+          "user": "unyamnya",
+          "comment": "ACM経由で契約していたけど、使用頻度とドル建てで割りが合わなくなってしまった",
+          "tags": [],
+          "timestamp": "2026/10/18 22:49"
+        },
+        {
+          "user": "dekasasaki",
+          "comment": "そんなことを考えずに知識にアクセスできる時代が近そうだけどね",
+          "tags": [],
+          "timestamp": "2026/10/18 20:20"
+        },
+        {
+          "user": "vesikukka",
+          "comment": "ACM経由で契約しています。元は取れていると思いたい。",
+          "tags": [],
+          "timestamp": "2026/10/18 19:04"
+        },
+        {
+          "user": "dkfj",
+          "comment": "MCP経由で使えるのはいいなぁ。この辺りが新しい書籍販売の道なのかも",
+          "tags": [],
+          "timestamp": "2026/10/18 18:14"
+        }
+      ],
+      "fetchedAt": "2026-10-18T15:41:57.067574+00:00"
     },
     {
       "id": "h_86dae906",
       "title": "Pele · Mermaid diagrams as themeable SVG",
       "url": "https://pele.run/",
       "domain": "pele.run",
-      "bookmarkCount": 28,
+      "bookmarkCount": 61,
       "summary": "Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables. Write Mermaid syntax, Pele renders it to SVG. Try editing the example below.",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pele.run/",
       "comments": [
@@ -395,32 +356,92 @@
           "timestamp": "2026/10/18 17:05"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:54.955546+00:00"
+      "fetchedAt": "2026-10-18T15:41:58.224061+00:00"
     },
     {
-      "id": "h_11cf4bfa",
-      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
-      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
-      "domain": "zenn.dev",
-      "bookmarkCount": 21,
-      "summary": "はじめに オライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。 自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "id": "h_8a915e78",
+      "title": "日本企業がサーバーに侵入されまくっている現状を鑑み、「絶対無敵を目指すOS」を作ってみた。耐量子暗号HTTPSサーバー専用OS",
+      "url": "https://wirelesswire.jp/2026/10/94793/",
+      "domain": "wirelesswire.jp",
+      "bookmarkCount": 59,
+      "summary": "最近、日本の企業がサイバー攻撃によって大変なことになっている。 2025年9月にはアサヒグループホールディングスがランサムウェア攻撃を受け、受注・出荷業務が停止した。翌10月にはアスクルが同様の攻撃を受け、通販サービスの受注・出荷が停止。サプライチェーン全体に影響が波及する事態となった。挙句、本来、イン...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/10/94793/",
       "comments": [
         {
-          "user": "vesikukka",
-          "comment": "ACM経由で契約しています。元は取れていると思いたい。",
+          "user": "hhungry",
+          "comment": "インターネットにも外部ストレージも繋がらないシステムを使おう",
           "tags": [],
-          "timestamp": "2026/10/18 19:04"
+          "timestamp": "2026/10/18 22:33"
         },
         {
-          "user": "dkfj",
-          "comment": "MCP経由で使えるのはいいなぁ。この辺りが新しい書籍販売の道なのかも",
+          "user": "harumaki_net",
+          "comment": "まずfunctions.phpのエラーを直そう。あと画像切れも。ただページによって出たり出なかったりだな…",
           "tags": [],
-          "timestamp": "2026/10/18 18:14"
+          "timestamp": "2026/10/18 22:02"
+        },
+        {
+          "user": "fuji_haruka",
+          "comment": "安全なOSを作るというのは需要ありそう",
+          "tags": [],
+          "timestamp": "2026/10/18 21:53"
+        },
+        {
+          "user": "versatile",
+          "comment": "もうあきらめよう。これからは侵入される前提でサービスをつくるのだ。",
+          "tags": [],
+          "timestamp": "2026/10/18 21:50"
+        },
+        {
+          "user": "yoiIT",
+          "comment": "WordPressのerror出てて、フフッってなった。",
+          "tags": [],
+          "timestamp": "2026/10/18 20:55"
+        },
+        {
+          "user": "hylom",
+          "comment": "一昔前に「ソースを公開していないから安全、攻撃事例ありません」と主張するHTTPサーバーがあったのだが単に誰も使ってなかったから狙われてなかっただけではないかという話があったのを思い出した",
+          "tags": [],
+          "timestamp": "2026/10/18 20:45"
         }
       ],
-      "fetchedAt": "2026-10-18T10:45:54.309880+00:00"
+      "fetchedAt": "2026-10-18T15:41:59.484851+00:00"
+    },
+    {
+      "id": "h_9839b082",
+      "title": "Void でフルスタックアプリを構築して Cloudflare にデプロイする",
+      "url": "https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
+      "domain": "azukiazusa.dev",
+      "bookmarkCount": 36,
+      "summary": "Void は VoidZero が開発した、Vite でフルスタックアプリを構築して Cloudflare にデプロイするためのツールキットです。void/db などの import から必要なリソースを推論し、void deploy コマンド 1 つでD1 データベースの作成、ビルド、マイグレーション、公開までを行います。この記事では、D1 を使ったメモアプリを...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "importからインフラ推論して自動構成は便利そうだけど挙動のブラックボックス化がちと怖いわ",
+          "tags": [],
+          "timestamp": "2026/10/18 20:15"
+        }
+      ],
+      "fetchedAt": "2026-10-18T15:41:57.969997+00:00"
+    },
+    {
+      "id": "h_842b6a7d",
+      "title": "オンボーディングをAIエージェントに任せたら、もはや別ゲーだった | BLOG - DeNA Engineering",
+      "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+      "domain": "engineering.dena.com",
+      "bookmarkCount": 31,
+      "summary": "メンバーの立ち上げもAI Nativeに チームに人が入るたびに同じ説明を繰り返していませんか？散らばった資料から使えそうなものを探してませんか？重い腰を上げて作成したオンボーディング資料集、もう古くなってませんか？ 本記事では部のオンボーディングをGitHubリポジトリに集約し、Claude Codeを伴走させる仕組みを...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "資料の本文を持たずに導線だけ管理してエージェントに引かせる設計は普通に賢いな",
+          "tags": [],
+          "timestamp": "2026/10/18 20:15"
+        }
+      ],
+      "fetchedAt": "2026-10-18T15:41:58.689322+00:00"
     }
   ],
-  "lastCollection": "2026-10-18T10:45:55.641441+00:00"
+  "lastCollection": "2026-10-18T15:41:59.484877+00:00"
 }
