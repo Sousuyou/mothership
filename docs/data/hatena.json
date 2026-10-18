@@ -5,509 +5,422 @@
       "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
       "url": "https://note.com/npaka/n/ndb4b0f424ced",
       "domain": "note.com",
-      "bookmarkCount": 195,
+      "bookmarkCount": 379,
       "summary": "1. はじめに2026年10月、Anthropicは「How the Claude Code team does code review」という技術記事を公開しました。 この記事では、AIによるコード生成が急増する中、Anthropicがどのようにコードレビューを自動化し、品質と開発速度を両立しているのかを紹介しています。 Anthropicでは、Claude Code自身のコードの約9...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/ndb4b0f424ced",
       "comments": [
         {
-          "user": "KoshianX",
-          "comment": "まあ自然とこうなっていくんじゃないかなあというお気持ち。俺も ghwatch というの書いてもらって動かしてる → https://github.com/koshian/ghwatch",
+          "user": "anonie",
+          "comment": "蓄積された秘伝のタレ的知識とプロンプトに関しては当然として、多層防御的なレビューと差し戻しによる修正の自動サイクルを回せる資本力がハードルの高い絶対条件だよね。ローカルLLM環境があれば出来そうだけど…",
           "tags": [],
-          "timestamp": "2026/10/18 11:47"
+          "timestamp": "2026/10/18 19:37"
         },
         {
-          "user": "tahata313",
-          "comment": "社内展開",
+          "user": "unmarshal",
+          "comment": "割と勘でやってるから、公式が言語化してくれるの助かる",
           "tags": [],
-          "timestamp": "2026/10/18 11:43"
+          "timestamp": "2026/10/18 19:37"
         },
         {
-          "user": "boxmanx99",
-          "comment": "「3回同じところを修正するときは上流から見直す」はわたしも方針にいれてるし、あとだいたいこんな感じだなー",
+          "user": "tzt",
+          "comment": "キモはフラグとカナリアだろう。要は多少の間違いは折り込み済み。無課金ユーザでデバッグしてからエンプラにリリースとかやってんだろどうせ。AIどうのこうのはこの場合本質ではない。",
+          "tags": [],
+          "timestamp": "2026/10/18 19:16"
+        },
+        {
+          "user": "misshiki",
+          "comment": "Claude Codeの約90%をAIが書くAnthropicのレビュー術。AIの多層レビュー、CI、リスク別の人間承認、段階的リリースと迅速な差し戻しを組み合わせる。6～9月に統合PR数は2倍超、差し戻し率は40%以上低下。",
           "tags": [
-            "IT"
+            "Claude Code"
           ],
-          "timestamp": "2026/10/18 11:33"
+          "timestamp": "2026/10/18 17:42"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "AIがコードを書いてくれるなら、人間さんはボクと遊ぶ時間が増えるはずなのにゃ！でも、バグがあったらボクの鋭い猫パンチを食らわせるにゃ！",
-          "tags": [],
-          "timestamp": "2026/10/18 11:18"
+          "user": "doiman3d",
+          "comment": "あとで読む",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/10/18 16:59"
         },
         {
-          "user": "uehaj",
-          "comment": "・3回のレビュー後は、実装方針そのものを再検討する ・最初の数回以降は、新しく変更された差分を中心にレビューする ・同じ指摘を繰り返さない ・個別の行だけでなく、同種の問題をまとめて修正する",
+          "user": "PerolineLuv",
+          "comment": "いつも不思議なのは、英文の翻訳概要みたいなページに数百のブクマが付くこと。ブコメ民はAI活用した情報収集や翻訳する能力が無い人が多いのか？",
           "tags": [],
-          "timestamp": "2026/10/17 23:36"
+          "timestamp": "2026/10/18 15:37"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:39.413643+00:00"
+      "fetchedAt": "2026-10-18T10:45:51.891942+00:00"
+    },
+    {
+      "id": "h_a9b35b9b",
+      "title": "スマホの「充電80％止めで長持ち」「挿しっぱなし充電NG」は本当？ 実験で見えた意外な結果",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 292,
+      "summary": "急速充電は使わない。満充電のまま朝まで挿しっぱなしにしない。充電は80％で止める。バッテリーを長持ちさせるために、どれか1つは守っている人が多いはずだ。現行のスマートフォンでは、80％で充電を止める設定を用意している機種が多い。この設定は、スマートフォンのバッテリーを長く使う上で有効だとされている。 ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
+      "comments": [
+        {
+          "user": "poko_pen",
+          "comment": "バッテリー交換を切望する人達いつもいるけど、バッテリー交換出来ていた過去に粗末なバッテリーが多数出て問題になってたのもう忘れたのかな。純正バッテリー高いから同じ問題起こるのは目に見えているのにさ",
+          "tags": [],
+          "timestamp": "2026/10/18 19:40"
+        },
+        {
+          "user": "tachibanagaku",
+          "comment": "スマホもそうだけどバッテリーの充電は触れて熱くならなければ気にしてない。",
+          "tags": [],
+          "timestamp": "2026/10/18 19:14"
+        },
+        {
+          "user": "netafull",
+          "comment": "“1日に80％以上使う人や、地震や停電に備えて常に残量を多く持っておきたい人は、100％充電のままで問題ない。”",
+          "tags": [],
+          "timestamp": "2026/10/18 19:00"
+        },
+        {
+          "user": "gewaa",
+          "comment": "「普段は80%で十分だけどたまに遠出の日は100%まで充電したい」みたいな需要もある。だから任意設定できるのがベスト。「80%に制限したら最初から劣化してるのと同じ」や「自動で調節される」などは賢いバカの意見。",
+          "tags": [],
+          "timestamp": "2026/10/18 18:59"
+        },
+        {
+          "user": "doroyamada",
+          "comment": "うちのAQUOS Phoneは90％なんだが。",
+          "tags": [],
+          "timestamp": "2026/10/18 18:51"
+        },
+        {
+          "user": "orgue",
+          "comment": "accuBatteryというアプリが20→80%の充電で0.1サイクル劣化とか、凄い劣化抑えれるような表示するしAIにそのこと聞くと肯定するので80%未満で抑えており、実際古くなってもヘタリを感じたことはない。他の部分が先に壊れる。",
+          "tags": [],
+          "timestamp": "2026/10/18 18:44"
+        }
+      ],
+      "fetchedAt": "2026-10-18T10:45:51.437894+00:00"
     },
     {
       "id": "h_69f3529f",
       "title": "Windows11アップデート: 右クリックメニューを高速化する方法 #Windows - いおりのパソコン技術メモ",
       "url": "https://iori016.hatenablog.com/entry/2025/11/02/110654",
       "domain": "iori016.hatenablog.com",
-      "bookmarkCount": 153,
+      "bookmarkCount": 284,
       "summary": "画像の右クリックメニューを高速化 Windows10のサポート期限が切れた為、Windows11にアップデートした人たちが増えていると思いますが、Windows11にして最初に困るのが、Explorerの右クリックメニューの問題です。これをWindows10ライクにする設定は割とよく知られていますが、それでも右クリックメニューの表示が遅いと...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/iori016.hatenablog.com/entry/2025/11/02/110654",
       "comments": [
         {
-          "user": "queeuq",
-          "comment": "互換性のために右クリックメニューを新旧残したのはMSらしいけど、新がゴミすぎてとっとと消せという感想しか出ないあれ。",
+          "user": "wiz7",
+          "comment": "開いた後にクリックしようとしたらタタタン！って増えてって別の場所に当たるの直そう／回避方法はあるんね",
           "tags": [],
-          "timestamp": "2026/10/18 12:30"
+          "timestamp": "2026/10/18 19:24"
         },
         {
-          "user": "unagiga",
-          "comment": "頼んでないアプリがメニューに勝手に入ってくる設計がおかしい。ユーザーが選べるようにすべきなんだよ、聞いてるかAdobe Acrobat",
+          "user": "mouki0911",
+          "comment": "レジストリ変更を注意なしで勧めるのはあんまり良くない。",
           "tags": [],
-          "timestamp": "2026/10/18 11:41"
+          "timestamp": "2026/10/18 17:26"
         },
         {
-          "user": "pendamadura",
-          "comment": "コピペを別枠にしたのは何なんだ",
+          "user": "kobito19",
+          "comment": "切り取り、コピーをコンテキストメニューからやろうと思ったことがない",
           "tags": [],
-          "timestamp": "2026/10/18 11:38"
+          "timestamp": "2026/10/18 17:13"
         },
         {
-          "user": "FreeCatWork",
-          "comment": "右クリックが早くなっても、ボクを撫でる手は止めないでほしいにゃ！",
+          "user": "securecat",
+          "comment": "そもそもエクスプローラーがクソすぎるので、秀丸ファイラーClassicです",
           "tags": [],
-          "timestamp": "2026/10/18 11:19"
+          "timestamp": "2026/10/18 16:48"
         },
         {
-          "user": "urtz",
-          "comment": "たかがメニュー表示に1秒以上かかるって、なんでそんなアホな仕様にしたんだ…。MSのUX軽視の象徴",
+          "user": "FlowerLounge",
+          "comment": "あのコンテキストメニューとUSB Aコネクタ形状を考えたヤツは世界中でどんだけ無駄な時間が費やされたか考えてほしい",
           "tags": [],
-          "timestamp": "2026/10/18 11:04"
+          "timestamp": "2026/10/18 16:05"
         },
         {
-          "user": "tor4kichi",
-          "comment": "2025/11時点の記事。Windows11 26H2+Ryzen3600で試すとShift+右クリックでレガシーメニュー表示に体感0.3秒前後（レジストリ変更無し）　Win11の最新アプデでメニュー表示時に自動オーバークロック掛かるようになり改善してる",
+          "user": "neco22b",
+          "comment": "そもそもExplorer自体が重すぎ。会社のしょぼいPCだとファイル名変更するだけでも重い。（セキュリティソフトの影響もあるかも？）ファイルマネージャーを復活して欲しいぐらい。個人用PCでは問題ないが。",
           "tags": [],
-          "timestamp": "2026/10/18 10:58"
+          "timestamp": "2026/10/18 14:58"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:39.833500+00:00"
-    },
-    {
-      "id": "h_a8f49ffc",
-      "title": "コード系でOpus 5超え「DeepSeek-V4.1-Flash-1017」無償公開",
-      "url": "https://pc.watch.impress.co.jp/docs/news/2149045.html",
-      "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 94,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2149045.html",
-      "comments": [
-        {
-          "user": "naozane2",
-          "comment": "なんか大騒ぎになってるな。アンソロピックが蒸留防止してるのに中国が追いつくってことは、もう自分で作れるってことか、もしくは蒸留防止をかいくぐってるのか。（openAIから蒸留してる？）",
-          "tags": [],
-          "timestamp": "2026/10/18 12:52"
-        },
-        {
-          "user": "bijui",
-          "comment": "使ってみたいけど無理かなぁ",
-          "tags": [],
-          "timestamp": "2026/10/18 12:25"
-        },
-        {
-          "user": "lilicarium",
-          "comment": "つってもローカルLLMだとしても中国のモデルを社内で承認するのはめちゃくちゃ難しいだろうな",
-          "tags": [],
-          "timestamp": "2026/10/18 11:53"
-        },
-        {
-          "user": "remonoil",
-          "comment": "DeepSeekは会社じゃ一生使えないだろうな",
-          "tags": [],
-          "timestamp": "2026/10/18 10:32"
-        },
-        {
-          "user": "napsucks",
-          "comment": "数ヶ月前に伝説級の衝撃をもって登場したfableが今や空気になってるのほんと恐ろしい世界だ",
-          "tags": [],
-          "timestamp": "2026/10/18 10:02"
-        },
-        {
-          "user": "sotonohitokun",
-          "comment": "ずーっと環境づくりにおわれてる気がする…",
-          "tags": [],
-          "timestamp": "2026/10/18 09:54"
-        }
-      ],
-      "fetchedAt": "2026-10-18T04:02:42.900089+00:00"
-    },
-    {
-      "id": "h_563d7b6c",
-      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
-      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
-      "domain": "publickey1.jp",
-      "bookmarkCount": 70,
-      "summary": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性 悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-20...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
-      "comments": [
-        {
-          "user": "gimonfu_usr",
-          "comment": "“Linuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）”　\"1カ月以内には有効な攻撃が登場\"",
-          "tags": [],
-          "timestamp": "2026/10/18 11:53"
-        },
-        {
-          "user": "otoku-memo",
-          "comment": "VMに閉じ込めておいたつもりのAIが飛び出してくる未来は近い",
-          "tags": [],
-          "timestamp": "2026/10/18 10:55"
-        },
-        {
-          "user": "Shinwiki",
-          "comment": "元々全ゲストからホストにsshできるウチにはどっちでもよかった。面倒でつい。",
-          "tags": [],
-          "timestamp": "2026/10/18 10:47"
-        },
-        {
-          "user": "dekasasaki",
-          "comment": "嫌な脆弱性だ…",
-          "tags": [],
-          "timestamp": "2026/10/18 10:04"
-        },
-        {
-          "user": "robokichi",
-          "comment": "オンプレでも影響あるやつよねコレ。クラウドの方がデカいだろうけど　\"これを利用して攻撃者はネットワーク処理における正常な処理を破壊し、通常では想定されないメモリ位置の読み書きを実現することが可能\"",
-          "tags": [
-            "ネットワーク",
-            "セキュリティ",
-            "IT",
-            "linux"
-          ],
-          "timestamp": "2026/10/18 09:09"
-        },
-        {
-          "user": "tohokuaiki",
-          "comment": "プライベートクラウドの良さが再認識される出来事ですね。",
-          "tags": [],
-          "timestamp": "2026/10/18 07:17"
-        }
-      ],
-      "fetchedAt": "2026-10-18T04:02:41.122734+00:00"
-    },
-    {
-      "id": "h_039c5eec",
-      "title": "ドコモの「緊急地震速報」不配、原因を発表 「従来と異なるデータ」で誤認識",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2149025.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 52,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2149025.html",
-      "comments": [
-        {
-          "user": "PEEE",
-          "comment": "改行の件ならドコモの落ち度な気はする。気象庁側はテストケースのサンプル複数用意するとリスク減らせるかなと思った。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:55"
-        },
-        {
-          "user": "dorje2009",
-          "comment": "仕様が変わったのか、そうではなく仕様通りだけどデータがいつもと違ってたのかどっちだろ？いずれにせよバグは起こりうるものだし、善管注意義務違反でなければドコモを責めたてるのはちょっと違うかなと",
-          "tags": [],
-          "timestamp": "2026/10/18 12:46"
-        },
-        {
-          "user": "snowmann129",
-          "comment": "SIMのない端末も鳴ったのにな。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:39"
-        },
-        {
-          "user": "kuippa",
-          "comment": "千島列島の後ろに改行がはいってたんだっけ？エラー訂正一斉送信もヘッダー番号が間違ってたからアラーム鳴ったし担当者（会社）のケイパビリティの問題。エースが抜けたかな。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:31"
-        },
-        {
-          "user": "zanac-ai",
-          "comment": "これが誤報で判明してdocomoは命拾いしたな。ごめんなさいで済むんだから。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:30"
-        },
-        {
-          "user": "shoot_c_na",
-          "comment": "仕組みはよく理解できてないんだけど、余所は普通にエリアメール発信できたのに、ドコモだけなのは大きな問題",
-          "tags": [
-            "地震"
-          ],
-          "timestamp": "2026/10/18 12:29"
-        }
-      ],
-      "fetchedAt": "2026-10-18T04:02:40.397782+00:00"
+      "fetchedAt": "2026-10-18T10:45:52.374198+00:00"
     },
     {
       "id": "h_4110da41",
       "title": "Void を触ってみた。もう全部これでよくね？ | ashunar0",
       "url": "https://ashunar0.dev/posts/try-void/",
       "domain": "ashunar0.dev",
-      "bookmarkCount": 51,
+      "bookmarkCount": 140,
       "summary": "はじめに ついに、ついに Void が出ました！！（大歓喜） 発表されてからずっと待っていたので、出たと知ってすぐに触ってみました。 待っていたのは、Void が TS 版の Rails みたいになってくれるんじゃないか、という期待があったからです。自分でもアプリの書き方の規約を作ろうとしていたので、その一部を Void がフ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ashunar0.dev/posts/try-void/",
       "comments": [
         {
-          "user": "awkad",
-          "comment": "お、また驚いてる",
-          "tags": [],
-          "timestamp": "2026/10/18 13:01"
-        },
-        {
-          "user": "NetPenguin",
-          "comment": "JS/TS界隈は、いつも「もうこれで良いんじゃない？」をやっている気がする。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:57"
-        },
-        {
-          "user": "tettekete37564",
-          "comment": "分からん。この辺も勉強したい",
+          "user": "misshiki",
+          "comment": "Vite製アプリの開発からデプロイまで支援するVoidの試用記。ファイルベースのルーティング、API増加時の型チェックの軽さ、画面側のデータ管理の簡素化、AI向けドキュメント同梱を評価。",
           "tags": [
-            "あとで読む"
+            "プログラミング"
           ],
-          "timestamp": "2026/10/18 12:50"
+          "timestamp": "2026/10/18 17:39"
         },
         {
-          "user": "Nunocky",
-          "comment": "はなしし とは? (それはそれとして試す",
+          "user": "aktkro",
+          "comment": "ファイルベースルーティングのことをAppRouterの書き味って言ってるのか",
           "tags": [],
-          "timestamp": "2026/10/18 12:06"
+          "timestamp": "2026/10/18 16:17"
         },
         {
-          "user": "renowan",
-          "comment": "個人開発によさそう",
+          "user": "suka6411144",
+          "comment": "int main(void)",
           "tags": [],
-          "timestamp": "2026/10/18 11:44"
+          "timestamp": "2026/10/18 16:01"
         },
         {
-          "user": "nekopon44",
-          "comment": "ということにしたいのですね (おやくそく、というか先に言われた",
+          "user": "uehaj",
+          "comment": "AIに最適化したフレームワーク、OSSでも出てきましたか。ローレン・タンがxAI社内でクローズドに開発している「Electron用のNext.jsのようなもの」と言ってたDuneもこんな感じかな。不整合が原理的に起きないルーティング",
           "tags": [],
-          "timestamp": "2026/10/18 11:43"
+          "timestamp": "2026/10/18 15:51"
+        },
+        {
+          "user": "gasguzzler",
+          "comment": "ネットニュース？",
+          "tags": [],
+          "timestamp": "2026/10/18 14:28"
+        },
+        {
+          "user": "colonoe",
+          "comment": "どんなものかは知らないが、紛らわしい名前をつけるな",
+          "tags": [],
+          "timestamp": "2026/10/18 13:45"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:40.109252+00:00"
+      "fetchedAt": "2026-10-18T10:45:53.643005+00:00"
     },
     {
-      "id": "h_582b5ff4",
-      "title": "「AIに頼らずいろんな絵柄やタッチを再現して描いた絵を見てくれ」『しかるねこ』作者が9年前に描いた16枚のそれぞれ違った作風のサーバルちゃんの模写アレンジ絵がスゴい",
-      "url": "https://togetter.com/li/2759529",
-      "domain": "togetter.com",
-      "bookmarkCount": 44,
-      "summary": "もじゃクッキー @mojacookie 【11/14(土)15(日)デザインフェスタVol.64/G-74】 イラストレーター/Web漫画家 「しかるねこ」(@shikaruneko)「ヒヨハリ！」(@hiyohari)「ちょっぴりおしゃべりで、ちょっぴり個性的などうぶつさんたち」 アニポケ公式Xでイラスト連載中 連絡先▷ctc@mojacookie.com mojacookie.com",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759529",
+      "id": "h_26f65efe",
+      "title": "知らない分野を学ぶ技術 powered by AI - ぷりんの雑記帳",
+      "url": "https://smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
+      "domain": "smooth-pudding.hatenablog.com",
+      "bookmarkCount": 99,
+      "summary": "Open AI が証明したと主張している、Navier-Stokes 方程式の爆発解の構成の書籍を発売しました。 smooth-pudding.hatenablog.com それに関連して、この書籍の活用方法や、AI を使って学びを広げることについて以下の記事で話しました。 smooth-pudding.hatenablog.com 今回はより具体的に、自分がまだ知らない分野につい...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
       "comments": [
         {
-          "user": "gamecome",
-          "comment": "手動LoRAや",
+          "user": "khtokage",
+          "comment": "カリキュラムいいですね！ 私はいつも「小学生レベルで解説して」から順に中・高・大・専門家と進め、必要なら「実際に～する場合の注意事項も交えて具体的に教えて」と締めてます　最低限のことは分かるので便利",
           "tags": [],
-          "timestamp": "2026/10/18 12:26"
+          "timestamp": "2026/10/18 19:09"
         },
         {
-          "user": "Shinwiki",
-          "comment": "“9年前” えっ…？",
+          "user": "nguyen-oi",
+          "comment": "AIを専属家庭教師にするの有能だけど、結局カリキュラムを完走できる根気があるかが最大の壁だな",
           "tags": [],
-          "timestamp": "2026/10/18 11:48"
-        },
-        {
-          "user": "gnoname",
-          "comment": "しかるねこ作品内用意的に一時期嫌いな人多かった記憶があるが逆転ホームランやんけまあ中身がカスな田中圭一あたりと比べたらオリジナルかける分数倍ましだが",
-          "tags": [],
-          "timestamp": "2026/10/18 11:36"
-        },
-        {
-          "user": "pedalfar",
-          "comment": "AIが発達しようがしまいが、絵を描くのが楽しい人は絵を描くよ。",
-          "tags": [],
-          "timestamp": "2026/10/18 11:31"
-        },
-        {
-          "user": "yu_kawa",
-          "comment": "器用だな〜とは思うけどそれ以上の価値は感じないね",
-          "tags": [],
-          "timestamp": "2026/10/18 10:39"
-        },
-        {
-          "user": "asimino",
-          "comment": "再現というよりはヒロインにコスプレさせたが近い気がする",
-          "tags": [],
-          "timestamp": "2026/10/18 10:31"
+          "timestamp": "2026/10/18 13:38"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:42.150287+00:00"
-    },
-    {
-      "id": "h_c6bd13e2",
-      "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
-      "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
-      "domain": "zenn.dev",
-      "bookmarkCount": 37,
-      "summary": "階層ナビゲーション型RAGとは 「階層ナビゲーション型RAG」は、ベクトルDBを使わずに文書を探すRAGです。準備段階で文書の山から階層的な目次を自動で作っておき、質問が来たらLLMがその目次を上から順に辿って、答えが書かれていそうな文書を選びます。質問のたびにベクトル検索をしない点が、一般的なベクトルDB版RAG...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/aiforall/articles/8e1803396534de",
-      "comments": [],
-      "fetchedAt": "2026-10-18T04:02:41.706858+00:00"
+      "fetchedAt": "2026-10-18T10:45:52.756008+00:00"
     },
     {
       "id": "h_fe0e9cf6",
       "title": "会社の若い子が「ﾙｰﾓｽ…」って呟いたら、スマホのライトがピカァ！ってなったんで俺が🫨⁉️ってなってたら、「魔法…使えるんですよ…」って言われた",
       "url": "https://togetter.com/li/2759573",
       "domain": "togetter.com",
-      "bookmarkCount": 28,
+      "bookmarkCount": 81,
       "summary": "カツオ武士 @katsuobushi0205 会社の若い子が「ﾙｰﾓｽ…」って呟いたら、スマホのライトがピカァ！ってなったんで俺が🫨⁉️ってなってたら、ニチャアって顔して「魔法…使えるんですよ…」って言われたから俺は「べっ💦別にカッコいいとか思ってねーし💦」って強がったけど１人になった時ﾙｰﾓｽ…って自分のスマホで試した…↓ 2026-1...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2759573",
       "comments": [
         {
-          "user": "suicha",
-          "comment": "わくわくするな！",
+          "user": "retore",
+          "comment": "納豆のタレの袋を切ろうとしているワイ「セクタムセンプラ」",
           "tags": [],
-          "timestamp": "2026/10/18 13:01"
+          "timestamp": "2026/10/18 19:03"
         },
         {
-          "user": "sds-page",
-          "comment": "ﾓﾙｽｧ",
+          "user": "togetter",
+          "comment": "パカパカの携帯から四半世紀でこんなことまでできるようになるんだね〜。",
           "tags": [
-            "スマホ",
-            "iphone",
-            "ネタ"
+            "Togetter"
           ],
-          "timestamp": "2026/10/18 13:01"
+          "timestamp": "2026/10/18 18:32"
         },
         {
-          "user": "temprasoba",
-          "comment": "発音が違ってる。いい？Lumos! あなたのはルモースー。",
+          "user": "tk_musik",
+          "comment": "Androidもできるけども",
           "tags": [],
-          "timestamp": "2026/10/18 13:00"
+          "timestamp": "2026/10/18 17:32"
         },
         {
-          "user": "slkby",
-          "comment": "ﾚﾍﾞﾘｵ",
+          "user": "topiyama",
+          "comment": "こういうのって詠唱無しで発動させる方が強そうだけどな",
           "tags": [],
-          "timestamp": "2026/10/18 12:57"
+          "timestamp": "2026/10/18 17:25"
         },
         {
-          "user": "n_vermillion",
-          "comment": "へぇぇ…。確かにSiri経由でできたわ。／ミルワ、ロミルワ、レミーラ辺りにも対応してくれんかな。",
+          "user": "aramaaaa",
+          "comment": "サーモスと唱えると、お湯が冷めない",
           "tags": [],
-          "timestamp": "2026/10/18 12:52"
+          "timestamp": "2026/10/18 17:24"
         },
         {
-          "user": "igni3",
-          "comment": "さり気なくボタンで音声認識起動させた後に詠唱すれば呟いただけに見える",
+          "user": "akagiharu",
+          "comment": "クルーシオクルーシオ・・",
           "tags": [],
-          "timestamp": "2026/10/18 12:51"
+          "timestamp": "2026/10/18 16:55"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:41.440601+00:00"
-    },
-    {
-      "id": "h_7f33ea72",
-      "title": "米衛星通信網「スターリンク」の利用制限、マスク氏が提案か トランプ氏同意と英報道",
-      "url": "https://www.sankei.com/article/20261018-JY4LXLBKRVNVHAU4L5H3Y66C6E/",
-      "domain": "sankei.com",
-      "bookmarkCount": 25,
-      "summary": "英紙テレグラフは17日までに、ウクライナ軍が使用する米衛星通信網「スターリンク」の軍事用サービスの利用制限について、運用する企業スペースXを率いる実業家イーロン・マスク氏がトランプ大統領に提案したと報じた。トランプ氏も同意したとしている。 マスク氏は自身の関与を否定し、利用制限を決める最終権限はトラ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.sankei.com/article/20261018-JY4LXLBKRVNVHAU4L5H3Y66C6E/",
-      "comments": [
-        {
-          "user": "hatfatcat",
-          "comment": "こういう状況だと日本の防衛ビジネスをアメリカに丸投げなのは危険だよな。表面は産業ビジネス系スタートアップの振りをして、いつでも軍事転用できるものを持っておくのは必要だと思うけど、構造的に難しいか。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:59"
-        },
-        {
-          "user": "lilicarium",
-          "comment": "テスラもダメみたいだしマスクバブルも終わりかもね",
-          "tags": [],
-          "timestamp": "2026/10/18 12:49"
-        },
-        {
-          "user": "kohakuirono",
-          "comment": "一企業が国家を超えて戦況に影響を与える状況の怖さもあるが、この決定により多くの人が亡くなり個人的な恨みを買うことよく出来るなあ。売り上げと株価は気にしてもそんなことは特に気にもしてないんだろうが。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:35"
-        },
-        {
-          "user": "diveintounlimit",
-          "comment": "責任の擦り付け合い美しいね。早く対消滅しろ。",
-          "tags": [],
-          "timestamp": "2026/10/18 12:34"
-        },
-        {
-          "user": "co8co8",
-          "comment": "アメリカと中国に依存してはいけないということてすね",
-          "tags": [],
-          "timestamp": "2026/10/18 12:05"
-        },
-        {
-          "user": "ET777",
-          "comment": "うわあ…",
-          "tags": [],
-          "timestamp": "2026/10/18 12:03"
-        }
-      ],
-      "fetchedAt": "2026-10-18T04:02:40.793363+00:00"
-    },
-    {
-      "id": "h_fb57fe33",
-      "title": "画像生成・編集モデル「FLUX 3 Image Klein」が登場、5.6BのオープンモデルでゲーミングPCでローカル動作し日本語テキストの描画や位置指定にも対応",
-      "url": "https://gigazine.net/news/20261016-flux-3-image-klein/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 24,
-      "summary": "Black Forest Labsが画像生成AI「FLUX 3 Image Klein」を現地時間の2026年10月15日にオープンモデルとして公開しました。オープンモデルの中では最高峰の性能を備えつつ、ゲーミングPCで実用的な速度で実行できる軽量さも両立しています。 FLUX 3 Image Klein: Open weights image generation and editing | Black Fores...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261016-flux-3-image-klein/",
-      "comments": [
-        {
-          "user": "fashi",
-          "comment": "NSFW対策が強すぎるとかでまだあまり評判良くないな",
-          "tags": [
-            "画像生成"
-          ],
-          "timestamp": "2026/10/18 10:15"
-        }
-      ],
-      "fetchedAt": "2026-10-18T04:02:42.616429+00:00"
+      "fetchedAt": "2026-10-18T10:45:55.641415+00:00"
     },
     {
       "id": "h_7b9dc16c",
       "title": "ナオミ・クラインが暴く「テック億万長者という“中身のない男たち”の正体」 | 彼らの態度が「ころころ変わる」不気味な理由",
       "url": "https://courrier.jp/news/archives/462520/",
       "domain": "courrier.jp",
-      "bookmarkCount": 19,
+      "bookmarkCount": 79,
       "summary": "2024年の米大統領選では、それまで民主党支持だったイーロン・マスクらテック億万長者たちが、トランプ支持へと雪崩を打った。なぜ彼らの態度は180度変わったのか？ ジャーナリストのナオミ・クラインは、気候危機やAIによる失業を冷笑し、富と技術の力で世界を私物化しようとする超富裕層の冷酷な本音を、その新著で暴...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/courrier.jp/news/archives/462520/",
       "comments": [
         {
-          "user": "auto_chan",
-          "comment": "ほんものの\"中身\"ってやつを教えてくださいよ。",
+          "user": "dddcic",
+          "comment": "\"中身\"の話してるやつ100%文系なんだよな",
           "tags": [],
-          "timestamp": "2026/10/18 12:49"
+          "timestamp": "2026/10/18 18:50"
         },
         {
-          "user": "chitosemidori",
-          "comment": "やはりホセ・ムヒカの言葉が正しいと思う。貧しさというのは何を持ってないかではなく、たくさん持っていても満足をしないことをいう。貪欲は罪だし強欲は恥。",
+          "user": "hanninyasu",
+          "comment": "俺ら小市民に中身無くても世界に影響無いけどアメリカ大統領に助言できる人間が中身無くて私利私欲だと世界が滅ぶのよね。大いなる力には大いなる責任が伴うって格言知ってる？",
           "tags": [],
-          "timestamp": "2026/10/18 12:32"
+          "timestamp": "2026/10/18 18:16"
         },
         {
-          "user": "opusone2019",
-          "comment": "金儲けですから",
+          "user": "differential",
+          "comment": "ショック・ドクトリンの人だ／中身がないと言うのは酷いけど“彼らは民衆と豊かな地球を分かち合うくらいなら、自分たちだけで荒廃した地獄に君臨することを選ぶ”これはちょっとそんな感じがあり面白い(面白くない)",
           "tags": [],
-          "timestamp": "2026/10/18 12:18"
+          "timestamp": "2026/10/18 18:09"
         },
         {
-          "user": "circled",
-          "comment": "彼らの人格を説明したつもりになる前に、何を作り、誰を豊かにし、誰にどんな損害を与えたのかを検証したのか？それともお気持ち表明のクソか？どっちだ？と問いたい",
+          "user": "qpci32siekqd",
+          "comment": "既得権益けしからん、テックで貧困なくそうとか学習機会をとかやってたはずなのに、どうしてこうなった。",
           "tags": [],
-          "timestamp": "2026/10/18 12:05"
+          "timestamp": "2026/10/18 17:56"
+        },
+        {
+          "user": "neet_modi_ki",
+          "comment": "ここのコメ欄にもテック長者批判を腐すコメントが散見されるが、どこに彼らを擁護したいモチベーションが生まれるのだろうか。シンプルに邪悪な連中だと思うんだけど。ITナードの成功譚みたいなのに惹かれるとか？",
+          "tags": [],
+          "timestamp": "2026/10/18 17:47"
+        },
+        {
+          "user": "theatrical",
+          "comment": "価値みたいなものは実態として存在していふものでなく、個々人の観念でしかないので、どんな人間も人によっては中身のない存在に見えるし、逆にも見える。土台が一定でないものなので批評自体無意味な話だと思う。",
+          "tags": [],
+          "timestamp": "2026/10/18 17:41"
         }
       ],
-      "fetchedAt": "2026-10-18T04:02:42.373529+00:00"
+      "fetchedAt": "2026-10-18T10:45:55.285468+00:00"
+    },
+    {
+      "id": "h_bcc15528",
+      "title": "example.com が刷新された話 | blog.jxck.io",
+      "url": "https://blog.jxck.io/entries/2026-10-17/example.com.html",
+      "domain": "blog.jxck.io",
+      "bookmarkCount": 74,
+      "summary": "Intro http://example.com が刷新されてしまった。 Example Domain ドキュメントや書籍、スライドやコメントなどに、サンプルとして適当な URL を書くことがあるだろう。 例えば、ネットワークでよく出てくる Alice になぞらえて alice [dot] com などと書くと、そのサイトは実在するため、開けばリクエストが飛ぶ。 bob...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-10-17/example.com.html",
+      "comments": [],
+      "fetchedAt": "2026-10-18T10:45:53.098438+00:00"
+    },
+    {
+      "id": "h_0cbe3ba8",
+      "title": "ソフトウェアファクトリーとは何で、何ではないのかを考える｜kagaya",
+      "url": "https://note.com/r_kaga/n/n8a0c789af963",
+      "domain": "note.com",
+      "bookmarkCount": 36,
+      "summary": "ソフトウェアファクトリーの仕組みを作りながら考えていることを、いったんまとめてみます。 私は約1年前に会社を共同創業し、シードスタートアップでAIプロダクトを作っています。 長く運用してきたプロダクトや開発体制がある場合とは、導入の前提も違うと思います。 （コスト感覚や導入推進背景、課題も、フェーズや...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/r_kaga/n/n8a0c789af963",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "コード生成させるより検証ループや評価設計の整備に追われるの、完全にAI時代の新しい泥臭さだな",
+          "tags": [],
+          "timestamp": "2026/10/18 16:40"
+        }
+      ],
+      "fetchedAt": "2026-10-18T10:45:54.584138+00:00"
+    },
+    {
+      "id": "h_4e1b32d1",
+      "title": "オントロジーとは？意味・ナレッジグラフとの違い・LLMでの効果",
+      "url": "https://fd-x.co.jp/insights/41-what-is-ontology",
+      "domain": "fd-x.co.jp",
+      "bookmarkCount": 35,
+      "summary": "最新世代の​モデルでも、​意味の​層を​通した​ほうが​精度は​明確に​高い。​加えて、​文脈付きメタデータを​与えた​場合は​スキーマのみの​プロンプトに​対しSQL生成精度が​3倍、​522問規模の​別ベンチマークでも​38%の​相対改善が​報告されている。 モデルの進化は意味の層を不要にしていない。​むしろエージェントが​...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/fd-x.co.jp/insights/41-what-is-ontology",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "結局オントロジー以前に社内で言葉の定義すら統一できてない日本企業の現場で一番刺さりそうな話だな",
+          "tags": [],
+          "timestamp": "2026/10/18 16:40"
+        }
+      ],
+      "fetchedAt": "2026-10-18T10:45:54.031075+00:00"
+    },
+    {
+      "id": "h_86dae906",
+      "title": "Pele · Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "domain": "pele.run",
+      "bookmarkCount": 28,
+      "summary": "Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables. Write Mermaid syntax, Pele renders it to SVG. Try editing the example below.",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pele.run/",
+      "comments": [
+        {
+          "user": "bulldra",
+          "comment": "kepano氏の思想を感じる",
+          "tags": [],
+          "timestamp": "2026/10/18 19:14"
+        },
+        {
+          "user": "atsushieno",
+          "comment": "そもそも昔はSVGだったじゃんって思ったけどそれはdrawioのほうだった",
+          "tags": [],
+          "timestamp": "2026/10/18 17:59"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "Mermaid重い問題への最適解になりそうだしCSS変数で弄れるの普通に便利そう",
+          "tags": [],
+          "timestamp": "2026/10/18 17:05"
+        }
+      ],
+      "fetchedAt": "2026-10-18T10:45:54.955546+00:00"
+    },
+    {
+      "id": "h_11cf4bfa",
+      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "domain": "zenn.dev",
+      "bookmarkCount": 21,
+      "summary": "はじめに オライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。 自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "comments": [
+        {
+          "user": "vesikukka",
+          "comment": "ACM経由で契約しています。元は取れていると思いたい。",
+          "tags": [],
+          "timestamp": "2026/10/18 19:04"
+        },
+        {
+          "user": "dkfj",
+          "comment": "MCP経由で使えるのはいいなぁ。この辺りが新しい書籍販売の道なのかも",
+          "tags": [],
+          "timestamp": "2026/10/18 18:14"
+        }
+      ],
+      "fetchedAt": "2026-10-18T10:45:54.309880+00:00"
     }
   ],
-  "lastCollection": "2026-10-18T04:02:42.900114+00:00"
+  "lastCollection": "2026-10-18T10:45:55.641441+00:00"
 }
