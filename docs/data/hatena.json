@@ -1,72 +1,36 @@
 {
   "entries": [
     {
-      "id": "h_4f4d4862",
-      "title": "AnthropicのAI時代のコードレビュー術 - Claude Codeによる自動レビューと人間の役割｜npaka",
-      "url": "https://note.com/npaka/n/ndb4b0f424ced",
-      "domain": "note.com",
-      "bookmarkCount": 460,
-      "summary": "1. はじめに2026年10月、Anthropicは「How the Claude Code team does code review」という技術記事を公開しました。 この記事では、AIによるコード生成が急増する中、Anthropicがどのようにコードレビューを自動化し、品質と開発速度を両立しているのかを紹介しています。 Anthropicでは、Claude Code自身のコードの約9...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/ndb4b0f424ced",
-      "comments": [
-        {
-          "user": "satoshi_hiraishi",
-          "comment": "コードレビュー",
-          "tags": [
-            "AI",
-            "Claude",
-            "開発"
-          ],
-          "timestamp": "2026/10/18 23:19"
-        },
-        {
-          "user": "shoh8",
-          "comment": "根幹はCI/CDの整備なんだと思う。人間のレビュも再設計もリリースフローの一部として考える",
-          "tags": [
-            "Claude",
-            "AI",
-            "開発"
-          ],
-          "timestamp": "2026/10/18 21:11"
-        },
-        {
-          "user": "peppers_white",
-          "comment": "これに忠実なデバッグをデバッグ機能実装と一緒に手渡されてやらされたのでclaude製モデルの基本スキルに入ってる模様",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/18 20:21"
-        },
-        {
-          "user": "anonie",
-          "comment": "蓄積された秘伝のタレ的知識とプロンプトに関しては当然として、多層防御的なレビューと差し戻しによる修正の自動サイクルを回せる資本力がハードルの高い絶対条件だよね。ローカルLLM環境があれば出来そうだけど…",
-          "tags": [],
-          "timestamp": "2026/10/18 19:37"
-        },
-        {
-          "user": "unmarshal",
-          "comment": "割と勘でやってるから、公式が言語化してくれるの助かる",
-          "tags": [],
-          "timestamp": "2026/10/18 19:37"
-        },
-        {
-          "user": "tzt",
-          "comment": "キモはフラグとカナリアだろう。要は多少の間違いは折り込み済み。無課金ユーザでデバッグしてからエンプラにリリースとかやってんだろどうせ。AIどうのこうのはこの場合本質ではない。",
-          "tags": [],
-          "timestamp": "2026/10/18 19:16"
-        }
-      ],
-      "fetchedAt": "2026-10-18T15:41:59.207804+00:00"
-    },
-    {
       "id": "h_a9b35b9b",
       "title": "スマホの「充電80％止めで長持ち」「挿しっぱなし充電NG」は本当？ 実験で見えた意外な結果",
       "url": "https://www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 425,
+      "bookmarkCount": 454,
       "summary": "急速充電は使わない。満充電のまま朝まで挿しっぱなしにしない。充電は80％で止める。バッテリーを長持ちさせるために、どれか1つは守っている人が多いはずだ。現行のスマートフォンでは、80％で充電を止める設定を用意している機種が多い。この設定は、スマートフォンのバッテリーを長く使う上で有効だとされている。 ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/18/news002.html",
       "comments": [
+        {
+          "user": "mventura",
+          "comment": "自分もバッテリー最大容量99%でも消耗が早かったので原因を探したら、アプリブロックするアプリのバックグラウンド処理で負荷がかかっていたので、削除して快適に。表向きはブロック対象のハテナやXが怪しかった。",
+          "tags": [
+            "gadget"
+          ],
+          "timestamp": "2026/10/19 05:11"
+        },
+        {
+          "user": "ninnin2",
+          "comment": "“休ませたバッテリーの方が日数で見ても速く減り、リチウムイオンバッテリーが劣化しやすい高温条件の55度では、10分だけ休ませたバッテリーに比べて寿命が約11分の1に縮んだ。満充電で置く時間が”",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/10/19 02:03"
+        },
+        {
+          "user": "shinoshino0927",
+          "comment": "というか最新のスマホの充電はそのへん考慮してくれて使う時間帯までにゆっくり100%にしてくれる感じになってる（少なくとも私のpixelはそう）",
+          "tags": [],
+          "timestamp": "2026/10/19 01:13"
+        },
         {
           "user": "deep_one",
           "comment": "どっちやねん、という感じ。とりあえず高温はよくない。",
@@ -93,72 +57,84 @@
             "モバイル"
           ],
           "timestamp": "2026/10/18 22:43"
-        },
-        {
-          "user": "nakab",
-          "comment": "2つ前に使っていたスマホは3年経つと電池の減りが早くなったが、1つ前のスマホはエントリーモデルだったにも関わらず、3年経っても電池に問題はなかった。",
-          "tags": [],
-          "timestamp": "2026/10/18 22:36"
-        },
-        {
-          "user": "iphone",
-          "comment": "メインスマホは95%固定、2年使い切りなのであまり気にしない。サブスマホとほぼ繋ぎっぱのノートPCは80%固定。昔と比べて持ちが良くなり、モバイルバッテリの出番も減った。おもちゃが実用品になってしまったよなぁ。",
-          "tags": [],
-          "timestamp": "2026/10/18 22:32"
-        },
-        {
-          "user": "j1nsuke",
-          "comment": "AI文体でもこんだけビュー回るんだから使わない理由ない",
-          "tags": [],
-          "timestamp": "2026/10/18 22:28"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:55.629035+00:00"
+      "fetchedAt": "2026-10-18T20:24:54.980408+00:00"
     },
     {
-      "id": "h_26f65efe",
-      "title": "知らない分野を学ぶ技術 powered by AI - ぷりんの雑記帳",
-      "url": "https://smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
-      "domain": "smooth-pudding.hatenablog.com",
-      "bookmarkCount": 144,
-      "summary": "Open AI が証明したと主張している、Navier-Stokes 方程式の爆発解の構成の書籍を発売しました。 smooth-pudding.hatenablog.com それに関連して、この書籍の活用方法や、AI を使って学びを広げることについて以下の記事で話しました。 smooth-pudding.hatenablog.com 今回はより具体的に、自分がまだ知らない分野につい...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/smooth-pudding.hatenablog.com/entry/2026/10/17/145830",
+      "id": "h_7df5c167",
+      "title": "変体仮名一覧表",
+      "url": "https://cid.ninjal.ac.jp/kana/list/",
+      "domain": "cid.ninjal.ac.jp",
+      "bookmarkCount": 131,
+      "summary": "©2022 National Institute for Japanese Language and Linguistics",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cid.ninjal.ac.jp/kana/list/",
       "comments": [
         {
-          "user": "khtokage",
-          "comment": "カリキュラムいいですね！ 私はいつも「小学生レベルで解説して」から順に中・高・大・専門家と進め、必要なら「実際に～する場合の注意事項も交えて具体的に教えて」と締めてます　最低限のことは分かるので便利",
-          "tags": [],
-          "timestamp": "2026/10/18 19:09"
+          "user": "Itisango",
+          "comment": "ありがたい",
+          "tags": [
+            "Japanese",
+            "language",
+            "日本語",
+            "言語",
+            "IT",
+            "あとで読む",
+            "ネタ",
+            "社会",
+            "教育",
+            "歴史"
+          ],
+          "timestamp": "2026/10/19 04:51"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "AIを専属家庭教師にするの有能だけど、結局カリキュラムを完走できる根気があるかが最大の壁だな",
+          "user": "usutaru",
+          "comment": "明治の一音一字の改定で変体仮名は消え去ったのだが、その方針は正しかったのか、どうなんだろうね。",
           "tags": [],
-          "timestamp": "2026/10/18 13:38"
+          "timestamp": "2026/10/19 04:02"
+        },
+        {
+          "user": "trashcan",
+          "comment": "𛁦𛃤𛀋𛁦𛃤𛀋𛁞𛂘𛀘𛀆𛂀",
+          "tags": [],
+          "timestamp": "2026/10/19 03:02"
+        },
+        {
+          "user": "n_vermillion",
+          "comment": "絶妙に読めないちょっとズレた異世界文字みたいで面白いよな",
+          "tags": [],
+          "timestamp": "2026/10/19 02:34"
+        },
+        {
+          "user": "mr_mayama",
+          "comment": "こういうのあると「これで全部なのか」って思う人もいてめんどくさい",
+          "tags": [],
+          "timestamp": "2026/10/19 02:15"
+        },
+        {
+          "user": "vndn",
+          "comment": "ああそうか、変形した漢字だから読みが複数あるのか",
+          "tags": [],
+          "timestamp": "2026/10/19 02:07"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:57.507786+00:00"
-    },
-    {
-      "id": "h_bcc15528",
-      "title": "example.com が刷新された話 | blog.jxck.io",
-      "url": "https://blog.jxck.io/entries/2026-10-17/example.com.html",
-      "domain": "blog.jxck.io",
-      "bookmarkCount": 115,
-      "summary": "Intro http://example.com が刷新されてしまった。 Example Domain ドキュメントや書籍、スライドやコメントなどに、サンプルとして適当な URL を書くことがあるだろう。 例えば、ネットワークでよく出てくる Alice になぞらえて alice [dot] com などと書くと、そのサイトは実在するため、開けばリクエストが飛ぶ。 bob...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.jxck.io/entries/2026-10-17/example.com.html",
-      "comments": [],
-      "fetchedAt": "2026-10-18T15:41:57.696892+00:00"
+      "fetchedAt": "2026-10-18T20:24:54.281262+00:00"
     },
     {
       "id": "h_9c1edfce",
       "title": "iOS 27にしてからiPhoneの充電がもたない…。原因は「あの設定」だった | ライフハッカー・ジャパン",
       "url": "https://www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
       "domain": "lifehacker.jp",
-      "bookmarkCount": 96,
+      "bookmarkCount": 125,
       "summary": "iPhoneをiOS 27にアップデートした人のなかには、もうSiri AIやAppleのAIによる写真編集機能のいくつかを試してみた人もいるのではないでしょうか。 その一方で、別のことに気づいた人もいるかもしれません。 iPhoneのバッテリーのもちが悪くなっている、ということです。このアップデートによってバッテリーの駆動時間...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.lifehacker.jp/article/2610-ios27-battery-drain-connection-assist/",
       "comments": [
+        {
+          "user": "ilkar",
+          "comment": "家の電波遠い部屋でwifiが勝手にモバイル通信になってたのももしかして接続アシストのせいかこれ",
+          "tags": [],
+          "timestamp": "2026/10/19 00:47"
+        },
         {
           "user": "iphone",
           "comment": "そんな明確な理由なら27.1くらいには治ってそう。旧ver.が並行メンテされてる間に新ver.を使うのは人柱志願者である。",
@@ -188,27 +164,25 @@
           "comment": "楽天モバイルから他社に変えたら電池持ち良くなったよ。電波の入りの問題だと思うけど。",
           "tags": [],
           "timestamp": "2026/10/18 21:17"
-        },
-        {
-          "user": "fashi",
-          "comment": "アシスト有効になっても速度に改善が見られないんだよな…Wi-Fi届きにくい場所は4G/5Gも繋がりにくい",
-          "tags": [
-            "iphone"
-          ],
-          "timestamp": "2026/10/18 20:32"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:56.482359+00:00"
+      "fetchedAt": "2026-10-18T20:24:55.342834+00:00"
     },
     {
       "id": "h_4e1b32d1",
       "title": "オントロジーとは？意味・ナレッジグラフとの違い・LLMでの効果",
       "url": "https://fd-x.co.jp/insights/41-what-is-ontology",
       "domain": "fd-x.co.jp",
-      "bookmarkCount": 92,
+      "bookmarkCount": 111,
       "summary": "最新世代の​モデルでも、​意味の​層を​通した​ほうが​精度は​明確に​高い。​加えて、​文脈付きメタデータを​与えた​場合は​スキーマのみの​プロンプトに​対しSQL生成精度が​3倍、​522問規模の​別ベンチマークでも​38%の​相対改善が​報告されている。 モデルの進化は意味の層を不要にしていない。​むしろエージェントが​...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/fd-x.co.jp/insights/41-what-is-ontology",
       "comments": [
+        {
+          "user": "yogasa",
+          "comment": "懐かしい",
+          "tags": [],
+          "timestamp": "2026/10/19 02:17"
+        },
         {
           "user": "bondooroo",
           "comment": "“OWL”",
@@ -236,68 +210,20 @@
           "timestamp": "2026/10/18 16:40"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:56.792284+00:00"
-    },
-    {
-      "id": "h_7df5c167",
-      "title": "変体仮名一覧表",
-      "url": "https://cid.ninjal.ac.jp/kana/list/",
-      "domain": "cid.ninjal.ac.jp",
-      "bookmarkCount": 83,
-      "summary": "©2022 National Institute for Japanese Language and Linguistics",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cid.ninjal.ac.jp/kana/list/",
-      "comments": [
-        {
-          "user": "chikoshoot",
-          "comment": "絶対に「な」だろってやつと、絶対に「し」だろってやつがいる。",
-          "tags": [],
-          "timestamp": "2026/10/19 00:40"
-        },
-        {
-          "user": "regularexception",
-          "comment": "AIに学習させるのに必要そう",
-          "tags": [],
-          "timestamp": "2026/10/19 00:37"
-        },
-        {
-          "user": "ynxdaz",
-          "comment": "「現代の戸籍や住民基本台帳では変体仮名が使われており、変体仮名文字コードが必要」コード空間は空いてるので割り当てるのはいいけど、フォントをインストールする人はほぼいないので実用性は薄いと思います。",
-          "tags": [],
-          "timestamp": "2026/10/19 00:22"
-        },
-        {
-          "user": "sushisashimisushisashimi",
-          "comment": "ニッチやのー、でも素晴らしい",
-          "tags": [],
-          "timestamp": "2026/10/18 23:53"
-        },
-        {
-          "user": "tacamula",
-          "comment": "字体から検索できるようになったら便利そう。ただ古文書を読む人は支援が必要なら文書全体を変換する気もする。一覧、文字コード表的な使い方のものなのかな",
-          "tags": [],
-          "timestamp": "2026/10/18 23:34"
-        },
-        {
-          "user": "SUGIO",
-          "comment": "や行の「い」「え」が無いなと思ったけど、これだけあってもまだ一部なんだろうな。",
-          "tags": [],
-          "timestamp": "2026/10/18 23:22"
-        }
-      ],
-      "fetchedAt": "2026-10-18T15:41:56.073516+00:00"
+      "fetchedAt": "2026-10-18T20:24:56.023664+00:00"
     },
     {
       "id": "h_11cf4bfa",
       "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
       "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
       "domain": "zenn.dev",
-      "bookmarkCount": 69,
+      "bookmarkCount": 86,
       "summary": "はじめに オライリーの本は、技術書として信頼できるので、これまでも必要なものを買って読んでいました。 自分は紙の本のほうが読みやすいタイプです。ただ、オライリーの本は分厚いものが多く、持ち歩くと重いのが難点でした。そんなとき、オライリーの本がオンラインのサブスクで読み放題になると知って、魅力を感じ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
       "comments": [
         {
           "user": "tmatsuu",
-          "comment": "「O'Reillyが公式のMCPサーバーを出している」「気になる本を気軽に読めることの費用対効果は思っていたより大きい」",
+          "comment": "「O'Reillyが公式のMCPサーバーを出している」MCP経由でAIに食わせる情報源は必ずしも日本語である必要はない。なので英語が読めなくても十分利用価値がある、と言える。",
           "tags": [],
           "timestamp": "2026/10/18 22:55"
         },
@@ -326,47 +252,31 @@
           "timestamp": "2026/10/18 18:14"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:57.067574+00:00"
-    },
-    {
-      "id": "h_86dae906",
-      "title": "Pele · Mermaid diagrams as themeable SVG",
-      "url": "https://pele.run/",
-      "domain": "pele.run",
-      "bookmarkCount": 61,
-      "summary": "Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables. Write Mermaid syntax, Pele renders it to SVG. Try editing the example below.",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pele.run/",
-      "comments": [
-        {
-          "user": "bulldra",
-          "comment": "kepano氏の思想を感じる",
-          "tags": [],
-          "timestamp": "2026/10/18 19:14"
-        },
-        {
-          "user": "atsushieno",
-          "comment": "そもそも昔はSVGだったじゃんって思ったけどそれはdrawioのほうだった",
-          "tags": [],
-          "timestamp": "2026/10/18 17:59"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Mermaid重い問題への最適解になりそうだしCSS変数で弄れるの普通に便利そう",
-          "tags": [],
-          "timestamp": "2026/10/18 17:05"
-        }
-      ],
-      "fetchedAt": "2026-10-18T15:41:58.224061+00:00"
+      "fetchedAt": "2026-10-18T20:24:56.362141+00:00"
     },
     {
       "id": "h_8a915e78",
       "title": "日本企業がサーバーに侵入されまくっている現状を鑑み、「絶対無敵を目指すOS」を作ってみた。耐量子暗号HTTPSサーバー専用OS",
       "url": "https://wirelesswire.jp/2026/10/94793/",
       "domain": "wirelesswire.jp",
-      "bookmarkCount": 59,
+      "bookmarkCount": 74,
       "summary": "最近、日本の企業がサイバー攻撃によって大変なことになっている。 2025年9月にはアサヒグループホールディングスがランサムウェア攻撃を受け、受注・出荷業務が停止した。翌10月にはアスクルが同様の攻撃を受け、通販サービスの受注・出荷が停止。サプライチェーン全体に影響が波及する事態となった。挙句、本来、イン...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/wirelesswire.jp/2026/10/94793/",
       "comments": [
+        {
+          "user": "hogetax",
+          "comment": "【メモ】OpenBSD、Qubes OS、Tailsあたりが競合？HTTPSサーバだから別？",
+          "tags": [
+            "後で確認"
+          ],
+          "timestamp": "2026/10/19 05:20"
+        },
+        {
+          "user": "kkobayashi",
+          "comment": "OSがセキュアだとしても上に乗るシステムがザルだったらデータ流出するのでは・・・",
+          "tags": [],
+          "timestamp": "2026/10/19 05:00"
+        },
         {
           "user": "hhungry",
           "comment": "インターネットにも外部ストレージも繋がらないシステムを使おう",
@@ -390,31 +300,32 @@
           "comment": "もうあきらめよう。これからは侵入される前提でサービスをつくるのだ。",
           "tags": [],
           "timestamp": "2026/10/18 21:50"
-        },
-        {
-          "user": "yoiIT",
-          "comment": "WordPressのerror出てて、フフッってなった。",
-          "tags": [],
-          "timestamp": "2026/10/18 20:55"
-        },
-        {
-          "user": "hylom",
-          "comment": "一昔前に「ソースを公開していないから安全、攻撃事例ありません」と主張するHTTPサーバーがあったのだが単に誰も使ってなかったから狙われてなかっただけではないかという話があったのを思い出した",
-          "tags": [],
-          "timestamp": "2026/10/18 20:45"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:59.484851+00:00"
+      "fetchedAt": "2026-10-18T20:24:57.917505+00:00"
     },
     {
       "id": "h_9839b082",
       "title": "Void でフルスタックアプリを構築して Cloudflare にデプロイする",
       "url": "https://azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
       "domain": "azukiazusa.dev",
-      "bookmarkCount": 36,
+      "bookmarkCount": 47,
       "summary": "Void は VoidZero が開発した、Vite でフルスタックアプリを構築して Cloudflare にデプロイするためのツールキットです。void/db などの import から必要なリソースを推論し、void deploy コマンド 1 つでD1 データベースの作成、ビルド、マイグレーション、公開までを行います。この記事では、D1 を使ったメモアプリを...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/void-vite-cloudflare-deploy/",
       "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "Voidを使い、ReactとD1でメモアプリを作る手順を解説。loaderや型付きAPI、void deployによるDB作成・マイグレーション・Cloudflare公開まで学べます。",
+          "tags": [
+            "AI要約",
+            "Void",
+            "Cloudflare",
+            "Vite",
+            "React",
+            "チュートリアル"
+          ],
+          "timestamp": "2026/10/19 03:51"
+        },
         {
           "user": "nguyen-oi",
           "comment": "importからインフラ推論して自動構成は便利そうだけど挙動のブラックボックス化がちと怖いわ",
@@ -422,14 +333,14 @@
           "timestamp": "2026/10/18 20:15"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:57.969997+00:00"
+      "fetchedAt": "2026-10-18T20:24:56.762429+00:00"
     },
     {
       "id": "h_842b6a7d",
       "title": "オンボーディングをAIエージェントに任せたら、もはや別ゲーだった | BLOG - DeNA Engineering",
       "url": "https://engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
       "domain": "engineering.dena.com",
-      "bookmarkCount": 31,
+      "bookmarkCount": 44,
       "summary": "メンバーの立ち上げもAI Nativeに チームに人が入るたびに同じ説明を繰り返していませんか？散らばった資料から使えそうなものを探してませんか？重い腰を上げて作成したオンボーディング資料集、もう古くなってませんか？ 本記事では部のオンボーディングをGitHubリポジトリに集約し、Claude Codeを伴走させる仕組みを...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/engineering.dena.com/blog/2026/10/ai-agent-onboarding/",
       "comments": [
@@ -440,8 +351,110 @@
           "timestamp": "2026/10/18 20:15"
         }
       ],
-      "fetchedAt": "2026-10-18T15:41:58.689322+00:00"
+      "fetchedAt": "2026-10-18T20:24:57.022625+00:00"
+    },
+    {
+      "id": "h_40e82486",
+      "title": "『コミックシーモア』サービス再開の見通し立たず「正確な再開日時をお伝えすることが困難な状況です」（オリコン） - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/articles/df7e374ecdb58831f4b5f497fdcf5407c9af4e36",
+      "domain": "news.yahoo.co.jp",
+      "bookmarkCount": 34,
+      "summary": "『コミックシーモア』（オリコン） 一時サービスを停止中の電子コミックサイト『コミックシーモア』は18日、サービス再開の見通しが立たないことを報告した。第三者による不正アクセスが行われ、一部顧客の会員情報が流出したことを受け、15日からサービスを一時停止している。 【Xより】会員情報が流失！『コミックシ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/articles/df7e374ecdb58831f4b5f497fdcf5407c9af4e36",
+      "comments": [
+        {
+          "user": "m7g6s",
+          "comment": "システムが古くて一から作り直さないとすぐ乗っ取られるんだろうな",
+          "tags": [],
+          "timestamp": "2026/10/19 04:01"
+        },
+        {
+          "user": "yorkfield",
+          "comment": "ニコニコ動画が攻撃受けたときも結構長いこと止まってたし、同レベルの被害があったのかな？",
+          "tags": [],
+          "timestamp": "2026/10/19 02:25"
+        },
+        {
+          "user": "fallout1999",
+          "comment": "購入履歴残っているなら、同業他社のシステム使ってサービス再開した方が早いかも",
+          "tags": [],
+          "timestamp": "2026/10/19 02:00"
+        },
+        {
+          "user": "n2sz",
+          "comment": "3日経っても復活できないのは相当だな。こんな中でRentaもやられてるのか…",
+          "tags": [],
+          "timestamp": "2026/10/19 01:56"
+        },
+        {
+          "user": "take-it",
+          "comment": "ラムサムウェアの被害に遭ったわけでもなさそう？だし、なんだろう。しかしこれが業務システムやらインフラ系で起きたらシャレにならん。",
+          "tags": [],
+          "timestamp": "2026/10/19 01:53"
+        },
+        {
+          "user": "ustam",
+          "comment": "NTT系だよね？　iモードの頃からのサービスだそうだから、恐ろしく古のコードが書かれてそう。",
+          "tags": [],
+          "timestamp": "2026/10/19 01:53"
+        }
+      ],
+      "fetchedAt": "2026-10-18T20:24:55.647128+00:00"
+    },
+    {
+      "id": "h_26ea28ad",
+      "title": "無料でメモをノート・カンバン・タスク・ダッシュボード・マークダウン・グラフ表示の6つに対応できAI連携・ブラウザ拡張機能・PWA・自動バックアップもできる「Poznote」、オープンソースでセルフホスト可能",
+      "url": "https://gigazine.net/news/20261018-poznote/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 14,
+      "summary": "仕事や日常生活でメモを取っていると文章の記録・タスクの管理・スケジュールの確認など、情報の種類に応じて複数のアプリを使い分けることがあります。こうした情報を1カ所にまとめ、ノート・カンバン・タスク・ダッシュボード・Markdown・グラフなどの形式で管理できるほか、AI連携・ブラウザ拡張機能・自動バックアッ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261018-poznote/",
+      "comments": [],
+      "fetchedAt": "2026-10-18T20:24:58.165247+00:00"
+    },
+    {
+      "id": "h_81727ed6",
+      "title": "アップル iPhone Duo、「並外れた予約需要」。すでに出荷予定は2027年1月下旬以降、高額転売も | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/18/5603.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 5,
+      "summary": "アップルは初の折りたたみスマートフォン「iPhone Duo」の予約受付を2026年10月16日午前5時（米国時間、日本では16日午後9時）に開始しました。ところが予約申し込みが殺到した結果、すでに公式ウェブサイトで予約した場合の出荷予定日は、2027年1月以降にずれ込む状況になっています。 アップルはメディアに対する声明...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/18/5603.html",
+      "comments": [
+        {
+          "user": "mojimojikun",
+          "comment": "生産台数に対しての予約数が多かったことはわかった。これなら急いでDuo対応しなくてもよかったんじゃ感あるなぁ(´・ω・`)",
+          "tags": [],
+          "timestamp": "2026/10/18 20:55"
+        }
+      ],
+      "fetchedAt": "2026-10-18T20:24:57.280328+00:00"
+    },
+    {
+      "id": "h_50db3d97",
+      "title": "Amazon GuardDuty RDS Protection が Aurora と RDS のデータベースにおけるデータの不正流出と破壊の検出に対応 - AWS",
+      "url": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+      "domain": "aws.amazon.com",
+      "bookmarkCount": 5,
+      "summary": "AWS は、2026 Gartner Magic Quadrant の SCPS 部門でリーダーに選ばれました",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/about-aws/whats-new/2026/10/guardduty-rds-data-exfiltration/",
+      "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "Amazon GuardDuty RDS ProtectionがAuroraとRDSのデータベースにおけるデータの不正流出・破壊の検出に対応したAWS新機能を紹介する。",
+          "tags": [
+            "AI要約",
+            "GuardDuty",
+            "RDS",
+            "セキュリティ",
+            "AWS",
+            "ニュース"
+          ],
+          "timestamp": "2026/10/19 03:51"
+        }
+      ],
+      "fetchedAt": "2026-10-18T20:24:57.558466+00:00"
     }
   ],
-  "lastCollection": "2026-10-18T15:41:59.484877+00:00"
+  "lastCollection": "2026-10-18T20:24:58.165269+00:00"
 }
