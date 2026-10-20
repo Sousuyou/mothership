@@ -1,442 +1,542 @@
 {
   "entries": [
     {
-      "id": "h_38976536",
-      "title": "仕事を進めるだけでは、仕事しか進まない。木こりのジレンマを Claude Code で解いた5ヶ月の記録 - RAKUS Developers Blog | ラクス エンジニアブログ",
-      "url": "https://tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
-      "domain": "tech-blog.rakus.co.jp",
-      "bookmarkCount": 183,
-      "summary": "朝、森を歩いていた旅人が、木を切っている木こりを見かけました。夕方、同じ道を戻ると、木こりはまだ同じ木を切っています。見ると、ノコギリの刃はぼろぼろに欠けていました。 旅人が声をかけます。「木こりさん、ノコギリの刃を研いだらどうですか」。木こりは答えます。「木を切るのに忙しくて、研いでいる暇なんて...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech-blog.rakus.co.jp/entry/20261019/weekly-reflection",
-      "comments": [
-        {
-          "user": "macj_jp",
-          "comment": "“毎回、KPT、各行動が「今の等級の要件か、一つ上の要件か」を示す表、辛口の解剖メモ、判定可能な形に直した Try、来週の確認観点、の5つの要素で返ってきます。”",
-          "tags": [],
-          "timestamp": "2026/10/20 01:12"
-        },
-        {
-          "user": "eagle2017",
-          "comment": "読もうかなと思って記事を開いたけど、ゴリゴリAI臭い絵が目に入ってそっ閉じした",
-          "tags": [],
-          "timestamp": "2026/10/19 23:59"
-        },
-        {
-          "user": "soybeancucumber",
-          "comment": "進次郎構文の新作かと思った",
-          "tags": [],
-          "timestamp": "2026/10/19 21:47"
-        },
-        {
-          "user": "gaikichi",
-          "comment": "スキルアップや効率化で確実に収入も増えるみたいなインセンティブが可視化されていればやる気も出るのだが…",
-          "tags": [],
-          "timestamp": "2026/10/19 21:38"
-        },
-        {
-          "user": "misshiki",
-          "comment": "Claude Codeを毎週金曜12時に自動起動し、5ヶ月で19回の振り返りを継続。雑なKPTを等級基準で整理し、履歴を1ファイルに蓄積。成果の見落としや先送りの癖を拾い、次の行動を期限付きで具体化する。事実確認は本人が担う。",
-          "tags": [
-            "Claude Code"
-          ],
-          "timestamp": "2026/10/19 21:10"
-        },
-        {
-          "user": "lbtmplz",
-          "comment": "世の中が雑な仕事で早いのをツッコミがしやすいというだけで評価しないのが悪い",
-          "tags": [],
-          "timestamp": "2026/10/19 21:10"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:22.246276+00:00"
-    },
-    {
-      "id": "h_06a6821d",
-      "title": "Claude Codeに全部任せて開発してたエンジニアの末路、1〜2ヶ月後ガチで地獄ですよ｜ゆうき｜月収100万円超エンジニアを多数輩出",
-      "url": "https://note.com/yukiedu/n/n4d25f5e1d590",
-      "domain": "note.com",
-      "bookmarkCount": 128,
-      "summary": "Claude Codeに、全部任せて開発してる現場。 めっちゃ多いんですけど。 1〜2ヶ月後、ガチで地獄になるの、知ってます? 今、現場でリアルに起きてる現象なんですよ。 「検索機能、作って」 Claude Codeに、ポンって投げる。 バーって、コード出てくる。 動く。 「お、いけたな」って、マージ。 最近入った現場、こんな感...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/yukiedu/n/n4d25f5e1d590",
-      "comments": [
-        {
-          "user": "wkpn",
-          "comment": "今のAIが賢いのはそうだけど、それでもやはり全体を俯瞰しての判断は苦手という印象。分野にもよるのかもだけど、ちょこちょこ何でそんな書き方に！？っていうコードを提案してくる。計画段階で直してる。",
-          "tags": [],
-          "timestamp": "2026/10/20 07:11"
-        },
-        {
-          "user": "KatsumiShichiichigo",
-          "comment": "お手本ののような情報商材への入り口",
-          "tags": [
-            "テクノロジー"
-          ],
-          "timestamp": "2026/10/20 07:11"
-        },
-        {
-          "user": "nakamura-kenichi",
-          "comment": "従来開発モデルのまんま末端だけAI導入したらまあそうなる。そもリスク背負って外に出す意味もう無いからな。DDDで現場の決裁権者が必要なフローからツールからをAIで定期的に丸っぽ作り直して貰ったらええんやで。",
-          "tags": [],
-          "timestamp": "2026/10/20 07:07"
-        },
-        {
-          "user": "kudoku",
-          "comment": "“同じ商品一覧のAPIなのに、ファイルごとにレスポンスの形が違う。→出力するレスポンスの書式を統一して。で解決しない？",
-          "tags": [],
-          "timestamp": "2026/10/20 07:01"
-        },
-        {
-          "user": "peketamin",
-          "comment": "“新機能を1個追加するたびに、別の機能が壊れる。  別を直すと、また他が壊れる。  直しても直しても、次々と別が壊れる。  リリース予定日、後ろにずれていく。”",
-          "tags": [],
-          "timestamp": "2026/10/20 07:00"
-        },
-        {
-          "user": "Flume",
-          "comment": "そんなレベルの低いエンジニアしかいない現場だったら、AIが無くてもコピペして動いたからまあいっかってなるだけやろ。んな現場が多くてたまるかよ。",
-          "tags": [],
-          "timestamp": "2026/10/20 06:57"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:19.822874+00:00"
-    },
-    {
-      "id": "h_0793aa0b",
-      "title": "相次ぐ不正アクセスの攻撃元の多くがAIであることを確認 | セキュリティブログ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ",
-      "url": "https://gmo-cybersecurity.com/blog/20261019/",
-      "domain": "gmo-cybersecurity.com",
-      "bookmarkCount": 109,
-      "summary": "GMOサイバー犯罪対策センターの福森です。 前回の記事の続報です。日本企業を狙った侵害事案において攻撃元インフラを調査したところ、AIによる自律型ペネトレーションテストシステムであるARTEXが使われていることを確認いたしました。前回の記事ではフォレンジックログからAIによる攻撃である可能性が高いと推定してお...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gmo-cybersecurity.com/blog/20261019/",
-      "comments": [
-        {
-          "user": "miata98",
-          "comment": "CrowdStrikeのサイトをチェックしとけば良いんだねと思った😇",
-          "tags": [],
-          "timestamp": "2026/10/20 06:26"
-        },
-        {
-          "user": "csal8040",
-          "comment": "日本企業を狙った侵害事案において攻撃元インフラを調査したところ、AIによる自律型ペネトレーションテストシステムであるARTEXが使われていることを確認いたしました。",
-          "tags": [],
-          "timestamp": "2026/10/20 05:13"
-        },
-        {
-          "user": "defiant",
-          "comment": "この記事をおすすめしました",
-          "tags": [
-            "サイバー攻撃",
-            "脆弱性",
-            "人工知能",
-            "techfeed"
-          ],
-          "timestamp": "2026/10/20 02:58"
-        },
-        {
-          "user": "mohno",
-          "comment": "「日本企業を狙った侵害事案において攻撃元インフラを調査したところ、AIによる自律型ペネトレーションテストシステムであるARTEXが使われていることを確認いたしました」←休みなく攻撃されてるわけだからなあ。",
-          "tags": [
-            "GMO",
-            "サイバーセキュリティ",
-            "インターネット",
-            "人工知能",
-            "生成AI",
-            "セキュリティ",
-            "攻撃",
-            "ARTEX"
-          ],
-          "timestamp": "2026/10/20 00:29"
-        },
-        {
-          "user": "megumin1",
-          "comment": "直感ですけどこの記事もこの著者も信用できない。信用できる人が書くような記事じゃないです。信用できる人の書く記事というのは、もっと\"ちゃんと\"しており、こんな中途半端な状態で発表など絶対にしないです。",
-          "tags": [],
-          "timestamp": "2026/10/19 23:38"
-        },
-        {
-          "user": "NOKIA",
-          "comment": "n=1で恐縮だけど、個人で開発している自分専用のWEBサービス（インフラはAWS）のWAFでブロックしたログをみていると、ここ2〜3ヶ月で指数関数的にアクセスが増えていてビビっている。（念のためIP制限かけているが…）",
-          "tags": [],
-          "timestamp": "2026/10/19 23:22"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:22.531034+00:00"
-    },
-    {
-      "id": "h_e1374aea",
-      "title": "デジタル庁、Androidのマイナカード対応機種を公開",
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2149346.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 98,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2149346.html",
-      "comments": [
-        {
-          "user": "Kenju",
-          "comment": "めっちゃたくさん端末買ってテストしたのね。お金の無駄",
-          "tags": [],
-          "timestamp": "2026/10/20 07:08"
-        },
-        {
-          "user": "pochi-taro00",
-          "comment": "nfcが乗ってれば使えるはずなんだけどね",
-          "tags": [],
-          "timestamp": "2026/10/20 04:27"
-        },
-        {
-          "user": "ryudenx",
-          "comment": "まさかこれ全部テストしたの？",
-          "tags": [],
-          "timestamp": "2026/10/20 04:26"
-        },
-        {
-          "user": "tottotto2009",
-          "comment": "対応機種を公開するのにどうしてキャリア別にするんだ？これを見ておかしいと思わない奴はかなり侵されている。普通にメーカー別にするだろ？しかも最初にgoogleが来るだろ？Androidなのに。ホントに日本は狂ってる。",
-          "tags": [],
-          "timestamp": "2026/10/20 02:37"
-        },
-        {
-          "user": "kamiokando",
-          "comment": "NFC読めたらいけると思ってた。",
-          "tags": [],
-          "timestamp": "2026/10/20 02:01"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/10/20 00:58"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:23.298531+00:00"
-    },
-    {
       "id": "h_f0780c10",
       "title": "ひとり会社が、AIと二人でISMSを取った話｜村山毅 Tim",
       "url": "https://note.com/timtarou/n/n5443f159e7bc",
       "domain": "note.com",
-      "bookmarkCount": 62,
+      "bookmarkCount": 232,
       "summary": "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。登録番号は 50301853 ISMS22 です。 コンサルには頼んでいません。ISMS専用のSaaSも使っていません。設立1年目のひとり会社が、AI社員と二人三脚で、マネジメントシステムそのものを自社で作りました。 構築にかかった実質工数は約3日、審査対応は別...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/timtarou/n/n5443f159e7bc",
       "comments": [
         {
-          "user": "ryudenx",
-          "comment": "ちょうど考えていたところ。参考になる",
-          "tags": [],
-          "timestamp": "2026/10/20 00:49"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:20.647473+00:00"
-    },
-    {
-      "id": "h_be36ad5d",
-      "title": "お客さま向け会員サイト「My SoftBank」の一時的な停止について | 企業・IR | ソフトバンク",
-      "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
-      "domain": "softbank.jp",
-      "bookmarkCount": 55,
-      "summary": "このたび、お客さま向け会員サイト「My SoftBank」の一部のシステムに対して、第三者による不正アクセスの試みがあったことが判明しました。そのため、お客さま情報の安全措置の一環として10月17日午前8時から「My SoftBank」「My Y!mobile」「My Menu」のウェブサイトを一時的に停止しています。「My SoftBank」「My Y!...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.softbank.jp/corp/news/press/sbkk/2026/20261019_01/",
-      "comments": [
-        {
-          "user": "yosiro",
-          "comment": "止めて漏れてないならOK。漏れてたならふざけんな。",
-          "tags": [],
-          "timestamp": "2026/10/20 05:57"
-        },
-        {
-          "user": "Pinon3s",
-          "comment": "23日までに復旧してほしい。でないと、linemoでベストプランVに乗り換えると２ヶ月使用料無料になるキャンペーンが終わってしまう。",
-          "tags": [],
-          "timestamp": "2026/10/20 00:57"
-        },
-        {
-          "user": "tacamula",
-          "comment": "数年前に回線開通手続きに必要なパスワードが分からず問い合わせした時、生パスワードをチャットで送られてきて不安になったの思い出した。リセット前提のパスワードだったとか不安が正しかったのかは分からないが",
-          "tags": [],
-          "timestamp": "2026/10/20 00:02"
-        },
-        {
-          "user": "kijtra",
-          "comment": "漏洩させず止めたったわwってドヤりにも見える",
-          "tags": [],
-          "timestamp": "2026/10/19 23:48"
-        },
-        {
-          "user": "mujou03",
-          "comment": "ここ最近の漏洩多発はPaaSが売れるようにマッチポンプかとちょっとだけ疑ってた",
-          "tags": [],
-          "timestamp": "2026/10/19 23:43"
-        },
-        {
-          "user": "auto_chan",
-          "comment": "ちょうど土曜にWebのMy Softbankでやりたい手続き（アプリ版では未対応）があったのにずーっと止まってて迷惑旋盤加工。チャッピーに4時間おきにチェックして再開したら教えてってスケジュール機能初めて使ったわ。",
-          "tags": [],
-          "timestamp": "2026/10/19 23:22"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:23.570018+00:00"
-    },
-    {
-      "id": "h_b430a984",
-      "title": "【資料公開】AIで組織を加速させる勘所",
-      "url": "https://www.ryuzee.com/contents/blog/14627",
-      "domain": "ryuzee.com",
-      "bookmarkCount": 30,
-      "summary": "みなさんこんにちは。@ryuzeeです。 仕事でAIを使うのは当たり前になっていて、もうAIがなかった頃には戻れないと考えている人も多いのではないかと思います。 一方で、「ある大手企業が1人あたりのAI利用額に月3000円くらいの上限を設けた」みたいな話も聞こえてきます。偉い人からすると、「全社で見ると相当の金額を...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.ryuzee.com/contents/blog/14627",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "作る速度だけ上がってもレビュー待ちと判断が詰まるってのは開発の現場あるあるだな",
-          "tags": [],
-          "timestamp": "2026/10/20 07:07"
-        },
-        {
-          "user": "stabucky",
-          "comment": "「リードタイムの多くは承認待ちやレビュー待ちなどの「待ち」。」の部分は正しいと思うが、であればここにAIを使えばいい。「レビューは人の目で」という時期は終わっている。",
-          "tags": [],
-          "timestamp": "2026/10/20 05:46"
-        },
-        {
-          "user": "solaris_almagest",
-          "comment": "文字数多い資料だな。テキストでいいじゃん",
-          "tags": [],
-          "timestamp": "2026/10/20 02:11"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:23.873730+00:00"
-    },
-    {
-      "id": "h_93642b2d",
-      "title": "JP Incident Monitor",
-      "url": "https://elkentaro.github.io/jp_incidents/",
-      "domain": "elkentaro.github.io",
-      "bookmarkCount": 20,
-      "summary": "Cyber incidents in Japan Publicly reported cybersecurity incidents affecting Japanese organizations, collected from news, security publications, and official notices. This index is collected automatically and analyzed with AI. It may contai",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/elkentaro.github.io/jp_incidents/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "ここ数日の日本企業の漏洩ラッシュが可視化されてて絶望感すごいダッシュボードだな",
-          "tags": [],
-          "timestamp": "2026/10/20 07:07"
-        },
-        {
-          "user": "eschan",
-          "comment": "「信頼度」ってどう言う意味の？",
-          "tags": [],
-          "timestamp": "2026/10/20 06:23"
-        }
-      ],
-      "fetchedAt": "2026-10-19T22:12:20.916876+00:00"
-    },
-    {
-      "id": "h_8acf1507",
-      "title": "サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡",
-      "url": "https://www.yomiuri.co.jp/national/20261019-GYT1T00477/",
-      "domain": "yomiuri.co.jp",
-      "bookmarkCount": 15,
-      "summary": "【読売新聞】 国内の企業・団体がサイバー攻撃を受けて個人情報が大量漏えいしている問題で、システムの 脆弱 （ ぜいじゃく ） 性を診断する中国語のＡＩ（人工知能）エージェントが一部の攻撃で悪用されたとみられることが１９日、日本のセキ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/national/20261019-GYT1T00477/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "AIエージェントに自動で脆弱性突かれる時代とか防御側が無理ゲーすぎるな",
-          "tags": [],
-          "timestamp": "2026/10/20 07:07"
-        },
-        {
-          "user": "rinxmoon",
-          "comment": "毎日ニュースになってるけど、公表してる会社の10倍も公表してない会社があるのか？！ “保険、金融、物流など計約８０社が攻撃され、うち８社は実際に情報漏えいの被害を公表しているという”",
-          "tags": [],
-          "timestamp": "2026/10/20 07:01"
-        },
-        {
-          "user": "ardarim",
-          "comment": "オープンAI系は中国が強いわけでこういう攻撃に中国系AIが使われるケースが多いのだろう。",
+          "user": "strawberryhunter",
+          "comment": "「審査会社は国内に約30社あり」「1年目はどこも50〜60万円前後」「3年で100万円ほどが目安」それで「AIで会計事務所向けのBPOをやってます。」か。結局この筆者を信用するかだと思う。",
           "tags": [
-            "人工知能",
-            "セキュリティ"
+            "未分類"
           ],
-          "timestamp": "2026/10/20 06:56"
+          "timestamp": "2026/10/20 11:55"
         },
         {
-          "user": "torum",
-          "comment": "防御対策を行うためのツールが攻撃にも悪用されちゃうから面倒だよね。これでは防衛側に手段はなくなって、攻撃側だけがツールを持っている状態になっちゃう。免許を持った企業だけがツールを利用できるようにする？",
+          "user": "wizardofpain",
+          "comment": "ひとりだから情報資産の洗い出しやリスクアセスメントもやりやすいというのはあるだろうね。でも構築3日というのはすごい。",
           "tags": [],
-          "timestamp": "2026/10/20 06:14"
+          "timestamp": "2026/10/20 11:25"
         },
         {
-          "user": "hozho",
-          "comment": "“システムの 脆弱 性を診断する中国語のＡＩエージェントが一部の攻撃で悪用されたとみられることが１９日、日本のセキュリティー会社の調査でわかった。少なくとも国内約８０社の攻撃に使われた可能性がある。”",
-          "tags": [
-            "ニュース>へー",
-            "世俗>インフラ",
-            "世俗>企業",
-            "生活>パソコン･ネット",
-            "科学>AI･ロボット"
-          ],
-          "timestamp": "2026/10/20 05:16"
+          "user": "doko",
+          "comment": "ISMSより前の経営の設計　と言っているとおりで、逆にたぶん、取りやすいのだと思う。取る意味があるのかどうかはよくわからない。監査員の人（たち）も、身も蓋もない応対を受けたのだろうと想像する",
+          "tags": [],
+          "timestamp": "2026/10/20 10:20"
+        },
+        {
+          "user": "splitaces",
+          "comment": "最近は小規模組織のうちにISMS含めセキュリティ対応するのがトレンドっぽいけど、AIにやらせたとしても、情報セキュリティ管理者が網羅的に内容を理解し、継続的に対応できてるかが重要だよな。",
+          "tags": [],
+          "timestamp": "2026/10/20 09:56"
+        },
+        {
+          "user": "tpircs",
+          "comment": "10/1より前ならセーフかな？「2026年10月1日より利用規約が変更になりました。特に、規格のAI利用は認められていない点、ご注意ください。」https://webdesk.jsa.or.jp/common/W10K0030/?post_type=book_common&page_id=b_j_libraryserver_riyoukiyaku",
+          "tags": [],
+          "timestamp": "2026/10/20 09:38"
+        },
+        {
+          "user": "tofu-mental",
+          "comment": "規格のAI利用は認められていないような",
+          "tags": [],
+          "timestamp": "2026/10/20 09:06"
         }
       ],
-      "fetchedAt": "2026-10-19T22:12:20.133764+00:00"
-    },
-    {
-      "id": "h_1f2b576f",
-      "title": "GitHub - carnot-tech/jinba-consulting-pptx-skill: AIにまじなPPTXを作らせる Claude Code / Codex スキル",
-      "url": "https://github.com/carnot-tech/jinba-consulting-pptx-skill",
-      "domain": "github.com",
-      "bookmarkCount": 9,
-      "summary": "AIに「まじ」なPowerPointを作らせるためのClaude Codeスキル。 AIワークフロープラットフォーム Jinba を提供するメンバーにより作成されました。 スライドの設計規約、規約違反を見つける機械チェック、62型のHTMLパーツ集（基本27＋追加35）、型カタログPDFをまとめたものです。資料は HTML（16:9）で組み、Chrome で...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/carnot-tech/jinba-consulting-pptx-skill",
-      "comments": [],
-      "fetchedAt": "2026-10-19T22:12:24.319833+00:00"
+      "fetchedAt": "2026-10-20T04:24:06.696218+00:00"
     },
     {
       "id": "h_bc37b7d4",
       "title": "最近Gemini使い始めたけど、明らかにchatGPTの方が優秀じゃないか？「Geminiはやる気あるバカってイメージ」「嘘しかつかないので使うのやめました」",
       "url": "https://togetter.com/li/2760356",
       "domain": "togetter.com",
-      "bookmarkCount": 8,
+      "bookmarkCount": 151,
       "summary": "最近Gemini使い始めたけど、明らかにchatGPTの方が優秀じゃないか？「Geminiはやる気あるバカってイメージ」「嘘しかつかないので使うのやめました」",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760356",
       "comments": [
         {
-          "user": "nguyen-oi",
-          "comment": "モデルの向き不向きもあるけどハルシネーションの堂々とした態度は確かに草",
+          "user": "tsukarukatamade",
+          "comment": "ジェミニが良いか悪いかについて考えるのが俺８年ぶりだわ",
           "tags": [],
-          "timestamp": "2026/10/20 07:07"
+          "timestamp": "2026/10/20 13:21"
         },
         {
-          "user": "daruyanagi",
-          "comment": "Gemini アプリはマジで嘘つき……本来の性能はもっと高そうだし、エンドユーザー向けにいろいろ制限加えているせいだと思うけど、逆にあぶねえ（",
+          "user": "miki3k",
+          "comment": "画像認識はGeminiのほうが良い感じ",
           "tags": [],
-          "timestamp": "2026/10/20 07:01"
+          "timestamp": "2026/10/20 13:10"
         },
         {
-          "user": "sds-page",
-          "comment": "チャッピー反抗的だから太鼓持ちして欲しいときはジェミニ",
+          "user": "You-me",
+          "comment": "geminiはまだ大胆に嘘つくの残ってますねぇだからgemini使うときは気をつけてます／最近あったことだと「〜した新聞記者をあげて」と頼んだら全員新聞記者じゃなかったということがあり（実在はした",
+          "tags": [],
+          "timestamp": "2026/10/20 12:55"
+        },
+        {
+          "user": "tg30yen",
+          "comment": ">Geminiの利点は一度に読める量が桁違い 何枚もあってダルいPDFや写真から文字起こししたり、音声を文字に起こす時に使うといいよ。GeminiでできることはGeminiにやってもらった方が、チャッピーの制限喰らいにくくていい",
           "tags": [
-            "ChatGPT",
-            "AI",
-            "イメージ"
+            "AI"
           ],
-          "timestamp": "2026/10/20 06:21"
+          "timestamp": "2026/10/20 12:50"
+        },
+        {
+          "user": "yunotanoro",
+          "comment": "Googleドライブが使えるし、chatGPTはデスクワークの実務性が低いイメージだけど。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:49"
+        },
+        {
+          "user": "tyosuke2011",
+          "comment": "それな",
+          "tags": [
+            "AI",
+            "togetter"
+          ],
+          "timestamp": "2026/10/20 12:42"
         }
       ],
-      "fetchedAt": "2026-10-19T22:12:22.905766+00:00"
+      "fetchedAt": "2026-10-20T04:24:04.330082+00:00"
     },
     {
-      "id": "h_fa125ea0",
-      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社 | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
-      "domain": "news.web.nhk",
-      "bookmarkCount": 4,
-      "summary": "国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われていたことを確認した」とする担当者の見解を…",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261020de61888",
-      "comments": [],
-      "fetchedAt": "2026-10-19T22:12:24.575618+00:00"
+      "id": "h_8acf1507",
+      "title": "サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡",
+      "url": "https://www.yomiuri.co.jp/national/20261019-GYT1T00477/",
+      "domain": "yomiuri.co.jp",
+      "bookmarkCount": 119,
+      "summary": "【読売新聞】 国内の企業・団体がサイバー攻撃を受けて個人情報が大量漏えいしている問題で、システムの 脆弱 （ ぜいじゃく ） 性を診断する中国語のＡＩ（人工知能）エージェントが一部の攻撃で悪用されたとみられることが１９日、日本のセキ",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/national/20261019-GYT1T00477/",
+      "comments": [
+        {
+          "user": "tendon_katsudon",
+          "comment": "まぁ中国かロシアが多いんだろうな",
+          "tags": [],
+          "timestamp": "2026/10/20 13:05"
+        },
+        {
+          "user": "BoiledEgg",
+          "comment": "安価で高性能なAIモデルなんて中国製しかありえないのでまあせやろなって感じ",
+          "tags": [],
+          "timestamp": "2026/10/20 12:57"
+        },
+        {
+          "user": "shinji",
+          "comment": "そろそろエージェント警察とか出てきてほしい。よくわからないので。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:45"
+        },
+        {
+          "user": "ya--mada",
+          "comment": "あ、増えてる。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:18"
+        },
+        {
+          "user": "macro1597",
+          "comment": "中国にGPUを売ってたエヌビディアのCEOも同罪",
+          "tags": [],
+          "timestamp": "2026/10/20 11:09"
+        },
+        {
+          "user": "ustar",
+          "comment": "中国のAIはちょっと倫理観にクセがあって高性能なんで扱いづらいけどオープンなのでみんな頭抱えるしかないよね",
+          "tags": [],
+          "timestamp": "2026/10/20 10:33"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:04.719831+00:00"
+    },
+    {
+      "id": "h_9ce4894b",
+      "title": "イーロン・マスク氏、米国の子ども全員に「SpaceX株を1株ずつ」配布すると宣言",
+      "url": "https://japan.cnet.com/article/35253730/",
+      "domain": "japan.cnet.com",
+      "bookmarkCount": 90,
+      "summary": "イーロン・マスク氏は10月19日（日本時間）、2027年に米国のすべての子どもに、自身が保有する宇宙開発企業SpaceXの株式を1株ずつ贈る意向をXで表明した。 SpaceX本社でのマスク氏（右、2019年10月撮影。出典：NASA、撮影：NASA/Aubrey Gemignani） ※クリックすると拡大画像が見られます マスク氏は「来年、米国のすべて...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35253730/",
+      "comments": [
+        {
+          "user": "entryno001",
+          "comment": "大半が所有を忘れて消えるだろ",
+          "tags": [],
+          "timestamp": "2026/10/20 13:20"
+        },
+        {
+          "user": "dp212",
+          "comment": "大人にはトランプ配当、子どもにはイーロン配当か…",
+          "tags": [],
+          "timestamp": "2026/10/20 12:36"
+        },
+        {
+          "user": "fish7",
+          "comment": "U2みたいなことするじゃん",
+          "tags": [],
+          "timestamp": "2026/10/20 12:17"
+        },
+        {
+          "user": "tSU_RooT",
+          "comment": "証券口座にイーロンの息がかかってるとか？",
+          "tags": [],
+          "timestamp": "2026/10/20 12:13"
+        },
+        {
+          "user": "Nihonjin",
+          "comment": "「米国の子ども全員を自分の養子にする」とかのほうが面白いと思う。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:02"
+        },
+        {
+          "user": "ssfu",
+          "comment": "こいつ、いくらでもウソをつく人間だからな。",
+          "tags": [],
+          "timestamp": "2026/10/20 11:51"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:05.653582+00:00"
+    },
+    {
+      "id": "h_1f2b576f",
+      "title": "GitHub - carnot-tech/jinba-consulting-pptx-skill: AIにまじなPPTXを作らせる Claude Code / Codex スキル",
+      "url": "https://github.com/carnot-tech/jinba-consulting-pptx-skill",
+      "domain": "github.com",
+      "bookmarkCount": 73,
+      "summary": "AIに「まじ」なPowerPointを作らせるためのClaude Codeスキル。 AIワークフロープラットフォーム Jinba を提供するメンバーにより作成されました。 スライドの設計規約、規約違反を見つける機械チェック、62型のHTMLパーツ集（基本27＋追加35）、型カタログPDFをまとめたものです。資料は HTML（16:9）で組み、Chrome で...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/carnot-tech/jinba-consulting-pptx-skill",
+      "comments": [
+        {
+          "user": "walkalone",
+          "comment": "Claude Code/Codexで実用的なPPTXを作らせるスキル",
+          "tags": [
+            "AI",
+            "ツール",
+            "メソッド",
+            "事例"
+          ],
+          "timestamp": "2026/10/20 10:20"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:07.571721+00:00"
+    },
+    {
+      "id": "h_2aa43f68",
+      "title": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 62,
+      "summary": "米Appleのワールドワイドマーケティング担当上級副社長、グレッグ・ジョズウィアック氏は10月19日（現地時間）、Xに「Can’t wait to pro and tell next week.」と投稿した。Appleのロゴを指で描くような動画が添えられている。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/20/2000002404/",
+      "comments": [
+        {
+          "user": "hase0510",
+          "comment": "タッチパネルの「ゴリラアーム問題」が解決されたとでもいうのか？",
+          "tags": [],
+          "timestamp": "2026/10/20 13:12"
+        },
+        {
+          "user": "kilinbox",
+          "comment": "MacBookPro使ってるけどタッチ欲しいと思ったことないな。Surface Laptopも使ってて、こっちにはタッチスクリーンあるんだけどタッチ使ってないな　どちらも満足な製品だけどもね",
+          "tags": [],
+          "timestamp": "2026/10/20 13:08"
+        },
+        {
+          "user": "higgsino",
+          "comment": "タッチスクリーンなんてマウスやトラックパッドなどのポインティングデバイスがない場合の代用品にすぎないのに",
+          "tags": [],
+          "timestamp": "2026/10/20 13:03"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "iPadの差別化ができないから売らないんだと思ってた。ティム・クックが止めてたんだろう。",
+          "tags": [
+            "携帯電話・携帯端末"
+          ],
+          "timestamp": "2026/10/20 12:58"
+        },
+        {
+          "user": "georgew",
+          "comment": "タッチスクリーン付ノートPCなんて要らないよー。手垢で汚れたスクリーンを見ながらタイピングなんて嫌だわ。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:49"
+        },
+        {
+          "user": "kirarapoo",
+          "comment": "イメージキャラクターは舘ひろしかタッチおじさんで",
+          "tags": [],
+          "timestamp": "2026/10/20 12:46"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:05.074321+00:00"
+    },
+    {
+      "id": "h_421b0fb8",
+      "title": "OSS Scanner",
+      "url": "https://red.anthropic.com/oss-scanner/",
+      "domain": "red.anthropic.com",
+      "bookmarkCount": 48,
+      "summary": "OSS Scanner is a service by Anthropic to scan open-source repositories for security vulnerabilities. It’s an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will re",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/red.anthropic.com/oss-scanner/",
+      "comments": [
+        {
+          "user": "tal9",
+          "comment": "Anthropic、OSSの脆弱性を無償スキャンするサービスを開始",
+          "tags": [],
+          "timestamp": "2026/10/20 13:13"
+        },
+        {
+          "user": "circled",
+          "comment": "僕「anthropicのoss scannerで脆弱性が見つかったよ。Claude、これを直して」 Claude『あー、脆弱性を助ける作業は出来ないんだ。悪いな。』 僕「なんでだよ！お前んとこのサービスだろ！」Claude『おっ、カスハラか？垢BANな！』",
+          "tags": [],
+          "timestamp": "2026/10/20 11:36"
+        },
+        {
+          "user": "progrhyme",
+          "comment": "AnthropicがOSSのバグや脆弱性を無料でスキャンしてレポートしてくれるって",
+          "tags": [],
+          "timestamp": "2026/10/20 08:49"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "AnthropicのOSS ScannerはDockerfileで無通信環境の解析を行い、脆弱性を人手レビュー後にメール報告（fast trackも可）。",
+          "tags": [
+            "AI要約",
+            "セキュリティ",
+            "脆弱性",
+            "OSS",
+            "サービス",
+            "ガイド",
+            "security"
+          ],
+          "timestamp": "2026/10/09 18:25"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:06.965082+00:00"
+    },
+    {
+      "id": "h_eca4eaed",
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "domain": "publickey1.jp",
+      "bookmarkCount": 47,
+      "summary": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表 Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "comments": [
+        {
+          "user": "hdampty7",
+          "comment": "SSRならJSである必要性もないし、この辺ほんと非効率なクソを取り除かないで何とか便利にしますっていう最悪エンジニアリングが継続するんだな。富豪的を超えてなんていうんだろうね。",
+          "tags": [],
+          "timestamp": "2026/10/20 11:04"
+        },
+        {
+          "user": "monomoti",
+          "comment": "こいつはいいな",
+          "tags": [],
+          "timestamp": "2026/10/20 10:03"
+        },
+        {
+          "user": "Goldenduck",
+          "comment": "これは楽",
+          "tags": [],
+          "timestamp": "2026/10/20 09:46"
+        },
+        {
+          "user": "gabill",
+          "comment": "おい、AWS Amplifyじゃないか。ひさしぶり。2027年5月に終了すると聞いて心配してたけど、元気になったんだな。",
+          "tags": [],
+          "timestamp": "2026/10/20 09:27"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "VercelからこぞってLambdaに回帰しそうだがコールドスタートと実運用の癖が気になるな",
+          "tags": [],
+          "timestamp": "2026/10/20 09:05"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:07.312811+00:00"
+    },
+    {
+      "id": "h_259c55c8",
+      "title": "1か月ぐらいClaude Codeと伴走してたけどもう疲れてしまった。育てたら快適になると信じて育ててたけど、もはや健康被害が出そうなレベルで強いストレスを感じている。AI使うのやめたいです。→「ClaudCodeとAIを新入社員に読み替えてみたら分かりやすいのですが。 そのつもりで使うとまた違うんですけどね」",
+      "url": "https://posfie.com/@petaritape/p/aa5HeGM",
+      "domain": "posfie.com",
+      "bookmarkCount": 46,
+      "summary": "なみき @sasaki445 1か月ぐらいClaude Codeと伴走してたけどもう疲れてしまった。育てたら快適になると信じて育ててたけど、もはや健康被害が出そうなレベルで強いストレスを感じている。AI使うのやめたいです。 2026-10-19 11:37:32",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/aa5HeGM",
+      "comments": [
+        {
+          "user": "rdlf",
+          "comment": "完璧主義なら大枠を作らせて細かいところは手動で直してしまった方が早かったりしない？てか、その辺の判断をなぜ1ヶ月たってもできないのか？",
+          "tags": [],
+          "timestamp": "2026/10/20 13:15"
+        },
+        {
+          "user": "unmarshal",
+          "comment": "むしろ、完璧主義を「こんなもんでいいんだよ」ってAIのおかげで和らげてもらってる",
+          "tags": [],
+          "timestamp": "2026/10/20 13:07"
+        },
+        {
+          "user": "asahiufo",
+          "comment": "オメーに使い方の知恵が無かっただけだろ。俺は完璧主義っていう自称完璧なだけであって、全然自身が完璧ではないという可能性は無いのか？",
+          "tags": [],
+          "timestamp": "2026/10/20 13:01"
+        },
+        {
+          "user": "suka6411144",
+          "comment": "とりあえずこの人の下で働きたくはないなぁという感想を持った",
+          "tags": [],
+          "timestamp": "2026/10/20 12:59"
+        },
+        {
+          "user": "abcdefghijklmnopqrstuvwxy5",
+          "comment": "部下にもとんでもないマイクロマネジメントしてそう",
+          "tags": [],
+          "timestamp": "2026/10/20 12:42"
+        },
+        {
+          "user": "morimarii",
+          "comment": "LLMは人間の認知と似ているので完璧はない。決定論と非決定論の問題。完璧求めるならスクリプト作らせてスクリプトを実行させよう",
+          "tags": [],
+          "timestamp": "2026/10/20 12:39"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:05.327558+00:00"
+    },
+    {
+      "id": "h_3ef70b5b",
+      "title": "新コード決済「teppay」きょう開始 提供の狙いは？ “キャッシュレス疲れ”解消なるか",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/20/news042.html",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 33,
+      "summary": "10月20日、JR東日本の「モバイルSuica」アプリにて新たなコード決済サービス“teppay（テッペイ）”が順次スタートする。2027年春にはパスモとの提携により、「モバイルPASMO」アプリでの提供も予定されている。サービス開始に際し、teppayの概要や提供の狙い、そして今後の展開を整理する。 teppayの主な特徴と機能 既存...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/mobile/articles/2610/20/news042.html",
+      "comments": [
+        {
+          "user": "ayustet",
+          "comment": "事業者側の都合だけでユーザーのメリットが全くわからん。2万上限で問題ないし、キャッシュレス疲れって何？何でマイナンバー？",
+          "tags": [],
+          "timestamp": "2026/10/20 13:13"
+        },
+        {
+          "user": "rococosha",
+          "comment": "「サービス乱立によるキャッシュレス疲れの解消を目指し」！？",
+          "tags": [],
+          "timestamp": "2026/10/20 13:05"
+        },
+        {
+          "user": "adliblogger",
+          "comment": "開始早々アタックにさらされてそうで...",
+          "tags": [],
+          "timestamp": "2026/10/20 12:53"
+        },
+        {
+          "user": "call_me_nots",
+          "comment": "モバイルSuica 更新したらやっと出てきた",
+          "tags": [],
+          "timestamp": "2026/10/20 12:53"
+        },
+        {
+          "user": "takeishi",
+          "comment": "いくら使えるのが全国と言っても事業者がJR東日本なので、PayPayやイオンペイと殴り合って生き残る体力が有るかどうかについては一抹の不安が。エキナカの買い物でポイントくれるならteppay作るとは思うが",
+          "tags": [
+            "コード決済"
+          ],
+          "timestamp": "2026/10/20 12:50"
+        },
+        {
+          "user": "MiUPa",
+          "comment": "どうしてもくりぃむしちゅー有田が脳裏をよぎる。なんならアリペイも有田哲平が頭をよぎる。キャッシュ疲れ解消しても有田疲れが生まれるんだよね。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:42"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:05.981880+00:00"
+    },
+    {
+      "id": "h_ae041b0c",
+      "title": "「つけたスター・ついたスター」一覧の表示期間を直近3か月に変更します - はてなスター日記",
+      "url": "https://star.hatenastaff.com/entry/2026/10/19/140533",
+      "domain": "star.hatenastaff.com",
+      "bookmarkCount": 28,
+      "summary": "いつもはてなスターをご利用いただき、ありがとうございます。 2026年10月26日より、はてなスターページ内「つけたスター・ついたスター」一覧に表示する履歴を直近3か月分に変更します。変更後は、それより前の履歴をこの一覧で確認できなくなります。 「つけたスター・ついたスター」の履歴は、本来3か月分を保持する...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/star.hatenastaff.com/entry/2026/10/19/140533",
+      "comments": [
+        {
+          "user": "Tack2Me",
+          "comment": "これは嫌",
+          "tags": [],
+          "timestamp": "2026/10/20 12:06"
+        },
+        {
+          "user": "psne",
+          "comment": "はい",
+          "tags": [],
+          "timestamp": "2026/10/20 11:51"
+        },
+        {
+          "user": "ys0000",
+          "comment": "スターが通年カウントできなくなるの？SNSとして重要な部分が一つ消えるような気がするな。それがはてなの選択ならしゃーないんだろうけども／別にスターのためにコメントはしてないが貰えると嬉しいものではあったよ",
+          "tags": [],
+          "timestamp": "2026/10/20 11:35"
+        },
+        {
+          "user": "inazuma2073",
+          "comment": "嫌だッ！気落ちした時にあの一覧を眺めていたのに…せめてダウンロードさせてくれ…！あの一覧は引用ブコメを眺めるのに最適だったんだッ",
+          "tags": [],
+          "timestamp": "2026/10/20 11:31"
+        },
+        {
+          "user": "rgfx",
+          "comment": "あの一覧アホみたいに重かったもんなあ。",
+          "tags": [],
+          "timestamp": "2026/10/20 11:14"
+        },
+        {
+          "user": "kenzy_n",
+          "comment": "あとの履歴は☆レポートメール配信などでチェックということか。",
+          "tags": [
+            "はてな",
+            "webサービス"
+          ],
+          "timestamp": "2026/10/20 10:58"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:06.280280+00:00"
+    },
+    {
+      "id": "h_291275fe",
+      "title": "32GBでQwen3.8-Flash-Nextが動く！Strata 0.2.0ベータ",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2149485.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 22,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2149485.html",
+      "comments": [
+        {
+          "user": "TakenokoGod",
+          "comment": "プライムデーでパーツを新調しなかったことが吉と出るか凶と出るか。",
+          "tags": [],
+          "timestamp": "2026/10/20 12:55"
+        },
+        {
+          "user": "kotaponx",
+          "comment": "LM studioぐらいのGUIラッパ付かんかな",
+          "tags": [],
+          "timestamp": "2026/10/20 12:10"
+        },
+        {
+          "user": "fusionstar",
+          "comment": "0.2.0 beta はインストーラー付きのデスクトップアプリになって導入のハードルが下がったのもトピック。",
+          "tags": [],
+          "timestamp": "2026/10/20 11:36"
+        }
+      ],
+      "fetchedAt": "2026-10-20T04:24:07.845456+00:00"
     }
   ],
-  "lastCollection": "2026-10-19T22:12:24.575642+00:00"
+  "lastCollection": "2026-10-20T04:24:07.845488+00:00"
 }
