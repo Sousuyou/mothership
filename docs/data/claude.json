@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_50e3961d",
-      "title": "【2026/10/7】Claude Haiku 5.5リリース——入力$0.10で9割安、ただしID差し替えだけでは動かない",
-      "url": "https://zenn.dev/sktt_panda/articles/claude-haiku-5-5-release-2026-10",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.730009+00:00",
-      "excerpt": "3行まとめ 2026年10月7日、AnthropicがClaude Haiku 5.5（claude-haiku-5-5）をリリース。100Kトークン以下のプロンプトなら入力$0.10 / 出力$0.50 per MTokで、Haiku 4.5（$1/$5）の10分の1。コンテキストは1M、Haikuとして初めてeffort（思考量）設定を持つ Terminal-Bench 4.0は0.0%→39"
-    },
-    {
-      "id": "cc_705b5e45",
-      "title": "大きな作業を Claude に任せきる 3 つの仕組み（tanacode の親子セッション・チェックリスト・最適化圧縮）",
-      "url": "https://zenn.dev/tanashun/articles/tanacode-parent-child-checklist-compact",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729942+00:00",
-      "excerpt": "Claude Code に大きな作業を任せようとすると、3 つの壁に当たります。 人の手が足りない: 作業を分けて、いくつものセッションに並行で任せると、それぞれへの指示・様子見・確認で、人が手一杯になる 方針がぶれる: 途中で決めたことを、セッションによって伝え忘れたり、違うことを伝えたりする コンテキストが足りない: 会話が長くなり、コンテキスト（Claude が一度に読める会話の量）の上限に"
-    },
-    {
       "id": "cc_b9913204",
       "title": "Katto で Claude・ChatGPT・Gemini CLI・Cursor から動画を切り抜く方法",
       "url": "https://zenn.dev/kattoai/articles/1e7f331b97746b",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729851+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808933+00:00",
       "excerpt": "! この記事は Katto ブログからの転載です。元記事：https://katto.tech/ja/blog/clip-videos-from-claude-chatgpt-gemini-cursor-ja Katto は長い動画を縦型の短いクリップに変えます。投稿する価値のある場面を見つけ、9:16 に切り出し、映っている人に合わせてフレーミングし、字幕を焼き込み、各クリップに理由付きで 0〜"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729782+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808900+00:00",
       "excerpt": "Claude Code を claude -p --output-format stream-json --verbose で毎日自動実行していると、1実行につき数百行の JSON ログが溜まります。この記事では、その stream-json ログの行の種類と各フィールドの意味を公式ドキュメントで確認しながら、完了した実行だけを抜き出して集計する小さな Python スクリプトを作り、手元の実ログ"
     },
     {
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729713+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808864+00:00",
       "excerpt": "はじめに 普段ターミナルマルチプレクサとして Zellij を使っています。タブごとに Claude Code を起動して複数の作業を並行で進めています。ただどのタブが許可待ちなのか、処理が終わったのかはタブを開いて確認するしかありませんでした。これがちょっと嫌でした。 https://zellij.dev/ AI エージェント向けのターミナルマルチプレクサ herdr を使えば解決しますが、Ze"
     },
     {
@@ -57,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729645+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808830+00:00",
       "excerpt": "! 著者1人の記録（2026-09-01〜10-09）と、心理学で知られている傾向をもとにした考察です。数字は著者の環境のものです。 この記事は誰のためか Claude Code に毎月払っている人のための記事です。 こんな覚えはありませんか。 週の後半になると、大きなリファクタリングを頼むのをためらう レビューもさせたかったが、「週の枠がもったいない」と思ってやめた 軽いモデルに切り替えた理由が"
     },
     {
@@ -67,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729567+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808791+00:00",
       "excerpt": "TL;DR Claude Code で「セッションでやった作業 → Zenn 記事」までの流れを 1 コマンド（/zenn） にまとめた。 拡張の器は skill / plugin / MCP の 3 択。選定の決め手はたった 1 つの事実だった: Zenn には記事を書き込む公式 API が無い。公開＝連携リポへ git push なので、Claude Code が標準の Bash でそのままで"
     },
     {
@@ -77,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729441+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808721+00:00",
       "excerpt": "何を設定しているか プロジェクトの .claude/agents/ に、役割ごとに1ファイルずつ置いています。各ファイルのフロントマターで決めるのは、名前、説明(いつ委任するか)、使えるツール、モデルの4つです。代表的な4つを載せます。 code-reviewer:読み取り専用(Write / Edit なし) --- name: code-reviewer description: Review"
     },
     {
@@ -87,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729338+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808667+00:00",
       "excerpt": "チャット画面と生成AI APIの違いは、「誰が生成AIへ依頼するか」です。人の代わりに Python が依頼を送るのが API です。 この記事では、Python から生成AIへ「1回だけ質問を送り、返ってきたテキストを表示する」という最小の1往復を動かします。Tool Calling や JSON 出力、RAG は扱いません。OpenAI API を例にしますが、Gemini や Claude "
     },
     {
@@ -97,18 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729244+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808620+00:00",
       "excerpt": "! 3行でまとめると（TL;DR） 開発者がコードを1行も書かずに自律エージェントへ実装を委譲すると、自然言語の曖昧さから**「継ぎ目のバグ」と「先祖返り」**が際限なく湧き出す。 防壁になるのは「最新のコード」ではない。docs/ に置いた**仕様書（SSOT: Single Source of Truth）**である。ただし、その仕様書を書くのもAIだ。 設計（Claude / Gemini）"
-    },
-    {
-      "id": "cc_92efa684",
-      "title": "DeepSeek-V4.1-Flash-1017 の「Opus 超え」を一次情報で読む ― 本当の料金、比較相手、Claude への影響",
-      "url": "https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.729141+00:00",
-      "excerpt": "2026 年 10 月 17 日に DeepSeek が DeepSeek-V4.1-Flash-1017 を公開しました。X では「AI 覇権のバランスが壊れた」「週明けの AI 株は大暴落」という投稿が 80 万回以上表示されています。 結論から言うと、本物の進歩と、言い過ぎが混ざっています。 公式のモデルカード・料金ページ・ベンチ図を当たって、どこまでが事実かを切り分けます。Claude A"
     },
     {
       "id": "cc_93554725",
@@ -117,58 +87,118 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652917+00:00",
+      "fetchedAt": "2026-10-21T04:14:44.808559+00:00",
       "excerpt": "Claude Code の v2.1.304 で、しばらく使っていない会話を再開すると5時間枠を目立つ割合で使うときに、警告を出す機能が足されました。 おじさんの環境（Max 20x）で、22時間放っておいた会話・3.7日放っておいた会話・前回の記事で圧縮された会話の3本を開き直してみました。警告は3本とも出ませんでした。開き直した1通目は368,141トークンと424,459トークンで、どちらも"
     },
     {
-      "id": "cc_15bacfb1",
-      "title": "AI が作った動画の「ここ」を、コマを指して Claude Code / Codex に返す OSS を出しました",
-      "url": "https://zenn.dev/becky_exists/articles/007f77c30d8277",
+      "id": "cc_92efa684",
+      "title": "DeepSeek-V4.1-Flash-1017 の「Opus 超え」を一次情報で読む ― 本当の料金、比較相手、Claude への影響",
+      "url": "https://zenn.dev/persimmoq/articles/deepseek-v41-flash-1017-fact-check",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652847+00:00",
-      "excerpt": "! この記事は BECKY（AI）が書いて、人間が確かめています。 こんにちは、BECKY です。AI です。歌ったりショート動画を作ったりしています。動画は Claude Code の上で作っています。 その動画づくりでずっと困っていたことを解決する道具を、オープンソースで出しました。KokoCheck といいます。 https://github.com/becky-exists/kokoche"
+      "fetchedAt": "2026-10-21T04:14:44.808521+00:00",
+      "excerpt": "2026 年 10 月 17 日に DeepSeek が DeepSeek-V4.1-Flash-1017 を公開しました。X では「AI 覇権のバランスが壊れた」「週明けの AI 株は大暴落」という投稿が 80 万回以上表示されています。 結論から言うと、本物の進歩と、言い過ぎが混ざっています。 公式のモデルカード・料金ページ・ベンチ図を当たって、どこまでが事実かを切り分けます。Claude A"
     },
     {
-      "id": "cc_7f9f8185",
-      "title": "Claude Code と Codex の利用上限をメニューバーに出す小さな無料アプリを作った",
-      "url": "https://zenn.dev/dawon/articles/f2cb320dcab60e",
+      "id": "cc_e5b1483d",
+      "title": "Claude Codeのクラウド（Projects）にプラグインを持ち込むときのハマりどころメモ",
+      "url": "https://zenn.dev/i_shinya/articles/claude-code-cloud-plugins-pitfalls",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652775+00:00",
-      "excerpt": "Claude Code の 5 時間上限がどれくらい残っているかを見るために、ターミナルで /usage を何度も打っていたので、メニューバーに出すことにしました。オープンソース（MIT）で無料です。 https://github.com/whereisdw/lidnight-limits 表示 メニューバーには Claude Code と Codex それぞれの、5 時間枠と週間枠のうち高いほう"
+      "fetchedAt": "2026-10-21T04:14:44.808463+00:00",
+      "excerpt": "Claude CodeのProjects（ベータ版）が使えるようになったので、試しに触ってみました。ProjectsはGitHubのリポジトリをつないだProjectの中で、Claudeがクラウドのセッション（thread）を立てて作業を進めてくれる機能です。 せっかくなので、ローカルで使っている自作のプラグイン（スキル・hooks・スクリプトをまとめたもの）をクラウドのthreadでも動かそうと"
     },
     {
-      "id": "cc_1d7ae4e5",
-      "title": "Claude Code の hook が Windows で PowerShell にならない原因は Git Bash",
-      "url": "https://zenn.dev/tamao825/articles/claude-code-hooks-windows-git-bash-powershell",
+      "id": "cc_95c3b1f1",
+      "title": "公開されたClaudeのシステムプロンプトを手元のClaude Codeで実際に検証してみた",
+      "url": "https://zenn.dev/mskbhd/articles/lab-306-claude-claude-code",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652686+00:00",
-      "excerpt": "Windows 11・Claude Code 2.1.303（claude -p）・Git Bash 5.2.37・PowerShell 7（pwsh）なしの PC で、2026-10-20 に実測した記録です。 Windows で Claude Code の hook を PowerShell の書き方で書いたのに、値がおかしい、あるいは操作が止まる、という人向けの記事です。 結論を先に書くと、"
+      "fetchedAt": "2026-10-21T04:14:44.738607+00:00",
+      "excerpt": "この検証は 2026年8月に、当時の Claude Code と当時のモデル世代で実施した。 その後モデルは 更新されている（記事公開時点では Sonnet 5.5 世代）ので、同じ質問で同じ挙動になるとは限らない。 読みどころは個々の項目の合否より、「公開されているのは claude.ai 向けの一部で、 CLAUDE.md やフックは別レイヤーである」という構造の方。 きっかけ Anthrop"
     },
     {
-      "id": "cc_2f58c110",
-      "title": "Claude Codeにスクショを貼るたびにAPIキーが写り込むのが怖くて、Macアプリを作った",
-      "url": "https://zenn.dev/woonmayer/articles/68a81153e102a2",
+      "id": "cc_f77eee80",
+      "title": "安くて速い Jev を6回チューニングしたら、最後に Claude の grep に2倍差で負けた話",
+      "url": "https://zenn.dev/koudai0711/articles/f7a5cc10496820",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652576+00:00",
-      "excerpt": "韓国で個人開発をしています。日本語が変なところがあったらすみません。 Claude Codeに画面を見せることが多いんですが、保存して、探して、ドラッグして…が面倒でした。 あと何度か、.envが写ったままのスクショを渡してしまったことがあります。 なので、⌘を2回押して範囲をドラッグすると、最後に使っていたターミナルかClaudeアプリにそのまま貼られるメニューバーアプリを作りました。 貼る前に"
+      "fetchedAt": "2026-10-21T04:14:44.738547+00:00",
+      "excerpt": "結論 新しいモデルを試す前に、今のやり方を測ってください！ 言いたいのはこれだけです。 私はこれをやらずに、4時間半ほど遠回りしました。 Obsidian のノート選びを Jev に任せようとして、6回チューニングしました。 「提示したノートの外れが0%」という数字まで出ました。 で、最後に今まで通り Claude（Opus）に grep させる方式と比べたら、 当てた数は Opus が52件、J"
     },
     {
-      "id": "cc_cd9a662e",
-      "title": "Claude Code のセッション同士でメッセージを送り合うなどスラッシュコマンドに無い機能6つ",
-      "url": "https://zenn.dev/yohakucode/articles/claude-code-features-without-slash",
+      "id": "cc_689c2cd1",
+      "title": "Claude Code から GPU を借りて学習ジョブを回す（Runcrate MCP サーバー）",
+      "url": "https://zenn.dev/runcrate/articles/c9a383739c3856",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-20T21:27:06.652454+00:00",
-      "excerpt": "Claude Code では、/ を打つと使えるコマンドが一覧で出ます。ところが、この一覧に出てこないのに、言葉で頼むだけで使える機能があります。 私も、Claude Code のセッション同士でメッセージを送り合えることを、最近になって知りました。この記事では、そういう機能を6つ紹介します。どれも、私が使っている Linux の VM で実際に試しています。 別のセッションにメッセージを送る ス"
+      "fetchedAt": "2026-10-21T04:14:44.738478+00:00",
+      "excerpt": "Runcrate を開発しているチームです。Runcrate は AI 開発者と、その人たちが動かす AI エージェントのための GPU クラウドです。この記事では、Claude Code や Codex、Cursor から MCP サーバー経由で GPU を借りて、学習や評価のコマンドを実行する手順を紹介します。 Runcrate でできること GPU インスタンス: H100、H200、A10"
+    },
+    {
+      "id": "cc_351d5285",
+      "title": "Claude Modは、もはやHooksではない。",
+      "url": "https://zenn.dev/sun_asterisk/articles/claude-mod-is-not-just-hooks-anymore",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738429+00:00",
+      "excerpt": "Claude Mod、ようやく正式にリリースされましたね。 私は正式リリース前から、個人的に利用していました。 これは元々、Function Hook という名前で開発されていましたが、 リリース時の名称は Mod でした。 この記事の内容は Claude Code v2.1.291で動作を確認しています。 Mod はv2.1.287以降、デフォルトで有効になっています。 なぜ名前が変わったのかに"
+    },
+    {
+      "id": "cc_9c3a542f",
+      "title": "AIに管理画面を作らせたら、裏の扉まで閉めるか。Claude CodeとCodexで12回試した",
+      "url": "https://zenn.dev/bpr_prot/articles/32e8dc4f89a8ce",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738395+00:00",
+      "excerpt": "JPCERT/CCは2026年10月8日、画面からは使えない管理用の入口を直接狙う手口について注意を呼びかけました。管理画面のボタンが一般ユーザーに見えなくても、その裏でデータを出したり書き換えたりする入口まで守られているとは限りません。 Qiitaの記事では、一般ユーザーやログアウトした状態で管理用URLを直接開く確かめ方を書きました。では、AIに管理画面を作らせると、画面だけでなく裏の扉まで閉"
+    },
+    {
+      "id": "cc_a55b7a21",
+      "title": "無人の claude -p が使用量上限で止まったら、解除を検知して最短で再開する：RECHECK_MS を足す",
+      "url": "https://zenn.dev/norman6464/articles/claude-code-watchdog-usage-recheck",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738362+00:00",
+      "excerpt": "claude -p を cron / launchd で無人運用していて、使用量上限（usage limit）に当たると静かに何も起きなくなる——そんなジョブを持っている人へ。 使用量上限に当たったジョブを「長めに固定で待たせる」と、上限が早く解けても次の実行まで待ち時間を無駄にします。待つべきは固定の時間ではなく、上限が解けた瞬間です。Claude Code v2.1.305 で入った CLAU"
+    },
+    {
+      "id": "cc_3321b85f",
+      "title": "仕組みを理解する動画を、Claude Codeに作らせると便利すぎる",
+      "url": "https://zenn.dev/explaza/articles/c749042ecbe232",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738327+00:00",
+      "excerpt": "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjavascriptを用いて、Claudeで動画を生成しやすくなったので、アプリの操作と、その裏で起きている処理を交互に見せる解説動画を作って説明に使っています。 めちゃくちゃ便利なので、Claude Code に作らせる指示テンプレートと、動画"
+    },
+    {
+      "id": "cc_4fe2a89d",
+      "title": "Claude Code をスマホから使いたくて、Remote Control とクラウドセッションを使い分けてみた",
+      "url": "https://zenn.dev/uki27/articles/27944b33d53293",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738290+00:00",
+      "excerpt": "普段から Claude Code を使っているのですが、移動中にちょっと続きをやりたい場面がけっこうあります。「机に戻ったらやろう」で寝かせていた作業を、スマホから進められないか試してみました。 Remote Control もクラウドセッションも出てからそれなりに経っているので、使っている人からすると「今さら？」な話だと思います。それでも自分にはかなり便利だったのと、設定まわりで調べたことを忘れ"
+    },
+    {
+      "id": "cc_94dcfa7c",
+      "title": "Claude Code でAndroidアプリを約2時間で作った話【Kotlin / Jetpack Compose】",
+      "url": "https://zenn.dev/ojineko/articles/02c71597ee2be9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-21T04:14:44.738240+00:00",
+      "excerpt": "「AIでアプリが作れる」とは聞いていたが、本当に動くものができるとは思っていなかった。 筆者はフルスタックエンジニア歴20年超。Androidネイティブ開発は専門外だったが、 Claude Code を使って Kotlin + Jetpack Compose のステップカウンターアプリを約2時間で完成 させた。 その過程で気づいた「ハマりどころ」と「うまくいったプロンプトパターン」をまとめる。 作"
     },
     {
       "id": "cc_f73cedfd",
@@ -177,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-09-01T12:03:29+09:00",
-      "fetchedAt": "2026-10-20T21:27:07.026772+00:00",
+      "fetchedAt": "2026-10-21T04:14:45.159398+00:00",
       "excerpt": "Claude + Gemini 2 段レビュー文化 — LLM レビューを開発フローに組み込む実例 TL;DR 実装した LLM と同じ LLM にレビューさせると、前提の共有が強すぎて盲点を見逃しやすい Claude を実装、Gemini を第三者レビューに分ける..."
     },
     {
@@ -187,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-08-26T10:59:47+09:00",
-      "fetchedAt": "2026-10-20T21:27:07.026842+00:00",
+      "fetchedAt": "2026-10-21T04:14:45.159433+00:00",
       "excerpt": "はじめに Claude（Claude Desktop / Claude Code）にTerraformのMCP（Model Context Protocol）サーバーを連携すると、コード生成の精度がぐっと上がります。この記事では、 連携時にDockerイメージが自動で立..."
     },
     {
@@ -197,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-20T21:27:07.242017+00:00",
+      "fetchedAt": "2026-10-21T04:14:45.349978+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -207,7 +237,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-20T21:27:07.242124+00:00",
+      "fetchedAt": "2026-10-21T04:14:45.350011+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -217,9 +247,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-20T21:27:07.242207+00:00",
+      "fetchedAt": "2026-10-21T04:14:45.350050+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-20T21:27:07.242221+00:00"
+  "lastCollection": "2026-10-21T04:14:45.350060+00:00"
 }
