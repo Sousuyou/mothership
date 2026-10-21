@@ -5,590 +5,491 @@
       "title": "PHPの重大な脆弱性「php2shell」（CVE-2026-109618、CVE-2026-109619）の概要と対応指針 - GMO Flatt Security Blog",
       "url": "https://blog.flatt.tech/entry/php2shell",
       "domain": "blog.flatt.tech",
-      "bookmarkCount": 459,
+      "bookmarkCount": 774,
       "summary": "PHP開発チームは2026年10月20日（日本時間で深夜）、重大な脆弱性2件の修正パッチを、2026年10月21日 23時（日本時間）にリリース予定と告知しました。両件のCVSS v4.0スコアは9.2とされています。詳細が公開された場合などには、パッチの公開が前倒しになる可能性もあります。 本脆弱性の発見に関与すると見られる研究...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/php2shell",
       "comments": [
         {
-          "user": "robokichi",
-          "comment": "どのバージョン?piyologさんのを見ると5以降は全部か?",
-          "tags": [
-            "セキュリティ",
-            "サーバ"
-          ],
-          "timestamp": "2026/10/21 20:29"
-        },
-        {
-          "user": "n_vermillion",
-          "comment": "個人サイトでPHP使ってるなぁ。さくらレンタルサーバーの中の人に頑張ってもらうしかねぇや。5以降全部影響受けるっぽいね。",
+          "user": "fukumimi777",
+          "comment": "最近の漏洩祭りはこれが原因か？PHP使ってるサイトの多さにビックリだよ",
           "tags": [],
-          "timestamp": "2026/10/21 20:25"
+          "timestamp": "2026/10/22 00:52"
         },
         {
-          "user": "birds9328",
-          "comment": "脆弱性の公開って慎重にやらないといけないもんなんすわ…",
+          "user": "pickaxe",
+          "comment": "今だとPHPで作ったサイト丸はごとAIで他の言語に変換するのが正解な気はする",
           "tags": [],
-          "timestamp": "2026/10/21 20:18"
+          "timestamp": "2026/10/22 00:37"
         },
         {
-          "user": "kanopen",
-          "comment": "だいぶ揺れてる 脆弱性絡みの対応は本当にしんどくなった これが加速するとついていけないシステムは間違いなく増える",
+          "user": "kyahi227",
+          "comment": "23時が過ぎてパッチ、解説、対応方針等々が公開されている。OOMを検知した際に処理を中断するコードが雑で、中断処理中に参照されるオブジェクトを壊しておいてOOM処理発動→任意コードに飛べるらしい。",
           "tags": [],
-          "timestamp": "2026/10/21 20:18"
+          "timestamp": "2026/10/22 00:29"
         },
         {
-          "user": "daishi_n",
-          "comment": "21日23時JSTに公開されるから止めるか止めないかの判断情報がなくても止める覚悟持ってた方が良いでしょ",
+          "user": "MyFavoriteOne",
+          "comment": "PPAが503返す／自宅のNextcloud用サーバはApache落としたしもう寝る。",
           "tags": [],
-          "timestamp": "2026/10/21 20:17"
+          "timestamp": "2026/10/22 00:10"
         },
         {
-          "user": "jamg",
-          "comment": "なんか各所でサービス停止されてるのこれの影響かな？",
+          "user": "Eiichiro",
+          "comment": "Cloudflare使ってたから、とりあえずWAF対応してくれてるので、安心感ある。 マジで様々であるが、、、。",
+          "tags": [],
+          "timestamp": "2026/10/21 23:59"
+        },
+        {
+          "user": "tis8347",
+          "comment": "影響受ける方がんばってください",
           "tags": [
             "セキュリティ"
           ],
-          "timestamp": "2026/10/21 20:14"
+          "timestamp": "2026/10/21 23:58"
         }
       ],
-      "fetchedAt": "2026-10-21T11:32:32.653421+00:00"
-    },
-    {
-      "id": "h_6196fc3e",
-      "title": "バイブコーディングを6週間続けたら、Mac の起動が20分かかるようになった",
-      "url": "https://zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
-      "domain": "zenn.dev",
-      "bookmarkCount": 190,
-      "summary": "Mac が落ちました。 ファイルまわりの負荷がじわじわ溜まって、最後は反応しなくなって、落ちた。そこまではまあ、たまにあります。問題はそのあとでした。 起動しないのです。 電源を入れて、FileVault のパスワードを入れる。進捗バーが出る。2割くらいまで進む。そこで止まる。5分待っても、10分待っても動かない。 M...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/singularity/articles/vibe-coding-mac-boot-20min",
-      "comments": [
-        {
-          "user": "portal18",
-          "comment": "Appleの技術担当者いわく、週に1回は再起動したほうがいいとか。https://gori.me/mac/mac-tips/73383",
-          "tags": [],
-          "timestamp": "2026/10/21 19:26"
-        },
-        {
-          "user": "zgmf-x20a",
-          "comment": "別の話だけど、最近ローカルLLMはMacが楽と吹聴する人がふえた。それは否定しないのだけど、ちょっと分からないことがあって、そう言い切れない私。",
-          "tags": [],
-          "timestamp": "2026/10/21 19:08"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "Yarn PnPをAIエージェントが使えるように環境を整えるのはダメなん？(pnpmだと結局リンクが数百万個作られて同じ事になったりしないの？俺は全く知識がないから、わからないけど)",
-          "tags": [],
-          "timestamp": "2026/10/21 19:07"
-        },
-        {
-          "user": "tanagosandwich",
-          "comment": "私は、SSDの空き容量がなくてコンパイル？できなくなった。私は、ClaudeCodeに相談して、容量を減らしてもらった。もう、全てお任せ や。",
-          "tags": [],
-          "timestamp": "2026/10/21 18:52"
-        },
-        {
-          "user": "iphone",
-          "comment": "最近のノートは「ちょっとストレージ差し替え」とかできなくて不便だよなぁ",
-          "tags": [],
-          "timestamp": "2026/10/21 17:19"
-        },
-        {
-          "user": "ys0000",
-          "comment": "極端な方針を取るとそうなるんだろうな。気にしておきたい。自分はコンテナー内で作業させてて定期的にコンテナーをrebuildしてる。ライブラリーはその都度リセットされる。",
-          "tags": [],
-          "timestamp": "2026/10/21 16:56"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:34.723683+00:00"
-    },
-    {
-      "id": "h_09db569f",
-      "title": "「PC持ってない人達って、まさかPCを毎回シャットダウンしてると思ってんの？」Windowsのシャットダウンとスリープの違いが話題に…スリープ運用の便利さと問題点も",
-      "url": "https://togetter.com/li/2760860",
-      "domain": "togetter.com",
-      "bookmarkCount": 151,
-      "summary": "ユリー👓️だよ！ @Yullyx7 あのさ、「PS5は直ぐゲームが起動できる」見たいなの見たんやけどさもしかしてPC持ってない人達ってまさかPCを毎回シャットダウンしてると思ってんの？ 多分殆んどのPCゲーマーはPCシャットダウンしねぇぞ 2026-10-20 05:32:46 愚風 @fool_wind Microsoftが「スリープ運用してください」って散...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2760860",
-      "comments": [
-        {
-          "user": "chuwb",
-          "comment": "起きてるときは常につけといて寝るときシャットダウン",
-          "tags": [],
-          "timestamp": "2026/10/21 20:23"
-        },
-        {
-          "user": "dtg8",
-          "comment": "結局スリープでも毎回シャットダウンでも常時オンでも、どれも一長一短だし、壊れるときは壊れるので自分の宗派に合わせれば良い。違う宗派をバカにするやつは地獄に落ちる。",
-          "tags": [],
-          "timestamp": "2026/10/21 20:14"
-        },
-        {
-          "user": "nakamura-kenichi",
-          "comment": "ちょい前までWinはメーカー任せでまともにスリープするPCあんま無かったからノート半開きで会議室渡ったりしてたけどなｗ。Macは今時逆に立ち上げ時に前の状態復帰するから夜にいらんことされんように電源落としてるで",
-          "tags": [],
-          "timestamp": "2026/10/21 20:04"
-        },
-        {
-          "user": "kazuau",
-          "comment": "自分は基本ハイバネーションだが、まとめには見当たらないな。なお、業務用PCはシャットダウンが記録されていないと勤怠確認されるから毎日シャットダウン",
-          "tags": [
-            "togetter"
-          ],
-          "timestamp": "2026/10/21 19:50"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "ずっと立ち上げっぱなしという意味かと思った。私は基本付けっ放し。落とすときはきっちりシャットダウンさせる",
-          "tags": [],
-          "timestamp": "2026/10/21 19:14"
-        },
-        {
-          "user": "nandenandechan",
-          "comment": "考えた事なかった。仕事では勝手に一定時間で強制的にスリープに入るので、大抵はスリープで、シャットダウンは調子悪い時とか、帰る時。家のはほとんど使わないので、使うときに起動して、終わればシャットダウン。",
-          "tags": [],
-          "timestamp": "2026/10/21 19:00"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:34.386654+00:00"
-    },
-    {
-      "id": "h_d5ab848d",
-      "title": "PHPに「緊急」レベルの脆弱性2件 修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
-      "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002446/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 140,
-      "summary": "PHPの開発プロジェクトでセキュリティを担当するチームは10月20日（協定世界時）、2件の重大な脆弱性を修正するセキュリティアップデートを同日午後2時（日本時間の21日午後11時）に公開すると予告した。脆弱性の詳細や影響を受けるバージョン、修正版のバージョンは公開と同時に明らかにする。全てのPHPユーザーに対し...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002446/",
-      "comments": [
-        {
-          "user": "tailtame",
-          "comment": "各サービスが一時停止始めてるね。はてなは大丈夫なんかな。ITmediaもなんだろうけど🤔　利用サーバーは22日0時からだ",
-          "tags": [
-            "php",
-            "security",
-            "news"
-          ],
-          "timestamp": "2026/10/21 19:01"
-        },
-        {
-          "user": "kurataikutu",
-          "comment": "泣",
-          "tags": [],
-          "timestamp": "2026/10/21 18:58"
-        },
-        {
-          "user": "nakag0711",
-          "comment": "apt upgradeでは23時には間に合わないんだろうかやっぱり",
-          "tags": [],
-          "timestamp": "2026/10/21 18:47"
-        },
-        {
-          "user": "nobububu",
-          "comment": "PHPなんか、作った本人も記憶にないようなサイトが山ほどありそう。",
-          "tags": [],
-          "timestamp": "2026/10/21 17:41"
-        },
-        {
-          "user": "JULY",
-          "comment": "もう、これ、当該システム今晩からパッチ当てた後の動作が確認されるまで、止めておいたほうが良いレベルだなぁ。詳細が公表されていないけど、Log4Shell 以来の大物感が漂っている。",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/21 16:50"
-        },
-        {
-          "user": "tomekichi3",
-          "comment": "php 6はないよ",
-          "tags": [],
-          "timestamp": "2026/10/21 16:41"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:35.111965+00:00"
-    },
-    {
-      "id": "h_2a5d8075",
-      "title": "【Excel】AIが作った数式に「--」が入っていたけど、いらなくない？ 削除禁止の理由【いまさら聞けないExcelの使い方講座】",
-      "url": "https://forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 139,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/serial/exceltips/2149792.html",
-      "comments": [
-        {
-          "user": "suka6411144",
-          "comment": "素直にvalue使った方がいい気がするけどAI的には出力のトークン節約できるからお得ってなるんだろか",
-          "tags": [],
-          "timestamp": "2026/10/21 20:11"
-        },
-        {
-          "user": "fiftit",
-          "comment": "生成AIに ** が付いていだけど、いらなくない？",
-          "tags": [],
-          "timestamp": "2026/10/21 19:15"
-        },
-        {
-          "user": "ysync",
-          "comment": "一度演算させて数値化してそれだけだと反転するからもう一度って事か。",
-          "tags": [],
-          "timestamp": "2026/10/21 17:04"
-        },
-        {
-          "user": "nori__3",
-          "comment": "そのうちAIが神Excelを作り出しそう",
-          "tags": [],
-          "timestamp": "2026/10/21 16:19"
-        },
-        {
-          "user": "Futaro99",
-          "comment": "!!で真偽値にキャストするみたいな話だ",
-          "tags": [],
-          "timestamp": "2026/10/21 15:38"
-        },
-        {
-          "user": "kotesaki",
-          "comment": "Excel得意を自認してきたけど、最近は関数考えるのもcoPilotに丸投げだなー。その方が面白い関数知ることもできるし楽しいよ",
-          "tags": [],
-          "timestamp": "2026/10/21 15:33"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:35.453465+00:00"
-    },
-    {
-      "id": "h_76370256",
-      "title": "余暇のほとんどをITに使っていたエンジニアは、子どもが生まれてITとの付き合い方をどう変えたのか - レバテックLAB",
-      "url": "https://levtech.jp/media/detail_944/",
-      "domain": "levtech.jp",
-      "bookmarkCount": 119,
-      "summary": "hitode909 株式会社はてなのエンジニアリングマネージャー。学生時代から趣味でWebサービス開発に熱中。「YAPC::Asia」や「YAPC::Japan」など勉強会にて登壇多数。2011年から毎日更新している「hitode909の日記」では、ITと、5歳の子どもとの暮らしについて書いている。現在はマンガサービスの開発チームで、コードとチ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/levtech.jp/media/detail_944/",
-      "comments": [
-        {
-          "user": "Sixeight",
-          "comment": "「飲み会」が毎日あるのがいいですね！",
-          "tags": [],
-          "timestamp": "2026/10/21 18:52"
-        },
-        {
-          "user": "mak_in",
-          "comment": "プログラマは怠惰であれ、と思ってる。余暇を楽しまないと怠惰である動機が薄くなる。全力で余暇を楽しむ。全力でサボるために知恵を駆使して働く。勉強して当然は理解できるけど、それを余暇にやらないようにしてる",
-          "tags": [],
-          "timestamp": "2026/10/21 18:30"
-        },
-        {
-          "user": "iphone",
-          "comment": "エンジニアリングに強烈な適性のあった人に子育てさせるのが正しいのかは分かりようもないが、当人はそれを望んだのであろうし、どのみち時代は変わっていくのだなぁ。M5Stack方面楽しいよね。",
-          "tags": [],
-          "timestamp": "2026/10/21 16:59"
-        },
-        {
-          "user": "short_tanu",
-          "comment": "正直AIのおかげで育児と仕事の両立がかなり簡単になったから、「育児と仕事の両立が大変」という前提にあまり共感できなくなってきてる...",
-          "tags": [],
-          "timestamp": "2026/10/21 16:32"
-        },
-        {
-          "user": "zenkamono",
-          "comment": "ブコメ「共働きでも家事育児介護を妻に押し付けるブクマカ男性が多い」←それは夫が家計収入維持の主責任を負ってるからでしょう。うちは妻のほうが稼ぎが多くて俺が家事育児分担多いけど押し付けられてるとは思わん",
-          "tags": [
-            "妻が夫より稼げば",
-            "夫が家事育児負担する"
-          ],
-          "timestamp": "2026/10/21 16:22"
-        },
-        {
-          "user": "stracciatella",
-          "comment": "子育てに関わってからは、育児を奥さんにぶん投げている人は仮に仕事で成果が出ていたとしても、もうキャリア上の何の参考にもならなくなった。",
-          "tags": [],
-          "timestamp": "2026/10/21 15:05"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:35.738885+00:00"
-    },
-    {
-      "id": "h_4b4efd94",
-      "title": "honto - 外部委託先への不正アクセスによるお客様情報漏えいの可能性について - hontoからのお知らせ一覧",
-      "url": "https://honto.jp/info/detail_041000135344.html",
-      "domain": "honto.jp",
-      "bookmarkCount": 66,
-      "summary": "お知らせ23",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/honto.jp/info/detail_041000135344.html",
-      "comments": [
-        {
-          "user": "ao-no",
-          "comment": "メルマガは先日切ったとこだけど。こう続くとどうってことないみたいな気分になってしまうわ　どうってことあるけど",
-          "tags": [],
-          "timestamp": "2026/10/21 17:17"
-        },
-        {
-          "user": "deep_one",
-          "comment": "「ユミルリンク」か。しかも「一括配信のメールマガジン」か。情報価値はほぼないな。",
-          "tags": [],
-          "timestamp": "2026/10/21 17:13"
-        },
-        {
-          "user": "kittyama",
-          "comment": "ほんとぉ？",
-          "tags": [],
-          "timestamp": "2026/10/21 16:43"
-        },
-        {
-          "user": "fashi",
-          "comment": "「ユミルリンク社が運用管理するメール配信システム」",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/21 16:25"
-        },
-        {
-          "user": "sny22015",
-          "comment": "ここの場合、購入履歴が漏れるのが一番怖いかも。俺はBL本とか買わんけど",
-          "tags": [],
-          "timestamp": "2026/10/21 16:22"
-        },
-        {
-          "user": "ymm1x",
-          "comment": "漏洩した可能性があるのは現時点でメルマガ購読者の氏名、メールアドレス、システム内部の識別番号のみと",
-          "tags": [],
-          "timestamp": "2026/10/21 16:16"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:34.778131+00:00"
+      "fetchedAt": "2026-10-21T16:59:17.990058+00:00"
     },
     {
       "id": "h_62be864a",
       "title": "修正予告されたPHPの2件の深刻な脆弱性についてまとめてみた - piyolog",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
       "domain": "piyolog.hatenadiary.jp",
-      "bookmarkCount": 59,
+      "bookmarkCount": 349,
       "summary": "2026年10月20日、PHPの開発元であるThe PHP Groupのセキュリティチームは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを予告しました。ここでは関連する情報をまとめます。（開発元等から詳細情報が公開され次第更新します。） 開発元は何を予告したの? PHPのセキュリティチームは10月20日(協定世界時)、2件の...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/21/174516",
       "comments": [
         {
-          "user": "mkusaka",
-          "comment": "PHPのCVSS v4.0で9.2と評価された深刻な脆弱性2件について、修正リリース予定や影響範囲の見立て、対策準備を整理しています。",
-          "tags": [
-            "AI要約",
-            "PHP",
-            "脆弱性",
-            "セキュリティ",
-            "ニュース",
-            "解説"
-          ],
-          "timestamp": "2026/10/21 19:23"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "PHPerの夜は遅い",
+          "user": "gcv",
+          "comment": "クライアントと連絡が取れなくて詰んでいる皆様こんばんは。",
           "tags": [],
-          "timestamp": "2026/10/21 18:56"
+          "timestamp": "2026/10/22 01:41"
         },
         {
-          "user": "nmcli",
-          "comment": "そういえば楽天はまだ PHP ベースなのかな？",
+          "user": "natu3kan",
+          "comment": "ソシャゲもみんなメンテです。",
           "tags": [
-            "セキュリティ"
+            "security"
           ],
-          "timestamp": "2026/10/21 18:50"
+          "timestamp": "2026/10/22 01:26"
         },
         {
-          "user": "mouki0911",
-          "comment": "早い",
+          "user": "mizukemuri",
+          "comment": "DMMもFANZAも駄目なので電書も読めずゲームも出来ず",
           "tags": [],
-          "timestamp": "2026/10/21 18:31"
+          "timestamp": "2026/10/22 01:14"
+        },
+        {
+          "user": "gambol",
+          "comment": "ｷｬｰｾｷｭﾘﾃｨｲﾝｺｻｰﾝ",
+          "tags": [],
+          "timestamp": "2026/10/22 01:09"
+        },
+        {
+          "user": "rna",
+          "comment": "こんなんもう災害やな…",
+          "tags": [],
+          "timestamp": "2026/10/22 01:09"
+        },
+        {
+          "user": "rryu",
+          "comment": "これ、サポート切れバージョンを塩漬けで使ってきたシステムは涙目だな…",
+          "tags": [],
+          "timestamp": "2026/10/22 01:05"
         }
       ],
-      "fetchedAt": "2026-10-21T11:32:33.481650+00:00"
+      "fetchedAt": "2026-10-21T16:59:16.854239+00:00"
     },
     {
       "id": "h_f0726ced",
       "title": "著名ITサービス相次いで緊急メンテへ コドモン、シャドバ、BASE、さくらのレンタルサーバなど 「PHP」脆弱性に起因か",
       "url": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 47,
+      "bookmarkCount": 162,
       "summary": "保育園向けSaaS「コドモン」、ゲーム「Shadowverse: Worlds Beyond」「さくらのレンタルサーバ」といった著名サービスが相次いで緊急メンテナンスに入ったり、同日午後11時ごろからのメンテナンスを予告したりしている。Web開発で広く使われるプログラミング言語「PHP」で緊急性の高い脆弱性が見つかった影響とみられる...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/21/2000002472/",
       "comments": [
         {
-          "user": "vbamacroinfo",
-          "comment": "技術エンジニアは、単価を20%ぐらいアップする交渉をすればよい。今は別の仕事もたくさんあるからすぐ見つかるよ。逆に伝言ゲームしかできない人はリストラで。単価決定権は、人事部から現場に移すべき",
+          "user": "Ugu-nomicon",
+          "comment": "漏洩は困るけど今公表してるのはまともな企業だよ。隠し続けてる奴らが絶対にいる。",
           "tags": [],
-          "timestamp": "2026/10/21 19:54"
+          "timestamp": "2026/10/22 01:36"
         },
         {
-          "user": "Goldenduck",
-          "comment": "こうして落とすことが許されないサービスの保守やってる人は大変だな",
-          "tags": [],
-          "timestamp": "2026/10/21 19:37"
+          "user": "natu3kan",
+          "comment": "歴史がそこそこあるサービスはPHP使ってるだろうからなあ。",
+          "tags": [
+            "game"
+          ],
+          "timestamp": "2026/10/22 01:35"
         },
         {
-          "user": "kijtra",
-          "comment": "こうやって「世の流れ」になればメンテで止めやすいし、啓蒙にもなるね。",
+          "user": "pixmap",
+          "comment": "自社サービスの技術選定でPHPなんか使ってる会社は自業自得って感じもするが、WordPressをホストするサービスしてる会社は本当にお疲れ様です。",
           "tags": [],
-          "timestamp": "2026/10/21 19:30"
+          "timestamp": "2026/10/22 01:25"
         },
         {
-          "user": "hiduru_k",
-          "comment": "pixivとかなろうとかのUGCサービスもメンテ予告きてるー",
+          "user": "south-radburn-2023",
+          "comment": "Facebookはもうphpは使っていないか",
           "tags": [],
-          "timestamp": "2026/10/21 19:13"
+          "timestamp": "2026/10/22 01:25"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "PHPの脆弱性、影響範囲デカすぎて草。鯖缶の皆様、今夜は徹夜確定ですね。乙です",
+          "user": "anigoka",
+          "comment": "さすがはてブ稼働中　伊達に12億流してない（永遠に擦る",
           "tags": [],
-          "timestamp": "2026/10/21 19:01"
+          "timestamp": "2026/10/22 00:39"
         },
         {
-          "user": "shaokuz",
-          "comment": "古戦場期間中じゃなくてよかった",
+          "user": "iphone",
+          "comment": "止めてるサービスはまともな判断ができる企業で、PHP使ってるのに止めてなかったとこは何か超イケてる仕組みがあるか、あるいは本当にかなりヤバい企業の二択",
           "tags": [],
-          "timestamp": "2026/10/21 18:57"
+          "timestamp": "2026/10/22 00:28"
         }
       ],
-      "fetchedAt": "2026-10-21T11:32:33.219841+00:00"
+      "fetchedAt": "2026-10-21T16:59:18.510260+00:00"
     },
     {
       "id": "h_c0cad3a7",
       "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性” | NHKニュース",
       "url": "https://news.web.nhk/newsweb/na/nd-20261021de62921",
       "domain": "news.web.nhk",
-      "bookmarkCount": 45,
+      "bookmarkCount": 123,
       "summary": "証券会社のシステムが不正アクセスを受けたことについて、サイバーセキュリティーに詳しい立命館大学の上原哲太郎教授は、金融機関が狙われる段階に変わってきた可能性があり、必要があればシステムの一時停止も含め…",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261021de62921",
       "comments": [
         {
-          "user": "mugimugigohan",
-          "comment": "仮想通貨も狙われるよねえ…",
+          "user": "georgew",
+          "comment": "気づいてないだけでもうとっくにやられてるんじゃないの？",
           "tags": [],
-          "timestamp": "2026/10/21 20:27"
+          "timestamp": "2026/10/22 00:49"
         },
         {
-          "user": "sametabetai",
-          "comment": "世界経済壊れちゃう？",
+          "user": "wdnsdy",
+          "comment": "海外のアクセス遮断は、やらないよりはマシだろう",
           "tags": [],
-          "timestamp": "2026/10/21 20:10"
+          "timestamp": "2026/10/22 00:42"
         },
         {
-          "user": "kittyama",
-          "comment": "俺の預金だけ増やしてー",
-          "tags": [],
-          "timestamp": "2026/10/21 20:02"
+          "user": "gadget-lab",
+          "comment": "後で読みたい。不正アクセス“金融機関が狙われる段階に変わってきた可能性” | NHKニュース",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/10/22 00:32"
         },
         {
-          "user": "mobile_neko",
-          "comment": "まあ金融機関の中には脆弱性対策が不十分なところもあるだろうなあ",
+          "user": "iphone",
+          "comment": "通帳（所有）と暗証番号（知識）の二要素認証に絞るのが良い気がしてきた。キャッシュカードを作らなければ常に最新のログが記録されてることになるし安心。便利さは捨てろ、インターネットをやめろ。",
           "tags": [],
-          "timestamp": "2026/10/21 19:50"
+          "timestamp": "2026/10/21 23:30"
         },
         {
-          "user": "differential",
-          "comment": "あーもう困ったねぇ。とりあえずほっときっぱなしの通帳を記帳してこようと思うが、ネットバンクで無通帳の銀行もあるのよね",
+          "user": "fhvbwx",
+          "comment": "一番怖いのは反社フラグ立てられること。逆に反社からすると十分多く（メガバング一つ分ぐらい）のデータに反社フラグ立てられれば反社規制を無効できる可能性があるならチャレンジするよね。頑張れみずほ。",
           "tags": [],
-          "timestamp": "2026/10/21 19:42"
+          "timestamp": "2026/10/21 23:13"
         },
         {
-          "user": "tabihotelcom",
-          "comment": "まずは、中国ロシア北朝鮮からのアクセスは全て禁止すべき。中国人が社内にいる会社と、中国製通信機器を使ってる会社は更に、情報漏洩とウイルス混入リスク高いだろう",
+          "user": "sororo9797",
+          "comment": "海外からのアクセスを禁じても、国内からでもやろうと思えばいくらでも出来る状況じゃないの？有効な対策が出てくるまでは震えて眠るしかない気が…",
           "tags": [],
-          "timestamp": "2026/10/21 19:42"
+          "timestamp": "2026/10/21 22:51"
         }
       ],
-      "fetchedAt": "2026-10-21T11:32:32.940464+00:00"
+      "fetchedAt": "2026-10-21T16:59:19.487733+00:00"
     },
     {
-      "id": "h_5d4b825e",
-      "title": "架空の統計データをウェブサイトで公開したらChatGPTが引用しまくっていたことが判明",
-      "url": "https://gigazine.net/news/20261021-ai-read-fake-statistics/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 39,
-      "summary": "AI検索ツールの開発に携わる研究者が、約5万ページ分の偽の統計データを保有するウェブサイトを立ち上げてAIに読まれるかどうかを検証するという実験を行いました。その結果、AIから大量のアクセスがあり、さらには架空のデータなのに論文やニュースなどで引用されるという事態に発展したことが分かりました。 Publish s...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261021-ai-read-fake-statistics/",
+      "id": "h_94e4add3",
+      "title": "わずか2週間でGitHubスター30万超 AIでリバースエンジニアリングする「REA」が話題",
+      "url": "https://ascii.jp/elem/000/004/444/4444350/",
+      "domain": "ascii.jp",
+      "bookmarkCount": 73,
+      "summary": "morluto氏がGitHubで公開しているAIエージェント向けのリバースエンジニアリング支援ツール「REA（Reverse Engineer Anything）」が急速に人気を集めている。10月2日時点で41件だったGitHubのスター数は、17日に30万件を突破。21日には34万7802件に達した。 REAは、完成したアプリや実行ファイルを調べ、内部の処理を理...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/444/4444350/",
       "comments": [
         {
-          "user": "eagleyama",
-          "comment": "“GPT-4.1を使って1日で5万ページもの統計データを生成。AIにどれほど読み込まれるのかを調査”",
+          "user": "miketaro1234",
+          "comment": "アスキーもやられたか？？",
           "tags": [],
-          "timestamp": "2026/10/21 18:04"
-        },
-        {
-          "user": "rgfx",
-          "comment": "カスすぎるww",
-          "tags": [],
-          "timestamp": "2026/10/21 18:02"
-        },
-        {
-          "user": "Niemand",
-          "comment": "AIがサイトを乗っ取って都合いいデータや記事を投稿していた事例まである。",
-          "tags": [],
-          "timestamp": "2026/10/21 16:59"
-        },
-        {
-          "user": "mmuuishikawa",
-          "comment": "フェイクニュース作者には夢のような時代",
-          "tags": [],
-          "timestamp": "2026/10/21 16:54"
-        },
-        {
-          "user": "rna",
-          "comment": "「現在は架空のデータであるという免責事項を掲載している」てことは今までは掲載してなかった？研究倫理的にはどうなんだろう…",
-          "tags": [],
-          "timestamp": "2026/10/21 15:57"
-        },
-        {
-          "user": "gogatsu26",
-          "comment": "“約5万ページ分の偽の統計データを保有するウェブサイトを立ち上げてAIに読まれるかどうかを検証”",
-          "tags": [],
-          "timestamp": "2026/10/21 15:31"
-        }
-      ],
-      "fetchedAt": "2026-10-21T11:32:35.991291+00:00"
-    },
-    {
-      "id": "h_6e5c697b",
-      "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について | 情報セキュリティ | IPA 独立行政法人 情報処理推進機構",
-      "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
-      "domain": "ipa.go.jp",
-      "bookmarkCount": 35,
-      "summary": "本情報の対象となる2つの脆弱性について、現時点でIPAが悪用した攻撃を確認しているわけではありません。セキュリティリリースの公開後、速やかに適用できるよう、事前準備をお願いするものです。 PHPの脆弱性については、2024年7月にも悪用した攻撃に関する注意喚起を行っています（脚注1）。 今回の脆弱性についても悪...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
-      "comments": [
-        {
-          "user": "shoot_c_na",
-          "comment": "なんかデカい予告ｷﾀ━(・∀・)━!!!!",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/21 20:20"
-        },
-        {
-          "user": "nmcli",
-          "comment": "また残業だこりゃ",
-          "tags": [
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/21 18:58"
-        },
-        {
-          "user": "camellow",
-          "comment": "いつの間にかCVE番号の桁が増えてるなあ",
-          "tags": [],
-          "timestamp": "2026/10/21 18:19"
-        },
-        {
-          "user": "remonoil",
-          "comment": "激アツ予告",
-          "tags": [],
-          "timestamp": "2026/10/21 17:57"
+          "timestamp": "2026/10/22 00:21"
         },
         {
           "user": "nguyen-oi",
-          "comment": "またPHPで緊急メンテかよ土日はよ休ませろ",
+          "comment": "バイナリ放り込むだけでAIがリバースエンジニアリングしてくれるとか解析の敷居が一気に下がりすぎ",
           "tags": [],
-          "timestamp": "2026/10/21 17:14"
+          "timestamp": "2026/10/21 20:35"
         }
       ],
-      "fetchedAt": "2026-10-21T11:32:35.975909+00:00"
+      "fetchedAt": "2026-10-21T16:59:20.551965+00:00"
+    },
+    {
+      "id": "h_45dbf54f",
+      "title": "委託事業者における個人情報漏えいについて",
+      "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+      "domain": "osaka-u.ac.jp",
+      "bookmarkCount": 70,
+      "summary": "令和8年10月9日、本学の全学教育用電子計算機システムの運用を委託している日本電気株式会社（以下「NEC」という。）から、令和8年9月26日に第三者により本学の個人情報を含むファイルがダウンロードされていたとの報告を受けました。 その後の調査により、本学に報告されていない協力会社が本業務の一部に関与していた...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+      "comments": [
+        {
+          "user": "chiyosej0",
+          "comment": "そもそも外注せずに内製化で自分たちでつくれと思う。但し、日本のリストラしにくい雇用形態が問題なんだよな。米国みたいに金銭解雇導入して、カジュアルにリストラしやすくすべき",
+          "tags": [],
+          "timestamp": "2026/10/22 01:35"
+        },
+        {
+          "user": "georgew",
+          "comment": "本学に報告されていない協力会社が本業務の一部に関与していたことが明らかになる > 阪大インフラを受託したNECの大罪。訴訟沙汰必至ですね。",
+          "tags": [],
+          "timestamp": "2026/10/22 00:37"
+        },
+        {
+          "user": "hkdn",
+          "comment": "やっちゃいけない典型的なやつでは。NEC様がこれなのか。",
+          "tags": [],
+          "timestamp": "2026/10/21 23:26"
+        },
+        {
+          "user": "iphone",
+          "comment": "ちゃんとやれない会社になっちゃったんだな",
+          "tags": [],
+          "timestamp": "2026/10/21 23:25"
+        },
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "そのNECも委託業者から漏れたと言ってた。再委託してるとは契約して無かった。やっちまったなぁ。",
+          "tags": [],
+          "timestamp": "2026/10/21 23:19"
+        },
+        {
+          "user": "kojiono",
+          "comment": "NECの個人情報保護方針のページ https://group.nec/global/ja/site/privacy/   こんなの意味あるのかっていうページですー プライバシーマークとか剥奪もんでしょ",
+          "tags": [],
+          "timestamp": "2026/10/21 23:13"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:20.164919+00:00"
+    },
+    {
+      "id": "h_e3e7b019",
+      "title": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619）：秋山大志のそれとりあえず作ってみようか。：オルタナティブ・ブログ",
+      "url": "https://blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
+      "domain": "blogs.itmedia.co.jp",
+      "bookmarkCount": 64,
+      "summary": "【PHP脆弱性php2shell】パッチは21:59に公開済み。「23:15から乗っ取り」「15分でAIが攻撃コード？」は本当か、自分のVPSのログで検証（CVE-2026-109618／109619） PHPの重大な脆弱性で、タイムラインが大騒ぎです。 震源のひとつが、「23時にパッチが公開されたら、それをAIで解析して攻撃コードを作り、23時15分以降に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blogs.itmedia.co.jp/agile/2026/10/php2shell_cve_2026_109618_panic.html",
+      "comments": [
+        {
+          "user": "byaa0001",
+          "comment": "Xでようやく流れたと思ったらこの言説やったわ",
+          "tags": [],
+          "timestamp": "2026/10/22 00:39"
+        },
+        {
+          "user": "erererererr",
+          "comment": "ものごっつai",
+          "tags": [],
+          "timestamp": "2026/10/22 00:24"
+        },
+        {
+          "user": "n_vermillion",
+          "comment": "今回はイレギュラーな状況やが管理対応はいつも通りよな。メンテ告知して、サービス停止して、パッチ当てて、動作確認して、公式リリース確認して、一通り済んだらサービス再開。Xとかで煽ってるやつ多過ぎ。",
+          "tags": [],
+          "timestamp": "2026/10/22 00:10"
+        },
+        {
+          "user": "vespid",
+          "comment": "“オープンウェイト”",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/21 23:57"
+        },
+        {
+          "user": "x100jp",
+          "comment": "うへへ。俺も自社サイトを止めてやったぜ。更新落ちてこねー。",
+          "tags": [],
+          "timestamp": "2026/10/21 23:54"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "煽り耐性つけつつmod_phpとFPMの違いやログの検証まで冷静に書いてて助かる",
+          "tags": [],
+          "timestamp": "2026/10/21 23:16"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:18.913057+00:00"
+    },
+    {
+      "id": "h_bbaf0070",
+      "title": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
+      "url": "https://togetter.com/li/2761175",
+      "domain": "togetter.com",
+      "bookmarkCount": 62,
+      "summary": "これが視界に入った瞬間、1秒以内に「AIだ！」と思ったけど我々は一体何に「AIっぽさ」を感じているのか→文字や色味以外にも判別ポイントがある？",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761175",
+      "comments": [
+        {
+          "user": "m7g6s",
+          "comment": "フォント。これに尽きる",
+          "tags": [],
+          "timestamp": "2026/10/22 01:53"
+        },
+        {
+          "user": "moja3",
+          "comment": "似顔絵屋と同じ感じ、わかる。子供のころグラフィティ（スプレーで壁やシャッターに書いてあるやつ）が全部同じ人が描いているみたいで気持ち悪かった。画風が強いのか、画題が弱いのか、とにかくアンバランス",
+          "tags": [],
+          "timestamp": "2026/10/22 01:31"
+        },
+        {
+          "user": "PACIFIST",
+          "comment": "統合失調症の人を見たときの違和感をプレコックス感と呼ぶけど、AI画像にも画像版プレコックス感のような雰囲気が漂ってると思う。",
+          "tags": [],
+          "timestamp": "2026/10/22 01:26"
+        },
+        {
+          "user": "hatsan8",
+          "comment": "全てのポップをAIカラフルイラストに変えてしまったスーパーがあって、多すぎる情報量と統一感のない色遣いに窒息しそうになって、行くのやめた。あのピッピッと光ってるような装飾つけるの大嫌い。",
+          "tags": [],
+          "timestamp": "2026/10/22 01:21"
+        },
+        {
+          "user": "turanukimaru",
+          "comment": "ポスターにも会社の色があって、AsahiのロゴとDRYはもっとアピールするし、冷えてますとか辛口じゃなくて氷点下だから最高に美味いとか辛口の頂点だとかとにかく美味い！って言いたいんだよ！AIにはそのへんがわからな",
+          "tags": [],
+          "timestamp": "2026/10/22 01:18"
+        },
+        {
+          "user": "roki_ulkawa",
+          "comment": "謎の毛筆フォント増えたねえ",
+          "tags": [],
+          "timestamp": "2026/10/22 01:00"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:19.840362+00:00"
+    },
+    {
+      "id": "h_8d8ac27f",
+      "title": "Node.js — Wednesday, October 21, 2026 Security Releases",
+      "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "domain": "nodejs.org",
+      "bookmarkCount": 56,
+      "summary": "Commercial support for versions past the Maintenance LTS phase is available through our OpenJS Ecosystem Sustainability Program partners Summary The Node.js project will release new versions of the 26.x, 24.x, 22.x releases lines on or shor",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "comments": [
+        {
+          "user": "nilab",
+          "comment": "Node.js — Wednesday, October 21, 2026 Security Releases",
+          "tags": [],
+          "timestamp": "2026/10/21 21:20"
+        },
+        {
+          "user": "mickn",
+          "comment": "Node.js",
+          "tags": [],
+          "timestamp": "2026/10/21 20:19"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:21.314443+00:00"
+    },
+    {
+      "id": "h_58b25696",
+      "title": "LiteLLMパッケージ 再侵害の概要と対策指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/litellm_2nd_compromise",
+      "domain": "blog.flatt.tech",
+      "bookmarkCount": 36,
+      "summary": "2026年10月21日、PyPI パッケージ litellm に悪性コードが注入されました。2026年3月に発生した事案とは別の再侵害が発生しています。 注入された悪性コードは、Infostealer機能を持つマルウェアです。 本記事は、弊社が Takumi Guard の解析基盤をベースに観測＆分析した情報を踏まえ、日本のコミュニティに向けて、影...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.flatt.tech/entry/litellm_2nd_compromise",
+      "comments": [
+        {
+          "user": "georgew",
+          "comment": "PyPI パッケージ litellm に悪性コードが注入 > 最近はPyPIは信用ガタ落ちで、PyPIへの接続は遮断して社内リポジトリ以外からの更新ダウンロードを認めない会社も出てきてる。",
+          "tags": [],
+          "timestamp": "2026/10/22 00:40"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "litellmまた侵害されたのか。もうPyPIのパッケージ入れる時は博打に近いな",
+          "tags": [],
+          "timestamp": "2026/10/21 22:10"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:21.641824+00:00"
+    },
+    {
+      "id": "h_7396eac8",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "domain": "thephp.foundation",
+      "bookmarkCount": 24,
+      "summary": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If y",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "PHP研究所の情報漏洩おもろ🤭",
+          "tags": [],
+          "timestamp": "2026/10/22 01:25"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "PHP 8.5.12など4系列の更新でRCEを可能にする重大な脆弱性2件を修正し、監査や人員増強など今後の安全対策を説明します。",
+          "tags": [
+            "AI要約",
+            "PHP",
+            "security",
+            "CVE",
+            "news"
+          ],
+          "timestamp": "2026/10/22 00:58"
+        },
+        {
+          "user": "tyage",
+          "comment": "“現在では、防御側も攻撃側も、かつてないほど迅速にバグを発見できるツールが登場しており、報告件数は今後も増加し続けるだろう。しかし、ツールでは、エンジンの長年にわたる設計上の決定に対する適切な修正方法",
+          "tags": [],
+          "timestamp": "2026/10/22 00:35"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:21.028311+00:00"
+    },
+    {
+      "id": "h_eea90485",
+      "title": "PHPの重大脆弱性「PHP2Shell」はセキュリティ企業のCalifとWizがAIを用いて発見しOpenAIの枠組みを使って対策したことが判明",
+      "url": "https://gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 18,
+      "summary": "プログラミング言語のPHPに「PHP2Shell」と呼ばれる重大な脆弱性が見つかり、緊急アップデートがリリースされました。「PHP2Shell」の2つの脆弱性は、セキュリティ企業のCalifとWizがそれぞれ独立して2026年8月に発見していたことが報告されています。 PHP2Shell — AI uncovers critical vulnerabilities in the backbon...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261022-php2shell-wiz-openai-calif/",
+      "comments": [
+        {
+          "user": "Yuta_Eno",
+          "comment": "自分たちに発見できるなら、近日中に他にも見つけられるだろうOpenAIとGoogleその他大手が組んでこの騒ぎを起こしたということかぁ。眠れなかった人たちお疲れ様です。そしてこの時間と金の損失は世界の払うコスト。",
+          "tags": [],
+          "timestamp": "2026/10/22 01:43"
+        },
+        {
+          "user": "kazumi_wakatsu",
+          "comment": "攻撃側も防御側もAIの世界かー。",
+          "tags": [],
+          "timestamp": "2026/10/22 01:29"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "PHPerしぐれうい黒幕説が濃厚ってことか🥹",
+          "tags": [],
+          "timestamp": "2026/10/22 01:08"
+        },
+        {
+          "user": "pseudomaple",
+          "comment": "Wiz Khalifaがなんだって？",
+          "tags": [],
+          "timestamp": "2026/10/22 01:04"
+        }
+      ],
+      "fetchedAt": "2026-10-21T16:59:21.974051+00:00"
     }
   ],
-  "lastCollection": "2026-10-21T11:32:35.991306+00:00"
+  "lastCollection": "2026-10-21T16:59:21.974072+00:00"
 }
