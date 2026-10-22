@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680364+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.925127+00:00",
       "excerpt": "最近は動画で説明資料を作っている アプリの仕組みをお客さんに説明するとき、構成図とかHTML・Markdownで、説明するのが一般的かと思いますが 最近はjavascriptを用いて、Claudeで動画を生成しやすくなったので、アプリの操作と、その裏で起きている処理を交互に見せる解説動画を作って説明に使っています。 めちゃくちゃ便利なので、Claude Code に作らせる指示テンプレートと、動画"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680332+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.925070+00:00",
       "excerpt": "普段から Claude Code を使っているのですが、移動中にちょっと続きをやりたい場面がけっこうあります。「机に戻ったらやろう」で寝かせていた作業を、スマホから進められないか試してみました。 Remote Control もクラウドセッションも出てからそれなりに経っているので、使っている人からすると「今さら？」な話だと思います。それでも自分にはかなり便利だったのと、設定まわりで調べたことを忘れ"
     },
     {
@@ -27,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680292+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924998+00:00",
       "excerpt": "モデルIDを claude-sonnet-5-5 に書き換えただけで、本番のジョブが全部 400 で落ちる。載せ替えで起きがちな事故です。 Sonnet 5.5 は、以前のモデルで普通に通っていたリクエストの形をいくつか拒否します。この記事では、拒否される形を最小リクエストで再現するsmokeテストを書き、新しい書き方に直すところまでを手順にします。 前提は @anthropic-ai/sdk と"
     },
     {
@@ -37,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680249+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924924+00:00",
       "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、内容は公式ドキュメントで確認しています。 Claude API を本番で使うと、429 や 529、500 といったエラーに必ず出会います。「エラーなら全部、数回再試行する」という実装はよく見かけますが、再試行しても直らないエラーまで繰り返すと、待ち時間とコストが増えるだけです。 この記事では、公式ドキュメントをもとに、ステータスコード"
     },
     {
@@ -47,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680215+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924861+00:00",
       "excerpt": "LaunchAgent（macOSのcronのようなもの）から定期的に claude -p \"ok\" を呼ぶ小さなジョブを動かしています。返事の文面には用がなく、呼び出しが成功するか（認証が切れていないか）だけを見る処理です。 ところが、その返事が毎回こう始まっていました。 Obsidian: mistakes.md / Preferences/ / Agent-Handoff.md を自動読み込"
     },
     {
@@ -57,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680177+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924801+00:00",
       "excerpt": "はじめに こんにちは、e-dash でフロントエンドエンジニアをしている Chin です。 AI界隈の情報、追うのしんどくないですか。 Claude Codeはほぼ毎日のようにアップデートされ、新しいSkillsやサブエージェントの活用パターンが次々に生まれ、モデルの提供条件も月単位で変わります。しかも一次情報はほぼ英語です。「始業前に、日本語でまとめて読めたらいいのに」と思いながら、気づけば1週"
     },
     {
@@ -67,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680136+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924729+00:00",
       "excerpt": "はじめに 「AIって難しそう…」と思っていませんか？ Claude Coworkは、コードを一行も書かずにAIを業務に組み込めるデスクトップアプリです。そこにNotionを接続すると、「Claudeに話しかけるだけでNotionが更新される」という世界が実現します。 この記事では、設定の手順を一つひとつ丁寧に解説します。所要時間は約10分です。 この連携でできること（具体例） まず「何ができるか」"
     },
     {
@@ -77,8 +77,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.680029+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.924574+00:00",
       "excerpt": "はじめに 2026年10月8日に、Claude Dashboardがベータ版としてリリースされました。 Databricksなどのデータ基盤に接続し、自然言語での指示からDashboardを作成できる機能です。 本記事では、Databricksに接続し、Claude Dashboardを作成するまでの手順をまとめます。 Databricks Genieファミリーとの使い分けについても、試した範囲で"
+    },
+    {
+      "id": "cc_c753b857",
+      "title": "Claude Codeが要約のあと急に話が通じなくなる問題を、自分の発言を読み戻すフックで減らした",
+      "url": "https://zenn.dev/kirinukiauto/articles/4f6e8e15c4a287",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-22T04:14:36.924490+00:00",
+      "excerpt": "Claude Code に、YouTube の切り抜き動画づくりをほぼ丸ごと任せています。元動画の取得から書き起こし・字幕・表紙・投稿までを AI が回し、人は最後に公開ボタンを押すだけです。 長い作業を任せていると、ある時から急に話が通じなくなることがあります。さっき決めたことを守らない。前に断ったやり方を、また出してくる。 原因はたいてい会話の要約でした。この記事は、それを減らすために作った小"
+    },
+    {
+      "id": "cc_2c76103b",
+      "title": "Claude Code hook の onFailure: block でも止まらない出力と、止まる exit 1",
+      "url": "https://zenn.dev/tamao825/articles/claude-code-hooks-onfailure-block-exit-code-json",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-22T04:14:36.823691+00:00",
+      "excerpt": "Windows 11・Claude Code 2.1.303（claude -p）・Git Bash 5.2.37・Node v24.14.1 で、2026-10-20 と 2026-10-21 に実測した記録です。 Claude Code の hook に \"onFailure\": \"block\" を付けたのに止まらない、あるいは通したいはずの操作まで止まる、という人向けの記事です。PreToo"
+    },
+    {
+      "id": "cc_ed3e6f1d",
+      "title": "「判断」は自分、「作業」は AI。cmux × Claude Code で実装を並列化しつつ「理解を手放さない」開発フロー",
+      "url": "https://zenn.dev/medirom_tech/articles/claude-code-control-tower",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-22T04:14:36.823652+00:00",
+      "excerpt": "AI に並列で作業させて生産性を上げるメリットは享受しつつ、何をするかは自分で決めて、できたものは自分が読んでから通す、という形にしたくて、cmux（AI エージェントを並列で動かすターミナル）と Claude Code でワークフローを組みました。 特別なことはしていませんが、本記事ではその仕組みを紹介します。 全体像 システムの中核は、ターミナルのタブを「司令塔」と「ワーカー」に完全に分離する"
     },
     {
       "id": "cc_866d427a",
@@ -87,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.596053+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823616+00:00",
       "excerpt": "! 3行でまとめると Claude の Pro プラン1本（上位の Max プランなし）で、マインドマップ × Markdown ノートの Web アプリを約4週間で作った 利用枠を溶かさないために、Opus には設計と監査だけをさせ、実装は Sonnet に丸投げする3フェーズ（/design → /build → /check）で回した AI が「動くけど重い」コードを涼しい顔で出してくるので"
     },
     {
@@ -97,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595984+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823555+00:00",
       "excerpt": "Claudeの日本語推敲スキルyomiyasuを含む3種の選び方 Claudeの日本語推敲スキルyomiyasuを含む3種の選び方 この記事の要点 yomiyasu は、Claude で日本語の文章を読みやすく推敲するために話題になった新しいスキルです。詳細は参考記事（https://qiita.com/inoyu-qiita/items/0ffe6e74ecaf3aaa8b14）で紹介されていま"
     },
     {
@@ -107,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595944+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823511+00:00",
       "excerpt": "なぜこの記事を書くのか 当社（合同会社ジョインクラス）では、書籍の執筆、売上集計、朝のダイジェストなどを claude -p のヘッドレス実行で回しています。人が見ていない時間に動くので、Claude Codeのリリースは「便利な新機能」ではなく、コストと事故率が変わるかどうかという目で読む必要があります。 2026年10月は 2.1.287〜2.1.295 と細かいリリースが続きました（一覧は "
     },
     {
@@ -117,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595908+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823474+00:00",
       "excerpt": "🚀 はじめに AIに実装を任せても、画面を開いて動作を確かめるのは人の仕事のまま、という状態になっていないでしょうか。 この記事では、Claude Code と Claude in Chrome を連携して、画面の確認（UIテスト）までAIに任せる方法を紹介します。 Claude Code と Chrome をつなぐ 「開くURL・操作・期待する結果・やってはいけないこと」の4点でテストを指示する"
     },
     {
@@ -127,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595855+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823396+00:00",
       "excerpt": "はじめに Ubuntu 24 で Claude Code（ターミナル版）を使い始めたところ、素の状態では、ターミナルへの日本語入力がとにかく遅かったです。 キーボード連打しても反応せず、会話のテンポがずれて、ストレスが溜まる。せっかく、Claude Code用に、PC1台Ubuntuにセットし直したのに…。 ということで、ドラえもんなんとかしてー みたいにClaude Codeに相談したところ、 "
     },
     {
@@ -137,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595816+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823359+00:00",
       "excerpt": "Claude Code はときどき AskUserQuestion ツールで選択式の質問をしてきます（「どのフレームワークにしますか？」など）。ターミナルの前にいないと、そこで止まったままになります。 フックのドキュメントには -p モードで答える方法（PreToolUse フックが allow と答えを入れた updatedInput を返す）が載っています。通常の対話セッションでも Permi"
     },
     {
@@ -147,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595780+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823321+00:00",
       "excerpt": "はじめに Claude は文章やコードは書けても、画像は生成できません。 ゲーム用のキャラクター画像を「ちょっと作ってほしい」と思ったときに、毎回別のサービスを開くのは面倒です。 そこで、ローカルの画像生成モデルを Claude Code からツールとして呼べる環境を作りました。 Claude Code に手伝ってもらいながら、Docker でも Mac でも Windows でも動くことを目標に"
     },
     {
@@ -157,7 +187,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595736+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823274+00:00",
       "excerpt": "AI の使用上限（一定の利用量に達すると、回復するまで使えなくなる制限）で作業が止まったとき、回復の時刻に会話を自動で再開させる仕組みを作りました。ところが、再開は画面に出ないところで進むので、止まったままの古いターミナル画面（コマンドを打ち込む黒い画面）は、そのことを知りません。そこへうっかり指示を打つと、同じ会話が「裏で進んだ版」と「古い画面の版」の二つに分かれてしまいます。 そこで、古い画面"
     },
     {
@@ -167,7 +197,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595695+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823227+00:00",
       "excerpt": "中小企業の情シスが日々の運用で使えるスクリプトを、Claude Code への依頼文・完成したスクリプト・確かめ方のセットでまとめたレシピ集です。各レシピは架空のデータで自動テストを通したものだけを掲載し、毎週1本を目安に追加します。"
     },
     {
@@ -177,28 +207,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595669+00:00",
+      "fetchedAt": "2026-10-22T04:14:36.823172+00:00",
       "excerpt": "note に、自分ひとりのための週刊誌を AI に作らせている話を書きました。こちらには、その仕組みをまとめます。 https://note.com/mediiiiium/n/nf1ac0ba8eef4 毎週日曜の朝6時に、GitHub Actions で claude -p が動きます。テーマを選び、Web で調べて特集を書き、スクリプトが検品して誌面に組み、GitHub Pages に出して、"
-    },
-    {
-      "id": "cc_c753b857",
-      "title": "Claude Codeが要約のあと急に話が通じなくなる問題を、自分の発言を読み戻すフックで減らした",
-      "url": "https://zenn.dev/kirinukiauto/articles/4f6e8e15c4a287",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595629+00:00",
-      "excerpt": "Claude Code に、YouTube の切り抜き動画づくりをほぼ丸ごと任せています。元動画の取得から書き起こし・字幕・表紙・投稿までを AI が回し、人は最後に公開ボタンを押すだけです。 長い作業を任せていると、ある時から急に話が通じなくなることがあります。さっき決めたことを守らない。前に断ったやり方を、また出してくる。 原因はたいてい会話の要約でした。この記事は、それを減らすために作った小"
-    },
-    {
-      "id": "cc_d6094361",
-      "title": "Claude Code のコミットから Co-Authored-By を消す:attribution.commit の設定",
-      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-attribution-trailer",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-21T21:28:38.595554+00:00",
-      "excerpt": "Claude Code にコミットを作らせると、メッセージの末尾に Co-Authored-By: Claude のようなトレーラーが付き、PR の説明文には「Generated with Claude Code」の一文が入ります。会社のポリシーで署名を統一したい、あるいは付けたくない、という場面は珍しくありません。 結論として、settings.json の attribution キーで、コミ"
     },
     {
       "id": "cc_b2235741",
@@ -207,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-21T21:28:39.157978+00:00",
+      "fetchedAt": "2026-10-22T04:14:37.420770+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,7 +227,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-21T21:28:39.158048+00:00",
+      "fetchedAt": "2026-10-22T04:14:37.420811+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -227,9 +237,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-21T21:28:39.158088+00:00",
+      "fetchedAt": "2026-10-22T04:14:37.420851+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-21T21:28:39.158099+00:00"
+  "lastCollection": "2026-10-22T04:14:37.420862+00:00"
 }
