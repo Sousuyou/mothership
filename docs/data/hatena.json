@@ -1,601 +1,611 @@
 {
   "entries": [
     {
-      "id": "h_fe59c3a5",
-      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
-      "url": "https://inside.pixiv.blog/2026/10/22/193321",
-      "domain": "inside.pixiv.blog",
-      "bookmarkCount": 489,
-      "summary": "こんにちは、Platform Division Infrastructure Unitのpicopicoです。 2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。今回の脆弱性への対応にあたられた皆さま、そして現在も対応を続けている皆さまに、心より敬意を表します。 ピクシブでは影響を受ける...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/inside.pixiv.blog/2026/10/22/193321",
-      "comments": [
-        {
-          "user": "masa8aurum",
-          "comment": "「PHPソース公開後にDockerイメージがすぐに公開されるか不明、仮に公開されてもDocker Hubへのアクセス集中の虞あり」 が予想された→ ソースから自分でイメージをビルド",
-          "tags": [
-            "Security",
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/23 05:30"
-        },
-        {
-          "user": "dbfireball",
-          "comment": "素晴らしい速さでした。事前に仕組みを変えていた効果が出てるのも良き",
-          "tags": [
-            "php",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/23 03:02"
-        },
-        {
-          "user": "mr_mayama",
-          "comment": "これはきちょはな感謝だわ",
-          "tags": [],
-          "timestamp": "2026/10/23 02:51"
-        },
-        {
-          "user": "karia",
-          "comment": "“今回、pixivの稼働環境を、ベアメタルのApache HTTP ServerからKubernetesへ完全移行した翌週の対応となり”",
-          "tags": [],
-          "timestamp": "2026/10/23 02:17"
-        },
-        {
-          "user": "nonsect",
-          "comment": "今回、ほんまpixvi早くてびっくりした。すごい。",
-          "tags": [
-            "pixiv",
-            "php",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/10/23 02:01"
-        },
-        {
-          "user": "zg90",
-          "comment": "「緊急時の対応は普段からの備えがほぼ全てを決める」の見本。俺等も頑張ろう",
-          "tags": [],
-          "timestamp": "2026/10/23 01:31"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:43.072530+00:00"
-    },
-    {
-      "id": "h_59601e5a",
-      "title": "PHP脆弱性“PoCフライング公開”の経緯、支援財団が公表 混乱広げた企業を名指しで批判",
-      "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002525/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 268,
-      "summary": "世界中の企業・組織が対応に追われているプログラミング言語「PHP」の脆弱性。高市早苗首相がSNSで対応を呼びかけたことから、テレビなどでも盛んに報じられ、これまでになく社会を騒がせている。開発プロジェクトは10月21日夜（日本時間、以下同）にセキュリティアップデートを配信したが、一部の企業・組織は22日時点...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/22/2000002525/",
-      "comments": [
-        {
-          "user": "cyber_bob",
-          "comment": "今朝の日経の記事によると、フライング前にすでに攻撃が観測されていたとのことなので苦肉。",
-          "tags": [],
-          "timestamp": "2026/10/23 06:18"
-        },
-        {
-          "user": "sun330",
-          "comment": "サイトの長時間停止とか実被害受けた企業から訴えられたりしないのかな。アメリカならありそうな気がするんですけど。",
-          "tags": [],
-          "timestamp": "2026/10/23 06:06"
-        },
-        {
-          "user": "gcyn",
-          "comment": "読みました。",
-          "tags": [],
-          "timestamp": "2026/10/23 05:23"
-        },
-        {
-          "user": "rainbowviolin",
-          "comment": "ゼロデイの青田買い。既存顧客を守り、将来の顧客を売った企業に未来はない。",
-          "tags": [
-            "企業",
-            "セキュリティ",
-            "トラブル",
-            "PHP"
-          ],
-          "timestamp": "2026/10/23 05:06"
-        },
-        {
-          "user": "h_maz",
-          "comment": "両者の言い分は、 Calif: システム操作上の「不注意による誤公開」。  Chainguard: 「既に攻撃試行が始まっており、情報漏洩によりパッチを留保する方がリスクが高い」という判断による「経営陣承認済みの意図的な早期公開",
-          "tags": [],
-          "timestamp": "2026/10/23 04:45"
-        },
-        {
-          "user": "defiant",
-          "comment": "この記事をおすすめしました",
-          "tags": [
-            "PHP",
-            "セキュリティ",
-            "脆弱性",
-            "techfeed"
-          ],
-          "timestamp": "2026/10/23 03:07"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:43.777456+00:00"
-    },
-    {
-      "id": "h_1de3e284",
-      "title": "パスワードを使い回すなとは言うものの、あらゆるサービスに会員登録させられるし普通に手入力が必要な場面も多くてどうしたらいいんだ？",
-      "url": "https://togetter.com/li/2761441",
-      "domain": "togetter.com",
-      "bookmarkCount": 147,
-      "summary": "ゆるせ @yurusexxx パスワード使い回すな言いますけども今時普通に生きてるだけであらゆるサービスに会員登録させられるし普通に手入力しなければならない場面も出てくるし全部変えてたら分からなくなるし現実的に考えて無理ですよ 2026-10-21 22:43:22 ゆるせ @yurusexxx サービスによって条件が違うのも困る 何文字以...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761441",
-      "comments": [
-        {
-          "user": "Iridium",
-          "comment": "ドメイン取得してメールアドレスをサービスごとにユニークにするのは面白いけど、パスワードを共通にした場合、ニ回流出すると当該ドメインのメアドは全滅する。攻撃者がAIを使ったら検知される",
-          "tags": [],
-          "timestamp": "2026/10/23 04:23"
-        },
-        {
-          "user": "shields-pikes",
-          "comment": "二段階認証もスマホごと盗まれたら終わりだし、パスワードマネージャーも拘束されて脅されたら顔と指紋で開けられるけど、ネットワーク経由での攻撃への防御に限定すれば、そんなに気にしなくていいのでは。",
-          "tags": [],
-          "timestamp": "2026/10/23 03:21"
-        },
-        {
-          "user": "trailhead_l",
-          "comment": "パスワードは1Passwordで全サイト変更、メールはiCloudの「メールを非公開」でサービスごとに分けてる。おかげでどのサイトで漏洩したかすぐに追える。こないだタイムズの登録アドレスに速攻でスパム来て苦笑いしたよ。",
-          "tags": [],
-          "timestamp": "2026/10/23 03:17"
-        },
-        {
-          "user": "hikalin8686",
-          "comment": "パスワードで入力可能な記号や文字数制限を標準化してソースに埋め込めないかなぁ。脆弱にはなるだろうけど、調べたらわかるし、パスワードマネージャーには優しいでしょ",
-          "tags": [],
-          "timestamp": "2026/10/23 02:59"
-        },
-        {
-          "user": "robbie21",
-          "comment": "金融機関がパスワード変更を定期的に促してくる。とくに「ゆうちょ」は強制してきて変更を回避できない。くそ。",
-          "tags": [],
-          "timestamp": "2026/10/23 02:34"
-        },
-        {
-          "user": "hatomugicha",
-          "comment": "パスワードマネージャーとパスキーと二要素認証をスマホで使えでしかなくて不便だの好みじゃないだの言ってる時代でも安心な世の中でもないんだよな",
-          "tags": [],
-          "timestamp": "2026/10/23 02:11"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:47.353398+00:00"
-    },
-    {
-      "id": "h_13b0cbdd",
-      "title": "Claude Opus 5.5でいい感じのアクションゲームを作るための一工夫七つ - ABAの日誌",
-      "url": "https://aba.hatenablog.com/entry/2026/10/22/194027",
-      "domain": "aba.hatenablog.com",
-      "bookmarkCount": 124,
-      "summary": "Opus 5.5はゲームのアイデア作り、設計、実装、ビジュアル作成、作曲や効果音作成、などなど、ゲーム制作に必要な様々なタスクを高い水準でこなしてくれる。単に、こんな感じのゲームを作って、この辺が気に入らないから直して、という指示を与えてもゲームは作れるが、それにちょっとした工夫を加えることで、さらに優...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aba.hatenablog.com/entry/2026/10/22/194027",
-      "comments": [
-        {
-          "user": "peppers_white",
-          "comment": "スキルに関してはとりあえず入れて運用させて人間llm双方から評価がええ、意外と古いスキルでも文法ルールには力があって価値がある",
-          "tags": [],
-          "timestamp": "2026/10/23 05:31"
-        },
-        {
-          "user": "murashit",
-          "comment": "積み重ねてきたセンスが再現可能な形に落とし込まれててさすがすぎる",
-          "tags": [
-            "p"
-          ],
-          "timestamp": "2026/10/23 00:33"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ABAさんのAI使いこなし術はいつも参考になる。ボットにプレイテストさせるの頭良いわ",
-          "tags": [],
-          "timestamp": "2026/10/22 21:44"
-        },
-        {
-          "user": "ABA",
-          "comment": "最近ここで公開していたゲーム群を、エージェントを使ってどのように作っていたかを書いた。自分の分身のボットを作らせてバランス調整させると、自分にとってちょうどいい難しさのゲームになるのでオススメ",
-          "tags": [],
-          "timestamp": "2026/10/22 19:43"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:45.020976+00:00"
-    },
-    {
-      "id": "h_7e7a9f27",
-      "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
-      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
-      "domain": "zenn.dev",
-      "bookmarkCount": 109,
-      "summary": "TL;DR この記事のURLをコーディングAIエージェントに伝えてください。 認証 このリポジトリのサインアップ、ログイン、メール確認、パスワードリセットの実装を調べてください。UI の CAPTCHA や入力チェックを通さず API を直接呼べないか、メール確認前に使える機能がないか確認してください。問題があれば実装箇所と...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/yuiseki/articles/54b01670841898",
-      "comments": [
-        {
-          "user": "peppers_white",
-          "comment": "セキュリティとは別にスキル化されそう",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/23 05:42"
-        },
-        {
-          "user": "fusionstar",
-          "comment": "claude-security プラグインでよくない?",
-          "tags": [],
-          "timestamp": "2026/10/23 00:35"
-        },
-        {
-          "user": "gabill",
-          "comment": "この記事に悪意あるコメントつけられると厄介そう",
-          "tags": [],
-          "timestamp": "2026/10/22 22:28"
-        },
-        {
-          "user": "gogatsu26",
-          "comment": "罠？",
-          "tags": [],
-          "timestamp": "2026/10/22 21:22"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Claude Codeに丸投げするだけでセキュパッチ作れそう草",
-          "tags": [],
-          "timestamp": "2026/10/22 21:12"
-        },
-        {
-          "user": "kenzy_n",
-          "comment": "敵にも味方にもなり得る存在。",
-          "tags": [
-            "セキュリティ",
-            "ui",
-            "AI",
-            "API"
-          ],
-          "timestamp": "2026/10/22 21:01"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:45.336808+00:00"
-    },
-    {
-      "id": "h_5e2c98a6",
-      "title": "いやマジで総理大臣がPHP脆弱性対応について発信してくれたおかげで社内への説明がクソ楽だった…「総理自ら発信するレベルですよ？」で反論・苦情をほとんど封じ込めた",
-      "url": "https://togetter.com/li/2761457",
-      "domain": "togetter.com",
-      "bookmarkCount": 104,
-      "summary": "どら @Drumaster いやマジで総理大臣がPHP脆弱性対応について発信してくれたおかげで社内への説明がクソ楽だった…「総理自ら発信するレベルですよ？？？ニュース見てないんですか？？？」で反論苦情殆ど封じることできた… 2026-10-22 12:14:16 高市早苗 @takaichi_sanae 皆様に、今夜に対応して頂きたい大至急のお願いで...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761457",
-      "comments": [
-        {
-          "user": "greenbuddha138",
-          "comment": "経営層は権威になびきやすく、首相がそれと同じレベルでもの分かってないってこと？",
-          "tags": [],
-          "timestamp": "2026/10/23 06:11"
-        },
-        {
-          "user": "Windfola",
-          "comment": "まあ良いんだけど、ただのWindowsアプリケーション使ってるユーザからまで「他社は皆PHPの使用有無をきちんと報告してるのになぜお前のところは送ってこない」と怒られた一日。",
-          "tags": [],
-          "timestamp": "2026/10/23 05:15"
-        },
-        {
-          "user": "otakumesi",
-          "comment": "説得しないと脆弱性について動かないタイプの人が上に立ってる時点で「間違った会社に入りましたね」くらいの気持ちですけどね。",
-          "tags": [],
-          "timestamp": "2026/10/23 05:09"
-        },
-        {
-          "user": "inks",
-          "comment": "でも、総理としての本業が疎かに成りつつある。Ｇ７会合に出ないとかな...。",
-          "tags": [],
-          "timestamp": "2026/10/23 03:23"
-        },
-        {
-          "user": "hasebearuku",
-          "comment": "熊本地震の時と同じように思うんだが。最適な対応策はケースバイケースだっただろ。今度も高市は自分の批判をかわすためのPRにしか考えてなかったんじゃねぇのか。",
-          "tags": [],
-          "timestamp": "2026/10/23 03:13"
-        },
-        {
-          "user": "testwatanabe",
-          "comment": "働いたことない人、働かない人が批判しているんだろう、就職がんばれ！／社会、特に会社のルールを良くわかった発信",
-          "tags": [],
-          "timestamp": "2026/10/23 02:41"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:46.365770+00:00"
-    },
-    {
-      "id": "h_7cc4c189",
-      "title": "【速報】中国政府系がAIで攻撃、MSが発表",
-      "url": "https://www.47news.jp/15123221.html",
-      "domain": "47news.jp",
-      "bookmarkCount": 71,
-      "summary": "【ニューヨーク共同】米マイクロソフト（MS）は21日、中国政府系とされるハッカー集団が、人工知能（AI）を使ったツールで世界の数百組織にサイバー攻撃を仕掛けていたと発表した。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15123221.html",
-      "comments": [
-        {
-          "user": "ht10000",
-          "comment": "こいつらやりたい放題だな。こういう無法者な中国政府には、最早こっちから仕掛けてわからせる必要があるな。",
-          "tags": [],
-          "timestamp": "2026/10/23 06:06"
-        },
-        {
-          "user": "bijui",
-          "comment": "さすが中共。（褒めてない）",
-          "tags": [],
-          "timestamp": "2026/10/23 05:23"
-        },
-        {
-          "user": "watchwatchwatch",
-          "comment": "家系とか外資系ハッカーとかもいるのニャ？",
-          "tags": [],
-          "timestamp": "2026/10/23 05:06"
-        },
-        {
-          "user": "sato-gc",
-          "comment": "政府系だったのか。",
-          "tags": [],
-          "timestamp": "2026/10/23 04:31"
-        },
-        {
-          "user": "for-my-internet-demo",
-          "comment": "戦争じゃったか",
-          "tags": [],
-          "timestamp": "2026/10/23 04:20"
-        },
-        {
-          "user": "inks",
-          "comment": "サイバー戦争じゃん、コレ。どんどん戦争の様相が変化してる...。自衛隊、付いていって...。無いだろうな。進次郎がまた騒ぎ出すし、予算も更に上乗せ要求か...。アメボチの「ふり戦略」で中国を怒らせなければねぇ。",
-          "tags": [],
-          "timestamp": "2026/10/23 03:40"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:44.101171+00:00"
-    },
-    {
-      "id": "h_cbfd8f5d",
-      "title": "（緊急）BIND 9.xの脆弱性（DNSサービスの停止・リモートコード実行）について（CVE-2026-94300） - バージョンアップを強く推奨 -",
-      "url": "https://jprs.jp/tech/security/2026-10-22-bind9-cve-2026-94300.html",
-      "domain": "jprs.jp",
-      "bookmarkCount": 70,
-      "summary": "--------------------------------------------------------------------- ■（緊急）BIND 9.xの脆弱性（DNSサービスの停止・リモートコード実行）に ついて（CVE-2026-94300） - バージョンアップを強く推奨 - 株式会社日本レジストリサービス（JPRS） 初版作成 2026/10/22（Thu） ------------------------------------...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/jprs.jp/tech/security/2026-10-22-bind9-cve-2026-94300.html",
-      "comments": [
-        {
-          "user": "hiby",
-          "comment": "いつもの",
-          "tags": [],
-          "timestamp": "2026/10/23 04:52"
-        },
-        {
-          "user": "YassLab",
-          "comment": "“BIND 9.xにおける実装上の不具合により、namedに対する外部からの攻撃が可能となる脆弱性が、開発元のISCから発表 / 本脆弱性により、提供者が意図しないサービスの停止や、リモートコード実行が可能になる可能性”",
-          "tags": [
-            "CVE",
-            "セキュリティ",
-            "Security",
-            "DNS"
-          ],
-          "timestamp": "2026/10/23 02:04"
-        },
-        {
-          "user": "circled",
-          "comment": "bindは一時期重たい脆弱性を何度も出してたので、今更驚かないってのがある",
-          "tags": [],
-          "timestamp": "2026/10/23 00:54"
-        },
-        {
-          "user": "sjn",
-          "comment": "まあBINDはいつも危ないよね…",
-          "tags": [],
-          "timestamp": "2026/10/23 00:31"
-        },
-        {
-          "user": "toaruR",
-          "comment": "流石に自前DNSサーバからは脱出して久しい(ノ∀`) メールサーバよりずっと先に逃げた",
-          "tags": [],
-          "timestamp": "2026/10/23 00:29"
-        },
-        {
-          "user": "stealthinu",
-          "comment": "こっちはいつもの風物詩的な趣があるな。いややめてほしいけどね。今後半年、1年くらいこの状況続くとしたら対応自体をエージェント自動化ん進めないと無理よね。",
-          "tags": [
-            "security",
-            "dns"
-          ],
-          "timestamp": "2026/10/23 00:03"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:47.669140+00:00"
-    },
-    {
-      "id": "h_d6a9f9cc",
-      "title": "「Oracle Java SE」にも致命的な脆弱性 ～リモートでデータの窃取・作成・削除・変更が可能／",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2150531.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 54,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2150531.html",
-      "comments": [
-        {
-          "user": "Windfola",
-          "comment": "鍵屋が合鍵流出させちゃったのであちこちでオートロックの工事中。ニュースは「〇〇系マンションも工事開始」としか言わないので「また〇〇か」「〇〇なんて高いだけ」と風評被害に合うデベロッパー。",
-          "tags": [],
-          "timestamp": "2026/10/23 05:10"
-        },
-        {
-          "user": "pochi-taro00",
-          "comment": "これはJavaのせいじゃないだろｗ",
-          "tags": [],
-          "timestamp": "2026/10/23 02:13"
-        },
-        {
-          "user": "gogatsu26",
-          "comment": "これは面倒くさそう",
-          "tags": [],
-          "timestamp": "2026/10/23 02:04"
-        },
-        {
-          "user": "mohno",
-          "comment": "PHPのアレは修正パッチを用意する前に攻撃方法をバラしちゃったのが問題という話だもんな。",
-          "tags": [
-            "インプレス",
-            "Oracle",
-            "Java",
-            "セキュリティ",
-            "アップデート",
-            "脆弱性"
-          ],
-          "timestamp": "2026/10/23 00:52"
-        },
-        {
-          "user": "rna",
-          "comment": "吐血",
-          "tags": [],
-          "timestamp": "2026/10/23 00:42"
-        },
-        {
-          "user": "quick_past",
-          "comment": "ぼったくりライセンス料取っててそれかよOracleよ",
-          "tags": [],
-          "timestamp": "2026/10/23 00:41"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:46.762031+00:00"
-    },
-    {
       "id": "h_66bc4333",
       "title": "これがPHPの脆弱性を呟いてしまった人か。マジで全世界をデスマに叩き落とした人として後世に語り継がれると思う",
       "url": "https://posfie.com/@golden_haniwa/p/LQ90sis",
       "domain": "posfie.com",
-      "bookmarkCount": 43,
+      "bookmarkCount": 376,
       "summary": "該当の人物が、パッチが公開される前に、PHPのクリティカルな未修正脆弱性の詳細やPoC（概念実証）をX上で公開してしまったからです。 この脆弱性は以下のものです CVE-2026-109618 と CVE-2026-109619 通称 PHP2Shell CVSS 9.2の未認証リモートコード実行（RCE） PHP本体のメモリ管理やリクエスト処理に関する欠陥で、...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@golden_haniwa/p/LQ90sis",
       "comments": [
         {
-          "user": "mmuuishikawa",
-          "comment": "無能な働き者",
+          "user": "pyagatupa",
+          "comment": "インターネットはなんか危ない物騒な技術というようなふわっとした認識が世間に広がるのは実に好ましい",
           "tags": [],
-          "timestamp": "2026/10/23 05:53"
+          "timestamp": "2026/10/23 13:04"
         },
         {
-          "user": "Hagalaz",
-          "comment": "ぜんぜんわかんないけどこれが原因なん？",
+          "user": "dnsystem",
+          "comment": "デスマではなくない？",
           "tags": [],
-          "timestamp": "2026/10/23 05:33"
+          "timestamp": "2026/10/23 13:01"
         },
         {
-          "user": "hiroujin",
-          "comment": "いくら優れた技術者でも「無能な働き者」は有害でしかない。",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/10/23 02:42"
-        },
-        {
-          "user": "akisibu",
-          "comment": "「いつか誰かが公開するつもりで、だったら俺が」発想。その気概は臆病か勇気か蛮勇か。出し抜くか出し抜かれるかの過度な競争環境に放り込まれると存続が危ぶまれる方に行って暴走しがち。デスマで健康状態にデバフ",
+          "user": "kurataikutu",
+          "comment": "高市の発表のせいで末端までの騒ぎになったが、ことなかれ主義の無理解経営陣には公式発表や緊急停止を決断させるいい薬になった感。日本中の中小企業の1人土方にとっては結果的にいい前例インパクトになったのでは",
           "tags": [],
-          "timestamp": "2026/10/23 02:39"
+          "timestamp": "2026/10/23 12:59"
         },
         {
-          "user": "Windfola",
-          "comment": "「決定的に騒ぎをデカくした犯人」ではあるけど、リーク時点で攻撃者も彼と同様に自前で脆弱性に辿り着いてた可能性は高い。どう考えても最初に掲示板にお洩らしした奴が一番悪い。",
+          "user": "tjzb4z1u",
+          "comment": "このXのあんちゃんはCVSS5.3の別問題だったと訂正してるし直接は関係ない。それよりもAWSが10/17には攻撃を観測してたと報告してるし、PHPが報告から配布に2ヶ月要したことが今のAI時代には遅すぎるという点が重要だろう",
           "tags": [],
-          "timestamp": "2026/10/23 02:08"
+          "timestamp": "2026/10/23 12:47"
         },
         {
-          "user": "iww",
-          "comment": "https://x.com/J4ck3LSyN/status/2113124527693791546 こういうツイートをする人",
-          "tags": [
-            "twitter",
-            "セキュリティ",
-            "php"
-          ],
-          "timestamp": "2026/10/23 01:33"
+          "user": "kaiton",
+          "comment": "デスマーチだったのは、PHP内部の人が一番かな、、逆に一般のIT技術者は高市首相のつぶやきや大手サービスの一斉メンテナンスで停める時期の判断が早く抵抗が少なかった（ほぼ無かった）とは思う。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:45"
+        },
+        {
+          "user": "sigwyg",
+          "comment": "この人だけではなかったし自己弁護したくなるのも判らんでもないけど、振る舞いが悪すぎるわな。今後の開示対象は見直しが必要になるだろう",
+          "tags": [],
+          "timestamp": "2026/10/23 12:44"
         }
       ],
-      "fetchedAt": "2026-10-22T21:23:45.860807+00:00"
+      "fetchedAt": "2026-10-23T04:18:44.168792+00:00"
+    },
+    {
+      "id": "h_5c4f8537",
+      "title": "上場企業の経営論点（1673〜2026年）",
+      "url": "https://the-shashi.com/issue/",
+      "domain": "the-shashi.com",
+      "bookmarkCount": 357,
+      "summary": "免責事項およびポリシー コンテンツの位置づけと正確性本サイトは有価証券報告書・IR資料・書籍・報道等の公開情報をもとに作成した 個人の分析・整理であり、当該企業および関係者の公式見解ではありません。記載内容の正確性・適時性は保証せず、提出後の訂正や最新の開示には 必ずしも追従していません。重要な判断に...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/the-shashi.com/issue/",
+      "comments": [
+        {
+          "user": "kuzumaji",
+          "comment": "おぉ、こりゃ楽しい。休日じっくり見よう／てかレスポンス早すぎてなんだこりゃ凄い／”二次利用について”を読まない商材屋が怒られるまで無断使用して～って流れが見えちゃうので生き残って欲しい…",
+          "tags": [],
+          "timestamp": "2026/10/23 12:54"
+        },
+        {
+          "user": "masashi132",
+          "comment": "1673年？？、",
+          "tags": [],
+          "timestamp": "2026/10/23 12:18"
+        },
+        {
+          "user": "SundayIsEveryday",
+          "comment": "今のAI時代、淘汰されるのは大したバリューを出せないコンサル(ジュニアやアナリストと言われる層が大半を占める？)だけで、上流の論点設計をしたり、一次情報を作って示唆を出せるコンサルは残りそうだと感じてる。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:14"
+        },
+        {
+          "user": "hinoton2",
+          "comment": "正誤が怪しいが時間吸われるなこれ/ブクマカってコンサル使う会社や立場にないから知らないんだろうけど、単なるデスクリサーチだけ依頼することないからこれで代わりにはならんよ。",
+          "tags": [],
+          "timestamp": "2026/10/23 11:52"
+        },
+        {
+          "user": "satohi",
+          "comment": "事例集ですね",
+          "tags": [
+            "企業",
+            "business"
+          ],
+          "timestamp": "2026/10/23 11:28"
+        },
+        {
+          "user": "snare_micchan",
+          "comment": "今のコンサルは社員代替が主流。要は変動費要員で、単価が高いSESみたいなもの",
+          "tags": [],
+          "timestamp": "2026/10/23 11:16"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:42.127241+00:00"
     },
     {
       "id": "h_932d4120",
       "title": "デジタル庁HPの問い合わせ内容漏洩か 最大1万3000件以上",
       "url": "https://news.tv-asahi.co.jp/news_economy/articles/000542237.html",
       "domain": "news.tv-asahi.co.jp",
-      "bookmarkCount": 34,
+      "bookmarkCount": 309,
       "summary": "1 デジタル庁は22日夜、ホームページの問い合わせフォームに入力された内容など最大1万3000件余りが外部に流出した可能性があると発表しました。 デジタル庁によりますと、流出した可能性があるのは2021年5月から2023年3月までの間にホームページの問い合わせフォームに入力された「一般的なご意見・ご要望」最大8833件...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.tv-asahi.co.jp/news_economy/articles/000542237.html",
       "comments": [
         {
-          "user": "mobile_neko",
-          "comment": "まず公開したのは良いことだと思う",
+          "user": "kurataikutu",
+          "comment": "STUDIOの漏洩で被害受けた中小企業多そうだなー次々と発表されるんだろなーと思ってた矢先にまさかのトップ国家機関きて草",
           "tags": [],
-          "timestamp": "2026/10/23 06:23"
+          "timestamp": "2026/10/23 12:51"
         },
         {
-          "user": "ivory105",
-          "comment": "Studio使ってたの？アホだな。フォームくらい用意せえよ",
+          "user": "yoiIT",
+          "comment": "お漏らし",
           "tags": [],
-          "timestamp": "2026/10/23 06:17"
+          "timestamp": "2026/10/23 12:32"
         },
         {
-          "user": "ya--mada",
-          "comment": "Studio株式会社のフォームを使っていた。SaaS外部委託を管理するのは出来ないことだ。しかもデジ庁の三角さんはディスクローズ向きの人じゃないみたいだな。",
+          "user": "ch416",
+          "comment": "げ、Studio",
           "tags": [],
-          "timestamp": "2026/10/23 06:13"
+          "timestamp": "2026/10/23 12:22"
         },
         {
-          "user": "evergreeen",
-          "comment": "原因はSTUDIO。数年前にドメイン失効という重大インシデント起こしているサービスを、お友達スタートアップ枠で採用決めたデジ庁のセンスのなさ。",
+          "user": "mayumayu_nimolove",
+          "comment": "Studio使ってたのかよ。ありえねー。国の機関が金のない中小企業感覚なのがヤバい。富士通、いや、NEC、あれはやらかしたか、他はどこだ、どこに頼めばいいんだ日本は！",
           "tags": [],
-          "timestamp": "2026/10/23 06:05"
+          "timestamp": "2026/10/23 11:43"
         },
         {
-          "user": "sisya",
-          "comment": "情報漏洩に対して行政はどう対応するのだろう。これで「漏れました」という報告だけで済ますなら、一般企業も情報が漏れてもなんのお咎めもないので気にもしなくなるだろう。",
+          "user": "pokute8",
+          "comment": "デジタル庁は権謀ごっこに興じるばかりで本来の仕事をしていない。https://tinyurl.com/3xetkrz2 https://tinyurl.com/4bdwapkf https://tinyurl.com/dtywc4t7 https://tinyurl.com/ksr4jh3u",
           "tags": [],
-          "timestamp": "2026/10/23 05:59"
+          "timestamp": "2026/10/23 11:38"
+        },
+        {
+          "user": "kiku72",
+          "comment": "“2026年10月22日 ”",
+          "tags": [],
+          "timestamp": "2026/10/23 11:17"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:42.921445+00:00"
+    },
+    {
+      "id": "h_7cc4c189",
+      "title": "【速報】中国政府系がAIで攻撃、MSが発表",
+      "url": "https://www.47news.jp/15123221.html",
+      "domain": "47news.jp",
+      "bookmarkCount": 294,
+      "summary": "【ニューヨーク共同】米マイクロソフト（MS）は21日、中国政府系とされるハッカー集団が、人工知能（AI）を使ったツールで世界の数百組織にサイバー攻撃を仕掛けていたと発表した。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15123221.html",
+      "comments": [
+        {
+          "user": "tamakky",
+          "comment": "こういうことやってるから「コロナは中国発ではありません」って発表しても信憑性が皆無なんよな",
+          "tags": [],
+          "timestamp": "2026/10/23 12:33"
+        },
+        {
+          "user": "red_banana",
+          "comment": "憲法9条があるのに攻撃された理由を教えて下さい。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:24"
+        },
+        {
+          "user": "frothmouth",
+          "comment": "”米IT大手マイクロソフト（MS）は21日、中国政府と関係があるとするハッカー集団が人工知能（AI）を悪用して、世界の数百の組織を標的に自動化されたサイバー攻撃を行っていたことを確認したと公表した。標的の選定か",
+          "tags": [],
+          "timestamp": "2026/10/23 12:18"
+        },
+        {
+          "user": "superabbit",
+          "comment": "リアルシンシー",
+          "tags": [],
+          "timestamp": "2026/10/23 12:16"
+        },
+        {
+          "user": "gamecome",
+          "comment": "サイバー攻撃をミサイルと同列に見るなら、海賊版運営とかも経済犯罪だよな…",
+          "tags": [],
+          "timestamp": "2026/10/23 12:15"
+        },
+        {
+          "user": "jacket12345",
+          "comment": "やめろーこれは中国をおとしめる罠なんだーみんな信じないでくれー…ってか？",
+          "tags": [],
+          "timestamp": "2026/10/23 11:54"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:45.708237+00:00"
+    },
+    {
+      "id": "h_70ecb8ab",
+      "title": "PHP欠陥でサイト止めた日本、止めなかった米国 脆弱性は8月に発見 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN22C6A0S6A021C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 117,
+      "summary": "【シリコンバレー=伴正春、ニューヨーク=西邨紘子】プログラム言語「PHP」で見つかった欠陥を受け、多くの日本企業がウェブサイトを一時停止した。一方、震源地の米国ではサイトを継続する企業が大半だった。先端技術を持つテック企業が政府と綿密に連携して対応した防衛体制の違いも大きい。クラウド最大手アマゾン、顧...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN22C6A0S6A021C2000000/",
+      "comments": [
+        {
+          "user": "ultimatebreak",
+          "comment": "国民性じゃねえの",
+          "tags": [],
+          "timestamp": "2026/10/23 12:56"
+        },
+        {
+          "user": "kshtn",
+          "comment": "タイトルしか読んでないけど、8月に知れたのは極々一部の人間だろ",
+          "tags": [],
+          "timestamp": "2026/10/23 12:53"
+        },
+        {
+          "user": "ardarim",
+          "comment": "もちろん止めずに対応できれば一番だが、リスクがあるなら止める判断もありだろう。ケースバイケースとしか言えないのでは。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/23 12:42"
+        },
+        {
+          "user": "momonga1123",
+          "comment": "SIer各社が企業の要請に応じて体制をとった　この企業にとっての成功体験が今後SIerに対してPHPの時できたのになぜできないんだとならないことを願う　エンジニアにも生活がある",
+          "tags": [],
+          "timestamp": "2026/10/23 12:39"
+        },
+        {
+          "user": "iphone",
+          "comment": "任意コード実行だぞ？ 止める止めないに影響しうるのは「phpをどういう使い方をしていたか」でしかない。不勉強だし不正確だし権威主義的でどうしようもない。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:30"
+        },
+        {
+          "user": "Pinballwiz",
+          "comment": "デジタル庁を作った甲斐がありましたね。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:23"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:43.537523+00:00"
+    },
+    {
+      "id": "h_2233e8a0",
+      "title": "eMudhraの中間CA証明書の秘密鍵の危殆化についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/23/021328",
+      "domain": "piyolog.hatenadiary.jp",
+      "bookmarkCount": 112,
+      "summary": "2026年10月18日、Mozillaは、認証局eMudhraの中間CA証明書の秘密鍵が危殆化したインシデントをBugzillaに起票し、10月20日に公開しました。ここでは関連する情報をまとめます。 危殆化したのは中間CA8件 eMudhra(emSignブランドの認証局)の中間CA証明書のうち、TLS用6件とコード署名用2件の秘密鍵が、公開鍵から誰でも求...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/23/021328",
+      "comments": [
+        {
+          "user": "chuukai",
+          "comment": "PHPの脆弱性に比べたらアプリ(証明書)の更新(失効)をしない方が一般人にはより脅威では",
+          "tags": [],
+          "timestamp": "2026/10/23 12:32"
+        },
+        {
+          "user": "mkusaka",
+          "comment": "eMudhraのTLS用6件・コード署名用2件の中間CA秘密鍵が回収可能となった原因や、ブラウザ遮断、ルート除外、SSL/TLS事業撤退までの経緯を時系列で整理する。",
+          "tags": [
+            "AI要約",
+            "セキュリティ",
+            "インシデント",
+            "TLS",
+            "サプライチェーン",
+            "ニュース"
+          ],
+          "timestamp": "2026/10/23 12:28"
+        },
+        {
+          "user": "greenbuddha138",
+          "comment": "“危殆化” 初めての日本語 IT用語危険な状態になること",
+          "tags": [],
+          "timestamp": "2026/10/23 11:59"
+        },
+        {
+          "user": "minoton",
+          "comment": "CVE-2026-91403の元のやつか",
+          "tags": [
+            "security"
+          ],
+          "timestamp": "2026/10/23 11:08"
+        },
+        {
+          "user": "haatenax",
+          "comment": "PHPの影に隠れてこっちもあかんという。AIの言いなりでcurl叩きまくってる層が一番やばい",
+          "tags": [],
+          "timestamp": "2026/10/23 09:51"
+        },
+        {
+          "user": "ebo-c",
+          "comment": "警備ユニットの主人公が統制システムをハックして指令を受け付けないようにして、ひねもす未来版ネトフリ観て過ごすSF、マーダーボット・ダイアリー第一話のサブタイトルが「システムの危殆」",
+          "tags": [],
+          "timestamp": "2026/10/23 09:25"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:43.256363+00:00"
+    },
+    {
+      "id": "h_32e51f1a",
+      "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "domain": "digital.go.jp",
+      "bookmarkCount": 110,
+      "summary": "ホームプレスルームStudio 株式会社における不正アクセスによる個人情報の漏えいの可能性について Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について 公開日：2026年10月22日 今般、デジタル庁（デジタル改革関連法案準備室を含む。）がホームページ運営の一部にそのサービスを利用していたSt...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "comments": [
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "私たちのせいではありません感",
+          "tags": [],
+          "timestamp": "2026/10/23 13:02"
+        },
+        {
+          "user": "puplog",
+          "comment": "議員数削減よりデジタル庁削減した方が良いと思うけど。デザインテンプレ作成してるだけな印象だし。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:37"
+        },
+        {
+          "user": "whkr",
+          "comment": "デジタル庁はnoteも使ってるし、意識だけ高くて足元が弱々な印象がある。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:33"
+        },
+        {
+          "user": "atsushieno",
+          "comment": "デジタル庁はそもそも「問い合わせ」を迷惑メールか何かだと思っていて意図的に漏洩しそうな（攻撃されたらひとたまりもなさそうな）委託先を選んでいたんじゃないの。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:08"
+        },
+        {
+          "user": "domimimisoso",
+          "comment": "「④マイナちゃんの着ぐるみの借用に関するお問合せ　件数：最大117件」やべえ！オレ問い合わせてたよ！　　　　嘘だけど",
+          "tags": [],
+          "timestamp": "2026/10/23 11:46"
+        },
+        {
+          "user": "BigWhiteDog",
+          "comment": "大切なのは「デジタル庁の情報が漏洩した」ことでありそれをなんという会社に下請けに出していたかは関係ないだろ。内輪の事情で責任を外に押し付けんな",
+          "tags": [],
+          "timestamp": "2026/10/23 11:45"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:46.036510+00:00"
+    },
+    {
+      "id": "h_ffaf14c3",
+      "title": "トランプ大統領、Googleに「大西洋」の改名を打診 ピチャイCEOが「大洋は勘弁を」と難色",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002533/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 79,
+      "summary": "トランプ氏は、対象となる大洋は大西洋と太平洋の2つだけだと前置きした上で、大西洋の改称を真剣に検討したと述べた。「湖の件で素晴らしい対応をしてくれた」というGoogleに電話し、ピチャイ氏と直接協議したことを明かした。トランプ氏によると、大西洋の変更に対応できるかと尋ねたところ、ピチャイ氏は「大洋は話が...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002533/",
+      "comments": [
+        {
+          "user": "tpircs",
+          "comment": "アメリカからアクセスされた時だけなら何をアメリカにしてくれてもいい気がする",
+          "tags": [],
+          "timestamp": "2026/10/23 13:18"
+        },
+        {
+          "user": "mohno",
+          "comment": "「大西洋の名称変更をGoogleに打診したものの、同社のスンダー・ピチャイCEOに断られた」/中間選挙で共和党が負けたり次の大統領が民主党になったら、どうなる？「「湖の件で素晴らしい対応をしてくれた」というGoogle」",
+          "tags": [
+            "ITmedia",
+            "Donald Trump",
+            "アメリカ",
+            "共和党",
+            "google",
+            "Maps",
+            "地図",
+            "ピチャイ",
+            "メキシコ",
+            "カナダ"
+          ],
+          "timestamp": "2026/10/23 13:06"
+        },
+        {
+          "user": "scavenger-folk99",
+          "comment": "大泉洋",
+          "tags": [],
+          "timestamp": "2026/10/23 12:57"
+        },
+        {
+          "user": "renowan",
+          "comment": "アメリカの左の洋、アメリカの右の洋にしようか？",
+          "tags": [],
+          "timestamp": "2026/10/23 12:52"
+        },
+        {
+          "user": "nekopon44",
+          "comment": "ﾄ「珍しくまともなことを言っているな悪党が」",
+          "tags": [],
+          "timestamp": "2026/10/23 12:52"
+        },
+        {
+          "user": "urtz",
+          "comment": "童話のような実話",
+          "tags": [],
+          "timestamp": "2026/10/23 12:50"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:44.758610+00:00"
+    },
+    {
+      "id": "h_f79f2045",
+      "title": "2000年代初頭、女性オタクの中にはHTML/CSSを手打ちして個人サイトを作る人もいたが、その審美眼が今やAIの利便性を前に溶けている印象がある",
+      "url": "https://togetter.com/li/2761573",
+      "domain": "togetter.com",
+      "bookmarkCount": 73,
+      "summary": "あ @5vVba77P0tjsDKS ホンマにガチでコレ真理だと断言したい。2000年代初頭、女性オタク層はみんなメモ帳でHTML/CSSを手打ちして個人サイトを作っていた。 あの情熱とスキルが当時「仕事」として評価されていれば、日本のIT人手不足はかなりマシだったはず。でも悲しいのは、当時テーブルレイアウトやCSSと格闘していた...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2761573",
+      "comments": [
+        {
+          "user": "marshi",
+          "comment": "頻度的にbotだろうな",
+          "tags": [],
+          "timestamp": "2026/10/23 13:17"
+        },
+        {
+          "user": "i_ko10mi",
+          "comment": "文系だけど一度は仕事にしようと思って入社してJAVAやったりもしたけど、体力的に向いてなかったので全然違う業界に。WordPressとCanvaを少し触って納品する程度の存在に落ち着いた。1文字で〜には同意。",
+          "tags": [],
+          "timestamp": "2026/10/23 13:15"
+        },
+        {
+          "user": "YEPSKDy6",
+          "comment": "私もやってた。AIに作らせたhtml、微細な修正ならAIに命令するのもめんどくさいので自分で手打ち修正して良しとするとか結構あるわね。",
+          "tags": [],
+          "timestamp": "2026/10/23 13:13"
+        },
+        {
+          "user": "ShaoSylvia",
+          "comment": "当時のHTMLはプログラミング言語ではなくただの言語構造だから参入障壁が低いのよ。未経験者でもすぐに経験者に追いつけた",
+          "tags": [],
+          "timestamp": "2026/10/23 13:10"
+        },
+        {
+          "user": "ultimatebreak",
+          "comment": "炎上覚悟で言うから始まるアレの亜種。ゴミカス商材屋仕草",
+          "tags": [],
+          "timestamp": "2026/10/23 13:01"
+        },
+        {
+          "user": "HanPanna",
+          "comment": "技術の話さておき、あの頃の個人サイトは個性に溢れていて楽しかったなぁ。お洒落な人、ミニゲームを置く人、ドットアイコンや素材を配布する人、お絵描き掲示板を置く人、色々だった。（インターネット老人会）",
+          "tags": [],
+          "timestamp": "2026/10/23 12:58"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:46.396427+00:00"
+    },
+    {
+      "id": "h_c9bf8d45",
+      "title": "「お名前.com」 のFX自動売買VPS、不正アクセスで金銭被害か 「600万円の損失」「55万円なくなった」……報告相次ぐ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002532/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 72,
+      "summary": "サービスを提供するGMOインターネットは10月22日、サーバ内に保存されていた取引口座のログイン情報などが第三者に取得され、不正に利用された可能性があると発表した。ユーザーに対し、口座のパスワードを至急変更し、ログオフ（セッションの切断）するよう求めている。サービスは全プランで停止中だ。 お名前.com デス...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/23/2000002532/",
+      "comments": [
+        {
+          "user": "sirobu",
+          "comment": "調べてみたらGMOだけじゃなくて複数社でFX用VPSをサービスとして取り扱っててびびった",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/23 13:09"
+        },
+        {
+          "user": "sub_low",
+          "comment": "ググったら、FX自動売買専用VPSって出てきた。ヒェッてなった。",
+          "tags": [],
+          "timestamp": "2026/10/23 13:06"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "FXというだけで投機なのにVPSまで使ってリスクのレバレッジをかけるの素敵すぎるわ。がんばれ、くるみちゃんたち。",
+          "tags": [
+            "犯罪"
+          ],
+          "timestamp": "2026/10/23 12:52"
+        },
+        {
+          "user": "fai_fx",
+          "comment": "愉快犯なら、全力でポジって放置すると思う。ロスカットされて損するか利益になるかは興味ない。",
+          "tags": [],
+          "timestamp": "2026/10/23 12:46"
+        },
+        {
+          "user": "hatebu_admin",
+          "comment": "規約的にはFX口座を操作されて損害出てもGMOは知らんがなになるやね",
+          "tags": [],
+          "timestamp": "2026/10/23 12:45"
+        },
+        {
+          "user": "nakag0711",
+          "comment": "FX謳って売り込んでると責任重くなりそう",
+          "tags": [],
+          "timestamp": "2026/10/23 12:34"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:45.121792+00:00"
+    },
+    {
+      "id": "h_847fc6de",
+      "title": "あなたのJava、いますぐアップデート、が必要か確認する - きしだのHatena",
+      "url": "https://nowokay.hatenablog.com/entry/2026/10/23/035709",
+      "domain": "nowokay.hatenablog.com",
+      "bookmarkCount": 44,
+      "summary": "eMudhraという認証局の中間証明書の秘密鍵が8ビットしか有効じゃなく偽造放題ということで、これらの中間証明書を無効にする必要があります。じゃないと偽物のサイトに接続してしまう可能性があります。 eMudhraの中間CAの秘密鍵が公開された証明書から復元可能と判明、pip・uvなどの開発ツールに修正版 | gihyo.jp で、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nowokay.hatenablog.com/entry/2026/10/23/035709",
+      "comments": [
+        {
+          "user": "strawberryhunter",
+          "comment": "JREを別途インストールしてjarを実行するスタイルは、かなり前に廃止されているので、見る人はかなり少ないんじゃないかな。いや、廃止は言い過ぎか。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/10/23 13:17"
+        },
+        {
+          "user": "kagehiens",
+          "comment": "8bitて😱",
+          "tags": [],
+          "timestamp": "2026/10/23 12:36"
+        },
+        {
+          "user": "rgfx",
+          "comment": "懐かしいダウンロード画面だ",
+          "tags": [],
+          "timestamp": "2026/10/23 11:45"
+        },
+        {
+          "user": "igrep",
+          "comment": "ありがたい",
+          "tags": [
+            "security",
+            "java"
+          ],
+          "timestamp": "2026/10/23 11:43"
+        },
+        {
+          "user": "WildWideWeb",
+          "comment": "これは趣味の個人開発でもちゃんとやっとけという話かと。curlもpip も同様でしょう。ブラウザはGoogle なりMSやApple が対応してくれてるから自分でやる必要はないという話とは全く別の話。",
+          "tags": [],
+          "timestamp": "2026/10/23 10:17"
+        }
+      ],
+      "fetchedAt": "2026-10-23T04:18:46.990242+00:00"
+    },
+    {
+      "id": "h_87c5fe16",
+      "title": "ジェフ・ベゾスだっておしっこする（なんならあなたより頻尿かもしれない） » p2ptk[.]org",
+      "url": "https://p2ptk.org/monopoly/5643",
+      "domain": "p2ptk.org",
+      "bookmarkCount": 37,
+      "summary": "以下の文章は、コリイ・ドクトロウの「Everybody pees」という記事を翻訳したものである。 Pluralistic ジェフ・ベゾスと私は、まるで違う人間だ。まず、彼は書籍販売を独占して財を成したソシオパスの億万長者であり、私は本を書いている文無しの物書きにすぎない。彼は1964年生まれの62歳、私は1971年生まれの55歳であ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/p2ptk.org/monopoly/5643",
+      "comments": [
+        {
+          "user": "cinq_na",
+          "comment": "ペットボトルのおかげで、人類は車の中で小便してその辺に捨てることが可能になった。自分も調子よくて3-4時間、下手すると30分おきに尿意催すので非常に夜が辛い。",
+          "tags": [],
+          "timestamp": "2026/10/23 13:07"
         },
         {
           "user": "gogatsu26",
-          "comment": "サイト制作Studioの影響",
+          "comment": "名誉毀損で訴えられたりして",
           "tags": [],
-          "timestamp": "2026/10/23 05:48"
-        }
-      ],
-      "fetchedAt": "2026-10-22T21:23:44.522197+00:00"
-    },
-    {
-      "id": "h_b37dfa41",
-      "title": "中国政府系集団がAI攻撃 米マイクロソフト確認",
-      "url": "https://www.47news.jp/15123277.html",
-      "domain": "47news.jp",
-      "bookmarkCount": 8,
-      "summary": "【ニューヨーク共同】米IT大手マイクロソフト（MS）は21日、中国政府と関係があるとするハッカー集団が人工知能（AI）を悪用して、世界の数百の組織を標的に自動化されたサイバー攻撃を行っていたことを確認したと公表した。標的の選定から、クラウド上の管理者権限を奪うまでに3時間もかからなかったケースもあり、AIが...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15123277.html",
-      "comments": [
-        {
-          "user": "mutinomuti",
-          "comment": "はてな左派の親友、共産主義者か",
-          "tags": [],
-          "timestamp": "2026/10/23 05:49"
+          "timestamp": "2026/10/23 12:48"
         },
         {
-          "user": "gcyn",
-          "comment": "ニュース独特の語法とLLMによる見てきたような嘘と少ない知識で断言する人などが区別されづらいままでそれらに影響された世代が増えるってことになるのかなあ。こういうニュースでは改めて心配になります。",
+          "user": "chocolate0521",
+          "comment": "ﾜﾛﾀ。 インターネッツ仕草やねぇ(´Д｀)めう",
           "tags": [],
-          "timestamp": "2026/10/23 04:46"
+          "timestamp": "2026/10/23 12:17"
         },
         {
-          "user": "hal-e",
-          "comment": "中国製AIのみならず中国政府系ハッカー集団ときたもんだ",
+          "user": "exshouqosa",
+          "comment": "とても良い",
           "tags": [],
-          "timestamp": "2026/10/22 23:41"
+          "timestamp": "2026/10/23 12:10"
+        },
+        {
+          "user": "sutego386",
+          "comment": "https://www.amazon.co.jp/s?k=%E9%A0%BB%E5%B0%BF",
+          "tags": [],
+          "timestamp": "2026/10/23 12:04"
+        },
+        {
+          "user": "yamuchagold",
+          "comment": "https://d.hatena.ne.jp/keyword/%EF%BC%88%20%EF%BC%BE%E2%96%BD%EF%BC%BE%EF%BC%89%EF%BC%9C%E3%81%97%E3%81%AA%E3%81%84%E3%82%88",
+          "tags": [
+            "ネタ"
+          ],
+          "timestamp": "2026/10/23 12:02"
         }
       ],
-      "fetchedAt": "2026-10-22T21:23:48.040936+00:00"
+      "fetchedAt": "2026-10-23T04:18:46.628259+00:00"
     }
   ],
-  "lastCollection": "2026-10-22T21:23:48.040961+00:00"
+  "lastCollection": "2026-10-23T04:18:46.990269+00:00"
 }
