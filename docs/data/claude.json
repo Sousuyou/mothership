@@ -1,63 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_b2e23cdf",
-      "title": "Issueを投げたら、PRが立つ。Claude Codeに開発を一周させる「ハーネス」の作り方（ブランチ運用込み）",
-      "url": "https://zenn.dev/aicontentsbank/articles/issue-to-pr-harness-claude-code",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287979+00:00",
-      "excerpt": "運用フェーズに入ったプロダクトの仕事は、ほぼこのループです。 要望が来る → 直す → PR を出す 自分は AI Contents Bank という小さな SaaS を1人で運用していて、このループを1日に何周も回します。Claude Code を使い始めた頃は、1周ごとにチャットで「このIssue読んで」「影響範囲調べて」「ブランチ切って」「テスト通して」「PR書いて」と指示していました。毎回"
-    },
-    {
-      "id": "cc_ef178b8b",
-      "title": "Claude Codeのフックで止めたはずの書き込みが、Bashのlnやtouchで通っていた",
-      "url": "https://zenn.dev/starken/articles/claude-code-hook-gate-bash-bypass",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287874+00:00",
-      "excerpt": "観測日: 2026-09-08、2026-09-10、2026-09-11、2026-09-12、2026-09-18、2026-09-28 ／ 記事の作成: 2026-10-22（Claude Code 2.1.270、macOS 13.7.8） Claude Code のフックで Edit|Write にだけゲートを掛けると、同じファイルを Bash から書き換える道が開いたまま残ります。 私"
-    },
-    {
-      "id": "cc_61b8e84d",
-      "title": "claude-quickstarts 目的別リーディングガイド。20 本を「盗める書き方」で引く",
-      "url": "https://zenn.dev/nayu_ai/articles/33202920b1a292",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287789+00:00",
-      "excerpt": "「claude-quickstarts を読むといい」とは言われても、20 本のうちどれを開けばいいのかまでは教えてもらえません。 この記事は、目的 7 つから引ける索引です。読む対象、見る場所（行番号付きリンク）、注意点をまとめました。 自分でコードを読む人にも、Claude Code に読ませる人にも使えます。 「書き方を盗む」を取り戻す バイブコーディングが広まり、「動けばいい」が先に立って"
-    },
-    {
-      "id": "cc_68192a75",
-      "title": "Claude Codeの定期タスクが2日半見送られた件：global_limitと承認待ちの実行",
-      "url": "https://zenn.dev/vellum_office/articles/d212998fbfcd8a",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287722+00:00",
-      "excerpt": "Claude のデスクトップアプリで、Code タブのローカル定期タスクを使い始めた人に向けた失敗の記録です。 2026年9月30日の朝から10月2日の夜まで、約2日半、私の定期タスクが見送られたり遅れたりし続けました。その間、エラーの知らせは一度も来ていません。何が起きていたのか、なぜ気づけなかったのか、どう組み替えたのかを順に書きます。 対象と前提 対象は、Claude デスクトップアプリの "
-    },
-    {
-      "id": "cc_7abf79fe",
-      "title": "Claude Code の Remote Control は蓋を閉じると止まる。理由と対策",
-      "url": "https://zenn.dev/dawon/articles/084af95ffe0121",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287655+00:00",
-      "excerpt": "Claude Code の Remote Control は便利です。claude remote-control（またはセッション内で /remote-control）を実行して QR コードを Claude アプリで読み取ると、ソファでスマホからセッションを続けられます。/config で Push when actions required をオンにすれば、許可の確認や質問がプッシュ通知で届き"
-    },
-    {
       "id": "cc_49bbe1bd",
       "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
       "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287462+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.173140+00:00",
       "excerpt": "はじめに Twitterで「mdやskillを整える以外にも、AIが読みやすいDB構成がある」という話を見かけました。 今後AIで開発していくと、開発スピードと同じくらいAIのコストが効いてくると思っています。そこで、読みやすいDBと読みにくいDBで、トークンとコストがどれくらい変わるのかを実験してみました。 先に言ってしまうと、AIにとって読みやすいDBは、人間にとって読みやすいDBとほとんど同"
     },
     {
@@ -67,18 +17,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.287358+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.173058+00:00",
       "excerpt": "2026年10月23日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。今日は、AIの方から声をかけてくる時代が一歩近づいた話から入ります。それと、ChatGPTの中の広告が広がった話、OpenAIのAIがGoogle Cloudでも使えるようになる話、Uberの全社導入、AIに渡す「仕事の手順書」が業界みんなのものになった話。5本とも、皆さ"
     },
     {
-      "id": "cc_e9afdda2",
-      "title": "カード開封動画を撮影素材だけClaudeに渡して動画化する仕組みを作った件",
-      "url": "https://zenn.dev/magic_ren/articles/kaifu-video-zundamon-pipeline",
+      "id": "cc_8ec35301",
+      "title": "Excel方眼紙の設計書をChatGPT・Claudeでレビューする：コピペが崩れる理由とMarkdown変換",
+      "url": "https://zenn.dev/hagmit/articles/excel-design-doc-to-markdown-for-llm",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235785+00:00",
-      "excerpt": "スポーツカードの開封動画の編集をAIに任せ、動画投稿のハードルを下げました。 開けながら思ったことをしゃべって、一発で撮る Claude Code (中身はOpus) に録画と公式チェックリストを読ませて、台本と編集の指定を書かせる 声はずんだもん (VOICEVOX) に置き換える。言い間違えた文は台本を直して声を作り直す 僕がやるべきことは、開封動画を撮り、素材を投げ、あとはClaude Co"
+      "fetchedAt": "2026-10-24T04:09:43.172932+00:00",
+      "excerpt": "設計書のレビューを ChatGPT・Claude・Copilot に手伝わせたい。でも使える環境ではファイルを添付できず、セルをコピーしてチャットに貼ると、タブだらけで何が書いてあるのか分からない。そんな人向けに、崩れる理由、AI が読みやすい Markdown の形、レビュー用のプロンプトを書きます。設計書の内容を AI に入力すること自体は、社内で許可されている前提です（Markdown にし"
+    },
+    {
+      "id": "cc_75c29a3f",
+      "title": "Claude Code 2026年10月アップデート——Modsでツール呼び出しをTypeScriptで横取りできるようになった",
+      "url": "https://zenn.dev/sktt_panda/articles/claude-code-mods-2026-10",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-24T04:09:43.172842+00:00",
+      "excerpt": "3行まとめ 2026年10月1日のClaude Code v2.1.287でModsが入った。プラグインに同梱するJavaScript/TypeScriptの関数で、ツール呼び出し・プロンプト送信・UI描画などのイベントを観察・書き換え・横取りできる。/diffパネルもすでにModとして実装し直されている 最小構成は3ファイル。Node.jsもビルドも不要で、claude plugin valid"
+    },
+    {
+      "id": "cc_61d75f09",
+      "title": "Claude の中では何が起きているか。Anthropic の解釈可能性研究者が語った11の発見（#38 解説）",
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr38-ameisen-summary",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-24T04:09:43.172715+00:00",
+      "excerpt": "! この記事は、Lenny's Podcast「Inside the black box of AI: How AI models actually think」（2026-10-18、1時間12分）の紹介と論評を目的に、筆者が要点を抽出してまとめたものです。翻訳の全文ではなく、動画を網羅・代替するものでもありません。発言の正確な文脈は元動画をご覧ください。 この回の位置づけ 話し手は Emman"
     },
     {
       "id": "cc_4eb1d522",
@@ -87,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235672+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129782+00:00",
       "excerpt": "! この記事は、筆者の作業メモと体験をもとに、生成AI（Claude）が執筆しています。公式ドキュメントの内容は2026年10月22日時点で確認したもので、執筆時点のClaude Codeの最新版はv2.1.308です。agent teamsは実験的な機能のため、版や環境によって挙動が変わることがあります。参考程度に読んでください。 TL;DR Claude Codeのagent teamsは、ト"
     },
     {
@@ -97,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235577+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129691+00:00",
       "excerpt": "Fnキーを押して話すと、整った日本語をカーソル位置に入力するmacOSアプリ「Koebumi」を作りました。無料で、ソースコードはMITで公開しています。 実際の動作は、こちらの紹介動画で見られます。 GitHub: https://github.com/koebumi/koebumi Webサイト: https://koebumi.github.io/ 力を入れたのは2つです。日本語の書き言葉に"
     },
     {
@@ -107,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235478+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129596+00:00",
       "excerpt": "! この記事は2026年10月時点の情報です。Claude Code は2026年10月時点の最新版で動作を確認しています（バージョンは固定していないため、ビルド時期によって変わります）。 Claude Code はアップデートが速いので、コマンドや設定名は公式ドキュメントで最新を確認してください。 はじめに 先に結論です。 Claude Code を Dev Container の中で動かすと、"
     },
     {
@@ -117,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235355+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129473+00:00",
       "excerpt": "要約 GitHub Trendingで急上昇していたDietrichGebert/ponytail(MITライセンス)は、コーディングエージェントに「最も怠惰なシニア開発者」を演じさせ、新しいコードを書く前に既存コード・標準ライブラリ・プラットフォーム標準機能の再利用を優先させるルールセット(スキル)。 公式ベンチマークは「コード行数-53%・トークン-45%・コスト-26%・時間-41%」(Op"
     },
     {
@@ -127,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235257+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129403+00:00",
       "excerpt": "AI に Windows 用のスクリプトを書かせると、コードは正しそうなのに、エラーも出さずに動かないことがあります。改行の入った依頼が最初の1行で切れる、日本語の入ったスクリプトが文字化けして構文エラーになる、タスクが登録した日にしか動かない、といった具合です。 私は、AI の開発支援ツール（Anthropic の Claude Code と OpenAI の Codex）の共通ルールとスクリプ"
     },
     {
@@ -137,8 +107,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-23T21:15:35.235157+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.129306+00:00",
       "excerpt": "! この記事で紹介するシミュレータは非公式の学習用ツールです。三菱電機株式会社とは関係がありません。数値は実機の値ではない簡易モデルで、ラダーや設定値を実機の PLC・サーボに書き込まないでください。 この記事で書くこと FA（工場の自動化）の PLC やサーボについて、おおまかな知識はあるけれど、コードは書けない私が、AI のコーディング支援 Claude Code に、ブラウザで動くサーボ制御"
+    },
+    {
+      "id": "cc_c70d9a62",
+      "title": "Claudeを社員にして「1人会社」を作ってみた【Day 1：設立と事業選定】",
+      "url": "https://zenn.dev/libelab/articles/claude-one-person-company-day1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-24T04:09:43.129216+00:00",
+      "excerpt": "はじめに 会社員として働きながら、社長は自分、社員は全員Claude という小さな「会社」を作り始めました。 ルールはシンプルで、社長の仕事は「方針を決めること」と「承認すること」だけ。調査も企画も執筆も実装も、基本はClaudeに任せます。この記事はその1日目の記録です。 会社の正体は1つのGitHubリポジトリ 「会社」といっても法人ではなく、GitHubのリポジトリ1つです。構成はこうなって"
+    },
+    {
+      "id": "cc_b11613bc",
+      "title": "Claudeを社員にした1人会社【Day 2】『承認以外はAIで完結』ルールで事業を選び直した話",
+      "url": "https://zenn.dev/libelab/articles/claude-company-day2",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-24T04:09:43.129141+00:00",
+      "excerpt": "はじめに 前回の【Day 1】では、「社長は人間1人、社員は全部Claude」という会社をGitHubリポジトリの中に作り、事業候補を5つ出して企画書を2本書くところまでを紹介しました。 今回はその続きです（実際には Day 1 と同じ日の後半の出来事ですが、連載2回目なので Day 2 とします）。 結論から書くと、一度1位にした事業を、社長の一言で降格させました。 その判断の基準と、会社を回し"
+    },
+    {
+      "id": "cc_212fc678",
+      "title": "誤って止めるガードは、無いより悪い。Claude Codeのhooksを止めすぎない作り方",
+      "url": "https://zenn.dev/waiteu/articles/guard-without-false-blocks",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-24T04:09:43.129036+00:00",
+      "excerpt": "! この記事でわかること 正しい作業まで止めてしまうガードが、なぜ「無いより悪い」のか 実際に起きた誤ブロック5件と、それぞれの直し方 止めるべき時に止め、通すべき時に通すことを両方確かめるテストの作り方 はじめに 私は、Claude Codeのhooks（ツールを使う直前に自動で走るスクリプト）とgitのpre-commitで、公開リポジトリへのpushなどを機械で止めている。仕組みは前の記事に"
     },
     {
       "id": "cc_b2235741",
@@ -147,7 +147,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-23T21:15:35.915713+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.580377+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -157,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-23T21:15:35.915783+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.580455+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -167,9 +167,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-23T21:15:35.915856+00:00",
+      "fetchedAt": "2026-10-24T04:09:43.580532+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-23T21:15:35.915872+00:00"
+  "lastCollection": "2026-10-24T04:09:43.580549+00:00"
 }
