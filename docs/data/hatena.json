@@ -5,10 +5,22 @@
       "title": "PHPの緊急脆弱性「php2shell」で攻撃されていないか？サーバーに残る3つの痕跡と確認方法 - インフラ学習サイト「InfraAcademy」",
       "url": "https://engineer-ninaritai.com/php2shell-attack-detection/",
       "domain": "engineer-ninaritai.com",
-      "bookmarkCount": 191,
+      "bookmarkCount": 284,
       "summary": "こんにちは、インフラエンジニアのryuです。 前回の記事「PHPの緊急脆弱性「php2shell」とは？」では、2026年10月21日に公開されたPHPの脆弱性の仕組みと、アップデートの進め方を解説しました。 今回はその続きです。 アップデートを終えたあとに、多くの人が気になるのが「すでに攻撃されていないか？」という点だと思...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/engineer-ninaritai.com/php2shell-attack-detection/",
       "comments": [
+        {
+          "user": "m4fg",
+          "comment": "ログファイル一式フォルダに入れて、claude -p “攻撃されてないか怪しいところ調べて”、これであとは待つだけやで",
+          "tags": [],
+          "timestamp": "2026/10/24 15:40"
+        },
+        {
+          "user": "circled",
+          "comment": "ほとんどのサイト、アップデート適用までサービス止めてたから、普通はログに残ってないと思うのよね",
+          "tags": [],
+          "timestamp": "2026/10/24 14:12"
+        },
         {
           "user": "netafull",
           "comment": "“PHPをアップデートしても、すでに置かれた不正なファイルや、起動された不正なプログラムは消えません。この記事では、サーバーに残る痕跡をどこで、どう確認するかを整理します。”",
@@ -32,393 +44,302 @@
           "comment": "あとで確認",
           "tags": [],
           "timestamp": "2026/10/24 08:05"
-        },
-        {
-          "user": "kimioki",
-          "comment": "チェックは、POST以外にもPUT,PATCHもしたほうがいいんじゃね？",
-          "tags": [],
-          "timestamp": "2026/10/24 07:53"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "具体的な調査手順がまとまっていて現場には助かる内容",
-          "tags": [],
-          "timestamp": "2026/10/24 07:43"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:38.452300+00:00"
+      "fetchedAt": "2026-10-24T10:41:00.977788+00:00"
     },
     {
       "id": "h_8d8d3e08",
       "title": "PHP脆弱性、利用サイトの半分が修正困難 バージョン古くサポート終了 - 日本経済新聞",
       "url": "https://www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/",
       "domain": "nikkei.com",
-      "bookmarkCount": 101,
+      "bookmarkCount": 161,
       "summary": "プログラム言語「PHP」に深刻な脆弱性が発覚した問題で、利用サイトの半数では運営団体の公表した修正作業が難しいことが分かった。長期間更新されていない「休眠サイト」も多数含まれるとみられ、閉鎖が急務となっている。デロイトトーマツサイバーがウェブ技術の調査サービス「W3Techs.com」の統計をもとに推計した。...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/",
       "comments": [
         {
-          "user": "x100jp",
-          "comment": "下には下があってほっとする。",
+          "user": "xsde",
+          "comment": "自前で運用できないところはSaaSの方がよいと思うけど、月々費用がかかるのも嫌だったりするのかな。",
           "tags": [],
-          "timestamp": "2026/10/24 12:57"
+          "timestamp": "2026/10/24 19:32"
         },
         {
-          "user": "eggplantte",
-          "comment": "今時はAIに依頼すれば移行作業ぐらいは問題なくやってくれそうだけどな",
+          "user": "byaa0001",
+          "comment": "前職ではver5のメジャーアプデを訴えてじゃあやりなよとやらされたよ……懐……xamppがねぇ……",
           "tags": [],
-          "timestamp": "2026/10/24 12:44"
+          "timestamp": "2026/10/24 19:26"
         },
         {
-          "user": "Shinwiki",
-          "comment": "破壊的更新を平気でやらかしたPHP自身のせい。pythonも今は反省しとるやろ。後方互換性に縛られるのはノブレスオブリージュ。",
+          "user": "spark64",
+          "comment": "しょうがないとはいえ世知辛い。『独立行政法人の情報処理推進機構（IPA）は「不要になったウェブページや管理できないサイトは閉鎖する必要がある」と警鐘を鳴らしている』",
           "tags": [],
-          "timestamp": "2026/10/24 12:19"
+          "timestamp": "2026/10/24 18:16"
         },
         {
-          "user": "georgew",
-          "comment": "デロイトトーマツサイバーがウェブ技術の調査サービス「W3Techs.com」の統計をもとに推計 > 日本限定じゃないよね？",
+          "user": "harumomo2006",
+          "comment": "PHP5はまだかなり使われてて7や8に上げてほしいという相談はよく来るけど料金的に払えない会社は多そう",
           "tags": [],
-          "timestamp": "2026/10/24 12:18"
+          "timestamp": "2026/10/24 18:10"
         },
         {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
+          "user": "ochikun",
+          "comment": "技術者軽視で外注ばかりして、メンテナンスできる人材が社内にいないんだろう。天罰。",
           "tags": [],
-          "timestamp": "2026/10/24 12:15"
+          "timestamp": "2026/10/24 17:36"
         },
         {
-          "user": "gabill",
-          "comment": "これまでは古いバージョンを対応してくれることがレンサバの良心とされてきたけど、これからは古いバージョンを打ち切るのが良心になるのかもしれない。",
+          "user": "murabits",
+          "comment": "旧バージョンのサーバーのデータに価値がなくてもボットネットを構築されたり社会的に厄介な存在になりそう",
           "tags": [],
-          "timestamp": "2026/10/24 12:04"
+          "timestamp": "2026/10/24 17:24"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:38.898714+00:00"
+      "fetchedAt": "2026-10-24T10:41:02.508854+00:00"
     },
     {
-      "id": "h_11764f1f",
-      "title": "Using Claude to reduce the attack surface of code",
-      "url": "https://www.anthropic.com/research/attack-surface-reduction",
-      "domain": "anthropic.com",
-      "bookmarkCount": 61,
-      "summary": "Chris Rohlf Over the past year, we’ve published lots of data that shows that frontier AI models are more than capable of discovering and exploiting security vulnerabilities. Showing how previously unknown vulnerabilities might be exploited ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.anthropic.com/research/attack-surface-reduction",
+      "id": "h_67b904a9",
+      "title": "【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） | GMOインターネットグループ株式会社",
+      "url": "https://group.gmo/info/alert/20261024/",
+      "domain": "group.gmo",
+      "bookmarkCount": 120,
+      "summary": "2026年10月24日 お知らせ【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） お客様へのお見舞金のお支払いと不正取引による損失の補償について 〜能動的サイバー防御に関する措置の実施に向け、政府関係機関へ要請開始〜 GMOインターネットグループ株式会社 GMOインターネット株式...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/group.gmo/info/alert/20261024/",
       "comments": [
         {
-          "user": "softantenna",
-          "comment": "Anthropicが、Claudeを使ってソフトウェアの「攻撃対象領域(Attack Surface)」を削減する研究成果を発表。不要なコードへのアクセス経路そのものを減らせば、未知の脆弱性が存在しても攻撃されにくくなる😤",
+          "user": "airwave",
+          "comment": "サイバー防御関連法で指定される「特定社会基盤事業者」は、電気、水道、医療などの15分野に限られる。ただのサーバ屋は対象外。金融も含まれるが、GMOは金融取引業ではない（口座を管理していない）",
           "tags": [],
-          "timestamp": "2026/10/24 09:47"
+          "timestamp": "2026/10/24 19:38"
         },
         {
-          "user": "curuusa",
-          "comment": "攻撃にAIを使うなら、防衛にもAIを使うと…",
+          "user": "taka_pop",
+          "comment": "GMO側にもかなり責任のある問題のようなので、特別対応を求めるのは都合良すぎないか？",
           "tags": [],
-          "timestamp": "2026/10/24 09:47"
+          "timestamp": "2026/10/24 18:43"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "AIによる攻撃面削減の取り組みは防衛側にとって朗報",
+          "user": "ntstn",
+          "comment": "今の時代にサーバ管理してなくて良かったぜ案件多いな。GMOあおぞらネット銀行は使ってるのでやめて欲しい。",
           "tags": [],
-          "timestamp": "2026/10/24 07:43"
+          "timestamp": "2026/10/24 18:42"
         },
         {
-          "user": "mkusaka",
-          "comment": "Claudeで25件のOSS（500万行超）を分析し、攻撃面の問題を493件発見。OpenSSHでは未認証で到達可能なコードを約5分の1削減しました。",
+          "user": "kiki-maru",
+          "comment": "規約に免責とかいてあると言ったところで、こんなの免責されようがないからな。",
+          "tags": [],
+          "timestamp": "2026/10/24 18:38"
+        },
+        {
+          "user": "megumin1",
+          "comment": "こういうのは大抵、ユーザーが自らフィッシング詐欺に引っかかりパスワードをお漏らししてしまったのが原因だったけど、今回はガチでユーザー側に責任がなく、サイト側に全責任があるパターンですか。珍しい。",
+          "tags": [],
+          "timestamp": "2026/10/24 18:35"
+        },
+        {
+          "user": "asrog",
+          "comment": "ぼく情報系エンジニアじゃないけど、「お前の仕事なんてコレで一瞬なんだよ」とか言われたら墓に入るまで忘れないと思う。",
           "tags": [
-            "AI要約",
-            "攻撃面",
-            "security",
-            "Claude",
-            "脆弱性",
-            "事例"
+            "* |ω・）"
           ],
-          "timestamp": "2026/10/24 00:14"
+          "timestamp": "2026/10/24 18:31"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:38.949455+00:00"
-    },
-    {
-      "id": "h_2b45dcc1",
-      "title": "スイッチ向けプログラミングソフト『プチコン4』が突如配信停止―海外でスイッチ2改造への悪用と関連させる報道も | Game*Spark - 国内・海外ゲーム情報サイト",
-      "url": "https://www.gamespark.jp/article/2026/10/23/174015.html",
-      "domain": "gamespark.jp",
-      "bookmarkCount": 37,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gamespark.jp/article/2026/10/23/174015.html",
-      "comments": [
-        {
-          "user": "zsehnuy_cohriy",
-          "comment": "もうハードはハックされるもんだと思っとくしかない",
-          "tags": [],
-          "timestamp": "2026/10/24 12:18"
-        },
-        {
-          "user": "cartman0",
-          "comment": "知る権利の侵害。企業の制限なんてやっぱ糞だな",
-          "tags": [],
-          "timestamp": "2026/10/24 11:26"
-        },
-        {
-          "user": "m50747",
-          "comment": "もう少しで人間はプログラミング禁止になる時代が来そうね。人力では考慮思慮不足はどうしても発生してしまう。",
-          "tags": [],
-          "timestamp": "2026/10/24 10:58"
-        },
-        {
-          "user": "thirty206",
-          "comment": "ファミリーベーシック使ってドラクエ3を50秒でクリアみたいなことできちゃう？https://futaman.futabanet.jp/articles/-/121402?page=2",
-          "tags": [],
-          "timestamp": "2026/10/24 09:48"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "プチコンがハックの足がかりにされるのは歴史の巡り合わせを感じる",
-          "tags": [],
-          "timestamp": "2026/10/24 09:11"
-        },
-        {
-          "user": "gmym",
-          "comment": "これか https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/",
-          "tags": [],
-          "timestamp": "2026/10/24 00:52"
-        }
-      ],
-      "fetchedAt": "2026-10-24T04:09:39.267697+00:00"
-    },
-    {
-      "id": "h_809e7aea",
-      "title": "【佐川急便】｜お知らせ",
-      "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
-      "domain": "www2.sagawa-exp.co.jp",
-      "bookmarkCount": 37,
-      "summary": "重要なお知らせ お知らせ一覧に戻る ホーム お知らせ",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www2.sagawa-exp.co.jp/information/detail/430/",
-      "comments": [
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "規模がデカすぎてわけわかめ",
-          "tags": [],
-          "timestamp": "2026/10/24 12:17"
-        },
-        {
-          "user": "jun_cham",
-          "comment": "\"個別のご案内が困難なお客さまにつきましては、誠に恐れ入りますが、本お知らせの公表をもって通知に代えさせていただきます。\"",
-          "tags": [
-            "これはひどい"
-          ],
-          "timestamp": "2026/10/24 11:34"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "最大5323万件の規模感に眩暈がしてくるな",
-          "tags": [],
-          "timestamp": "2026/10/24 08:03"
-        }
-      ],
-      "fetchedAt": "2026-10-24T04:09:40.456590+00:00"
-    },
-    {
-      "id": "h_88b15dcf",
-      "title": "ドイツ・ミュンヘン市が再びオープンソースに移行--「Linux」デスクトップを含まず",
-      "url": "https://japan.zdnet.com/article/35253683/",
-      "domain": "japan.zdnet.com",
-      "bookmarkCount": 35,
-      "summary": "チェコのプラハで開催された「Open Source Summit Europe」の基調講演において、ドイツのミュンヘン市の最高デジタル責任者を務めるLaura Dornheim博士は、同市が10年以上前に政治的な理由から「LiMux」と呼ばれる「Linux」デスクトップの導入を放棄して「Windows」に移行したものの、現在は再びオープンソースソフトウ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.zdnet.com/article/35253683/",
-      "comments": [
-        {
-          "user": "yoko-hirom",
-          "comment": "『（LiMuxが）なぜ今は存在しないのか』『新政権の誕生に伴い、Microsoftにドイツ法人の本社をミュンヘン市に置くよう提案したため』　米国依存の経済からの脱却。",
-          "tags": [],
-          "timestamp": "2026/10/24 12:54"
-        },
-        {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
-          "tags": [],
-          "timestamp": "2026/10/24 12:17"
-        },
-        {
-          "user": "tweakk",
-          "comment": "“単なるLinuxデスクトップの導入にとどまらない。プロプライエタリーソフトウェアへの依存度を下げ、コストを管理し、公的に資金供給されたソフトウェアを再利用可能な公共資産へと変える取り組みへと進化”",
-          "tags": [
-            "ドイツ",
-            "行政",
-            "IT"
-          ],
-          "timestamp": "2026/10/24 11:43"
-        },
-        {
-          "user": "houyhnhm",
-          "comment": "むしろ今までサーバを移行してなかったのが不思議。とは言え、費用対効果考えると微妙な金額になるのも分かる。",
-          "tags": [],
-          "timestamp": "2026/10/24 11:34"
-        },
-        {
-          "user": "ToTheEndOfTime",
-          "comment": "LLMが賢くなった世界だとWindowsにこだわる必要なく、Linuxが最高な気がする。次の端末入れ替え時はLinuxにさせてもらおうかな",
-          "tags": [],
-          "timestamp": "2026/10/24 09:19"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "デスクトップLinuxの挫折を踏まえた現実路線への転換だな",
-          "tags": [],
-          "timestamp": "2026/10/24 09:11"
-        }
-      ],
-      "fetchedAt": "2026-10-24T04:09:41.301724+00:00"
+      "fetchedAt": "2026-10-24T10:41:00.341563+00:00"
     },
     {
       "id": "h_c73bd74a",
       "title": "スイッチングハブは使いこなしの宝庫。AV向けのハブ選びやポートの使い方【吉田伊織のA&V奥の細道】",
       "url": "https://av.watch.impress.co.jp/docs/series/yoshida/2147681.html",
       "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 28,
+      "bookmarkCount": 75,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/series/yoshida/2147681.html",
       "comments": [
         {
-          "user": "abortion",
-          "comment": "安直にLANケーブルで分配して、色々なデバイスで音楽聴けたら良くねと思っていたことがあるので、大変興味深い。",
-          "tags": [
-            "music"
-          ],
-          "timestamp": "2026/10/24 12:36"
+          "user": "Pinballwiz",
+          "comment": "古いバッファロー製品のハブ持ってたな。故障知らずだった。点灯ランプが上面にあると視界に入らなくていいんだよね。",
+          "tags": [],
+          "timestamp": "2026/10/24 18:21"
         },
         {
-          "user": "suka6411144",
-          "comment": "ネットワークオーディオで使われるDLNAはHTTPを音声転送に使うみたいだからTCPによる誤り訂正が行われるはずでケーブルやハブでデータの劣化が起きることはないはずだよなぁと思ってしまう",
+          "user": "Castalia",
+          "comment": "次は是非光(1000Base-LXや10GBase-SR等)もレポートしてもらいたい。",
           "tags": [],
-          "timestamp": "2026/10/24 12:20"
+          "timestamp": "2026/10/24 17:59"
         },
         {
-          "user": "auto_chan",
-          "comment": "最初から最後までオカルトたっぷりだ。寄稿先はムーでお願いします。お大事に。",
+          "user": "ochikun",
+          "comment": "眉唾、、と言いたいが、デジタル信号といっても、物理的にはアナログな電気信号で、電磁気的なノイズの影響を受けるからねー。LANケーブルがツイストした構造になってるのも電磁気ノイズ対策だし。",
           "tags": [],
-          "timestamp": "2026/10/24 12:18"
+          "timestamp": "2026/10/24 17:32"
         },
         {
-          "user": "peperon_brain",
-          "comment": "主観で音が良くなったと感じるならそれはそれで良い楽しみ方、みたいなことを徹底的な計測で定量評価やってるYouTubeチャンネルの人が言ってました",
+          "user": "beerbeerkun",
+          "comment": "「なぜスイッチングハブが必要になるのかというと、ハブを介すると音質がいいからだ」「金属筐体(鉄)であること。内部に飛び交うノイズを吸い取るのに効果が期待できる」信仰だよね。まあ本人の満足が一番。",
           "tags": [],
-          "timestamp": "2026/10/24 12:17"
+          "timestamp": "2026/10/24 16:55"
         },
         {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
+          "user": "yhachisu",
+          "comment": "さすがに吹き出してしまった。デジタルだぞ…？二重盲検でテストしてほしい。もうしてたらごめんなさい",
           "tags": [],
-          "timestamp": "2026/10/24 12:17"
+          "timestamp": "2026/10/24 16:52"
         },
         {
-          "user": "wizardofpain",
-          "comment": "“なぜスイッチングハブが必要になるのかというと、ハブを介すると音質がいいからだ”それはすごい(棒",
+          "user": "bellonieta",
+          "comment": "電池臭い音、半径ずらし…",
           "tags": [],
-          "timestamp": "2026/10/24 12:05"
+          "timestamp": "2026/10/24 16:32"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:39.555467+00:00"
+      "fetchedAt": "2026-10-24T10:41:03.002905+00:00"
     },
     {
-      "id": "h_a35018de",
-      "title": "外部生成AIサービスへの個人情報アップロードに関するお詫びとお知らせ - パナソニック ホールディングス",
-      "url": "https://holdings.panasonic/jp/information/topics/20261023.html",
-      "domain": "holdings.panasonic",
-      "bookmarkCount": 21,
-      "summary": "パナソニック オペレーショナルエクセレンス株式会社（以下、当社）は、子会社のパナソニック デジタル株式会社（以下、PD）と進める人事情報システム導入プロジェクトにおいて、プロジェクトメンバーが従業員、元従業員およびご家族の個人情報を含むデータを、当社が利用を禁止している外部の生成AIサービスにアップロ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/holdings.panasonic/jp/information/topics/20261023.html",
+      "id": "h_9c07ca4a",
+      "title": "不正アクセス受けたＧＭＯ、政府に「能動的サイバー防御」の適用を緊急要請",
+      "url": "https://www.yomiuri.co.jp/economy/20261024-GYT1T00180/",
+      "domain": "yomiuri.co.jp",
+      "bookmarkCount": 74,
+      "summary": "【読売新聞】 ＧＭＯインターネットのＦＸ（外国為替証拠金）取引などに使うクラウドサービスが不正アクセスを受けた問題で、同社は２４日、不正アクセスが原因の不正取引によって生じた損害を利用者に補償する方針を発表した。利用者全員に５０００",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.yomiuri.co.jp/economy/20261024-GYT1T00180/",
       "comments": [
         {
-          "user": "nikoli",
-          "comment": "大きい企業って自社専用生成AIがあって、文章の修正くらいだったらそれでいけるんだけど、大量のデータを入力したり、Excelで出力したり、とかができなかったりする。それを嫌った人がやらかしたんだろうなぁ",
+          "user": "diveintounlimit",
+          "comment": "サナエガーとかアベガーとかと言ってること変わらないように聞こえるんだけど大丈夫か。",
           "tags": [],
-          "timestamp": "2026/10/24 12:12"
+          "timestamp": "2026/10/24 19:33"
         },
         {
-          "user": "kujoo",
-          "comment": "一般顧客データの使い回しでは無いだろうが、そういう向きの心配に対しての説明とお騒がせしました系の謝罪？(今のところ読む気が無い　/　本来の謝罪はまた別よな",
+          "user": "dltlt",
+          "comment": "「特定社会基盤事業者」指定がないと「重要電子計算機」でないから無理では？と思ったが、サイバー対処能力強化法施行整備法をみるとサイバー通信情報監理委員会の承認があれば執行できるらしい（第六条のニ 第2項）",
           "tags": [
-            "あとで読む"
+            "意図しない発注"
           ],
-          "timestamp": "2026/10/24 11:46"
+          "timestamp": "2026/10/24 19:31"
         },
         {
-          "user": "MtAsuka",
-          "comment": "学習禁止になってるしDPAもちゃんとしてそうだし内部的なリスク管理の問題はあるとして、お詫びしなきゃいけない理由はなんだろう？具体的なリスクがないのにお詫びをしなきゃいけない風潮にならなければいいけど",
-          "tags": [],
-          "timestamp": "2026/10/24 11:42"
+          "user": "Shalie",
+          "comment": "GMOにはサイバー防衛をやっていた元陸将が参画していたと思うけど、この意思決定に関わったりしてるのかな。",
+          "tags": [
+            "Yomiuri",
+            "CyberSecurity"
+          ],
+          "timestamp": "2026/10/24 19:28"
         },
         {
-          "user": "auto_chan",
-          "comment": "こういうインシテンツが多発すると、会社は提供してくれないし自前で使うのも禁止で生産性激減みたいないつかきたウェイ。やっと提供してくれたと思ったら\"セキュリティの強化された\"国産チャットボットってオチよ",
-          "tags": [],
-          "timestamp": "2026/10/24 09:38"
+          "user": "YUKI14",
+          "comment": "社長のバイブコーディングでなんとかできるって！",
+          "tags": [
+            "ネット",
+            "企業",
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/24 19:06"
         },
         {
-          "user": "WildWideWeb",
-          "comment": "本件と直接関係しないけど、仕事の勉強にも活かそうと個人アカウント作るくらい熱心な社員がむしろ危なさそう。組織内アカウントではまだできない機能が先行リリースされてたりもするので。",
+          "user": "rdlf",
+          "comment": "1週間前は「最強のAI防御」とか言っていたのにな…",
           "tags": [],
-          "timestamp": "2026/10/24 08:37"
+          "timestamp": "2026/10/24 19:02"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "シャドーAIによる個人情報投入は防ぐのが本当に難しい課題",
-          "tags": [],
-          "timestamp": "2026/10/24 07:11"
+          "user": "Falky",
+          "comment": "『能動的サイバー防御は、警察・自衛隊が必要に応じて攻撃元サーバーに侵入し、攻撃を無害化する措置だ。今月１日に能動的サイバー防御関連法が本格施行となった』全然知らんかった。なにそれ",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/10/24 18:38"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:42.942951+00:00"
+      "fetchedAt": "2026-10-24T10:41:01.418234+00:00"
     },
     {
-      "id": "h_4de2f9a2",
-      "title": "Fixing Critical Node & PHP Flaws | Devin",
-      "url": "https://devin.ai/blog/vulnerability-fixes-plugin",
-      "domain": "devin.ai",
-      "bookmarkCount": 18,
-      "summary": "Cognition|October 22, 2026|11 min read|Copy link On October 21, 2026 the PHP and Node.js projects released security updates addressing vulnerabilities that can allow remote code execution. Teams running either runtime should identify affect",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/devin.ai/blog/vulnerability-fixes-plugin",
+      "id": "h_045c64f9",
+      "title": "AIサイバー対策緊急提言 | チームみらい",
+      "url": "https://team-mir.ai/lp/ai-cybersecurity/proposal.html",
+      "domain": "team-mir.ai",
+      "bookmarkCount": 49,
+      "summary": "情報漏洩の件数 漏洩件数はすでに昨年を上回る 485件 サイバー攻撃による情報漏洩の件数（2026.10.13時点） 参考：MM総研（2026年10月14日）国内サイバー攻撃による情報漏えい動向調査",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/team-mir.ai/lp/ai-cybersecurity/proposal.html",
       "comments": [
         {
-          "user": "syu-m-5151",
-          "comment": "バージョンを変えても、本番は直らない。環境の棚卸しから、更新前後のテスト、配備までつなぐ手順が本体だ。AIに任せる価値は差分の生成量より、確認可能な証拠を揃えることにある。承認と撤退の境界も残したい。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/10/24 12:26"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "DevinがNodeとPHPの緊急脆弱性修復プラグインを出してきたか",
+          "user": "totoronoki",
+          "comment": "国産AIが海外のフラッグシップに勝てるわけはなく、業者への厳罰化も｢報告しない｣が得になり、国に介入する権限を与えるのは危ない面もあり、マイナカード依存は本丸サーバーの不具合で認証全停止のリスク。難しい",
           "tags": [],
-          "timestamp": "2026/10/24 07:11"
+          "timestamp": "2026/10/24 19:24"
         },
         {
-          "user": "mkusaka",
-          "comment": "PHP・Node.jsの重大な脆弱性と修正版を解説し、影響リポジトリの調査から承認後の修正・テスト、リポジトリごとのPR作成まで行うOSSプラグインを紹介します。",
-          "tags": [
-            "AI要約",
-            "security",
-            "Node.js",
-            "PHP",
-            "Devin",
-            "plugin"
-          ],
-          "timestamp": "2026/10/23 12:28"
+          "user": "byaa0001",
+          "comment": "官公庁より程度は低いし他者サゲもブコメの通りまさに雑コンサルだが、政治家はそういうのが多いというかもっと無理解なのに傍若無人な人も多いよ。こんなBtoCプレゼンも迷惑だが全然マシ。推進してって欲しいね。",
+          "tags": [],
+          "timestamp": "2026/10/24 19:10"
+        },
+        {
+          "user": "bokukanochat",
+          "comment": "コンサル集団とかいう謎すぎる雑批判があるけど、国民の意見を集めて、与党に提言して、一定動かしてるからこれ以上ない仕事をしてるだろ…。明らかに他の政党ができてないことをしっかりやれている",
+          "tags": [],
+          "timestamp": "2026/10/24 18:39"
+        },
+        {
+          "user": "hanajibuu",
+          "comment": "これは素晴らしい。アンケートの取り方も参考になる。ぜひ皆さん回答しましょう。",
+          "tags": [],
+          "timestamp": "2026/10/24 18:08"
+        },
+        {
+          "user": "yonyon24",
+          "comment": "結局やってることがドキュメント書いて分析提案するだけの単なる外部コンサルなんだよなあ 政治家だったら声かけて組織や委員会作るなり自分で汗かいて動いてよ",
+          "tags": [],
+          "timestamp": "2026/10/24 18:08"
+        },
+        {
+          "user": "megumin1",
+          "comment": "チームみらいが嫌われる理由はこのように「中の人たちは何もやっていない」と決めつけ口だけを動かすところ。通産省、経産省、IPA独立法人などの実績や活動を外から勝手に否定する。実績ゼロのクソコンサル集団仕草。",
+          "tags": [],
+          "timestamp": "2026/10/24 17:33"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:40.948124+00:00"
+      "fetchedAt": "2026-10-24T10:41:01.773408+00:00"
+    },
+    {
+      "id": "h_43944517",
+      "title": "決定的なフロントエンドアーキテクチャがいい",
+      "url": "https://speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 39,
+      "summary": "Vue Fes Japan 2026 における、プロダクト開発本部 クラウドサインProduct Engineering部 SWE 辻 佳佑 (t0daaay) による登壇資料です。 【Vue Fes Japan 2026】 …",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/bengo4com/20261024-vuefes-2026-deterministic-frontend",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "ESLintでルールガチガチに固めてレビューの不毛な論争を自動化するの賢いな",
+          "tags": [],
+          "timestamp": "2026/10/24 17:47"
+        }
+      ],
+      "fetchedAt": "2026-10-24T10:41:02.045555+00:00"
     },
     {
       "id": "h_e3ea6fd3",
       "title": "CVE Tracker — CVEs per month since 1999",
       "url": "https://cve.0xosprey.com/",
       "domain": "cve.0xosprey.com",
-      "bookmarkCount": 15,
-      "summary": "Resolution DayWeekMonthYear Range 30D1Y5Y10YAll View CountCumulativeModels Dates PublishedReserved Mode NSA 0-DaysShigure Log ScaleDownload CSVCopy PNG",
+      "bookmarkCount": 38,
+      "summary": "Resolution DayWeekMonthYear Range 30D1Y5Y10YAll View CountCumulativeModels Dates PublishedReserved Mode NSA 0-DaysShigure Log ScaleDownload CSVCopy PNG Data: CVEProject/cvelistV5 Counts follow the selected period and date; Cumulative shows ",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/cve.0xosprey.com/",
       "comments": [
+        {
+          "user": "kimioki",
+          "comment": "LLMでわかったんだろうけど、そのLLMを使わないと攻撃できない物が増えてるんじゃね？",
+          "tags": [],
+          "timestamp": "2026/10/24 17:03"
+        },
+        {
+          "user": "nacika_inscatolare",
+          "comment": "激増している・・・",
+          "tags": [],
+          "timestamp": "2026/10/24 15:57"
+        },
         {
           "user": "nguyen-oi",
           "comment": "CVEの増加ペースが狂ってる。もはや脆弱性だらけの世界",
@@ -438,100 +359,208 @@
           "timestamp": "2026/10/24 02:30"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:39.901024+00:00"
+      "fetchedAt": "2026-10-24T10:41:04.644228+00:00"
     },
     {
-      "id": "h_67b904a9",
-      "title": "【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） | GMOインターネットグループ株式会社",
-      "url": "https://group.gmo/info/alert/20261024/",
-      "domain": "group.gmo",
-      "bookmarkCount": 15,
-      "summary": "2026年10月24日 お知らせ【重要】お名前.com デスクトップクラウドサービスに対するサイバー攻撃について（第4報） お客様へのお見舞金のお支払いと不正取引による損失の補償について 〜能動的サイバー防御に関する措置の実施に向け、政府関係機関へ要請開始〜 GMOインターネットグループ株式会社 GMOインターネット株式...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/group.gmo/info/alert/20261024/",
+      "id": "h_f0046b82",
+      "title": "GMO、「能動的サイバー防御」適用を政府に要請 不正アクセス問題 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC240YU0U6A021C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 26,
+      "summary": "GMOインターネットグループは24日、外国為替証拠金取引（FX）取引サービスへの不正アクセスを受け、サイバー攻撃に先手を打って被害を防ぐ「能動的サイバー防御」の適用を政府に緊急要請したと発表した。GMOは民間事業者が単独で高度なサイバー攻撃を防御することは難しいと主張。10月施行した能動的サイバー防御法に基...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC240YU0U6A021C2000000/",
       "comments": [
         {
-          "user": "ryudenx",
-          "comment": "手続きは面倒そうだけどゴネられずに補償されるなら、当たり前がされない中でなかなか良い対応では。",
-          "tags": [],
-          "timestamp": "2026/10/24 13:04"
-        },
-        {
-          "user": "Lian",
-          "comment": "取引損失の補償までするんだ。えらいな。",
+          "user": "Itisango",
+          "comment": "お手並みを見たい気がする",
           "tags": [
-            "揉め事"
+            "IT",
+            "security",
+            "政治",
+            "ネタ",
+            "日本",
+            "社会",
+            "企業",
+            "business",
+            "news",
+            "法律"
           ],
-          "timestamp": "2026/10/24 13:04"
+          "timestamp": "2026/10/24 18:43"
         },
         {
-          "user": "himakao",
-          "comment": "さすがに全額補填か",
+          "user": "Ashburton",
+          "comment": "能動的サイバー防御って、せいぜいDDoSの踏み台になってる機器をブロックするくらいでしょ。侵入を止めろとか無理難題過ぎる。GMOの経営陣は技術をよく分かってないんじゃ",
           "tags": [],
-          "timestamp": "2026/10/24 13:02"
+          "timestamp": "2026/10/24 16:48"
         },
         {
-          "user": "kenjou",
-          "comment": "どうやら損失は全額補填されるみたいだね。半額しか補填しない証券会社より対応がよいのでは。ネット証券はそういう前例を作ってしまったので使うのがちょっと嫌になっている。",
+          "user": "myr",
+          "comment": "薄々どこからやられたかわかってるってことなきが",
           "tags": [],
-          "timestamp": "2026/10/24 12:52"
+          "timestamp": "2026/10/24 16:39"
+        },
+        {
+          "user": "TakamoriTarou",
+          "comment": "いやあり得ない。責任転嫁すんな",
+          "tags": [],
+          "timestamp": "2026/10/24 15:53"
+        },
+        {
+          "user": "hirolog634",
+          "comment": "それ、国民生活に直結するインフラなど、民間だけでは対処できない規模で国の安全保障を脅かす際などに適用するのものでは？今まで独禁法に抵触しそうな稼ぎ方をしてきた一つの企業の事象に手助けするのかな？",
+          "tags": [],
+          "timestamp": "2026/10/24 15:43"
+        },
+        {
+          "user": "tarodja3",
+          "comment": "【不正アクセス】 👉🏿 企業・業界情報",
+          "tags": [],
+          "timestamp": "2026/10/24 14:58"
+        }
+      ],
+      "fetchedAt": "2026-10-24T10:41:03.550405+00:00"
+    },
+    {
+      "id": "h_72c7c144",
+      "title": "PHPセキュリティ事件、ハッカーたちの間で修正してないサーバーに侵入して勝手にセキュリティパッチを当てて何もせず立ち去る遊びが流行しているらしい→「これやるためだけにサイバーセキュリティ学びたかった まだ間に合うかな」",
+      "url": "https://posfie.com/@petaritape/p/aqgcPOA",
+      "domain": "posfie.com",
+      "bookmarkCount": 20,
+      "summary": "ﾉﾌﾞﾁｬﾝ🎶💖🌈 @81O931 PHPセキュリティ事件、ハッカーたちの間で修正してないサーバーに侵入して勝手にセキュリティパッチを当てて何もせず立ち去る遊びが流行しているらしい 2026-10-24 06:07:36",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/aqgcPOA",
+      "comments": [
+        {
+          "user": "igni3",
+          "comment": "どう考えても犯罪だし迷惑",
+          "tags": [],
+          "timestamp": "2026/10/24 19:20"
         },
         {
           "user": "nguyen-oi",
-          "comment": "「能動的サイバー防御」の要請とか話が国家レベルになってきた。お名前の被害は甚大だな",
+          "comment": "善意の不法侵入とかいうパワーワード。パッチ当てるついでにバックドア仕込まれてそう",
           "tags": [],
-          "timestamp": "2026/10/24 12:44"
+          "timestamp": "2026/10/24 19:18"
         },
         {
-          "user": "mayumayu_nimolove",
-          "comment": "“金銭的被害の有無にかかわらず、お見舞金として一律5,000円”",
+          "user": "JD30671011",
+          "comment": "当て逃げやん",
           "tags": [],
-          "timestamp": "2026/10/24 12:11"
+          "timestamp": "2026/10/24 18:44"
+        },
+        {
+          "user": "sgo2",
+          "comment": "伝染るんですのシークレット奥さん",
+          "tags": [],
+          "timestamp": "2026/10/24 18:14"
+        },
+        {
+          "user": "hatebu_admin",
+          "comment": "サイトが止まったと思ったら、フレームワークがphp4時代のSmarty 2.xなのに勝手にphp8に更新されてエラー吐いてたみたいな話？",
+          "tags": [],
+          "timestamp": "2026/10/24 16:30"
+        },
+        {
+          "user": "m4fg",
+          "comment": "やってみるとわかるけど、今回の脆弱性、なかなかに発動条件が厳しい。できたとしてもサーバーのrootが取れるわけではないし、サイトの改ざんとかDB搾取とかしかできない。",
+          "tags": [],
+          "timestamp": "2026/10/24 16:05"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:40.162199+00:00"
+      "fetchedAt": "2026-10-24T10:41:04.379055+00:00"
     },
     {
-      "id": "h_eb926a3f",
-      "title": "PHP脆弱性への攻撃「1分で100万回」 米クラウドフレアCEO - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN23C4G0T21C26A0000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 11,
-      "summary": "【ニューヨーク=西邨紘子、シリコンバレー=伴正春】重大な脆弱性が見つかったプログラム言語「PHP」を突いた攻撃が拡大している。米ネットインフラ大手クラウドフレアのトップは「1分100万回のペースで攻撃を観測している」と明らかにした。「クラスター爆弾で攻撃しているよう」クラウドフレアのマシュー・プリンス最高...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOGN23C4G0T21C26A0000000/",
+      "id": "h_8dabd653",
+      "title": "1Password、AIエージェント用パスワード「1Password for Agents」発表",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2150830.html",
+      "domain": "ai.watch.impress.co.jp",
+      "bookmarkCount": 15,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ai.watch.impress.co.jp/docs/news/2150830.html",
       "comments": [
         {
-          "user": "mayumayu_nimolove",
-          "comment": "高橋名人でも1分間に57,600連射なのに",
+          "user": "homarara",
+          "comment": "1passwordがやられたら俺の持ってる数百の各種アカウントが同時にやられるので、不便でも良いから安全第一で運営してほしい。",
           "tags": [],
-          "timestamp": "2026/10/24 12:52"
+          "timestamp": "2026/10/24 19:16"
         },
         {
-          "user": "ustam",
-          "comment": "対応せずに放置してるし漏洩しても見なかったことにしている業者がどのくらいいるかだなあ。",
+          "user": "b9rantan8",
+          "comment": "怪しいな",
           "tags": [],
-          "timestamp": "2026/10/24 12:39"
+          "timestamp": "2026/10/24 19:03"
         },
         {
-          "user": "daybeforeyesterday",
-          "comment": "うーむ",
+          "user": "crimson_diamond",
+          "comment": "便利すぎて草",
           "tags": [],
-          "timestamp": "2026/10/24 12:17"
+          "timestamp": "2026/10/24 18:47"
         },
         {
-          "user": "HanPanna",
-          "comment": "捕まえてくれ",
+          "user": "nguyen-oi",
+          "comment": "AIエージェントに生パスワード渡さずに代行入力させる時代が来たか",
           "tags": [],
-          "timestamp": "2026/10/24 12:06"
+          "timestamp": "2026/10/24 18:15"
         },
         {
-          "user": "csal8040",
-          "comment": "重大な脆弱性が見つかったプログラム言語「PHP」を突いた攻撃が拡大している。米ネットインフラ大手クラウドフレアのトップは「1分100万回のペースで攻撃を観測している」と明らかにした。",
+          "user": "sevenspice",
+          "comment": "攻撃が自動化された以上防御も自動化しなくてはならないから何かしらの形で認証できるようにはする必要があるのだけどこれ自体がもうAIの思うツボって感じがして既に人類はAIにコントロールされてる…",
           "tags": [],
-          "timestamp": "2026/10/24 09:43"
+          "timestamp": "2026/10/24 18:10"
+        },
+        {
+          "user": "netafull",
+          "comment": "“1Password for Agentsを使用すると、エージェントはユーザーの保管庫から認証情報を使用するようリクエストし、リクエストを承認すると、1Passwordが宛先サイトに認証情報を直接自動入力する。”",
+          "tags": [],
+          "timestamp": "2026/10/24 10:57"
         }
       ],
-      "fetchedAt": "2026-10-24T04:09:40.705141+00:00"
+      "fetchedAt": "2026-10-24T10:41:04.945614+00:00"
+    },
+    {
+      "id": "h_b98dea21",
+      "title": "同じ型のパソコンを持ってる同僚が「画面が急に縦になっちゃったんですけど…」と相談してきた→タブレットになる機種だったので外して見せたら絶叫してた",
+      "url": "https://togetter.com/li/2762221",
+      "domain": "togetter.com",
+      "bookmarkCount": 13,
+      "summary": "大羊（たいよう） @taiyo_181 同じ型のパソコン持ってる先生が「画面が急に縦になっちゃったんですけど…こういう時ってどうすればいいですか？」と聞いてきたので、「ああはいはい、こういう時は画面を一回外して回転させるといいすよ(タブレットにもなるタイプのパソコン)」って言いながらバコっとキーボードから画面外...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2762221",
+      "comments": [
+        {
+          "user": "m4fg",
+          "comment": "ショートカットで回転させる機能、うちの猫に教えてもらった",
+          "tags": [],
+          "timestamp": "2026/10/24 19:32"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "これぞ2in1の醍醐味w 物理破壊に見えるのは初見殺しすぎる",
+          "tags": [],
+          "timestamp": "2026/10/24 19:18"
+        },
+        {
+          "user": "mutinomuti",
+          "comment": "“アラレちゃんで見たやつ”",
+          "tags": [],
+          "timestamp": "2026/10/24 19:18"
+        },
+        {
+          "user": "daruyanagi",
+          "comment": "むかし Surface の発表でノーパソの液晶がとれたの思い出したw 買った",
+          "tags": [],
+          "timestamp": "2026/10/24 18:24"
+        },
+        {
+          "user": "narwhal",
+          "comment": "「機能を把握しておらず、突然パソコンを破壊した人だと思われた」",
+          "tags": [
+            "twitter",
+            "pc"
+          ],
+          "timestamp": "2026/10/24 18:17"
+        }
+      ],
+      "fetchedAt": "2026-10-24T10:41:03.834208+00:00"
     }
   ],
-  "lastCollection": "2026-10-24T04:09:42.942976+00:00"
+  "lastCollection": "2026-10-24T10:41:04.945637+00:00"
 }
