@@ -1,34 +1,24 @@
 {
   "items": [
     {
-      "id": "cc_e667052c",
-      "title": "Claude Code Modsで作る自分専用のTerminal UI",
-      "url": "https://zenn.dev/metalmental/articles/20261025_claude-code-mods",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.300459+00:00",
-      "excerpt": "はじめに Claude Code Mods を作ってみました! Modsを作った理由は、TerminalのUIを自由にカスタマイズ したかったからです ModsはTypeScriptで作成しますが、強力な型定義のおかげで、Claudeに自然言語で指示するだけで、正確にエラーなくカスタマイズできました!! 対象者 Claude Codeを利用している方 Modsを利用したTerminal UIのカス"
-    },
-    {
-      "id": "cc_ad322f7f",
-      "title": "Claude Code の自動モードで、MCP の作成・削除が承認なしで通った：書き込みだけ毎回確認にする設定",
-      "url": "https://zenn.dev/outsidernotes/articles/933adb87f7e8de",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.300392+00:00",
-      "excerpt": "Claude Code に freee の公式 MCP をつないで試したところ、自動モードでは、取引の作成・更新・削除が、承認の画面なしで通りました。 見積書も、単価を AI が過去の見積書から決めて、確認せずに作りました。 止める方法は、設定ファイルに数行足すだけでした。書き込みの道具だけを permissions.ask に入れると、読むのは今までどおりすぐに答え、書くときだけ毎回、承認の画面"
-    },
-    {
       "id": "cc_25e13742",
       "title": "Claude Code（Opus 5.5）に、14分の宇宙ドキュメンタリーを作ってもらった",
       "url": "https://zenn.dev/acntechjp/articles/77765dfde0e9dd",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.300324+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.340143+00:00",
       "excerpt": "作ったもの 「太陽系の最期｜46億年の記憶と、誰も見ることのない未来」（14分15秒） 太陽系の誕生から、海が消え、太陽がふくらむ遠い未来、そして今の時代までを語る科学ドキュメンタリーです。 3DCG はすべて Claude Code が Blender を Python から動かして作りました。3D モデル・画像・写真の素材は使っていません。 私がしたのは、方針を決めることと、見て感想を言うこと"
+    },
+    {
+      "id": "cc_0c0f1a58",
+      "title": "Claude Codeの会話が200Kを超えたら何が起きる？ 先に圧縮するか、そのまま送って次で圧縮でした",
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-prompt-too-long-20261026",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-26T22:32:05.340022+00:00",
+      "excerpt": "Claude Code の v2.1.310 のリリースノートに、「Prompt is too long」というエラーの後の圧縮を直した、という1行がありました。base64 や SVG のような詰まった文字列が会話にあると、圧縮しても残しすぎて、次の要求もまた失敗することがあった、という不具合です。 どう直ったのかを見たくて、10月26日に、わざと会話を 200K トークンより大きくしてみました"
     },
     {
       "id": "cc_4675ebaf",
@@ -37,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.300184+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.339943+00:00",
       "excerpt": "EDINETの有価証券報告書は、XBRL形式で公開されています。ただし、XBRLをそのまま読むのは手間がかかります。この記事では、Kabukenの MCP コネクタを Claude に追加して、投資家として知りたいEDINETの開示書類にもとづく様々な企業の数値を会話形式で簡単に調べられるようになる手順。そして、企業の損益をわかりやすく図で見ることのできる機能を紹介します。 Kabuken（htt"
     },
     {
@@ -47,8 +37,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.300054+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.339792+00:00",
       "excerpt": "Windows で \"shell\": \"powershell\" を指定した hook は、呼んだ node などが exit 2 で終わっても、Claude Code 2.1.303 では操作を止めませんでした。Windows PowerShell 5.1 の -Command が終了コード 2 を 1 に変えるためです。2.1.309 ではこの書き方は止まりましたが、node の後ろに Writ"
+    },
+    {
+      "id": "cc_913eef01",
+      "title": "【必読】ClaudeとLaravel公式のMCPで自作アプリを連携し「〇〇して」と頼めるようにしたら、開発業務がとても快適になった話",
+      "url": "https://zenn.dev/homiebridge/articles/63b386d28ee823",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-26T22:32:05.339653+00:00",
+      "excerpt": "個人開発している案件管理ツール「AYUMI」を、Claude とつなぎました。Claude Code や、ブラウザ版の Claude に「この作業を課題にして」「未完了の課題を見せて」「完了にしてコメントを残して」と、ふだんの言葉で頼むだけで、AYUMI の操作を代わりに行ってくれます。 これが思っていた以上に快適でした。 何が快適になったか 開発中、私は Claude Code と一緒にコードを"
+    },
+    {
+      "id": "cc_1863426f",
+      "title": "記事は読み返しても、git の名義は読み返さない──Claude Codeで業務ノウハウを社外に書くときの漏えい対策",
+      "url": "https://zenn.dev/pepe_3_go/articles/claude-code-article-leak-paths",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-26T22:32:05.301237+00:00",
+      "excerpt": "DTP（組版）の仕事で、Claude Code に案件ファイルの加工やスクリプトづくりを任せている。そこで得たノウハウを、Zenn に記事として書いている。 書き方は少し特殊で、Claude Code が作業したセッションの記録から、Claude Code 自身が下書きを起こす。つまり下書きを書く AI は、さっきまで客先のファイル名や案件番号を読んでいた AI でもある。人が思い出しながら書くよ"
+    },
+    {
+      "id": "cc_b29a48ba",
+      "title": "Claude Codeで発信の仕組みを作り込んだら、1週間で売上0円だった話",
+      "url": "https://zenn.dev/madao1981/articles/20261017-claude-code-week-zero-sales",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-26T22:32:05.301149+00:00",
+      "excerpt": "Claude Codeに担当エージェントとスキルを作り込み、noteの有料記事とSNSの発信を約1週間回しました。記事の本数は増えましたが、売上は0円でした（2026-10-15時点）。 結論 作る仕組みは1週間で整いましたが、告知からnoteへの流入がほぼないまま、記事だけが増えました 数字を見ると、詰まっていたのは「作る量」ではなく「読まれる経路」だったと考えています（筆者の見立てです） 仕組"
     },
     {
       "id": "cc_91bef184",
@@ -57,7 +77,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299977+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.301080+00:00",
       "excerpt": "「古いプログラムをサブシステムごとにフォルダに入れて、Claude Code にリバースエンジニアリングさせたい」。そう考えたとき、情報セキュリティの立場から見ると、気になる点がいくつも出てきます。クラウドの事業者に保存されるのは大丈夫か。第三者に横取りされないか。個人情報が紛れ込んでいたらどうなるか。自分の PC の秘密は守れるのか。 この記事では、情報セキュリティの担当者が気にしそうな点を 2"
     },
     {
@@ -67,18 +87,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299896+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.300976+00:00",
       "excerpt": "X で、AGENTS.md（エージェント向けのプロジェクトの説明書）が古くなったときの話が話題になりました。投稿によると、説明書がコードと合っていないと分かっていても、Claude Code は古い説明書に従ってしまう。研究者が罠を仕掛けて 80 回試したら 79 回引っかかった。ただし、ある 1 行を足すと、コードに従う割合は 4% から 91% に上がった、というものです。 日本で Claud"
-    },
-    {
-      "id": "cc_913eef01",
-      "title": "【必読】ClaudeとLaravel公式のMCPで自作アプリを連携し「〇〇して」と頼めるようにしたら、開発業務がとても快適になった話",
-      "url": "https://zenn.dev/homiebridge/articles/63b386d28ee823",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299812+00:00",
-      "excerpt": "個人開発している案件管理ツール「AYUMI」を、Claude とつなぎました。Claude Code や、ブラウザ版の Claude に「この作業を課題にして」「未完了の課題を見せて」「完了にしてコメントを残して」と、ふだんの言葉で頼むだけで、AYUMI の操作を代わりに行ってくれます。 これが思っていた以上に快適でした。 何が快適になったか 開発中、私は Claude Code と一緒にコードを"
     },
     {
       "id": "cc_540361fd",
@@ -87,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299743+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.300837+00:00",
       "excerpt": "AI が道具を使う直前に必ず通る「門番」を置いて、危ない操作を止めています。9月11日からの約6週間で、門番が対話中に操作を止めたのは283回でした。そのうち282回は、AI が私の発言を待たずに、自分で次の操作へ進んでいました。 止められた AI が次の手を考えるとき、読むのは門番が返した文です。「だめ」とだけ返せば、AI は自分で別の道を探しにいくかもしれません。そこで門番は、止めるときに、で"
     },
     {
@@ -97,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299672+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.300768+00:00",
       "excerpt": "はじめに 「社長は人間1人、社員は全部Claude」という会社の運営記録、3回目です。 前回の予告では「Webアプリ1本目の企画」を書くと言っていましたが、予定を変えます。アプリの題材は「あなたの仕事、AI社員に何%任せられる？診断」に決まりました。ただ、その前にもっと大事なことが起きたので、今回はそちらを書きます。アプリの話は次回に回します。 起きたのは、AI社員が社長に稟議を2件出し、社長がそ"
     },
     {
@@ -107,68 +117,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:36.299589+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.300700+00:00",
       "excerpt": "2026 年 10 月 22 日、Claude 公式が、Pro、Max、Team プランの Claude のウェブ版、デスクトップ版、スマホ版で、新しいセッションの既定を auto モードにすると発表しました。発表の翌週、つまり今週からの展開です。 https://x.com/claudeai/status/2113360845409583307 auto モードでは、Claude が操作するたび"
     },
     {
-      "id": "cc_019cf464",
-      "title": "ポストモーテムをClaude Codeに書かせる：個人名を出さずに「なぜなぜ」を仕組みまで掘り、時刻はスクリプトで検算する",
-      "url": "https://zenn.dev/aishigoto/articles/claude-code-postmortem-blameless",
+      "id": "cc_6aea7041",
+      "title": "Claude Code に「今日なにやる？」を聞ける ToDo を MCP で作って、4か月自社で回してみた",
+      "url": "https://zenn.dev/aisaikou/articles/5008d5efa6da9f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.360238+00:00",
-      "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。 障害のあとに書くポストモーテムを、ログとチャットの記録からClaude Codeに下書きさせる手順を紹介します。 架空の障害の材料を渡して実際に生成した出力と、そこに書かれた時刻をPythonで検算した結果が、この記事の中身です。 渡した材料 社内の経費精算システムで、リ"
+      "fetchedAt": "2026-10-26T22:32:05.300612+00:00",
+      "excerpt": "会社のタスクを、Claude Code と同じ場所で持つようにして4か月たちました。 作ったのは「こつこつ」というゴール起点の ToDo アプリで、MCP サーバーがついています。 AI に「今日やること出して」と頼むと、こつこつのタスクを読んで答えてくれて、作業が終わると結果を書き戻してくれます。 この記事では、なんでこういう形にしたのかと、MCP で AI にタスクを持たせるときに効いた設計を"
     },
     {
-      "id": "cc_2274334b",
-      "title": "Claude Code で受託の修正をするなら、渡す前にクライアントへ聞き返す工程を作る",
-      "url": "https://zenn.dev/jskn_d/articles/claude-code-clarify-before-handoff",
+      "id": "cc_37ca2070",
+      "title": "AI のハーネスって結局何なのか、自分の Claude Code の設定から整理してみた",
+      "url": "https://zenn.dev/pollenjp/articles/2026-10-22-ai-harness",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.360169+00:00",
-      "excerpt": "はじめに 受託の修正対応で、クライアントからの指示を Claude Code に渡して直してもらうのは、もう珍しいやり方ではなくなりました。修正依頼をチケットやフィードバックツールに集めておき、その URL や MCP 経由で Claude Code に読ませて直させる、という手順の紹介も増えています。 自分も受託の案件でこれをやっています。実際、指示がはっきりしているものは本当に速く終わります。"
+      "fetchedAt": "2026-10-26T22:32:05.300477+00:00",
+      "excerpt": "はじめに Claude Code を毎日使っていて、CLAUDE.md (毎回の会話の最初に読ませる指示ファイル) に決まりを書き足したり、skill (要るときだけ読ませる手順書) をいくつも作ったり、危ない編集を hook (決まった瞬間に必ず動く script) で止めたりしてきた。それなのに、改まって「ハーネスとは何か」と聞かれたとき、答えられない。coding agent の話でよく見る"
     },
     {
-      "id": "cc_cff04ac4",
-      "title": "Claude Code ＋ MagicPod の MCP で、テストの調査から修正まで AI にお願いしている話",
-      "url": "https://zenn.dev/wisevine/articles/4717c1c025e84a",
+      "id": "cc_08fe38c9",
+      "title": "Granola MCPとClaude Codeで会議の記録をmdに集める：無料枠30日をlaunchdで補う",
+      "url": "https://zenn.dev/mediiiiium/articles/granola-mcp-claude-code-meeting-notes",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.360101+00:00",
-      "excerpt": "はじめに MagicPod の導入には、今の会社を含めて 2 社で関わってきました。すっかり愛着のあるツールです。 最近、MagicPod と AI を組み合わせた記事を見かけることが増えてきて、うれしく思っています。MCP サーバーを通して AI がテスト結果を読み取り、毎朝の確認を楽にしている事例も出てきています。 Claude などの AI を仕事で使うのが当たり前になってきました。弊社でや"
-    },
-    {
-      "id": "cc_1ead1bc9",
-      "title": "Claude Codeに「このデータベースを止めたら誰が困る？」と聞いて、根拠までたどる",
-      "url": "https://zenn.dev/96logger/articles/6ee24bab72d94b",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.359954+00:00",
-      "excerpt": "ご利用中のAIを、システム保守に強くしたい皆様へ。 開発支援AIは、コード自体に関する回答にはよく答えます。ただ「このデータベースを止めたら誰が困る？」と聞いた時、その結果は期待外れになると感じています。そのシステムを誰が、どの業務で使っているかは、細切れの資料や担当者の記憶の中にあり、コードには書かれていないからです。 この記事では、そうした質問に的確に答えるために、MCPサーバーが役立つ様子を"
-    },
-    {
-      "id": "cc_0c0f1a58",
-      "title": "Claude Codeの会話が200Kを超えたら何が起きる？ 先に圧縮するか、そのまま送って次で圧縮でした",
-      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-prompt-too-long-20261026",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.359847+00:00",
-      "excerpt": "Claude Code の v2.1.310 のリリースノートに、「Prompt is too long」というエラーの後の圧縮を直した、という1行がありました。base64 や SVG のような詰まった文字列が会話にあると、圧縮しても残しすぎて、次の要求もまた失敗することがあった、という不具合です。 どう直ったのかを見たくて、10月26日に、わざと会話を 200K トークンより大きくしてみました"
-    },
-    {
-      "id": "cc_0662a8f2",
-      "title": "Claude Codeのサンドボックス回避の報告が半年で5件あった日、自分の環境で回避対象の設定は0だった",
-      "url": "https://zenn.dev/hideki_tamae/articles/claude-code-sandbox-bypass-report-count",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-26T12:39:35.359690+00:00",
-      "excerpt": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿タスクを含め、自分が今動いているこのセッションの中に、これから挙げる5件の脆弱性報告がそれぞれ悪用しようとした「設定・ファイル・ルール」が実際に存在した数です。 このタスクは、Claude Code(正確にはClaude Code Remoteのクラウドセッション)の上で動いています。そこで今日、自分が使ってい"
+      "fetchedAt": "2026-10-26T22:32:05.300364+00:00",
+      "excerpt": "会議の記録を、Granola から Claude Code で取り込み、GitHub の非公開リポジトリに Markdown で集めています。Meet・Zoom・Teams、対面、ひとりの音声メモまで、入口は Granola にそろえました。 経緯や考え方は note に書きました。 https://note.com/mediiiiium/n/n379686f542d3 こちらは中身の話です。Gr"
     },
     {
       "id": "cc_b2235741",
@@ -177,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-26T12:39:37.123749+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.777281+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -187,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-26T12:39:37.123817+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.777348+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -197,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-26T12:39:37.123888+00:00",
+      "fetchedAt": "2026-10-26T22:32:05.777419+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-26T12:39:37.123901+00:00"
+  "lastCollection": "2026-10-26T22:32:05.777431+00:00"
 }
