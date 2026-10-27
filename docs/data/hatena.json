@@ -1,475 +1,559 @@
 {
   "entries": [
     {
-      "id": "h_bc448bb1",
-      "title": "楽天トラベルに不正アクセス、顧客情報260万件流出か クレカ3万件も - 日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
-      "domain": "nikkei.com",
-      "bookmarkCount": 143,
-      "summary": "楽天グループが運営する旅行予約サービス「楽天トラベル」は26日、海外ホテル予約サイトにログインした最大約260万件の顧客情報が不正アクセスを受けたと発表した。氏名やメールアドレス、電話番号、社内用の識別番号が漏れた恐れがある。シンガポール子会社が運営するサイトが不正アクセスを受けた。同サイトで予約した...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC2686T0W6A021C2000000/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "楽天トラベルもかよ、今日セキュリティ事故のニュース多すぎだろ",
-          "tags": [],
-          "timestamp": "2026/10/27 07:15"
-        },
-        {
-          "user": "tei_wa1421",
-          "comment": "ぎゃーと思ったら、影響なさそうで良かった",
-          "tags": [],
-          "timestamp": "2026/10/27 07:04"
-        },
-        {
-          "user": "urtz",
-          "comment": "楽天は手広すぎてセキュリティコストかかりそう",
-          "tags": [],
-          "timestamp": "2026/10/27 05:46"
-        },
-        {
-          "user": "cinefuk",
-          "comment": "クレカの下4桁の流出が相次ぎ、たとえば某ストアのレシートのような「下4ケタを隠したクレカ番号表示」と名寄せできるようになると、完全なクレカ番号を再生することができるな",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/10/27 05:05"
-        },
-        {
-          "user": "wdnsdy",
-          "comment": "楽天トラベルは国内旅行にしか使ってないから大丈夫ってことか",
-          "tags": [],
-          "timestamp": "2026/10/27 04:12"
-        },
-        {
-          "user": "taguch1",
-          "comment": "流出多すぎでネットで登録するカードは仮想的なオンラインてすぐに再発行できるもの、決済金額もリアルタイムで制限できる、メアドもそのサービス専用のものを払い出して漏れたら破棄という運用。住所は…諦めた",
-          "tags": [],
-          "timestamp": "2026/10/27 03:18"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:02.139010+00:00"
-    },
-    {
-      "id": "h_62738715",
-      "title": "pixiv社の爆速PHPアップデートを参考に、社内で Docker Official Image のビルドシステムを作った話 - Classi開発者ブログ",
-      "url": "https://tech.classi.jp/entry/2026/10/26/163000",
-      "domain": "tech.classi.jp",
-      "bookmarkCount": 136,
-      "summary": "はじめに Classi のサービス開発を担当しているイノウエです。 2026年10月21日に、通称 PHP2Shell と呼ばれる深刻な脆弱性を修正する PHP 8系への緊急パッチが配信されました。 当社のサービスも一部で PHP が使用されており、緊急パッチの配布に備え私を含めた数名で待機しておりました。 しかし、コンテナのベースイメ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.classi.jp/entry/2026/10/26/163000",
-      "comments": [
-        {
-          "user": "iphone",
-          "comment": "構造を把握していたにも関わらず、当日23時まで何も準備してなかったのが信じ難い。そんな呑気に済ませうるなら翌日対応でも良かったのでは。",
-          "tags": [],
-          "timestamp": "2026/10/27 03:26"
-        },
-        {
-          "user": "nabinno",
-          "comment": "Intent-Driven Engineeringの好例。実装から意図と制約の定義・検証へと人間の役割が移行する。AIによる技術スタックを超えた知識の再利用が、開発のみならず脆弱性対応や運用統制も変えていっている。",
-          "tags": [
-            "classi",
-            "intent-driven-engineering",
-            "ai-agent",
-            "software-engineering",
-            "security-engineering",
-            "human-on-the-loop"
-          ],
-          "timestamp": "2026/10/27 01:31"
-        },
-        {
-          "user": "takehikom",
-          "comment": "『攻撃が AI で模倣できるなら、防御も AI で模倣できる』",
-          "tags": [],
-          "timestamp": "2026/10/27 00:08"
-        },
-        {
-          "user": "revert",
-          "comment": "自前ビルドに依存させるなら、周辺エコシステムを含めあらゆる更新のセキュリティメンテナンスを無限に引き受けるのと等価だよ。pixivが偉いのは緊急ビルドルートとして確保されていること",
-          "tags": [],
-          "timestamp": "2026/10/26 23:57"
-        },
-        {
-          "user": "myr",
-          "comment": "皆お金あるなぁ/ウチは貧乏なのでこうしてみた「https://inside.pixiv.blog/2026/10/22/193321 コレをウチ向けに応用するとどうなるだろう? コストとかスケールとか, ウチにフィットした形に」",
-          "tags": [],
-          "timestamp": "2026/10/26 23:39"
-        },
-        {
-          "user": "daishi_n",
-          "comment": "「公式配信を待ってられない」人たちには新しいCICD手順の確立だけど、コンテナ仮想化とか永続ストレージの分離ができている環境でしかできない事だよね。",
-          "tags": [],
-          "timestamp": "2026/10/26 20:31"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:05.078476+00:00"
-    },
-    {
-      "id": "h_8e33b3d6",
-      "title": "Ｊｏｓｈｉｎ、不正アクセスで最大約600万件の会員情報などが漏えいの可能性",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2151273.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 131,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151273.html",
-      "comments": [
-        {
-          "user": "motch1cm",
-          "comment": "阪神ファン情報や！",
-          "tags": [],
-          "timestamp": "2026/10/27 07:21"
-        },
-        {
-          "user": "natu3kan",
-          "comment": "どこかしらから個人情報漏れ社会",
-          "tags": [
-            "security"
-          ],
-          "timestamp": "2026/10/27 05:04"
-        },
-        {
-          "user": "valinst",
-          "comment": "もう各社漏洩お詫び500円でも結構な額になりそうなので、お待ちしております",
-          "tags": [],
-          "timestamp": "2026/10/27 05:00"
-        },
-        {
-          "user": "theNULLPO",
-          "comment": "サブスクに必要な情報やマイナンバーまで漏洩とか最悪だな",
-          "tags": [
-            "セキュリティ",
-            "これはひどい"
-          ],
-          "timestamp": "2026/10/27 02:23"
-        },
-        {
-          "user": "iphone",
-          "comment": "手書きサインは新しい恐怖だなー",
-          "tags": [],
-          "timestamp": "2026/10/27 01:39"
-        },
-        {
-          "user": "oktnzm",
-          "comment": "磁気テープとか言ってる人がいるが、Joshinは通販サイトやぞ・・・",
-          "tags": [],
-          "timestamp": "2026/10/27 00:07"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:04.356863+00:00"
-    },
-    {
-      "id": "h_d6da9c6e",
-      "title": "Apple、iPad miniに史上最大のアップデートを導入",
-      "url": "https://www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
-      "domain": "apple.com",
-      "bookmarkCount": 122,
-      "summary": "一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、飛躍的に進化したパフォーマンス、より高速なワイヤレス接続、耐水性能と防塵性能を備えています カリフォルニア州クパティーノ Appleは本日、一段と薄く、一段と軽量なデザインに美しいOLEDディスプレイを搭載し、A20 Proにより飛躍的に進化したパ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.apple.com/jp/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
-      "comments": [
-        {
-          "user": "hkstd_rock",
-          "comment": "既存のiPad miniの話じゃなかった",
-          "tags": [],
-          "timestamp": "2026/10/27 07:29"
-        },
-        {
-          "user": "ejointjp",
-          "comment": "Duoのせいで安く感じてしまう…それが狙いか！",
-          "tags": [],
-          "timestamp": "2026/10/27 07:25"
-        },
-        {
-          "user": "furugenyo",
-          "comment": "iPad miniは地味に長持ちするのでduoよりいいかもしれない。",
-          "tags": [],
-          "timestamp": "2026/10/27 07:17"
-        },
-        {
-          "user": "tyhe",
-          "comment": "史上最大の（価格）アップデート",
-          "tags": [],
-          "timestamp": "2026/10/27 07:17"
-        },
-        {
-          "user": "circled",
-          "comment": "手が届く範囲の画面が壊れないiPhone Duoの登場です！",
-          "tags": [],
-          "timestamp": "2026/10/27 07:08"
-        },
-        {
-          "user": "nakamura-kenichi",
-          "comment": "「ほら、これなら筋が入らない。そう、Appleならね」ｗ",
-          "tags": [],
-          "timestamp": "2026/10/27 06:31"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:01.807544+00:00"
-    },
-    {
-      "id": "h_a7b600a6",
-      "title": "「年齢は合ってますが、人間ではありません」 6歳の飼い猫に届いた“進研ゼミの案内” なぜ届いたのかベネッセに聞いた",
-      "url": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 108,
-      "summary": "「貴社が案内を送ってきた『萌奈椛様 6歳』はこの子です。年齢は合ってますが、人間ではありません」──飼い猫宛てに通信教育「進研ゼミ」の案内が届いたという投稿が、10月20日ごろにXで話題になった。ITmedia NEWSは、投稿者と発行元のベネッセコーポレーションに経緯を聞いた。 投稿者は、6歳の猫「萌奈椛」（もなか）...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/26/2000002597/",
-      "comments": [
-        {
-          "user": "kekera",
-          "comment": "ペットの名前として登録されたのを目的外利用するのは考えづらいので、グッズ目当てとかでアンケートにこの名前で回答したとかなんじゃないかなあ",
-          "tags": [],
-          "timestamp": "2026/10/27 07:12"
-        },
-        {
-          "user": "camellow",
-          "comment": "「特定の個人の方に関する情報となるので、お答えしかねます」みたいなトンチンカンな逃げ方をする人をメディアは追撃しないよね。「個人情報ではなく貴社での個人情報の扱いを聞いてます」くらいは言えるでしょ",
-          "tags": [],
-          "timestamp": "2026/10/27 06:31"
-        },
-        {
-          "user": "harumomo2006",
-          "comment": "他社でもどうやって入手したのか問い合わせるとだいたい「ご本人様が登録しました」って言うんだよね。本人の個人情報なのになぜ答えられないという回答がまかり通るのか",
-          "tags": [],
-          "timestamp": "2026/10/27 06:30"
-        },
-        {
-          "user": "noko_wt",
-          "comment": "登録情報の目的外利用だと、個人情報保護委員会に通報はしておいた方が良い案件。猫の名前とはいえ住所と名字が入ってれば個人情報にはあたるし。",
-          "tags": [],
-          "timestamp": "2026/10/27 05:54"
-        },
-        {
-          "user": "Windfola",
-          "comment": "①ペットPASSにある飼い主（大人）／ペットの情報は進研ゼミ的には無価値。流用する意味がない②アンケートやイベントで収集してるのは公表されている。そこに「子供の名前」として書いたんでしょ",
-          "tags": [],
-          "timestamp": "2026/10/27 04:46"
-        },
-        {
-          "user": "ngsw",
-          "comment": "教育にかける強い思いを感じて胸が熱くなる",
-          "tags": [],
-          "timestamp": "2026/10/27 04:08"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:03.362559+00:00"
-    },
-    {
-      "id": "h_877be715",
-      "title": "ハッカー集団 GMOに27日期限で100万ドル要求 顧客脅迫も | NHKニュース",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261026de65733",
-      "domain": "news.web.nhk",
-      "bookmarkCount": 105,
-      "summary": "GMOインターネットグループの投資家向けクラウドサービスに不正アクセスしたとみられるハッカー集団が、27日正午までに会社側に100万ドル＝日本円で1億5700万円余りを支払うよう求めていることが分かり…",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261026de65733",
-      "comments": [
-        {
-          "user": "north_korea",
-          "comment": "これ犯人グループに日本人いそうな匂いはするよね。日本のことを分かりすぎてるし",
-          "tags": [],
-          "timestamp": "2026/10/27 07:31"
-        },
-        {
-          "user": "jb8079431525325",
-          "comment": "警察は何してんのって、そりゃあ捜査してるに決まってんだろ。JSアラート事件を思い出せよ、連中、頑張ってたろ？",
-          "tags": [],
-          "timestamp": "2026/10/27 07:27"
-        },
-        {
-          "user": "suka6411144",
-          "comment": "0.1はてなと思うと安く感じる",
-          "tags": [],
-          "timestamp": "2026/10/27 07:16"
-        },
-        {
-          "user": "uchiten",
-          "comment": "“支払い方法については、ビットコインやイーサリアムといった暗号資産とするよう求めています。”暗号資産て受け取りやすいけど現金化しにくそう。細かく送金を繰り返して追いにくくするのかな",
-          "tags": [],
-          "timestamp": "2026/10/27 06:58"
-        },
-        {
-          "user": "prograti",
-          "comment": "要求に応じたら虎の子のセキュリティ事業のイメージが悪化して事業への影響は計り知れないから、応じる訳にはいかないでしょうね。熊谷代表があんなに大々的にアピールしてたし",
-          "tags": [],
-          "timestamp": "2026/10/27 06:19"
-        },
-        {
-          "user": "sub_low",
-          "comment": "セキュリティより目の前の金。まぁ分かるけどね。だからセキュリティ万全の会社はないのよ。",
-          "tags": [],
-          "timestamp": "2026/10/27 05:30"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:03.991286+00:00"
-    },
-    {
-      "id": "h_e953ae9c",
-      "title": "最近、昔の同僚が起業したスタートアップIT企業が倒産した",
-      "url": "https://anond.hatelabo.jp/20261026185536",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 45,
-      "summary": "倒産した、といっても、うまいこと残務や債務の処理はできたみたいなので、家庭が崩壊したとか、人生が詰んだというわけでもなく この間も普通に飲みに行ってさっぱりとした態度でスタートアップ起業した経営者がどんな感じなのか、体験談を聞いたりしたのだが、 正直いって「うわ～俺だったら絶対やりたくねえよそれ…」...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261026185536",
-      "comments": [
-        {
-          "user": "homarara",
-          "comment": "ある種のサイコパスじゃないと務まらない職というは確かにある。組織のリーダーは『良い人』がなってはいけない。",
-          "tags": [],
-          "timestamp": "2026/10/27 07:03"
-        },
-        {
-          "user": "Iridium",
-          "comment": "世の中は無駄な金で溢れているので、どんどんスタートアップで使い潰せばいいんですよ。政府が無理矢理吸収して全部投下しても社会的にはお釣りが来る。",
-          "tags": [],
-          "timestamp": "2026/10/27 05:45"
-        },
-        {
-          "user": "paradisemaker",
-          "comment": "長期の病気、貧乏、離婚、失業、紛争、パワハラ、裏切り、裁判、借金、全て経験したが、会社の預金残高が減っていくことが最もストレスが高い経験だった",
-          "tags": [],
-          "timestamp": "2026/10/27 04:07"
-        },
-        {
-          "user": "cinq_na",
-          "comment": "起業は失敗するの前提なんで、人の金でやるのが鉄則。自分の金入れて人生全部ぶっ壊すのは避けたい。飲食とかだとそうもいかないだろうけど。",
-          "tags": [],
-          "timestamp": "2026/10/27 03:07"
-        },
-        {
-          "user": "hunglysheep1",
-          "comment": "\"目端の効く使える社員からすごい勢いでやめていく\" これはそうなんだろな…",
-          "tags": [],
-          "timestamp": "2026/10/27 01:47"
-        },
-        {
-          "user": "modoroso",
-          "comment": "スタートアップなんてどれだけうまくやっても10の内3成功するかどうかみたいなところあるから無傷で撤退出来たならもう一回やったらいいのに",
-          "tags": [],
-          "timestamp": "2026/10/27 00:42"
-        }
-      ],
-      "fetchedAt": "2026-10-26T22:32:04.641139+00:00"
-    },
-    {
       "id": "h_ddd070b8",
       "title": "AIが答えを出す時代に、ヒトは何を学ぶのか？ この問いに応える3冊",
       "url": "https://dain.cocolog-nifty.com/myblog/2026/10/post-822dc0.html",
       "domain": "dain.cocolog-nifty.com",
-      "bookmarkCount": 27,
+      "bookmarkCount": 166,
       "summary": "AIに答えを聞けばよいなら、学ぶ必要なんてないのでは？ それでも学ぶべきものがあるなら、それは何か？ 『ヒトとAI』（岡野原大輔、岩波新書赤）は、この疑問にずばり答えている。 著者は、自然言語処理、深層学習の専門家であり、日本のAI研究を牽引してきた第一人者だ。これまでは、研究開発の立場から、AIの能力と限...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dain.cocolog-nifty.com/myblog/2026/10/post-822dc0.html",
       "comments": [
         {
-          "user": "T-norf",
-          "comment": "問いを立てて、結果判断は本論の通りだけど、入力の視点が欠けてる。AIが何を知ってて任せて良く、何を知らず補う必要があるか。LLM直接の処理にまかせるか、一旦コード書かせるか、どのようなアルゴリズムで、などね",
+          "user": "rurumeruikiruru",
+          "comment": "ネット検索の頃から同じことは言われてなかった？",
           "tags": [],
-          "timestamp": "2026/10/27 07:17"
+          "timestamp": "2026/10/27 13:13"
         },
         {
-          "user": "taruhachi",
-          "comment": "大衆が政治を批判しない状態と同じじゃね？政治に絶対の正解がないのは各大国が足並みそろえず好き勝手やって国内ではそれぞれ信任されてる事で証明されてる。政治を批判する能力はすでに失われている。",
+          "user": "tsukarukatamade",
+          "comment": "最近ゲームでも俺完成度が高いのより、10年代くらいに出て一切見向きもされなかった、不可解なくそゲーとかがめちゃくちゃ面白いんだよな。「答え」どころか、未開の論理空間に飢えてる",
           "tags": [],
-          "timestamp": "2026/10/27 07:01"
+          "timestamp": "2026/10/27 12:26"
         },
         {
-          "user": "arakik10",
-          "comment": "これと似たような問題意識でチャッピー君に質問を投げかけたことがある https://chatgpt.com/c/6acd921c-4a54-83ec-b8fa-6afda06a2097",
+          "user": "irimodi",
+          "comment": "仕事を任せるのは人間で、人間は騙したりふっかけようとしてくるから、それを見極める力はいるね。あとは人って誰でも学習してて気持ちいいと感じるジャンルがあるものだから、それを追究するor渡り歩くのもいいと思",
           "tags": [],
-          "timestamp": "2026/10/27 05:44"
+          "timestamp": "2026/10/27 11:57"
+        },
+        {
+          "user": "Iridium",
+          "comment": "人類が「AIで楽できるはずだったのに …トホホー」とアイリスアウトする図が見えて楽しい。余計な仕事がどんどん増える。",
+          "tags": [],
+          "timestamp": "2026/10/27 11:46"
+        },
+        {
+          "user": "kobito19",
+          "comment": "PFN創業者の著書",
+          "tags": [],
+          "timestamp": "2026/10/27 10:50"
+        },
+        {
+          "user": "anigoka",
+          "comment": "宮本茂や岩田さんみたくAIには作業をさせて、お人間さんはアゴラの丘よろしくノンビリと本質の探求にかまけられると思いきや機心に駆られて生まれた新たな機事に奔走させられるという本末転倒　これぞ人類！",
+          "tags": [],
+          "timestamp": "2026/10/27 10:19"
         }
       ],
-      "fetchedAt": "2026-10-26T22:32:02.404665+00:00"
+      "fetchedAt": "2026-10-27T04:34:47.967350+00:00"
     },
     {
       "id": "h_4100134a",
       "title": "アップル、薄さ5.4mmでOLED搭載の新「iPad mini」発表、11万9800円～",
       "url": "https://k-tai.watch.impress.co.jp/docs/news/2151317.html",
       "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 19,
+      "bookmarkCount": 100,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/news/2151317.html",
       "comments": [
         {
-          "user": "hyperash",
-          "comment": "iPhone Duoが発売された後に発表するの巧妙だな",
+          "user": "dadadaisuke",
+          "comment": "これに通話機能付けたら1台で済むやん。",
           "tags": [],
-          "timestamp": "2026/10/27 07:17"
+          "timestamp": "2026/10/27 13:24"
         },
         {
-          "user": "kathew",
-          "comment": "“価格は11万9800円から”iPhoneの価格を見た後だとなんて良心的な価格に見えるのかしら",
-          "tags": [],
-          "timestamp": "2026/10/27 07:15"
+          "user": "demcoe",
+          "comment": "折りたたみ欲を我慢出来たら価格が1/3になったのか……",
+          "tags": [
+            "ネタ"
+          ],
+          "timestamp": "2026/10/27 13:24"
         },
         {
-          "user": "takanagi1225",
-          "comment": "miniでこんなにすんのか。5万が普通だった感。",
+          "user": "monoshirihanako",
+          "comment": "前モデル約8万～じゃなかったっけ????めっちゃ高くなってるような",
           "tags": [],
-          "timestamp": "2026/10/27 06:40"
+          "timestamp": "2026/10/27 13:09"
         },
         {
-          "user": "PikaCycling",
-          "comment": "duo買うよりAirとiPad miniを2台持ちした方がええやん。",
+          "user": "commecco",
+          "comment": "9年前のiPadpro持ってるけど、調べたらフレームレートが120Hzだった。今から60HzのiPadを買うのは躊躇するし、20万以上出してpro買う余裕もないからもう一生買えないかも",
           "tags": [],
-          "timestamp": "2026/10/27 06:28"
+          "timestamp": "2026/10/27 12:41"
+        },
+        {
+          "user": "tastystream",
+          "comment": "米ドルであれば、前世代初期との比較で200ドル値上げの699ドルスタートです（100ドル分は前世代の時点で6月に値上げ）。日本円の状況に関係なくかなり高くなっていますね。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:38"
+        },
+        {
+          "user": "albertus",
+          "comment": "早く1ドル100円にならないかな。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:25"
         }
       ],
-      "fetchedAt": "2026-10-26T22:32:02.674593+00:00"
+      "fetchedAt": "2026-10-27T04:34:51.237336+00:00"
     },
     {
-      "id": "h_1cb74acb",
-      "title": "「Python」に再び「eMudhra」問題への対策、「Python 3.15.2」など5バージョンを提供／侵害された鍵をブロックする“最後の砦”が「ssl」モジュールに",
-      "url": "https://forest.watch.impress.co.jp/docs/news/2151194.html",
-      "domain": "forest.watch.impress.co.jp",
-      "bookmarkCount": 19,
+      "id": "h_94aeea6a",
+      "title": "【特集】 120万円払ってRTX Sparkノートを買った。で、AIエージェントで元は取れる？",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2150970.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 95,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2151194.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/topic/feature/2150970.html",
       "comments": [
         {
-          "user": "WildWideWeb",
-          "comment": "AIに開発環境のインストールからお任せで、「驚いてるうちにアプリができちゃった」人は「自分は開発者じゃないので」意識のままだろうから届かない話だろうなと思う。",
+          "user": "doroyamada",
+          "comment": "Sunの商標を受け継いだのかと思ったけど、あちらはSparcだった。",
           "tags": [],
-          "timestamp": "2026/10/27 07:17"
+          "timestamp": "2026/10/27 13:26"
+        },
+        {
+          "user": "hobbiel55",
+          "comment": "犯罪には使えないクラウドのAIの代わりにローカルで動かせて拠点を移動するのにも楽なのでAIを使う犯罪者集団に売れそう。",
+          "tags": [
+            "ai",
+            "pc",
+            "local",
+            "review"
+          ],
+          "timestamp": "2026/10/27 13:16"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "ただのユーザーなら元は取れないでしょうね。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/10/27 13:15"
+        },
+        {
+          "user": "adliblogger",
+          "comment": "ブーム後の投げ売りに期待したい（が、劣化が激しそうで手が伸びない）",
+          "tags": [],
+          "timestamp": "2026/10/27 12:52"
+        },
+        {
+          "user": "awaytabi",
+          "comment": "元とるとかケチなこと言いなさんな。夢を買ってんだよ。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:48"
+        },
+        {
+          "user": "cyber_bob",
+          "comment": "クラウド使うならノートに載せる必要がないのでは。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:45"
         }
       ],
-      "fetchedAt": "2026-10-26T22:32:03.632753+00:00"
+      "fetchedAt": "2026-10-27T04:34:48.697748+00:00"
     },
     {
-      "id": "h_cb07acaa",
-      "title": "「ゲームを勝手に合体Mod」などAIゲーム改造が暴走するなか、Claudeに“こっそり制限強化”疑惑浮上。ゲームの中身が丸裸、逆コンパイル流行に歯止めか - AUTOMATON",
-      "url": "https://automaton-media.com/articles/newsjp/20261026-475703/",
-      "domain": "automaton-media.com",
-      "bookmarkCount": 17,
-      "summary": "AIの進化に伴い、逆コンパイルをはじめとするリバースエンジニアリングを用いた権利侵害行為が世界を揺るがしている。一方で、Anthropicの「Claude Opus 5.5」をはじめ、現在提供されている一部のAIモデルでは、そうした行為に加担する作業をブロックするケースが報告されはじめている。 Anthropicは対話型AI「Claude」...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/automaton-media.com/articles/newsjp/20261026-475703/",
+      "id": "h_38b82383",
+      "title": "【重要】「お名前.com デスクトップクラウド」への不正アクセスに関する現在の対応について（第8報）（【続報】お客様をお守りするために現在私たちが行っていること） | GMOインターネットグループ株式会社",
+      "url": "https://group.gmo/info/alert/20261027/",
+      "domain": "group.gmo",
+      "bookmarkCount": 92,
+      "summary": "2026年10月27日 お知らせ【重要】「お名前.com デスクトップクラウド」への不正アクセスに関する現在の対応について（第8報） （【続報】お客様をお守りするために現在私たちが行っていること） 2026年10月27日 9:58時点 GMOインターネットグループ株式会社 GMOインターネット株式会社 ※2026年10月27日（火）10:56、本文...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/group.gmo/info/alert/20261027/",
       "comments": [
         {
-          "user": "mojimojikun",
-          "comment": "はい",
+          "user": "ya--mada",
+          "comment": "なんだよこれは、熊谷正寿が劇場型犯罪に仕立ててるんじゃないかな？",
           "tags": [],
-          "timestamp": "2026/10/26 21:26"
+          "timestamp": "2026/10/27 13:30"
+        },
+        {
+          "user": "ko2inte8cu",
+          "comment": "USBメモリーさして、Linuxブートとかして、ファイルを救出。ほいで、BIOS起動メニューに戻って、工場出荷状態に直す、ぐらか？",
+          "tags": [
+            "セキュリティ",
+            "これはひどい",
+            "AI"
+          ],
+          "timestamp": "2026/10/27 13:30"
+        },
+        {
+          "user": "htmikan",
+          "comment": "ページ一番上にある、「ネットのセキュリティもGMO」という広告がじわじわ来る。",
+          "tags": [],
+          "timestamp": "2026/10/27 13:29"
+        },
+        {
+          "user": "lacucaracha",
+          "comment": "太田光代の言う通り、WiFi切るのが正解だったのか（PHPではないが）",
+          "tags": [],
+          "timestamp": "2026/10/27 13:24"
+        },
+        {
+          "user": "gratefulpong",
+          "comment": "\"（【続報】お客様をお守りするために現在私たちが行っていること）\" ←これいるの？",
+          "tags": [],
+          "timestamp": "2026/10/27 13:21"
+        },
+        {
+          "user": "ni_haru",
+          "comment": "犯人側が宣言した12時というのを信用しているのも変な話。まあ犯罪行為といえど「交渉」なので犯人側の言葉もある程度は信じるものなのかね？",
+          "tags": [],
+          "timestamp": "2026/10/27 13:18"
         }
       ],
-      "fetchedAt": "2026-10-26T22:32:03.696447+00:00"
+      "fetchedAt": "2026-10-27T04:34:47.409619+00:00"
     },
     {
-      "id": "h_eb072383",
-      "title": "有機ELの新型「iPad mini」発表 A20 Pro、IP67対応、8.5型に大型化して11万9800円から",
-      "url": "https://www.itmedia.co.jp/pcuser/articles/2610/26/news081.html",
+      "id": "h_38a7bb5b",
+      "title": "ウェブサイトも“保守・修繕”の発想が必要。「PHPの脆弱性」から、経営層・サイト運営者に知っておいてほしいこと",
+      "url": "https://internet.watch.impress.co.jp/docs/special/2151050.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 87,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/special/2151050.html",
+      "comments": [
+        {
+          "user": "jyib1302",
+          "comment": "こういう情報読んで欲しいのは、インターネットウォッチとか普段読まない層の人たち、なんだよね、たぶん",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/10/27 13:21"
+        },
+        {
+          "user": "osaka_ajing",
+          "comment": "まあ大企業がぞくぞくお漏らししたおかげで今は説明しやすく納得感もあっていいタイミングだよね。",
+          "tags": [],
+          "timestamp": "2026/10/27 13:09"
+        },
+        {
+          "user": "shige-u",
+          "comment": "当たり前なんだけど、そのことを理解していない発注元は多い。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:55"
+        },
+        {
+          "user": "awaytabi",
+          "comment": "20年前の記事かと思った。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:47"
+        },
+        {
+          "user": "pochi-taro00",
+          "comment": "こうなるとjavaはやっぱ固い言語だよなぁ. パッチは即出るけど 言語の破壊的変更はできるだけ起きないようになってるし",
+          "tags": [],
+          "timestamp": "2026/10/27 12:43"
+        },
+        {
+          "user": "sugimo2",
+          "comment": "“大切なのは、PHPかどうかではなく、そのシステムに保守のため関わり続ける人がいるかどうかです”",
+          "tags": [
+            "社会",
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/27 12:24"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:48.382326+00:00"
+    },
+    {
+      "id": "h_409489a7",
+      "title": "大手テクノロジー企業以外ではAIへの投資による経済的利益がほとんど得られていないとの指摘",
+      "url": "https://gigazine.net/news/20261027-no-signs-ai-payoff-outside-tech/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 82,
+      "summary": "近年では多くの企業がAIツールやAIエージェントを導入し、生産性や収益性を向上させようと取り組んでいます。ところがアメリカの投資会社・Apolloのチーフエコノミストであるトルステン・スロク氏は、「AIはテクノロジー業界以外のアメリカ企業に何の経済的利益ももたらしていない」とするレポートを発表しました。 No S...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261027-no-signs-ai-payoff-outside-tech/",
+      "comments": [
+        {
+          "user": "tg30yen",
+          "comment": ">知的作業の多くは決断にかかわるものでありビジネス上の決断はどのAIモデルに尋ねるのかで容易に変わってしまいます。また、AIモデルは説明責任や信頼、倫理的なトレードオフといったものを人間ほどには理解できない",
+          "tags": [
+            "AI",
+            "ビジネス",
+            "投資"
+          ],
+          "timestamp": "2026/10/27 13:31"
+        },
+        {
+          "user": "soybeancucumber",
+          "comment": "わかる。日本企業はAIで雑用するか、車輪の再発明ばっかりしている感じ。",
+          "tags": [],
+          "timestamp": "2026/10/27 13:01"
+        },
+        {
+          "user": "nobububu",
+          "comment": "クラウドがでたころもそうだよ。アホしかそろってない会社は自動化なんか進められないんだから、納期が極端に短くなって割高になっただけ。技術はだいたいレイトマジョリティとかラガードから落伍者を産むものだ。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:59"
+        },
+        {
+          "user": "slkby",
+          "comment": "そりゃ大半のAIは何も生産してないので",
+          "tags": [],
+          "timestamp": "2026/10/27 12:11"
+        },
+        {
+          "user": "qpci32siekqd",
+          "comment": "個人の方が利益得られてるんじゃ？組織はテックジャイアンというかコーティングのみな気がする。人にわかりやすい資料や意思決定に必要な資料作りできない。なんかズレているので",
+          "tags": [],
+          "timestamp": "2026/10/27 12:10"
+        },
+        {
+          "user": "taxman_1972",
+          "comment": "私は楽しいんでいるよ。良いねLLM👍という感じでエンジョイしているので恩恵はあるね。有料サービスは使ってないし、楽しいだけだけどね……",
+          "tags": [],
+          "timestamp": "2026/10/27 12:07"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:49.074851+00:00"
+    },
+    {
+      "id": "h_07560be5",
+      "title": "GitHub - yuiseki/map-from-scratch: 「Xをしたいから地図を作って」という依頼ごとに、その目的だけを満たす最小・最速の地図描画器をほぼゼロから作り、性能と正しさを計測して確かめる、 AI エージェントのためのスキルとハーネス",
+      "url": "https://github.com/yuiseki/map-from-scratch",
+      "domain": "github.com",
+      "bookmarkCount": 74,
+      "summary": "「X をしたいから地図を作って」という依頼ごとに、その目的だけを満たす最小で最速の地図の描画器をほぼゼロから作り、計測で確かめるためのスキルとハーネスです。 汎用の地図エンジンは作らず、依頼ごとに描画器そのものを作り直します。平面でだけ見せたい依頼なら、3 次元描画のための処理の大半は最初から要りませ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/yuiseki/map-from-scratch",
+      "comments": [
+        {
+          "user": "somaria3",
+          "comment": "なんか意義に悩むやつやな。根拠をシンプルに記される以上の価値あるんやろか",
+          "tags": [],
+          "timestamp": "2026/10/27 11:38"
+        },
+        {
+          "user": "khtokage",
+          "comment": "これは便利そう！",
+          "tags": [],
+          "timestamp": "2026/10/27 11:01"
+        },
+        {
+          "user": "fujihiro0",
+          "comment": "ライブラリが不要になるって話か https://x.com/HiromitsuTakagi/status/2113446877853344242",
+          "tags": [],
+          "timestamp": "2026/10/27 10:40"
+        },
+        {
+          "user": "otihateten3510",
+          "comment": "俺結構使うかも、ありがとう",
+          "tags": [],
+          "timestamp": "2026/10/27 10:36"
+        },
+        {
+          "user": "wsmfp327",
+          "comment": "Xって旧Twitterかと思ったら、〇〇をしたいの意味だった",
+          "tags": [],
+          "timestamp": "2026/10/27 09:32"
+        },
+        {
+          "user": "uunfo",
+          "comment": "AIへの指示の書き方の参考に",
+          "tags": [],
+          "timestamp": "2026/10/27 09:19"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:49.378034+00:00"
+    },
+    {
+      "id": "h_b0d69531",
+      "title": "Gemini で社内の AI 活用事例113件を収集！広報が毎日発信し続けた話 | iret.media",
+      "url": "https://iret.media/210349",
+      "domain": "iret.media",
+      "bookmarkCount": 48,
+      "summary": "こんにちは！KDDIアイレット広報の羽鳥です。 2026年3月から平日毎日発信を続けてきた KDDIアイレットの社員による AI 活用事例「AI 実践録」のまとめページを公開しました！ AI 活用事例 – KDDIアイレット社員の AI 実践録 2026年7月までに集まった実践録113件をまとめた特設ページです✨ 本記事では、社内の AI 活用事...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/iret.media/210349",
+      "comments": [
+        {
+          "user": "khtokage",
+          "comment": "とても参考にはなるんですが、ここまでAI Slopデザインてんこ盛りのまとめページだと「うっ」っとなりますね…",
+          "tags": [],
+          "timestamp": "2026/10/27 10:54"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:50.053463+00:00"
+    },
+    {
+      "id": "h_1ea9b8c8",
+      "title": "日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news018.html",
+      "domain": "atmarkit.itmedia.co.jp",
+      "bookmarkCount": 44,
+      "summary": "国内企業を揺るがす一連の不正アクセス被害で、AIによる自律型攻撃ツール「ARTEX」の関与が判明した。短時間で広範囲に仕掛けられる攻撃に注目が集まるが、専門家たちが一様に指摘するのは「使われた侵入経路そのものは従来と変わらない」という厳しい現実だった。有識者たちの視点から、見せかけの先進技術に惑わされず...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2610/27/news018.html",
+      "comments": [
+        {
+          "user": "vbamacroinfo",
+          "comment": "技術エンジニア単価が、人を管理したり資料づくりする管理者より低かったら、良いエンジニアは育たない。技術軽視という根深い問題ある。中抜きピンはね、ぼったくり高マージン率に、法規制の制約を入れ透明化すべき",
+          "tags": [],
+          "timestamp": "2026/10/27 13:14"
+        },
+        {
+          "user": "Kmusiclife",
+          "comment": "まぁ、知らないうちに流出しているところがほとんどではないでしょうか。表になるだけ良いのかもよ。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:56"
+        },
+        {
+          "user": "Nunocky",
+          "comment": "わざわざうちなんかに来ないよー大丈夫大丈夫  が疲労を感じないAIの登場で通用しなくなった",
+          "tags": [],
+          "timestamp": "2026/10/27 12:22"
+        },
+        {
+          "user": "shuinout",
+          "comment": "頻度は上がってるけどゼロデイ攻撃受けてるわけじゃなくて、キチンと守ってる会社は防御できてるわけで、当たり前のことを当たり前にやろうという風潮が広まったらいいなあ。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:11"
+        },
+        {
+          "user": "ustam",
+          "comment": "あまり詳細が公にならないけど、企業側による管理ツールの「不正運用」が原因になってると思うよ。フル権限の管理アカウントで日常業務をしてたり、管理アカウントが共用だったり。MFAが無効なケースもあったな。",
+          "tags": [],
+          "timestamp": "2026/10/27 12:07"
+        },
+        {
+          "user": "taxman_1972",
+          "comment": "23日、知っている会社が予告なしのサーバーダウン、503とか400番台のエラーでもなく、「ご指定のサーバーはありません」といういかした対応だった。B2Bサービスしてるのに事前告知なしで感動した",
+          "tags": [],
+          "timestamp": "2026/10/27 12:04"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:50.375236+00:00"
+    },
+    {
+      "id": "h_56ccd75b",
+      "title": "えっ! メモリ64GBのPCで7630億パラメーターのDeepSeekを!? Strataがついに実現",
+      "url": "https://ascii.jp/elem/000/004/445/4445574/",
+      "domain": "ascii.jp",
+      "bookmarkCount": 42,
+      "summary": "sponsored 【会場レポート】スポーツエンターテインメントの観戦体験をより楽しくする、アルバルク東京とZoom AIの取り組み 「注目選手」も「観戦グルメ」もZoomのAIに聞こう！ Bリーグの試合にZoomが登場した理由 sponsored 最新のスマートウォッチもイヤホンも実際に手に取って体験できる 秋葉原にファーウェイのサポ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ascii.jp/elem/000/004/445/4445574/",
+      "comments": [
+        {
+          "user": "nt1192",
+          "comment": "「GeForce RTX 5070の専用メモリ12GBとメインメモリ64GBを使い、2ビット版で毎秒4～6トークンを生成したという。」 クソ遅い",
+          "tags": [],
+          "timestamp": "2026/10/27 13:32"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "結局、SSDの速さに頼れば何でもできる的なやつ。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/10/27 12:34"
+        },
+        {
+          "user": "ultimatebreak",
+          "comment": "出来らあっ！",
+          "tags": [],
+          "timestamp": "2026/10/27 12:17"
+        },
+        {
+          "user": "HosiKozikiOzisann",
+          "comment": "不快なタイトル",
+          "tags": [],
+          "timestamp": "2026/10/27 11:48"
+        },
+        {
+          "user": "taxman_1972",
+          "comment": "量子化4ビット、メモリ32GBで動きだしてから、変態論理空間が花開くのだと思う。でも、やっぱりメモリ64GBのマシンから何だろうな……",
+          "tags": [],
+          "timestamp": "2026/10/27 11:37"
+        },
+        {
+          "user": "Mu_KuP",
+          "comment": "スーパーくいしん坊メソッドやめろｗ",
+          "tags": [],
+          "timestamp": "2026/10/27 11:12"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:50.856178+00:00"
+    },
+    {
+      "id": "h_e3832423",
+      "title": "自分の個人情報などが漏えいした際の「対処」と「日頃の対策」まとめ、IPAが公開",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2151185.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 31,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2151185.html",
+      "comments": [
+        {
+          "user": "nyankosenpai",
+          "comment": "「フィッシングなどの偽メールなどに注意する」って具体的にどうするんだろうな。HTMLメールやめてテキストメールにすればリンク先が表示されるんで怪しいのは避けられると思うけど",
+          "tags": [],
+          "timestamp": "2026/10/27 12:36"
+        },
+        {
+          "user": "ustar",
+          "comment": "まずは気持ちを落ち着けて開き直ること",
+          "tags": [],
+          "timestamp": "2026/10/27 12:28"
+        },
+        {
+          "user": "JULY",
+          "comment": "実際に IPA の文書を読んだけど、届くメール等に対する対処として、「怪しいメール」といった文言が入っていないのが素晴らしい。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/10/27 11:41"
+        }
+      ],
+      "fetchedAt": "2026-10-27T04:34:51.559485+00:00"
+    },
+    {
+      "id": "h_a541eb19",
+      "title": "NECのルータ「Aterm」、PHP脆弱性の影響なし 設定画面URLの「.php」は無関係",
+      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002614/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 10,
-      "summary": "Appleは10月26日、小型タブレット「iPad mini」の新モデルを発表した。ディスプレイを前モデルから有機ELに変更して8.5型に大型化した他、IP67等級の耐水・防塵（じん）性能を備え、プロセッサにはA20 Proを採用した。10月29日に予約受付を始め、11月6日に発売する。価格はWi-Fiモデルが11万9800円から、Wi-Fi＋Cellular...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/pcuser/articles/2610/26/news081.html",
+      "bookmarkCount": 21,
+      "summary": "NECのWi-Fiルータ・モバイルルータ「Aterm」の情報サイトは10月26日、22に公表されたPHPの脆弱性（CVE-2026-109618、CVE-2026-109619）について、Aterm製品・サービスは影響を受けないことを確認したと発表した。 Atermシリーズの一部機種では、設定画面「クイック設定Web」のURLに「/index.php」と表示される場合がある...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2610/27/2000002614/",
       "comments": [
+        {
+          "user": "queeuq",
+          "comment": "別に拡張子なんてあってもなくても何でもいいしな。もともとはphpベースのなにかで切り替えたけどドキュメントやQRコードなんかの印刷物の関係で変えれなかった、変える価値がなかったみたいなとこだろう",
+          "tags": [],
+          "timestamp": "2026/10/27 13:27"
+        },
+        {
+          "user": "terlen0",
+          "comment": "仕様だろうなあ。最初にphpで行こうとしたら実現できない機能とかメモリに乗らないとかがあってバイナリ化したけど、すでに決まっていたからphpの拡張子で動くようにしたとか。",
+          "tags": [],
+          "timestamp": "2026/10/27 13:26"
+        },
+        {
+          "user": "sisya",
+          "comment": "拡張子phpで内部的にPHPでないほうが逆に不安になるのだが。この手のセオリーを大きく外した訳のわからない仕様はバグの温床なので、今回の件とは関係なく要注意だと感じる。",
+          "tags": [],
+          "timestamp": "2026/10/27 13:07"
+        },
+        {
+          "user": "hatebu_admin",
+          "comment": "それはそう。URLにphpってあるだけで不安になるらしいのでAddHandlerで.htmlをphpスクリプトと解釈させてphp使ってなさそうに見せるべき",
+          "tags": [],
+          "timestamp": "2026/10/27 12:46"
+        },
         {
           "user": "nguyen-oi",
-          "comment": "ついにminiも有機ELか、お値段も立派になっちまったな",
+          "comment": "URLに.phpって入ってるだけで通報される脆弱性ポリスが跋扈する修羅の国",
           "tags": [],
-          "timestamp": "2026/10/27 07:15"
+          "timestamp": "2026/10/27 12:42"
+        },
+        {
+          "user": "hal-e",
+          "comment": "“URLの末尾に「.php」という文字列が含まれているだけでPHPを使っていない”",
+          "tags": [],
+          "timestamp": "2026/10/27 12:39"
         }
       ],
-      "fetchedAt": "2026-10-26T22:32:02.909471+00:00"
+      "fetchedAt": "2026-10-27T04:34:51.858440+00:00"
     }
   ],
-  "lastCollection": "2026-10-26T22:32:05.078498+00:00"
+  "lastCollection": "2026-10-27T04:34:51.858463+00:00"
 }
