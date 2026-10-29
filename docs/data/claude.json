@@ -1,44 +1,24 @@
 {
   "items": [
     {
-      "id": "cc_9f4cd751",
-      "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
-      "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.438359+00:00",
-      "excerpt": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。 前回の記事「検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策」では、GitHub のリポジトリを AI 時代の脅威から守る方法をまとめました。今回は、手元の PC で動く Claude Code そのものを守る方法です。 Claude Code は、ファイルを読み、コマン"
-    },
-    {
-      "id": "cc_338c8e29",
-      "title": "Claude Code v2.1.311で200K超の扱いは変わった？ 手元では前と同じく、そのまま通って次で圧縮でした",
-      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-over-200k-compact-20261028",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.438194+00:00",
-      "excerpt": "Claude Code の v2.1.311 のリリースノートに、「標準の窓の会話で、200K トークンを超えた要求で止まっていたのを直して、圧縮して続けるようにした」という1行が入りました。 おじさんは2日前に、ちょうど 200K を超えた要求がどう扱われるかを測った記事を出したばかりでした。なので同じ道具・同じ字数・同じモデルで、最新の 2.1.312 で測り直してみました。 結果は、変わりま"
-    },
-    {
       "id": "cc_4271b449",
       "title": "人間はシングルスレッドだった ― Claude 時代にタスクを消化するための引き継ぎメモ運用",
       "url": "https://zenn.dev/kohei03/articles/9368f7f2bf0028",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.438023+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473698+00:00",
       "excerpt": "Claude でタスクは 3 倍になったのに、消化できなくなった Claude を業務で使い始めてから、抱えるタスクの量が増えました。チケット数・案件数・PR 数のどれで見ても、Claude を使う前の 3 倍近くになっています。 1 つあたりの作業は確実に速くなっています。それなのに、1 日の終わりに残タスクを見ると、ほとんど減っていません。「今日も全然タスクを消化できなかったな」と落ち込む日が"
     },
     {
       "id": "cc_85a820b3",
-      "title": "ChatGPT・Claudeは学習オフでも👍👎の会話は学習に回ることがある。Claude Codeも確かめた",
+      "title": "ChatGPTは学習オフでも👍👎の会話が学習に回ることがある。ClaudeとClaude Codeも確かめた",
       "url": "https://zenn.dev/ara_jlu/articles/ai-feedback-data-check",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.437796+00:00",
-      "excerpt": "はじめに ChatGPT・Claude・Claude Codeで、学習の設定をオフにしていても会話が学習に使われたり、Anthropicに送られたりする入口があります。この記事では、その入口と、確かめる場所・止め方を、公式のヘルプとドキュメントに書いてあることだけでまとめます。どれも2026年10月28日に読んだ内容です。 きっかけは、Xで10月27日に伸びていた「ChatGPTに写真や個人情報を"
+      "fetchedAt": "2026-10-29T12:43:17.473639+00:00",
+      "excerpt": "（2026年10月29日追記）公開時は題・見出し・本文・まとめで、Claudeも学習をオフにしていても👍👎の会話が学習に回ると書いていました。Anthropicのページにはオフのときの扱いが明記されていなかったので、ChatGPTとClaudeを書き分けました。 はじめに ChatGPT・Claude・Claude Codeで、学習の設定をオフにしていても会話が学習に使われたり、Anthropic"
     },
     {
       "id": "cc_7029bf04",
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.437667+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473604+00:00",
       "excerpt": "3行でまとめ Claude Code の個人設定を点検したら、push を止めるフックにすり抜けが見つかりました メモの置き場所を見直し、設定を Git 管理して、変更を追えるようにしました AI の点検結果も鵜呑みにせず、実際のコマンドとテストで確かめることが大事でした はじめに Claude Code を毎日使っていると、CLAUDE.md・フック・メモ（auto memory）・サブエージェ"
     },
     {
@@ -57,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.437486+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473562+00:00",
       "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、内容は公式ドキュメントで確認しています。 Claude API のプロンプトキャッシュは、長いシステムプロンプトや資料を何度も送るアプリケーションで、費用と待ち時間を大きく減らせる機能です。ところが、cache_control を付けたのに cache_read_input_tokens が 0 のまま、ということがよく起きます。 この"
     },
     {
@@ -67,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.437265+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473516+00:00",
       "excerpt": "🚀 はじめに 「AI駆動開発を始めたいけれど、何を用意して、どこから手を付ければいいのか分からない」という方向けに、準備から最初のアプリを作るまでを1本にまとめました。上から順に進めれば、そのまま始められる構成にしています。 準備するもの4つを揃える（入手先リンク付き） Claude Code をインストールしてログインする 日本語で頼んで、確認して、直してもらう ! 対象読者：プログラミング経験"
     },
     {
@@ -77,7 +57,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.437094+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473471+00:00",
       "excerpt": "iPhoneアプリを一人で作っている Atsushi です。Claude Code のセッションを、アプリごと・役割ごとに分けて、十数本を並べて使っています（セッションを「部署」に分ける話）。 これだけ動かすと、すぐに使用量の上限が気になってきます。ある時期は上限が近づいて、全部のセッションに「節約して」と指示を出したこともありました。 この記事では、各セッションに聞き取って集めた、実際に効いたト"
     },
     {
@@ -87,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.436883+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473438+00:00",
       "excerpt": "この記事でできること Claude Code を、セッションや PC が変わっても、それまでの経緯を覚えたまま相談に乗ってくれる「専属バトラー」 にします。 使うのは Claude Code の標準機能（CLAUDE.md・サブエージェント）と Git だけです。追加のツールや有料のサービスはいりません。 難しいことを考える必要はありません。雛形をコピーして手元に clone し、そのフォルダで "
     },
     {
@@ -97,8 +77,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.436676+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.473402+00:00",
       "excerpt": "サブエージェントや定期実行を使い始めると、「週の枠が思ったより早く減る」ことに気づきます。画面で見えるのは「いま何%」だけで、何が使っているかは分かりません。 この記事は、Claude Code の会話記録（手元の .jsonl）から、使用量をモデル別・本体/サブエージェント別に集計する Node.js のスクリプト（約60行）と、筆者の最初の1週間の実測の記録です。下書きに Claude を使い"
+    },
+    {
+      "id": "cc_002cfe7e",
+      "title": "Claude CodeとCodexの記憶を保持・共有できる「claude-mem」が便利",
+      "url": "https://zenn.dev/headwaters/articles/49cde19cc26859",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-29T12:43:17.473338+00:00",
+      "excerpt": "Claude CodeやCodexを使っていて、セッションが変わるたびに過去の作業内容を説明するのが面倒だったので、claude-memを導入してみました。 claude-mem 公式GitHub claude-memとは？ AIコーディングエージェントに長期記憶を持たせるOSSプラグインです。 主な特徴はこちら。 自動記憶：作業履歴や設計判断をAIが要約して保存 永続化：SQLiteなどに記憶を"
+    },
+    {
+      "id": "cc_89acebae",
+      "title": "Claude に「この GLB を商品写真にして」と頼んで、4 方向の写真を GPU なしで受け取るまで",
+      "url": "https://zenn.dev/renderjanction/articles/ed71af5c439b84",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-29T12:43:17.473303+00:00",
+      "excerpt": "手元に GPU も Blender も無い状態で、Claude に 3D モデルの商品写真を作ってもらえるかを試しました。使ったのは Khronos の公式見本 WaterBottle（CC0 の GLB）と、JANCTION Render の MCP サーバーです。 つなぎ方 Claude.ai なら「設定 → コネクタ → カスタムコネクタを追加」に https://render.jancti"
+    },
+    {
+      "id": "cc_75533b23",
+      "title": "Claude Codeを褒めちぎってみた",
+      "url": "https://zenn.dev/devlog/articles/abc194ecf04dfc",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-10-29T12:43:17.473243+00:00",
+      "excerpt": "Claude Codeに「君は本当に素晴らしい」と伝えたら、私が過去にやらかした失敗のリストが3件返ってきました。 そのときの会話を、流れを変えずに短く整えて載せます。引用の形にした私の発言2か所だけは、原文そのままです。 褒めた その日は本当にそう思っていたので、そのまま伝えました。 私：君は本当に素晴らしい。知見をたくさんもらっているし、雑談にも角度をつけてくれる。ノートも育った。新しい世界が"
     },
     {
       "id": "cc_2a0cbc0e",
@@ -107,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.393769+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.412120+00:00",
       "excerpt": "エラーより「静かに止まる」ほうが高くつく 当社では、記事公開・売上取得・営業パイプラインなどの定期ジョブをMacのlaunchdで回しています。導入を検討している人によく聞かれるのは「AIに任せて、壊れたらどうするのか」です。 僕の答えは「壊れること自体はそれほど怖くない。怖いのは、壊れたことに誰も気づかないこと」です。 2026年9月、当社では次の3つがどれも誰にも気づかれないまま放置されていま"
     },
     {
@@ -117,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.393702+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.412084+00:00",
       "excerpt": "連載『疑って確かめる』第6話（全8話）。成功に見える失敗を、1話に1つずつ確かめます。 ! この記事で分かること 数百体のサブエージェントの完了を、通知ではなく「ファイル数と欠番」で判定する方法 件数が合っていてもキーがずれる事故を拾う、キー集合突合の Python 38行 回帰ゲートが「ゲートの中のコード」しか証明していなかったときの直し方 結論 状態は全部ファイルに置きます。完了は、出力ファイ"
     },
     {
@@ -127,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.393603+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.412032+00:00",
       "excerpt": "はじめに Claude Codeを複数のリポジトリで並行して使っていると、「Claudeが変更したファイルをサッと確認して、エディタで開きたい」という場面が頻繁に出てきます。 この記事では、herdr + Claude Code + lazygit の組み合わせで、変更ファイルの確認から VSCode で開くところまでをターミナル内で完結させた構成を紹介します。 困っていたこと 最初は、ターミナル"
     },
     {
@@ -137,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.393466+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.411959+00:00",
       "excerpt": "こんにちは。日本トレカセンターの佐藤です。 異なるマシンのコーディングエージェント同士を P2P で直結できる OSS「Reason Network」が公開されました。 GitHub のreason-machines/reason-networkで公開されており、さっそく実機で検証してみました。 Claude Code・Codex・Cursor などの稼働中セッションを iroh（QUIC P2P"
     },
     {
@@ -147,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-29T05:19:42.393318+00:00",
+      "fetchedAt": "2026-10-29T12:43:17.411887+00:00",
       "excerpt": "この記事は、jige を開発している ActuallyWorks（韓国のソフトウェア会社）が書いています。自社ツールの紹介を含みます。 困っていたこと：PC ごとに AI の記憶が分かれる Windows の PC と Mac の両方で Claude Code を使っていると、こんな場面がよくあります。 Windows 側で調べた結果を、Mac 側のエージェントにも知ってほしい Mac 側で決めた"
     },
     {
@@ -157,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-29T05:19:43.044537+00:00",
+      "fetchedAt": "2026-10-29T12:43:18.352634+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -167,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-29T05:19:43.044625+00:00",
+      "fetchedAt": "2026-10-29T12:43:18.352674+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -177,9 +187,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-29T05:19:43.044721+00:00",
+      "fetchedAt": "2026-10-29T12:43:18.352714+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-29T05:19:43.044735+00:00"
+  "lastCollection": "2026-10-29T12:43:18.352724+00:00"
 }
