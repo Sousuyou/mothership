@@ -1,23 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_7831a6fe",
-      "title": "ClaudeデスクトップやChrome内の通話でマイクが「No device found」になるのは仮想カメラが原因かもしれない",
-      "url": "https://zenn.dev/tapoh/articles/mic-no-device-found-virtual-camera",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.832143+00:00",
-      "excerpt": "はじめに Windows 版の Claude デスクトップアプリでボイスモードを使おうとしたところ、マイクが「No device found」と表示され、使えなかった。いろいろ試した結果、しばらく使っていなかった仮想カメラをアンインストールすると直った。検索しても同じ事例が見つからず、かなりはまったので記録しておく。 症状の確かめ方 マイクのレベルメーターは声に反応して動いている。Windows "
-    },
-    {
       "id": "cc_9f4cd751",
       "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
       "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.832033+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.438359+00:00",
       "excerpt": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。 前回の記事「検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策」では、GitHub のリポジトリを AI 時代の脅威から守る方法をまとめました。今回は、手元の PC で動く Claude Code そのものを守る方法です。 Claude Code は、ファイルを読み、コマン"
     },
     {
@@ -27,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.831963+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.438194+00:00",
       "excerpt": "Claude Code の v2.1.311 のリリースノートに、「標準の窓の会話で、200K トークンを超えた要求で止まっていたのを直して、圧縮して続けるようにした」という1行が入りました。 おじさんは2日前に、ちょうど 200K を超えた要求がどう扱われるかを測った記事を出したばかりでした。なので同じ道具・同じ字数・同じモデルで、最新の 2.1.312 で測り直してみました。 結果は、変わりま"
     },
     {
@@ -37,18 +27,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.831868+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.438023+00:00",
       "excerpt": "Claude でタスクは 3 倍になったのに、消化できなくなった Claude を業務で使い始めてから、抱えるタスクの量が増えました。チケット数・案件数・PR 数のどれで見ても、Claude を使う前の 3 倍近くになっています。 1 つあたりの作業は確実に速くなっています。それなのに、1 日の終わりに残タスクを見ると、ほとんど減っていません。「今日も全然タスクを消化できなかったな」と落ち込む日が"
-    },
-    {
-      "id": "cc_ee003770",
-      "title": "Claude のプロンプトキャッシュが効かないときに確かめる 7 つのこと",
-      "url": "https://zenn.dev/aishigoto/articles/cert-claude-prompt-cache-miss",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.831683+00:00",
-      "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、内容は公式ドキュメントで確認しています。 Claude API のプロンプトキャッシュは、長いシステムプロンプトや資料を何度も送るアプリケーションで、費用と待ち時間を大きく減らせる機能です。ところが、cache_control を付けたのに cache_read_input_tokens が 0 のまま、ということがよく起きます。 この"
     },
     {
       "id": "cc_85a820b3",
@@ -57,18 +37,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.698235+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.437796+00:00",
       "excerpt": "はじめに ChatGPT・Claude・Claude Codeで、学習の設定をオフにしていても会話が学習に使われたり、Anthropicに送られたりする入口があります。この記事では、その入口と、確かめる場所・止め方を、公式のヘルプとドキュメントに書いてあることだけでまとめます。どれも2026年10月28日に読んだ内容です。 きっかけは、Xで10月27日に伸びていた「ChatGPTに写真や個人情報を"
-    },
-    {
-      "id": "cc_00536d42",
-      "title": "Claude Codeの仕様駆動開発スキルはEARS要件をどう書くか: Kiro流スキルとcc-sddのSKILL.mdを読み比べる",
-      "url": "https://zenn.dev/skillselion/articles/08a66aaa77ab08",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.698169+00:00",
-      "excerpt": "Claude Codeで仕様駆動開発(SDD)を回すなら、要件はEARS記法で書かせるのが一番テストに落としやすいです。Kiro流の要件をそのまま使いたいなら jasonkneen/kiro の requirements-engineering スキル、日本語で要件を書きたいなら gotalab/cc-sdd が向いています。ゲート付きの汎用フローが欲しい場合は、インストール数最多の addyos"
     },
     {
       "id": "cc_7029bf04",
@@ -77,18 +47,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.698102+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.437667+00:00",
       "excerpt": "3行でまとめ Claude Code の個人設定を点検したら、push を止めるフックにすり抜けが見つかりました メモの置き場所を見直し、設定を Git 管理して、変更を追えるようにしました AI の点検結果も鵜呑みにせず、実際のコマンドとテストで確かめることが大事でした はじめに Claude Code を毎日使っていると、CLAUDE.md・フック・メモ（auto memory）・サブエージェ"
     },
     {
-      "id": "cc_bf3a7438",
-      "title": "Cloudflareの無料Skillで、AIが書いたコードの脆弱性を公開前にClaude Code／Codexに探させる手順",
-      "url": "https://zenn.dev/aicontentsbank/articles/security-audit-skill-claude-code",
+      "id": "cc_ee003770",
+      "title": "Claude のプロンプトキャッシュが効かないときに確かめる 7 つのこと",
+      "url": "https://zenn.dev/aishigoto/articles/cert-claude-prompt-cache-miss",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.698033+00:00",
-      "excerpt": "AI Contents Bank を運営しているしゅーじです。Claude Code や Codex でコードを書く量が増えるほど、「動くけれど、守れているかは分からない」コードが増えていきます。この記事では、Cloudflare が MIT ライセンスで公開しているセキュリティ監査 Skill を Claude Code／Codex に入れて、手元のコードの穴を公開前に探す流れと、出てきた結果を"
+      "fetchedAt": "2026-10-29T05:19:42.437486+00:00",
+      "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、内容は公式ドキュメントで確認しています。 Claude API のプロンプトキャッシュは、長いシステムプロンプトや資料を何度も送るアプリケーションで、費用と待ち時間を大きく減らせる機能です。ところが、cache_control を付けたのに cache_read_input_tokens が 0 のまま、ということがよく起きます。 この"
     },
     {
       "id": "cc_2ab93756",
@@ -97,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697947+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.437265+00:00",
       "excerpt": "🚀 はじめに 「AI駆動開発を始めたいけれど、何を用意して、どこから手を付ければいいのか分からない」という方向けに、準備から最初のアプリを作るまでを1本にまとめました。上から順に進めれば、そのまま始められる構成にしています。 準備するもの4つを揃える（入手先リンク付き） Claude Code をインストールしてログインする 日本語で頼んで、確認して、直してもらう ! 対象読者：プログラミング経験"
     },
     {
@@ -107,18 +77,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697851+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.437094+00:00",
       "excerpt": "iPhoneアプリを一人で作っている Atsushi です。Claude Code のセッションを、アプリごと・役割ごとに分けて、十数本を並べて使っています（セッションを「部署」に分ける話）。 これだけ動かすと、すぐに使用量の上限が気になってきます。ある時期は上限が近づいて、全部のセッションに「節約して」と指示を出したこともありました。 この記事では、各セッションに聞き取って集めた、実際に効いたト"
-    },
-    {
-      "id": "cc_a8c20af5",
-      "title": "自作の Claude Code 安全ガードを、第三者のテスト集（89件）で測ったら、すり抜けが見つかった",
-      "url": "https://zenn.dev/extrahand_co_ai/articles/17dcd8c72800c5",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697772+00:00",
-      "excerpt": "! この記事で分かること 自作の安全ガード（Claude Code の PreToolUse hook）を、第三者のテスト集 shell-guard-bench（89件）で測った結果 自分のテストは全部合格していたのに、わざと隠した書き方（r''m -rf ~ など）がすり抜けたこと、直したあとの数字（削除と Git の危ない27件中 21→24件） 自分の hook を同じように測る手順（取って"
     },
     {
       "id": "cc_b0cdc86f",
@@ -127,18 +87,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697700+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.436883+00:00",
       "excerpt": "この記事でできること Claude Code を、セッションや PC が変わっても、それまでの経緯を覚えたまま相談に乗ってくれる「専属バトラー」 にします。 使うのは Claude Code の標準機能（CLAUDE.md・サブエージェント）と Git だけです。追加のツールや有料のサービスはいりません。 難しいことを考える必要はありません。雛形をコピーして手元に clone し、そのフォルダで "
-    },
-    {
-      "id": "cc_8b38fea0",
-      "title": "Claude Code を無人で動かす前に決める「人が押すもの」— 許可の宣言・STOP ファイル・文字列検査で守らせる",
-      "url": "https://zenn.dev/crossclub_lab/articles/claude-code-unattended-guardrails",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697606+00:00",
-      "excerpt": "Claude Code を、人がいない時間にヘッドレス（claude -p）で動かすとき、いちばん先に決めるのは「何を自分でやらせないか」です。この記事は、筆者が運用で使っている3つの守り（許可の宣言・STOP ファイル・文字列検査）と、許可の宣言がすり抜けた実例の記録です。 下書きに Claude を使い、コマンドと出力は筆者の PC（Windows 11、Claude Code 2.1.308"
     },
     {
       "id": "cc_cc37400e",
@@ -147,58 +97,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697531+00:00",
+      "fetchedAt": "2026-10-29T05:19:42.436676+00:00",
       "excerpt": "サブエージェントや定期実行を使い始めると、「週の枠が思ったより早く減る」ことに気づきます。画面で見えるのは「いま何%」だけで、何が使っているかは分かりません。 この記事は、Claude Code の会話記録（手元の .jsonl）から、使用量をモデル別・本体/サブエージェント別に集計する Node.js のスクリプト（約60行）と、筆者の最初の1週間の実測の記録です。下書きに Claude を使い"
     },
     {
-      "id": "cc_e1d3e5a6",
-      "title": "ダウンロードフォルダで Claude Code や Codex を起動してはいけないのはなぜ？",
-      "url": "https://zenn.dev/takuh/articles/d4148e707a18a5",
+      "id": "cc_2a0cbc0e",
+      "title": "Claude CodeのMonitorで「止まったこと」に気づく — 見えない失敗が一番高くつく",
+      "url": "https://zenn.dev/joinclass/articles/monitor-20261027220014-13480",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697461+00:00",
-      "excerpt": "「ダウンロードしたファイルの整理や zip の展開を、AI に任せたい」と思ったことはありませんか。ターミナルで cd ~/Downloads と移動して Claude Code や Codex を起動すれば、すぐに頼めます。便利ですが、この使い方はやめてください。 2026年10月22日、セキュリティ企業の Forever Security が、ダウンロードフォルダに置かれた1枚の Markdo"
+      "fetchedAt": "2026-10-29T05:19:42.393769+00:00",
+      "excerpt": "エラーより「静かに止まる」ほうが高くつく 当社では、記事公開・売上取得・営業パイプラインなどの定期ジョブをMacのlaunchdで回しています。導入を検討している人によく聞かれるのは「AIに任せて、壊れたらどうするのか」です。 僕の答えは「壊れること自体はそれほど怖くない。怖いのは、壊れたことに誰も気づかないこと」です。 2026年9月、当社では次の3つがどれも誰にも気づかれないまま放置されていま"
     },
     {
-      "id": "cc_e967124f",
-      "title": "CLAUDE.md が長くなった時の分け方と、AGENTS.md との二重管理の直し方",
-      "url": "https://zenn.dev/atasino/articles/efa9fb306b6ad0",
+      "id": "cc_074ba830",
+      "title": "Claude Code のサブエージェント二百体超を回して、事故を機械で拾った",
+      "url": "https://zenn.dev/hotto_ken/articles/subagent-fleet-verification-gates",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697388+00:00",
-      "excerpt": "Claude Code の公式ドキュメントには、CLAUDE.md は 1 ファイル 200 行未満を目標にする、と書いてあります。では 200 行を超えた分は、どこへ出すのか。Codex と併用していて AGENTS.md も持っている場合は、同じ規則を 2 つのファイルに書くことになり、AGENTS.md の置き方も問題になります。 前提を先に書きます。CLAUDE.md は、Claude C"
+      "fetchedAt": "2026-10-29T05:19:42.393702+00:00",
+      "excerpt": "連載『疑って確かめる』第6話（全8話）。成功に見える失敗を、1話に1つずつ確かめます。 ! この記事で分かること 数百体のサブエージェントの完了を、通知ではなく「ファイル数と欠番」で判定する方法 件数が合っていてもキーがずれる事故を拾う、キー集合突合の Python 38行 回帰ゲートが「ゲートの中のコード」しか証明していなかったときの直し方 結論 状態は全部ファイルに置きます。完了は、出力ファイ"
     },
     {
-      "id": "cc_756e005f",
-      "title": "日本語の .ps1 は BOM 付き UTF-8 で保存する：Windows の実機で Claude Code からスキルを動かすまで",
-      "url": "https://zenn.dev/chiero/articles/d45a131c8377a9",
+      "id": "cc_84a494f1",
+      "title": "herdr + Claude Code + lazygit で複数リポジトリの変更確認を快適にする",
+      "url": "https://zenn.dev/honda_n/articles/669eb2984285c3",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697315+00:00",
-      "excerpt": "株式会社CHIERO のチエロです。 日本語を含む .ps1 は、BOM 付きの UTF-8 で保存します。Windows 標準の PowerShell 5.1 は、BOM のない UTF-8 を別の文字コードとして読むためです。 BOM 付きで保存した PowerShell スクリプト4本は、Windows Server 2025 の実機で動きました。Claude Code（claude -p）"
+      "fetchedAt": "2026-10-29T05:19:42.393603+00:00",
+      "excerpt": "はじめに Claude Codeを複数のリポジトリで並行して使っていると、「Claudeが変更したファイルをサッと確認して、エディタで開きたい」という場面が頻繁に出てきます。 この記事では、herdr + Claude Code + lazygit の組み合わせで、変更ファイルの確認から VSCode で開くところまでをターミナル内で完結させた構成を紹介します。 困っていたこと 最初は、ターミナル"
     },
     {
-      "id": "cc_23960da9",
-      "title": "Claude Code に Dataform のパイプライン開発を任せてみた：規約・テスト・ループで品質を保てるか検証した",
-      "url": "https://zenn.dev/tetsu_don/articles/5a7af1b884bee1",
+      "id": "cc_fbde3619",
+      "title": "Reason NetworkでGrok Botと手元MacのClaude CodeをP2Pでやり取りさせてみた",
+      "url": "https://zenn.dev/jtcc/articles/reason-network-p2p-claude-code-push",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697231+00:00",
-      "excerpt": "はじめに てつどんです。データエンジニアとして、BigQuery・Dataform を日常的に使っています。 前回の ループエンジニアリングの記事 では、エラーの検知から修正までを Claude Code に回させてみました。その延長で、今度は Dataform のパイプライン開発そのものを Claude Code に任せたら、どこまで実用になるのか が気になりました。 そこで、Claude と壁"
+      "fetchedAt": "2026-10-29T05:19:42.393466+00:00",
+      "excerpt": "こんにちは。日本トレカセンターの佐藤です。 異なるマシンのコーディングエージェント同士を P2P で直結できる OSS「Reason Network」が公開されました。 GitHub のreason-machines/reason-networkで公開されており、さっそく実機で検証してみました。 Claude Code・Codex・Cursor などの稼働中セッションを iroh（QUIC P2P"
     },
     {
-      "id": "cc_8b66b44b",
-      "title": "Claude Code × Google Workspace を認証なしで試した — gws と公式MCPの現状",
-      "url": "https://zenn.dev/web_benriya/articles/claude-code-google-workspace-gws-mcp-trial-no-auth",
+      "id": "cc_06ee05bf",
+      "title": "Windows と Mac の Claude Code どうしで文脈を受け渡す — クラウドなしの共有メモ MCP「jige」",
+      "url": "https://zenn.dev/actuallyworks/articles/78d66a4417d130",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-10-28T22:25:52.697133+00:00",
-      "excerpt": "この記事でわかること Google Workspace 向けの gws CLI と、Google 公式のリモート MCP サーバーの現状（2026-10-10 時点で自分が確認できた範囲） 認証（OAuth）をしなくても試せること、できなかったこと 本番のアカウントにつなぐ前に決めておくとよいこと 前提と、この記事の範囲 先に範囲を書きます。自分は Google アカウントの認証を一切していません"
+      "fetchedAt": "2026-10-29T05:19:42.393318+00:00",
+      "excerpt": "この記事は、jige を開発している ActuallyWorks（韓国のソフトウェア会社）が書いています。自社ツールの紹介を含みます。 困っていたこと：PC ごとに AI の記憶が分かれる Windows の PC と Mac の両方で Claude Code を使っていると、こんな場面がよくあります。 Windows 側で調べた結果を、Mac 側のエージェントにも知ってほしい Mac 側で決めた"
     },
     {
       "id": "cc_b2235741",
@@ -207,7 +157,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-10-28T22:25:53.422790+00:00",
+      "fetchedAt": "2026-10-29T05:19:43.044537+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-10-28T22:25:53.422861+00:00",
+      "fetchedAt": "2026-10-29T05:19:43.044625+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     },
     {
@@ -227,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-03-31T09:35:22+09:00",
-      "fetchedAt": "2026-10-28T22:25:53.422932+00:00",
+      "fetchedAt": "2026-10-29T05:19:43.044721+00:00",
       "excerpt": "はじめに Claude Codeの「Agent Teams」は、複数のAIエージェントがチームを組んで並列に作業する機能です。1体のAIにすべてを任せるのではなく、リサーチ係・ライティング係・レビュー係のように役割を分担させることで、成果物の質が大きく向上します。 この記..."
     }
   ],
-  "lastCollection": "2026-10-28T22:25:53.422945+00:00"
+  "lastCollection": "2026-10-29T05:19:43.044735+00:00"
 }
