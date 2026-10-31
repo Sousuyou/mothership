@@ -1,423 +1,315 @@
 {
   "entries": [
     {
-      "id": "h_e58a344b",
-      "title": "文章のAIっぽさを抑えるプロンプト",
-      "url": "https://imoz.jp/scraps/202610_humanizer.html",
-      "domain": "imoz.jp",
-      "bookmarkCount": 253,
-      "summary": "文章のAIっぽさを抑えるプロンプト 最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/imoz.jp/scraps/202610_humanizer.html",
-      "comments": [
-        {
-          "user": "kkcnnjfkjqndbfkdo",
-          "comment": "ブルシットジョブの亜種やな",
-          "tags": [],
-          "timestamp": "2026/10/31 13:42"
-        },
-        {
-          "user": "ShaoSylvia",
-          "comment": "AIっぽさからくる不快感の正体は人によって色々あるだろうけど私の場合、手抜き仕事をドヤ顔で見せられた時のバカにされたような感覚が主なので、\"※生成AIを使用\"などの明示的な注釈があるだけでほとんど払拭される",
-          "tags": [],
-          "timestamp": "2026/10/31 13:29"
-        },
-        {
-          "user": "kazyee",
-          "comment": "通貨の話とWebキャッシュの話は適用前のほうが読みやすい印象なので、（当たり前だが）文章の目的で使い分けるほうがよさそう。",
-          "tags": [
-            "IT",
-            "ネタ"
-          ],
-          "timestamp": "2026/10/31 13:08"
-        },
-        {
-          "user": "fujibay1975",
-          "comment": "わかりにくくしてどうする",
-          "tags": [],
-          "timestamp": "2026/10/31 12:11"
-        },
-        {
-          "user": "zyyzyy202608",
-          "comment": "AIっぽくない=人間っぽい、ではないって学び。人間臭さをAI指示出しでやりたいなら、このやり方では行き着かない先にあるのは間違いない",
-          "tags": [],
-          "timestamp": "2026/10/31 12:02"
-        },
-        {
-          "user": "momonga_dash",
-          "comment": "賢い人がみんな似たようなことしてる。slopについてはもう正直どうしたらいいんだろうって気持ち",
-          "tags": [],
-          "timestamp": "2026/10/31 11:46"
-        }
-      ],
-      "fetchedAt": "2026-10-31T05:01:47.321956+00:00"
-    },
-    {
-      "id": "h_d83aa2d8",
-      "title": "今後のセキュリティの考え方",
-      "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
-      "domain": "zenn.dev",
-      "bookmarkCount": 183,
-      "summary": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。 本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。 当日は時間の関係でお伝えしきれなかった、今後...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/cscloud_blog/articles/a987163efae5d8",
-      "comments": [
-        {
-          "user": "quabbin",
-          "comment": "私はさらに、7つくらいの観点を提示して話をしているが、アタックサーフェイスもそのうちの一つ。ただ、一番重要というわけではないかな。",
-          "tags": [],
-          "timestamp": "2026/10/31 13:38"
-        },
-        {
-          "user": "moronbee",
-          "comment": "OSIレイヤー毎の防御や、機密性に応じた保管場所や参照の分散をしっかりする。保守費をクラウド側に移す、AI人材とAIで構成変更する、CVEや攻撃監視と対応どれも、必要性の認識とコストを掛けられる組織ならできる。",
-          "tags": [
-            "ai",
-            "business",
-            "security"
-          ],
-          "timestamp": "2026/10/31 12:24"
-        },
-        {
-          "user": "circled",
-          "comment": "オンプレでは何十年も前から基本原則(かつ楽々設定)だったものを、クラウドしか知らない若い世代が増えたせいでユルユルガバガバセキュリティで死んでるの頭痛い。最近のバイブコーディングでやらかす若者と変わらん",
-          "tags": [],
-          "timestamp": "2026/10/31 08:33"
-        },
-        {
-          "user": "nilab",
-          "comment": "「アタックサーフェスや管理面を減らす」「アーキテクチャを再考する」「アラートの海に重要なものが紛れてしまう」「Amazon EC2 に SSH で入っているなら AWS Systems Manager Session Manager で入る」",
-          "tags": [],
-          "timestamp": "2026/10/31 07:47"
-        },
-        {
-          "user": "otoku-memo",
-          "comment": "セキュリティの観点で、マネージドにした方がいいし、コンテナにした方がいいってのは同意。特にスキル不足・人員不足の会社はそうすべき。現実にはそういう会社の方がEC2インスタンス管理しがち。",
-          "tags": [],
-          "timestamp": "2026/10/31 07:35"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "攻撃側の手口やスピードが上がってる今だからこそ管理面を減らして設定見直すの基本だけど大事",
-          "tags": [],
-          "timestamp": "2026/10/31 07:06"
-        }
-      ],
-      "fetchedAt": "2026-10-31T05:01:48.939188+00:00"
-    },
-    {
       "id": "h_07d4cf54",
       "title": "小学生の絵に「AIくさい」 中傷相次ぎしょうゆコンクール公開中止：朝日新聞",
       "url": "https://www.asahi.com/articles/ASVBZ2WFHVBZUTIL023M.html",
       "domain": "asahi.com",
-      "bookmarkCount": 179,
+      "bookmarkCount": 261,
       "summary": "福島県喜多方市が特産のしょうゆのPRをかねて地元の小学生から募集したポスターコンクールで、入賞作品に「生成AI（人工知能）が使われた」などとの中傷がネットで相次ぎ、作品の公開が中止された。画用紙での…",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.asahi.com/articles/ASVBZ2WFHVBZUTIL023M.html",
       "comments": [
         {
-          "user": "hatebu_admin",
-          "comment": "ブクマカの言うAIぽさが全くわからんわ。小学生の書くやつやぞ",
+          "user": "Domino-R",
+          "comment": "ここの反AI嫌いも病的なレベルではあるなw 誰も子供の教育やコンクールの主旨について考えない。その観点からはAI画の模写などほとんど虚無としか言いようがない。それはAIの有用性とは何の関係もない。",
           "tags": [],
-          "timestamp": "2026/10/31 14:00"
+          "timestamp": "2026/10/31 20:57"
         },
         {
-          "user": "colonoe",
-          "comment": "小学生の絵を中傷したのが問題ではなく、相手が誰だろうと根拠なく批判するのは駄目。間違えないように",
+          "user": "kechack",
+          "comment": "「全国醤油サミットinきたかた」に向け市内の小学生から募ったポスターの受賞作がHPで公開された後、特定の作品に「AI使用の疑いがある」との批判が殺到。制作者である児童の本名などの個人情報が拡散される事態に",
           "tags": [],
-          "timestamp": "2026/10/31 13:55"
+          "timestamp": "2026/10/31 20:36"
         },
         {
-          "user": "nilab",
-          "comment": "「福島県喜多方市が特産のしょうゆのPRをかねて地元の小学生から募集したポスターコンクールで、入賞作品に「生成AI（人工知能）が使われた」などとの中傷がネットで相次ぎ」「画用紙での提出だった」",
+          "user": "mkotatsu",
+          "comment": "AIぽさへの攻撃性の凄まじさの方がヤバい。絵の書き方や構図なんて教え方も画材も年々進化してるというのに、子供はいつまでも幼稚な絵を描いて、誰かの自尊心を満足させろってかw / cf.筑波の小学生の自由研究",
           "tags": [],
-          "timestamp": "2026/10/31 13:35"
+          "timestamp": "2026/10/31 20:08"
         },
         {
-          "user": "jamg",
-          "comment": "こっちの記事だと一部絵が見られたよ。https://sirabee.com/2026/10/20/20163592078/",
-          "tags": [
-            "社会"
-          ],
-          "timestamp": "2026/10/31 13:31"
+          "user": "oisux",
+          "comment": "参考として、小学生向けポスターコンクールはDLsiteじゃないですよ > 参考として、DLsiteでは〜",
+          "tags": [],
+          "timestamp": "2026/10/31 19:30"
         },
         {
-          "user": "keshimini",
-          "comment": "クレーマーはクソ。//それはそれとして、個人の実力を競い合うコンクールの趣旨がAIによって破壊されればそれは文化の退潮を確実に招くので、対策は急務だと思う。//実際見たら思った以上に「AIくさい」だったｗｗ",
+          "user": "t_pandax",
+          "comment": "AIっぽいという主観だけで小学生の作品を攻撃し、コンクールまで中止に追い込むのは異常。問題なのはAIよりも、正義を振りかざして集団で叩くネットの攻撃性だと思う。",
           "tags": [],
-          "timestamp": "2026/10/31 13:24"
+          "timestamp": "2026/10/31 19:24"
         },
         {
-          "user": "zenkaizenkai",
-          "comment": "別にAIだろうが親だろうが本人以外が描いたように見えるとのいちゃもんは昔からあったよ。自分で描いたんなら大人って馬鹿だねとしか思わんやろし、これも世の常よね",
+          "user": "tama20",
+          "comment": "くだらねーインプレ稼ぎやめてほしい",
           "tags": [],
-          "timestamp": "2026/10/31 13:21"
+          "timestamp": "2026/10/31 19:21"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:46.295044+00:00"
+      "fetchedAt": "2026-10-31T12:00:09.262030+00:00"
     },
     {
-      "id": "h_56321988",
-      "title": "エンジニアが「勝手に育つ時代」は終わった ～エンジニアを育ててきた装置はAIで壊れた～",
-      "url": "https://codezine.jp/article/detail/30081",
-      "domain": "codezine.jp",
-      "bookmarkCount": 89,
-      "summary": "この連載では、AIの時代にエンジニアがどう育つのかを、全8回で考えていきます。第1回から第3回では、何が足りなくなったのか、器とは何か、器はどんな形をしているのかを考えます。第4回では、AIとの付き合い方に自分のパターンが出ることを書きます。第5回から第8回はどう変えるか、変わると何が見えるか、日々何をす...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/codezine.jp/article/detail/30081",
+      "id": "h_7bda0de2",
+      "title": "GMO不正侵入、システム脆弱性を2年前に把握 子会社指摘も対策後手 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 136,
+      "summary": "GMOインターネットグループのサービスが不正アクセスを受けた問題で、子会社のセキュリティー企業が2024年4月にシステムの欠陥（脆弱性）を指摘していたことがGMO幹部への取材でわかった。システムの抜本的な見直しを求めたものの十分な対応がなされずに被害を招いた。脆弱性を指摘したのは、子会社のGMOサイバーセキュ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC30A460Q6A031C2000000/",
       "comments": [
         {
-          "user": "yomichi47",
-          "comment": "子供にはPCの不調を自分で直させてるけど、AIに聞いても知見が足りないので最後は私に聞いてくる。自分が見た目でさっと直してしまうと何故かと問うてくるので、試行錯誤に費やした時間が違うのよ、と。そんな話？",
+          "user": "mayumayu_nimolove",
+          "comment": "やっぱAIは悪くなくて使う人間が馬鹿だとこうなるんだな",
           "tags": [],
-          "timestamp": "2026/10/31 13:53"
+          "timestamp": "2026/10/31 20:59"
         },
         {
-          "user": "ll0oo0ll",
-          "comment": "職種違うけど思い当たるところありブクマ",
+          "user": "greg_e",
+          "comment": "ふと日本大学の危機管理学部を思い出した。",
           "tags": [],
-          "timestamp": "2026/10/31 13:43"
+          "timestamp": "2026/10/31 20:52"
         },
         {
-          "user": "ymchng",
-          "comment": "カタルシスがなくなった。なんだこれ全然わからん、からの、解決させた俺SUGEEE!!!がなくなったよな。",
+          "user": "sionsou",
+          "comment": "世間の流れでハッカーのせいにしようとしてるけど、お前らのシステムやアプリの設定がカスだということを認識しろ。社内の優秀なメンバーが警告してもTOPがサイコパスの自己顕示欲バカだからこうなる。潰れろ。",
           "tags": [],
-          "timestamp": "2026/10/31 13:40"
+          "timestamp": "2026/10/31 20:36"
         },
         {
-          "user": "magi00",
-          "comment": "AI相手に四苦八苦してるし、上手くいくと楽しいよ。",
+          "user": "bomem",
+          "comment": "ホワイトハッカーが悔しがるニュースとか、報道関係にいくらばらまいてるのやら",
           "tags": [],
-          "timestamp": "2026/10/31 13:23"
+          "timestamp": "2026/10/31 20:31"
         },
         {
-          "user": "imash",
-          "comment": "有識者に聞いたり本買って読んだり根気よくWeb記事探したりを勝手にしてた昔と比べれば、勝手に育つハードル自体は超下がっただろ",
+          "user": "zenkamono",
+          "comment": "子会社や内部から指摘があっても目先の利益優先で危ないまま動かし続け、ユーザーが被害を受けたら「国が能動的に対策を！」と他責にするだけの気楽な仕事です。　故意に無作だった経営者に刑事罰与えたほうが効果が",
           "tags": [],
-          "timestamp": "2026/10/31 13:19"
+          "timestamp": "2026/10/31 20:29"
         },
         {
-          "user": "houyhnhm",
-          "comment": "なんていうかな、昔からある課題をAIによって浮き彫りにされてるだけな気がするんよな。／プログラムを書けることから読めることにスキルが変わっていく気はするね。",
+          "user": "shinsho",
+          "comment": "なのにあんなにイキったこと言ってりゃ嫌われるわな",
           "tags": [],
-          "timestamp": "2026/10/31 12:58"
+          "timestamp": "2026/10/31 20:27"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:46.896908+00:00"
-    },
-    {
-      "id": "h_9c103f1f",
-      "title": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について | ActiveTK's Note",
-      "url": "https://note.activetk.jp/hacks/onamae-desktop-cloud-v3",
-      "domain": "note.activetk.jp",
-      "bookmarkCount": 76,
-      "summary": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について解説しました。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.activetk.jp/hacks/onamae-desktop-cloud-v3",
-      "comments": [
-        {
-          "user": "Ohi",
-          "comment": "OSINTっぽい",
-          "tags": [
-            "security",
-            "サイバー攻撃"
-          ],
-          "timestamp": "2026/10/31 12:37"
-        },
-        {
-          "user": "develtaro",
-          "comment": "中華フォントはロケール設定でデフォルトでなることはよくある。macでも英語のみにしたら再現するよ",
-          "tags": [],
-          "timestamp": "2026/10/31 12:24"
-        },
-        {
-          "user": "nilab",
-          "comment": "「被害者に片っ端から返信して「被害者フォーラム」に誘導している不思議なXアカウント」「フォーラムは不正アクセスが表に出る前に作られ」「窃取の前にGMOへ「重大なセキュリティ問題がある」と連絡している」",
-          "tags": [],
-          "timestamp": "2026/10/31 12:17"
-        },
-        {
-          "user": "manamanaba",
-          "comment": "「カキコ」でいったん頭がノスタルジーに浸ってしまった",
-          "tags": [],
-          "timestamp": "2026/10/31 09:42"
-        },
-        {
-          "user": "inforeg",
-          "comment": "Xのスクショを載せてるけど、何で中華フォントみたいなのを使ってるのかな。",
-          "tags": [],
-          "timestamp": "2026/10/31 09:16"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "自作自演で被害者フォーラム作って誘導するとかマッチポンプの極みだな",
-          "tags": [],
-          "timestamp": "2026/10/31 09:16"
-        }
-      ],
-      "fetchedAt": "2026-10-31T05:01:46.646758+00:00"
-    },
-    {
-      "id": "h_b9c25abc",
-      "title": "AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘",
-      "url": "https://gigazine.net/news/20261030-apple-chip-sellers-impact/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 73,
-      "summary": "以前はAppleに安く買いたたかれていたメモリ製品をめぐる状況が、AIの登場でガラッと変わってしまったとウォール・ストリート・ジャーナルが報じています。 The Beleaguered Chip Sellers Getting Their Revenge on Apple - WSJ https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9 Appleは「iPod」で東芝...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261030-apple-chip-sellers-impact/",
-      "comments": [
-        {
-          "user": "atkin",
-          "comment": "Appleは販売店にも厳しいからな、強欲よ",
-          "tags": [],
-          "timestamp": "2026/10/31 13:42"
-        },
-        {
-          "user": "esbee",
-          "comment": "メモリメーカーの人に話を聞くと、アップルを蛇蝎のごとく嫌ってた。日本のメーカーも下請けには厳しいが、それでも潰れると困るから最低限の譲歩はするのに、アップルは本当に下請けが潰れても気にしないレベルだと",
-          "tags": [],
-          "timestamp": "2026/10/31 12:41"
-        },
-        {
-          "user": "daumaneko",
-          "comment": "Appleの倒産が見えてきたね。グーグルからの多額の資金提供はまだ続いているのかな？",
-          "tags": [],
-          "timestamp": "2026/10/31 11:18"
-        },
-        {
-          "user": "highlandview",
-          "comment": "メモリ高騰の影響は全体にかかるが、それはそれとしてアップルが過去の横暴さの反撃を喰らってるのは自業自得以外の何物でもないし、新しい工場への影響の話が本当なら逆の意味でアップルざまあどころではない。",
-          "tags": [],
-          "timestamp": "2026/10/31 10:52"
-        },
-        {
-          "user": "instores",
-          "comment": "なおアップルの株価は10月23日に年初来高値を更新しています。",
-          "tags": [],
-          "timestamp": "2026/10/31 10:00"
-        },
-        {
-          "user": "qpci32siekqd",
-          "comment": "一度Appleの契約は公的機関から監査受けて欲しい",
-          "tags": [],
-          "timestamp": "2026/10/31 09:51"
-        }
-      ],
-      "fetchedAt": "2026-10-31T05:01:48.237219+00:00"
+      "fetchedAt": "2026-10-31T12:00:05.945882+00:00"
     },
     {
       "id": "h_bba081ae",
       "title": "もう「CVSSで重大→修正急務」は限界 「即対応」脆弱性を9割減らすGitHub推奨の優先順位付け基準",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/30/news060.html",
       "domain": "atmarkit.itmedia.co.jp",
-      "bookmarkCount": 65,
+      "bookmarkCount": 130,
       "summary": "攻撃多発時こそ「基礎対策」の見直し、徹底を サイバー攻撃が連日のように続いています。そうした中で「うちは大丈夫か」「不正アクセスされているのか」「漏えいしていないのか」などと言われても、セキュリティ対策状況によっては回答が難しいこともあるでしょう。ならば、せめて対策の基礎を見直し、改めて徹底してみ...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2610/30/news060.html",
       "comments": [
         {
-          "user": "circled",
-          "comment": "別に限界ではない。システムの中身を自分で構築して把握してる限りにおいては、はいはい、、、程度でしかない。ベンダー丸投げとかしてたら、ベンダーの人員に限りがあるから、今の物量じゃ死ぬってだけ",
+          "user": "remix-cafe",
+          "comment": "防御より攻撃の方が有利な非対称な状態は前から言われているとおり。AIが使われたことで人力で対処するのはほぼ無理になった。脆弱性はアップデートすれば攻撃を防ぐことはできるが今まで通り動くは別問題。悩ましい",
           "tags": [],
-          "timestamp": "2026/10/31 11:36"
+          "timestamp": "2026/10/31 20:22"
         },
         {
-          "user": "mkusaka",
-          "comment": "GitHubの2025年OSS脆弱性レポートを基に、CVSSとEPSSを併用する優先順位付けを解説し、重大判定392件をEPSSでは11件に絞れると示します。",
+          "user": "pixmap",
+          "comment": "企業がウェブサイトやシステムは簡単に安全に運用できると思い込んでるというのもある。セキュアでプライバシーにも配慮したウェブサイトを作って維持するのはかなり難易度高い。阿部寛を見習って欲しい。",
+          "tags": [],
+          "timestamp": "2026/10/31 18:45"
+        },
+        {
+          "user": "mska",
+          "comment": "いうて穴のパターンはある。闇雲に焦らぬ方が良い (PHPとnpmは移行しなさい)",
+          "tags": [],
+          "timestamp": "2026/10/31 18:24"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "何の話をしているのかわからん。世の中ではパッチを深刻度などを参考に1個ずつ選別して丁寧に検証してから本番に適用しているのか？配信されてきたものを全適用すれば良くない？",
           "tags": [
-            "AI要約",
-            "脆弱性",
-            "セキュリティ",
-            "GitHub",
-            "OSS",
-            "ニュース"
+            "未分類"
           ],
-          "timestamp": "2026/10/31 03:47"
+          "timestamp": "2026/10/31 17:30"
+        },
+        {
+          "user": "suka6411144",
+          "comment": "脆弱性が発表されて1時間以内に攻撃がくるくらいのレベルなので人間には対処は無理、止まるの覚悟で自動アップデートにしないと対処は不可能だと思う",
+          "tags": [],
+          "timestamp": "2026/10/31 15:41"
+        },
+        {
+          "user": "trailhead_l",
+          "comment": "クローズドなサーバーにAIから延々アタックさせ続けて脆弱性性見つけ続けるしか対策浮かばない。報告された脆弱性は毎回チェックしないといけないし、こういうの自体AIになんとかして欲しいとこではある。",
+          "tags": [],
+          "timestamp": "2026/10/31 14:54"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:46.423189+00:00"
+      "fetchedAt": "2026-10-31T12:00:10.347090+00:00"
     },
     {
-      "id": "h_74792085",
-      "title": "RDPとターミナルサーバーの思い出 - Nothing ventured, nothing gained.",
-      "url": "https://takoratta.hatenablog.com/entry/rememberrdp",
-      "domain": "takoratta.hatenablog.com",
-      "bookmarkCount": 58,
-      "summary": "GMOインターネットの「お名前.comデスクトップクラウド」で不正アクセスがあった。WindowsのVPSで、FXの自動売買などに使う人が多いサービスだそうだ。そのニュースを追っていたら、RDPという名前が出てきた。リモートデスクトップのドライブ共有を使って利用者のPCからデータを抜いた、と攻撃者が主張しているらしい。G...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/takoratta.hatenablog.com/entry/rememberrdp",
+      "id": "h_3f6fe4e8",
+      "title": "OpenAI CEOが個人PCにメモリを積むのは「かなりひどい」と発言。DRAMはクラウドに集約すべきと主張",
+      "url": "https://gazlog.jp/entry/open-ai-ceo-memory-should-go-to-dc/",
+      "domain": "gazlog.jp",
+      "bookmarkCount": 124,
+      "summary": "メモリ不足が続く中、OpenAIのSam Altman CEOが、DRAMを誰もが自分のPCに積んでおくのは「かなりひどい」と語りました。PCではDRAMがほとんど活用されておらず、クラウドに集めて使い切る方が良いという背景のようです。 AIをPCで動かしたい人は多いが、DRAMはクラウドに集めるべきとAltman氏 AIデータセンター向けの需...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/open-ai-ceo-memory-should-go-to-dc/",
       "comments": [
         {
-          "user": "ochikun",
-          "comment": "もうちょい昔に戻ると、Xターミナルでマルチユーザー環境。何もかもみな懐かしい。",
+          "user": "bird_dip_jp",
+          "comment": "メモリ資本主義の奴隷",
           "tags": [],
-          "timestamp": "2026/10/31 12:35"
+          "timestamp": "2026/10/31 20:52"
         },
         {
-          "user": "fog-og-frog2",
-          "comment": "もう開発に携わった自身すらぼんやりとしか覚えてない仕事の痕跡が未だに残ってるのはMicrosoftだからだろう。エモい。CitrixってXenのイメージしかなかったけど昔からそんな仕事してたんだ…",
+          "user": "srng",
+          "comment": "多分「民主化」を恐れてる",
           "tags": [],
-          "timestamp": "2026/10/31 12:20"
+          "timestamp": "2026/10/31 20:49"
         },
         {
-          "user": "hiroshe",
-          "comment": "そうそうあったあった懐かしい",
+          "user": "electrolite",
+          "comment": "え、チャッピーが過剰コンプラで規制しまくるからローカルLLM使うんじゃないんですかー。",
           "tags": [],
-          "timestamp": "2026/10/31 10:03"
+          "timestamp": "2026/10/31 20:34"
         },
         {
-          "user": "soulfulmiddleagedman",
-          "comment": "歴史",
+          "user": "inafinefix",
+          "comment": "もちろんアルトマンは自分のPCメモリが8GBでも満足しているんだよな？",
           "tags": [],
-          "timestamp": "2026/10/31 09:27"
+          "timestamp": "2026/10/31 20:30"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "Windows NT時代のターミナルサーバー開発の裏側が知れてめちゃくちゃ面白い歴史資料だな",
+          "user": "rryu",
+          "comment": "メモリを死蔵しているサーバもたくさんあると思うが。ウェブサーバやDBの設定がデフォルトのままでせっかく積んだメモリが全然使われてないというのはよくある。",
           "tags": [],
-          "timestamp": "2026/10/31 09:16"
+          "timestamp": "2026/10/31 20:24"
+        },
+        {
+          "user": "puruhime",
+          "comment": "面白い発想だ探偵さん、個人所有のメモリを借りるサービスを始めたらどうだね",
+          "tags": [],
+          "timestamp": "2026/10/31 20:21"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:47.772784+00:00"
+      "fetchedAt": "2026-10-31T12:00:06.347660+00:00"
     },
     {
-      "id": "h_fd6c7ead",
-      "title": "推定1兆円相当のBinanceの不正出金事案についてまとめてみた - piyolog",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/30/230303",
-      "domain": "piyolog.hatenadiary.jp",
-      "bookmarkCount": 43,
-      "summary": "2026年10月30日、Binanceは、不正な出金トランザクションが送信されたとして、原因の初期調査の結果と対応を公表しました。ここでは関連する情報をまとめます。 資金流出の経緯 Binanceは10月29日21時15分(UTC。以下、時刻は特記のない限りUTC)、公式Xで潜在的なセキュリティ問題の報告を把握して調査中と投稿した。初報...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/piyolog.hatenadiary.jp/entry/2026/10/30/230303",
+      "id": "h_e7ddee86",
+      "title": "もう無理｜ひでと",
+      "url": "https://note.com/happy_dahlia405/n/n1b16c06e71e6",
+      "domain": "note.com",
+      "bookmarkCount": 113,
+      "summary": "はじめに精神的にもう無理、というときに開くためのWebページを作りました。 https://ogawahideto.github.io/genai/genkai/ Claude Code（Claude Opus 5.5）に頼んだときのプロンプトはこれです。 精神的に無理な時に見るサイトを作ってください。簡単に理解を示したら請けいられるとか、安易なやさしい言葉はやめてくだ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/happy_dahlia405/n/n1b16c06e71e6",
       "comments": [
         {
-          "user": "parabo",
-          "comment": "クリプトって…裏社会（北朝鮮など含む）に莫大な資金を、定期的に渡すための壮大なスキームじゃないか？とすら思える。",
+          "user": "Hidemonster",
+          "comment": "悪くない試み",
           "tags": [],
-          "timestamp": "2026/10/31 12:40"
+          "timestamp": "2026/10/31 20:29"
         },
         {
-          "user": "gorgeous1020",
-          "comment": "暗号資産がやられて普通の銀行が無事なのは暗号資産の方が多く盗めそうだから？それとも銀行は隠してるだけとか？数カ月後実は盗まれてましたって銀行ちらほら出そう。",
+          "user": "yamadar",
+          "comment": "最後の選択肢はちゃんと繋げるべきところを載せてるの、かなり良いな",
           "tags": [],
-          "timestamp": "2026/10/31 11:26"
+          "timestamp": "2026/10/31 19:57"
         },
         {
-          "user": "yujimi-daifuku-2222",
-          "comment": "補填はようやるなという感じですが、北朝鮮に資金が渡ったっぽいのはキツイな。",
+          "user": "WinterMute",
+          "comment": "その指示でそれが出てくるのは流石に有能",
           "tags": [],
-          "timestamp": "2026/10/31 10:12"
+          "timestamp": "2026/10/31 19:34"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "EIP-7702の委任を悪用して一気に抜かれたか。1兆円規模の被害でも全額補填できるバイナンスの財力がエグい",
+          "user": "NSTanechan",
+          "comment": "“ここは気分を良くするための場所ではない。 次の数分をやり過ごすためだけの場所。”",
           "tags": [],
-          "timestamp": "2026/10/31 07:37"
+          "timestamp": "2026/10/31 19:02"
+        },
+        {
+          "user": "tsu_nyan",
+          "comment": "いいね。こういうサイトが必要な人に届来ますように",
+          "tags": [],
+          "timestamp": "2026/10/31 18:29"
+        },
+        {
+          "user": "yokosuque",
+          "comment": "本当にこれが必要な人ほど仕事を休むなり病院行くなりしてほしいよ",
+          "tags": [],
+          "timestamp": "2026/10/31 17:55"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:48.453250+00:00"
+      "fetchedAt": "2026-10-31T12:00:08.195512+00:00"
+    },
+    {
+      "id": "h_dd7da4ca",
+      "title": "喜多方市の児童ポスターコンクール、入賞作品が「生成AIでは」と物議 審査員は「本人が描画した」と判断 - モデルプレス",
+      "url": "https://mdpr.jp/news/detail/4862863",
+      "domain": "mdpr.jp",
+      "bookmarkCount": 81,
+      "summary": "福島県喜多方市のポスターコンクール入賞作品が「AI生成ではないか」と話題に。実行委員会は取材に「本人が描画した作品であると判断した」と、回答している。 様々なシーンで活用され、もはや見かけない日の方が珍しいAI生成技術。しかし、こと「イラスト」の分野になると、批判的な意見が多数を占めるのが現状である。...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/mdpr.jp/news/detail/4862863",
+      "comments": [
+        {
+          "user": "toria_ezu1",
+          "comment": "AIが先ず奪うのが大人の仕事ではなく子供の才能なの、エグい",
+          "tags": [],
+          "timestamp": "2026/10/31 20:49"
+        },
+        {
+          "user": "s17er",
+          "comment": "子ども相手ですら誹謗中傷するとか、コンクールといえど名前公開しないほうがいい社会か",
+          "tags": [],
+          "timestamp": "2026/10/31 20:37"
+        },
+        {
+          "user": "mkotatsu",
+          "comment": "AI見慣れたらAIぽい絵を描くは確かに。そういや日本画こそ描き方分からん。逆にいまどき浮世絵みたいな絵の書き方する子供を見かけない",
+          "tags": [],
+          "timestamp": "2026/10/31 20:37"
+        },
+        {
+          "user": "Hidemonster",
+          "comment": "出来上がった作品を応募する形式が無理になって、観客の面前で制作するライブ形式のコンテストが勃興してくるんじゃないかな。開催費用はメセナとして企業に出させよう。",
+          "tags": [],
+          "timestamp": "2026/10/31 20:36"
+        },
+        {
+          "user": "potnips",
+          "comment": "昔から親が描いたり指導しててクソうまい作品は一定あっただろ",
+          "tags": [],
+          "timestamp": "2026/10/31 20:34"
+        },
+        {
+          "user": "forspeak",
+          "comment": "AIっぽいとは全然思えなかった。これくらい絵心ある児童なら普通に描けるでしょう。もしAIに生成させてから模写したとしても、制限を設けてないなら文句言われる筋合いもないし。",
+          "tags": [
+            "芸術",
+            "AI"
+          ],
+          "timestamp": "2026/10/31 20:15"
+        }
+      ],
+      "fetchedAt": "2026-10-31T12:00:08.714113+00:00"
     },
     {
       "id": "h_ecb07cef",
       "title": "「ここ 3 年くらいの CloudWatch アップデート について丸っと解説します」というタイトルで登壇しました #devio2026 | DevelopersIO",
       "url": "https://dev.classmethod.jp/articles/cloudwatc-upadte-summary-devio-2026/",
       "domain": "dev.classmethod.jp",
-      "bookmarkCount": 19,
+      "bookmarkCount": 65,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/cloudwatc-upadte-summary-devio-2026/",
       "comments": [
+        {
+          "user": "syu-m-5151",
+          "comment": "CloudWatchでOTelを使えても、既存メトリクスを全部移す必要はない。AWS提供分の変換には追加料金がかかる。カスタムメトリクスとまとめてPromQLで調べたい場面から選ぶ使い分けがよい。",
+          "tags": [
+            "#nwiizoがいいぞと思った"
+          ],
+          "timestamp": "2026/10/31 18:38"
+        },
         {
           "user": "Fushihara",
           "comment": "確かにcloudwatchのサイドメニュー、項目がボコボコ増えてるな～とは思ってた",
@@ -425,70 +317,172 @@
           "timestamp": "2026/10/31 13:26"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:47.991970+00:00"
+      "fetchedAt": "2026-10-31T12:00:11.355251+00:00"
     },
     {
-      "id": "h_1fe593d8",
-      "title": "Patch now: PHP2Shell, Brotli, and eMudhra guidance for customers",
-      "url": "https://www.microsoft.com/en-us/msrc/blog/2026/10/patch-now-php2shell-brotli-emudhra-guidance-for-customers",
-      "domain": "microsoft.com",
-      "bookmarkCount": 12,
-      "summary": "Patch now: PHP2Shell, Brotli, and eMudhra guidance for customers Over the past two weeks, three security issues in widely used open-source and third-party technology were disclosed within days of each other this month. Two critical remote c",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.microsoft.com/en-us/msrc/blog/2026/10/patch-now-php2shell-brotli-emudhra-guidance-for-customers",
+      "id": "h_4c895021",
+      "title": "(PDF)Linux カーネル CVE-2026-98432 脆弱性対処:カーネルパッチ不要の暫定対策説明書(by Claude Mythos 5.1)",
+      "url": "https://dnobori.cyber.ipa.go.jp/ppt/download/20261031/261031-HowToProtect-Linux-Kernel-CVE-2026-98432.pdf",
+      "domain": "dnobori.cyber.ipa.go.jp",
+      "bookmarkCount": 28,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dnobori.cyber.ipa.go.jp/ppt/download/20261031/261031-HowToProtect-Linux-Kernel-CVE-2026-98432.pdf",
+      "comments": [],
+      "fetchedAt": "2026-10-31T12:00:12.007875+00:00"
+    },
+    {
+      "id": "h_474ecfd6",
+      "title": "GPUで動いてるLLMの中でCPUが動く?・・・何を言ってるかわからねえと思うが、とにかくQwenputerを追試して分かったこと、分からなかったこと｜shi3z",
+      "url": "https://note.com/shi3zblog/n/nadf4c6873d6d",
+      "domain": "note.com",
+      "bookmarkCount": 22,
+      "summary": "GPUで動いてるLLMの中でCPUが動く?・・・何を言ってるかわからねえと思うが、とにかくQwenputerを追試して分かったこと、分からなかったこと 「Qwen3.5-4Bの重みの中に32bit RISC-V CPUをコンパイルして埋め込んだ」というモデルがHugging Faceに公開されていた。 divagr1925/Qwen3.5-4B-Qwenputer 最初に見たとき、正直...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/shi3zblog/n/nadf4c6873d6d",
       "comments": [
         {
-          "user": "dowhile",
-          "comment": "> None of these began as a security vulnerability in Microsoft systems. Bu",
+          "user": "star_123",
+          "comment": "何でもありやな",
           "tags": [],
-          "timestamp": "2026/10/31 13:08"
+          "timestamp": "2026/10/31 20:56"
+        },
+        {
+          "user": "naozane2",
+          "comment": "LLMの内部にCPU。「もしも生まれつき脳にコンピュータを移植された子供がいたらどうだろうか。」という話",
+          "tags": [],
+          "timestamp": "2026/10/31 19:58"
+        },
+        {
+          "user": "kanikanidokokani",
+          "comment": "なぜ人はCPUを自作したがるのか…",
+          "tags": [],
+          "timestamp": "2026/10/31 19:35"
         },
         {
           "user": "nguyen-oi",
-          "comment": "PHP2ShellにBrotliのOOB、eMudhra証明書まで重なっててインフラ担当悲鳴あげてそう",
+          "comment": "LLMの中でCPU動くのロマンあってすこ",
           "tags": [],
-          "timestamp": "2026/10/31 12:42"
+          "timestamp": "2026/10/31 19:13"
+        },
+        {
+          "user": "bulldra",
+          "comment": "比喩的に言えば脳にコンピュータを埋め込んだことによる厳密な記号接地で何ができるのかの妄想が捗る",
+          "tags": [],
+          "timestamp": "2026/10/31 08:43"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:48.639301+00:00"
+      "fetchedAt": "2026-10-31T12:00:10.663487+00:00"
     },
     {
-      "id": "h_b5a930f9",
-      "title": "ブラック・オクトーバー - Wikipedia",
-      "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%AA%E3%82%AF%E3%83%88%E3%83%BC%E3%83%90%E3%83%BC",
-      "domain": "ja.wikipedia.org",
-      "bookmarkCount": 9,
-      "summary": "情報セキュリティの分野において、ブラック・オクトーバー（英語: Black October）とは、複数の重大なセキュリティインシデントや脆弱性の公表が相次いだ2026年10月に与えられた通称である。一連のインシデントは、脆弱性調査における人工知能（AI）の利用拡大と、AIの幅広く利用されているソフトウェアやインターネット...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%BB%E3%82%AA%E3%82%AF%E3%83%88%E3%83%BC%E3%83%90%E3%83%BC",
+      "id": "h_86e4f023",
+      "title": "視野はAIに、視座は人に / ai-for-breadth-humans-for-perspective",
+      "url": "https://speakerdeck.com/nkzn/ai-for-breadth-humans-for-perspective",
+      "domain": "speakerdeck.com",
+      "bookmarkCount": 21,
+      "summary": "KomeKaigi 2026で講演しました https://komekaigi.dev/",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nkzn/ai-for-breadth-humans-for-perspective",
       "comments": [
         {
-          "user": "enemyoffreedom",
-          "comment": "The Hunt for Black October",
-          "tags": [],
-          "timestamp": "2026/10/31 13:54"
-        },
-        {
           "user": "nguyen-oi",
-          "comment": "AIハッキング時代の幕開けか。セキュリティ業界の終わりが始まった感あるわ",
+          "comment": "結局人間はハンコ押すだけの上司ポジになるのが一番効率いいってことか",
           "tags": [],
-          "timestamp": "2026/10/31 13:15"
+          "timestamp": "2026/10/31 19:13"
+        }
+      ],
+      "fetchedAt": "2026-10-31T12:00:11.635683+00:00"
+    },
+    {
+      "id": "h_1c0ccaf0",
+      "title": "OpenAI アルトマンCEO「PCに大量のRAMを搭載するのは問題」と発言。ローカルAIより「クラウドで24時間活用すべき」との考え語る | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/10/31/5657.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 19,
+      "summary": "ガジェット全般、サイエンス、宇宙、音楽、モータースポーツetc... 電気・ネットワーク技術者。実績媒体Engadget日本版, Autoblog日本版, Forbes JAPAN他 OpenAIのサム・アルトマンCEOは、米決済大手Stripeの共同創業者ジョン・コリソン氏のポッドキャスト番組に出演した際に「個人のPCに大量のDRAMを保有させることには...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/10/31/5657.html",
+      "comments": [
+        {
+          "user": "amd64x64",
+          "comment": "DRAMの取り合いだね",
+          "tags": [],
+          "timestamp": "2026/10/31 20:51"
         },
         {
-          "user": "tybalt",
-          "comment": "名前ついたのか。だがしかし、これはほんの序章に過ぎないのであった、みたいな。。",
+          "user": "m4fg",
+          "comment": "コンピュータの歴史はメインフレームに始まり、パーソナルコンピュータ、クラウド&シンクライアント、と集中と分散を繰り返してるからね。今は集中のターン、と。",
+          "tags": [],
+          "timestamp": "2026/10/31 20:48"
+        },
+        {
+          "user": "Akkiesoft",
+          "comment": "○ねよ",
           "tags": [
-            "Securitty"
+            "AI"
           ],
-          "timestamp": "2026/10/31 04:44"
+          "timestamp": "2026/10/31 20:46"
         },
         {
-          "user": "fellfield",
-          "comment": "『情報セキュリティの分野において、ブラック・オクトーバー（英語: Black October）とは、複数の重大なセキュリティインシデントや脆弱性の公表が相次いだ2026年10月に与えられた通称である』",
+          "user": "naka_dekoboko",
+          "comment": "ブチ◯すぞ",
           "tags": [],
-          "timestamp": "2026/10/30 19:53"
+          "timestamp": "2026/10/31 20:38"
+        },
+        {
+          "user": "shuinout",
+          "comment": "各家庭で火力発電するよりデカい発電所建てた方が効率的と言われたらそれはそうって感じ",
+          "tags": [],
+          "timestamp": "2026/10/31 20:20"
+        },
+        {
+          "user": "fjch",
+          "comment": "2610311630 グレタと同じ思考回路 エメットブラウンみたく落雷からジゴワット供給するつもりか",
+          "tags": [
+            "これはひどい",
+            "とんでも",
+            "寝言は寝てから",
+            "読むだけ浪費"
+          ],
+          "timestamp": "2026/10/31 20:12"
         }
       ],
-      "fetchedAt": "2026-10-31T05:01:49.136037+00:00"
+      "fetchedAt": "2026-10-31T12:00:09.812337+00:00"
+    },
+    {
+      "id": "h_5799e442",
+      "title": "タッチに対応した新しいMacBook Proに思うこと - Karagana Park",
+      "url": "https://krgn1002.com/2026/10/thoughts-on-the-new-macbook-pro-with-proled-xdr-display/",
+      "domain": "krgn1002.com",
+      "bookmarkCount": 14,
+      "summary": "はじめに まず前提として、筆者はMacのディスプレイにタッチ操作（Multi-Touch）を導入することを以前から極めて否定的に見てきた。その理由は以下の通り。 Macの画面を指で触ろうとすると手をあげる必要があるため、使っているうちにすぐに疲労感がでてしまうこと Mac（macOS）は、ポインティングデバイスであるマウス...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/krgn1002.com/2026/10/thoughts-on-the-new-macbook-pro-with-proled-xdr-display/",
+      "comments": [
+        {
+          "user": "manimoto",
+          "comment": "\"あのAppleが「足せるならすべて足そう」とも呼ぶべき思想で動いてきた会社であったか\"ホントそれ。Noと言うの大事。/タッチパネルのWinノートは15年以上前からあり、今も選択肢としてはあるが、普及している印象はない",
+          "tags": [],
+          "timestamp": "2026/10/31 20:52"
+        },
+        {
+          "user": "m4fg",
+          "comment": "やっぱ疲れそう、が1番の印象。レイアウト的に腕から上げなきゃいけないわけで。",
+          "tags": [],
+          "timestamp": "2026/10/31 20:44"
+        },
+        {
+          "user": "Falky",
+          "comment": "Appleが本気でやるなら必ずハード設計に大きく手を入れるはず。今回はそれが一切なし、しかも製品発表のキーノートもたった6分で配信なし。一旦反応見たいだけで、微妙ならすぐ消えるんじゃないか？Touch Barみたいに。",
+          "tags": [
+            "!!"
+          ],
+          "timestamp": "2026/10/31 20:37"
+        },
+        {
+          "user": "omaya",
+          "comment": "でかい(外付け)ディスプレイならタッチが活きるじゃないかなぁ。そういう意味でOSが対応した一歩で今後デスクトップのMacでもタッチが生かせるようになる伏線の予想。（マイノリティレポートごっごがはかどる)",
+          "tags": [],
+          "timestamp": "2026/10/31 20:30"
+        }
+      ],
+      "fetchedAt": "2026-10-31T12:00:11.017665+00:00"
     }
   ],
-  "lastCollection": "2026-10-31T05:01:49.136073+00:00"
+  "lastCollection": "2026-10-31T12:00:12.007905+00:00"
 }
