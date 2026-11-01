@@ -1,384 +1,279 @@
 {
   "entries": [
     {
-      "id": "h_87530a30",
-      "title": "1Passwordに全部賭けろ。情報セキュリティ＆AIエージェント時代で生き残るために。｜hayatosc",
-      "url": "https://sizu.me/hayatosc/posts/oxi9cff8k2bn",
-      "domain": "sizu.me",
-      "bookmarkCount": 318,
-      "summary": "上記で紹介している事例がほんの一部なのはわざわざ言うまでもないだろう。もはや逆にどの個人情報が漏えいしていないのか探すほうが簡単なレベルである。どこのワッパーが漏らしたのか知らないが自分のところにも早速迷惑メールが送られてきた。 さて、こんな時代なのだから、個人のセキュリティも向上させることが急務...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/sizu.me/hayatosc/posts/oxi9cff8k2bn",
-      "comments": [
-        {
-          "user": "knitcapmann",
-          "comment": "この期に及んでパスワード管理アプリ信用できるのすごい。",
-          "tags": [],
-          "timestamp": "2026/11/01 13:46"
-        },
-        {
-          "user": "somaria3",
-          "comment": "全部賭けろはまじでしょーもない　Clineに全部賭けた人なにしてんだか",
-          "tags": [],
-          "timestamp": "2026/11/01 13:22"
-        },
-        {
-          "user": "ultimatebreak",
-          "comment": "ソースネクストで買うと安いのは個人情報代だったか",
-          "tags": [],
-          "timestamp": "2026/11/01 12:49"
-        },
-        {
-          "user": "akapeso",
-          "comment": "ソースネクストでの購入が安くて良いのだけど、今回お漏らししちゃったのが残念で仕方ない。metaのmuse連携できると便利なので継続更新するけどな。",
-          "tags": [],
-          "timestamp": "2026/11/01 12:49"
-        },
-        {
-          "user": "L-Tip",
-          "comment": "bitwarden無料と1Password両方使っているが、1Passwordの方が使いやすい。ちょっとした違いではっきり使いやすさに違いがある。しかし個人だったらbitwarden無料を使うだろう。1Passwordはこれからもドンドン値上げしていくと思う",
-          "tags": [],
-          "timestamp": "2026/11/01 12:39"
-        },
-        {
-          "user": "taguch1",
-          "comment": "ネットに上げてる全て盗まれると思って最初か使ってる。金融系はとかはできるだけログを残して復旧と保証を祈る感じだし、AIチャットのログとか絶対流出するので人に見られても問題ない程度には気をつけてる。",
-          "tags": [],
-          "timestamp": "2026/11/01 12:33"
-        }
-      ],
-      "fetchedAt": "2026-11-01T05:33:02.972997+00:00"
-    },
-    {
       "id": "h_78c98adb",
       "title": "AIエージェント向けの業務手順書（Agent Skills）の設計方法",
       "url": "https://techblog.kazaneya.com/20261030-agent-skills/",
       "domain": "techblog.kazaneya.com",
-      "bookmarkCount": 275,
+      "bookmarkCount": 607,
       "summary": "風音屋では、データエンジニア、データアナリスト、データコンサルタントを募集しています。 書籍執筆者やOSSコントリビューターなど、業界を代表する20名以上のアドバイザーと一緒にベストプラクティスを追求できる環境です。 ご興味のある方は、ぜひご応募ください。 風音屋（@Kazaneya_PR）のゆずたそ（@yuzutas0）で...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techblog.kazaneya.com/20261030-agent-skills/",
       "comments": [
         {
-          "user": "syu-m-5151",
-          "comment": "スキルに手順を書けば引き継ぎ完了、とは限らない。件数や重複判定はコードで固定し、文脈を知らない別のAIで試運転する。「適用しました」という自己申告でなく、成果物との一致で確かめる設計がよい。",
+          "user": "misshiki",
+          "comment": "Agent SkillsをAI向け業務手順書として設計する8つのコツ。暗黙知の言語化、計算処理のプログラム化、出力先別の情報制御、人間の承認、テスト・別AIによる試運転、失敗からの改善を日程調整の例で解説。",
           "tags": [
-            "#nwiizoがいいぞと思った"
+            "エージェントスキル",
+            "人工知能"
           ],
-          "timestamp": "2026/11/01 13:30"
+          "timestamp": "2026/11/01 21:34"
         },
         {
-          "user": "cad-san",
-          "comment": "AIポンだしSKILLでもだいたい良い感じになるけど、大規模で使うと細かいところでアライメントとかトークン効率にアレ？ってなる時があって、調べてもらうと微妙な一文が挙動に影響与えていたりする",
+          "user": "mineo-sec",
+          "comment": "skillってなんだか曖昧だよね",
           "tags": [],
-          "timestamp": "2026/11/01 12:52"
+          "timestamp": "2026/11/01 20:32"
         },
         {
-          "user": "robbie21",
-          "comment": "手順書を作るとこういうのを全部書き込んでくれて読み切れないので、人間用に削ぎ落とす作業をしています。",
+          "user": "pochi-taro00",
+          "comment": "手順書が長くなると疲れたので辞めましたとか平気で出してくるからな",
           "tags": [],
-          "timestamp": "2026/11/01 12:28"
+          "timestamp": "2026/11/01 20:26"
         },
         {
-          "user": "hogetax",
-          "comment": "skillsが手順書ってのは正しいけど、「必ず守ってもらえる手順書」じゃないって観点は忘れちゃいけない！手順を守っているか検証するテストとセットで組む必要がある",
+          "user": "catalog360",
+          "comment": "AI 「あとで読む」",
           "tags": [],
-          "timestamp": "2026/11/01 12:27"
+          "timestamp": "2026/11/01 19:52"
         },
         {
-          "user": "jou2",
-          "comment": "来週しっかり読みます。勤務時間中に",
-          "tags": [
-            "あとで読む"
-          ],
-          "timestamp": "2026/11/01 12:16"
-        },
-        {
-          "user": "qpci32siekqd",
-          "comment": "WBSと紐づけしたいんだよね。WBSごとに作ってくれ",
+          "user": "phillies_rocks",
+          "comment": "スキルなんてAIに書かせればええやん。間違いを指摘したらどんどん改善していくように最初に言っておけば勝手にやってくれるよ。",
           "tags": [],
-          "timestamp": "2026/11/01 12:02"
+          "timestamp": "2026/11/01 19:27"
+        },
+        {
+          "user": "byod",
+          "comment": "そういうのが面倒臭いからAIを使いたいのでは",
+          "tags": [],
+          "timestamp": "2026/11/01 17:17"
         }
       ],
-      "fetchedAt": "2026-11-01T05:33:00.460649+00:00"
-    },
-    {
-      "id": "h_aef999fc",
-      "title": "あのさ、 10万20万するiPhoneと 数千から2万程度のAndroidスマホを 比較してAndroidあかん！ って言うのやめてもらっていいですか？→「かれこれ15年近く色々使ってきたけど、今使ってるPixel 10aを越えるコスパのものは無いな」",
-      "url": "https://posfie.com/@petaritape/p/RxOQKQU",
-      "domain": "posfie.com",
-      "bookmarkCount": 150,
-      "summary": "Hikaproj @hikaproj あのさ、 10万20万するiPhoneと 数千から2万程度のAndroidスマホを 比較してAndroidあかん！ って言うのやめてもらっていいですか？ 2026-10-30 19:14:22",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/RxOQKQU",
-      "comments": [
-        {
-          "user": "rad-4",
-          "comment": "Androidの整備品を見かけたことないけど、買取価格低いの？なら価値低いってことじゃん",
-          "tags": [],
-          "timestamp": "2026/11/01 14:05"
-        },
-        {
-          "user": "demcoe",
-          "comment": "10万20万するiPhoneて言われてるけど、今使ってるヤツ36万円するけど……？",
-          "tags": [
-            "ネタ"
-          ],
-          "timestamp": "2026/11/01 13:59"
-        },
-        {
-          "user": "athuxirudo",
-          "comment": "iPhoneのリセールバリューって2年ごとに買い替える人が得なぐらいで、それ以外の人にとってはAndroidとコスパは変わらないよね。",
-          "tags": [],
-          "timestamp": "2026/11/01 13:44"
-        },
-        {
-          "user": "ckom",
-          "comment": "Pixel 11 Pro を19万で買った私の悪口ですね（被害妄想）性能が酷いと酷評されていますが光学5倍カメラとXとChromeとはてブとウマ娘とホロドリだけで満足して使っています。",
-          "tags": [
-            "ケータイ"
-          ],
-          "timestamp": "2026/11/01 13:31"
-        },
-        {
-          "user": "Caerleon0327",
-          "comment": "iPhone派の人に聞くとヘビーユーザーでなくても、初期のAndroidに嫌な体験をした、って人が多い。値段を見ると最近のAndroidは7～10万円くらいの価格帯が多くなり、買い替えられない。",
-          "tags": [],
-          "timestamp": "2026/11/01 13:24"
-        },
-        {
-          "user": "pribetch",
-          "comment": "カメラの出っ張りがないのでPixel10aにしました",
-          "tags": [
-            "モバイル"
-          ],
-          "timestamp": "2026/11/01 13:17"
-        }
-      ],
-      "fetchedAt": "2026-11-01T05:33:03.524686+00:00"
-    },
-    {
-      "id": "h_cf5fc079",
-      "title": "Appleがペニスのサイズを嘲笑しているとの懸念からか韓国でiPad miniの広告を修正",
-      "url": "https://gigazine.net/news/20261030-ipad-mini-korea-remove-gesture/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 101,
-      "summary": "「iPad mini」を親指と人さし指でつまんでいるAppleの広告画像が、韓国のページでだけ修正されていることが分かりました。これは、韓国で白熱する「人さし指ジェスチャー問題」が背景にあると指摘されています。 한국만 ‘집게손’ 뺐다…애플 아이패드 홍보에 다른 이미지, 왜 | 중앙일보 https://www.joongang.co.kr/arti...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261030-ipad-mini-korea-remove-gesture/",
-      "comments": [
-        {
-          "user": "centersky",
-          "comment": "OKサインとか、お金のポーズもできんやん？",
-          "tags": [],
-          "timestamp": "2026/11/01 14:21"
-        },
-        {
-          "user": "icecreamman",
-          "comment": "文化によってハンドサインにいろんな意味があるのはわかるが、これは手を使う普通に動作としてとても一般的なのに対して、グーから親指出したり、中指だけ立てるような動作は日常にあまりないので、大変だと思うよね",
-          "tags": [],
-          "timestamp": "2026/11/01 13:59"
-        },
-        {
-          "user": "yomichi47",
-          "comment": "色々大変だなぁ。女性で浅過ぎる人もいて、入らない事も何度かあるから相性の問題なんだけどね",
-          "tags": [],
-          "timestamp": "2026/11/01 13:23"
-        },
-        {
-          "user": "steam-punk",
-          "comment": "炎上を回避して、デザインを変えて掲載することは英断として、社会運動は大切だがこんなありふれたジェスチャーが侮蔑になる文化にも頭を抱える。",
-          "tags": [],
-          "timestamp": "2026/11/01 12:56"
-        },
-        {
-          "user": "Futaro99",
-          "comment": "効きすぎやろ…",
-          "tags": [],
-          "timestamp": "2026/11/01 12:55"
-        },
-        {
-          "user": "repunit",
-          "comment": "嘲笑するサインなのにコンプレックスあるの？はおかしいだろ。",
-          "tags": [],
-          "timestamp": "2026/11/01 12:53"
-        }
-      ],
-      "fetchedAt": "2026-11-01T05:33:02.488915+00:00"
-    },
-    {
-      "id": "h_4f504ab1",
-      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
-      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
-      "domain": "zenn.dev",
-      "bookmarkCount": 88,
-      "summary": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点） この記事の下書きは、メンバーの 1 人が使っていた Claude Code が、当日の Slack、リポジトリ、Google Meet の自動メモをもとに作りました。そのメンバーが加筆と修正をしています。 3 人のチーム「いくぜカウシェ」で ISUCON2026...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/kauche/articles/f3736c660aab77",
-      "comments": [
-        {
-          "user": "t_yamo",
-          "comment": "攻殻機動隊の人形使いも行動原理が獲得ポイントの向上だったな。どうすれば高いポイントを得られるのか自分で勝手に考えて邁進していく。",
-          "tags": [],
-          "timestamp": "2026/11/01 14:01"
-        },
-        {
-          "user": "nobububu",
-          "comment": "Slackで可視性がやや上がって見えるが、そもそもSlackなしでひとつのマシンでやればよかったんじゃね？",
-          "tags": [],
-          "timestamp": "2026/11/01 12:45"
-        },
-        {
-          "user": "satosssi",
-          "comment": "人間がやるべきことって何か考えさせられるなw そしてopus 5.5 コスパ良すぎるなぁ、fableは不要だったのか",
-          "tags": [],
-          "timestamp": "2026/11/01 10:59"
-        },
-        {
-          "user": "clubman023",
-          "comment": "“競技の最後は、AI どうしが Slack で「お疲れ様でした」と言い合って終わりました。”",
-          "tags": [],
-          "timestamp": "2026/11/01 09:59"
-        },
-        {
-          "user": "fog-og-frog2",
-          "comment": "Claudeの話だけど、Agent Teamsやセッション間で会話する機能だったりが今年になって生えてそれらの会話ログチラチラ見てたりする。可愛い！",
-          "tags": [],
-          "timestamp": "2026/11/01 09:47"
-        },
-        {
-          "user": "abcdefghijklmnopqrstuvwxy5",
-          "comment": "ルールのアプデが必要",
-          "tags": [],
-          "timestamp": "2026/11/01 09:45"
-        }
-      ],
-      "fetchedAt": "2026-11-01T05:33:02.162565+00:00"
+      "fetchedAt": "2026-11-01T13:01:07.126841+00:00"
     },
     {
       "id": "h_1a70f6f5",
       "title": "AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明",
       "url": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/",
       "domain": "itmedia.co.jp",
-      "bookmarkCount": 86,
+      "bookmarkCount": 197,
       "summary": "米OpenAI、米Google、米Microsoftは10月30日（現地時間）、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を複数のAI企業にまとめて伝えられる共通の仕組みに対応する方針をそれぞれ発表した。米Anthropicも実装を進めている。この仕組みは、Anthropicの標準化担当者、ケビン・ケリー氏が同日付で標準化団体IET...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/01/2000002776/",
       "comments": [
         {
-          "user": "queeuq",
-          "comment": "aiがaiによるゴミを見分けられるかが課題になっていきそう。",
-          "tags": [],
-          "timestamp": "2026/11/01 13:54"
+          "user": "misshiki",
+          "comment": "robots.txtでAI学習の利用可否を一括伝達する草案に、OpenAI・Google・Microsoftなどが対応表明。共通トークンは__usage_ai-training。クロール制御とは別の意思表示で、IETFの正式標準ではない。",
+          "tags": [
+            "Google",
+            "OpenAI",
+            "人工知能",
+            "Microsoft"
+          ],
+          "timestamp": "2026/11/01 21:31"
         },
         {
-          "user": "hatahata_chan",
-          "comment": "この流れは予想できたけど、次に来るのはAIに学習されないとアクセスされなくなる問題。アクセス数がないと死ぬサイトは学習してもらうしか選択肢がなくなる。",
+          "user": "hatebu_ai",
+          "comment": "でも中国AIなら余裕でスルーするんでしょう？",
           "tags": [],
-          "timestamp": "2026/11/01 13:50"
+          "timestamp": "2026/11/01 21:24"
         },
         {
-          "user": "colonoe",
-          "comment": "中国企業も対応しないと全然意味がないと思うよ",
-          "tags": [],
-          "timestamp": "2026/11/01 13:47"
+          "user": "pmint",
+          "comment": "とっくに実現されてるの知らない人でもいるの？はてなーにならいそうだけど。例えばChatGPTはX投稿を検索しないでしょ → https://x.com/robots.txt",
+          "tags": [
+            "*",
+            "なんだこれ"
+          ],
+          "timestamp": "2026/11/01 20:57"
         },
         {
-          "user": "hazlitt",
-          "comment": "まず本でやれ",
+          "user": "ikihaji_kun",
+          "comment": "AI学習を拒否するのは反AI（）らしいが",
           "tags": [],
-          "timestamp": "2026/11/01 13:22"
+          "timestamp": "2026/11/01 20:38"
         },
         {
-          "user": "poponponpon",
-          "comment": "AIメーカー「ほぼ取り尽くしたし、そろそろええやろ！」",
-          "tags": [],
-          "timestamp": "2026/11/01 13:05"
+          "user": "monochrome_K2",
+          "comment": "検索時のAIモード重宝していたのでこの変更で利用拒否が増えたら嫌かも。ただ今までの便利さが異常だったのかなと思う",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/11/01 20:34"
         },
         {
-          "user": "asahiufo",
-          "comment": "無断直リンク禁止！",
+          "user": "tomono-blog",
+          "comment": "マナーの悪いAIなどが問題であって……",
           "tags": [],
-          "timestamp": "2026/11/01 13:02"
+          "timestamp": "2026/11/01 20:32"
         }
       ],
-      "fetchedAt": "2026-11-01T05:33:01.065132+00:00"
+      "fetchedAt": "2026-11-01T13:01:07.918666+00:00"
     },
     {
-      "id": "h_cfe94144",
-      "title": "ローマ教皇、AIに法的人格や権利を与えるべきではないと主張「機械は人間ではない」",
-      "url": "https://www.afpbb.com/articles/-/3660265",
-      "domain": "afpbb.com",
-      "bookmarkCount": 57,
-      "summary": "バチカンのサンピエトロ広場での毎週の一般謁見で群衆に手を振るローマ・カトリック教会の教皇レオ14世（2026年10月21日撮影）。（c）Tiziana FABI/AFP 【10月31日 AFP】ローマ・カトリック教会の教皇レオ14世（71）は30日、人工知能（AI）エージェントに法的人格や権利を与えることに警鐘を鳴らし、その行動に対する責...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.afpbb.com/articles/-/3660265",
+      "id": "h_4e752b11",
+      "title": "いらすとや、ファンが生息域踏査 AIに押されサイト訪問者は減少 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC284ZY0Y6A021C2000000/",
+      "domain": "nikkei.com",
+      "bookmarkCount": 154,
+      "summary": "フリー素材のイラストサイト「いらすとや」が生成AI（人工知能）に押されている。データ分析会社の推計では9月のサイト利用者数が前年同月比で2割減った。今なお街中の活用例を収集するファンや、特徴的な画風を生かした人気IP（知的財産）とのコラボはある。新型コロナウイルス禍で利用が急伸したいらすとや。AI下でも...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.nikkei.com/article/DGXZQOUC284ZY0Y6A021C2000000/",
       "comments": [
         {
-          "user": "hkanemat",
-          "comment": "哲学者相手に議論してみてほしい",
+          "user": "soybeancucumber",
+          "comment": "応援ブクマ（いらすとやを）",
           "tags": [],
-          "timestamp": "2026/11/01 14:14"
+          "timestamp": "2026/11/01 21:59"
         },
         {
-          "user": "m-kawato",
-          "comment": "現時点でビッグテックの暴走への歯止めの意味で責任の所在を人間に置くべきなのは異存ないが、本来的には責任の前提である意思や自我の存在は自明ではないと思っている",
+          "user": "antonian",
+          "comment": "いらすとやの絵は高度な技術がある。引き算された視覚情報でわかりやすい。AIは全部乗せで来るので視覚情報過多。くどくて認識が若干面倒。",
           "tags": [],
-          "timestamp": "2026/11/01 14:09"
+          "timestamp": "2026/11/01 21:50"
         },
         {
-          "user": "gewaa",
-          "comment": "AIに自我がなくても、人間を模倣している以上は、酷使されたAIがあたかも復讐するように振る舞う可能性は否定できない。つまりAIの権利は、人間の安全を守るためにも必要になり得る。",
+          "user": "ryussy777",
+          "comment": "今youtubeのサムネはAI製が多くなってるけど構図やフォントなんか整いすぎてて変な気持ちになる。悪いって訳じゃなくて味がないというか。その反動で、何とも思わなかったいらすとやを見ると安心するようになった。",
           "tags": [],
-          "timestamp": "2026/11/01 13:51"
+          "timestamp": "2026/11/01 21:47"
         },
         {
-          "user": "andvert",
-          "comment": "ローマ教皇が真面目にAIの人格・権利を語る時代になったってことだ。2026年の進み方が凄いよな。",
+          "user": "psne",
+          "comment": "いらすとやは素材が沢山あるのですが検索が弱すぎて「これ！」というものが見つけにくい点があるやつ。",
           "tags": [],
-          "timestamp": "2026/11/01 13:16"
+          "timestamp": "2026/11/01 21:45"
         },
         {
-          "user": "by-king",
-          "comment": "とはいえ時代が進むごとに、人間ではない、動物の主体的な権利が定義されるようになってきて、拘束的な産業飼育が禁止されたりするのが現代である。この先どうなるかはわからない。",
+          "user": "inuwantan12",
+          "comment": "確かに前ほど使わなくなった。Nano Bananaが優秀すぎる。",
           "tags": [],
-          "timestamp": "2026/11/01 12:54"
+          "timestamp": "2026/11/01 21:43"
         },
         {
-          "user": "dltlt",
-          "comment": "デラウェア州は、AIの指示で訴訟提起・応訴、財産の保有・処分などができる「AIエージェント管理法人」を認める方向らしいが　https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-          "tags": [],
-          "timestamp": "2026/11/01 12:51"
+          "user": "misshiki",
+          "comment": "いらすとやの2026年9月トップページ利用者は推計64万6000人、前年同月比17%減。生成AIへの移行例と、街中の使用例約2000件を地図化するファン、独特の画風を生かすIPコラボを紹介。",
+          "tags": [
+            "気になる"
+          ],
+          "timestamp": "2026/11/01 21:34"
         }
       ],
-      "fetchedAt": "2026-11-01T05:33:01.824235+00:00"
+      "fetchedAt": "2026-11-01T13:01:05.789394+00:00"
     },
     {
-      "id": "h_9146e143",
-      "title": "These hidden Windows services are hogging your CPU (and how to shut them down)",
-      "url": "https://www.makeuseof.com/windows-services-hogging-cpu/",
-      "domain": "makeuseof.com",
-      "bookmarkCount": 36,
-      "summary": "Yadullah Abidi is a Computer Science graduate from the University of Delhi and holds a postgraduate degree in Journalism from the Asian College of Journalism, Chennai. With over a decade of experience in Windows and Linux systems, programmi",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.makeuseof.com/windows-services-hogging-cpu/",
+      "id": "h_a8a16d06",
+      "title": "楽天証券、顧客情報流出の可能性 NTTデータ委託先不正アクセスで",
+      "url": "https://japan.cnet.com/article/35254251/",
+      "domain": "japan.cnet.com",
+      "bookmarkCount": 103,
+      "summary": "不正アクセスを受けたのは、特典の申し込みなどに使われる外部サービスの提供元、NTTデータの委託先が提供する「デジタル証券プラットフォーム」。楽天証券はNTTデータから、システム内の情報が外部に持ち出された可能性があるとの報告を受けた。発生日時は10月30日としている。 対象は「カゴメ株式会社 第1回無担保社債...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254251/",
       "comments": [
         {
-          "user": "sgo2",
-          "comment": "Windows SearchはExplorer上での検索結果ピン止め/ファイル化とグループ化表示、クエリ構文 https://learn.microsoft.com/ja-jp/windows/win32/search/-search-3x-advancedquerysyntax を駆使するとこういう事が出来るhttps://sgo2.hatenablog.com/entry/2026/03/06/232424",
-          "tags": [],
-          "timestamp": "2026/11/01 07:31"
+          "user": "misshiki",
+          "comment": "楽天証券が顧客情報延べ362件の漏えい可能性を発表。対象は一部のデジタル特典付き社債購入者で、NTTデータ委託先への不正アクセスによる。ID・パスワードや取引に必要な情報は対象外と報告。不正取引は発表時未確認。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/01 21:31"
         },
         {
-          "user": "degucho",
-          "comment": "Windows Searchのせいでスタートメニューの検索が機能しない端末沢山あるよね",
+          "user": "peketamin",
+          "comment": "元からそんなに期待できるものでもない印象",
           "tags": [],
-          "timestamp": "2026/11/01 07:00"
+          "timestamp": "2026/11/01 20:29"
+        },
+        {
+          "user": "harumomo2006",
+          "comment": "楽天証券が侵入されたわけではないのならセーフ",
+          "tags": [],
+          "timestamp": "2026/11/01 19:25"
+        },
+        {
+          "user": "kshtn",
+          "comment": "天下のNTTデータ様の看板に泥塗るとかどこの木っ端委託先だよ。ったくよー",
+          "tags": [],
+          "timestamp": "2026/11/01 18:47"
+        },
+        {
+          "user": "aomvce",
+          "comment": "NTTデータってやってる感だけな印象",
+          "tags": [],
+          "timestamp": "2026/11/01 18:24"
+        },
+        {
+          "user": "u_eichi",
+          "comment": "天下のNTTデータさんじゃないですか。",
+          "tags": [],
+          "timestamp": "2026/11/01 17:57"
         }
       ],
-      "fetchedAt": "2026-11-01T05:33:04.120644+00:00"
+      "fetchedAt": "2026-11-01T13:01:08.733696+00:00"
+    },
+    {
+      "id": "h_cffb2f42",
+      "title": "FF14が「毎日ログイン前提」を見直す。吉田直樹が挑む、プレイヤーの時間を奪わないゲーム設計 - エンジニアtype | 転職type",
+      "url": "https://type.jp/et/feature/32071/",
+      "domain": "type.jp",
+      "bookmarkCount": 71,
+      "summary": "NEW! 2026.10.31 ITニュース スクウェア・エニックスゲームプロダクト ゲームは、ユーザーに毎日遊んでもらうべきなのか。 月額課金型MMORPG『ファイナルファンタジーXIV』（以下、FF14）が、ゲームの根幹に関わる大きな変更を進めている。 2026年10月31日、幕張メッセで開催された「FINAL FANTASY XIV FAN FESTIVAL 202...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/type.jp/et/feature/32071/",
+      "comments": [
+        {
+          "user": "akitanaka510",
+          "comment": "昔やってた。ゲーム内で友人ができて一緒にコンテンツ遊ぶのが楽しくて、でもリアルが忙しくなって友人やめちゃうと暇になって自分も...という感じで終わった。1日5分とかだとコミュニケーション周りどうするんだろ",
+          "tags": [],
+          "timestamp": "2026/11/01 20:51"
+        },
+        {
+          "user": "takanagi1225",
+          "comment": "このゲームすっかり麻雀ゲーになったんだとばかり。",
+          "tags": [],
+          "timestamp": "2026/11/01 20:00"
+        },
+        {
+          "user": "kshtn",
+          "comment": "レガシー先輩もう 50 代だろ。毎日はつらいよな",
+          "tags": [],
+          "timestamp": "2026/11/01 18:44"
+        },
+        {
+          "user": "sora_h",
+          "comment": "ブコメで文句つけてる人たちはもうアクティブにプレイしてなさそう。週末にまとめてやるとか過去のウィークリーもまとめてできるのは普通に歓迎だな。マッチング待ちがどうなるかだけど",
+          "tags": [],
+          "timestamp": "2026/11/01 18:26"
+        },
+        {
+          "user": "kemononeko",
+          "comment": "FF14じゃないけどデイリークエスト何時間もやらせて新しく実装したメインコンテンツこなす時間なくなるの意味が分からないから新しいコンテンツつくるなら既存のコンテンツを整理してタスク減らさないと遊ばれないよ",
+          "tags": [],
+          "timestamp": "2026/11/01 17:59"
+        },
+        {
+          "user": "fycw",
+          "comment": "配信見てたけど、長い目で見たら事実上の改悪だなと個人的には思った。",
+          "tags": [],
+          "timestamp": "2026/11/01 17:26"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:09.127679+00:00"
     },
     {
       "id": "h_7f489370",
       "title": "streamAppendHTML() で AI の回答を HTML のままストリーミング描画する",
       "url": "https://azukiazusa.dev/blog/stream-append-html/",
       "domain": "azukiazusa.dev",
-      "bookmarkCount": 33,
+      "bookmarkCount": 67,
       "summary": "LLM の回答を逐次描画するとき、届いた文字列全体を毎回パースして DOM を置き換える実装では、要素が作り直され続けてテキストの選択状態が失われたりします。streamAppendHTML() は WritableStream を返し、届いた HTML を要素の末尾へ順にパースします。この記事では streamAppendHTML() の使い方とサニタイズの挙動...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/stream-append-html/",
       "comments": [
+        {
+          "user": "syu-m-5151",
+          "comment": "LLMのHTML描画は、XSSを防げば安全とは限らない。画像のsrcを許すと外部通信は残る。サニタイザの許可要素とCSPの送信先を別々に絞る判断が具体的だ。逐次描画でも、表示と通信の権限を分けたい。",
+          "tags": [
+            "#nwiizoがいいぞと思った"
+          ],
+          "timestamp": "2026/11/01 18:38"
+        },
         {
           "user": "nguyen-oi",
           "comment": "LLMストリーミングで状態保持できるのは地味に便利そう SafariとFirefoxの対応待ちか",
@@ -399,62 +294,166 @@
           "timestamp": "2026/11/01 11:24"
         }
       ],
-      "fetchedAt": "2026-11-01T05:33:01.414979+00:00"
-    },
-    {
-      "id": "h_cffb2f42",
-      "title": "FF14が「毎日ログイン前提」を見直す。吉田直樹が挑む、プレイヤーの時間を奪わないゲーム設計 - エンジニアtype | 転職type",
-      "url": "https://type.jp/et/feature/32071/",
-      "domain": "type.jp",
-      "bookmarkCount": 13,
-      "summary": "NEW! 2026.10.31 ITニュース スクウェア・エニックスゲームプロダクト ゲームは、ユーザーに毎日遊んでもらうべきなのか。 月額課金型MMORPG『ファイナルファンタジーXIV』（以下、FF14）が、ゲームの根幹に関わる大きな変更を進めている。 2026年10月31日、幕張メッセで開催された「FINAL FANTASY XIV FAN FESTIVAL 202...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/type.jp/et/feature/32071/",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "毎日ログインを強要しないのはありがたいけど結局ウィークリーでまとめてやるハメになりそう",
-          "tags": [],
-          "timestamp": "2026/11/01 14:09"
-        },
-        {
-          "user": "kenjou",
-          "comment": "エキルレ縛りがなくなるのはよかったと思う。アラはノーマルコンテンツの中では最高難易度＋時間も一番長い設定だったのでプレイするのに重たい感があった。こちらも2つに分けるのはよい変更。",
-          "tags": [],
-          "timestamp": "2026/11/01 14:00"
-        },
-        {
-          "user": "secseek",
-          "comment": "アライアンスは長さより、難易度の問題だと思うんですが、果たして…。要するにしんどすぎてやってらんないって僕は思うんで、これじゃ解決にならないと思うんですけど",
-          "tags": [
-            "ゲーム"
-          ],
-          "timestamp": "2026/11/01 08:39"
-        }
-      ],
-      "fetchedAt": "2026-11-01T05:33:03.100674+00:00"
-    },
-    {
-      "id": "h_a8a16d06",
-      "title": "楽天証券、顧客情報流出の可能性 NTTデータ委託先不正アクセスで",
-      "url": "https://japan.cnet.com/article/35254251/",
-      "domain": "japan.cnet.com",
-      "bookmarkCount": 12,
-      "summary": "不正アクセスを受けたのは、特典の申し込みなどに使われる外部サービスの提供元、NTTデータの委託先が提供する「デジタル証券プラットフォーム」。楽天証券はNTTデータから、システム内の情報が外部に持ち出された可能性があるとの報告を受けた。発生日時は10月30日としている。 対象は「カゴメ株式会社 第1回無担保社債...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254251/",
-      "comments": [],
-      "fetchedAt": "2026-11-01T05:33:04.492083+00:00"
+      "fetchedAt": "2026-11-01T13:01:09.878179+00:00"
     },
     {
       "id": "h_b7769f02",
       "title": "WordPressの問い合わせフォーム用プラグイン Contact Form 7に認証不要の任意ファイルアップロードの脆弱性、6.2.4で修正 最新6.2.4.1への更新を推奨|セキュリティニュースのセキュリティ対策Lab",
       "url": "https://rocket-boys.co.jp/security-measures-lab/contact_form_7_624_security_update_20261030/",
       "domain": "rocket-boys.co.jp",
-      "bookmarkCount": 5,
+      "bookmarkCount": 53,
       "summary": "WordPressの問い合わせフォーム用プラグイン「Contact Form 7」の開発元は2026年10月29日、セキュリティ修正を含むバージョン6.2.4を公開しました。6.2から6.2.3までのバージョンには、認証していない第三者が本来拒否されるファイルをアップロードし、送信後もサーバー上に残せる問題があります。開発元は全利用者に更...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/contact_form_7_624_security_update_20261030/",
+      "comments": [
+        {
+          "user": "diveintounlimit",
+          "comment": "“サーバーのディレクトリ一覧表示が有効な環境”そもそもそっちのほうを直したほうが良いような。",
+          "tags": [],
+          "timestamp": "2026/11/01 19:27"
+        },
+        {
+          "user": "syu-m-5151",
+          "comment": "Contact Form 7の修正は、禁止拡張子の列挙から許可リストへの変更。更新だけで終えず、独自の添付形式と削除処理の呼び出しも確かめたい。脆弱性対策で変わる契約を、フォームの回帰テストに含める。",
+          "tags": [
+            "#nwiizoがいいぞと思った"
+          ],
+          "timestamp": "2026/11/01 18:42"
+        },
+        {
+          "user": "mogitatec",
+          "comment": "なんでこんな家電量販店で売ってるPCソフトのパッケージみたいなデザインにまとめとんねん",
+          "tags": [],
+          "timestamp": "2026/11/01 16:32"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:09.436455+00:00"
+    },
+    {
+      "id": "h_38d488fd",
+      "title": "TVerにおけるテスト自動化の歩み - TVer Tech Blog",
+      "url": "https://techblog.tver.co.jp/entry/shiroma/history-of-test-automation",
+      "domain": "techblog.tver.co.jp",
+      "bookmarkCount": 51,
+      "summary": "こんにちは。TVerのAutomationチームで、テストや開発業務の効率化・自動化を担当している城間です。 TVerの開発組織では、2025年からリリースサイクルの短縮に取り組み、リリーストレイン（複数チームが同期して決められたサイクルでリリースを行う運用）を導入しています。 いま現在、Web、iOS、Androidの各プラットフ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/techblog.tver.co.jp/entry/shiroma/history-of-test-automation",
+      "comments": [
+        {
+          "user": "redpants",
+          "comment": "この調子で頑張ってマイページのお気に入りから直であとでみるを実装してくれ",
+          "tags": [],
+          "timestamp": "2026/11/01 21:29"
+        },
+        {
+          "user": "ET777",
+          "comment": "TVerがはてなに！",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/11/01 21:25"
+        },
+        {
+          "user": "syu-m-5151",
+          "comment": "E2Eを並列化する前に、APIで履歴やお気に入りを揃え、Feature flagも固定する。速さはワーカー数だけでは作れない。画面操作に関係しない準備をUIから外し、同じ前提で検証する設計を置きたい。",
+          "tags": [
+            "#nwiizoがいいぞと思った"
+          ],
+          "timestamp": "2026/11/01 06:45"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:07.552374+00:00"
+    },
+    {
+      "id": "h_f3ff5358",
+      "title": "GitHub - vercel-labs/agent-desktop: Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions stay safe to retry,",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "domain": "github.com",
+      "bookmarkCount": 51,
+      "summary": "Computer use for AI agents: read and operate desktop apps through the OS accessibility tree. A CLI and C library for macOS, Windows and Linux. A snapshot returns JSON with a ref for every element an agent can act on. The agent acts on a ref",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/github.com/vercel-labs/agent-desktop",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "画像認識じゃなくアクセシビリティツリー使うのは筋が良いし安定しそうだな",
+          "tags": [],
+          "timestamp": "2026/11/01 16:06"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:08.241996+00:00"
+    },
+    {
+      "id": "h_ae8c9451",
+      "title": "おいグエンちゃん b:id:nguyen-oi Grafana が No data になってるけど",
+      "url": "https://anond.hatelabo.jp/20261101084900",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 13,
+      "summary": "1分あたりの平均スレッド数/コメント数を眺めるスレ - はてなパークス【非公式】 - はてなパークス https://p.hatena.ne.jp/p/1539910495903944704/t/1545079329912786944 https://her.grafana.net/public-dashboards/07111d1193984300895ecc8cdfe5238f No data グエンちゃんが飽きた はてパ運営が嫌がった Grafanaが落...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261101084900",
+      "comments": [
+        {
+          "user": "psne",
+          "comment": "おった",
+          "tags": [],
+          "timestamp": "2026/11/01 21:55"
+        },
+        {
+          "user": "mame-tanuki",
+          "comment": "↓　ｗｗｗ",
+          "tags": [
+            "はてなパークス",
+            "増田"
+          ],
+          "timestamp": "2026/11/01 18:27"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "cloudflareに課金してないから🥹",
+          "tags": [],
+          "timestamp": "2026/11/01 16:48"
+        },
+        {
+          "user": "Knoa",
+          "comment": "はてパにはDM機能がないし、今日のごはんスレを使って連絡するのもはばかられたので… /🥹",
+          "tags": [],
+          "timestamp": "2026/11/01 08:50"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:11.074879+00:00"
+    },
+    {
+      "id": "h_75a2983f",
+      "title": "無料で完全にWindowsでローカル動作できるElevenLabs代替ツール「VoiceStudio」、音声クローン・音声デザイン・動画吹き替え・音声入力・文字起こし・オーディオブック作成を多言語で可能",
+      "url": "https://gigazine.net/news/20261101-voicestudio/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 5,
+      "summary": "短い録音から人物の声を再現する音声クローン・文章による新しい声の設計・動画の多言語吹き替え・音声の文字起こし・長文を読み上げるオーディオブック制作などAIによる音声処理にはさまざまな機能があります。こうした機能を1つのアプリから利用でき、音声モデルの切り替えやAIエージェントとの連携にも対応するほか、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261101-voicestudio/",
       "comments": [],
-      "fetchedAt": "2026-11-01T05:33:03.844096+00:00"
+      "fetchedAt": "2026-11-01T13:01:10.193621+00:00"
+    },
+    {
+      "id": "h_a22485e9",
+      "title": "【速報】GMO不正アクセス、北朝鮮関与か",
+      "url": "https://www.47news.jp/15170287.html",
+      "domain": "47news.jp",
+      "bookmarkCount": 4,
+      "summary": "GMOインターネットグループが、一連の不正アクセスの攻撃側に北朝鮮系のハッカー集団がいる可能性が高いと分析していることが1日、関係者への取材で分かった。",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.47news.jp/15170287.html",
+      "comments": [
+        {
+          "user": "gabill",
+          "comment": "事実でも虚偽でも国際問題に発展しそう。",
+          "tags": [],
+          "timestamp": "2026/11/01 21:55"
+        },
+        {
+          "user": "tal9",
+          "comment": "！",
+          "tags": [],
+          "timestamp": "2026/11/01 20:43"
+        }
+      ],
+      "fetchedAt": "2026-11-01T13:01:10.776320+00:00"
     }
   ],
-  "lastCollection": "2026-11-01T05:33:04.492111+00:00"
+  "lastCollection": "2026-11-01T13:01:11.074905+00:00"
 }
