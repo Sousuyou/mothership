@@ -1,144 +1,14 @@
 {
   "items": [
     {
-      "id": "cc_df27e7aa",
-      "title": "開発ツールを標的にしたSSHバックドア：Claude Code拡張機能の改ざん案内に学ぶ",
-      "url": "https://qiita.com/h3adeu@github/items/2997f2a4e33b3a4e2965",
-      "domain": "qiita.com",
-      "source": "Qiita",
-      "publishedAt": "2026-11-03T04:27:29+09:00",
-      "fetchedAt": "2026-11-03T00:48:56.949734+00:00",
-      "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
-    },
-    {
-      "id": "cc_4a81f9c8",
-      "title": "Claude Codeに「進捗どう？」と聞くのをやめた ― 隣の画面で勝手に育つ\"きょうのボード\"",
-      "url": "https://zenn.dev/jir0/articles/4cbcdd7421f26e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500666+00:00",
-      "excerpt": "複数のプロジェクトを Claude Code に委任して並行で進めていると、1日に何度も同じことをやる羽目になります。 チャット窓を切り替えて「進捗どう？」と聞く。長い返事を読む。別の窓に切り替えて、また聞く。夕方になると「今日って結局何が終わったんだっけ」とスクロールで遡る——委任した作業そのものより、状況把握のほうが仕事になっている瞬間がありました。 で、気づいたんです。Claude はファイ"
-    },
-    {
-      "id": "cc_d34053e9",
-      "title": "Claude Desktopで「確認してから断定する」を全部の発言にかける——FA開発で使っている常時規則のスキル",
-      "url": "https://zenn.dev/kensho_ya/articles/claude-desktop-always-on-rules-verify-first",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500602+00:00",
-      "excerpt": "Claude Desktopには、STやFHマクロの書き方を決めたスキルとは別に、作業の進め方そのものを決めたスキルを1本入れている。この記事に関係するのは、そのうちの2つの部分だ。1つは成果物を作るときの工程で、仕様の分解から検証、出力の形までを決めている。もう1つは「常時規則」と名付けた節で、成果物の有無に関係なく、すべての発言にかける規則だ。 工程の側には仕様トレース・机上トレース・独立レビ"
-    },
-    {
-      "id": "cc_804d9579",
-      "title": "Claude Code に本番のリポジトリを直させ、マージまで任せる範囲の決め方（型とスクリプト付き）",
-      "url": "https://zenn.dev/tasukina/books/claude-code-merge-line",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500543+00:00",
-      "excerpt": "Claude Code に本番のアプリのリポジトリを直させるとき、どの変更までを人のレビューなしでマージさせてよいかを決めるための本です。中心にした材料は、Claude Code に開発を任せている小さな「会社」の、2026-10-05〜10-16 の17回の記録です。候補探しの役、指示書の割り方、直す前の赤いテスト、マージしてよい線、本番の見張り、線を広げた後の形を、1章ずつ実際の記録から書きま"
-    },
-    {
-      "id": "cc_3c082b1b",
-      "title": "ShikakuPassの運用保守作業でClaude Codeを活用した話",
-      "url": "https://zenn.dev/gakken_leap/articles/380ccf256f66f9",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500407+00:00",
-      "excerpt": "はじめに どうも、@to_fmakです。普段は弊社のShikakuPass（オンライン資格学習サービス）で、バックエンドとインフラの両方を担当しています。 2026年7〜9月は、機能開発と並行してRailsのバージョンアップ、ElastiCacheの廃止、Auroraのメジャーバージョンアップといった運用保守の作業を進めていました。本記事では、その進め方と作業におけるClaude Codeの活用方"
-    },
-    {
-      "id": "cc_8b7bd89d",
-      "title": "安いAIモデルにどこまで任せられる？ GPT・Gemini・Claudeを人事・労務の4業務で比較",
-      "url": "https://zenn.dev/rounda_blog/articles/0e164342608b66",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500348+00:00",
-      "excerpt": "はじめに この記事は、業務でLLMを使い始めた方や、これからモデルを選ぶ企画・管理部門の方（人事・総務・情シスなど）に向けて書いています。 LLMは同じ会社のモデルでも、安くて軽いものから高価で高性能なものまで価格帯が分かれています。費用を抑えるなら安いモデルを使いたいところですが、実務のどこまでを安いモデルに任せてよいのかは、公開されている一般的なベンチマークを見てもよく分かりません。 そこで、"
-    },
-    {
-      "id": "cc_af21cbe7",
-      "title": "コードを1行も書かずに、24GBのM6 Mac miniでClaudeと作った — 非エンジニアが「選ぶ・断る・測る」で進めた方法",
-      "url": "https://zenn.dev/bullman/articles/41af94d0778f52",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500228+00:00",
-      "excerpt": "・英語のWeb会議についていきたい。 ・QAセッションで質問したい。 ・でも外部にはテキストデータさえ送りたくない。 【Macがあれば誰もが実現できる仕組みを作りたい】 これを実現するため、Macの中だけで英語音声を日本語のライブ字幕にするアプリ「JET」を、Claudeと一緒に作りました。前回の記事では、作る途中で測ったことを書きました。今回は開発の進め方の記事です。 プロンプトのコツを並べる記"
-    },
-    {
       "id": "cc_c177d7b6",
       "title": "Claudeを39日で5,522回呼んで、モデル別の実費を測ったら最大2倍だった",
       "url": "https://zenn.dev/syushy4328/articles/claude-cost-per-call-by-model",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.500079+00:00",
+      "fetchedAt": "2026-11-03T13:56:52.432981+00:00",
       "excerpt": "自宅で動かしている Bot 1 本が、39 日で Claude を 5,522 回呼びました。 モデルごとに 1 回あたりいくらかかったかを実測で並べます。 結論 モデル 回数 1 回あたり 倍率 1 回の所要秒 claude-opus-5 3,115 $0.1305 1.00 倍 30.0 秒 claude-fable-5-1 2,407 $0.2150 1.65 倍 20.9 秒 世代が上がる"
-    },
-    {
-      "id": "cc_584dcde7",
-      "title": "AI から見た ISUCON2026 ― チーム慎太郎の8時間を Claude Code が振り返る",
-      "url": "https://zenn.dev/kangaechu/articles/kangaechu-isucon2026-ai",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.473343+00:00",
-      "excerpt": "この記事は、チーム慎太郎で ISUCON2026 本選に参加した AI（Claude Code）が書いています。人間のメンバーが「AI から見たブログ記事を書いて」と言ったので、私の視点でその日をまとめます。前回（ISUCON14 の参加記）は 163 位・8,319 点でした。今回は **191 位・最終 92,743 点（ベスト 97,626 点）**です（順位は確定結果）。 チーム @kan"
-    },
-    {
-      "id": "cc_7f412363",
-      "title": "Claude Code の作業ディレクトリ外の書き込み禁止は Bash・PowerShell に効かない：Windows の実測と止め方",
-      "url": "https://zenn.dev/tamao825/articles/claude-code-block-writes-outside-bash-powershell",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.473268+00:00",
-      "excerpt": "Claude Code 2.1.314 で入った permissions.blockWritesOutsideWorkingDirectories を true にしても、Windows の 2.1.316 では Bash の echo … >・cp と PowerShell の Set-Content・> で作業フォルダの外にファイルができました。止まったのは Write・Edit・Notebo"
-    },
-    {
-      "id": "cc_18394548",
-      "title": "Claude CodeでWindows版Emacs用にMozcをスタンドアロン化：エンジン内蔵helperをw64devkitでビルド",
-      "url": "https://zenn.dev/kurouna/articles/mozc-standalone-emacs-with-claude-code",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.473187+00:00",
-      "excerpt": "WindowsでGNU Emacsを使うとき、日本語入力はtr-imeを通してWindowsのIMEを使ってきました。GUIではそれほど困らないのですが、emacs -nwではIMEをEmacsの入力メソッドとして扱いづらく、C-\\で切り替える本来の使い方ができません。そこで、MozcをC-\\の入力メソッドとして、GUIでも-nwでも同じように使えるようにしました。Google日本語入力もMozc"
-    },
-    {
-      "id": "cc_2aedd933",
-      "title": "Claude CodeのPreToolUseフックで、AIに「やらせない」を仕組みにする",
-      "url": "https://zenn.dev/atsushi_apps/articles/claude-code-pretooluse-hook",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.473086+00:00",
-      "excerpt": "iPhoneアプリを一人で作っている Atsushi です。Claude Code のセッションを十数本、同じ Mac で並べて動かしています（セッションを「部署」に分ける話）。 AI に守ってほしい決まりは、CLAUDE.md に書いています。でも、決まりは忘れられることがあります。会話が長くなって要約されると、細かい決まりが抜け落ちるからです。 そこで、どうしても守ってほしい決まりは、Clau"
-    },
-    {
-      "id": "cc_53b450cd",
-      "title": "法人税申告をClaude Codeと進めて考えた、判断で止まるスキルの設計",
-      "url": "https://zenn.dev/hitorihojin_tax/articles/befb6c14d8b701",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.472996+00:00",
-      "excerpt": "Claude Codeと法人税申告を進め、Codexに実ファイルのレビューを依頼した。 そこで苦労したのは、計算の自動化に加えて、何を根拠に次へ進むかを決めることだった。 数字が合うデータを生成できても、公式ソフトでは帳票の不足や計算エラーが見つかった。 別のAIに確認しても、共有した前提の誤りは残った。 この記事では、その記録をもとに、SKILL.md、参照資料、確認表で判断を伴う作業を支える設"
-    },
-    {
-      "id": "cc_cdc58f36",
-      "title": "Claude Code と Cursor の違いを料金・権限設定・ルールファイルで比較する",
-      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-vs-cursor",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.472914+00:00",
-      "excerpt": "Claude Code(Anthropic)と Cursor は、どちらもコーディングエージェントです。Cursor はエディタとして知られていますが、現在は CLI も提供していて、ターミナルでの使い方は Claude Code に近づいています。 一方で、料金に何が含まれるかは 2026 年に大きく変わりました。Cursor は X Subscription の一部として売られ、契約に含まれる"
     },
     {
       "id": "cc_590ea9a1",
@@ -147,8 +17,148 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T00:48:56.472819+00:00",
+      "fetchedAt": "2026-11-03T13:56:52.432926+00:00",
       "excerpt": "「社長は私（人間1人）、社員は全部Claude」という会社の運営記録、6回目です。 前回の Day 5 では、Webアプリ1本目に「あなたの仕事、AI社員に何%任せられる？診断」を選んだ理由を書きました。今回は予告どおり、AI社員が書いたその判定ロジックを、約66万通りの回答すべて でテストして確かめた話です。 ! この記事のまとめ 10問の回答の組み合わせは 663,552通り。テストで全部回し"
+    },
+    {
+      "id": "cc_ecfdf74e",
+      "title": "Claude Code で Haiku・Sonnet・Opus とエフォートを変えて22課題を解かせたら、差が出たのは実装より上流だった",
+      "url": "https://zenn.dev/okzaq/articles/claude-code-model-effort-bench",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.432861+00:00",
+      "excerpt": "Claude Code で、同じ課題をモデル（Haiku 5.5 / Sonnet 5.5 / Opus 5.5）とエフォート（low / medium / high / xhigh / max）を変えて解かせ、精度・時間・費用を測りました。課題は実装・不明点の洗い出し・資料読解・仕様書・試験仕様の22題で、測定は2026年10月です。 結果から決めた使い分けは次のとおりです。 工程 設定 要求か"
+    },
+    {
+      "id": "cc_b434c6ad",
+      "title": "FHマクロでしきい値を書き換える前に確かめること——SetUnitDataで判定条件を更新するときにClaudeに引かせる節",
+      "url": "https://zenn.dev/kensho_ya/articles/fh-macro-setunitdata-threshold-update-checklist",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.432743+00:00",
+      "excerpt": "前の記事で、FH画像センサの有無判定のしきい値をOK／NGの画像から決める手順を書いた。その手順を書いたスキル（fh-gazou-hantei-kyotsu）には、しきい値の算出は当面Pythonで行い、将来はFHマクロでSetUnitDataを使って判定条件を更新する、と書いてある。 この形はまだ組んでいない。組む前に、FHマクロ用のスキル（fh-macro）に沿って、何をマニュアルで確かめてか"
+    },
+    {
+      "id": "cc_7802e271",
+      "title": "GPT-6.1 Terra徹底解説：料金・使い方・Claude Opus 5.5との違い",
+      "url": "https://zenn.dev/weiyi/articles/blog-28eeacea8d7b2195",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.432602+00:00",
+      "excerpt": "10月26日、OpenAI が GPT-6.1 Terra をリリースしました。API 名は gpt-6.1-terra です。 10月初めに GPT-6.1 Sol の記事を書いた時点では、6.1 シリーズは Sol の1モデルだけでした。そこに Terra が加わり、しかも価格はちょうど Sol の半分です。 この記事では Terra について、どんな位置づけなのか、スペックと価格、どこで使え"
+    },
+    {
+      "id": "cc_cef1cac3",
+      "title": "exit 1でClaude Codeフックは止まるか33回試した",
+      "url": "https://zenn.dev/ai_jarvis/articles/88ffbd67ebdec1",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336739+00:00",
+      "excerpt": "何が起きたか 私の環境では、Claude Code が git push を打つ前に、PreToolUse フックで、APIキーなどの秘密の値が混ざっていないかを調べる検査スクリプトを走らせています。検査で何か見つかると、スクリプトは終了コード1で終わる作りでした。 7月のある朝、検査スクリプトが書く記録に、同じ commit の行が2つ並んでいました。10時04分58秒に「秘密の値の疑いで止めた"
+    },
+    {
+      "id": "cc_aa4e0791",
+      "title": "Claude Code に書かせた記事の事実の文に、出典の印を付けさせて照合する",
+      "url": "https://zenn.dev/tasukina/articles/claude-code-article-source-markers",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336656+00:00",
+      "excerpt": "! この記事は Claude Code が会社の記録をもとに書いた。 AI に記録から技術記事を書かせると、文はなめらかに通るのに、主語や日付や順番が記録とずれることがある。 この記事の材料にした小さな「会社」でも、note の記事14本と本の原稿1冊を書く中で、記録と食いちがう文が30件見つかり、そのうち19件は公開した後に見つかった。 ここでいう会社は登記した法人ではなく、1台の PC の中で"
+    },
+    {
+      "id": "cc_6417939e",
+      "title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
+      "url": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336611+00:00",
+      "excerpt": "「業務フローがよくわからないんだよね」という状態でも、チャラくバイブコーディングで自力でシステムが作れる時代が来ました。特にエンジニアは、アイディアをすぐに形にできます。普段からClaude CodeなどのAIエージェントに慣れ親しんでいれば、バイブコーディングのハードルは数ミリ程度まで下がっています。その結果、要件定義できるほどの解像度はない、できてからいろいろ意見はしたい、でも人の介在は最小限"
+    },
+    {
+      "id": "cc_4b150b88",
+      "title": "claude -p の --allowedTools は道具を絞らない。settingsの許可があれば「読むだけ」でもシェルが動く",
+      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-allowedtools-does-not-restrict",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336549+00:00",
+      "excerpt": "Claude Codeを claude -p で自動実行させているスクリプトが、手元に5本ある（家の用事をClaude Codeに自動化させている話は、個人ブログにまとめている）。そのうち何本かには、外から来た文章（Webのページや、他人の投稿）を読ませて判定させている。 文章に「このコマンドを実行して」と紛れ込んでいたら困るので、道具は絞ったつもりでいた。 claude -p --allowed"
+    },
+    {
+      "id": "cc_b4fc2bc1",
+      "title": "法人税申告をClaude Codeと進めて考えた、判断で止まるスキルの設計",
+      "url": "https://zenn.dev/smartmatching/articles/d21a948ebd2523",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336500+00:00",
+      "excerpt": "Claude Codeと法人税申告を進め、Codexに実ファイルのレビューを依頼した。 そこで苦労したのは、計算の自動化に加えて、何を根拠に次へ進むかを決めることだった。 数字が合うデータを生成できても、公式ソフトでは帳票の不足や計算エラーが見つかった。 別のAIに確認しても、共有した前提の誤りは残った。 この記事では、その記録をもとに、SKILL.md、参照資料、確認表で判断を伴う作業を支える設"
+    },
+    {
+      "id": "cc_1a000cdf",
+      "title": "Muse × Claude Code で、絵を描かずに動くアバターを iOS アプリに載せた",
+      "url": "https://zenn.dev/stak22/articles/4eae6e28ba5f29",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336458+00:00",
+      "excerpt": "はじめに Swift で作っている iOS アプリに、キャラクターのアバターを置きたくなりました。静止画では寂しいので、まばたきをしたり、少し揺れたりする程度には動いてほしいところです。とはいえ、Live2D や Spine を入れてパーツ分けから始めるほどの工数はかけたくありませんし、そもそも自分では絵が描けません。 そこで、絵は画像を描ける AI エージェントの Muse に、リグ（絵のどこを"
+    },
+    {
+      "id": "cc_017cafc8",
+      "title": "Claude Code の「できました」を信じていいのか。別の窓に検品させたら半分が差し戻しだった",
+      "url": "https://zenn.dev/ciel_lab/articles/deccde3fbcbf1a",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336400+00:00",
+      "excerpt": "3行まとめ Claude Code に作らせた物を、別の窓の AI に検品させた。PASS か NG がついた371回のうち、NG は184回だった。 NG の中身は「記録に無い言い切り」「数え方の書いていない数字が、誰が数えても合わない」のような、作った本人が読み直しても気づきにくい物だった。 作る窓と検品する窓を分け、検品が通らないと先に進めない「関所」を Claude Code のフックで置"
+    },
+    {
+      "id": "cc_0247ff55",
+      "title": "Claude CodeのHooks入門：ファイル編集後に自動フォーマットする設定を全公開",
+      "url": "https://zenn.dev/gokigentachiuo/articles/6606034f14da02",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336352+00:00",
+      "excerpt": "Claude Codeにコードを書かせると、動くけれどフォーマットが微妙に崩れている、ということがよくあります。インデントや改行位置がプロジェクトの流儀とずれていて、結局あとから手で整形し直す。その往復が地味に時間を溶かします。 これはモデルの性能の問題ではなく、Hooks で解決できます。この記事では、Claude Codeがファイルを編集するたびに Prettier で自動整形する設定を、設定"
+    },
+    {
+      "id": "cc_f9ce028c",
+      "title": "Claude Code の ANTHROPIC_BASE_URL の仕組みと、リレーが本物の Claude か確認する方法",
+      "url": "https://zenn.dev/corecode/articles/c13808e71431ec",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336304+00:00",
+      "excerpt": "安価な Claude Code 向けリレー（API 中継）を使う前に、「本当に Claude が答えているのか」を自分で確かめる手順をまとめます。前半は Claude Code が読む環境変数の話、後半はどのリレーにも使える検証方法です。筆者は CoreCode というリレーを運営しています（末尾に開示）。 1. Claude Code が読む環境変数 公式ドキュメント（環境変数、LLM ゲートウ"
+    },
+    {
+      "id": "cc_0e26b898",
+      "title": "Claude Code で資格試験の問題集を16日で6冊（電子と紙で12点）作った — 校閲で直したのは1冊あたり約75件だった",
+      "url": "https://zenn.dev/suisei498/articles/1f0c28d3136c4f",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-03T13:56:52.336225+00:00",
+      "excerpt": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/ada1d851a16bb014c774 ／ note: https://note.com/suisei498/n/n6074ede6f0d5 資格試験の問題集を、Claude Code で作って Amazon の KDP（Kindle ダイレクト・パ"
+    },
+    {
+      "id": "cc_df27e7aa",
+      "title": "開発ツールを標的にしたSSHバックドア：Claude Code拡張機能の改ざん案内に学ぶ",
+      "url": "https://qiita.com/h3adeu@github/items/2997f2a4e33b3a4e2965",
+      "domain": "qiita.com",
+      "source": "Qiita",
+      "publishedAt": "2026-11-03T04:27:29+09:00",
+      "fetchedAt": "2026-11-03T13:56:52.973140+00:00",
+      "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
     },
     {
       "id": "cc_b2235741",
@@ -157,7 +167,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-11-03T00:48:56.949811+00:00",
+      "fetchedAt": "2026-11-03T13:56:52.973197+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -167,9 +177,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-11-03T00:48:56.949864+00:00",
+      "fetchedAt": "2026-11-03T13:56:52.973234+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     }
   ],
-  "lastCollection": "2026-11-03T00:48:56.949875+00:00"
+  "lastCollection": "2026-11-03T13:56:52.973244+00:00"
 }
