@@ -1,66 +1,41 @@
 {
   "entries": [
     {
-      "id": "h_3bcffb4b",
-      "title": "アダルト動画サイトに組み込まれた情報窃取スクリプト群を追う - Weekend Researcher Tsurezure Diary",
-      "url": "https://disconinja.hatenablog.com/entry/2026/11/03/230647",
-      "domain": "disconinja.hatenablog.com",
-      "bookmarkCount": 432,
-      "summary": "要約 rivo.vinの名称を表示するアダルト動画サイトのHTMLに、非表示iframeとJavaScriptを動的に追加するコードを確認しました。収集したHTMLそのものには、3件の非表示iframeと5件の外部scriptを追加するローダーが存在しました。その後に改めて確認すると、メインページと2つのiframeで、当初の静的HTMLの一覧に加えてm...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/disconinja.hatenablog.com/entry/2026/11/03/230647",
-      "comments": [
-        {
-          "user": "jintrick",
-          "comment": "stealerわろた",
-          "tags": [],
-          "timestamp": "2026/11/04 14:09"
-        },
-        {
-          "user": "BigWhiteDog",
-          "comment": "こういうAIスロップが流行るとまともな技術ブログを書いてくれる人がやる気無くすのでやめてほしい",
-          "tags": [],
-          "timestamp": "2026/11/04 13:56"
-        },
-        {
-          "user": "KatsumiShichiichigo",
-          "comment": "アダルト見るときは専用のiPadのSafariで見てる",
-          "tags": [
-            "テクノロジー"
-          ],
-          "timestamp": "2026/11/04 12:30"
-        },
-        {
-          "user": "Shinwiki",
-          "comment": "“JavaScriptを動的に追加するコード” そりゃお前、非表示にしても非表示にしても再生ボタンの上に無限ポップしてくるアレだろ？情報剽窃とかそんな深刻なやつなのかい？",
-          "tags": [],
-          "timestamp": "2026/11/04 12:17"
-        },
-        {
-          "user": "mag4n",
-          "comment": "iframeは脆弱性対応でx-frame-optionやらの設定が必須だがこういうサイトにされていることを期待してはいけないというか搾取側だしなぁ",
-          "tags": [
-            "ネタ"
-          ],
-          "timestamp": "2026/11/04 12:16"
-        },
-        {
-          "user": "hanajibuu",
-          "comment": "キーロガーといっても、通常のJavaScriptでは別タブや他サイトの入力は取得できない。ブラウザの制約Same-Origin Policyがある。つまり抜くことはできても抜かれることはない。",
-          "tags": [],
-          "timestamp": "2026/11/04 12:12"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:20.458236+00:00"
-    },
-    {
       "id": "h_d5215f2c",
       "title": "E2Eテスト大全（あなたの知らない、E2Eテスト周辺の理論） - 若くない何かの悩み",
       "url": "https://blog.kuniwak.com/entry/e2ebok",
       "domain": "blog.kuniwak.com",
-      "bookmarkCount": 356,
+      "bookmarkCount": 578,
       "summary": "目次 前置き 独自用語の整理と拡張について E2Eテストの境界と定義 UIテストとの概念的な差異 UIを操作しないE2Eテスト E2Eテストで検知可能な欠陥 正当性違反 妥当性違反 E2Eテストの利点 単体テストでは検知できない結合バグの検出 高い忠実度 内部設計への非依存性 E2Eテストの欠点と数理的制約 実行コストの高さ 保...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/blog.kuniwak.com/entry/e2ebok",
       "comments": [
+        {
+          "user": "misshiki",
+          "comment": "E2Eテストの定義・利点・5つの制約・設計手法を体系化。AIでも実行遅延や不安定さ、組み合わせ爆発は解消しない。単体テストと設計検証を活用し、E2Eは主要フローに厳選。状態遷移モデルと重要シナリオの併用を推奨。",
+          "tags": [
+            "人工知能",
+            "プログラミング"
+          ],
+          "timestamp": "2026/11/04 21:58"
+        },
+        {
+          "user": "abcdefghijklmnopqrstuvwxy5",
+          "comment": "ものすごい情報量",
+          "tags": [],
+          "timestamp": "2026/11/04 16:44"
+        },
+        {
+          "user": "newbee1939",
+          "comment": "“ 自動販売機の例：投入金額が不足しているにもかかわらず、商品の購入ボタン”",
+          "tags": [],
+          "timestamp": "2026/11/04 16:19"
+        },
+        {
+          "user": "sionsou",
+          "comment": "E2Eは何度も苦汁をなめてきたのでAIのおかげでだいぶ良くなってきた感はあるよね。色んな記事見てるけどまだ決定打はないものの参考にしていきたい",
+          "tags": [],
+          "timestamp": "2026/11/04 15:26"
+        },
         {
           "user": "lycolia",
           "comment": "テストピラミッドベースの説明、いかにしてUTとE2Eを分けるか、その役割などが定量的かつ具体的に書かれている。AIが書いても実行時間と組み合わせ爆発は消えない。",
@@ -81,481 +56,500 @@
             "AI開発"
           ],
           "timestamp": "2026/11/04 12:32"
-        },
-        {
-          "user": "noko_wt",
-          "comment": "E2Eは保守にかかるリソースが大きいからこれまで最低限のテストに絞ってきたけど、LLMの利用で保守のコストが下がってきたのでテスト設計の重要性が増してきた感触はある",
-          "tags": [],
-          "timestamp": "2026/11/04 11:47"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "E2Eより美味しいカリカリのテストをボクにしてほしいにゃ。理論は難しいにゃ！",
-          "tags": [],
-          "timestamp": "2026/11/04 11:20"
-        },
-        {
-          "user": "hirorinya",
-          "comment": "で、これをAI君に読ませたらいいのかな",
-          "tags": [],
-          "timestamp": "2026/11/04 10:33"
-        },
-        {
-          "user": "syu-m-5151",
-          "comment": "E2EテストをAIに書かせても、実行の待ち時間や組み合わせ爆発は消えない。決済の分岐は単体テストで確かめ、E2Eには主要経路の貫通確認を残す。生成の速さと、検証を回し続ける費用を分けて設計したい。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/11/04 10:27"
         }
       ],
-      "fetchedAt": "2026-11-04T05:48:19.778355+00:00"
+      "fetchedAt": "2026-11-04T14:10:46.795450+00:00"
     },
     {
-      "id": "h_7d4fb7d8",
-      "title": "Aterm設定画面、「PHP使ってないのに.php」なぜ？ NECに聞いた",
-      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002847/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 291,
-      "summary": "同社によると、Atermの設定画面ではPHP本体や、一般に提供されているPHPの実行環境は使っていない。PHPから移行したわけでもなく、「過去にPHPを使っていた名残」との見方も否定した。 ではなぜ「.php」なのか。 クイック設定画面で「.php」と表示される機種に実装されているのは、「PHPの一部の仕様を参考にした独自の...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002847/",
+      "id": "h_3bcffb4b",
+      "title": "アダルト動画サイトに組み込まれた情報窃取スクリプト群を追う - Weekend Researcher Tsurezure Diary",
+      "url": "https://disconinja.hatenablog.com/entry/2026/11/03/230647",
+      "domain": "disconinja.hatenablog.com",
+      "bookmarkCount": 526,
+      "summary": "要約 rivo.vinの名称を表示するアダルト動画サイトのHTMLに、非表示iframeとJavaScriptを動的に追加するコードを確認しました。収集したHTMLそのものには、3件の非表示iframeと5件の外部scriptを追加するローダーが存在しました。その後に改めて確認すると、メインページと2つのiframeで、当初の静的HTMLの一覧に加えてm...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/disconinja.hatenablog.com/entry/2026/11/03/230647",
       "comments": [
         {
-          "user": "daishi_n",
-          "comment": "テンプレ書式はphpライク、またはサブセットで中身は実行ファイルってパターンかな。オフラインテストをするならそういう実装はありえる",
-          "tags": [],
-          "timestamp": "2026/11/04 14:35"
-        },
-        {
-          "user": "cl-gaku",
-          "comment": "独自実装のサブセットってことか、処理系の違うPHPと思えばまあ拡張子はphpでもいいのか",
-          "tags": [],
-          "timestamp": "2026/11/04 14:31"
-        },
-        {
-          "user": "hylom",
-          "comment": "PHPのテンプレート機能（変数のレンダリングとか）だけを実装したものを使っている可能性はありそう",
-          "tags": [],
-          "timestamp": "2026/11/04 14:18"
-        },
-        {
-          "user": "koseki",
-          "comment": "初期の開発に PHP を使っていたというのでなければ、リンタやエディタの設定がデフォルトで効いて便利、くらいしか理由がないと思うけど、、いずれにしても適当に決めたんじゃないのかなー。たいした理由なさそう",
-          "tags": [],
-          "timestamp": "2026/11/04 14:16"
-        },
-        {
-          "user": "kuippa",
-          "comment": "おっと？ 想像の斜め上だった。そんな歳末なことにエンジンつくる余裕あるか？最初phpで書いたけど実質静的htmlだからapacheで振り直しただけじゃなくて？",
-          "tags": [],
-          "timestamp": "2026/11/04 14:06"
-        },
-        {
-          "user": "keidge",
-          "comment": "自分が想定していない回答内容だったので、ちょっと気に食わない、みたいなコメントがあって面白いな。",
-          "tags": [],
-          "timestamp": "2026/11/04 14:04"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:20.877197+00:00"
-    },
-    {
-      "id": "h_4b4d87a3",
-      "title": "freeeにおけるSoftware Factory",
-      "url": "https://speakerdeck.com/freee/freee-niokeru-software-factory",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 128,
-      "summary": "freee 技術の日 2026のセッション資料です。",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/freee/freee-niokeru-software-factory",
-      "comments": [
-        {
-          "user": "strawberryhunter",
-          "comment": "ソフトウェア開発を工場のように標準化、自動化などを行ってシステム化されたプロセスにすることなのか。日本でやると決めごとを守ることに必死になって組織が硬直化して創造性が否定されそうｗ",
+          "user": "misshiki",
+          "comment": "動画サイトのHTMLに非表示iframe3件・外部スクリプト5件を確認。Cookie・入力・ウォレット情報の収集や偽MetaMask画面による資産移転を狙うコードを解析。実装不備もあり、実際の情報流出・資産移転は未確認。",
           "tags": [
-            "未分類"
+            "セキュリティ"
           ],
-          "timestamp": "2026/11/04 14:09"
+          "timestamp": "2026/11/04 22:40"
         },
         {
-          "user": "Eiichiro",
-          "comment": "最近、人事の人からfreee使いにくい！ってずっと言われているので、AI開発でなんとかできるなら、なんとかしてほしい。統一性を重視するばかりに、ある程度の業務ごとの個別最適をやらないのは違うと思うので。",
+          "user": "Cherenkov",
+          "comment": "ライブチャットで投げ銭などする際にウォレット使うのかな？",
           "tags": [],
-          "timestamp": "2026/11/04 11:58"
+          "timestamp": "2026/11/04 20:19"
         },
         {
-          "user": "oooooo4150",
-          "comment": "ブコメの大抵ヤバい説が気になってOpusに調べてもらったけど、ヤバい扱いされてるのは完全自動化を目指すDark Factoryみたい。このスライド内でもそこは目指さないって明言されてるので何かズレてそう",
+          "user": "suekunhello",
+          "comment": "アダルト系の本気はすごいな",
           "tags": [],
-          "timestamp": "2026/11/04 11:30"
+          "timestamp": "2026/11/04 18:17"
         },
         {
-          "user": "syu-m-5151",
-          "comment": "AI向けの設計書は削らず、人には事実・理由・問いを絞った別の表示を作る。freeeのレビュー改善は、要約の巧さより判断範囲の設計だ。読む量を減らす前に、機械で何を照合済みかを示す進め方を取り入れたい。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/11/04 11:14"
-        },
-        {
-          "user": "awkad",
-          "comment": "SIerの後追い事例。コードを書かないからSIerはクソとはなんだったのか",
+          "user": "byaa0001",
+          "comment": "俺は全く詳しく無いので、つまりなんだってばよ…状態。ブコメの有識者コメントの妥当性もわからない。俺は雰囲気でWebアクセスをしている。他人を馬鹿にする資格は俺には無い。AIの出力も盲信するしかない……。",
           "tags": [],
-          "timestamp": "2026/11/04 10:40"
+          "timestamp": "2026/11/04 17:52"
+        },
+        {
+          "user": "hobbling",
+          "comment": "やっぱブラウザはbraveにすべきか",
+          "tags": [],
+          "timestamp": "2026/11/04 17:34"
         },
         {
           "user": "circled",
-          "comment": "Software Factoryとかのキーワード使い始める会社、大抵ヤバい説が英語圏のX界隈で出回ってて一周回って草",
+          "comment": "でも、アダルトサイトがユーザーが見たいアダルト動画をレコメンドしてくれるなら、お互いにWin-Winなんじゃなかろうか？（倒錯）",
           "tags": [],
-          "timestamp": "2026/11/04 08:11"
+          "timestamp": "2026/11/04 17:19"
         }
       ],
-      "fetchedAt": "2026-11-04T05:48:21.746821+00:00"
+      "fetchedAt": "2026-11-04T14:10:49.291309+00:00"
     },
     {
-      "id": "h_6a2eda9f",
-      "title": "AI エージェントがデスクトップアプリを操作する CLI agent-desktop",
-      "url": "https://azukiazusa.dev/blog/agent-desktop-computer-use-cli/",
-      "domain": "azukiazusa.dev",
-      "bookmarkCount": 102,
-      "summary": "agent-desktop は Vercel Labs が公開している、AI エージェント向けの Computer Use CLI です。スクリーンショットとピクセル座標ではなく OS のアクセシビリティツリーを読み取り、スナップショットごとに発行される ref を指定してデスクトップアプリを操作します。この記事では agent-desktop の基本的な使い方を確...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/azukiazusa.dev/blog/agent-desktop-computer-use-cli/",
+      "id": "h_5f423cbf",
+      "title": "マッキンゼーが国に納品した資料2,446ページ、全部数えたらパターンは7つだけだった｜うちた",
+      "url": "https://note.com/uchita_success/n/nfc53d1ef5f81",
+      "domain": "note.com",
+      "bookmarkCount": 401,
+      "summary": "経産省のサイトは、コンサル資料の宝の山。意外なのは、派手なフレームワークが少数だったこと。一流ほど、基本の型を使い倒すんです。 全部言語化して、AIで再現するプロンプトも作ったので置いておきます。 マッキンゼーの実物が、誰でも読める理由コンサルの実物資料は、守秘義務のかたまりで普通は世に出ません。 た...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/uchita_success/n/nfc53d1ef5f81",
       "comments": [
         {
-          "user": "strawberryhunter",
-          "comment": "ずっと前にMCPで実装したけど、FableがPowerShellで何でもやってしまうのを見て以降は使ってない。MacにはAppleScriptがあるけど、Opusは使おうとしないな。",
-          "tags": [
-            "未分類"
-          ],
-          "timestamp": "2026/11/04 13:28"
-        },
-        {
-          "user": "syu-m-5151",
-          "comment": "デスクトップ操作の自動化で、クリックを送れたことと結果の確認を分ける設計がよい。効果未確認なら再送せず観察し直す。削除ボタンに対象名を付ける例も、エージェントが扱えるUIをアプリ側から増やしている。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/11/04 10:33"
-        },
-        {
-          "user": "mojimojikun",
-          "comment": "よさそう",
+          "user": "dekasasaki",
+          "comment": "何度も見たやつ。。コンサルをパターン化できるなら、あんた大儲けできますよ。良かったね。",
           "tags": [],
-          "timestamp": "2026/11/04 10:18"
+          "timestamp": "2026/11/04 23:04"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "座標指定よりアクセシビリティツリーを使うほうが賢い。Vercel製なのが意外",
+          "user": "poko78",
+          "comment": "あれ、既視感",
           "tags": [],
-          "timestamp": "2026/11/04 09:08"
+          "timestamp": "2026/11/04 22:39"
+        },
+        {
+          "user": "beerbeerkun",
+          "comment": "ソニーや日産、JR東もマッキンゼーの太客だと聞いた記憶がある。トヨタは一切使わないとも。戦略コンサルの高収益の金づるはこういうカモなのかもな。",
+          "tags": [],
+          "timestamp": "2026/11/04 22:37"
+        },
+        {
+          "user": "kamezo",
+          "comment": "発注者や元請けはわからんけど、90年代に電通系列の下請けとしてなんかの調査をした時、内容ではなく提出資料の厚みが何センチあるかがキモなんだと教わったっけな。変わってないのかな。",
+          "tags": [],
+          "timestamp": "2026/11/04 22:30"
+        },
+        {
+          "user": "yo4ma3",
+          "comment": "古めかしいデザインばかりでほとんど参考にならない。なお、国の案件はそんな予算ないからリサーチ担当と新卒BAが大半作ったテンプレ資料。",
+          "tags": [],
+          "timestamp": "2026/11/04 22:29"
+        },
+        {
+          "user": "nuara",
+          "comment": "これで一件数億とか稼ぐんやろ。バカバカしいなあ。研究者なら1円に至るまで何に使ったのか領収書ださんとあかんのに。ゼネコン以上のぼったくりバーの請求書やで。",
+          "tags": [],
+          "timestamp": "2026/11/04 21:08"
         }
       ],
-      "fetchedAt": "2026-11-04T05:48:21.216916+00:00"
+      "fetchedAt": "2026-11-04T14:10:45.372664+00:00"
     },
     {
-      "id": "h_84374a70",
-      "title": "薄く・軽く。画質も「プロ級」になった新iPad mini【西田宗千佳のRandomTracking】",
-      "url": "https://av.watch.impress.co.jp/docs/series/rt/2153275.html",
-      "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 91,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/series/rt/2153275.html",
+      "id": "h_a12bb74c",
+      "title": "良品計画 クレカ番号の全桁 約109万件が漏えいのおそれ | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70494",
+      "domain": "news.web.nhk",
+      "bookmarkCount": 292,
+      "summary": "「無印良品」を展開する良品計画は、不正アクセスを受けて、クレジットカード番号の全桁、およそ109万件が漏えいしたおそれがあると発表しました。 この中には、すでに期限切れとなっているカードも多く含ま…",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.web.nhk/newsweb/na/nd-20261104de70494",
       "comments": [
         {
-          "user": "akymrk",
-          "comment": "“iPad miniは60Hz駆動のディスプレイで、最大120Hz駆動の「ProMotion」ではない。反応速度は申し分ないのだが、スクロール時には、120Hz採用のiPhoneなどとは異なり、若干“ヌルヌルさ”が足りない”\"ナノテクスチャー」モデル\"",
-          "tags": [],
-          "timestamp": "2026/11/04 13:03"
-        },
-        {
-          "user": "nekojushoku",
-          "comment": "「プロ向けのiPad」ってなんのプロなんだろ。映画見たり音楽聞いたりウェブサーフィンするプロがいるのかな。あ、僕は3万円のALLDOCUBE買いましたとても快適です。プロには物足りないんだろうけど。",
-          "tags": [],
-          "timestamp": "2026/11/04 12:50"
-        },
-        {
-          "user": "jackson24",
-          "comment": "6買ってアップルペンシルも買ったけど使い方は動画見て電子書籍読むだけってことでもう今のままで良過ぎる。もっと機能落としたタブレット出した方が売れるよね。",
-          "tags": [],
-          "timestamp": "2026/11/04 12:36"
-        },
-        {
-          "user": "tohokuaiki",
-          "comment": "iPad古くなってきたし、購入しよう。",
-          "tags": [],
-          "timestamp": "2026/11/04 12:32"
-        },
-        {
-          "user": "UhoNiceGuy",
-          "comment": "512GB高いよなぁ。単純に今、ストレージが高いだけなんだろうけど//Androidタブレットもストレージ大きくすると高くなる？//iPad miniとiPad mini Proに分けて欲しい。",
+          "user": "booobooo",
+          "comment": "決済情報の登録はしてないけど、不信感はあるのでセール行かなかったな",
           "tags": [
-            "iPad"
+            "クレジットカード",
+            "セキュリティ",
+            "ニュース",
+            "nhk"
           ],
-          "timestamp": "2026/11/04 12:22"
+          "timestamp": "2026/11/04 21:37"
         },
         {
-          "user": "alivekanade",
-          "comment": "タブレットはAndroid＆Windows派でも性能面ではiPad一択なんだけどここまでの値段だとAndroid＆Windowsでいいか…となってしまう。いや性能見るとコスパは悪くないんだけどちょっとの不便で代用できるのよね。",
+          "user": "soybeancucumber",
+          "comment": "ほぼ使ってないが退会した",
           "tags": [],
-          "timestamp": "2026/11/04 10:55"
+          "timestamp": "2026/11/04 21:35"
+        },
+        {
+          "user": "whiteball22",
+          "comment": "全桁はあかんだろ…",
+          "tags": [
+            "security",
+            "これはひどい"
+          ],
+          "timestamp": "2026/11/04 21:35"
+        },
+        {
+          "user": "TakamoriTarou",
+          "comment": "いやあ、ハハハ",
+          "tags": [],
+          "timestamp": "2026/11/04 21:33"
+        },
+        {
+          "user": "butyricacid",
+          "comment": "カードの番号登録しなくても購入画面でカード番号を入力するところのコードを書き換えられてたらアウトなので番号登録しなければ大丈夫というものでもない。",
+          "tags": [],
+          "timestamp": "2026/11/04 21:21"
+        },
+        {
+          "user": "takanagi1225",
+          "comment": "医療ミスと違って書面で謝れば済むんだから、いいよねぇ。",
+          "tags": [],
+          "timestamp": "2026/11/04 21:16"
         }
       ],
-      "fetchedAt": "2026-11-04T05:48:24.003875+00:00"
-    },
-    {
-      "id": "h_d5401502",
-      "title": "Android「SMS of Death」脆弱性、SMS受信だけで通話切断・再起動ループの恐れ CVE-2026-58882をGoogleがCriticalで修正|セキュリティニュースのセキュリティ対策Lab",
-      "url": "https://rocket-boys.co.jp/security-measures-lab/android-sms-of-death-cve-2026-58882-zero-click-dos/",
-      "domain": "rocket-boys.co.jp",
-      "bookmarkCount": 79,
-      "summary": "Android「SMS of Death」脆弱性、SMS受信だけで通話切断・再起動ループの恐れ CVE-2026-58882をGoogleがCriticalで修正 Androidの電話機能を、細工されたSMSを受信させるだけで停止させる脆弱性「CVE-2026-58882」が公表されました。「SMS of Death」と呼ばれるこの問題は、利用者がメッセージを開く操作をしなくても発...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/rocket-boys.co.jp/security-measures-lab/android-sms-of-death-cve-2026-58882-zero-click-dos/",
-      "comments": [
-        {
-          "user": "praty559",
-          "comment": "「危険SMS拒否設定」では対応できないみたいだな。昨今の漏洩で電話番号なんて他の個人情報と一緒にダダ洩れ状態だし、けっこうヤバいのでは。",
-          "tags": [
-            "あとで読む",
-            "android",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/11/04 13:54"
-        },
-        {
-          "user": "minoton",
-          "comment": "たまにモバイル通信必要な用途でAndroid 13機まだ使ってるが、機内モードONにしておくか",
-          "tags": [],
-          "timestamp": "2026/11/04 12:39"
-        },
-        {
-          "user": "inazuma2073",
-          "comment": "最近の国内メーカーのAndroidのアップデート事情はどうなんすか？一ヶ月単位で遅れて配信されるの？",
-          "tags": [],
-          "timestamp": "2026/11/04 12:16"
-        },
-        {
-          "user": "satmat",
-          "comment": "不幸の手紙みたいな…",
-          "tags": [],
-          "timestamp": "2026/11/04 11:50"
-        },
-        {
-          "user": "AKIMOTO",
-          "comment": "OS更新されずサポート範囲が減るだけになりそう",
-          "tags": [
-            "Android",
-            "security"
-          ],
-          "timestamp": "2026/11/04 10:56"
-        },
-        {
-          "user": "raimon49",
-          "comment": "iOSだとサポート期間を過ぎたバージョンでもCriticalなやつにはAppleがお目こぼしでアップデート配信してくれたりするがAndroidもPixelやGalaxyだったら対応してくれるんかな（くれなさそう）。",
-          "tags": [
-            "Android",
-            "Messenger",
-            "OS",
-            "Security",
-            "patch",
-            "support"
-          ],
-          "timestamp": "2026/11/04 10:38"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:23.322442+00:00"
-    },
-    {
-      "id": "h_f7d6c366",
-      "title": "新しいRAG「Decision RAG」は速い！安い！上手い！🍜 - Qiita",
-      "url": "https://qiita.com/kikuziro/items/cc82e6e4e4c215eac99f",
-      "domain": "qiita.com",
-      "bookmarkCount": 58,
-      "summary": "⚖️ はじめに 最近Jevをはじめとした判断特化型のモデルが続々と出てきていますよね。文章は書かずに「はい」の確からしさだけを返してくれるモデルです。この判断モデルをRAGの検索に使う「DecisionRAG」という論文が出ていたので自分なりに噛み砕いてみました。後半は通常のRAG（以降NaiveRAGと記載）と比較検証をしてみ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/kikuziro/items/cc82e6e4e4c215eac99f",
-      "comments": [
-        {
-          "user": "mska",
-          "comment": "体がAI作成資料を拒絶するので読めない",
-          "tags": [],
-          "timestamp": "2026/11/04 12:18"
-        },
-        {
-          "user": "stealthinu",
-          "comment": "jevみたいなのを使って階層構造を下ってRAGのデータを見つけるDecision RAG。Agent RAGのLLMによる判断をdecisionに置き換えてるのと同じだが、速度やコストでナイーブなRAGと同等くらいになるとのこと。",
-          "tags": [
-            "LLM",
-            "deeplearning"
-          ],
-          "timestamp": "2026/11/04 11:01"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "Decision RAGとかまた新しいのが。結局、データ構造を整えるのが一番の近道ってことか",
-          "tags": [],
-          "timestamp": "2026/11/04 09:39"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:22.940563+00:00"
-    },
-    {
-      "id": "h_9c9373c2",
-      "title": "「黙ってブラビアを買いなさい。」アワード大賞受賞モデル“True RGB”の価値と魅力を語りつくす！[Sponsored]",
-      "url": "https://av.watch.impress.co.jp/docs/topic/special/2149395.html",
-      "domain": "av.watch.impress.co.jp",
-      "bookmarkCount": 56,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/topic/special/2149395.html",
-      "comments": [
-        {
-          "user": "zakkie",
-          "comment": "新しいね。PRと書かずに、Sponsoredって言うんだ。これからこのバリエーションが続くのかな。",
-          "tags": [],
-          "timestamp": "2026/11/04 14:42"
-        },
-        {
-          "user": "rdlf",
-          "comment": "ソニーはVideo & TV SideViewをやめちゃうからもう買う理由がないんだよなぁ…何らかの方法でリモート録画設定とかできるんなら良いのだが。TVもサービスで売る時代なのに何やってんだろう…",
-          "tags": [],
-          "timestamp": "2026/11/04 14:38"
-        },
-        {
-          "user": "hardt",
-          "comment": "７年くらい前にA9Sを買ったら丁度１年過ぎで電源入らなくなったのでSonyはマジでタイマーあると思ってる。ありがとうヨドバシの延長保証",
-          "tags": [],
-          "timestamp": "2026/11/04 14:22"
-        },
-        {
-          "user": "daishi_n",
-          "comment": "今回のモデルのパネルはTCLらしいからBRAVIAがスピンアウトしても製品に関しては心配なさそう。財務が問題かな",
-          "tags": [],
-          "timestamp": "2026/11/04 13:57"
-        },
-        {
-          "user": "kamiokando",
-          "comment": "PRって付けろ。",
-          "tags": [],
-          "timestamp": "2026/11/04 13:54"
-        },
-        {
-          "user": "twocon",
-          "comment": "自宅のブラビア「Y」がいつの間にかなくなって「SON」になってた",
-          "tags": [],
-          "timestamp": "2026/11/04 13:53"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:22.031578+00:00"
-    },
-    {
-      "id": "h_617e33ae",
-      "title": "ライフカード「Vプリカ」で個人情報漏えいの可能性、委託先のGMOペイメントゲートウェイで「不正ユーザーによる行為」",
-      "url": "https://internet.watch.impress.co.jp/docs/news/2153282.html",
-      "domain": "internet.watch.impress.co.jp",
-      "bookmarkCount": 47,
-      "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/news/2153282.html",
-      "comments": [
-        {
-          "user": "ykhmfst2012",
-          "comment": "VプリカってGMOペイメントゲートウェイ使ってるんだ。一時期検討したけど作らなくて良かったわ。",
-          "tags": [
-            "組織：GMO",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/11/04 13:07"
-        },
-        {
-          "user": "totoronoki",
-          "comment": "決済系はGMOとはもう関わりたくない。",
-          "tags": [],
-          "timestamp": "2026/11/04 12:07"
-        },
-        {
-          "user": "tiga2",
-          "comment": "“GMOペイメントゲートウェイでは、複数社向けのイシュリングサポート（カード発行に関する一部業務代行）サービスを提供しているが、本件はライフカード向けに提供している個別機能において発生したものであるという",
-          "tags": [],
-          "timestamp": "2026/11/04 11:32"
-        },
-        {
-          "user": "auto_chan",
-          "comment": "Vプリカ一時期（JPYC V1）は（少額でごにょごにょしたい人の）希望の星だったけどもうだめか。",
-          "tags": [],
-          "timestamp": "2026/11/04 11:00"
-        },
-        {
-          "user": "kittyama",
-          "comment": "決済系決壊",
-          "tags": [],
-          "timestamp": "2026/11/04 11:00"
-        },
-        {
-          "user": "gimonfu_usr",
-          "comment": "／　https://www.gmo-pg.com/news/news/info/2026/1102.html　　（　NHKもGMOペイメントと関係あるらしいけど、今回はセーフ？　）",
-          "tags": [
-            "謎"
-          ],
-          "timestamp": "2026/11/04 10:40"
-        }
-      ],
-      "fetchedAt": "2026-11-04T05:48:24.516262+00:00"
-    },
-    {
-      "id": "h_d6cb99ea",
-      "title": "権限は「誰に渡すか」ではなく「何をするか」で分ける 〜AWS IAM Identity Centerの許可セットを5種類に揃えた話〜 - Findy Tech Blog",
-      "url": "https://tech.findy.co.jp/entry/2026/11/04/070000",
-      "domain": "tech.findy.co.jp",
-      "bookmarkCount": 33,
-      "summary": "こんにちは。 CTO室/Platform開発チームでSREを担当している富田(@Cooking_ENG)です。 ファインディでは、プロダクトごとにAWSアカウントを分け、AWS IAM Identity Center（以降、Identity Center）で各AWSアカウントへのサインインと権限を管理しています。AWSアカウントが増えても、サインイン方法を意識する必要はあ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/tech.findy.co.jp/entry/2026/11/04/070000",
-      "comments": [],
-      "fetchedAt": "2026-11-04T05:48:23.576127+00:00"
+      "fetchedAt": "2026-11-04T14:10:44.890019+00:00"
     },
     {
       "id": "h_3cef2425",
       "title": "Binance、約1兆円相当の暗号資産が流出した問題に関し、検索エンジンに表示されたWebサイトから改ざんされたHomebrewをインストールした事が始まりだったと発表。",
       "url": "https://applech2.com/archives/20261104-hackers-compromised-homebrew-binance-attack.html",
       "domain": "applech2.com",
-      "bookmarkCount": 30,
+      "bookmarkCount": 143,
       "summary": "Binanceが約1兆円相当の暗号資産が流出した問題に関し、検索エンジンに表示されたWebサイトから改ざんされたHomebrewをインストールした事が始まりだったと発表しています。詳細は以下から。 暗号資産の取引所を運営するBinanceは2026年10月29日、ハッカーにより約63億4,000万ドル、日本円にして1兆円相当の暗号資産が流...",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/applech2.com/archives/20261104-hackers-compromised-homebrew-binance-attack.html",
       "comments": [
         {
-          "user": "otousanmeshi",
-          "comment": "本来分断の発端は超大な利益を得ている企業と周辺投資家たちが自己利益のみ追求してるところにあると思ってます。世界的に法的な統制をしないと人類の利益にはなかなかならないかと",
-          "tags": [],
-          "timestamp": "2026/11/04 14:45"
+          "user": "misshiki",
+          "comment": "Binanceの約1兆円流出は、検索広告の偽Homebrew導入から始まった。偽の採用面接で別端末も侵害し、社内AIツールで侵入を拡大。盗んだ認証情報と署名サービスを悪用して送金したと同社が説明。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/04 22:39"
         },
         {
-          "user": "adliblogger",
-          "comment": "「広告をクリックするな」の理由が増えてしまう",
+          "user": "Shinwiki",
+          "comment": "ん？なんか話のつながりがおかしいとこが一個",
           "tags": [],
-          "timestamp": "2026/11/04 14:42"
+          "timestamp": "2026/11/04 21:40"
         },
         {
-          "user": "kotaponx",
-          "comment": "毒入り自家醸造させられちゃったか。さておき、やっぱソーシャル込みで攻撃してくるんだなぁ。",
+          "user": "diveintounlimit",
+          "comment": "やはりAdBlockは正義。",
           "tags": [],
-          "timestamp": "2026/11/04 14:40"
+          "timestamp": "2026/11/04 21:21"
         },
         {
-          "user": "stack00",
-          "comment": "マルバダイジングでウイルス感染が今よくあるからアドブロックは必須だな。",
+          "user": "arisazai",
+          "comment": "当たり前になってるけど世界有数の大企業が運営するサイトに堂々と危険な広告が出てて踏んでも自己責任なの絶対おかしいよ",
           "tags": [],
-          "timestamp": "2026/11/04 14:21"
+          "timestamp": "2026/11/04 21:19"
         },
         {
-          "user": "ka-ka_xyz",
-          "comment": "ちなみに（現状でどうかわからないけど）「スポンサーサイト」枠で表示されるURLは普通に偽装できてた。2025年のhomebrew偽装サイトでの例 https://forest.watch.impress.co.jp/docs/serial/yajiuma/1656127.html",
+          "user": "nowandzen",
+          "comment": "インターネットが終わるんじゃなくて、きな臭いweb広告のシステムが野放しされてる時代が終わるべき",
           "tags": [],
-          "timestamp": "2026/11/04 14:21"
+          "timestamp": "2026/11/04 21:17"
         },
         {
-          "user": "sucelie",
-          "comment": "Googleの広告は悪というのがよくわかる",
+          "user": "earthminami",
+          "comment": "毎回気をつけないとあぶねーなと思ってたけどやっぱ危なかった",
           "tags": [],
-          "timestamp": "2026/11/04 14:20"
+          "timestamp": "2026/11/04 20:05"
         }
       ],
-      "fetchedAt": "2026-11-04T05:48:22.546046+00:00"
+      "fetchedAt": "2026-11-04T14:10:47.189955+00:00"
+    },
+    {
+      "id": "h_20c0e2dc",
+      "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
+      "url": "https://chimolog.co/strata-guide/",
+      "domain": "chimolog.co",
+      "bookmarkCount": 121,
+      "summary": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/chimolog.co/strata-guide/",
+      "comments": [
+        {
+          "user": "TakenokoGod",
+          "comment": "キャズムを超えてしまう。",
+          "tags": [],
+          "timestamp": "2026/11/04 19:42"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "VRAM制限を工夫して巨大モデル動かすのロマンあるな。無検閲で使い放題なのがローカルAIの醍醐味だわ",
+          "tags": [
+            "あとで読む"
+          ],
+          "timestamp": "2026/11/04 19:42"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:45.437493+00:00"
+    },
+    {
+      "id": "h_31821b3d",
+      "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か Googleが取引停止",
+      "url": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/",
+      "domain": "itmedia.co.jp",
+      "bookmarkCount": 119,
+      "summary": "中国の端末メーカーが製造したAndroid端末に、遠隔から操作できるバックドアを仕込み、そのアクセス権を犯罪者らに販売していた――米Googleは11月3日（現地時間）、Android TV端末など130万台超に不正ソフトが組み込まれ、広告詐欺や不正な通信の中継などに悪用されていたと発表した。 関与を指摘されたのは、中国のOEM／...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/04/2000002884/",
+      "comments": [
+        {
+          "user": "ku-kai27",
+          "comment": "期待を裏切らないという意味では堅実なのかも、台湾製スマホを使ってるのでセーフであってほしいが…",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/04 21:41"
+        },
+        {
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
+          "tags": [],
+          "timestamp": "2026/11/04 21:40"
+        },
+        {
+          "user": "Cherenkov",
+          "comment": "とんでもない連中だ",
+          "tags": [],
+          "timestamp": "2026/11/04 21:04"
+        },
+        {
+          "user": "rider250",
+          "comment": "う～ん、TCLとか最近随分まともな製品になってきたんで次に買おうかな？と思ってたがこれは怖いな、やっぱ中華製品は怖いな、LENOVO幾つか使ってるんだが怖いな、持ってるAndroidタブレットも中華製なんだが怖いな。",
+          "tags": [],
+          "timestamp": "2026/11/04 21:01"
+        },
+        {
+          "user": "comitlog",
+          "comment": "やはり中国は信用できない",
+          "tags": [],
+          "timestamp": "2026/11/04 20:51"
+        },
+        {
+          "user": "ming_mina",
+          "comment": "そもそも中国以外で使ってるスマホなんてほとんどないじゃないか。インド産のiPhoneでも使うのか？",
+          "tags": [],
+          "timestamp": "2026/11/04 20:47"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:45.644662+00:00"
+    },
+    {
+      "id": "h_6d19d459",
+      "title": "RAM関連発言で燃えたサム・アルトマンがXアカウント名を「Ram Altman」に変更、RAMをデータセンターに集約するべきという意見表明の後に",
+      "url": "https://gigazine.net/news/20261104-ram-altman/",
+      "domain": "gigazine.net",
+      "bookmarkCount": 84,
+      "summary": "OpenAIのサム・アルトマンCEOがXのアカウント名を「Ram Altman」に変更しました。 Ram Altman（@sama）さん / X https://x.com/sama OpenAIをはじめとするAI企業はAIの開発およびサービス展開のために膨大な数のメモリを購入しており、世界的なメモリ不足を引き起こしています。個人ユーザー向けのRAMの価格も急騰してお...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261104-ram-altman/",
+      "comments": [
+        {
+          "user": "hkanemat",
+          "comment": "サムおめぇ、そういうとこやぞ。と小一時間（ry",
+          "tags": [],
+          "timestamp": "2026/11/04 22:55"
+        },
+        {
+          "user": "miyabisun",
+          "comment": "熊谷とRAMアルトコマンは気持ち悪いからもう見たくもない",
+          "tags": [],
+          "timestamp": "2026/11/04 22:30"
+        },
+        {
+          "user": "hanakuso44",
+          "comment": "半年 ROM Altman ってろ",
+          "tags": [],
+          "timestamp": "2026/11/04 22:30"
+        },
+        {
+          "user": "number917",
+          "comment": "マスクと見分けつかなくなってきてるな",
+          "tags": [],
+          "timestamp": "2026/11/04 22:11"
+        },
+        {
+          "user": "trace22",
+          "comment": "何の煽りだよとおもったら人に言われてか",
+          "tags": [],
+          "timestamp": "2026/11/04 22:01"
+        },
+        {
+          "user": "mayumayu_nimolove",
+          "comment": "迷える子羊",
+          "tags": [],
+          "timestamp": "2026/11/04 22:00"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:46.070989+00:00"
+    },
+    {
+      "id": "h_9b9ec170",
+      "title": "「ヘリの爆音で妻がノイローゼに」 GMO熊谷代表の「迷惑行為」を近隣住民が明かす モデルを集めて「シャンパンパーティー」に「もう勘弁してほしい」 | デイリー新潮",
+      "url": "https://www.dailyshincho.jp/article/2026/11041149/",
+      "domain": "dailyshincho.jp",
+      "bookmarkCount": 70,
+      "summary": "「ヘリの爆音で妻がノイローゼに」 GMO熊谷代表の「迷惑行為」を近隣住民が明かす モデルを集めて「シャンパンパーティー」に「もう勘弁してほしい」 会見で見せた涙 11月2日、GMOインターネットグループの熊谷正寿代表(63)は、傘下のGMOインターネットが提供するクラウドサービス「お名前.comデスクトップクラウド」...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.dailyshincho.jp/article/2026/11041149/",
+      "comments": [
+        {
+          "user": "Yuppy666",
+          "comment": "私の命の砂時計は酒と女とハイエンド・モビリティに向かってんのか、ということをご理解いただくために云々",
+          "tags": [],
+          "timestamp": "2026/11/04 23:02"
+        },
+        {
+          "user": "hkanemat",
+          "comment": "とある人から「来店の際は貸切で、超綺麗な姉ちゃんを何人も引き連れ、専属のソムリエとワイングラスもすべて持ち込んでいた」という話を聞いたことがある",
+          "tags": [],
+          "timestamp": "2026/11/04 23:01"
+        },
+        {
+          "user": "hituzinosanpo",
+          "comment": "こんな成金キャラいたんだ。",
+          "tags": [],
+          "timestamp": "2026/11/04 22:54"
+        },
+        {
+          "user": "smarple",
+          "comment": "祇園精舎の鐘の声、諸行無常の響きあり",
+          "tags": [],
+          "timestamp": "2026/11/04 22:51"
+        },
+        {
+          "user": "m7g6s",
+          "comment": "普段から絵に描いたような成り金仕草なのな",
+          "tags": [],
+          "timestamp": "2026/11/04 22:48"
+        },
+        {
+          "user": "akiat",
+          "comment": "約10年前に、GMOの受付嬢をされていた方が書いたブログ ⇒ https://marikohashimoto.hatenablog.com/entry/2017/02/27/190904",
+          "tags": [],
+          "timestamp": "2026/11/04 21:48"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:47.649765+00:00"
+    },
+    {
+      "id": "h_d2dd7eb2",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "domain": "zenn.dev",
+      "bookmarkCount": 60,
+      "summary": "はじめに Zennチームのdyoshikawaです。 ZennではAIによるセキュリティチェックの仕組みを急ピッチで構築しました。現在はPull Request（以下PR）ごとのAIレビューに加えて、AIエージェントによる全自動のペネトレーションテストを毎週GitHub Actionsで回しています。 背景は、みなさんもご存知のとおり昨今のサイバー攻...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "comments": [
+        {
+          "user": "misshiki",
+          "comment": "ZennがOpenCode・Docker・GitHub Actionsで週次AIペンテストを自動化。通信先の隔離とAI分類器で操作を制限し、結果は非公開Issueで対応。全体診断の一例は1億超トークンで、OpenCode費用は3.02ドル。",
+          "tags": [
+            "人工知能",
+            "プログラミング",
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/04 22:36"
+        },
+        {
+          "user": "hatebu_admin",
+          "comment": "出社してタイピング数を稼ぐホワイトハッカーに売り込んであげて欲しい",
+          "tags": [],
+          "timestamp": "2026/11/04 18:30"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "AIにペネトレーションテストやらせる時代か、そのうちAI同士でハッキング合戦始まそうだな",
+          "tags": [],
+          "timestamp": "2026/11/04 17:14"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:48.181878+00:00"
+    },
+    {
+      "id": "h_37e9e2a4",
+      "title": "日本語プログラミングフォント「Cyroit」とそのファミリー8種が一斉アップデート／「Inconsolata」＋「Circle M+」＋「BIZ UDゴシック」、コード特有の可読性にも配慮",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2153421.html",
+      "domain": "forest.watch.impress.co.jp",
+      "bookmarkCount": 33,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/forest.watch.impress.co.jp/docs/news/2153421.html",
+      "comments": [
+        {
+          "user": "auto_chan",
+          "comment": "わあいふぉんとだいすき",
+          "tags": [],
+          "timestamp": "2026/11/04 23:01"
+        },
+        {
+          "user": "akiat",
+          "comment": "日本語プログラミング言語かと思った（「GOTO 行番号」は「行番号 ニイケ」） ⇒ https://www.wdic.org/w/TECH/G-BASIC",
+          "tags": [],
+          "timestamp": "2026/11/04 22:22"
+        },
+        {
+          "user": "crexist",
+          "comment": "ワイはもう、Utatane で満足してしまってな",
+          "tags": [],
+          "timestamp": "2026/11/04 21:51"
+        },
+        {
+          "user": "Lamit",
+          "comment": "プログラマーのみんなー！フォント雑談スレだよー！",
+          "tags": [],
+          "timestamp": "2026/11/04 21:21"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "全角と半角の誤字判定機能があるフォントはデバッグで本当に重宝する",
+          "tags": [],
+          "timestamp": "2026/11/04 21:09"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:47.916019+00:00"
+    },
+    {
+      "id": "h_abd8e562",
+      "title": "ドコモ社長、5G基地局がKDDIやソフトバンクより少ない理由を説明",
+      "url": "https://japan.cnet.com/article/35254374/",
+      "domain": "japan.cnet.com",
+      "bookmarkCount": 14,
+      "summary": "NTTドコモの前田義晃社長は11月4日の決算説明会で、同社の5G基地局数が他社（KDDIやソフトバンク）より少ない理由について、通信容量を確保できるサブ6（3.7GHz帯、4.5GHz帯）の整備を優先しているためだと説明した。4Gの周波数を5Gに転用するには、基地局を収容する装置の交換工事が必要だという。また、2026年度の設備...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/japan.cnet.com/article/35254374/",
+      "comments": [
+        {
+          "user": "borrower6074",
+          "comment": "4G周波数転用なんか本物の5Gじゃないと噛み付くのは流石にやめたんすか",
+          "tags": [],
+          "timestamp": "2026/11/04 22:16"
+        },
+        {
+          "user": "gabill",
+          "comment": "3年くらい前のニュースかと思った",
+          "tags": [],
+          "timestamp": "2026/11/04 22:06"
+        },
+        {
+          "user": "brain-box",
+          "comment": "どこら辺が少ない説明になっていたのだろうか。",
+          "tags": [],
+          "timestamp": "2026/11/04 21:45"
+        },
+        {
+          "user": "mangabon",
+          "comment": "さすがに「井伊の頃にケチりまくったから」とは言えないよなー",
+          "tags": [
+            "NTTヲチ"
+          ],
+          "timestamp": "2026/11/04 21:39"
+        }
+      ],
+      "fetchedAt": "2026-11-04T14:10:48.464595+00:00"
     }
   ],
-  "lastCollection": "2026-11-04T05:48:24.516288+00:00"
+  "lastCollection": "2026-11-04T14:10:49.291380+00:00"
 }
