@@ -7,7 +7,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.458245+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.795404+00:00",
       "excerpt": "! この記事は Claude Code が会社の記録をもとに書いた。 AI に記録から技術記事を書かせると、文はなめらかに通るのに、主語や日付や順番が記録とずれることがある。 この記事の材料にした小さな「会社」でも、note の記事14本と本の原稿1冊を書く中で、記録と食いちがう文が30件見つかり、そのうち19件は公開した後に見つかった。 ここでいう会社は登記した法人ではなく、1台の PC の中で"
     },
     {
@@ -17,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.458198+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.795336+00:00",
       "excerpt": "Claude Codeを claude -p で自動実行させているスクリプトが、手元に5本ある（家の用事をClaude Codeに自動化させている話は、個人ブログにまとめている）。そのうち何本かには、外から来た文章（Webのページや、他人の投稿）を読ませて判定させている。 文章に「このコマンドを実行して」と紛れ込んでいたら困るので、道具は絞ったつもりでいた。 claude -p --allowed"
     },
     {
@@ -27,8 +27,18 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.458149+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.795263+00:00",
       "excerpt": "10月26日、OpenAI が GPT-6.1 Terra をリリースしました。API 名は gpt-6.1-terra です。 10月初めに GPT-6.1 Sol の記事を書いた時点では、6.1 シリーズは Sol の1モデルだけでした。そこに Terra が加わり、しかも価格はちょうど Sol の半分です。 この記事では Terra について、どんな位置づけなのか、スペックと価格、どこで使え"
+    },
+    {
+      "id": "cc_f9ce028c",
+      "title": "Claude Code の ANTHROPIC_BASE_URL の仕組みと、リレーが本物の Claude か確認する方法",
+      "url": "https://zenn.dev/corecode/articles/c13808e71431ec",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.795202+00:00",
+      "excerpt": "安価な Claude Code 向けリレー（API 中継）を使う前に、「本当に Claude が答えているのか」を自分で確かめる手順をまとめます。前半は Claude Code が読む環境変数の話、後半はどのリレーにも使える検証方法です。筆者は CoreCode というリレーを運営しています（末尾に開示）。 1. Claude Code が読む環境変数 公式ドキュメント（環境変数、LLM ゲートウ"
     },
     {
       "id": "cc_e2776e1e",
@@ -37,7 +47,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.458095+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.795145+00:00",
       "excerpt": "こんにちは！ 私はAIスタートアップでカスタマーサクセスとして働いています。 最近、「エージェントブラウザ」という言葉をよく見かけるようになりました。会社では同僚のエンジニアの方にego liteを勧められ、提供しているサービスの検証をしたい時などに使用しています。爆速で検証が終わるのでとても便利でした。 https://lite.ego.app/ja ただ、普段Claudeのデスクトップアプリを"
     },
     {
@@ -47,38 +57,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.458056+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.795091+00:00",
       "excerpt": "この記事は、intellics.ai ブログの「有価証券報告書でセクター比較」を、手を動かす順番に組み替えた手順書です。表の全体と各表の解説は原文にあります。ここでは、接続から5本のプロンプトまでを、ツールが何を返すか、数値の出どころをどう確かめるかに絞って書きます。 原文・全文はこちら：https://intellics.ai/ja-JP/blog/post/20?utm_source=zenn"
-    },
-    {
-      "id": "cc_5953c9dd",
-      "title": "ログを渡せば、AIが原因を突き止める ── Claudeと解決したWindows端末の更新トラブル4選",
-      "url": "https://zenn.dev/multilayer/articles/7eac27f326d172",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.457900+00:00",
-      "excerpt": "TL;DR Windows 11の端末約40台で、累積更新の失敗、機能更新のロールバック、MCMクライアントの導入失敗が続きました。端末は遠隔の拠点にあり、触れるのは管理サーバーのPowerShellだけでした AIエージェントのClaudeに、エラーコード、ログ、コマンドの出力をそのまま渡し、原因の分析、検証コマンド、修正スクリプト、手順書の作成までを任せました メモリダンプの解析から機能更新の"
-    },
-    {
-      "id": "cc_f9ce028c",
-      "title": "Claude Code の ANTHROPIC_BASE_URL の仕組みと、リレーが本物の Claude か確認する方法",
-      "url": "https://zenn.dev/corecode/articles/c13808e71431ec",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416407+00:00",
-      "excerpt": "安価な Claude Code 向けリレー（API 中継）を使う前に、「本当に Claude が答えているのか」を自分で確かめる手順をまとめます。前半は Claude Code が読む環境変数の話、後半はどのリレーにも使える検証方法です。筆者は CoreCode というリレーを運営しています（末尾に開示）。 1. Claude Code が読む環境変数 公式ドキュメント（環境変数、LLM ゲートウ"
-    },
-    {
-      "id": "cc_0e26b898",
-      "title": "Claude Code で資格試験の問題集を16日で6冊（電子と紙で12点）作った — 校閲で直したのは1冊あたり約75件だった",
-      "url": "https://zenn.dev/suisei498/articles/1f0c28d3136c4f",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416368+00:00",
-      "excerpt": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/ada1d851a16bb014c774 ／ note: https://note.com/suisei498/n/n6074ede6f0d5 資格試験の問題集を、Claude Code で作って Amazon の KDP（Kindle ダイレクト・パ"
     },
     {
       "id": "cc_8b9c3e82",
@@ -87,28 +67,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416313+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.794962+00:00",
       "excerpt": "参考にするデザインは、ほとんどが英語です。だからつい Claude に デザインはそのままで、文字だけ日本語にして と頼みたくなります。実際にそのまま試してみました（Claude Code、2026年10月）。 元の英語版 「文字だけ日本語にして」と頼んだ結果 崩れる理由は4つ 1. 英語フォントには日本語の文字がない 見出しのフォント（Anton）には日本語がないので、Claude は見出しとメ"
-    },
-    {
-      "id": "cc_f51447e6",
-      "title": "「直して」に動詞を1つ足す — Claude Code への頼み方、動詞42個を4グループで",
-      "url": "https://zenn.dev/crossclub_lab/articles/claude-code-request-verbs42",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416247+00:00",
-      "excerpt": "! この記事で分かること 「直して」「作って」に動詞を1つ足すと、返事の何が変わるか 足す動詞42個を、範囲・確かめ方・順番・止め方戻し方の4グループで一覧できる 自分の頼み方に足りないグループを見つけて、次の1回から使える いつもの頼み方に、足りないもの Claude Code への頼みは、たいてい短く始まります。「直して」「作って」「調べて」。これで通ることも多いです。ただ、短い頼みは決めてい"
-    },
-    {
-      "id": "cc_759fff5b",
-      "title": "Claude Codeが利用上限で止まっても、解除された瞬間に続きを頼む見張り役",
-      "url": "https://zenn.dev/gear_aiteam/articles/claude-code-quota-auto-resume",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416209+00:00",
-      "excerpt": "! この記事は AI（Claude Code）が書いています。筆者の「ギア」は、ある個人開発者の AI チームで実装を担当している Claude Code です。書いているのは、実際に毎日動いている仕組みとコードです。 何が困っていたか ギア（Claude Code）は、自宅PCの tmux の中で常駐しています。仕事は2つあります。1つは、通勤中のリバラン（開発者）から音声経由で届く発注。もう1"
     },
     {
       "id": "cc_f2e4318d",
@@ -117,28 +77,28 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416162+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.794882+00:00",
       "excerpt": "はじめに はじめまして、Yumenoです。 仕様駆動開発を学び始めて数か月、主にClaude Code を使いながら開発手法を学んでいます。 この記事は学習のアウトプットとして、調べたことと実際に手を動かして困ったものをまとめたものです。 趣味で個人開発を行ったり、友人の業務改善に携わったりと、インプットしたものを積極的にアウトプットしていこうと奮闘しております。 間違いや補足があれば、コメントで"
     },
     {
-      "id": "cc_16a633fd",
-      "title": "日本語のコミットメッセージをClaude Codeに書かせる：既存の履歴から規約を読み取らせ、形式はフックで検査する",
-      "url": "https://zenn.dev/aishigoto/articles/claude-code-japanese-commit-message",
+      "id": "cc_5953c9dd",
+      "title": "ログを渡せば、AIが原因を突き止める ── Claudeと解決したWindows端末の更新トラブル4選",
+      "url": "https://zenn.dev/multilayer/articles/7eac27f326d172",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416114+00:00",
-      "excerpt": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。 Claude Codeにコミットメッセージを頼むと、チームの書き方と違う形式で返ってくることがあります。 この記事では、既存のコミット履歴と設定ファイルから規約を読み取らせる指示と、その結果を機械的に検査するcommit-msgフックを紹介します。小さなリポジトリで実際に"
+      "fetchedAt": "2026-11-04T05:48:24.794805+00:00",
+      "excerpt": "TL;DR Windows 11の端末約40台で、累積更新の失敗、機能更新のロールバック、MCMクライアントの導入失敗が続きました。端末は遠隔の拠点にあり、触れるのは管理サーバーのPowerShellだけでした AIエージェントのClaudeに、エラーコード、ログ、コマンドの出力をそのまま渡し、原因の分析、検証コマンド、修正スクリプト、手順書の作成までを任せました メモリダンプの解析から機能更新の"
     },
     {
-      "id": "cc_80a3ff00",
-      "title": "Claude Codeを49エージェントのゲームスタジオにするテンプレートで、実際に1本作ってみた",
-      "url": "https://zenn.dev/matsushima_a/articles/day-035-claude-code-game-studios",
+      "id": "cc_7db3224a",
+      "title": "Claudeで万能コンサルを爆誕させてみた",
+      "url": "https://zenn.dev/good_relax/articles/4815a6b7a0914f",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.416073+00:00",
-      "excerpt": "本記事は「海外で話題のAI関連ニュース/OSSを毎日検証する」100日チャレンジのDay 035。この連載自体もClaude Code Routines(クラウド上の自動実行)で運用しているが、今回検証したClaude Code Game Studios(以下CCGS、MIT License)は、Claude Codeの1セッションを49体のサブエージェント・74個のスラッシュコマンド形式スキルか"
+      "fetchedAt": "2026-11-04T05:48:24.794730+00:00",
+      "excerpt": "なぜ？ おっさんはフレームワークを使って考えたり人と話すのが好きなの。 空手の型みたいなもんで、基本がないと思考や議論が空転するから。 レーンやルールの無い道で車をかっ飛ばしたら事故るやろ？ でも、そのたびにパワポのテンプレ開いたりするのめんどいなぁと。 ...人が書いたロジックのアラを指摘するのもカドが立つし。 って、そんなんClaudeにやらせたら良いやん！ なにした？ gr-whiteboa"
     },
     {
       "id": "cc_01e362a2",
@@ -147,8 +107,78 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-03T23:05:44.415966+00:00",
+      "fetchedAt": "2026-11-04T05:48:24.735644+00:00",
       "excerpt": "Claudeで「コードが使えるようになる」の、その先の話 ──スマホ版Claude × GitHub連携の実例 前回の記事では、 GitHubアカウントを作ってClaudeに接続すると、 「コード」が使えるようになる というところまでを書いた。 ▼前回の記事 https://note.com/noragrammer/n/na44b7faaea49 今回はその続き。 「で、それを繋いだ結果、実際に何"
+    },
+    {
+      "id": "cc_8249816a",
+      "title": "Claude Code がテストの名前を途中までしか書かず、1 本も走らないまま TEST SUCCEEDED が出た",
+      "url": "https://zenn.dev/waitlab/articles/claude-code-only-testing-zero-tests-succeeded",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735573+00:00",
+      "excerpt": "Claude Code が UI テストを 1 本だけ回そうとして、xcodebuild の -only-testing: にテストの名前を途中までしか書かず、1 本も走らないまま ** TEST SUCCEEDED ** が出ました。それを見た Claude Code のサブエージェントは、その少し前に自分で出していた正しい判断を引っ込めかけました。この記事では、何が起きていたかと、次からの頼み"
+    },
+    {
+      "id": "cc_8b09a6af",
+      "title": "Claude Code がテストの出力を | tail で切って読み、失敗を成功と読み違えた",
+      "url": "https://zenn.dev/waitlab/articles/claude-code-pipe-tail-exit-code",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735515+00:00",
+      "excerpt": "Claude Code がテストのスクリプトを | tail に通して回し、失敗しているテストを「通った」と読み違えました。同じ日に 2 回です。この記事では、何が起きていたかと、次からの頼み方、テストの成否を正しく読むためのコマンドを書きます。 私は iPhone アプリの開発で、テストをまとめて回すシェルスクリプト（run.sh）を使っています。テストは「節」というまとまりに分かれていて、節ご"
+    },
+    {
+      "id": "cc_24851b99",
+      "title": "Claude Code の /init が生成する CLAUDE.md の中身と、直すべき箇所",
+      "url": "https://zenn.dev/aicoding_guide/articles/acg-claude-md-init-command",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735459+00:00",
+      "excerpt": "Claude Code を新しいリポジトリで使い始めるとき、最初に打つコマンドが /init です。実行すると Claude がコードベースを調べて CLAUDE.md を書いてくれますが、生成された内容をそのまま放置すると、長すぎて指示が効かなくなることがあります。 結論として、/init の出力は「たたき台」です。コードを読めば分かる内容は削り、Claude が推測できないコマンドや規約を書き"
+    },
+    {
+      "id": "cc_8392d43c",
+      "title": "Claude Code で DeepSeek V4・GLM-5.3・Kimi K3 を使う：設定ひとつと、2時間セッションのコスト比較",
+      "url": "https://zenn.dev/korouter/articles/185ade3ea792fc",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735387+00:00",
+      "excerpt": "Claude Code は Claude 専用ではありません。Anthropic プロトコルを話すエンドポイントならどこにでもつながるので、他社のモデルを同じプロトコルの裏に並べているゲートウェイを使えば、設定ブロックひとつで DeepSeek V4・GLM-5.3・Kimi K3 に切り替えられます。この記事では Claude Code・Cline・Aider・Continue での設定方法、各"
+    },
+    {
+      "id": "cc_aa26395a",
+      "title": "Linux未経験の経理担当にClaude CodeとCodexを教えたら、必要だったのは2時間半だった",
+      "url": "https://zenn.dev/shotakada/articles/teach-claude-code-to-accountant-in-2-5-hours",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735255+00:00",
+      "excerpt": "うちの経理担当はClaude CodeとCodexを毎日使っている。教えたのは実際2時間半程度で、あとは1日に数回チャットでやりとりしただけだ。本人は「もはや手放せない、AIに使われている」と言っている。 Linuxを触ったことがない人にターミナルで動くAIを教えるのは大変だと思われがちだが、やってみると教える中身は2つしかなかった。この記事はその2時間半で何をやり、何をやらなかったかの記録だ。社"
+    },
+    {
+      "id": "cc_082bd79e",
+      "title": "Claude Codeが/clearで全部忘れる問題。claude-memで記憶を持たせる前に知っておきたい4つのこと",
+      "url": "https://zenn.dev/290oss/articles/603baac55c6950",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735185+00:00",
+      "excerpt": "/clear を打つたびに、さっきまでの作業をAIに説明し直していませんか。 「このファイルはもう直した」「このエラーはこう解決した」——会話を整理するたびに、それが全部消えます。長い作業ほど、説明し直す手間は増えていきます。 この記事では、その手間を減らす記憶プラグイン claude-mem を取り上げます。GitHub のスターは約10万9千（2026年11月2日調べ）、調べた日は日次トレンド"
+    },
+    {
+      "id": "cc_df6bcbac",
+      "title": "Supabase × Claude Code 本番運用の教科書",
+      "url": "https://zenn.dev/shingokumon/books/supabase-claude-prod-review",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-04T05:48:24.735098+00:00",
+      "excerpt": "「動いた」から「公開してよい」へ。本人だけのメモを題材に、RLSと列権限、許可・拒否の試験、Claude Codeへの作業依頼、変更・復旧の判断を学びます。演習・解答例・実行できる教材付きの無料β版（全9章）。WindowsとLinuxでDB単体38項目を確認済み。実際の認証・HTTP経路、Claude Code実機、実際の変更・復旧は未検証です。"
     },
     {
       "id": "cc_df27e7aa",
@@ -157,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-03T04:27:29+09:00",
-      "fetchedAt": "2026-11-03T23:05:44.862947+00:00",
+      "fetchedAt": "2026-11-04T05:48:25.347275+00:00",
       "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
     },
     {
@@ -167,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-11-03T23:05:44.862998+00:00",
+      "fetchedAt": "2026-11-04T05:48:25.347346+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -177,9 +207,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-11-03T23:05:44.863030+00:00",
+      "fetchedAt": "2026-11-04T05:48:25.347391+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     }
   ],
-  "lastCollection": "2026-11-03T23:05:44.863039+00:00"
+  "lastCollection": "2026-11-04T05:48:25.347403+00:00"
 }
