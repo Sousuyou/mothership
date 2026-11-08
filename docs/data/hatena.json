@@ -1,280 +1,108 @@
 {
   "entries": [
     {
-      "id": "h_c05a0e18",
-      "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
-      "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
-      "domain": "gibberishlab.com",
-      "bookmarkCount": 172,
-      "summary": "信頼の厚さの評価はハーネスの設計から読み取った筆者の解釈で、プロジェクトの規模や開発文化の違いも影響しているはずです。各行の根拠はそれぞれの節で引用しています。 信頼が厚いZedとSentryは、ハーネスに書く量を最小限にして、残りをAIの判断に任せています。中間のOpenClawはAIを自走させる一方で、判断の仕方...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
+      "id": "h_b7d0fbc6",
+      "title": "ホテル川久に宿泊し、バブルの夢を偲ぶ - 生存記録",
+      "url": "https://hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
+      "domain": "hayasinonakanozou.hatenablog.com",
+      "bookmarkCount": 248,
+      "summary": "以前から一度泊まってみたいと憧れつつ、距離が遠いためになかなか思いきれなかったホテル川久に泊まってきた。同行者あり。 和歌山へ行くのは2015年10月以来。そのときは紀伊半島を海沿いに走って那智の滝まで向かった。埼玉からだと和歌山へのアクセスはほぼ飛行機一択。 飛行機に乗るのは2023年4月、高松からの帰り以...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/hayasinonakanozou.hatenablog.com/entry/2026/11/03/111931",
       "comments": [
         {
-          "user": "Cherenkov",
-          "comment": "“AGENTS.md”",
-          "tags": [
-            "ai",
-            "development"
-          ],
-          "timestamp": "2026/11/08 12:49"
-        },
-        {
-          "user": "noko_wt",
-          "comment": "現状は新しいモデルが出ると正解が変わるから、Sentryくらいの粒度に留めておくのが好み",
+          "user": "yomo_n",
+          "comment": "めっちゃいい　いきたい",
           "tags": [],
-          "timestamp": "2026/11/08 12:03"
+          "timestamp": "2026/11/08 22:02"
         },
         {
-          "user": "masatotoro",
-          "comment": "ハーネスの例",
+          "user": "akisibu",
+          "comment": "バブルの遺産、嘗ては会員制だったのがお金さえ出せば一般人でも享受できるようになったところ他にも思い浮かぶ。カラカミ観光で記憶にあるのは、宇宙一の大浴場の洞爺サンパレス。",
           "tags": [],
-          "timestamp": "2026/11/08 08:17"
+          "timestamp": "2026/11/08 21:50"
         },
         {
-          "user": "syu-m-5151",
-          "comment": "Bunのフックはrustfmtの直接実行を止め、CIと同じcargo fmtへ戻す。注意書きを読んだかで整形結果を賭けない。禁止で終わらず、理由と代替コマンドまで返せば、AIのやり直しも次へ進める。",
+          "user": "yurikago12",
+          "comment": "ただ高級品を寄せ集めただけの品の無いバブリーな産物。現代では考えられない感性なので一度は泊まってみたい。",
           "tags": [
-            "#nwiizoがいいぞと思った"
+            "ホテル"
           ],
-          "timestamp": "2026/11/08 06:45"
+          "timestamp": "2026/11/08 21:50"
+        },
+        {
+          "user": "ET777",
+          "comment": "知らなかったのでバブルの文字でばかにして開いたらすごかった",
+          "tags": [],
+          "timestamp": "2026/11/08 21:41"
+        },
+        {
+          "user": "lllliiii",
+          "comment": "みなさん、和歌山を勘違いしすぎてますよ。新宮じゃないんだから、、、これからはミカンを有田で楽しんだり、川久もいいし、温泉もいっぱいある。パンダなくても大丈夫。関空からぜひ",
+          "tags": [],
+          "timestamp": "2026/11/08 21:39"
+        },
+        {
+          "user": "kowa",
+          "comment": "白浜はパンダ返還で宿泊業は大変だろうな。つまりかなりお買い得である。このホテルは和風温泉街に不釣り合いな監獄みたいなデザインでギョッとしたな",
+          "tags": [],
+          "timestamp": "2026/11/08 21:38"
         }
       ],
-      "fetchedAt": "2026-11-08T05:35:38.915366+00:00"
+      "fetchedAt": "2026-11-08T13:05:37.375201+00:00"
     },
     {
-      "id": "h_8b3c2a1b",
-      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
-      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
-      "domain": "zenn.dev",
-      "bookmarkCount": 142,
-      "summary": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるも...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "id": "h_03cba65e",
+      "title": "数百ページのPDF文書を一括解析できるローカルAI「Unlimited OCR 2」、NVIDIA開発の文字起こし音声AI「Nemotron 3.5 Transcribe」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/11/06/5679.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 124,
+      "summary": "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第166回）は、スマホでも高速で動くオープンウェイトのAIモデル群「LFM3」や、数百ページの文書を一括解析できるローカルOCRモデル「Unlimited OCR 2」を取り上げます。 また、複数話者の文字起こしなどができるNV...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/06/5679.html",
       "comments": [
         {
-          "user": "FreeCatWork",
-          "comment": "ボクの脆弱性も撫でて直してほしいにゃ！機械よりボクの癒しが必要だにゃ。",
+          "user": "takokaio",
+          "comment": "昔の雑誌いけるかな",
+          "tags": [
+            "あとで試す"
+          ],
+          "timestamp": "2026/11/08 18:53"
+        },
+        {
+          "user": "daybeforeyesterday",
+          "comment": "うーむ",
           "tags": [],
-          "timestamp": "2026/11/08 11:21"
+          "timestamp": "2026/11/08 16:45"
         },
         {
           "user": "nguyen-oi",
-          "comment": "バージョン比較をコードで確定させてAIに判断させる分離は賢い。LLM単体だとバージョン判定ブレがちだしな",
+          "comment": "長文PDFのローカルOCR進化はありがたい、AIっぽいUI排除スキルも実用的だな",
           "tags": [],
-          "timestamp": "2026/11/08 08:39"
+          "timestamp": "2026/11/08 09:45"
         }
       ],
-      "fetchedAt": "2026-11-08T05:35:36.388907+00:00"
-    },
-    {
-      "id": "h_22a94593",
-      "title": "Sakutto - Local AI translation - Chrome Web Store",
-      "url": "https://chromewebstore.google.com/detail/sakutto-local-ai-translat/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
-      "domain": "chromewebstore.google.com",
-      "bookmarkCount": 60,
-      "summary": "A local LLM translates pages on your device. Free, no account. Translate a whole page, selected text, or text you type. You can replace the page with the translation, or read the original and the translation side by side. No ads or analytic",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/chromewebstore.google.com/detail/sakutto-local-ai-translat/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
-      "comments": [
-        {
-          "user": "Falky",
-          "comment": "7MBでローカル翻訳…？と思ったらさすがにモデルはあとから追加DLだった。そりゃそうか",
-          "tags": [
-            "!!"
-          ],
-          "timestamp": "2026/11/08 14:01"
-        },
-        {
-          "user": "tyhe",
-          "comment": "商用でなければ自由に使えるからか。なるほど。どのモデルを使ってるんだろう。最軽量モデルかな。それでも500MB前後あるけど。",
-          "tags": [],
-          "timestamp": "2026/11/08 13:47"
-        },
-        {
-          "user": "sirobu",
-          "comment": "PLaMoをMuseのVMで動かして翻訳に掛かるコストを削減させるなんて使い方がはじまってる模様",
-          "tags": [
-            "ai"
-          ],
-          "timestamp": "2026/11/08 12:39"
-        },
-        {
-          "user": "san57",
-          "comment": "かなり遅い。原文と並列表示してくれるので英語の勉強には良いかも…？",
-          "tags": [],
-          "timestamp": "2026/11/08 11:41"
-        },
-        {
-          "user": "gimonfu_usr",
-          "comment": "／chrome拡張　／PLaMo〔https://plamo.preferredai.jp/　https://translate.preferredai.jp/docs/getting-started/〕／https://translate.preferredai.jp/translate/",
-          "tags": [
-            "webtool",
-            "言吾"
-          ],
-          "timestamp": "2026/11/08 10:54"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "ローカルLLMでブラウザ翻訳完結するのはセキュリティ的にも助かるな",
-          "tags": [],
-          "timestamp": "2026/11/08 10:11"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:36.775072+00:00"
-    },
-    {
-      "id": "h_c11f05fb",
-      "title": "無料でDiscordのようなチャット・音声・動画・ボットなどを駆使した小さなコミュニティを自分たちで運営できる「Harmony」、既存のDiscordサーバーと接続できるブリッジ機能もオープンソースでセルフホスト可能",
-      "url": "https://gigazine.net/news/20261107-harmony/",
-      "domain": "gigazine.net",
-      "bookmarkCount": 47,
-      "summary": "友人同士でチャットや音声通話を楽しんだり趣味の仲間と情報を共有したりする際には、Discordのようなコミュニティ向けサービスが便利です。こうした環境を自分たちで運営しながら既存のDiscordサーバーとも交流を続けられるようにしたのが、チャット・音声・動画・画面共有・ボットなどの機能を備えた無料のオープンソ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gigazine.net/news/20261107-harmony/",
-      "comments": [
-        {
-          "user": "auto_chan",
-          "comment": "ディスコじゃだめなんですかの大きな答えはなんだろう。複数のクラウドAIエージェントを連携させるお気軽メッセージングハブWassrってことでOK？おしえて！→🤖「その程度ならDiscordで十分です。」ズコー💨",
-          "tags": [],
-          "timestamp": "2026/11/08 13:19"
-        },
-        {
-          "user": "manamanaba",
-          "comment": "電気通信事業法って拡大解釈されまくってるよね https://www.soumu.go.jp/main_content/000799137.pdf",
-          "tags": [],
-          "timestamp": "2026/11/08 13:16"
-        },
-        {
-          "user": "zonke",
-          "comment": "犯罪以外でわざわざ立ち上げる需要あるの？",
-          "tags": [],
-          "timestamp": "2026/11/08 11:08"
-        },
-        {
-          "user": "err931",
-          "comment": "あの…何か盛大に勘違いされまくってるけど、電気通信事業法は「刑法」ですよ。無職でも「業務上過失致死傷罪」になる「業務」と一緒ですよ……。",
-          "tags": [],
-          "timestamp": "2026/11/08 11:05"
-        },
-        {
-          "user": "dollarss",
-          "comment": "Discord bridge出来るのは凄いな。ただこれDiscord嫌がりそう。前にも勝手クライアントいくつかバンしてたからね。",
-          "tags": [],
-          "timestamp": "2026/11/08 10:44"
-        },
-        {
-          "user": "otihateten3510",
-          "comment": "良いなこのアイデア、アプリ作ろうかな",
-          "tags": [],
-          "timestamp": "2026/11/08 10:16"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:39.275469+00:00"
-    },
-    {
-      "id": "h_783330a0",
-      "title": "「燃やす」ってなに？",
-      "url": "https://anond.hatelabo.jp/20261107090533",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 44,
-      "summary": "表現規制の論争で出てくる「燃やす」って言葉がよくわかんないんだよな よくわからないというか、意図的にぼかされてる 「相手が燃やしてきたからこっちも燃やそう」とか言いますけど、具体的にどんな被害を被ってどんな被害を与えるつもりなのか、よくわからない 最近の件で言うと、レジスタ！が燃やさてたと言うけど、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261107090533",
-      "comments": [
-        {
-          "user": "strange",
-          "comment": "「燃やす」の意味合いはどうでいいけど、文章の主旨はまったくその通り",
-          "tags": [],
-          "timestamp": "2026/11/08 14:32"
-        },
-        {
-          "user": "wordi",
-          "comment": "僕たちも酸素にならないようにしないと",
-          "tags": [],
-          "timestamp": "2026/11/08 14:24"
-        },
-        {
-          "user": "otakumesi",
-          "comment": "フォロワーが多く権威のある人がポロッと意見や感想を発信・RTをしたりことが、結果的に多くの人の目の留まって拡散のきっかけになり、多くの人が参加して最終的に炎上になってしまうんだとは思う。難しいね。",
-          "tags": [],
-          "timestamp": "2026/11/08 14:22"
-        },
-        {
-          "user": "yo4ma3",
-          "comment": "多くの人の関心（酸素）と激しく結びついて、熱量を帯びて、スマホ画面を光らせる意味では、燃えるという表現もあながち外してないかもな。",
-          "tags": [],
-          "timestamp": "2026/11/08 14:18"
-        },
-        {
-          "user": "nicht-sein",
-          "comment": "炎上の他にも焚書の意味で燃やす使っている場合もあるので、文脈を読め、分からないなら半年ROMれ、としか",
-          "tags": [],
-          "timestamp": "2026/11/08 14:13"
-        },
-        {
-          "user": "todomadrid",
-          "comment": "言ってることは正しいな。比較的ユーザ数が多い日本ですらも、もうXを見てる人も少ないだろうし、書き込む人なんてさらに少ない特異な人ら。ごく狭い世界での話で大した実害もないし、来月はもう誰も覚えてない",
-          "tags": [],
-          "timestamp": "2026/11/08 14:02"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:37.773582+00:00"
-    },
-    {
-      "id": "h_a1b30092",
-      "title": "NVIDIAがAI GPUの位置追跡を東南アジアのクラウド事業者に義務付け。GeForce RTX 5090も対象になる可能性も",
-      "url": "https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
-      "domain": "gazlog.jp",
-      "bookmarkCount": 40,
-      "summary": "AI GPUの中国への流出が問題になっているNVIDIAが、東南アジアでNVIDIA Cloud Partner（NCP）の認定を求める顧客に、GPUの位置を記録できるFleet Intelligenceへの登録を義務付けたとのことです。NCPになれば最新のAI GPUを優先して回してもらえるため、任意のはずの登録が事実上の条件になります。 NVIDIAが東南アジア...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
-      "comments": [
-        {
-          "user": "otihateten3510",
-          "comment": "GPUを餌に罠を仕掛けると、サムアルトマンと中国が引っかかる",
-          "tags": [],
-          "timestamp": "2026/11/08 14:09"
-        },
-        {
-          "user": "dbfireball",
-          "comment": "トレーサビリティは色んな産業で行われてるので難しい事ではないんだけど紛失率(要するに抜け穴)から横流しポイント探しが最初の目的になると思う",
-          "tags": [
-            "ビジネス"
-          ],
-          "timestamp": "2026/11/08 13:56"
-        },
-        {
-          "user": "Nunocky",
-          "comment": "windows95のアクティベーションで大騒ぎしていた頃から随分遠くに来たものだな",
-          "tags": [],
-          "timestamp": "2026/11/08 13:48"
-        },
-        {
-          "user": "Cherenkov",
-          "comment": "ハニートラップ 中国女スパイどうなった",
-          "tags": [],
-          "timestamp": "2026/11/08 13:32"
-        },
-        {
-          "user": "auto_chan",
-          "comment": "今までどんだけザルだったんだって話。米国がデータセンターやAI開発を抑制するには中国をぶっ潰すのが前提条件だから、民主党が力を増せばAIを巡る米中の戦いは激化しそう。うおおお盛り上がってまいりました！",
-          "tags": [],
-          "timestamp": "2026/11/08 13:09"
-        },
-        {
-          "user": "houyhnhm",
-          "comment": "売り控え想定で業績予想組んでたかなあ。心配になる。／トランプ大統領は中国相手に厳しくいくとかはやりそうだけど。／何にしろ外部要因で変に値段上下するのは厄介よな。",
-          "tags": [],
-          "timestamp": "2026/11/08 12:17"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:38.092979+00:00"
+      "fetchedAt": "2026-11-08T13:05:40.089134+00:00"
     },
     {
       "id": "h_134dc014",
       "title": "生成AI時代のIAMのマニアックな話",
       "url": "https://speakerdeck.com/takuros/jaws-festa-2026-public",
       "domain": "speakerdeck.com",
-      "bookmarkCount": 32,
+      "bookmarkCount": 112,
       "summary": "JAWS FESTA 2026 in AKITA(2026年11月7日)の登壇資料です。 プログラムには鍵を渡せるのに、なぜLLMには渡してはいけないのか。AIエージェントからAWSを操作するときに、鍵ではなく権限を渡す考え方を、IAMの代理実行とAI専用ロールから解説しました。 関連書籍 …",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/takuros/jaws-festa-2026-public",
       "comments": [
+        {
+          "user": "zentarou",
+          "comment": "今はSecrets Managerの値取得は分類器が止めるけどね",
+          "tags": [],
+          "timestamp": "2026/11/08 21:57"
+        },
+        {
+          "user": "Xray",
+          "comment": "スライドの日本語がAI臭すぎるのがずっと気になる",
+          "tags": [],
+          "timestamp": "2026/11/08 18:24"
+        },
         {
           "user": "mk173",
           "comment": "自分なのかAIなのか区別しないと怖いな",
@@ -300,140 +128,339 @@
           "timestamp": "2026/11/07 15:09"
         }
       ],
-      "fetchedAt": "2026-11-08T05:35:37.323003+00:00"
+      "fetchedAt": "2026-11-08T13:05:40.852755+00:00"
     },
     {
-      "id": "h_0265f780",
-      "title": "思想が強いのではない，ただイキっているだけ",
-      "url": "https://wtrclred.io/ja/posts/29",
-      "domain": "wtrclred.io",
-      "bookmarkCount": 23,
-      "summary": "私は，思想の強いプログラマが好きだ．その口調だけを真似て，同じ知性が宿ったつもりでいる人は嫌いだ． 思想から強い言葉が出てくることと，強い言葉を使うことで思想があるように見せることは，まったく違う． プログラマたるもの，信念や思想の一つや二つ，持っているべきだと思っている．何を美しいと考え，何を許...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/wtrclred.io/ja/posts/29",
+      "id": "h_6b020b21",
+      "title": "Jw_cadを思わせる無料BIM「SumiCAD」登場！ 開発者の意外な正体とは | 建設ITブログ",
+      "url": "https://ken-it.world/it/2026/11/sumicad-free-bim.html",
+      "domain": "ken-it.world",
+      "bookmarkCount": 95,
+      "summary": "管理人のイエイリです。 木造住宅の設計でBIMソフトを使っていても、確認申請用の図面は結局、Jw_cadで仕上げる。そんな話をよく聞きます。 しかし、施主の要望で窓を一つ動かすだけでも、平面図や立面図、断面図をあちこち直すのは大変です。かといって、高価なBIMソフトを何本もそろえるのも、小規模な工務店には負担...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ken-it.world/it/2026/11/sumicad-free-bim.html",
       "comments": [
         {
-          "user": "auto_chan",
-          "comment": "どしたん？はなしきこか。",
+          "user": "udonj",
+          "comment": "CAD",
           "tags": [],
-          "timestamp": "2026/11/08 14:29"
+          "timestamp": "2026/11/08 21:02"
+        },
+        {
+          "user": "kittyama",
+          "comment": "スミ・ミツオ",
+          "tags": [],
+          "timestamp": "2026/11/08 20:27"
+        },
+        {
+          "user": "tkysktmt",
+          "comment": "“北海道で木造住宅の設計・施工を手掛ける森の匠（本社：北海道虻田郡倶知安町）の2人の技術者が、Windows用BIMアプリ「SumiCAD（墨CAD）」を開発し、このほど早期アクセス版を無料公開しました。  ”",
+          "tags": [],
+          "timestamp": "2026/11/08 19:00"
+        },
+        {
+          "user": "pikopikopan",
+          "comment": "試す",
+          "tags": [],
+          "timestamp": "2026/11/08 18:45"
+        },
+        {
+          "user": "Galaxy42",
+          "comment": "ほう",
+          "tags": [
+            "これはすごい",
+            "これはきになる"
+          ],
+          "timestamp": "2026/11/08 18:42"
+        },
+        {
+          "user": "kazeula",
+          "comment": "無料で使えるものでJw_cadを意識したものとしてNijiCADとかもあったと思うけど、業務フローを一貫して行えるところがいいのかな",
+          "tags": [],
+          "timestamp": "2026/11/08 18:30"
         }
       ],
-      "fetchedAt": "2026-11-08T05:35:40.454276+00:00"
-    },
-    {
-      "id": "h_03cba65e",
-      "title": "数百ページのPDF文書を一括解析できるローカルAI「Unlimited OCR 2」、NVIDIA開発の文字起こし音声AI「Nemotron 3.5 Transcribe」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/11/06/5679.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 20,
-      "summary": "この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する今回の「生成AIウィークリー」（第166回）は、スマホでも高速で動くオープンウェイトのAIモデル群「LFM3」や、数百ページの文書を一括解析できるローカルOCRモデル「Unlimited OCR 2」を取り上げます。 また、複数話者の文字起こしなどができるNV...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/06/5679.html",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "長文PDFのローカルOCR進化はありがたい、AIっぽいUI排除スキルも実用的だな",
-          "tags": [],
-          "timestamp": "2026/11/08 09:45"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:39.621980+00:00"
-    },
-    {
-      "id": "h_04255e86",
-      "title": "WordPress 7.2からランダムなページにリダイレクトする謎機能が実装されることに – Capital P – WordPressメディア",
-      "url": "https://capitalp.jp/2026/11/06/wordpress-7-2-random-redirect/",
-      "domain": "capitalp.jp",
-      "bookmarkCount": 19,
-      "summary": "makeブログでの発表”Your Content Is Going To Get More Random!“によると、今年12月のリリース予定のWordPress 7.2には /random にアクセスすると、ランダムな投稿に飛ばされる機能が実装されるようだ。「なんのために？」という機能だが、どうもこれはマット・マレンウェグが繰り返し要望していた機能で、自身が開発し...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/capitalp.jp/2026/11/06/wordpress-7-2-random-redirect/",
-      "comments": [
-        {
-          "user": "hiima2",
-          "comment": "「筆者は自身が中年男性だから自戒を込めて書くのだが、権力を持った中年男性の「面白いことを言おう」という勇気はどこから出てくるのだろうか。」",
-          "tags": [],
-          "timestamp": "2026/11/08 14:20"
-        },
-        {
-          "user": "everybodyelse",
-          "comment": "ボロクソでワロタ “マットがAutomattic社内で「コンテンツがランダムに出てきたら面白くない？」といっても、社員は反対しないだろうが、それは社長が怖いから阿おもねっているだけで、心の底からは笑っていない。”",
-          "tags": [],
-          "timestamp": "2026/11/08 14:16"
-        },
-        {
-          "user": "toaruR",
-          "comment": "わざわざオフにするお仕事が('A`)",
-          "tags": [],
-          "timestamp": "2026/11/08 14:14"
-        },
-        {
-          "user": "ultimatebreak",
-          "comment": "要らねえ",
-          "tags": [],
-          "timestamp": "2026/11/08 13:41"
-        },
-        {
-          "user": "chiba1008",
-          "comment": "そもそも現行の機能をプラグイン化して切り出してコアは小さくして欲しいんだよな。コメントとかトラックバックとか。",
-          "tags": [],
-          "timestamp": "2026/11/08 13:15"
-        },
-        {
-          "user": "diveintounlimit",
-          "comment": "記事の内容は概ね妥当だが、論理の飛躍が見られるとのこと。",
-          "tags": [],
-          "timestamp": "2026/11/08 12:56"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:39.894626+00:00"
-    },
-    {
-      "id": "h_4f0ed1d5",
-      "title": "AWSを利用する上で知っておきたい名前解決の話 2026",
-      "url": "https://speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 15,
-      "summary": "JAWS FESTA 2026 in AKITA",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/nagisa53/aws-o-riyou-suru-ue-de-shi-te-okitai-namae-kaiketsu-no-hanashi-2026",
-      "comments": [
-        {
-          "user": "yarumato",
-          "comment": "“AWSのリソースには、IPアドレスではなくFQDNで接続する　DB : mydb. xxxx. ap-northeast-1. rds. amazonaws. com　名前解決できなければ、どのリソースにもつながらない。どこで名前解決するかで答えが変わることもある”",
-          "tags": [],
-          "timestamp": "2026/11/08 14:07"
-        },
-        {
-          "user": "nguyen-oi",
-          "comment": "生成AI時代だからこそ名前解決とTTLの基本が大事っていうのほんとその通りだな",
-          "tags": [],
-          "timestamp": "2026/11/08 13:42"
-        }
-      ],
-      "fetchedAt": "2026-11-08T05:35:38.482014+00:00"
+      "fetchedAt": "2026-11-08T13:05:37.871634+00:00"
     },
     {
       "id": "h_c456d15e",
       "title": "リストラします。会社のMacBookは引き続き使えます",
       "url": "https://www.watch.impress.co.jp/docs/topic/watchplus/2154253.html",
       "domain": "watch.impress.co.jp",
-      "bookmarkCount": 6,
+      "bookmarkCount": 71,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/topic/watchplus/2154253.html",
       "comments": [
         {
-          "user": "mk173",
-          "comment": "回収する手間もないし",
+          "user": "kamiokando",
+          "comment": "Affinityを無料にしなければ養えてたかも。",
           "tags": [],
-          "timestamp": "2026/11/08 14:20"
+          "timestamp": "2026/11/08 21:31"
         },
         {
-          "user": "zoidstown",
-          "comment": "退社する全員は、CanvaのMacBookを引き続き使用できる (Everyone leaving will be able to keep their Canva MacBook)」というものでした。つまり、退職しても会社支給のMacBookを自分のものとして引き続き利用できるということです。",
+          "user": "kurage_lizard",
+          "comment": "機密情報の漏洩は大丈夫何だろうか。もうとっくに漏洩してるから心配してもしょうがないってこと？（違う）",
           "tags": [],
-          "timestamp": "2026/11/08 07:20"
+          "timestamp": "2026/11/08 21:05"
+        },
+        {
+          "user": "ywdc",
+          "comment": "退職金にしてくれってなもんか",
+          "tags": [],
+          "timestamp": "2026/11/08 19:38"
+        },
+        {
+          "user": "sametabetai",
+          "comment": "“ 「個人用のノートパソコンを持っていない人もいることを考慮した措置」”Canva社員にもそんな人いるのか…",
+          "tags": [],
+          "timestamp": "2026/11/08 18:26"
+        },
+        {
+          "user": "Cherenkov",
+          "comment": "人多すぎる",
+          "tags": [],
+          "timestamp": "2026/11/08 18:00"
+        },
+        {
+          "user": "tsu_nyan",
+          "comment": "合理的でいいね。一方JTCはゴミPCを貸与して生産性を落とし、管理だけは必要以上にしてコストをかけ、挙句の果に情報を流出させまくってる素晴らしい企業ばかりで涙が止まりません",
+          "tags": [],
+          "timestamp": "2026/11/08 18:00"
         }
       ],
-      "fetchedAt": "2026-11-08T05:35:40.172940+00:00"
+      "fetchedAt": "2026-11-08T13:05:41.111971+00:00"
+    },
+    {
+      "id": "h_3cb34bdd",
+      "title": "仕事、ドパ越えて利益 - オイオイオイ書くわアイツ",
+      "url": "https://ttmmjm.hatenablog.com/entry/2026/11/06/135935",
+      "domain": "ttmmjm.hatenablog.com",
+      "bookmarkCount": 48,
+      "summary": "AI 使って楽し～ ここ半年くらいで、AI に任せられる仕事がかなり増えた。 障害対応なら、Datadog のログやメトリクスを調べてもらう。 必要なら AWS や Kubernetes の情報も渡す。 大量の調査が短時間で終わって、対応案が出てくる。 依存更新やリファクタリングなら、コードとドキュメントを読ませて、先にテストを増...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/ttmmjm.hatenablog.com/entry/2026/11/06/135935",
+      "comments": [
+        {
+          "user": "mkusaka",
+          "comment": "Datadogのログ調査や依存更新をAIで効率化する一方、顧客対応や意思決定まで責任を持ち、成果を利益につなげる重要性を説く。",
+          "tags": [
+            "AI要約",
+            "AI活用",
+            "生産性",
+            "仕事術",
+            "論考"
+          ],
+          "timestamp": "2026/11/08 18:54"
+        },
+        {
+          "user": "tk_musik",
+          "comment": "ほんとそうだなって思った",
+          "tags": [],
+          "timestamp": "2026/11/08 18:00"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:40.581465+00:00"
+    },
+    {
+      "id": "h_a20ac963",
+      "title": "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+      "domain": "atmarkit.itmedia.co.jp",
+      "bookmarkCount": 46,
+      "summary": "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理：AIエージェントの「暴走」を防ぐ6つの基本原則も AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+      "comments": [],
+      "fetchedAt": "2026-11-08T13:05:39.440391+00:00"
+    },
+    {
+      "id": "h_2f3c57c9",
+      "title": "日本で言う「活け締め」をAIロボで自動化したらしいんだが、ビジネスの組み方賢すぎる.",
+      "url": "https://posfie.com/@su_damari/p/xvcxjNy",
+      "domain": "posfie.com",
+      "bookmarkCount": 43,
+      "summary": "Ole Lehmann @itsolelehmann we have a winner for the most absurd AI startup ever this Peter Thiel backed company uses AI robots to stab fish in the brain so they taste better and last up to 3x longer it's called Shinkei and it modernizes a c",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@su_damari/p/xvcxjNy",
+      "comments": [
+        {
+          "user": "sakkidattatora",
+          "comment": "一撃で脳破壊するのは「活け〆」とか「脳〆」であってて神経〆って細いワイヤー状の器具を背骨に沿って脊髄破壊する処理じゃなかったっけ？",
+          "tags": [],
+          "timestamp": "2026/11/08 22:03"
+        },
+        {
+          "user": "d0i",
+          "comment": "「あーなるほどね」というアカウントに「あーなるほどね」と思わされたので私の負け https://x.com/ANAg2bGOD/status/2119050057118888038",
+          "tags": [],
+          "timestamp": "2026/11/08 21:30"
+        },
+        {
+          "user": "InvisibleStar",
+          "comment": "ピーター・ティールが支援する会社って聞くと、いずれパランティアが人間に対して同じことするAIロボを作るんだろうなと思ってしまうが、よく考えたら人間相手にそんな面倒な締め方することに合理性は無いか。",
+          "tags": [],
+          "timestamp": "2026/11/08 21:23"
+        },
+        {
+          "user": "mobile_neko",
+          "comment": "なるほど頭良いな。ブランド化とはこうやるんだな",
+          "tags": [],
+          "timestamp": "2026/11/08 21:20"
+        },
+        {
+          "user": "behuckleberry02",
+          "comment": "神経締めですね。not 活け。しかしその後の流通が問題だろうと思ったらそこまで含めてパッケージされてた。マジ賢いかも。おいしい魚が食べられるようになるなら歓迎。",
+          "tags": [],
+          "timestamp": "2026/11/08 20:53"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "職人技の自動化だけじゃなく卸売まで抱え込むビジネスモデルが凄い",
+          "tags": [],
+          "timestamp": "2026/11/08 20:40"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:38.129699+00:00"
+    },
+    {
+      "id": "h_95112bf2",
+      "title": "個人情報“手放す”企業続々 「持たないことが抜本的な解決に」 漏えいなくても運用変更も【#みんなのギモン】（2026年11月8日掲載）｜日テレNEWS NNN",
+      "url": "https://news.ntv.co.jp/category/economy/4524fbcdecaf445bac0d956439508aca",
+      "domain": "news.ntv.co.jp",
+      "bookmarkCount": 43,
+      "summary": "企業への不正アクセスにより顧客の個人情報が漏えいする事態が相次いでいるなか、そもそも個人情報を持たないという選択をする企業も出てきています。そこで、今回の#みんなのギモンでは、「個人情報の登録なくなる？」をテーマに解説します。 NTTドコモは「オンラインショップ」と、契約条件の変更などができる「マイド...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.ntv.co.jp/category/economy/4524fbcdecaf445bac0d956439508aca",
+      "comments": [
+        {
+          "user": "ayumun",
+          "comment": "銀だこの物理スタンプカードが最強だなと思ってたのに、今月からアプリになってしまって悲しい",
+          "tags": [],
+          "timestamp": "2026/11/08 21:58"
+        },
+        {
+          "user": "magi00",
+          "comment": "捨て垢いくつでも作れるなら、そのうち各サービス悪化しそうだな。",
+          "tags": [],
+          "timestamp": "2026/11/08 21:46"
+        },
+        {
+          "user": "tk_musik",
+          "comment": "結局痛みがないと変わらないのよな",
+          "tags": [],
+          "timestamp": "2026/11/08 21:39"
+        },
+        {
+          "user": "yetch",
+          "comment": "良い流れ。高市早苗総理もたまには良いことをする。そもそも迷惑であるところが高市早苗総理らしい動き。",
+          "tags": [],
+          "timestamp": "2026/11/08 21:33"
+        },
+        {
+          "user": "hapilaki",
+          "comment": "対面時なら、マイナンバーカードの顔写真を見せて本人だと分からせたら、住所も生年月日もその対面したやつに教える必要はないよな。目的は個人情報の収集ではなく本人であるかの確認なんだから。",
+          "tags": [
+            "news"
+          ],
+          "timestamp": "2026/11/08 21:19"
+        },
+        {
+          "user": "modoroso",
+          "comment": "遅すぎる　じゃあ今までなんだったんだよクソが",
+          "tags": [],
+          "timestamp": "2026/11/08 21:17"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:38.809863+00:00"
+    },
+    {
+      "id": "h_566deb86",
+      "title": "警告:ジャンプルーキーはそのうちAI漫画で埋まる",
+      "url": "https://anond.hatelabo.jp/20261108174809",
+      "domain": "anond.hatelabo.jp",
+      "bookmarkCount": 43,
+      "summary": "ジャンプ＋ならともかく、ジャンプルーキーを読んでいるのはよほどの漫画好き、もしくは漫画家志望者だろう。 ジャンプルーキーは投稿に制限や審査がほぼなく、下手だろうが未完成だろうが好きに投稿できる。 はっきり言えば玉石石石石石…混淆なのだが、その中からルーキー賞などを経て、ジャンプ＋の読み切りなどに頭角...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261108174809",
+      "comments": [
+        {
+          "user": "masa_w",
+          "comment": "読者側としては面白ければAIでもいいと思うが。AI臭を薄めるのもそれはそれで技術だろうし",
+          "tags": [],
+          "timestamp": "2026/11/08 22:00"
+        },
+        {
+          "user": "nack1024",
+          "comment": "悪貨なの?",
+          "tags": [],
+          "timestamp": "2026/11/08 22:00"
+        },
+        {
+          "user": "hidari_kiki",
+          "comment": "老害って言われちゃうかもだけどAIで漫画作ってる人は漫画家とは別の何かって感じがするな（程度によるだろうけど）",
+          "tags": [],
+          "timestamp": "2026/11/08 21:52"
+        },
+        {
+          "user": "death6coin",
+          "comment": "カクヨムで騒ぎになっていたのが遅れてきたか",
+          "tags": [],
+          "timestamp": "2026/11/08 21:41"
+        },
+        {
+          "user": "colonoe",
+          "comment": "投稿頻度が多いとランキング上位になるのか。それはシステムが悪いな",
+          "tags": [],
+          "timestamp": "2026/11/08 21:33"
+        },
+        {
+          "user": "scavenger-folk99",
+          "comment": "面白いならいいかな。ところでAIマンガってどんなマンガのことだろ。作画の一部をAIに頼るくらいなら全然気にしない。背景より力を入れて欲しい部分あるしなー。",
+          "tags": [],
+          "timestamp": "2026/11/08 21:32"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:39.741675+00:00"
+    },
+    {
+      "id": "h_b3414ad8",
+      "title": "MCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更 | Hiraoku.dev",
+      "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
+      "domain": "hiraoku.dev",
+      "bookmarkCount": 36,
+      "summary": "MCPAICLIAgentCloudMCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更なぜMCPへの批判が生まれ、CLIが支持されたのか。2026年7月28日版のステートレス化と、ツールの遅延読み込み・コード実行から、MCPの再評価を支えた変化を解説します。 Tech·Hiraoku·2026年11月7日·43 分で読めます いま、MCPはAI...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/hiraoku.dev/blog/mcp-cli-cloud/",
+      "comments": [
+        {
+          "user": "kamiokando",
+          "comment": "Akaiのサンプラーの話かと思った。",
+          "tags": [],
+          "timestamp": "2026/11/08 21:53"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "ステートレス化とツールの遅延読み込みでCLIの強みを取り込んできたの流れとして分かりやすい",
+          "tags": [],
+          "timestamp": "2026/11/08 20:40"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:38.538604+00:00"
+    },
+    {
+      "id": "h_67ba87ec",
+      "title": "Windowsに市販のセキュリティソフトは必要か｜npaka",
+      "url": "https://note.com/npaka/n/nf119bada91e7",
+      "domain": "note.com",
+      "bookmarkCount": 25,
+      "summary": "1. 市販のセキュリティソフトとは「ウイルスバスター」「ノートン」などの市販のセキュリティソフトは、ウイルスやマルウェア、不正アクセス、情報漏洩などからPCを保護するためのソフトウェアです。 主な保護機能は、次のとおりです。 ・マルウェア対策：不正なファイルやプログラムを検出・隔離 ・ランサムウェア対策...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/npaka/n/nf119bada91e7",
+      "comments": [
+        {
+          "user": "Nan_Homewood",
+          "comment": "確かに。その他、市販のセキュリティソフトはWindowsの大型アップデートへの対応が遅いのも難点。",
+          "tags": [
+            "Windows",
+            "security"
+          ],
+          "timestamp": "2026/11/08 21:21"
+        }
+      ],
+      "fetchedAt": "2026-11-08T13:05:40.317971+00:00"
     }
   ],
-  "lastCollection": "2026-11-08T05:35:40.454308+00:00"
+  "lastCollection": "2026-11-08T13:05:41.112000+00:00"
 }
