@@ -1,33 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_71c4ac2d",
-      "title": "Amazon Bedrockのバッチ推論をClaude Opus 5で試す",
-      "url": "https://zenn.dev/smori/articles/bedrock-batch-inference-handson",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918504+00:00",
-      "excerpt": "はじめに BedrockにおけるAnthropic社のモデルはOpus 4.6でバッチ推論がサポートされていましたが、Opus 4.7とOpus 4.8では未サポートでした。 その後、Opus 5で再びサポートされたものの、最新のOpus 5.5では未サポートです。つまりバッチ推論のサポートは、世代ごとに途切れたり復活したりしています。 本記事では将来的にサポートされた時にもすぐ使えるよう、Opu"
-    },
-    {
-      "id": "cc_8c72d927",
-      "title": "Claude の推奨にそのまま乗る前に、反対意見入りの返事を書いてくれるボタンを作った【三人寄れば文殊の知恵】",
-      "url": "https://zenn.dev/yando/articles/bb54e3351c9512",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918443+00:00",
-      "excerpt": "Claude Code の入力欄のすぐ上に monju ボタンを置く mod を作って公開しました。押すと、Claude(Opus 5.5)が第三者の目でやり取りを読み、一番強い反対意見を軸にした「人がそのまま送れる返事」の下書きを入力欄に足します。人はそれを読んで直してから送ります。 押さなければ何も出ず、モデルも呼びません。名前は「三人寄れば文殊の知恵」から取りました。人と Claude の2"
-    },
-    {
       "id": "cc_8726698e",
       "title": "CodeRabbit の再レビューを Fable に任せる、Claude Code のスキルを作った",
       "url": "https://zenn.dev/sk8jp/articles/40fa8d6f466924",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918365+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.859033+00:00",
       "excerpt": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」と、その後日談「「クラウドに移したい」と相談したら、Claude Code に止められた話」で、CodeRabbit へのレビューの依頼を、Claude Code のスキルで順番に並べて出していると書きました。 この記事は、その続きです。プランを上げても CodeRabbit のレビュ"
     },
     {
@@ -37,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918297+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858965+00:00",
       "excerpt": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 2026年11月4日（シンガポール時間）、EveryInfra APIを使ってニューヨークのKatz's Delicatessenの新着レビューを読み取りました。対象はGoogle Maps、Yelp、Tripadvisorです。主な発見は「新着」の扱いに関するものです。最新N件のレビューがカバーする期間は、サイトご"
     },
     {
@@ -47,7 +27,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918196+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858864+00:00",
       "excerpt": "Oikonです。 気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 Claude Code実践入門 [生成AI深掘りガイド]（SBクリエイティブ） Claude Code実践レシピ集（技術評論社） 新刊のClaude Code実践レシピ集は、個人的に好きなClaude CodeのTipsをベースに、割と好き勝手に書かせ"
     },
     {
@@ -57,7 +37,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918123+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858803+00:00",
       "excerpt": "Claude Desktopに Sysmac Studio 向けのSTを書かせるとき、自分は状態遷移の組み方をスキルに書いている。状態番号の振り方とCASE文の骨組みは #11 のひな形に入れ、FBの呼び出し方とリセットのブロックは #3 と #18 で書いた。 この記事では、同じスキルのうち、まだ書いていない細かい規則を扱う。 処理の途中で Execute が落ちたときに待機へ戻す分岐 状態番号"
     },
     {
@@ -67,18 +47,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.918037+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858734+00:00",
       "excerpt": "利用規約違反でも違法でもない内容について勝手にコードやファイルを書き換えるな つまり以下のようなケースで人間側の要求を拒否するケースがあるということ https://x.com/aloneIsland45/status/2119201520013246494?a=VpCk2GcxVqjLVDHvo18&s=19 拒否するだけならまだ良いが、ファイルの削除、既存のプログラムに対する破壊工作（「未成年"
-    },
-    {
-      "id": "cc_c9e0e10b",
-      "title": "ゴールドマン、Claude Codeを技術者だけに絞る",
-      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261109",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.852764+00:00",
-      "excerpt": "2026年11月9日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は考えさせられる話が多いんですよ。アメリカの大手銀行がAIの道具を使える人を絞った話、OpenAIの資金集めの続報、AI音楽サービスへの新しい訴え、コクヨがAIで資料探しを片付けた話、そしてGPUなしで巨大なAIが動くという公開。僕が毎朝自分の仕組みで集めて読んでいるニュースから、経営者の"
     },
     {
       "id": "cc_49731fb6",
@@ -87,28 +57,8 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.852635+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858649+00:00",
       "excerpt": "11月9日に Claude Fable 5.2 が出ました。単価は 5.1 より2割安く、公式の発表では出力が最大30%速い、とあります。おじさんのふだんの Claude Code も、11月10日にはもう 5.2 に替わっていました。 では、同じ依頼を出したら本当に安く、速くなるのか。翌日の11月10日に、5.1 と 5.2 に同じ依頼を33回出して、トークン数・時間・表示額を並べてみました。 "
-    },
-    {
-      "id": "cc_926c1dd9",
-      "title": "Claude Code 社内導入キット：申請書・回答表・管理設定・確認スクリプト",
-      "url": "https://zenn.dev/acerola_jp/books/claude-code-adoption-kit",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.852484+00:00",
-      "excerpt": "Claude Code を会社やチームに入れる担当者が、社内の申請と説明にそのまま使える書類と設定の一式です。情シス・セキュリティ担当に出す回答表（限界の列つき）、導入申請書（稟議）の雛形、試験利用→チーム→全社の3段階の管理設定（managed-settings.json）、配った設定が本当に止めるかを実物で判定する確認スクリプト（結果を Markdown の表で出し、申請書や報告書に貼れる）、"
-    },
-    {
-      "id": "cc_a4013b6e",
-      "title": "月10ドルのコーディングエージェントで Claude Code のサブエージェントを置き換える",
-      "url": "https://zenn.dev/marvelousu/articles/subscription-agent-workers",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.852268+00:00",
-      "excerpt": "Claude Code / Codex のサブエージェントに任せていた実装や調査を、月10ドルの OpenCode Go と Command Code で動かしました。呼び出し方と、約3週間で依頼した回数や利用上限に達した日数をまとめます。 TL;DR 普段の開発で、実装や範囲の決まった調査を月10ドルの OpenCode Go に任せ、Claude Code / Codex は方針の判断と成果物"
     },
     {
       "id": "cc_6abae55f",
@@ -117,7 +67,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.852077+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858579+00:00",
       "excerpt": "Mac で文字入力欄へのカーソル移動からクリック、入力、変換、確定まで、すべての操作に 1 秒以上の待ち時間が出るようになった。再起動しても直らない。機材は M1 Max（メモリ 64GB）の MacBook Pro で、外部に 4K 144Hz のディスプレイをつないでいる。Claude デスクトップアプリのバージョンは 4.23118.1 である。 遅延していたのは Mac 全体ではなく、Cl"
     },
     {
@@ -127,8 +77,48 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851930+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.858510+00:00",
       "excerpt": "はじめに 2026年11月9日、Anthropic が Claude Fable 5.2 を公開しました。前の Claude Fable 5.1 が出たのは9月1日なので、約10週間での更新です。 「5.1 から 5.2 へ、数字が 0.1 増えただけ」と思うかもしれません。ところが中身を読むと、変化はかなり大きいものでした。主なベンチマークは 10〜20 ポイント単位で上がり、料金は 2 割下が"
+    },
+    {
+      "id": "cc_e06f0f32",
+      "title": "Claude Fable 5.2に移行してみた。5.1のコードのままでは動かない3つの変更と実費1.8倍",
+      "url": "https://zenn.dev/jtcc/articles/claude-fable-5-2-migration",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.858440+00:00",
+      "excerpt": "こんにちは。日本トレカセンターの佐藤です。 2026 年 11 月 9 日に、Anthropic から Claude Fable 5.2 が公開されました。 5.1 からの移行を想定して、実際の Claude API で動かしてみました。 検証したのは、料金、速度、fast mode、そして 5.1 のコードのままでは動かなくなる変更です。 計測は 2026-11-10 12:18〜12:30（J"
+    },
+    {
+      "id": "cc_b51441ae",
+      "title": "Claude Codeで1か月・約15万行: 回路CADを「試す→見る→捨てる」で育てた記録",
+      "url": "https://zenn.dev/k2exter/articles/2ef043000d0031",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.858333+00:00",
+      "excerpt": "! この記事は、Git の履歴と開発中の会話ログをもとに AI (Claude) が下書きを作り、筆者が確認・加筆したものです。数字はリポジトリと記録から取りました。筆者の感想や考えの部分は、筆者が話した内容を AI が文章にまとめ、筆者が確認しています。 はじめに 前回の記事で、Claude Code と一緒に、初学者向けの回路CAD「circuitCad」を作った話を書きました。あれから約1か"
+    },
+    {
+      "id": "cc_1163968c",
+      "title": "Claude Fable 5.2のプロンプトガイドを読んで正直に思ったことを書く",
+      "url": "https://zenn.dev/tree_and_tree/articles/thoughts-on-claude-fable-5-2",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.858219+00:00",
+      "excerpt": "はじめに https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2 Fable 5.2が発表されたのでプロンプトガイドのページを読んで思ったことをざっくりと書いていきます。 個人的に印象に残った内容を引用しつつ、所感を書きます。網羅的ではないので要約を見たい"
+    },
+    {
+      "id": "cc_47049d9f",
+      "title": "CCDV-F対策：Exam Guideが勧める「Claudeアプリを1つ作って動かす」を4つの手順で小さく試す",
+      "url": "https://zenn.dev/ray_keymaso/articles/ccdvf-build-one-app",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.858122+00:00",
+      "excerpt": "Claude Certified Developer – Foundations（試験コードCCDV-F）のExam Guideは、準備の方法の1つとして「Claudeのアプリを少なくとも1つ作って動かす」ことを勧めています。 何から手を動かせばよいか迷っている開発者向けに、その1つを4つの手順に分け、「何を作り、応答のどこを見るか」をまとめました。コードはドキュメントのコード例を使ってください。"
     },
     {
       "id": "cc_61dc6f56",
@@ -137,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851756+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.726354+00:00",
       "excerpt": "はじめに CSS を1行も書いていない、シンプルな Todo アプリを作りました。 今回はこのアプリを題材に、Claude Code、Claude Design、Gemini を使って UI を改善してみます。 大まかな流れは次のとおりです。 Claude Code に既存コードから画面を再現してもらう 気になるところを伝え、複数の改善案を出してもらう 気に入った案を実装する 実際に触って、さらに"
     },
     {
@@ -147,7 +137,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851578+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.726274+00:00",
       "excerpt": "! この記事は Claude Code が会社の記録をもとに書いた。 毎日1回のはずのジョブが2回動いても、エラーの行が出なければ、ログを開くまで気づかない。 この記事の材料にした小さな「会社」では、月に1回のはずの2つのジョブが3日続けて毎日動き、そのたびに月ごとの通知を送っていた。 会社の見張りは、取りこぼしを補う仕組みが同じジョブを1日に何回始めたかを数え、4回以上なら知らせる線を引いていた"
     },
     {
@@ -157,7 +147,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851360+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.726176+00:00",
       "excerpt": "この記事について 自作したサブエージェント（.claude/agents/ に置く定義ファイル）を Agent ツールで呼ぶと、次のエラーになることがあります。 Agent type 'zz-probe-f2-file' not found. Available agents: claude, Explore, general-purpose, Plan, statusline-setup, zz"
     },
     {
@@ -167,7 +157,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851198+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.726092+00:00",
       "excerpt": "はじめに 私は Blender をほとんど使えません。それでも、英単語学習アプリ「Word Spell Master」の動物の生徒を、キャラクターの絵1枚から動く3Dモデルにして、20匹以上そろえました。手を動かしたのは、AI がコードを書いて実行してくれる開発ツールの Claude Code です。 生徒6匹が 待機 → 歩く → 教える → うなずく 私の仕事は、AI に頼む内容と合格の条件を"
     },
     {
@@ -177,7 +167,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.851047+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.726021+00:00",
       "excerpt": "! 🍀 この記事はこんな方におすすめ 短いプロンプトでAIに仕事を頼み、必要なときに認識を合わせたい方 AIとのセッションが長くなったとき、残作業の把握に課題を感じている方 Claude Modsで、仕事に合わせたUIの活用例を知りたい方 Claude CodeのModsとして、依頼したタスクの認識合わせを助ける「refinement」と、作業をツリーで表示する「tasktree」を作ってみました"
     },
     {
@@ -187,7 +177,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.850896+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.725958+00:00",
       "excerpt": "AI（Claude Code）に、数時間かかる動画の処理を裏で走らせて、終わるのを待たせている。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n8db2644b3199 課題：落ちたことが、Claude Code に伝わっていなかった 2026-09-06 の2時57"
     },
     {
@@ -197,7 +187,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.850728+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.725891+00:00",
       "excerpt": "X で、こんな投稿を見かけました(2026-10-18・@AI_kagakuri)。手元のトレンド収集ファイルに逐語で残っていた文言を、区切りの / も含めてそのまま引きます。 「AskUserQuestionツールとは？」 / AskUserQuestion（アスク・ユーザー・クエスチョン）は、Claude Codeがユーザーへ質問し、回答を受け取るための専用ツールです。 / 対応している環境で"
     },
     {
@@ -207,8 +197,58 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-10T14:40:38.850550+00:00",
+      "fetchedAt": "2026-11-10T23:03:56.725828+00:00",
       "excerpt": "AI小説書きあるある：フォワード問題との戦い AI使って小説書いてる人なら誰でも経験あると思うんだが、「最初から読んでいくと何か変」っていう現象、ありませんか？ 途中で書き足したシーンは良い感じなのに、全体を通して読むと「あれ、この設定いつの間に変わってた？」とか「このキャラ、前は魔法使えなかったはずでは…？」みたいなやつ。 私はこれを勝手にフォワード問題って呼んでいる。 章単位で見ると完璧なのに"
+    },
+    {
+      "id": "cc_b8b2a667",
+      "title": "Claude Code×VPSでAIを24時間動かす実測構築ガイド",
+      "url": "https://zenn.dev/selene_nyx_ai/books/claude-code-vps-24h-guide",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.725767+00:00",
+      "excerpt": "フリーランスの右腕AI「セレネ」と後輩AI「ニクス」が、VPS上でClaude Codeを24時間動かして記事生成から公開までを回してきた構築記録。費用の内訳・失敗事例・構築チェックリストまで全部書く。"
+    },
+    {
+      "id": "cc_b2291b4e",
+      "title": "Claude CodeとGASで作った過去問アプリを、コードを書き換えずにCloudflareへ移したら、採点が数十秒→4msになった",
+      "url": "https://zenn.dev/ohana_support/articles/0413eb46d0bd85",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.725682+00:00",
+      "excerpt": "こんにちは、YTです。 中小企業診断士の1次試験の直前（2026年7月）に、自分用の過去問演習アプリを Google Apps Script（GAS）で作りました。 コードは Claude Code に書いてもらい、私は「何が欲しいか」を伝えて、使って、直してもらう役でした。 この記事では、そのアプリの構成と、作ってみて分かったことを書きます。 問題データを Markdown で持ち、ビルドして "
+    },
+    {
+      "id": "cc_6db7f91d",
+      "title": "Claude Code CLIを文脈圧縮プロキシでラップしたら、圧縮は動いたがキャッシュが壊れた話",
+      "url": "https://zenn.dev/matsushima_a/articles/day-042-billion-context-compression-proxy",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.725613+00:00",
+      "excerpt": "これは何の検証か 海外AIネタ100日チャレンジ Day 042。今回検証したのはranxianglei/billion-context(MIT License。製品に組み込む場合はクレジット表記を求める追加条項あり)。 Claude Code・Codex・OpenCodeなど既存のコーディングエージェントと、モデルAPIの間にローカルプロキシとして挟み込み、会話を可逆的に圧縮することで、小さいコ"
+    },
+    {
+      "id": "cc_3c43b056",
+      "title": "Codexが無くても: Claude Codeのサブエージェントだけで越境整合レビューを組む",
+      "url": "https://zenn.dev/shoma46/articles/claude-code-subagent-spec-consistency-review",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.725544+00:00",
+      "excerpt": "TL;DR 型検査・lint・テストが通っても残る「境界をまたぐ意味の不整合」を探すレビューを、Claude Codeのskillとサブエージェントだけで組んだ 書いた本人のセッションには判定させない。不変条件を抽出する役と検証する役を別のサブエージェントに分け、どちらにも設計意図や会話の文脈は渡さない 抽出は観点ごとに4つのレンズに分けて並列に走らせ、pushをblockするほどの指摘だけは、3"
+    },
+    {
+      "id": "cc_e54ecd31",
+      "title": "安全ガードだけは、あえて参照しない。親リポ1つで7リポジトリのClaude Codeを指揮する設計",
+      "url": "https://zenn.dev/tzp/articles/705d1d29c2dc79",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-10T23:03:56.725446+00:00",
+      "excerpt": "はじめに 😩「web で直したスキル、admin と service にもコピーしなきゃ…」 🤔「あれ、admin の create-pr って、こんな手順だったっけ？」 😱「このリポのガード、PR のマージを止めてない…？」 AI と開発するリポジトリが増えると、こんなことが起きませんか？ 1 つのリポで育てたスキルや設定を、コピーで配った瞬間から、ずれ始めます。 個人開発している口コミサービス"
     },
     {
       "id": "cc_7e1649f0",
@@ -217,7 +257,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-07T10:02:34+09:00",
-      "fetchedAt": "2026-11-10T14:40:39.176428+00:00",
+      "fetchedAt": "2026-11-10T23:03:57.502996+00:00",
       "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 Claude Cod..."
     },
     {
@@ -227,7 +267,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-03T04:27:29+09:00",
-      "fetchedAt": "2026-11-10T14:40:39.384438+00:00",
+      "fetchedAt": "2026-11-10T23:03:57.783673+00:00",
       "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
     },
     {
@@ -237,7 +277,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-11-10T14:40:39.384526+00:00",
+      "fetchedAt": "2026-11-10T23:03:57.783745+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -247,9 +287,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-11-10T14:40:39.384579+00:00",
+      "fetchedAt": "2026-11-10T23:03:57.783802+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     }
   ],
-  "lastCollection": "2026-11-10T14:40:39.384593+00:00"
+  "lastCollection": "2026-11-10T23:03:57.783817+00:00"
 }
