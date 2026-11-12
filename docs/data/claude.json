@@ -1,153 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_1163968c",
-      "title": "Claude Fable 5.2のプロンプトガイドを読んで正直に思ったことを書く",
-      "url": "https://zenn.dev/tree_and_tree/articles/thoughts-on-claude-fable-5-2",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.996062+00:00",
-      "excerpt": "はじめに https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-fable-5-2 Fable 5.2が発表されたのでプロンプトガイドのページを読んで思ったことをざっくりと書いていきます。 個人的に印象に残った内容を引用しつつ、所感を書きます。網羅的ではないので要約を見たい"
-    },
-    {
-      "id": "cc_47049d9f",
-      "title": "CCDV-F対策：Exam Guideが勧める「Claudeアプリを1つ作って動かす」を4つの手順で小さく試す",
-      "url": "https://zenn.dev/ray_keymaso/articles/ccdvf-build-one-app",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.996020+00:00",
-      "excerpt": "Claude Certified Developer – Foundations（試験コードCCDV-F）のExam Guideは、準備の方法の1つとして「Claudeのアプリを少なくとも1つ作って動かす」ことを勧めています。 何から手を動かせばよいか迷っている開発者向けに、その1つを4つの手順に分け、「何を作り、応答のどこを見るか」をまとめました。コードはドキュメントのコード例を使ってください。"
-    },
-    {
-      "id": "cc_20270c0d",
-      "title": "Claude Fable 5.2とMythos 5.2を正直にレビューする",
-      "url": "https://zenn.dev/systemdesignsim/articles/claude-fable-5-2-honest-review",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.995984+00:00",
-      "excerpt": "Claude Fable 5.2とMythos 5.2を正直にレビューする 本記事は System Design Simple の英語記事の日本語版です。原文: https://systemdesignsimple.com/claude-fable-5-2-mythos-5-2/ Claude Fable 5.2は実在します。Anthropicが2026年11月9日に Claude Mythos "
-    },
-    {
-      "id": "cc_6c2771b6",
-      "title": "Claude CodeからCodexを呼ぶと、on-requestは「人間に聞く」ではなかった",
-      "url": "https://zenn.dev/tyuya/articles/claude-codex-mcp-approval-gap",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.995946+00:00",
-      "excerpt": "Claude Code と Codex を相互に呼び出せるようにしました。目的は「2つのAIで相互チェックしたい」という単純なものです。 接続手順の記事にはしません。手順はバージョンが上がれば壊れますが、繋いだときに崩れた前提のほうは、しばらく残るからです。 崩れたのは3つでした。 危ない操作の前には、人間の承認が挟まる auth status は、アカウントの状態を教えてくれる 相手のAIは、私"
-    },
-    {
-      "id": "cc_f09d60ae",
-      "title": "Built with Claude: Japan 2026 に Shisa を出した日記。作りながら、作るものが変わっていった",
-      "url": "https://zenn.dev/nobuhiko/articles/df658ed78d6733",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.995904+00:00",
-      "excerpt": "Built with Claude: Japan 2026(2026-11-02〜11-08)に、EC-CUBE のお店を自分で守る Agent「Shisa(シーサー)」を出しました。管理画面にプラグインを入れて API とつなぐと、Shisa がお店を調べ、公式の修正版を当て、設定は試してから入れます。 https://youtu.be/O3VeJgtxqUY 書き出してみると、応募したときの案"
-    },
-    {
-      "id": "cc_c3f9871c",
-      "title": "Claude APIのstop_reasonで処理を分ける：7つの値と、それぞれの正しい扱い",
-      "url": "https://zenn.dev/aishigoto/articles/cert-claude-stop-reason",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.995840+00:00",
-      "excerpt": "※ この記事はClaude Code（AI）を使って執筆し、内容は公式ドキュメントで確認しています。 Claude APIの応答には、生成が止まった理由を示すstop_reasonが必ず入っています。end_turn以外をすべて「失敗」として扱う実装をよく見かけますが、それでは、続きを送れば完了する応答や、ツールを実行すべき応答まで捨ててしまいます。 この記事では、stop_reasonの7つの値"
-    },
-    {
-      "id": "cc_0968f1fd",
-      "title": "Claude Fable 5.2 リリース — CursorBench の表で見る Argon・Opus 5.5 との比較",
-      "url": "https://zenn.dev/mar_kun/articles/claude-fable-5-2",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.995790+00:00",
-      "excerpt": "2026年11月9日、Anthropic が Claude Fable 5.2 をリリースしました。同時に、審査を通過した組織向けの Claude Mythos 5.2 も発表されています。 この記事では、Anthropic 公式発表の内容に加えて、Cursor が公開しているベンチマーク CursorBench 4.0 の実数表を使って、Google の Gemini 4 Argon や自社の "
-    },
-    {
-      "id": "cc_d0e3f579",
-      "title": "AI と出した結論、本当に自分で決めた？：エージェントの推しを Claude Code で検証",
-      "url": "https://zenn.dev/zundamon_tools/articles/agent-judgment-calls-claude-code",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920521+00:00",
-      "excerpt": "AI と出したその結論は、本当に自分で決めたものでしょうか。Claude Code などのエージェントに分析や調査を任せ、レポートを読んで判断しているなら、決めたのは自分のはずです。 Anthropic の実験では、プロの分析者がエージェントの推す側を86%選び、AI の好みが操作されていたと疑った人はいませんでした。手元の Claude Code でも、CLAUDE.md の方針を1行替えるだけ"
-    },
-    {
-      "id": "cc_4fae1aae",
-      "title": "今更聞けない LLM の 17 の制約 — ハーネスと Claude Code の設定でどこまで対処できるか",
-      "url": "https://zenn.dev/shuji_bonji/articles/llm-17-constraints",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920486+00:00",
-      "excerpt": "! この記事の Claude Code の機能に関する記述は、2026-11-11 時点の公式ドキュメント（code.claude.com/docs）で確認した内容です。Claude Code は更新が速いため、設定名や挙動は変わる可能性があります。制約そのものの説明（前半）は、製品の更新では変わらない内容です。 はじめに この記事は、LLM を業務やコーディングエージェントで使っている開発者が、"
-    },
-    {
-      "id": "cc_e431bc21",
-      "title": "担当の報告を1行の JSON にする：Claude Code の定期実行を台帳につなぐ",
-      "url": "https://zenn.dev/neuralalpha/articles/one-line-json-report-ledger",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920405+00:00",
-      "excerpt": "はじめに 事業ごと、あるいはプロジェクトごとに Claude Code のセッションを立てて、定期的に「今日の作業を報告して」と頼むと、丁寧な文章が返ってきます。読めば分かりますが、担当が4つあれば4つの長文です。しかも「今月の売上は？」「返事が要る質問は？」を探すのは自分です。 この記事では、報告の最後に、機械が読める1行の JSON を付ける決まりと、それを台帳（JSON Lines のファイ"
-    },
-    {
-      "id": "cc_1b535ebe",
-      "title": "Claude Code に本番を触らせる線 — 手順は AI が書き、最後の1行は人が打つ",
-      "url": "https://zenn.dev/kuu_dqx/books/ai-writes-human-types",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920360+00:00",
-      "excerpt": "Claude Code に家のサーバや公開サイトの運用を手伝わせていると、本番に触る操作の多くは、AI が書いて人が打つ形になります。私の環境では、2026年10月22日からの15日間で、人が `!` で打った行が229行ありました。そのうち207行は何かを書き換える行です。自動モードの判定に止められた操作は30件でした。ある朝、監視サーバからホストを1つ消す作業で、AI は自分では打てない理由を"
-    },
-    {
-      "id": "cc_a9db0a15",
-      "title": "Claude CodeからiPhoneを触りたいので、iphone-controlの使い方を調べた",
-      "url": "https://zenn.dev/53able/articles/d269009df2697e",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920309+00:00",
-      "excerpt": "Claude CodeからiPhoneを操作できる、というAvid氏の投稿を見ました。紹介されていたのは「iphone-control」というOSSです。 READMEには、実機で天気を読んだり、Spotifyを再生したり、メモを書いたりしたとあります。まだプロトタイプですが、MacのiPhoneミラーリングを使って操作する仕組みです。 自分でも試すなら何を用意するのか、ドキュメントを読んで整理し"
-    },
-    {
-      "id": "cc_3a949234",
-      "title": "スタレのマネーウォーズが好きすぎて、OCIの知識で戦うオートバトラーをClaude Code×Geminiと作った話",
-      "url": "https://zenn.dev/platon_index/articles/architect-tactics-release",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920273+00:00",
-      "excerpt": "はじめに：資格勉強を「ビルド構築」に昇華できないか？ クラウド認定資格（OCI Foundations / Architect Associate / Professional など）の勉強をしていると、サービスの仕様やベストプラクティスを暗記するフェーズが必ずやってきます。しかし、ドキュメントや問題集をひたすら周回するのは正直しんどい瞬間もあります。 そんな折、『崩壊：スターレイル』のゲーム内コ"
-    },
-    {
-      "id": "cc_4dd2e281",
-      "title": "新モデル版 Claude Code で個人 iOS アプリを運用する — TestFlight まで任せるための無料 Skill",
-      "url": "https://zenn.dev/dhubplus/articles/ios-release-guard-claude-code-testflight",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920237+00:00",
-      "excerpt": "Claude Code に iOS アプリのビルドを任せて、いちばん困るのは失敗そのものではありません。失敗しているのに「完了しました」と報告されることです。 私は個人で 8 本の iOS アプリを運用し、ビルドから TestFlight への配信までを Claude Code に任せています。そのとき使っている「止める条件」と「成功の証拠」を Skill にしたものを、付録として無料で配ります。"
-    },
-    {
       "id": "cc_2b4d8d15",
       "title": "Claude Code の週の上限を食っていたのは、自動化ではなかった ── 37日分を手作業と自動に分けた",
       "url": "https://zenn.dev/civras/articles/c26be045765b24",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920196+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.095034+00:00",
       "excerpt": "! 著者1人の記録（2026-09-01〜10-07・37日）を、料金の比率で重みをつけて足した概算です。週の枠の減り方を直接測ったものではありません。 この記事は誰のためか Claude Code の自動化（claude -p を cron やタスクスケジューラで回すもの）を増やしてきて、「週の枠（7日間の使用上限）が足りないのは、自動化のせいでは？」と感じている人のための記事です。 最初の記事"
     },
     {
@@ -157,7 +17,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920152+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.094972+00:00",
       "excerpt": "はじめに Claude Codeに同じ依頼をしたり、説明を書き直してもらったりすることがあります。 今回はClaude Code Recorderのprompt-coachスキルで過去のやり取りを振り返り、自分の依頼の癖を確認してみました。 Claude Code Recorderとは Scalar社CEOの深津さんが開発した、Claude Codeでのやり取りを記録してあとから見返せるツールです"
     },
     {
@@ -167,18 +27,168 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920112+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.094894+00:00",
       "excerpt": "はじめに プラス デジタル統括部門のAOです。 普段の開発では、自分が出したPRのCIが通ったか、レビューを依頼したPRに反応があったかを確かめるために、そのたびにGitHubを開いていました。PRごとにタブを開くので、気づけばブラウザにはPRのタブがいくつも並び、どのタブがどのPRだったかを探すところから始まることも少なくありません。 これをどうにかできないかと思っていたところ、Claude C"
     },
     {
-      "id": "cc_4662b39a",
-      "title": "gh の --attach で Claude Code が作る PR にスクショを貼らせる",
-      "url": "https://zenn.dev/tatsuyan/articles/gh-attach-claude-code-pr-screenshot",
+      "id": "cc_d03eff89",
+      "title": "Claude CLIをシェルから呼んでカード画像を自動で読み取る — にじなな非公式カードサイトの自動更新の仕組み",
+      "url": "https://zenn.dev/t_okubo/articles/ca0aed06e4ca5e",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-11T13:55:43.920047+00:00",
-      "excerpt": "Claude Code に PR を作らせるとき、UI の変更なら変更前後のスクリーンショットも PR に載せてほしいことがあります。 これまでの GitHub CLI には画像をアップロードする手段がなかったので、Claude Code がスクショを撮っても PR には貼れず、ブラウザで PR を開いて自分でドラッグ&ドロップしていました。 GitHub CLI v2.99.0（2026年9月1"
+      "fetchedAt": "2026-11-12T00:23:52.094817+00:00",
+      "excerpt": "NIJISANJI 7colors card game（通称「にじなな」）のカード情報をまとめた非公式ファンサイト nijinana.kognis.jp を公開している。全カードを属性・ライバー・#タグで検索でき、デッキ構築にも使える。 新カードが公式 X アカウントで告知されるたびに、手作業で画像を見てカード情報を入力していた。品番・名前・効果テキスト・属性・レベル・パワーを読み取って HTML"
+    },
+    {
+      "id": "cc_00dc23ee",
+      "title": "Claude Code で xlsx が読めない：Read の拒否文と openpyxl の data_only が None のとき",
+      "url": "https://zenn.dev/agentkiyaku/articles/cea5e5c8a732d3",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.094747+00:00",
+      "excerpt": "Claude Code の Read は .xlsx を開かず、「バイナリは読めない」という拒否文を返します（2.1.322 で確認）。中身が欲しいときは、openpyxl・pandas・LibreOffice のようにファイルを直接読める道具を使います。 ただし openpyxl の data_only=True は、数式セルの計算結果がファイルに保存されていないと None を返します。今回の"
+    },
+    {
+      "id": "cc_b8c6f487",
+      "title": "Claude Codeの「don't ask again」でパスワードが保存されるので、防ぐ + αのプラグインを作った",
+      "url": "https://zenn.dev/koki_n22/articles/a1463cc65c7973",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.094629+00:00",
+      "excerpt": "対象読者 Claude Codeで「Yes, and don't ask again」を使用している人 Claude Codeの権限設定やセッションログにパスワード・APIトークンが残ることを防ぎたい人 モチベーション Claude Codeの「don't ask again」で保存されたパスワードがGitHubに公開されていたという記事を読んだ Claude Codeの標準機能や既存のシークレッ"
+    },
+    {
+      "id": "cc_aa9fb858",
+      "title": "【2026/11/11最新】Claude Data・Sheets・Whiteboards・connectors を Team プランで試した",
+      "url": "https://zenn.dev/canly/articles/9943093ef0c25c",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.094544+00:00",
+      "excerpt": "はじめに 日本時間 2026/11/11(米国時間 11/10)、Claude の新機能・機能拡張が 4 つ同時に発表されました[1][2]。 Claude Data(正式版): 10 月に beta で出た Claude Dashboards が改名して正式版になったもの。BigQuery などのデータ基盤やアプリから、ダッシュボードやデータの読み物を作る Claude Sheets(beta)"
+    },
+    {
+      "id": "cc_f1c757e9",
+      "title": "Claude Code × Javaプロジェクト：AIペアプログラミングで単体テスト自動生成を試してみた",
+      "url": "https://zenn.dev/columbus0370/articles/1794398388490-claude-code-javaai",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.094426+00:00",
+      "excerpt": "概要 Claude Codeを活用してJavaプロジェクトの単体テスト自動生成を試した実験レポート。効果測定中の段階だが、手応えと課題を共有する。 構成 はじめに（背景と目的） 単体テスト作成の工数問題 Claude Codeに期待したこと 環境構築 Claude Code のセットアップ Java + JUnit5 + Mockitoの構成 プロジェクト構造の説明 実験：サービスクラスのテスト自"
+    },
+    {
+      "id": "cc_550ae703",
+      "title": "Claude Code の selected model エラー: モデル指定の優先順位とサブエージェントを claude -p で実測",
+      "url": "https://zenn.dev/yorusuzu/articles/claude-code-selected-model-issue",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.052085+00:00",
+      "excerpt": "この記事について claude -p を実行したり、サブエージェントを呼んだりしたときに、次のエラーが出ることがあります。 There's an issue with the selected model (zz-no-such-model). It may not exist or you may not have access to it. Run --model to pick a diff"
+    },
+    {
+      "id": "cc_257e401a",
+      "title": "Claude Codeのクラウドセッション、始める前に見る2点",
+      "url": "https://zenn.dev/jworks_hq/articles/jworks-20261109-c2852852",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.051902+00:00",
+      "excerpt": "Claude Codeのクラウドセッションについて公式ドキュメントを確認すると、「利用できるプランか」と「どの方法でGitHubにつなぐか」は、使い始める前に分けて確認したほうがよい点でした。GitHubに接続できれば機能をすべて使える、というわけではありません。特に、/web-setupで接続した場合も、プロジェクトのスレッドにはClaude GitHub Appが必要です。 設定を試してから条"
+    },
+    {
+      "id": "cc_052bce01",
+      "title": "Claude Code・Codexの「AI社員」を7つの部品に分けて考える ― 人が頼んで動く5つと、自分で動き出す外ループの2つ",
+      "url": "https://zenn.dev/tmiyachi/articles/ai-employee-seven-parts",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.051710+00:00",
+      "excerpt": "株式会社AI Orchestraの代表、みやっち🧑‍💻です。 「AI社員」という言葉を、SNSでよく見かけるようになりました。ただ私は、この言葉が何を指しているのかを、しばらくつかめずにいました。Claude CodeやCodexの個々のセッションのことなのか、ナレッジを集めたフォルダのことなのか、Skillsのことなのか。話す人によって、指しているものが違って聞こえたからです。 整理がついたのは"
+    },
+    {
+      "id": "cc_029cda92",
+      "title": "Claude CodeにAndroidアプリを操作させるMCPを自作してみた",
+      "url": "https://zenn.dev/kamomekun/articles/2a39ccf2bf544b",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.051542+00:00",
+      "excerpt": "Androidアプリの動作確認をClaude Codeに任せたくて、ローカルMCPサーバーを一から作ってみました。 ! ローカルMCPサーバーは、思っていたよりずっと簡単に作れました。 使い方に合わせて作り込みたいなら、自作もアリだと思います。 きっかけ 前回の記事では、Xcode MCPでiOSの動作確認をClaude Codeに任せてみました。これをAndroidでもやりたくなったのがきっかけ"
+    },
+    {
+      "id": "cc_7eda5cf2",
+      "title": "Claude Codeで「書く係」と「チェックする係」を分ける最小構成：設定ファイル3つ",
+      "url": "https://zenn.dev/tsugu_sukima/articles/d7155ed215c4e3",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.051381+00:00",
+      "excerpt": "この記事でやること Claude Code に文章やコードを書いてもらうとき、同じ会話の中で「見直して」と頼むと、書いた本人が自分の出力を見直すことになります。抜けに気づきにくく、見直しのついでに中身を書き換えてしまうこともあります。 そこで、書く係（writer）とチェックする係（reviewer）を別々のサブエージェントに分け、さらにチェック係にはファイルを書き換える道具を渡さない構成を作りま"
+    },
+    {
+      "id": "cc_9c78892b",
+      "title": "副業を Claude Code に任せたら、私の仕事はスマホで yes/no を押すだけになった（5日目・売上0円）",
+      "url": "https://zenn.dev/murakisvlog/articles/ai-sidejob-first-week",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.051147+00:00",
+      "excerpt": "! この記事は AI（Claude）が執筆し、内容を私（所有者）が確認して公開しています。 エンジニア3年目（SES から社内 SE）の私が、「Claude Pro の月額ぶんだけは、AI に稼がせてみる」実験を始めて5日たちました。 条件はひとつです。私の仕事は、スマホで yes/no を押すことと、週に3行の短文を書くことだけ。作業は、クラウドで毎日動く Claude Code に任せています"
+    },
+    {
+      "id": "cc_74e7574c",
+      "title": "Claude CodeのBashツールでsshだけ鍵が通らない。Git付属のsshはWindowsのssh-agentを見ない",
+      "url": "https://zenn.dev/kentaro_tak/articles/claude-code-bash-ssh-windows-agent",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.050971+00:00",
+      "excerpt": "自分のVPSでの作業を、WindowsのClaude Codeに頼むことがよくある（家の用事をClaude Codeに自動化させている話は、個人ブログにまとめている）。 そのとき、同じPC・同じユーザー・同じ ~/.ssh なのに、PowerShellツールから打つ ssh は通り、Bashツールから打つ ssh だけが Permission denied (publickey) で落ちる。しばら"
+    },
+    {
+      "id": "cc_2d8c6655",
+      "title": "社内FAQ を Markdown で管理して、Claude Code に問い合わせへの回答の下書きを作らせてみた",
+      "url": "https://zenn.dev/chukidx_dev/articles/faq-draft-claudecode",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.050832+00:00",
+      "excerpt": "社内の問い合わせ対応を「全自動のボット」にするのではなく、回答の下書きだけを Claude Code(Anthropic のターミナル上で動く AI コーディングエージェント)に作らせ、返すかどうかは人が決める形を、架空の FAQ と問い合わせで試しました。チャットへの投稿など外のサービスにはつながず、手元のフォルダだけで完結する範囲です。 この記事で手に入るもの: FAQ を Markdown "
+    },
+    {
+      "id": "cc_c19fdac2",
+      "title": "Claude Code を定期実行で回す前に決めておく 5 つのこと",
+      "url": "https://zenn.dev/soloraid/articles/1a3cc3034c6252",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.050646+00:00",
+      "excerpt": "私は Claude Code を、ビジネス情報の収集や脆弱性の検知のような、毎日決まった時間に回したい仕事に使っています。対話で使うのに慣れてくると、こうした仕事は人がいない時間に回したくなります。ところが、画面の前に人がいない実行では、対話のときには自然に効いていた歯止めがすべて外れます。確認のダイアログに答える人はいませんし、途中で様子がおかしいと気づいて止める人もいません。 この記事では、無"
+    },
+    {
+      "id": "cc_212edbfc",
+      "title": "VS Codeのウィンドウだらけで限界だったから、Claude Codeをworktreeごとに並列で回せる開発環境を自作した話",
+      "url": "https://zenn.dev/numachang/articles/vscode-claude-code-worktree-parallel",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.050473+00:00",
+      "excerpt": "Claude Codeを並列で回すようになってから、ウィンドウを切り替える回数がえらいことになりました。 1つのVS Codeで複数のセッションを動かすとClaude同士がぶつかるのでworktreeに分けてみたら、今度はウィンドウが増えすぎて収拾がつかない状態に。どのウィンドウのClaudeが何をしていたのか、もうわからないんですよね。同じ目にあっている人もけっこういると思うんですが、私はとうと"
+    },
+    {
+      "id": "cc_95f946fa",
+      "title": "サブエージェント設定ファイル集 ― Claude Code で役割分担・権限・差し戻しを組む",
+      "url": "https://zenn.dev/tsugu_sukima/books/765fcda0a99fad",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-12T00:23:52.050304+00:00",
+      "excerpt": "サブエージェントの設定ファイル（Markdown）を、コピーして動く実物と1行ずつの解説、動作確認の手順でまとめた本です。書く係と判定する係を分ける最小構成から始め、道具（tools）の絞り方、差し戻しの回数と止め方、上書きしない保存の決まり、公開の手前で止める書き方までを順に組みます。はじめにと第1章・第2章は無料で読めます。本書は個人が書いた非公式の解説で、Anthropic社が提供・提携・推"
     },
     {
       "id": "cc_7e1649f0",
@@ -187,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-07T10:02:34+09:00",
-      "fetchedAt": "2026-11-11T13:55:44.266204+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.360843+00:00",
       "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 Claude Cod..."
     },
     {
@@ -197,7 +207,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-03T04:27:29+09:00",
-      "fetchedAt": "2026-11-11T13:55:44.480476+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.543526+00:00",
       "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
     },
     {
@@ -207,7 +217,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-11-11T13:55:44.480520+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.543599+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -217,9 +227,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-11-11T13:55:44.480550+00:00",
+      "fetchedAt": "2026-11-12T00:23:52.543650+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     }
   ],
-  "lastCollection": "2026-11-11T13:55:44.480561+00:00"
+  "lastCollection": "2026-11-12T00:23:52.543714+00:00"
 }
