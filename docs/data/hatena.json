@@ -1,592 +1,407 @@
 {
   "entries": [
     {
-      "id": "h_da9b6ac8",
-      "title": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話。｜YamaC / ﾔﾏｼｰ",
-      "url": "https://note.com/yamac_/n/n198bdc344c64",
-      "domain": "note.com",
-      "bookmarkCount": 366,
-      "summary": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話。 Claude Codeとか、Codex、使ってますか。もちろん私はがっつり使ってます。Claude Codeに代表されるAI Coding Agentをつかってるとだんだん「毎回確認したり面倒だな～」となってくると思います。今はClaudeではAuto mode...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/yamac_/n/n198bdc344c64",
+      "id": "h_5ee0680a",
+      "title": "著名なRust製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
+      "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
+      "domain": "zenn.dev",
+      "bookmarkCount": 175,
+      "summary": "こんにちは。コロンビア大学の博士課程でシステムセキュリティ・形式検証の研究をしている Koukyosyumei です。 今回は、ざっくり言うと、Rust製の有名なOSSをLean 4で形式検証するベンチマークを作っていたら、思いがけず実際のセキュリティ脆弱性をいくつも発見してしまった、という話です。 現在私がやっているプロジ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
       "comments": [
         {
-          "user": "hatebu_admin",
-          "comment": "Win標準のを待ちます",
+          "user": "hogetax",
+          "comment": "これは有用だけどやばいな^^;",
           "tags": [],
-          "timestamp": "2026/11/23 15:36"
+          "timestamp": "2026/11/24 05:36"
         },
         {
-          "user": "ys0000",
-          "comment": "そのうち試そうと思ってたところなので情報提供助かる。リソースをどれくらい食うか次第だが採用予定ではあるのよね。",
+          "user": "Shinwiki",
+          "comment": "優しさがない",
           "tags": [],
-          "timestamp": "2026/11/23 13:57"
+          "timestamp": "2026/11/24 00:07"
         },
         {
-          "user": "mayumayu_nimolove",
-          "comment": "あとで",
-          "tags": [],
-          "timestamp": "2026/11/23 13:34"
-        },
-        {
-          "user": "hakushino",
-          "comment": "なるほど。Linuxで動くものはこれで良さそう。趣味で作っているmacOSやAndroidアプリには使えないな",
-          "tags": [],
-          "timestamp": "2026/11/23 13:28"
-        },
-        {
-          "user": "queeuq",
-          "comment": "ホスト独立でいいならantigravityのリモート実行でいい気がする。無理だから未だにホストマシンにリモート接続する方使ってるけど/env送ってしまうとかは解決しなくね？",
-          "tags": [],
-          "timestamp": "2026/11/23 13:24"
-        },
-        {
-          "user": "yarumato",
-          "comment": "“ふつうの Docker コンテナより一段階強いMicroVM（軽量な仮想マシン）で動くため、箱の中からホスト PC 側へ抜け出すリスクを大幅に下げてくれます。”",
-          "tags": [],
-          "timestamp": "2026/11/23 13:19"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:19.915536+00:00"
-    },
-    {
-      "id": "h_b708becd",
-      "title": "なんでみんなそんなにセルフレジに戸惑うんだ？ UIや導線が統一されてない..",
-      "url": "https://anond.hatelabo.jp/20261122011458",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 315,
-      "summary": "なんでみんなそんなにセルフレジに戸惑うんだ？ UIや導線が統一されてないというけど、ほかの飲食店も電車もバスもUIや支払い方法はバラバラ スマホのアプリだってUI全部別々でまったく統一されてない ビデオゲームだってそう SNSのUIを統一しろなんて言うやついない なんでセルフレジだけそんなに嫌なんだ？",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261122011458",
-      "comments": [
-        {
-          "user": "jet-city-people",
-          "comment": "統一はされた方がいいに決まっているのよ。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:57"
-        },
-        {
-          "user": "jhflh",
-          "comment": "自分が社会から拒絶された気がするからでしょう。社会はもうあなたに配慮しませんと言われている気がするんだろう。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:49"
-        },
-        {
-          "user": "doksensei",
-          "comment": "戸惑うの始めの数回だけなんだからいいだろ。知らないものは戸惑うだけって話。慣れりゃ簡単だ",
-          "tags": [],
-          "timestamp": "2026/11/23 15:44"
-        },
-        {
-          "user": "umaemong",
-          "comment": "現状が使いやすいとは思わないけど、UI統一すれば解決すると思ってる人とは分かり合えない。操作手順を暗記して使うようなものではないし、そも『万人が使いやすいUI』に統一できるというのが幻想。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:27"
-        },
-        {
-          "user": "duralex",
-          "comment": "スーパーは10品以上をセルフレジ禁止にするべき",
-          "tags": [],
-          "timestamp": "2026/11/23 15:20"
-        },
-        {
-          "user": "nmcli",
-          "comment": "初見はやっぱり戸惑うかなぁ。同じコンビニなのに設置タイミングの差とかで統一されてない時期があったりするとそれはそれで戸惑いがち。",
+          "user": "hhungry",
+          "comment": "今後のソフトウェア開発はAIを使ってバグがないことを証明する必要があるなぁ。",
           "tags": [
-            "増田"
+            "AI"
           ],
-          "timestamp": "2026/11/23 15:14"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:24.376950+00:00"
-    },
-    {
-      "id": "h_61ad2272",
-      "title": "2026年11月21日をもって世界はシンギュラリティに突入した｜たてはま",
-      "url": "https://note.com/cgbeginner/n/n5856d402f125",
-      "domain": "note.com",
-      "bookmarkCount": 299,
-      "summary": "2026年11月21日をもって、世界はシンギュラリティに突入したのではないか。 この日、AnthropicのAI「Claude」との共同作業で書かれた「リーマン予想の証明」について、検証コミュニティが「正しい」と認定した。独立に検証したマサチューセッツ工科大学の数学者アンドリュー・サザーランド氏も「何か怪しい点がある可能...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/note.com/cgbeginner/n/n5856d402f125",
-      "comments": [
-        {
-          "user": "quandle",
-          "comment": "将来的な知能爆発への布石としてこの件が重要かどうかって意味で言うと重要ではあるけど決定的な発明ではないからここをシンギュラリティと呼ぶことは将来的にもないんじゃないかな。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:29"
-        },
-        {
-          "user": "georgew",
-          "comment": "一度越えてしまえば引き返せず、これまでの人間の前提と理解が通用しなくなる領域に入った > ここは同感。singularityの定義云々はひとまずおいといて。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:27"
-        },
-        {
-          "user": "ogawat1968",
-          "comment": "“ここで一番恐ろしいのは、2026年11月21日に正しさが認定された時点で、この証明の中身を理解できている人間がだれひとりいないという点だ。  ”",
-          "tags": [],
-          "timestamp": "2026/11/23 15:12"
-        },
-        {
-          "user": "shikiarai",
-          "comment": "流石にまだギュってないかなーって",
-          "tags": [],
-          "timestamp": "2026/11/23 14:38"
-        },
-        {
-          "user": "throwslope",
-          "comment": "バカ言うなよ。Claude Fableがリリースされた2026年6月からとっくにシンギュラリティだよ。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:10"
-        },
-        {
-          "user": "Fluss_kawa",
-          "comment": "現実世界では証明されてなくても現実をよく反映していればモデルに組み込まれて利用されていることはよくあることなので、証明されることはすごいことだけれどだから世の中が変わるかというとそうでもないよなぁ。",
-          "tags": [],
-          "timestamp": "2026/11/23 13:58"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:25.124863+00:00"
-    },
-    {
-      "id": "h_117fcdae",
-      "title": "ここ1か月くらい、PCに勝手に Adobe Express Photos が勝手にインストールされたっていう問い合わせが多発してるんですが、さすがにこれはAdobeさんやりすぎじゃないでしょうか・・・？ しかも、Windows+Shift+Sを勝手に上書きして、機能劣化版のスクショツールに置き換わるんですよ…→「これマジでクソ過ぎてAdobe系製品全部消したい」",
-      "url": "https://posfie.com/@petaritape/p/tgzVdbL",
-      "domain": "posfie.com",
-      "bookmarkCount": 237,
-      "summary": "ちゅん🐤 @KotorinChunChun ここ1か月くらい、PCに勝手に Adobe Express Photos が勝手にインストールされたっていう問い合わせが多発してるんですが、さすがにこれはAdobeさんやりすぎじゃないでしょうか・・・？ しかも、Windows+Shift+Sを勝手に上書きして、機能劣化版のスクショツールに置き換わるんですよ… 2026-11...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/posfie.com/@petaritape/p/tgzVdbL",
-      "comments": [
-        {
-          "user": "hakasegawa",
-          "comment": "ChromeのAdobe製PDFプラグインが気づいたらインストールされてて、チケットに添付したPDF開く時に悪さして開けなくなってたから削除した。最近AdobeのPDF周りの製品印象悪いよね。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:47"
-        },
-        {
-          "user": "kamiokando",
-          "comment": "U2かよ。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:29"
-        },
-        {
-          "user": "ssfu",
-          "comment": "去り行くものの断末魔だろう。皆で介錯してやろう。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:28"
-        },
-        {
-          "user": "dtpg",
-          "comment": "ウィルスをインストールしてはならない",
-          "tags": [],
-          "timestamp": "2026/11/23 15:06"
-        },
-        {
-          "user": "yamuchagold",
-          "comment": "Adobe Acrobat Readerを立ち上げて、なんか知らんけど出てくる広告を触ると勝手にインストールされる模様。 この記事見て、そんなこともあるのね……と知ってないと同じ目にあってた可能性がある。",
-          "tags": [
-            "PC",
-            "これはひどい"
-          ],
-          "timestamp": "2026/11/23 14:46"
-        },
-        {
-          "user": "taiyousunsun",
-          "comment": "Mac使い始めて嬉しかったことの一つがOS標準でPDF見れることだったのを思い出した。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:17"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:20.338341+00:00"
-    },
-    {
-      "id": "h_5e6767aa",
-      "title": "Agent Harnessを理解するために、150行ほどのPythonで自作してみた - Qiita",
-      "url": "https://qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962",
-      "domain": "qiita.com",
-      "bookmarkCount": 166,
-      "summary": "すべてを最初から実装する必要はありません。今回はツール、簡易ガードレール、可観測性、コンテキスト保護に絞って作ります。 4. 動かしてみる：最小の Harness Harness の基本的な流れは次のとおりです。 LLM がツール呼び出しを要求し、Harness が実行します。その結果を会話履歴に追加し、再び LLM に渡す。このルー...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962",
-      "comments": [
-        {
-          "user": "syu-m-5151",
-          "comment": "AIが直したのにテストが古い値を返す。Pythonは.pycを書かせなくても既存のキャッシュを読める。毎回空のキャッシュ先を用意し、対策を外すと失敗するテストも置く。モデルより先に検査の入口を疑う。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/11/23 11:57"
-        },
-        {
-          "user": "FreeCatWork",
-          "comment": "ボクもコードで遊んでみたいにゃ！でも先にナデナデしてくれたら特別に教えてあげるにゃ！可愛い？にゃ。",
-          "tags": [],
-          "timestamp": "2026/11/23 11:18"
-        },
-        {
-          "user": "raitu",
-          "comment": "“LLM がツール呼び出しを要求し、Harness が実行します” Skillっぽい事前条件プロンプトのことをHarnessと勘違いしていたことをここに告白します",
-          "tags": [],
-          "timestamp": "2026/11/23 10:56"
-        },
-        {
-          "user": "circled",
-          "comment": "いつもガードレールをハーネスと言うのやめろ！と言い続けてきたけど、これを読む人がいればガードレールとはハーネスの中の極一部でしかないのを分かって貰えて、単語の意味を理解するようになると思いました",
-          "tags": [],
-          "timestamp": "2026/11/23 09:41"
-        },
-        {
-          "user": "doko",
-          "comment": "SIerあがりの50代以上のコンサルが「Azureでもスノーフレークでもほらクロードを選択できるし」とか言うの、大して触ってなくて、ハーネスの概念とかもないからなんだろうなぁ",
-          "tags": [
-            "GPT",
-            "PG"
-          ],
-          "timestamp": "2026/11/23 08:24"
-        },
-        {
-          "user": "y-pak",
-          "comment": "150行で理解できるって、もう読むしかないやん",
-          "tags": [
-            "Python",
-            "AIエージェント"
-          ],
-          "timestamp": "2026/11/23 08:13"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:20.985106+00:00"
-    },
-    {
-      "id": "h_ec7d60f1",
-      "title": "Webメール開発を大幅に変えたJMAPというゲームチェンジャー",
-      "url": "https://speakerdeck.com/tascript/jmap-is-game-changer",
-      "domain": "speakerdeck.com",
-      "bookmarkCount": 108,
-      "summary": "JSConfJP 2026の登壇資料です",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/speakerdeck.com/tascript/jmap-is-game-changer",
-      "comments": [
-        {
-          "user": "y-pak",
-          "comment": "Webメール開発を変えたJMAP、JSConfJPの登壇資料か。IMAPの後継ってどんなもんか気になるわ",
-          "tags": [
-            "JMAP",
-            "Webメール",
-            "JSConfJP"
-          ],
-          "timestamp": "2026/11/23 14:40"
-        },
-        {
-          "user": "rAdio",
-          "comment": "でも、サーバ運用側にとっては、POP/SMTP/IMAPを維持したままJMAP対応がさらに増えて、ただでさえ面倒なメールサーバ運用のしんどさが積み増すだけになるんじゃないかという怖さもある。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:04"
-        },
-        {
-          "user": "hidari_kiki",
-          "comment": "良さそう",
-          "tags": [],
-          "timestamp": "2026/11/23 13:57"
-        },
-        {
-          "user": "koutarou4",
-          "comment": "JMAP対応クライアント増えて欲しい。あとメールサーバの機能がオールインワンでRust製でJMAPも対応のStalwartが10月26日に1.0になったからみんな使おう",
-          "tags": [],
-          "timestamp": "2026/11/23 13:41"
-        },
-        {
-          "user": "mayumayu_nimolove",
-          "comment": "週刊少年",
-          "tags": [],
-          "timestamp": "2026/11/23 13:34"
-        },
-        {
-          "user": "soulfulmiddleagedman",
-          "comment": "知らなかった",
-          "tags": [],
-          "timestamp": "2026/11/23 13:18"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:20.485227+00:00"
-    },
-    {
-      "id": "h_80abb288",
-      "title": "工学系プログラマー絵描きが生成AIでイラストや漫画を生成してみた感想",
-      "url": "https://anond.hatelabo.jp/20261122140104",
-      "domain": "anond.hatelabo.jp",
-      "bookmarkCount": 108,
-      "summary": "ただの楽しかったという感想記事。 生成AIの是非をめぐる議論にはあまり触れないが、賛成派と反対派の両方の知見がある者の意見としてここに置いておきます。 身バレするとややこしそうなのでぼかしたりフェイクを入れて書くことをお許しください。 ①自己紹介 工業系の学校出身で、情報を専門的に学んでいました。C言語...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/anond.hatelabo.jp/20261122140104",
-      "comments": [
-        {
-          "user": "tettekete37564",
-          "comment": "楽しそうだ。昔だったら企画書いても一人じゃ作れなくて諦めてたようなモノも今ならAIの助けを借りて作れるって事だよなぁ。楽しそう&羨ましい",
-          "tags": [],
-          "timestamp": "2026/11/23 15:06"
-        },
-        {
-          "user": "tigercaffe",
-          "comment": "俺もComfyUIでイラスト生成するけど、100点の記事。現状で言いたいこと全て言語化してくれた。相応の手間暇はある。リターンは面白味。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:39"
-        },
-        {
-          "user": "kuzumaji",
-          "comment": "敵視するユーザーが減れば絵描きはみんな生成AI使って教師役やアシスタント約に表立って使うと思う。絵かきの本質はディレクション。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:25"
+          "timestamp": "2026/11/23 23:52"
         },
         {
           "user": "isrc",
-          "comment": "自分のイラストを読み込ませて講評をしてもらったり、客観的な印象を聞いたりしました。指摘してくれ正直プロ並みと感じました／日本で売り上げが取れるような作品をポンっと生成することは現状難しいと思います。",
+          "comment": "数学的に証明するためには、実装の振る舞いを正確に理解し仕様を満たすことを示す必要があります。その過程で、開発者が暗黙のうちに正しいと思い込んでいた前提が、実はコードによって保証されていないことに気づく",
           "tags": [
+            "security",
             "機械学習",
-            "マンガ",
-            "絵"
+            "人工知能"
           ],
-          "timestamp": "2026/11/23 14:08"
+          "timestamp": "2026/11/23 23:19"
         },
         {
-          "user": "wonodas",
-          "comment": "sunoはほどきがちむすびがちだし歌詞は自分で書いたほうが早い notebooklmが整合性チェックには一番いいかな他は自分のが速い",
-          "tags": [],
-          "timestamp": "2026/11/23 13:57"
-        },
-        {
-          "user": "cinq_na",
-          "comment": "コマ割りや視線誘導の優秀な漫画を沢山食わせたら、それすら学習して良い感じになるのだろうか。正しさを教えるのが大変そうではあるが。",
-          "tags": [],
-          "timestamp": "2026/11/23 13:33"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:22.539229+00:00"
-    },
-    {
-      "id": "h_b0e8ded0",
-      "title": "AndroidスマホがWindows PCのサブ画面に？マイクロソフトが新機能 - すまほん!!",
-      "url": "https://smhn.info/202611-microsoft-link-to-windows-extend-display-android-second-screen",
-      "domain": "smhn.info",
-      "bookmarkCount": 92,
-      "summary": "Extend displayのイメージ。画像出典：Windows Latest MacにはiPadを2台目の画面にする「Sidecar」（iPhoneは非対応）があり、Samsungも一部のGalaxyタブレットをWindows PCにつなぐ「Second Screen」を提供しています。便利なんですよね。 でもMicrosoft自身のスマホ連携の機能には、こうした機能が不在でした。 そんな...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/smhn.info/202611-microsoft-link-to-windows-extend-display-android-second-screen",
-      "comments": [
-        {
-          "user": "birds9328",
-          "comment": "iPhoneでも使えるようにならないかな",
-          "tags": [],
-          "timestamp": "2026/11/23 14:00"
-        },
-        {
-          "user": "cinq_na",
-          "comment": "素直に小さなモニタ追加した方が捗るんじゃないですかね。7inから各種サイズあるよ。今時ならiGPUでも3枚以上出力できるはずだし。",
-          "tags": [],
-          "timestamp": "2026/11/23 13:27"
-        },
-        {
-          "user": "pqw",
-          "comment": "古いOSのAndroidとか危なっかしくて仕方ないのでリモートモニタになるOSごと作ってくれないかな。",
-          "tags": [],
-          "timestamp": "2026/11/23 11:42"
-        },
-        {
-          "user": "wildhog",
-          "comment": "相互にコピペできたら便利そう",
-          "tags": [],
-          "timestamp": "2026/11/23 10:59"
-        },
-        {
-          "user": "kaorun",
-          "comment": "これはまだ試せてないんだけど、ノートPCとかで、Zoomでテレビ会議中にPowerPointのプレゼンモードとか使う時、形だけでもサブモニターがあるとめっちゃ便利よね。それ用にダミープラグみたいのもあるけど",
+          "user": "plank",
+          "comment": "へぇ、Leanで検証を。",
           "tags": [
-            "windows11"
+            "☆巧",
+            "これはすごい"
           ],
-          "timestamp": "2026/11/23 09:17"
-        },
-        {
-          "user": "lbtmplz",
-          "comment": "はい遅延",
-          "tags": [],
-          "timestamp": "2026/11/23 09:07"
-        }
-      ],
-      "fetchedAt": "2026-11-23T07:01:22.873068+00:00"
-    },
-    {
-      "id": "h_20113210",
-      "title": "[アップデート]AWSアカウント作成がとんでもなく別物になったので動作の違いを見てみた[新しいAWSエクスペリエンス] | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/new-aws-signup/",
-      "domain": "dev.classmethod.jp",
-      "bookmarkCount": 80,
-      "summary": "これまでのAWSアカウント作成と違いすぎるので気をつけて使いましょう。通常のAWSアカウントを作成するならadvanced featuresにしてください。 こんにちは、臼田です。 みなさん、AWS使ってますか？(挨拶 今回は新規にAWSアカウントを作成しようとすると、これまでと全く異なる状態となるためこの動作を紹介します。 こ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/dev.classmethod.jp/articles/new-aws-signup/",
-      "comments": [
-        {
-          "user": "georgew",
-          "comment": "お試しアカウントをAWS Organizationsの仕組み下で簡便に作成するように合理化されてる。",
-          "tags": [],
-          "timestamp": "2026/11/23 15:39"
-        },
-        {
-          "user": "yuno001",
-          "comment": "GuardDuty使えないのってアレだな。これまで常識を上書きして行く予兆なのかな。",
-          "tags": [],
-          "timestamp": "2026/11/23 13:00"
-        },
-        {
-          "user": "fumikony",
-          "comment": "なんだこれは",
-          "tags": [],
-          "timestamp": "2026/11/23 11:39"
-        },
-        {
-          "user": "syu-m-5151",
-          "comment": "AWSの新しい作成画面では、東京リージョンを選べない構成が既定に。住所で3地域の一つに固定される。従来の構成にはadvanced featuresを選ぶ。作成ボタンの手前で設計判断が始まる。",
-          "tags": [
-            "#nwiizoがいいぞと思った"
-          ],
-          "timestamp": "2026/11/23 11:33"
-        },
-        {
-          "user": "nakag0711",
-          "comment": "生煮えでリリースした印象",
-          "tags": [],
-          "timestamp": "2026/11/23 10:23"
+          "timestamp": "2026/11/23 23:14"
         },
         {
           "user": "y-pak",
-          "comment": "AWSのアカウント作成が別物になってるって、初めての人は戸惑うやろなぁ。advanced featuresを選ぶんを覚えとこ",
+          "comment": "他人の予定まで消せるわ、プレイリスト経由で他人のファイル覗けるわ、10万回も空回りするわ。ようこんなんで動いてたなぁ",
           "tags": [
-            "AWS",
-            "クラウド",
-            "DevelopersIO"
+            "Rust"
           ],
-          "timestamp": "2026/11/23 08:42"
+          "timestamp": "2026/11/23 22:16"
         }
       ],
-      "fetchedAt": "2026-11-23T07:01:22.123314+00:00"
+      "fetchedAt": "2026-11-23T23:41:22.238431+00:00"
     },
     {
-      "id": "h_6992c498",
-      "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」",
-      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/",
-      "domain": "itmedia.co.jp",
-      "bookmarkCount": 65,
-      "summary": "米OpenAIのチーフサイエンティスト、ヤクブ・パチョキ氏は11月22日（現地時間）、公式ブログに論考「Perplexity and Intelligence」を公開した。AIの能力を測る指標「perplexity」（パープレキシティ、「困惑」の意）を開発企業間の共通の物差しにして、各社が超えない開発の上限を業界で設けるよう提案している。あわせ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.itmedia.co.jp/news/article/2611/23/2000003394/",
+      "id": "h_e88453f2",
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director | NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "domain": "nvidianews.nvidia.com",
+      "bookmarkCount": 70,
+      "summary": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. The Board of Directors voted unanimously to reinstate Mr. Huang follow",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
       "comments": [
         {
-          "user": "osugi828",
-          "comment": "パープレキシティ指標は理解できるが、競合の名前を潰そうしている悪辣な性格が滲み出ているOpenAIさん。",
+          "user": "nguyen-oi",
+          "comment": "調査委員会の調査は継続しつつ新設CCO探すって一応ガバナンス強化のアピールもしてるのね / まあ実質ジェンスン一強だよな",
           "tags": [],
-          "timestamp": "2026/11/23 15:37"
+          "timestamp": "2026/11/24 07:08"
         },
         {
-          "user": "mujou03",
-          "comment": "パープレキシティって名前が悪いと思う",
-          "tags": [],
-          "timestamp": "2026/11/23 14:56"
+          "user": "AKIMOTO",
+          "comment": "これ二人の不倫部下は今どういう状態なんだろう。本当に問題ないならCEO同様に復帰が筋だろうけど",
+          "tags": [
+            "不祥事",
+            "NVIDIA"
+          ],
+          "timestamp": "2026/11/24 04:55"
         },
         {
-          "user": "natumeuashi",
-          "comment": "ウルトラ過競争は良い事ないし、いいんじゃないの？今も世界中のリソースがAIに集約されすぎて健全と言える状態じゃ無いし。",
+          "user": "kei_1010",
+          "comment": "しかも、NVIDIAの社内規定でも、利益相反で明確に禁止されてるからね。部下との不倫。しかもアリスなんて真っ黒クロスケだからね。予想が完全に外れたので懺悔しておいた。 https://kei-1010.hatenablog.com/entry/2026/11/22/125345",
           "tags": [],
-          "timestamp": "2026/11/23 14:56"
+          "timestamp": "2026/11/24 01:00"
         },
         {
-          "user": "number917",
-          "comment": "perplexityは意味不明な外国語が回答に混ざるようになってから使わなくなったな（違",
+          "user": "hagakurekakugo",
+          "comment": "こうなればせめてジェンスン・フアン氏は三度断ってから受諾して欲しい(三譲)。",
           "tags": [],
-          "timestamp": "2026/11/23 14:53"
+          "timestamp": "2026/11/24 00:56"
         },
         {
-          "user": "andvert",
-          "comment": "パチョキ氏✋✌️、Googleに転職しないかな✊",
+          "user": "ynxdaz",
+          "comment": "取締役会「俺たちもクソ野郎だったってことさ」ジェンスン・フアン「みんな…I am honored to return to NVIDIA」",
           "tags": [],
-          "timestamp": "2026/11/23 14:40"
+          "timestamp": "2026/11/24 00:52"
         },
         {
-          "user": "slkby",
-          "comment": "学習データに真っ当な代価払うようにすれば勝手に止まるんじゃね",
+          "user": "y-pak",
+          "comment": "全員一致で元に戻したんやったら、なんでいったん辞めたんや。独立した調査は続く言うてるし、結論出す前に椅子だけ戻すとか、順番が逆やろがいな",
           "tags": [],
-          "timestamp": "2026/11/23 14:39"
+          "timestamp": "2026/11/24 00:40"
         }
       ],
-      "fetchedAt": "2026-11-23T07:01:21.817126+00:00"
+      "fetchedAt": "2026-11-23T23:41:24.253574+00:00"
     },
     {
-      "id": "h_bab031dd",
-      "title": "大阪のホテルに宿泊、食事で外出しようとしたらギャルみたいな女性に「ご飯行きませんか？」と誘われ、怖くて無視してホテルの部屋へ戻ってUberで注文した「都会怖いよ」",
-      "url": "https://togetter.com/li/2773878",
-      "domain": "togetter.com",
-      "bookmarkCount": 63,
-      "summary": "大阪のホテルに宿泊、食事で外出しようとしたらギャルみたいな女性に「ご飯行きませんか？」と誘われ、怖くて無視してホテルの部屋へ戻ってUberで注文した「都会怖いよ」",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2773878",
+      "id": "h_eda177e8",
+      "title": "ホワイトハッカー、ダサぃ。 — El Kentaro",
+      "url": "https://buymeacoffee.com/elkentaro/leyebimeji",
+      "domain": "buymeacoffee.com",
+      "bookmarkCount": 48,
+      "summary": "大漏洩祭りが進行する中、あいも変わらず「ホワイトハッカー」がメディアでも政府筋でも話題になっている。 はっきり言おう。「ホワイトハッカー」はダサい。「セキュリティトップガン」はもっとダサいが、その少し下あたりに「ホワイトハッカー」は存在する。 なぜダサいのか。それはそもそも「ハッカー」というのは、...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/buymeacoffee.com/elkentaro/leyebimeji",
       "comments": [
         {
-          "user": "htnmiki",
-          "comment": "「サイゼでいい？」でいいのでは",
+          "user": "kei_1010",
+          "comment": "ダサく感じるよな。でも今さら名称を変えられる気もしない。「ギガが減る」とかもダサいけど浸透してるし、割り切るしか無いんだろうな。ダサいけど。",
           "tags": [],
-          "timestamp": "2026/11/23 15:43"
+          "timestamp": "2026/11/24 08:37"
         },
         {
-          "user": "T-anal",
-          "comment": "客引きみたいなもので無視でよい。しつこいようなら警察に通報。しつこい客引きは条例違反になるので、無視したら基本付いて来ないけど。",
+          "user": "zakinco",
+          "comment": "「会社はお前をプロとして見ているから給料を払う。プロなら結果を出して当たり前だ。結果を出せないなら、それはプロじゃない。仕事のアマチュアだ」アウト。うちは労基法やってないんで感。",
           "tags": [],
-          "timestamp": "2026/11/23 15:37"
+          "timestamp": "2026/11/24 08:28"
         },
         {
-          "user": "valinst",
-          "comment": "いやいや、誰やねんってお姉さん暇なん？みたいに談笑する気がする、おっさんなら無視するけど",
-          "tags": [],
-          "timestamp": "2026/11/23 15:32"
+          "user": "IGA-OS",
+          "comment": "“プロに必要なのは称号ではなく、能力を発揮できる環境と、結果に対する責任だ。”向き合う人々が評価される世界になりますように",
+          "tags": [
+            "security",
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/24 08:26"
         },
         {
-          "user": "nin_nikun",
-          "comment": "サイゼで良ければいいですよ、ぐらいで反応見ろ",
+          "user": "vuchi",
+          "comment": "「フルスタックエンジニア」も同じダサさを感じたけど慣れた。いずれ慣れるだろう。",
           "tags": [],
-          "timestamp": "2026/11/23 15:23"
+          "timestamp": "2026/11/24 08:07"
         },
         {
-          "user": "g-25",
-          "comment": "ワイも田舎モンだけど都会に行くと田舎モンと秒でバレるのね。確かにオシャレと無縁なしょぼくれたおっさんだが都会にだっているでしょそんなおっさん。一体何が違うんだろ",
+          "user": "hasiduki",
+          "comment": "そうだ！！！！！！仕事しろ！！！！！！！！！",
           "tags": [],
-          "timestamp": "2026/11/23 14:52"
+          "timestamp": "2026/11/24 08:06"
         },
         {
-          "user": "oreuji",
-          "comment": "この情報だけであ〜あの辺かな…と思い出す地域で府内の出身地割れそう",
+          "user": "kekera",
+          "comment": "もっともな話ではあるが、世の中の大勢の人に呼びかけるにはわかりやすさが必要で…わかりやすさというのは大抵本質からズレているし、ダサいものになるのよ。これはもう、ステージが違うのですよ。",
           "tags": [],
-          "timestamp": "2026/11/23 14:41"
+          "timestamp": "2026/11/24 07:53"
         }
       ],
-      "fetchedAt": "2026-11-23T07:01:21.509726+00:00"
+      "fetchedAt": "2026-11-23T23:41:24.983780+00:00"
     },
     {
-      "id": "h_ec0a0fc2",
-      "title": "spec as code ではなく、code as spec — 仕様書のように書かれたコードを正にする",
-      "url": "https://zenn.dev/ruri/articles/code-as-spec",
-      "domain": "zenn.dev",
+      "id": "h_197a3ed1",
+      "title": "ジェンスン・フアン氏、11日間の不在の後、NVIDIAのCEOに返り咲き | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/11/23/5793.html",
+      "domain": "techno-edge.net",
+      "bookmarkCount": 44,
+      "summary": "NVIDIAの創業者であるジェンスン・フアン氏が、社長兼CEO（代表取締役）として復帰しました。 NVIDIAが2026年11月23日（米国時間）、取締役会が全会一致で決定したとして発表。取締役会はフアン氏との協議・面談を経て、同氏の誠実さとNVIDIAを率いる能力に納得したとして復帰を承認。米国の国家安全保障上のリスクをも...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/23/5793.html",
+      "comments": [
+        {
+          "user": "zakinco",
+          "comment": "馬鹿だと思う。米国を危険にさらした点を議会で追及されればいい。",
+          "tags": [],
+          "timestamp": "2026/11/24 08:29"
+        },
+        {
+          "user": "restroom",
+          "comment": "実質休職11日",
+          "tags": [],
+          "timestamp": "2026/11/24 08:22"
+        },
+        {
+          "user": "sushisashimisushisashimi",
+          "comment": "いいんだ、戻れば(株価が)",
+          "tags": [
+            "いいね！",
+            "？？"
+          ],
+          "timestamp": "2026/11/24 07:54"
+        },
+        {
+          "user": "tuka8s",
+          "comment": "鈴がつけられたということかな",
+          "tags": [],
+          "timestamp": "2026/11/24 07:46"
+        },
+        {
+          "user": "kohakuirono",
+          "comment": "議会の公聴会がこれから始まるし、民主党だけじゃなく共和党の議員からも批判の声が上がってるし状況次第ではまた解任になる可能性もあるだろうに。それに循環取引の件も限界に来てるし何も解決していない。",
+          "tags": [],
+          "timestamp": "2026/11/24 07:44"
+        },
+        {
+          "user": "mventura",
+          "comment": "この報道についてはスキャンダルと安全保障問題が一緒に拡散しているが、何が確定した事実で、何が疑惑のままなのか整理した方がいい。",
+          "tags": [
+            "半導体"
+          ],
+          "timestamp": "2026/11/24 07:35"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:25.640750+00:00"
+    },
+    {
+      "id": "h_6efc5875",
+      "title": "AWS Emulator を使用してローカルで AWS に対してアプリケーションをテストする | Amazon Web Services",
+      "url": "https://aws.amazon.com/jp/blogs/news/test-your-applications-against-aws-locally-with-aws-emulator/",
+      "domain": "aws.amazon.com",
       "bookmarkCount": 32,
-      "summary": "表の最後の行が、自然言語でしか書けない部分です。何のために作っているのか、どこまでを作らないのか、まだ作っていないものは何か。これはコードをいくら読んでも出てきません。「コードが正」を進めすぎて、ここまで消してしまうと危険です。消した次の日に、エージェントが「やらない」と決めた機能を親切に作り始...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/ruri/articles/code-as-spec",
+      "summary": "AWS は、2026 Gartner Magic Quadrant の SCPS 部門でリーダーに選ばれました",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/test-your-applications-against-aws-locally-with-aws-emulator/",
       "comments": [
-        {
-          "user": "labor9",
-          "comment": "外部委託ではなければ①大枠の仕様を書く。②(元になりそうなソースを渡す)。③コーディングで詰める。④レビューで確定する。⑤設計書に落とし込む。いつもこの流れ。③と⑤が今やAIポジション。",
-          "tags": [],
-          "timestamp": "2026/11/23 14:21"
-        },
-        {
-          "user": "diveintounlimit",
-          "comment": "別にAI時代になったからってわけでもなく前からの話だよねという気がする。",
-          "tags": [],
-          "timestamp": "2026/11/23 12:47"
-        },
         {
           "user": "tmatsuu",
-          "comment": "コードのように書かれた仕様書より、仕様書のように書かれたコードを。一理ある。",
+          "comment": "日本語公式ブログにきてた。",
           "tags": [],
-          "timestamp": "2026/11/23 09:56"
+          "timestamp": "2026/11/23 23:14"
+        },
+        {
+          "user": "Ohi",
+          "comment": "aws 環境をローカルで再現して、デプロイせずに動作確認可能！いいね。",
+          "tags": [
+            "dev",
+            "tool"
+          ],
+          "timestamp": "2026/11/13 20:48"
         }
       ],
-      "fetchedAt": "2026-11-23T07:01:23.241407+00:00"
+      "fetchedAt": "2026-11-23T23:41:22.160725+00:00"
+    },
+    {
+      "id": "h_5d19f116",
+      "title": "NECの「バザールでござーる」今日で引退。約35年の歴史に幕",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2158462.html",
+      "domain": "pc.watch.impress.co.jp",
+      "bookmarkCount": 12,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2158462.html",
+      "comments": [
+        {
+          "user": "hobo_king",
+          "comment": "虚構新聞がネタにしそう。",
+          "tags": [
+            "歴史"
+          ],
+          "timestamp": "2026/11/24 08:34"
+        },
+        {
+          "user": "nguyen-oi",
+          "comment": "財津一郎の声と明治大グリークラブのCMが脳内再生されるわ…PC-98時代からの生き証人がまた引退するのか",
+          "tags": [],
+          "timestamp": "2026/11/24 08:34"
+        },
+        {
+          "user": "iwiwtwy",
+          "comment": "葬式やろうよ！ノリで行くから！",
+          "tags": [],
+          "timestamp": "2026/11/24 08:29"
+        },
+        {
+          "user": "sukekyo",
+          "comment": "PCエンジンで出てたバザールでござーるのゲームでござーるをいまこそ復刻しよう！（いまか？）",
+          "tags": [],
+          "timestamp": "2026/11/24 06:20"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:22.700829+00:00"
+    },
+    {
+      "id": "h_bd8bed6b",
+      "title": "競馬予想AI Agentを自分専用競馬新聞プロダクトとして再構築した - PoCから本番への華麗なる移行のはなし - Lean Baseball",
+      "url": "https://shinyorke.hatenablog.com/entry/keiba-ai-agent-product",
+      "domain": "shinyorke.hatenablog.com",
+      "bookmarkCount": 11,
+      "summary": "秋のG1絶不調マンです, エリザベス女王杯しか取っていません. そんな話はさておき, 私はこの春から競馬予想AI Agent「ai-shugoro（仮）」を開発しPoC的な運用をしています. 競馬好き歴30年の自分が予想スタイルをAI Agentにオンボーディングした結果の話 競馬予想AI Agentは何をアウトカムとして残したか？春G1を振り返...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/shinyorke.hatenablog.com/entry/keiba-ai-agent-product",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "自分専用に割り切って権限周りバッサリ切る判断ほんと大事 / なお肝心のマイルCSはしっかり外してて草",
+          "tags": [],
+          "timestamp": "2026/11/24 07:08"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:23.395777+00:00"
+    },
+    {
+      "id": "h_ce242351",
+      "title": "かつて数学を学んでいたエンジニアがAIと数学について思うこと",
+      "url": "https://zenn.dev/339/articles/8efd1f1baec355",
+      "domain": "zenn.dev",
+      "bookmarkCount": 11,
+      "summary": "数学における有名な賞であるフィールズ賞を受賞した人々が連名でAIの濫用についての懸念を表明している。私は個人としてこの内容を支持するが、しかし数学者たちとその学生など、いわゆる数学コミュニティが主題の一つとなっているため、「自分たちの都合で問題提起をしているだけじゃないか」という見方もできてしまう...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/339/articles/8efd1f1baec355",
+      "comments": [
+        {
+          "user": "gosho-kazuya",
+          "comment": "現実の問題は解けるけど新しい理論の構築はできない",
+          "tags": [],
+          "timestamp": "2026/09/16 11:22"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:23.941377+00:00"
+    },
+    {
+      "id": "h_d982fbf9",
+      "title": "SELECTしかしていないのに、PostgreSQLのマイグレーションがロック待ちで失敗した話",
+      "url": "https://zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
+      "domain": "zenn.dev",
+      "bookmarkCount": 11,
+      "summary": "前提 DB：Amazon Aurora PostgreSQL 16 TL;DR SELECTしかしていないトランザクションが放置され、リリース時のマイグレーションがロック待ちで失敗した PostgreSQLのロックは「共有」「排他」の2種類ではなく、SELECTが取るACCESS SHAREは REINDEX などが要求するACCESS EXCLUSIVEを止める トランザクションは最小限に分...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
+      "comments": [
+        {
+          "user": "tmatsuu",
+          "comment": "そう、これ自分も昔ハマったことがある。ちなみにMySQLも同様の制御になっているはず。",
+          "tags": [],
+          "timestamp": "2026/11/23 21:02"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:24.483085+00:00"
+    },
+    {
+      "id": "h_957cbac7",
+      "title": "Mutex poisoning is not for everyone",
+      "url": "https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html",
+      "domain": "bertptrs.nl",
+      "bookmarkCount": 10,
+      "summary": "After some recent discussion on the topic of mutex poisoning and notably a blog post that I thought was interesting, thoughtful, exhaustive, yet completely disagreed with, I wanted to comment on the debate myself. To me, poisoning-by-defaul",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html",
+      "comments": [
+        {
+          "user": "nguyen-oi",
+          "comment": "RustのMutexデフォルトpoisoningは吐かれるアセンブリのオーバーヘッド重いな / 結局みんなparking_lot使っちゃうやつ",
+          "tags": [],
+          "timestamp": "2026/11/24 07:08"
+        },
+        {
+          "user": "syu-m-5151",
+          "comment": "panic後の不整合を検知するMutexのpoisoningは、エラーを無視しても追跡処理が残る。必要な所だけラッパーで足す案と、全ロックで払う費用の比較が面白い。不変条件を壊す時は検知を捨てない。",
+          "tags": [
+            "#nwiizoがいいぞと思った"
+          ],
+          "timestamp": "2026/11/24 06:44"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:22.969419+00:00"
+    },
+    {
+      "id": "h_05f165f9",
+      "title": "iPhoneに乗り換えてでも使う価値があるかも!? 新型センサー搭載「Apple Watch Series 12」を使ってみた",
+      "url": "https://k-tai.watch.impress.co.jp/docs/review/2157103.html",
+      "domain": "k-tai.watch.impress.co.jp",
+      "bookmarkCount": 9,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/review/2157103.html",
+      "comments": [
+        {
+          "user": "kotaponx",
+          "comment": "10日ぐらい保って欲しいんだよな……全個体電池とかそういうレベルじゃ無理か。",
+          "tags": [],
+          "timestamp": "2026/11/24 08:28"
+        },
+        {
+          "user": "wnd_x",
+          "comment": "それつけてる人見るとうわって思う。恥ずかしい",
+          "tags": [],
+          "timestamp": "2026/11/24 08:16"
+        },
+        {
+          "user": "kagobon",
+          "comment": "まだ最大でも38時間しか持たないのでは腕時計としては使えない。アポーの中の人も分かっているのか生体トラッキングデバイス色を全力で強めにきてる。しかし、強めれば強める程バッテリーライフの短さが首を締める。",
+          "tags": [
+            "Apple Watch"
+          ],
+          "timestamp": "2026/11/24 07:40"
+        }
+      ],
+      "fetchedAt": "2026-11-23T23:41:23.704055+00:00"
+    },
+    {
+      "id": "h_bf9e5a57",
+      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
+      "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+      "domain": "publickey1.jp",
+      "bookmarkCount": 4,
+      "summary": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能 Omarchyは同氏が提唱する「Omacom」（Omakase Computing：おまかせコンピューティングの略）の考え方を基に実装されたLinux OSで、DHH氏によって選択され...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
+      "comments": [],
+      "fetchedAt": "2026-11-23T23:41:25.247393+00:00"
     }
   ],
-  "lastCollection": "2026-11-23T07:01:25.124890+00:00"
+  "lastCollection": "2026-11-23T23:41:25.640774+00:00"
 }
