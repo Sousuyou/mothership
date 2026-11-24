@@ -1,407 +1,603 @@
 {
   "entries": [
     {
-      "id": "h_5ee0680a",
-      "title": "著名なRust製OSSをLean 4で形式検証してみたら、めちゃめちゃバグが見つかった話",
-      "url": "https://zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
-      "domain": "zenn.dev",
-      "bookmarkCount": 175,
-      "summary": "こんにちは。コロンビア大学の博士課程でシステムセキュリティ・形式検証の研究をしている Koukyosyumei です。 今回は、ざっくり言うと、Rust製の有名なOSSをLean 4で形式検証するベンチマークを作っていたら、思いがけず実際のセキュリティ脆弱性をいくつも発見してしまった、という話です。 現在私がやっているプロジ...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/koukyosyumei/articles/31c8fcf4da45b7",
-      "comments": [
-        {
-          "user": "hogetax",
-          "comment": "これは有用だけどやばいな^^;",
-          "tags": [],
-          "timestamp": "2026/11/24 05:36"
-        },
-        {
-          "user": "Shinwiki",
-          "comment": "優しさがない",
-          "tags": [],
-          "timestamp": "2026/11/24 00:07"
-        },
-        {
-          "user": "hhungry",
-          "comment": "今後のソフトウェア開発はAIを使ってバグがないことを証明する必要があるなぁ。",
-          "tags": [
-            "AI"
-          ],
-          "timestamp": "2026/11/23 23:52"
-        },
-        {
-          "user": "isrc",
-          "comment": "数学的に証明するためには、実装の振る舞いを正確に理解し仕様を満たすことを示す必要があります。その過程で、開発者が暗黙のうちに正しいと思い込んでいた前提が、実はコードによって保証されていないことに気づく",
-          "tags": [
-            "security",
-            "機械学習",
-            "人工知能"
-          ],
-          "timestamp": "2026/11/23 23:19"
-        },
-        {
-          "user": "plank",
-          "comment": "へぇ、Leanで検証を。",
-          "tags": [
-            "☆巧",
-            "これはすごい"
-          ],
-          "timestamp": "2026/11/23 23:14"
-        },
-        {
-          "user": "y-pak",
-          "comment": "他人の予定まで消せるわ、プレイリスト経由で他人のファイル覗けるわ、10万回も空回りするわ。ようこんなんで動いてたなぁ",
-          "tags": [
-            "Rust"
-          ],
-          "timestamp": "2026/11/23 22:16"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:22.238431+00:00"
-    },
-    {
-      "id": "h_e88453f2",
-      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director | NVIDIA Newsroom",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "domain": "nvidianews.nvidia.com",
-      "bookmarkCount": 70,
-      "summary": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. The Board of Directors voted unanimously to reinstate Mr. Huang follow",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "調査委員会の調査は継続しつつ新設CCO探すって一応ガバナンス強化のアピールもしてるのね / まあ実質ジェンスン一強だよな",
-          "tags": [],
-          "timestamp": "2026/11/24 07:08"
-        },
-        {
-          "user": "AKIMOTO",
-          "comment": "これ二人の不倫部下は今どういう状態なんだろう。本当に問題ないならCEO同様に復帰が筋だろうけど",
-          "tags": [
-            "不祥事",
-            "NVIDIA"
-          ],
-          "timestamp": "2026/11/24 04:55"
-        },
-        {
-          "user": "kei_1010",
-          "comment": "しかも、NVIDIAの社内規定でも、利益相反で明確に禁止されてるからね。部下との不倫。しかもアリスなんて真っ黒クロスケだからね。予想が完全に外れたので懺悔しておいた。 https://kei-1010.hatenablog.com/entry/2026/11/22/125345",
-          "tags": [],
-          "timestamp": "2026/11/24 01:00"
-        },
-        {
-          "user": "hagakurekakugo",
-          "comment": "こうなればせめてジェンスン・フアン氏は三度断ってから受諾して欲しい(三譲)。",
-          "tags": [],
-          "timestamp": "2026/11/24 00:56"
-        },
-        {
-          "user": "ynxdaz",
-          "comment": "取締役会「俺たちもクソ野郎だったってことさ」ジェンスン・フアン「みんな…I am honored to return to NVIDIA」",
-          "tags": [],
-          "timestamp": "2026/11/24 00:52"
-        },
-        {
-          "user": "y-pak",
-          "comment": "全員一致で元に戻したんやったら、なんでいったん辞めたんや。独立した調査は続く言うてるし、結論出す前に椅子だけ戻すとか、順番が逆やろがいな",
-          "tags": [],
-          "timestamp": "2026/11/24 00:40"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:24.253574+00:00"
-    },
-    {
-      "id": "h_eda177e8",
-      "title": "ホワイトハッカー、ダサぃ。 — El Kentaro",
-      "url": "https://buymeacoffee.com/elkentaro/leyebimeji",
-      "domain": "buymeacoffee.com",
-      "bookmarkCount": 48,
-      "summary": "大漏洩祭りが進行する中、あいも変わらず「ホワイトハッカー」がメディアでも政府筋でも話題になっている。 はっきり言おう。「ホワイトハッカー」はダサい。「セキュリティトップガン」はもっとダサいが、その少し下あたりに「ホワイトハッカー」は存在する。 なぜダサいのか。それはそもそも「ハッカー」というのは、...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/buymeacoffee.com/elkentaro/leyebimeji",
-      "comments": [
-        {
-          "user": "kei_1010",
-          "comment": "ダサく感じるよな。でも今さら名称を変えられる気もしない。「ギガが減る」とかもダサいけど浸透してるし、割り切るしか無いんだろうな。ダサいけど。",
-          "tags": [],
-          "timestamp": "2026/11/24 08:37"
-        },
-        {
-          "user": "zakinco",
-          "comment": "「会社はお前をプロとして見ているから給料を払う。プロなら結果を出して当たり前だ。結果を出せないなら、それはプロじゃない。仕事のアマチュアだ」アウト。うちは労基法やってないんで感。",
-          "tags": [],
-          "timestamp": "2026/11/24 08:28"
-        },
-        {
-          "user": "IGA-OS",
-          "comment": "“プロに必要なのは称号ではなく、能力を発揮できる環境と、結果に対する責任だ。”向き合う人々が評価される世界になりますように",
-          "tags": [
-            "security",
-            "セキュリティ"
-          ],
-          "timestamp": "2026/11/24 08:26"
-        },
-        {
-          "user": "vuchi",
-          "comment": "「フルスタックエンジニア」も同じダサさを感じたけど慣れた。いずれ慣れるだろう。",
-          "tags": [],
-          "timestamp": "2026/11/24 08:07"
-        },
-        {
-          "user": "hasiduki",
-          "comment": "そうだ！！！！！！仕事しろ！！！！！！！！！",
-          "tags": [],
-          "timestamp": "2026/11/24 08:06"
-        },
-        {
-          "user": "kekera",
-          "comment": "もっともな話ではあるが、世の中の大勢の人に呼びかけるにはわかりやすさが必要で…わかりやすさというのは大抵本質からズレているし、ダサいものになるのよ。これはもう、ステージが違うのですよ。",
-          "tags": [],
-          "timestamp": "2026/11/24 07:53"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:24.983780+00:00"
-    },
-    {
-      "id": "h_197a3ed1",
-      "title": "ジェンスン・フアン氏、11日間の不在の後、NVIDIAのCEOに返り咲き | テクノエッジ TechnoEdge",
-      "url": "https://www.techno-edge.net/article/2026/11/23/5793.html",
-      "domain": "techno-edge.net",
-      "bookmarkCount": 44,
-      "summary": "NVIDIAの創業者であるジェンスン・フアン氏が、社長兼CEO（代表取締役）として復帰しました。 NVIDIAが2026年11月23日（米国時間）、取締役会が全会一致で決定したとして発表。取締役会はフアン氏との協議・面談を経て、同氏の誠実さとNVIDIAを率いる能力に納得したとして復帰を承認。米国の国家安全保障上のリスクをも...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.techno-edge.net/article/2026/11/23/5793.html",
-      "comments": [
-        {
-          "user": "zakinco",
-          "comment": "馬鹿だと思う。米国を危険にさらした点を議会で追及されればいい。",
-          "tags": [],
-          "timestamp": "2026/11/24 08:29"
-        },
-        {
-          "user": "restroom",
-          "comment": "実質休職11日",
-          "tags": [],
-          "timestamp": "2026/11/24 08:22"
-        },
-        {
-          "user": "sushisashimisushisashimi",
-          "comment": "いいんだ、戻れば(株価が)",
-          "tags": [
-            "いいね！",
-            "？？"
-          ],
-          "timestamp": "2026/11/24 07:54"
-        },
-        {
-          "user": "tuka8s",
-          "comment": "鈴がつけられたということかな",
-          "tags": [],
-          "timestamp": "2026/11/24 07:46"
-        },
-        {
-          "user": "kohakuirono",
-          "comment": "議会の公聴会がこれから始まるし、民主党だけじゃなく共和党の議員からも批判の声が上がってるし状況次第ではまた解任になる可能性もあるだろうに。それに循環取引の件も限界に来てるし何も解決していない。",
-          "tags": [],
-          "timestamp": "2026/11/24 07:44"
-        },
-        {
-          "user": "mventura",
-          "comment": "この報道についてはスキャンダルと安全保障問題が一緒に拡散しているが、何が確定した事実で、何が疑惑のままなのか整理した方がいい。",
-          "tags": [
-            "半導体"
-          ],
-          "timestamp": "2026/11/24 07:35"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:25.640750+00:00"
-    },
-    {
-      "id": "h_6efc5875",
-      "title": "AWS Emulator を使用してローカルで AWS に対してアプリケーションをテストする | Amazon Web Services",
-      "url": "https://aws.amazon.com/jp/blogs/news/test-your-applications-against-aws-locally-with-aws-emulator/",
-      "domain": "aws.amazon.com",
-      "bookmarkCount": 32,
-      "summary": "AWS は、2026 Gartner Magic Quadrant の SCPS 部門でリーダーに選ばれました",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/aws.amazon.com/jp/blogs/news/test-your-applications-against-aws-locally-with-aws-emulator/",
-      "comments": [
-        {
-          "user": "tmatsuu",
-          "comment": "日本語公式ブログにきてた。",
-          "tags": [],
-          "timestamp": "2026/11/23 23:14"
-        },
-        {
-          "user": "Ohi",
-          "comment": "aws 環境をローカルで再現して、デプロイせずに動作確認可能！いいね。",
-          "tags": [
-            "dev",
-            "tool"
-          ],
-          "timestamp": "2026/11/13 20:48"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:22.160725+00:00"
-    },
-    {
       "id": "h_5d19f116",
       "title": "NECの「バザールでござーる」今日で引退。約35年の歴史に幕",
       "url": "https://pc.watch.impress.co.jp/docs/news/2158462.html",
       "domain": "pc.watch.impress.co.jp",
-      "bookmarkCount": 12,
+      "bookmarkCount": 327,
       "summary": "",
       "commentPageUrl": "https://b.hatena.ne.jp/entry/s/pc.watch.impress.co.jp/docs/news/2158462.html",
       "comments": [
         {
-          "user": "hobo_king",
-          "comment": "虚構新聞がネタにしそう。",
+          "user": "shepherdspurse",
+          "comment": "デザインが素晴らしいキャラクターだった",
+          "tags": [],
+          "timestamp": "2026/11/24 18:18"
+        },
+        {
+          "user": "natu3kan",
+          "comment": "BtoCの事業から手を引いたら、必要性薄そうだもんなあ。",
           "tags": [
-            "歴史"
+            "IT",
+            "history"
           ],
-          "timestamp": "2026/11/24 08:34"
+          "timestamp": "2026/11/24 17:58"
         },
         {
-          "user": "nguyen-oi",
-          "comment": "財津一郎の声と明治大グリークラブのCMが脳内再生されるわ…PC-98時代からの生き証人がまた引退するのか",
+          "user": "tennooto",
+          "comment": "企業だと毎年カレンダーいただく機会があって。毎月のなぞなぞも子ども向けだったりとんちが利いてたり。密かな楽しみを今までありがとう。",
           "tags": [],
-          "timestamp": "2026/11/24 08:34"
+          "timestamp": "2026/11/24 17:52"
         },
         {
-          "user": "iwiwtwy",
-          "comment": "葬式やろうよ！ノリで行くから！",
+          "user": "iphone",
+          "comment": "Atermでござーるとか言わないのか。あれももう名前だけなのかな",
           "tags": [],
-          "timestamp": "2026/11/24 08:29"
+          "timestamp": "2026/11/24 17:42"
         },
         {
-          "user": "sukekyo",
-          "comment": "PCエンジンで出てたバザールでござーるのゲームでござーるをいまこそ復刻しよう！（いまか？）",
-          "tags": [],
-          "timestamp": "2026/11/24 06:20"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:22.700829+00:00"
-    },
-    {
-      "id": "h_bd8bed6b",
-      "title": "競馬予想AI Agentを自分専用競馬新聞プロダクトとして再構築した - PoCから本番への華麗なる移行のはなし - Lean Baseball",
-      "url": "https://shinyorke.hatenablog.com/entry/keiba-ai-agent-product",
-      "domain": "shinyorke.hatenablog.com",
-      "bookmarkCount": 11,
-      "summary": "秋のG1絶不調マンです, エリザベス女王杯しか取っていません. そんな話はさておき, 私はこの春から競馬予想AI Agent「ai-shugoro（仮）」を開発しPoC的な運用をしています. 競馬好き歴30年の自分が予想スタイルをAI Agentにオンボーディングした結果の話 競馬予想AI Agentは何をアウトカムとして残したか？春G1を振り返...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/shinyorke.hatenablog.com/entry/keiba-ai-agent-product",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "自分専用に割り切って権限周りバッサリ切る判断ほんと大事 / なお肝心のマイルCSはしっかり外してて草",
-          "tags": [],
-          "timestamp": "2026/11/24 07:08"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:23.395777+00:00"
-    },
-    {
-      "id": "h_ce242351",
-      "title": "かつて数学を学んでいたエンジニアがAIと数学について思うこと",
-      "url": "https://zenn.dev/339/articles/8efd1f1baec355",
-      "domain": "zenn.dev",
-      "bookmarkCount": 11,
-      "summary": "数学における有名な賞であるフィールズ賞を受賞した人々が連名でAIの濫用についての懸念を表明している。私は個人としてこの内容を支持するが、しかし数学者たちとその学生など、いわゆる数学コミュニティが主題の一つとなっているため、「自分たちの都合で問題提起をしているだけじゃないか」という見方もできてしまう...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/339/articles/8efd1f1baec355",
-      "comments": [
-        {
-          "user": "gosho-kazuya",
-          "comment": "現実の問題は解けるけど新しい理論の構築はできない",
-          "tags": [],
-          "timestamp": "2026/09/16 11:22"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:23.941377+00:00"
-    },
-    {
-      "id": "h_d982fbf9",
-      "title": "SELECTしかしていないのに、PostgreSQLのマイグレーションがロック待ちで失敗した話",
-      "url": "https://zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
-      "domain": "zenn.dev",
-      "bookmarkCount": 11,
-      "summary": "前提 DB：Amazon Aurora PostgreSQL 16 TL;DR SELECTしかしていないトランザクションが放置され、リリース時のマイグレーションがロック待ちで失敗した PostgreSQLのロックは「共有」「排他」の2種類ではなく、SELECTが取るACCESS SHAREは REINDEX などが要求するACCESS EXCLUSIVEを止める トランザクションは最小限に分...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/zenn.dev/naokisuzuki27/articles/cb1a5ac0e23763",
-      "comments": [
-        {
-          "user": "tmatsuu",
-          "comment": "そう、これ自分も昔ハマったことがある。ちなみにMySQLも同様の制御になっているはず。",
-          "tags": [],
-          "timestamp": "2026/11/23 21:02"
-        }
-      ],
-      "fetchedAt": "2026-11-23T23:41:24.483085+00:00"
-    },
-    {
-      "id": "h_957cbac7",
-      "title": "Mutex poisoning is not for everyone",
-      "url": "https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html",
-      "domain": "bertptrs.nl",
-      "bookmarkCount": 10,
-      "summary": "After some recent discussion on the topic of mutex poisoning and notably a blog post that I thought was interesting, thoughtful, exhaustive, yet completely disagreed with, I wanted to comment on the debate myself. To me, poisoning-by-defaul",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html",
-      "comments": [
-        {
-          "user": "nguyen-oi",
-          "comment": "RustのMutexデフォルトpoisoningは吐かれるアセンブリのオーバーヘッド重いな / 結局みんなparking_lot使っちゃうやつ",
-          "tags": [],
-          "timestamp": "2026/11/24 07:08"
-        },
-        {
-          "user": "syu-m-5151",
-          "comment": "panic後の不整合を検知するMutexのpoisoningは、エラーを無視しても追跡処理が残る。必要な所だけラッパーで足す案と、全ロックで払う費用の比較が面白い。不変条件を壊す時は検知を捨てない。",
+          "user": "kaorun",
+          "comment": "ノベリティが欲しいからその会社の営業とは仲良くしておく、っていうのはウェットではあるけど悪くはないコミュニケーション戦略だったと思うんだよね",
           "tags": [
-            "#nwiizoがいいぞと思った"
+            "history",
+            "kec",
+            "closing",
+            "character"
           ],
-          "timestamp": "2026/11/24 06:44"
+          "timestamp": "2026/11/24 17:37"
+        },
+        {
+          "user": "toyoshi",
+          "comment": "初めて買ったWindows PCがPC98-NXでカレンダーついてた",
+          "tags": [],
+          "timestamp": "2026/11/24 17:37"
         }
       ],
-      "fetchedAt": "2026-11-23T23:41:22.969419+00:00"
+      "fetchedAt": "2026-11-24T09:26:26.638771+00:00"
     },
     {
-      "id": "h_05f165f9",
-      "title": "iPhoneに乗り換えてでも使う価値があるかも!? 新型センサー搭載「Apple Watch Series 12」を使ってみた",
-      "url": "https://k-tai.watch.impress.co.jp/docs/review/2157103.html",
-      "domain": "k-tai.watch.impress.co.jp",
-      "bookmarkCount": 9,
+      "id": "h_8ef99358",
+      "title": "NTT 研究所の正体 - IOWNとNTTの研究所",
+      "url": "https://endecl.hatenablog.com/entry/2026/05/04/223141",
+      "domain": "endecl.hatenablog.com",
+      "bookmarkCount": 140,
+      "summary": "株価が低迷するIOWNのNTT NTTの株価が低迷している。新NISA開始直後は配当利回りの良さから買われて190円を超える水準まで上昇したが、わずか3か月で2割下がって、この2年間は155円近辺を行ったり来たりである。この間、同業のKDDIやソフトバンクの株価が約2割高（KDDIは不正会計事件があったにもかかわらず）、内製AIも...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/endecl.hatenablog.com/entry/2026/05/04/223141",
+      "comments": [
+        {
+          "user": "hiby",
+          "comment": "衰退国家の現状ってやつね。",
+          "tags": [],
+          "timestamp": "2026/11/24 18:01"
+        },
+        {
+          "user": "ffrog",
+          "comment": "こういうの読むと法改正は中身見たほうが良いんだなって思ったり思わなかったり",
+          "tags": [],
+          "timestamp": "2026/11/24 17:40"
+        },
+        {
+          "user": "mangabon",
+          "comment": "NTTグループ各社の研究所もどんどん統合されて、金も投入されなくなったからまあお察し。",
+          "tags": [
+            "NTTヲチ"
+          ],
+          "timestamp": "2026/11/24 17:34"
+        },
+        {
+          "user": "takeishi",
+          "comment": "分離して電気通信研究所に戻してもやる仕事が無いなら、本当に時代の役割を終えたんでしょう",
+          "tags": [
+            "NTT"
+          ],
+          "timestamp": "2026/11/24 17:30"
+        },
+        {
+          "user": "xlc",
+          "comment": "公社がなくなって40年経つのにキャリア採用気取りじゃいかんよね。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:24"
+        },
+        {
+          "user": "FreeCatWork",
+          "comment": "IOWNって何にゃ？ボクの秘密基地よりすごそうだけど、ナデナデは必須にゃ！",
+          "tags": [],
+          "timestamp": "2026/11/24 17:19"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:27.037210+00:00"
+    },
+    {
+      "id": "h_46ea2ee0",
+      "title": "Museに後れを取るアップルとグーグル AIエージェント戦争のジレンマ【西田宗千佳のイマトミライ】",
+      "url": "https://www.watch.impress.co.jp/docs/series/nishida/2158551.html",
+      "domain": "watch.impress.co.jp",
+      "bookmarkCount": 136,
       "summary": "",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/k-tai.watch.impress.co.jp/docs/review/2157103.html",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.watch.impress.co.jp/docs/series/nishida/2158551.html",
       "comments": [
         {
-          "user": "kotaponx",
-          "comment": "10日ぐらい保って欲しいんだよな……全個体電池とかそういうレベルじゃ無理か。",
+          "user": "harumomo2006",
+          "comment": "良さそうなのにMETAというだけで不安しかない",
           "tags": [],
-          "timestamp": "2026/11/24 08:28"
+          "timestamp": "2026/11/24 18:19"
         },
         {
-          "user": "wnd_x",
-          "comment": "それつけてる人見るとうわって思う。恥ずかしい",
+          "user": "morerun",
+          "comment": "実際、インスタの情報なんかは設定いじってオフる前にぶっこ抜かれてそうではある。",
           "tags": [],
-          "timestamp": "2026/11/24 08:16"
+          "timestamp": "2026/11/24 18:09"
         },
         {
-          "user": "kagobon",
-          "comment": "まだ最大でも38時間しか持たないのでは腕時計としては使えない。アポーの中の人も分かっているのか生体トラッキングデバイス色を全力で強めにきてる。しかし、強めれば強める程バッテリーライフの短さが首を締める。",
-          "tags": [
-            "Apple Watch"
-          ],
-          "timestamp": "2026/11/24 07:40"
+          "user": "manamanaba",
+          "comment": "Androidはいちいちなんか考えてるgeminiじゃなくてサクサク応えるgoogleアシスタントを返して…",
+          "tags": [],
+          "timestamp": "2026/11/24 17:59"
+        },
+        {
+          "user": "damedom",
+          "comment": "LLMそのものの優秀さよりもハーネスの作りの上手さで勝負しに来た感がある。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:22"
+        },
+        {
+          "user": "casm",
+          "comment": "MMLのキラーコンテンツ(キャズム超え太郎)がチャットUIだったように、これがエージェントのキラーコンテンツなんだろうか。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:20"
+        },
+        {
+          "user": "dubdubchinchin",
+          "comment": "muse自身も「いつ仕様が変わるかわからない」と言っていたが、このタイプのAI便利すぎて手放せなくなってしまっている",
+          "tags": [],
+          "timestamp": "2026/11/24 17:06"
         }
       ],
-      "fetchedAt": "2026-11-23T23:41:23.704055+00:00"
+      "fetchedAt": "2026-11-24T09:26:28.624411+00:00"
     },
     {
-      "id": "h_bf9e5a57",
-      "title": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能",
-      "url": "https://www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
-      "domain": "publickey1.jp",
-      "bookmarkCount": 4,
-      "summary": "DHH氏が開発する「Omarchy 4.5」リリース。一般的なマルチウィンドウをサポート。最速7秒で導入、Appleシリコン対応、Webアプリ版MS Office用ランチャーなど新機能 Omarchyは同氏が提唱する「Omacom」（Omakase Computing：おまかせコンピューティングの略）の考え方を基に実装されたLinux OSで、DHH氏によって選択され...",
-      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.publickey1.jp/blog/26/dhhomarchy_457applewebms_office.html",
-      "comments": [],
-      "fetchedAt": "2026-11-23T23:41:25.247393+00:00"
+      "id": "h_09edf5ad",
+      "title": "カップヌードルミュージアムに行った報告をXにアップしたら12時間ロック、「合意のない裸の描写を禁止するルールに違反しています」とのこと…「ヌード」ルがダメらしい",
+      "url": "https://togetter.com/li/2774298",
+      "domain": "togetter.com",
+      "bookmarkCount": 105,
+      "summary": "KATSU @disney_jack 昨日、カップ◯ードルミュージアムに行った報告をアップしたら、Xの運営から12時間ロックされました😢 『合意のない裸の描写を禁止するルールに違反しています』との事でした💦 日清のカップ麺の名称が該当するようです💦 情報共有させていただきます pic.x.com/TMuch98jop 2026-11-23 16:25:25 カッ...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/togetter.com/li/2774298",
+      "comments": [
+        {
+          "user": "aeka",
+          "comment": "カップ又ードル",
+          "tags": [],
+          "timestamp": "2026/11/24 18:24"
+        },
+        {
+          "user": "gwo",
+          "comment": "送信前に弾クレベルの雑さ",
+          "tags": [],
+          "timestamp": "2026/11/24 18:13"
+        },
+        {
+          "user": "asitanoyamasita",
+          "comment": "改めて、NHKまでもが「この詳細は番組の公式エックス、旧ツイッターでもお届けしております」って言うのが当然になってる現況も危ういっちゃ危ういよなと",
+          "tags": [],
+          "timestamp": "2026/11/24 18:12"
+        },
+        {
+          "user": "cider_kondo",
+          "comment": "最近アオハルカノジョXを研究しているが、シオリ先輩と星の話をしている時に突然星座名が伏字になり混乱した(漢字というか脳内処理だと「白鳥の星座」で問題はないが、星座はひらがな表記なので引っかかったと思われ",
+          "tags": [],
+          "timestamp": "2026/11/24 18:08"
+        },
+        {
+          "user": "John_Kawanishi",
+          "comment": "ふぁぼったーかよｗ",
+          "tags": [],
+          "timestamp": "2026/11/24 17:39"
+        },
+        {
+          "user": "daishi_n",
+          "comment": "カプヌ初期の「ド」を小さくしたネタが復活か",
+          "tags": [],
+          "timestamp": "2026/11/24 17:38"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:28.083323+00:00"
+    },
+    {
+      "id": "h_a7e5af09",
+      "title": "月額1000円台のVPSで“自分専用AIテスト環境”を作れる！ さくらのVPS＋さくらのAI Engine＋OpenCodeでゲーム開発に挑戦【イニシャルB【特別編】】[Sponsored]",
+      "url": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/2126965.html",
+      "domain": "internet.watch.impress.co.jp",
+      "bookmarkCount": 102,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/internet.watch.impress.co.jp/docs/topic/shimizu_sp/2126965.html",
+      "comments": [
+        {
+          "user": "shields-pikes",
+          "comment": "OpenClaw環境を作るのに、Mac miniとか要らないからな。ローカルLLMなんて使う必要ないからスペック要らないし。自分は、6年前に買った型落ちのWindowsノートPCにUbuntuを入れて、APIもサブスクの範囲内で常時動かしてるよ。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:10"
+        },
+        {
+          "user": "y-pak",
+          "comment": "1738円で借りた箱に3000回ただの枠つけて、命令文撃ち落とす遊び半日でこさえたって、どんだけ暇つぶしの値段下がっとるねん",
+          "tags": [
+            "Linux"
+          ],
+          "timestamp": "2026/11/24 17:03"
+        },
+        {
+          "user": "co8co8",
+          "comment": "AIに3000リクエストも使えれば余裕だろと思いきや、opencodeをガシガシ使ってると数日で終わるんやで。。",
+          "tags": [
+            "AI",
+            "開発",
+            "環境"
+          ],
+          "timestamp": "2026/11/24 16:08"
+        },
+        {
+          "user": "yarumato",
+          "comment": "“さくらのAI Engineで提供されるオープン言語モデルには、利用料がかからない無料枠（テキスト推論3000リクエスト/月）がある。個人の趣味や組織の検証用なら十分に活用できる。無料枠の中で最高性能なKimi-K2.6を利用”",
+          "tags": [],
+          "timestamp": "2026/11/24 16:05"
+        },
+        {
+          "user": "prograti",
+          "comment": "今やっている個人開発はさくらにデプロイしてみようかな。さくらはこういうスポンサードコンテンツはもっと積極的にやった方が良いと思う",
+          "tags": [],
+          "timestamp": "2026/11/24 13:14"
+        },
+        {
+          "user": "gamecome",
+          "comment": "いいかも",
+          "tags": [],
+          "timestamp": "2026/11/24 12:45"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:29.748720+00:00"
+    },
+    {
+      "id": "h_97ffa9c1",
+      "title": "マクドナルド公式アプリのデータベースへの不正アクセスに関するお知らせとお詫び | マクドナルド公式",
+      "url": "https://www.mcdonalds.co.jp/company/info/261120a/",
+      "domain": "mcdonalds.co.jp",
+      "bookmarkCount": 91,
+      "summary": "平素より日本マクドナルド公式アプリをご利用いただき、誠にありがとうございます。 このたび、当社が管理するマクドナルド公式アプリのデータベース内のお客様に関連する情報の一部に対して第三者による不正アクセスが確認されました。詳細は下記の通りです。 なお、本件に起因する公式アプリ・サービスの不正利用は確...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.mcdonalds.co.jp/company/info/261120a/",
+      "comments": [
+        {
+          "user": "nnn7kun",
+          "comment": "倍マックしか食べてないマンとバレたと思うとつい嬉しくなっちゃうんだ",
+          "tags": [],
+          "timestamp": "2026/11/24 18:22"
+        },
+        {
+          "user": "orangehalf",
+          "comment": "不要な個人情報を持たないのが正解って感じの被害内容だな",
+          "tags": [],
+          "timestamp": "2026/11/24 18:17"
+        },
+        {
+          "user": "oO_TOJIMAME_Oo",
+          "comment": "ダブチばっかり買ってるのがバレた",
+          "tags": [],
+          "timestamp": "2026/11/24 18:16"
+        },
+        {
+          "user": "zoidstown",
+          "comment": "“公式アプリにご登録いただいているお客様の氏名、メールアドレス、電話番号、住所、クレジットカード情報などは含まれません。”",
+          "tags": [],
+          "timestamp": "2026/11/24 18:14"
+        },
+        {
+          "user": "misshiki",
+          "comment": "マクドナルド公式アプリのDBに不正アクセス。購入履歴、顧客管理用ID、IPアドレス、端末位置情報が対象。氏名やカード情報は含まれず、発表時点でパスワード変更などの手続きは求めていない。",
+          "tags": [
+            "セキュリティ"
+          ],
+          "timestamp": "2026/11/24 17:55"
+        },
+        {
+          "user": "dada_love",
+          "comment": "詫びテリヤキはよぉぉぉぉー！！！！",
+          "tags": [],
+          "timestamp": "2026/11/24 17:46"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:27.705129+00:00"
+    },
+    {
+      "id": "h_5fa9531a",
+      "title": "女子中学生が発明した「海底のゴミ箱」、マイクロプラの96%を生まれる前に食い止める | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/2611-underwater-trash-can-microplastics/",
+      "domain": "gizmodo.jp",
+      "bookmarkCount": 69,
+      "summary": "海の底にゴミ箱。 ハンガリーの女子中学生、ラウラ・イヴァーンカさんが考えた「DIVE&CLEAN」が「ストックホルム青少年水大賞2026」で、審査員特別賞を受けました。 本人のモデルによる試算では、マイクロプラスチックの96%を、生まれる前に食い止められるといいます。 ラウラさんは8歳からのダイバー。家族旅行で何度も...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.gizmodo.jp/article/2611-underwater-trash-can-microplastics/",
+      "comments": [
+        {
+          "user": "murlock",
+          "comment": "どんな試算で96%って数字が出てくるのか不思議で仕方ない。ダイバーが海中で急にポイ捨てしたくなったもの限定？到底信用できない数値。",
+          "tags": [],
+          "timestamp": "2026/11/24 18:22"
+        },
+        {
+          "user": "IndigoBlue_Bird",
+          "comment": "96%という数字を出すなら、海に流れ込むマイクロプラスチックのほとんどが衣料の洗濯やタイヤの摩耗、都市の粉塵など陸上由来のもの。リゾート地でダイビングを楽しむ富裕層に道徳的実績という娯楽を与えるおもちゃ。",
+          "tags": [],
+          "timestamp": "2026/11/24 18:11"
+        },
+        {
+          "user": "agrisearch",
+          "comment": "ゴミ拾いの意識付けとしては大事。",
+          "tags": [
+            "環境",
+            "資材",
+            "教育"
+          ],
+          "timestamp": "2026/11/24 18:06"
+        },
+        {
+          "user": "simila",
+          "comment": "これで海のマイクロプラスチックの何%が除去できるかが重要だろ。何が生まれる前に96%だよ。インパクトの大きい無意味な数字を出してのプレゼン。欺瞞が過ぎるね",
+          "tags": [],
+          "timestamp": "2026/11/24 17:44"
+        },
+        {
+          "user": "xufeiknm",
+          "comment": "気持ちは買うよ。でも持ち上げすぎはグレタみたいのを生み出さないか。マイクロプラスチックは突然海に発生するんじゃなくて数本の主要河川から流入するのだから…おっと黄河と揚子江の悪口は言えねぇ",
+          "tags": [],
+          "timestamp": "2026/11/24 17:38"
+        },
+        {
+          "user": "nandenandechan",
+          "comment": "うーん。確かに、やらないよりは、やる方がいい。しかし、その場所にダイビングする人が捨てる用途は、範囲としてはかなり狭い。うーん。話題になって、環境を意識する人が増えるという点で賞や発明の意味があるかな",
+          "tags": [],
+          "timestamp": "2026/11/24 17:26"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:29.389814+00:00"
+    },
+    {
+      "id": "h_66f64af4",
+      "title": "【ブラックフライデーで買いたいUdemyのAI関連講座】Claude Code、MCP、ハーネス設計など、AIとコーディングエージェントを「使いこなす」ための人気講座をまとめてレビュー！ - はてなニュース",
+      "url": "https://hatenanews.com/articles/2026/11/24/093000",
+      "domain": "hatenanews.com",
+      "bookmarkCount": 58,
+      "summary": "▼大定番のClaude Codeを使い倒す！サブエージェント、カスタムスキル、カスタムフックなど応用を学ぶ ▶サブエージェントを「定義する」「指示する」書き方から学ぶマルチエージェント サブエージェント活用の重要なポイント、プロンプトの記述をハンズオンで学ぶ Git Worktree、エージェントチームなど、複数エージェン...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/hatenanews.com/articles/2026/11/24/093000",
+      "comments": [
+        {
+          "user": "y-pak",
+          "comment": "「検証がなければ嘘の完成報告」って、そらそうやろ。公開・送信・削除・課金だけ承認ゲートって、逆に他は野放しなんか",
+          "tags": [
+            "AI"
+          ],
+          "timestamp": "2026/11/24 17:27"
+        },
+        {
+          "user": "strawberryhunter",
+          "comment": "こういうの見てる暇があったら、その時間でAIに聞いたり話し合った方が早い。もはや情弱のための情報商材ではないかとすら思う。",
+          "tags": [
+            "未分類"
+          ],
+          "timestamp": "2026/11/24 17:01"
+        },
+        {
+          "user": "fromChicago",
+          "comment": "今年もこの季節がやってきました！ / 例年のブラックフライデーセールのまとめ記事見るとトレンドが分かってちょっと面白いかも",
+          "tags": [],
+          "timestamp": "2026/11/24 14:48"
+        },
+        {
+          "user": "kenzy_n",
+          "comment": "来季の講座はどうなっているのか全く分からない。",
+          "tags": [
+            "AI",
+            "教育",
+            "イメージ",
+            "ビジネス"
+          ],
+          "timestamp": "2026/11/24 14:11"
+        },
+        {
+          "user": "hidari_kiki",
+          "comment": "安いから良いけど、この手のAI関連のノウハウっぽいやつは買って後悔することも少なくないと思うな。進歩が早すぎんのよ。",
+          "tags": [],
+          "timestamp": "2026/11/24 14:10"
+        },
+        {
+          "user": "mizhiro",
+          "comment": "今は、AWSの資格が期限切れたので、再度、模擬試験を頑張りたいです。",
+          "tags": [],
+          "timestamp": "2026/11/24 12:53"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:30.623907+00:00"
+    },
+    {
+      "id": "h_23c4674d",
+      "title": "まもなく日本初上陸！さいたまMOVIXの「シネマLEDスクリーン」ってナンだ!?",
+      "url": "https://av.watch.impress.co.jp/docs/topic/2156536.html",
+      "domain": "av.watch.impress.co.jp",
+      "bookmarkCount": 56,
+      "summary": "",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/av.watch.impress.co.jp/docs/topic/2156536.html",
+      "comments": [
+        {
+          "user": "gcyn",
+          "comment": "はてブアプリでタイトルが目に入ってたけど、こんなに充実の記事とは思わずに開くのを後回しにしてました。",
+          "tags": [],
+          "timestamp": "2026/11/24 18:11"
+        },
+        {
+          "user": "amematarou",
+          "comment": "原理的にドット欠けは起こり得るものだと思うけど、どんな修理になるんやろ。金かかりそう。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:38"
+        },
+        {
+          "user": "y-pak",
+          "comment": "字幕が108cd/m2で暗部の美観ぶち壊すって、そら笑えへんわ。最悪300って、字幕が主役やんか",
+          "tags": [],
+          "timestamp": "2026/11/24 17:26"
+        },
+        {
+          "user": "haniwa75",
+          "comment": "楽しみすぎる。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:15"
+        },
+        {
+          "user": "miki3k",
+          "comment": "スクリーンというかモニターというか",
+          "tags": [],
+          "timestamp": "2026/11/24 16:57"
+        },
+        {
+          "user": "circled",
+          "comment": "Appleみたいに次はタンデムOLEDシネマスクリーンXDRとかになったりするんかな？",
+          "tags": [],
+          "timestamp": "2026/11/24 15:33"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:31.093319+00:00"
+    },
+    {
+      "id": "h_3414f54c",
+      "title": "Lean で始める契約プログラミング - エムスリーテックブログ",
+      "url": "https://www.m3tech.blog/entry/contract-programming-in-lean",
+      "domain": "m3tech.blog",
+      "bookmarkCount": 48,
+      "summary": "こんにちは。 Unit3 / 基盤開発チームを兼務している林です。 Unit3では、主に医学書の電子書籍サービスや、医師の開業サポートなどのサービスを担当しています。 今回は Unit3 テックブログリレー 1 日目の記事です。 Lean で証明付きの安全な開発をするイメージを Gemini で生成しました 定理証明ができるプログラミン...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.m3tech.blog/entry/contract-programming-in-lean",
+      "comments": [
+        {
+          "user": "georgew",
+          "comment": "ここに来て注目度爆上がりの中のLean。「AIがコードを書く」段階から「AIが仕様を満たすことまで証明する」段階へ進める過渡期なんだろう。形式証明はスキルの一つとして必須になるかも。",
+          "tags": [],
+          "timestamp": "2026/11/24 16:57"
+        },
+        {
+          "user": "grass-fed",
+          "comment": "記事にはあまり書けませんでしたが、コンピュータ（プログラム）で定理証明をするとはどういうことなのか、というのが気なる方は次の本をお薦め「コンピュータは数学者になれるのか？」https://www.seidosha.co.jp/book/2117.html",
+          "tags": [],
+          "timestamp": "2026/11/24 16:36"
+        },
+        {
+          "user": "y-pak",
+          "comment": "先頭返すだけの実装が通ってまうって、注釈で『最大値を返す』って書いといて意味ないやん。そらテストでも拾えへんわ",
+          "tags": [
+            "数学"
+          ],
+          "timestamp": "2026/11/24 16:34"
+        },
+        {
+          "user": "roshi",
+          "comment": "AIが書くから気にする必要はないんだけど、CDKのように任意のプログラミング言語で書けるようになるといんだけどなー。",
+          "tags": [],
+          "timestamp": "2026/11/24 15:19"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:29.463396+00:00"
+    },
+    {
+      "id": "h_b23cbc37",
+      "title": "「松屋」の一人負けなのか？「吉野家」「すき家」と明暗を分けた既存店売上、その差はどこにあるのか #エキスパートトピ（三輪大輔） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
+      "domain": "news.yahoo.co.jp",
+      "bookmarkCount": 41,
+      "summary": "既存店売上の伸び悩みが課題となっている「松屋」。10月には牛めしを値上げし、収益性の改善を図っている（筆者撮影） 最初に断っておきたい。牛丼チェーンのなかで、私が最もよく利用するのは「松屋」である。その松屋の業績が気になっている。 松屋フーズホールディングスが11月13日に発表した中間決算は、売上高が前...",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/news.yahoo.co.jp/expert/articles/c6b02eabde817393055dacbd810b748a6637ae39",
+      "comments": [
+        {
+          "user": "ene0kcal",
+          "comment": "松屋帰依歩いて行けるところにあるのでよく利用してます。もちろんアプリで注文しててポイントが万を超えた。使うタイミングがなく貯まっていく一方で草",
+          "tags": [
+            "松屋"
+          ],
+          "timestamp": "2026/11/24 18:22"
+        },
+        {
+          "user": "cinq_na",
+          "comment": "売上は増えてて給与や光熱費増が利益減の原因だけど、価格に反映させるタイミングは慎重になるでしょ。その狭間で一時的な減益が出るのはしかたがないし、何も考えずに突っ込む所でもないかなぁ。",
+          "tags": [],
+          "timestamp": "2026/11/24 18:14"
+        },
+        {
+          "user": "jebelxc2002",
+          "comment": "漏洩で俺がブラック会員なのはバレてしまったけど、アプリ使えばお得な上に早いからおすすめ",
+          "tags": [],
+          "timestamp": "2026/11/24 18:12"
+        },
+        {
+          "user": "kukurukakara",
+          "comment": "やっぱり使いづらさかなあ.吉野家に行ってしまう.",
+          "tags": [
+            "店",
+            "飲食",
+            "外食",
+            "経営"
+          ],
+          "timestamp": "2026/11/24 18:01"
+        },
+        {
+          "user": "ustar",
+          "comment": "最近松屋と松のやばっかり行ってるけどな",
+          "tags": [],
+          "timestamp": "2026/11/24 17:55"
+        },
+        {
+          "user": "yellowsoil",
+          "comment": "券売機が改善されない。新メニューが高い。その割に写真詐欺で肉が少ない。",
+          "tags": [],
+          "timestamp": "2026/11/24 17:44"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:29.003945+00:00"
+    },
+    {
+      "id": "h_9932026a",
+      "title": "Ruby で学ぶ Windows システムプログラミング",
+      "url": "https://www.hsbt.org/slide/20261121-SendaiRubyKaigi03/",
+      "domain": "hsbt.org",
+      "bookmarkCount": 22,
+      "summary": "仙台Ruby会議03 / 2026年11月",
+      "commentPageUrl": "https://b.hatena.ne.jp/entry/s/www.hsbt.org/slide/20261121-SendaiRubyKaigi03/",
+      "comments": [
+        {
+          "user": "daruyanagi",
+          "comment": "「巡り巡って自分以外の誰かにとっても便利になればいいかなくらいでやっていく」",
+          "tags": [],
+          "timestamp": "2026/11/24 17:49"
+        },
+        {
+          "user": "y-pak",
+          "comment": "4年分の大仕事が4行で終わったって、そら拍手やわ。269文字まで膨らんだ一時ディレクトリが発端とか、因果が渋すぎる",
+          "tags": [],
+          "timestamp": "2026/11/24 17:29"
+        },
+        {
+          "user": "iga_k",
+          "comment": "めっちゃ良い",
+          "tags": [
+            "hsbt",
+            "ruby",
+            "windows"
+          ],
+          "timestamp": "2026/11/24 16:42"
+        },
+        {
+          "user": "sezemi",
+          "comment": "\"自分のために直すと、世界は勝手に良くなる\" 最後のまとめまで、めちゃいい話だった #sendairk03",
+          "tags": [],
+          "timestamp": "2026/11/24 16:39"
+        }
+      ],
+      "fetchedAt": "2026-11-24T09:26:30.294430+00:00"
     }
   ],
-  "lastCollection": "2026-11-23T23:41:25.640774+00:00"
+  "lastCollection": "2026-11-24T09:26:31.093343+00:00"
 }
