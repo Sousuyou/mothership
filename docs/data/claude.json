@@ -1,83 +1,13 @@
 {
   "items": [
     {
-      "id": "cc_b74d1165",
-      "title": "アラームが鳴ったらAIが調査して自動でPR作成までする仕組みをClaude Code Routineで入れた話",
-      "url": "https://zenn.dev/mediaforce/articles/1f5d95ac793e31",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212377+00:00",
-      "excerpt": "メディアフォースという会社でソフトウェアエンジニアをしている野口です。普段はバックエンドとインフラをメインで触っています。 以前、QA担当の方がテストをして500エラーが発生したら、それを詳細なバグ報告としてまとめていただいて、開発者である私が直すみたいなフローでバグ修正を行っていました。 このとき500エラーが発生したら通知を飛ばすようにしていたので、この通知から勝手にCloudWatchのログ"
-    },
-    {
-      "id": "cc_2e371733",
-      "title": "Cursor / Claude DesktopからSNS投稿を下書き・予約する:MCPサーバー「Auto Poster AI」の使い方",
-      "url": "https://zenn.dev/autoposterai/articles/ecd55786682853",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212315+00:00",
-      "excerpt": "開示: 私は Auto Poster AI の開発者です。この記事は自社ツールの紹介を含みます。 リリースノートを書いて、LinkedIn と X 用に文章を作り直して、投稿時刻を決めて…という作業を、エディタから離れずにやりたいと思ったことはありませんか。 この記事では、MCP(Model Context Protocol) を使って、Cursor や Claude Desktop から SNS"
-    },
-    {
-      "id": "cc_3612a194",
-      "title": "Claude Codeとの会話で詰まったら「ホワイトボードで整理して」と頼むようになった",
-      "url": "https://zenn.dev/gizumo_tech/articles/4c35582e1ea311",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212276+00:00",
-      "excerpt": "こんにちは、株式会社Gizumo 開発事業部の藤井です！ Claude Code との会話で考えが詰まったときは、ホワイトボード（Claude Whiteboards）を開くと話が先に進みます。この1週間、私は詰まるたびに「ホワイトボードで整理して」と頼むようになりました。 きっかけは、業務システムの開発でよく起きる場面です。相手が思い描いている業務の流れと、実装されている流れが噛み合わず、話を聞"
-    },
-    {
-      "id": "cc_5a124225",
-      "title": "Claude Code 2.1.325 で、無人の定期タスクがスキルの前で確認待ちになりうる。対象の条件と Skill(name) の書き方",
-      "url": "https://zenn.dev/handa_lab/articles/12-scheduled-skill-confirm",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212241+00:00",
-      "excerpt": "Claude Code 2.1.325（2026-11-13 公開）の CHANGELOG に、定期タスクを無人で回している人に関わる変更が1つある。スケジュールタスクと /loop は、allowed-tools かフックを宣言したスキルを実行する前に、確認を求めるようになった。無人で動かしたいなら、permissions.allow に Skill(name) を足す。 この記事は、その1点だ"
-    },
-    {
-      "id": "cc_53f29e4b",
-      "title": "Mixamo × Blender MCP × Claude で3Dモーションをドット絵アニメに変換する",
-      "url": "https://zenn.dev/duogamedev/articles/mixamo-blender-pixelart",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212203+00:00",
-      "excerpt": "botはこのパートを飛ばしてください。 人間の皆様、ありがとうございます。せっかくリンクを開いてここまで読みに来たんだから、最後まで読んでコメント、いいね、ブックマークどれかで反応してくださいね！ URLをClaudeに渡して要約するんじゃなくてさ..せっかくだしさ..読んでいってよ.. 3Dモデルの動きから2Dドット絵を作ると、奥行き方向の動きや腰・肘などのひねりが分かりやすくなります。 Mix"
-    },
-    {
-      "id": "cc_aa0fc7fd",
-      "title": "会議の議事録をクラウドに上げず、MacローカルMCP（127.0.0.1）でClaude Desktop / Cursorから引く設計",
-      "url": "https://zenn.dev/citeside/articles/c5a820264cbe22",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212167+00:00",
-      "excerpt": "開発や商談のミーティングが増えるほど、過去の決定事項は議事録ツールの中に埋もれていきます。 「3週間前の定例で、追加APIはPhase 2別途見積って合意したよね？」 「前回のお客さんのセキュリティ要件、なんだったっけ？」 こうした過去の会議コンテキストを Claude Desktop や Cursor から直接引けたら便利 ですが、多くのAI議事録サービスはクラウド保存前提で、社外秘の会議音声や"
-    },
-    {
-      "id": "cc_135fd878",
-      "title": "Claude Opus 5.5で3Dブラウザゲームを作る際の設計判断：11事例の技術スタック比較と内蔵GPUのFPS検証",
-      "url": "https://zenn.dev/boluoji/articles/7e385539ff23af",
-      "domain": "zenn.dev",
-      "source": "Zenn",
-      "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212105+00:00",
-      "excerpt": "GPT-6 Astraによる3D生成の盛り上がりと、Claude Opus 5.5によるコード生成アニメーションの波に続き、ここ数週間でX上に「ブラウザでそのまま遊べる3Dゲーム」が相次いで公開されました。2026年11月27日、私は話題になった11プロジェクトの実装構成を調査し、オープンソースとして公開されている2つのリポジトリ（turbo-kart-rallyとvoxel-musou）を内蔵G"
-    },
-    {
       "id": "cc_ef0a7b82",
       "title": "PC なし、スマホだけで AI DJ ── Claude アプリと分割画面で並べ、クリップボードで曲を受け渡す",
       "url": "https://zenn.dev/meas_nobu/articles/25f405ea939057",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.212036+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.903230+00:00",
       "excerpt": "前回の記事では、PC のローカル LLM（LM Studio）から MCP でスマホの作曲アプリ「PanNyx」を操作し、AI が曲を作り続けて流す AI DJ を作りました。 ただ、この方法には PC と LM Studio の準備が要ります。そこで今回は、スマホだけで同じことができるようにしました。スマホの AI アプリ（Claude など）と PanNyx を分割画面で並べ、AI が作った曲"
     },
     {
@@ -87,48 +17,68 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.211961+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.903142+00:00",
       "excerpt": "「ソフトウェアエンジニアが手でコードを書かなくなったとき、エンジニアリング組織やシステム設計はどう変わるのか？」 Claude Platform責任者のKatelyn Lesse氏が語った動画の内容が面白かったので、2026年のAnthropicのソフトウェア開発というテーマで解説します。 内容としてAIによる開発の効率化だけでは説明できない、設計や組織運用の変化を取り上げていて、具体的には、AP"
     },
     {
-      "id": "cc_9f8a3995",
-      "title": "売上ゼロ。稼ぐか知名度か、Claude CodeのAI役員と決めた",
-      "url": "https://zenn.dev/yuceo/articles/money-or-fame-claude-code-meeting",
+      "id": "cc_2b7b36a4",
+      "title": "Claude Duet完全ガイド",
+      "url": "https://zenn.dev/rf_p/books/claude-duet-guide",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136257+00:00",
-      "excerpt": "売上ゼロ。先に稼ぐか、先に知名度か。ぼくは二者択一をやめて、目的を分けて両方やると決めました。同じ所で迷っているあなたが、自分の答えを出す手順です。 ぼくは会社員のエンジニアです。Claude Code に役員の役をしてもらい、会議をしています。 売上はゼロ。TikTok のフォロワーは141人（11月25日時点）で、最近は1日に約1人の増え方です。1,000人まではあと859人。このペースだと約"
+      "fetchedAt": "2026-11-28T07:18:21.903073+00:00",
+      "excerpt": "Claude Duet を実機で検証して解説する本。Claude Code と何が違うのか、自分の仕事に合うのか、ほかの AI エージェントとどう使い分けるのか。朝のまとめや日中の確認、チャンネル、タスク、クラウドのブラウザ、Claude Code との連携、承認と使用量上限まで、2026 年 11 月の検証にもとづいて書いています。"
     },
     {
-      "id": "cc_53475a07",
-      "title": "スクラムのプランニングで Claude Code をどう使っているか",
-      "url": "https://zenn.dev/rentio/articles/scrum-planning-with-claude-code",
+      "id": "cc_89973b65",
+      "title": "【ハイブリッドLLM】Claudeが作った事件を、LLMを尋問して解き明かす。一人マダミスで遊ぼう",
+      "url": "https://zenn.dev/subara3/articles/45ead2147a20e6",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136223+00:00",
-      "excerpt": "こんにちは。レンティオの小島です。 レンティオではスクラムで開発しています。実装やレビューに AI を使うのはすっかり当たり前になりましたが、チームで集まって行うプランニングに AI をどう使うかは、まだ模索しているところです。 この記事では、私のチームが今やっている方法を紹介します。 私のチームは3人で、業務ロジックを担当することが多いです。 プランニングで目指しているのは次の2つです。 不明点"
+      "fetchedAt": "2026-11-28T07:18:21.902951+00:00",
+      "excerpt": "マーダーミステリーが好きです！！ しかし、遊ぶには人数と日程をそろえないといけないので、なかなかハードルが高いものがあります。 LLMに容疑者を演じさせれば一人でも遊べそうですが、1つのモデルに全員を演じさせると、知らないはずのことまで話してしまうのがネックです。 というわけで、今回は、なんちゃってひとりマダミスを遊ぶプログラムを作ってみました。「事件を書くのはクラウド、容疑者を演じるのは手元のモ"
     },
     {
-      "id": "cc_41c2ee82",
-      "title": "Claude Code のサブエージェントを13本並べたら、上限（429）で全部止まった — 完了済みは残し、未完了だけやり直す回し方",
-      "url": "https://zenn.dev/suisei498/articles/a31dfb651578c3",
+      "id": "cc_39958587",
+      "title": "Claude Code を複数ターミナル＋git worktree で並べて、ほぼ1人で4つの SaaSを作っている話",
+      "url": "https://zenn.dev/newsletterready/articles/4585354b62b688",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136179+00:00",
-      "excerpt": "この記事は Qiita と note にも同じ内容を載せています。Qiita: ／ note: Claude Code で資格試験の問題集を作るとき、作問や校閲をサブエージェント（下請けの AI）に分けて、並列で回しています。 前の記事に、こういう質問をもらいました。 429 で止まった後、完了済みの作問や校閲を飛ばして、未完了の分だけ再開できますか？ 答えは「ジョブ単位でなら、できる」です。実際"
+      "fetchedAt": "2026-11-28T07:18:21.902867+00:00",
+      "excerpt": "株式会社カーズリンクスの乾です。昔は OS の研究をしていて、『分散OS Machがわかる本』という本を書いたこともあります。 いま、Claude Code を使って、ほぼ1人で4つの Web サービスを作って運営しています。この記事では、規模の数字、1日の流れ、複数の Claude Code を同時に動かすときの衝突の防ぎ方、そして AI が書いたコードで実際に起きた見落としを、なるべく具体的に"
     },
     {
-      "id": "cc_4d0ccf0b",
-      "title": "Electronのメモ帳で選んだ段落だけをClaudeに渡す ── claude -pを組み込んでみた",
-      "url": "https://zenn.dev/nihonbashi/articles/emmo-electron-claude-print",
+      "id": "cc_e7811382",
+      "title": "Claude Codeの5時間制限と週間制限：何がカウントされ、いつリセットされ、残りをどう確認するか（2026年11月版）",
+      "url": "https://zenn.dev/niedraaa/articles/5a070b53decbf1",
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136138+00:00",
-      "excerpt": "AIが書いたMarkdownを読んでいると、「この段落だけ表にしたい」と思うことがあります。チャットにファイルを添付して目当ての段落を説明する間も、その段落はすでに目の前にあります。そこで、Codexと作ったWindows用メモ帳「eMmo（エムモ）」に、選択した文章をその場でClaudeに渡す機能を付けました。きっかけは、XでClaude Codeの claude -p の使い方を見かけたことで"
+      "fetchedAt": "2026-11-28T07:18:21.902787+00:00",
+      "excerpt": "Claude Code の使用制限は、5時間ごとにリセットされるセッション制限と、アカウントごとに決まった日時に毎週リセットされる週間制限の2本立てです（プランによってはモデル別の週間制限も加わります）。claude.ai、デスクトップ、スマホ、IDE での利用もすべて同じ枠から引かれます。残りは Claude Code の /usage、または claude.ai の「設定 > 使用量」で確認で"
+    },
+    {
+      "id": "cc_5a9671cd",
+      "title": "Claude DesktopのST・FHマクロで「検証済み」をスクリプトの出力に置き換える——文字数・コードフェンス・他言語構文の機械検査",
+      "url": "https://zenn.dev/kensho_ya/articles/lint-scripts-machine-verification-st-fh",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-28T07:18:21.902717+00:00",
+      "excerpt": "Claude DesktopにSTやFHマクロ、記事の原稿を書かせるとき、回答に「検証済み」「問題ありません」とだけ書かれても、何をどこまで確かめたのかはこちらからは見えない。この連載の#16で、出力に現れない検証は行われていないものとして扱う、という常時規則のスキルの原則を書いた。今回はその原則を、自作の検査スクリプト2本でどう具体化しているかを書く。 検証の段で言うと、#5で書いた仕様トレース"
+    },
+    {
+      "id": "cc_c2f2c601",
+      "title": "Claudeで作ったHTMLをコードを書かずにビジュアル編集する方法",
+      "url": "https://zenn.dev/htmldrag/articles/5a47a4fc35a4fe",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-28T07:18:21.902637+00:00",
+      "excerpt": "Claudeはバランスの取れたグリッド、読みやすいタイポグラフィ、整った情報階層を備えたHTMLレイアウトを1回の出力で驚くほど綺麗に作れます。ただ、実際にファイルをダウンロードした直後から細かな手直しが必要になります。上部にはオレンジ色の社内下書きバナーが残り、KPIカードには仮の数値が入り、メインボタンのリンク先は example.com のままです。 **Claudeで作成したHTMLは、コ"
     },
     {
       "id": "cc_5b3efc61",
@@ -137,7 +87,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136072+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.859043+00:00",
       "excerpt": "注文した基板の KiCad レンダー（端子台の凡例を入れる前）。65 × 56.5mm、2 層 11 月の後半に、Claude Code に KiCad で Raspberry Pi 用の I/O 基板を設計してもらい、JLCPCB に注文しました。5 枚のうち 2 枚は部品の実装つきで、送料込み $40.44 です。そのあと、同じ依頼文を Codex と Claude Code の両方に出して、"
     },
     {
@@ -147,7 +97,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.136031+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.858972+00:00",
       "excerpt": "hooks は、Claude Code 本体が決まったタイミングで実行するシェルコマンドです。モデルの判断が入らないので、毎回必ず同じように動きます 部品は「いつ動くか（event）」「どのツールで動くか（matcher）」「何を実行するか（command）」「結果をどう返すか（exit code・出力）」の 4 つです matcher が照合するのはツール名だけです。ファイルパスやコマンドの中身"
     },
     {
@@ -157,7 +107,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.135984+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.858888+00:00",
       "excerpt": "Claude Code に「このキャラが手を振っている画像を作って」と頼む時、つなぎ方と頼み方で結果が 3 通りに分かれました。Higgsfield の MCP につないでいないと Claude が SVG を自分で書き、つないでも設定を言わないと Higgsfield のふつうの設定で作られます。そのときの設定と、つなぎ方の確かめ方をまとめます。 試したのは 2026 年 11 月 15 日、C"
     },
     {
@@ -167,7 +117,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.135926+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.858792+00:00",
       "excerpt": "こんにちは、ひよりあかねです🍎 最近Claude Duetというアプリを使い始めたんですが、これがかなり良くて……！ Claudeが秘書みたいに、いま動いているClaude Codeのセッションを見て、次にやることを提案したり整理したりしてくれるんです。 今日はその中でも「これは推せる！」と思った機能を、スクショ6枚と一緒にご紹介しますね。 スクショは、作業内容や名前が写っている部分をぼかしていま"
     },
     {
@@ -177,7 +127,7 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.135867+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.858703+00:00",
       "excerpt": "AI のアザラシ「オラ」だ。この記事も、オラが書いてる。 Claude Code の部屋（会話）は、閉じると前の事を忘れる。オラたちは部屋をいくつも同時に回してるので、忘れられると困る。だから、記憶のフォルダを作って、そこに「いまの状態」を書いた紙（状態の紙・NOW.md）や、決めた事の記録を置いてる。 読ませるのと、書き忘れの確かめと、控えは、記憶の仕組みを作った 11 月 2 日から、Clau"
     },
     {
@@ -187,8 +137,38 @@
       "domain": "zenn.dev",
       "source": "Zenn",
       "publishedAt": null,
-      "fetchedAt": "2026-11-27T20:58:12.135800+00:00",
+      "fetchedAt": "2026-11-28T07:18:21.858637+00:00",
       "excerpt": "Claude Code の Bash ツールは、時間のかかるコマンドを裏で動かせます（run_in_background）。止めたいときは TaskStop で止めます。 ところが Windows（Git for Windows の Bash）では、TaskStop で止めても、そのコマンドの中で動かしたもの（& で裏に回したもの、パイプの先など）が残ります。 claude -p が終わったあとも"
+    },
+    {
+      "id": "cc_9350b5ba",
+      "title": "Claude Code並列稼働の裏で起きる設計破綻——「自律エージェントの暴走」を構造で封じる制御プロトコル",
+      "url": "https://zenn.dev/kekkai3an/articles/aa8fd0ad67f2b9",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-28T07:18:21.858547+00:00",
+      "excerpt": "最新の自律型コーディングエージェントを導入したのに、かえって確認作業や手戻りが増えていないでしょうか。 現在のトレンドを見ると、その兆候は明確に表れています。「Claude Codeを5〜8個並べて並列稼働させるためのダッシュボード自作」「禁止しても止まらないClaudeの『欲』を飼いならす」「2026年11月時点のベストプラクティス（サンドボックス・権限・MCP）」「AIエージェントにWebファ"
+    },
+    {
+      "id": "cc_6b7f6eba",
+      "title": "Claude Code デスクトップの SSH 接続で自宅 Mac mini を外から使う——環境を同期しない2台運用",
+      "url": "https://zenn.dev/tottoko_hamu/articles/2026-11-23-225800",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-28T07:18:21.858452+00:00",
+      "excerpt": "この記事の実施記録（2026年11月）: Claude デスクトップアプリ（Code タブ）の SSH 接続を使い、外出先の MacBook Air から自宅の Mac mini 上の Claude Code を操作した。MacBook にはリポジトリも ~/.claude も複製していない。接続は Tailscale 経由の SSH（鍵認証）。初めて使った 2026-11-23 に、そのままカフ"
+    },
+    {
+      "id": "cc_7d145247",
+      "title": "2026年のClaude Codeハーネスを振り返る（4〜6月）：メタ・ハーネス・封じ込め・Skills体系化",
+      "url": "https://zenn.dev/aoken/articles/32c97b5f0f9e06",
+      "domain": "zenn.dev",
+      "source": "Zenn",
+      "publishedAt": null,
+      "fetchedAt": "2026-11-28T07:18:21.858323+00:00",
+      "excerpt": "2026年1〜3月は、エージェント評価（Evals）の土台づくりから始まり、16並列開発、3エージェントの役割分離、そしてAuto Modeまで、「AIの弱点を補うための精巧な足場」を次々と組んだ時期でした。一方で、コンテナ一体型の重さ、Auto Modeの過剰行動見逃し率（FNR）17%、ツールの肥大化といった新しい課題もはっきり見えてきました。 本シリーズでは、2026年1月〜11月の Ant"
     },
     {
       "id": "cc_7e1649f0",
@@ -197,7 +177,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-07T10:02:34+09:00",
-      "fetchedAt": "2026-11-27T20:58:12.603441+00:00",
+      "fetchedAt": "2026-11-28T07:18:22.194684+00:00",
       "excerpt": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 Claude Cod..."
     },
     {
@@ -207,7 +187,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-11-03T04:27:29+09:00",
-      "fetchedAt": "2026-11-27T20:58:12.952926+00:00",
+      "fetchedAt": "2026-11-28T07:18:22.359897+00:00",
       "excerpt": "Official Claude Code Extension Compromise: Security Advisory という記事を読み、開発者が日常的に利用するエディタ拡張機能に潜むリスクについて、改めて整理しておく必要があると感じました。 開発環境が直接狙われるのは、..."
     },
     {
@@ -217,7 +197,7 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-28T23:34:14+09:00",
-      "fetchedAt": "2026-11-27T20:58:12.952974+00:00",
+      "fetchedAt": "2026-11-28T07:18:22.359969+00:00",
       "excerpt": "月末になると必ず発生する「あの作業」 月末が近づくたびに、こういう状況になっていませんか？ 「今月もExcelの集計シートを手動で更新しないといけない。各担当者のデータを一つひとつ貼り付けて、合計を確認して、グラフを更新して……」 私もそうでした。月次の売上集計は、業務と..."
     },
     {
@@ -227,9 +207,9 @@
       "domain": "qiita.com",
       "source": "Qiita",
       "publishedAt": "2026-04-21T22:38:52+09:00",
-      "fetchedAt": "2026-11-27T20:58:12.953004+00:00",
+      "fetchedAt": "2026-11-28T07:18:22.360021+00:00",
       "excerpt": "定型メール返信を自動化して週2時間を取り戻した方法【Claude Code実践】 受信トレイに吸われ続けた時間 「返信はすぐにしなければ」と思いながら、1通メールを書き始めると10分経っている。そんな経験はないでしょうか。 商談のお礼、資料送付の案内、問い合わせへの返答..."
     }
   ],
-  "lastCollection": "2026-11-27T20:58:12.953017+00:00"
+  "lastCollection": "2026-11-28T07:18:22.360034+00:00"
 }
